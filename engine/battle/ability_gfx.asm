@@ -206,13 +206,13 @@ GetAbilityNameAndPkmn:
 	rst PlaceString
 
 	; Append 's
-	ld hl, wAbilityPkmn
-.name_loop
-	ld a, [hli]
-	cp '@'
-	jr nz, .name_loop
-	ld [hld], a
-	ld [hl], '\'s'
+;	ld hl, wAbilityPkmn
+;.name_loop
+;	ld a, [hli]
+;	cp '@'
+;	jr nz, .name_loop
+;	ld [hld], a
+;	ld [hl], '\'s'
 	ret
 
 ResetAbilityTilemap:

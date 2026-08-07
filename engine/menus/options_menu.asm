@@ -150,11 +150,11 @@ Options_TextSpeed:
 	assert_table_length TEXT_DELAY_MASK >> TZCOUNT(TEXT_DELAY_MASK) + 1
 
 .Slow:
-	db "Slow   @"
+	db "Lento  @"
 .Medium:
-	db "Medium @"
+	db "Medio  @"
 .Fast:
-	db "Fast   @"
+	db "Rápido @"
 .Instant:
 	db "Instant@"
 
@@ -223,11 +223,11 @@ Options_BattleStyle:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Set:
-	db "Set    @"
+	db "Mantener@"
 .Switch:
-	db "Switch @"
+	db "Cambio  @"
 .Predict:
-	db "Predict@"
+	db "Predecir@"
 
 Options_Nicknames:
 	ld hl, wOptions3
@@ -272,11 +272,11 @@ Options_Nicknames:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Ask:
-	db "Ask   @"
+	db "Pregunta@"
 .Always:
-	db "Always@"
+	db "Siempre @"
 .Never:
-	db "Never @"
+	db "Nunca   @"
 
 Options_RunningShoes:
 	ld hl, wOptions2
@@ -302,9 +302,9 @@ Options_RunningShoes:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 OffString:
-	db "Off@"
+	db "No@"
 OnString:
-	db "On @"
+	db "Sí@"
 
 Options_Frame:
 	ld hl, wTextboxFrame
@@ -368,9 +368,9 @@ Options_Sound:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Mono:
-	db "Mono  @"
+	db "Mono   @"
 .Stereo:
-	db "Stereo@"
+	db "Estéreo@"
 
 Options_ClockFormat:
 	ld hl, wOptions2
@@ -396,9 +396,9 @@ Options_ClockFormat:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Twelve:
-	db "12-hour@"
+	db "12-horas@"
 .TwentyFour:
-	db "24-hour@"
+	db "24-horas@"
 
 Options_PokedexUnits:
 	ld hl, wOptions2
@@ -426,7 +426,7 @@ Options_PokedexUnits:
 .Imperial:
 	db "Imperial@"
 .Metric:
-	db "Metric  @"
+	db "Métrico @"
 
 Options_TextAutoscroll:
 	ldh a, [hJoyPressed]
@@ -470,13 +470,13 @@ endr
 	assert_table_length (AUTOSCROLL_MASK >> TZCOUNT(AUTOSCROLL_MASK)) + 1
 
 .None:
-	db "None  @"
+	db "Ninguno@"
 .Start:
-	db "Start @"
+	db "Start  @"
 .B:
-	db "B     @"
+	db "B      @"
 .AorB:
-	db "A or B@"
+	db "A o B  @"
 
 Options_TurningSpeed:
 	ldh a, [hJoyPressed]
@@ -506,9 +506,9 @@ endr
 	assert_table_length (TURNING_SPEED_MASK >> TZCOUNT(TURNING_SPEED_MASK)) + 1
 
 .Slow:
-	db "Slow@"
+	db "Lento @"
 .Fast:
-	db "Fast@"
+	db "Rápido@"
 
 Options_Typeface:
 	ld hl, wOptions2
@@ -573,21 +573,21 @@ Options_Typeface:
 	assert_table_length NUM_FONTS
 
 .Normal:
-	db "Normal @"
+	db "Normal  @"
 .Narrow:
-	db "Narrow @"
+	db "Estrecha@"
 .Bold:
-	db "Bold   @"
+	db "Negrita @"
 .Italic:
-	db "Italic @"
+	db "Cursiva @"
 .Serif:
-	db "Serif  @"
+	db "Serif   @"
 .Chicago:
-	db "Chicago@"
+	db "Chicago @"
 .MICR:
-	db "MICR   @"
+	db "MICR    @"
 .Unown:
-	db "Unown  @"
+	db "Unown   @"
 
 Options_Keyboard:
 	ld hl, wOptions3

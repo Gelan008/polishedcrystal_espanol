@@ -164,12 +164,12 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 
 	ctxtmap "'",        $c0, 0011010000111
 	ctxtmap "'d",       $c1, 100001100110
-	ctxtmap "'l",       $c2, 1000011010
-	ctxtmap "'m",       $c3, 1000011100
-	ctxtmap "'r",       $c4, 0011011111
-	ctxtmap "'s",       $c5, 00101111
-	ctxtmap "'t",       $c6, 110101000
-	ctxtmap "'v",       $c7, 10111011010
+	ctxtmap "ü",        $c2, 1000011010
+	ctxtmap "ñ",        $c3, 1000011100
+	ctxtmap "Ñ",        $c4, 0011011111
+	ctxtmap "ú",        $c5, 00101111
+	ctxtmap "Ú",        $c6, 110101000
+	ctxtmap "ë",        $c7, 10111011010
 
 	ctxtmap "é",        $c8, 001101000110110
 	ctxtmap "É",        $c9, 1000011101101000000

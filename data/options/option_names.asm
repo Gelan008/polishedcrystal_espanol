@@ -16,28 +16,28 @@ OptionNames:
 	assert_table_length NUM_OPTIONS
 
 .TextSpeed:
-	db "Text Speed@"
+	db "Veloc. Texto@"
 .TextAutoscroll:
-	db "Text Autoscroll@"
+	db "Texto Auto.@"
 .Frame:
-	db "Frame@"
+	db "Marco@"
 .Typeface:
-	db "Typeface@"
+	db "Fuente@"
 .Keyboard:
-	db "Keyboard@"
+	db "Teclado@"
 .Sound:
-	db "Sound@"
+	db "Sonido@"
 .BattleEffects:
-	db "Battle Effects@"
+	db "Efectos Batallas@"
 .BattleStyle:
-	db "Battle Style@"
+	db "Estilo Batalla@"
 .Nicknames:
-	db "Nicknames@"
+	db "Motes@"
 .RunningShoes:
-	db "Running Shoes@"
+	db "Deportivas@"
 .TurningSpeed:
-	db "Turning Speed@"
+	db "Velocidad Giro@"
 .ClockFormat:
-	db "Clock Format@"
+	db "Formato Reloj@"
 .PokedexUnits:
-	db "#dex Units@"
+	db "#dex Unidades@"

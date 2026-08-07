@@ -35,11 +35,11 @@ MainMenu:
 	dw .Strings
 
 .Strings:
-	db "Continue@"
-	db "New Game@"
-	db "New Game+@"
-	db "Options@"
-	db "Music Player@"
+	db "Continuar@"
+	db "Nuevo Juego@"
+	db "Nuevo Juego+@"
+	db "Opciones@"
+	db "Reproductor@"
 
 .Jumptable:
 	dw MainMenu_Continue
