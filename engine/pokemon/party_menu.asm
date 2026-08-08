@@ -1294,24 +1294,24 @@ PartyMenuStrings:
 	assert_table_length NUM_PARTYMENUACTIONS
 
 ChooseAMonString:
-	db "Choose a #mon.@"
+	db "Elige un #mon.@"
 UseOnWhichPKMNString:
-	db "Use on which <PK><MN>?@"
+	db "¿Usar en <PK><MN>?@"
 WhichPKMNString:
-	db "Which <PK><MN>?@"
+	db "¿Cual <PK><MN>?@"
 TeachWhichPKMNString:
-	db "Teach which <PK><MN>?@"
+	db "¿Enseñar a <PK><MN>?@"
 TutorWhichPKMNString:
-	db "Tutor which <PK><MN>?@"
+	db "¿Tutorizar <PK><MN>?@"
 Choose3MonString:
-	db "Choose 3 battle <PK><MN>@"
+	db "Elige 3 <PK><MN>@"
 MoveToWhereString:
-	db "Move to where?@"
+	db "¿Mover aquí?@"
 ToWhichPKMNString:
-	db "To which <PK><MN>?@"
+	db "¿A cual <PK><MN>?@"
 
 YouHaveNoPKMNString:
-	db "You have no <PK><MN>!@"
+	db "No tienes <PK><MN>!@"
 
 PrintPartyMenuActionText:
 	ld a, [wCurPartyMon]

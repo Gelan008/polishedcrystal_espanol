@@ -10,10 +10,10 @@ DEF NUM_MONMENUVALUES EQU const_value - 1
 
 MonMenuOptionStrings:
 	list_start
-	li "Summary"
-	li "Switch"
-	li "Item"
-	li "Cancel"
+	li "Datos"
+	li "Cambiar"
+	li "Objeto"
+	li "Salir"
 	li "Mail"
 	li "Error!"
 	assert_list_length NUM_MONMENUVALUES
