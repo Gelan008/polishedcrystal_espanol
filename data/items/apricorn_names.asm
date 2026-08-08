@@ -1,10 +1,10 @@
 ApricornNames::
 	list_start
-	li "Red Apricorn"
-	li "Blu Apricorn"
-	li "Ylw Apricorn"
-	li "Grn Apricorn"
-	li "Wht Apricorn"
-	li "Blk Apricorn"
-	li "Pnk Apricorn"
+	li "Bonguri Rojo"
+	li "Bonguri Azul"
+	li "Bonguri Amar"
+	li "Bonguri Verd"
+	li "Bonguri Blan"
+	li "Bonguri Negr"
+	li "Bonguri Rosa"
 	assert_list_length NUM_APRICORNS

@@ -1,9 +1,9 @@
 WingNames::
 	list_start
-	li "Health Wing"
-	li "Muscle Wing"
-	li "Resist Wing"
-	li "Swift Wing"
-	li "Genius Wing"
-	li "Clever Wing"
+	li "Pluma Vigor"
+	li "Pluma Músc."
+	li "Pluma Aguan."
+	li "Pluma Impetu"
+	li "Pluma Intel."
+	li "Pluma Mente"
 	assert_list_length NUM_WINGS
