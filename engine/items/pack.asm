@@ -232,9 +232,9 @@ MenuDataHeader_SortTMs:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "By Number@"
-	db "By Name@"
-	db "Quit@"
+	db "Por Número@"
+	db "Por Nombre@"
+	db "Salir@"
 
 MenuDataHeader_SortItems:
 	db MENU_BACKUP_TILES
@@ -245,9 +245,9 @@ MenuDataHeader_SortItems:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "By Type@"
-	db "By Name@"
-	db "Quit@"
+	db "Por Tipo@"
+	db "Por Nombre@"
+	db "Salir@"
 
 Jumptable_SortItems:
 	dw SortItemsName
@@ -287,10 +287,10 @@ MenuDataHeader_UseGiveToss:
 .MenuData2:
 	db $c0 ; flags
 	db 4 ; items
-	db "Use@"
-	db "Give@"
-	db "Toss@"
-	db "Quit@"
+	db "Usar@"
+	db "Dar@"
+	db "Tirar@"
+	db "Salir@"
 
 Jumptable_UseGiveTossQuit:
 	dw UseItem
@@ -307,8 +307,8 @@ MenuDataHeader_Use:
 .MenuData2:
 	db $c0 ; flags
 	db 2 ; items
-	db "Use@"
-	db "Quit@"
+	db "Usar@"
+	db "Salir@"
 
 MenuDataHeader_Quit:
 	db MENU_BACKUP_TILES
@@ -319,7 +319,7 @@ MenuDataHeader_Quit:
 .MenuData2:
 	db $c0 ; flags
 	db 1 ; items
-	db "Quit@"
+	db "Salir@"
 
 Jumptable_UseQuit:
 	dw UseItem
@@ -338,9 +338,9 @@ MenuDataHeader_UseSel:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "Use@"
-	db "Sel@"
-	db "Quit@"
+	db "Usar@"
+	db "Asig.@"
+	db "Salir@"
 
 Jumptable_KeyItem_UseRegisterQuit:
 	dw UseKeyItem
@@ -356,9 +356,9 @@ MenuDataHeader_GiveToss:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "Give@"
-	db "Toss@"
-	db "Quit@"
+	db "Dar@"
+	db "Tirar@"
+	db "Salir@"
 
 Jumptable_GiveTossQuit:
 	dw GiveItem

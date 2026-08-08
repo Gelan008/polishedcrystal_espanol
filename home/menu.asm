@@ -381,9 +381,9 @@ YesNoMenuDataHeader::
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
 YesString::
-	db "Yes@"
+	db "Sí@"
 NoString::
-	db "No @"
+	db "No@"
 
 NoYesMenuDataHeader::
 	db MENU_BACKUP_TILES

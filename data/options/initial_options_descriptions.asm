@@ -16,156 +16,139 @@ InitialOptionDescriptions:
 	assert_table_length NUM_INITIAL_MENU_OPTIONS
 
 .Natures:
-	text "Natures raise one"
-	line "stat but lower"
-	cont "another by 10%."
+	text "Naturalezas suben"
+	line "un stat y bajan"
+	cont "otro un 10%."
 
-	para "Introduced in"
-	line "Gen 3."
+	para "Introducidas en"
+	line "3 Generación."
 	prompt
 
 .Abilities:
-	text "Abilities may have"
-	line "effects inside"
+	text "Las Habilidades"
+	line "tienen efectos"
 
-	para "and outside of"
-	line "battle."
+	para "dentro y fuera"
+	line "del combate."
 
-	para "Introduced in"
-	line "Gen 3."
+	para "Introducidas en"
+	line "3 Generación."
 	prompt
 
 .PSS:
-	text "Moves are physical"
-	line "or special inde-"
-	cont "pendently of type."
+	text "Ataques Físicos o"
+	line "Especiales según"
+	cont "el movimiento."
 
-	para "Introduced in"
-	line "Gen 4."
+	para "Introducido en"
+	line "4 Generación."
 	prompt
 
 .EVs:
 	assert MODERN_MAX_EV % 4 == 0
-	text "EVs boost stats by"
-	line STRFMT("up to %d points,", MODERN_MAX_EV / 4) ; 252 / 4 == 63
-	cont "one per 4 EVs."
+	text "Los EVs suben los"
+	line STRFMT("stats hasta %d pts,", MODERN_MAX_EV / 4) ; 252 / 4 == 63
+	cont "1 por cada 4 EVs."
 
-	para "You can choose to"
-	line "allow maxing every"
+	para "Puedes maximizar"
+	line "cada stat a"
 
-	para "stat to {d:MODERN_MAX_EV} EVs,"
-	line "like stat exp did,"
+	para "{d:MODERN_MAX_EV} EVs como antes,"
+	line "o limitarlos a un"
 
-	para "or limit them to"
-	line "a total of {d:MODERN_EV_LIMIT}."
+	para "total de {d:MODERN_EV_LIMIT}."
 
-	para "Replaced stat exp-"
-	line "erience in Gen 3."
+	para "Sustituyeron a la"
+	line "Exp.Stat en Gen 3."
 	prompt
 
 .Experience:
-	text "The old experience"
-	line "gain formula, in"
+	text "Fórmula antigua"
+	line "(Gen 1-4) fija."
 
-	para "Gen 1 to Gen 4,"
-	line "was unscaled."
+	para "Fórmula nueva"
+	line "(Gen 5 y 7+) da"
 
-	para "The new one, in"
-	line "Gen 5 and reintro-"
-	cont "duced in Gen 7,"
+	para "más Exp. al vencer"
+	line "rivales de mayor"
+	cont "nivel y viceversa."
 
-	para "gives more Exp. by"
-	line "defeating higher-"
-	cont "leveled foes,"
+	para "Puedes desactivar"
+	line "la Exp. ganada,"
 
-	para "and less from low-"
-	line "er leveled ones."
-
-	para "Exp. gain can also"
-	line "be turned off for"
-	cont "a challenge, but"
-
-	para "Exp.Candy and Rare"
-	line "Candy will still"
-	cont "work if you do so."
+	para "pero los Caramelos"
+	line "seguirán usando."
 	prompt
 
 .AffectionBonus:
-	text "Your #mon will"
-	line "gain benefits in"
-	cont "battle when they"
+	text "Tu #mon tendrá"
+	line "ventajas si tu"
+	cont "amistad es alta."
 
-	para "are close friends"
-	line "with you."
-
-	para "Introduced in"
-	line "Gen 6."
+	para "Introducido en"
+	line "6 Generación."
 	prompt
 
 .RTC:
-	text "Use the Real-Time"
-	line "Clock function to"
-	cont "track the time."
+	text "Usa el Reloj en"
+	line "Tiempo Real para"
+	cont "seguir la hora."
 
-	para "If your cartridge"
-	line "or emulator does"
-	cont "not support RTC,"
+	para "Si tu emulador o"
+	line "cartucho no usa"
+	cont "RTC, desactívalo"
 
 	assert 24 % NO_RTC_SPEEDUP == 0
-	para "disable this to"
-	line "make each in-game"
-	cont STRFMT("day last %d hours.", 24 / NO_RTC_SPEEDUP) ; 24 / 6 == 4
+	para "para que cada día"
+	line STRFMT("dure %d horas.", 24 / NO_RTC_SPEEDUP) ; 24 / 6 == 4
 	prompt
 
 .PerfectIVs:
-	text "Stats are calcu-"
-	line "lated as if IVs"
+	text "Stats calculados"
+	line "como si los IVs"
 
-	para "were perfect 15s,"
-	line "for your #mon"
-	cont "and opponents'."
+	para "fuesen perfectos"
+	line "para todos los"
+	cont "#mon."
 	prompt
 
 .TradedMon:
-	text "Traded #mon"
-	line "will obey you and"
-	cont "can be nicknamed,"
+	text "#mon de trueque"
+	line "te obedecerán y"
+	cont "tendrán mote,"
 
-	para "but Exp.Points"
-	line "won't be boosted."
+	para "pero no ganarán"
+	line "Exp. extra."
 	prompt
 
 .EvolveInBattle:
-	text "Your #mon can"
-	line "evolve during"
-	cont "trainer battles."
+	text "Tus #mon pueden"
+	line "evolucionar en"
+	cont "pleno combate."
 
-	para "Inspired by anime"
-	line "battles."
+	para "Inspirado en el"
+	line "anime de #mon."
 	prompt
 
 .ColorVariation:
-	text "Individual #-"
-	line "mon, both regular"
-	cont "and shiny, will"
+	text "#mon normales"
+	line "y variocolor"
+	cont "tendrán tonos de"
 
-	para "have their colors"
-	line "subtly varied."
+	para "color sutilmente"
+	line "distintos."
 
-	para "The variation is"
-	line "pseudorandom, not"
+	para "Variación al azar"
+	line "que no afecta a"
 
-	para "correlated with"
-	line "stat quality."
+	para "sus características"
+	line "o calidad."
 
-	para "Inspired by"
-	line "Stadium's color"
-
-	para "variation based"
-	line "on nicknames."
+	para "Inspirado en"
+	line "#mon Stadium."
 	prompt
 
 InitialOptionsDoneDescription:
-	text "Save your choices"
-	line "and play the game!"
+	text "¡Guarda tus ajustes"
+	line "y empieza a jugar!"
 	prompt

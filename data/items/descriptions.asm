@@ -961,7 +961,7 @@ RazorClawDesc:
 
 QuickClawDesc:
 	text "Ocasionalmente"
-	next "ataca 1º. (Equip.)"
+	next "ataca primero."
 	done
 
 KingsRockDesc:
