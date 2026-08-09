@@ -14,7 +14,7 @@ MainMenu:
 	call MainMenuJoypadLoop
 	call CloseWindow
 	ret c
-	ld a, '<BLACK>'
+	ld a, ' '
 	call FillTileMap
 	ld a, [wMenuSelection]
 	ld hl, .Jumptable
@@ -40,6 +40,9 @@ MainMenu:
 	db "Nuevo Juego+@"
 	db "Opciones@"
 	db "Reproductor@"
+
+.GelanCredits:
+	db "Traducc. Gelan008@"
 
 .Jumptable:
 	dw MainMenu_Continue
@@ -103,6 +106,9 @@ MainMenu_GetWhichMenu:
 
 MainMenuJoypadLoop:
 	call SetUpMenu
+	hlcoord 1, 13
+	ld de, MainMenu.GelanCredits
+	rst PlaceString
 .loop
 	call MainMenu_PrintCurrentTimeAndDay
 	ld a, [w2DMenuFlags1]

@@ -11,7 +11,7 @@ NonTrainerCallerNames:
 	assert_table_length NUM_NONTRAINER_PHONECONTACTS + 1
 
 .mom:
-	text  "Mom:"
+	text  "Mamá:"
 	done
 .bill:
 	text  "Bill:"
@@ -22,7 +22,7 @@ NonTrainerCallerNames:
 	next1 "   #mon Prof."
 	done
 .bikeshop:
-	text  "Miracle Cycle:"
+	text  "Maravillacicleta:"
 	done
 .lyra:
 	text  "Lyra:"

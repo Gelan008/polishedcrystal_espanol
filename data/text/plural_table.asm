@@ -9,31 +9,30 @@ MACRO plural
 ENDM
 
 PluralTable:
-	; Note that order matters since "ay" is a subset of "y" for example.
-if !DEF(FAITHFUL)
-	plural "e of Rage", "es of Rage" ; Cakes of Rage
-endc
-	plural "Honey",     "Honey"      ; (Sweet) Honey
-	plural "ay",        "ays"        ; Light Clays, and Throat Sprays
-	plural "y",         "ies"        ; Rare Candies, Berries, etc
-	plural "x",         "xes"        ; PP Maxes
-	plural "lk",        "lk"         ; Moomoo Milk
-	plural "runch",     "runchies"   ; PewterCrunchies
-	plural "h",         "hes"        ; Sacred Ashes, Mulches, etc
-	plural "der",       "der"        ; Powders (EnergyPowder, Heal Powder, etc)
-if DEF(FAITHFUL)
-	plural "c.",        "cs."        ; Guard Specs.
-endc
-	plural "ts",        "ts"         ; Guard Stats, Heavy Boots
-	plural "ef",        "efs"        ; X Sp.Defs
-	plural "f",         "ves"        ; Silk Scarves, Silver Leaves, etc
-	plural "Sand",      "Sand"       ; Soft Sand
-	plural "es",        "es"         ; BlackGlasses, Wise Glasses, Safe Goggles
-	plural "rs",        "rs"         ; Leftovers
-	plural "ds",        "ds"         ; Protect Pads
-	plural "Dice",      "Dice"       ; Loaded Dice
-	plural "ns",        "nses"       ; Lenses (Scope Lenses, Wide Lenses, etc)
-	plural "s",         "s"          ; Carbos
-	plural "",          "s"          ; everything else
+	; Nota: El orden importa (las reglas más específicas van primero)
+
+	; Objetos invariables (no cambian en plural)
+	plural "Miel",          "Miel"           ; Miel
+	plural "Restos",        "Restos"         ; Restos
+	plural "Gafas",         "Gafas"          ; Gafas de Sol, Gafas Espec., Gafas Elecc., Gafa Protec.
+
+	; Excepciones de objetos compuestos
+	plural "Botón Escape",  "Botones Escape" ; Botón Escape -> Botones Escape
+
+	; Terminaciones en consonante o vocal acentuada (añaden "es" o cambian sufijo)
+	plural "Poción",        "Pociones"       ; Poción, Super Poción, Hiperpoción, Max Poción
+	plural "Éter",          "Éteres"         ; Éter, Max Éter
+	plural "Elixir",        "Elixires"       ; Elixir, Max Elixir
+	plural "Imán",          "Imanes"         ; Imán
+	plural "Carbón",        "Carbones"       ; Carbón
+	plural "Fósil",         "Fósiles"        ; Fósil Hélix, Fósil Domo
+	plural "Refleluz",      "Refleluces"     ; Refleluz
+	plural "Repel",         "Repels"        ; Repelente, Super Repel, Max. Repel
+
+	; Conservar sufijos en inglés adoptados en español
+	plural "Ball",          "Balls"          ; Poké Ball, Super Ball, Ultra Ball, etc. -> Poké Balls, etc.
+
+	; Regla general por defecto (añade "s" a palabras terminadas en vocal)
+	plural "",              "s"              ; Bayas, Piedras, Pepitas, Cuerdas, Cartas, etc.
 
 	setcharmap default

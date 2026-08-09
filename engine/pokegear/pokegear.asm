@@ -280,7 +280,7 @@ InitPokegearTilemap:
 	jmp Pokegear_UpdateClock
 
 .switch
-	db " Switch▶@"
+	db "Cambiar▶@"
 
 .Map:
 	call PokegearMap

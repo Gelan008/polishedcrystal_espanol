@@ -296,9 +296,9 @@ BT_PartySelect:
 .MenuData:
 	db $c0 ; flags
 	db 3 ; items
-	db "Enter@"
-	db "Summary@"
-	db "Cancel@"
+	db "Entrar@"
+	db "Datos@"
+	db "Salir@"
 
 .BannedMenuHeader:
 	db $00 ; flags
@@ -309,21 +309,22 @@ BT_PartySelect:
 .BannedMenuData:
 	db $c0 ; flags
 	db 2 ; items
-	db "Summary@"
-	db "Cancel@"
+	db "Datos@"
+	db "Salir@"
 
 BTText_EnterBattle:
-	db "Enter battle?@"
+	db "¿Empezar batalla?@"
 
 BTText_SameSpecies:
-	text "The #mon must"
-	line "be of different"
-	cont "species!"
+	text "¡El #mon debe"
+	line "ser de distinta"
+	cont "especie!"
 	prompt
 
 BTText_SameItem:
-	text "The #mon's held"
-	line "items must differ!"
+	text "¡Los objetos"
+	line "portados deben ser"
+	cont "diferentes!"
 	prompt
 
 BT_ConfirmPartySelection:
@@ -600,7 +601,7 @@ PlacePartyNicknames:
 	ret
 
 .Cancel:
-	db "Cancel@"
+	db "Salir@"
 
 PlacePartyHPBar:
 	ld a, [wPartyCount]

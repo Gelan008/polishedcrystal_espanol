@@ -534,10 +534,10 @@ TimeOfDayStrings:
 	dr EVE_String
 	assert_table_length NUM_DAYTIMES
 
-NITE_String: db "Night@"
-MORN_String: db "Morning@"
-DAY_String:  db "Day@"
-EVE_String:  db "Evening@"
+NITE_String: db "Noche@"
+MORN_String: db "Mañana@"
+DAY_String:  db "Día@"
+EVE_String:  db "Tarde@"
 
 PlaceCaughtTimeOfDayString::
 	and CAUGHT_TIME_MASK

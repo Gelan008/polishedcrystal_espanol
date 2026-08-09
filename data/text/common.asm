@@ -3319,36 +3319,36 @@ _LinkAskTradeForText::
 
 SECTION "_WouldYouLikeToSaveTheGameText", ROMX
 _WouldYouLikeToSaveTheGameText::
-	text "Would you like to"
-	line "save the game?"
+	text "¿Quieres guardar"
+	line "la partida?"
 	done
 
 SECTION "_SavedTheGameText", ROMX
 _SavedTheGameText::
-	text "<PLAYER> saved"
-	line "the game."
+	text "<PLAYER> guardó"
+	line "la partida."
 	done
 
 SECTION "_AnotherSaveFileText", ROMX
 _AnotherSaveFileText::
-	text "Warning! There is"
-	line "a save file from"
-	cont "another game."
+	text "¡Aviso! Ya existe"
+	line "otra partida"
+	cont "guardada."
 
-	para "Is it OK to over-"
-	line "write the other"
-	cont "save file?"
+	para "¿Quieres sobrees-"
+	line "cribir los datos"
+	cont "anteriores?"
 	done
 
 SECTION "_SaveFileCorruptedText", ROMX
 _SaveFileCorruptedText::
-	text "The save file is"
-	line "corrupted!"
+	text "¡La partida está"
+	line "dañada!"
 	prompt
 
 SECTION "_GainedItemText", ROMX
 _GainedItemText::
-	text "<PLAYER> gained"
+	text "<PLAYER> gana"
 	line ""
 	text_ram wStringBuffer4
 	text "."
@@ -3356,7 +3356,7 @@ _GainedItemText::
 
 SECTION "_GainedMultipleItemsText", ROMX
 _GainedMultipleItemsText::
-	text "<PLAYER> gained"
+	text "<PLAYER> gana"
 	line ""
 	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " "
@@ -3925,26 +3925,26 @@ _GearEllipseText::
 
 SECTION "_GearOutOfServiceText", ROMX
 _GearOutOfServiceText::
-	text "You're out of the"
-	line "service area."
+	text "Estás sin"
+	line "cobertura."
 	prompt
 
 SECTION "_PokegearAskWhoCallText", ROMX
 _PokegearAskWhoCallText::
-	text "Whom do you want"
-	line "to call?"
+	text "¿A quién quieres"
+	line "llamar?"
 	done
 
 SECTION "_PokegearPressButtonText", ROMX
 _PokegearPressButtonText::
-	text "Press any button"
-	line "to exit."
+	text "Pulsa cualquier"
+	line "btn para salir."
 	done
 
 SECTION "_PokegearAskDeleteText", ROMX
 _PokegearAskDeleteText::
-	text "Delete this stored"
-	line "phone number?"
+	text "¿Eliminar este"
+	line "núm de la Agenda?"
 	done
 
 SECTION "_BuenaAskWhichPrizeText", ROMX

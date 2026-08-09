@@ -39,7 +39,7 @@ NewGame_ClearTileMapEtc:
 	ldh [hMapAnims], a
 	call LoadFrame
 	call LoadStandardFont
-	ld a, '<BLACK>'
+	ld a, ' '
 	call FillTileMap
 	jmp ClearWindowData
 
@@ -510,10 +510,10 @@ Continue_LoadMenuHeader:
 .MenuData2_Dex:
 	db $00 ; flags
 	db 4 ; items
-	db "Player@"
-	db "Badges@"
+	db "Jug.@"
+	db "Medallas@"
 	db "#dex@"
-	db "Time@"
+	db "Tiempo@"
 
 .MenuDataHeader_NoDex:
 	db MENU_BACKUP_TILES
@@ -524,10 +524,10 @@ Continue_LoadMenuHeader:
 .MenuData2_NoDex:
 	db $00 ; flags
 	db 4 ; items
-	db "Player <PLAYER>@"
-	db "Badges@"
+	db "Jugdr. <PLAYER>@"
+	db "Medallas@"
 	db " @"
-	db "Time@"
+	db "Tiempo@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile

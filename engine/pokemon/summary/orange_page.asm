@@ -44,10 +44,10 @@ SummaryScreen_OrangePage:
 INCLUDE "gfx/stats/orange_page.pal"
 
 .NatureString:
-	db "Nature/@"
+	db "Naturaleza/@"
 
 .CharacterString:
-	db "Character/@"
+	db "Carácter/@"
 
 .TN_PrintToD:
 	hlcoord 1, 14
@@ -108,13 +108,13 @@ INCLUDE "gfx/stats/orange_page.pal"
 	ret
 
 .str_level
-	db "at <LV>@"
+	db "al <LV>@"
 
 .str_hatched
-	db "from Egg@"
+	db "de un huevo@"
 
 .str_traded
-	db "by trade@"
+	db "por intercambio@"
 
 .TN_PrintCharacteristics:
 	; b = value of best DV, c = index of best DV

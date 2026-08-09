@@ -89,7 +89,7 @@ SummaryScreen_GreenPage:
 INCLUDE "gfx/stats/green_page.pal"
 
 .NoHeldItemString:
-	db "No held item@"
+	db "Sin objeto equip.@"
 
 .PrintMoves
 	; Clear move names
