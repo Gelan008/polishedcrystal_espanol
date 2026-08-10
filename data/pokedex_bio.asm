@@ -22,14 +22,14 @@ GrowthRateNames:
 	dr Slow
 	assert_table_length NUM_GROWTH_RATES
 
-Fastest:    db "Fastest@"
-Faster:     db "Faster@"
-Fast:       db "Fast@"
-MediumFast: db "Medium-Fast@"
-MediumSlow: db "Medium-Slow@"
-Slow:       db "Slow@"
-Slower:     db "Slower@"
-Slowest:    db "Slowest@"
+Fastest:    db "Muy Rápida@"
+Faster:     db "Más Rápida@"
+Fast:       db "Rápida@"
+MediumFast: db "MedioRápido@"
+MediumSlow: db "MedioLento@"
+Slow:       db "Lenta@"
+Slower:     db "Más Lenta@"
+Slowest:    db "Muy Lenta@"
 Unknown:    db "Unknown@"
 
 BodyColorNames:
@@ -47,13 +47,13 @@ BodyColorNames:
 	dr BodyPink
 	assert_table_length NUM_BODY_COLORS
 
-BodyRed:    db "Red@"
-BodyBlue:   db "Blue@"
-BodyYellow: db "Yellow@"
-BodyGreen:  db "Green@"
-BodyBlack:  db "Black@"
-BodyBrown:  db "Brown@"
-BodyPurple: db "Purple@"
-BodyGray:   db "Gray@"
-BodyWhite:  db "White@"
-BodyPink:   db "Pink@"
+BodyRed:    db "Rojo@"
+BodyBlue:   db "Azul@"
+BodyYellow: db "Amarillo@"
+BodyGreen:  db "Verde@"
+BodyBlack:  db "Negro@"
+BodyBrown:  db "Marrón@"
+BodyPurple: db "Morado@"
+BodyGray:   db "Gris@"
+BodyWhite:  db "Blanco@"
+BodyPink:   db "Rosa@"

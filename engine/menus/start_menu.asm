@@ -142,13 +142,13 @@ StartMenu::
 
 .MenuDataHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 10, 0, 19, 17
+	menu_coords 9, 0, 19, 17
 	dw .MenuData
 	db 1 ; default selection
 
 .ContestMenuDataHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 10, 2, 19, 17
+	menu_coords 9, 2, 19, 17
 	dw .MenuData
 	db 1 ; default selection
 
@@ -175,7 +175,7 @@ StartMenu::
 .PackString:     db "Mochila@"
 .StatusString:   db "<PLAYER>@"
 .SaveString:     db "Guardar@"
-.OptionString:   db "Opcion@"
+.OptionString:   db "Opciones@"
 .ExitString:     db "Salir@"
 .PokegearString: db "<PO><KE>gear@"
 .QuitString:     db "Finalizar@"

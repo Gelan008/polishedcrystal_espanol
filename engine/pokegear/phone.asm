@@ -324,7 +324,7 @@ PokegearPhoneContactSubmenu:
 	inc de
 	add a
 	ld b, a
-	ld c, 8
+	ld c, 9
 	push de
 	call Textbox
 	pop de
@@ -440,11 +440,11 @@ PokegearPhoneContactSubmenu:
 	ret
 
 .CallDeleteCancelStrings:
-	dwcoord 10, 6
+	dwcoord 8, 6
 	db 3
-	text "Call"
-	next "Delete"
-	next "Cancel"
+	text "Llamar"
+	next "Borrar"
+	next "Cancelar"
 	done
 
 .CallDeleteCancelJumptable:
@@ -453,10 +453,10 @@ PokegearPhoneContactSubmenu:
 	dw .Cancel
 
 .CallCancelStrings:
-	dwcoord 10, 8
+	dwcoord 8, 8
 	db 2
-	text "Call"
-	next "Cancel"
+	text "Llamar"
+	next "Cancelar"
 	done
 
 .CallCancelJumptable:

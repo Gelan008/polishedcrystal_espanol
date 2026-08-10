@@ -280,7 +280,7 @@ SortItemsName:
 
 MenuDataHeader_UseGiveToss:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 3, 19, 11
+	menu_coords 11, 3, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
@@ -300,7 +300,7 @@ Jumptable_UseGiveTossQuit:
 
 MenuDataHeader_Use:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 7, 19, 11
+	menu_coords 11, 7, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
@@ -312,7 +312,7 @@ MenuDataHeader_Use:
 
 MenuDataHeader_Quit:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 9, 19, 11
+	menu_coords 11, 9, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
@@ -331,7 +331,7 @@ Jumptable_KeyItem_UseQuit:
 
 MenuDataHeader_UseSel:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 5, 19, 11
+	menu_coords 11, 5, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
@@ -349,7 +349,7 @@ Jumptable_KeyItem_UseRegisterQuit:
 
 MenuDataHeader_GiveToss:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 5, 19, 11
+	menu_coords 11, 5, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
