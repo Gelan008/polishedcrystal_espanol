@@ -80,15 +80,15 @@ AzaleaPokeCenter1FGentlemanText:
 	done
 
 AzaleaPokeCenter1FSightseermText:
-	text "This Bill guy"
-	line "created the system"
+	text "Ese tal Bill creó"
+	line "el sistema para"
 
-	para "for storing"
-	line "#mon in a PC."
+	para "almacenar #mon"
+	line "en el PC."
 
-	para "Bill's PC can"
-	line "store up to 20"
-	cont "#mon per Box."
+	para "El PC de Bill"
+	line "puede guardar 20"
+	cont "#mon por Caja."
 	done
 
 AzaleaPokeCenter1FPokefanfText:

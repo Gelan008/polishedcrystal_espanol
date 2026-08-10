@@ -74,10 +74,10 @@ OptionsDescriptions:
 	prompt
 
 .RunningShoes:
-	text "Con B corres si"
-	line "están en no, o"
-	para "andas si están"
-	line "en sí (Auto-correr)."
+	text "Con sí corres auto"
+	line "y B para andar."
+	para "Con no tienes que"
+	line "usar B para correr"
 	prompt
 
 .TurningSpeed:
@@ -98,7 +98,7 @@ OptionsDescriptions:
 	para "Imperial: pies,"
 	line "pulgadas y libras."
 
-	para "Metric:"
+	para "Métrico:"
 	line "metros y kilos."
 	prompt
 

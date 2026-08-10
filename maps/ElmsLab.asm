@@ -742,11 +742,11 @@ ElmsLabWindow:
 ElmsLabPC:
 	jumpthistext
 
-	text "Observations On"
-	line "#mon Evolution"
+	text "Observaciones de"
+	line "Ev. de #mon"
 
-	para "…It says on the"
-	line "screen…"
+	para "…Pone eso en"
+	line "la pantalla…"
 	done
 
 ElmsLab_WalkUpToElmMovement:

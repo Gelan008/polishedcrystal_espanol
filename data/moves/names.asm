@@ -80,7 +80,7 @@ MoveNames::
 	li "Paralizador"
 	li "Somnífero"
 	li "Danza Petalo"
-	li "Disparo Demora"
+	li "Disparo Dem."
 	li "Furia Dragón"
 	li "Giro Fuego"
 	li "Impactrueno"

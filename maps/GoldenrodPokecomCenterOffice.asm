@@ -85,15 +85,15 @@ LunaComputerScript:
 	done
 
 AdminFredrikText:
-	text "Fredrik: Bill's PC"
-	line "Storage System"
-	cont "is open-source,"
+	text "Fredrik: El PC de"
+	line "Bill es de código"
+	cont "abierto, así que"
 
-	para "so I was able to"
-	line "completely re-"
+	para "pude reescribir"
+	line "por completo y"
 
-	para "write and upgrade"
-	line "his database!"
+	para "mejorar su base"
+	line "de datos."
 	done
 
 FredrikComputerScript:

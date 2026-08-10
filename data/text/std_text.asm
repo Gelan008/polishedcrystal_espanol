@@ -1,27 +1,31 @@
 NurseMornText:
-	text "Good morning!"
-	line "Welcome to our"
-	cont "#mon Center."
+	text "¡Buenos días!"
+	line "Te damos la"
+	cont "bienvenida al"
+	cont "Centro #mon."
 	done
 
 NurseDayText:
-	text "Hello!"
-	line "Welcome to our"
-	cont "#mon Center."
+	text "¡Hola!"
+	line "Te damos la"
+	cont "bienvenida al"
+	cont "Centro #mon."
 	done
 
 NurseEveText:
-	text "Good evening!"
-	line "Welcome to our"
-	cont "#mon Center."
+	text "¡Buenas tardes!"
+	line "Te damos la"
+	cont "bienvenida al"
+	cont "Centro #mon."
 	done
 
 NurseNiteText:
-	text "Good evening!"
-	line "You're out late."
+	text "¡Buenas noches!"
+	line "Qué tarde es."
 
-	para "Welcome to our"
-	line "#mon Center."
+	para "Te damos la"
+	line "bienvenida al"
+	cont "Centro #mon."
 	done
 
 PokeComNurseMornText:
@@ -66,12 +70,13 @@ PokeComNurseNiteText:
 	done
 
 NurseAskHealText:
-	text "We can heal your"
-	line "#mon to perfect"
-	cont "health."
+	text "Curamos a tus"
+	line "#mon y les"
+	cont "devolvemos la"
+	cont "salud al 100%."
 
-	para "Shall we heal your"
-	line "#mon?"
+	para "¿Quieres curar"
+	line "a tus #mon?"
 	done
 
 NurseTrainerStarText:
@@ -105,21 +110,21 @@ NurseTheUsualText:
 	done
 
 NurseTakePokemonText:
-	text "OK, may I see your"
-	line "#mon?"
+	text "Vale, déjame a"
+	line "tus #mon."
 	done
 
 NurseReturnPokemonText:
-	text "Thank you for"
-	line "waiting."
+	text "¡Gracias por"
+	line "esperar!"
 
-	para "Your #mon are"
-	line "fully healed."
+	para "Tus #mon están"
+	line "como nuevos."
 	done
 
 NurseGoodbyeText:
-	text "We hope to see you"
-	line "again."
+	text "¡Vuelve cuando"
+	line "quieras!"
 	done
 
 NursePokerusText:

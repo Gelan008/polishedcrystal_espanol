@@ -385,7 +385,7 @@ _PlaceBattleNickname:
 	jr PlaceCommandCharacter
 
 .EnemyText:
-	db "Foe" ; fallthrough, no " @"
+	db "Enm" ; fallthrough, no " @"
 SpaceText::
 	db " " ; fallthrough, no "@"
 EmptyString::
