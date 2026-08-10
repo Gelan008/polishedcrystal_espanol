@@ -26,9 +26,9 @@ NonTrainerCallerNames:
 	done
 .lyra:
 	text  "Lyra:"
-	next1 "   <PK><MN> Trainer"
+	next1 "   <PK><MN> Entrnd."
 	done
 .buena:
 	text  "Buena:"
-	next1 "   Disc Jockey"
+	next1 "   Locutora"
 	done

@@ -158,21 +158,19 @@ Route32CooltrainerMTrigger:
 	done
 
 .QuestionText:
-	text "It looks like you"
-	line "beat everyone else"
-	cont "here."
+	text "Parece que has"
+	line "vencido a todos"
+	cont "los de aquí."
 
-	para "Your training at"
-	line "the Gym must have"
+	para "Tu entrenamiento"
+	line "en el Gym debio"
+	
+	para "ser muy bueno."
 
-	para "been especially"
-	line "helpful."
+	para "Yo también tengo"
+	line "la Medalla Céfiro."
 
-	para "I, too, have a"
-	line "Zephyr Badge."
-
-	para "Will you battle"
-	line "with me?"
+	para "¿Lucharas conmigo?"
 	done
 
 .RefusedText:

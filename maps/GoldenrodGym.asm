@@ -223,25 +223,28 @@ WhitneyShouldntBeSoSeriousText:
 
 
 WhitneyWhatDoYouWantText:
-	text "…Sniff…"
+	text "…Snif…"
 
-	para "What? What do you"
-	line "want? A Badge?"
+	para "¿Qué quieres?"
+	line "¿Una Medalla?"
 
-	para "Oh, right."
-	line "I forgot. Here's"
-	cont "the Plain Badge."
+	para "Ah, claro."
+	line "Se me olvidaba."
+	cont "Toma la Medalla"
+	cont "Planicie."
 	done
 
 WhitneyPlainBadgeText:
-	text "The Plain Badge"
-	line "lets your #mon"
+	text "La Medalla"
+	line "Planicie te "
+	cont "permite usar"
 
-	para "use Strength out-"
-	line "side of battle."
+	para "Fuerza fuera del"
+	line "combate a tus"
+	cont "#mon."
 
-	para "Oh, you can have"
-	line "this too!"
+	para "¡Ah, toma esto"
+	line "también!"
 	done
 
 WhitneyGoodCryText:

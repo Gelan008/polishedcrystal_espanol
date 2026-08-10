@@ -37,7 +37,7 @@ UpdateItemDescription:
 	farjp PrintItemDescription
 
 BagString:
-	db "Bag @"
+	db "Moch@"
 
 UpdateExpCandyDescriptionAndBagQuantity:
 	hlcoord 1, 1

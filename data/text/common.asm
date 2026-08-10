@@ -3420,7 +3420,7 @@ _EvolvingText::
 
 SECTION "_MartHowManyText", ROMX
 _MartHowManyText::
-	text "How many?"
+	text "¿Cuántos?"
 	done
 
 SECTION "_MartFinalPriceText", ROMX
@@ -3429,25 +3429,25 @@ _MartFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "will be ¥"
+	line "serán ¥"
 	text_decimal hMoneyTemp, 3, 7
 	text "."
 	done
 
 SECTION "_HerbShopLadyIntroText", ROMX
 _HerbShopLadyIntroText::
-	text "Hello, dear."
+	text "Hola, encanto."
 
-	para "I sell inexpensive"
-	line "herbal medicine."
+	para "Vendo medicina"
+	line "herbal barata."
 
-	para "They're good, but"
-	line "a trifle bitter."
+	para "Es buena, pero un"
+	line "poco amarga."
 
-	para "Your #mon may"
-	line "not like them."
+	para "Puede que a tus"
+	line "#mon no les guste."
 
-	para "Hehehehe…"
+	para "Jejejeje…"
 	done
 
 SECTION "_HerbalLadyFinalPriceText", ROMX
@@ -3456,95 +3456,94 @@ _HerbalLadyFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "will be ¥"
+	line "serán ¥"
 	text_decimal hMoneyTemp, 3, 7
 	text "."
 	done
 
 SECTION "_HerbalLadyThanksText", ROMX
 _HerbalLadyThanksText::
-	text "Thank you, dear."
-	line "Hehehehe…"
+	text "Gracias, encanto."
+	line "Jejejeje…"
 	done
 
 SECTION "_HerbalLadyPackFullText", ROMX
 _HerbalLadyPackFullText::
-	text "Oh? Your Bag is"
-	line "full, dear."
+	text "¿Oh? Tu Mochila"
+	line "está llena."
 	done
 
 SECTION "_HerbalLadyNoMoneyText", ROMX
 _HerbalLadyNoMoneyText::
-	text "Hehehe… You don't"
-	line "have the money."
+	text "Jejeje… No tienes"
+	line "suficiente dinero."
 	done
 
 SECTION "_HerbalLadyComeAgainText", ROMX
 _HerbalLadyComeAgainText::
-	text "Come again, dear."
-	line "Hehehehe…"
+	text "Vuelve pronto,"
+	line "encanto. Jejejeje…"
 	done
 
 SECTION "_BargainShopIntroText", ROMX
 _BargainShopIntroText::
-	text "Hiya! Care to see"
-	line "some bargains?"
+	text "¡Buenas! ¿Quieres"
+	line "ver alguna ganga?"
 
-	para "I sell rare items"
-	line "that nobody else"
+	para "Vendo objetos raros"
+	line "que nadie más"
 
-	para "carries--but only"
-	line "one of each item."
+	para "tiene, pero solo"
+	line "uno de cada."
 	done
 
 SECTION "_BargainShopFinalPriceText", ROMX
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
-	text " costs"
+	text " cuesta"
 	line "¥"
 	text_decimal hMoneyTemp, 3, 7
-	text ". Want it?"
+	text ". ¿Lo quieres?"
 	done
 
 SECTION "_BargainShopThanksText", ROMX
 _BargainShopThanksText::
-	text "Thanks."
+	text "Gracias."
 	done
 
 SECTION "_BargainShopPackFullText", ROMX
 _BargainShopPackFullText::
-	text "Uh-oh, your Bag"
-	line "is chock-full."
+	text "Uy, tu Mochila"
+	line "está a rebosar."
 	done
 
 SECTION "_BargainShopSoldOutText", ROMX
 _BargainShopSoldOutText::
-	text "You bought that"
-	line "already. I'm all"
-	cont "sold out of it."
+	text "Ya compraste eso."
+	line "Se me ha agotado."
 	done
 
 SECTION "_BargainShopNoFundsText", ROMX
 _BargainShopNoFundsText::
-	text "Uh-oh, you're"
-	line "short on funds."
+	text "Uy, andas corto"
+	line "de dinero."
 	done
 
 SECTION "_BargainShopComeAgainText", ROMX
 _BargainShopComeAgainText::
-	text "Come by again"
-	line "sometime."
+	text "Vuelve en otro"
+	line "momento."
 	done
 
 SECTION "_PharmacyIntroText", ROMX
 _PharmacyIntroText::
-	text "What's up? Need"
-	line "some medicine?"
+	text "¿Qué tal? ¿Necesitas"
+	line "medicinas?"
 	done
 
 SECTION "_HowManyText", ROMX
 _HowManyText::
-	text "How many?"
+	text "¿Cuántos?"
 	done
 
 SECTION "_PharmacyFinalPriceText", ROMX
@@ -3553,95 +3552,96 @@ _PharmacyFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "will cost ¥"
+	line "serán ¥"
 	text_decimal hMoneyTemp, 3, 7
 	text "."
 	done
 
 SECTION "_PharmacyThanksText", ROMX
 _PharmacyThanksText::
-	text "Thanks much!"
+	text "¡Muchas gracias!"
 	done
 
 SECTION "_PharmacyPackFullText", ROMX
 _PharmacyPackFullText::
-	text "You don't have any"
-	line "more space."
+	text "No tienes más"
+	line "espacio."
 	done
 
 SECTION "_PharmacyNoMoneyText", ROMX
 _PharmacyNoMoneyText::
-	text "Huh? That's not"
-	line "enough money."
+	text "¿Eh? No tienes"
+	line "suficiente dinero."
 	done
 
 SECTION "_PharmacyComeAgainText", ROMX
 _PharmacyComeAgainText::
-	text "All right."
-	line "See you around."
+	text "De acuerdo."
+	line "¡Hasta otra!"
 	done
 
 SECTION "_MartSellHowManyText", ROMX
 _MartSellHowManyText::
-	text "How many?"
+	text "¿Cuántos?"
 	done
 
 SECTION "_MartSellPriceText", ROMX
 _MartSellPriceText::
-	text "I can pay you"
+	text "Puedo pagarte"
 	line "¥"
 	text_decimal hMoneyTemp, 3, 7
 	text "."
 
-	para "Is that OK?"
+	para "¿Te parece bien?"
 	done
 
 SECTION "_MartWelcomeText", ROMX
 _MartWelcomeText::
-	text "Welcome! How may I"
-	line "help you?"
+	text "¡Hola! ¿En qué"
+	line "puedo ayudarte?"
 	done
 
 SECTION "_MartThanksText", ROMX
 _MartThanksText::
-	text "Here you are."
-	line "Thank you!"
+	text "¡Aquí tienes!"
+	line "¡Muchas gracias!"
 	done
 
 SECTION "_MartNoMoneyText", ROMX
 _MartNoMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "No tienes"
+	line "suficiente dinero."
 	done
 
 SECTION "_MartPackFullText", ROMX
 _MartPackFullText::
-	text "You can't carry"
-	line "any more items."
+	text "No puedes llevar"
+	line "más objetos."
 	done
 
 SECTION "_MartCantBuyText", ROMX
 _MartCantBuyText::
-	text "Sorry, I can't buy"
-	line "that from you."
+	text "Lo siento, no puedo"
+	line "comprarte eso."
 	prompt
 
 SECTION "_MartComeAgainText", ROMX
 _MartComeAgainText::
-	text "Please come again!"
+	text "¡Vuelve cuando"
+	line "quieras!"
 	done
 
 SECTION "_MartAskMoreText", ROMX
 _MartAskMoreText::
-	text "Can I do anything"
-	line "else for you?"
+	text "¿Puedo hacer algo"
+	line "más por ti?"
 	done
 
 SECTION "_MartBoughtText", ROMX
 _MartBoughtText::
-	text "Got ¥"
+	text "Obtuviste ¥"
 	text_decimal hMoneyTemp, 3, 7
-	text " for"
+	text " por"
 	line ""
 	text_ram wStringBuffer2
 	text_plural
@@ -3694,8 +3694,8 @@ BTMartInsufficientFundsText::
 
 SECTION "BTMartBagFullText", ROMX
 BTMartBagFullText::
-	text "I'm sorry, but your"
-	line "Bag is full."
+	text "Lo siento, tu"
+	line "Mochila está llena"
 	done
 
 SECTION "BTMartComeAgainText", ROMX

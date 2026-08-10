@@ -165,28 +165,29 @@ FalknerIntroText:
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#mon…"
+	text "…¡Rayos! Los"
+	line "#mon pájaro"
+	cont "de mi padre…"
 
-	para "All right."
-	line "Take this."
+	para "De acuerdo."
+	line "Toma esto."
 
-	para "It's the official"
-	line "#mon League"
-	cont "Zephyr Badge."
+	para "Es la Medalla"
+	line "Céfiro oficial de"
+	cont "la Liga #mon."
 	done
 
 FalknerZephyrBadgeText:
-	text "The Zephyr Badge"
-	line "enables you to"
+	text "La Medalla Céfiro"
+	line "te permite"
 
-	para "command #mon,"
-	line "even traded ones,"
-	cont "up to <LV>20."
+	para "dar órdenes a los"
+	line "#mon, intercam-"
+	cont "-biados inclusive,"
+	cont "hasta el <LV>20."
 
-	para "Here--take this"
-	line "too."
+	para "Oye, ¡toma esto"
+	line "también!"
 	done
 
 

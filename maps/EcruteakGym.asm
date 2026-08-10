@@ -253,20 +253,23 @@ MortyWinLossText:
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having the Fog"
-	line "Badge, #mon up"
+	text "Con la Medalla"
+	line "Niebla, los"
+	cont "#mon de"
 
-	para "to <LV>50 will obey"
-	line "you."
+	para "hasta <LV>50 te"
+	line "obedecerán."
 
-	para "Also, #mon that"
-	line "know Surf will be"
+	para "Además, los"
+	line "#mon que"
+	cont "sepan Surf"
 
-	para "able to use that"
-	line "move anytime."
+	para "podrán usarlo en"
+	line "cualquier momento."
 
-	para "I want you to have"
-	line "this too."
+	para "Toma, también"
+	line "quiero que"
+	cont "tengas esto."
 	done
 
 

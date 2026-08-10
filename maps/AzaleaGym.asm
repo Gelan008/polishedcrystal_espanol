@@ -65,24 +65,27 @@ AzaleaGymBugsyScript:
 	setevent EVENT_BEAT_BUG_CATCHER_AL
 	setevent EVENT_BEAT_BUG_CATCHER_JOSH
 	writethistext
-		text "Do you know the"
-		line "benefits of the"
-		cont "Hive Badge?"
+		text "¿Conoces las"
+		line "ventajas de la"
+		cont "Medalla Colmena?"
 
-		para "If you have it,"
-		line "#mon up to <LV>30"
+		para "Si la tienes, los"
+		line "#mon de hasta"
+		cont "nivel 30 te"
+		cont "obedecerán"
 
-		para "will obey you,"
-		line "even traded ones."
+		para "incluso los que"
+		line "conseguiste por"
+		cont "trueque."
 
-		para "#mon that know"
-		line "Cut will be able"
+		para "#mon que sepan"
+		line "Corte podrán usar"
 
-		para "to use it outside"
-		line "of battle too."
+		para "el ataque fuera"
+		line "del combate."
 
-		para "Here, I also want"
-		line "you to have this."
+		para "Toma, también quiero"
+		line "que tengas esto."
 		done
 	promptbutton
 	verbosegivetmhm TM_U_TURN

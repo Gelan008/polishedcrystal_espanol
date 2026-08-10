@@ -164,17 +164,18 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "Bell Tower is off"
-	line "limits to anyone"
+	text "La Torre Campana"
+	line "está cerrada si no"
 
-	para "without Ecruteak"
-	line "Gym's Badge."
+	para "tienes la Medalla"
+	line "del Gimnasio de"
+	cont "Ciudad Iris."
 
-	para "Ah!"
+	para "¡Ah!"
 
-	para "Ecruteak's Gym"
-	line "Badge! Please, go"
-	cont "right through."
+	para "¡La Medalla"
+	line "Iris! Por favor,"
+	cont "pasa adelante."
 	done
 
 

@@ -388,23 +388,23 @@ Route36CooltrainerfChiaraScript:
 	done
 
 .IntroText:
-	text "I saw how you woke"
-	line "up that Sudowoodo."
+	text "Vi cómo despertas-"
+	line "te a Sudowoodo."
 
-	para "You did great!"
+	para "¡Lo hiciste genial!"
 
-	para "And you have a"
-	line "Plain Badge."
-	cont "So do I!"
+	para "Y tienes una"
+	line "Medalla Planicie."
+	cont "¡Yo también!"
 
-	para "How about this?"
-	line "Take out all the"
+	para "¿Qué te parece"
+	line "esto? Vence a los"
 
-	para "trainers on Routes"
-	line "36 and 37."
+	para "entrenadores de"
+	line "las Rutas 36 y 37."
 
-	para "Then I'll fight"
-	line "you myself!"
+	para "¡Y luego lucharé"
+	line "contigo!"
 	done
 
 .QuestionText:

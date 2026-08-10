@@ -43,7 +43,7 @@ ItemNames::
 
 	li "Antidoto"
 	li "Antiquemar"
-	li "Antiparaliz."
+	li "Antiparaliz"
 	li "Despertar"
 	li "Antihielo"
 	li "Cura Total"

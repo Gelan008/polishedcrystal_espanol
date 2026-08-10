@@ -38,14 +38,14 @@ VioletNicknameSpeechHouseLassText:
 	done
 
 VioletNicknameSpeechHouseGrampsText:
-	text "The Zephyr Badge"
-	line "is named after an"
+	text "La Medalla Céfiro"
+	line "debe su nombre a"
 
-	para "ancient god of the"
-	line "west wind."
+	para "un antiguo dios"
+	line "del viento oeste."
 
-	para "Very fitting for a"
-	line "Flying-type Gym."
+	para "Muy apropiado para"
+	line "un Gym Volador."
 	done
 
 VioletNicknameSpeechHouseBirdText:
