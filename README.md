@@ -1,59 +1,73 @@
-# Pokémon Polished Crystal
+# Pokémon Polished Crystal Español
 
-This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
+## Notas de Progreso de Traducción
+<!-- Usa este espacio para añadir tus notas sobre el progreso de la traducción del hackrom -->
+- [x] Textos de batallas (`data/text/battle.asm`)
+- [x] Habilidades, ataques, tipos, fuentes, etc...
+- [x] Objetos.
+- [x] Menús de tiendas y PC
+- [x] Textos de entrenadores de la Torre Batalla
+- [x] Opciones de menú y menús principales
 
-My goal is to create what the title says: an improved, polished version of Pokémon Crystal. It fixes bugs, takes into account the official game changes since 2001, and adds some new ideas of my own. Many features restore what was removed from R/B/Y, or original to HG/SS.
+De momento no se ha lanzado ninguna release.
 
-I've had vague plans to make a Pokémon game for years. I'm very impressed by the effort that's gone into disassembling Pokémon Crystal and making the code so well-organized. Thanks to making it open-source (and to the ROM hackers that inspired me), I'm finally making this game a reality.
+---
+README traducido de Rangi42
+---
+Este es un juego de Pokémon personalizado basado en [el desensamblado de Pokémon Cristal](https://github.com/pret/pokecrystal).
 
-> There are many ways to create games but the way we work at Game Freak may be a little different from other companies. That is, we constantly change and tweak what we have come up with. To make a fun game even more fun and polish it up, we take what we have made and start thinking about it from scratch. And to make the game the most fun to play we make endless changes and tweaks no matter how long it takes. It may not be the best way, but I think these tweaks are important to make our games fun and better.
+Mi objetivo es crear lo que dice el título: una versión mejorada y pulida (polished) de Pokémon Cristal. Corrige errores, tiene en cuenta los cambios oficiales de los juegos desde 2001 y añade algunas ideas nuevas propias. Muchas características restauran lo que se eliminó de R/A/Am, o son originales de HG/SS.
+
+He tenido planes vagos de hacer un juego de Pokémon durante años. Estoy muy impresionado por el esfuerzo que se ha dedicado a desensamblar Pokémon Cristal y hacer que el código esté tan bien organizado. Gracias a que es de código abierto (y a los romhackers que me inspiraron), finalmente estoy haciendo este juego realidad.
+
+> Hay muchas formas de crear juegos, pero la forma en que trabajamos en Game Freak puede ser un poco diferente a la de otras empresas. Es decir, constantemente cambiamos y retocamos lo que se nos ha ocurrido. Para hacer un juego divertido aún más divertido y pulirlo, tomamos lo que hemos hecho y empezamos a pensar en ello desde cero. Y para hacer el juego lo más divertido de jugar hacemos un sinfín de cambios y retoques sin importar cuánto tiempo lleve. Puede que no sea la mejor manera, pero creo que estos retoques son importantes para hacer nuestros juegos divertidos y mejores.
 >
 > — Junichi Masuda, "[HIDDEN POWER of masuda No. 7](https://www.gamefreak.co.jp/blog/dir_english/?p=21)"
 
-## Download and Play
+## Descargar y Jugar
 
-The **current official release** is **v3.2.3** (the “Polished Crystal” release). It's fully playable from start to finish and includes major overhauls to gameplay, mechanics, and quality of life. A more detailed changelog is forthcoming, but you can find the major highlights below.
+La **versión oficial actual** es la **v3.2.3** (la versión "Polished Crystal"). Es completamente jugable de principio a fin e incluye revisiones importantes de la jugabilidad, mecánicas y calidad de vida. Pronto publicaremos un registro de cambios más detallado, pero a continuación puedes encontrar los aspectos más destacados.
 
-- **[Download v3.2.3 here](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.2.3)**
+- **[Descarga la v3.2.3 aquí](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.2.3)**
 
-The previous official version was [v3.1.1](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.1.1) (February 1, 2025).
+La versión oficial anterior fue la [v3.1.1](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.1.1) (1 de febrero de 2025).
 
-*If you have any questions about playing or patching, [read the FAQ](FAQ.md)!*
+*Si tienes alguna pregunta sobre cómo jugar o aplicar el parche, ¡[lee las Preguntas Frecuentes (FAQ)](FAQ.md)!*
 
-## What’s New in v3.2.3
+## Novedades de la v3.2.3
 
-Below is a brief summary of the major changes and additions. A more detailed changelog will be released soon.
+A continuación se muestra un breve resumen de los cambios y adiciones importantes. Pronto se publicará un registro de cambios más detallado.
 
-- **Customizable New Game Setup:** You can now toggle Natures and Abilities on/off, choose how EVs work (classic no-limit, modern 510 limit, or disabled), and configure various other gameplay options before starting a new adventure.
-- **DVs No Longer Determine Natures/Shininess/Gender/Unown Form:** DVs still affect color variation (slightly different hues for the same species), but everything else is now handled separately.
-- **Overhauled Battle Engine and HUD:**
-  - Abilities are now supported.
-  - Moves have been updated to behave more like their modern counterparts.
-  - Minor HUD improvements make battles more streamlined.
-- **Revamped Move Animations:** Many moves have updated animations.
-- **Optimized Engine and 60fps Overworld:** The game engine has been heavily optimized for smoother performance, and the overworld now runs at 60 frames per second.
-- **Storage System Redesign:** The PC storage interface is more like modern Pokémon games. You can switch boxes, move Pokémon around, and manage your party with minimal saving hassles.
-- **HGSS-Inspired Pokédex:** The new Pokédex includes base stats, egg groups, and a more comprehensive encounter map showing *all* methods of obtaining Pokémon.
-- **Enhanced Overworld Weather:** Instead of just darkening the screen, you’ll now see proper rain, snow, or sandstorms in applicable areas.
-- **Revamped Summary Screen:** Replaces the vanilla stats screen. Shows nature, abilities, seen and caught data, and more.
+- **Configuración de Nueva Partida Personalizable:** Ahora puedes activar/desactivar las Naturalezas y Habilidades, elegir cómo funcionan los Puntos de Esfuerzo (EVs) (sin límite clásico, límite moderno de 510 o desactivados), y configurar varias opciones de juego antes de comenzar una nueva aventura.
+- **Los DVs Ya No Determinan las Naturalezas/Variocolor/Sexo/Forma de Unown:** Los DVs siguen afectando la variación de color (tonos ligeramente diferentes para la misma especie), pero todo lo demás ahora se maneja por separado.
+- **Motor de Batalla e Interfaz Revisados:**
+  - Las Habilidades ahora son compatibles.
+  - Los movimientos se han actualizado para comportarse de manera más similar a sus contrapartes modernas.
+  - Mejoras menores en la interfaz (HUD) hacen que las batallas sean más ágiles.
+- **Animaciones de Movimientos Renovadas:** Muchos movimientos tienen animaciones actualizadas.
+- **Motor Optimizado y Mundo a 60fps:** El motor del juego ha sido fuertemente optimizado para un rendimiento más fluido, y el mundo exterior ahora funciona a 60 cuadros por segundo.
+- **Rediseño del Sistema de Almacenamiento:** La interfaz de almacenamiento del PC es más parecida a la de los juegos de Pokémon modernos. Puedes cambiar de cajas, mover Pokémon y gestionar tu equipo con menos molestias al guardar.
+- **Pokédex Inspirada en HGSS:** La nueva Pokédex incluye estadísticas base, grupos huevo y un mapa de encuentros más completo que muestra *todos* los métodos de obtención de Pokémon.
+- **Clima Dinámico en el Mundo:** En lugar de solo oscurecer la pantalla, ahora verás lluvia, nieve o tormentas de arena reales en las áreas correspondientes.
+- **Pantalla de Datos Renovada:** Reemplaza la pantalla de estadísticas original. Muestra naturaleza, habilidades, datos de vistos y capturados, y más.
 
-## Features
+## Características
 
-A full list of features is in [FEATURES.md](FEATURES.md). Some highlights:
+Una lista completa de características se encuentra en [FEATURES.md](FEATURES.md). Algunos puntos destacados:
 
-- **289 Pokémon species**, including some new evolutions, plus **56 cosmetic forms** (e.g., Magikarp patterns, Pikachu Fly/Surf, Arbok patterns, Unown Forms) and **46 variants** (Alolan, Galarian, Hisuian, etc.)—for a total of **391 unique Pokémon**.
-- **73 new moves** (72 on faithful builds), **75 TMs**, and **31 move tutors**.
-- Modern mechanics, such as the **Fairy type**, **Physical/Special split**, **Natures**, **Abilities**, and more.
-- **Unlimited TMs** and quality-of-life features like **Running Shoes** and continuous **Repel**.
-- **New/Revamped Maps**: Some from R/B/Y, some devamped from HG/SS, plus original locations.
-- **New Characters** including Lorelei and Agatha (R/B/Y), Lyra and the Team Rocket Executives (HG/SS), and others.
-- **More Post-Game Content**: Gym Leader rematches, a new event after battling Red, and more.
-- **Improved Level Curve** with steadily increasing challenges.
-- **Music and Graphics** devamped from newer generations.
+- **289 especies de Pokémon**, incluyendo algunas evoluciones nuevas, además de **56 formas estéticas** (ej. patrones de Magikarp, Pikachu Vuelo/Surf, patrones de Arbok, formas de Unown) y **46 variantes** (Alola, Galar, Hisui, etc.)—para un total de **391 Pokémon únicos**.
+- **73 nuevos movimientos** (72 en versiones fieles), **75 MTs**, y **31 tutores de movimientos**.
+- Mecánicas modernas, como el **tipo Hada**, la **división Físico/Especial**, **Naturalezas**, **Habilidades**, y más.
+- **MTs infinitas** y características de calidad de vida como las **Deportivas** y el **Repelente** continuo.
+- **Mapas Nuevos/Renovados**: Algunos de R/A/Am, algunos adaptados de HG/SS, además de ubicaciones originales.
+- **Nuevos Personajes** incluyendo Lorelei y Agatha (R/A/Am), Lira y los Ejecutivos del Team Rocket (HG/SS), y otros.
+- **Más Contenido Post-Juego**: Revanchas de Líderes de Gimnasio, un nuevo evento después de luchar contra Rojo, y más.
+- **Curva de Nivel Mejorada** con desafíos que aumentan de forma constante.
+- **Música y Gráficos** adaptados de generaciones más recientes.
 
-## Discussion
+## Discusión
 
-If you have questions or comments, please check or post on any of these sites. (Read the [FAQ](FAQ.md) first if you have general questions!)
+Si tienes preguntas o comentarios, por favor revisa o publica en cualquiera de estos sitios. (¡Lee las [Preguntas Frecuentes](FAQ.md) primero si tienes preguntas generales!)
 
 - [Discord](https://discord.gg/ZK5pqK8)
 - [Skeetendo](https://hax.iimarckus.org/topic/6874/)
@@ -63,11 +77,11 @@ If you have questions or comments, please check or post on any of these sites. (
 - [Nuzlocke Forums](http://s7.zetaboards.com/Nuzlocke_Forum/topic/11003710/)
 - [Pokémon Hackers Online](http://www.pokemonhackersonline.com/showthread.php?t=15811)
 
-Additional resource:
+Recurso adicional:
 
-- [PolishedDex](https://www.polisheddex.app/) — An online companion for Polished Crystal. PolishedDex provides a searchable Pokédex, move list, item list, locations, abilities, special events, and a team builder. It also includes a FAQ and links to the official ROM releases, making it a convenient reference while playing.
+- [PolishedDex](https://www.polisheddex.app/) — Un compañero en línea para Polished Crystal. PolishedDex proporciona una Pokédex con capacidad de búsqueda, lista de movimientos, lista de objetos, ubicaciones, habilidades, eventos especiales y un creador de equipos. También incluye unas FAQ y enlaces a las versiones oficiales de la ROM, lo que lo convierte en una referencia conveniente al jugar.
 
-## Screenshots
+## Capturas de Pantalla
 
 ![title-screen](screenshots/title-screen.png)
 ![which-photo](screenshots/which-photo.png)
