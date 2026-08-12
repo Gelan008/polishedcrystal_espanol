@@ -455,7 +455,7 @@ _OPT_IntroText1::
 
 SECTION "_OPT_IntroText2", ROMX
 _OPT_IntroText2::
-	line "#mon Talk!"
+	line "¡La hora Oak!"
 	done
 
 SECTION "_OPT_IntroText3", ROMX

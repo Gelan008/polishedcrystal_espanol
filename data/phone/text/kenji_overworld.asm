@@ -1,67 +1,69 @@
 KenjiAskNumber1Text:
-	text "Our battle was"
-	line "remarkable!"
+	text "¡Nuestra batalla"
+	line "fue notable!"
 
-	para "I wish for some-"
-	line "thing to remember"
-	cont "you by!"
+	para "¡Quiero algo para"
+	line "acordarme de ti!"
 
-	para "Perhaps your phone"
-	line "number will do?"
+	para "¿Quizá tu número"
+	line "servirá?"
 
-	para "My training makes"
-	line "it impossible to"
-	cont "chat much, but…"
+	para "Mi entrenamiento"
+	line "hace que charlar"
+	cont "sea difícil..."
 	done
 
 KenjiAskNumber2Text:
-	text "My training makes"
-	line "chatting tough,"
+	text "Mi entrenamiento"
+	line "hace difícil el"
+	cont "charlar,"
 
-	para "but will you take"
-	line "down my number?"
+	para "¿pero apuntarás"
+	line "mi número?"
 	done
 
 KenjiNumberAcceptedText:
-	text "I must train"
-	line "harder to become"
-	cont "the mightiest!"
+	text "¡Debo entrenar"
+	line "más duro para ser"
+	cont "el más fuerte!"
 	done
 
 KenjiNumberDeclinedText:
-	text "If you decide you"
-	line "want my number,"
-	cont "come see me."
+	text "Si decides que"
+	line "quieres mi número,"
+	cont "ven a verme."
 	done
 
 KenjiPhoneFullText:
-	text "Your phone appears"
-	line "to be full."
+	text "Parece que tu"
+	line "teléfono está"
+	cont "lleno."
 
-	para "Come back later!"
+	para "¡Vuelve luego!"
 	done
 
 KenjiGiftText:
-	text "I wish to thank"
-	line "you, <PLAYER>!"
+	text "¡Te lo quiero"
+	line "agradecer,"
+	cont "<PLAYER>!"
 
-	para "I've been training"
-	line "all alone…"
+	para "He estado entre-"
+	line "nando muy solo..."
 
-	para "I was happy that"
-	line "you cared to call…"
+	para "Me alegró que te"
+	line "animaras a llamar."
 
-	para "I want you to have"
-	line "this!"
+	para "¡Quiero que tengas"
+	line "esto!"
 	done
 
 KenjiPackFullText:
-	text "Your strength will"
-	line "not let you carry"
+	text "¡Tu fuerza no te"
+	line "dejará llevar ni"
 
-	para "another thing!"
-	line "I will hold this"
+	para "una cosa más!"
+	line "¡Guardaré esto"
 
-	para "till you lighten"
-	line "your Bag!"
+	para "hasta que vacíes"
+	line "tu Mochila!"
 	done

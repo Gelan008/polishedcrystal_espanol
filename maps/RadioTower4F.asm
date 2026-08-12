@@ -113,11 +113,10 @@ RadioTower4FDJMaryText_ClearedRockets:
 	done
 
 RadioTower4FDJMaryText_After:
-	text "Mary: Please tune"
-	line "into me on Prof."
+	text "Mary: Por favor"
+	line "sintonizanos en"
 
-	para "Oak's #mon Talk"
-	line "show."
+	para "La Hora Oak"
 	done
 
 RadioTowerMeowthText:

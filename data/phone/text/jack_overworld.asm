@@ -1,55 +1,56 @@
 JackAskNumber1Text:
-	text "Your knowledge is"
-	line "impressive!"
+	text "¡Tus conocimien-"
+	line "tos son la leche!"
 
-	para "I like that!"
+	para "¡Me gusta eso!"
 
-	para "Want to trade"
-	line "battle tips?"
+	para "¿Quieres intercam-"
+	line "biar consejos?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Te llamaré si ten-"
+	line "go buena info."
 
-	para "Would you tell me"
-	line "your number?"
+	para "¿Me darías tu nú-"
+	line "mero de teléfono?"
 	done
 
 JackAskNumber2Text:
-	text "Want to trade"
-	line "battle tips?"
+	text "¿Quieres intercam-"
+	line "biar consejos?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Te llamaré si ten-"
+	line "go buena info."
 
-	para "Would you tell me"
-	line "your number?"
+	para "¿Me darías tu nú-"
+	line "mero de teléfono?"
 	done
 
 JackNumberAcceptedText:
-	text "I'll call you if I"
-	line "hear anything!"
+	text "¡Te llamaré si me"
+	line "entero de algo!"
 	done
 
 JackNumberDeclinedText:
-	text "Oh, OK. Too bad…"
+	text "Oh, vale. Lástima."
 
-	para "Well, if you ever"
-	line "want my number,"
-	cont "come see me, OK?"
+	para "Bueno, si alguna"
+	line "vez quieres mi"
+	cont "número, avísame."
 	done
 
 JackPhoneFullText:
-	text "Oh?"
-	line "Your phone's full."
+	text "¿Oh? Tu teléfono"
+	line "está lleno."
 
-	para "It can't register"
-	line "my number."
+	para "No puedes apuntar"
+	line "mi número."
 	done
 
 JackRematchText:
-	text "Hi, I was waiting"
-	line "for you to show!"
+	text "¡Hola, estaba es-"
+	line "perando a que apa-"
+	cont "recieras!"
 
-	para "Let's get started"
-	line "right away!"
+	para "¡Empecemos ahora"
+	line "mismo!"
 	done

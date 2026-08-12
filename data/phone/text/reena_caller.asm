@@ -1,88 +1,89 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Listen, dear…"
+	text "Escucha, cielo..."
 
-	para "Do you recall my"
-	line ""
+	para "¿Te acuerdas de"
+	line "mi "
 	text_ram wStringBuffer4
 	text "?"
 
-	para "Yes, exactly. That"
-	line "lovely "
+	para "Sí, exacto. Ese"
+	line "precioso "
 	text_ram wStringBuffer4
 	text "."
 
-	para "Wouldn't you agree"
-	line "it's a perfect"
-	cont "match for me?"
+	para "¿A que estás de"
+	line "acuerdo con que es"
+	cont "perfecto para mí?"
 	done
 
 ReenaDefeatedMonText:
-	text "Have I ever faced"
-	line "a wild "
+	text "¿Que si he luchado"
+	line "con "
 	text_ram wStringBuffer4
-	text "?"
+	text " salvajes?"
 
-	para "You need to ask?"
+	para "¿Necesitas pregun-"
+	line "tarlo?"
 
-	para ""
+	para "¡A los "
 	text_ram wStringBuffer4
-	text " I've"
-	line "beaten on numerous"
-	cont "occasions!"
+	text " los"
+	line "he vencido en mu-"
+	cont "chas ocasiones!"
 	done
 
 ReenaLostAMonText:
-	text "Have I ever failed"
-	line "to catch a wild"
-	cont "#mon?"
+	text "¿Que si alguna vez"
+	line "he fallado al a-"
+	cont "trapar un #mon?"
 
-	para "You need to ask?"
+	para "¿Necesitas pregun-"
+	line "tarlo?"
 
-	para "I would never fail"
-	line "to catch a wild"
+	para "Yo nunca fallaría"
+	line "al atrapar a un"
 
 	para ""
 	text_ram wStringBuffer4
-	text "…"
-	line "Oh! Never mind!"
+	text " salvaje..."
+	line "¡Oh! ¡Olvídalo!"
 	done
 
 ReenaBattleRematchText:
-	text "We are going to"
-	line "battle!"
+	text "¡Vamos a combatir!"
 
-	para "The place shall be"
+	para "¡El lugar será"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Don't make me"
-	line "wait! Got it?"
+	para "¡No me hagas es-"
+	line "perar! ¿Entendido?"
 	done
 
 ReenaHangUpText:
-	text "Fine, you may go."
+	text "Bien, ya te puedes"
+	line "ir."
 	done
 
 ReenaForwardText:
-	text "Don't be too proud"
-	line "just because you"
+	text "No estés tan orgu-"
+	line "lloso solo por ha-"
 
-	para "happened to beat"
-	line "me…"
+	para "berme ganado..."
 
-	para "It was a fluke!"
+	para "¡Fue pura suerte!"
 	done
 
 ReenaHurryText:
-	text "What are you"
-	line "doing?"
+	text "¿Qué estás hacien-"
+	line "do?"
 
-	para "I told you that"
-	line "the place was"
+	para "¡Te dije que el"
+	line "lugar era"
 
 	para ""
 	text_ram wStringBuffer5
 	text "!"
-	line "Don't try to run!"
+	line "¡No intentes huir!"
 	done

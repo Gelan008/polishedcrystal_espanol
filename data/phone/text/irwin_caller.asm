@@ -1,289 +1,297 @@
 IrwinHangUpText:
-	text "I hate having to"
-	line "hang up on you!"
+	text "¡Odio tener que"
+	line "colgarte!"
 
-	para "Call you later!"
+	para "¡Te llamo luego!"
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, ¿te has"
+	line "enterado?"
 
-	para "Goldenrod's Radio"
-	line "Tower has been"
+	para "¡El Team Rocket ha"
+	line "tomado la Torre"
 
-	para "taken over by Team"
-	line "Rocket!"
+	para "Radio de"
+	line "Ciudad Trigal!"
 
-	para "…Um… What's Team"
-	line "Rocket?"
+	para "...Mmm... ¿Y qué"
+	line "es el Team Rocket?"
 	done
 
 IrwinPlainBadgeGossipText:
-	text "<PLAYER>, I heard!"
+	text "¡<PLAYER>, me enteré!"
 
-	para "You defeated that"
-	line "Whitney?"
+	para "¿Has derrotado a"
+	line "esa Blanca?"
 
-	para "It makes me proud"
-	line "to be your friend!"
+	para "¡Me enorgullece"
+	line "ser tu amigo!"
 	done
 
 IrwinJasmineReturnedGossipText:
-	text "Hey, I heard about"
-	line "you!"
+	text "¡Oye, he oído"
+	line "hablar de ti!"
 
-	para "You saved that"
-	line "#mon at the"
+	para "Salvaste a ese"
+	line "#mon del"
 
-	para "Lighthouse, didn't"
-	line "you?"
+	para "Faro, ¿verdad?"
 
-	para "<PLAYER>, I wish"
-	line "you'd come see me"
+	para "<PLAYER>, ¡ojalá"
+	line "vinieras a verme"
 
-	para "when I'm sick in"
-	line "bed with a cold!"
+	para "cuando estoy en la"
+	line "cama resfriado!"
 	done
 
 IrwinRocketHideoutGossipText:
-	text "I heard, I heard,"
-	line "I heard!"
+	text "¡Lo oí, lo oí,"
+	line "lo oí!"
 
-	para "You smashed Team"
-	line "Rocket's hideout!"
+	para "¡Has destrozado la"
+	line "guarida del"
+	cont "Team Rocket!"
 
-	para "You're like a"
-	line "movie hero, even!"
+	para "¡Eres casi como un"
+	line "héroe de cine!"
 
-	para "But um… What was"
-	line "Team Rocket?"
+	para "Pero... eh..."
+	line "¿Qué era eso del"
+	cont "Team Rocket?"
 	done
 
 IrwinRadioTowerGossipText:
-	text "I heard, I heard,"
-	line "I heard!"
+	text "¡Lo oí, lo oí,"
+	line "lo oí!"
 
-	para "About your heroic"
-	line "liberation of the"
+	para "¡Sobre tu heroica"
+	line "liberación de la"
 
-	para "Radio Tower! You"
-	line "rock so hard!"
+	para "Torre Radio! ¡Eres"
+	line "lo más!"
 	done
 
 IrwinRisingBadgeGossipText:
-	text "I saw, I saw!"
+	text "¡Lo vi, lo vi!"
 
-	para "I saw you go into"
-	line "the Dragon's Den!"
+	para "¡Te vi entrar en"
+	line "la Guarida Dragón!"
 
-	para "I'm certain you"
-	line "passed! Aww, no"
+	para "¡Seguro que apro-"
+	line "baste! Venga, ¡no"
 
-	para "need to be modest!"
-	line "You can't fail!"
+	para "seas tan modesto!"
+	line "¡Tú no fallas!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Yesterday, I went"
-	line "out to New Bark"
+	text "Ayer, fui a"
+	line "Pueblo Primavera."
 
-	para "Town.  There was a"
-	line "lady who looked a"
+	para "Había una señora"
+	line "que se parecía"
 
-	para "lot like you,"
+	para "mucho a ti,"
 	line "<PLAYER>."
 
-	para "What? That lady"
-	line "was your mom?"
+	para "¿Qué? ¿Esa señora"
+	line "era tu madre?"
 
-	para "Aww, I should've"
-	line "introduced myself!"
+	para "¡Oh, me tenía que"
+	line "haber presentado!"
 
-	para "I bet your mom's"
-	line "really proud of"
+	para "Seguro que tu ma-"
+	line "dre está muy orgu-"
 
-	para "all that you've"
-	line "accomplished."
+	para "llosa de todo lo"
+	line "que has logrado."
 
-	para "Heh, put it this"
-	line "way. I'd be proud"
+	para "Piénsalo así."
+	line "¡Yo estaría orgu-"
 
-	para "if I were your"
-	line "mom, believe me!"
+	para "lloso de ser tu"
+	line "madre, créeme!"
 	done
 
 IrwinVermilionCityGossipText:
-	text "I saw, I saw,"
-	line "I saw!"
+	text "¡Lo vi, lo vi,"
+	line "lo vi!"
 
-	para "You striding onto"
-	line "a ship, <PLAYER>!"
+	para "¡Embarcando en un"
+	line "barco, <PLAYER>!"
 
-	para "I can't get over"
-	line "how good you look"
+	para "¡No me creo lo"
+	line "bien que luces con"
 
-	para "with the sea as"
-	line "your backdrop!"
+	para "el mar a tus"
+	line "espaldas!"
 	done
 
 IrwinTrainPassGossipText:
-	text "I heard, I heard!"
+	text "¡Lo oí, lo oí!"
 
-	para "You got a Magnet"
-	line "Train Pass!"
+	para "¡Tienes un Pase"
+	line "del Magnetotrén!"
 
-	para "When I saw you"
-	line "departing on the"
+	para "Cuando te vi par-"
+	line "tir en el barco,"
 
-	para "ship, I felt sad"
-	line "that I wouldn't be"
+	para "me entristeció no"
+	line "poder verte por"
 
-	para "able to see you"
-	line "for a while."
+	para "un tiempo."
 
-	para "But since you have"
-	line "that Pass, you can"
+	para "Pero con ese Pase,"
+	line "¡puedes volver de"
 
-	para "zip back anytime!"
-	line "That's reassuring!"
+	para "golpe! ¡Qué alivio"
+	line "saberlo!"
 
-	para "What? You can Fly"
-	line "back anytime?"
+	para "¿Qué? ¿Puedes"
+	line "usar Vuelo"
+	cont "en cualquier"
+	cont "momento?"
 
-	para "What do you mean"
-	line "by Fly?"
+	para "¿Qué quieres de-"
+	line "cir con Vuelo?"
 	done
 
 IrwinSnorlaxGossipText:
-	text "I saw, I saw!"
+	text "¡Lo vi, lo vi!"
 
-	para "You waking up"
+	para "¡Despertaste a"
 	line "Snorlax!"
 
-	para "I was watching you"
-	line "from afar, so I"
+	para "Te miraba desde"
+	line "lejos, así que"
 
-	para "couldn't tell what"
-	line "you did exactly."
+	para "no pude ver qué"
+	line "hiciste exacta-"
+	cont "mente."
 
-	para "Did you play a"
-	line "flute to wake it?"
+	para "¿Tocaste la flauta"
+	line "para despertarle?"
 
-	para "Wow! That's like"
-	line "magic!"
+	para "¡Guau! ¡Es como"
+	line "magia!"
 	done
 
 IrwinMtSilverGossipText:
-	text "I hear rumors"
-	line "about you all over"
-	cont "the place."
+	text "Oigo rumores de"
+	line "ti por todas"
+	cont "partes."
 
-	para "It just makes me"
-	line "sigh, <PLAYER>."
+	para "Sólo me hace sus-"
+	line "pirar, <PLAYER>."
 
-	para "How did you get so"
-	line "strong?"
+	para "¿Cómo te hiciste"
+	line "tan fuerte?"
 
-	para "Go for the world"
-	line "championship now!"
+	para "¡Ve a por el cam-"
+	line "peonato mundial"
+	cont "ahora mismo!"
 
-	para "I'll always be"
-	line "cheering you on!"
+	para "¡Siempre te estaré"
+	line "animando!"
 	done
 
 IrwinCalledRightAwayText:
-	text "Hehe, I called"
-	line "right away!"
+	text "Jeje, ¡te llamé en"
+	line "seguida!"
 
-	para "I think we can be"
-	line "good friends!"
+	para "¡Creo que seremos"
+	line "muy buenos amigos!"
 	done
 
 IrwinFogBadgeGossipText:
-	text "I saw, I heard!"
+	text "¡Lo vi, lo oí!"
 
-	para "You beat Morty of"
-	line "Ecruteak Gym!"
+	para "¡Venciste a Morty"
+	line "en el Gimnasio"
+	cont "de Ciudad Iris!"
 
-	para "Th-that's just"
-	line "incredible!"
+	para "¡E-eso es asom-"
+	line "broso!"
 
-	para "I actually went to"
-	line "the Gym's entrance"
+	para "De hecho, fui a la"
+	line "entrada del Gimna-"
 
-	para "to cheer you on."
-	line "Did you know that?"
+	para "sio a animarte."
+	line "¿Lo sabías?"
 
-	para "But everyone was"
-	line "floating, and"
+	para "Pero todos esta-"
+	line "ban flotando, ¡y"
 
-	para "there were ghosts"
-	line "all over! So I"
+	para "había fantasmas"
+	line "por todos lados!"
 
-	para "chickened out and"
-	line "took off for home…"
+	para "Me acobardé y salí"
+	line "corriendo a casa..."
 	done
 
 IrwinMarshBadgeGossipText:
-	text "<PLAYER>, I heard!"
+	text "¡<PLAYER>, me enteré!"
 
-	para "You're kicking up"
-	line "a mighty ruckus"
+	para "¡Estás montando"
+	line "un buen lío por"
 
-	para "over in Kanto!"
-	line "What a glorious"
+	para "Kanto! ¡Qué"
+	line "alboroto más"
 
-	para "rampage it must"
-	line "be!"
+	para "glorioso debe de"
+	line "ser!"
 
-	para "You so rock!"
+	para "¡Tú sí que molas!"
 	done
 
 IrwinYourEscapadesRockText:
-	text "Hearing about your"
-	line "escapades rocks my"
+	text "¡Oír de tus"
+	line "aventuras hace que"
 
-	para "soul!"
-	line "It sure does!"
+	para "me vibre el alma!"
+	line "¡Claro que sí!"
 	done
 
 IrwinGoodMatchText:
-	text "I'm so glad you"
-	line "called!"
+	text "¡Me alegro tanto"
+	line "de que llamaras!"
 
-	para "I was just about"
-	line "to call you too!"
+	para "¡Yo también iba a"
+	line "llamarte a ti!"
 
-	para "I guess we must be"
-	line "a good match!"
+	para "¡Supongo que"
+	line "hacemos un buen"
+	cont "equipo!"
 	done
 
 IrwinSoMuchToChatAboutText:
-	text "How are you?"
+	text "¿Cómo estás?"
 
-	para "What are you"
-	line "doing?"
+	para "¿Qué estás"
+	line "haciendo?"
 
-	para "Where are you?"
+	para "¿Dónde estás?"
 
-	para "How many Badges do"
-	line "you have now?"
+	para "¿Cuántas Medallas"
+	line "tienes ahora?"
 
-	para "How much money"
-	line "have you saved?"
+	para "¿Cuánto dinero"
+	line "has ahorrado?"
 
-	para "How's your mom?"
+	para "¿Cómo está tu"
+	line "madre?"
 
-	para "Have you got lots"
-	line "of #mon?"
+	para "¿Has conseguido"
+	line "muchos #mon?"
 
-	para "Is it going to be"
-	line "sunny tomorrow?"
+	para "¿Va a hacer sol"
+	line "mañana?"
 
-	para "Arrgh, there's so"
-	line "much I want to"
+	para "¡Agh, hay tantas"
+	line "cosas de las que"
 
-	para "chat about! This"
-	line "is going nowhere!"
+	para "quiero charlar!"
+	line "¡Esto no lleva"
+	cont "a ninguna parte!"
 	done

@@ -1,73 +1,74 @@
 TullyAskNumber1Text:
-	text "Hey, you're trying"
-	line "to be the ultimate"
+	text "Eh, ¿tú también"
+	line "intentas ser el"
+	cont "mejor entrenador?"
 
-	para "trainer too? Then"
-	line "we're comrades!"
+	para "¡Entonces somos"
+	line "camaradas!"
 
-	para "If I find any more"
-	line "items by the"
+	para "Si encuentro más"
+	line "objetos por el"
+	cont "agua, te daré"
+	cont "algunos."
 
-	para "water, I'll give"
-	line "you some."
-
-	para "Just give me your"
-	line "phone number."
+	para "Solo dame tu"
+	line "número."
 	done
 
 TullyAskNumber2Text:
-	text "If I find any more"
-	line "items by the"
+	text "Si encuentro más"
+	line "objetos por el"
+	cont "agua, te daré"
+	cont "algunos."
 
-	para "water, I'll give"
-	line "you some."
-
-	para "Just give me your"
-	line "phone number."
+	para "Solo dame tu"
+	line "número."
 	done
 
 TullyNumberAcceptedText:
-	text "You'll be hearing"
-	line "from me if I find"
-	cont "something good."
+	text "Tendrás noticias"
+	line "mías si encuentro"
+	cont "algo bueno."
 	done
 
 TullyNumberDeclinedText:
-	text "Is that so? Then"
-	line "I'll just have to"
-	cont "use them myself."
+	text "¿Ah, sí? Entonces"
+	line "tendré que usar-"
+	cont "los yo mismo."
 	done
 
 TullyPhoneFullText:
-	text "Your phone list is"
-	line "all filled up."
+	text "Tu lista de telé-"
+	line "fonos está llena."
 
-	para "Come back if you"
-	line "make room for me."
+	para "Vuelve cuando ha-"
+	line "gas hueco para mí."
 	done
 
 TullyRematchText:
-	text "I've been doing"
-	line "more than just"
+	text "He estado hacien-"
+	line "do algo más que"
 
-	para "fishing since we"
-	line "last met."
+	para "pescar desde la"
+	line "última vez que"
+	cont "nos vimos."
 
-	para "You're in for a"
-	line "big surprise!"
+	para "¡Te llevarás una"
+	line "gran sorpresa!"
 	done
 
 TullyGiftText:
-	text "Hey, there you"
-	line "are!"
+	text "¡Eh, ahí estás!"
 
-	para "Here's a gift, as"
-	line "promised!"
+	para "¡Aquí tienes un"
+	line "regalo, tal y co-"
+	cont "mo te prometí!"
 	done
 
 TullyPackFullText:
-	text "Your Bag's full?"
+	text "¿Tu Mochila está"
+	line "llena?"
 
-	para "Come back later--"
-	line "that'll do it."
+	para "Vuelve más tar-"
+	line "de... eso bastará."
 	done

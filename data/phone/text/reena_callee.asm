@@ -1,72 +1,72 @@
 ReenaAnswerPhoneText:
-	text "Hello, this is"
+	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Oh. Hi, <PLAYER>."
-	line "What's up?"
+	para "Oh. Hola, <PLAYER>."
+	line "¿Qué pasa?"
 	done
 
 ReenaAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Oh, hi, <PLAYER>,"
-	line "what's up?"
+	para "Oh. Hola, <PLAYER>,"
+	line "¿qué pasa?"
 	done
 
 ReenaAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Oh, hi, <PLAYER>,"
-	line "what's up?"
+	para "Oh. Hola, <PLAYER>,"
+	line "¿qué pasa?"
 	done
 
 ReenaGreetText:
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "¡Qué lento! ¡Date"
+	line "prisa y contesta!"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetDayText:
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "¡Qué lento! ¡Date"
+	line "prisa y contesta!"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetNiteText:
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "¡Qué lento! ¡Date"
+	line "prisa y contesta!"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGenericText:
-	text "Hey, how are your"
-	line "#mon doing?"
+	text "Oye, ¿cómo están"
+	line "tus #mon?"
 
-	para "What? Great?"
-	line "I see…"
+	para "¿Qué? ¿Genial?"
+	line "Ya veo..."
 
-	para "What? My #mon?"
+	para "¿Qué? ¿Mis #mon?"
 
-	para "Of course they're"
-	line "doing great! What"
+	para "¡Claro que están"
+	line "genial! ¿Qué cla-"
 
-	para "kind of a question"
-	line "is that?"
+	para "se de pregunta es"
+	line "esa?"
 	done

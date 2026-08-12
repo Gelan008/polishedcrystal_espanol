@@ -1,58 +1,59 @@
 ToddAskNumber1Text:
-	text "From here, I can"
-	line "see Goldenrod's"
+	text "Desde aquí puedo"
+	line "ver el C. Comer-"
 
-	para "Dept.Store. They"
-	line "have bargain sales"
+	para "cial de Trigal."
+	line "Tienen rebajas"
 
-	para "up on the rooftop"
-	line "every so often."
+	para "en la azotea de"
+	line "vez en cuando."
 
-	para "Could I get your"
-	line "phone number?"
+	para "¿Me darías tu nú-"
+	line "mero de teléfono?"
 
-	para "I'll call you when"
-	line "they have a sale."
+	para "Te llamaré cuando"
+	line "tengan rebajas."
 	done
 
 ToddAskNumber2Text:
-	text "If you give me"
-	line "your number, I'll"
+	text "Si me das tu nú-"
+	line "mero, te llamaré"
 
-	para "call you when they"
-	line "have a sale."
+	para "cuando tengan re-"
+	line "bajas."
 	done
 
 ToddNumberAcceptedText:
-	text "I check Goldenrod"
-	line "Dept.Store every"
+	text "Reviso el C. Co-"
+	line "mercial de Trigal"
 
-	para "day, so I know"
-	line "when there's a"
-	cont "sale."
+	para "todos los días,"
+	line "así que sé cuándo"
+	cont "hay rebajas."
 	done
 
 ToddNumberDeclinedText:
-	text "Anyway…"
+	text "En fin..."
 
-	para "If you're short on"
-	line "money, take down"
-	cont "my number."
+	para "Si andas corto de"
+	line "dinero, anota mi"
+	cont "número."
 
-	para "I'll call you when"
-	line "there's a sale."
+	para "Te llamaré cuando"
+	line "haya rebajas."
 	done
 
 ToddPhoneFullText:
-	text "Your phone doesn't"
-	line "have enough memory"
-	cont "for more numbers."
+	text "Tu teléfono no"
+	line "tiene suficiente"
+	cont "memoria."
 	done
 
 ToddRematchText:
-	text "I waited for you!"
-	line "I even cut back my"
+	text "¡Te estaba espe-"
+	line "rando! ¡Hasta he"
 
-	para "shopping to raise"
-	line "my #mon better!"
+	para "comprado menos pa-"
+	line "ra criar mejor a"
+	cont "mis #mon!"
 	done

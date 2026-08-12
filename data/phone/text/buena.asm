@@ -1,524 +1,554 @@
 BuenaPhoneMorningAnswerText:
-	text "Hi, this is Buena…"
-
-	para "Oh! Good morning,"
+	text "Hola, soy Buena..."
+	para "¡Oh, buenos días,"
 	line "<PLAYER>!"
-
-	para "I'm kind of foggy"
-	line "in the morning…"
+	para "Me cuesta mucho"
+	line "despertarme por"
+	cont "las mañanas..."
 	done
 
 BuenaPhoneDayAnswerText:
-	text "Hi, this is Buena…"
-	line "Oh! Hi, <PLAYER>!"
+	text "Hola, soy Buena..."
+	line "¡Oh! ¡Hola,"
+	cont "<PLAYER>!"
 
-	para "Do you tune into"
-	line "Buena's show?"
+	para "¿Escuchas el"
+	line "programa de Buena?"
 	done
 
 BuenaPhoneMidnightAnswerText:
-	text "This is Buena."
-	line "I can't come to"
+	text "Soy Buena. Ahora"
+	line "no puedo ponerme."
 
-	para "the phone right"
-	line "now."
+	para "Si quieres hablar,"
+	line "sintoniza el"
 
-	para "If you want to"
-	line "chat, tune into"
+	para "program Contraseña"
+	line "de Buena en la"
 
-	para "Buena's Password"
-	line "on the radio and"
-
-	para "give me a call"
-	line "after midnight!"
+	para "radio y llámame"
+	line "pasada la"
+	cont "medianoche."
 	done
 
 BuenaPhoneNiteAnswerText:
-	text "Hi, this is Buena…"
-	line "Oh! Hi, <PLAYER>!"
+	text "Hola, soy Buena..."
+	line "¡Oh! ¡Hola,"
+	cont "<PLAYER>!"
 
-	para "I just got off"
-	line "work."
+	para "Acabo de salir de"
+	line "trabajar."
 
-	para "Let me tell you,"
-	line "I'm exhausted!"
+	para "¡Y te digo que"
+	line "estoy exhausta!"
 	done
 
 BuenaPhoneMorningText:
-	text "<PLAYER>!"
-	line "Hi, it's Buena!"
+	text "¡<PLAYER>!"
+	line "¡Hola, soy Buena!"
 
-	para "I got up early, so"
-	line "I decided to call!"
+	para "¡Me he levantado"
+	line "pronto, así que"
+	cont "decidí llamar!"
 	done
 
 BuenaPhoneDayText:
-	text "<PLAYER>!"
-	line "Hi, it's Buena!"
+	text "¡<PLAYER>!"
+	line "¡Hola, soy Buena!"
 
-	para "I needed someone"
-	line "to chat with!"
+	para "¡Necesitaba a"
+	line "alguien con quien"
+	cont "hablar!"
 	done
 
 BuenaPhoneMidnightText:
-	text "<PLAYER>!"
-	line "Hi, it's Buena!"
+	text "¡<PLAYER>!"
+	line "¡Hola, soy Buena!"
 
-	para "I'm just on my"
-	line "break."
+	para "Estoy en mi"
+	line "descanso."
 	done
 
 BuenaPhoneNiteText:
-	text "<PLAYER>!"
-	line "Hi, it's Buena!"
+	text "¡<PLAYER>!"
+	line "¡Hola, soy Buena!"
 
-	para "I couldn't sleep,"
-	line "so I called you."
+	para "No podía dormir,"
+	line "así que te he"
+	cont "llamado."
 	done
 
 BuenaPhoneRocketText:
-	text "Oh. Hi, <PLAYER>!"
+	text "Oh. ¡Hola, <PLAYER>!"
 
-	para "You are how?"
+	para "¿Cómo estás?"
 
-	para "Aiyee! This isn't"
-	line "the time for me to"
+	para "¡Ay! ¡No es el"
+	line "momento para mis"
 
-	para "be cracking silly"
-	line "gag greetings!"
+	para "saludos raros y"
+	line "tontos!"
 
-	para "The Radio Tower is"
-	line "in deep trouble!"
+	para "¡La Torre Radio"
+	line "está en problemas!"
 
-	para "<PLAYER>, you'd"
-	line "better be careful!"
+	para "¡<PLAYER>, será"
+	line "mejor que vayas"
+	cont "con cuidado!"
 	done
 
 BuenaPhoneWentOutWithBenText:
-	text "The other day, I"
-	line "went out to eat"
+	text "¡El otro día fui"
+	line "a comer con el"
 
-	para "with DJ Ben!"
-	line "Isn't it great?"
+	para "DJ Ben!"
+	line "¿No es genial?"
 
-	para "Not only that, he"
-	line "said the music on"
+	para "No solo eso, dijo"
+	line "que la música de"
 
-	para "my program is"
-	line "cool!"
+	para "mi programa"
+	line "molaba."
 
-	para "Oh, wow! Like,"
-	line "what should I do?"
+	para "Oh, vaya. Como,"
+	line "¿qué debería"
+	cont "hacer?"
 
-	para "…Oops, I have to"
-	line "get ready for my"
+	para "...Uy, ¡tengo"
+	line "que prepararme"
 
-	para "show! I'll catch"
-	line "you later!"
+	para "para el show! ¡Te"
+	line "veo luego!"
 	done
 
 BuenaPhoneReceptionistText:
-	text "You know the"
-	line "receptionist at"
-	cont "the Radio Tower?"
+	text "¿Conoces a la"
+	line "recepcionista de"
+	cont "la Torre Radio?"
 
-	para "“Welcome,” is all"
-	line "she ever says."
+	para "Solo dice:"
+	line "“Bienvenido”."
 
-	para "But she's really"
-	line "the chattiest"
+	para "Pero en verdad es"
+	line "la persona más"
 
-	para "person at the"
-	line "Radio Tower."
+	para "habladora de la"
+	line "Torre Radio."
 
-	para "So she must be"
-	line "holding back."
+	para "Así que debe"
+	line "estar"
+	cont "conteniéndose."
 
-	para "Isn't that fun to"
-	line "know?"
+	para "¿No es divertido"
+	line "saberlo?"
 
-	para "Catch you later!"
+	para "¡Nos vemos!"
 	done
 
 BuenaPhoneLuckyNumberShowText:
-	text "Tell me, <PLAYER>."
-	line "Have you ever won"
+	text "Dime, <PLAYER>."
+	line "¿Alguna vez has"
 
-	para "a prize on the"
-	line "Lucky Number Show?"
+	para "ganado el"
+	line "Núm de la Suerte?"
 
-	para "Reed moans that"
-	line "he's never won, so"
+	para "Reed se queja de"
+	line "que nunca ha"
+	cont "ganado, así que"
 
-	para "he vows to keep"
-	line "the show on the"
-	cont "air till he does."
+	para "jura mantener el"
+	line "programa hasta"
+	cont "que lo consiga."
 
-	para "Let's chat again!"
+	para "¡Hablamos luego!"
 	done
 
 BuenaPhoneStressedFromWorkText:
-	text "You know, last"
-	line "night…"
+	text "Oye, ¿sabes? Ayer"
+	line "por la noche..."
 
-	para "I was so stressed"
-	line "out from work, I"
+	para "¡Me estresé tanto"
+	line "por el trabajo,"
 
-	para "ate a ton of junk"
-	line "food!"
+	para "que comí mucha"
+	line "comida basura!"
 
-	para "Mary and I have"
-	line "this deal about"
-	cont "losing weight…"
+	para "Mary y yo tenemos"
+	line "un trato para"
+	cont "perder peso..."
 
-	para "This won't do…"
+	para "Esto no puede"
+	line "ser..."
 
-	para "Huh? What's the"
-	line "weight?"
+	para "¿Eh? ¿Cuánto"
+	line "pesa?"
 
-	para "This has to be a"
-	line "total secret!"
+	para "¡Esto tiene que"
+	line "ser un secreto!"
 
-	para "Mary weighs…"
+	para "Mary pesa..."
 
-	para "Aiyee! M-Mary!"
+	para "¡Ay! ¡M-Mary!"
 
-	para "Uh… Um… I… Sorry,"
-	line "wrong number!"
+	para "Eh... Emm... Lo"
+	line "siento, ¡número"
+	cont "equivocado!"
 	done
 
 BuenaPhoneProfessorOakText:
-	text "Yesterday, Prof."
-	line "Oak was in the"
+	text "Ayer, Prof. Oak"
+	line "estaba en el"
 
-	para "studio to tape his"
-	line "show."
+	para "estudio para"
+	line "grabar su"
+	cont "programa."
 
-	para "So I went over and"
-	line "introduced myself."
+	para "Así que fui y me"
+	line "presenté."
 
-	para "Get this--he tunes"
-	line "in to my program!"
+	para "Y flipa, ¡escucha"
+	line "mi programa!"
 
-	para "Oh! Here comes"
-	line "Prof.Oak again!"
+	para "¡Oh! ¡Aquí viene"
+	line "Prof. Oak de"
+	cont "nuevo!"
 
-	para "I'm going to chat"
-	line "him up again!"
+	para "¡Voy a hablar con"
+	line "él otra vez!"
 
-	para "Catch you later!"
+	para "¡Nos vemos!"
 	done
 
 BuenaPhoneGotAColdText:
-	text "…Cough, cough!"
+	text "...¡Cof, cof!"
 
-	para "Uhm sorry uh got"
-	line "uh code dite now."
+	para "Lho ziento,"
+	line "eztoy rzfriada."
 
-	para "Buh uma pro so uh"
-	line "hav to cover id ub"
+	para "Tero zoy una gro,"
+	line "ajhí que thengo"
+	cont "k ukultarlo"
 
-	para "so no un notice"
-	line "while uhm on air."
+	para "para kj madihe ze"
+	line "dé guenta em hl"
+	cont "aige."
 
-	para "Uh fidz muh voice"
-	line "now."
+	para "Ajhveglando mb"
+	line "vog aogra."
 
-	para "I'll catch you on"
-	line "the fly. This has"
-	cont "been Buena!"
+	para "Je bheo huego."
+	line "¡Hézhta jha jhido"
+	cont "Buena!"
 	done
 
 BuenaPhoneRadioCardQuestionsText:
-	text "Hey, <PLAYER>."
-	line "You won that Radio"
+	text "Oye, <PLAYER>."
+	line "Ganaste esa Tarj."
 
-	para "Card by beating"
-	line "the quiz at the"
+	para "Radio resolviendo"
+	line "el cuestionario"
 
-	para "reception desk,"
-	line "didn't you?"
+	para "de la recepción,"
+	line "¿verdad?"
 
-	para "Guess what? I made"
-	line "up the questions!"
+	para "¿Y sabes qué?"
+	line "¡Yo hice las"
+	cont "preguntas!"
 
-	para "…Were they too"
-	line "easy for you?"
+	para "...¿Te resultaron"
+	line "demasiado"
+	cont "fáciles?"
 
-	para "Well, let's chat"
-	line "again!"
+	para "Bueno, ¡hablamos"
+	line "luego!"
 	done
 
 BuenaPhonePikachuFanClubText:
-	text "I'm elated that"
-	line "more people are"
+	text "Me alegra que más"
+	line "gente participe"
 
-	para "taking part in my"
-	line "Password show."
+	para "en mi programa de"
+	line "Password."
 
-	para "But when Pikachu"
-	line "was the password,"
+	para "Pero cuando la"
+	line "contraseña era"
 
-	para "it was uh… whew…"
-	line "overwhelming."
+	para "Pikachu, fue eh..."
+	line "uf... agobiante."
 
-	para "Fan Club people"
-	line "came in out in"
+	para "Los del Club de"
+	line "Fans vinieron"
 
-	para "droves, shouting"
-	line "“Pikachu!” over"
+	para "en masa,"
+	line "gritando"
 
-	para "and over. I mean,"
-	line "they were loud."
+	para "“¡Pikachu!” una y"
+	line "otra vez. O sea,"
 
-	para "Anyone tuning in"
-	line "around then must"
+	para "hacían mucho"
+	line "ruido."
+	para "¡Cualquiera que"
+	line "nos escuchara"
 
-	para "have been shocked"
-	line "by the racket!"
+	para "debió flipar con"
+	line "el alboroto!"
 
-	para "Anyway, back to"
-	line "work for me!"
+	para "En fin, ¡de"
+	line "vuelta al curro!"
 
-	para "Let's chat again!"
+	para "¡Hablamos luego!"
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "Guess what?"
-	line "The Radio Tower's"
+	text "¿A que no sabes"
+	line "qué? ¡El Director"
 
-	para "Director is a big"
-	line "fan of TV!"
+	para "de la Torre Radio"
+	line "es muy fan de la"
+	cont "TV!"
 
-	para "A while ago, a"
-	line "fashion show on TV"
+	para "Hace poco, un"
+	line "programa de moda"
 
-	para "said that black"
-	line "suits were in."
+	para "dijo que los"
+	line "trajes negros"
+	cont "estaban de moda."
 
-	para "Now all he wears"
-	line "are black suits."
+	para "Ahora solo lleva"
+	line "trajes negros."
 
-	para "But it's a secret"
-	line "that our Director"
+	para "Pero es un"
+	line "secreto que el"
 
-	para "is a TV fan, so if"
-	line "you see him, don't"
+	para "Director es fan"
+	line "de la TV, así que"
 
-	para "you dare mention"
-	line "it!"
+	para "si lo ves, ¡no te"
+	line "atrevas a"
+	cont "mencionarlo!"
 
-	para "Oh! The Director"
-	line "will be here soon!"
+	para "¡Oh! ¡El Director"
+	line "llegará pronto!"
 
-	para "Later! Tune into"
-	line "my show!"
+	para "¡Adiós! ¡Pon mi"
+	line "programa!"
 	done
 
 BuenaPhoneWhenDoYouRelaxText:
-	text "<PLAYER>, tell me."
+	text "<PLAYER>, dime."
 
-	para "When do you relax"
-	line "the most?"
+	para "¿Cuándo te relajas"
+	line "más?"
 
-	para "For me, it has to"
-	line "be in the studio"
+	para "Para mí, es en el"
+	line "estudio justo"
 
-	para "right after my"
-	line "show, enjoying a"
+	para "después de mi"
+	line "show, con una"
 
-	para "nice cup of tea."
-	line "It's so pleasant"
+	para "taza de té."
+	line "Es tan agradable"
 
-	para "that it gradually"
-	line "makes me drowsy…"
+	para "que poco a poco"
+	line "me entra el"
+	cont "sueño..."
 
-	para "…… …… ……"
+	para "... ... ..."
 
-	para "…… …… ……Zzz"
+	para "... ... ...Zzz"
 
-	para "Oops, I drifted"
-	line "off just thinking"
+	para "Uy, ¡me he"
+	line "dormido solo de"
 
-	para "about it! How, uh…"
-	line "embarrassing!"
+	para "pensarlo! ¡Qué,"
+	line "eh... qué corte!"
 
-	para "Please forget this"
-	line "happened! Later!"
+	para "¡Olvida esto, por"
+	line "favor! ¡Adiós!"
 	done
 
 BuenaPhoneStarterPokemonText:
-	text "<PLAYER>, what was"
-	line "the first #mon"
-	cont "you ever caught?"
+	text "<PLAYER>, ¿cuál"
+	line "fue tu primer"
+	cont "#mon atrapado?"
 
-	para "…Oh, really?"
+	para "...Oh, ¿en serio?"
 
-	para "I've seen lots of"
-	line "#mon around,"
+	para "He visto muchos"
+	line "#mon por ahí,"
 
-	para "but I've never"
-	line "caught one."
+	para "pero nunca he"
+	line "atrapado ninguno."
 
-	para "I should give it a"
-	line "try sometime."
+	para "Debería probar"
+	line "algún día."
 
-	para "Did you know that"
-	line "the first #mon"
+	para "¿Sabías que el"
+	line "primer #mon"
 
-	para "Mary caught was a"
-	line "Drowzee?"
+	para "que Mary atrapó"
+	line "fue un Drowzee?"
 
-	para "Isn't that so out"
-	line "of character?"
+	para "¿No le pega nada,"
+	line "verdad?"
 
-	para "But Mary's Drowzee"
-	line "kept making her"
+	para "Pero el Drowzee"
+	line "de Mary no paraba"
 
-	para "fall asleep on the"
-	line "job, so she traded"
+	para "de dormirla en el"
+	line "trabajo, así que"
 
-	para "with a fan for a"
-	line "Meowth."
+	para "lo intercambió"
+	line "con un fan por"
+	cont "un Meowth."
 
-	para "Let's chat about"
-	line "#mon again!"
+	para "¡Hablemos de"
+	line "#mon otra vez!"
 
-	para "Bye-bye!"
+	para "¡Adiós!"
 	done
 
 BuenaPhoneCompanyVacationText:
-	text "Guess what? All of"
-	line "us from the Radio"
+	text "¿A que no sabes"
+	line "qué? Todos en la"
 
-	para "Tower are going on"
-	line "a company vacation"
+	para "Torre Radio vamos"
+	line "a irnos de"
+	cont "vacaciones"
 
-	para "to the Radio Tower"
-	line "in Lavender."
+	para "a la Torre Radio"
+	line "en Lavanda."
 
-	para "We're wasting our"
-	line "vacation on a trip"
+	para "¿Desperdiciamos"
+	line "nuestras"
+	cont "vacaciones yendo"
 
-	para "to another Radio"
+	para "a otra Radio"
 	line "Tower?"
 
-	para "I'd much rather go"
-	line "to the beach!"
+	para "¡Preferiría ir a"
+	line "la playa!"
 
-	para "<PLAYER>, I hope"
-	line "you have enough"
+	para "<PLAYER>, ¡espero"
+	line "que tú te"
 
-	para "fun for both of us"
-	line "on your journey!"
+	para "diviertas por las"
+	line "dos en tu viaje!"
 
-	para "Bye-bye!"
+	para "¡Adiós!"
 	done
 
 BuenaPhoneBenAndFernText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "Ben and Fern talk"
-	line "on the phone for"
+	para "Ben y Fern hablan"
+	line "por teléfono"
 
-	para "hours about what"
-	line "#mon music they"
+	para "durante horas"
+	line "sobre qué música"
 
-	para "should play on"
-	line "different days of"
-	cont "the week."
+	para "#mon poner"
+	line "cada día de la"
+	cont "semana."
 
-	para "One time, Fern's"
-	line "rapping style kind"
+	para "Una vez, el"
+	line "estilo rapero de"
 
-	para "of rubbed off on"
-	line "Ben weirdly."
+	para "Fern se le pegó"
+	line "a Ben un poco."
 
-	para "So we ended up"
-	line "enduring Ben's"
+	para "Así que nos tocó"
+	line "aguantar a Ben"
 
-	para "silly, chilly, a"
-	line "willy-nilly jive-"
-	cont "talking shtick for"
-	cont "a while."
+	para "con su tonto,"
+	line "frío, y loco rollo"
+	cont "de juerga un"
+	cont "buen rato."
 
-	para "Let's chat again!"
+	para "¡Hablemos luego!"
 	done
 
 BuenaPhoneGoingShoppingText:
-	text "I'm going shopping"
-	line "with Mary and Lily"
-	cont "soon."
+	text "Voy a ir de"
+	line "compras con Mary"
+	cont "y Lily pronto."
 
-	para "It'll be great if"
-	line "Goldenrod Dept."
+	para "Estaría genial"
+	line "que el C Comercial"
 
-	para "Store has a sale"
-	line "on when we go…"
+	para "de Trigal"
+	line "tuviera rebajas"
+	cont "cuando vayamos..."
 
-	para "<PLAYER>, maybe we"
-	line "can hook up too!"
+	para "<PLAYER>, ¡quizás"
+	line "podamos quedar"
+	cont "también!"
 
-	para "Catch you later!"
+	para "¡Nos vemos!"
 	done
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
-	text "I'm thinking of"
-	line "going to the Game"
+	text "Estoy pensando en"
+	line "ir al"
 
-	para "Corner tomorrow."
-	line "It's been a while."
+	para "Casino mañana."
+	line "Hace mucho que"
+	cont "no voy."
 
-	para "You see, I have my"
-	line "favorite machine…"
+	para "Verás, tengo mi"
+	line "máquina"
+	cont "favorita..."
 
-	para "It pays out a lot,"
-	line "I kid you not!"
+	para "Da muchos premios,"
+	line "¡no bromeo!"
 
-	para "Huh? Nuh-uh, it's"
-	line "my secret!"
+	para "¿Eh? No, no, ¡es"
+	line "mi secreto!"
 
-	para "You have to find"
-	line "it yourself!"
+	para "¡Tienes que"
+	line "encontrarla tú!"
 
-	para "Catch you later!"
+	para "¡Nos vemos!"
 	done
 
 BuenaPhonePokegearAnswerText:
-	text "Hey, <PLAYER>. You"
-	line "use your #gear"
+	text "Oye, <PLAYER>. Tú"
+	line "usas tu #gear"
 
-	para "to listen to the"
-	line "radio, right?"
+	para "para oír la"
+	line "radio, ¿verdad?"
 
-	para "I heard that you"
-	line "can even display"
+	para "He oído que"
+	line "puedes ver"
 
-	para "town maps with"
+	para "mapas con el"
 	line "#gear."
 
-	para "I have a bad sense"
-	line "of direction, so"
+	para "Tengo un pésimo"
+	line "sentido de la"
+	cont "orientación,"
 
-	para "#gear would be"
-	line "handy…"
+	para "así que el #gear"
+	line "sería útil..."
 
-	para "Anyway, thanks for"
-	line "calling! Later!"
+	para "En fin, ¡gracias"
+	line "por llamar!"
+	cont "¡Adiós!"
 	done
 
 BuenaPhoneCoopedUpInRadioTowerAnswerText:
-	text "Is it sunny"
-	line "outside today?"
+	text "¿Hace sol"
+	line "hoy fuera?"
 
-	para "When you're cooped"
-	line "up in the Radio"
+	para "Cuando estás tan"
+	line "encerrada en la"
 
-	para "Tower as much as I"
-	line "am, you lose touch"
+	para "Torre Radio"
+	line "como yo, pierdes"
 
-	para "with the outside."
-	line "It can be boring."
+	para "contacto con el"
+	line "exterior. A veces"
+	cont "es aburrido."
 
-	para "Please call again!"
+	para "¡Llama de nuevo!"
 	done

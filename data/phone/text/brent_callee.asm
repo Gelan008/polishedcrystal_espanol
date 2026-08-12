@@ -1,78 +1,81 @@
 BrentAnswerPhoneText:
-	text "Yes? "
+	text "¿Sí? Al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text "..."
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentAnswerPhoneDayText:
-	text "Yes? "
+	text "¿Sí? Al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text "..."
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentAnswerPhoneNiteText:
-	text "Yes? "
+	text "¿Sí? Al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text "..."
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentGreetText:
-	text "Hiya, <PLAYER>. How"
-	line "are you doing?"
+	text "Hola, <PLAYER>."
+	line "¿Cómo te va?"
 
-	para "Hey! It's me,"
+	para "¡Ey! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetDayText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Hola, <PLAYER>."
+	line "¿Cómo te va?"
 
-	para "Hey, it's me,"
+	para "¡Ey! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetNiteText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Hola, <PLAYER>."
+	line "¿Cómo te va?"
 
-	para "Hey, it's me,"
+	para "¡Ey! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGenericText:
-	text "Oh yeah, I saw you"
-	line "coming out of a"
+	text "Ah, sí, te vi"
+	line "salir de un"
 
-	para "#mon Center the"
-	line "other day."
+	para "Centro #mon el"
+	line "otro día."
 
-	para "You heal your"
-	line "#mon regularly,"
+	para "Curas a tus #mon"
+	line "a menudo, ¿eh?"
 
-	para "don't you?"
-	line "I'm impressed."
+	para "Me impresiona."
 
-	para "Heh, my "
+	para "Je, mi "
 	text_ram wStringBuffer4
-	line "is so tough, it"
+	text " es"
+	line "tan fuerte que no"
 
-	para "doesn't need to go"
-	line "to #mon Centers"
-	cont "often. Heheh!"
+	para "necesita ir a"
+	line "Centros #mon a"
+	cont "menudo. ¡Je, je!"
 	done

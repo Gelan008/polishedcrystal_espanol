@@ -1,52 +1,52 @@
 IrwinAnswerPhoneText:
-	text "Hello? "
+	text "¿Hola? "
 	text_ram wStringBuffer3
-	line "here…"
+	line "al habla..."
 
-	para "Hey, <PLAYER>!"
+	para "¡Eh, <PLAYER>!"
 	done
 
 IrwinAnswerPhoneDayText:
-	text "Hello? "
+	text "¿Hola? "
 	text_ram wStringBuffer3
-	line "here…"
+	line "al habla..."
 
-	para "Wow, <PLAYER>!"
+	para "¡Guau, <PLAYER>!"
 	done
 
 IrwinAnswerPhoneNiteText:
-	text "Hello? "
+	text "¿Hola? "
 	text_ram wStringBuffer3
-	line "here…"
+	line "al habla..."
 
-	para "Yippee, <PLAYER>!"
+	para "¡Yupi, <PLAYER>!"
 	done
 
 IrwinGreetText:
-	text "Uh, hello."
-	line "<PLAYER>?"
+	text "Eh, hola."
+	line "¿<PLAYER>?"
 
-	para "It's your pal,"
+	para "¡Soy tu colega,"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 IrwinGreetDayText:
-	text "Uh, hello,"
-	line "<PLAYER>?"
+	text "Eh, hola,"
+	line "¿<PLAYER>?"
 
-	para "It's your buddy"
+	para "¡Soy tu amigo"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 IrwinGreetNiteText:
-	text "Uh, hello,"
-	line "<PLAYER>?"
+	text "Eh, hola,"
+	line "¿<PLAYER>?"
 
-	para "It's your sidekick"
+	para "¡Soy tu compi"
 	line ""
 	text_ram wStringBuffer3
 	text "!"

@@ -1,64 +1,65 @@
 WiltonAnswerPhoneText:
-	text "Hello, you have"
-	line "reached "
+	text "Hola, estás"
+	line "hablando con "
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
 	para "Ah, <PLAYER>."
 	done
 
 WiltonAnswerPhoneDayText:
-	text "Hello, you have"
-	line "reached "
+	text "Hola, estás"
+	line "hablando con "
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Ah, <PLAYER>, is"
-	line "it?"
+	para "Ah, eres <PLAYER>,"
+	line "¿verdad?"
 	done
 
 WiltonAnswerPhoneNiteText:
-	text "Hello, you have"
-	line "reached "
+	text "Hola, estás"
+	line "hablando con "
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Ah, if it isn't"
+	para "Ah, si es"
 	line "<PLAYER>."
 	done
 
 WiltonGreetText:
-	text "Ah, it's "
+	text "Ah, soy "
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Have you got a"
-	line "moment?"
+	para "¿Tienes un"
+	line "momento?"
 	done
 
 WiltonGreetDayText:
-	text "Ah, it's "
+	text "Ah, soy "
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Can you talk now?"
+	para "¿Puedes hablar"
+	line "ahora?"
 	done
 
 WiltonGreetNiteText:
-	text "Ah, it's "
+	text "Ah, soy "
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Sorry for calling"
-	line "so late."
+	para "Perdón por llamar"
+	line "tan tarde."
 	done
 
 WiltonGenericText:
-	text "Have your #mon"
-	line "grown any?"
+	text "¿Han crecido algo"
+	line "tus #mon?"
 
-	para "My "
+	para "Mi "
 	text_ram wStringBuffer4
-	text " has"
-	line "grown quite a bit."
+	text " ha cre-"
+	line "cido bastante."
 	done

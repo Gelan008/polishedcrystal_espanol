@@ -1,77 +1,83 @@
 WadeAnswerPhoneText:
-	text "Hello? This is"
+	text "¿Hola? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "Oh. Hi, <PLAYER>!"
-	line "Good morning!"
+	para "Ah. ¡Hola,"
+	line "<PLAYER>!"
+	cont "¡Buenos días!"
 	done
 
 WadeAnswerPhoneDayText:
-	text "Hello? This is"
+	text "¿Hola? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "Oh, hi, <PLAYER>!"
+	para "¡Ah, hola,"
+	line "<PLAYER>!"
 	done
 
 WadeAnswerPhoneNiteText:
-	text "Hello? This is"
+	text "¿Hola? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "Oh, hi, <PLAYER>!"
-	line "Good evening!"
+	para "Ah. ¡Hola,"
+	line "<PLAYER>!"
+	cont "¡Buenas noches!"
 	done
 
 WadeGreetText:
-	text "<PLAYER>, good"
-	line "morning!"
+	text "¡<PLAYER>, bue-"
+	line "nos días!"
 
-	para "It's me, "
+	para "Soy yo, "
 	text_ram wStringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "¿A que hace bue-"
+	cont "no?"
 	done
 
 WadeGreetDayText:
-	text "<PLAYER>, howdy!"
+	text "¡<PLAYER>, hola!"
 
-	para "It's me, "
+	para "Soy yo, "
 	text_ram wStringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "¿A que hace bue-"
+	cont "no?"
 	done
 
 WadeGreetNiteText:
-	text "Good evening,"
+	text "¡Buenas noches,"
 	line "<PLAYER>!"
 
-	para "It's me, "
+	para "Soy yo, "
 	text_ram wStringBuffer3
 	text "."
-	line "Were you awake?"
+	line "¿Estabas despier-"
+	cont "to?"
 	done
 
 WadeGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "¿Cómo están tus"
+	line "#mon?"
 
-	para "My #mon have"
-	line "too much energy to"
+	para "Mis #mon tie-"
+	line "nen demasiada"
 
-	para "burn. It gets to"
-	line "be a problem."
+	para "energía. Y llega a"
+	line "ser un problema."
 
-	para "Of all my #mon,"
+	para "De todos ellos,"
 	line ""
 	text_ram wStringBuffer4
-	text " is the"
-	cont "hardest to handle."
+	text " es el más"
+	cont "difícil de tratar."
 
-	para "Working with it is"
-	line "exhausting."
+	para "Trabajar con él"
+	line "es agotador."
 	done

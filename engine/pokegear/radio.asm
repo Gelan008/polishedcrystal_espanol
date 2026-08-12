@@ -281,10 +281,10 @@ OPT_IntroText1:
 	; MARY: PROF.OAK'S
 	text_farend _OPT_IntroText1
 OPT_IntroText2:
-	; #MON TALK!
+	; ¡LA HORA OAK!
 	text_farend _OPT_IntroText2
 OPT_IntroText3:
-	; With me, MARY!
+	; ¡Conmigo, MARY!
 	text_farend _OPT_IntroText3
 OPT_OakText1:
 	; OAK: @ @

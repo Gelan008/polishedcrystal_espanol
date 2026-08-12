@@ -441,7 +441,7 @@ RadioTower1FLassText:
 
 RadioTower1FYoungsterText:
 	text "I love Mary, from"
-	line "#mon Talk."
+	line "La Hora Oak."
 
 	para "I only know what"
 	line "she sounds like,"

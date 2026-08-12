@@ -1,63 +1,67 @@
 KenjiHangUpText:
-	text "Anyway, we'll chat"
-	line "again!"
+	text "Como sea, ¡hablare-"
+	line "mos de nuevo!"
 	done
 
 KenjiRemainDedicatedText:
-	text "Are you still on"
-	line "your journey?"
+	text "¿Aún sigues en tu"
+	line "viaje?"
 
-	para "I remain dedicated"
-	line "to my training."
+	para "Yo sigo dedicado a"
+	line "mi entrenamiento."
 
-	para "Oooooaaarrrgh!"
+	para "¡Uuuaaarrrg!"
 	done
 
 KenjiCallMeBackAnotherTimeText:
-	text "I'm in training"
-	line "now. I apologize,"
+	text "Estoy entrenando"
+	line "ahora. Lo siento,"
 
-	para "but call me back"
-	line "another time."
+	para "pero llámame de"
+	line "nuevo en otro"
+	cont "momento."
 
-	para "Oooooaaarrrgh!"
+	para "¡Uuuaaarrrg!"
 	done
 
 KenjiIllHaveTimeToChatTomorrowText:
-	text "I apologize, but I"
-	line "don't have time to"
+	text "Lo siento, ¡pero"
+	line "no tengo tiempo"
 
-	para "chat while I am in"
-	line "training!"
+	para "para hablar mien-"
+	line "tras entreno!"
 
-	para "I'll have time to"
-	line "chat tomorrow!"
+	para "¡Tendré tiempo"
+	line "mañana!"
 
-	para "Yiiihah!"
+	para "¡Iiiaaah!"
 	done
 
 KenjiHangUpMorningText:
-	text "I plan to take a"
-	line "lunch break, so"
+	text "Voy a hacer una"
+	line "pausa para comer,"
 
-	para "come see me then!"
-	line "Ayiiiyah!"
+	para "¡así que ven a"
+	line "verme entonces!"
+
+	para "¡Aiiiaaah!"
 	done
 
 KenjiTakingABreakText:
-	text "I'm taking a break"
-	line "on Route 45!"
+	text "¡Estoy tomando un"
+	line "descanso en la"
+	cont "Ruta 45!"
 
-	para "Why not drop by if"
-	line "you are free?"
+	para "¿Por qué no pasas"
+	line "si estás libre?"
 	done
 
 KenjiHangUpNightText:
-	text "I rested up over"
-	line "my lunch break."
+	text "Descansé mucho en"
+	line "la pausa de comer."
 
-	para "Now it's time to"
-	line "resume training!"
+	para "¡Ahora toca"
+	line "seguir entrenando!"
 
-	para "Oooryaah!"
+	para "¡Uuuryaaah!"
 	done

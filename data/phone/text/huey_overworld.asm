@@ -1,80 +1,86 @@
 HueyAskNumber1Text:
-	text "Cool! That's the"
-	line "first time I've"
-	cont "lost in a while!"
+	text "¡Guay! ¡Es la pri-"
+	line "mera vez que pier-"
+	cont "do en mucho!"
 
-	para "Hey, give me your"
-	line "phone number."
+	para "Oye, dame tu"
+	line "número de telé-"
+	cont "fono."
 
-	para "You'd be fun to"
-	line "battle, so I'll"
+	para "Sería divertido"
+	line "luchar, así que"
 
-	para "call you when I"
-	line "get stronger!"
+	para "¡te llamaré cuan-"
+	line "do sea más"
+	cont "fuerte!"
 	done
 
 HueyAskNumber2Text:
-	text "Hey, give me your"
-	line "phone number."
+	text "Oye, dame tu"
+	line "número de telé-"
+	cont "fono."
 
-	para "You'd be fun to"
-	line "battle, so I'll"
+	para "Sería divertido"
+	line "luchar, así que"
 
-	para "call you when I"
-	line "get stronger!"
+	para "¡te llamaré cuan-"
+	line "do sea más"
+	cont "fuerte!"
 	done
 
 HueyNumberAcceptedText:
-	text "Hey, let's battle"
-	line "again!"
+	text "¡Oye, luchemos"
+	line "de nuevo!"
 	done
 
 HueyNumberDeclinedText:
-	text "Looks like you're"
-	line "a wimp…"
+	text "Parece que eres"
+	line "un cobarde..."
 	done
 
 HueyPhoneFullText:
-	text "Hey! Your phone's"
-	line "already full!"
+	text "¡Oye! ¡Tu teléfo-"
+	line "no está lleno!"
 	done
 
 HueyRematchText:
-	text "Hey! I'm tired of"
-	line "waiting for you!"
+	text "¡Eh! ¡Me he can-"
+	line "sado de esperar!"
 	done
 
 HueyPackFullText:
-	text "Oh… Your Bag's"
-	line "full. I'll give it"
-	cont "to you later."
+	text "Vaya... Tu Mochi-"
+	line "la está llena."
+	cont "Te lo daré luego."
 	done
 
 HueyRematchGiftText:
-	text "Man! You're as"
-	line "tough as ever!"
+	text "¡Tío! ¡Eres tan"
+	line "duro como siempre!"
 
-	para "I've battled you"
-	line "over and over, but"
+	para "He luchado con-"
+	line "tigo muchas veces,"
 
-	para "<PLAYER>, I haven't"
-	line "won once."
+	para "<PLAYER>, pero no he"
+	line "ganado ni una vez."
 
-	para "I bought tons of"
-	line "items to toughen"
+	para "Compré muchos"
+	line "objetos para for-"
 
-	para "up my #mon, but"
-	line "to no avail…"
+	para "talecer a mis"
+	line "#mon, pero de"
+	cont "nada ha servido..."
 
-	para "Items alone aren't"
-	line "the answer."
+	para "Los objetos por"
+	line "sí solos no lo"
+	cont "son todo."
 
-	para "That must be what"
-	line "it is…"
+	para "Eso debe ser lo"
+	line "que pasa..."
 
-	para "Here, take this,"
+	para "Toma esto,"
 	line "<PLAYER>."
 
-	para "I won't be needing"
-	line "it anymore…"
+	para "Yo ya no lo"
+	line "necesitaré..."
 	done

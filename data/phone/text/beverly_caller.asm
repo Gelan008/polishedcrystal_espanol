@@ -1,81 +1,84 @@
 BeverlyMadeMonEvenCuterText:
-	text "I fancied up my"
+	text "¡Adorné a mi"
 	line ""
 	text_ram wStringBuffer4
-	text " and"
+	text " y lo"
 
-	para "made it even cuter"
-	line "than before!"
+	para "hice aún más mono"
+	line "que antes!"
 	done
 
 BeverlyDefeatedMonText:
-	text "I happened to come"
-	line "across a wild"
-	cont "Snubbull recently."
+	text "Hace poco me"
+	line "encontré con un"
+	cont "Snubbull salvaje."
 
-	para "My Snubbull, I"
-	line "assure you, was"
+	para "Te aseguro que mi"
+	line "Snubbull era mucho"
 
-	para "far cuter than the"
-	line "wild one."
+	para "más bonito que"
+	line "el salvaje."
 	done
 
 BeverlyLostAMonText:
-	text "I happened to see"
-	line "a wild Marill the"
+	text "El otro día me"
+	line "pareció ver un"
 
-	para "other day."
-	line "Or so I thought."
+	para "Marill salvaje."
+	line "O eso pensaba."
 
-	para "A closer look"
-	line "showed it was"
-
-	para ""
+	para "Al mirar de cerca,"
+	line "vi que era "
+	cont ""
 	text_ram wStringBuffer4
-	text ". I was"
-	line "quite miffed."
+	text "."
+
+	para "Me enfadé un"
+	line "montón."
 	done
 
 BeverlyHangUpText:
-	text "You can expect a"
-	line "call from me."
+	text "Pronto volveré a"
+	line "llamarte."
 	done
 
 BeverlyFoundItemText:
-	text "My husband got"
-	line "some Nuggets."
+	text "Mi marido ha"
+	line "conseguido Nuggets"
 
-	para "If you'd like, you"
-	line "could have one as"
+	para "Si quieres,"
+	line "puedo darte uno"
 
-	para "thanks for helping"
-	line "me out."
+	para "como agradeci-"
+	line "miento por tu"
+	cont "ayuda."
 
-	para "I'll be at"
+	para "Estaré en"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Please come see me"
-	line "when you can."
+	para "Por favor, ven a"
+	line "verme cuando"
+	cont "puedas."
 	done
 
 BeverlyLetsChatAboutMonAgainText:
-	text "Are your #mon"
-	line "in prime form?"
+	text "¿Tus #mon están"
+	line "en plena forma?"
 
-	para "Let's chat about"
-	line "#mon again."
+	para "Hablemos sobre"
+	line "#mon otra vez."
 	done
 
 BeverlyComePickUpText:
-	text "Pardon?"
-	line "Oh, the Nugget?"
+	text "¿Perdón?"
+	line "¿Oh, las Pepitas?"
 
-	para "There's no need to"
-	line "hurry. Come see me"
+	para "No hay prisa."
+	line "Ven a verme a"
 
-	para "in "
+	para ""
 	text_ram wStringBuffer5
-	line "when you can."
+	line "cuando puedas."
 	done

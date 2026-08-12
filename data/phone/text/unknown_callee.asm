@@ -1,30 +1,30 @@
 UnknownGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "¿Cómo están tus"
+	line "#mon?"
 
-	para "My #mon are a"
-	line "bit too energetic."
+	para "Mis #mon tie-"
+	line "nen mucha energía."
 
-	para ""
+	para "Especialmente,"
+	line ""
 	text_ram wStringBuffer4
-	text ","
-	line "especially."
+	text "."
 
-	para "Every time it"
-	line "spots a trainer,"
-	cont "it has to battle."
+	para "Cada vez que ve a"
+	line "un entrenador,"
+	cont "tiene que luchar."
 
-	para "It gets to be a"
-	line "bit much for me!"
+	para "¡Llega a ser dema-"
+	line "siado para mí!"
 	done
 
 UnknownTougherThanEverText:
-	text "My "
+	text "Mi "
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking tougher"
-	cont "than ever."
+	text " pare-"
+	line "ce más fuerte"
+	cont "que nunca."
 
-	para "It looks even"
-	line "tougher than me!"
+	para "¡Parece más"
+	line "fuerte que yo!"
 	done

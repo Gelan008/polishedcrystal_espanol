@@ -1,73 +1,76 @@
 JoeyAnswerPhoneText:
-	text "Hi, "
+	text "¡Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "¡Ah, <PLAYER>!"
+	line "¿Todo bien?"
 	done
 
 JoeyAnswerPhoneDayText:
-	text "Hi, "
+	text "¡Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "¡Ah, <PLAYER>!"
+	line "¿Todo bien?"
 	done
 
 JoeyAnswerPhoneNiteText:
-	text "Hi, "
+	text "¡Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "¡Ah, <PLAYER>!"
+	line "¿Todo bien?"
 	done
 
 JoeyGreetText:
-	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	text "¡Ey, <PLAYER>!"
+	line "¿Cómo te va?"
 
-	para "This is "
+	para "Soy "
 	text_ram wStringBuffer3
 	text ","
-	line "got a minute?"
+	line "¿tienes un minuto?"
 	done
 
 JoeyGreetDayText:
-	text "Yo, <PLAYER>! How's"
-	line "it going?"
+	text "¡Ey, <PLAYER>!"
+	line "¿Cómo te va?"
 
-	para "This is "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Got a minute?"
+	line "¿Tienes un minuto?"
 	done
 
 JoeyGreetNiteText:
-	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	text "¡Ey, <PLAYER>!"
+	line "¿Cómo te va?"
 
-	para "This is "
+	para "Soy "
 	text_ram wStringBuffer3
 	text ","
-	line "got a minute?"
+	line "¿tienes un minuto?"
 	done
 
 JoeyGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "¿Cómo están tus"
+	line "#mon?"
 
-	para "My "
+	para "Mi "
 	text_ram wStringBuffer4
-	text "'s"
-	line "raring to go, just"
-	cont "like always."
+	text " está"
+	line "listo para luchar,"
+	cont "como siempre."
 
-	para "It's the only one"
-	line "I have. I'm going"
+	para "Es el único que"
+	line "tengo. ¡Voy a ser"
 
-	para "to become a great"
-	line "trainer with it!"
+	para "un gran entrena-"
+	line "dor con él!"
 	done

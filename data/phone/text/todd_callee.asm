@@ -1,70 +1,69 @@
 ToddAnswerPhoneText:
-	text "Yes? This is"
+	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "Hey, <PLAYER>!"
+	para "¡Eh, <PLAYER>!"
 	done
 
 ToddAnswerPhoneDayText:
-	text "Yes? This is"
+	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "This must be"
+	para "Tú debes ser"
 	line "<PLAYER>."
 	done
 
 ToddAnswerPhoneNiteText:
-	text "Yes? This is"
+	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "Ah, <PLAYER>!"
+	para "¡Ah, <PLAYER>!"
 	done
 
 ToddGreetText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAYER>, right?"
+	para "<PLAYER>, ¿verdad?"
 	done
 
 ToddGreetDayText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAYER>, what are"
-	line "you doing?"
+	para "<PLAYER>, ¿qué es-"
+	line "tás haciendo?"
 	done
 
 ToddGreetNiteText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAYER>, sorry to"
-	line "call you so late."
+	para "<PLAYER>, perdona"
+	line "la hora."
 	done
 
 ToddGenericText:
-	text "How do you raise"
-	line "your #mon?"
+	text "¿Cómo entrenas a"
+	line "tus #mon?"
 
-	para "I do all sorts"
-	line "of things, like"
+	para "Yo hago de todo,"
+	line "como dejarlos en"
 
-	para "leaving them in"
-	line "Day-Care and"
+	para "la Guardería y"
+	line "fortalecerlos"
 
-	para "toughening them up"
-	line "with items."
+	para "con objetos."
 	done

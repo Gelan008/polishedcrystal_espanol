@@ -1,72 +1,73 @@
 JoseAskNumber1Text:
-	text "If my "
+	text "Si mi "
 	text_ram wStringBuffer4
-	line "sees anything"
+	line "ve alguna cosa"
 
-	para "pretty, it goes"
-	line "and gets it."
+	para "bonita, va y la"
+	line "coge."
 
-	para "Do you like pretty"
-	line "things?"
+	para "¿Te gustan las"
+	line "cosas bonitas?"
 
-	para "I could share if"
-	line "it gets some more."
+	para "Podría compartir"
+	line "si coge más."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "¿Me das tu núme-"
+	line "ro? Te llamaré."
 
-	para "Don't expect a"
-	line "whole lot, OK?"
+	para "No esperes gran"
+	line "cosa, ¿vale?"
 	done
 
 JoseAskNumber2Text:
-	text "Do you like pretty"
-	line "things?"
+	text "¿Te gustan las"
+	line "cosas bonitas?"
 
-	para "I could share if"
-	line "Farfetch'd goes"
-	cont "and gets more."
+	para "Te las daré si"
+	line "Farfetch'd"
+	cont "coge más."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "¿Me das tu núme-"
+	line "ro? Te llamaré."
 	done
 
 JoseNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I get"
-	cont "something pretty."
+	text "Te llamaré en"
+	line "cuanto tenga"
+	cont "algo bonito."
 	done
 
 JoseNumberDeclinedText:
-	text "You sure? Well,"
-	line "tell me if you"
-	cont "change your mind."
+	text "¿Seguro? Bueno,"
+	line "avísame si cam-"
+	cont "bias de idea."
 	done
 
 JosePhoneFullText:
-	text "Huh? Your phone"
-	line "list is full."
+	text "¿Eh? Tu lista de"
+	line "teléfonos está"
+	cont "llena."
 	done
 
 JoseRematchText:
-	text "Tweet! Tweeeet!"
+	text "¡Pío! ¡Píiiiiiio!"
 
-	para "Kept me waiting!"
-	line "Go, Farfetch'd!"
+	para "¡Te hiciste rogar!"
+	line "¡Ve, Farfetch'd!"
 	done
 
 JoseGiftText:
-	text "Kept me waiting!"
-	line "Look, this is it!"
+	text "¡Te hiciste rogar!"
+	line "¡Mira, aquí está!"
 
-	para "See? Isn't it some"
-	line "kind of pretty?"
+	para "¿Ves? ¿A que es"
+	line "muy bonito?"
 	done
 
 JosePackFullText:
-	text "Huh? You don't"
-	line "have anywhere to"
+	text "¿Eh? No tienes"
+	line "espacio para po-"
 
-	para "put this. Better"
-	line "come back for it."
+	para "ner esto. Mejor"
+	line "vuelve a por ello."
 	done

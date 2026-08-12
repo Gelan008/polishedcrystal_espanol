@@ -1,64 +1,68 @@
 VanceMonHasBecomeTougherText:
-	text "My "
+	text "Mi "
 	text_ram wStringBuffer4
-	text "'s"
-	line "become tougher."
+	text " se ha"
+	line "vuelto más fuerte."
 
-	para "We've achieved"
-	line "liftoff!"
+	para "¡Hemos logrado"
+	line "despegar!"
 	done
 
 VanceDefeatedMonText:
-	text "We can easily beat"
-	line ""
+	text "¡Ganamos fácilmen-"
+	line "te a "
 	text_ram wStringBuffer4
 	text "!"
 
-	para "…Huh? You too?"
-	line "Isn't that great?"
+	para "...¿Eh? ¿Tú"
+	line "también? ¿A que"
+	cont "es genial?"
 	done
 
 VanceLostAMonText:
-	text "But get this, a"
-	line "wild "
+	text "Pero mira esto,"
+	line "un "
 	text_ram wStringBuffer4
+	text " sal-"
 
-	para "just barely eluded"
-	line "us."
+	para "vaje apenas nos"
+	line "eludió."
 
-	para "I wanted to Fly"
-	line "after it…"
+	para "Quería usar Vuelo"
+	line "para ir a por él..."
 	done
 
 VanceBattleRematchText:
-	text "Right now, I'm on"
-	line ""
+	text "Ahora mismo, estoy"
+	line "en "
 	text_ram wStringBuffer5
 	text "."
 
-	para "You know, where I"
-	line "first met you?"
+	para "Ya sabes, ¿donde"
+	line "te conocí?"
 
-	para "Want to battle?"
-	line "I'll wait here."
+	para "¿Quieres luchar?"
+	line "Te espero aquí."
 	done
 
 VanceHangUpText:
-	text "OK, bye for now!"
+	text "¡Vale, hasta lue-"
+	line "go!"
 	done
 
 VanceLookingForwardText:
-	text "I'll be looking"
-	line "forward to our"
-	cont "next battle!"
+	text "¡Estaré esperando"
+	line "con ganas nues-"
+	cont "tro próximo"
+	cont "combate!"
 	done
 
 VanceHurryHurryText:
-	text "Oh, <PLAYER>!"
-	line "Hurry, hurry!"
+	text "¡Ay, <PLAYER>!"
+	line "¡Prisa, prisa!"
 
-	para ""
+	para "¡"
 	text_ram wStringBuffer5
 	text "!"
-	line "Fly over now!"
+	line "¡Usa Vuelo ya!"
 	done

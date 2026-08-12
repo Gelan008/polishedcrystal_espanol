@@ -1,63 +1,66 @@
 TiffanyAskNumber1Text:
-	text "Hey! You like"
-	line "Clefairy too?"
+	text "¡Eh! ¿A ti también"
+	line "te gusta Clefairy?"
 
-	para "They're so very"
-	line "cute, aren't they?"
+	para "Son tan bonitos,"
+	line "¿verdad que sí?"
 
-	para "I think we can be"
-	line "good friends!"
+	para "¡Creo que podemos"
+	line "ser buenos amigos!"
 
-	para "I want to know"
-	line "your phone number!"
+	para "¡Quiero saber tu"
+	line "número de teléfo-"
+	cont "no!"
 
-	para "Let's talk about"
+	para "¡Hablemos sobre"
 	line "Clefairy!"
 	done
 
 TiffanyAskNumber2Text:
-	text "I want to know"
-	line "your phone number!"
+	text "¡Quiero saber tu"
+	line "número de teléfo-"
+	cont "no!"
 
-	para "Let's talk about"
+	para "¡Hablemos sobre"
 	line "Clefairy!"
 	done
 
 TiffanyNumberAcceptedText:
-	text "Isn't my Clefairy"
-	line "super adorable?"
+	text "¿A que mi Clefairy"
+	line "es superadorable?"
 	done
 
 TiffanyNumberDeclinedText:
-	text "Aww… Oh well."
-	line "Look for me if you"
+	text "Oh... Vaya."
+	line "Búscame si quie-"
 
-	para "want to talk about"
+	para "res hablar sobre"
 	line "Clefairy."
 	done
 
 TiffanyPhoneFullText:
-	text "Oh? Your phone"
-	line "registry is full."
+	text "¿Oh? Tu lista de"
+	line "teléfonos está"
+	cont "llena."
 	done
 
 TiffanyRematchText:
-	text "There you are!"
+	text "¡Ahí estás!"
 
-	para "Clefairy, I want"
-	line "you to try hard!"
+	para "¡Clefairy, quiero"
+	line "que te esfuerces!"
 	done
 
 TiffanyGiftText:
-	text "You took a long"
-	line "time. See this?"
+	text "Has tardado mucho."
+	line "¿Ves esto?"
 
-	para "Isn't it cute?"
-	line "It's my Clefairy's"
-	cont "FairyFeather."
+	para "¿No es lindo? Es"
+	line "la PlumaFeérica de"
+	cont "mi Clefairy."
 	done
 
 TiffanyPackFullText:
-	text "Uh-oh. Your Bag"
-	line "is crammed full."
+	text "Oh, oh. Tu Mochila"
+	line "está llenísima."
 	done

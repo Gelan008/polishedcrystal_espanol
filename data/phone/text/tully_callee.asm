@@ -1,67 +1,67 @@
 TullyAnswerPhoneText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "Oh, Good morning,"
+	para "Oh. Buenos días,"
 	line "<PLAYER>."
 	done
 
 TullyAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "That voice…"
-	line "<PLAYER>, right?"
+	para "Esa voz..."
+	line "<PLAYER>, ¿verdad?"
 	done
 
 TullyAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text "…"
+	text "..."
 
-	para "This must be"
+	para "¡Debes de ser"
 	line "<PLAYER>!"
 	done
 
 TullyGreetText:
-	text "Hello!"
+	text "¡Hola!"
 	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text " al habla..."
 
-	para "Good morning! The"
-	line "weather's great!"
+	para "¡Buenos días! ¡El"
+	line "clima es genial!"
 	done
 
 TullyGreetDayText:
-	text "Hello!"
+	text "¡Hola!"
 	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text " al habla..."
 
-	para "What a perfect day"
-	line "for fishing!"
+	para "¡Qué día perfecto"
+	line "para pescar!"
 	done
 
 TullyGreetNiteText:
-	text "Hello!"
+	text "¡Hola!"
 	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text " al habla..."
 
-	para "It's a great night"
-	line "for fishing!"
+	para "¡Qué gran noche"
+	line "para pescar!"
 	done
 
 TullyGenericText:
-	text "How's your trip"
-	line "coming along?"
+	text "¿Cómo va tu"
+	line "viaje?"
 
-	para "I can't complain"
-	line "about my fishing!"
+	para "¡No me puedo que-"
+	line "jar de mi pesca!"
 	done

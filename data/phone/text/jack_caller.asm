@@ -1,196 +1,199 @@
 JackIntelligenceKeepsRisingText:
-	text "My "
+	text "La inteligencia"
+	line "de mi "
+	cont ""
 	text_ram wStringBuffer4
-	text "'s"
-	line "intelligence keeps"
+	text ""
 
-	para "rising. It might"
-	line "be smarter than"
-	cont "yours!"
+	para "va en aumento."
+	line "¡Podría ser más"
+	cont "listo que el tuyo!"
 	done
 
 JackDefeatedMonText:
-	text "The other day, I"
-	line "easily defeated a"
+	text "El otro día ven-"
+	line "cí fácil a un"
 	cont ""
 	text_ram wStringBuffer4
 	text "."
 
-	para "I think swapping"
-	line "tips with you is"
-	cont "starting to help."
+	para "Creo que intercam-"
+	line "biar consejos con-"
+	cont "tigo está"
+	cont "ayudando."
 	done
 
 JackLostAMonText:
-	text "Oh, and listen."
-	line "I missed catching"
+	text "Ah, y escucha."
+	line "Fallé al atrapar a"
 
-	para "a "
+	para "un "
 	text_ram wStringBuffer4
-	text " by"
-	line "just a tiny bit."
+	text " por"
+	line "muy poquito."
 
-	para "If I'd been a bit"
-	line "more informed, I'm"
+	para "Si hubiera estado"
+	line "más informado, se-"
 
-	para "sure I would've"
-	line "caught it…"
+	para "guro que lo habría"
+	line "atrapado..."
 	done
 
 JackBattleRematchText:
-	text "Do you want to"
-	line "battle? I'll show"
+	text "¿Quieres luchar?"
+	line "Te enseñaré cómo"
 
-	para "you how to battle"
-	line "logically."
+	para "luchar de forma"
+	line "lógica."
 
-	para "I'll be in"
+	para "Estaré en"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout if"
-	line "you're nearby."
+	para "Avísame si estás"
+	line "cerca."
 	done
 
 JackHangUpText:
-	text "See you later!"
+	text "¡Hasta luego!"
 	done
 
 JackThunderTriviaText:
-	text "Did you know?"
+	text "¿Lo sabías?"
 
-	para "When it's raining,"
-	line "Thunder is sure to"
-	cont "strike."
+	para "Cuando llueve,"
+	line "Trueno acierta"
+	cont "seguro."
 	done
 
 JackRolloutTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "If you use Defense"
-	line "Curl, Rollout's"
+	para "Si usas Rizo De-"
+	line "fensa, Desenrollar"
 
-	para "power goes way up"
-	line "past normal."
+	para "será mucho más"
+	line "fuerte de lo"
+	cont "normal."
 	done
 
 JackSolarbeamTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "If the sunlight is"
-	line "harsh, Solar Beam"
+	para "Si el sol brilla"
+	line "fuerte, Rayo Solar"
 
-	para "doesn't need to be"
-	line "charged up."
+	para "no necesita ser"
+	line "cargado."
 	done
 
 JackStompTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "If the opponent"
-	line "uses Minimize,"
+	para "Si tu rival usa"
+	line "Reducción,"
 
-	para "your Stomp becomes"
-	line "more powerful."
+	para "tu Pisotón será"
+	line "más poderoso."
 	done
 
 JackGustTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "If your opponent"
-	line "is Flying, your"
+	para "Si tu rival usa"
+	line "Vuelo, tu Tornado"
 
-	para "Gust becomes much"
-	line "more powerful."
+	para "se volverá mucho"
+	line "más poderoso."
 	done
 
 JackKnockOffTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "If your opponent"
-	line "is holding an item"
+	para "Si tu rival lleva"
+	line "un objeto que tu"
 
-	para "that your Knock"
-	line "Off can remove,"
+	para "Desarme le puede"
+	line "quitar, entonces"
 
-	para "your Knock Off"
-	line "becomes more"
-	cont "powerful."
+	para "tu Desarme se vol-"
+	line "verá más poderoso."
 	done
 
 JackEarthquakeTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "If your opponent"
-	line "uses Dig, your"
+	para "Si el rival usa"
+	line "Excavar, tu"
 
-	para "Earthquake becomes"
-	line "more powerful."
+	para "Terremoto será"
+	line "más poderoso."
 	done
 
 JackMagnitudeTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "If your opponent"
-	line "uses Dig, your"
+	para "Si el rival usa"
+	line "Excavar, tu"
 
-	para "Magnitude becomes"
-	line "more powerful."
+	para "Magnitud será"
+	line "más poderosa."
 	done
 
 JackSandstormTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "The Rock, Ground"
-	line "and Steel types"
+	para "A los tipos Roca,"
+	line "Tierra y Acero"
 
-	para "can't be hurt by"
-	line "Sandstorm."
+	para "no les hace daño"
+	line "Torm. Arena."
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "If the sunlight is"
-	line "harsh, Water-type"
+	para "Si el sol brilla"
+	line "fuerte, los movi-"
 
-	para "moves become much"
-	line "weaker."
+	para "mientos tipo Agua"
+	line "son más débiles."
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "¿Sabías que...?"
 
-	para "When it's raining,"
-	line "Fire-type moves"
+	para "Cuando llueve,"
+	line "los movimientos de"
 
-	para "become much weaker"
-	line "than usual."
+	para "tipo Fuego son más"
+	line "débiles que de"
+	cont "costumbre."
 	done
 
 JackHeardSomeGreatTipsText:
-	text "My friend heard"
-	line "some great tips."
+	text "Mi amigo escuchó"
+	line "buenos consejos."
 
-	para "He's going to let"
-	line "me in on some."
+	para "Me va a contar"
+	line "algunos."
 
-	para "When he tells me,"
-	line "I'll call right"
-	cont "away and tell you."
+	para "Cuando me los di-"
+	line "ga, te llamaré"
+	cont "para contártelos."
 	done
 
 JackReminderText:
-	text "Hey, <PLAYER>!"
+	text "¡Eh, <PLAYER>!"
 
-	para "Do you remember"
-	line "your promise?"
+	para "¿Te acuerdas de tu"
+	line "promesa?"
 
-	para "We have to battle"
-	line "soon!"
+	para "¡Tenemos que lu-"
+	line "char pronto!"
 
-	para "I'll be at"
+	para "Estaré en"
 	line ""
 	text_ram wStringBuffer5
 	text "."

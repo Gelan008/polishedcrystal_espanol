@@ -1,78 +1,78 @@
 TiffanyAnswerPhoneText:
-	text "Yes? This is"
+	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
 	para "Oh, <PLAYER>."
-	line "Good morning."
+	line "Buenos días."
 	done
 
 TiffanyAnswerPhoneDayText:
-	text "Yes? This is"
+	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
 	para "Oh, <PLAYER>."
-	line "Hello."
+	line "Hola."
 	done
 
 TiffanyAnswerPhoneNiteText:
-	text "Yes? This is"
+	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh, <PLAYER>, good"
-	line "evening."
+	para "Oh, <PLAYER>, bue-"
+	line "nas noches."
 	done
 
 TiffanyGreetText:
-	text "Is this <PLAYER>?"
+	text "¿Eres tú, <PLAYER>?"
 
-	para "Good morning. This"
-	line "is "
+	para "Buenos días. Soy"
+	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 TiffanyGreetDayText:
-	text "Is this <PLAYER>?"
+	text "¿Eres tú, <PLAYER>?"
 
-	para "Hi, it's "
+	para "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
 	done
 
 TiffanyGreetNiteText:
-	text "Is this <PLAYER>?"
+	text "¿Eres tú, <PLAYER>?"
 
-	para "Good evening. This"
-	line "is "
+	para "Buenas noches."
+	line "Soy "
 	text_ram wStringBuffer3
 	text "."
 	done
 
 TiffanyGenericText:
-	text "Are your #mon"
-	line "doing well?"
+	text "¿Tus #mon es-"
+	line "tán bien?"
 
-	para "I hope you take"
-	line "them to a #mon"
-	cont "Center every day."
+	para "Espero que los"
+	line "lleves al Centro"
+	cont "#mon cada día."
 
-	para "Don't push them"
-	line "too hard."
+	para "No les exijas de-"
+	line "masiado."
 
-	para "My "
+	para "Mi "
 	text_ram wStringBuffer4
-	text " is"
-	line "cute and lively"
+	text " es"
+	line "mono y alegre"
 
-	para "precisely because"
-	line "I take it to a"
+	para "precisamente por-"
+	line "que lo llevo a un"
 
-	para "#mon Center"
-	line "every day."
+	para "Centro #mon"
+	line "todos los días."
 	done

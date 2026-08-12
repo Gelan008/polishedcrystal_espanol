@@ -1,64 +1,64 @@
 DerekAnswerPhoneText:
-	text "Hi, <PLAYER>?"
+	text "¿Hola, <PLAYER>?"
 
-	para "Good morning pika."
-	line "What's up pika?"
+	para "Buenos días pika."
+	line "¿Qué pasa pika?"
 	done
 
 DerekAnswerPhoneDayText:
-	text "Hi, <PLAYER>?"
+	text "¿Hola, <PLAYER>?"
 
-	para "Good day pika,"
-	line "what's up pika?"
+	para "Buenas pika,"
+	line "¿qué pasa pika?"
 	done
 
 DerekAnswerPhoneNiteText:
-	text "Hi, <PLAYER>?"
+	text "¿Hola, <PLAYER>?"
 
-	para "Good evening pika,"
-	line "what's up pika?"
+	para "Buenas noches pika"
+	line "¿qué pasa pika?"
 	done
 
 DerekGreetText:
-	text "<PLAYER> pika, good"
-	line "morning!"
+	text "¡<PLAYER> pika,"
+	line "buenos días!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
-	text ", how"
-	line "pika are you?"
+	text ", ¿cómo"
+	line "pika estás?"
 	done
 
 DerekGreetDayText:
-	text "<PLAYER> pika, good"
-	line "pika day!"
+	text "¡<PLAYER> pika,"
+	line "buenas pika!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
-	text ", how"
-	line "pika are you?"
+	text ", ¿cómo"
+	line "pika estás?"
 	done
 
 DerekGreetNiteText:
-	text "<PLAYER> pika, good"
-	line "evening!"
+	text "¡<PLAYER> pika,"
+	line "buenas noches!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
-	text ". Were"
-	line "you pika awake?"
+	text ". ¿Estás"
+	line "pika despierto?"
 	done
 
 DerekGenericText:
-	text "You have to hear"
-	line "this! My lovable"
+	text "¡Tienes que oír"
+	line "esto! ¡Mi amable"
 
 	para ""
 	text_ram wStringBuffer4
-	text " looked"
-	line "at me and grinned!"
+	text " me miró"
+	line "y me sonrió!"
 
-	para "It must be because"
-	line "our hearts beat"
-	cont "together as one!"
+	para "¡Debe ser porque"
+	line "nuestros corazo-"
+	cont "nes laten unidos!"
 	done

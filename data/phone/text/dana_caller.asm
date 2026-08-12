@@ -1,109 +1,118 @@
 DanaTakingPhotosText:
-	text "My "
+	text "¡Mi "
 	text_ram wStringBuffer4
-	text " is"
-	line "getting prettier!"
+	text " se"
+	line "está poniendo más"
+	cont "guapo!"
 
-	para "I've been taking"
-	line "photos galore!"
+	para "¡He estado"
+	line "sacando muchas"
+	cont "fotos!"
 	done
 
 DanaDefeatedMonText:
-	text "It took only an"
-	line "instant to KO a"
-	cont "wild "
+	text "Solo he tardado"
+	line "un instante en"
+	cont "vencer a un "
+	cont ""
 	text_ram wStringBuffer4
-	text "."
+	text ""
 
-	para "It must be because"
-	line "you gave me some"
+	para "salvaje. Debe ser"
+	line "porque me diste"
+	cont "unos consejos"
 
-	para "battling tips last"
-	line "time."
+	para "para luchar."
 	done
 
 DanaLostAMonText:
-	text "You know what?"
-	line "A wild "
+	text "¿Sabes qué? Un"
+	line ""
 	text_ram wStringBuffer4
+	text " salvaje"
 
-	para "got away from me"
-	line "again."
+	para "se me ha vuelto"
+	line "a escapar."
 
-	para "It was so close!"
-	line "Really, just a"
+	para "¡Ha faltado muy"
+	line "poco! De verdad,"
 
-	para "little bit more,"
-	line "and I would've…"
+	para "un poquito más"
+	line "y lo habría..."
 	done
 
 DanaBattleRematchText:
-	text "Right now, I'm on"
-	line ""
+	text "Ahora mismo"
+	line "estoy en"
+
+	para ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "If you're close"
-	line "by, let's battle!"
+	para "Si andas cerca,"
+	line "¡vamos a luchar!"
 
-	para "I'll be waiting"
-	line "for you!"
+	para "¡Te estaré"
+	line "esperando!"
 	done
 
 DanaHangUpText:
-	text "See you!"
+	text "¡Nos vemos!"
 	done
 
 DanaFoundItemText:
-	text "You know what?"
-	line "I got a good gift!"
+	text "¿Sabes qué? ¡He"
+	line "conseguido un"
+	cont "buen regalo!"
 
-	para "As I promised,"
-	line "it's yours!"
+	para "Como prometí,"
+	line "¡es para ti!"
 
-	para "I'm sure you'd"
-	line "like it. Come get"
+	para "Seguro que te"
+	line "gusta. ¡Ven a por"
 
-	para "it! I'm waiting on"
+	para "él! Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 DanaCanYouWaitABitLongerText:
-	text "Oh! You wanted a"
-	line "gift, right?"
+	text "¡Ah! Querías un"
+	line "regalo, ¿verdad?"
 
-	para "I got one, but I"
-	line "want to keep this."
+	para "He conseguido uno,"
+	line "pero este me lo"
+	cont "quiero quedar."
 
-	para "Can you wait a bit"
-	line "longer?"
+	para "¿Puedes esperar"
+	line "un poco más?"
 	done
 
 DanaReminderText:
-	text "Hi! You haven't"
-	line "forgotten about"
+	text "¡Hola! ¿No te"
+	line "habrás olvidado"
+	cont "de tu promesa de"
 
-	para "your promise to"
-	line "battle me?"
+	para "luchar conmigo?"
 
-	para "I'm waiting on"
+	para "Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 DanaComePickUpText:
-	text "Hello?"
+	text "¿Hola?"
 
-	para "If you don't come"
-	line "get your present"
+	para "Si no vienes"
+	line "pronto a por tu"
 
-	para "soon, I'll give it"
-	line "to someone else."
+	para "regalo, se lo"
+	line "daré a otra"
+	cont "persona."
 
-	para "I'm waiting on"
+	para "Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

@@ -1,103 +1,101 @@
 WiltonMonHasGrownText:
-	text "My "
+	text "¡Mi "
 	text_ram wStringBuffer4
-	text "'s"
-	line "grown impressive!"
+	text " ha"
+	line "crecido mucho!"
 
-	para "My fishing skills"
-	line "have improved too!"
+	para "¡Mis habilidades"
+	line "de pesca también!"
 	done
 
 WiltonDefeatedMonText:
-	text "We beat a wild"
+	text "Vencimos a un"
 	line ""
 	text_ram wStringBuffer4
-	text "…"
+	text " salvaje..."
 
-	para "You know, I have"
-	line "more fun fishing"
+	para "Sabes, me divier-"
+	line "te más pescar que"
 
-	para "than beating wild"
-	line "#mon."
+	para "vencer a #mon"
+	line "salvajes."
 	done
 
 WiltonLostAMonText:
-	text "But a while back,"
-	line "we came this close"
+	text "Pero hace un rato"
+	line "estuvimos a esto"
 
-	para "to landing a wild"
+	para "de pescar a un"
 	line ""
 	text_ram wStringBuffer4
-	text "."
+	text " salvaje."
 
-	para "I tell you, it was"
-	line "huge. Believe me."
+	para "Te digo que era"
+	line "enorme. Créeme."
 	done
 
 WiltonBattleRematchText:
-	text "I'm fishing on"
+	text "Estoy pescando en"
 	line ""
 	text_ram wStringBuffer5
 	text ","
 
-	para "but nothing's"
-	line "biting today."
+	para "pero hoy no pican."
 
-	para "Help me while my"
-	line "time away, come"
-	cont "over for a battle."
+	para "Ayúdame a pasar"
+	line "el rato, ven a"
+	cont "echar un combate."
 	done
 
 WiltonHangUpText:
-	text "All right, later."
+	text "Vale, hasta luego."
 	done
 
 WiltonFoundItemText:
-	text "I snagged an item"
-	line "while fishing."
+	text "Atrapé un objeto"
+	line "mientras pescaba."
 
-	para "Come pick it up on"
+	para "Ven a por él a"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 WiltonHaventFoundAnythingText:
-	text "Nah, I haven't"
-	line "found anything"
+	text "Nah, no he encon-"
+	line "trado nada que"
 
-	para "that's worth your"
-	line "time."
+	para "valga la pena."
 
-	para "You have to have"
-	line "patience."
+	para "Tienes que tener"
+	line "paciencia."
 	done
 
 WiltonNotBitingText:
-	text "Sigh…"
-	line "They're not biting"
+	text "Ay..."
+	line "Ya no pican como"
 
-	para "like before on"
+	para "antes en"
 	line ""
 	text_ram wStringBuffer5
-	text "…"
+	text "..."
 
-	para "You have to come"
-	line "for a battle!"
+	para "¡Tienes que venir"
+	line "para un combate!"
 	done
 
 WiltonWantThisText:
-	text "Don't you want"
-	line "this item?"
+	text "¿No quieres este"
+	line "objeto?"
 
-	para "Hah? You don't"
-	line "know where?"
+	para "¿Eh? ¿Que no sa-"
+	line "bes dónde estoy?"
 
-	para ""
+	para "En "
 	text_ram wStringBuffer5
-	text "…"
-	line "Just head from"
+	text "..."
+	line "¡Solo ve desde"
 
-	para "Mahogany toward"
-	line "Blackthorn!"
+	para "Caoba hacia En-"
+	line "drino!"
 	done

@@ -490,7 +490,7 @@ OaksAssistant3Text:
 	text "Don't tell anyone,"
 	line "but Prof.Oak's"
 
-	para "#mon Talk isn't"
+	para "La Hora Oak isn't"
 	line "a live broadcast."
 	done
 
