@@ -26,9 +26,9 @@ PokemonJournalBlueScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "Leader Blue!"
+	line "Leader Azul!"
 
-	para "Blue supposedly"
+	para "Azul supposedly"
 	line "visits his cher-"
 	cont "ished #mon"
 

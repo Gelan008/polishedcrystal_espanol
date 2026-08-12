@@ -36,7 +36,7 @@ RadioTower4FDJMaryScript:
 	iftruefwd .ClearedRockets
 	jumpthisopenedtext
 
-	text "Mary: Why? Why do"
+	text "Rosa: Why? Why do"
 	line "I have to suffer"
 	cont "through this?"
 
@@ -51,7 +51,7 @@ RadioTower4FDJMaryScript:
 	setevent EVENT_GOT_FAIRYFEATHER_FROM_MARY
 	jumpthisopenedtext
 
-	text "Mary: It's just"
+	text "Rosa: It's just"
 	line "right for #mon"
 
 	para "that know Fairy-"
@@ -105,7 +105,7 @@ RadioTower4FFisherText:
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "Mary: Oh! You're"
+	text "Rosa: Oh! You're"
 	line "my little savior!"
 
 	para "Will you take this"
@@ -113,7 +113,7 @@ RadioTower4FDJMaryText_ClearedRockets:
 	done
 
 RadioTower4FDJMaryText_After:
-	text "Mary: Por favor"
+	text "Rosa: Por favor"
 	line "sintonizanos en"
 
 	para "La Hora Oak"

@@ -387,7 +387,7 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	text "So far so good!"
 	line "Question 4:"
 
-	para "Does Kurt, the"
+	para "Does César, the"
 	line "# Ball creator,"
 
 	para "use apricots as"
@@ -440,7 +440,7 @@ RadioTower1FLassText:
 	done
 
 RadioTower1FYoungsterText:
-	text "I love Mary, from"
+	text "Con amor Rosa, en"
 	line "La Hora Oak."
 
 	para "I only know what"
@@ -469,7 +469,7 @@ GruntM3BeatenText:
 	done
 
 RadioTower1FWhitney1Text:
-	text "Hi! I'm Whitney!"
+	text "Hi! I'm Blanca!"
 
 	para "I heard about the"
 	line "quiz to win a"
@@ -483,7 +483,7 @@ RadioTower1FWhitney1Text:
 	done
 
 RadioTower1FWhitney2Text:
-	text "Whitney: Wow, you"
+	text "Blanca: Wow, you"
 	line "did it!"
 
 	para "I thought the"

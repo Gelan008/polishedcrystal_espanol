@@ -400,7 +400,7 @@ OakOpenMtSilverText:
 
 	para "…"
 
-	para "I let Red train on"
+	para "I let Rojo train on"
 	line "Mt.Silver after"
 
 	para "his first defeat"

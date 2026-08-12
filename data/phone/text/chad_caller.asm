@@ -165,12 +165,12 @@ ChadPokemonTalkGossipText:
 
 	para "Pero la energía y"
 	line "persistencia de"
-	cont "Mary le"
+	cont "Rosa le"
 	cont "convencieron."
 
 	para "¡Así que tenemos"
 	line "que agradecérselo"
-	cont "a Mary!"
+	cont "a Rosa!"
 	done
 
 ChadProfOakTrainerGossipText:

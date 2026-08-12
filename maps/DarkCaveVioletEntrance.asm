@@ -121,7 +121,7 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 	step_end
 
 DarkCaveVioletEntranceFalknerAttackText:
-	text "Falkner: Use Wing"
+	text "Pegaso: Use Wing"
 	line "Attack, Pidgeotto!"
 	done
 
@@ -142,7 +142,7 @@ DarkCaveVioletEntranceFalknerDarkIntroText:
 	prompt
 
 DarkCaveVioletEntranceFalknerExplanationText:
-	text "I'm Falkner, the"
+	text "I'm Pegaso, the"
 	line "Violet #mon"
 	cont "Gym Leader."
 
@@ -170,7 +170,7 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	done
 
 DarkCaveVioletEntranceFalknerDarknessText:
-	text "Falkner: Is"
+	text "Pegaso: Is"
 	line "someone there?"
 
 	para "Don't come any"
@@ -181,7 +181,7 @@ DarkCaveVioletEntranceFalknerDarknessText:
 	done
 
 DarkCaveVioletEntranceFalknerProgressAnywayText:
-	text "Falkner: Is"
+	text "Pegaso: Is"
 	line "someone there?"
 
 	para "It's reckless to"

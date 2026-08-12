@@ -102,7 +102,7 @@ SECTION "FalknerGroup", ROMX
 FalknerGroup:
 
 	def_trainer_class FALKNER
-	def_trainer 1, "Falkner"
+	def_trainer 1, "Pegaso"
 	tr_mon 10, NATU, MALE
 		tr_extra SYNCHRONIZE
 		tr_evs 32 HP
@@ -117,7 +117,7 @@ FalknerGroup:
 		tr_moves GUST, MUD_SLAP, QUICK_ATTACK, ROOST
 	end_trainer
 
-	def_trainer 2, "Falkner"
+	def_trainer 2, "Pegaso"
 	tr_mon 73, NOCTOWL @ WIDE_LENS, MALE
 		tr_extra TINTED_LENS, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SAt
@@ -153,7 +153,7 @@ SECTION "BugsyGroup", ROMX
 BugsyGroup:
 
 	def_trainer_class BUGSY
-	def_trainer 1, "Bugsy"
+	def_trainer 1, "Antón"
 	tr_mon 17, SCYTHER, FEMALE
 		tr_extra SWARM
 		tr_evs 64 Atk
@@ -171,7 +171,7 @@ BugsyGroup:
 		tr_moves FORESIGHT, QUICK_ATTACK, DOUBLE_TEAM, SONIC_BOOM
 	end_trainer
 
-	def_trainer 2, "Bugsy"
+	def_trainer 2, "Antón"
 	tr_mon 71, LEDIAN @ LIGHT_CLAY, FEMALE
 		tr_extra IRON_FIST, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
@@ -207,7 +207,7 @@ SECTION "WhitneyGroup", ROMX
 WhitneyGroup:
 
 	def_trainer_class WHITNEY
-	def_trainer 1, "Whitney"
+	def_trainer 1, "Blanca"
 	tr_mon 19, CLEFAIRY, FEMALE
 		tr_extra CUTE_CHARM
 		tr_evs 96 HP
@@ -226,7 +226,7 @@ WhitneyGroup:
 		tr_moves DEFENSE_CURL, STOMP, FRESH_SNACK, ROLLOUT
 	end_trainer
 
-	def_trainer 2, "Whitney"
+	def_trainer 2, "Blanca"
 	tr_mon 71, LICKILICKY @ LEFTOVERS, FEMALE
 		tr_extra OBLIVIOUS, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
@@ -1424,7 +1424,7 @@ SECTION "RedGroup", ROMX
 RedGroup:
 
 	def_trainer_class RED
-	def_trainer 1, "Red"
+	def_trainer 1, "Rojo"
 	tr_mon 86, LAPRAS @ WHITE_HERB, MALE
 		tr_extra WATER_ABSORB, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -1462,7 +1462,7 @@ SECTION "LeafGroup", ROMX
 LeafGroup:
 
 	def_trainer_class LEAF
-	def_trainer 1, "Green"
+	def_trainer 1, "Hoja"
 	tr_mon 96, GENGAR @ BLACK_SLUDGE, FEMALE
 if DEF(FAITHFUL)
 		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
@@ -5663,7 +5663,7 @@ SwimmerFGroup:
 		tr_moves DRAGON_RAGE, SMOKESCREEN, LEER, BUBBLE_BEAM
 	end_trainer
 
-	def_trainer MARY, "Mary"
+	def_trainer MARY, "Rosa"
 	tr_mon 20, GYARADOS
 	end_trainer
 
@@ -9111,7 +9111,7 @@ SECTION "YellowGroup", ROMX
 YellowGroup:
 
 	def_trainer_class YELLOW
-	def_trainer 1, "Yellow"
+	def_trainer 1, "Amarill"
 	tr_mon LEVEL_FROM_BADGES + 5, "Ratty", RATTATA @ SITRUS_BERRY, FEMALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_evs 240 Atk
@@ -9138,7 +9138,7 @@ YellowGroup:
 		tr_moves SURF, FLY, THUNDERBOLT, QUICK_ATTACK
 	end_trainer
 
-	def_trainer 2, "Yellow"
+	def_trainer 2, "Amarill"
 	tr_mon 72, "Omny", OMASTAR @ FOCUS_SASH, FEMALE
 		tr_extra SHELL_ARMOR, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe

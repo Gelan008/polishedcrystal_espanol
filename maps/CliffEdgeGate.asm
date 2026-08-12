@@ -58,7 +58,7 @@ ProfOaksAide3Script:
 GenericTrainerGruntM12:
 	generictrainer GRUNTM, 12, EVENT_BEAT_ROCKET_GRUNTM_12, GruntM12SeenText, GruntM12BeatenText
 
-	text "Yellow Forest is"
+	text "Bosq. Amarillo is"
 	line "full of rare"
 	cont "#mon."
 
@@ -67,7 +67,7 @@ GenericTrainerGruntM12:
 	done
 
 CliffEdgeGateReceptionistText:
-	text "Yellow Forest is"
+	text "Bosq. Amarillo is"
 	line "this way!"
 
 	para "It's a popular"

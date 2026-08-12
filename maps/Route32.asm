@@ -918,7 +918,7 @@ Bird_keeperPeterSeenText:
 	text "That Badge! It's"
 	line "from Violet City!"
 
-	para "You beat Falkner?"
+	para "You beat Pegaso?"
 	done
 
 Bird_keeperPeterBeatenText:

@@ -64,8 +64,8 @@ GenericTrainerCooltrainerfCarol:
 GenericTrainerPokemaniacEthan:
 	generictrainer POKEMANIAC, ETHAN, EVENT_BEAT_POKEMANIAC_ETHAN, PokemaniacEthanSeenText, PokemaniacEthanBeatenText
 
-	text "Lily's nice, but"
-	line "Mary's the best!"
+	text "Lily es genial y"
+	line "¡Rosa es la mejor!"
 
 	para "I want to check"
 	line "out Johto's radio"

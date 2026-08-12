@@ -158,7 +158,7 @@ PokemonJournalWalkerScript:
 	para "Special Feature:"
 	line "Ex-Leader Walker!"
 
-	para "Falkner's father"
+	para "Pegaso's father"
 	line "Walker is rumored"
 
 	para "to be wandering"

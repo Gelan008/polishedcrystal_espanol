@@ -230,7 +230,7 @@ VioletCityCooltrainerFText:
 	done
 
 VioletCityGrampsText:
-	text "Falkner, from the"
+	text "Pegaso, from the"
 	line "Violet #mon"
 
 	para "Gym, is a fine"
@@ -283,7 +283,7 @@ VioletCitySignText:
 VioletGymSignText:
 	text "Violet City"
 	line "#mon Gym"
-	cont "Leader: Falkner"
+	cont "Leader: Pegaso"
 
 	para "The Elegant Master"
 	line "of Flying #mon"

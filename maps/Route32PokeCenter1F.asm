@@ -26,9 +26,9 @@ PokemonJournalKurtScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "Craftsman Kurt!"
+	line "Craftsman César!"
 
-	para "Kurt does not let"
+	para "César does not let"
 	line "anyone near while"
 
 	para "he is making #"
@@ -118,7 +118,7 @@ Route32PokeCenter1FPokefanMScript:
 	line "catches #mon"
 	cont "hooked on a Rod!"
 
-	para "Kurt of Azalea"
+	para "César of Azalea"
 	line "Town made it from"
 	cont "an Apricorn."
 
@@ -152,7 +152,7 @@ Route32PokeCenter1FPokefanMScript:
 	done
 
 .Text5:
-	text "Kurt is the hero"
+	text "César is the hero"
 	line "of every Apricorn"
 	cont "collector."
 

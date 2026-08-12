@@ -29,7 +29,7 @@ GenericTrainerBird_keeperDenis:
 
 	text "My #mon learned"
 	line "how to use Fly in"
-	cont "the Yellow Forest."
+	cont "the Bosq Amarillo."
 
 	para "Well, since I'm a"
 	line "loser, I'll Fly"

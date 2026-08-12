@@ -180,7 +180,7 @@ ViridianGymStatue:
 	jumpstd gymstatue2
 
 LeaderBlueBeforeText:
-	text "Blue: Yo! Finally"
+	text "Azul: Yo! Finally"
 	line "got here, huh?"
 
 	para "I wasn't in the"
@@ -213,7 +213,7 @@ LeaderBlueBeforeText:
 	done
 
 LeaderBlueWinText:
-	text "Blue: What?"
+	text "Azul: What?"
 
 	para "How the heck did I"
 	line "lose to you?"
@@ -228,13 +228,13 @@ LeaderBlueWinText:
 	done
 
 LeaderBlueAfterText:
-	text "Blue: Here! Take"
+	text "Azul: Here! Take"
 	line "this as well!"
 	done
 
 
 LeaderBlueEpilogueText:
-	text "Blue: Listen, you."
+	text "Azul: Listen, you."
 
 	para "You'd better not"
 	line "lose until I beat"

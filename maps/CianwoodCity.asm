@@ -340,7 +340,7 @@ CianwoodPhotoStudioSignText:
 CianwoodCliffEdgeGateSignText:
 	text "Cliff Edge Gate"
 
-	para "Yellow Forest is"
+	para "Bosq. Amarillo is"
 	line "just ahead!"
 	done
 

@@ -66,7 +66,7 @@ PalletTownSignText:
 	done
 
 RedsHouseSignText:
-	text "Red's House"
+	text "Casa de Rojo"
 	done
 
 OaksLabSignText:
@@ -75,5 +75,5 @@ OaksLabSignText:
 	done
 
 BluesHouseSignText:
-	text "Blue's House"
+	text "Casa de Azul"
 	done

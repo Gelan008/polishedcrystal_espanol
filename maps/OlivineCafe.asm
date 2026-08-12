@@ -156,7 +156,7 @@ OlivineCafeLyraText2:
 	line "get going."
 
 	para "I want to see the"
-	line "Yellow Forest in"
+	line "Bosq. Amarillo in"
 
 	para "Cianwood before I"
 	line "go back home."

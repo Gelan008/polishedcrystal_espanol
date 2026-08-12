@@ -234,13 +234,13 @@ MapFightingDojoSignpost2Script:
 	iftruefwd .saturday_agatha
 	jumpthisopenedtext
 
-	text "Saturday: Whitney,"
+	text "Saturday: Blanca,"
 	line "Chuck, ???"
 	done
 .saturday_agatha
 	jumpthisopenedtext
 
-	text "Saturday: Whitney,"
+	text "Saturday: Blanca,"
 	line "Chuck, Agatha"
 	done
 
@@ -578,7 +578,7 @@ WalkerText_Greeting:
 	para "Seems like I just"
 	line "missed my son"
 
-	para "Falkner here"
+	para "Pegaso here"
 	line "earlier…"
 
 	para "How about if we"
@@ -761,12 +761,12 @@ FightingDojoScheduleSundayText:
 	done
 
 FightingDojoScheduleMondayText:
-	text "Monday: Falkner,"
+	text "Monday: Pegaso,"
 	line "Janine, ???"
 	done
 
 FightingDojoScheduleMondayWalkerText:
-	text "Monday: Falkner,"
+	text "Monday: Pegaso,"
 	line "Janine, Walker"
 	done
 
@@ -782,7 +782,7 @@ FightingDojoScheduleTuesdayLoreleiText:
 
 FightingDojoScheduleWednesdayText:
 	text "Wednesday: Brock,"
-	line "Misty, Blue"
+	line "Misty, Azul"
 	done
 
 FightingDojoScheduleThursdayText:
@@ -802,5 +802,5 @@ FightingDojoScheduleFridayText:
 
 FightingDojoScheduleFridayYellowText:
 	text "Friday: Lt.Surge,"
-	line "Yellow, Clair"
+	line "Amarillo, Clair"
 	done

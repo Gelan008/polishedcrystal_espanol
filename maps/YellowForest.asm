@@ -359,7 +359,7 @@ YellowForestWalkerAfterText:
 	line "can see why you"
 
 	para "won against"
-	line "Falkner."
+	line "Pegaso."
 
 	para "You know your"
 	line "#mon inside"
@@ -398,8 +398,8 @@ YellowForestWalkerFlyText:
 	done
 
 YellowForestYellowGreetingText:
-	text "Yellow: Hi!"
-	line "I'm Yellow!"
+	text "Amarillo: Hi!"
+	line "I'm Amarillo!"
 
 	para "This forest full"
 	line "of Pikachu…"
@@ -437,7 +437,7 @@ YellowForestYellowWinLossText:
 	done
 
 YellowForestYellowAfterText:
-	text "Yellow: Wow!"
+	text "Amarillo: Wow!"
 	line "You really are a"
 
 	para "good trainer."
@@ -448,7 +448,7 @@ YellowForestYellowAfterText:
 	done
 
 YellowForestYellowGoodbyeText:
-	text "Yellow: Give that"
+	text "Amarillo: Give that"
 	line "Light Ball to a"
 
 	para "Pikachu to raise"

@@ -31,10 +31,10 @@ PokemonJournalFalknerScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "Leader Falkner!"
+	line "Leader Pegaso!"
 
 	para "People say that"
-	line "Falkner reveres"
+	line "Pegaso reveres"
 	cont "his father, who"
 
 	para "led the Violet Gym"

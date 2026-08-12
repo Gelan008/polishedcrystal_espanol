@@ -300,9 +300,9 @@ PokemonJournalWhitneyScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "Leader Whitney!"
+	line "Leader Blanca!"
 
-	para "Whitney is said to"
+	para "Blanca is said to"
 	line "admire Bruno of"
 	cont "the Elite Four."
 	done

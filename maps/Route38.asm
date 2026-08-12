@@ -27,7 +27,7 @@ GenericTrainerBird_keeperToby:
 	generictrainer BIRD_KEEPER, TOBY, EVENT_BEAT_BIRD_KEEPER_TOBY, Bird_keeperTobySeenText, Bird_keeperTobyBeatenText
 
 	text "I plan to train in"
-	line "the Yellow Forest"
+	line "the Bosq. Amarillo"
 
 	para "to teach my #-"
 	line "mon how to Fly."

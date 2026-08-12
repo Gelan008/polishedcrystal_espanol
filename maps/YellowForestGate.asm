@@ -39,7 +39,7 @@ YellowForestGateNurseScript:
 YellowForestGateOfficerText:
 	text "There are rare"
 	line "#mon in"
-	cont "Yellow Forest!"
+	cont "Amarillo Forest!"
 
 	para "Don't forget to"
 	line "bring # Balls!"

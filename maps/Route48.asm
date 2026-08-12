@@ -206,5 +206,5 @@ Route48YellowForestSignText:
 	text "Route 48"
 
 	para "North to"
-	line "Yellow Forest"
+	line "Bosq Amarillo"
 	done

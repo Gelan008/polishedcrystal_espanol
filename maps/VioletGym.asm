@@ -88,7 +88,7 @@ VioletGymFalknerScript:
 GenericTrainerBird_keeperRod:
 	generictrainer BIRD_KEEPER, ROD, EVENT_BEAT_BIRD_KEEPER_ROD, Bird_keeperRodSeenText, Bird_keeperRodBeatenText
 
-	text "Falkner's skills"
+	text "Pegaso's skills"
 	line "are for real!"
 
 	para "Don't get cocky"
@@ -142,7 +142,7 @@ VioletGymStatue:
 	jumpstd gymstatue3
 
 FalknerIntroText:
-	text "I'm Falkner, the"
+	text "I'm Pegaso, the"
 	line "Violet #mon Gym"
 	cont "Leader!"
 
@@ -227,7 +227,7 @@ Bird_keeperRodBeatenText:
 Bird_keeperAbeSeenText:
 	text "Let me see if you"
 	line "are good enough to"
-	cont "face Falkner!"
+	cont "face Pegaso!"
 	done
 
 Bird_keeperAbeBeatenText:
@@ -246,7 +246,7 @@ VioletGymGuyWinText:
 
 VioletGymGuyFalknerAwayText:
 	text "Hey! You can't"
-	line "challenge Falkner"
+	line "challenge Pegaso"
 	cont "right now."
 
 	para "He's in Dark Cave"

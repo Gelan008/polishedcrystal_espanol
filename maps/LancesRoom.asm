@@ -254,7 +254,7 @@ LanceScript:
 	done
 
 .MaryText1:
-	text "Mary: Oh, no!"
+	text "Rosa: Oh, no!"
 	line "It's all over!"
 
 	para "Prof.Oak, if you"
@@ -324,7 +324,7 @@ LanceScript:
 	done
 
 .MaryText2:
-	text "Mary: Let's inter-"
+	text "Rosa: Let's inter-"
 	line "view the brand new"
 	cont "Champion!"
 	done
@@ -339,7 +339,7 @@ LanceScript:
 	done
 
 .MaryText3:
-	text "Mary: Oh, wait!"
+	text "Rosa: Oh, wait!"
 	line "We haven't done"
 	cont "the interview!"
 	done

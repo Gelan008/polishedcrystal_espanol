@@ -206,7 +206,7 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	para "tree, she told me"
 	line "it's dangerous."
 
-	para "If I beat Whitney,"
+	para "If I beat Blanca,"
 	line "I wonder if she'll"
 
 	para "lend me her water"
@@ -215,7 +215,7 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
 	text "Wow, you beat"
-	line "Whitney? Cool!"
+	line "Blanca? Cool!"
 
 	para "Maybe you can take"
 	line "care of the jiggly"

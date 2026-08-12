@@ -402,7 +402,7 @@ GoldenrodCityRocket6Text:
 	done
 
 GoldenrodCityGymLassText:
-	text "Whitney isn't here"
+	text "Blanca isn't here"
 	line "right now."
 
 	para "She bolted out of"
@@ -433,7 +433,7 @@ GoldenrodDeptStoreSignText:
 GoldenrodGymSignText:
 	text "Goldenrod City"
 	line "#mon Gym"
-	cont "Leader: Whitney"
+	cont "Leader: Blanca"
 
 	para "The Incredibly"
 	line "Pretty Girl!"

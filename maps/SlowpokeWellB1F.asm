@@ -137,7 +137,7 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 KurtLeaveSlowpokeWellText:
-	text "Kurt: Way to go,"
+	text "César: Way to go,"
 	line "<PLAYER>!"
 
 	para "Team Rocket has"

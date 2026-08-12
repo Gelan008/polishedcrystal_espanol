@@ -223,12 +223,13 @@ GenericTrainerCamperSpencer:
 GenericTrainerPokemaniacBen:
 	generictrainer POKEMANIAC, BEN, EVENT_BEAT_POKEMANIAC_BEN, PokemaniacBenSeenText, PokemaniacBenBeatenText
 
-	text "What else do I"
-	line "like besides"
+	text "¿Qué más me gusta"
+	line "aparte de los"
 	cont "#mon?"
 
-	para "Mary on the radio."
-	line "I bet she's cute!"
+	para "Rosa en la radio."
+	line "¡Seguro que es"
+	cont "muy maja!"
 	done
 
 TrainerPokemaniacBrent1:
@@ -343,7 +344,7 @@ GenericTrainerPokemaniacRon:
 GenericTrainerFisherMarvin:
 	generictrainer FISHER, MARVIN, EVENT_BEAT_FISHER_MARVIN, FisherMarvinSeenText, FisherMarvinBeatenText
 
-	text "Kurt's Lure Ball"
+	text "César's Lure Ball"
 	line "is the best for"
 
 	para "catching hooked"

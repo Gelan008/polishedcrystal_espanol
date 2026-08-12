@@ -47,7 +47,7 @@ AzaleaPokeCenter1FCooltrainermScript:
 	text "For a guy who"
 	line "makes # Balls,"
 
-	para "Kurt isn't much of"
+	para "César isn't much of"
 	line "a trainer."
 
 	para "He does have a"
@@ -58,7 +58,7 @@ AzaleaPokeCenter1FCooltrainermScript:
 	done
 
 .NiteText:
-	text "Kurt and Prof.Oak"
+	text "César and Prof.Oak"
 	line "are old friends."
 
 	para "They're also close"

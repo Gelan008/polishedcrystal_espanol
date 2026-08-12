@@ -58,12 +58,12 @@ GenericTrainerBird_keeperBryan:
 	line "right away."
 
 	para "Try catching them"
-	line "with Kurt's Fast"
+	line "with César's Fast"
 	cont "Ball."
 
 	para "Whenever I find a"
 	line "Wht Apricorn, I"
-	cont "take it to Kurt."
+	cont "take it to César."
 
 	para "He turns it into a"
 	line "custom Ball."

@@ -72,7 +72,7 @@ if !DEF(DEBUG)
 	line "to see that you're"
 	cont "a trainer…"
 
-	para "My name's Blue."
+	para "My name's Azul."
 
 	para "I was once the"
 	line "Champion, although"

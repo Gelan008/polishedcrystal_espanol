@@ -395,7 +395,7 @@ InitialRadioText2:
 	done
 
 InitialRadioText3:
-	text "This is DJ Mary,"
+	text "This is DJ Rosa,"
 	line "your co-host!"
 	done
 

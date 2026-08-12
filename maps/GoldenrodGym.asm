@@ -113,7 +113,7 @@ GenericTrainerSrandjrJoandcath1:
 	line "junior Cath to"
 
 	para "earn a Badge"
-	line "from Whitney."
+	line "from Blanca."
 
 	para "She's improving"
 	line "gradually."
@@ -123,7 +123,7 @@ GenericTrainerSrandjrJoandcath2:
 	generictrainer SR_AND_JR, JOANDCATH2, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath2SeenText, SrandjrJoandcath2BeatenText
 
 	text "Cath: I keep on"
-	line "losing to Whitney."
+	line "losing to Blanca."
 	cont "It's depressing."
 
 	para "I'm OK! If I lose,"
@@ -196,7 +196,7 @@ JoWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Hi! I'm Whitney!"
+	text "Hi! I'm Blanca!"
 
 	para "Everyone was into"
 	line "#mon, so I got"
@@ -270,7 +270,7 @@ LassCathyBeatenText:
 
 SrandjrJoandcath1SeenText:
 	text "Jo: If you want to"
-	line "face Whitney,"
+	line "face Blanca,"
 
 	para "you'll have to go"
 	line "through me!"
@@ -286,7 +286,7 @@ SrandjrJoandcath1BeatenText:
 
 SrandjrJoandcath2SeenText:
 	text "Cath: I'm trying"
-	line "to beat Whitney,"
+	line "to beat Blanca,"
 	cont "but my senior and"
 
 	para "I can beat you"
@@ -300,7 +300,7 @@ SrandjrJoandcath2BeatenText:
 
 JoWhitneyCriesText:
 	text "Oh, no. You made"
-	line "Whitney cry."
+	line "Blanca cry."
 
 	para "It's OK. She'll"
 	line "stop soon. She"

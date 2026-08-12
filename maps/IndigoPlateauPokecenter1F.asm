@@ -395,7 +395,7 @@ IndigoPlateauYellowScript:
 	end
 
 .PartyAndBoxFullText:
-	text "Yellow: Oh…"
+	text "Amarillo: Oh…"
 	line "You can't carry"
 
 	para "another #mon"
@@ -406,7 +406,7 @@ IndigoPlateauYellowScript:
 	done
 
 .GreetingText:
-	text "Yellow: Hi,"
+	text "Amarillo: Hi,"
 	line "<PLAYER>!"
 
 	para "I was watching the"
@@ -424,7 +424,7 @@ IndigoPlateauYellowScript:
 	done
 
 .QuestionText:
-	text "Yellow: <PLAYER>,"
+	text "Amarillo: <PLAYER>,"
 	line "can you do me a"
 	cont "favor?"
 
@@ -440,19 +440,19 @@ IndigoPlateauYellowScript:
 	done
 
 .GiveStarterText:
-	text "Yellow: Thanks,"
+	text "Amarillo: Thanks,"
 	line "<PLAYER>! Here"
 	cont "you go!"
 	done
 
 .RefusedText:
-	text "Yellow: Oh…"
+	text "Amarillo: Oh…"
 	line "But what about the"
 	cont "#mon?"
 	done
 
 .GoodbyeText:
-	text "Yellow: You take"
+	text "Amarillo: You take"
 	line "good care of that"
 
 	para ""

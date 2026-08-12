@@ -25,7 +25,7 @@ AzaleaMartCooltrainermText:
 	para "Balls will have"
 	line "to do."
 
-	para "I wish Kurt would"
+	para "I wish César would"
 	line "make me some of"
 	cont "his custom Balls."
 	done
@@ -36,7 +36,7 @@ AzaleaMartBugCatcherText:
 	cont "ing #mon than a"
 	cont "# Ball."
 
-	para "But Kurt's might"
+	para "But César's might"
 	line "be better some-"
 	cont "times."
 	done
@@ -57,7 +57,7 @@ AzaleaMartRockerText:
 	text "The prototype"
 	line "versions of"
 
-	para "Kurt's balls had"
+	para "César's balls had"
 	line "some problems."
 
 	para "Love Balls used"

@@ -480,12 +480,12 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	cont "lesson in pain!"
 
 	para "Hang on, Slowpoke!"
-	line "Old Kurt is on his"
+	line "Old César is on his"
 	cont "way!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
-	text "Kurt: Hi, <PLAYER>!"
+	text "César: Hi, <PLAYER>!"
 
 	para "You handled your-"
 	line "self like a real"
@@ -507,7 +507,7 @@ KurtsHouseKurtHonoredToMakeBallsText:
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "Kurt: I make Balls"
+	text "César: I make Balls"
 	line "from Apricorns."
 
 	para "Collect them from"
@@ -519,7 +519,7 @@ KurtsHouseKurtBallsFromApricornsText:
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "Kurt: You have an"
+	text "César: You have an"
 	line "Apricorn for me?"
 
 	para "Fine! I'll turn it"
@@ -527,12 +527,12 @@ KurtsHouseKurtAskYouHaveAnApricornText:
 	done
 
 KurtsHouseKurtGetStartedText:
-	text "Kurt: I'll get"
+	text "César: I'll get"
 	line "started right now!"
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "Kurt: It'll take a"
+	text "César: It'll take a"
 	line "while to make you"
 
 	para "a Ball. Come back"
@@ -540,23 +540,23 @@ KurtsHouseKurtItWillTakeADayText:
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "Kurt: Oh…"
+	text "César: Oh…"
 	line "That's a letdown."
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "Kurt: I'm working!"
+	text "César: I'm working!"
 	line "Don't bother me!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
-	text "Kurt: Ah, <PLAYER>!"
+	text "César: Ah, <PLAYER>!"
 	line "I just finished"
 	cont "your Ball. Here!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "Kurt: That turned"
+	text "César: That turned"
 	line "out great."
 
 	para "Try catching"
@@ -564,7 +564,7 @@ KurtsHouseKurtTurnedOutGreatText:
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
-	text "Kurt: Now that my"
+	text "César: Now that my"
 	line "granddaughter is"
 
 	para "helping me, I can"

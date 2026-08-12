@@ -173,7 +173,7 @@ BuenaPhoneStressedFromWorkText:
 	para "que comí mucha"
 	line "comida basura!"
 
-	para "Mary y yo tenemos"
+	para "Rosa y yo tenemos"
 	line "un trato para"
 	cont "perder peso..."
 
@@ -186,9 +186,9 @@ BuenaPhoneStressedFromWorkText:
 	para "¡Esto tiene que"
 	line "ser un secreto!"
 
-	para "Mary pesa..."
+	para "Rosa pesa..."
 
-	para "¡Ay! ¡M-Mary!"
+	para "¡Ay! ¡R-Rosa!"
 
 	para "Eh... Emm... Lo"
 	line "siento, ¡número"
@@ -386,14 +386,14 @@ BuenaPhoneStarterPokemonText:
 	para "¿Sabías que el"
 	line "primer #mon"
 
-	para "que Mary atrapó"
+	para "que Rosa atrapó"
 	line "fue un Drowzee?"
 
 	para "¿No le pega nada,"
 	line "verdad?"
 
 	para "Pero el Drowzee"
-	line "de Mary no paraba"
+	line "de Rosa no paraba"
 
 	para "de dormirla en el"
 	line "trabajo, así que"
@@ -441,7 +441,7 @@ BuenaPhoneCompanyVacationText:
 BuenaPhoneBenAndFernText:
 	text "¿Sabías que...?"
 
-	para "Ben y Fern hablan"
+	para "Ben y Nando hablan"
 	line "por teléfono"
 
 	para "durante horas"
@@ -454,7 +454,7 @@ BuenaPhoneBenAndFernText:
 	para "Una vez, el"
 	line "estilo rapero de"
 
-	para "Fern se le pegó"
+	para "Nando se le pegó"
 	line "a Ben un poco."
 
 	para "Así que nos tocó"
@@ -470,7 +470,7 @@ BuenaPhoneBenAndFernText:
 
 BuenaPhoneGoingShoppingText:
 	text "Voy a ir de"
-	line "compras con Mary"
+	line "compras con Rosa"
 	cont "y Lily pronto."
 
 	para "Estaría genial"

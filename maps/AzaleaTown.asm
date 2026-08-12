@@ -245,7 +245,7 @@ AzaleaTownSignText:
 	done
 
 KurtsHouseSignText:
-	text "Kurt's House"
+	text "Casa de César"
 	done
 
 AzaleaGymSignText:

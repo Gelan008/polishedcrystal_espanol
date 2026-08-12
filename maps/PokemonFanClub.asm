@@ -84,11 +84,11 @@ PokemonJournalGreenScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "<PK><MN> Trainer Leaf!"
+	line "<PK><MN> Trainer Hoja!"
 
 	para "In addition to"
 	line "being a powerful"
-	cont "trainer, Leaf is"
+	cont "trainer, Hoja is"
 
 	para "said to be fascin-"
 	line "ated by legendary"

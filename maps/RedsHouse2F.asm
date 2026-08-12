@@ -26,9 +26,9 @@ PokemonJournalProfOakScript:
 	line "#mon Prof.Oak!"
 
 	para "Samuel Oak's grand-"
-	line "children, Blue and"
+	line "children, Azul and"
 
-	para "Daisy, live near"
+	para "Dalia, live near"
 	line "his lab in Pallet"
 	cont "Town."
 

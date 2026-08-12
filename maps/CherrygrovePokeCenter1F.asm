@@ -27,12 +27,12 @@ PokemonJournalRedScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "<PK><MN> Trainer Red!"
+	line "<PK><MN> Trainer Rojo!"
 
-	para "Red is said to"
+	para "Rojo is said to"
 	line "have defeated his"
 
-	para "rival Blue for the"
+	para "rival Azul for the"
 	line "title of #mon"
 
 	para "League Champion in"

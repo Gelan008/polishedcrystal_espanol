@@ -49,7 +49,7 @@ SilphCo3FSilphEmployeeScript:
 	line "of # Ball"
 	cont "creators."
 
-	para "My father Kurt is"
+	para "My father César is"
 	line "teaching my daugh-"
 	cont "ter how to make"
 
