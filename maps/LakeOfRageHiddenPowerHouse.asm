@@ -43,12 +43,13 @@ HiddenPowerGuy:
 	ifequalfwd $1, .Egg
 	jumpthisopenedtext
 
-	text "I can sense it…"
+	text "Puedo sentirlo..."
 
-	para "Your "
+	para "¡Tu "
 	text_ram wStringBuffer3
-	line "has a Hidden Power"
-	cont "of "
+	line "tiene un Poder"
+	cont "Oculto de tipo"
+	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	done
@@ -56,58 +57,59 @@ HiddenPowerGuy:
 .Egg:
 	jumpthisopenedtext
 
-	text "An Egg has not yet"
-	line "developed a Hidden"
-	cont "Power…"
+	text "Un Huevo aún no ha"
+	line "desarrollado un"
+	cont "Poder Oculto..."
 	done
 
 .Text1:
-	text "…You have strayed"
-	line "far…"
+	text "...Has viajado"
+	line "lejos..."
 
-	para "Here I have medi-"
-	line "tated. Inside me,"
+	para "He meditado"
+	line "aquí. Dentro de"
 
-	para "a new power has"
-	line "been awakened."
+	para "mí, un nuevo"
+	line "poder ha"
+	cont "despertado."
 
-	para "Let me share my"
-	line "power with your"
-	cont "#mon."
+	para "Déjame compartir"
+	line "mi poder con"
+	cont "tus #mon."
 
-	para "Take this, child."
+	para "Toma esto, joven."
 	done
 
 .Text2:
-	text "Do you see it? It"
-	line "is Hidden Power!"
+	text "¿Lo ves? ¡Es"
+	line "Poder Oculto!"
 
-	para "It draws out the"
-	line "power of #mon"
-	cont "for attacking."
+	para "Saca el poder"
+	line "de los #mon"
+	cont "para atacar."
 
-	para "Remember this: its"
-	line "type depends on"
-	cont "the #mon"
-	cont "using it."
+	para "Recuerda esto: su"
+	line "tipo depende del"
+	cont "#mon que lo"
+	cont "use."
 	done
 
 .Text3:
-	text "Shall I divine"
-	line "the Hidden Power"
-	cont "of your #mon?"
+	text "¿Adivino el Po-"
+	line "der Oculto de"
+	cont "tu #mon?"
 	done
 
 .Text4:
-	text "I am meditating…"
+	text "Estoy meditando..."
 	done
 
 .Text5:
-	text "Which #mon's"
-	line "Hidden Power"
-	cont "should I find?"
+	text "¿De qué #mon"
+	line "adivino su"
+	cont "Poder Oculto?"
 	done
 
 .Text7:
-	text "…Very well…"
+	text "...Muy bien..."
 	done

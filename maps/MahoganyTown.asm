@@ -66,14 +66,14 @@ RageCandyBarMerchantScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "Good! Savor it!"
+	text "¡Bien! ¡Gózalo!"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "You don't have"
-	line "enough money."
+	text "No tienes sufi-"
+	line "ciente dinero."
 	done
 
 MahoganyTownGrampsScript:
@@ -81,9 +81,9 @@ MahoganyTownGrampsScript:
 	iftrue_jumptextfaceplayer MahoganyTownGrampsText_ClearedRocketHideout
 	jumpthistextfaceplayer
 
-	text "Are you off to see"
-	line "the Gyarados ram-"
-	cont "page at the lake?"
+	text "¿Vas a ver a los"
+	line "Gyarados albo-"
+	cont "rotar el lago?"
 	done
 
 MahoganyTownSouvenirShopSign:
@@ -91,8 +91,8 @@ MahoganyTownSouvenirShopSign:
 	iftrue_jumptext MahoganyTownSouvenirShopSignText1
 	jumpthistext
 
-	text "Grandma's"
-	line "Souvenir Shop"
+	text "Recuerdos de la"
+	line "Abuela"
 	done
 
 MahoganyTownRageCandyBarMerchantBlocksYouMovement:
@@ -107,105 +107,106 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 	step_end
 
 RageCandyBarMerchantTryOneText:
-	text "Hiya, kid!"
+	text "¡Hola, chaval!"
 
-	para "I see you're new"
-	line "in Mahogany Town."
+	para "Veo que eres"
+	line "nuevo en Caoba."
 
-	para "Since you're new,"
-	line "you should try a"
+	para "Como eres nuevo,"
+	line "¡deberías probar"
 
 if DEF(FAITHFUL)
-	para "yummy RageCandy-"
-	line "Bar!"
+	para "un rico"
+	line "Caramelofuria!"
 else
-	para "yummy Cake of"
-	line "Rage!"
+	para "un rico"
+	line "Pastel Furia!"
 endc
 
-	para "Right now, it can"
-	line "be yours for just"
-	cont "¥300! Want one?"
+	para "Ahora mismo, ¡es"
+	line "tuyo por sólo"
+	cont "300¥! ¿Quieres?"
 	done
 
 RageCandyBarMerchantRefusedText:
-	text "Oh, fine then…"
+	text "Oh, de acuerdo..."
 	done
 
 RageCandyBarMerchantNoRoomText:
-	text "You don't have"
-	line "room for this."
+	text "No tienes hueco"
+	line "para esto."
 	done
 
 RageCandyBarMerchantSoldOutText:
 if DEF(FAITHFUL)
-	text "RageCandyBars are"
+	text "Caramelosfuria"
 else
-	text "Cakes of Rage are"
+	text "Pasteles Furia"
 endc
-	line "sold out."
+	line "agotados."
 
-	para "I'm packing up."
-	line "Don't bother me,"
-	cont "kiddo."
+	para "Estoy recogiendo."
+	line "No me molestes,"
+	cont "chaval."
 	done
 
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "Magikarp have"
-	line "returned to Lake"
-	cont "of Rage."
+	text "Los Magikarp han"
+	line "vuelto al Lago de"
+	cont "la Furia."
 
-	para "That should be"
-	line "good news for the"
-	cont "anglers there."
+	para "Deberían ser bue-"
+	line "nas noticias para"
+	cont "los pescadores."
 	done
 
 MahoganyTownFisherText:
-	text "Since you came"
-	line "this far, take the"
+	text "Ya que has llega-"
+	line "do tan lejos, to-"
 
-	para "time to do some"
-	line "sightseeing."
+	para "ma algo de tiem-"
+	line "po para hacer"
+	cont "turismo."
 
-	para "You should head"
-	line "north and check"
+	para "Deberías ir al"
+	line "norte y ver el"
 
-	para "out Lake of Rage"
-	line "right now."
+	para "Lago de la Furia"
+	line "ahora mismo."
 	done
 
 MahoganyTownLassText:
-	text "Visit Grandma's"
-	line "shop. She sells"
+	text "Visita la tienda"
+	line "de la Abuela. Ven-"
 
-	para "stuff that nobody"
-	line "else has."
+	para "de cosas que na-"
+	line "die más tiene."
 	done
 
 MahoganyTownSignText:
-	text "Mahogany Town"
+	text "Pueblo Caoba"
 
-	para "Welcome to the"
-	line "Home of the Ninja"
+	para "El hogar de"
+	line "los ninja"
 	done
 
 MahoganyTownSouvenirShopSignText1:
-	text "Just a Souvenir"
-	line "Shop"
+	text "Sólo una tienda"
+	line "de recuerdos"
 
-	para "Nothing Suspicious"
-	line "About It"
+	para "Nada sospechoso"
+	line "al respecto"
 
-	para "No Need to Be"
-	line "Alarmed"
+	para "No hay motivo"
+	line "de alarma"
 	done
 
 MahoganyGymSignText:
-	text "Mahogany Town"
-	line "#mon Gym"
-	cont "Leader: Pryce"
+	text "Gimnasio #mon"
+	line "de Pueblo Caoba"
+	cont "Líder: Fredo"
 
-	para "The Teacher of"
-	line "Winter's Harshness"
+	para "Maestro del ru-"
+	line "do invierno"
 	done

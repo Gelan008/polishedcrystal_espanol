@@ -139,7 +139,7 @@ TuscanyScript:
 	setevent EVENT_GOT_SILK_SCARF_FROM_TUSCANY
 	jumpthisopenedtext
 
-	text "Tuscany: Wouldn't"
+	text "Marta: Wouldn't"
 	line "you agree that it"
 	cont "is most elegant?"
 
@@ -153,7 +153,7 @@ TuscanyScript:
 TuscanyNotTuesdayScript:
 	jumpthisopenedtext
 
-	text "Tuscany: Today is"
+	text "Marta: Today is"
 	line "not Tuesday. That"
 	cont "is unfortunate…"
 	done
@@ -271,7 +271,7 @@ Text_WaitingForMorning:
 	done
 
 MeetTuscanyText:
-	text "Tuscany: I do be-"
+	text "Marta: I do be-"
 	line "lieve that this is"
 
 	para "the first time"
@@ -280,7 +280,7 @@ MeetTuscanyText:
 	para "Please allow me to"
 	line "introduce myself."
 
-	para "I am Tuscany of"
+	para "I am Marta of"
 	line "Tuesday."
 	done
 
@@ -294,8 +294,8 @@ TuscanyGivesGiftText:
 
 
 TuscanyTuesdayText:
-	text "Tuscany: Have you"
-	line "met Monica, my"
+	text "Marta: Have you"
+	line "met Lune, my"
 	cont "older sister?"
 
 	para "Or my younger"

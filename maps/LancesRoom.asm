@@ -154,194 +154,199 @@ LanceScript:
 	end
 
 .SeenText:
-	text "Lance: I've been"
-	line "waiting for you."
+	text "Lance: Te estaba"
+	line "esperando."
 
-	para "<PLAYER>!"
+	para "¡<PLAYER>!"
 
-	para "I knew that you,"
-	line "with your skills,"
+	para "Sabía que tú,"
+	line "con tus dotes,"
 
-	para "would eventually"
-	line "reach me here."
+	para "llegarías hasta"
+	line "mí algún día."
 
-	para "There's no need"
-	line "for words now."
+	para "No hay necesidad"
+	line "de hablar más."
 
-	para "We will battle to"
-	line "determine who is"
+	para "Lucharemos para"
+	line "determinar quién"
 
-	para "the stronger of"
-	line "the two of us."
+	para "es el más fuerte"
+	line "de los dos."
 
-	para "As the most power-"
-	line "ful trainer and as"
+	para "Como el Entrena-"
+	line "dor más fuerte"
+	cont "y Campeón de la"
 
-	para "the #mon League"
-	line "Champion…"
+	para "Liga #mon..."
 
-	para "I, Lance the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "Yo, Lance, el ma-"
+	line "estro dragón,"
+	cont "¡acepto tu reto!"
 	done
 
 .BeatenText:
-	text "…It's over."
+	text "...Se acabó."
 
-	para "But it's an odd"
-	line "feeling."
+	para "Pero es una sen-"
+	line "sación extraña."
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "No me enfada ha-"
+	line "ber perdido."
+	cont "De hecho, estoy"
+	cont "contento."
 
-	para "Happy that I"
-	line "witnessed the rise"
+	para "¡Contento de"
+	line "presenciar el as-"
 
-	para "of a great new"
-	line "Champion!"
+	para "censo de un gran"
+	line "y nuevo Campeón!"
 	done
 
 .AfterText:
-	text "…Whew."
+	text "...Uf."
 
-	para "You have become"
-	line "truly powerful,"
+	para "Te has vuelto"
+	line "realmente fuerte,"
 	cont "<PLAYER>."
 
-	para "Your #mon have"
-	line "responded to your"
+	para "Tus #mon han"
+	line "respondido a tu"
 
-	para "strong and up-"
-	line "standing nature."
+	para "naturaleza fuerte"
+	line "y honesta."
 
-	para "As a trainer, you"
-	line "will continue to"
+	para "Como Entrenador,"
+	line "seguirás"
 
-	para "grow strong with"
-	line "your #mon."
+	para "haciéndote fuerte"
+	line "con tus #mon."
 	done
 
 .SeenRematchText:
-	text "Lance: There's no"
-	line "need for words"
-	cont "now."
+	text "Lance: No hay ne-"
+	line "cesidad de ha-"
+	cont "blar más."
 
-	para "We will battle to"
-	line "determine who is"
+	para "Lucharemos para"
+	line "determinar quién"
 
-	para "the stronger of"
-	line "the two of us."
+	para "es el más fuerte"
+	line "de los dos."
 
-	para "I, Lance the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "Yo, Lance, el ma-"
+	line "estro dragón,"
+	cont "¡acepto tu reto!"
 	done
 
 .AfterRematchText:
-	text "Just as I"
-	line "expected."
+	text "Tal y como lo"
+	line "esperaba."
 
-	para "You and your"
-	line "#mon make"
-	cont "quite a team."
+	para "Tú y tus #mon"
+	line "hacéis un gran"
+	cont "equipo."
 
-	para "As a trainer, you"
-	line "will continue to"
+	para "Como Entrenador,"
+	line "seguirás"
 
-	para "grow strong with"
-	line "your #mon."
+	para "haciéndote fuerte"
+	line "con tus #mon."
 	done
 
 .MaryText1:
-	text "Rosa: Oh, no!"
-	line "It's all over!"
+	text "Rosa: ¡Oh, no!"
+	line "¡Ya terminó!"
 
-	para "Prof.Oak, if you"
-	line "weren't so slow…"
+	para "Prof. Oak, si no"
+	line "fuera tan lento..."
 	done
 
 .OakSpeechText:
-	text "Prof.Oak: Ah,"
+	text "Prof. Oak: ¡Ah,"
 	line "<PLAYER>!"
 
-	para "It's been a long"
-	line "while."
+	para "Ha pasado un"
+	line "tiempo."
 
-	para "You certainly look"
-	line "more impressive."
+	para "Desde luego, te"
+	line "ves impresionante."
 
-	para "Your conquest of"
-	line "the League is just"
-	cont "fantastic!"
+	para "¡Tu victoria en"
+	line "la Liga es sen-"
+	cont "cillamente genial!"
 
-	para "Your dedication,"
-	line "trust and love for"
+	para "Tu dedicación,"
+	line "confianza y amor"
 
-	para "your #mon made"
-	line "this happen."
+	para "por los #mon"
+	line "lo hicieron posi-"
+	cont "ble."
 
-	para "Your #mon were"
-	line "outstanding too."
+	para "Tus #mon tam-"
+	line "bién estuvieron"
+	cont "espectaculares."
 
-	para "Because they be-"
-	line "lieved in you as a"
+	para "Como creían en ti"
+	line "como Entrenador,"
 
-	para "trainer, they per-"
-	line "severed."
+	para "perseveraron."
 
-	para "Congratulations,"
+	para "¡Felicidades,"
 	line "<PLAYER>!"
 	done
 
 .OakRematchSpeechText:
-	text "Prof.Oak: Ah,"
+	text "Prof. Oak: ¡Ah,"
 	line "<PLAYER>!"
 
-	para "Your rematch with"
-	line "the League was"
-	cont "just fantastic!"
+	para "¡Tu revancha con"
+	line "la Liga fue"
+	cont "fabulosa!"
 
-	para "It's clear to me"
-	line "that you deeply"
+	para "Me queda claro"
+	line "que comprendes,"
 
-	para "understand, trust,"
-	line "and love #mon."
+	para "confías y amas a"
+	line "los #mon pro-"
+	cont "fundamente."
 
-	para "Your team's out-"
-	line "standing skills"
-	cont "demonstrate that."
+	para "Las grandiosas ha-"
+	line "bilidades de tu"
+	cont "equipo lo mues-"
+	cont "tran."
 
-	para "I think you just"
-	line "might be capable"
+	para "Creo que podrías"
+	line "ser capaz de"
 
-	para "of handling a"
-	line "certain dangerous"
-	cont "challenge."
+	para "enfrentarte a un"
+	line "desafío peligroso."
 
-	para "Come see me in my"
-	line "lab after this!"
+	para "¡Ven a verme al"
+	line "Laboratorio lue-"
+	cont "go!"
 	done
 
 .MaryText2:
-	text "Rosa: Let's inter-"
-	line "view the brand new"
-	cont "Champion!"
+	text "Rosa: ¡Entrevis-"
+	line "temos al flamante"
+	cont "nuevo Campeón!"
 	done
 
 .LanceLeavingText:
-	text "Lance: This is"
-	line "getting to be a"
-	cont "bit too noisy…"
+	text "Lance: Esto se"
+	line "está poniendo un"
+	cont "poco ruidoso..."
 
-	para "<PLAYER>, could you"
-	line "come with me?"
+	para "<PLAYER>, ¿puedes"
+	line "venir conmigo?"
 	done
 
 .MaryText3:
-	text "Rosa: Oh, wait!"
-	line "We haven't done"
-	cont "the interview!"
+	text "Rosa: ¡Oh, espe-"
+	line "rad! ¡No hemos"
+	cont "hecho la entre-"
+	cont "vista!"
 	done
 
 .RushInMovement:

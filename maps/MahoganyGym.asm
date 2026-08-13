@@ -61,65 +61,67 @@ MahoganyGymPryceScript:
 	setevent EVENT_GOT_TM67_AVALANCHE
 	jumpthisopenedtext
 
-	text "That TM contains"
-	line "Avalanche."
+	text "Esa MT contiene"
+	line "Alud."
 
-	para "It deals more"
-	line "damage if the user"
-	cont "was hurt first."
+	para "Hace más daño si"
+	line "el usuario es he-"
+	cont "rido primero."
 
-	para "It demonstrates"
-	line "the harshness of"
-	cont "winter."
+	para "Demuestra la"
+	line "dureza del invier-"
+	cont "no."
 	done
 
 GenericTrainerSkierRoxanne:
 	generictrainer SKIER, ROXANNE, EVENT_BEAT_SKIER_ROXANNE, SkierRoxanneSeenText, SkierRoxanneBeatenText
 
-	text "If you don't skate"
-	line "with precision,"
+	text "Si no patinas"
+	line "con precisión,"
 
-	para "you won't get far"
-	line "in this Gym."
+	para "no llegarás muy"
+	line "lejos aquí."
 	done
 
 GenericTrainerSkierClarissa:
 	generictrainer SKIER, CLARISSA, EVENT_BEAT_SKIER_CLARISSA, SkierClarissaSeenText, SkierClarissaBeatenText
 
-	text "I shouldn't have"
-	line "been bragging"
-	cont "about my skiing…"
+	text "No debí haber"
+	line "alardeado sobre"
+	cont "cómo esquío..."
 	done
 
 GenericTrainerBoarderRonald:
 	generictrainer BOARDER, RONALD, EVENT_BEAT_BOARDER_RONALD, BoarderRonaldSeenText, BoarderRonaldBeatenText
 
-	text "I think there's a"
-	line "move a #mon"
+	text "Creo que hay un"
+	line "ataque que un"
+	cont "#mon"
 
-	para "can use while it's"
-	line "frozen."
+	para "puede usar mien-"
+	line "tras está"
+	cont "congelado."
 	done
 
 GenericTrainerBoarderBrad:
 	generictrainer BOARDER, BRAD, EVENT_BEAT_BOARDER_BRAD, BoarderBradSeenText, BoarderBradBeatenText
 
-	text "This Gym is great."
-	line "I love boarding"
-	cont "with my #mon!"
+	text "Este Gimnasio mola."
+	line "¡Me gusta patinar"
+	cont "con mis #mon!"
 	done
 
 GenericTrainerBoarderDouglas:
 	generictrainer BOARDER, DOUGLAS, EVENT_BEAT_BOARDER_DOUGLAS, BoarderDouglasSeenText, BoarderDouglasBeatenText
 
-	text "The secret behind"
-	line "Pryce's power…"
+	text "El secreto tras"
+	line "el poder de Fredo..."
 
-	para "He meditates under"
-	line "a waterfall daily"
+	para "Medita a diario"
+	line "bajo una cascada"
 
-	para "to strengthen his"
-	line "mind and body."
+	para "para fortalecer"
+	line "cuerpo y mente."
 	done
 
 MahoganyGymGuyScript:
@@ -127,23 +129,23 @@ MahoganyGymGuyScript:
 	iftrue_jumptextfaceplayer MahoganyGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Pryce is a veteran"
-	line "who has trained"
+	text "Fredo es un vete-"
+	line "rano que ha en-"
 
-	para "#mon for some"
-	line "50 years."
+	para "trenado #mon"
+	line "durante 50 años."
 
-	para "He's said to be"
-	line "good at freezing"
+	para "Dicen que es muy"
+	line "bueno congelando"
 
-	para "opponents with"
-	line "ice-type moves."
+	para "a sus rivales con"
+	line "ataques de Hielo."
 
-	para "That means you"
-	line "should melt him"
+	para "¡Eso significa"
+	line "que debes fun-"
 
-	para "with your burning"
-	line "ambition!"
+	para "dirlo con tu ar-"
+	line "diente ambición!"
 	done
 
 MahoganyGymStatue:
@@ -159,146 +161,151 @@ MahoganyGymStatue:
 	jumpstd gymstatue3
 
 PryceText_Intro:
-	text "#mon have many"
-	line "experiences in"
+	text "Los #mon tienen"
+	line "muchas experien-"
 
-	para "their lives, just"
-	line "like we do."
+	para "cias en la vida,"
+	line "igual que no-"
+	cont "sotros."
 
-	para "I, too, have seen"
-	line "and suffered much"
-	cont "in my life."
+	para "Yo también he"
+	line "visto y sufrido"
+	cont "mucho."
 
-	para "Since I am your"
-	line "elder, let me show"
-	cont "you what I mean."
+	para "Como soy mayor,"
+	line "deja que te ense-"
+	cont "ñe a qué me refie-"
+	cont "ro."
 
-	para "I have been with"
-	line "#mon since"
+	para "Llevo con los"
+	line "#mon desde"
 
-	para "before you were"
-	line "born."
+	para "antes de que tú"
+	line "nacieras."
 
-	para "I do not lose"
-	line "easily."
+	para "No pierdo tan fá-"
+	line "cilmente."
 
-	para "I, Pryce--the"
-	line "winter trainer--"
+	para "¡Yo, Fredo, el En-"
+	line "trenador del In-"
 
-	para "shall demonstrate"
-	line "my power!"
+	para "vierno, te mos-"
+	line "traré mi poder!"
 	done
 
 PryceText_Impressed:
-	text "Ah, I am impressed"
-	line "by your prowess."
+	text "Ah, me impresiona"
+	line "tu destreza."
 
-	para "With your strong"
-	line "will, I know you"
+	para "Con esa voluntad,"
+	line "sé que superarás"
 
-	para "will overcome all"
-	line "life's obstacles."
+	para "todos los obstácu-"
+	line "los de la vida."
 
-	para "You are worthy of"
-	line "this Badge!"
+	para "¡Eres digno de es-"
+	line "ta Medalla!"
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That Badge will"
-	line "let your #mon"
+	text "Esa Medalla permi-"
+	line "tirá a tus #mon"
 
-	para "use Whirlpool to"
-	line "cross whirlpools."
+	para "usar Torbellino"
+	line "para cruzar los"
+	cont "remolinos."
 
-	para "And this… This is"
-	line "a gift from me!"
+	para "Y esto... ¡Es un"
+	line "regalo de mi par-"
+	cont "te!"
 	done
 
 PryceText_CherishYourPokemon:
-	text "When the ice and"
-	line "snow melt, spring"
-	cont "arrives."
+	text "Al fundirse hielo"
+	line "y nieve, llega la"
+	cont "primavera."
 
-	para "You and your #-"
-	line "mon will be to-"
+	para "Tú y tus #mon"
+	line "estaréis juntos"
 
-	para "gether for many"
-	line "years to come."
+	para "por muchos años."
 
-	para "Cherish your time"
-	line "together!"
+	para "¡Atesora vuestro"
+	line "tiempo juntos!"
 	done
 
 BoarderRonaldSeenText:
-	text "I'll freeze your"
-	line "#mon, so you"
-	cont "can't do a thing!"
+	text "¡Congelaré a tus"
+	line "#mon, no po-"
+	cont "drás hacer nada!"
 	done
 
 BoarderRonaldBeatenText:
-	text "Darn. I couldn't"
-	line "do a thing."
+	text "Maldición. No pu-"
+	line "de hacer nada."
 	done
 
 BoarderBradSeenText:
-	text "This Gym has a"
-	line "slippery floor."
+	text "Este Gimnasio tie-"
+	line "ne el suelo"
+	cont "resbaladizo."
 
-	para "It's fun, isn't"
-	line "it?"
+	para "Es divertido, ¿a"
+	line "que sí?"
 
-	para "But hey--we're"
-	line "not playing games"
-	cont "here!"
+	para "Pero oye, ¡aquí"
+	line "no estamos para"
+	cont "jugar!"
 	done
 
 BoarderBradBeatenText:
-	text "Do you see how"
-	line "serious we are?"
+	text "¿Ves lo en serio"
+	line "que vamos?"
 	done
 
 BoarderDouglasSeenText:
-	text "I know Pryce's"
-	line "secret."
+	text "Conozco el secre-"
+	line "to de Fredo."
 	done
 
 BoarderDouglasBeatenText:
-	text "OK. I'll tell you"
-	line "Pryce's secret."
+	text "Vale. Te contaré"
+	line "el secreto."
 	done
 
 SkierRoxanneSeenText:
-	text "To get to Pryce,"
-	line "our Gym Leader,"
+	text "Para llegar hasta"
+	line "Fredo, nuestro Lí-"
+	cont "der,"
 
-	para "you need to think"
-	line "before you skate."
+	para "debes pensar"
+	line "antes de patinar."
 	done
 
 SkierRoxanneBeatenText:
-	text "I wouldn't lose to"
-	line "you in skiing!"
+	text "¡No perdería con-"
+	line "tra ti esquiando!"
 	done
 
 SkierClarissaSeenText:
-	text "Check out my"
-	line "parallel turn!"
+	text "¡Mira mis giros"
+	line "en paralelo!"
 	done
 
 SkierClarissaBeatenText:
-	text "No! You made me"
-	line "wipe out!"
+	text "¡No! ¡Me hiciste"
+	line "caer!"
 	done
 
 
 MahoganyGymGuyWinText:
-	text "Pryce is some-"
-	line "thing, but you're"
-	cont "something else!"
+	text "Fredo es increí-"
+	line "ble, ¡pero tú eres"
+	cont "de otro nivel!"
 
-	para "That was a hot"
-	line "battle that"
+	para "¡Fue un combate"
+	line "tan ardiente que"
 
-	para "bridged the gen-"
-	line "eration gap!"
+	para "cerró la brecha"
+	line "generacional!"
 	done

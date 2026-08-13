@@ -23,19 +23,19 @@ PokemonJournalMrFujiScript:
 	setflag ENGINE_READ_MR_FUJI_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Editor: The shy"
-	line "Sr.Fuji turned"
+	para "Editor: El tímido"
+	line "Sr. Fuji rechazó"
 
-	para "down our interview"
-	line "requests."
+	para "nuestras peticio-"
+	line "nes de entrevista."
 
-	para "He is a kindly man"
-	line "who is adored and"
+	para "Es un hombre ama-"
+	line "ble adorado y res-"
+	cont "petado en Pueblo"
 
-	para "respected in Lav-"
-	line "ender Town."
+	para "Lavanda."
 	done
 
 LavenderPokeCenter1FYoungsterScript:
@@ -45,54 +45,56 @@ LavenderPokeCenter1FYoungsterScript:
 	iffalse_jumptextfaceplayer .NoExorcismText
 	jumpthistextfaceplayer
 
-	text "The Director of"
-	line "the Radio Station"
-	cont "sure was happy."
+	text "El Director de"
+	line "la Torre Radio"
+	cont "estaba muy feliz."
 
-	para "He said they're"
-	line "finally back on"
-	cont "the air!"
+	para "Dijo que al fin"
+	line "volvían a emitir."
 	done
 
 .NoMachinePartText:
-	text "If the Power Plant"
-	line "isn't running, the"
+	text "Si la Central"
+	line "Energía no funcio-"
+	cont "na, tampoco lo ha-"
+	cont "rá el Magnetotrén."
 
-	para "Magnet Train won't"
-	line "run either…"
-
-	para "It also means the"
-	line "Radio Tower can't"
-	cont "broadcast…"
+	para "Y eso también"
+	line "significa que la"
+	cont "Torre Radio no"
+	cont "puede emitir..."
 	done
 
 .NoExorcismText:
-	text "The Power Plant is"
-	line "running smoothly"
-	cont "again, but the"
+	text "La Central Energía"
+	line "vuelve a funcionar"
+	cont "sin problemas, pe-"
 
-	para "Radio Tower still"
-	line "isn't broadcasting."
+	para "ro la Torre Radio"
+	line "aún no emite."
 
-	para "What's going on"
-	line "over there?"
+	para "¿Qué estará pasan-"
+	line "do allí?"
 	done
 
 LavenderPokeCenter1FGentlemanText:
-	text "To the north of"
-	line "Lavender is Rock"
+	text "Al norte de La-"
+	line "vanda está el"
+	cont "Túnel Roca."
 
-	para "Tunnel. Go through"
-	line "it to get to the"
-	cont "Power Plant."
+	para "Crúzalo para lle-"
+	line "gar a la Central"
+	cont "Energía."
 	done
 
 LavenderPokeCenter1FTeacherText:
-	text "There's a radio"
-	line "program that plays"
-	cont "# Flute music."
+	text "Hay un programa"
+	line "de radio que pone"
+	cont "música de #"
+	cont "Flauta."
 
-	para "Oh? Ah, your radio"
-	line "needs an Expn.Card"
-	cont "to tune into it."
+	para "¿Ah, sí? A tu ra-"
+	line "dio le hace falta"
+	cont "una T. Expansión"
+	cont "para sintonizarlo."
 	done

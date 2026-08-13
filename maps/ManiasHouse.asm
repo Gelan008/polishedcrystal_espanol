@@ -56,9 +56,8 @@ ManiaScript:
 .refusetotakeshuckie
 	jumpthisopenedtext
 
-	text "Oh, no… What'll"
-	line "I do if he comes"
-	cont "back?"
+	text "Oh, no... ¿Qué haré"
+	line "si regresa?"
 	done
 
 .returnshuckie
@@ -79,9 +78,9 @@ ManiaScript:
 .wrong
 	jumpthisopenedtext
 
-	text "Hey, you don't"
-	line "have my #mon"
-	cont "with you."
+	text "Oye, no tienes"
+	line "mi #mon con-"
+	cont "tigo."
 	done
 
 .superhappy
@@ -94,29 +93,29 @@ ManiaScript:
 .refused
 	jumpthisopenedtext
 
-	text "Oh, no, no… That's"
-	line "the same as being"
-	cont "robbed."
+	text "Oh, no... Es lo"
+	line "mismo que si me"
+	cont "robaran."
 	done
 
 .nothingleft
 	jumpthisopenedtext
 
-	text "If I take my #-"
-	line "mon back, what are"
+	text "Si me llevo mi"
+	line "#mon de vuelta,"
 
-	para "you going to use"
-	line "in battle?"
+	para "¿qué vas a usar"
+	line "para combatir?"
 	done
 
 .default_postevent
 	jumpthisopenedtext
 
-	text "For #mon, hap-"
-	line "piness is being"
+	text "Para un #mon, la"
+	line "felicidad es es-"
 
-	para "with a person who"
-	line "treats them well."
+	para "tar con alguien"
+	line "que lo cuide."
 	done
 
 ShuckieName:
@@ -126,75 +125,78 @@ ShuckieOTName:
 	rawchar "Kirk@"
 
 ManiaText_AskLookAfterShuckie:
-	text "I, I'm in shock!"
+	text "¡Yo... yo estoy en"
+	line "shock!"
 
-	para "A guy about your"
-	line "age with piercing"
+	para "Entró un chico de"
+	line "tu edad con una"
 
-	para "eyes and long hair"
-	line "came in."
+	para "mirada penetrante"
+	line "y pelo largo."
 
-	para "He scared me into"
-	line "giving him my"
-	cont "prized #mon!"
+	para "¡Me asustó tanto"
+	line "que le di mi pre-"
+	cont "ciado #mon!"
 
-	para "I still have one"
-	line "left, but what if"
-	cont "he comes back?"
+	para "Aún me queda uno,"
+	line "pero ¿y si regre-"
+	cont "sa?"
 
-	para "You look strong."
-	line "Could you look"
+	para "Tú pareces fuer-"
+	line "te. ¿Cuidarías de"
 
-	para "after my #mon"
-	line "for a while?"
+	para "mi #mon por un"
+	line "tiempo?"
 	done
 
 ManiaText_TakeCareOfShuckie:
-	text "Oh, thank you!"
+	text "¡Oh, gracias!"
 
-	para "Take good care of"
-	line "it, please!"
+	para "¡Cuídalo muy bien,"
+	line "por favor!"
 	done
 
 ManiaText_GotShuckie:
-	text "<PLAYER> received a"
-	line "#mon."
+	text "<PLAYER> recibió"
+	line "un #mon."
 	done
 
 ManiaText_ShuckieSentToPC:
-	text "The #mon was"
-	line "sent to "
+	text "El #mon fue"
+	line "enviado a "
 	text_ram wStringBuffer1
 	text "."
 	done
 
 ManiaText_PartyAndBoxFull:
-	text "Your #mon party"
-	line "and Box are full."
+	text "Tu equipo #mon"
+	line "y la Caja están"
+	cont "llenos."
 	done
 
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hi! How's my #-"
-	line "mon?"
+	text "¡Hola! ¿Cómo está"
+	line "mi #mon?"
 
-	para "I think I'm safe"
-	line "now, so may I have"
-	cont "it back?"
+	para "Creo que ya estoy"
+	line "a salvo. ¿Me lo"
+	cont "devuelves?"
 	done
 
 ManiaText_ThankYou:
-	text "Thank you!"
+	text "¡Gracias!"
 	done
 
 
 ManiaText_ShuckieLikesYou:
-	text "My #mon has"
-	line "come to like you."
+	text "Mi #mon le has"
+	line "caído bien."
 
-	para "All right, you"
-	line "should keep it."
+	para "De acuerdo, de-"
+	line "berías quedárte-"
+	cont "lo."
 
-	para "But promise to"
-	line "be good to it!"
+	para "¡Pero promete que"
+	line "le cuidarás bien!"
 	done

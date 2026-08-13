@@ -313,13 +313,13 @@ WonderTradeOTNames2:
 	rawchar "Randy@@" ; $32
 	rawchar "Maximo@" ; $33
 	rawchar "Felicty" ; $34
-	rawchar "Monica@" ; $35
-	rawchar "Tuscany" ; $36
-	rawchar "Wesley@" ; $37
-	rawchar "Arthur@" ; $38
-	rawchar "Frieda@" ; $39
-	rawchar "Santos@" ; $3a
-	rawchar "Sunny@@" ; $3b
+	rawchar "Lune@@@" ; $35
+	rawchar "Marta@@" ; $36
+	rawchar "Mireia@" ; $37
+	rawchar "Juan@@@" ; $38
+	rawchar "Vero@@@" ; $39
+	rawchar "Sabino@" ; $3a
+	rawchar "Dominga" ; $3b
 	rawchar "Naoko@@" ; $3c
 	rawchar "Sayo@@@" ; $3d
 	rawchar "Zuki@@@" ; $3e

@@ -47,30 +47,30 @@ DayOfWeekSiblingsHousePokedexText2:
 	cont "something useful."
 
 	para "Love,"
-	line "Monica"
+	line "Lune"
 
 	para "Keep reading?"
 	done
 
 DayOfWeekSiblingsHousePokedexText3:
-	text "Monday, Monica"
-	line "Route 40"
+	text "Lunes, Lune"
+	line "Ruta 40"
 
-	para "Tuesday, Tuscany"
-	line "Route 29"
+	para "Martes, Marta"
+	line "Ruta 29"
 
-	para "Wednesday, Wesley"
-	line "Lake of Rage"
+	para "Miércoles, Mireia"
+	line "Lago de la Furia"
 
-	para "Thursday, Arthur"
-	line "Route 36"
+	para "Jueves, Juan"
+	line "Ruta 36"
 
-	para "Friday, Frieda"
-	line "Route 32"
+	para "Viernes, Vero"
+	line "Ruta 32"
 
-	para "Saturday, Santos"
-	line "Blackthorn City"
+	para "Sábado, Sabino"
+	line "Ciudad Olivo"
 
-	para "Sunday, Sunny"
-	line "Route 37"
+	para "Domingo, Dominga"
+	line "Ruta 37"
 	done

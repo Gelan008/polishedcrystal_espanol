@@ -115,7 +115,7 @@ SantosScript:
 	setevent EVENT_GOT_SPELL_TAG_FROM_SANTOS
 	jumpthisopenedtext
 
-	text "Santos: ..."
+	text "Sabino: ..."
 
 	para "Hechizo..."
 
@@ -129,16 +129,16 @@ SantosScript:
 .NotSaturday:
 	jumpthistextfaceplayer
 
-	text "Santos: Hoy no"
+	text "Sabino: Hoy no"
 	line "es sábado..."
 	done
 
 .MeetText:
-	text "Santos: ..."
+	text "Sabino: ..."
 
 	para "Es sábado..."
 
-	para "Soy Santos del"
+	para "Soy Sabino del"
 	line "sábado..."
 	done
 
@@ -147,7 +147,7 @@ SantosScript:
 	done
 
 .SaturdayText:
-	text "Santos: ..."
+	text "Sabino: ..."
 
 	para "Nos veremos en"
 	line "otro sábado..."

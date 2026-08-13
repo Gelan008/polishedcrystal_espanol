@@ -20,27 +20,27 @@ MahoganyRedGyaradosSpeechHouseTeacherScript:
 	iftrue_jumptextfaceplayer MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower
 	jumpthistextfaceplayer
 
-	text "My favorite radio"
-	line "program? I'd say"
-	cont "#mon Music."
+	text "¿Mi programa"
+	line "favorito? Pues"
+	cont "Música #mon."
 	done
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "I heard that a red"
-	line "Gyarados appeared"
-	cont "at the lake."
+	text "Oí que un Gyara-"
+	line "dos rojo apare-"
+	cont "ció en el lago."
 
-	para "That's odd, since"
-	line "even ordinary"
+	para "Es raro, ya que"
+	line "incluso los ordi-"
 
-	para "Gyarados are rare"
-	line "in that lake…"
+	para "narios son raros"
+	line "en ese lago..."
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "I've been hearing"
-	line "laughter on the"
+	text "He estado oyendo"
+	line "risas por la"
 
-	para "radio…"
-	line "It's creepy."
+	para "radio..."
+	line "Es espeluznante."
 	done

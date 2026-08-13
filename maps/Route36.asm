@@ -488,7 +488,7 @@ ArthurScript:
 	setevent EVENT_GOT_HARD_STONE_FROM_ARTHUR
 	jumpthisopenedtext
 
-	text "Arthur: A #mon"
+	text "Juan: A #mon"
 	line "that uses Rock-"
 
 	para "type moves should"
@@ -507,7 +507,7 @@ ArthurScript:
 ArthurNotThursdayScript:
 	jumpthisopenedtext
 
-	text "Arthur: Today's"
+	text "Juan: Today's"
 	line "not Thursday. How"
 	cont "disappointing."
 	done
@@ -675,10 +675,10 @@ SchoolboyAlanBooksText:
 	done
 
 MeetArthurText:
-	text "Arthur: Who are"
+	text "Juan: Who are"
 	line "you?"
 
-	para "I'm Arthur of"
+	para "I'm Juan of"
 	line "Thursday."
 	done
 
@@ -689,7 +689,7 @@ ArthurGivesGiftText:
 
 
 ArthurThursdayText:
-	text "Arthur: I'm Arthur"
+	text "Juan: I'm Juan"
 	line "of Thursday. I'm"
 
 	para "the second son out"

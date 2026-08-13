@@ -259,199 +259,209 @@ MagnetTunnelAlarmSounds:
 	end
 
 MagnetTunnelInsideMachineText1:
-	text "The machine is"
-	line "powered off."
+	text "La máquina está"
+	line "apagada."
 
-	para "Turn it on?"
+	para "¿Encenderla?"
 	done
 
 MagnetTunnelInsideMachineText2:
-	text "Ping! The machine"
-	line "powered on."
+	text "¡Bip! La máquina"
+	line "se ha encendido."
 	done
 
 MagnetTunnelInsideMachineText3:
-	text "The machine is"
-	line "running smoothly."
+	text "La máquina fun-"
+	line "ciona sin prob-"
+	cont "lemas."
 	done
 
 MagnetTunnelInsideMachineText4:
-	text "Huh?! Something's"
-	line "wrong!"
+	text "¡¿Eh?! ¡Algo"
+	line "va mal!"
 	done
 
 MagnetTunnelInsideMachineText5:
-	text "This machine isn't"
-	line "running properly!"
+	text "¡Esta máquina no"
+	line "funciona bien!"
 
-	para "Multiple WARNING"
-	line "messages rapidly"
+	para "Varios mensajes"
+	line "de ADVERTENCIA"
 
-	para "flash across the"
-	line "small screen and"
+	para "parpadean rápido"
+	line "en la pantalla,"
 
-	para "a burning smell"
-	line "fills the air."
+	para "y huele a quema-"
+	line "do en el aire."
 
-	para "Hit the emergency"
-	line "shutdown button?"
+	para "¿Pulsar botón de"
+	line "apagado de emer-"
+	cont "gencia?"
 	done
 
 MagnetTunnelInsideMachineText6:
-	text "Ding! The machine"
-	line "powered off."
+	text "¡Ding! La máquina"
+	line "se ha apagado."
 	done
 
 MagnetTunnelInsideMachineText7:
-	text "The machine is"
-	line "surrounded by the"
+	text "La máquina está"
+	line "rodeada por un"
 
-	para "faint stench of"
-	line "melted plastic…"
+	para "ligero hedor a"
+	line "plástico fundi-"
+	cont "do..."
 
-	para "It appears to be"
-	line "totally fried."
+	para "Parece que está"
+	line "totalmente frita."
 	done
 
 MagnetTunnelInsideLodestoneText:
-	text "The lodestone is"
-	line "smooth and warm."
+	text "La piedra imán es"
+	line "suave y cálida."
 
-	para "It has a faint"
-	line "aura of static."
+	para "Tiene una ligera"
+	line "aura estática."
 	done
 
 MagnetTunnelInsideEngineerText1:
-	text "The lodestone here"
-	line "gives off a strong"
-	cont "magnetic field."
+	text "La piedra imán"
+	line "emite un fuerte"
+	cont "campo magnético."
 
-	para "We had to bring in"
-	line "specialized equip-"
+	para "Tuvimos que traer"
+	line "equipo especiali-"
 
-	para "ment to complete"
-	line "this tunnel by the"
-	cont "foreman's deadline."
+	para "zado para acabar"
+	line "el túnel en el"
+	cont "plazo fijado."
 
-	para "Our team was under"
-	line "heavy pressure to"
-	cont "deliver on time."
+	para "Nuestro equipo"
+	line "estaba bajo mu-"
+	cont "cha presión para"
+	cont "cumplir a tiempo."
 	done
 
 MagnetTunnelInsideEngineerText2:
-	text "Since the day we"
-	line "began construction"
+	text "Desde que empeza-"
+	line "mos la construc-"
+	cont "ción del túnel,"
 
-	para "on this tunnel,"
-	line "the number of wild"
+	para "el número de"
+	line "#mon de tipo"
 
-	para "Electric-type"
-	line "#mon here has"
-	cont "more than doubled."
+	para "Eléctrico salva-"
+	line "jes aquí se ha"
+	cont "multiplicado por"
+	cont "más de dos."
 	done
 
 MagnetTunnelInsideScientistText:
-	text "Every day, more"
-	line "Magnemite arrive"
-	cont "and cause issues."
+	text "Cada día llegan"
+	line "más Magnemite a"
+	cont "causar problemas."
 
-	para "The foreman thinks"
-	line "they must be drawn"
+	para "El capataz cree"
+	line "que son atraídos"
 
-	para "to the lodestone's"
-	line "unique magnetic"
-	cont "properties."
+	para "por las singula-"
+	line "res propiedades"
+	cont "magnéticas de la"
+	cont "piedra imán."
 
-	para "I wonder why?"
+	para "Me pregunto por"
+	line "qué."
 	done
 
 GenericTrainerEngineerGraden:
 	generictrainer ENGINEER, GRADEN, EVENT_BEAT_ENGINEER_GRADEN, .SeenText, .BeatenText
 
-	text "I'm the foreman"
-	line "on this jobsite."
+	text "Soy el capataz de"
+	line "esta obra."
 
-	para "We dug out this"
-	line "tunnel to make a"
+	para "Excavamos este"
+	line "túnel para hacer"
 
-	para "path for the new"
-	line "Magnet Train"
-	cont "railway, but…"
+	para "un camino para la"
+	line "nueva vía del"
+	cont "Magnetotrén, pe-"
+	cont "ro..."
 
-	para "Little did I know,"
-	line "all of the lode-"
-
-	para "stone would cause"
-	line "so much headache!"
+	para "¡Quién iba a de-"
+	line "cirme que toda la"
+	cont "piedra imán cau-"
+	cont "saría tanto do-"
+	cont "lor de cabeza!"
 	done
 
 .SeenText:
-	text "Admiring all of"
-	line "our handiwork?"
+	text "¿Admirando toda"
+	line "nuestra obra?"
 
-	para "Haha!"
-	line "Admire this!"
+	para "¡Jaja!"
+	line "¡Admira esto!"
 	done
 
 .BeatenText:
-	text "Haha! You've got"
-	line "guts. I like that!"
+	text "¡Jaja! Tienes"
+	line "agallas. ¡Me"
+	cont "gusta!"
 	done
 
 GenericTrainerEngineerGustav:
 	generictrainer ENGINEER, GUSTAV, EVENT_BEAT_ENGINEER_GUSTAV, .SeenText, .BeatenText
 
-	text "I've tried to fix"
-	line "it, but its been"
-	cont "no use…"
+	text "Intenté arreglar-"
+	line "lo, pero no sir-"
+	cont "vió de nada..."
 
-	para "I can't seem to"
-	line "figure out what's"
-	cont "going on!"
+	para "¡No consigo"
+	line "averiguar qué"
+	cont "pasa!"
 
-	para "I'm worried if I"
-	line "turn it on again,"
+	para "Me preocupa que"
+	line "si la vuelvo a"
+	cont "encender,"
 
-	para "the machine will"
-	line "short-circuit and"
-	cont "be kaput…"
+	para "la máquina tenga"
+	line "un cortocircuito"
+	cont "y se estropee..."
 	done
 
 .SeenText:
-	text "Stand back!"
+	text "¡Atrás!"
 
-	para "This machine has"
-	line "been on the fritz!"
+	para "¡Esta máquina se"
+	line "ha estropeado!"
 	done
 
 .BeatenText:
-	text "Blown out! Just"
-	line "like a fuse…"
+	text "¡Fundido! Igual"
+	line "que un fusible..."
 	done
 
 GenericTrainerEngineerNicolas:
 	generictrainer ENGINEER, NICOLAS, EVENT_BEAT_ENGINEER_NICOLAS, .SeenText, .BeatenText
 
-	text "These things can"
-	line "generate some"
-	cont "serious voltage!"
+	text "¡Estas cosas pue-"
+	line "den generar"
+	cont "mucho voltaje!"
 
-	para "When powered on,"
-	line "they create an"
+	para "Al encenderlas,"
+	line "crean un campo"
+	cont "magnético muy"
+	cont "fuerte."
 
-	para "extremely strong"
-	line "magnetic field."
-
-	para "So be careful in"
-	line "here, alright kid?"
+	para "Así que ten cuida-"
+	line "do aquí, ¿vale?"
 	done
 
 .SeenText:
-	text "Hey! Be careful"
-	line "around the equip-"
-	cont "ment kid!"
+	text "¡Eh! ¡Cuidado"
+	line "con el equipo,"
+	cont "chaval!"
 	done
 
 .BeatenText:
-	text "Shutdown!"
+	text "¡Apagando!"
 	done

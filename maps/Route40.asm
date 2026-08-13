@@ -193,7 +193,7 @@ MonicaScript:
 	setevent EVENT_GOT_SHARP_BEAK_FROM_MONICA
 	jumpthisopenedtext
 
-	text "Monica: It's an"
+	text "Lune: It's an"
 	line "item that raises"
 
 	para "the power of Fly-"
@@ -207,7 +207,7 @@ MonicaScript:
 MonicaNotMondayScript:
 	jumpthistextfaceplayer
 
-	text "Monica: I don't"
+	text "Lune: I don't"
 	line "think today is"
 	cont "Monday. How sad…"
 	done
@@ -313,10 +313,10 @@ Route40BeachGuyText2:
 	done
 
 MeetMonicaText:
-	text "Monica: Glad to"
+	text "Lune: Glad to"
 	line "meet you. I'm"
 
-	para "Monica of Monday."
+	para "Lune of Monday."
 	done
 
 MonicaGivesGiftText:
@@ -327,7 +327,7 @@ MonicaGivesGiftText:
 
 
 MonicaMondayText:
-	text "Monica: My broth-"
+	text "Lune: My broth-"
 	line "ers and sisters"
 
 	para "are all over the"

@@ -89,15 +89,15 @@ MahoganyMart1FBlackBeltScript:
 	iftrue_jumptextfaceplayer MahoganyMart1FBlackBeltText_LanceEntered
 	jumpthistextfaceplayer
 
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "¡Jeje! El experi-"
+	line "mento funcionó a"
+	cont "la perfección."
 
-	para "Magikarp are just"
-	line "worthless, but"
+	para "Los Magikarp no"
+	line "valen para nada,"
 
-	para "Gyarados are big"
-	line "moneymakers."
+	para "pero los Gyarados"
+	line "dan mucho dinero."
 	done
 
 MahoganyMart1FVeteranFScript:
@@ -123,26 +123,26 @@ MahoganyMart1FTutorAgilityScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "So be it. Come"
-	line "back if you change"
-	cont "your mind."
+	text "Como quieras. Ven"
+	line "si cambias de"
+	cont "idea."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Get me a Silver"
-	line "Leaf if you want"
-	cont "me to teach it."
+	text "Dame una Hoja Pla-"
+	line "ta si quieres que"
+	cont "se lo enseñe."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Your foes will"
-	line "never know what"
-	cont "hit them."
+	text "Tus rivales no"
+	line "sabrán qué les ha"
+	cont "golpeado."
 	done
 
 MahoganyMart1FDragoniteTackleMovement:
@@ -188,94 +188,98 @@ MahoganyMart1FLanceApproachHiddenStairsMovement:
 	step_end
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "¡Aaarg! Encontras-"
+	line "te la escalera"
+	cont "secreta..."
 	done
 
 
 MahoganyMart1FBlackBeltText_LanceEntered:
-	text "Urrgh…"
+	text "Urrgh..."
 
-	para "That guy's dragon"
-	line "#mon are tough…"
+	para "Los #mon dra-"
+	line "gón de ese tipo"
+	cont "son muy duros..."
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
 	text "Lance: Dragonite,"
-	line "Hyper Beam."
+	line "Hiperrayo."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
+	text "¿A qué esperabas,"
 	line "<PLAYER>?"
 
-	para "Just as I thought,"
-	line "that strange radio"
+	para "Tal como pensé, "
+	line "esa extraña señal"
 
-	para "signal is coming"
-	line "from here."
+	para "de radio proviene"
+	line "de aquí."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "Las escaleras es-"
+	line "tán justo aquí."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "Lance: <PLAYER>, we"
-	line "should split up to"
+	text "Lance: <PLAYER>, "
+	line "debemos separar-"
 
-	para "check this place."
-	line "I'll go first."
+	para "nos para explorar"
+	line "esto. Yo iré pri-"
+	cont "mero."
 	done
 
 MahoganyMart1FVeteranFText:
-	text "Our basement used"
-	line "to be a ninja"
-	cont "hideout."
+	text "Nuestro sótano"
+	line "fue un escondite"
+	cont "ninja."
 
-	para "Some of their arts"
-	line "have survived to"
-	cont "this very day."
+	para "Varias de sus"
+	line "artes sobrevivie-"
+	cont "ron hasta hoy."
 
-	para "One such art would"
-	line "greatly increase"
-	cont "their footspeed."
+	para "Una de ellas in-"
+	line "crementa mucho tu"
+	cont "velocidad."
 	done
 
 Text_MahoganyMart1FTutorAgility:
-	text "If you'd like, I"
-	line "can teach your"
+	text "Si quieres, puedo"
+	line "enseñar a tu"
 
-	para "#mon the move"
-	line "Agility."
+	para "#mon el movi-"
+	line "miento Agilidad."
 	done
 
 Text_MahoganyMart1FTutorQuestion:
-	text "I just need a"
-	line "Silver Leaf first."
+	text "Primero necesito"
+	line "una Hoja Plata."
 	done
 
 PokemonJournalWillScript:
 	setflag ENGINE_READ_WILL_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Elite Four Will!"
+	para "Reportaje sobre"
+	line "Mento, del"
+	cont "Alto Mando."
 
-	para "Will does not talk"
-	line "about his past"
+	para "Mento no habla"
+	line "sobre su pasado"
 
-	para "before joining the"
-	line "Elite Four."
+	para "antes de unirse"
+	line "al Alto Mando."
 
-	para "Some say he worked"
-	line "for Team Rocket."
+	para "Dicen que trabajó"
+	line "para el Team"
+	cont "Rocket."
 
-	para "#mon Journal"
-	line "refuses to specu-"
-	cont "late."
+	para "La Revista #mon"
+	line "se niega a espe-"
+	cont "cular."
 	done

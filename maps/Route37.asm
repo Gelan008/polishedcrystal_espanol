@@ -83,7 +83,7 @@ SunnyScript:
 	setevent EVENT_GOT_MAGNET_FROM_SUNNY
 	jumpthisopenedtext
 
-	text "Sunny: That thing…"
+	text "Dominga: That thing…"
 
 	para "Um…"
 
@@ -100,7 +100,7 @@ SunnyScript:
 	para "moves should hold"
 	line "it."
 
-	para "My sis Monica said"
+	para "My sis Lune said"
 	line "it powers up"
 	cont "Electric moves!"
 	done
@@ -114,7 +114,7 @@ SunnyDoneScript:
 SunnyNotSundayScript:
 	jumpthisopenedtext
 
-	text "Sunny: Isn't today"
+	text "Dominga: Isn't today"
 	line "Sunday?"
 	cont "Um… I forgot!"
 	done
@@ -173,9 +173,9 @@ PsychicGregBeatenText:
 	done
 
 MeetSunnyText:
-	text "Sunny: Hi!"
+	text "Dominga: Hi!"
 
-	para "I'm Sunny of Sun-"
+	para "I'm Dominga of Sun-"
 	line "day, meaning it's"
 	cont "Sunday today!"
 	done
@@ -188,11 +188,11 @@ SunnyGivesGiftText:
 
 
 SunnySundayText:
-	text "Sunny: My sisters"
+	text "Dominga: My sisters"
 	line "and brothers are"
-	cont "Monica, Tuscany,"
-	cont "Wesley, Arthur,"
-	cont "Frieda and Santos."
+	cont "Lune, Marta,"
+	cont "Mireia, Juan,"
+	cont "Vero and Sabino."
 
 	para "They're all older"
 	line "than me!"

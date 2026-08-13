@@ -79,74 +79,75 @@ KogaScript:
 	end
 
 .SeenText:
-	text "Fwahahahaha!"
+	text "¡Fwahahahaha!"
 
-	para "I am Koga of the"
-	line "Elite Four."
+	para "Soy Koga, del"
+	line "Alto Mando."
 
-	para "I live in shadows,"
-	line "a ninja!"
+	para "¡Vivo en las som-"
+	line "bras como ninja!"
 
-	para "My intricate style"
-	line "will confound and"
-	cont "destroy you!"
+	para "¡Mi estilo te"
+	line "confundirá y des-"
+	cont "truirá!"
 
-	para "Confusion, sleep,"
-	line "poison…"
+	para "Confusión, sueño,"
+	line "veneno..."
 
-	para "Prepare to be the"
-	line "victim of my sin-"
-	cont "ister technique!"
+	para "¡Prepárate para"
+	line "ser víctima de mi"
+	cont "siniestra técnica!"
 
-	para "Fwahahahaha!"
+	para "¡Fwahahahaha!"
 
-	para "#mon is not"
-	line "merely about brute"
+	para "Los #mon no se"
+	line "basan en la"
 
-	para "force--you shall"
-	line "see soon enough!"
+	para "fuerza bruta..."
+	line "¡Pronto lo verás!"
 	done
 
 .BeatenText:
-	text "Ah!"
-	line "You have proven"
-	cont "your worth!"
+	text "¡Ah! ¡Has"
+	line "demostrado tu"
+	cont "valía!"
 	done
 
 .AfterText:
-	text "I subjected you to"
-	line "everything I could"
-	cont "muster."
+	text "Te he sometido a"
+	line "todo lo que he"
+	cont "podido."
 
-	para "But my efforts"
-	line "failed. I must"
-	cont "hone my skills."
+	para "Pero fallé. Debo"
+	line "perfeccionar mis"
+	cont "habilidades."
 
-	para "Go on to the next"
-	line "room, and put your"
-	cont "abilities to test!"
+	para "¡Ve a la siguien-"
+	line "te sala y pon a"
+	cont "prueba tu poder!"
 	done
 
 .SeenRematchText:
-	text "Your arrival is"
-	line "indeed impressive,"
-	cont "as is your look of"
-	cont "resolve."
+	text "Tu llegada es"
+	line "realmente impre-"
+	cont "sionante, al igual"
+	cont "que tu resolución."
 
-	para "Fwahahahaha!"
+	para "¡Fwahahahaha!"
 
-	para "My skill will be"
-	line "hard to overcome!"
+	para "¡Mi habilidad será"
+	line "difícil de"
+	cont "superar!"
 
-	para "Let me show you"
-	line "what I mean!"
+	para "¡Déjame mostrarte"
+	line "lo que quiero"
+	cont "decir!"
 	done
 
 .AfterRematchText:
-	text "Never have I met"
-	line "the likes of you."
+	text "Nunca he conocido"
+	line "a nadie como tú."
 
-	para "I must devote"
-	line "myself to my"
-	cont "training."
+	para "Debo dedicarme a"
+	line "mi entrenamiento."
 	done

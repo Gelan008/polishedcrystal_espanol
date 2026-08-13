@@ -734,7 +734,7 @@ FriedaScript:
 	setevent EVENT_GOT_POISON_BARB_FROM_FRIEDA
 	jumpthisopenedtext
 
-	text "Frieda: Give it to"
+	text "Vero: Give it to"
 	line "a #mon that has"
 	cont "Poison-type moves."
 
@@ -750,7 +750,7 @@ FriedaScript:
 .NotFriday:
 	jumpthistextfaceplayer
 
-	text "Frieda: Isn't it"
+	text "Vero: Isn't it"
 	line "Friday today?"
 
 	para "It's so boring"
@@ -946,10 +946,10 @@ Text_RoarOutro: ; text > text
 	done
 
 MeetFriedaText:
-	text "Frieda: Yahoo!"
+	text "Vero: Yahoo!"
 	line "It's Friday!"
 
-	para "I'm Frieda of"
+	para "I'm Vero of"
 	line "Friday!"
 
 	para "Nice to meet you!"
@@ -962,7 +962,7 @@ FriedaGivesGiftText:
 
 
 FriedaFridayText:
-	text "Frieda: Hiya! What"
+	text "Vero: Hiya! What"
 	line "day do you like?"
 
 	para "I love Friday. No"
