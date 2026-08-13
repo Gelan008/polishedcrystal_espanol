@@ -26,7 +26,7 @@ PokemonJournalMrFujiScript:
 	text "#mon Journal"
 
 	para "Editor: The shy"
-	line "Mr.Fuji turned"
+	line "Sr.Fuji turned"
 
 	para "down our interview"
 	line "requests."

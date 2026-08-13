@@ -24,42 +24,44 @@ DimCave1F_MapScriptHeader:
 GenericTrainerSuper_nerdGregg:
 	generictrainer SUPER_NERD, GREGG, EVENT_BEAT_SUPER_NERD_GREGG, .SeenText, .BeatenText
 
-	text "The Magnet Train"
-	line "is fast, but it"
-	cont "can't drift."
+	text "El Magnetotrén es"
+	line "rápido, pero no"
+	cont "puede derrapar."
 	done
 
 .SeenText:
-	text "These carts are"
-	line "lame! They can't"
-	cont "drift at all!"
+	text "¡Estas vagonetas"
+	line "son patéticas!"
+	cont "¡No pueden de-"
+	cont "rrapar nada!"
 	done
 
 .BeatenText:
-	text "I don't care!"
+	text "¡No me importa!"
 	done
 
 GenericTrainerScientistDexter:
 	generictrainer SCIENTIST, DEXTER, EVENT_BEAT_SCIENTIST_DEXTER, .SeenText, .BeatenText
 
-	text "I work for the"
-	line "Power Plant."
+	text "Trabajo en la"
+	line "Central Energía."
 
-	para "We use the water-"
-	line "fall from this"
-	cont "cave for clean,"
-	cont "renewable energy!"
+	para "¡Usamos la cascada"
+	line "de esta cueva"
+	cont "para obtener"
+	cont "energía limpia y"
+	cont "renovable!"
 	done
 
 .SeenText:
-	text "I'm a hydrologist"
-	line "first, and a"
-	cont "trainer second."
+	text "Soy hidrólogo"
+	line "primero, y entre-"
+	cont "nador después."
 	done
 
 .BeatenText:
-	text "I should stick to"
-	line "hydrology…"
+	text "Debería centrarme"
+	line "en la hidrología..."
 	done
 
 TrainerGuitaristmBiff:
@@ -69,16 +71,17 @@ TrainerGuitaristmBiff:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "I love heavy metal"
-	line "and heavy metals!"
+	text "¡Amo el heavy me-"
+	line "tal y los metales"
+	cont "pesados!"
 	done
 
 .SeenText:
-	text "I dig rock and"
-	line "dig rock!"
+	text "¡Me mola el rock"
+	line "y pico rocas!"
 	done
 
 .BeatenText:
-	text "Ground into the"
-	line "ground!"
+	text "¡Me han hecho"
+	line "polvo!"
 	done

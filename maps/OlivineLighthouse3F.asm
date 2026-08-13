@@ -106,7 +106,7 @@ OlivineLighthouse3FBattleGirlEmy:
 
 	para "Then you have one"
 	line "opponent left--"
-	cont "Chuck's own stu-"
+	cont "Aníbal's own stu-"
 	cont "dent--me!"
 
 	para "Ready to spar?"

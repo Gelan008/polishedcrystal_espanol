@@ -536,7 +536,7 @@ TinTowerEusineHoOhText:
 	line "#Maniac!"
 
 	para "If you're ever in"
-	line "Celadon City,"
+	line "Ciudad Azulona,"
 
 	para "will you say hi to"
 	line "my grandpa?"

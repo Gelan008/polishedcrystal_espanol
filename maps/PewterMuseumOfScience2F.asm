@@ -188,9 +188,9 @@ PokemonJournalStevenScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "Rock Hound Steven!"
+	line "Campeón Máximo!"
 
-	para "Steven Stone is"
+	para "Máximo Peñas is"
 	line "said to assist"
 	cont "Devon Corp, which"
 

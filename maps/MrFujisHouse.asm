@@ -19,7 +19,7 @@ MrFujisHouse_MapScriptHeader:
 	pokemon_event  1,  3, PIDGEY, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, MrFujisPidgeyText, -1
 
 MrFujisHouseSuperNerdText:
-	text "Mr.Fuji does live"
+	text "Sr.Fuji does live"
 	line "here, but he's not"
 	cont "home now."
 

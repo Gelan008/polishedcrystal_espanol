@@ -86,14 +86,15 @@ EcruteakTinTowerEntranceSageScript:
 	iftrue_jumpopenedtext EcruteakTinTowerEntranceSageText_GotFogBadge
 	jumpthisopenedtext
 
-	text "Bell Tower is off"
-	line "limits to anyone"
+	text "La Torre Campana"
+	line "está cerrada si no"
 
-	para "without Ecruteak"
-	line "Gym's Badge."
+	para "tienes la Medalla"
+	line "del Gimnasio de"
+	cont "Ciudad Iris."
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Lo siento, pero"
+	line "tendrás que irte."
 	done
 
 .CheckForClearBell:
@@ -105,21 +106,22 @@ EcruteakTinTowerEntranceSageScript:
 	iftruefwd .RingClearBell
 	jumpthisopenedtext
 
-	text "A momentous event"
-	line "has occurred."
+	text "Ha ocurrido un in-"
+	line "cidente trascen-"
+	cont "dental."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Disculpa, pero de-"
+	line "bo pedirte que te"
+	cont "vayas."
 
-	para "…What soothes the"
-	line "soul…"
+	para "... Lo que calma"
+	line "el alma..."
 
-	para "The Wise Trio say"
-	line "things that are so"
+	para "El Trío Sabio dice"
+	line "cosas que son muy"
 
-	para "very difficult to"
-	line "understand…"
+	para "difíciles de en-"
+	line "tender..."
 	done
 
 .RingClearBell:
@@ -137,15 +139,16 @@ EcruteakTinTowerEntranceWanderingSageScript:
 	iftrue_jumptextfaceplayer EcruteakTinTowerEntranceWanderingSageText_GotClearBell
 	jumpthistextfaceplayer
 
-	text "The Bell Tower"
-	line "ahead is a nine-"
+	text "La Torre Campana"
+	line "de enfrente es una"
 
-	para "tier tower of"
-	line "divine beauty."
+	para "torre de nueve pi-"
+	line "sos de una belleza"
+	cont "divina."
 
-	para "It soothes the"
-	line "soul of all who"
-	cont "see it."
+	para "Calma el alma de"
+	line "todo aquel que la"
+	cont "contempla."
 	done
 
 EcruteakTinTowerEntranceSageBlocksLeftMovement:
@@ -180,73 +183,81 @@ EcruteakTinTowerEntranceSageText_GotFogBadge:
 
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Ha ocurrido un in-"
+	line "cidente trascen-"
+	cont "dental."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Disculpa, pero de-"
+	line "bo pedirte que te"
+	cont "vayas."
 
-	para "………………"
+	para "......"
 
-	para "Ah!"
+	para "¡Ah!"
 
-	para "The sound of that"
-	line "Clear Bell!"
+	para "¡El sonido de esa"
+	line "Campana Clara!"
 
-	para "It… It's sublime!"
+	para "¡E-es sublime!"
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para "¡Nunca antes había"
+	line "oído un sonido tan"
+	cont "hermoso!"
 
-	para "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	para "El repique de la"
+	line "campana indica el"
+	cont "alma de su porta-"
+	cont "dor."
 
-	para "You…"
+	para "Tú..."
 
-	para "You may be able to"
-	line "make it through"
-	cont "Bell Tower."
+	para "Es posible que pu-"
+	line "edas atravesar la"
+	cont "Torre Campana."
 
-	para "Please, do go on."
+	para "Por favor, pasa"
+	line "adelante."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text "Por favor, pasa"
+	line "adelante."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text "El repique de la"
+	line "campana indica el"
+	cont "alma de su porta-"
+	cont "dor."
 
-	para "You…"
+	para "Tú..."
 
-	para "You may be able to"
-	line "make it through"
-	cont "Bell Tower."
+	para "Es posible que pu-"
+	line "edas atravesar la"
+	cont "Torre Campana."
 
-	para "Please, do go on."
+	para "Por favor, pasa"
+	line "adelante."
 	done
 
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The Bell Tower"
-	line "shook! A #mon"
+	text "¡La Torre Campana"
+	line "tembló! ¡Un #-"
+	cont "mon"
 
-	para "must have returned"
-	line "to the top!"
+	para "debe haber regre-"
+	line "sado a la cima!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #mon…"
+	text "Dos torres..."
+	line "Dos #mon..."
 
-	para "But when one"
-	line "burned down, both"
+	para "Pero cuando una se"
+	line "quemó, ambos #"
+	cont "mon"
 
-	para "#mon flew away,"
-	line "never to return."
+	para "se fueron volando,"
+	line "para nunca volver."
 	done

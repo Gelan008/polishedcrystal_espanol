@@ -28,27 +28,28 @@ PokemonJournalMortyScript:
 	setflag ENGINE_READ_MORTY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Morty!"
+	para "Reportaje Especial:"
+	line "¡Líder Morti!"
 
-	para "Morty claims to"
-	line "have once seen"
-	cont "Entei. He says:"
+	para "Morti asegura ha-"
+	line "ber visto una vez a"
+	cont "Entei. Él dice:"
 
-	para "“It was amazing."
-	line "Entei looked me"
-	cont "in the eyes."
+	para "“Fue asombroso."
+	line "Entei me miró a"
+	cont "los ojos."
 
-	para "I'll never forget"
-	line "its eyes. It was"
+	para "Nunca olvidaré"
+	line "sus ojos. Fue"
 
-	para "like it could see"
-	line "right through me,"
+	para "como si pudiera"
+	line "ver a través de mí,"
 
-	para "down into the dep-"
-	line "ths of my heart…”"
+	para "hasta lo más pro-"
+	line "fundo de mi cora-"
+	cont "zón...”"
 	done
 
 EcruteakPokeCenter1FBillScript:
@@ -90,78 +91,82 @@ EcruteakPokeCenter1FBillScript:
 .NoRoom:
 	jumpthisopenedtext
 
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #mon."
+	text "Vaya, espera."
+	line "No puedes llevar"
+	cont "más #mon."
 	done
 
 .IntroText:
-	text "Hi, I'm Bill. And"
-	line "who are you?"
+	text "Hola, soy Bill. ¿Y"
+	line "quién eres tú?"
 
-	para "Hmm, <PLAYER>, huh?"
-	line "You've come at the"
-	cont "right time."
+	para "Hmm, ¿<PLAYER>?"
+	line "Llegas en buen"
+	cont "momento."
 
-	para "The Time Capsules"
-	line "are totally fried,"
+	para "Las Cápsulas del"
+	line "Tiempo están total-"
+	cont "mente fritas,"
 
-	para "and I could use"
-	line "your help."
+	para "y me vendría bien"
+	line "tu ayuda."
 	done
 
 .QuestionText:
-	text "Bill: This Eevee"
-	line "came over just"
+	text "Bill: Este Eevee"
+	line "llegó justo"
 
-	para "before the Time"
-	line "Capsule shut down."
+	para "antes de que la"
+	line "Cápsula del Tiempo"
+	cont "se apagara."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Alguien tiene que"
+	line "cuidar de él,"
 
-	para "but I don't like"
-	line "being outside."
+	para "pero no me gusta"
+	line "estar fuera."
 
-	para "Can I count on you"
-	line "to play with it,"
+	para "¿Puedo contar con-"
+	line "tigo para que jue-"
+	cont "gues con él,"
 	cont "<PLAYER>?"
 	done
 
 .YesText:
-	text "Bill: I knew you'd"
-	line "come through!"
+	text "Bill: ¡Sabía que"
+	line "aceptarías!"
 
-	para "Way to go! You're"
-	line "the real deal!"
+	para "¡Genial! ¡Eres un"
+	line "crack!"
 
-	para "OK, I'm counting"
-	line "on you."
+	para "Vale, cuento con-"
+	line "tigo."
 
-	para "Take good care of"
-	line "it!"
+	para "¡Cuídalo mucho!"
 	done
 
 .GoodbyeText:
-	text "Bill: Prof.Elm"
-	line "claims Eevee may"
+	text "Bill: El Prof. Elm"
+	line "afirma que Eevee"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "puede evolucionar"
+	line "de formas nuevas"
+	cont "y desconocidas."
 
-	para "I have to hurry on"
-	line "back to Goldenrod"
-	cont "and see my folks,"
+	para "Tengo que darme"
+	line "prisa en volver a"
+	cont "Trigal a ver a mi"
+	cont "familia,"
 
-	para "and then it's back"
-	line "to Kanto for me."
+	para "y luego volver a"
+	line "Kanto."
 
-	para "Buh-bye!"
+	para "¡Adiós!"
 	done
 
 .NoText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Oh... ¿Y ahora"
+	line "qué hago?"
 	done
 
 .LeaveMovement:
@@ -174,8 +179,8 @@ EcruteakPokeCenter1FBillScript:
 .GiftEeveeMail:
 	db   EON_MAIL
 	setcharmap no_ngrams
-	db   "Please keep this"
-	next "Pokémon safe!@@"
+	db   "¡Cuida bien de"
+	next "este Pokémon!@@"
 	setcharmap default
 
 .SetEeveeMailOT:
@@ -203,27 +208,29 @@ EcruteakPokeCenter1FPokefanMScript:
 	iftrue_jumptextfaceplayer .SurfText
 	jumpthistextfaceplayer
 
-	text "The way the Kimono"
-	line "Girls dance is"
+	text "El modo de bailar"
+	line "de las Chicas"
 
-	para "marvelous. Just"
-	line "like the way they"
-	cont "use their #mon."
+	para "Kimono es maravi-"
+	line "lloso. Igual que"
+	cont "su forma de usar a"
+	cont "sus #mon."
 	done
 
 .SurfText:
-	text "You must be hoping"
-	line "to battle more"
-	cont "people, right?"
+	text "Seguro que esperas"
+	line "combatir contra"
+	cont "más gente, ¿no?"
 
-	para "There's apparently"
-	line "some place where"
-	cont "trainers gather."
+	para "Al parecer hay"
+	line "un lugar donde se"
+	cont "reúnen entrenado-"
+	cont "res."
 
-	para "Where, you ask?"
+	para "¿Que dónde está?"
 
-	para "It's a little past"
-	line "Olivine City."
+	para "Un poco más allá"
+	line "de Ciudad Olivo."
 	done
 
 EcruteakPokeCenter1FLassScript:
@@ -236,14 +243,15 @@ EcruteakPokeCenter1FLassScript:
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 
-	text "I once heard that"
-	line "Bill's mother used"
+	text "Una vez oí que"
+	line "la madre de Bill"
 
-	para "to be a Kimono"
-	line "Girl. Maybe that's"
+	para "fue una Chica"
+	line "Kimono. Quizá por"
 
-	para "why he visits"
-	line "here so often."
+	para "eso visita este"
+	line "lugar tan a me-"
+	cont "nudo."
 	done
 
 .No:
@@ -251,36 +259,40 @@ EcruteakPokeCenter1FLassScript:
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 
-	text "Oh… Never mind"
-	line "then."
+	text "Oh... No impor-"
+	line "ta entonces."
 	done
 
 .QuestionText:
-	text "Do you know who"
-	line "Bill is?"
+	text "¿Sabes quién es"
+	line "Bill?"
 	done
 
 .HereText:
-	text "Then go talk to"
-	line "him! He's right"
-	cont "by the counter!"
+	text "¡Entonces ve a ha-"
+	line "blar con él! ¡Está"
+	cont "junto al mostra-"
+	cont "dor!"
 	done
 
 EcruteakPokeCenter1FCooltrainerFText:
-	text "Morty, the Gym"
-	line "Leader, is soooo"
-	cont "cool."
+	text "Morti, el Líder"
+	line "del Gimnasio, mo-"
+	cont "la muuuuucho."
 
-	para "His #mon are"
-	line "really tough too."
+	para "Sus #mon tam-"
+	line "bién son muy"
+	cont "duros."
 	done
 
 EcruteakPokeCenter1FGymGuyText:
-	text "Lake of Rage…"
+	text "El Lago de la Fu-"
+	line "ria..."
 
-	para "The appearance of"
-	line "a Gyarados swarm…"
+	para "La aparición de un"
+	line "enjambre de"
+	cont "Gyarados..."
 
-	para "I smell a conspir-"
-	line "acy. I know it!"
+	para "Huelo a conspira-"
+	line "ción. ¡Lo sé!"
 	done

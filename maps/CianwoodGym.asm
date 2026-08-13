@@ -121,9 +121,9 @@ CianwoodGymSetUpStoneTable:
 	refreshmap
 	jumpthistext
 
-	text "The boulders"
-	line "blocked the"
-	cont "waterfall!"
+	text "¡Las rocas"
+	line "bloquearon la"
+	cont "cascada!"
 	done
 
 CianwoodGymChuckScript:
@@ -163,45 +163,48 @@ CianwoodGymChuckScript:
 	setevent EVENT_GOT_TM01_DYNAMICPUNCH
 	jumpthisopenedtext
 
-	text "That is Dynamic-"
-	line "Punch."
+	text "Eso es Puño"
+	line "Dinámico."
 
-	para "It doesn't always"
-	line "hit, but when it"
+	para "No siempre"
+	line "acierta, ¡pero"
 
-	para "does, it causes"
-	line "confusion!"
+	para "cuando lo hace,"
+	line "causa confusión!"
 	done
 
 GenericTrainerBlackbeltYoshi:
 	generictrainer BLACKBELT_T, YOSHI, EVENT_BEAT_BLACKBELT_YOSHI, BlackbeltYoshiSeenText, BlackbeltYoshiBeatenText
 
-	text "You seem to have a"
-	line "strong bond with"
-	cont "your #mon too!"
+	text "¡Parece que tú"
+	line "también tienes un"
+	cont "fuerte vínculo con"
+	cont "tus #mon!"
 	done
 
 GenericTrainerBlackbeltLao:
 	generictrainer BLACKBELT_T, LAO, EVENT_BEAT_BLACKBELT_LAO, BlackbeltLaoSeenText, BlackbeltLaoBeatenText
 
-	text "Fighting #mon"
-	line "are afraid of psy-"
-	cont "chics…"
+	text "Los #mon de"
+	line "lucha tienen miedo"
+	cont "a los psíquicos..."
 	done
 
 GenericTrainerBlackbeltNob:
 	generictrainer BLACKBELT_T, NOB, EVENT_BEAT_BLACKBELT_NOB, BlackbeltNobSeenText, BlackbeltNobBeatenText
 
-	text "I lost!"
-	line "I'm speechless!"
+	text "¡He perdido!"
+	line "¡No tengo"
+	cont "palabras!"
 	done
 
 GenericTrainerBlackbeltLung:
 	generictrainer BLACKBELT_T, LUNG, EVENT_BEAT_BLACKBELT_LUNG, BlackbeltLungSeenText, BlackbeltLungBeatenText
 
-	text "My #mon lost…"
-	line "My… my pride is"
-	cont "shattered…"
+	text "Mis #mon perdi-"
+	line "eron... Mi... mi"
+	cont "orgullo está des-"
+	cont "trozado..."
 	done
 
 CianwoodGymStatue:
@@ -227,145 +230,155 @@ CianwoodGymMovement_ChuckChucksBoulder:
 	step_end
 
 ChuckIntroText1:
-	text "WARRGH!"
+	text "¡WARRGH!"
 
-	para "The water pound-"
-	line "ing right onto my"
-	cont "head…"
+	para "El agua golpeando"
+	line "directo en mi ca-"
+	cont "beza..."
 
-	para "Why did you stop"
-	line "the waterfall?"
+	para "¿Por qué has pa-"
+	line "rado la cascada?"
 
-	para "You just spoiled"
-	line "my training!"
+	para "¡Acabas de arrui-"
+	line "nar mi entrena-"
+	cont "miento!"
 
-	para "Let me tell you,"
-	line "I'm tough!"
+	para "Déjame decirte,"
+	line "¡soy duro!"
 
-	para "My #mon will"
-	line "crush stones and"
-	cont "shatter bones!"
+	para "¡Mis #mon"
+	line "aplastarán rocas"
+	cont "y romperán hue-"
+	cont "sos!"
 
-	para "Watch this!"
+	para "¡Mira esto!"
 	done
 
 ChuckIntroText2:
-	text "Chuck: Urggh!"
-	line "…"
+	text "Aníbal: ¡Urggh!"
+	line "..."
 
-	para "Oooarrgh!"
+	para "¡Oooarrgh!"
 	done
 
 ChuckIntroText3:
-	text "There! Scared now,"
-	line "are you?"
+	text "¡Ahí lo tienes!"
+	line "¿Asustado?"
 
-	para "What?"
-	line "It has nothing to"
+	para "¿Qué? ¿Que no"
+	line "tiene nada que ver"
 
-	para "do with #mon?"
-	line "That's true!"
+	para "con los #mon?"
+	line "¡Es verdad!"
 
-	para "Come on. We shall"
-	line "do battle!"
+	para "Vamos. ¡Luchare-"
+	line "mos!"
 	done
 
 ChuckLossText:
-	text "Wha? Huh?"
-	line "I lost?"
+	text "¿Qué? ¿Eh?"
+	line "¿He perdido?"
 
-	para "How about that!"
-	line "You're worthy of"
-	cont "the Storm Badge!"
+	para "¡Qué te parece!"
+	line "¡Eres digno de la"
+	cont "Medalla Tormenta!"
 	done
 
 ChuckExplainBadgeText:
-	text "The Storm Badge"
-	line "lets your #mon"
+	text "La Medalla Tormen-"
+	line "ta permite a tus"
 
-	para "Fly to any city"
-	line "or town you've"
-	cont "already been to."
+	para "#mon usar Vuelo"
+	line "a cualquier pueblo"
+	cont "o ciudad que ya"
+	cont "hayas visitado."
 
-	para "Here, take this"
-	line "too!"
+	para "Toma, ¡llévate"
+	line "esto también!"
 	done
 
 ChuckAfterText:
-	text "WAHAHAH! I enjoyed"
-	line "battling you!"
+	text "¡WAJAJA! ¡He dis-"
+	line "frutado luchando"
+	cont "contigo!"
 
-	para "But a loss is a"
-	line "loss!"
+	para "¡Pero una derrota"
+	line "es una derrota!"
 
-	para "From now on, I'm"
-	line "going to train 24"
-	cont "hours a day!"
+	para "¡De ahora en ade-"
+	line "lante, voy a en-"
+	cont "trenar 24 horas"
+	cont "al día!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "My #mon and I"
-	line "are bound togeth-"
-	cont "er by friendship."
+	text "Mis #mon y yo"
+	line "estamos unidos"
+	cont "por la amistad."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "¡Nuestro vínculo"
+	line "nunca se romperá!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "This isn't real!"
+	text "¡Esto no es real!"
 	done
 
 BlackbeltLaoSeenText:
-	text "We martial artists"
-	line "fear nothing!"
+	text "¡Los artistas"
+	line "marciales no te-"
+	cont "memos a nada!"
 	done
 
 BlackbeltLaoBeatenText:
-	text "That's shocking!"
+	text "¡Qué sorpresa!"
 	done
 
 BlackbeltNobSeenText:
-	text "Words are useless."
-	line "Let your fists do"
-	cont "the talking!"
+	text "Las palabras no"
+	line "sirven. ¡Deja que"
+	cont "tus puños hablen!"
 	done
 
 BlackbeltNobBeatenText: ; text > text
-	text "…"
+	text "..."
 	done
 
 BlackbeltLungSeenText:
-	text "My raging fists"
-	line "will shatter your"
-	cont "#mon!"
+	text "¡Mis puños enra-"
+	line "becidos destroza-"
+	cont "rán a tus #mon!"
 	done
 
 BlackbeltLungBeatenText:
-	text "I got shattered!"
+	text "¡Me destrozaron!"
 	done
 
 CianwoodGymBlackBeltText:
-	text "The Gym guide is"
-	line "too scared of us"
-	cont "to stay here."
+	text "El guía del Gimna-"
+	line "sio está dema-"
+	cont "siado asustado de"
+	cont "nosotros para aso-"
+	cont "marse por aquí."
 
-	para "What a wimp!"
+	para "¡Qué cobarde!"
 	done
 
 CianwoodGymChuckTrainingText:
-	text "He's so into his"
-	line "training that he"
-	cont "doesn't notice you."
+	text "Está tan concen-"
+	line "trado en su entre-"
+	cont "namiento que no"
+	cont "te hace caso."
 	done
 
 CianwoodGymBoulderText:
-	text "The boulder is"
-	line "blocking the"
-	cont "waterfall."
+	text "La roca está"
+	line "bloqueando la"
+	cont "cascada."
 	done
 
 CianwoodGymChucksBoulderText:
-	text "The boulder is"
-	line "too heavy to move."
+	text "La roca es dema-"
+	line "siado pesada para"
+	cont "moverla."
 	done

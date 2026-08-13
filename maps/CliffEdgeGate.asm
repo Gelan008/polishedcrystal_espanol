@@ -39,96 +39,100 @@ ProfOaksAide3Script:
 .Explain
 	jumpthisopenedtext
 
-	text "That Macho Brace"
-	line "helps a #mon"
+	text "La Brazal Recio"
+	line "ayuda a un #mon"
 
-	para "grow more from"
-	line "battling, but"
-	cont "slows it down."
+	para "a crecer más al"
+	line "luchar, pero lo"
+	cont "hace más lento."
 	done
 
 .NoRoom
 	jumpthisopenedtext
 
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for this."
+	text "¡Oh! Veo que no"
+	line "tienes espacio"
+	cont "para esto."
 	done
 
 GenericTrainerGruntM12:
 	generictrainer GRUNTM, 12, EVENT_BEAT_ROCKET_GRUNTM_12, GruntM12SeenText, GruntM12BeatenText
 
-	text "Bosq. Amarillo is"
-	line "full of rare"
-	cont "#mon."
+	text "El Bosq. Amarillo"
+	line "está lleno de"
+	cont "#mon raros."
 
-	para "We're nabbing them"
-	line "all for ourselves!"
+	para "¡Los estamos atra-"
+	line "pando todos para"
+	cont "nosotros!"
 	done
 
 CliffEdgeGateReceptionistText:
-	text "Bosq. Amarillo is"
-	line "this way!"
+	text "¡El Bosq. Amarillo"
+	line "está por aquí!"
 
-	para "It's a popular"
-	line "tourist sight!"
+	para "¡Es un sitio turís-"
+	line "tico muy popular!"
 	done
 
 ProfOaksAide3HiText:
-	text "Hello there! I'm"
-	line "Prof.Oak's aide."
+	text "¡Hola! Soy el ayu-"
+	line "dante del Prof."
+	cont "Oak."
 
-	para "If you caught 45"
-	line "kinds of #mon,"
+	para "Si has atrapado"
+	line "45 tipos de #-"
+	cont "mon,"
 
-	para "I'm supposed to"
-	line "give you an item."
+	para "se supone que debo"
+	line "darte un objeto."
 
-	para "So, <PLAYER>,"
-	line "have you caught"
+	para "Así que, <PLAYER>,"
+	line "¿has atrapado al"
 
-	para "at least 45 kinds"
-	line "of #mon?"
+	para "menos 45 tipos de"
+	line "#mon?"
 	done
 
 ProfOaksAide3UhOhText:
-	text "Let's see…"
-	line "Uh-oh! You've only"
+	text "Veamos..."
+	line "¡Vaya! Solo has"
 
-	para "caught "
+	para "atrapado "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " tipos"
+	line "de #mon."
 
-	para "Come back and see"
-	line "me when you catch"
-	cont "45 kinds."
+	para "Vuelve a verme"
+	line "cuando atrapes 45"
+	cont "tipos distintos."
 	done
 
 ProfOaksAide3HereYouGoText:
-	text "Let's see…"
-	line "Great job! You've"
+	text "Veamos..."
+	line "¡Genial! Has"
 
-	para "caught "
+	para "atrapado "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " tipos"
+	line "de #mon."
 
-	para "Congratulations!"
-	line "Here you go!"
+	para "¡Enhorabuena!"
+	line "¡Aquí tienes!"
 	done
 
 
 
 GruntM12SeenText:
-	text "You're curious"
-	line "about our plans?"
+	text "¿Sientes curio-"
+	line "sidad por nues-"
+	cont "tros planes?"
 
-	para "Beat me and I'll"
-	line "tell you!"
+	para "¡Vénceme y te lo"
+	line "contaré!"
 	done
 
 GruntM12BeatenText:
-	text "You were supposed"
-	line "to lose!"
+	text "¡Se suponía que"
+	line "ibas a perder!"
 	done

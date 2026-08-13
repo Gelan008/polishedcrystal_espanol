@@ -22,30 +22,32 @@ PokemonJournalBlaineScript:
 	setflag ENGINE_READ_BLAINE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Blaine!"
+	para "Reportaje especial:"
+	line "¡Líder Blaine!"
 
-	para "Blaine is said to"
-	line "only remove his"
+	para "Se dice que Blaine"
+	line "solo se quita las"
 
-	para "shades when he is"
-	line "thinking up new"
-	cont "riddles."
+	para "gafas cuando se"
+	line "le ocurren nuevos"
+	cont "acertijos."
 	done
 
 CinnabarPokeCenter1FCooltrainerfText:
-	text "Cinnabar Gym's"
-	line "Blaine apparently"
+	text "Al parecer, Blaine"
+	line "el Líder del Gim-"
+	cont "nasio Canela,"
 
-	para "lives alone in the"
-	line "Seafoam Islands"
-	cont "cave…"
+	para "vive solo en la"
+	line "cueva de las Islas"
+	cont "Espuma..."
 	done
 
 CinnabarPokeCenter1FFisherText:
-	text "It's been a year"
-	line "since the volcano"
-	cont "erupted."
+	text "Ha pasado un año"
+	line "desde que el"
+	cont "volcán entró en"
+	cont "erupción."
 	done

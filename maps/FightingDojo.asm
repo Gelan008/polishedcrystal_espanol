@@ -235,13 +235,13 @@ MapFightingDojoSignpost2Script:
 	jumpthisopenedtext
 
 	text "Saturday: Blanca,"
-	line "Chuck, ???"
+	line "Aníbal, ???"
 	done
 .saturday_agatha
 	jumpthisopenedtext
 
 	text "Saturday: Blanca,"
-	line "Chuck, Agatha"
+	line "Aníbal, Agatha"
 	done
 
 BlackBeltText_ExplainsRematches:

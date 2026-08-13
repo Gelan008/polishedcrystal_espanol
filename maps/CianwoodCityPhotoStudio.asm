@@ -50,69 +50,69 @@ CianwoodPhotoStudioFishingGuruScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Come again, OK?"
+	text "Vuelve otro día,"
+	line "¿vale?"
 	done
 
 .NoPicture:
 	jumpthisopenedtext
 
-	text "Oh, no picture?"
-	line "Come again, OK?"
+	text "¿Oh, no hay foto?"
+	line "Vuelve otro día,"
+	cont "¿vale?"
 	done
 
 .EggPicture:
 	jumpthisopenedtext
 
-	text "An Egg? My talent"
-	line "is worth more…"
+	text "¿Un Huevo? Mi ta-"
+	line "lento vale más..."
 	done
 
 PhotoStudioGreetingText:
-	text "I am Cameron"
-	line "the Photographer."
+	text "Soy Cameron, el"
+	line "Fotógrafo."
 
-	para "You have magnifi-"
-	line "cent #mon with"
-	cont "you."
+	para "Llevas unos #-"
+	line "mon magníficos"
+	cont "contigo."
 
-	para "How about a photo"
-	line "for a souvenir?"
+	para "¿Qué tal una"
+	line "foto como"
+	cont "recuerdo?"
 	done
 
 PhotoStudioWhichMonText:
-	text "OK! Big smile now!"
+	text "¡Vale! ¡A sonreír!"
 
-	para "Which #mon"
-	line "should I photo-"
-	cont "graph?"
+	para "¿A qué #mon"
+	line "debería fotogra-"
+	cont "fiar?"
 	done
 
 PhotoStudioHoldStillText:
-	text "All righty. Hold"
-	line "still for a bit."
+	text "Muy bien. Quéda-"
+	line "te quieto un rato."
 	done
 
 PhotoStudioPrestoText:
-	text "Presto! All done."
+	text "¡Listo! Ya está."
 
-	para "Your "
+	para "¡Tu "
 	text_ram wStringBuffer3
-	line "looks happier!"
+	line "se ve más feliz!"
 	done
 
 PhotoStudioAlreadyDoneText:
-	text "I've already taken"
-	line "a photo for you"
-	cont "today."
+	text "Ya te he sacado"
+	line "una foto hoy."
 
-	para "Come back again"
-	line "tomorrow."
+	para "Vuelve de nuevo"
+	line "mañana."
 	done
 
 PhotoStudioRefusedText:
-	text "Oh, that's too"
-	line "bad. I thought it"
-
-	para "would be a great"
-	line "memento…"
+	text "Oh, qué pena. Pen-"
+	line "sé que sería un"
+	cont "gran recuerdo..."
 	done

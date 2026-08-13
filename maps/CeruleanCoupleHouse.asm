@@ -16,19 +16,20 @@ CeruleanCoupleHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCoupleHousePokefanFText, -1
 
 CeruleanCoupleHousePokefanMText:
-	text "I first met my"
-	line "dear wife in this"
-	cont "city."
+	text "Conocí a mi queri-"
+	line "da mujer en esta"
+	cont "ciudad."
 
-	para "Her eyes were a"
-	line "deep cerulean…"
+	para "Sus ojos eran de"
+	line "un celeste pro-"
+	cont "fundo..."
 	done
 
 CeruleanCoupleHousePokefanFText:
-	text "The language of"
-	line "love needs no"
-	cont "translation."
+	text "El lenguaje del"
+	line "amor no necesita"
+	cont "traducción."
 
-	para "You'll under-"
-	line "stand some day."
+	para "Lo entenderás"
+	line "algún día."
 	done

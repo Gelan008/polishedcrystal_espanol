@@ -29,29 +29,29 @@ DarkCaveBlackthornEntrancePharmacistScript:
 	jumpthisopenedtext
 
 .PharmacistText2:
-	text "BlackGlasses ups"
-	line "the power of Dark-"
-	cont "type moves."
+	text "Gafas de Sol suben"
+	line "el poder de movs."
+	cont "tipo Siniestro."
 	done
 
 .PharmacistText1:
-	text "Whoa! You startled"
-	line "me there!"
+	text "¡Guau! ¡Me has as-"
+	line "ustado!"
 
-	para "I had my Black-"
-	line "Glasses on, so I"
+	para "Tenía mis Gafas de"
+	line "Sol puestas, así"
 
-	para "didn't notice you"
-	line "at all."
+	para "que no te he visto"
+	line "en absoluto."
 
-	para "What am I doing"
-	line "here?"
+	para "¿Qué estoy hacien-"
+	line "do aquí?"
 
-	para "Hey, don't you"
-	line "worry about it."
+	para "Oye, no te preo-"
+	line "cupes por eso."
 
-	para "I'll give you a"
-	line "pair of Black-"
-	cont "Glasses, so forget"
-	cont "you saw me, OK?"
+	para "Te daré unas Gafas"
+	line "de Sol, así que"
+	cont "olvida que me has"
+	cont "visto, ¿vale?"
 	done

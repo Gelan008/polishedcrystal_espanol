@@ -96,7 +96,7 @@ SeagallopFerryNavelToVermilionText:
 	text "All right!"
 
 	para "All aboard the"
-	line "Seagallop Ferry!"
+	line "Surcamar Veloce!"
 	done
 
 SeagallopFerryNavelRockRefusedText:

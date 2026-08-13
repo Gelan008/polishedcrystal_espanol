@@ -19,55 +19,56 @@ ElmsHouse_MapScriptHeader:
 	object_event  4,  5, SPRITE_CHILD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ElmsSonText, -1
 
 ElmsWifeText:
-	text "Hi, <PLAYER>! My"
-	line "husband's always"
+	text "¡Hola, <PLAYER>!"
+	line "Mi marido siempre"
 
-	para "so busy--I hope"
-	line "he's OK."
+	para "está ocupado. Es-"
+	line "pero que esté"
+	cont "bien."
 
-	para "When he's caught"
-	line "up in his #mon"
+	para "Cuando está inmer-"
+	line "so en sus investi-"
+	cont "gaciones #mon,"
 
-	para "research, he even"
-	line "forgets to eat."
+	para "hasta se olvida de"
+	line "comer."
 	done
 
 ElmsSonText:
-	text "When I grow up,"
-	line "I'm going to help"
-	cont "my dad!"
+	text "¡De mayor, voy a"
+	line "ayudar a mi papá!"
 
-	para "I'm going to be a"
-	line "great #mon"
-	cont "professor!"
+	para "¡Seré un gran"
+	line "profesor #mon!"
 	done
 
 ElmsHouseFridgeText:
-	text "There's some food"
-	line "here. This must be"
-	cont "for #mon."
+	text "Aquí hay algo de"
+	line "comida. Debe de"
+	cont "ser para #mon."
 	done
 
 ElmsHousePCText:
-	text "#mon. Where do"
-	line "they come from?"
+	text "#mon. ¿De dónde"
+	line "vienen?"
 
-	para "Where are they"
-	line "going?"
+	para "¿Hacia dónde van?"
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#mon's birth?"
+	para "¿Por qué nunca na-"
+	line "die ha presenciado"
+	cont "el nacimiento de"
+	cont "un #mon?"
 
-	para "I want to know! I"
-	line "will dedicate my"
+	para "¡Quiero saberlo!"
+	line "¡Dedicaré mi vida"
 
-	para "life to the study"
-	line "of #mon!"
+	para "al estudio de los"
+	line "#mon!"
 
-	para "…"
+	para "..."
 
-	para "It's a part of"
-	line "Prof.Elm's re-"
-	cont "search papers."
+	para "Es un fragmento de"
+	line "los trabajos de"
+	cont "investigación del"
+	cont "Prof. Elm."
 	done

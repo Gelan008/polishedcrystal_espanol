@@ -17,18 +17,18 @@ CeruleanPoliceStation_MapScriptHeader:
 	pokemon_event  3,  5, DIGLETT, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, CeruleanDiglettText, -1
 
 CeruleanPoliceStationFishingGuruText:
-	text "I heard that some"
-	line "shady character is"
-	cont "skulking about."
+	text "He oído que hay un"
+	line "tipo sospechoso"
+	cont "merodeando."
 
-	para "I won't stand for"
-	line "it if he turns out"
-	cont "to be a thief."
+	para "No lo toleraré"
+	line "si resulta ser"
+	cont "un ladrón."
 	done
 
 CeruleanPoliceStationPokefanFText:
-	text "We were held up by"
-	line "robbers before."
+	text "Ya nos atracaron"
+	line "unos ladrones."
 	done
 
 CeruleanDiglettText:

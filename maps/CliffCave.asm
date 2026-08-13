@@ -24,23 +24,23 @@ CliffCave_MapScriptHeader:
 GenericTrainerGruntM22:
 	generictrainer GRUNTM, 22, EVENT_BEAT_ROCKET_GRUNTM_22, GruntM22SeenText, GruntM22BeatenText
 
-	text "No wonder you"
-	line "were able to"
-	cont "reach here."
+	text "No me extraña que"
+	line "pudieras llegar"
+	cont "hasta aquí."
 	done
 
 GruntM22SeenText:
-	text "Hey! You got past"
-	line "the guards!"
+	text "¡Eh! ¡Pasaste por"
+	line "los guardias!"
 	done
 
 GruntM22BeatenText:
-	text "Aieee!"
+	text "¡Aaaay!"
 	done
 
 CliffCaveRocketText:
-	text "Don't just wander"
-	line "around during a"
-	cont "Team Rocket"
-	cont "operation!"
+	text "¡No merodees"
+	line "durante una ope-"
+	cont "ración del Team"
+	cont "Rocket!"
 	done

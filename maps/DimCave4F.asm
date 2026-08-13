@@ -56,78 +56,82 @@ DimCave4FSetUpStoneTable:
 	earthquake 80
 	jumpthistext
 
-	text "The boulder fell"
-	line "through."
+	text "La roca cayó por"
+	line "el agujero."
 	done
 
 GenericTrainerScientistJoseph:
 	generictrainer SCIENTIST, JOSEPH, EVENT_BEAT_SCIENTIST_JOSEPH, .SeenText, .BeatenText
 
-	text "Water underground"
-	line "leaves behind"
-	cont "mineral deposits."
+	text "El agua subterrá-"
+	line "nea deja tras de"
+	cont "sí depósitos de"
+	cont "minerales."
 
-	para "Humans mine for"
-	line "them, and microbes"
-	cont "feed on them."
+	para "Los humanos los"
+	line "extraen, y los"
+	cont "microbios se"
+	cont "alimentan de"
+	cont "ellos."
 	done
 
 .SeenText:
-	text "I'm studying the"
-	line "ancient microbes"
+	text "Estoy estudiando"
+	line "los microbios"
+	cont "antiguos"
 
-	para "preserved in these"
-	line "rocks."
+	para "conservados en"
+	line "estas rocas."
 	done
 
 .BeatenText:
-	text "It feels good to"
-	line "get out of the lab"
-	cont "and do some field"
-	cont "work."
+	text "Sienta bien salir"
+	line "del laboratorio y"
+	cont "hacer trabajo de"
+	cont "campo."
 	done
 
 GenericTrainerScientistNigel:
 	generictrainer SCIENTIST, NIGEL, EVENT_BEAT_SCIENTIST_NIGEL, .SeenText, .BeatenText
 
-	text "The flowing water"
-	line "pushes through a"
-	cont "water wheel to"
+	text "El agua fluye y"
+	line "empuja una rueda"
+	cont "hidráulica para"
 
-	para "energize a series"
-	line "of generators,"
+	para "dar energía a unos"
+	line "generadores,"
 
-	para "turning kinetic"
-	line "energy into elec-"
-	cont "trical energy."
+	para "convirtiendo la"
+	line "energía cinética"
+	cont "en eléctrica."
 
-	para "Fascinating,"
-	line "right?"
+	para "Fascinante, ¿a que"
+	line "sí?"
 	done
 
 .SeenText:
-	text "How do we get pow-"
-	line "er out of water?"
+	text "¿Cómo sacamos"
+	line "energía del agua?"
 
-	para "I'll tell you if"
-	line "you can beat me."
+	para "Te lo diré si"
+	line "puedes vencerme."
 	done
 
 .BeatenText:
-	text "Yikes! OK, I'll"
-	line "tell you."
+	text "¡Ay! Vale, te lo"
+	line "diré."
 	done
 
 DimCave4FSuper_nerdText:
-	text "I'm walking along"
-	line "the tracks, just"
+	text "Camino a lo largo"
+	line "de las vías, ¡como"
 
-	para "like in that"
-	line "movie!"
+	para "en esa peli!"
 
-	para "…Except I'm in a"
-	line "cave… all alone…"
+	para "... Excepto que"
+	line "estoy en una"
+	cont "cueva... y solo..."
 
-	para "…This isn't fun"
-	line "anymore."
+	para "... Esto ya no"
+	line "tiene gracia."
 	done

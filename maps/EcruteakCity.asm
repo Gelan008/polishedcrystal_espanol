@@ -61,12 +61,12 @@ EcruteakCityLass2Script:
 	iftrue_jumptextfaceplayer EcruteakCityLass2Text_ReleasedBeasts
 	jumpthistextfaceplayer
 
-	text "The tower that"
-	line "used to be here…"
+	text "La torre que solía"
+	line "estar aquí..."
 
-	para "My grandma told me"
-	line "it used to be much"
-	cont "taller."
+	para "Mi abuela me dijo"
+	line "que solía ser"
+	cont "mucho más alta."
 	done
 
 EcruteakCityFisherScript:
@@ -74,188 +74,199 @@ EcruteakCityFisherScript:
 	iftrue_jumptextfaceplayer EcruteakCityFisherText_JasmineReturned
 	jumpthistextfaceplayer
 
-	text "I heard a rumor"
-	line "about Olivine"
-	cont "Lighthouse."
+	text "He oído un rumor"
+	line "sobre el Faro de"
+	cont "Olivo."
 
-	para "The #mon that"
-	line "serves as the"
+	para "El #mon que"
+	line "sirve de faro se"
 
-	para "beacon fell ill."
-	line "Sounds like they"
-	cont "are in trouble."
+	para "ha puesto enfer-"
+	line "mo. Parece que"
+	cont "están en apuros."
 	done
 
 EcruteakCityGramps1Text:
-	text "Ecruteak used to"
-	line "have two towers:"
+	text "Ciudad Iris solía"
+	line "tener dos torres:"
 
-	para "one each in the"
-	line "east and west."
+	para "una al este y otra"
+	line "al oeste."
 	done
 
 EcruteakCityGramps2Text:
-	text "Ah, child."
-	line "Have you learned"
+	text "Ah, joven."
+	line "¿Has aprendido"
 
-	para "to dance like the"
-	line "Kimono Girls?"
+	para "a bailar como las"
+	line "Chicas Kimono?"
 
-	para "If you go to their"
-	line "Dance Theater, an"
+	para "He oído que si vas"
+	line "al Teatro de Danza"
 
-	para "odd old man will"
-	line "give you something"
-	cont "nice, I hear."
+	para "un viejo raro te"
+	line "dará algo bonito."
 	done
 
 EcruteakCityLass1Text:
-	text "I'm going to get"
-	line "my #mon blessed"
+	text "Voy a que bendi-"
+	line "gan a mis #mon"
 
-	para "at the shrine."
-	line "Care to join me?"
+	para "en el santuario."
+	line "¿Te apetece venir?"
 	done
 
 EcruteakCityHexManiacText:
-	text "Spirits of #mon"
-	line "haunt this place…"
+	text "Los espíritus de"
+	line "#mon rondan"
+	cont "este lugar..."
 	done
 
 EcruteakCitySightseerMText:
-	text "Ecruteak has such"
-	line "an incredible"
-	cont "history."
+	text "Ciudad Iris tiene"
+	line "una historia in-"
+	cont "creíble."
 
-	para "Smeargle and I"
-	line "traveled here to"
-	cont "draw it."
+	para "Smeargle y yo vi-"
+	line "ajamos hasta aquí"
+	cont "para dibujarla."
 	done
 
 EcruteakCitySmeargleText:
-	text "Smeargle: Smeer!"
+	text "Smeargle: ¡Smeer!"
 	done
 
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Three big #mon"
-	line "ran off in differ-"
-	cont "ent directions."
-	cont "What were they?"
+	text "Tres grandes #"
+	line "mon salieron co-"
+	cont "rriendo en direc-"
+	cont "ciones distintas."
+	cont "¿Qué eran?"
 	done
 
 
 EcruteakCityFisherText_JasmineReturned:
-	text "The #mon at"
-	line "Olivine Lighthouse"
-	cont "has been cured."
+	text "El #mon del Fa-"
+	line "ro de Olivo ha"
+	cont "sido curado."
 
-	para "Boats can safely"
-	line "sail out to sea at"
-	cont "night again."
+	para "Los barcos pueden"
+	line "volver a salir a"
+	cont "navegar por la"
+	cont "noche con seguri-"
+	cont "dad."
 	done
 
 EcruteakCityYoungsterText:
-	text "I hear #mon are"
-	line "rampaging at the"
+	text "He oído que hay #"
+	line "mon alborotando en"
 
-	para "Lake of Rage. I'd"
-	line "like to see that."
+	para "el Lago de la Fu-"
+	line "ria. Me gustaría"
+	cont "verlo."
 	done
 
 EcruteakCityGramps3Text:
-	text "In the distant"
-	line "past…"
+	text "En el pasado"
+	line "distante..."
 
-	para "This tower burned"
-	line "in a fire. Three"
+	para "Esta torre ardió"
+	line "en un incendio."
+	cont "Tres #mon sin"
 
-	para "nameless #mon"
-	line "perished in it."
+	para "nombre perecieron"
+	line "en él."
 
-	para "A rainbow-colored"
-	line "#mon descended"
+	para "Un #mon con co-"
+	line "lores del arcoíris"
+	cont "descendió"
 
-	para "from the sky and"
-	line "resurrected them…"
+	para "del cielo y los"
+	line "resucitó..."
 
-	para "It's a legend that"
-	line "has been passed"
+	para "Es una leyenda que"
+	line "se ha transmitido"
 
-	para "down by Ecruteak"
-	line "Gym Leaders."
+	para "por los Líderes de"
+	line "Gimnasio de Iris."
 
-	para "Me?"
+	para "¿Yo?"
 
-	para "I was a trainer"
-	line "way back when."
-	cont "Hohoho!"
+	para "Fui entrenador ha-"
+	line "ce mucho tiempo."
+	cont "¡Jo, jo, jo!"
 	done
 
 EcruteakCitySign:
-	text "Ecruteak City"
-	line "A Historical City"
+	text "Ciudad Iris"
+	line "Ciudad histórica"
 
-	para "Where the Past"
-	line "Meets the Present"
+	para "Donde el pasado y"
+	line "el presente"
+	cont "se unen"
 	done
 
 EcruteakGymSign:
-	text "Ecruteak City"
-	line "#mon Gym"
-	cont "Leader: Morty"
+	text "Líder del Gimnasio"
+	line "#mon de"
+	cont "Ciudad Iris:"
+	cont "Morti"
 
-	para "The Mystic Seer of"
-	line "the Future"
+	para "El adivino místico"
+	line "del futuro"
 	done
 
 EcruteakCityAdvancedTips:
-	text "Advanced Tips!"
+	text "¡Pistas Avanzadas!"
 
-	para "Some #mon you"
-	line "encounter may"
+	para "Algunos #mon que"
+	line "encuentres pueden"
 
-	para "have a rare"
-	line "ability, also"
+	para "tener una rara ha-"
+	line "bilidad, ¡también"
 
-	para "known as a"
-	line "hidden Ability!"
+	para "conocida como"
+	line "Habilidad Oculta!"
 
-	para "A hatched #mon"
-	line "also has a low"
+	para "Un #mon salido"
+	line "del huevo también"
 
-	para "chance to have"
-	line "a hidden Ability."
+	para "tiene una pequeña"
+	line "probabilidad de"
+	cont "tener una."
 	done
 
 EcruteakDanceTheaterSign:
-	text "Ecruteak Dance"
-	line "Theater"
+	text "Teatro de Danza de"
+	line "Ciudad Iris"
 	done
 
 BurnedTowerSign:
-	text "Burned Tower"
+	text "Torre Quemada"
 
-	para "It was destroyed"
-	line "by a mysterious"
-	cont "fire."
+	para "Fue destruida en"
+	line "un misterioso in-"
+	cont "cendio."
 
-	para "Please stay away,"
-	line "as it is unsafe."
+	para "Por favor, mantén-"
+	line "te alejado. No es"
+	cont "segura."
 	done
 
 EcruteakShrineSign:
-	text "Ecruteak Shrine"
+	text "Santuario de Iris"
 
-	para "“Life is a lamp-"
-	line "flame before a"
-	cont "wind.”"
+	para "“La vida es la"
+	line "llama de una lám-"
+	cont "para frente al"
+	cont "viento”"
 	done
 
 EcruteakBarrierStationSign:
-	text "Barrier Station"
-	line "to Bell Tower"
+	text "Estación Barrera a"
+	line "la Torre Campana"
 
-	para "No Trespassing by"
-	line "the Unworthy"
+	para "Prohibido el paso"
+	line "a los indignos"
 	done

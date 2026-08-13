@@ -93,7 +93,7 @@ endr
 	ret
 
 .OTAndExtra:
-	rawchar "Mr.<PK><MN>@@@"
+	rawchar "Sr.<PK><MN>@@@"
 	db 0, 0, 0
 
 .Nickname:

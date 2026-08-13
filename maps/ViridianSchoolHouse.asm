@@ -121,7 +121,7 @@ PokemonJournalKiyoScript:
 	para "Kiyo is said to"
 	line "have studied under"
 
-	para "Chuck of Cianwood"
+	para "Aníbal of Cianwood"
 	line "City. He is"
 
 	para "rumored to still"

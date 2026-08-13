@@ -32,61 +32,63 @@ CianwoodHouseBlackBeltScript:
 	jumpopenedtext CianwoodHouseBlackBeltText2
 
 CianwoodHouseBlackBeltText1:
-	text "I went to the Gym"
-	line "wearing this vest,"
-	cont "but was laughed"
+	text "Fui al Gimnasio"
+	line "con este chaleco,"
+	cont "¡pero se rieron"
 
-	para "out of the build-"
-	line "ing! I can't wear"
-	cont "it there again,"
+	para "de mí y me echa-"
+	line "ron! No puedo"
+	cont "volver a llevarlo"
 
-	para "so you might as"
-	line "well have it."
+	para "allí, así que me-"
+	line "jor te lo quedas"
+	cont "tú."
 	done
 
 CianwoodHouseBlackBeltText2:
-	text "Right. I'm gonna"
-	line "train hard and"
+	text "Bien. ¡Entrenaré"
+	line "duro y me ganaré"
 
-	para "earn my spot in"
-	line "the Gym!"
+	para "mi puesto en el"
+	line "Gimnasio!"
 	done
 
 CianwoodLugiaSpeechHouseTeacherText:
-	text "You came from"
-	line "Olivine?"
+	text "¿Viniste desde"
+	line "Olivo?"
 
-	para "Do you remember"
-	line "the four islands"
-	cont "along the way?"
+	para "¿Recuerdas las"
+	line "cuatro islas del"
+	cont "camino?"
 
-	para "I heard that a"
-	line "mythical sea crea-"
-	cont "ture is hiding in"
-	cont "them."
+	para "He oído que una"
+	line "mítica criatura"
+	cont "marina se esconde"
+	cont "en ellas."
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "I heard that you"
-	line "can only see it if"
+	text "He oído que solo"
+	line "puedes verla si"
 
-	para "you have a Silver"
-	line "Wing."
+	para "tienes un Ala"
+	line "Plateada."
 
-	para "It must have the"
-	line "same scent as the"
-	cont "creature."
+	para "Debe tener el"
+	line "mismo olor que la"
+	cont "criatura."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "I've heard that"
-	line "the whirlpools"
+	text "He oído que los"
+	line "remolinos de agua"
 
-	para "around the islands"
-	line "are caused by the"
-	cont "sea creature."
+	para "alrededor de las"
+	line "islas son causados"
+	cont "por la criatura"
+	cont "marina."
 
-	para "You might need a"
-	line "special move to"
-	cont "get past them."
+	para "Podrías necesitar"
+	line "un mov. especial"
+	cont "para pasarlos."
 	done

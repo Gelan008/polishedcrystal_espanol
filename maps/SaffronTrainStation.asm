@@ -168,7 +168,7 @@ SaffronMagnetTrainStationTeacherText:
 	line "house there."
 
 	para "A little girl"
-	line "named Copycat used"
+	line "named Copiona used"
 	cont "to live there."
 	done
 

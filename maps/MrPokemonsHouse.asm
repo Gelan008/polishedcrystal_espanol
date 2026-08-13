@@ -281,7 +281,7 @@ if !DEF(DEBUG)
 
 	para "I was just visit-"
 	line "ing my old friend"
-	cont "Mr.#mon."
+	cont "Sr.#mon."
 
 	para "I heard you were"
 	line "running an errand"

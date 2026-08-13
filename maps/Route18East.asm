@@ -59,6 +59,6 @@ Bird_keeperBobBeatenText:
 Route18SignText:
 	text "Route 18"
 
-	para "Celadon City -"
-	line "Fuchsia City"
+	para "Ciudad Azulona -"
+	line "Ciudad Fucsia"
 	done

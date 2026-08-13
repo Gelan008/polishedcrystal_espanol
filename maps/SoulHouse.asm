@@ -65,7 +65,7 @@ MrFujiScript:
 	endtext
 
 MrFujiText:
-	text "Mr.Fuji: Welcome."
+	text "Sr.Fuji: Welcome."
 
 	para "Hmm… You appear to"
 	line "be raising your"
@@ -111,7 +111,7 @@ SoulHouseTeacherText:
 
 	para "There are many"
 	line "chambers that only"
-	cont "Mr.Fuji may enter."
+	cont "Sr.Fuji may enter."
 	done
 
 SoulHouseLassText:
@@ -147,7 +147,7 @@ AgathaSeenText:
 	para "It might not be"
 	line "here any longer."
 
-	para "Mr.Fuji kept many"
+	para "Sr.Fuji kept many"
 	line "of the graves"
 	cont "elsewhere after"
 

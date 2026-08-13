@@ -77,8 +77,8 @@ CinnabarVolcano1FBouldersFall:
 	earthquake 80
 	jumpthistext
 
-	text "The boulder fell"
-	line "through!"
+	text "¡La roca se ha"
+	line "caído!"
 	done
 
 CinnabarVolcano1FBuckScript:
@@ -116,116 +116,116 @@ CinnabarVolcano1FBuckScript:
 	end
 
 .ChallengeText:
-	text "Howdy! I'm Bulgur."
-	line "And you're…"
-	cont "<PLAYER>?"
+	text "¡Hola! Soy Bulgur."
+	line "Y tú eres..."
+	cont "¿<PLAYER>?"
 
-	para "Don't tell me"
-	line "you're hunting for"
-	cont "treasure too?"
+	para "No me digas que"
+	line "tú también buscas"
+	cont "tesoros."
 
-	para "Stark Mountain"
-	line "back home has"
+	para "¡La Montaña Dura"
+	line "en mi hogar tiene"
 
-	para "treasure deep in-"
-	line "side, so I'm sure"
-	cont "this volcano does"
-	cont "too!"
+	para "tesoros dentro, "
+	line "así que seguro que"
+	cont "este volcán tam-"
+	cont "bién tiene!"
 
-	para "That's why I'm here."
+	para "Por eso estoy aquí."
 
-	para "So, <PLAYER>, what"
-	line "do you say we bat-"
-	cont "tle for it?"
+	para "Así que, <PLAYER>,"
+	line "¿qué dices si lu-"
+	cont "chamos por ello?"
 	done
 
 .YesText:
-	text "OK! I'm telling you"
-	line "right now. I'm ser-"
-	cont "iously tough."
+	text "¡Vale! Te lo digo"
+	line "ahora mismo."
+	cont "Soy muy duro."
 	done
 
 .NoText:
-	text "I'll keep asking"
-	line "until you say"
-	cont "“Yes!”"
+	text "Seguiré preguntan-"
+	line "do hasta que di-"
+	cont "gas “¡Sí!”"
 	done
 
 .BeatenText:
-	text "Heeheehee!"
-	line "So hot, you!"
+	text "¡Jejeje!"
+	line "¡Eres genial!"
 	done
 
 .ItemText:
-	text "Fweh! Too much!"
+	text "¡Fuf! ¡Demasiado!"
 
-	para "This volcano's"
-	line "treasure isn't for"
-	cont "me…"
+	para "El tesoro de este"
+	line "volcán no es para"
+	cont "mí..."
 
-	para "But, hey, <PLAYER>!"
-	line "You're an amazing"
-	cont "trainer!"
+	para "Pero oye, ¡<PLAYER>!"
+	line "¡Eres un entrena-"
+	cont "dor increíble!"
 
-	para "You should like"
-	line "this!"
+	para "¡Debería gustarte"
+	line "esto!"
 	done
 
 .GoodbyeText:
-	text "I guess I'll better"
-	line "my team at the"
-	cont "Battle Tower."
+	text "Supongo que mejo-"
+	line "raré a mi equipo"
+	cont "en Torre Batalla."
 
-	para "Be seeing you,"
+	para "¡Nos vemos,"
 	line "<PLAYER>!"
-	cont "Bye-bye!"
+	cont "¡Adiós!"
 	done
 
 GenericTrainerScientistOskar:
 	generictrainer SCIENTIST, OSKAR, EVENT_BEAT_SCIENTIST_OSKAR, ScientistOskarSeenText, ScientistOskarBeatenText
 
-	text "It's important to"
-	line "study natural"
-	cont "disasters so we"
+	text "Es importante es-"
+	line "tudiar los desas-"
+	cont "tres naturales"
 
-	para "can prepare for"
-	line "the next one."
+	para "para prepararnos"
+	line "para el próximo."
 	done
 
 GenericTrainerSuperNerdLuis:
 	generictrainer SUPER_NERD, LUIS, EVENT_BEAT_SUPER_NERD_LUIS, SuperNerdLuisSeenText, SuperNerdLuisBeatenText
 
-	text "It's so thrilling"
-	line "to be inside a"
-	cont "volcano!"
+	text "¡Es tan emocio-"
+	line "nante estar dentro"
+	cont "de un volcán!"
 
-	para "But scary at the"
-	line "same time."
+	para "Pero asusta al"
+	line "mismo tiempo."
 	done
 
 ScientistOskarSeenText:
-	text "I'm studying the"
-	line "volcano to learn"
-	cont "why it erupted."
+	text "Estoy estudiando"
+	line "el volcán para ver"
+	cont "por qué erupcionó."
 	done
 
 ScientistOskarBeatenText:
-	text "Better luck next"
-	line "time!"
+	text "¡Más suerte la"
+	line "próxima vez!"
 	done
 
 SuperNerdLuisSeenText:
-	text "Did you know that"
-	line "magma is only"
+	text "¿Sabías que al"
+	line "magma solo se le"
 
-	para "called lava once"
-	line "it reaches the"
+	para "llama lava una"
+	line "vez que llega a"
 
-	para "surface through"
-	line "a volcano vent?"
+	para "la superficie"
+	line "por un volcán?"
 	done
 
 SuperNerdLuisBeatenText:
-	text "You just taught"
-	line "me…"
+	text "Me acabas de"
+	line "enseñar..."
 	done

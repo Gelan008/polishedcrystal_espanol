@@ -29,30 +29,31 @@ CherrygroveMartCooltrainerMScript:
 	iftrue_jumptextfaceplayer CherrygroveMartCooltrainerMText_PokeBallsInStock
 	jumpthistextfaceplayer
 
-	text "They're fresh out"
-	line "of # Balls!"
+	text "¡Se han quedado"
+	line "sin # Balls!"
 
-	para "When will they get"
-	line "more of them?"
+	para "¿Cuándo tendrán"
+	line "más existencias?"
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
-	text "# Balls are in"
-	line "stock! Now I can"
-	cont "catch #mon!"
+	text "¡Vuelven a tener"
+	line "# Balls! ¡Ya"
+	cont "puedo atrapar a"
+	cont "más #mon!"
 	done
 
 CherrygroveMartYoungsterText:
-	text "When I was walking"
-	line "in the grass, a"
+	text "Mientras andaba"
+	line "por la hierba, ¡un"
 
-	para "bug #mon poi-"
-	line "soned my #mon!"
+	para "#mon bicho en-"
+	line "venenó al mío!"
 
-	para "I just kept going,"
-	line "and my #mon"
-	cont "barely recovered."
+	para "Seguí caminando, y"
+	line "mi #mon ape-"
+	cont "nas se recuperó."
 
-	para "You should keep an"
-	line "Antidote with you."
+	para "Deberías llevar un"
+	line "Antídoto contigo."
 	done

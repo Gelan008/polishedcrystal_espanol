@@ -24,19 +24,20 @@ PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "<PK><MN> Trainer Rojo!"
+	para "Edición Especial:"
+	line "¡Entrenador <PK><MN>"
+	cont "Rojo!"
 
-	para "Rojo is said to"
-	line "have defeated his"
+	para "Se dice que Rojo"
+	line "derrotó a su"
 
-	para "rival Azul for the"
-	line "title of #mon"
+	para "rival Azul por el"
+	line "título de Campeón"
 
-	para "League Champion in"
-	line "record time."
+	para "de la Liga #mon"
+	line "en tiempo récord."
 	done
 
 CherrygrovePokeCenter1FTeacherScript:
@@ -44,48 +45,52 @@ CherrygrovePokeCenter1FTeacherScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The Communication"
-	line "Center upstairs"
-	cont "was just built."
+	text "El Centro de Co-"
+	line "municaciones de"
+	cont "arriba acaba de"
+	cont "ser construido."
 
-	para "But they're still"
-	line "finishing it up."
+	para "Pero todavía lo"
+	line "están terminando."
 	done
 
 .Text2:
-	text "The Communication"
-	line "Center upstairs"
-	cont "was just built."
+	text "El Centro de Co-"
+	line "municaciones de"
+	cont "arriba acaba de"
+	cont "ser construido."
 
-	para "I traded #mon"
-	line "there already!"
+	para "¡Ya intercambié"
+	line "#mon allí!"
 	done
 
 CherrygrovePokeCenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
+	text "Es genial. Puedo"
+	line "almacenar cual-"
 
-	para "of #mon, and"
-	line "it's all free."
+	para "quier cantidad de"
+	line "#mon, ¡y to-"
+	cont "do es gratis!"
 	done
 
 CherrygrovePokeCenter1FGentlemanText:
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "Ese PC es gra-"
+	line "tuito para que"
+	cont "cualquier entre-"
+	cont "nador lo use."
 	done
 
 CherrygrovePokeCenter1FLadyText:
-	text "#mon Journal"
-	line "has such fascin-"
-	cont "ating stories!"
+	text "¡La Revista #-"
+	line "mon tiene histo-"
+	cont "rias fascinantes!"
 
-	para "I come to #mon"
-	line "Centers for the"
+	para "Vengo a los"
+	line "Centros #mon a"
 
-	para "latest issues, but"
-	line "they're not the"
+	para "por las últimas,"
+	line "pero no son el"
 
-	para "only place with"
-	line "a subscription."
+	para "único sitio con"
+	line "suscripción."
 	done

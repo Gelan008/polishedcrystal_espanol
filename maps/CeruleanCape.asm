@@ -135,21 +135,20 @@ CeruleanCapeDateInterruptedTrigger3:
 GenericTrainerSwimmermRomeo:
 	generictrainer SWIMMERM, ROMEO, EVENT_BEAT_SWIMMERM_ROMEO, .SeenText, .BeatenText
 
-	text "Being a good"
-	line "Swimmer doesn't"
+	text "Ser un buen Nado-"
+	line "dor no me hace un"
 
-	para "make me a good"
-	line "trainer…"
+	para "buen entrenador..."
 	done
 
 .SeenText:
-	text "Admire my fitness!"
-	line "My victory is"
-	cont "assured!"
+	text "¡Admira mi forma!"
+	line "¡Mi victoria está"
+	cont "asegurada!"
 	done
 
 .BeatenText:
-	text "Oh! That's it?"
+	text "¡Oh! ¿Eso es todo?"
 	done
 
 TrainerSwimmermMalcolm:
@@ -159,156 +158,160 @@ TrainerSwimmermMalcolm:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Don't tell me,"
-	line "you visit lots of"
+	text "No me digas, vi-"
+	line "sitas muchos Gim-"
 
-	para "#mon Gyms,"
-	line "right?"
+	para "nasios #mon,"
+	line "¿verdad?"
 	done
 
 .SeenText:
-	text "My #mon and I"
-	line "swim together,"
+	text "Mis #mon y yo"
+	line "nadamos juntos,"
 
-	para "but we also"
-	line "battle!"
+	para "¡pero también"
+	line "luchamos!"
 	done
 
 .BeatenText:
-	text "I wish I were as"
-	line "strong as you."
+	text "Ojalá fuera tan"
+	line "fuerte como tú."
 	done
 
 GenericTrainerSwimmermArmand:
 	generictrainer SWIMMERM, ARMAND, EVENT_BEAT_SWIMMERM_ARMAND, .SeenText, .BeatenText
 
-	text "That gal on the"
-	line "shore… Her music"
-	cont "is good, but she's"
+	text "Esa chica de la"
+	line "orilla... Su mú-"
+	cont "sica es buena, ¡pe-"
 
-	para "distracting the"
+	para "ro distrae a los"
 	line "#mon!"
 	done
 
 .SeenText:
-	text "Ugh. Would that"
-	line "Guitarist on the"
+	text "Uf. ¿Podría esa"
+	line "Guitarrista de la"
 
-	para "shore keep it"
-	line "down?"
+	para "orilla bajar un"
+	line "poco el volumen?"
 	done
 
 .BeatenText:
-	text "The guitar put me"
-	line "off my stride!"
+	text "¡La guitarra me ha"
+	line "despistado!"
 	done
 
 GenericTrainerBeautyBridget:
 	generictrainer BEAUTY, BRIDGET, EVENT_BEAT_BEAUTY_BRIDGET, .SeenText, .BeatenText
 
-	text "I think the view"
-	line "here is beautiful."
-	cont "Don't you agree?"
+	text "Creo que las vis-"
+	line "tas aquí son her-"
+	cont "mosas. ¿Verdad?"
 	done
 
 .SeenText:
-	text "Hey! You're block-"
-	line "ing my view!"
+	text "¡Eh! ¡Me estás ta-"
+	line "pando las vistas!"
 	done
 
 .BeatenText:
-	text "I was just trying"
-	line "to enjoy the view…"
+	text "Solo intentaba dis-"
+	line "frutar las vis-"
+	cont "tas..."
 	done
 
 GenericTrainerBeautyVeronica:
 	generictrainer BEAUTY, VERONICA, EVENT_BEAT_BEAUTY_VERONICA, .SeenText, .BeatenText
 
-	text "Treat me mean and"
-	line "I'll tell you where"
-	cont "to go!"
+	text "¡Trátame mal y te"
+	line "mandaré a paseo!"
 
-	para "Must be why I'm"
-	line "single. …Haha!"
+	para "Debe ser por eso"
+	line "que estoy soltera."
+	cont "...¡Jaja!"
 	done
 
 .SeenText:
-	text "I don't date much,"
-	line "but when I do,"
+	text "No suelo tener ci-"
+	line "tas, pero cuando"
 
-	para "Cerulean Cape is"
-	line "the perfect spot."
+	para "las tengo, el Cabo"
+	line "Celeste es perfec-"
+	cont "to."
 	done
 
 .BeatenText:
-	text "Treat 'em mean,"
-	line "keep 'em keen,"
-	cont "right?"
+	text "Trátalos mal, man-"
+	line "tenlos atentos,"
+	cont "¿no?"
 	done
 
 GenericTrainerGentlemanCamus:
 	generictrainer GENTLEMAN, CAMUS, EVENT_BEAT_GENTLEMAN_CAMUS, .SeenText, .BeatenText
 
-	text "I was once a ta-"
-	line "lented trainer,"
+	text "Una vez fui un en-"
+	line "trenador de ta-"
+	cont "lento,"
 
-	para "but now I'm just an"
-	line "old has-been."
+	para "pero ahora solo"
+	line "soy un viejo inútil."
 
-	para "Enjoy it while"
-	line "you're still young."
+	para "Disfruta mientras"
+	line "aún eres joven."
 	done
 
 .SeenText:
-	text "Seeing you reminds"
-	line "me of my own wild"
-	cont "youth."
+	text "Verte me recuerda"
+	line "a mi propia y"
+	cont "alocada juventud."
 	done
 
 .BeatenText:
-	text "What a wild"
-	line "battle!"
+	text "¡Qué combate tan"
+	line "alocado!"
 	done
 
 GenericTrainerGentlemanGeoffrey:
 	generictrainer GENTLEMAN, GEOFFREY, EVENT_BEAT_GENTLEMAN_GEOFFREY, .SeenText, .BeatenText
 
-	text "Sometimes a change"
-	line "is as good as a"
-	cont "rest."
+	text "A veces un cambio"
+	line "es tan bueno como"
+	cont "un descanso."
 
-	para "I feel so refresh-"
-	line "ed!"
+	para "¡Me siento tan re-"
+	line "novado!"
 	done
 
 .SeenText:
-	text "I wanted a change,"
-	line "so I got into"
-	cont "#mon!"
+	text "¡Quería un cambio,"
+	line "así que me metí"
+	cont "en los #mon!"
 	done
 
 .BeatenText:
-	text "Despite my age, I'm"
-	line "still a beginner."
+	text "A pesar de mi"
+	line "edad, aún soy un"
+	cont "principiante."
 	done
 
 GenericTrainerGuitaristfMorgan:
 	generictrainer GUITARISTF, MORGAN, EVENT_BEAT_GUITARISTF_MORGAN, .SeenText, .BeatenText
 
-	text "The echoing cliffs"
-	line "make the Cape a"
-	cont "perfect sound-"
-	cont "board!"
+	text "¡Los acantilados"
+	line "hacen del Cabo una"
+	cont "caja de resonan-"
+	cont "cia perfecta!"
 	done
 
 .SeenText:
-	text "Listen to that"
-	line "reverb!"
+	text "¡Escucha esa"
+	line "reverberación!"
 	done
 
 .BeatenText:
-	text "What a rockin'"
-	line "battle!"
+	text "¡Qué combate tan"
+	line "rockero!"
 	done
 
 TrainerLadyJessica:
@@ -329,55 +332,59 @@ TrainerLadyJessica:
 	waitendtext
 
 .SeenText:
-	text "Ah! You there!"
-	line "Care to battle"
-	cont "with me?"
+	text "¡Ah! ¡Tú!"
+	line "¿Quieres luchar"
+	cont "conmigo?"
 	done
 
 .BeatenText:
-	text "Oh no! I got my"
-	line "dress all wet!"
+	text "¡Oh no! ¡Me he"
+	line "mojado el vesti-"
+	cont "do!"
 	done
 
 .AfterText1:
-	text "I'll have to buy a"
-	line "better #mon…"
-	cont "………………"
-	cont "And a new dress…"
+	text "Tendré que com-"
+	line "prar un #mon"
+	cont "mejor..."
+	cont "......"
+	cont "Y un vestido"
+	cont "nuevo..."
 	done
 
 .AfterText2:
-	text "Why are you still"
-	line "here?"
+	text "¿Por qué sigues"
+	line "aquí?"
 
-	para "Stop staring at"
+	para "¡Deja de mirar-"
 	line "me!"
-	cont "………………"
-	cont "Creep!"
+	cont "......"
+	cont "¡Asqueroso!"
 	done
 
 GenericTrainerFisherLeroy:
 	generictrainer FISHER, LEROY, EVENT_BEAT_FISHER_LEROY, .SeenText, .BeatenText
 
-	text "All I ever catch"
-	line "are Magikarp…"
+	text "Todo lo que atra-"
+	line "po son Magikarp..."
 
-	para "At least they all"
-	line "look unique."
+	para "Al menos todos tie-"
+	line "nen un aspecto ú-"
+	cont "nico."
 	done
 
 .SeenText:
-	text "I keep catching"
-	line "the same #mon…"
+	text "No dejo de atrapar"
+	line "al mismo #mon..."
 
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
+	para "Quizás un combate"
+	line "haga que cambie mi"
+	cont "suerte."
 	done
 
 .BeatenText:
-	text "Nothing ever goes"
-	line "right for me now…"
+	text "Nada me sale bien"
+	line "últimamente..."
 	done
 
 Route25MistysDateLeavesMovement2:
@@ -414,45 +421,47 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "Misty: Aww! Why"
-	line "did you have to"
+	text "Misty: ¡Uf! ¿Por"
+	line "qué tienes que"
 
-	para "show up and bug us"
-	line "now?"
+	para "aparecer y moles-"
+	line "tarnos ahora?"
 
-	para "Do you know what"
-	line "they call people"
-	cont "like you?"
+	para "¿Sabes cómo lla-"
+	line "man a la gente co-"
+	cont "mo tú?"
 
-	para "Pests! You heard"
-	line "me right, pest!"
+	para "¡Plasta! ¡Has oí-"
+	line "do bien, plasta!"
 
-	para "…"
+	para "..."
 
-	para "…Oh? Those Badges"
-	line "you have… Are they"
-	cont "Johto Gym Badges?"
+	para "...¿Oh? Esas Me-"
+	line "dallas... ¿Son de"
+	cont "Gimnasios de"
+	cont "Johto?"
 
-	para "If you have eight,"
-	line "you must be good."
+	para "Si tienes ocho,"
+	line "debes ser bueno."
 
-	para "OK, then. Come to"
-	line "Cerulean Gym."
+	para "Vale. Ven al Gim-"
+	line "nasio de Celeste."
 
-	para "I'll be happy to"
-	line "take you on."
+	para "Estaré encantada"
+	line "de enfrentarme a"
+	cont "ti."
 
-	para "I'm Misty, the"
-	line "Gym Leader in"
-	cont "Cerulean."
+	para "Soy Misty, la Lí-"
+	line "der del Gimnasio"
+	cont "de Celeste."
 	done
 
 BillsHouseSignText:
-	text "Sea Cottage"
-	line "Bill's House"
+	text "Casa del Mar"
+	line "Casa de Bill"
 	done
 
 CeruleanCapeSailboatText:
-	text "It's a sailboat"
-	line "named FriendShip."
+	text "Es un velero"
+	line "llamado Amistad."
 	done

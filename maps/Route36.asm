@@ -645,7 +645,7 @@ PsychicMarkBeatenText:
 	done
 
 SchoolgirlMollySeenText:
-	text "Mr.Earl taught me"
+	text "Sr.Primo taught me"
 	line "how to battle with"
 	cont "#mon!"
 	done

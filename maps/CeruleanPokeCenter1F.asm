@@ -22,16 +22,16 @@ PokemonJournalMistyScript:
 	setflag ENGINE_READ_MISTY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Misty!"
+	para "Edición Especial:"
+	line "¡Líder Misty!"
 
-	para "Misty is said to"
-	line "worship Lorelei,"
+	para "Se dice que Misty"
+	line "adora a Lorelei,"
 
-	para "a former member of"
-	line "the Elite Four."
+	para "una ex miembro"
+	line "del Alto Mando."
 	done
 
 CeruleanPokeCenter1FGymGuyScript:
@@ -39,41 +39,41 @@ CeruleanPokeCenter1FGymGuyScript:
 	iftrue_jumptextfaceplayer .MetricText
 	jumpthistextfaceplayer
 
-	text "The Magnet Train"
-	line "travels at over"
+	text "El Magnetotrén"
+	line "viaja a más de"
 
-	para "340 mph. It goes"
-	line "between Kanto and"
+	para "340 mph. Va entre"
+	line "Kanto y Johto en"
 
-	para "Johto in almost no"
-	line "time at all."
+	para "casi nada de"
+	line "tiempo."
 
-	para "It really makes"
-	line "Johto accessible."
+	para "Realmente hace a"
+	line "Johto accesible."
 	done
 
 .MetricText:
-	text "The Magnet Train"
-	line "travels at over"
+	text "El Magnetotrén"
+	line "viaja a más de"
 
-	para "550 kph. It goes"
-	line "between Kanto and"
+	para "550 km/h. Va entre"
+	line "Kanto y Johto en"
 
-	para "Johto in almost no"
-	line "time at all."
+	para "casi nada de"
+	line "tiempo."
 
-	para "It really makes"
-	line "Johto accessible."
+	para "Realmente hace a"
+	line "Johto accesible."
 	done
 
 CeruleanPokeCenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
+	text "En combates,"
+	line "prefiero usar a"
 
-	para "#mon I've been"
-	line "raising, even if"
+	para "los #mon que"
+	line "he criado, aunque"
 
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #mon."
+	para "sean más débiles"
+	line "que algunos que"
+	cont "acabo de atrapar."
 	done

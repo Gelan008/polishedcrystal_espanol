@@ -301,12 +301,12 @@ Route30SignText:
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "Mr.#mon's House"
+	text "Sr.#mon's House"
 	line "Straight Ahead!"
 	done
 
 MrPokemonsHouseSignText:
-	text "Mr.#mon's House"
+	text "Sr.#mon's House"
 	done
 
 BerryMastersHouseSignText:

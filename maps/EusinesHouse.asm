@@ -63,12 +63,13 @@ CeladonEusine:
 .OwnSuicune
 	jumpthistext
 
-	text "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
+	text "Si capturas"
+	line "aunque sea uno,"
+	cont "espero que me in-"
+	cont "formes."
 
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para "¡Cuento contigo,"
+	line "<PLAYER>!"
 	done
 
 .HoOh:
@@ -108,13 +109,13 @@ EusinesHouseGrampsScript:
 	iftruefwd .AfterHoOhFight
 	jumpthistextfaceplayer
 
-	text "My grandson Eusine"
-	line "is on another"
-	cont "adventure."
+	text "Mi nieto Eusine"
+	line "está en otra"
+	cont "aventura."
 
-	para "He left to visit"
-	line "Bell Tower in"
-	cont "Ecruteak City."
+	para "Se fue a visitar"
+	line "la Torre Campana"
+	cont "en Ciudad Iris."
 	done
 
 .AfterHoOhFight:
@@ -133,116 +134,120 @@ EusinesHouseGrampsScript:
 	end
 
 ReceivedAbraDollText:
-	text "<PLAYER> received"
-	line "Abra Doll."
+	text "<PLAYER> recibió"
+	line "Muñeco Abra."
 	done
 
 AbraDollSentHomeText:
-	text "Abra Doll"
-	line "was sent home."
+	text "El Muñeco Abra se"
+	line "envió a casa."
 	done
 
 CeladonEusineText1:
-	text "Eusine: Hi!"
+	text "Eusine: ¡Hola!"
 
-	para "I'm back visiting"
-	line "my hometown."
+	para "He vuelto de"
+	line "visita a mi"
+	cont "pueblo natal."
 
-	para "It's been quite a"
-	line "while."
+	para "Ha pasado un"
+	line "buen tiempo."
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, ¿te has"
+	line "enterado?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para "Hay nuevos"
+	line "rumores sobre un"
 
-	para "rainbow-colored"
-	line "#mon appearing"
-	cont "at Bell Tower."
+	para "#mon arcoíris"
+	line "que aparece en la"
+	cont "Torre Campana."
 
-	para "I've just had my"
-	line "party healed, so"
+	para "Acabo de curar a"
+	line "mi equipo, así"
 
-	para "now I'm headed to"
-	line "Ecruteak."
+	para "que me dirijo a"
+	line "Ciudad Iris."
 
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para "¡Nos vemos,"
+	line "<PLAYER>!"
 	done
 
 EusineNoBeastsText:
-	text "Oh, by the way,"
+	text "Oh, por cierto,"
 	line "<PLAYER>."
 
-	para "Have you caught"
-	line "the legendary"
-	cont "beast #mon?"
+	para "¿Has capturado"
+	line "a los #mon"
+	cont "bestia legendarios?"
 
 	para "………………"
 
-	para "OK…"
+	para "Vale…"
 
-	para "Let me give you"
-	line "my research notes."
+	para "Déjame darte mis"
+	line "notas de investi-"
+	cont "gación."
 	done
 
 EusineShowsRaikouText:
-	text "This is Raikou:"
+	text "Éste es Raikou:"
 	done
 
 EusineShowsEnteiText:
-	text "This is Entei:"
+	text "Éste es Entei:"
 	done
 
 EusineShowsSuicuneText:
-	text "This, of course,"
-	line "is Suicune:"
+	text "Éste, por su-"
+	line "puesto, es Suicune:"
 	done
 
 
 EusinesHouseGrampsGrandsonHomeText:
-	text "My grandson came"
-	line "home!"
-	cont "I'm overjoyed!"
+	text "¡Mi nieto ha"
+	line "vuelto a casa!"
+	cont "¡Estoy muy feliz!"
 	done
 
 EusinesHouseGrampsEusineSearchingForSuicuneText:
-	text "My grandson Eusine"
-	line "is in Johto,"
+	text "Mi nieto Eusine"
+	line "está en Johto,"
 
-	para "searching far and"
-	line "wide for Suicune."
+	para "buscando a"
+	line "Suicune por to-"
+	cont "das partes."
 
-	para "I taught him all"
-	line "about the legend-"
-	cont "ary #mon!"
+	para "¡Yo le enseñé"
+	line "todo sobre los #"
+	cont "mon legendarios!"
 	done
 
 
 EusinesHouseGrampsThankYouGiftText:
-	text "My grandson Eusine"
-	line "called."
+	text "Llamó mi nieto"
+	line "Eusine."
 
-	para "He's doing well."
-	line "I'm happy for him!"
+	para "Le va muy bien."
+	line "¡Me alegro por él!"
 
-	para "Thank you for"
-	line "checking on me,"
+	para "¡Gracias por"
+	line "venir a verme,"
 	cont "<PLAYER>!"
 
-	para "Please take this"
-	line "to show my"
-	cont "appreciation."
+	para "Por favor, toma"
+	line "esto como mues-"
+	cont "tra de mi agra-"
+	cont "decimiento."
 	done
 
 EusinesHouseGrampsEusineTravelingWorldText:
-	text "Eusine is out"
-	line "traveling the"
-	cont "world."
+	text "Eusine está via-"
+	line "jando por todo"
+	cont "el mundo."
 
-	para "I'm so proud of"
-	line "him!"
+	para "¡Estoy tan orgu-"
+	line "lloso de él!"
 	done

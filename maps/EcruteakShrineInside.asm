@@ -85,23 +85,23 @@ EcruteakShrineInsideReiScript:
 .ReiDone
 	jumpthisopenedtext
 
-	text "Rei: Please come"
-	line "again tomorrow."
+	text "Rei: Por favor,"
+	line "vuelve mañana."
 	done
 
 .ReiCancel
 	jumpthisopenedtext
 
-	text "Rei: Please come"
-	line "back if you change"
-	cont "your mind."
+	text "Rei: Vuelve si"
+	line "cambias de opi-"
+	cont "nión."
 	done
 
 .EggBlessing
 	jumpthisopenedtext
 
-	text "Rei: I can't"
-	line "bless an Egg."
+	text "Rei: No puedo ben-"
+	line "decir un Huevo."
 	done
 
 .ReiMenuDataHeader:
@@ -113,86 +113,89 @@ EcruteakShrineInsideReiScript:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "Blessing@"
-	db "Battle@"
-	db "Cancel@"
+	db "Bendecir@"
+	db "Luchar@"
+	db "Salir@"
 
 EcruteakShrineInsideReiGreetingText:
-	text "Rei: Oh, hello."
-	line "Welcome to our"
-	cont "shrine."
+	text "Rei: Oh, hola."
+	line "Te doy la bienve-"
+	cont "nida a nuestro"
+	cont "santuario."
 
-	para "Did you come to"
-	line "have me bless one"
-	cont "of your #mon?"
+	para "¿Has venido a que"
+	line "bendiga a uno de"
+	cont "tus #mon?"
 
-	para "Or would you like"
-	line "to battle?"
+	para "¿O te gustaría"
+	line "combatir?"
 	done
 
 EcruteakShrineInsideReiBlessText:
-	text "Rei: OK, which"
-	line "#mon should I"
-	cont "bless?"
+	text "Rei: Vale, ¿qué"
+	line "#mon debería"
+	cont "bendecir?"
 	done
 
 EcruteakShrineInsideReiBlessingText:
-	text "Rei: May you be"
-	line "at ease, and find"
-	cont "peace."
+	text "Rei: Que estés"
+	line "tranquilo y"
+	cont "encuentres la paz."
 	done
 
 EcruteakShrineInsideHappinessText:
 	text_ram wStringBuffer3
-	text " looks"
-	line "content."
+	text " parece"
+	line "contento."
 	done
 
 
 EcruteakShrineInsideReiBattleText:
-	text "Rei: Very well."
-	line "Evil spirits,"
-	cont "begone!"
+	text "Rei: Muy bien."
+	line "¡Malos espíritus,"
+	cont "desapareced!"
 	done
 
 EcruteakShrineInsideReiBeatenText:
-	text "I admit defeat!"
+	text "¡Admito la derro-"
+	line "ta!"
 	done
 
 
 
 EcruteakShrineInsideGrampsText:
-	text "The shrine maiden"
-	line "here is my grand-"
-	cont "daughter."
+	text "La sacerdotisa"
+	line "del santuario es"
+	cont "mi nieta."
 	done
 
 EcruteakShrineInsideSageText:
-	text "Most of us here at"
-	line "the shrine train"
+	text "La mayoría en el"
+	line "santuario entre-"
+	cont "namos a"
 
-	para "Hoothoot and"
-	line "Sentret to battle"
-	cont "ghosts."
+	para "Hoothoot y Sentret"
+	line "para luchar contra"
+	cont "fantasmas."
 
-	para "Rei is unique."
-	line "She uses Fire and"
-	cont "Psychic types."
+	para "Rei es única."
+	line "Usa los tipos Fue-"
+	cont "go y Psíquico."
 	done
 
 EcruteakShrineInsideGrannyText:
-	text "I'm glad they didn't"
-	line "approve a stop in"
-	cont "Ecruteak for the"
-	cont "Magnet Train."
+	text "Me alegro de que"
+	line "no aprobaran una"
+	cont "parada en Iris pa-"
+	cont "ra el Magnetotrén."
 
-	para "It would ruin our"
-	line "traditional land-"
-	cont "scape."
+	para "Arruinaría nues-"
+	line "tro paisaje tradi-"
+	cont "cional."
 	done
 
 EcruteakShrineInsideAltarText:
-	text "Please show honor"
-	line "and respect while"
-	cont "visiting."
+	text "Muestra honor y"
+	line "respeto durante"
+	cont "tu visita."
 	done

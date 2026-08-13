@@ -79,151 +79,154 @@ EmbeddedTowerSteven2Script:
 	jumpopenedtext EmbeddedTowerSteven2AfterText
 
 EmbeddedTowerSteven1IntroText:
-	text "Hello! I'm Steven."
-	line "Rare stones are"
-	cont "my passion."
+	text "¡Hola! Soy Máximo."
+	line "Me apasionan las"
+	cont "piedras raras."
 
-	para "I'm from the Hoenn"
-	line "region. It's a"
+	para "Soy de la región"
+	line "de Hoenn. Es un"
 
-	para "beautiful place,"
-	line "with the clearest"
+	para "lugar precioso,"
+	line "con el océano más"
 
-	para "ocean you can"
-	line "imagine."
+	para "claro que puedas"
+	line "imaginar."
 
-	para "You should visit"
-	line "sometime."
+	para "Deberías visitarlo"
+	line "alguna vez."
 	done
 
 EmbeddedTowerSteven1TowerText:
-	text "Steven: I'm here in"
-	line "search of stones"
-	cont "for my collection."
+	text "Máximo: Busco pie-"
+	line "dras para mi co-"
+	cont "lección."
 
-	para "This is the"
-	line "Embedded Tower."
+	para "Ésta es la Torre"
+	line "Oculta."
 
-	para "It was built by"
-	line "people from Hoenn"
+	para "La construyó gen-"
+	line "te de Hoenn para"
 
-	para "to bind together"
-	line "the sea, the land,"
-	cont "and the sky."
+	para "unir el mar, la"
+	line "tierra y el cielo."
 	done
 
 EmbeddedTowerSteven1NotNowText:
-	text "Steven: Your"
-	line "#mon are look-"
-	cont "ing pretty good."
+	text "Máximo: Tus #"
+	line "mon tienen muy"
+	cont "buena pinta."
 
-	para "If you can beat"
-	line "the Elite Four,"
+	para "Si puedes vencer"
+	line "al Alto Mando,"
 
-	para "come back here to"
-	line "battle with me."
+	para "vuelve aquí para"
+	line "luchar conmigo."
 	done
 
 EmbeddedTowerSteven1ChallengeText:
-	text "Steven: Your"
-	line "#mon are look-"
-	cont "ing pretty good."
+	text "Máximo: Tus #"
+	line "mon tienen muy"
+	cont "buena pinta."
 
-	para "Since we're both"
-	line "here, why don't we"
-	cont "have a battle?"
+	para "Ya que estamos"
+	line "los dos aquí, ¿por"
+	cont "qué no luchamos?"
 	done
 
 EmbeddedTowerSteven1NoText:
 EmbeddedTowerSteven2NoText:
-	text "Steven: Hmm."
-	line "If you change"
+	text "Máximo: Hmm."
+	line "Si cambias de"
 
-	para "your mind, I'll"
-	line "be right here."
+	para "opinión, estaré"
+	line "justo aquí."
 	done
 
 EmbeddedTowerSteven1YesText:
 EmbeddedTowerSteven2YesText:
-	text "Steven: I want"
-	line "you to hit me"
+	text "Máximo: ¡Quiero"
+	line "que me des"
 
-	para "with it all!"
-	line "Now, bring it!"
+	para "con todo!"
+	line "¡Venga, dale!"
 	done
 
 EmbeddedTowerSteven1WinText:
 EmbeddedTowerSteven2WinText:
-	text "You are a truly"
-	line "noble #mon"
-	cont "trainer!"
+	text "¡Eres un entrena-"
+	line "dor #mon muy"
+	cont "noble!"
 	done
 
 EmbeddedTowerSteven1ItemText:
-	text "Steven: Congratu-"
-	line "lations!"
+	text "Máximo: ¡Felicida-"
+	line "des!"
 
-	para "The feelings you"
-	line "have for your"
-	cont "#mon…"
+	para "Los sentimientos"
+	line "que tienes por"
+	cont "tus #mon..."
 
-	para "And the #mon"
-	line "that responded to"
+	para "Y los #mon que"
+	line "respondieron a"
 
-	para "those feelings"
-	line "with all their"
-	cont "might…"
+	para "esos sentimientos"
+	line "con todas sus"
+	cont "fuerzas..."
 
-	para "They came toge-"
-	line "ther as one and"
+	para "Se unieron como"
+	line "uno solo y crea-"
 
-	para "created an even"
-	line "greater power."
+	para "ron un poder aún"
+	line "mayor."
 
-	para "And thus, you"
-	line "were able to"
-	cont "grasp victory!"
+	para "Y así, ¡pudisteis"
+	line "alcanzar la vic-"
+	cont "toria!"
 
-	para "I'm sure you can"
-	line "benefit from this"
-	cont "item."
+	para "Seguro que puedes"
+	line "sacarle partido a"
+	cont "este objeto."
 	done
 
 EmbeddedTowerSteven1AfterText:
-	text "Steven: May our"
-	line "paths cross again."
+	text "Máximo: Que nues-"
+	line "tros caminos vuel-"
+	cont "van a cruzarse."
 	done
 
 EmbeddedTowerSteven2ChallengeText:
-	text "Steven: We meet"
-	line "again, <PLAYER>!"
+	text "Máximo: ¡Nos vol-"
+	line "vemos a ver,"
+	cont "<PLAYER>!"
 
-	para "I've found some"
-	line "excellent stones"
-	cont "for my collection."
+	para "He encontrado muy"
+	line "buenas piedras pa-"
+	cont "ra mi colección."
 
-	para "So what have you"
-	line "been doing?"
+	para "¿Y tú, qué has"
+	line "estado haciendo?"
 
-	para "You battled the"
-	line "Elite Four and won"
-	cont "again? Great job!"
+	para "¿Luchaste contra"
+	line "el Alto Mando y"
+	cont "volviste a ganar?"
+	cont "¡Buen trabajo!"
 
-	para "Why don't we have"
-	line "another battle?"
+	para "¿Por qué no echa-"
+	line "mos otro combate?"
 	done
 
 EmbeddedTowerSteven2AfterText:
-	text "Steven: In the"
-	line "end, you are still"
-	cont "the strongest."
+	text "Máximo: Al final,"
+	line "sigues siendo más"
+	cont "fuerte."
 
-	para "But I don't regret"
-	line "our battle."
+	para "Pero no me arre-"
+	line "piento de haber"
+	cont "luchado."
 
-	para "Because each time"
-	line "that I battle you,"
+	para "¡Porque cada vez"
+	line "que peleo contra"
 
-	para "I learn more about"
-	line "#mon!"
+	para "ti, aprendo más"
+	line "sobre los #mon!"
 	done

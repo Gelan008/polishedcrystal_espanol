@@ -226,7 +226,7 @@ SeagallopFerryVermilionGateSailorArrive2MovementData:
 
 SeagallopFerryWelcomeText:
 	text "Welcome aboard the"
-	line "Seagallop Ferry!"
+	line "Surcamar Veloce!"
 	done
 
 SeagallopFerryGiveOrangeTicketText:
@@ -279,7 +279,7 @@ SeagallopFerryDepartureText:
 	text "All right!"
 
 	para "All aboard the"
-	line "Seagallop Ferry!"
+	line "Surcamar Veloce!"
 	done
 
 SeagallopFerryVermilionCityRefusedText:

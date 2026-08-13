@@ -327,7 +327,7 @@ SECTION "ChuckGroup", ROMX
 ChuckGroup:
 
 	def_trainer_class CHUCK
-	def_trainer 1, "Chuck"
+	def_trainer 1, "Aníbal"
 	tr_mon 30, PRIMEAPE, MALE
 		tr_extra DEFIANT
 		tr_evs 160 Atk
@@ -350,7 +350,7 @@ endc
 		tr_moves ICE_PUNCH, HYPNOSIS, WATERFALL, DYNAMICPUNCH
 	end_trainer
 
-	def_trainer 2, "Chuck"
+	def_trainer 2, "Aníbal"
 	tr_mon 71, ANNIHILAPE @ CHOICE_SCARF, MALE
 if DEF(FAITHFUL)
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
@@ -7885,7 +7885,7 @@ SECTION "StevenGroup", ROMX
 StevenGroup:
 
 	def_trainer_class STEVEN
-	def_trainer 1, "Steven"
+	def_trainer 1, "Máximo"
 	tr_mon 61, SKARMORY @ LEFTOVERS, MALE
 		tr_extra STURDY
 		tr_evs 252 HP, 164 Def
@@ -7919,7 +7919,7 @@ endc
 		tr_moves EARTHQUAKE, STONE_EDGE, IRON_HEAD, SANDSTORM
 	end_trainer
 
-	def_trainer 2, "Steven"
+	def_trainer 2, "Máximo"
 	tr_mon 78, SKARMORY @ ROCKY_HELMET, MALE
 		tr_extra STURDY, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def

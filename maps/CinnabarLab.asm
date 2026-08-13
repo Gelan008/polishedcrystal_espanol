@@ -362,88 +362,92 @@ CinnabarLabCelebiFloatsMovementData:
 	step_end
 
 CinnabarLabRoom1SignText:
-	text "Cloning Room"
+	text "Sala de Clonación"
 	done
 
 CinnabarLabRoom2SignText:
-	text "Cybernetics Room"
+	text "Sala de Cibernéti-"
+	line "ca"
 	done
 
 CinnabarLabRoom3SignText:
-	text "Storage Room"
+	text "Sala de Almacena-"
+	line "je"
 	done
 
 CinnabarLabRoom4SignText:
-	text "Project Amber"
-	line "Testing Room"
+	text "Sala de Pruebas"
+	line "del Proyecto Ambar"
 
-	para "ABSOLUTELY NO"
-	line "ENTRY WITHOUT"
-	cont "LEVEL 5 CLEARANCE"
+	para "PROHIBIDA LA ENTR-"
+	line "ADA SIN AUTORIZA-"
+	cont "CION DE NIVEL 5"
 	done
 
 CinnabarLabLockedDoorText:
-	text "It's locked…"
+	text "Está cerrado..."
 	done
 
 CinnabarLabContinueTestingText:
-	text "Continue the"
-	line "tests. Your"
+	text "Continúe con"
+	line "las pruebas."
 
-	para "creation has per-"
-	line "formed very well"
-	cont "so far, Dr.Fu--"
+	para "Su creación ha"
+	line "funcionado muy"
+	cont "bien hasta ahora,"
+	cont "Dr.Fu--"
 	done
 
 CinnabarLabGiovanniWhoAreYouText:
-	text "Who are you?!"
-	line "You aren't part"
-	cont "of Team Rocket."
+	text "¡¿Quién eres?!"
+	line "Tú no eres del"
+	cont "Team Rocket."
 
-	para "Are you a spy for"
-	line "the police?"
+	para "¿Eres un espía"
+	line "de la policía?"
 
-	para "…Fine. You want to"
-	line "know about Team"
-	cont "Rocket's business?"
-	cont "I'll show you."
+	para "... Bien. ¿Quieres"
+	line "saber de los"
+	cont "negocios del"
+	cont "Team Rocket?"
+	cont "Te lo enseñaré."
 
-	para "The world's most"
-	line "powerful #mon…"
+	para "El #mon más"
+	line "fuerte del mundo..."
 	done
 
 CinnabarLabGiovanniAttackText:
-	text "Giovanni: Attack!"
+	text "Giovanni: ¡Ataca!"
 	done
 
 CinnabarLabGiovanniBeatenText:
-	text "Giovanni: What?!"
-	line "Impossible!"
+	text "Giovanni: ¡¿Qué?!"
+	line "¡Imposible!"
 	done
 
 CinnabarLabGiovanniAfterText:
-	text "Giovanni: How was"
-	line "a kid like you"
+	text "Giovanni: ¿Cómo es"
+	line "que un crío como"
 
-	para "able to beat the"
-	line "perfect #mon?"
+	para "tú ha vencido al"
+	line "#mon perfecto?"
 
-	para "It was created to"
-	line "fight for me!"
+	para "¡Fue creado para"
+	line "luchar para mí!"
 
-	para "It shouldn't be"
-	line "this useless!"
+	para "¡No debería ser"
+	line "tan inútil!"
 	done
 
 CinnabarLabMewtwoText:
-	text "???: Myuu!"
+	text "???: ¡Myuu!"
 	done
 
 CinnabarLabGiovanniStopText:
-	text "Giovanni: Stop"
-	line "this now!"
+	text "Giovanni: ¡Para"
+	line "ahora mismo!"
 	done
 
 CinnabarLabCelebiText:
-	text "Celebi: Biii!"
+	text "Celebi: ¡Biii!"
 	done

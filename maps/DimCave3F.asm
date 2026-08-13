@@ -57,72 +57,74 @@ DimCave3FSetUpStoneTable:
 	earthquake 80
 	jumpthistext
 
-	text "The boulder fell"
-	line "through."
+	text "La roca cayó por"
+	line "el agujero."
 	done
 
 GenericTrainerEngineerHugo:
 	generictrainer ENGINEER, HUGO, EVENT_BEAT_ENGINEER_HUGO, .SeenText, .BeatenText
 
-	text "The noise of that"
-	line "mine cart gave me"
-	cont "a scare."
+	text "El ruido de esa"
+	line "vagoneta me dio"
+	cont "un buen susto."
 
-	para "You always have to"
-	line "stay alert for a"
-	cont "cave-in here."
+	para "Siempre hay que"
+	line "estar alerta por"
+	cont "los derrumbes."
 	done
 
 .SeenText:
-	text "Cave-in!"
+	text "¡Derrumbe!"
 	done
 
 .BeatenText:
-	text "Oh, you just"
-	line "pushed a boulder!"
+	text "¡Oh, solo em-"
+	line "pujaste una roca!"
 	done
 
 GenericTrainerBlackbeltTakeo:
 	generictrainer BLACKBELT_T, TAKEO, EVENT_BEAT_BLACKBELT_TAKEO, .SeenText, .BeatenText
 
-	text "All I want is to"
-	line "train in peace."
+	text "Solo quiero entre-"
+	line "nar en paz."
 	done
 
 .SeenText:
-	text "I'm training here"
-	line "alone with my"
-	cont "#mon."
+	text "Estoy entrenando"
+	line "aquí a solas con"
+	cont "mis #mon."
 
-	para "Leave at once!"
+	para "¡Vete de una vez!"
 	done
 
 .BeatenText:
-	text "Clearly I need"
-	line "more training…"
+	text "Está claro que"
+	line "necesito entrenar"
+	cont "más..."
 	done
 
 GenericTrainerHikerFloyd:
 	generictrainer HIKER, FLOYD, EVENT_BEAT_HIKER_FLOYD, .SeenText, .BeatenText
 
-	text "I am SO lost in"
-	line "here!"
+	text "¡Estoy SÚPER per-"
+	line "dido aquí!"
 
-	para "I should stick to"
-	line "hiking outdoors."
+	para "Debería centrarme"
+	line "en hacer senderis-"
+	cont "mo al aire libre."
 	done
 
 .SeenText:
-	text "This cave makes me"
-	line "so ANGRY!"
+	text "¡Esta cueva me"
+	line "ENFADA muchísimo!"
 
-	para "I'll battle to let"
-	line "off some steam!"
+	para "¡Lucharé para"
+	line "desahogarme!"
 	done
 
 .BeatenText:
-	text "I got beat down by"
-	line "a kid!"
+	text "¡Me ha derrotado"
+	line "un crío!"
 	done
 
 DimCave3FPokefanmScript:
@@ -133,20 +135,20 @@ DimCave3FPokefanmScript:
 	iftrue_jumpopenedtext .YesText
 	jumpthisopenedtext
 
-	text "What?! Do you"
-	line "have a map?"
+	text "¡¿Qué?! ¿Tienes"
+	line "un mapa?"
 	done
 
 .QuestionText:
-	text "Are you lost?"
+	text "¿Estás perdido?"
 	done
 
 .YesText:
-	text "Me too!"
+	text "¡Yo también!"
 
-	para "The Power Plant"
-	line "messes with my"
+	para "La Central Ener-"
+	line "gía interfiere con"
 
-	para "compass, and I"
-	line "don't have a map."
+	para "mi brújula, y no"
+	line "tengo mapa."
 	done

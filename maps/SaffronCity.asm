@@ -106,7 +106,7 @@ SaffronCityFisherScript:
 
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The Copycat girl"
+	text "The Copiona girl"
 	line "looked unhappy."
 
 	para "She said she lost"
