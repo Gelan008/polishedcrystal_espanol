@@ -24,46 +24,50 @@ PokemonJournalErikaScript:
 	setflag ENGINE_READ_ERIKA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Erika!"
+	para "Reportaje Especial"
+	line "¡Líder Erika!"
 
-	para "Rumor has it that"
-	line "if you peek into"
-	cont "Celadon Gym, you"
+	para "Se rumorea que"
+	line "si te asomas al"
+	cont "Gim. de Azulona,"
 
-	para "can often see"
-	line "Erika snoozing."
+	para "a menudo puedes"
+	line "ver a Erika dor-"
+	cont "mitando."
 	done
 
 CeladonPokeCenter1FPharmacistText:
-	text "Team Rocket's"
-	line "hideout is in the"
+	text "La guarida del"
+	line "Team Rocket está"
 
-	para "basement of the"
-	line "Game Corner."
+	para "en el sótano del"
+	line "Casino."
 
-	para "Oh, wait. That was"
-	line "three years ago."
+	para "Oh, espera. Eso"
+	line "fue hace tres"
+	cont "años."
 
-	para "I wonder what it's"
-	line "used for now?"
+	para "Me pregunto para"
+	line "qué se usará a-"
+	cont "hora."
 	done
 
 CeladonPokeCenter1FCooltrainerfText:
-	text "Erika is a master"
-	line "of grass #mon."
+	text "Erika es una"
+	line "maestra de los"
+	cont "#mon planta."
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Te hará pagar si"
+	line "no tienes mucho"
+	cont "cuidado."
 	done
 
 CeladonPokeCenter1FLassText:
-	text "Erika isn't just"
-	line "a Gym Leader."
+	text "Erika no es solo"
+	line "una Líder."
 
-	para "She also lectures"
-	line "at the university."
+	para "También da clases"
+	line "en la universidad."
 	done

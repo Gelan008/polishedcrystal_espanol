@@ -626,11 +626,11 @@ Route34MovementData_LyraEntersDayCare:
 	step_end
 
 Route34LyraText_Grandpa:
-	text "Lyra: Grandpa!"
+	text "Lira: Grandpa!"
 	done
 
 Route34LyraGoodWorkText:
-	text "Lyra: Good work,"
+	text "Lira: Good work,"
 	line "Grandpa!"
 
 	para "The #mon you"
@@ -642,7 +642,7 @@ Route34LyraGoodWorkText:
 	done
 
 Route34LyraGreetingText:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lira: Hi, <PLAYER>!"
 	done
 
 Route34LyraIntroductionText:
@@ -674,7 +674,7 @@ Route34LyraLossText:
 	done
 
 Route34LyraFollowMeText:
-	text "Lyra: Let me"
+	text "Lira: Let me"
 	line "introduce you to"
 	cont "Grandma, too!"
 	done

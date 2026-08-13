@@ -194,7 +194,7 @@ LyraMovementData3:
 	step_end
 
 CatchingTutorialIntroText:
-	text "Lyra: <PLAYER>!"
+	text "Lira: <PLAYER>!"
 
 	para "You can catch wild"
 	line "#mon with #"
@@ -204,7 +204,7 @@ CatchingTutorialIntroText:
 	done
 
 CatchingTutorialDebriefText:
-	text "Lyra: See? Just"
+	text "Lira: See? Just"
 	line "like that!"
 
 	para "If you weaken them"
@@ -227,7 +227,7 @@ CatchingTutorialRefusedText:
 	done
 
 CatchingTutorialGoodbyeText:
-	text "Lyra: See you!"
+	text "Lira: See you!"
 	done
 
 Route29YoungsterText:

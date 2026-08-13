@@ -35,7 +35,7 @@ GenericTrainerLassConnie:
 	para "I'll pray for the"
 	line "#mon here, so"
 
-	para "Jasmine can come"
+	para "Yasmina can come"
 	line "back to the Gym."
 	done
 
@@ -56,7 +56,7 @@ SailorKentScript:
 	done
 
 SailorKentSeenText:
-	text "Jasmine must be"
+	text "Yasmina must be"
 	line "worried sick about"
 	cont "the #mon here."
 
@@ -79,7 +79,7 @@ SailorKentFinalText:
 	done
 
 LassConnieSeenText:
-	text "Jasmine is this"
+	text "Yasmina is this"
 	line "city's Gym Leader."
 
 	para "I mean to bring"

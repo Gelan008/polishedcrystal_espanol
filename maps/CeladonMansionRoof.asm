@@ -19,20 +19,21 @@ CeladonMansionRoof_MapScriptHeader:
 MapCeladonMansionRoofSignpost0Script:
 	jumpthistext
 
-	text "There's graffiti"
-	line "on the wall…"
+	text "Hay un grafiti"
+	line "en la pared..."
 
-	para "<PLAYER> added a"
-	line "moustache!"
+	para "¡<PLAYER> le"
+	line "añadió un bigote!"
 	done
 
 CeladonMansionRoofFisherText:
-	text "High places--I do"
-	line "love them so!"
+	text "Lugares altos..."
+	line "¡Me encantan!"
 
-	para "I'd say the only"
-	line "thing that loves"
+	para "¡Diría que lo"
+	line "único que ama"
 
-	para "heights as much as"
-	line "me is smoke!"
+	para "las alturas tanto"
+	line "como yo es el"
+	cont "humo!"
 	done

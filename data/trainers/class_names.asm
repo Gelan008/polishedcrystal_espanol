@@ -135,7 +135,7 @@ TrainerClassNames::
 	li "Líder"           ; BLANCHE
 	li "Líder"           ; SPARK_T
 	li "Entrenador"          ; FLANNERY
-	li "Luchador"          ; MAYLENE
+	li "Luchadora"          ; MAYLENE
 	li "Nadador"          ; MARLON
 	li "Diseñadora"         ; VALERIE
 	li "Entre. <PK><MN>" ; KUKUI

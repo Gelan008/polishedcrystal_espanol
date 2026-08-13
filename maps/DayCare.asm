@@ -191,7 +191,7 @@ DayCareMovementData_LyraLeaves:
 	step_end
 
 DayCareLyraHelloText:
-	text "Lyra: Grandma!"
+	text "Lira: Grandma!"
 
 	para "Let me introduce"
 	line "my friend."
@@ -209,7 +209,7 @@ DayCareLyraHelloText:
 	done
 
 DayCareLyraProtestText:
-	text "Lyra: What?"
+	text "Lira: What?"
 	line "Grandma…!"
 
 	para "What are you"
@@ -232,13 +232,13 @@ DayCareLyraProtestText:
 	done
 
 DayCareLyraGoodbyeText:
-	text "Lyra: Well, I'd"
+	text "Lira: Well, I'd"
 	line "better go now…"
 	cont "See ya!"
 	done
 
 DayCareLyraForgotText:
-	text "Lyra: Oh!"
+	text "Lira: Oh!"
 	line "I almost forgot!"
 
 	para "Here! This is my"
@@ -246,7 +246,7 @@ DayCareLyraForgotText:
 	done
 
 GotLyrasNumberText:
-	text "<PLAYER> got Lyra's"
+	text "<PLAYER> got Lira's"
 	line "phone number."
 	done
 
@@ -265,7 +265,7 @@ DayCareLyraHasInfoText:
 	done
 
 DayCareLyraEmbarassedText:
-	text "Lyra: Grandma!"
+	text "Lira: Grandma!"
 
 	para "Don't you say"
 	line "anything."
@@ -329,7 +329,7 @@ DayCareText_DescribeOddEgg:
 DayCareLadyText_GiveLyrasEgg:
 	text "Hello, dear."
 
-	para "Lyra told me this"
+	para "Lira told me this"
 	line "Egg was a gift for"
 	cont "you. Here you go!"
 	done

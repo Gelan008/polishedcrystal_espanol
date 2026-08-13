@@ -318,7 +318,7 @@ NewBarkTownRivalText2:
 	done
 
 Text_LyraIntro:
-	text "Lyra: Oh, hello,"
+	text "Lira: Oh, hello,"
 	line "<PLAYER>!"
 
 	para "I came by your"
@@ -342,7 +342,7 @@ Text_LyraIntro:
 	done
 
 Text_LyraGoodbye1:
-	text "Lyra: <PLAYER>!"
+	text "Lira: <PLAYER>!"
 
 	para "I heard that you"
 	line "have all the Gym"
@@ -423,5 +423,5 @@ ElmsLabSignText:
 	done
 
 LyrasHouseSignText:
-	text "Lyra's House"
+	text "Casa de Lira"
 	done

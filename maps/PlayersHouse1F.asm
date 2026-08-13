@@ -179,7 +179,7 @@ else
 	text "Oh, <PLAYER>!"
 	line "You're awake."
 
-	para "Your friend Lyra"
+	para "Your friend Lira"
 	line "was just here."
 
 	para "She said that our"

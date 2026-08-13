@@ -44,8 +44,8 @@ WadeLostAMonText:
 	para "salvaje en el úl-"
 	line "timo segundo."
 
-	para "Sé que es un #-"
-	line "mon muy común..."
+	para "Sé que es muy"
+	line "común..."
 
 	para "Pero me fastidia"
 	line "que escapara cuan-"

@@ -49,7 +49,7 @@ GenericTrainerSailorErnest:
 
 SailorErnestSeenText:
 	text "I wanted to battle"
-	line "Jasmine, but she's"
+	line "Yasmina, but she's"
 
 	para "not up to it now."
 	line "So, how about you?"

@@ -25,8 +25,8 @@ NonTrainerCallerNames:
 	text  "Maravillacicleta:"
 	done
 .lyra:
-	text  "Lyra:"
-	next1 "   <PK><MN> Entrnd."
+	text  "Lira:"
+	next1 "Entr. <PK><MN>"
 	done
 .buena:
 	text  "Buena:"

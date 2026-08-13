@@ -756,7 +756,7 @@ FightingDojoScheduleQuestionText:
 	done
 
 FightingDojoScheduleSundayText:
-	text "Sunday: Jasmine,"
+	text "Sunday: Yasmina,"
 	line "Erika, Sabrina"
 	done
 

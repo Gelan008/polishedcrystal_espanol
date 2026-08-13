@@ -160,7 +160,7 @@ GiovannisCaveGiovanniIntroText:
 	cont "no place for kids"
 	cont "like you."
 
-	para "Lyra: Huh? That's"
+	para "Lira: Huh? That's"
 	line "the guy we just"
 
 	para "saw arguing with"
@@ -195,7 +195,7 @@ GiovannisCaveGiovanniMemoriesText:
 	done
 
 GiovannisCaveLyraQuestionsText:
-	text "Lyra: Three years"
+	text "Lira: Three years"
 	line "ago…? Goldenrod"
 	cont "City…?"
 	done
@@ -225,7 +225,7 @@ GiovannisCaveBroadcastText:
 	cont "Where is our boss?"
 	cont "Is he listening?”"
 
-	para "Lyra: Team Rocket"
+	para "Lira: Team Rocket"
 	line "has occupied the"
 
 	para "Radio Tower right"
@@ -247,7 +247,7 @@ GiovannisCaveGiovanniIMustGoText:
 	para "Team Rocket will"
 	line "be born again!"
 
-	para "Lyra: Hah!"
+	para "Lira: Hah!"
 	line "<PLAYER> already"
 	cont "stopped you!"
 	cont "…Will stop you."
@@ -292,7 +292,7 @@ GiovannisCaveBroadcastAfterText:
 	done
 
 GiovannisCaveLyraFeelsSorryText:
-	text "Lyra: They keep"
+	text "Lira: They keep"
 	line "calling for their"
 	cont "boss."
 
@@ -306,7 +306,7 @@ GiovannisCaveLyraFeelsSorryText:
 	done
 
 GiovannisCaveLyraWantsToLeaveText:
-	text "Lyra: Not again…!"
+	text "Lira: Not again…!"
 	line "I've had enough!"
 
 	para "Please let us go"

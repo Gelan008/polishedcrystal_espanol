@@ -131,7 +131,7 @@ BakerChelsieNoBattleText:
 	done
 
 OlivineCafeLyraText1:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lira: Hi, <PLAYER>!"
 	line "You should try the"
 
 	para "food here. It's"

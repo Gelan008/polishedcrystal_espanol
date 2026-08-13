@@ -16,21 +16,21 @@ CeladonDevelopmentSpeechHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDevelopmentSpeechHouseBeautyText, -1
 
 CeladonDevelopmentSpeechHouseCooltrainermText:
-	text "Celadon has become"
-	line "quite the tourist"
-	cont "spot."
+	text "Azulona se ha"
+	line "convertido en un"
+	cont "lugar turístico."
 
-	para "The hotel's always"
-	line "fully booked!"
+	para "¡El hotel siempre"
+	line "está al completo!"
 	done
 
 CeladonDevelopmentSpeechHouseBeautyText:
-	text "This city used to"
-	line "be a haven for"
-	cont "Team Rocket."
+	text "Esta ciudad solía"
+	line "ser un refugio"
+	cont "del Team Rocket."
 
-	para "I was scared to"
-	line "leave the house"
-	cont "while they were"
-	cont "lurking about!"
+	para "¡Me daba miedo sa-"
+	line "lir de casa mien-"
+	cont "tras ellos acecha-"
+	cont "ban por ahí!"
 	done

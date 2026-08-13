@@ -101,157 +101,157 @@ CeladonCafeFisher3:
 	end
 
 ChefText_Eatathon:
-	text "Hi!"
+	text "¡Hola!"
 
-	para "We're holding an"
-	line "eatathon contest."
+	para "Celebramos un con-"
+	line "curso de tragones."
 
-	para "We can't serve you"
-	line "right now. Sorry."
+	para "No podemos ser-"
+	line "virte ahora. Lo"
+	cont "siento."
 	done
 
 Fisher1Text_Snarfle:
-	text "…Snarfle, chew…"
+	text "...Ñam, ñam..."
 	done
 
 Fisher1Text_Concentration:
-	text "Don't talk to me!"
+	text "¡No me hables!"
 
-	para "You'll break my"
-	line "concentration!"
+	para "¡Romperás mi"
+	line "concentración!"
 	done
 
 Fisher2Text_GulpChew:
-	text "…Gulp… Chew…"
+	text "...Glup... Ñam..."
 	done
 
 Fisher2Text_Quantity:
-	text "I take quantity"
-	line "over quality!"
+	text "¡Prefiero cantidad"
+	line "antes que calidad!"
 
-	para "I'm happy when I'm"
-	line "full!"
+	para "¡Soy feliz cuando"
+	line "estoy lleno!"
 	done
 
 Fisher3Text_MunchMunch:
-	text "Munch, munch…"
+	text "Ñam, ñam..."
 	done
 
 Fisher3Text_GoldenrodIsBest:
-	text "The food is good"
-	line "here, but Golden-"
-	cont "rod has the best"
-	cont "food anywhere."
+	text "La comida aquí es"
+	line "buena, pero Trigal"
+	cont "tiene la mejor"
+	cont "comida de todas."
 	done
 
 TeacherText_CrunchCrunch:
-	text "Crunch… Crunch…"
+	text "Masc... Masc..."
 	done
 
 TeacherText_NoCoinCase:
-	text "Nobody here will"
-	line "give you a Coin"
+	text "Aquí nadie te dará"
+	line "un Monedero."
 
-	para "Case. You should"
-	line "look in Johto."
+	para "Deberías buscar en"
+	line "Johto."
 	done
 
 TeacherText_KeepEating:
-	text "Crunch… Crunch…"
+	text "Masc... Masc..."
 
-	para "I can keep eating!"
+	para "¡Puedo seguir co-"
+	line "miendo!"
 	done
 
 TeacherText_MoreChef:
-	text "More, Chef!"
+	text "¡Más, chef!"
 	done
 
 MayleneText1:
-	text "Maylene: Munch"
-	line "munch munch…"
+	text "Brega: Ñam"
+	line "ñam ñam..."
 	done
 
 MayleneText2:
-	text "The eatathon"
-	line "contest!"
+	text "¡El concurso de"
+	line "tragones!"
 
-	para "I never dreamed of"
-	line "such a wonderful"
-	cont "thing."
+	para "Nunca soñé con al-"
+	line "go tan increíble."
 
-	para "After a strict"
-	line "diet during train-"
-	cont "ing, I can eat"
-	cont "like a Snorlax."
+	para "Tras una estricta"
+	line "dieta al entrenar,"
+	cont "puedo comer como"
+	cont "un Snorlax."
 
-	para "The winner eats"
-	line "for free, too."
+	para "Además el ganador"
+	line "come gratis."
 
-	para "That's just a"
-	line "dream come true!"
+	para "¡Es un sueño he-"
+	line "cho realidad!"
 	done
 
 MayleneText3:
-	text "I'm starting to"
-	line "feel full…"
+	text "Empiezo a sentirme"
+	line "llena..."
 
-	para "Um, as a break,"
-	line "do you want to"
-	cont "battle with me?"
+	para "Um, para descan-"
+	line "sar, ¿quieres lu-"
+	cont "char conmigo?"
 	done
 
 MayleneRefusedText:
-	text "Sigh… OK."
+	text "Ays... Vale."
 	done
 
 MayleneSeenText:
-	text "OK! Rei!"
+	text "¡Vale! ¡Rei!"
 
-	para "Oh, that's my bow"
-	line "before a match."
+	para "Oh, esa es mi re-"
+	line "verencia antes de"
+	cont "un combate."
 
-	para "I'm throwing every-"
-	line "thing I have at"
-	cont "you!"
+	para "¡Voy a darlo todo"
+	line "contra ti!"
 	done
 
 MayleneBeatenText:
-	text "I'm forced to admit"
-	line "defeat…"
+	text "Debo admitir la"
+	line "derrota..."
 
-	para "You are much too"
-	line "strong."
+	para "Eres demasiado"
+	line "fuerte."
 	done
 
 MayleneAfterText:
-	text "Thank you,"
+	text "¡Gracias,"
 	line "<PLAYER>!"
 
-	para "I'm ready to keep"
-	line "on eating!"
+	para "¡Estoy lista para"
+	line "seguir comiendo!"
 	done
 
 CeladonCafeBakerText:
-	text "I'm working here"
-	line "'cause I get to"
+	text "Trabajo aquí"
+	line "porque puedo"
 
-	para "eat any time I"
-	line "want. Simple."
+	para "comer cuando"
+	line "quiera. Simple."
 	done
 
 EatathonContestPosterText:
-	text "Eatathon Contest!"
-	line "No time limit!"
+	text "¡Concurso de tra-"
+	line "gones! ¡Sin límite"
+	cont "de tiempo!"
 
-	para "A battle without"
-	line "end! The biggest"
-
-	para "muncher gets it"
-	line "all for free!"
+	para "¡Un combate sin"
+	line "fin! ¡El más tra-"
+	cont "gón se lo lleva"
+	cont "todo gratis!"
 	done
 
 EatathonContestTrashCanText:
-	text "The trash is full"
-	line "of eatathon left-"
-	cont "overs…"
+	text "La papelera está"
+	line "llena de sobras..."
 	done

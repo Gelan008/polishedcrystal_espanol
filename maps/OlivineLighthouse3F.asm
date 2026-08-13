@@ -165,7 +165,7 @@ Bird_keeperTheoScript:
 GenericTrainerGentlemanPreston:
 	generictrainer GENTLEMAN, PRESTON, EVENT_BEAT_GENTLEMAN_PRESTON, GentlemanPrestonSeenText, GentlemanPrestonBeatenText
 
-	text "Jasmine used to"
+	text "Yasmina used to"
 	line "use Rock #mon"
 	cont "like Onix."
 	done

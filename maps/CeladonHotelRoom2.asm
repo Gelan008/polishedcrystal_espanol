@@ -43,64 +43,68 @@ MrHyperScript:
 	jumpthisopenedtext
 
 .TextComeBackAnytime:
-	text "Come back anytime!"
-	line "Mr. Hyper will"
-	cont "always be hyped up"
-	cont "to see you!"
+	text "¡Vuelve cuando"
+	line "quieras! ¡Don"
+	cont "Extremo siempre"
+	cont "se emocionará al"
+	cont "verte!"
 	done
 
 .TextIntro:
-	text "I'm Mr. Hyper!"
-	line "Want to know why?"
+	text "¡Soy Don Extremo!"
+	line "¿Quieres saber por"
+	cont "qué?"
 
-	para "Because I can help"
-	line "#mon perform"
-	cont "Hyper Training!"
+	para "¡Porque ayudo a"
+	line "los #mon con mi"
+	cont "Entren. Extremo!"
 
-	para "It lets a #mon"
-	line "that has maxed out"
-	cont "its effort become"
-	cont "even stronger!"
+	para "¡Permite que un"
+	line "#mon que haya"
+	cont "maximizado su es-"
+	cont "fuerzo se vuelva"
+	cont "aún más fuerte!"
 
-	para "This training will"
-	line "help them increase"
-	cont "their stats."
+	para "Este entrenamien-"
+	line "to les ayudará a"
+	cont "subir sus stats."
 
-	para "If you want me to"
-	line "train up your"
-	cont "#mon, bring me"
-	cont "some Bottle Caps."
+	para "Si quieres que"
+	line "entrene a tus"
+	cont "#mon, tráeme al-"
+	cont "gunas Chapas."
 	done
 
 .TextAskTrain:
-	text "What do you say?"
-	line "Want to try my"
-	cont "Hyper Training?"
+	text "¿Qué me dices?"
+	line "¿Quieres probar mi"
+	cont "Entren. Extremo?"
 	done
 
 .TextNoBottleCaps:
-	text "You don't have any"
-	line "Bottle Caps?"
+	text "¿No tienes ninguna"
+	line "Chapa?"
 
-	para "I know Fishermen"
-	line "snag them some-"
-	cont "times…"
+	para "Sé que los Pescado-"
+	line "res las sacan a"
+	cont "veces..."
 	done
 
 .TextTrainWho:
-	text "Hyper Train which"
-	line "#mon?"
+	text "¿Qué #mon de-"
+	line "be entrenar?"
 	done
 
 .TextGotStronger:
-	text "All done! My Hyper"
-	line "training improved"
+	text "¡Listo! ¡Mi En-"
+	line "tren. Extremo ha"
+	cont "mejorado a"
 	cont ""
 	text_ram wStringBuffer1
-	text "'s stats!"
+	text "!"
 	done
 
 .TextTrainSomeMore:
-	text "Hyper Train more"
+	text "¿Entrenar a otro"
 	line "#mon?"
 	done

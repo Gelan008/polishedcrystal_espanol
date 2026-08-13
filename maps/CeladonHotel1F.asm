@@ -45,73 +45,77 @@ CeladonHotel1FRichBoyGeraldScript:
 	end
 
 CeladonHotel1FGrampsText:
-	text "#mon? No, this"
-	line "is a hotel for"
-	cont "people."
+	text "¿#mon? No, es"
+	line "un hotel para per-"
+	cont "sonas."
 
-	para "We're full up."
+	para "Estamos completos."
 	done
 
 CeladonHotel1FLadyText:
-	text "This is my first"
-	line "trip to Kanto."
+	text "Es mi primer viaje"
+	line "a Kanto."
 
-	para "There's so much to"
-	line "see in Celadon!"
+	para "¡Hay tanto que ver"
+	line "en Azulona!"
 	done
 
 CeladonHotel1FCooltrainerFText:
-	text "Ahh, I really"
-	line "needed this"
-	cont "vacation!"
+	text "Ahh, ¡realmente ne-"
+	line "cesitaba estas va-"
+	cont "caciones!"
 	done
 
 RichBoyGeraldGreetingText:
-	text "My sister's enjoy-"
-	line "ing our vacation,"
+	text "Mi hermana está"
+	line "disfrutando nues-"
+	cont "tras vacaciones,"
 
-	para "but I'm bored."
-	line "Care for a battle?"
+	para "pero me aburro."
+	line "¿Echamos un comba-"
+	cont "te?"
 	done
 
 RichBoyGeraldSeenText:
-	text "Then prepare to"
-	line "lose!"
+	text "¡Pues prepárate"
+	line "para perder!"
 	done
 
 RichBoyGeraldBeatenText:
-	text "At least you're"
-	line "not boring."
+	text "Al menos tú no"
+	line "eres aburrido."
 	done
 
 RichBoyGeraldAfterText:
-	text "Next time we ought"
-	line "to vacation at"
-	cont "Olivine City."
+	text "La próxima vez, de-"
+	line "beríamos ir de va-"
+	cont "caciones a"
+	cont "Ciudad Olivo."
 
-	para "I'd quite like to"
-	line "challenge the"
-	cont "Battle Tower."
+	para "Me gustaría mu-"
+	line "cho desafiar la"
+	cont "Torre Batalla."
 	done
 
 RichBoyGeraldNoBattleText:
-	text "Hmph! Fine."
+	text "¡Hmph! Vale."
 	done
 
 CeladonHotel1FSignpost1Text:
-	text "Celadon Hotel"
+	text "Hotel Azulona"
 
-	para "Enjoy your stay!"
+	para "¡Disfrute su"
+	line "estancia!"
 	done
 
 CeladonHotel1FSignpost2Text:
-	text "Hotel Pool"
+	text "Piscina del Hotel"
 
-	para "Please wear a swim"
-	line "cap in the water."
+	para "Use gorro de baño"
+	line "en el agua."
 	done
 
 CeladonHotel1FSignpost3Text:
 	text "Suites"
-	line "Upstairs"
+	line "Piso de Arriba"
 	done

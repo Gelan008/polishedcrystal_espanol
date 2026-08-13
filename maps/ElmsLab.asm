@@ -933,7 +933,7 @@ ElmText_Intro:
 
 if !DEF(DEBUG)
 	para "Hello to you too,"
-	line "Lyra."
+	line "Lira."
 
 	para "I needed to ask"
 	line "you both a favor."
@@ -1457,7 +1457,7 @@ ElmGiveTicketText2:
 	done
 
 LyraAnnouncesGymChallengeText:
-	text "Lyra: There you"
+	text "Lira: There you"
 	line "are, <PLAYER>!"
 
 	para "I saw your battle"
@@ -1632,38 +1632,38 @@ ElmsLabLyraWhichPokemonText:
 	done
 
 LyraChoosesStarterText:
-	text "Lyra: Then I'll"
+	text "Lira: Then I'll"
 	line "pick this one!"
 	done
 
 LyraReceivedStarterText:
-	text "Lyra received"
+	text "Lira received"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 LyraNicknamedChikoritaText:
-	text "Lyra: It's so"
+	text "Lira: It's so"
 	line "cute! I'll nick-"
 	cont "name it Chicory!"
 	done
 
 LyraNicknamedCyndaquilText:
-	text "Lyra: It's so"
+	text "Lira: It's so"
 	line "cute! I'll nick-"
 	cont "name it Cinder!"
 	done
 
 LyraNicknamedTotodileText:
-	text "Lyra: It's so"
+	text "Lira: It's so"
 	line "cute! I'll nick-"
 	cont "name it Toto!"
 	done
 
 
 ElmsLabLyraChallengeText:
-	text "Lyra: <PLAYER>!"
+	text "Lira: <PLAYER>!"
 	line "Let's get to know"
 
 	para "our #mon with"
@@ -1700,7 +1700,7 @@ ElmsLabLyraSeeYouText:
 	done
 
 ElmsLabLyraTheftInnocentText:
-	text "Lyra: Hold on!"
+	text "Lira: Hold on!"
 	line "<PLAYER> has noth-"
 	cont "ing to do with it!"
 
@@ -1710,7 +1710,7 @@ ElmsLabLyraTheftInnocentText:
 	done
 
 ElmsLabLyraTheftGoodbyeText:
-	text "Lyra: <PLAYER>,"
+	text "Lira: <PLAYER>,"
 	line "I'm glad he under-"
 
 	para "stood that you're"

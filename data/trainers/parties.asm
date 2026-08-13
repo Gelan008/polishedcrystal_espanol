@@ -386,7 +386,7 @@ SECTION "JasmineGroup", ROMX
 JasmineGroup:
 
 	def_trainer_class JASMINE
-	def_trainer 1, "Jasmine"
+	def_trainer 1, "Yasmina"
 	tr_mon 34, SKARMORY, FEMALE
 		tr_extra STURDY
 		tr_evs 192 HP
@@ -409,7 +409,7 @@ JasmineGroup:
 		tr_moves BODY_SLAM, BULLDOZE, ROCK_SLIDE, IRON_TAIL
 	end_trainer
 
-	def_trainer 2, "Jasmine"
+	def_trainer 2, "Yasmina"
 	tr_mon 73, FORRETRESS @ LIGHT_CLAY, FEMALE
 		tr_extra STURDY, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
@@ -2024,19 +2024,19 @@ SECTION "Lyra1Group", ROMX
 Lyra1Group:
 
 	def_trainer_class LYRA1
-	def_trainer LYRA1_1, "Lyra"
+	def_trainer LYRA1_1, "Lira"
 	tr_mon 5, "Chicory", CHIKORITA
 	end_trainer
 
-	def_trainer LYRA1_2, "Lyra"
+	def_trainer LYRA1_2, "Lira"
 	tr_mon 5, "Cinder", CYNDAQUIL
 	end_trainer
 
-	def_trainer LYRA1_3, "Lyra"
+	def_trainer LYRA1_3, "Lira"
 	tr_mon 5, "Toto", TOTODILE
 	end_trainer
 
-	def_trainer LYRA1_4, "Lyra"
+	def_trainer LYRA1_4, "Lira"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 		tr_moves TACKLE, GUST, MUD_SLAP, QUICK_ATTACK ; default for level
@@ -2051,7 +2051,7 @@ Lyra1Group:
 		tr_moves RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
 	end_trainer
 
-	def_trainer LYRA1_5, "Lyra"
+	def_trainer LYRA1_5, "Lira"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 	tr_mon 17, SUNKERN
@@ -2062,7 +2062,7 @@ Lyra1Group:
 		tr_evs 72 Spe
 	end_trainer
 
-	def_trainer LYRA1_6, "Lyra"
+	def_trainer LYRA1_6, "Lira"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 	tr_mon 17, GROWLITHE
@@ -2073,7 +2073,7 @@ Lyra1Group:
 		tr_evs 72 Atk
 	end_trainer
 
-	def_trainer LYRA1_7, "Lyra"
+	def_trainer LYRA1_7, "Lira"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, GROWLITHE
@@ -2086,7 +2086,7 @@ Lyra1Group:
 		tr_evs 200 HP
 	end_trainer
 
-	def_trainer LYRA1_8, "Lyra"
+	def_trainer LYRA1_8, "Lira"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, SUNFLORA
@@ -2099,7 +2099,7 @@ Lyra1Group:
 		tr_evs 200 Spe
 	end_trainer
 
-	def_trainer LYRA1_9, "Lyra"
+	def_trainer LYRA1_9, "Lira"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, SUNFLORA
@@ -2112,7 +2112,7 @@ Lyra1Group:
 		tr_evs 200 Atk
 	end_trainer
 
-	def_trainer LYRA1_10, "Lyra"
+	def_trainer LYRA1_10, "Lira"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2127,7 +2127,7 @@ Lyra1Group:
 		tr_evs 252 HP, 12 SAt
 	end_trainer
 
-	def_trainer LYRA1_11, "Lyra"
+	def_trainer LYRA1_11, "Lira"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2142,7 +2142,7 @@ Lyra1Group:
 		tr_evs 12 Atk, 252 Spe
 	end_trainer
 
-	def_trainer LYRA1_12, "Lyra"
+	def_trainer LYRA1_12, "Lira"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2162,7 +2162,7 @@ SECTION "Lyra2Group", ROMX
 Lyra2Group:
 
 	def_trainer_class LYRA2
-	def_trainer 1, "Lyra"
+	def_trainer 1, "Lira"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -2193,7 +2193,7 @@ endc
 		tr_moves GIGA_DRAIN, MOONBLAST, EARTH_POWER, HEALINGLIGHT
 	end_trainer
 
-	def_trainer 2, "Lyra"
+	def_trainer 2, "Lira"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -2220,7 +2220,7 @@ endc
 		tr_moves FLAMETHROWER, SOLAR_BEAM, EARTH_POWER, SUNNY_DAY
 	end_trainer
 
-	def_trainer 3, "Lyra"
+	def_trainer 3, "Lira"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -8612,7 +8612,7 @@ SECTION "MayleneGroup", ROMX
 MayleneGroup:
 
 	def_trainer_class MAYLENE
-	def_trainer 1, "Maylene"
+	def_trainer 1, "Brega"
 	tr_mon 59, HITMONTOP, MALE
 		tr_extra TECHNICIAN
 		tr_evs 140 Atk, 252 Spe
@@ -8650,7 +8650,7 @@ endc
 		tr_moves DYNAMICPUNCH, BULK_UP, KNOCK_OFF, MACH_PUNCH
 	end_trainer
 
-	def_trainer 2, "Maylene"
+	def_trainer 2, "Brega"
 	tr_mon 72, HITMONTOP @ LEFTOVERS, MALE
 		tr_extra INTIMIDATE, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def

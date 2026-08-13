@@ -78,8 +78,8 @@ GenericTrainerCooltrainermCody:
 
 .SeenText:
 	text "Tampoco es que"
-	line "todos usemos #-"
-	cont "mon tipo Dragón."
+	line "todos usemos de"
+	cont "tipo Dragón."
 	done
 
 .BeatenText:

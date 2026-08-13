@@ -19,7 +19,7 @@ LyrasHouse2F_MapScriptHeader:
 	object_event  6,  2, SPRITE_N64, SPRITEMOVEDATA_STILL, 0, 0, -1, PAL_NPC_N64, OBJECTTYPE_COMMAND, jumptext, LyrasHouseN64Text, -1
 
 LyrasHouseLyraText:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lira: Hi, <PLAYER>!"
 
 	para "Hmm… My #mon"
 	line "may be putting"

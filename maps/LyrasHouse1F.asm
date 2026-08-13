@@ -29,7 +29,7 @@ LyrasDadScript:
 	jumpthisopenedtext
 
 	text "Hi, <PLAYER>!"
-	line "Lyra isn't here."
+	line "Lira isn't here."
 
 	para "She's been busy"
 	line "helping the prof-"
@@ -40,7 +40,7 @@ LyrasDadScript:
 	jumpthisopenedtext
 
 	text "Hi, <PLAYER>!"
-	line "Lyra is upstairs."
+	line "Lira is upstairs."
 
 	para "She's playing"
 	line "with her #mon"
@@ -51,7 +51,7 @@ LyrasDadScript:
 	jumpthisopenedtext
 
 	text "Hi, <PLAYER>!"
-	line "Lyra isn't here."
+	line "Lira isn't here."
 
 	para "She's collecting"
 	line "Badges all over"

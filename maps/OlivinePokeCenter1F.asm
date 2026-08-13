@@ -30,10 +30,10 @@ PokemonJournalJasmineScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "Leader Jasmine!"
+	line "Leader Yasmina!"
 
 	para "Rumor has it that"
-	line "Jasmine and Erika,"
+	line "Yasmina and Erika,"
 
 	para "the Celadon Gym"
 	line "Leader, chat about"

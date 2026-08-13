@@ -402,7 +402,7 @@ OlivineCityYoungster2Text:
 	done
 
 OlivineCityLass2Text:
-	text "Jasmine, our Gym"
+	text "Yasmina, our Gym"
 	line "Leader, is a shy"
 
 	para "girl. She's no"
@@ -424,7 +424,7 @@ OlivineCityPortSignText:
 OlivineGymSignText:
 	text "Olivine City"
 	line "#mon Gym"
-	cont "Leader: Jasmine"
+	cont "Leader: Yasmina"
 
 	para "The Steel-Clad"
 	line "Defense Girl"

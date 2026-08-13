@@ -63,101 +63,108 @@ CeladonUniversityPoolFergusScript:
 	jumpopenedtext .FinalText
 
 .IntroText1:
-	text "The name's Fergus!"
-	line "I'm one of top four"
+	text "¡Mi nombre es"
+	line "Fergus! Soy de los"
 
-	para "trainers at Cela-"
-	line "don University."
+	para "cuatro mejores en-"
+	line "trenadores de la"
+	cont "Univ. de Azulona."
 
-	para "They call us the"
-	line "Celadon Four!"
+	para "¡Nos llaman los"
+	line "Cuatro de Azulona!"
 
-	para "I'll prove to you"
-	line "that I earned my"
-	cont "rep with a battle!"
+	para "¡Te demostraré en"
+	line "un combate cómo"
+	cont "me gané mi"
+	cont "reputación!"
 	done
 
 .IntroText2:
-	text "The name's Fergus!"
-	line "I'm one of the"
-	cont "Celadon Four!"
+	text "¡Me llamo Fergus!"
+	line "¡Soy de los Cua-"
+	cont "tro de Azulona!"
 
-	para "You're taking on"
-	line "all four of us?"
+	para "¿Vas a enfrentarte"
+	line "a los cuatro?"
 
-	para "Well then, let's"
-	line "battle!"
+	para "Pues entonces,"
+	line "¡a luchar!"
 	done
 
 .NoBattleText:
-	text "Then don't get in"
-	line "my way."
+	text "Entonces no te me"
+	line "cruces en el cami-"
+	cont "no."
 	done
 
 .SeenText:
-	text "We'll show you!"
-	line "Let's go!"
+	text "¡Te enseñaremos!"
+	line "¡Vamos!"
 	done
 
 .BeatenText:
-	text "No way!"
+	text "¡No me lo creo!"
 	done
 
 .AfterText1:
-	text "I've spent so much"
-	line "time training my"
-	cont "team, but you beat"
-	cont "us anyway."
+	text "He pasado mucho"
+	line "tiempo entrenando"
+	cont "a mi equipo, pero"
+	cont "ganaste igual."
 
-	para "With your power,"
-	line "you should take on"
+	para "Con tu fuerza, de-"
+	line "berías enfrentarte"
 
-	para "the rest of the"
-	line "Celadon Four!"
+	para "al resto de los"
+	line "Cuatro de Azulona."
 	done
 
 .AfterText2:
-	text "All of the Celadon"
-	line "Four lost to you?"
+	text "¿Los Cuatro de"
+	line "Azulona perdimos"
+	cont "contra ti?"
 
-	para "You really are"
-	line "something!"
+	para "¡Eres realmente"
+	line "fuerte!"
 
-	para "You've earned this"
-	line "reward!"
+	para "¡Te has ganado es-"
+	line "ta recompensa!"
 	done
 
 .FinalText:
-	text "The Celadon Four"
-	line "are a big deal"
-	cont "here, but you're"
+	text "Los Cuatro de Azu-"
+	line "lona somos impor-"
+	cont "tantes aquí, pero"
 
-	para "making waves in"
-	line "the real world."
+	para "tú estás haciendo"
+	line "olas en el mundo"
+	cont "real."
 
-	para "Keep it up!"
+	para "¡Sigue así!"
 	done
 
 CeladonUniversityPoolLassText:
-	text "Ouch!"
+	text "¡Ay!"
 
-	para "I'm working out a"
-	line "cramp in my leg."
+	para "Estoy tratando de"
+	line "quitarme un calam-"
+	cont "bre de la pierna."
 	done
 
 CeladonUniversityPoolSwimmer_girlText:
-	text "I applied for a"
-	line "special program to"
+	text "Pedí entrar a un"
+	line "programa especial"
 
-	para "study in the Sea-"
-	line "foam Islands!"
+	para "para estudiar en"
+	line "las Islas Espuma."
 
-	para "I need to be pre-"
-	line "pared for intense"
-	cont "swimming."
+	para "Necesito estar"
+	line "preparada para su"
+	cont "corriente inten-"
+	cont "sa."
 	done
 
 CeladonUniversityPoolTeacherText:
-	text "OK, five more"
-	line "laps!"
+	text "¡Vale, cinco"
+	line "vueltas más!"
 	done

@@ -21,34 +21,35 @@ CeladonDeptStore5F_MapScriptHeader:
 	object_event  1,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore5FTeacherText, -1
 
 CeladonDeptStore5FGentlemanText:
-	text "I want to buy some"
-	line "items that raise"
+	text "Quiero comprar al-"
+	line "gunos objetos que"
 
-	para "#mon stats, but"
-	line "I don't have"
-	cont "enough money…"
+	para "suban las caracte-"
+	line "rísticas, pero no"
+	cont "tengo dinero..."
 	done
 
 CeladonDeptStore5FSailorText:
-	text "I want PP Up, so I"
-	line "can raise the PP"
+	text "Quiero Más PP, pa-"
+	line "ra subir los PP de"
 
-	para "of moves. But you"
-	line "can't buy it…"
+	para "los movimientos."
+	line "Pero no se pueden"
+	cont "comprar..."
 	done
 
 CeladonDeptStore5FTeacherText:
-	text "Using items on"
-	line "them makes #-"
-	cont "mon happy."
+	text "Usar objetos en"
+	line "ellos hace felices"
+	cont "a los #mon."
 
-	para "They hate certain"
-	line "items, though…"
+	para "Pero odian ciertos"
+	line "objetos..."
 	done
 
 CeladonDeptStore5FDirectoryText:
-	text "Bring Out"
-	line "#mon Potential"
+	text "Potencia a tus"
+	line "#mon"
 
-	para "5F: Drug Store"
+	para "P4: Farmacia"
 	done

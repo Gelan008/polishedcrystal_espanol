@@ -181,8 +181,8 @@ AzaleaGymGuyScript:
 	line "talentos."
 
 	para "¡Con gente como"
-	line "tú, el futuro #-"
-	cont "mon brilla!"
+	line "tú, el futuro"
+	cont "#mon brilla!"
 	done
 
 GenericTrainerBug_catcherBenny:

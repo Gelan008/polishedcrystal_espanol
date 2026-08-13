@@ -25,54 +25,56 @@ CeladonUniversityClassroom2_MapScriptHeader:
 	object_event  3,  9, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonUniversityClassroom2CooltrainermScript, -1
 
 CeladonUniversityClassroom2BlancheText:
-	text "I am Blanche."
-	line "I teach History"
-	cont "here."
+	text "Soy Blanche."
+	line "Enseño historia"
+	cont "aquí."
 
-	para "We must learn from"
-	line "history, or we"
+	para "Debemos aprender"
+	line "de la historia,"
+	cont "o estaremos"
 
-	para "will be doomed to"
-	line "repeat it."
+	para "condenados a"
+	line "repetirla."
 	done
 
 CeladonUniversityClassroom2TeacherText:
-	text "I'm afraid Blanche"
-	line "isn't available."
+	text "Me temo que"
+	line "Blanche no está"
+	cont "disponible."
 
-	para "They only teach"
-	line "during the day."
+	para "Solo da clases"
+	line "por el día."
 	done
 
 CeladonUniversityClassroom2YoungsterText:
-	text "Flipping through"
-	line "my notes at the"
-	cont "speed of--YOW!"
-	cont "Paper cut…"
+	text "¡Hojeando mis"
+	line "apuntes a la velo-"
+	cont "cidad de--AY!"
+	cont "Me he cortado..."
 	done
 
 CeladonUniversityClassroom2ChildText:
-	text "We just had a"
-	line "lecture on Prof."
+	text "Tuvimos una"
+	line "clase del Prof."
 
-	para "Westwood's contri-"
-	line "butions to the"
-	cont "#dex."
+	para "Westwood sobre sus"
+	line "contribuciones a"
+	cont "la #dex."
 
-	para "I heard that"
-	line "towards the end"
+	para "Escuché que"
+	line "hacia el final"
 
-	para "he got lazy and"
-	line "just made some of"
-	cont "it up!"
+	para "¡se volvió perez-"
+	line "oso e inventó la"
+	cont "mitad!"
 	done
 
 CeladonUniversityClassroom2LadyText:
-	text "You're from Johto?"
-	line "That region has"
+	text "¿Eres de Johto?"
+	line "¡Esa región tiene"
 
-	para "such fascinating"
-	line "history!"
+	para "una historia tan"
+	line "fascinante!"
 	done
 
 CeladonUniversityClassroom2CooltrainermScript:
@@ -82,68 +84,67 @@ CeladonUniversityClassroom2CooltrainermScript:
 	end
 
 .Text1: ; text > text
-	text "…Zzz…"
-	line "Aah!"
+	text "...Zzz..."
+	line "¡Aah!"
 	done
 
 .Text2:
-	text "Ahem."
+	text "Ejem."
 
-	para "Sorry about that--"
-	line "you startled me."
+	para "Perdona..."
+	line "Me asustaste."
 
-	para "I stayed up late"
-	line "to finish an"
+	para "Me quedé despierto"
+	line "hasta tarde aca-"
 
-	para "assignment, so now"
-	line "I'm exhausted."
+	para "bando un trabajo,"
+	line "así que estoy ex-"
+	cont "hausto."
 	done
 
 CeladonUniversityClassroom2BlackboardText:
-	text "There's a timeline"
-	line "of recent history."
+	text "Hay una cronología"
+	line "de historia."
 
-	para "400 years ago:"
-	line "Toxic move invent-"
-	cont "ed."
+	para "Hace 400 años:"
+	line "Se inventa el mo-"
+	cont "vimiento Tóxico."
 
-	para "71 years ago:"
-	line "modern # Ball"
-	cont "developed."
+	para "Hace 71 años:"
+	line "Se desarrolla la"
+	cont "# Ball moderna."
 
-	para "27 years ago:"
-	line "first Moon land-"
-	cont "ing."
+	para "Hace 27 años:"
+	line "Primer aterriza-"
+	cont "je en la Luna."
 
-	para "Three years ago:"
-	line "first virtual"
-	cont "#mon created."
+	para "Hace tres años:"
+	line "Se crea el primer"
+	cont "#mon virtual."
 
-	para "“Hypothesis: tech-"
-	line "nology grows expo-"
-	cont "nentially.”"
+	para "“Hipótesis: la te-"
+	line "cnología crece de"
+	cont "forma exponencial”"
 	done
 
 CeladonUniversityClassroom2Bookshelf1Text:
-	text "It's a book about"
+	text "Es un libro sobre"
 if DEF(FAITHFUL)
-	line "how the Brass"
-	cont "Tower in Ecruteak"
+	line "cómo la Torre La-"
+	cont "tón de Iris ardió"
 
-	para "City burned down"
-	line "150 years ago."
+	para "hace 150 años."
 else
-	line "how the Gong Tower"
-	cont "in Ecruteak City"
+	line "cómo la Torre"
+	cont "Gong de Iris"
 
-	para "burned down 150"
-	line "years ago."
+	para "ardió hace 150"
+	line "años."
 endc
 	done
 
 CeladonUniversityClassroom2Bookshelf2Text:
-	text "It's a book of"
-	line "slang terms from"
-	cont "the 1980s."
-	cont "Heavy!"
+	text "Es un libro de"
+	line "jerga de los 80."
+	cont "¡Qué fuerte!"
 	done

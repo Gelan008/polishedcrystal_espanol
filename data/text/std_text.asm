@@ -336,7 +336,7 @@ GymStatue_ThreeWinningTrainersText:
 	line "toriosos:"
 	cont "<RIVAL>"
 	cont "<PLAYER>"
-	cont "Lyra"
+	cont "Lira"
 	done
 
 CoinVendor_WelcomeText:

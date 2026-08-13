@@ -24,114 +24,116 @@ CeladonUniversityClassroom3_MapScriptHeader:
 	object_event  4,  7, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityClassroom3Super_nerdText, -1
 
 CeladonUniversityClassroom3SparkText:
-	text "Hey! I'm Spark."
-	line "I teach Science--"
+	text "¡Oye! Soy Spark."
+	line "Enseño Ciencias..."
 
-	para "right now, it's"
-	line "#biology."
+	para "ahora mismo,"
+	line "#biología."
 
-	para "We're studying how"
-	line "#mon reproduce."
+	para "Estamos estudiando"
+	line "cómo se reproducen"
+	cont "los #mon."
 
-	para "Prof.Elm has pion-"
-	line "eered the field."
+	para "El Prof. Elm es el"
+	line "pionero en este"
+	cont "campo."
 
-	para "Oh, you know him!"
-	line "Is it true that he"
-	cont "actually lives in"
-	cont "his lab?"
+	para "¡Oh, le conoces!"
+	line "¿Es cierto que de"
+	cont "verdad vive en su"
+	cont "laboratorio?"
 	done
 
 CeladonUniversityClassroom3TeacherText:
-	text "Are you looking"
-	line "for Spark?"
+	text "¿Estás buscando"
+	line "a Spark?"
 
-	para "He will be back"
-	line "tomorrow morning."
+	para "Volverá mañana"
+	line "por la mañana."
 	done
 
 CeladonUniversityClassroom3ChildText:
-	text "#mon inside"
-	line "# Balls are"
+	text "Los #mon dentro"
+	line "de # Balls se"
 
-	para "converted to light"
-	line "energy, then"
+	para "convierten en luz,"
+	line "y luego"
 
-	para "changed back to"
-	line "matter when they're"
-	cont "sent out."
+	para "vuelven a ser ma-"
+	line "teria cuando salen"
+	cont "fuera."
 
-	para "Don't worry, it"
-	line "doesn't hurt them"
-	cont "one bit!"
+	para "No te preocupes,"
+	line "¡no les duele en"
+	cont "absoluto!"
 	done
 
 CeladonUniversityClassroom3LassText:
-	text "My instructor said"
-	line "that Magneton is a"
+	text "Mi maestro dice"
+	line "que Magneton es la"
 
-	para "union of three"
-	line "Magnemite, but"
+	para "unión de tres Mag-"
+	line "nemite, pero"
 
-	para "Magneton is 10"
-	line "times heavier than"
-	cont "Magnemite."
+	para "Magneton es 10"
+	line "veces más pesado"
+	cont "que Magnemite."
 
-	para "How does that"
-	line "work?!"
+	para "¡¿Cómo funciona"
+	line "eso?!"
 	done
 
 CeladonUniversityClassroom3Super_nerdText:
-	text "Have you heard of"
-	line "the Electric-type"
-	cont "#mon Mareep?"
+	text "¿Has oído hablar"
+	line "del #mon eléc-"
+	cont "trico Mareep?"
 
-	para "Its name derives"
-	line "from the unit of"
+	para "Su nombre deriva"
+	line "de la unidad de"
 
-	para "electric current,"
-	line "the “ampere.”"
+	para "corriente eléc-"
+	line "trica, “ampere”."
 
-	para "Rearrange the"
-	line "letters, and"
-	cont "you'll see!"
+	para "¡Reorganiza sus"
+	line "letras y lo verás!"
 	done
 
 CeladonUniversityClassroom3BlackboardText:
-	text "'Phylogenetics'"
-	line "is on the board."
+	text "Pone: 'Filogenéti-"
+	line "ca'."
 
-	para "“…#mon can be"
-	line "divided into 14"
-	cont "“Egg groups”,"
-	cont "plus Ditto."
+	para "...Los #mon se"
+	line "dividen en 14 'Gru-"
+	cont "pos Huevo',"
+	cont "más Ditto."
 
-	para "Baby #mon can-"
-	line "not breed."
+	para "Los #mon Bebé"
+	line "no pueden criar."
 
-	para "Legendary #mon"
-	line "have not been"
-	cont "studied.”"
+	para "Los #mon Le-"
+	line "gendarios no han"
+	cont "sido estudiados."
 	done
 
 CeladonUniversityClassroom3Bookshelf1Text:
-	text "It's a book of"
-	line "prototype designs"
+	text "Es un libro de"
+	line "diseños prototipo"
 
-	para "for technological"
-	line "devices."
+	para "de dispositivos"
+	line "tecnológicos."
 
-	para "Hey! An early"
-	line "#gear diagram"
-	cont "is in here!"
+	para "¡Eh! ¡Aquí hay un"
+	line "diagrama de uno de"
+	cont "los primeros"
+	cont "#gear!"
 	done
 
 CeladonUniversityClassroom3Bookshelf2Text:
-	text "It's a paper writ-"
-	line "ten by Prof."
-	cont "Silktree."
+	text "Es un documento"
+	line "escrito por el"
+	cont "Prof. Silktree."
 
-	para "“Ruins of Alph"
-	line "Investigation"
-	cont "Report”…"
+	para "“Informe de"
+	line "Investigación de"
+	cont "Ruinas Alfa”..."
 	done

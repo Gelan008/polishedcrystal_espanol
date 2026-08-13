@@ -97,65 +97,66 @@ CeladonHomeDecorStore2FClerkScript:
 	db "Pink      ¥62000@"
 	db "PolkaDot  ¥94000@"
 	db "Pikachu  ¥126000@"
-	db "Cancel@"
+	db "Salir@"
 
 CeladonHomeDecorStore2FClerkText:
-	text "Welcome! Are you"
-	line "in the market for"
-	cont "a new bed?"
+	text "¡Hola! ¿Estás de"
+	line "compras buscando"
+	cont "una cama nueva?"
 	done
 
 BoughtPinkBedText:
-	text "<PLAYER> bought"
-	line "Pink Bed."
+	text "<PLAYER> compró la"
+	line "Cama Rosa."
 	done
 
 PinkBedSentText:
-	text "Pink Bed"
-	line "was sent home."
+	text "La Cama Rosa"
+	line "fue a casa."
 	done
 
 BoughtPolkaDotBedText:
-	text "<PLAYER> bought"
-	line "PolkaDot Bed."
+	text "<PLAYER> compró la"
+	line "Cama Lunares."
 	done
 
 PolkaDotBedSentText:
-	text "PolkaDot Bed"
-	line "was sent home."
+	text "La Cama Lunares"
+	line "fue a casa."
 	done
 
 BoughtPikachuBedText:
-	text "<PLAYER> bought"
-	line "Pikachu Bed."
+	text "<PLAYER> compró la"
+	line "Cama Pikachu."
 	done
 
 PikachuBedSentText:
-	text "Pikachu Bed"
-	line "was sent home."
+	text "La Cama Pikachu"
+	line "fue a casa."
 	done
 
 CeladonHomeDecorStore2FNoMoneyText:
-	text "You can't afford"
-	line "that!"
+	text "¡No te lo puedes"
+	line "permitir!"
 	done
 
 CeladonHomeDecorStore2FAlreadyBoughtText:
-	text "You already have"
-	line "that!"
+	text "¡Ya tienes eso!"
 	done
 
 CeladonHomeDecorStore2FPokefanfText:
-	text "Brand-name items"
-	line "cost more than"
-	cont "generic ones."
+	text "Las cosas de mar-"
+	line "ca cuestan más que"
+	cont "las normales."
 
-	para "But the Pikachu"
-	line "Bed is so cute…"
+	para "Pero la Cama de"
+	line "Pikachu es tan li-"
+	cont "nda..."
 	done
 
 CeladonHomeDecorStore2FDirectoryText:
-	text "Soft and Fluffy!"
+	text "¡Suave y"
+	line "esponjosa!"
 
-	para "2F: Beds"
+	para "P1: Camas"
 	done

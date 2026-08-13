@@ -333,7 +333,7 @@ Route42SuicuneMovement:
 	step_end
 
 Route42LyraGreetingText:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lira: Hi, <PLAYER>!"
 
 	para "What a coinci-"
 	line "dence. I was just"
@@ -368,7 +368,7 @@ Route42LyraLossText:
 	done
 
 Route42LyraPresentText:
-	text "Lyra: Wow, you're"
+	text "Lira: Wow, you're"
 	line "getting really"
 	cont "strong, <PLAYER>!"
 
@@ -381,7 +381,7 @@ Route42LyraPresentText:
 	done
 
 Route42LyraWhirlpoolText:
-	text "Lyra: That's"
+	text "Lira: That's"
 	line "Whirlpool."
 
 	para "Teach it to a"

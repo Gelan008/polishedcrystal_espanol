@@ -21,77 +21,82 @@ CeladonUniversityWillowsOffice_MapScriptHeader:
 	object_event  4,  3, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityWillowsOfficeScientistText, -1
 
 CeladonUniversityWillowsOfficeWillowText:
-	text "Hello there!"
-	line "I am Prof.Willow."
+	text "¡Hola, hola!"
+	line "Soy el"
+	cont "Prof. Willow."
 
-	para "I supervise"
-	line "Candela, Blanche,"
-	cont "and Spark in their"
+	para "Superviso a Cande-"
+	line "la, Blanche y"
+	cont "Spark en sus cla-"
 
-	para "teaching and re-"
-	line "search."
+	para "ses e investiga-"
+	line "ciones."
 
-	para "You may run into"
-	line "them in classes."
+	para "Puede que te cru-"
+	line "ces con ellos en"
+	cont "clase."
 
-	para "I also study #-"
-	line "mon habitats and"
-	cont "distribution."
+	para "También estudio la"
+	line "distribución y há-"
+	cont "bitat de los"
+	cont "#mon."
 
-	para "I'm very busy, but"
-	line "my excellent"
+	para "Estoy muy ocupa-"
+	line "do, pero mis ex-"
 
-	para "assistants help"
-	line "get work done."
+	para "celentes asisten-"
+	line "tes me ayudan con"
+	cont "el trabajo."
 	done
 
 CeladonUniversityWillowsOfficeScientistText:
-	text "I get to work as"
-	line "Prof.Willow's"
-	cont "aide!"
+	text "¡Trabajo como a-"
+	line "yudante del"
+	cont "Prof. Willow!"
 
-	para "I'm cataloguing"
-	line "my observations"
-	cont "of Route 7."
+	para "Estoy catalogando"
+	line "mis observaciones"
+	cont "de la Ruta 7."
 
-	para "Today I saw 42"
-	line "Raticate and"
-	cont "37 Pidgeotto…"
-	cont "and one Vulpix!"
+	para "Hoy vi 42"
+	line "Raticate y 37"
+	cont "Pidgeotto..."
+	cont "¡y un Vulpix!"
 	done
 
 CeladonUniversityWillowsOfficeBlackboardText:
-	text "Someone wrote “DO"
-	line "NOT ERASE” with"
+	text "Alguien escribió"
+	line "“NO BORRAR” con"
 
-	para "an arrow toward"
-	line "an illegible"
-	cont "scrawl…"
+	para "una flecha hacia"
+	line "un garabato"
+	cont "ilegible..."
 	done
 
 CeladonUniversityWillowsOfficeBookshelf1Text:
-	text "It's a book about"
-	line "ecological niches"
+	text "Es un libro de ni-"
+	line "chos ecológicos"
 
-	para "and how #mon"
-	line "fit within their"
-	cont "environments."
+	para "y cómo los #mon"
+	line "encajan en sus"
+	cont "entornos."
 	done
 
 CeladonUniversityWillowsOfficeBookshelf2Text:
-	text "It's a promotional"
-	line "flyer for the"
-	cont "Safari Zone."
+	text "Es un folleto pro-"
+	line "mocional de la"
+	cont "Zona Safari."
 
-	para "Lots of exotic-"
-	line "looking #mon"
-	cont "adorn it."
+	para "Lo adornan un"
+	line "montón de #mon"
+	cont "exóticos."
 	done
 
 CeladonUniversityWillowsOfficeComputer:
 	jumpthistext
 
-	text "“#mon Transfer"
-	line "System” is on the"
-	cont "screen."
+	text "“Sistema de Trans-"
+	line "ferencia #mon”"
+	cont "está en la panta-"
+	cont "lla."
 	done

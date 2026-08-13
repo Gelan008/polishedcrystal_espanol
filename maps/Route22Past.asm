@@ -212,12 +212,12 @@ Route22Past_CelebiFloatsMovementData:
 	step_end
 
 Route22PastLyraWhereAreWeText:
-	text "Lyra: Where are"
+	text "Lira: Where are"
 	line "we…?"
 	done
 
 Route22PastLyraIlexForestDisappearedText:
-	text "Lyra: Ilex Forest"
+	text "Lira: Ilex Forest"
 	line "has disappeared!"
 
 	para "…That's not it."
@@ -227,7 +227,7 @@ Route22PastLyraIlexForestDisappearedText:
 	done
 
 Route22PastLyraPokeGearText:
-	text "Lyra: <PLAYER>, my"
+	text "Lira: <PLAYER>, my"
 	line "#gear radio"
 
 	para "said the date is"
@@ -372,7 +372,7 @@ Route22PastRivalInsultText:
 	done
 
 Route22PastLyraConclusionText:
-	text "Lyra: Who does he"
+	text "Lira: Who does he"
 	line "think he is?"
 
 	para "That was"
@@ -395,7 +395,7 @@ Route22PastLyraConclusionText:
 	done
 
 Route22PastLyraOhNoText:
-	text "Lyra: Oh no!"
+	text "Lira: Oh no!"
 	line "It's happening"
 	cont "again…!"
 

@@ -32,69 +32,70 @@ CeladonUniversityWestwoodsOfficeChildScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "I'll just buy some"
-	line "ramen in the cafe-"
-	cont "teria."
+	text "Mejor compraré un"
+	line "ramen en la cafe-"
+	cont "tería."
 	done
 
 .Text1:
-	text "I was told there"
-	line "would be free"
-	cont "pizza here!"
+	text "¡Me dijeron que"
+	line "habría pizza gra-"
+	cont "tis aquí!"
 
-	para "Where is it?"
+	para "¿Dónde está?"
 
-	para "I'm so ANGRY!"
+	para "¡Estoy FURIOSO!"
 
-	para "…Maybe I should"
-	line "quit snacking on"
+	para "...Tal vez debería"
+	line "dejar de comer"
 if DEF(FAITHFUL)
-	cont "RageCandyBars."
+	cont "Caramelos Furia."
 else
-	cont "Cakes of Rage."
+	cont "Pasteles Furia."
 endc
 
-	para "You can have this"
-	line "one."
+	para "Puedes quedarte"
+	line "con este."
 	done
 
 CeladonUniversityWestwoodsOfficeBookText:
-	text "Dear Diary,"
+	text "Querido diario:"
 
-	para "My work compiling"
-	line "entries for the"
+	para "Mi trabajo reco-"
+	line "pilando entradas"
+	cont "para la #dex"
 
-	para "#dex continues"
-	line "to be well-recei-"
-	cont "ved."
+	para "sigue teniendo"
+	line "una buena acogida."
 
-	para "Proof that one"
-	line "does not always"
+	para "¡Prueba de que uno"
+	line "no siempre necesi-"
 
-	para "need to leave the"
-	line "office to succeed!"
+	para "ta salir de la"
+	line "oficina para te-"
+	cont "ner éxito!"
 
-	para "Using reports sub-"
-	line "mitted by others"
+	para "Usar informes a-"
+	line "portados por otros"
 
-	para "gets the job done"
-	line "just fine."
+	para "hace el trabajo"
+	line "igual de bien."
 	done
 
 CeladonUniversityWestwoodsOfficeSignpost1Text:
-	text "It's a portrait of"
+	text "Es un retrato de"
 	line "Westwood I."
 	done
 
 CeladonUniversityWestwoodsOfficeSignpost2Text:
-	text "It's a portrait of"
+	text "Es un retrato de"
 	line "Westwood III."
 	done
 
 CeladonUniversityWestwoodsOfficeBookshelfText:
-	text "The Complete Works"
-	line "of Prof.Westwood."
+	text "Obras Completas"
+	line "del Prof. Westwood."
 
-	para "…Might give that"
-	line "one a miss."
+	para "...Mejor me las"
+	line "salto."
 	done

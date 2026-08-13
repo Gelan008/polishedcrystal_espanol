@@ -26,8 +26,8 @@ CeladonMansion1F_MapScriptHeader:
 CeladonMansionManagersSuiteSign:
 	jumpthistext
 
-	text "Celadon Condo"
-	line "Manager's Suite"
+	text "Mansión Azulona"
+	line "Despacho Mánager"
 	done
 
 CeladonMansionManagerScript:
@@ -76,107 +76,113 @@ CeladonMansionManagerScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "There's nothing"
-	line "like hot mint tea."
+	text "No hay nada como"
+	line "el té de menta ca-"
+	cont "liente."
 
-	para "It can change a"
-	line "#mon's very"
-	cont "nature!"
+	para "¡Puede cambiar la"
+	line "naturaleza de un"
+	cont "#mon!"
 	done
 
 .Egg:
 	jumpthisopenedtext
 
-	text "Do you expect me"
-	line "to make that into"
-	cont "a tea egg?"
+	text "¿Esperas que haga"
+	line "un huevo de té"
+	cont "con eso?"
 	done
 
 .NoMintLeafText:
-	text "Oh, hello,"
-	line "dearie."
+	text "Oh, hola,"
+	line "cariño."
 
-	para "I'm having tea with"
-	line "my dear #mon."
+	para "Estoy tomando el"
+	line "té con mis que-"
+	cont "ridos #mon."
 
-	para "If you had a"
-	line "Mint Leaf,"
+	para "Si tuvieras una"
+	line "Hoja Menta,"
 
-	para "I'd invite you"
-	line "to join me."
+	para "te invitaría a"
+	line "acompañarme."
 
-	para "#mon love mint"
-	line "in their tea."
+	para "A los #mon les"
+	line "encanta la menta"
+	cont "en su té."
 
-	para "It has a lasting"
-	line "effect on their"
-	cont "very nature!"
+	para "¡Tiene un efecto"
+	line "duradero en su"
+	cont "naturaleza!"
 	done
 
 .QuestionText:
-	text "Oh, hello,"
-	line "dearie."
+	text "Oh, hola,"
+	line "cariño."
 
-	para "I see you have a"
-	line "Mint Leaf."
+	para "Veo que tienes una"
+	line "Hoja Menta."
 
-	para "Would you like"
-	line "me to steep it"
+	para "¿Te gustaría que"
+	line "haga una infusión"
 
-	para "in some tea for"
-	line "your #mon?"
+	para "de té para tus"
+	line "#mon?"
 	done
 
 .RefusedText:
-	text "Don't go filling up"
-	line "on Lemonade and"
-	cont "Soda Pop, now!"
+	text "¡No te vayas a"
+	line "llenar con Limo-"
+	cont "nada y Refresco!"
 	done
 
 .AcceptedText:
-	text "Which one of your"
-	line "#mon wants tea?"
+	text "¿Cuál de tus"
+	line "#mon quiere té?"
 	done
 
 .LikedFlavorText:
-	text "Now, what flavor"
-	line "does "
+	text "Ahora, ¿qué sabor"
+	line "le gusta a"
+	cont ""
 	text_ram wStringBuffer1
-	cont "like?"
+	text "?"
 	done
 
 .DislikedFlavorText:
-	text "And what flavor"
-	line "does it dislike?"
+	text "¿Y qué sabor le"
+	line "disgusta?"
 	done
 
 .NeutralTeaText:
-	text "That's an unusual"
-	line "preference, but"
-	cont "I can brew it!"
+	text "Es una preferen-"
+	line "cia inusual, ¡pero"
+	cont "puedo prepararlo!"
 
-	para "One cup for you,"
-	line "and one cup for"
+	para "¡Una taza para ti,"
+	line "y una taza para"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 .TeaIsReadyText:
-	text "Okay! Here's"
-	line "your tea."
+	text "¡Okey! Aquí tie-"
+	line "nes tu té."
 
-	para "One cup for you,"
-	line "and one cup for"
+	para "¡Una taza para ti,"
+	line "y una taza para"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 .MonLooksDifferentText:
+	text "¡"
 	text_ram wStringBuffer1
-	text " looks"
-	line "different somehow!"
+	text " se"
+	line "ve un poco"
+	cont "diferente!"
 	done
 
 .MenuDataHeader:
@@ -189,22 +195,22 @@ CeladonMansionManagerScript:
 	db $80 ; flags
 	db 5 ; items
 	; this order is meaningful to calculate the new nature
-	db "Spicy@" ; atk
-	db "Sour@" ; def
-	db "Sweet@" ; spe
-	db "Dry@" ; sat
-	db "Bitter@" ; sdf
+	db "Picante@" ; atk
+	db "Acido@" ; def
+	db "Dulce@" ; spe
+	db "Seco@" ; sat
+	db "Amargo@" ; sdf
 
 CeladonMansion1FMeowthText:
-	text "Meowth: Meow!"
+	text "Meowth: ¡Miau!"
 	done
 
 CeladonMansion1FClefairyText:
-	text "Clefairy: Clef"
-	line "cleff!"
+	text "Clefairy: ¡Clef"
+	line "clef!"
 	done
 
 CeladonMansion1FNidoranFText:
-	text "Nidoran: Kya"
+	text "Nidoran: ¡Kya"
 	line "kyaoo!"
 	done

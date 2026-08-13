@@ -100,70 +100,70 @@ PosterClerkScript:
 	db "Marill      ¥3200@"
 	db "Clefairy    ¥4800@"
 	db "Pikachu     ¥6400@"
-	db "Cancel@"
+	db "Salir@"
 
 PosterClerkText:
-	text "Welcome! Would you"
-	line "like a poster?"
+	text "¡Hola! ¿Te gusta-"
+	line "ría un póster?"
 	done
 
 PosterClerkNoMoneyText:
-	text "You don't have"
-	line "enough money."
+	text "No tienes suficien-"
+	line "te dinero."
 	done
 
 PosterClerkAlreadyBoughtText:
-	text "You bought that"
-	line "already."
+	text "Ya compraste ese."
 	done
 
 BoughtMarillPosterText:
-	text "<PLAYER> bought"
-	line "Marill Poster."
+	text "<PLAYER> compró"
+	line "el Póster Marill."
 	done
 
 MarillPosterSentText:
-	text "Marill Poster"
-	line "was sent home."
+	text "El Póster Marill"
+	line "fue a casa."
 	done
 
 BoughtClefairyPosterText:
-	text "<PLAYER> bought"
-	line "Clefairy Poster."
+	text "<PLAYER> compró el"
+	line "Póster Clefairy."
 	done
 
 ClefairyPosterSentText:
-	text "Clefairy Poster"
-	line "was sent home."
+	text "El Póster Clefairy"
+	line "fue a casa."
 	done
 
 BoughtPikachuPosterText:
-	text "<PLAYER> bought"
-	line "Pikachu Poster."
+	text "<PLAYER> compró el"
+	line "Póster Pikachu."
 	done
 
 PikachuPosterSentText:
-	text "Pikachu Poster"
-	line "was sent home."
+	text "El Póster Pikachu"
+	line "fue a casa."
 	done
 
 CeladonDeptStore4FSuperNerdText:
-	text "I'm here to buy"
-	line "Lovely Mail for"
-	cont "my girlfriend."
+	text "Vengo a comprar"
+	line "una Carta Amor"
+	cont "para mi novia."
 	done
 
 CeladonDeptStore4FYoungsterText:
-	text "This is the only"
-	line "place where you"
+	text "Este es el único"
+	line "sitio en el que"
 
-	para "can buy posters."
-	line "I collect them!"
+	para "puedes comprar"
+	line "pósteres. ¡Los co-"
+	cont "lecciono!"
 	done
 
 CeladonDeptStore4FDirectoryText:
-	text "Express Yourself"
-	line "With Gifts!"
+	text "¡Exprésate con"
+	line "regalos!"
 
-	para "4F: Wiseman Gifts"
+	para "P3: Regalos Sabio"
 	done

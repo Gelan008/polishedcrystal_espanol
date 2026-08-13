@@ -57,7 +57,7 @@ OlivineGymGuyScript:
 	iffalse_jumptextfaceplayer OlivineGymGuyPreText
 	jumpthistextfaceplayer
 
-	text "Jasmine uses the"
+	text "Yasmina uses the"
 	line "newly discovered"
 	cont "Steel-type."
 
@@ -83,7 +83,7 @@ OlivineGymLassConnie:
 
 	para "It's time you"
 	line "showed that to"
-	cont "Jasmine!"
+	cont "Yasmina!"
 
 	para "Good luck!"
 	done
@@ -157,7 +157,7 @@ Jasmine_SteelTypeIntro:
 	para "allow me to intro-"
 	line "duce myself."
 
-	para "I am Jasmine, a"
+	para "I am Yasmina, a"
 	line "Gym Leader. I use"
 	cont "the Steel-type."
 
@@ -217,7 +217,7 @@ OlivineGymGuyWinText:
 	done
 
 OlivineGymGuyPreText:
-	text "Jasmine, the Gym"
+	text "Yasmina, the Gym"
 	line "Leader, is at the"
 	cont "Lighthouse."
 

@@ -16,12 +16,13 @@ CeladonHotelRoom3_MapScriptHeader:
 	itemball_event  5,  2, ROOM_SERVICE, 1, EVENT_CELADON_HOTEL_ROOM_3_ROOM_SERVICE
 
 CeladonHotelRoom3GrampsText:
-	text "I've been staying"
-	line "at this hotel"
-	cont "every year since"
-	cont "I was a wee lad."
+	text "Llevo quedándome"
+	line "en este hotel to-"
+	cont "dos los años"
+	cont "desde que era"
+	cont "pequeñito."
 
-	para "It almost feels"
-	line "like a second"
-	cont "home!"
+	para "¡Casi se siente"
+	line "como un segundo"
+	cont "hogar!"
 	done
