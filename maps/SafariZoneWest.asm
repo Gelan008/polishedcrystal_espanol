@@ -38,7 +38,7 @@ GenericTrainerLassDuplica:
 	line "a Fuchsia Gym"
 
 	para "Trainer and mimic"
-	line "Janine."
+	line "Sachiko."
 	done
 
 GenericTrainerCamperAmos:

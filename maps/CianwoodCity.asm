@@ -357,7 +357,7 @@ CianwoodMoveManiacSignText:
 	done
 
 CianwoodAdvancedTipsSignText:
-	text "¡Pistas Avanzadas!"
+	text "¡Pistas Entrenador!"
 
 	para "¡Puedes usar una"
 	line "# Ball en un"

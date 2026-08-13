@@ -3196,7 +3196,7 @@ _ElmText2::
 
 SECTION "_ElmText4", ROMX
 _ElmText4::
-	text "People and #mon"
+	text "Gente y #mon"
 	line "conviven apoyándo-"
 	cont "se los unos a los"
 	cont "otros."

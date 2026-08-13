@@ -1557,7 +1557,7 @@ MysteryEggDesc:
 	done
 
 SquirtBottleDesc:
-	text "Regadera usada"
+	text "Squirgadera usada"
 	next "para regar plantas"
 	done
 

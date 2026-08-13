@@ -36,9 +36,9 @@ GoldenrodMuseum1FLodestoneSignpostScript:
 	closepokepic
 	jumpthistext
 
-	text "Lodestone from the"
-	line "construction of"
-	cont "Magnet Tunnel."
+	text "Piedra imán de"
+	line "la construcción"
+	cont "del Magnetotúnel."
 	done
 
 GoldenrodMuseum1FRocketScoutScript:
@@ -53,87 +53,88 @@ GoldenrodMuseum1FRocketScoutScript:
 	end
 
 GoldenrodMuseumReceptionistText:
-	text "Welcome to the"
-	line "Goldenrod City"
-	cont "Museum."
+	text "Bienvenido al"
+	line "Museo de Ciudad"
+	cont "Trigal."
 
-	para "In celebration of"
-	line "our grand opening,"
+	para "Para celebrar"
+	line "nuestra inaugu-"
+	cont "ración, la"
+	cont "entrada es gratis."
 
-	para "admission is free"
-	line "of charge."
+	para "Por favor, sién-"
+	line "tete libre de"
+	cont "echar un vistazo,"
 
-	para "Please, feel free"
-	line "to look around,"
-
-	para "and we hope you"
-	line "enjoy your visit."
+	para "y esperamos que"
+	line "disfrutes de la"
+	cont "visita."
 	done
 
 GoldenrodMuseumOfficerText:
-	text "I'm keeping my eye"
-	line "on you kid!"
+	text "¡Te estoy vigilan-"
+	line "do, chaval!"
 
-	para "Hahaha! I'm just"
-	line "messing with ya!"
+	para "¡Jajaja! ¡Sólo es-"
+	line "toy bromeando!"
 
-	para "I'm keeping an eye"
-	line "on everyone…"
+	para "Vigilo a todo el"
+	line "mundo..."
 	done
 
 
 GoldenrodMuseum1FDrillText:
-	text "It's a large drill"
-	line "used to tunnel"
+	text "Es un gran tala-"
+	line "dro usado para"
 
-	para "through super"
-	line "dense rock."
+	para "atravesar roca"
+	line "muy densa."
 	done
 
 GoldenrodMuseum1FHikerText:
-	text "I heard they had"
-	line "to use equipment"
+	text "Escuché que tuvie-"
+	line "ron que usar equi-"
 
-	para "like this drill"
-	line "to excavate the"
+	para "po como este ta-"
+	line "ladro para exca-"
 
-	para "tunnel for the"
-	line "Magnet Train."
+	para "var el túnel del"
+	line "Magnetotrén."
 	done
 
 GoldenrodMuseum1FRadioDishText:
-	text "A metallic dish"
-	line "used for trans-"
+	text "Un plato metálico"
+	line "usado para trans-"
 
-	para "mitting radio"
-	line "waves."
+	para "mitir ondas de"
+	line "radio."
 	done
 
 GoldenrodMuseum1FHarborText:
-	text "An aquarium filled"
-	line "with Magikarp!"
+	text "¡Un acuario lleno"
+	line "de Magikarp!"
 	done
 
 GoldenrodMuseum1FBigPearlText:
-	text "It's a huge pearl"
-	line "fished up from"
-	cont "Goldenrod Harbor."
+	text "Es una perla enor-"
+	line "me pescada en el"
+	cont "Puerto de Trigal."
 	done
 
 GoldenrodMuseum1FRocketScoutText1:
-	text "Hmm… This would"
-	line "fetch quite a"
-	cont "heavy price."
+	text "Hmm... Esto"
+	line "alcanzaría un pre-"
+	cont "cio bastante alto."
 
-	para "Now… how do I get"
-	line "it out of here"
+	para "Ahora... ¿cómo lo"
+	line "saco de aquí"
 
-	para "without getting"
-	line "caught?"
+	para "sin que me"
+	line "pillen?"
 	done
 
 GoldenrodMuseum1FRocketScoutText2:
-	text "Don't you know it's"
-	line "rude to stare?"
-	cont "Beat it kid!"
+	text "¿No sabes que es"
+	line "de mala educación"
+	cont "mirar? ¡Lárgate!"
 	done

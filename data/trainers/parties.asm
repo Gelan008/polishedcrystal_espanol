@@ -1166,7 +1166,7 @@ SECTION "JanineGroup", ROMX
 JanineGroup:
 
 	def_trainer_class JANINE
-	def_trainer 1, "Janine"
+	def_trainer 1, "Sachiko"
 	tr_mon 64, CROBAT, FEMALE
 		tr_extra INNER_FOCUS
 		tr_evs 252 Atk, 164 Spe
@@ -1193,7 +1193,7 @@ JanineGroup:
 		tr_moves SLUDGE_BOMB, DOUBLE_TEAM, BUG_BUZZ, PSYCHIC_M
 	end_trainer
 
-	def_trainer 2, "Janine"
+	def_trainer 2, "Sachiko"
 	tr_mon 73, CROBAT @ CHOICE_BAND, FEMALE
 		tr_extra INNER_FOCUS, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -8920,7 +8920,7 @@ SECTION "PiersGroup", ROMX
 PiersGroup:
 
 	def_trainer_class PIERS
-	def_trainer 1, "Piers"
+	def_trainer 1, "Nerio"
 	tr_mon 16, MURKROW, MALE
 		tr_extra SUPER_LUCK
 		tr_evs 96 Spe
@@ -8939,7 +8939,7 @@ PiersGroup:
 		tr_moves HYPER_FANG, SUCKER_PUNCH, PURSUIT, FOCUS_ENERGY
 	end_trainer
 
-	def_trainer 2, "Piers"
+	def_trainer 2, "Nerio"
 	tr_mon LEVEL_FROM_BADGES + 12, HONCHKROW @ LIFE_ORB, MALE
 		tr_extra MOXIE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe

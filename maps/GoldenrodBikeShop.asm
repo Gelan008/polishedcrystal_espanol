@@ -41,50 +41,55 @@ GoldenrodBikeShopClerkScript:
 	jumpthisopenedtext
 
 GoldenrodBikeShopClerkFirstRateBikesText:
-	text "My Bicycles are"
-	line "first-rate! You"
+	text "¡Mis Bicis son de"
+	line "primera! Puedes"
 
-	para "can ride them"
-	line "anywhere."
+	para "ir montado a cual-"
+	line "quier parte."
 	done
 
 GoldenrodBikeShopClerkIntroText:
-	text "…sigh… I opened"
-	line "a branch here,"
+	text "...ay... Abrí una"
+	line "sucursal aquí,"
 
-	para "but I can't sell"
-	line "my Bicycles."
-	cont "Why is that?"
+	para "pero no puedo ven-"
+	line "der mis Bicis."
+	cont "¿Por qué será?"
 
-	para "Could you ride a"
-	line "Bicycle and adver-"
-	cont "tise for me?"
+	para "¿Podrías ir en una"
+	line "Bici y hacerme un"
+	cont "poco de publici-"
+	cont "dad?"
 	done
 
 GoldenrodBikeShopClerkAgreedText:
-	text "Really? Great!"
+	text "¿En serio?"
+	line "¡Genial!"
 
-	para "Give me your name"
-	line "and phone number,"
+	para "Dame tu nombre y"
+	line "número de teléfo-"
+	cont "no,"
 
-	para "and I'll loan you"
-	line "a Bicycle."
+	para "y te prestaré"
+	line "una Bici."
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "…sigh… Oh, for"
-	line "the kindness of"
-	cont "people…"
+	text "...ay... Dónde"
+	line "habrá quedado la"
+	cont "amabilidad de la"
+	cont "gente..."
 	done
 
 GoldenrodBikeShopBicycleText:
-	text "It's a shiny new"
-	line "Bicycle!"
+	text "¡Es una Bici nueva"
+	line "y reluciente!"
 	done
 
 GoldenrodBikeShopJustReleasedCompactBikeText:
-	text "Just released!"
+	text "¡Recién salidas"
+	line "del horno!"
 
-	para "First-rate compact"
-	line "Bicycles!"
+	para "¡Bicis compactas"
+	line "de primera!"
 	done

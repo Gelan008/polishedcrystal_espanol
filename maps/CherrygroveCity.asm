@@ -323,7 +323,7 @@ GuideGentRoute30Text:
 
 GuideGentAdvancedTipsText:
 	text "Los carteles de"
-	line "Pistas Avanzadas"
+	line "Pistas Entrenador"
 	cont "tienen este raro"
 	cont "aspecto."
 
@@ -427,7 +427,7 @@ CherrygroveRivalTextAfter2:
 
 CherrygroveTeacherText_HaveMapCard:
 	text "Cuando estás con"
-	line "#mon, ir a"
+	line "un #mon, ir a"
 	cont "cualquier sitio"
 	cont "es divertido."
 	done
@@ -476,7 +476,7 @@ GuideGentsHouseSignText:
 	done
 
 CherrygroveCityAdvancedTipsSignText:
-	text "¡Pistas Avanzadas!"
+	text "¡Pistas Entrenador!"
 
 	para "Las Tiendas #"
 	line "te darán una"

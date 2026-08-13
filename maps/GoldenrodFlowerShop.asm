@@ -63,7 +63,8 @@ FlowerShopTeacherScript:
 	ifequalfwd $2, .Buy10
 	jumpthisopenedtext
 
-	text "Please come again!"
+	text "¡Vuelve cuando"
+	line "quieras!"
 	done
 
 .Buy1:
@@ -88,16 +89,17 @@ FlowerShopTeacherScript:
 	itemnotify
 	jumpthisopenedtext
 
-	text "Thank you!"
-	line "Please come again!"
+	text "¡Gracias!"
+	line "¡Vuelve cuando"
+	cont "quieras!"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Well… Excuse me,"
-	line "but you're short"
-	cont "of money."
+	text "Bueno... perdona,"
+	line "pero te falta"
+	cont "dinero."
 	done
 
 .MenuDataHeader:
@@ -111,7 +113,7 @@ FlowerShopTeacherScript:
 	db 3 ; items
 	db "× 1    ¥200@"
 	db "×10   ¥2000@"
-	db "Cancel@"
+	db "Salir@"
 
 FlowerShopFloriaScript:
 	checkflag ENGINE_PLAINBADGE
@@ -122,142 +124,146 @@ FlowerShopFloriaScript:
 	iftrue_jumptextfaceplayer DescribeMulchText
 	jumpthistextfaceplayer
 
-	text "So that jiggly"
-	line "tree really was a"
+	text "¡Así que ese árbol"
+	line "que se movía de"
+	cont "verdad era un"
 	cont "#mon!"
 	done
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Have you seen that"
-	line "wiggly tree that's"
+	text "¿Has visto ese ár-"
+	line "bol raro que ha"
 
-	para "growing on Route"
-	line "36?"
+	para "crecido en la"
+	line "Ruta 36?"
 
-	para "My little sister"
-	line "got all excited"
+	para "Mi hermana pequeña"
+	line "se emocionó mucho"
 
-	para "and went to see"
-	line "it…"
+	para "y ha ido a verlo..."
 
-	para "I'm worried… Isn't"
-	line "it dangerous?"
+	para "Estoy preocupada..."
+	line "¿No es peligroso?"
 	done
 
 GoldenrodFlowerShopTeacherStopMySisterText:
-	text "My little sister"
-	line "got all excited"
+	text "Mi hermana pequeña"
+	line "se emocionó mucho"
 
-	para "and went to see"
-	line "the wiggly tree…"
+	para "y ha ido a ver el"
+	line "árbol raro..."
 
-	para "I'm worried… Can"
-	line "you please stop"
+	para "Estoy preocupada..."
+	line "¿Puedes por favor"
 
-	para "her from getting"
-	line "hurt by it?"
+	para "evitar que se haga"
+	line "daño?"
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Do you want to"
-	line "borrow the water"
+	text "¿También quieres"
+	line "pedir prestada la"
+	cont "Squirgadera?"
 
-	para "bottle too?"
-	line "I don't want you"
-
-	para "doing anything"
-	line "dangerous with it."
+	para "No quiero que ha-"
+	line "gas nada peli-"
+	cont "groso con ella."
 	done
 
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
-	text "Oh, you're better"
-	line "than Whitney."
+	text "Oh, eres mejor que"
+	line "Blanca."
 
-	para "Do you know about"
-	line "that wiggly tree?"
+	para "¿Sabes lo del"
+	line "árbol raro?"
 
-	para "If you wet it with"
-	line "a water bottle, it"
-	cont "attacks."
+	para "Si lo mojas con"
+	line "una Squirgadera,"
+	cont "te atacará."
 
-	para "But since you"
-	line "have some Badges,"
-	cont "you should be OK."
+	para "Pero como tienes"
+	line "Medallas, seguro"
+	cont "que estarás bien."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Oh, you're better"
-	line "than Whitney…"
+	text "Oh, eres mejor"
+	line "que Blanca..."
 
-	para "You'll be OK,"
-	line "then. Here's my"
-	cont "water bottle!"
+	para "Entonces, estarás"
+	line "bien. ¡Aquí tie-"
+	cont "nes mi Squirgadera!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "Don't do anything"
-	line "too dangerous!"
+	text "¡No hagas ningu-"
+	line "na locura!"
 	done
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Cuando le hablé a"
+	line "mi hermana del"
 
-	para "tree, she told me"
-	line "it's dangerous."
+	para "árbol raro, me"
+	line "dijo que era peli-"
+	cont "groso."
 
-	para "If I beat Blanca,"
-	line "I wonder if she'll"
+	para "Si derroto a"
+	line "Blanca, igual me"
 
-	para "lend me her water"
-	line "bottle…"
+	para "presta su"
+	line "Squirgadera..."
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Wow, you beat"
-	line "Blanca? Cool!"
+	text "Vaya, ¿has derro-"
+	line "tado a Blanca?"
+	cont "¡Qué guay!"
 
-	para "Maybe you can take"
-	line "care of the jiggly"
-	cont "tree."
+	para "A lo mejor tú pue-"
+	line "des con ese árbol"
+	cont "raro."
 
-	para "You'll just need a"
-	line "water bottle like"
-	cont "my sis has."
+	para "Solo necesitas una"
+	line "Squirgadera como"
+	cont "la de mi hermana."
 	done
 
 WoukdYouLikeMulchText:
-	text "Care to buy some"
-	line "Mulch?"
+	text "¿Quieres comprar"
+	line "Abono?"
 
-	para "It makes Berries"
-	line "grow faster!"
+	para "¡Hace que las Ba-"
+	line "yas crezcan más"
+	cont "rápido!"
 	done
 
 
 
 
 NoRoomForMulchText:
-	text "Oh no, your Bag"
-	line "is full!"
+	text "¡Oh no, tu Mochila"
+	line "está llena!"
 	done
 
 DescribeMulchText:
-	text "Our Mulch is a"
-	line "mix of high-qual-"
+	text "Nuestro Abono es"
+	line "una mezcla de tie-"
 
-	para "ity soil and #-"
-	line "mon's… er… you"
+	para "rra de calidad y"
+	line "de... em... ya sa-"
+	cont "bes de los #mon."
 
-	para "know. It's full"
-	line "of nutrients!"
+	para "¡Está lleno de"
+	line "nutrientes!"
 	done
 
 FlowerShopGentlemanText:
-	text "I've been working"
-	line "late a lot recent-"
-	cont "ly, so I'm buying"
+	text "He estado traba-"
+	line "jando hasta tarde"
+	cont "últimamente,"
 
-	para "some flowers for"
-	line "my wife."
+	para "así que voy a"
+	line "comprar flores"
+	cont "para mi mujer."
 	done

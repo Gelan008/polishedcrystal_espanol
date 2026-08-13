@@ -182,100 +182,110 @@ UndergroundRivalBattleScript2:
 	playmusic MUSIC_RIVAL_AFTER
 	jumpthistext
 
-	text "…I don't under-"
-	line "stand…"
+	text "...No lo en-"
+	line "tiendo..."
 
-	para "Is what that Lance"
-	line "guy said true?"
+	para "¿Es cierto lo que"
+	line "dijo ese tal"
+	cont "Lance?"
 
-	para "That I don't treat"
-	line "#mon properly?"
+	para "¿Que no trato a"
+	line "los #mon de"
+	cont "forma adecuada?"
 
-	para "Love…"
+	para "Amor..."
 
-	para "Trust…"
+	para "Confianza..."
 
-	para "Are they really"
-	line "what I lack?"
+	para "¿De verdad es eso"
+	line "lo que me falta?"
 
-	para "Are they keeping"
-	line "me from winning?"
+	para "¿Son los que"
+	line "me impiden"
+	cont "ganar?"
 
-	para "I… I just don't"
-	line "understand."
+	para "Yo... Yo sigo sin"
+	line "entenderlo."
 
-	para "But it's not going"
-	line "to end here."
+	para "Pero esto no va"
+	line "a acabar aquí."
 
-	para "Not now. Not"
-	line "because of this."
+	para "No ahora. Y no"
+	line "por esto."
 
-	para "I won't give up my"
-	line "dream of becoming"
+	para "¡No renunciaré a"
+	line "mi sueño de con-"
+	cont "vertirme en el"
 
-	para "the world's best"
-	line "#mon trainer!"
+	para "mejor entrenador"
+	line "#mon de todos!"
 	done
 
 GenericTrainerGruntM11:
 	generictrainer GRUNTM, 11, EVENT_BEAT_ROCKET_GRUNTM_11, GruntM11SeenText, GruntM11BeatenText
 
-	text "I'm confused too…"
-	line "The green switch"
+	text "Yo también estoy"
+	line "confundido..."
+	cont "El interruptor"
 
-	para "is the one to"
-	line "press last, but…"
+	para "verde se debe"
+	line "pulsar el último,"
+	cont "pero..."
 	done
 
 GenericTrainerGruntM25:
 	generictrainer GRUNTM, 25, EVENT_BEAT_ROCKET_GRUNTM_25, GruntM25SeenText, GruntM25BeatenText
 
-	text "All right. A hint!"
+	text "¡De acuerdo!"
+	line "¡Una pista!"
 
-	para "You push a color"
-	line "switch, and the"
+	para "Pulsas un inter-"
+	line "ruptor de un color"
+	cont "y las persianas"
 
-	para "shutters around"
-	line "that color will"
-	cont "open or close."
+	para "de ese color se"
+	line "abrirán o"
+	cont "cerrarán."
 	done
 	done
 
 GenericTrainerBurglarDuncan:
 	generictrainer BURGLAR, DUNCAN, EVENT_BEAT_BURGLAR_DUNCAN, BurglarDuncanSeenText, BurglarDuncanBeatenText
 
-	text "Steal and sell!"
-	line "That's basic in"
-	cont "crime, kid!"
+	text "¡Robar y vender!"
+	line "¡Es lo básico del"
+	cont "crimen, chaval!"
 	done
 
 GenericTrainerBurglarOrson:
 	generictrainer BURGLAR, ORSON, EVENT_BEAT_BURGLAR_ORSON, BurglarOrsonSeenText, BurglarOrsonBeatenText
 
-	text "Underground Ware-"
-	line "house?"
+	text "¿El Almacén Sub-"
+	line "terráneo?"
 
-	para "What do you want"
-	line "to go there for?"
+	para "¿Para qué quieres"
+	line "ir allí?"
 
-	para "There's nothing"
-	line "down there."
+	para "Ahí abajo no hay"
+	line "nada."
 	done
 
 GenericTrainerGruntM13:
 	generictrainer GRUNTM, 13, EVENT_BEAT_ROCKET_GRUNTM_13, GruntM13SeenText, GruntM13BeatenText
 
-	text "You must have ice"
-	line "in your veins to"
-	cont "dis Team Rocket."
+	text "Hay que tener san-"
+	line "gre fría para dis-"
+	cont "cutir al Team"
+	cont "Rocket."
 	done
 
 GenericTrainerGruntF3:
 	generictrainer GRUNTF, 3, EVENT_BEAT_ROCKET_GRUNTF_3, GruntF3SeenText, GruntF3BeatenText
 
-	text "Go wherever you'd"
-	line "like! Get lost!"
-	cont "See if I care!"
+	text "¡Ve a donde"
+	line "quieras! ¡Piérde-"
+	cont "te! ¡Qué me"
+	cont "importa!"
 	done
 
 RedSwitchScript:
@@ -337,150 +347,158 @@ UndergroundRivalRetreatMovement:
 	step_end
 
 UndergroundRivalBeforeText:
-	text "Hold it!"
+	text "¡Quieto ahí!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Te vi y decidí"
+	line "seguirte."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "No te necesito es-"
+	line "torbando mientras"
 
-	para "take care of Team"
-	line "Rocket."
+	para "me encargo del"
+	line "Team Rocket."
 
-	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "...Un momento."
+	line "Tú ya me has"
+	cont "ganado antes,"
+	cont "¿verdad?"
 
-	para "That was just a"
-	line "fluke."
+	para "Fue mera suer-"
+	line "te."
 
-	para "But I repay my"
-	line "debts!"
+	para "¡Pero yo siempre"
+	line "pago mis deudas!"
 	done
 
 UndergroundRivalWinText:
-	text "…Why…"
-	line "Why do I lose?"
+	text "...Por qué..."
+	line "¿Por qué pierdo?"
 
-	para "I've assembled the"
-	line "toughest #mon."
+	para "He reunido a los"
+	line "#mon más peli-"
+	cont "grosos."
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "No he pisado"
+	line "el freno."
 
-	para "So why do I lose?"
+	para "¿Por qué pierdo?"
 	done
 
 UndergroundRivalLossText:
-	text "Humph. This is my"
-	line "real power, wimp."
+	text "Bah. Este es mi"
+	line "auténtico poder,"
+	cont "renacuajo."
 
-	para "I'll make Team"
-	line "Rocket history."
+	para "Convertiré al Team"
+	line "Rocket en histo-"
+	cont "ria."
 
-	para "And I'm going to"
-	line "grind that Lance"
-	cont "under my heels."
+	para "Y voy a aplastar"
+	line "a ese Lance bajo"
+	cont "mis pies."
 	done
 
 GruntM11SeenText:
-	text "Open one shutter,"
-	line "another closes."
+	text "Abres una persia-"
+	line "na, se cierra o-"
+	cont "tra."
 
-	para "Bet you can't get"
-	line "where you want!"
+	para "¡A que no puedes"
+	line "ir a donde"
+	cont "quieres!"
 	done
 
 GruntM11BeatenText:
-	text "Drat! I was sunk"
-	line "by indecision!"
+	text "¡Rayos! ¡Me hundió"
+	line "mi indecisión!"
 	done
 
 GruntM25SeenText:
-	text "Kwahaha!"
+	text "¡Jajaja!"
 
-	para "Confounded by the"
-	line "shutters, are we?"
+	para "Confundido por las"
+	line "persianas,"
+	cont "¿verdad?"
 
-	para "I'll let you in on"
-	line "a secret if you"
-	cont "can beat me!"
+	para "¡Te contaré un se-"
+	line "creto si consi-"
+	cont "gues vencerme!"
 	done
 
 GruntM25BeatenText:
-	text "Uwww…"
-	line "I blew it."
+	text "Ayyy..."
+	line "Lo estropeé."
 	done
 
 BurglarDuncanSeenText:
-	text "Fork over your"
-	line "goodies!"
+	text "¡Suelta tus cosas!"
 	done
 
 BurglarDuncanBeatenText:
-	text "Mercy!"
+	text "¡Piedad!"
 	done
 
 BurglarOrsonSeenText:
-	text "They ditched this"
-	line "project before"
-	cont "they finished."
+	text "Abandonaron este"
+	line "proyecto antes de"
+	cont "terminar."
 
-	para "I'm searching for"
-	line "leftover loot."
+	para "Estoy buscando al-"
+	line "gún botín sobra-"
+	cont "nte."
 	done
 
 BurglarOrsonBeatenText:
-	text "Over the top!"
+	text "¡Increíble!"
 	done
 
 GruntM13SeenText:
-	text "I don't care if"
-	line "you're lost."
+	text "Me da igual si es-"
+	line "tás perdido."
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Si apareces por a-"
+	line "quí, ¡no eres más"
+	cont "que una víctima!"
 	done
 
 GruntM13BeatenText:
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "¡Uf! Te crees muy"
+	line "guay, ¿eh?"
 	done
 
 GruntF3SeenText:
-	text "Are you lost? No,"
-	line "you can't be."
+	text "¿Te has perdido?"
+	line "No, no puede ser."
 
-	para "You don't have"
-	line "that scared look."
+	para "No tienes esa ca-"
+	line "ra de susto."
 
-	para "I'll give you"
-	line "something to be"
-	cont "scared about!"
+	para "¡Te daré un moti-"
+	line "vo para estar"
+	cont "asustado!"
 	done
 
 GruntF3BeatenText:
-	text "How could you?"
+	text "¿Cómo pudiste?"
 	done
 
 SwitchRoomText_RedSwitch:
-	text "Press the red"
-	line "switch?"
+	text "¿Pulsar el inte-"
+	line "rruptor rojo?"
 	done
 
 SwitchRoomText_GreenSwitch:
-	text "Press the green"
-	line "switch?"
+	text "¿Pulsar el inte-"
+	line "rruptor verde?"
 	done
 
 SwitchRoomText_BlueSwitch:
-	text "Press the blue"
-	line "switch?"
+	text "¿Pulsar el inte-"
+	line "rruptor azul?"
 	done
 
 SwitchRoomText_EmergencySwitch:
-	text "Press the emer-"
-	line "gency switch?"
+	text "¿Pulsar el inte-"
+	line "rruptor de emer-"
+	cont "gencia?"
 	done

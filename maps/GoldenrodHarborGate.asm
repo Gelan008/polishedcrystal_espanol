@@ -17,9 +17,9 @@ GoldenrodHarborGate_MapScriptHeader:
 	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodHarborGateOfficerText, -1
 
 GoldenrodHarborGateOfficerText:
-	text "If your #mon"
-	line "knows how to Surf,"
+	text "Si tu #mon sabe"
+	line "usar Surf, puedes"
 
-	para "you can head north"
-	line "to Olivine City."
+	para "ir al norte hasta"
+	line "Ciudad Olivo."
 	done

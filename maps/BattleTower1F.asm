@@ -408,7 +408,7 @@ PokemonJournalPalmerScript:
 
 	para "Reportaje especial:"
 	line "¡Amo Torre"
-	cont "Palmer!"
+	cont "Jericor!"
 
 	para "Se dice que Pal-"
 	line "mer tiene un hijo"

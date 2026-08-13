@@ -40,80 +40,85 @@ ProfOaksAide1Script:
 .Explain
 	jumpthisopenedtext
 
-	text "That Exp.Share"
-	line "helps a #mon"
+	text "El Repartir Exp."
+	line "ayuda a un #mon"
 
-	para "gain experience"
-	line "without even"
-	cont "battling."
+	para "a ganar experien-"
+	line "cia sin necesidad"
+	cont "de luchar."
 
-	para "Use it to com-"
-	line "plete the #dex!"
+	para "¡Úsalo para com-"
+	line "pletar la #dex!"
 	done
 
 .NoRoom
 	jumpthisopenedtext
 
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for this."
+	text "¡Oh! Veo que no"
+	line "tienes sitio para"
+	cont "esto."
 	done
 
 IlexForestAzaleaGateOfficerText:
-	text "Ilex Forest is"
-	line "big. Be careful!"
-	cont "Don't get lost."
+	text "El Encinar es muy"
+	line "grande. ¡Cuidado"
+	cont "con perderte!"
 	done
 
 IlexForestAzaleaGateGrannyText:
-	text "The Forest is"
-	line "watched over by"
-	cont "its protector."
+	text "El Encinar es"
+	line "vigilado por su"
+	cont "protector."
 
-	para "Stay out of"
-	line "mischief!"
+	para "¡No te metas en"
+	line "líos!"
 	done
 
 ProfOaksAide1HiText:
-	text "Hello there! I'm"
-	line "Prof.Oak's aide."
+	text "¡Hola! Soy un ayu-"
+	line "dante del Prof."
+	cont "Oak."
 
-	para "If you caught 15"
-	line "kinds of #mon,"
+	para "Si has atrapado 15"
+	line "especies de #-"
+	cont "mon,"
 
-	para "I'm supposed to"
-	line "give you an item."
+	para "se supone que debo"
+	line "darte un objeto."
 
-	para "So, <PLAYER>,"
-	line "have you caught"
+	para "Así que, <PLAYER>,"
+	line "¿has atrapado"
 
-	para "at least 15 kinds"
-	line "of #mon?"
+	para "al menos 15"
+	line "especies de #-"
+	cont "mon?"
 	done
 
 ProfOaksAide1UhOhText:
-	text "Let's see…"
-	line "Uh-oh! You've only"
+	text "A ver..."
+	line "¡Vaya! Solo has"
 
-	para "caught "
+	para "atrapado "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text ""
+	line "especies de"
+	cont "#mon."
 
-	para "Come back and see"
-	line "me when you catch"
-	cont "15 kinds."
+	para "Vuelve a verme"
+	line "cuando atrapes 15"
+	cont "especies."
 	done
 
 ProfOaksAide1HereYouGoText:
-	text "Let's see…"
-	line "Great job! You've"
+	text "A ver..."
+	line "¡Buen trabajo! Has"
 
-	para "caught "
+	para "atrapado "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text ""
+	line "especies de"
+	cont "#mon."
 
-	para "Congratulations!"
-	line "Here you go!"
+	para "¡Felicidades!"
+	line "¡Aquí tienes!"
 	done

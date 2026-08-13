@@ -17,19 +17,18 @@ FuchsiaMart_MapScriptHeader:
 	object_event  7,  6, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaMartCooltrainerFText, -1
 
 FuchsiaMartFisherText:
-	text "I was hoping to"
-	line "buy some Safari"
+	text "Esperaba comprar"
+	line "recuerdos de la"
 
-	para "Zone souvenirs,"
-	line "but they're not"
+	para "Zona Safari,"
+	line "pero ya no los"
 
-	para "being sold any"
-	line "more…"
+	para "venden más..."
 	done
 
 FuchsiaMartCooltrainerFText:
-	text "The Safari Zone"
-	line "Warden's grand-"
-	cont "daughter lives in"
-	cont "town."
+	text "La nieta del"
+	line "Guarda de la Zona"
+	cont "Safari vive en la"
+	cont "ciudad."
 	done

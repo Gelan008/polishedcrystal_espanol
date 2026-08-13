@@ -63,12 +63,12 @@ FuchsiaGymJanineScript:
 	setevent EVENT_GOT_TM66_POISON_JAB
 	jumpthisopenedtext
 
-	text "It's Poison Jab,"
-	line "a powerful Poison-"
+	text "Es Puya Nociva, un"
+	line "poderoso movi-"
 
-	para "type move that"
-	line "may poison its"
-	cont "victim."
+	para "miento tipo Vene-"
+	line "no que puede"
+	cont "envenenar."
 	done
 
 LassAmandaScript:
@@ -176,18 +176,19 @@ FuchsiaGymGuyScript:
 	iftrue_jumptextfaceplayer FuchsiaGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo, Champ in"
-	line "making!"
+	text "¡Eh, futuro"
+	line "Campeón!"
 
-	para "Whoops! Take a"
-	line "good look around"
+	para "¡Uy! Echa un buen"
+	line "vistazo a tu al-"
+	cont "rededor."
 
-	para "you. The trainers"
-	line "all look like the"
-	cont "Leader, Janine."
+	para "Todos los entre-"
+	line "nadores se parecen"
+	cont "a Sachiko."
 
-	para "Which of them is"
-	line "the real Janine?"
+	para "¿Quién de ellos"
+	line "es la real?"
 	done
 
 FuchsiaGymStatue:
@@ -215,125 +216,129 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu…"
+	text "Fufufufu..."
 
-	para "I'm sorry to dis-"
-	line "appoint you…"
+	para "Siento decepcio-"
+	line "narte..."
 
-	para "I'm only joking!"
+	para "¡Solo bromeaba!"
 
-	para "I'm the real deal!"
+	para "¡Yo soy la"
+	line "verdadera!"
 
-	para "Janine of Fuchsia"
-	line "Gym, that's me!"
+	para "¡Sachiko del Gim-"
+	line "nasio Fucsia, esa"
+	cont "soy yo!"
 	done
 
 JanineText_ToughOne:
-	text "Janine: You're a"
-	line "tough one. You"
-	cont "definitely won…"
+	text "Sachiko: Eres al-"
+	line "guien duro. Has"
+	cont "ganado..."
 
 if DEF(FAITHFUL)
-	para "Here's the Soul"
+	para "Aquí tienes la"
+	line "Medalla Alma."
 else
-	para "Here's the Marsh"
+	para "Aquí tienes la"
+	line "Med. Pantano."
 endc
-	line "Badge. Take it."
+	cont "Quédatela."
 	done
 
 JanineText_ToxicSpeech:
-	text "Janine: You're so"
-	line "tough! I have a"
-	cont "special gift!"
+	text "Sachiko: ¡Eres muy"
+	line "duro! ¡Tengo un"
+	cont "regalo especial!"
 	done
 
 JanineText_ApplyMyself:
-	text "Janine: I'm going"
-	line "to really apply"
+	text "Sachiko: Voy a es-"
+	line "forzarme mucho y"
 
-	para "myself and improve"
-	line "my skills."
+	para "a mejorar mis"
+	line "habilidades."
 
-	para "I want to become"
-	line "better than both"
-	cont "Father and you!"
+	para "¡Quiero llegar a"
+	line "ser mejor que mi"
+	cont "padre y que tú!"
 	done
 
 LassAmandaBeforeText:
-	text "Fufufu!"
+	text "¡Fufufu!"
 
-	para "I'm Janine, the"
-	line "Gym Leader!"
+	para "¡Soy Sachiko, la"
+	line "Líder!"
 
-	para "No, I'm not!"
-	line "Gotcha, sucker!"
+	para "¡Es broma!"
+	line "¡Pringado!"
 	done
 
 LassAmandaBeatenText:
-	text "I had you fooled…"
+	text "Te he engañado..."
 	done
 
 LassAmandaAfterText:
-	text "How will you dis-"
-	line "tinguish our real"
-	cont "Leader?"
+	text "¿Cómo vas a"
+	line "distinguir a la"
+	cont "verdadera?"
 	done
 
 LassLindaBeforeText:
-	text "Fooled you!"
-	line "Hahaha!"
+	text "¡Te engañé!"
+	line "¡Jajaja!"
 	done
 
 LassLindaBeatenText:
-	text "Ooh… I lost…"
-	line "You're not weak…"
+	text "Oh... Perdí..."
+	line "No eres débil..."
 	done
 
 LassLindaAfterText:
-	text "Well? Wasn't my"
-	line "disguise perfect?"
+	text "¿Qué? ¿A que mi"
+	line "disfraz era ideal?"
 	done
 
 PicnickerCindyBeforeText:
-	text "I'm Janine!"
+	text "¡Soy Sachiko!"
 
-	para "How did you know I"
-	line "was real?"
+	para "¿Cómo has sabido"
+	line "que era yo?"
 
-	para "Let's battle!"
+	para "¡A luchar!"
 	done
 
 PicnickerCindyBeatenText:
-	text "Darn it!"
-	line "I wanted to win!"
+	text "¡Maldición!"
+	line "¡Quería ganar!"
 	done
 
 PicnickerCindyAfterText:
-	text "You must be"
-	line "getting tired."
+	text "Debes de estar"
+	line "cansándote."
 	done
 
 CamperBarryBeforeText:
-	text "Wahahaha!"
+	text "¡Jajajaja!"
 
-	para "You betcha!"
-	line "I'm Janine!"
+	para "¡Has acertado!"
+	line "¡Soy Sachiko!"
 	done
 
 CamperBarryBeatenText:
-	text "My disguise was"
-	line "right on! Dang!"
+	text "¡Mi disfraz era"
+	line "perfecto! ¡Jo!"
 	done
 
 CamperBarryAfterText:
-	text "Hey, you. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Eh, tú. Mi"
+	line "disfraz molaba,"
+	cont "¿a que sí?"
 	done
 
 
 FuchsiaGymGuyWinText:
-	text "That was a great"
-	line "battle, trainer"
-	cont "from Johto!"
+	text "¡Ha sido un gran"
+	line "combate, entrena-"
+	cont "dor de Johto!"
 	done

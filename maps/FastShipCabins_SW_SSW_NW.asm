@@ -26,38 +26,42 @@ FastShipCabins_SW_SSW_NW_MapScriptHeader:
 GenericTrainerFirebreatherLyle:
 	generictrainer FIREBREATHER, LYLE, EVENT_BEAT_FIREBREATHER_LYLE, FirebreatherLyleSeenText, FirebreatherLyleBeatenText
 
-	text "I guess fire is"
-	line "weak on the sea."
+	text "Supongo que el"
+	line "fuego es débil en"
+	cont "el mar."
 
-	para "It doesn't matter?"
-	line "Really?"
+	para "¿No importa?"
+	line "¿De verdad?"
 	done
 
 GenericTrainerBug_catcherKen:
 	generictrainer BUG_CATCHER, KEN, EVENT_BEAT_BUG_CATCHER_KEN, Bug_catcherKenSeenText, Bug_catcherKenBeatenText
 
-	text "You can find lots"
-	line "of #mon in the"
-	cont "trees of Johto!"
+	text "¡Puedes encontrar"
+	line "muchos #mon en"
+	cont "los árboles de"
+	cont "Johto!"
 	done
 
 GenericTrainerRichBoyWinston:
 	generictrainer RICH_BOY, WINSTON, EVENT_BEAT_RICH_BOY_WINSTON, RichBoyWinstonSeenText, RichBoyWinstonBeatenText
 
-	text "This boat is so"
-	line "drab."
+	text "Este barco es tan"
+	line "aburrido."
 	done
 
 GenericTrainerBeautyCassie:
 	generictrainer BEAUTY, CASSIE, EVENT_BEAT_BEAUTY_CASSIE, BeautyCassieSeenText, BeautyCassieBeatenText
 
-	text "A voyage is best"
-	line "for getting over"
-	cont "a broken heart."
+	text "Un viaje es lo"
+	line "mejor para supe-"
+	cont "rar un corazón"
+	cont "roto."
 
-	para "But a Fast Ship"
-	line "trip is too short"
-	cont "for grieving."
+	para "Pero el viaje en"
+	line "el S.S. Aqua es"
+	cont "muy corto para"
+	cont "llorar."
 	done
 
 TrainerGuitaristmClyde:
@@ -70,23 +74,24 @@ GuitaristmClydeScript:
 	iffalsefwd .BattleTower
 	jumpthisopenedtext
 
-	text "Speaking of the"
-	line "Radio Station,"
+	text "Hablando de la"
+	line "Torre Radio,"
 
-	para "what's this week's"
-	line "lucky number?"
+	para "¿cuál es el nú-"
+	line "mero de la suerte"
+	cont "de esta semana?"
 	done
 
 .BattleTower:
 	jumpthisopenedtext
 
-	text "I was going to"
-	line "make my debut at"
-	cont "the Battle Tower…"
+	text "Iba a hacer mi de-"
+	line "but en la Torre"
+	cont "Batalla..."
 
-	para "I should go back"
-	line "to Vermilion and"
-	cont "redo my training…"
+	para "Debería volver a"
+	line "Carmín y repetir"
+	cont "mi entrenamiento."
 	done
 
 FastShipBed:
@@ -124,84 +129,87 @@ FastShipBed:
 	end
 
 FirebreatherLyleSeenText:
-	text "I'm going to Kanto"
-	line "to put on fire-"
-	cont "breathing shows!"
+	text "¡Voy a Kanto para"
+	line "hacer mis espec-"
+	cont "táculos de escu-"
+	cont "pir fuego!"
 	done
 
 FirebreatherLyleBeatenText:
-	text "Fizzle… The"
-	line "flame's tiny…"
+	text "Puf... La llama"
+	line "es enana..."
 	done
 
 Bug_catcherKenSeenText:
-	text "I'm visiting my"
-	line "grandma to catch"
-	cont "me some bugs!"
+	text "¡Voy a visitar a"
+	line "mi abuela para"
+	cont "atrapar bichos!"
 	done
 
 Bug_catcherKenBeatenText:
-	text "Ooh, wow."
-	line "You're tough!"
+	text "Oh, guau."
+	line "¡Eres duro!"
 	done
 
 RichBoyWinstonSeenText:
-	text "There's no way you"
-	line "could afford a"
-	cont "ticket."
+	text "No hay manera de"
+	line "que puedas pagar"
+	cont "un billete."
 
-	para "It looks like we've"
-	line "got a stowaway!"
+	para "¡Parece que tene-"
+	line "mos un polizón!"
 	done
 
 RichBoyWinstonBeatenText:
-	text "Wow! Who'd you buy"
-	line "your #mon from?"
+	text "¡Guau! ¿A quién le"
+	line "compraste tus #"
+	cont "mon?"
 	done
 
 BeautyCassieSeenText:
-	text "I'm trying to"
-	line "forget my woes."
-	cont "Let's battle!"
+	text "Intento olvidar"
+	line "mis penas."
+	cont "¡A luchar!"
 	done
 
 BeautyCassieBeatenText:
-	text "My heart weeps…"
+	text "Mi corazón llora.."
 	done
 
 GuitaristmClydeSeenText:
-	text "I'm going to audi-"
-	line "tion my songs at"
+	text "Voy a hacer una"
+	line "audición de mis"
 
-	para "Goldenrod's Radio"
-	line "Station."
+	para "canciones en la"
+	line "Torre Radio de"
+	cont "Trigal."
 	done
 
 GuitaristmClydeBeatenText:
-	text "Yowza!"
-	line "Total distortion!"
+	text "¡Guau!"
+	line "¡Distorsión total!"
 	done
 
 
 
 FastShipBedText1:
-	text "A comfy bed!"
-	line "Time to sleep…"
+	text "¡Una cama cómoda!"
+	line "Hora de dormir..."
 	done
 
 FastShipBedText2:
-	text "Ah, refreshed and"
-	line "restored!"
+	text "¡Ah! ¡Renovado y"
+	line "restaurado!"
 	done
 
 FastShipArrivedOlivineText:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Olivine City."
+	text "El S.S. Aqua ha"
+	line "llegado a C."
+	cont "Olivo."
 	done
 
 FastShipArrivedVermilionText:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Vermilion City."
+	text "El S.S. Aqua ha"
+	line "llegado a Ciudad"
+	cont "Carmín."
 	done

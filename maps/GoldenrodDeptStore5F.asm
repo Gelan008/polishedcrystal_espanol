@@ -50,10 +50,11 @@ GoldenrodDeptStore5FReceptionistScript:
 	ifgreater FRIEND_BALL_HAPPINESS - 1, .VeryHappy
 	jumpthisopenedtext
 
-	text "It's adorable!"
+	text "¡Es adorable!"
 
-	para "You should teach"
-	line "it good TM moves."
+	para "Deberías ense-"
+	line "ñarle buenos movi-"
+	cont "mientos de MT."
 	done
 
 .VeryHappy:
@@ -66,11 +67,11 @@ GoldenrodDeptStore5FReceptionistScript:
 .EventIsOver:
 	jumpthisopenedtext
 
-	text "There are sure to"
-	line "be TMs that are"
+	text "Seguro que hay"
+	line "MTs que son"
 
-	para "just perfect for"
-	line "your #mon."
+	para "perfectas para"
+	line "tus #mon."
 	done
 
 GoldenrodDeptStore5FTwinScript:
@@ -89,66 +90,69 @@ GoldenrodDeptStore5FTwinScript:
 	jumpthisopenedtext
 
 .ComeBackText:
-	text "You can have"
-	line "another Berry"
-	cont "tomorrow."
+	text "Puedes tener"
+	line "otra Baya"
+	cont "mañana."
 	done
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
-	text "Hello. Oh, your"
-	line "#mon…"
+	text "Hola. Oh, tu"
+	line "#mon..."
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
-	text "It's very attached"
-	line "to you."
+	text "Está muy apega-"
+	line "do a ti."
 
-	para "This move should"
-	line "be perfect for a"
-	cont "pair like you."
+	para "Este movimien-"
+	line "to será perfec-"
+	cont "to para una"
+	cont "pareja así."
 	done
 
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "Looking at the"
-	line "ground while I was"
+	text "Mirar al suelo"
+	line "mientras andaba"
 
-	para "walking made me"
-	line "dizzy."
+	para "hizo que me"
+	line "mareara."
 
-	para "But, I did find"
-	line "this Berry!"
+	para "Pero, ¡encontré"
+	line "esta Baya!"
 	done
 
 MysteryGiftGirl_NoRoomText:
-	text "But you can't"
-	line "carry it…"
+	text "Pero no puedes"
+	line "llevarla..."
 	done
 
 GoldenrodDeptStore5FLassText:
-	text "On Sundays, a lady"
-	line "comes to check out"
+	text "Los domingos"
+	line "viene una señora"
+	cont "a ver a los"
 	cont "#mon."
 
-	para "She even gives"
-	line "away TMs!"
+	para "¡Incluso regala"
+	line "MTs!"
 	done
 
 GoldenrodDeptStore5FPokefanMText:
-	text "You can't rename a"
-	line "#mon you get in"
-	cont "a trade."
+	text "No puedes cambiar"
+	line "el mote a un"
+	cont "#mon intercam-"
+	cont "biado."
 
-	para "The name is a re-"
-	line "flection of the"
+	para "El mote es un re-"
+	line "flejo de los sen-"
 
-	para "original trainer's"
-	line "feelings for it."
+	para "timientos del en-"
+	line "trenador original."
 	done
 
 GoldenrodDeptStore5FDirectoryText:
-	text "Customize Your"
+	text "Personaliza a tus"
 	line "#mon"
 
-	para "5F TM Corner"
+	para "P4 Rincón MT"
 	done

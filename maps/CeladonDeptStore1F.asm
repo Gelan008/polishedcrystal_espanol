@@ -53,8 +53,8 @@ CeladonDeptStore1FDirectoryText:
 	text "PB: Mostrador de"
 	line "    Atención"
 
-	para "P1: Mercado del"
-	line "    Entrenador"
+	para "P1: Mercado de"
+	line "    Entrenadores"
 
 	para "P2: Tienda Tecn."
 

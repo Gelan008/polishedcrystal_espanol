@@ -28,37 +28,37 @@ FastShipCabins_NNW_NNE_NE_MapScriptHeader:
 GenericTrainerPILooker:
 	generictrainer PI, LOOKER, EVENT_BEAT_PI_LOOKER, PILookerSeenText, PILookerBeatenText
 
-	text "My code name,"
-	line "it is Looker."
+	text "Mi nombre en cla-"
+	line "ve es Looker."
 
-	para "It is what they"
-	line "all call me."
+	para "Así es como me"
+	line "llaman todos."
 
-	para "I am on the look-"
-	line "out for members"
-	cont "of Team Rocket."
+	para "Estoy al acecho"
+	line "de miembros del"
+	cont "Team Rocket."
 
-	para "What?! You defeat-"
-	line "ed them?"
+	para "¡¿Qué?! ¿Los"
+	line "derrotaste?"
 
-	para "Bravo!"
+	para "¡Bravo!"
 	done
 
 GenericTrainerCooltrainermSean:
 	generictrainer COOLTRAINERM, SEAN, EVENT_BEAT_COOLTRAINERM_SEAN, CooltrainermSeanSeenText, CooltrainermSeanBeatenText
 
-	text "Trainers from"
-	line "Johto can battle"
+	text "Los entrenadores"
+	line "de Johto pueden"
 
-	para "with Kanto Gym"
-	line "Leaders."
+	para "luchar con los"
+	line "Líderes de Kanto."
 	done
 
 GenericTrainerCooltrainerfCarol:
 	generictrainer COOLTRAINERF, CAROL, EVENT_BEAT_COOLTRAINERF_CAROL, CooltrainerfCarolSeenText, CooltrainerfCarolBeatenText
 
-	text "I'm going to beat"
-	line "you someday!"
+	text "¡Algún día voy a"
+	line "derrotarte!"
 	done
 
 GenericTrainerPokemaniacEthan:
@@ -67,39 +67,39 @@ GenericTrainerPokemaniacEthan:
 	text "Lily es genial y"
 	line "¡Rosa es la mejor!"
 
-	para "I want to check"
-	line "out Johto's radio"
-	cont "programs!"
+	para "¡Quiero escuchar"
+	line "los programas de"
+	cont "radio de Johto!"
 	done
 
 GenericTrainerHikerNoland:
 	generictrainer HIKER, NOLAND, EVENT_BEAT_HIKER_NOLAND, HikerNolandSeenText, HikerNolandBeatenText
 
-	text "I wonder if there"
-	line "are any mountains"
+	text "Me pregunto si hay"
+	line "alguna montaña"
 
-	para "worth climbing in"
-	line "Kanto?"
+	para "que valga la pena"
+	line "escalar en Kanto."
 	done
 
 GenericTrainerGentlemanEdward:
 	generictrainer GENTLEMAN, EDWARD, EVENT_BEAT_GENTLEMAN_EDWARD, GentlemanEdwardSeenText, GentlemanEdwardBeatenText
 
-	text "I give up."
-	line "You don't have to"
+	text "Me rindo."
+	line "No tienes que"
 
-	para "look. Just forget"
-	line "about it!"
+	para "buscar. ¡Simple-"
+	line "mente olvídalo!"
 	done
 
 GenericTrainerBurglarCorey:
 	generictrainer BURGLAR, COREY, EVENT_BEAT_BURGLAR_COREY, BurglarCoreySeenText, BurglarCoreyBeatenText
 
-	text "I found a pretty"
-	line "coin here."
+	text "He encontrado una"
+	line "moneda bonita."
 
-	para "Someone must have"
-	line "lost it…"
+	para "Alguien debe de"
+	line "haberla perdido..."
 	done
 
 FastShipLazySailorScript:
@@ -148,104 +148,108 @@ FastShipLazySailorLeavesMovement2:
 	step_end
 
 PILookerSeenText:
-	text "WHAAAT?!"
+	text "¡¿QUÉEE?!"
 
-	para "…How did you know?"
-	line "How did you unmask"
+	para "...¿Cómo lo"
+	line "supiste? ¿Cómo me"
 
-	para "me as a member of"
-	line "the International"
-	cont "Police?!"
+	para "desenmascaraste"
+	line "como miembro de la"
+	cont "Policía"
+	cont "Internacional?!"
 	done
 
 PILookerBeatenText:
-	text "Quite admirable,"
-	line "you are!"
+	text "¡Eres bastante"
+	line "admirable!"
 	done
 
 CooltrainermSeanSeenText:
-	text "I'm going to Kanto"
-	line "to test my skills."
+	text "Voy a Kanto para"
+	line "probar mis habili-"
+	cont "dades."
 	done
 
 CooltrainermSeanBeatenText:
-	text "I wanted to win!"
+	text "¡Quería ganar!"
 	done
 
 CooltrainerfCarolSeenText:
-	text "I'm training to"
-	line "become the Champ!"
+	text "¡Entreno para ser"
+	line "la Campeona!"
 	done
 
 CooltrainerfCarolBeatenText:
-	text "What's so differ-"
-	line "ent between us?"
+	text "¿Qué nos hace"
+	line "tan diferentes?"
 	done
 
 PokemaniacEthanSeenText:
-	text "Do you know Lily?"
-	line "She's a hot DJ in"
-	cont "Kanto."
+	text "¿Conoces a Lily?"
+	line "Es una gran DJ"
+	cont "en Kanto."
 	done
 
 PokemaniacEthanBeatenText:
-	text "Gyaaaah!"
+	text "¡Gyaaaah!"
 	done
 
 HikerNolandSeenText:
-	text "Are you alone?"
-	line "Then let's battle!"
+	text "¿Estás solo?"
+	line "¡Entonces vamos a"
+	cont "luchar!"
 	done
 
 HikerNolandBeatenText:
-	text "That's too much to"
-	line "handle!"
+	text "¡Es demasiado para"
+	line "mí!"
 	done
 
 SailorStanlySeenText:
-	text "Yeah, I'm a sail-"
-	line "or, all right."
+	text "Sí, soy un mari-"
+	line "nero."
 
-	para "I wasn't goofing"
-	line "off!"
+	para "¡No estaba hacien-"
+	line "do el vago!"
 
-	para "This cabin was"
-	line "vacant, so I just"
-	cont "took a quick nap!"
+	para "¡Este camarote"
+	line "estaba libre, así"
+	cont "que eché una"
+	cont "siestecita!"
 
-	para "Ah, forget it!"
-	line "Let's battle!"
+	para "¡Ah, olvídalo!"
+	line "¡A luchar!"
 	done
 
 SailorStanlyBeatenText:
-	text "Sorry! It's all my"
-	line "fault!"
+	text "¡Perdón! ¡Es toda"
+	line "mía la culpa!"
 	done
 
 SailorStanlyAfterBattleText:
-	text "Being a sailor, I"
-	line "have to do phys-"
-	cont "ical labor. It's"
-	cont "exhausting!"
+	text "Al ser marinero,"
+	line "tengo que hacer"
+	cont "esfuerzo físico."
+	cont "¡Es agotador!"
 	done
 
 GentlemanEdwardSeenText:
-	text "Oh, no. I've lost"
-	line "something that's"
-	cont "very important."
+	text "Oh, no. He per-"
+	line "dido algo que es"
+	cont "muy importante."
 	done
 
 GentlemanEdwardBeatenText:
-	text "I… I can't find"
-	line "it…"
+	text "Y... Yo no puedo"
+	line "encontrarlo..."
 	done
 
 BurglarCoreySeenText:
-	text "Yeehaw!"
-	line "Lucky!"
+	text "¡Yeehaw!"
+	line "¡Qué suerte!"
 	done
 
 BurglarCoreyBeatenText:
-	text "How unlucky!"
-	line "I lost!"
+	text "¡Qué mala suerte!"
+	line "¡He perdido!"
 	done

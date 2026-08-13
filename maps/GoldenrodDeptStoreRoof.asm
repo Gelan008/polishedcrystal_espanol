@@ -81,42 +81,45 @@ GoldenrodDeptStoreRoofSuperNerdScript:
 Binoculars1:
 	jumpthistext
 
-	text "These binoculars"
-	line "let me see far"
+	text "Estos prismáticos"
+	line "me dejan ver muy"
 
-	para "away. Maybe I can"
-	line "see my own house."
+	para "lejos. Igual puedo"
+	line "ver mi propia ca-"
+	cont "sa."
 
-	para "Is it the one with"
-	line "the green roof?"
+	para "¿Es esa que tiene"
+	line "el tejado verde?"
 	done
 
 Binoculars2:
 	jumpthistext
 
-	text "Hey! Some trainers"
-	line "are battling on"
-	cont "the road!"
+	text "¡Eh! ¡Hay entrena-"
+	line "dores luchando en"
+	cont "el camino!"
 
-	para "A #mon fired a"
-	line "flurry of leaves!"
+	para "¡Un #mon lanzó"
+	line "un montón de ho-"
+	cont "jas!"
 
-	para "That makes me feel"
-	line "like battling"
-	cont "right now!"
+	para "¡Eso me da ganas"
+	line "de combatir ahora"
+	cont "mismo!"
 	done
 
 Binoculars3:
 	jumpthistext
 
-	text "A Fisher caught a"
-	line "lot of Magikarp…"
+	text "Un Pescador atrapó"
+	line "muchos Magikarp..."
 
-	para "They're Splashing"
-	line "at the same time!"
+	para "¡Están usando Sal-"
+	line "picadura a la vez!"
 
-	para "Look at the water"
-	line "going everywhere!"
+	para "¡Mira cómo salpica"
+	line "el agua por todas"
+	cont "partes!"
 	done
 
 PokeDollVendingMachine:
@@ -202,139 +205,147 @@ PokeDollVendingMachine:
 	db "Cancel@"
 
 GoldenrodDeptStoreRoofPokefanFText:
-	text "Whew, I'm tired."
+	text "Uf, qué cansancio."
 
-	para "I sometimes come"
-	line "up to the rooftop"
+	para "A veces subo a la"
+	line "azotea"
 
-	para "to take a break"
-	line "from shopping."
+	para "para descansar un"
+	line "poco de comprar."
 	done
 
 GoldenrodDeptStoreRoofFisherText:
-	text "Pardon? Who says"
-	line "an adult can't get"
-	cont "into this?"
+	text "¿Perdón? ¿Quién"
+	line "dice que un adulto"
+	cont "no puede coleccio-"
+	cont "nar esto?"
 
-	para "I'm going to be"
-	line "back every day to"
-
-	para "collect all the"
-	line "dolls!"
+	para "¡Voy a volver"
+	line "todos los días pa-"
+	cont "ra conseguir todos"
+	cont "los muñecos!"
 	done
 
 GoldenrodDeptStoreRoofFisherDuplicateText:
-	text "This one is a"
-	line "duplicate. Here,"
-	cont "you can have it."
+	text "Este lo tengo"
+	line "repi. Toma, puedes"
+	cont "quedártelo tú."
 	done
 
 GotVoltorbDollText:
-	text "<PLAYER> received"
-	line "Voltorb Doll."
+	text "<PLAYER> recibió un"
+	line "Muñeco Voltorb."
 	done
 
 VoltorbDollSentText:
-	text "Voltorb Doll"
-	line "was sent home."
+	text "El Muñeco Voltorb"
+	line "fue enviado a"
+	cont "casa."
 	done
 
 GoldenrodDeptStoreRoofFisherCatchEmAllText:
-	text "I heard there are"
-	line "30 kinds of dolls."
+	text "He oído que hay"
+	line "30 tipos de muñe-"
+	cont "cos."
 	done
 
 GoldenrodDeptStoreRoofTwinText:
-	text "They have bargain"
-	line "sales here every"
-	cont "so often."
+	text "Tienen ofertas es-"
+	line "peciales aquí de"
+	cont "vez en cuando."
 	done
 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
-	text "Oh, wow!"
+	text "¡Oh, vaya!"
 	done
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Will you quit"
-	line "bothering me?"
+	text "¿Vas a dejar de"
+	line "molestarme?"
 	done
 
 GoldenrodDeptStoreRoofPokefanMText:
-	text "There's something"
-	line "I really want, but"
+	text "Hay algo que de"
+	line "verdad quiero, pe-"
+	cont "ro no tengo dinero"
+	cont "suficiente..."
 
-	para "I don't have the"
-	line "necessary cash…"
-
-	para "Maybe I'll sell"
-	line "off the Berries"
-	cont "I've collected…"
+	para "Quizá venda algu-"
+	line "nas Bayas que he"
+	cont "recolectado..."
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
-	text "Oh, everything is"
-	line "so cheap!"
+	text "¡Oh, está todo tan"
+	line "barato!"
 
-	para "I bought so much,"
-	line "my Bag's crammed!"
+	para "Compré tanto,"
+	line "¡que mi Mochila"
+	cont "está llena!"
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "My #mon always"
-	line "get paralyzed or"
+	text "Mis #mon siem-"
+	line "pre se paralizan o"
 
-	para "poisoned when the"
-	line "chips are down…"
+	para "envenenan cuando"
+	line "la cosa se pone"
+	cont "difícil..."
 
-	para "So I came to buy"
-	line "some Full Heal."
+	para "Así que vine a"
+	line "comprar algunas"
+	cont "Curas Totales."
 
-	para "I wonder if"
-	line "there's any left?"
+	para "¿Me pregunto si"
+	line "quedará alguna?"
 	done
 
 
 
 
 PokeDollVendingMachineText:
-	text "A vending machine"
-	line "for #mon dolls!"
+	text "¡Una máquina expen-"
+	line "dedora de muñecos"
+	cont "#mon!"
 	done
 
 PokeDollVendingMachineNoMoneyText:
-	text "It costs too much!"
+	text "¡Cuesta demasiado!"
 	done
 
 PokeDollVendingMachineAlreadyBoughtText:
-	text "It's a duplicate!"
+	text "¡Ya lo tengo!"
 	done
 
 BoughtJigglypuffDollText:
-	text "<PLAYER> bought"
-	line "Jigglypuff Doll."
+	text "<PLAYER> compró un"
+	line "Muñeco Jigglypuff."
 	done
 
 JigglypuffDollSentText:
-	text "Jigglypuff Doll"
-	line "was sent home."
+	text "El Muñeco Jiggly-"
+	line "puff fue enviado a"
+	cont "casa."
 	done
 
 BoughtDittoDollText:
-	text "<PLAYER> bought"
-	line "Ditto Doll."
+	text "<PLAYER> compró un"
+	line "Muñeco Ditto."
 	done
 
 DittoDollSentText:
-	text "Ditto Doll"
-	line "was sent home."
+	text "El Muñeco Ditto"
+	line "fue enviado a"
+	cont "casa."
 	done
 
 BoughtMeowthDollText:
-	text "<PLAYER> bought"
-	line "Meowth Doll."
+	text "<PLAYER> compró un"
+	line "Muñeco Meowth."
 	done
 
 MeowthDollSentText:
-	text "Meowth Doll"
-	line "was sent home."
+	text "El Muñeco Meowth"
+	line "fue enviado a"
+	cont "casa."
 	done

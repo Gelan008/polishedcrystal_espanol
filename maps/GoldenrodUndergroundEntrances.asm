@@ -40,63 +40,62 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "In the long run,"
-	line "the house always"
-	cont "wins…"
+	text "A la larga, la"
+	line "casa siempre"
+	cont "gana..."
 	done
 
 .Text1:
-	text "I tried to use"
-	line "this item in the"
+	text "Intenté usar este"
+	line "objeto en el Rin-"
+	cont "cón de Juegos, pe-"
+	cont "ro me pillaron."
 
-	para "Game Corner, but"
-	line "they caught me."
-
-	para "You may as well"
-	line "take it."
+	para "Será mejor que"
+	line "te lo lleves tú."
 	done
 
 GoldenrodUndergroundEntrances_TeacherText:
-	text "There are some"
-	line "shops downstairs…"
+	text "Hay algunas"
+	line "tiendas abajo..."
 
-	para "But there are"
-	line "also trainers."
+	para "Pero también hay"
+	line "entrenadores."
 
-	para "I'm scared to go"
-	line "down there."
+	para "Me da miedo bajar"
+	line "allí."
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd1Text:
-	text "This tunnel was"
-	line "originally made"
-	cont "for deliveries to"
+	text "Este túnel se hizo"
+	line "originalmente para"
+	cont "los repartos al"
 
-	para "the department"
-	line "store."
+	para "Centro Comercial."
 
-	para "It's a nice short-"
-	line "cut across the"
-	cont "city too."
+	para "Además, es un buen"
+	line "atajo para cruzar"
+	cont "la ciudad."
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd2Text:
-	text "I was challenged"
-	line "to a battle down-"
-	cont "stairs."
+	text "Me desafiaron a"
+	line "un combate allí"
+	cont "abajo."
 
-	para "It's rough down"
-	line "there. You'd"
-	cont "better be careful."
+	para "La cosa está peli-"
+	line "aguda ahí abajo."
+	cont "Ten cuidado."
 	done
 
 GoldenrodUndergroundEntrances_BeautyText:
-	text "I went on a tour"
-	line "of the Radio"
+	text "Fui a hacer un"
+	line "tour por la Torre"
+	cont "Radio."
 
-	para "Tower. I saw all"
-	line "three studios and"
+	para "Vi los tres es-"
+	line "tudios e incluso"
 
-	para "even ate in the"
-	line "café."
+	para "comí en la"
+	line "cafetería."
 	done

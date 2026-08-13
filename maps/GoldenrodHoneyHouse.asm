@@ -31,39 +31,39 @@ GoldenrodHoneyHousePokefanFScript:
 	jumpthisopenedtext
 
 .AfterText:
-	text "My little brother"
+	text "Mi hermanito"
 if DEF(FAITHFUL)
-	line "takes Honey and"
+	line "coge Miel y la"
 
-	para "spreads it around"
+	para "esparce por ahí"
 else
-	line "takes Sweet Honey"
+	line "coge Miel Dulce y"
 
-	para "and spreads it in"
+	para "la esparce en la"
 endc
-	line "tall grass."
+	line "hierba alta."
 
-	para "#mon are"
-	line "enticed by it."
+	para "Atrae a los #-"
+	line "mon."
 
-	para "It tends to draw"
-	line "in #mon at the"
+	para "¡Suele atraer"
+	line "a #mon del"
 
-	para "same level as"
-	line "your own!"
+	para "mismo nivel que"
+	line "los tuyos!"
 	done
 
 .IntroText:
-	text "My #mon is an"
-	line "expert at collect-"
+	text "Mi #mon es"
+	line "experto en reco-"
 if DEF(FAITHFUL)
-	cont "ing Honey."
+	cont "lectar Miel."
 else
-	cont "ing Sweet Honey."
+	cont "lectar Miel Dulce."
 endc
 
-	para "I'll share some"
-	line "with you."
+	para "Compartiré un"
+	line "poco contigo."
 	done
 
 .SellHoney:
@@ -78,8 +78,8 @@ endc
 	ifequalfwd $2, .Buy10
 	jumpthisopenedtext ; cancel
 
-	text "Well, come again,"
-	line "honey!"
+	text "¡Vuelve cuando"
+	line "quieras, cielo!"
 	done
 
 .Buy1:
@@ -109,35 +109,35 @@ endc
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "You don't have"
-	line "enough money,"
-	cont "honey!"
+	text "¡No tienes"
+	line "suficiente dinero,"
+	cont "cielo!"
 	done
 
 .SellText:
-	text "Would you like to"
+	text "¿Te gustaría com-"
 if DEF(FAITHFUL)
-	line "buy some Honey"
+	line "prar Miel para"
 
-	para "for attracting"
+	para "atraer a los"
 	line "#mon?"
 else
-	line "buy some Sweet"
+	line "prar Miel Dulce"
 
-	para "Honey for attract-"
-	line "ing #mon?"
+	para "para atraer a los"
+	line "#mon?"
 endc
-	cont "Just ¥1000 each!"
+	cont "¡Por solo ¥1000!"
 	done
 
 .GoodbyeText:
-	text "Here you go,"
-	line "honey!"
+	text "¡Aquí tienes,"
+	line "cielo!"
 	done
 
 .BagFullText:
-	text "Oopsy! You have"
-	line "no room for it."
+	text "¡Uy! No te queda"
+	line "espacio libre."
 	done
 
 .MenuDataHeader:
@@ -152,8 +152,8 @@ endc
 	db 3 ; items
 	db "× 1   ¥1000@"
 	db "×10  ¥10000@"
-	db "Cancel@"
+	db "Salir@"
 
 GoldenrodHoneyHouseButterfreeText:
-	text "Butterfree: Freeh!"
+	text "Butterfree: ¡Frii!"
 	done

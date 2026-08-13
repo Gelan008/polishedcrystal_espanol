@@ -30,14 +30,14 @@ GoldenrodMagnetTrainStationOfficerScript:
 	iftruefwd .MagnetTrainToSaffron
 	jumpthisopenedtext
 
-	text "The train hasn't"
-	line "come in…"
+	text "El tren no ha"
+	line "llegado..."
 
-	para "I know! I'll carry"
-	line "the passengers on"
-	cont "my back!"
+	para "¡Ya sé! ¡Llevaré"
+	line "a los pasajeros"
+	cont "a cuestas!"
 
-	para "That won't work."
+	para "Mejor no."
 	done
 
 .MagnetTrainToSaffron:
@@ -72,22 +72,22 @@ GoldenrodMagnetTrainStationCooltrainerfScript:
 	iftruefwd .PowerRestored
 	jumpthistextfaceplayer
 
-	text "The Magnet Train"
-	line "is like, zoooom,"
-	cont "byun! Shuuu!"
+	text "El Magnetotrén"
+	line "hace algo como:"
+	cont "¡Zuum, fiun, shuu!"
 
-	para "At least when"
-	line "it's running…"
+	para "Al menos cuando"
+	line "funciona..."
 	done
 
 .PowerRestored
 	jumpthistextfaceplayer
 
-	text "The Magnet Train"
-	line "is like, zoooom,"
-	cont "byun! Shuuu!"
+	text "El Magnetotrén"
+	line "hace algo como:"
+	cont "¡Zuum, fiun, shuu!"
 
-	para "It's so cool!"
+	para "¡Mola mucho!"
 	done
 
 GoldenrodMagnetTrainStationOfficerApproachTrainDoorMovement:
@@ -126,49 +126,49 @@ GoldenrodMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
-	text "We'll soon depart"
-	line "for Saffron."
+	text "Saldremos pronto"
+	line "hacia Azafrán."
 
-	para "Are you coming"
-	line "aboard?"
+	para "¿Vas a subir"
+	line "a bordo?"
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail pass, please?"
+	text "¿Me dejas ver el"
+	line "Pase, por favor?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "Vale. Por aquí,"
+	line "por favor."
 	done
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
-	text "Sorry. You don't"
-	line "have a rail pass."
+	text "Perdona, no tienes"
+	line "el Pase."
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "¡Esperamos vol-"
+	line "ver a verte!"
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "We have arrived in"
-	line "Goldenrod."
+	text "Hemos llegado a"
+	line "Trigal."
 
-	para "We hope to see you"
-	line "again."
+	para "Esperamos volver"
+	line "a verte."
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "I'm the President."
+	text "Soy el Presidente."
 
-	para "My dream was to"
-	line "build a train that"
+	para "Mi sueño era cons-"
+	line "truir un tren más"
 
-	para "is faster than any"
-	line "#mon."
+	para "rápido que cual-"
+	line "quier #mon."
 
-	para "It really brings"
-	line "Johto much closer"
-	cont "to Kanto."
+	para "De verdad que hace"
+	line "que Johto y Kanto"
+	cont "estén más cerca."
 	done

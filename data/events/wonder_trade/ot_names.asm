@@ -94,7 +94,7 @@ WonderTradeOTNames1:
 	rawchar "Misty@@" ; $5b
 	rawchar "Surge@@" ; $5c
 	rawchar "Erika@@" ; $5d
-	rawchar "Janine@" ; $5e
+	rawchar "Sachiko" ; $5e
 	rawchar "Sabrina" ; $5f
 	rawchar "Blaine@" ; $60
 	rawchar "Giovani" ; $61

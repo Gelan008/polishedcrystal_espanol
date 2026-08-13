@@ -89,28 +89,28 @@ GoldenrodGameCornerTutorPayDayScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Never mind then."
+	text "Bueno, da igual."
 	done
 
 .NoSilverLeaf
 	waitbutton
 	jumpthisopenedtext
 
-	text "You don't have a"
-	line "Silver Leaf?"
-	cont "Never mind then."
+	text "¿No tienes una"
+	line "Hoja Plata?"
+	cont "Bueno, da igual."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Pay Day nets you"
-	line "more money after a"
-	cont "battle."
+	text "Día de Pago te da"
+	line "más dinero tras el"
+	cont "combate."
 
-	para "Keep using it and"
-	line "you'll be rich!"
+	para "Úsalo sin parar"
+	line "¡y te harás rico!"
 	done
 
 GoldenrodGameCornerTMVendorScript:
@@ -187,8 +187,8 @@ GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript:
 GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript:
 	jumpthisopenedtext
 
-	text "Sorry! You need"
-	line "more coins."
+	text "¡Perdona! Necesitas"
+	line "más fichas."
 	done
 
 GoldenrodGameCornerTMVendorMenuData:
@@ -203,7 +203,7 @@ GoldenrodGameCornerTMVendorMenuData:
 	db "TM35    {d:GOLDENRODGAMECORNER_TM35_COINS}@"
 	db "TM24    {d:GOLDENRODGAMECORNER_TM24_COINS}@"
 	db "TM13    {d:GOLDENRODGAMECORNER_TM13_COINS}@"
-	db "Cancel@"
+	db "Salir@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -286,7 +286,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db "Abra        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
 	db "Cubone      {d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
 	db "Clefairy   {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@"
-	db "Cancel@"
+	db "Salir@"
 
 GoldenrodGameCornerPharmacistScript:
 	showtextfaceplayer GoldenrodGameCornerPharmacistText
@@ -316,10 +316,10 @@ GoldenrodGameCornerGentlemanScript:
 GoldenrodGameCornerLeftTheirDrinkScript:
 	jumpthistext
 
-	text "Someone left their"
-	line "drink."
+	text "Alguien se ha de-"
+	line "jado su bebida."
 
-	para "It smells sweet."
+	para "Huele dulce."
 	done
 
 GoldenrodGameCornerSlotsMachineScript:
@@ -342,141 +342,146 @@ GoldenrodGameCornerCardFlipMachineScript:
 	endtext
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "¡Hola!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "¡Te cambiamos tus"
+	line "fichas de juego"
+	cont "por grandes pre-"
+	cont "mios!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "¿Qué premio te"
+	line "gustaría?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3
 	text "."
-	line "Is that right?"
+	line "¿De acuerdo?"
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "¡Aquí tienes!"
 	done
 
 GoldenrodGameCornerPrizeVendorAlreadyHaveTMText:
-	text "But you already"
-	line "have that TM!"
+	text "¡Pero si ya tienes"
+	line "esa MT!"
 	done
 
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Oh, no. You can't"
-	line "carry any more and"
-	cont "your Box is full."
+	text "Oh, no. No puedes"
+	line "llevar más y tu"
+	cont "Caja está llena."
 
-	para "I'll return your"
-	line "coins to you."
+	para "Te devolveré tus"
+	line "fichas."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Vale. ¡Guarda tus"
+	line "fichas y vuelve"
+	cont "cuando quieras!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a Coin Case."
+	text "¿Vaya? No tienes"
+	line "Monedero."
 	done
 
 GoldenrodGameCornerFisherText:
-	text "Today's my pay day!"
-	line "Time to celebrate"
-	cont "with some slots!"
+	text "¡Hoy me pagan!"
+	line "¡A celebrarlo a"
+	cont "las tragaperras!"
 
-	para "…You know, #mon"
-	line "get a Pay Day too."
+	para "...Sabes, los #"
+	line "mon también tienen"
+	cont "Día de Pago."
 	done
 
 Text_GoldenrodGameCornerTutorPayDayQuestion:
-	text "If you give me a"
-	line "Silver Leaf, I'll"
+	text "Si me das una Hoja"
+	line "Plata, le enseñaré"
 
-	para "teach Pay Day to"
-	line "your #mon."
+	para "Día de Pago a tus"
+	line "#mon."
 	done
 
 
 
 
 GoldenrodGameCornerPharmacistText:
-	text "I always play this"
-	line "slot machine. It"
+	text "Siempre juego en"
+	line "esta máquina tra-"
+	cont "gaperras."
 
-	para "pays out more than"
-	line "others, I think."
+	para "Creo que da más"
+	line "que las otras."
 	done
 
 GoldenrodGameCornerPokefanM1Text:
-	text "I just love this"
-	line "new slot machine."
+	text "Me encanta esta"
+	line "máquina nueva."
 
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in Celadon."
+	para "Es mucho más desa-"
+	line "fiante que las de"
+	cont "Azulona."
 	done
 
 GoldenrodGameCornerCooltrainerMText:
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+	text "La vida es una"
+	line "apuesta. ¡Levanta-"
+	cont "ré cartas hasta"
+	cont "caer rendido!"
 	done
 
 GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
+	text "Levantar cartas..."
 
-	para "I prefer it over"
-	line "the slots because"
+	para "Lo prefiero a las"
+	line "tragaperras, es"
 
-	para "it's easier to"
-	line "figure the odds."
+	para "más fácil ver las"
+	line "probabilidades."
 
-	para "But the payout is"
-	line "much lower."
+	para "Pero el premio es"
+	line "mucho más bajo."
 	done
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "¡No pararé hasta"
+	line "que gane!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught Ice Beam"
-	line "to my #mon."
+	text "Le enseñé Rayo"
+	line "Hielo a mi #mon."
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "Costó conseguir"
+	line "las fichas"
+	cont "necesarias,"
 
-	para "it, but it was"
-	line "worth it."
+	para "pero mereció la"
+	line "pena."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "No conseguí ganar"
+	line "a las tragaperras,"
 
-	para "blew it on card"
-	line "flipping…"
+	para "y lo fastidié a"
+	line "las cartas..."
 
-	para "I got so furious,"
-	line "I tossed out my"
-
-	para "Coin Case in the"
-	line "Underground."
+	para "Me enfadé tanto"
+	line "que tiré mi Mone-"
+	cont "dero en el Subte-"
+	cont "rráneo."
 	done
 
 GoldenrodGameCornerPokefanM3Text:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "¡Jajaja! ¡Las fi-"
+	line "chas no paran de"
+	cont "llover!"
 	done

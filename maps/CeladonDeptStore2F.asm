@@ -46,6 +46,6 @@ CeladonDeptStore2FDirectoryText:
 	text "¡Objetos de 1a"
 	line "para Entrenadores!"
 
-	para "P1: Mercado del"
-	line "    Entrenador"
+	para "P1: Mercado de"
+	line "    Entrenadores"
 	done

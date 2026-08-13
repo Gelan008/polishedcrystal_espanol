@@ -228,16 +228,16 @@ PrintTwoDigitNumberRightAlign:
 	jmp PrintNum
 
 Text_WokeUpOak:
-	; Zzz… Hm? Wha…? You woke me up! Will you check the clock for me?
+	; Zzz… ¿Hm? ¿Eh…? ¡Me has despertado! ¿Podrías mirar la hora?
 	text_farend _OakTimeWokeUpText
 Text_WhatTimeIsIt:
-	; What time is it?
+	; ¿Qué hora es?
 	text_farend _OakTimeWhatTimeIsItText
 String_oclock:
-	db "o'clock@"
+	db "en punto@"
 
 Text_HowManyMinutes:
-	; How many minutes?
+	; ¿Cuántos minutos?
 	text_farend _OakTimeHowManyMinutesText
 String_min:
 	db "min.@"

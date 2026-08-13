@@ -38,12 +38,12 @@ SSAquaCaptain:
 	iftrue_jumptextfaceplayer SSAquaCaptainHowDoYouLikeText
 	jumpthistextfaceplayer
 
-	text "Whew! Thanks for"
-	line "coming along."
+	text "¡Uf! Gracias por"
+	line "venir."
 
-	para "Keeping that lit-"
-	line "tle girl amused"
-	cont "was exhausting."
+	para "Mantener entrete-"
+	line "nida a esa niña ha"
+	cont "sido agotador."
 	done
 
 SSAquaGranddaughterBefore:
@@ -113,9 +113,10 @@ SSAquaMachoBraceAndDocking:
 	endtext
 
 .NoRoomForMachoBrace:
-	text "But you can't carry"
-	line "it! I'll keep it"
-	cont "for another trip."
+	text "¡Pero no puedes"
+	line "llevarlo! Lo guar-"
+	cont "daré para otro"
+	cont "viaje."
 	done
 
 SSAquaFoundGranddaughter:
@@ -129,59 +130,64 @@ SSAquaFoundGranddaughter:
 GenericTrainerPokefanmColin:
 	generictrainer POKEFANM, COLIN, EVENT_BEAT_POKEFANM_COLIN, PokefanmColinSeenText, PokefanmColinBeatenText
 
-	text "You're traveling"
-	line "all alone?"
+	text "¿Viajas comple-"
+	line "tamente solo?"
 
-	para "Isn't your mom"
-	line "worried?"
+	para "¿No se preocupa"
+	line "tu mamá?"
 	done
 
 GenericTrainerTwinsMegandpeg1:
 	generictrainer TWINS, MEGANDPEG1, EVENT_BEAT_TWINS_MEG_AND_PEG, TwinsMegandpeg1SeenText, TwinsMegandpeg1BeatenText
 
-	text "Baby is a rude"
-	line "name to call us"
-	cont "girls!"
+	text "¡Bebé es una forma"
+	line "grosera de llamar-"
+	cont "nos a las chicas!"
 	done
 
 GenericTrainerTwinsMegandpeg2:
 	generictrainer TWINS, MEGANDPEG2, EVENT_BEAT_TWINS_MEG_AND_PEG, TwinsMegandpeg2SeenText, TwinsMegandpeg2BeatenText
 
-	text "Sometimes, kids"
-	line "are smarter than"
-	cont "grown-ups!"
+	text "A veces, ¡los ni-"
+	line "ños son más lis-"
+	cont "tos que los"
+	cont "adultos!"
 	done
 
 GenericTrainerPsychicRodney:
 	generictrainer PSYCHIC_T, RODNEY, EVENT_BEAT_PSYCHIC_RODNEY, PsychicRodneySeenText, PsychicRodneyBeatenText
 
-	text "I get it. You can"
-	line "hear Johto's radio"
-	cont "on the Fast Ship."
+	text "Lo entiendo. Pue-"
+	line "des oír la radio"
+	cont "de Johto en el"
+	cont "S.S. Aqua."
 	done
 
 GenericTrainerPokefanmJeremy:
 	generictrainer POKEFANM, JEREMY, EVENT_BEAT_POKEFANM_JEREMY, PokefanmJeremySeenText, PokefanmJeremyBeatenText
 
-	text "I must go to the"
-	line "#mon Salon and"
-	cont "fix them up nice!"
+	text "¡Debo ir a la"
+	line "Peluquería #mon"
+	cont "a arreglarlos un"
+	cont "poco!"
 	done
 
 GenericTrainerPokefanfGeorgia:
 	generictrainer POKEFANF, GEORGIA, EVENT_BEAT_POKEFANF_GEORGIA, PokefanfGeorgiaSeenText, PokefanfGeorgiaBeatenText
 
-	text "Oh, yes! I have to"
-	line "get my #mon out"
-	cont "of Day-Care!"
+	text "¡Ah, sí! ¡Tengo"
+	line "que sacar a mis"
+	cont "#mon de la"
+	cont "Guardería!"
 	done
 
 GenericTrainerSupernerdShawn:
 	generictrainer SUPER_NERD, SHAWN, EVENT_BEAT_SUPER_NERD_SHAWN, SupernerdShawnSeenText, SupernerdShawnBeatenText
 
-	text "You should use the"
-	line "right Balls to fit"
-	cont "the situation."
+	text "Deberías usar las"
+	line "Balls adecuadas"
+	cont "para cada"
+	cont "situación."
 	done
 
 SSAquaCaptainsCabinWarpsToGrandpasCabinMovement:
@@ -202,110 +208,113 @@ SSAquaGranddaughterEntersCabinMovement:
 
 
 SSAquaCaptainHowDoYouLikeText:
-	text "How do you like"
-	line "S.S.Aqua's ride?"
+	text "¿Qué te parece el"
+	line "viaje en el S.S."
+	cont "Aqua?"
 
-	para "She practically"
-	line "skates across the"
-	cont "waves."
+	para "Prácticamente"
+	line "patina sobre las"
+	cont "olas."
 	done
 
 SSAquaCantFindGranddaughterText:
-	text "Oh, hello…"
+	text "Oh, hola..."
 
-	para "I still can't find"
-	line "my granddaughter."
+	para "Aún no puedo en-"
+	line "contrar a mi nieta."
 
-	para "If she's on the"
-	line "ship, that's OK."
+	para "Mientras esté en"
+	line "el barco, bien."
 
-	para "She's an energetic"
-	line "child, so she may"
+	para "Es una niña muy"
+	line "enérgica, así que"
 
-	para "be bugging some-"
-	line "one. I'm worried…"
+	para "puede estar moles-"
+	line "tando a alguien."
+	cont "Estoy preocupado..."
 	done
 
 SSAquaEntertainedGranddaughterText:
-	text "<PLAYER>, was it?"
-	line "I heard you enter-"
-	cont "tained my grand-"
-	cont "daughter."
+	text "¿Eras <PLAYER>?"
+	line "He oído que has"
+	cont "entretenido a mi"
+	cont "nieta."
 
-	para "I want to thank"
-	line "you for that."
+	para "Quiero darte las"
+	line "gracias por ello."
 	done
 
 SSAquaGrandpaHaveThisText:
-	text "I know! I'd like"
-	line "you to have this!"
+	text "¡Ya sé! ¡Me gusta-"
+	line "ría darte esto!"
 	done
 
 SSAquaGrandpaTravellingText:
-	text "We're traveling"
-	line "around the world."
+	text "Estamos viajando"
+	line "por todo el mundo."
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "Captain, play with"
-	line "me, please?"
+	text "Capitán, juegue"
+	line "conmigo, ¿por fa?"
 
-	para "I'm bored! I want"
-	line "to play more!"
+	para "¡Me aburro! ¡Quie-"
+	line "ro jugar más!"
 	done
 
 SSAquaGranddaughterHasToFindGrandpaText:
-	text "Hi! Will you play"
-	line "with me?"
+	text "¡Hola! ¿Jugarás"
+	line "conmigo?"
 
-	para "…Oh!"
+	para "...¡Ah!"
 
-	para "Grandpa's worried"
-	line "about me?"
+	para "¿Mi abuelo está"
+	line "preocupado por mí?"
 
-	para "I have to go!"
+	para "¡Me tengo que ir!"
 
-	para "I have to go find"
-	line "Grandpa!"
+	para "¡Tengo que ir a"
+	line "buscar al abuelo!"
 	done
 
 SSAquaGranddaughterWasPlayingText:
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "¡Abuelo, aquí"
+	line "estoy! ¡Estaba"
 
-	para "with the Captain"
-	line "and this big kid!"
+	para "jugando con el Ca-"
+	line "pitán y este chico"
+	cont "tan grande!"
 	done
 
 SSAquaGranddaughterHadFunText:
-	text "I had lots of fun"
-	line "playing!"
+	text "¡Me he divertido"
+	line "mucho jugando!"
 	done
 
 PokefanmColinSeenText:
-	text "Hey, kid! Want to"
-	line "battle with me?"
+	text "¡Oye, crío! ¿Quie-"
+	line "res luchar?"
 	done
 
 PokefanmColinBeatenText:
-	text "You're strong!"
+	text "¡Eres fuerte!"
 	done
 
 TwinsMegandpeg1SeenText:
-	text "You think I'm a"
-	line "baby?"
-	cont "That's not fair!"
+	text "¿Te crees que soy"
+	line "un bebé?"
+	cont "¡No es justo!"
 	done
 
 TwinsMegandpeg1BeatenText:
-	text "Oh! We lost!"
+	text "¡Oh! ¡Perdimos!"
 	done
 
 TwinsMegandpeg2SeenText:
-	text "I'm not a baby!"
+	text "¡No soy un bebé!"
 
-	para "That's not nice to"
-	line "say to a lady!"
+	para "¡Eso no se le dice"
+	line "a una dama!"
 	done
 
 TwinsMegandpeg2BeatenText:
@@ -313,51 +322,50 @@ TwinsMegandpeg2BeatenText:
 	done
 
 PsychicRodneySeenText:
-	text "Ssh! My brain is"
-	line "picking up radio"
-	cont "signals!"
+	text "¡Ssh! ¡Mi cerebro"
+	line "está captando se-"
+	cont "ñales de radio!"
 	done
 
 PsychicRodneyBeatenText:
-	text "…I hear some-"
-	line "thing!"
+	text "...¡Oigo algo!"
 	done
 
 PokefanmJeremySeenText:
-	text "What do you think?"
-	line "My #mon are"
-	cont "beautiful, yes?"
+	text "¿Qué te parecen?"
+	line "Mis #mon son"
+	cont "preciosos, ¿a que"
+	cont "sí?"
 	done
 
 PokefanmJeremyBeatenText:
-	text "Oh, no! My beauti-"
-	line "ful #mon!"
+	text "¡Oh, no! ¡Mis pre-"
+	line "ciosos #mon!"
 	done
 
 PokefanfGeorgiaSeenText:
-	text "I'm going to shop"
-	line "at the Dept.Store"
-	cont "and then…"
+	text "Voy a comprar en"
+	line "el Centro Comer-"
+	cont "cial y luego..."
 	done
 
 PokefanfGeorgiaBeatenText:
-	text "What was I going"
-	line "to do?"
+	text "¿Qué iba a hacer?"
 	done
 
 SupernerdShawnSeenText:
-	text "What kinds of #"
-	line "Balls do you have"
-	cont "with you?"
+	text "¿Qué tipo de #"
+	line "Balls llevas"
+	cont "contigo?"
 	done
 
 SupernerdShawnBeatenText:
-	text "Wait! Stop! Don't!"
-	line "Please!"
+	text "¡Espera! ¡Para!"
+	line "¡No! ¡Por favor!"
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Vermilion City."
+	text "El S.S. Aqua ha"
+	line "llegado a Ciudad"
+	cont "Carmín."
 	done

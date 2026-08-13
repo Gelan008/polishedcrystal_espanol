@@ -26,8 +26,8 @@ FuchsiaSafariBallHouseOfficerScript:
 	ifequalfwd $2, .Buy10
 	jumpthisopenedtext ; cancel
 
-	text "What will I do"
-	line "with them all?"
+	text "¿Qué voy a hacer"
+	line "con todas ellas?"
 	done
 
 .Buy1:
@@ -57,35 +57,35 @@ FuchsiaSafariBallHouseOfficerScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "You don't have"
-	line "enough money."
+	text "No tienes sufici-"
+	line "ente dinero."
 	done
 
 .IntroText:
-	text "I used to manage"
-	line "the Safari Game."
+	text "Solía administrar"
+	line "el Juego Safari."
 
-	para "Now that it's"
-	line "closed I need to"
+	para "Ahora que está"
+	line "cerrado, necesito"
 
-	para "make money an-"
-	line "other way."
+	para "ganar dinero de"
+	line "otra forma."
 
-	para "Want to buy some"
-	line "leftover Safari"
-	cont "Balls?"
+	para "¿Quieres comprar"
+	line "Safari Balls de"
+	cont "sobra?"
 
-	para "They're a collec-"
-	line "tor's item!"
+	para "¡Son un artículo"
+	line "de coleccionista!"
 	done
 
 .GoodbyeText:
-	text "Thanks, pal!"
+	text "¡Gracias, colega!"
 	done
 
 .BagFullText:
-	text "You can't carry"
-	line "them!"
+	text "¡No puedes llevar"
+	line "tantas!"
 	done
 
 .MenuDataHeader:
@@ -99,4 +99,4 @@ FuchsiaSafariBallHouseOfficerScript:
 	db 3 ; items
 	db "× 1   ¥2000@"
 	db "×10  ¥20000@"
-	db "Cancel@"
+	db "Salir@"
