@@ -89,7 +89,7 @@ DimCave5FRileyScript:
 	para "OK, you're"
 	line "<PLAYER>."
 
-	para "I'm Riley. I'm a"
+	para "I'm Quinoa. I'm a"
 	line "trainer, yes."
 
 	para "I own a mine like"

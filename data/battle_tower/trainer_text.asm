@@ -644,7 +644,7 @@ _BTWinF15Text:
 
 BattleTowerText_GreetingTycoon:
 	text "¡Hola! Me llamo"
-	line "Palmer."
+	line "Jericor."
 
 	para "Eres <PLAYER>,"
 	line "de Pueblo"
@@ -691,7 +691,7 @@ BattleFactoryText_GreetingHead:
 
 	para "Perdona, voy a"
 	line "lo mío. Soy"
-	cont "Thorton."
+	cont "Espinal."
 
 	para "Estoy usando mi"
 	line "analizador para"

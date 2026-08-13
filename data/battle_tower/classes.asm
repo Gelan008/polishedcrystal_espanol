@@ -133,5 +133,5 @@ BattleTowerTrainers:
 	rawchar "Mako@@@@@", BREEDER
 	rawchar "Argo@@@@@", BIRD_KEEPER
 	assert_table_length BATTLETOWER_NUM_TRAINERS
-	rawchar "Palmer@@@", TOWERTYCOON
-	rawchar "Thorton@@", FACTORYHEAD
+	rawchar "Jericor@@", TOWERTYCOON
+	rawchar "Espinal@@", FACTORYHEAD

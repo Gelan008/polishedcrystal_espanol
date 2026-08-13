@@ -93,7 +93,7 @@ DragonsDenB1FClairTrigger:
 	done
 
 .GiveTMText:
-	text "Clair: I'm sorry"
+	text "Débora: I'm sorry"
 	line "about this."
 
 	para "Here, take this as"

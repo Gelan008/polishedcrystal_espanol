@@ -56,5 +56,5 @@ GoldenrodNetBallHouseBugCatcherText:
 	line "on Route 35."
 
 	para "Sometimes even"
-	line "Bugsy competes."
+	line "Antón competes."
 	done

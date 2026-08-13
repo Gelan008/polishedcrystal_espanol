@@ -49,8 +49,8 @@ BattleTower1FContinueChallenge:
 	; We saved in-between rounds. Resume Battle Tower challenge.
 	opentext
 	writethistext
-		text "We've been waiting"
-		line "for you."
+		text "Te hemos estado"
+		line "esperando."
 		prompt
 
 	sdefer Script_ReturnToBattleTowerChallenge
@@ -65,17 +65,15 @@ BattleTower1FContinueChallenge:
 .LeftWithoutSaving2:
 	opentext
 	writethistext
-		text "Excuse me!"
-		line "You didn't save"
+		text "¡Disculpe!"
+		line "No guardó la parti-"
+		cont "da antes de salir."
 
-		para "before exiting"
-		line "the Battle Room."
+		para "Lo siento mucho,"
+		line "pero su desafío"
 
-		para "I'm awfully sorry,"
-		line "but your challenge"
-
-		para "will be declared"
-		line "invalid."
+		para "será declarado in-"
+		line "válido."
 		done
 	waitbutton
 	sjumpfwd Script_CommitBattleTowerResult
@@ -92,13 +90,14 @@ BattleTower1FContinueChallenge:
 .WonChallenge2:
 	opentext
 	writethistext
-		text "Congratulations!"
+		text "¡Felicidades!"
 
-		para "You've beaten all"
-		line "the trainers!"
+		para "¡Has vencido a to-"
+		line "dos los entrena-"
+		cont "dores!"
 
-		para "For that, you get"
-		line "this great prize!"
+		para "Por eso, ¡obtienes"
+		line "este gran premio!"
 		prompt
 	verbosegiveitem ABILITYPATCH
 	; fallthrough
@@ -108,8 +107,8 @@ Script_CommitBattleTowerResult:
 	setevent EVENT_BEAT_PALMER
 .WeHopeToServeYouAgain:
 	writethistext
-		text "We hope to serve"
-		line "you again."
+		text "Esperamos volver"
+		line "a verle."
 		done
 	waitbutton
 	endtext
@@ -117,47 +116,49 @@ Script_CommitBattleTowerResult:
 BattleTower1FRulesScript:
 	opentext
 	writethistext
-		text "Battle Tower rules"
-		line "are written here."
+		text "Reglas de la"
+		line "Torre Batalla."
 
-		para "Read the rules?"
+		para "¿Leer las reglas?"
 		done
 	yesorno
 	iffalse_endtext
 	jumpthisopenedtext
-		text "Three #mon may"
-		line "enter battles."
+		text "Tres #mon"
+		line "podrán combatir."
 
-		para "All three must be"
-		line "different."
+		para "Los tres deben ser"
+		line "diferentes."
 
-		para "The items they"
-		line "hold must also be"
-		cont "different."
+		para "Los objetos que"
+		line "lleven también de-"
+		cont "ben ser distintos."
 
-		para "Eggs or certain"
-		line "Legendary #mon"
-		cont "aren't eligible"
-		cont "to battle."
+		para "Los Huevos o"
+		line "ciertos #mon"
+		cont "Legen. no pueden"
+		cont "combatir."
 		done
 
 BattleTower1FStreakText:
-	text "Streak: "
+	text "Racha: "
 	text_decimal wBattleTowerCurStreak, 2, 5
-	text " wins"
-	line "Record: "
+	text " vict."
+	line "Récord: "
 	text_decimal wBattleTowerTopStreak, 2, 5
-	text " wins"
+	text " vict."
 	done
 
 BattleTower1FReceptionistScript:
 	opentext
 	writethistext
-		text "Battle Tower"
-		line "welcomes you!"
+		text "¡La Torre Batalla"
+		line "te da la"
+		cont "bienvenida!"
 
-		para "I could show you"
-		line "to a Battle Room."
+		para "Puedo acompañarte"
+		line "a la Sala de com-"
+		cont "bates."
 		done
 	promptbutton
 	checkevent EVENT_BATTLE_TOWER_INTRO
@@ -166,54 +167,54 @@ BattleTower1FReceptionistScript:
 	; only ask once, so set the flag regardless
 	setevent EVENT_BATTLE_TOWER_INTRO
 	writethistext
-		text "Would you like to"
-		line "hear about the"
-		cont "Battle Tower?"
+		text "¿Quieres que te"
+		line "hable sobre la"
+		cont "Torre Batalla?"
 		done
 	yesorno
 	iffalsefwd .BattleTowerMenu
 
 .Explanation:
 	writethistext
-		text "Battle Tower is a"
-		line "facility made for"
-		cont "#mon battles."
+		text "La Torre Batalla"
+		line "es un recinto pa-"
+		cont "ra los combates."
 
-		para "Countless #mon"
-		line "trainers gather"
+		para "Entrenadores de"
+		line "#mon acuden"
 
-		para "from all over to"
-		line "hold battles in"
+		para "de todas partes a"
+		line "luchar en Salas de"
+		cont "combate especial-"
+		cont "mente diseñadas."
 
-		para "specially designed"
-		line "Battle Rooms."
+		para "Hay muchas Salas"
+		line "de combate en la"
+		cont "Torre Batalla."
 
-		para "There are many"
-		line "Battle Rooms in"
-		cont "the Battle Tower."
+		para "En cada Sala hay"
+		line "siete entrenadores."
 
-		para "Each Room holds"
-		line "seven trainers."
+		para "Gana a todos y re-"
+		line "cibe PB."
 
-		para "Beat them all to"
-		line "get Battle Points."
+		para "Para interrumpir"
+		line "la sesión, debes"
 
-		para "To interrupt a"
-		line "session, you must"
+		para "guardar. Si no, no"
+		line "podrás retomar"
 
-		para "save. If not, you"
-		line "won't be able to"
-
-		para "resume your Room"
-		line "challenge."
+		para "tu desafío de"
+		line "la Sala."
 		prompt
 	; fallthrough
 .BattleTowerMenu:
 	; Setscene here in case the player aborted a quicksave prompted by challenge
 	setscene SCENE_BATTLETOWER1F_NOOP
 	writethistext
-		text "Want to go into a"
-		line "Battle Room?"
+		text "¿Quieres entrar a"
+		line "la Sala de"
+		cont "combates?"
 		done
 	loadmenu MenuDataHeader_BattleInfoCancel
 	verticalmenu
@@ -221,24 +222,25 @@ BattleTower1FReceptionistScript:
 	ifequalfwd $1, .Challenge
 	ifequal $2, .Explanation
 	writethistext
-		text "We hope to serve"
-		line "you again."
+		text "Esperamos volver"
+		line "a verle."
 		prompt
 	endtext
 
 .Challenge:
 	writethistext
-		text "Choose #mon"
-		line "to enter."
+		text "Elige los #mon"
+		line "para combatir."
 		prompt
 	special Special_BattleTower_SelectParticipants
 	iffalse .BattleTowerMenu
 	writethistext
-		text "Before entering"
-		line "the Battle Room,"
+		text "Antes de entrar a"
+		line "la Sala de com-"
+		cont "bates,"
 
-		para "your progress will"
-		line "be saved."
+		para "se guardará tu"
+		line "progreso."
 		done
 	yesorno
 	iffalse .BattleTowerMenu
@@ -260,8 +262,8 @@ Script_ReturnToBattleTowerChallenge:
 
 	; Everything ready to go for challenge start
 	writethistext
-		text "Right this way to"
-		line "your Battle Room."
+		text "Por aquí a tu Sala"
+		line "de combates."
 		done
 	waitbutton
 	closetext
@@ -296,9 +298,9 @@ MenuDataHeader_BattleInfoCancel:
 MenuData2_BattleInfoCancel:
 	db $a0 ; flags
 	db 3
-	db "Battle@"
+	db "Batalla@"
 	db "Info@"
-	db "Cancel@"
+	db "Salir@"
 
 BattleTowerPharmacistScript:
 	faceplayer
@@ -306,34 +308,35 @@ BattleTowerPharmacistScript:
 	checkevent EVENT_LISTENED_TO_TRICK_INTRO
 	iftruefwd BattleTowerTutorTrickScript
 	writethistext
-		text "The trainers here"
-		line "strategically use"
-		cont "held items."
+		text "Los entrenadores"
+		line "de aquí usan ob-"
+		cont "jetos con estra-"
+		cont "tegia."
 
-		para "But I've got a"
-		line "trick up my"
-		cont "sleeve--I'll swap"
+		para "¡Pero tengo un"
+		line "truco en la"
+		cont "manga--cambiaré"
 
-		para "their items for"
-		line "mine with Trick!"
+		para "sus objetos por"
+		line "los míos con"
+		cont "Truco!"
 		done
 	waitbutton
 	setevent EVENT_LISTENED_TO_TRICK_INTRO
 BattleTowerTutorTrickScript:
 	writethistext
-		text "I'll teach your"
-		line "#mon how to"
+		text "Enseñaré a tu"
+		line "#mon a usar"
 
-		para "use Trick…"
-		line "for a Silver Leaf."
+		para "Truco... por una"
+		line "Hoja Plata."
 		done
 	waitbutton
 	checkitem SILVER_LEAF
 	iffalsefwd .NoSilverLeaf
 	writethistext
-		text "Should I teach"
-		line "your #mon"
-		cont "Trick?"
+		text "¿Le enseño Truco"
+		line "a tu #mon?"
 		done
 	yesorno
 	iffalsefwd .TutorRefused
@@ -343,71 +346,74 @@ BattleTowerTutorTrickScript:
 	ifequalfwd $0, .TeachMove
 .TutorRefused
 	jumpthisopenedtext
-		text "Talk to me if you"
-		line "change your mind."
+		text "Háblame si cambias"
+		line "de opinión."
 		done
 
 .NoSilverLeaf
 	jumpthisopenedtext
-		text "Tch. You don't have"
-		line "a Silver Leaf…"
+		text "Tsk. No tienes"
+		line "ninguna Hoja"
+		cont "Plata..."
 		done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
-		text "Now your #mon"
-		line "can use Trick too!"
-		cont "Isn't it devious?"
+		text "¡Ahora tu #mon"
+		line "también usará"
+		cont "Truco!"
+		cont "¿No es ingenioso?"
 		done
 
 Text_BattleTowerCooltrainerF:
-	text "There are lots of"
-	line "Battle Rooms, but"
+	text "Hay muchísimas"
+	line "Salas de combate,"
+	cont "¡pero"
 
-	para "I'm going to win"
-	line "them all!"
+	para "yo voy a ganar"
+	line "en todas!"
 	done
 
 Text_BattleTowerGranny:
-	text "It's a grueling"
-	line "task, not being"
+	text "Es una tarea ruda,"
+	line "el no poder usar"
 
-	para "able to use items"
-	line "in battle."
+	para "objetos en comba-"
+	line "te."
 
-	para "Making your"
-	line "#mon hold items"
+	para "Hacer que tus"
+	line "#mon lleven"
 
-	para "is the key to"
-	line "winning battles."
+	para "objetos es la cla-"
+	line "ve para ganar."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "I'm trying to see"
-	line "how far I can go"
+	text "Intento ver cuán-"
+	line "to puedo avanzar"
 
-	para "using just bug"
-	line "#mon."
+	para "usando solo"
+	line "#mon bicho."
 
-	para "Don't let there be"
-	line "any fire #mon…"
+	para "Espero que no haya"
+	line "#mon de fuego..."
 	done
 
 PokemonJournalPalmerScript:
 	setflag ENGINE_READ_PALMER_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Tower Tycoon"
+	para "Reportaje especial:"
+	line "¡Amo Torre"
 	cont "Palmer!"
 
-	para "Palmer is reported"
-	line "to have a son in"
+	para "Se dice que Pal-"
+	line "mer tiene un hijo"
 
-	para "the Sinnoh region"
-	line "who wants to be a"
-	cont "trainer like him."
+	para "en la región Sin-"
+	line "noh que quiere ser"
+	cont "como él."
 	done

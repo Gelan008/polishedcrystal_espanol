@@ -509,7 +509,7 @@ SECTION "ClairGroup", ROMX
 ClairGroup:
 
 	def_trainer_class CLAIR
-	def_trainer 1, "Clair"
+	def_trainer 1, "Débora"
 	tr_mon 43, GYARADOS, FEMALE
 		tr_extra INTIMIDATE
 		tr_evs 4 Atk, 252 Spe
@@ -540,7 +540,7 @@ endc
 		tr_moves SMOKESCREEN, HYPER_BEAM, DRAGON_PULSE, SURF
 	end_trainer
 
-	def_trainer 2, "Clair"
+	def_trainer 2, "Débora"
 	tr_mon 72, GYARADOS @ LEFTOVERS, FEMALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -5774,7 +5774,7 @@ SwimmerFGroup:
 	tr_mon 57, OCTILLERY
 	end_trainer
 
-	def_trainer RACHEL, "Rachel"
+	def_trainer RACHEL, "Serra"
 	tr_mon 53, REMORAID
 	tr_mon 53, REMORAID
 	tr_mon 53, REMORAID
@@ -6551,7 +6551,7 @@ AromaLadyGroup:
 	tr_mon 58, BELLOSSOM
 	end_trainer
 
-	def_trainer BRYONY, "Bryony"
+	def_trainer BRYONY, "Begonia"
 	tr_mon 55, BELLOSSOM
 		tr_moves SOLAR_BEAM, SUNNY_DAY, STUN_SPORE, GROWTH
 	tr_mon 55, BELLOSSOM
@@ -6621,7 +6621,7 @@ SECTION "SightseerFGroup", ROMX
 SightseerFGroup:
 
 	def_trainer_class SIGHTSEERF
-	def_trainer ROSIE, "Rosie"
+	def_trainer ROSIE, "Flora"
 	tr_mon 50, BULBASAUR
 	end_trainer
 
@@ -7653,10 +7653,10 @@ TowerTycoonGroup:
 
 	; unused
 	def_trainer_class TOWERTYCOON
-	def_trainer 1, "Palmer"
+	def_trainer 1, "Jericor"
 	end_trainer
 
-	def_trainer 2, "Palmer"
+	def_trainer 2, "Jericor"
 	tr_mon 74, GYARADOS @ LEFTOVERS, MALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -7688,10 +7688,10 @@ SECTION "FactoryHeadGroup", ROMX
 FactoryHeadGroup:
 
 	def_trainer_class FACTORYHEAD
-	def_trainer 1, "Thorton"
+	def_trainer 1, "Espinal"
 	end_trainer
 
-	def_trainer 2, "Thorton"
+	def_trainer 2, "Espinal"
 	end_trainer
 
 
@@ -8020,7 +8020,7 @@ SECTION "CherylGroup", ROMX
 CherylGroup:
 
 	def_trainer_class CHERYL
-	def_trainer 1, "Cheryl"
+	def_trainer 1, "Malta"
 	tr_mon LEVEL_FROM_BADGES + 8, CHANSEY
 		tr_evs 136 HP ; maybe 252 since these are "stat trainers"?
 	tr_mon LEVEL_FROM_BADGES + 7, NIDORINA
@@ -8033,7 +8033,7 @@ CherylGroup:
 		tr_evs 136 HP
 	end_trainer
 
-	def_trainer 2, "Cheryl"
+	def_trainer 2, "Malta"
 	tr_mon 60, BLISSEY @ LEFTOVERS, FEMALE
 		tr_extra SERENE_GRACE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 36 Def
@@ -8060,7 +8060,7 @@ CherylGroup:
 		tr_moves COUNTER, MIRROR_COAT, RECOVER, DESTINY_BOND
 	end_trainer
 
-	def_trainer 3, "Cheryl"
+	def_trainer 3, "Malta"
 	tr_mon 75, BLISSEY @ FOCUS_BAND, FEMALE
 		tr_extra SERENE_GRACE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def
@@ -8092,7 +8092,7 @@ SECTION "RileyGroup", ROMX
 RileyGroup:
 
 	def_trainer_class RILEY
-	def_trainer 1, "Riley"
+	def_trainer 1, "Quinoa"
 	tr_mon 58, MACHAMP @ PUNCHINGLOVE, MALE
 		tr_extra NO_GUARD, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 36 HP
@@ -8119,7 +8119,7 @@ RileyGroup:
 		tr_moves ICICLE_CRASH, ROCK_SLIDE, BULLDOZE, ICE_SHARD
 	end_trainer
 
-	def_trainer 2, "Riley"
+	def_trainer 2, "Quinoa"
 	tr_mon 75, MACHAMP @ FLAME_ORB, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 252 HP, 4 Def
@@ -8151,7 +8151,7 @@ SECTION "BuckGroup", ROMX
 BuckGroup:
 
 	def_trainer_class BUCK
-	def_trainer 1, "Buck"
+	def_trainer 1, "Bulgur"
 	tr_mon 65, UMBREON @ LEFTOVERS, MALE
 if DEF(FAITHFUL)
 		tr_extra SYNCHRONIZE, DEF_UP_SATK_DOWN
@@ -8186,7 +8186,7 @@ endc
 		tr_moves IRON_TAIL, BULLDOZE, STONE_EDGE, CRUNCH
 	end_trainer
 
-	def_trainer 2, "Buck"
+	def_trainer 2, "Bulgur"
 	tr_mon 75, GOLEM @ CHOICE_BAND, MALE | ALOLAN_FORM
 		tr_extra GALVANIZE, DEF_UP_SATK_DOWN
 		tr_evs 252 Def, 252 Atk, 4 HP
@@ -8218,7 +8218,7 @@ SECTION "MarleyGroup", ROMX
 MarleyGroup:
 
 	def_trainer_class MARLEY
-	def_trainer 1, "Marley"
+	def_trainer 1, "Sémola"
 	tr_mon LEVEL_FROM_BADGES + 8, ARCANINE
 		tr_evs 240 Spe ; maybe 252 since these are "stat trainers"?
 	tr_mon LEVEL_FROM_BADGES + 6, RAICHU
@@ -8231,7 +8231,7 @@ MarleyGroup:
 		tr_evs 240 Spe
 	end_trainer
 
-	def_trainer 2, "Marley"
+	def_trainer 2, "Sémola"
 	tr_mon 60, ARCANINE @ EJECT_BUTTON, FEMALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 252 Spe, 36 Atk
@@ -8258,7 +8258,7 @@ MarleyGroup:
 		tr_moves BRAVE_BIRD, ROCK_SLIDE, HONE_CLAWS, STEEL_WING
 	end_trainer
 
-	def_trainer 3, "Marley"
+	def_trainer 3, "Sémola"
 	tr_mon 75, ARCANINE @ EJECT_PACK, FEMALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 252 Spe, 252 Atk, 4 HP
@@ -8290,7 +8290,7 @@ SECTION "MiraGroup", ROMX
 MiraGroup:
 
 	def_trainer_class MIRA
-	def_trainer 1, "Mira"
+	def_trainer 1, "Maiza"
 	tr_mon 58, TOGEKISS @ LEFTOVERS, FEMALE
 		tr_extra SUPER_LUCK, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 36 HP
@@ -8317,7 +8317,7 @@ MiraGroup:
 		tr_moves TRI_ATTACK, TRICK_ROOM, AURORA_BEAM, NASTY_PLOT
 	end_trainer
 
-	def_trainer 2, "Mira"
+	def_trainer 2, "Maiza"
 	tr_mon 75, ALAKAZAM @ LIFE_ORB, FEMALE
 		tr_extra MAGIC_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 252 Spe, 4 HP
@@ -8353,7 +8353,7 @@ SECTION "AnabelGroup", ROMX
 AnabelGroup:
 
 	def_trainer_class ANABEL
-	def_trainer 1, "Anabel"
+	def_trainer 1, "Destra"
 	tr_mon 30, ESPEON
 		tr_evs 136 SDf
 	tr_mon 28, SNORLAX
@@ -8368,7 +8368,7 @@ AnabelGroup:
 		tr_evs 136 SDf
 	end_trainer
 
-	def_trainer 2, "Anabel"
+	def_trainer 2, "Destra"
 	tr_mon 75, SLOWKING @ ROOM_SERVICE, FEMALE
 		tr_extra OBLIVIOUS, DEF_UP_SPE_DOWN
 		tr_evs 252 SDf, 252 HP, 4 SAt
@@ -8400,7 +8400,7 @@ SECTION "DarachGroup", ROMX
 DarachGroup:
 
 	def_trainer_class DARACH
-	def_trainer 1, "Darach"
+	def_trainer 1, "Kokuran"
 	tr_mon 58, NIDOQUEEN
 	tr_mon 56, HERACROSS
 if DEF(FAITHFUL)
@@ -8419,7 +8419,7 @@ SECTION "CaitlinGroup", ROMX
 CaitlinGroup:
 
 	def_trainer_class CAITLIN
-	def_trainer 1, "Caitlin"
+	def_trainer 1, "Catleya"
 	tr_mon 58, ESPEON
 	tr_mon 56, XATU
 	tr_mon 57, STARMIE
@@ -8775,7 +8775,7 @@ SECTION "ValerieGroup", ROMX
 ValerieGroup:
 
 	def_trainer_class VALERIE
-	def_trainer 1, "Valerie"
+	def_trainer 1, "Valeria"
 	tr_mon 37, CLEFABLE, FEMALE
 		tr_extra CUTE_CHARM
 		tr_evs 224 HP
@@ -8798,7 +8798,7 @@ ValerieGroup:
 		tr_moves MOONBLAST, CALM_MIND, DRAINING_KISS, SWIFT
 	end_trainer
 
-	def_trainer 2, "Valerie"
+	def_trainer 2, "Valeria"
 	tr_mon 57, CLEFABLE @ LEFTOVERS, FEMALE
 		tr_extra MAGIC_GUARD
 		tr_evs 252 HP, 68 Def
@@ -8825,7 +8825,7 @@ ValerieGroup:
 		tr_moves MOONBLAST, CALM_MIND, DRAINING_KISS, HYPER_VOICE
 	end_trainer
 
-	def_trainer 3, "Valerie"
+	def_trainer 3, "Valeria"
 	tr_mon 73, CLEFABLE @ LEFTOVERS, FEMALE
 		tr_extra MAGIC_GUARD, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def

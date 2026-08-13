@@ -24,19 +24,19 @@ PokemonJournalBugsyScript:
 	setflag ENGINE_READ_BUGSY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Bugsy!"
+	para "Reportaje especial:"
+	line "¡Líder Antón!"
 
-	para "Bugsy is reported"
-	line "to have won the"
+	para "Se dice que Antón"
+	line "ha ganado tantas"
 
-	para "Bug-Catching Con-"
-	line "test so often that"
+	para "veces el Concurso"
+	line "de Captura de"
 
-	para "he no longer par-"
-	line "ticipates."
+	para "Bichos que ya ni"
+	line "participa."
 	done
 
 AzaleaPokeCenter1FCooltrainermScript:
@@ -44,39 +44,41 @@ AzaleaPokeCenter1FCooltrainermScript:
 	iftrue_jumptextfaceplayer .NiteText
 	jumpthistextfaceplayer
 
-	text "For a guy who"
-	line "makes # Balls,"
+	text "Para hacer unas"
+	line "# Balls tan"
 
-	para "César isn't much of"
-	line "a trainer."
+	para "buenas, César"
+	line "no es muy buen"
+	cont "entrenador."
 
-	para "He does have a"
-	line "#mon, but he"
+	para "Tiene un #mon,"
+	line "pero no lo"
 
-	para "doesn't use it"
-	line "much."
+	para "suele usar a"
+	line "menudo."
 	done
 
 .NiteText:
-	text "César and Prof.Oak"
-	line "are old friends."
+	text "César y el Prof."
+	line "Oak son viejos"
+	cont "amigos."
 
-	para "They're also close"
-	line "with Agatha, a"
+	para "También se llevan"
+	line "bien con Agatha,"
 
-	para "former member of"
-	line "the Elite Four."
+	para "ex miembro del"
+	line "Alto Mando."
 	done
 
 AzaleaPokeCenter1FGentlemanText:
-	text "Do your #mon"
-	line "know HM moves?"
+	text "¿Tus #mon"
+	line "conocen MO?"
 
-	para "Those moves can"
-	line "be used even if"
+	para "Se pueden usar"
+	line "incluso si tu"
 
-	para "your #mon has"
-	line "fainted."
+	para "#mon se ha"
+	line "debilitado."
 	done
 
 AzaleaPokeCenter1FSightseermText:
@@ -92,21 +94,22 @@ AzaleaPokeCenter1FSightseermText:
 	done
 
 AzaleaPokeCenter1FPokefanfText:
-	text "Do you know about"
-	line "Apricorns?"
+	text "¿Conoces los"
+	line "Bonguris?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Abre uno, vacíalo"
+	line "y ponle un meca-"
 
-	para "fit it with a"
-	line "special device."
+	para "nismo especial."
+	line "Entonces podrás"
 
-	para "Then you can catch"
-	line "#mon with it."
+	para "atrapar #mon"
+	line "con él."
 
-	para "Before # Balls"
-	line "were invented,"
+	para "Antes de inven-"
+	line "tarse las #"
+	cont "Balls,"
 
-	para "everyone used"
-	line "Apricorns."
+	para "todo el mundo"
+	line "usaba Bonguris."
 	done

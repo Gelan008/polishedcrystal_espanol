@@ -74,7 +74,7 @@ MurkySwampCherylScript:
 
 .ChallengeText:
 	text "Hello, my name's"
-	line "Cheryl."
+	line "Malta."
 	cont "And you are…?"
 
 	para "OK, so your name"

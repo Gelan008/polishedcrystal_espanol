@@ -40,8 +40,8 @@ BattleTower2F_MapScriptHeader:
 BattleTower2FTVScript:
 	jumpthistext
 
-	text "There's an intense"
-	line "battle on the TV."
+	text "Se ve un intenso"
+	line "combate en la TV."
 	done
 
 BattleTower2FCherylScript:
@@ -50,24 +50,24 @@ BattleTower2FCherylScript:
 	faceplayer
 	opentext
 	writethistext
-		text "Oh, hello,"
+		text "Oh, hola,"
 		line "<PLAYER>."
 
-		para "It's been a long"
-		line "time… Hasn't it?"
+		para "Ha pasado mucho"
+		line "tiempo... ¿Verdad?"
 
-		para "Would you care"
-		line "to have a battle"
-		cont "with me?"
+		para "¿Te apetecería"
+		line "echar un combate"
+		cont "conmigo?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_CHERYL_DONE_TODAY
 	writethistext
-		text "I should warn you,"
-		line "my #mon can be"
-		cont "quite rambunc-"
-		cont "tious."
+		text "Te lo advierto,"
+		line "mis #mon pueden"
+		cont "llegar a ser muy"
+		cont "exaltados."
 		done
 	waitbutton
 	closetext
@@ -90,36 +90,36 @@ BattleTower2FCherylScript:
 	jumpthistext
 
 .AfterText:
-	text "Being a trainer"
-	line "isn't easy."
+	text "Ser entrenador"
+	line "no es fácil."
 
-	para "The more you"
-	line "battle, the more"
-	cont "you discover."
+	para "Cuanto más luchas,"
+	line "más descubres."
 
-	para "But, you know?"
-	line "I love #mon"
-	cont "for that, too!"
+	para "Pero, ¿sabes?"
+	line "¡Amo a los #mon"
+	cont "por eso también!"
 	done
 
 .BeatenText:
-	text "Striking the right"
-	line "balance of offense"
-	cont "and defense…"
+	text "Lograr el equili-"
+	line "brio adecuado"
+	cont "entre el ataque"
+	cont "y la defensa..."
 
-	para "It's not easy"
-	line "to do."
+	para "No es nada"
+	line "fácil."
 	done
 
 .RefuseText:
-	text "Giggle…"
+	text "Jeje..."
 
-	para "#mon would get"
-	line "all worn out if we"
+	para "Los #mon acaba-"
+	line "rían agotados si"
 
-	para "battled all the"
-	line "time, wouldn't"
-	cont "they?"
+	para "luchásemos todo"
+	line "el rato, ¿no"
+	cont "crees?"
 	done
 
 BattleTower2FRileyScript:
@@ -128,21 +128,21 @@ BattleTower2FRileyScript:
 	faceplayer
 	opentext
 	writethistext
-		text "Hi. Long time,"
-		line "no see."
+		text "Hola. Cuánto tiem-"
+		line "po sin vernos."
 
-		para "That look you"
-		line "have… I take it"
+		para "Esa mirada tuya..."
+		line "Supongo que estás"
 
-		para "you're ready for"
-		line "battle?"
+		para "¿listo para un"
+		line "combate?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_RILEY_DONE_TODAY
 	writethistext
-		text "Battling is our"
-		line "way of greeting!"
+		text "¡Luchar es nuestra"
+		line "forma de saludo!"
 		done
 	waitbutton
 	closetext
@@ -160,33 +160,37 @@ BattleTower2FRileyScript:
 	jumpthistext
 
 .AfterText:
-	text "If I weren't in"
-	line "Dim Cave then…"
+	text "Si no hubiera es-"
+	line "tado en la Cueva"
+	cont "Oscura entonces..."
 
-	para "If you hadn't been"
-	line "in Dim Cave then…"
+	para "Si tú no hubieras"
+	line "estado allí..."
 
-	para "Perhaps we would"
-	line "have never met."
+	para "Quizá nunca nos"
+	line "habríamos conoci-"
+	cont "do."
 
-	para "Or, would we have"
-	line "met elsewhere?"
+	para "O, ¿nos habríamos"
+	line "visto en otra"
+	cont "parte?"
 	done
 
 .BeatenText:
-	text "At times we bat-"
-	line "tle, and sometimes"
-	cont "we team up."
+	text "A veces luchamos,"
+	line "y a veces formamos"
+	cont "equipo."
 
-	para "It's great how"
-	line "trainers can"
-	cont "interact."
+	para "Es genial cómo"
+	line "los entrenadores"
+	cont "interactúan."
 	done
 
 .RefuseText:
-	text "Oh, all right."
-	line "Then we'll wait"
-	cont "till you're ready."
+	text "Oh, está bien."
+	line "Entonces espere-"
+	cont "mos a que estés"
+	cont "listo."
 	done
 
 BattleTower2FBuckScript:
@@ -195,22 +199,22 @@ BattleTower2FBuckScript:
 	faceplayer
 	opentext
 	writethistext
-		text "Ehehehe! You're"
-		line "here at last!"
+		text "¡Jejeje! ¡Al fin"
+		line "estás aquí!"
 
-		para "So we are going"
-		line "to battle?"
+		para "¿Así que vamos"
+		line "a combatir?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_BUCK_DONE_TODAY
 	writethistext
-		text "I can feel my"
-		line "#mon shivering"
+		text "¡Siento que mis"
+		line "#mon tiemblan"
 
-		para "inside their #"
-		line "Balls with antici-"
-		cont "pation!"
+		para "dentro de sus"
+		line "# Balls de"
+		cont "anticipación!"
 		done
 	waitbutton
 	closetext
@@ -228,21 +232,22 @@ BattleTower2FBuckScript:
 	jumpthistext
 
 .AfterText:
-	text "Fweh! Too much!"
+	text "¡Fiuuu! ¡Demasiado!"
 
-	para "I guess I'll keep"
-	line "improving my team."
+	para "Supongo que segui-"
+	line "ré mejorando a mi"
+	cont "equipo."
 	done
 
 .BeatenText:
-	text "Heeheehee!"
-	line "So hot, you!"
+	text "¡Jejeje!"
+	line "¡Qué ardiente!"
 	done
 
 .RefuseText:
-	text "Huh, what? That"
-	line "takes the wind out"
-	cont "of my sails."
+	text "Eh, ¿qué? Eso"
+	line "me quita todo el"
+	cont "entusiasmo."
 	done
 
 BattleTower2FMarleyScript:
@@ -251,15 +256,15 @@ BattleTower2FMarleyScript:
 	faceplayer
 	opentext
 	writethistext
-		text "…Oh? A battle?"
-		line "With me?"
+		text "...¿Oh? ¿Un com-"
+		line "bate? ¿Conmigo?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_MARLEY_DONE_TODAY
 	writethistext
-		text "…OK. I… won't"
-		line "lose…!"
+		text "...Vale. Yo..."
+		line "¡no perderé...!"
 		done
 	waitbutton
 	closetext
@@ -282,21 +287,22 @@ BattleTower2FMarleyScript:
 	jumpthistext
 
 .AfterText:
-	text "…I might like"
-	line "battling with you."
+	text "...Puede que me"
+	line "guste combatir"
+	cont "contigo."
 
-	para "…Just a little."
-	line "Only a tiny bit."
+	para "...Solo un poco."
+	line "Solo un poquitín."
 	done
 
 .BeatenText:
-	text "…Awww."
+	text "...Ohhh."
 	done
 
 .RefuseText:
-	text "…Oh, you. I'm get-"
-	line "ting to dislike"
-	cont "you a little."
+	text "...Oh, vaya. Estás"
+	line "empezando a cae-"
+	cont "rme un poco mal."
 	done
 
 BattleTower2FMiraScript:
@@ -305,20 +311,20 @@ BattleTower2FMiraScript:
 	faceplayer
 	opentext
 	writethistext
-		text "<PLAYER>! Mira is"
-		line "stronger now!"
+		text "¡<PLAYER>! ¡Mira"
+		line "es más fuerte!"
 
-		para "Please! Battle"
-		line "with Mira!"
+		para "¡Por favor! ¡Com-"
+		line "bate con Mira!"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_MIRA_DONE_TODAY
 	writethistext
-		text "Mira will show you"
-		line "that Mira doesn't"
+		text "¡Mira te de-"
+		line "mostrará que ya no"
 
-		para "get lost anymore,"
+		para "se pierde,"
 		line "<PLAYER>!"
 		done
 	waitbutton
@@ -337,28 +343,29 @@ BattleTower2FMiraScript:
 	jumpthistext
 
 .AfterText:
-	text "<PLAYER>, you are"
-	line "always with your"
+	text "<PLAYER>, siempre"
+	line "estás con tus"
 	cont "#mon."
 
-	para "That's how you got"
-	line "to be so strong."
+	para "Así es como te"
+	line "hiciste tan fuer-"
+	cont "te."
 
-	para "Mira is beginning"
-	line "to understand!"
+	para "¡Mira empieza"
+	line "a entenderlo!"
 	done
 
 .BeatenText:
-	text "Mira wonders if"
-	line "she can get very"
+	text "Mira se pregunta"
+	line "si podrá llegar"
 
-	para "far in the Battle"
-	line "Tower."
+	para "muy lejos en la"
+	line "Torre Batalla."
 	done
 
 .RefuseText:
-	text "Mira is a little"
-	line "sad…"
+	text "Mira está un po-"
+	line "co triste..."
 	done
 
 BattleTower2FAnabelScript:
@@ -367,21 +374,21 @@ BattleTower2FAnabelScript:
 	faceplayer
 	opentext
 	writethistext
-		text "You really did"
-		line "come to see me…"
+		text "De verdad viniste"
+		line "a verme..."
 
-		para "I won't have to"
-		line "hold back against"
-		cont "you…"
+		para "No tendré que con-"
+		line "tenerme conti-"
+		cont "go..."
 
-		para "Are you ready?"
+		para "¿Estás listo?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_ANABEL_DONE_TODAY
 	writethistext
-		text "Let's begin,"
-		line "shall we?"
+		text "Empecemos,"
+		line "¿te parece?"
 		done
 	waitbutton
 	closetext
@@ -393,98 +400,101 @@ BattleTower2FAnabelScript:
 	jumpthistext
 
 .AfterText:
-	text "That was fun…"
+	text "Eso fue diverti-"
+	line "do..."
 
-	para "I have never had"
-	line "a #mon battle"
+	para "Nunca antes había"
+	line "tenido un comba-"
 
-	para "so enjoyable"
-	line "before…"
+	para "te #mon tan"
+	line "agradable..."
 	done
 
 .BeatenText:
-	text "Thank you…"
+	text "Gracias..."
 	done
 
 .RefuseText:
-	text "It's very dis-"
-	line "appointing…"
+	text "Es muy decep-"
+	line "cionante..."
 	done
 
 BattleTower2FCooltrainermText:
-	text "I need to go, but"
-	line "I just can't stop"
+	text "Me tengo que ir,"
+	line "¡pero no puedo"
 
-	para "watching this"
-	line "battle!"
+	para "dejar de mirar es-"
+	line "te combate!"
 	done
 
 BattleTower2FLadyText:
-	text "What makes me most"
-	line "happy being a"
-	cont "trainer?"
+	text "¿Qué es lo que más"
+	line "me gusta de ser"
+	cont "entrenadora?"
 
-	para "The fact that"
-	line "#mon will bring"
+	para "¡El hecho de que"
+	line "los #mon me"
 
-	para "me lots of"
-	line "friends!"
+	para "traerán un mon-"
+	line "tón de amigos!"
 	done
 
 BattleTower2FTwinText:
-	text "Some people are"
-	line "surprised to see"
+	text "Algunos se"
+	line "sorprenden al ver"
 
-	para "a small girl like"
-	line "me at the Battle"
-	cont "Tower."
+	para "a una niña peque-"
+	line "ña como yo en la"
+	cont "Torre Batalla."
 
-	para "It's not like I"
-	line "have to battle"
-	cont "myself, you know?"
+	para "Tampoco es que yo"
+	line "tenga que luchar,"
+	cont "¿sabes?"
 	done
 
 BattleTower2FSuperNerdText:
-	text "Hehe! All the"
-	line "trainers around us"
-	cont "look so pathetic!"
+	text "¡Jeje! ¡Todos los"
+	line "entrenadores que"
+	cont "nos rodean pare-"
+	cont "cen patéticos!"
 
-	para "…Actually, that"
-	line "mindset makes you"
-	cont "lose with one hit!"
+	para "...En realidad,"
+	line "¡pensar así hace"
+	cont "que pierdas de"
+	cont "un golpe!"
 
-	para "Don't let your"
-	line "guard down,"
+	para "¡No bajes la"
+	line "guardia,"
 	cont "Pikachu!"
 	done
 
 BattleTower2FPikachuText:
-	text "Pikachu: Pichuu!"
+	text "Pikachu: ¡Pichuu!"
 	done
 
 BattleTower2FYoungsterText:
-	text "To be strong is to"
-	line "be weak."
+	text "Ser fuerte es ser"
+	line "débil."
 
-	para "To be weak is to"
-	line "be strong."
+	para "Ser débil es ser"
+	line "fuerte."
 
-	para "Somebody told me"
-	line "that before."
+	para "Alguien me dijo"
+	line "eso antes."
 
-	para "I don't understand"
-	line "it, but it sounds"
-	cont "deep."
+	para "No lo entiendo,"
+	line "pero suena pro-"
+	cont "fundo."
 	done
 
 BattleTower2FBlackbeltText:
-	text "The karate gi is"
-	line "the uniform of"
-	cont "fighters!"
+	text "¡El karategi es"
+	line "el uniforme de"
+	cont "los luchadores!"
 
-	para "There is nothing"
-	line "better suited for"
+	para "¡No hay nada más"
+	line "adecuado para la"
 
-	para "the Battle Tower"
-	line "than this!"
+	para "Torre Batalla que"
+	line "esto!"
 	done

@@ -56,40 +56,43 @@ BlackthornCitySantosCallback:
 	endcallback
 
 BlackthornCitySignText:
-	text "Blackthorn City"
+	text "Ciudad Endrino"
 
-	para "A Quiet Mountain"
-	line "Retreat"
+	para "Un retiro"
+	line "tranquilo en"
+	cont "la montaña"
 	done
 
 BlackthornGymSignText:
-	text "Blackthorn City"
-	line "#mon Gym"
-	cont "Leader: Clair"
+	text "Gimnasio #mon de"
+	line "Ciudad Endrino"
+	cont "Líder: Débora"
 
-	para "The Blessed User"
-	line "of Dragon #mon"
+	para "La maestra en el"
+	line "uso de #mon"
+	cont "Dragón"
 	done
 
 MoveDeletersHouseSignText:
-	text "Move Deleter's"
-	line "House"
+	text "Casa del Quita-"
+	line "movimientos"
 	done
 
 DragonDensSignText:
-	text "Dragon's Den"
-	line "Ahead"
+	text "Guarida Dragón"
+	line "más adelante"
 	done
 
 BlackthornCityTrainerTipsText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "A #mon holding"
-	line "a Lum Berry"
+	para "Un #mon que"
+	line "lleve una Baya"
+	cont "Ziuela"
 
-	para "will cure itself"
-	line "of any status"
-	cont "problem."
+	para "se curará de"
+	line "cualquier proble-"
+	cont "ma de estado."
 	done
 
 SantosScript:
@@ -112,45 +115,45 @@ SantosScript:
 	setevent EVENT_GOT_SPELL_TAG_FROM_SANTOS
 	jumpthisopenedtext
 
-	text "Santos: …"
+	text "Santos: ..."
 
-	para "Spell Tag…"
+	para "Hechizo..."
 
-	para "Ghost-type moves"
-	line "get stronger…"
+	para "Los ataques tipo"
+	line "Fantasma se ha-"
+	cont "cen más fuertes..."
 
-	para "It will frighten"
-	line "you…"
+	para "Te asustará..."
 	done
 
 .NotSaturday:
 	jumpthistextfaceplayer
 
-	text "Santos: Today's"
-	line "not Saturday…"
+	text "Santos: Hoy no"
+	line "es sábado..."
 	done
 
 .MeetText:
-	text "Santos: …"
+	text "Santos: ..."
 
-	para "It's Saturday…"
+	para "Es sábado..."
 
-	para "I'm Santos of"
-	line "Saturday…"
+	para "Soy Santos del"
+	line "sábado..."
 	done
 
 .GivesGiftText:
-	text "You can have this…"
+	text "Puedes tener esto."
 	done
 
 .SaturdayText:
-	text "Santos: …"
+	text "Santos: ..."
 
-	para "See you again on"
-	line "another Saturday…"
+	para "Nos veremos en"
+	line "otro sábado..."
 
-	para "I won't have any"
-	line "more gifts…"
+	para "No tendré más"
+	line "regalos..."
 	done
 
 BlackthornDragonTamer1Script:
@@ -160,42 +163,39 @@ BlackthornDragonTamer1Script:
 	iftrue_jumptextfaceplayer .ClairIsInText
 	jumpthistextfaceplayer
 
-	text "I am sorry."
+	text "Lo siento."
 
-	para "Clair, our Gym"
-	line "Leader, entered"
+	para "Débora, nuestra"
+	line "Líder de Gimnasio,"
 
-	para "the Dragon's Den"
-	line "behind the Gym."
+	para "entró en la Guari-"
+	line "da Dragón, de-"
+	cont "trás del Gimnasio."
 
-	para "I have no idea"
-	line "when our Leader"
-	cont "will return."
+	para "No tengo idea de"
+	line "cuándo volverá."
 	done
 
 .ClairIsInText:
-	text "Clair, our Gym"
-	line "Leader, is waiting"
-	cont "for you."
+	text "Débora, la Líder,"
+	line "te está esperando."
 
-	para "However, it would"
-	line "be impossible for"
-
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para "Sin embargo, un"
+	line "entrenador corrien"
+	cont "te no ganaría."
 	done
 
 .ClairIsBeatenText:
-	text "You defeated"
-	line "Clair?"
+	text "¿Venciste a"
+	line "Débora?"
 
-	para "That's amazing!"
+	para "¡Es increíble!"
 
-	para "I've never heard"
-	line "of her losing to"
+	para "Nunca escuché"
+	line "que perdiera con"
 
-	para "anyone other than"
-	line "her cousin Lance."
+	para "nadie que no sea"
+	line "su primo Lance."
 	done
 
 BlackthornBlackbeltScript:
@@ -203,86 +203,90 @@ BlackthornBlackbeltScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "My radio's busted?"
-	line "Lately, I only get"
-	cont "this weird signal."
+	text "¿Se rompió la ra-"
+	line "dio? Últimamente,"
+	cont "solo capta una"
+	cont "señal extraña."
 	done
 
 .Text2:
-	text "Arooo! Voices in"
-	line "my head!"
+	text "¡Auuu! ¡Voces en"
+	line "mi cabeza!"
 
-	para "Huh? I'm listening"
-	line "to my radio!"
+	para "¿Eh? ¡Estoy escu-"
+	line "chando la radio!"
 	done
 
 BlackthornGramps1Text:
-	text "No. Only chosen"
-	line "trainers may train"
-	cont "here."
+	text "No. Solo los en-"
+	line "trenadores elegi-"
+	cont "dos pueden en-"
+	cont "trenar aquí."
 
-	para "Please leave."
+	para "Por favor, vete."
 	done
 
 BlackthornGramps2Text:
-	text "If Clair allows"
-	line "it, her grand-"
-	cont "father--our Master"
-	cont "--will also."
+	text "Si Débora lo per-"
+	line "mite, su abue-"
+	cont "lo, nuestro Maes-"
+	cont "tro, también."
 
-	para "You may enter."
+	para "Puedes entrar."
 	done
 
 BlackthornLassText:
-	text "Are you going to"
-	line "make your #mon"
-	cont "forget some moves?"
+	text "¿Vas a hacer que"
+	line "tus #mon olvi-"
+	cont "den algún movi-"
+	cont "miento?"
 	done
 
 BlackthornYoungsterText:
-	text "Dragon masters all"
-	line "come from the city"
-	cont "of Blackthorn."
+	text "Los maestros Dra-"
+	line "gón provienen to-"
+	cont "dos de la ciudad"
+	cont "de Endrino."
 	done
 
 BlackthornCooltrainerF1Text:
-	text "Wow, you came"
-	line "through the Ice"
-	cont "Path?"
+	text "Vaya, ¿has pasado"
+	line "por la Ruta"
+	cont "Helada?"
 
-	para "You must be a real"
-	line "hotshot trainer!"
+	para "¡Debes de ser un"
+	line "entrenador de pri-"
+	cont "mera!"
 	done
 
 BlackthornCooltrainerF2Text:
-	text "The Fairy type was"
-	line "discovered only"
-	cont "recently."
+	text "El tipo Hada fue"
+	line "descubierto hace"
+	cont "poco tiempo."
 
-	para "It totally shuts"
-	line "down Dragon types."
+	para "Acaba totalmente"
+	line "con los #mon de"
+	cont "tipo Dragón."
 	done
 
 BlackthornDragonTamer2Text:
-	text "When our Gym Lead-"
-	line "er was a young"
+	text "Cuando nuestra Lí-"
+	line "der era una joven,"
 
-	para "girl, she used to"
-	line "train in the"
+	para "solía entrenar en"
+	line "la Guarida Dra-"
 
-	para "Dragon's Den non-"
-	line "stop."
+	para "gón sin parar."
 	done
 
 BlackthornDragonTamer3Text:
-	text "Blackthorn City is"
-	line "the home of many"
+	text "Ciudad Endrino es"
+	line "el hogar de muchos"
 
-	para "famous dragon"
-	line "tamers, including"
-	cont "Lance."
+	para "domadragones famo-"
+	line "sos, como Lance."
 
-	para "He's our Gym Lead-"
-	line "er's cousin, you"
-	cont "know!"
+	para "Es el primo de"
+	line "nuestra Líder,"
+	cont "¡ya sabes!"
 	done

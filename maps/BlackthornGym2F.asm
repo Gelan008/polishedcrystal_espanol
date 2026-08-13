@@ -58,50 +58,53 @@ BlackthornGym2FBoulders:
 	earthquake 80
 	jumpthistext
 
-	text "The boulder fell"
-	line "through!"
+	text "¡La roca cayó"
+	line "hacia abajo!"
 	done
 
 GenericTrainerCooltrainermCody:
 	generictrainer COOLTRAINERM, CODY, EVENT_BEAT_COOLTRAINERM_CODY, .SeenText, .BeatenText
 
-	text "Members of our"
-	line "dragon-user clan"
+	text "Los miembros de"
+	line "nuestro clan de"
+	cont "domadragones"
 
-	para "can use dragon"
-	line "#mon only after"
+	para "solo pueden usar"
+	line "dragones cuando"
 
-	para "our Master allows"
-	line "it."
+	para "el Maestro se lo"
+	line "permita."
 	done
 
 .SeenText:
-	text "It's not as if we"
-	line "all use Dragon-"
-	cont "type #mon."
+	text "Tampoco es que"
+	line "todos usemos #-"
+	cont "mon tipo Dragón."
 	done
 
 .BeatenText:
-	text "Rats! If only I"
-	line "had a dragon!"
+	text "¡Rayos! ¡Si tan"
+	line "solo tuviera un"
+	cont "dragón!"
 	done
 
 GenericTrainerCooltrainerfFran:
 	generictrainer COOLTRAINERF, FRAN, EVENT_BEAT_COOLTRAINERF_FRAN, .SeenText, .BeatenText
 
-	text "Uh-oh… Clair is"
-	line "going to be mad…"
+	text "Ay, ay... Débora"
+	line "se enfadará..."
 	done
 
 .SeenText:
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "past me!"
+	text "¡No puedo permi-"
+	line "tir que pase un"
+	cont "entrenador sin"
+	cont "nombre!"
 
-	para "Clair would be"
-	line "livid if I did!"
+	para "¡Débora se pon-"
+	line "dría furiosa!"
 	done
 
 .BeatenText:
-	text "Awww… I lost…"
+	text "Ayyy... Perdí..."
 	done

@@ -178,7 +178,7 @@ DragonShrineElder1Script:
 	iftrue_jumptextfaceplayer DragonShrineSilverIsInTrainingText
 	jumpthistextfaceplayer
 
-	text "Clair appears to"
+	text "Débora appears to"
 	line "have learned an"
 
 	para "invaluable lesson"
@@ -336,7 +336,7 @@ DragonShrineElderGreetingText:
 	para "No need to explain"
 	line "why you came."
 
-	para "Clair sent you"
+	para "Débora sent you"
 	line "here, didn't she?"
 
 	para "That girl is a"
@@ -402,7 +402,7 @@ DragonShrinePassedTestText:
 	done
 
 DragonShrineMustIInformLanceText:
-	text "Clair!"
+	text "Débora!"
 
 	para "This child is"
 	line "impeccable, in"
@@ -417,7 +417,7 @@ DragonShrineMustIInformLanceText:
 	done
 
 DragonShrineElderScoldsClairText:
-	text "Clair…"
+	text "Débora…"
 
 	para "Reflect upon what"
 	line "it is that you"
@@ -472,7 +472,7 @@ DragonShrineSilverIsInTrainingText:
 	cont "training here."
 
 	para "He is much like"
-	line "Clair when she was"
+	line "Débora when she was"
 
 	para "younger. It is a"
 	line "little worrisome…"

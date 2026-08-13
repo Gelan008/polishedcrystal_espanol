@@ -26,103 +26,112 @@ BeautifulBeach_MapScriptHeader:
 	fruittree_event -2, 13, FRUITTREE_SHAMOUTI_ISLAND, FIGY_BERRY, PAL_NPC_BROWN
 
 BeautifulBeachWelcomeSignText:
-	text "Welcome to"
-	line "Shamouti Island!"
+	text "¡Bienvenido a la"
+	line "Isla Shamouti!"
 
-	para "The main island"
-	line "is just west."
+	para "La isla principal"
+	line "está justo al"
+	cont "oeste."
 	done
 
 BeautifulBeachVillaSignText:
-	text "Island Villa"
+	text "Villa Isleña"
 	done
 
 GenericTrainerAromaLadyBryony:
 	generictrainer AROMA_LADY, BRYONY, EVENT_BEAT_AROMA_LADY_BRYONY, .SeenText, .BeatenText
 
-	text "I am always in-"
-	line "vigorated by the"
-	cont "scents here."
+	text "Siempre me in-"
+	line "vigorizan los aro-"
+	cont "mas de aquí."
 	done
 
 .SeenText:
-	text "Tropical flowers,"
-	line "a sea breeze…"
+	text "Flores tropica-"
+	line "les, brisa ma-"
+	cont "rina..."
 
-	para "Shamouti Island"
-	line "is full of del-"
-	cont "icious scents!"
+	para "¡La Isla Shamouti"
+	line "está llena de de-"
+	cont "liciosos aromas!"
 	done
 
 .BeatenText:
-	text "Did the island's"
-	line "scent inspire you"
-	cont "to win?"
+	text "¿Acaso el aroma de"
+	line "la isla te inspi-"
+	cont "ró a ganar?"
 	done
 
 GenericTrainerSightseermJaska:
 	generictrainer SIGHTSEERM, JASKA, EVENT_BEAT_SIGHTSEERM_JASKA, .SeenText, .BeatenText
 
-	text "I know it's silly,"
-	line "but I feel safer"
+	text "Sé que es una ton-"
+	line "tería, pero me"
+	cont "siento más seguro"
 
-	para "traveling with a"
-	line "good-luck charm."
+	para "viajando con un"
+	line "amuleto de la"
+	cont "suerte."
 	done
 
 .SeenText:
-	text "My lucky socks"
-	line "keep me safe dur-"
-	cont "ing my travels."
+	text "Mis calcetines de"
+	line "la suerte me"
+
+	para "mantienen a salvo"
+	line "en mis viajes."
 	done
 
 .BeatenText:
-	text "They don't help"
-	line "me win battles…"
+	text "Pero no me ayudan"
+	line "a ganar combates..."
 	done
 
 GenericTrainerTamerVince:
 	generictrainer TAMER, VINCE, EVENT_BEAT_TAMER_VINCE, .SeenText, .BeatenText
 
-	text "My #mon are"
-	line "expertly tamed,"
+	text "Mis #mon están"
+	line "domados experta-"
+	cont "mente,"
 
-	para "but I remain as"
-	line "wild as ever!"
+	para "¡pero yo sigo sien-"
+	line "do tan salvaje"
+	cont "como siempre!"
 	done
 
 .SeenText:
-	text "My roaring spirit"
-	line "shall never be"
-	cont "tamed!"
+	text "¡Mi espíritu rugi-"
+	line "dor nunca será do-"
+	cont "mado!"
 	done
 
 .BeatenText:
-	text "Nyuh?! ROAR!"
+	text "¡¿Ñe?! ¡ROAR!"
 	done
 
 GenericTrainerSightseerfRosie:
 	generictrainer SIGHTSEERF, ROSIE, EVENT_BEAT_SIGHTSEERF_ROSIE, .SeenText, .BeatenText
 
-	text "Shamouti Island"
-	line "has so much"
-	cont "history!"
+	text "¡La Isla Shamouti"
+	line "tiene mucha his-"
+	cont "toria!"
 
-	para "I can't wait to"
-	line "photograph it."
+	para "No puedo esperar"
+	line "a fotografiarla."
 	done
 
 .SeenText:
-	text "The shrine, the"
-	line "three temples,"
-	cont "the old ruins…"
-	cont "Where to first?"
+	text "El santuario, los"
+	line "tres templos, las"
+	cont "antiguas ruinas..."
+	cont "¿Adónde ir pri-"
+	cont "mero?"
 	done
 
 .BeatenText:
-	text "I guess the #-"
-	line "mon Center is"
-	cont "first."
+	text "Supongo que el Cen-"
+	line "tro #mon es lo"
+	cont "primero."
 	done
 
 TrainerSwimmerfRachel:
@@ -132,45 +141,48 @@ TrainerSwimmerfRachel:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "I could spend all"
-	line "day in this water."
+	text "Podría pasarme to-"
+	line "do el día en este"
+	cont "agua."
 	done
 
 .SeenText:
-	text "White sand and"
-	line "blue water…"
+	text "Arena blanca y"
+	line "agua azul..."
 
-	para "Beautiful Beach"
-	line "lives up to its"
-	cont "nickname!"
+	para "¡La Costa Bella"
+	line "hace honor a su"
+	cont "nombre!"
 	done
 
 .BeatenText:
-	text "You fight"
-	line "beautifully!"
+	text "¡Peleas de forma"
+	line "preciosa!"
 	done
 
 GenericTrainerArtistMarlene:
 	generictrainer ARTIST, MARLENE, EVENT_BEAT_ARTIST_MARLENE, .SeenText, .BeatenText
 
-	text "The three primary"
-	line "colors of paint"
+	text "Los tres colores"
+	line "primarios de la"
+	cont "pintura"
 
-	para "are red, blue,"
-	line "and yellow."
+	para "son rojo, azul"
+	line "y amarillo."
 
-	para "But for light"
-	line "they're red, blue,"
-	cont "and green."
+	para "Pero para la luz"
+	line "son rojo, azul y"
+	cont "verde."
 	done
 
 .SeenText:
-	text "My Smeargle trio"
-	line "can paint any"
-	cont "scene!"
+	text "¡Mi trío de"
+	line "Smeargle puede"
+	cont "pintar cualquier"
+	cont "escena!"
 	done
 
 .BeatenText:
-	text "They couldn't win"
-	line "a battle…"
+	text "Pero no pudieron"
+	line "ganar un combate..."
 	done

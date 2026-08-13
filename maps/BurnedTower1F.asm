@@ -191,162 +191,171 @@ BurnedTower1FEusineMovement:
 	step_end
 
 BurnedTowerRival_BeforeText:
-	text "…… …… ……"
+	text "...... ...... ......"
 
-	para "…Oh, it's you."
+	para "...Oh, eres tú."
 
-	para "I came looking for"
-	line "some legendary"
+	para "Vine buscando a"
+	line "un #mon legen-"
+	cont "dario que dicen"
+	cont "que anida aquí."
 
-	para "#mon that they"
-	line "say roosts here."
+	para "¡Pero aquí no hay"
+	line "nada!"
 
-	para "But there's"
-	line "nothing here!"
+	para "¿Nada después de"
+	line "las molestias de"
 
-	para "Nothing after all"
-	line "the trouble of"
+	para "venir a este ba-"
+	line "surero? ¡Ni"
+	cont "hablar!"
 
-	para "coming to this"
-	line "dump? No way!"
-
-	para "It's all your"
-	line "fault!"
+	para "¡Todo esto es"
+	line "culpa tuya!"
 	done
 
 BurnedTowerRival_WinText:
-	text "…Humph!"
+	text "...¡Humpf!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Por esto odio lu-"
+	line "char con cobardes."
 
-	para "There's no"
-	line "challenge in it."
+	para "No supone ningún"
+	line "desafío."
 	done
 
 BurnedTowerRival_AfterText1:
-	text "…Aw, whatever."
+	text "...Ah, da igual."
 
-	para "You would never be"
-	line "able to catch a"
+	para "Tú nunca serías"
+	line "capaz de atrapar"
 
-	para "legendary #mon"
-	line "anyway."
+	para "a un #mon le-"
+	line "gendario de to-"
+	cont "das formas."
 	done
 
 BurnedTowerRival_LossText:
-	text "…Humph!"
+	text "...¡Humpf!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Por esto odio lu-"
+	line "char con cobardes."
 
-	para "It's just a waste"
-	line "of my time."
+	para "Es solo una"
+	line "pérdida de"
+	cont "tiempo."
 	done
 
 BurnedTowerRival_AfterText2:
-	text "Humph!"
+	text "¡Humpf!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "¿Qué haces"
+	line "cayéndote en un"
 
-	para "hole? Some genius"
-	line "you are!"
+	para "agujero? ¡Menudo"
+	line "genio estás hecho!"
 
-	para "Serves you right!"
+	para "¡Te lo mereces!"
 	done
 
 BurnedTower1FEusineIntroText:
-	text "Eusine: My name's"
+	text "Eusine: Me llamo"
 	line "Eusine."
 
-	para "I'm on the trail"
-	line "of a #mon named"
-	cont "Suicune."
+	para "Sigo el rastro de"
+	line "un #mon llama-"
+	cont "do Suicune."
 
-	para "And you are…?"
+	para "¿Y tú eres...?"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para "¿<PLAYER>? ¡Encan-"
+	line "tado de conocerte!"
 
-	para "I heard rumors"
-	line "that Suicune is in"
+	para "Oí rumores de"
+	line "que Suicune está"
 
-	para "this Burned Tower,"
-	line "so I came to look."
+	para "en la Torre"
+	line "Quemada, así que"
+	cont "vine a ver."
 
-	para "But where exactly"
-	line "could it be?"
+	para "Pero ¿dónde po-"
+	line "dría estar exac-"
+	cont "tamente?"
 	done
 
 BurnedTower1FEusineText:
-	text "Eusine: I heard"
-	line "that Suicune is in"
+	text "Eusine: Oí rumores"
+	line "de que Suicune"
+	cont "está en"
 
-	para "this Burned Tower,"
-	line "so I came to look."
+	para "esta Torre Que-"
+	line "mada, así que"
+	cont "vine a ver."
 
-	para "But where exactly"
-	line "could it be?"
+	para "Pero ¿dónde po-"
+	line "dría estar exac-"
+	cont "tamente?"
 	done
 
 BurnedTower1FMortyText:
-	text "Morty: Ecruteak's"
-	line "Gym Leader has to"
+	text "Morty: El Líder"
+	line "del Gimnasio de"
+	cont "Iris tiene que"
 
-	para "study what are"
-	line "said to be the"
+	para "estudiar a los que"
+	line "dicen ser"
 
-	para "legendary #mon"
-	line "--Suicune, Entei"
-	cont "and Raikou."
+	para "#mon legenda-"
+	line "rios: Suicune,"
+	cont "Entei y Raikou."
 
-	para "Eusine is here, so"
-	line "I've decided to"
+	para "Eusine está aquí,"
+	line "así que he decidi-"
 
-	para "investigate the"
-	line "Tower with him."
+	para "do investigar la"
+	line "Torre con él."
 	done
 
 HexManiacTamaraSeenText:
-	text "A strange power is"
-	line "present here…"
+	text "Siento un extraño"
+	line "poder aquí..."
 	done
 
 HexManiacTamaraBeatenText:
-	text "I have lost…"
+	text "He perdido..."
 	done
 
 FirebreatherNedSeenText:
-	text "My soul is on"
-	line "fire. I'll show"
+	text "Mi alma está en"
+	line "llamas. ¡Te mos-"
 
-	para "you how hot it"
-	line "burns!"
+	para "traré lo mucho"
+	line "que arde!"
 	done
 
 FirebreatherNedBeatenText:
-	text "Still not hot"
-	line "enough…"
+	text "Aún no hace bas-"
+	line "tante calor..."
 	done
 
 FirebreatherDickBeforeText:
-	text "Hey, I'm training"
-	line "secretly here!"
+	text "¡Oye, estoy en-"
+	line "trenando en se-"
+	cont "creto aquí!"
 
-	para "Don't embarrass me"
-	line "by looking!"
+	para "¡No me avergüences"
+	line "mirando!"
 	done
 
 FirebreatherDickBeatenText:
-	text "I burned down to"
-	line "white ashes…"
+	text "Me quemé hasta"
+	line "quedar en cenizas."
 	done
 
 FirebreatherDickAfterText:
-	text "I was so into my"
-	line "training that I"
+	text "Estaba tan concen-"
+	line "trado entrenando"
 
-	para "fell down this"
-	line "hole."
+	para "que me caí por"
+	line "este agujero."
 	done

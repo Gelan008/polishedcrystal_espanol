@@ -108,13 +108,13 @@ WonderTradeOTNames1:
 	rawchar "Luana@@" ; $69
 	rawchar "Prima@@" ; $6a
 	rawchar "Pegaso@" ; $6b
-	rawchar "Bugsy@@" ; $6c
+	rawchar "Antón@@" ; $6c
 	rawchar "Blanca@" ; $6d
 	rawchar "Morty@@" ; $6e
 	rawchar "Chuck@@" ; $6f
 	rawchar "Jasmine" ; $70
 	rawchar "Pryce@@" ; $71
-	rawchar "Clair@@" ; $72
+	rawchar "Débora@" ; $72
 	rawchar "Will@@@" ; $73
 	rawchar "Koga@@@" ; $74
 	rawchar "Karen@@" ; $75
@@ -162,14 +162,14 @@ WonderTradeOTNames1:
 	rawchar "Shantal" ; $9f
 	rawchar "Marshal" ; $a0
 	rawchar "Grimsly" ; $a1
-	rawchar "Caitlin" ; $a2
+	rawchar "Catleya" ; $a2
 	rawchar "Alder@@" ; $a3
 	rawchar "Viola@@" ; $a4
 	rawchar "Grant@@" ; $a5
 	rawchar "Korrina" ; $a6
 	rawchar "Ramos@@" ; $a7
 	rawchar "Clemont" ; $a8
-	rawchar "Valerie" ; $a9
+	rawchar "Valeria" ; $a9
 	rawchar "Olympia" ; $aa
 	rawchar "Wulfric" ; $ab
 	rawchar "Malva@@" ; $ac
@@ -195,11 +195,11 @@ WonderTradeOTNames1:
 	rawchar "Lucy@@@" ; $c0
 	rawchar "Spenser" ; $c1
 	rawchar "Brandon" ; $c2
-	rawchar "Anabel@" ; $c3
-	rawchar "Palmer@" ; $c4
-	rawchar "Thorton" ; $c5
+	rawchar "Destra@" ; $c3
+	rawchar "Jericor" ; $c4
+	rawchar "Espinal" ; $c5
 	rawchar "Dahlia@" ; $c6
-	rawchar "Darach@" ; $c7
+	rawchar "Kokuran" ; $c7
 	rawchar "Argenta" ; $c8
 	rawchar "Proton@" ; $c9
 	rawchar "Petrel@" ; $ca
@@ -238,7 +238,7 @@ WonderTradeOTNames1:
 	rawchar "Anthea@" ; $eb
 	rawchar "Concord" ; $ec
 	rawchar "Aliana@" ; $ed
-	rawchar "Bryony@" ; $ee
+	rawchar "Begonia" ; $ee
 	rawchar "Celosia" ; $ef
 	rawchar "Mable@@" ; $f0
 	rawchar "Xerosic" ; $f1
@@ -343,11 +343,11 @@ WonderTradeOTNames2:
 	rawchar "Kiri@@@" ; $50
 	rawchar "Johanna" ; $51
 	rawchar "Looker@" ; $52
-	rawchar "Cheryl@" ; $53
-	rawchar "Riley@@" ; $54
-	rawchar "Buck@@@" ; $55
-	rawchar "Marley@" ; $56
-	rawchar "Mira@@@" ; $57
+	rawchar "Malta@@" ; $53
+	rawchar "Quinoa@" ; $54
+	rawchar "Bulgur@" ; $55
+	rawchar "Sémola@" ; $56
+	rawchar "Maiza@@" ; $57
 	rawchar "Rosanne" ; $58
 	rawchar "Julia@@" ; $59
 	rawchar "Jordan@" ; $5a

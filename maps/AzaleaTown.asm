@@ -126,66 +126,67 @@ AzaleaTownRivalBattleTrigger2:
 	end
 
 .SeenText:
-	text "…Tell me some-"
-	line "thing."
+	text "...Dime una cosa."
 
-	para "Is it true that"
-	line "Team Rocket has"
-	cont "returned?"
+	para "¿Es verdad que el"
+	line "Team Rocket ha"
+	cont "vuelto?"
 
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	para "¿Qué? ¿Los has"
+	line "derrotado? ¡Ja!"
+	cont "No me mientas."
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "¿No bromeas?"
+	line "Pues a ver lo"
+	cont "bueno que eres."
 	done
 
 .WinText:
-	text "…Humph! Useless"
-	line "#mon!"
+	text "¡Uf! ¡#mon"
+	line "inútiles!"
 
-	para "Listen, you. You"
-	line "only won because"
+	para "Oye, tú. Solo has"
+	line "ganado porque"
 
-	para "my #mon were"
-	line "weak."
+	para "mis #mon eran"
+	line "débiles."
 	done
 
 .LossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "¡Uf! Sabía que"
+	line "estabas mintiendo."
 	done
 
 .AfterText:
-	text "I hate the weak."
+	text "Odio a los débi-"
+	line "les."
 
-	para "#mon, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "#mon, entrena-"
+	line "dores. Da igual"
+	cont "quién o qué."
 
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
+	para "Seré fuerte y aca-"
+	line "baré con todos los"
+	cont "débiles."
 
-	para "That goes for Team"
-	line "Rocket too."
+	para "Eso también va por"
+	line "el Team Rocket."
 
-	para "They act big and"
-	line "tough in a group."
+	para "Van de duros"
+	line "cuando van en"
+	cont "grupo."
 
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	para "Pero cuando están"
+	line "solos, son débiles."
 
-	para "I hate them all."
+	para "Los odio a todos."
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Y tú, apártate de"
+	line "mi camino. Un en-"
 
-	para "like you is only a"
-	line "distraction."
+	para "clenque como tú"
+	line "solo es una dis-"
+	cont "tracción."
 	done
 
 .ApproachMovement:
@@ -207,16 +208,17 @@ AzaleaTown_CelebiTrigger:
 	applymovement PLAYER, .WalkOutOfKurtsHouseMovement
 	opentext
 	writethistext
-		text "Ilex Forest is"
-		line "restless!"
+		text "¡El Encinar está"
+		line "muy agitado!"
 
-		para "What is going on?"
+		para "¿Qué está"
+		line "pasando?"
 		done
 	promptbutton
 	turnobject AZALEATOWN_KURT, RIGHT
 	writethistext
-		text "<PLAYER>, here's"
-		line "your GS Ball back!"
+		text "<PLAYER>, ¡te de-"
+		line "vuelvo la GS Ball!"
 		done
 	promptbutton
 	writetext AzaleaTownKurtText
@@ -237,11 +239,11 @@ AzaleaTown_CelebiTrigger:
 	step_end
 
 AzaleaTownSignText:
-	text "Azalea Town"
-	line "Where People and"
+	text "Pueblo Azalea"
+	line "Donde humanos y"
 
-	para "#mon Live in"
-	line "Happy Harmony"
+	para "#mon viven en"
+	line "feliz armonía"
 	done
 
 KurtsHouseSignText:
@@ -249,55 +251,59 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "Azalea Town"
-	line "#mon Gym"
-	cont "Leader: Bugsy"
+	text "Gimnasio #mon de"
+	line "Pueblo Azalea"
+	cont "Líder: Antón"
 
-	para "The Walking"
-	line "Bug #mon"
-	cont "Encyclopedia"
+	para "La enciclopedia"
+	line "viviente de los"
+	cont "#mon bicho"
 	done
 
 SlowpokeWellSignText:
-	text "Slowpoke Well"
+	text "Pozo Slowpoke"
 
-	para "Also known as the"
-	line "Rainmaker Well."
+	para "También conocido"
+	line "como Pozo de la"
+	cont "Lluvia."
 
-	para "Locals believe"
-	line "that a Slowpoke's"
-	cont "yawn summons rain."
+	para "Dicen que el bos-"
+	line "tezo de Slowpoke"
+	cont "atrae la lluvia."
 
-	para "Records show that"
-	line "a Slowpoke's yawn"
+	para "Existen registros"
+	line "que dicen que el"
 
-	para "ended a drought"
-	line "400 years ago."
+	para "bostezo de un"
+	line "Slowpoke acabó con"
+
+	para "una sequía hace"
+	line "400 años."
 	done
 
 CharcoalKilnSignText:
-	text "Charcoal Kiln"
+	text "Horno de Carbón"
 	done
 
 AzaleaTownIlexForestSignText:
-	text "Ilex Forest"
+	text "El Encinar"
 
-	para "Enter through the"
-	line "gate."
+	para "Entra por el"
+	line "portal."
 	done
 
 AzaleaTownAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Pista Avanzada!"
 
-	para "The Switch battle"
-	line "style lets you"
+	para "¡El estilo de com-"
+	line "bate Cambio te"
 
-	para "know which #-"
-	line "mon an opponent is"
-	cont "about to send out,"
+	para "permite saber qué"
+	line "#mon sacará el"
+	cont "oponente,"
 
-	para "but the Predict"
-	line "style does not!"
+	para "pero el estilo"
+	line "Fijo no!"
 	done
 
 AzaleaTownGrampsScript:
@@ -305,24 +311,24 @@ AzaleaTownGrampsScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The Slowpoke have"
-	line "disappeared from"
-	cont "town…"
+	text "Los Slowpoke han"
+	line "desaparecido del"
+	cont "pueblo..."
 
-	para "I heard their"
-	line "Tails are being"
-	cont "sold somewhere."
+	para "Dicen que venden"
+	line "sus Colas en al-"
+	cont "gún sitio."
 	done
 
 .Text2:
-	text "The Slowpoke have"
-	line "returned."
+	text "Los Slowpoke han"
+	line "vuelto."
 
-	para "Knowing them, they"
-	line "could've just been"
+	para "Conociéndolos,"
+	line "seguro que se"
 
-	para "goofing off some-"
-	line "where."
+	para "fueron a holga-"
+	line "zanear por ahí."
 	done
 
 AzaleaTownTeacherScript:
@@ -340,39 +346,40 @@ AzaleaTownTeacherScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "He has changed,"
-	line "but he'll always be"
+	text "Ha cambiado, pero"
+	line "siempre será mi"
 
-	para "my little Wooster"
-	line "to me."
+	para "pequeño Wooster"
+	line "para mí."
 	done
 
 .Text1:
-	text "It hasn't rained"
-	line "since the Slow-"
-	cont "poke vanished."
+	text "No ha llovido des-"
+	line "de que los Slow-"
+	cont "poke se fueron."
 
-	para "My poor Wooster"
-	line "can't thrive in"
-	cont "this weather…"
+	para "Mi pobre Wooster"
+	line "no puede vivir en"
+	cont "este clima..."
 	done
 
 .Text3:
-	text "In a sudden down-"
-	line "pour, my Wooster"
-	cont "evolved!"
+	text "¡Con el chaparrón,"
+	line "mi Wooster"
+	cont "evolucionó!"
 
-	para "Oh? You brought"
-	line "the Slowpoke back?"
+	para "¿Ah? ¿Tú trajiste"
+	line "de vuelta a los"
+	cont "Slowpoke?"
 
-	para "They brought the"
-	line "rain with them!"
+	para "¡Trajeron la"
+	line "lluvia con ellos!"
 
-	para "Thank you so"
-	line "much!"
+	para "¡Muchas gracias!"
 
-	para "Please take this,"
-	line "you deserve it!"
+	para "¡Por favor, toma"
+	line "esto, te lo has"
+	cont "ganado!"
 	done
 
 AzaleaTownWoosterText:
@@ -380,37 +387,37 @@ AzaleaTownWoosterText:
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through Azalea"
-	line "and you'll be in"
-	cont "Ilex Forest."
+	text "Atraviesa Pueblo"
+	line "Azalea y llegarás"
+	cont "al Encinar."
 
-	para "But these skinny"
-	line "trees make it"
+	para "Pero esos arbu-"
+	line "stos hacen impo-"
 
-	para "impossible to get"
-	line "through."
+	para "sible pasar por"
+	line "ahí."
 
-	para "The Charcoal Man's"
-	line "#mon can Cut"
-	cont "down trees."
+	para "El #mon del"
+	line "Carbonero puede"
+	cont "usar Corte."
 	done
 
 AzaleaTownRocket1Text:
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
+	text "Es peligroso en-"
+	line "trar ahí, así que"
+	cont "hago guardia."
 
-	para "Aren't I a good"
-	line "Samaritan?"
+	para "¿A que soy un"
+	line "buen samaritano?"
 	done
 
 AzaleaTownRocket2Text:
-	text "Do you know about"
-	line "SlowpokeTail? I"
-	cont "heard it's tasty!"
+	text "¿Conoces las Colas"
+	line "Slowpoke? ¡Dicen"
+	cont "que están ricas!"
 
-	para "Aren't you glad I"
-	line "told you that?"
+	para "¿A que te alegras"
+	line "de saberlo?"
 	done
 
 AzaleaTownSlowpokeScript:
@@ -422,7 +429,7 @@ AzaleaTownSlowpokeScript:
 		done
 	pause 60
 	writethistext
-		text "…… ……Yawn?"
+		text "…… ……¿Bostezo?"
 		done
 	cry SLOWPOKE
 	waitendtext
@@ -433,7 +440,7 @@ AzaleaTownKurtScript:
 	end
 
 AzaleaTownKurtText:
-	text "Could you go see"
-	line "why Ilex Forest is"
-	cont "so restless?"
+	text "¿Podrías ir a ver"
+	line "por qué el Encinar"
+	cont "está tan agitado?"
 	done

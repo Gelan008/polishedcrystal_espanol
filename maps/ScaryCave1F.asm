@@ -70,7 +70,7 @@ ScaryCave1FMiraScript:
 	end
 
 .ChallengeText:
-	text "I'm Mira…"
+	text "I'm Maiza…"
 	line "I was catching"
 
 	para "#mon, but this"
@@ -86,17 +86,17 @@ ScaryCave1FMiraScript:
 	done
 
 .YesText:
-	text "Yes! Mira will"
+	text "Yes! Maiza will"
 	line "show you her #-"
 	cont "mon!"
 	done
 
 .NoText:
-	text "Mira is sad…"
+	text "Maiza is sad…"
 	done
 
 .BeatenText:
-	text "Mira wants to get"
+	text "Maiza wants to get"
 	line "a lot, lot strong-"
 	cont "er, like <PLAYER>!"
 	done
@@ -112,18 +112,18 @@ ScaryCave1FMiraScript:
 	para "Yes! That has to"
 	line "be it!"
 
-	para "Mira is beginning"
+	para "Maiza is beginning"
 	line "to understand!"
 
 	para "Thank you,"
 	line "<PLAYER>!"
 
-	para "Mira wants you to"
+	para "Maiza wants you to"
 	line "have this!"
 	done
 
 .GoodbyeText:
-	text "Mira will try like"
+	text "Maiza will try like"
 	line "you, <PLAYER>!"
 
 	para "I'll get stronger"

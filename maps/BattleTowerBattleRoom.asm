@@ -50,10 +50,10 @@ Script_BattleRoomLoop:
 	applyonemovement PLAYER, turn_head_down
 	opentext
 	writethistext
-		text "<PLAYER> earned"
+		text "¡<PLAYER> ganó"
 		line ""
 		text_ram wStringBuffer1
-		text " BP!"
+		text " PB!"
 		done
 	waitsfx
 	specialsound
@@ -62,27 +62,28 @@ Script_BattleRoomLoop:
 	ifequalfwd BTCHALLENGE_FACILITYBRAIN, .WarnAboutTycoon
 .AskNextBattle:
 	writethistext
-		text "Next up, opponent"
-		line "No. "
+		text "El siguiente,"
+		line "rival N"
 		text_decimal wStringBuffer3, 2, 5
-		text ". Ready?"
+		text "¿Listo?"
 		done
 	sjumpfwd .ShownText
 .WarnAboutTycoon
 	writethistext
-		text "Congratulations"
-		line "on your winning"
-		cont "streak, trainer!"
+		text "¡Felicidades por"
+		line "tu racha de vic-"
+		cont "torias,"
+		cont "entrenador!"
 
-		para "The Tower Tycoon"
-		line "has sent word that"
+		para "El Amo Torre"
+		line "ha mandado decir"
 
-		para "he is impressed"
-		line "with your skill."
+		para "que tu habilidad"
+		line "le impresiona."
 
-		para "Are you ready to"
-		line "battle the Tower"
-		cont "Tycoon?"
+		para "¿Estás listo"
+		line "para luchar con-"
+		cont "tra el Amo Torre?"
 		done
 .ShownText
 	yesorno
@@ -94,8 +95,8 @@ Script_BattleRoomLoop:
 
 .DontBattleNextOpponent:
 	writethistext
-		text "Save and end the"
-		line "session?"
+		text "¿Guardar y termi-"
+		line "nar la sesión?"
 		done
 	yesorno
 	iffalsefwd .DontSaveAndEndTheSession
@@ -108,11 +109,11 @@ Script_BattleRoomLoop:
 	special SoftReset
 .DontSaveAndEndTheSession:
 	writethistext
-		text "Cancel your Battle"
-		line "Room challenge?"
+		text "¿Salir del desafío"
+		line "Sala de combates?"
 
-		para "Beware, it counts"
-		line "as a loss."
+		para "Ojo, se considera-"
+		line "rá una derrota."
 		done
 	yesorno
 	iffalse .AskNextBattle

@@ -116,7 +116,7 @@ CinnabarVolcano1FBuckScript:
 	end
 
 .ChallengeText:
-	text "Howdy! I'm Buck."
+	text "Howdy! I'm Bulgur."
 	line "And you're…"
 	cont "<PLAYER>?"
 

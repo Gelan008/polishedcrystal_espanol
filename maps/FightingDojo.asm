@@ -786,21 +786,21 @@ FightingDojoScheduleWednesdayText:
 	done
 
 FightingDojoScheduleThursdayText:
-	text "Thursday: Bugsy,"
+	text "Thursday: Antón,"
 	line "???, Morty"
 	done
 
 FightingDojoScheduleThursdayPalmerText:
-	text "Thursday: Bugsy,"
-	line "Palmer, Morty"
+	text "Thursday: Antón,"
+	line "Jericor, Morty"
 	done
 
 FightingDojoScheduleFridayText:
 	text "Friday: Lt.Surge,"
-	line "???, Clair"
+	line "???, Débora"
 	done
 
 FightingDojoScheduleFridayYellowText:
 	text "Friday: Lt.Surge,"
-	line "Amarillo, Clair"
+	line "Amarillo, Débora"
 	done

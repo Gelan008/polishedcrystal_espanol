@@ -47,10 +47,10 @@ BattleFactoryHallwayEnterScene:
 .WonBattle:
 	opentext
 	writethistext
-		text "<PLAYER> earned"
+		text "¡<PLAYER> ganó"
 		line ""
 		text_ram wStringBuffer1
-		text " BP!"
+		text " PB!"
 		done
 	waitsfx
 	specialsound
@@ -60,27 +60,29 @@ BattleFactoryHallwayEnterScene:
 	ifequalfwd BTCHALLENGE_FACILITYBRAIN, .WarnAboutHead
 .AskNextBattle:
 	writethistext
-		text "Next up, opponent"
-		line "No. "
+		text "El siguiente,"
+		line "rival N"
 		text_decimal wStringBuffer3, 2, 5
-		text ". Ready?"
+		text "."
+		cont "¿Listo?"
 		done
 	sjumpfwd .ShownText
 .WarnAboutHead:
 	writethistext
-		text "Congratulations"
-		line "on your winning"
-		cont "streak, trainer!"
+		text "¡Felicidades por"
+		line "tu racha de vic-"
+		cont "torias,"
+		cont "entrenador!"
 
-		para "The Factory Head"
-		line "has sent word that"
+		para "El Jefe Fábrica"
+		line "ha mandado decir"
 
-		para "he is demanding"
-		line "a match with you."
+		para "que te exige"
+		line "un combate."
 
-		para "Are you ready to"
-		line "battle the"
-		cont "Factory Head?"
+		para "¿Estás listo"
+		line "para luchar"
+		cont "contra él?"
 		done
 .ShownText
 	yesorno
@@ -91,8 +93,8 @@ BattleFactoryHallwayEnterScene:
 
 .DontBattleNextOpponent:
 	writethistext
-		text "Save and end the"
-		line "session?"
+		text "¿Guardar y termi-"
+		line "nar la sesión?"
 		done
 	yesorno
 	iffalsefwd .DontSaveAndEndTheSession
@@ -105,11 +107,12 @@ BattleFactoryHallwayEnterScene:
 	special SoftReset
 .DontSaveAndEndTheSession:
 	writethistext
-		text "Cancel your Battle"
-		line "Floor challenge?"
+		text "¿Cancelar tu desa-"
+		line "fío en el Piso de"
+		cont "combates?"
 
-		para "Beware, it counts"
-		line "as a loss."
+		para "Ojo, se considera-"
+		line "rá una derrota."
 		done
 	yesorno
 	iffalse .AskNextBattle
@@ -130,17 +133,17 @@ BattleFactoryHallwayEnterScene:
 	opentext
 .NextRentalBattle_AfterOpenText:
 	writethistext
-		text "I've researched the"
-		line "next opponent."
+		text "He investigado al"
+		line "siguiente rival."
 		prompt
 
 	special Special_BattleTower_NextRentalBattle
 	iftruefwd .Continue
 
 	writethistext
-		text "Cancel your run?"
-		line "This counts as a"
-		cont "streak loss."
+		text "¿Cancelar?"
+		line "Esto cuenta como"
+		cont "perder la racha."
 		done
 	yesorno
 	iffalse .NextRentalBattle_AfterOpenText
@@ -174,8 +177,8 @@ BattleFactoryHallwayEnterScene:
 	step_end
 
 .PleaseStepThisWayText:
-	text "Please step this"
-	line "way."
+	text "Pase por aquí,"
+	line "por favor."
 	prompt
 
 .StepAbovePlayerMovement:

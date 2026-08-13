@@ -24,17 +24,17 @@ PokemonJournalClairScript:
 	setflag ENGINE_READ_CLAIR_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Clair!"
+	para "Reportaje especial:"
+	line "¡Líder Débora!"
 
-	para "Clair's bright blue"
-	line "outfit and cape"
+	para "El traje y la capa"
+	line "azul brillante de"
+	cont "Débora"
 
-	para "have made her the"
-	line "latest name in"
-	cont "fashion."
+	para "la han convertido"
+	line "en la última moda."
 	done
 
 ProfOaksAide4Script:
@@ -49,17 +49,17 @@ ProfOaksAide4Script:
 	iftruefwd .HereYouGo
 	jumpthisopenedtext
 
-	text "Let's see…"
-	line "Uh-oh! You've only"
+	text "Veamos..."
+	line "¡Vaya! Solo has"
 
-	para "caught "
+	para "atrapado "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " tipos"
+	line "de #mon."
 
-	para "Come back and see"
-	line "me when you catch"
-	cont "60 kinds."
+	para "Vuelve a verme"
+	line "cuando atrapes a"
+	cont "60 tipos."
 	done
 
 .HereYouGo
@@ -71,74 +71,79 @@ ProfOaksAide4Script:
 	jumpthisopenedtext
 
 .ExplainText:
-	text "That Lucky Egg"
-	line "helps a #mon"
+	text "Ese Huevo Suerte"
+	line "ayuda a un #mon"
 
-	para "gain more exper-"
-	line "ience than usual."
+	para "a ganar más expe-"
+	line "riencia de lo nor-"
+	cont "mal."
 
-	para "Use it to com-"
-	line "plete the #dex!"
+	para "¡Úsalo para com-"
+	line "pletar la #dex!"
 	done
 
 .HiText:
-	text "Hello there! I'm"
-	line "Prof.Oak's aide."
+	text "¡Hola! Soy el ayu-"
+	line "dante del Prof."
+	cont "Oak."
 
-	para "If you caught 60"
-	line "kinds of #mon,"
+	para "Si atrapas a 60"
+	line "tipos de #mon,"
 
-	para "I'm supposed to"
-	line "give you an item."
+	para "debo darte un"
+	line "objeto."
 
-	para "So, <PLAYER>,"
-	line "have you caught"
+	para "Así que, <PLAYER>,"
+	line "¿has atrapado al"
 
-	para "at least 60 kinds"
-	line "of #mon?"
+	para "menos 60 tipos de"
+	line "#mon?"
 	done
 
 .HereYouGoText:
-	text "Let's see…"
-	line "Great job! You've"
+	text "Veamos..."
+	line "¡Buen trabajo! Has"
 
-	para "caught "
+	para "atrapado "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " tipos"
+	line "de #mon."
 
-	para "Congratulations!"
-	line "Here you go!"
+	para "¡Felicidades!"
+	line "¡Toma!"
 	done
 
 .NoRoomText:
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for this."
+	text "¡Oh! Veo que no"
+	line "tienes espacio"
+	cont "para esto."
 	done
 
 BlackthornPokeCenter1FGentlemanText:
-	text "Deep inside far-"
-	line "off Indigo Plateau"
+	text "En lo más profun-"
+	line "do de la lejana"
+	cont "Meseta Añil"
 
-	para "is the #mon"
-	line "League."
+	para "está la Liga"
+	line "#mon."
 
-	para "I hear the best"
-	line "trainers gather"
+	para "Escuché que los"
+	line "mejores entrena-"
 
-	para "there from around"
-	line "the country."
+	para "dores se reúnen"
+	line "ahí de todo el"
+	cont "país."
 	done
 
 BlackthornPokeCenter1FTwinText:
-	text "There was this"
-	line "move I just had"
+	text "Había este movi-"
+	line "miento que tenía"
 
-	para "to teach my #-"
-	line "mon."
+	para "que enseñarle a mi"
+	line "#mon."
 
-	para "So I got the Move"
-	line "Deleter to make it"
-	cont "forget an HM move."
+	para "Así que fui al"
+	line "Quita-movimientos"
+	cont "para que olvide un"
+	cont "movimiento MO."
 	done

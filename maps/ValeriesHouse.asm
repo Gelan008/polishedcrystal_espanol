@@ -70,7 +70,7 @@ SetupFairyBookScript:
 	endcallback
 
 ValeriesHouseValerieText:
-	text "Valerie: My"
+	text "Valeria: My"
 	line "fashion designs"
 
 	para "are said to be"

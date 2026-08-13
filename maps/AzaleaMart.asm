@@ -19,58 +19,59 @@ AzaleaMart_MapScriptHeader:
 	object_event  8,  6, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << EVE) | (1 << NITE), PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaMartRockerText, -1
 
 AzaleaMartCooltrainermText:
-	text "There's no Great"
-	line "Ball here. #"
+	text "Aquí no hay Super"
+	line "Balls. Las #"
 
-	para "Balls will have"
-	line "to do."
+	para "Balls tendrán que"
+	line "bastar."
 
-	para "I wish César would"
-	line "make me some of"
-	cont "his custom Balls."
+	para "Ojalá César me"
+	line "hiciera algunas"
+	cont "Balls a medida."
 	done
 
 AzaleaMartBugCatcherText:
-	text "A Great Ball is"
-	line "better for catch-"
-	cont "ing #mon than a"
-	cont "# Ball."
+	text "Una Super Ball es"
+	line "mejor para atra-"
+	cont "par #mon que"
+	cont "una # Ball."
 
-	para "But César's might"
-	line "be better some-"
-	cont "times."
+	para "Pero a veces las"
+	line "de César pueden"
+	cont "ser mejores."
 	done
 
 AzaleaMartLadyText:
-	text "I can buy many"
-	line "items at home in"
-	cont "Goldenrod City,"
+	text "Puedo comprar mu-"
+	line "chos objetos en"
+	cont "Ciudad Trigal,"
 
-	para "but for boosting"
-	line "Fire-type moves,"
+	para "¡pero para forta-"
+	line "lecer el Fuego,"
 
-	para "nothing beats"
-	line "Azalea's Charcoal!"
+	para "nada supera al"
+	line "Carbón de Pueblo"
+	cont "Azalea!"
 	done
 
 AzaleaMartRockerText:
-	text "The prototype"
-	line "versions of"
+	text "Los prototipos de"
+	line "las Balls de"
 
-	para "César's balls had"
-	line "some problems."
+	para "César tenían al-"
+	line "gunos problemas."
 
-	para "Love Balls used"
-	line "to catch same-"
-	cont "gender #mon,"
+	para "Las Amor Ball a-"
+	line "trapaban #mon"
+	cont "del mismo sexo,"
 
-	para "and Fast Balls"
-	line "only worked for"
+	para "y las Rapid Ball"
+	line "solo funcionaban"
 
-	para "three different"
-	line "#mon species."
+	para "para tres espe-"
+	line "cies de #mon."
 
-	para "Thank goodness"
-	line "those problems"
-	cont "were fixed!"
+	para "¡Menos mal que a-"
+	line "rreglaron esos"
+	cont "problemas!"
 	done

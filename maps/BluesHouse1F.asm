@@ -23,17 +23,18 @@ DaisyScript:
 	iftrue .After
 	jumpthistextfaceplayer
 
-	text "Dalia: Hi! My kid"
-	line "brother is the Gym"
+	text "Dalia: ¡Hola! Mi"
+	line "hermanito es el"
 
-	para "Leader in Viridian"
-	line "City."
+	para "Líder de Gimnasio"
+	line "de Ciudad Verde."
 
-	para "But he goes out"
-	line "of town so often,"
+	para "Pero sale tanto de"
+	line "la ciudad, que"
 
-	para "it causes problems"
-	line "for the trainers."
+	para "les causa proble-"
+	line "mas a los entre-"
+	cont "nadores."
 	done
 
 .Massage:
@@ -64,72 +65,75 @@ DaisyScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Dalia: There you"
-	line "go! All done."
+	text "Dalia: ¡Aquí"
+	line "tienes! Ya está."
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "¿Ves? ¿A que está"
+	line "muy guapo?"
 
-	para "It's such a cute"
-	line "#mon."
+	para "Es un #mon tan"
+	line "lindo."
 	done
 
 .IntroText:
-	text "Dalia: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "Dalia: ¡Hola! Lle-"
+	line "gas justo a tiem-"
+	cont "po. Iba a tomar"
+	cont "un té."
 
-	para "Would you like to"
-	line "join me?"
+	para "¿Te gustaría"
+	line "acompañarme?"
 
-	para "Oh, your #mon"
-	line "are a bit dirty."
+	para "Oh, tus #mon es-"
+	line "tán algo sucios."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "¿Te gustaría que"
+	line "acicalara a uno?"
 	done
 
 .After:
 	jumpthistextfaceplayer
 
-	text "Dalia: I always"
-	line "have tea around"
+	text "Dalia: Siempre to-"
+	line "mo té a esta hora."
 
-	para "this time. Come"
-	line "join me."
+	para "Ven a tomar algo"
+	line "conmigo."
 	done
 
 .NoMassage:
 	jumpthistext
 
-	text "Dalia: You don't"
-	line "want to have one"
+	text "Dalia: ¿No quieres"
+	line "que acicale a"
+	cont "ninguno?"
 
-	para "groomed? OK, we'll"
-	line "just have tea."
+	para "Vale, solo toma-"
+	line "remos el té."
 	done
 
 .QuestionText:
-	text "Dalia: Which one"
-	line "should I groom?"
+	text "Dalia: ¿A cuál"
+	line "debería acicalar?"
 	done
 
 .OkayText:
-	text "Dalia: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "Dalia: Vale, lo"
+	line "dejaré muy guapo"
+	cont "en un santiamén."
 	done
 
 .LooksContentText:
 	text_ram wStringBuffer3
-	text " looks"
-	line "content."
+	text " parece"
+	line "contento."
 	done
 
 .EggMassage:
 	jumpthistext
 
-	text "Dalia: Oh, sorry."
-	line "I honestly can't"
-	cont "groom an Egg."
+	text "Dalia: Oh, lo"
+	line "siento. La verdad"
+	cont "es que no puedo"
+	cont "acicalar un Huevo."
 	done
