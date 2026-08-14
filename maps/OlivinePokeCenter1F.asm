@@ -27,17 +27,17 @@ PokemonJournalJasmineScript:
 	setflag ENGINE_READ_JASMINE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Yasmina!"
+	para "Edición especial:"
+	line "¡Líder Yasmina!"
 
-	para "Rumor has it that"
-	line "Yasmina and Erika,"
+	para "Dicen que Yasmina"
+	line "y Érika, Líder del"
 
-	para "the Celadon Gym"
-	line "Leader, chat about"
-	cont "fashion together."
+	para "Gimnasio de Azulona,"
+	line "hablan sobre moda"
+	cont "juntas."
 	done
 
 BeautyCharlotteScript:
@@ -60,64 +60,62 @@ BeautyCharlotteScript:
 	jumpthistext
 
 .AfterText:
-	text "How cool is it"
-	line "to have such a"
-	cont "special #mon?"
+	text "¿A que mola tener"
+	line "un #mon tan"
+	cont "especial?"
 	done
 
 .GreetingText:
-	text "Oh, are you a"
-	line "trainer?"
+	text "¡Anda! ¿Eres un"
+	line "entrenador?"
 
-	para "You came at just"
-	line "the right time!"
+	para "¡Llegas en el mo-"
+	line "mento justo!"
 
-	para "My unique and"
-	line "beautiful #mon"
-	cont "is all healed."
+	para "Mi #mon tan"
+	line "único y hermoso ya"
+	cont "está curado."
 
-	para "Do you want to"
-	line "battle and be"
+	para "¿Quieres luchar y"
+	line "quedarte asombrado"
 
-	para "amazed by my"
+	para "con mi gran"
 	line "#mon?"
 	done
 
 .NoBattleText:
-	text "Oh, really? Talk"
-	line "to me if you want"
-
-	para "to battle some"
-	line "time!"
+	text "¿Ah, sí? ¡Pues"
+	line "avísame si te apete-"
+	cont "ce luchar luego!"
 	done
 
 .SeenText:
-	text "All right!"
-	line "Here I come!"
+	text "¡De acuerdo!"
+	line "¡Allá voy!"
 	done
 
 .BeatenText:
-	text "Amazing battle!"
+	text "¡Un combate incre-"
+	line "íble!"
 	done
 
 OlivinePokeCenter1FFisherText:
-	text "There's this guy in"
-	line "Cianwood City who"
-	cont "looks weak, but he"
+	text "Hay un tipo en"
+	line "Ciudad Orquídea"
+	cont "que parece débil,"
 
-	para "taught my #-"
-	line "mon Strength."
+	para "pero enseñó Fuerza"
+	line "a mi #mon."
 
-	para "Now it can move"
-	line "big boulders."
+	para "Ahora puede mover"
+	line "rocas enormes."
 	done
 
 OlivinePokeCenter1FTeacherText:
-	text "There's a person"
-	line "in Cianwood City"
-	cont "across the sea."
+	text "Hay alguien en"
+	line "Ciudad Orquídea,"
+	cont "cruzando el mar."
 
-	para "I heard him brag-"
-	line "ging about his"
-	cont "rare #mon."
+	para "Le oí presumir de"
+	line "su #mon raro."
 	done

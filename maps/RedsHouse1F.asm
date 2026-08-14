@@ -22,42 +22,43 @@ RedsMom:
 	setevent EVENT_MET_REDS_MOM
 	jumpthistextfaceplayer
 
-	text "Hi!"
+	text "¡Hola!"
 
-	para "Rojo's been away"
-	line "for a long time."
+	para "Rojo lleva fuera"
+	line "mucho tiempo."
 
-	para "He hasn't called"
-	line "either, so I have"
+	para "Tampoco ha llama-"
+	line "do, así que no sé"
 
-	para "no idea where he"
-	line "is or what he's"
-	cont "been doing."
+	para "dónde está ni lo"
+	line "que está haciendo."
 
-	para "They say that no"
-	line "word is proof that"
+	para "Dicen que el no"
+	line "saber nada de al-"
 
-	para "he's doing fine,"
-	line "but I do worry"
-	cont "about him."
+	para "guien significa"
+	line "que le va bien,"
+
+	para "pero me preocupo"
+	line "por él."
 	done
 
 .Text2:
-	text "I worry about Rojo"
-	line "getting hurt or"
+	text "Me preocupa que"
+	line "Rojo se haga daño"
 
-	para "sick, but he's a"
-	line "boy. I'm proud"
+	para "o enferme, pero es"
+	line "un chico. Me sien-"
 
-	para "that he is doing"
-	line "what he wants to"
-	cont "do."
+	para "to orgullosa de"
+	line "que haga lo que"
+	cont "quiera hacer."
 	done
 
 RedsHouse1FTVScript:
 	jumpthistext
 
-	text "They have programs"
-	line "that aren't shown"
-	cont "in Johto…"
+	text "Echan programas"
+	line "que no ponen en"
+	cont "Johto…"
 	done

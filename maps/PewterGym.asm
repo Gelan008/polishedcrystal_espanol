@@ -54,21 +54,21 @@ PewterGymBrockScript:
 GenericTrainerCamperJerry:
 	generictrainer CAMPER, JERRY, EVENT_BEAT_CAMPER_JERRY, CamperJerrySeenText, CamperJerryBeatenText
 
-	text "Hey, you! Trainer"
-	line "from Johto! Brock"
+	text "¡Oye, tú! ¡Entre-"
+	line "nador de Johto!"
 
-	para "is tough. He'll"
-	line "punish you if you"
+	para "Brock es duro."
+	line "Te dará una lec-"
 
-	para "don't take him"
-	line "seriously."
+	para "ción si no te lo"
+	line "tomas en serio."
 	done
 
 GenericTrainerHikerEdwin:
 	generictrainer HIKER, EDWIN, EVENT_BEAT_HIKER_EDWIN, HikerEdwinSeenText, HikerEdwinBeatenText
 
-	text "Phew… Broken"
-	line "in pieces."
+	text "Uf… Hecho"
+	line "pedazos."
 	done
 
 PewterGymGuyScript:
@@ -76,20 +76,21 @@ PewterGymGuyScript:
 	iftrue_jumptextfaceplayer PewterGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo! Champ in"
-	line "making! You're"
+	text "¡Hola, futuro"
+	line "campeón!"
 
-	para "really rocking."
-	line "Are you battling"
+	para "¡Estás que te sa-"
+	line "les! ¿Estás com-"
 
-	para "the Gym Leaders of"
-	line "Kanto?"
+	para "batiendo contra"
+	line "los Líderes de"
+	cont "Gimnasio de Kanto?"
 
-	para "They're strong and"
-	line "dedicated people,"
+	para "Son fuertes y de-"
+	line "dicados, igual que"
 
-	para "just like Johto's"
-	line "Gym Leaders."
+	para "los Líderes de"
+	line "Johto."
 	done
 
 PewterGymStatue:
@@ -101,108 +102,110 @@ PewterGymStatue:
 	jumpstd gymstatue2
 
 BrockIntroText:
-	text "Brock: Wow, it's"
-	line "not often that we"
+	text "Brock: ¡Vaya, no"
+	line "es habitual recibir"
 
-	para "get a challenger"
-	line "from Johto."
+	para "a un aspirante de"
+	line "Johto!"
 
-	para "I'm Brock, the"
-	line "Pewter Gym Leader."
+	para "Soy Brock, Líder"
+	line "de Gimnasio de"
+	cont "Plateada."
 
-	para "I'm an expert on"
-	line "Rock-type #mon."
+	para "Soy un experto en"
+	line "#mon tipo Roca."
 
-	para "My #mon are im-"
-	line "pervious to most"
+	para "Mis #mon son im-"
+	line "permeables a los"
 
-	para "physical attacks."
-	line "You'll have a hard"
+	para "ataques físicos."
+	line "Te costará mucho"
+	cont "hacerles daño."
 
-	para "time inflicting"
-	line "any damage."
-
-	para "Come on!"
+	para "¡Adelante!"
 	done
 
 BrockWinLossText:
-	text "Brock: Your #-"
-	line "mon's powerful at-"
-	cont "tacks overcame my"
-	cont "rock-hard defense…"
+	text "Brock: Los fuertes"
+	line "ataques de tus"
 
-	para "You're stronger"
-	line "than I expected…"
+	para "#mon superaron"
+	line "mi dura defensa de"
+	cont "roca…"
 
-	para "Go ahead--take"
-	line "this Badge."
+	para "Eres más fuerte de"
+	line "lo que esperaba…"
+
+	para "Adelante, llévate"
+	line "esta Medalla."
 	done
 
 BrockBoulderBadgeText:
-	text "Brock: <PLAYER>,"
-	line "thanks. I enjoyed"
+	text "Brock: Gracias,"
+	line "<PLAYER>. He dis-"
 
-	para "battling you, even"
-	line "though I am a bit"
-	cont "upset."
+	para "frutado combatien-"
+	line "do contigo, aunque"
+	cont "esté algo picado."
 
-	para "I'll give you the"
-	line "TM for Rock Slide,"
-	cont "too."
+	para "También te daré la"
+	line "MT de Avalancha."
 	done
 
 BrockFightDoneText:
-	text "Brock: The world"
-	line "is huge. There are"
+	text "Brock: El mundo es"
+	line "enorme. Aún hay"
 
-	para "still many strong"
-	line "trainers like you."
+	para "muchos entrenado-"
+	line "res fuertes como"
+	cont "tú."
 
-	para "Just wait and see."
-	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	para "Ya lo verás: yo"
+	line "también me volveré"
+	cont "mucho más fuerte."
 	done
 
 CamperJerrySeenText:
-	text "The trainers of"
-	line "this Gym use Rock-"
-	cont "type #mon."
+	text "Los entrenadores"
+	line "de este Gimnasio"
 
-	para "The Rock-type has"
-	line "high Defense."
+	para "usan #mon de"
+	line "tipo Roca."
 
-	para "Battles could end"
-	line "up going a long"
+	para "El tipo Roca tiene"
+	line "mucha Defensa."
 
-	para "time. Are you"
-	line "ready for this?"
+	para "Los combates pue-"
+	line "den alargarse mu-"
+
+	para "cho. ¿Estás a pun-"
+	line "to para esto?"
 	done
 
 CamperJerryBeatenText:
-	text "I have to win"
-	line "these battles…"
+	text "Tengo que ganar"
+	line "estos combates…"
 	done
 
 HikerEdwinSeenText: ; text > text
-	text "R-r-r-R-R--CRASH!"
+	text "¡R-r-r-R-R… CATAPLÚM!"
 	done
 
 HikerEdwinBeatenText: ; text > text
-	text "BOOM!"
+	text "¡BOOM!"
 	done
 
-
 PewterGymGuyWinText:
-	text "Yo! Champ in"
-	line "making! That Gym"
+	text "¡Hola, futuro"
+	line "campeón! Este Gim-"
 
-	para "didn't give you"
-	line "much trouble."
+	para "nasio no te ha da-"
+	line "do muchos proble-"
+	cont "mas."
 
-	para "The way you took"
-	line "charge was really"
+	para "Tu forma de llevar"
+	line "el combate fue muy"
 
-	para "inspiring. I mean"
-	line "that seriously."
+	para "inspiradora. Lo"
+	line "digo en serio."
 	done

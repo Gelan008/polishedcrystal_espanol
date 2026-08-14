@@ -32,48 +32,49 @@ PokemonMansion1F_MapScriptHeader:
 GenericTrainerBurglarPete:
 	generictrainer BURGLAR, PETE, EVENT_BEAT_BURGLAR_PETE, BurglarPeteSeenText, BurglarPeteBeatenText
 
-	text "Some valuable"
-	line "items probably"
+	text "Probablemente al-"
+	line "gún objeto de va-"
 
-	para "survived the"
-	line "eruption."
+	para "lor sobrevivió a"
+	line "la erupción."
 	done
 
 GenericTrainerBurglarLouis:
 	generictrainer BURGLAR, LOUIS, EVENT_BEAT_BURGLAR_LOUIS, BurglarLouisSeenText, BurglarLouisBeatenText
 
-	text "I just want to"
-	line "find some loot"
-	cont "and get out."
+	text "Solo quiero encon-"
+	line "trar algo de botín"
+	cont "y largarme."
 	done
 
 BurglarPeteSeenText:
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
+	text "¿Quién eres? Aquí"
+	line "no debería haber"
+	cont "nadie."
 	done
 
 BurglarPeteBeatenText:
-	text "Ouch!"
+	text "¡Ay!"
 	done
 
 BurglarLouisSeenText:
-	text "This place is"
-	line "creepy!"
+	text "¡Este lugar da"
+	line "escalofríos!"
 	done
 
 BurglarLouisBeatenText:
-	text "Ayah!"
+	text "¡Ay, ay, ay!"
 	done
 
 PokemonMansion1FMewtwoStatueText:
-	text "A #mon statue…"
+	text "Una estatua"
+	line "#mon…"
 
-	para "It looks very"
-	line "threatening."
+	para "Tiene un aspecto"
+	line "muy amenazador."
 	done
 
 PokemonMansion1FFlowerPotText:
-	text "It's filled with"
-	line "soil and ashes…"
+	text "Está llena de"
+	line "tierra y cenizas…"
 	done

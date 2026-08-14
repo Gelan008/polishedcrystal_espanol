@@ -58,96 +58,100 @@ QuietCaveB1FNurseKeikoScript:
 	done
 
 .SeenText:
-	text "You need a Nurse's"
-	line "help?"
+	text "¿Necesitas la ayu-"
+	line "da de una Enfer-"
+	cont "mera?"
 
-	para "Sure, if you can"
-	line "win against me,"
-	cont "I'll heal you!"
+	para "¡Claro! ¡Si puedes"
+	line "ganarme, curaré a"
+	cont "tus #mon!"
 	done
 
 .BeatenText:
-	text "Do you really"
-	line "need healing?"
+	text "¿De verdad necesi-"
+	line "tabas curarlos?"
 	done
 
 .AfterText:
-	text "OK then… Time to"
-	line "give your #mon"
-	cont "some energy!"
+	text "Bueno… ¡Es hora de"
+	line "darle energía a"
+	cont "tus #mon!"
 	done
 
 GenericTrainerBattleGirlKagami:
 	generictrainer BATTLE_GIRL, KAGAMI, EVENT_BEAT_BATTLE_GIRL_KAGAMI, BattleGirlKagamiSeenText, BattleGirlKagamiBeatenText
 
-	text "I come here to"
-	line "train in peace"
-	cont "and solitude."
+	text "Vengo aquí a en-"
+	line "trenar en paz y"
+	cont "soledad."
 	done
 
 GenericTrainerPokemaniacAidan:
 	generictrainer POKEMANIAC, AIDAN, EVENT_BEAT_POKEMANIAC_AIDAN, PokemaniacAidanSeenText, PokemaniacAidanBeatenText
 
-	text "Sometimes a"
-	line "#mon in a"
+	text "A veces un #mon"
+	line "de cierta zona"
 
-	para "certain area will"
-	line "know a rare move."
+	para "conoce un movi-"
+	line "miento raro."
 	done
 
 GenericTrainerHikerSteve:
 	generictrainer HIKER, STEVE, EVENT_BEAT_HIKER_STEVE, HikerSteveSeenText, HikerSteveBeatenText
 
-	text "Spelunking is also"
-	line "called caving."
+	text "La espeleología es"
+	line "explorar cuevas."
 
-	para "It means exploring"
-	line "caves!"
+	para "¡Significa aden-"
+	line "trarse en caver-"
+	cont "nas!"
 	done
 
 GenericTrainerPsychicVirgil:
 	generictrainer PSYCHIC_T, VIRGIL, EVENT_BEAT_PSYCHIC_VIRGIL, PsychicVirgilSeenText, PsychicVirgilBeatenText
 
-	text "The silence helps"
-	line "focus my ESP."
+	text "El silencio ayuda"
+	line "a concentrar mis"
+	cont "poderes PES."
 	done
 
 BattleGirlKagamiSeenText:
-	text "Don't disturb my"
-	line "training!"
+	text "¡No interrumpas mi"
+	line "entrenamiento!"
 	done
 
 BattleGirlKagamiBeatenText:
-	text "Not good enough…"
+	text "No fue suficiente…"
 	done
 
 PokemaniacAidanSeenText:
-	text "My #mon!"
+	text "¡Mis #mon!"
 
-	para "Let me show"
-	line "you them!"
+	para "¡Déjame que te"
+	line "los enseñe!"
 	done
 
 PokemaniacAidanBeatenText: ; text > text
-	text "My #mon…"
+	text "Mis #mon…"
 	done
 
 HikerSteveSeenText:
-	text "They call me a"
-	line "Hiker, but now"
-	cont "I'm a spelunker!"
+	text "Me llaman Montañe-"
+	line "ro, ¡pero ahora"
+	cont "soy espeleólogo!"
 	done
 
 HikerSteveBeatenText:
-	text "And now I'm a"
-	line "loser…"
+	text "Y ahora soy un"
+	line "perdedor…"
 	done
 
 PsychicVirgilSeenText:
-	text "Shh! Be quiet!"
+	text "¡Chist! ¡Silencio!"
 	done
 
 PsychicVirgilBeatenText:
-	text "Why must battling"
-	line "be so loud?"
+	text "¿Por qué los com-"
+	line "bates son tan rui-"
+	cont "dosos?"
 	done

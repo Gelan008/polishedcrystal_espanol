@@ -94,6 +94,6 @@ SetUpLureMenu:
 
 .MenuStrings
 	db "@" ; dummy string so we don't return 0
-	db "Harsh Lure@"
-	db "Potent Lure@"
-	db "Malign Lure@"
+	db "Cebo Cruel@"
+	db "Cebo Potente@"
+	db "Cebo Maligno@"

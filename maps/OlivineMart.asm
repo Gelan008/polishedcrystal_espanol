@@ -17,24 +17,25 @@ OlivineMart_MapScriptHeader:
 	object_event  1,  6, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineMartLassText, -1
 
 OlivineMartCooltrainerFText:
-	text "Do your #mon"
-	line "already know the"
+	text "¿Tus #mon ya"
+	line "conocen el movi-"
+	cont "miento para llevar"
 
-	para "move for carrying"
-	line "people on water?"
+	para "a gente por el"
+	line "agua?"
 	done
 
 OlivineMartLassText:
-	text "My Butterfree came"
-	line "from my boyfriend"
-	cont "overseas."
+	text "Mi Butterfree me"
+	line "lo dio mi novio"
+	cont "de ultramar."
 
-	para "It carried some"
-	line "Mail from him."
+	para "Traía una Carta"
+	line "suya."
 
-	para "Want to know what"
-	line "it says?"
+	para "¿Quieres saber qué"
+	line "dice?"
 
-	para "Let's see… Nope!"
-	line "It's a secret!"
+	para "A ver… ¡Pues no!"
+	line "¡Es un secreto!"
 	done

@@ -55,52 +55,52 @@ QuietCaveB3FMarleyScript:
 	special Special_FadeInQuickly
 	clearevent EVENT_BATTLE_TOWER_MARLEY
 	end
-
+	
 .ChallengeText:
-	text "…I'm Sémola."
-	line "…You are?"
+	text "… Me llamo Sémola."
+	line "… ¿Y tú?"
 
-	para "Oh… <PLAYER>,"
-	line "will you battle"
-	cont "me, please?"
+	para "Ah… <PLAYER>,"
+	line "¿lucharías conmi-"
+	cont "go, por favor?"
 	done
 
 .YesText:
-	text "…OK. I'll do my"
-	line "best."
+	text "… Vale. Lo haré"
+	line "lo mejor posible."
 	done
 
 .NoText:
-	text "…Too bad…"
+	text "… Qué lástima…"
 	done
 
 .BeatenText:
-	text "…Awww."
+	text "… Ohhh."
 	done
 
 .ItemText:
-	text "I… I don't like to"
-	line "talk…"
+	text "A mí… no me gusta"
+	line "hablar…"
 
-	para "I choose my words"
-	line "carefully, but"
+	para "Elijo mis palabras"
+	line "con cuidado, pero"
 
-	para "they may still"
-	line "hurt someone acci-"
-	cont "dentally…"
+	para "aún así pueden he-"
+	line "rir a alguien sin"
+	cont "querer…"
 
-	para "So, I'll have to"
-	line "convey thanks an-"
-	cont "other way…"
+	para "Por eso, debo dar-"
+	line "te las gracias de"
+	cont "otra manera…"
 	done
 
 .GoodbyeText:
-	text "…I appreciate your"
-	line "battling with me…"
-	cont "…Just a little…"
+	text "… Te agradezco que"
+	line "lucharas conmigo…"
+	cont "… Un poquito…"
 
-	para "I'm going to"
-	line "Battle Tower…"
+	para "Me voy a la"
+	line "Torre Batalla…"
 
-	para "Bye-bye…"
+	para "Adiós…"
 	done

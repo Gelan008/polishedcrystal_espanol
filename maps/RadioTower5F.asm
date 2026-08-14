@@ -68,17 +68,18 @@ Petrel1Script:
 GenericTrainerAriana1:
 	generictrainer ARIANA, ARIANA1, EVENT_BEAT_ARIANA_1, Ariana1SeenText, Ariana1BeatenText
 
-	text "<PLAYER>, isn't it?"
+	text "Eres <PLAYER>,"
+	line "¿verdad?"
 
-	para "A brat like you"
-	line "won't appreciate"
+	para "Un mocoso como tú"
+	line "no apreciará la"
 
-	para "the magnificence"
-	line "of Team Rocket."
+	para "grandeza del"
+	line "Team Rocket."
 
-	para "That's too bad."
-	line "I really admire"
-	cont "your power."
+	para "Es una pena."
+	line "Admiro mucho tu"
+	cont "fuerza."
 	done
 
 RadioTower5FRocketBossTrigger:
@@ -191,217 +192,221 @@ RadioTower5FPlayerTwoStepsLeftMovement:
 	step_end
 
 FakeDirectorTextBefore1:
-	text "Y-you! You came to"
-	line "rescue me?"
+	text "¡T-tú! ¿Has venido"
+	line "a rescatarme?"
 	done
 
 FakeDirectorTextBefore2:
-	text "Is that what you"
-	line "were expecting?"
+	text "¿Es eso lo que"
+	line "te esperabas?"
 
-	para "Wrong!"
-	line "I'm an imposter!"
+	para "¡Pues no!"
+	line "¡Soy un impostor!"
 	done
 
 FakeDirectorTextBefore3:
-	text "I pretended to be"
-	line "the real thing to"
+	text "Me hice pasar por"
+	line "el auténtico para"
 
-	para "prepare for our"
-	line "takeover."
+	para "preparar la toma"
+	line "del edificio."
 
-	para "Do you want to"
-	line "know where we hid"
-	cont "the real Director?"
+	para "¿Quieres saber dón-"
+	line "de escondimos al"
+	cont "Director real?"
 
-	para "Sure, I'll tell"
-	line "you. But only if"
-	cont "you can beat me!"
+	para "Vale, te lo diré."
+	line "¡Pero solo si me"
+	cont "vences!"
 	done
 
 FakeDirectorWinText:
-	text "OK, OK. I'll tell"
-	line "you where he is."
+	text "Vale, vale. Te di-"
+	line "ré dónde está."
 	done
 
 FakeDirectorTextAfter:
-	text "We stashed the"
-	line "real Director in"
+	text "Encerramos al Di-"
+	line "rector real en el"
 
-	para "the Underground"
-	line "Warehouse."
+	para "Almacén Subterrá-"
+	line "neo."
 
-	para "It's at the far"
-	line "end of the Under-"
-	cont "ground."
+	para "Está al final del"
+	line "Subterráneo."
 
-	para "But I doubt you'll"
-	line "get that far."
+	para "Pero dudo que lle-"
+	line "gues tan lejos."
 	done
 
 Ariana1SeenText:
-	text "Remember me from"
-	line "the hideout in"
-	cont "Mahogany Town?"
+	text "¿Te acuerdas de mí"
+	line "en la guarida de"
+	cont "Pueblo Caoba?"
 
-	para "I lost then, but I"
-	line "won't this time."
+	para "Perdí entonces,"
+	line "¡pero esta vez no!"
 	done
 
 Ariana1BeatenText:
-	text "This can't be"
-	line "happening!"
+	text "¡Esto no puede"
+	line "estar pasando!"
 
-	para "I fought hard, but"
-	line "I still lost…"
+	para "Luché con todo, pe-"
+	line "ro volví a perder…"
 	done
 
 RadioTower5FRocketBossBeforeText:
-	text "Oh? You managed to"
-	line "get this far?"
+	text "¿Eh? ¿Has logrado"
+	line "llegar hasta aquí?"
 
-	para "You must be quite"
-	line "the trainer."
+	para "Debes de ser un"
+	line "gran entrenador."
 
-	para "We intend to take"
-	line "over this Radio"
+	para "Pensamos tomar es-"
+	line "ta emisora de ra-"
 
-	para "Station and an-"
-	line "nounce our come-"
-	cont "back."
+	para "dio y anunciar"
+	line "nuestro regreso."
 
-	para "That should bring"
-	line "our boss Giovanni"
+	para "Eso hará volver a"
+	line "nuestro jefe Gio-"
 
-	para "back from his solo"
-	line "training."
+	para "vanni de su entre-"
+	line "namiento en soli-"
+	cont "tario."
 
-	para "We are going to"
-	line "regain our former"
-	cont "glory."
+	para "¡Recuperaremos"
+	line "nuestra antigua"
+	cont "gloria!"
 
-	para "I won't allow you"
-	line "to interfere with"
-	cont "our plans."
+	para "¡No permitiré que"
+	line "te metas en nues-"
+	cont "tros planes!"
 	done
 
 RadioTower5FRocketBossWinText:
-	text "No! Forgive me,"
+	text "¡No! ¡Perdóname,"
 	line "Giovanni!"
 	done
 
 RadioTower5FRocketBossAfterText:
-	text "How could this be?"
+	text "¿Cómo ha podido"
+	line "pasar esto?"
 
-	para "Our dreams have"
-	line "come to naught."
+	para "Nuestros sueños"
+	line "se han esfumado."
 
-	para "I wasn't up to the"
-	line "task after all."
+	para "Al final no estuve"
+	line "a la altura."
 
-	para "Like Giovanni did"
-	line "before me, I will"
+	para "Igual que hizo"
+	line "Giovanni antes que"
 
-	para "disband Team"
-	line "Rocket here today."
+	para "yo, disolveré el"
+	line "Team Rocket hoy"
+	cont "mismo."
 
-	para "Farewell."
+	para "Adiós."
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "Director: <PLAYER>,"
-	line "thank you!"
+	text "Director: ¡<PLAYER>,"
+	line "muchas gracias!"
 
-	para "Your courageous"
-	line "actions have saved"
+	para "Tu valerosa acción"
+	line "ha salvado a los"
 
-	para "#mon nation-"
-	line "wide."
+	para "#mon de todo el"
+	line "país."
 
-	para "I know it's not"
-	line "much, but please"
-	cont "take this."
+	para "Sé que no es mu-"
+	line "cho, pero toma"
+	cont "esto, por favor."
 	done
 
 RadioTower5FDirectorDescribeClearBellText:
-	text "There used to be a"
-	line "tower right here"
-	cont "in Goldenrod City."
+	text "Antes había una"
+	line "torre justo aquí,"
+	cont "en Ciudad Trigal."
 
-	para "But it was old and"
-	line "creaky."
+	para "Pero era vieja y"
+	line "estaba en ruinas."
 
-	para "So we replaced it"
-	line "with our Radio"
-	cont "Tower."
+	para "Así que la sustitui-"
+	line "mos por la Torre"
+	cont "Radio."
 
-	para "We dug up that"
-	line "bell during"
-	cont "construction."
+	para "Desenterramos esa"
+	line "campana durante"
+	cont "las obras."
 
-	para "I heard that all"
-	line "sorts of #mon"
+	para "Oí que en el pasa-"
+	line "do vivían muchos"
 
-	para "lived in Goldenrod"
-	line "in the past."
+	para "#mon en Ciudad"
+	line "Trigal."
 
-	para "Perhaps…"
+	para "Tal vez…"
 
-	para "That bell has some"
-	line "connection to the"
+	para "Esa campana guarde"
+	line "alguna relación"
 
-	para "Bell Tower in"
-	line "Ecruteak City…"
+	para "con la Torre Cam-"
+	line "pana de Ciudad"
+	cont "Iris…"
 
-	para "Ah!"
+	para "¡Ah!"
 
-	para "That reminds me…"
+	para "Eso me recuerda…"
 
-	para "I overheard Team"
-	line "Rocket whispering."
+	para "Oí susurrar al"
+	line "Team Rocket."
 
-	para "Apparently, some-"
-	line "thing is going on"
-	cont "at the Bell Tower."
+	para "Al parecer, algo"
+	line "pasa en la Torre"
+	cont "Campana."
 
-	para "I have no idea"
-	line "what is happening,"
+	para "No tengo ni idea"
+	line "de qué ocurre,"
 
-	para "but you might look"
-	line "into it."
+	para "pero deberías in-"
+	line "vestigarlo."
 
-	para "OK, I better go to"
-	line "my office."
+	para "Bueno, será mejor"
+	line "que vaya a mi des-"
+	cont "pacho."
 	done
 
 RadioTower5FDirectorText:
-	text "Director: Hello,"
+	text "Director: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "You know, I love"
-	line "#mon."
+	para "Sabes, me encan-"
+	line "tan los #mon."
 
-	para "I built this Radio"
-	line "Tower so I could"
+	para "Construí esta To-"
+	line "rre Radio para"
 
-	para "express my love"
-	line "of #mon."
+	para "expresar mi amor"
+	line "por los #mon."
 
-	para "It would be nice"
-	line "if people enjoyed"
-	cont "our programs."
+	para "Sería genial que"
+	line "la gente disfru-"
+	cont "tara de los pro-"
+	cont "gramas."
 	done
 
 BenText:
-	text "Ben: Do you listen"
-	line "to our music?"
+	text "Nacho: ¿Escuchas"
+	line "nuestra música?"
 	done
 
 SignpostRadioTower5FOffice:
-	text "5F Director's"
-	line "   Office"
+	text "4P Despacho del"
+	line "   Director"
 	done
 
 SignpostRadioTower5FStudio:
-	text "5F Studio 1"
+	text "4P Estudio 1"
 	done

@@ -80,113 +80,122 @@ PsychicInverScript:
 	sjump .Reward
 
 PsychicInverGreetingText:
-	text "Oh. I wasn't ex-"
-	line "pecting a visitor"
-	cont "here. Hmm…"
+	text "Vaya. No me espe-"
+	line "raba visitas por"
+	cont "aquí. Hum…"
 
-	para "Shall we have a"
-	line "rather strange"
-	cont "battle?"
+	para "¿Echamos un com-"
+	line "bate un tanto pe-"
+	cont "culiar?"
 
-	para "I call this an"
-	line "Inverse Battle!"
+	para "¡Yo lo llamo Com-"
+	line "bate Inverso!"
 
-	para "What do you think?"
-	line "Would you care to"
-	cont "try an Inverse"
-	cont "Battle?"
+	para "¿Qué me dices?"
+	line "¿Te apetece probar"
+	cont "un Combate"
+	cont "Inverso?"
 	done
 
 PsychicInverNoText:
-	text "Oh, I see… That's"
-	line "too bad."
+	text "Ah, ya veo… Qué"
+	line "lástima."
 
-	para "If you change your"
-	line "mind, come again."
+	para "Si cambias de opi-"
+	line "nión, vuelve por"
+	cont "aquí."
 	done
 
 PsychicInverYesText:
-	text "Super effective"
-	line "moves will not be"
-	cont "very effective,"
-	cont "and vice-versa."
+	text "Los movimientos"
+	line "supereficaces no"
+
+	para "serán muy eficaces"
+	line "y viceversa."
 	done
 
 PsychicInverBeatenText:
-	text "That battle may"
-	line "have tired me out"
+	text "Este combate me"
+	line "ha agotado incluso"
 
-	para "even more than my"
+	para "más que a mis"
 	line "#mon…"
 	done
 
 InverseBattle0PointRewardText:
-	text "I'm not sure if"
-	line "you understand"
-	cont "Inverse Battles…"
+	text "No sé si entiendes"
+	line "los Combates"
+	cont "Inversos…"
 	done
 
 InverseBattle1_3PointRewardText:
-	text "You understand"
-	line "Inverse Battles…"
+	text "Entiendes los"
+	line "Combates"
+	cont "Inversos…"
 	done
 
 InverseBattle4_6PointRewardText:
-	text "You understand"
-	line "Inverse Battles"
-	cont "pretty well."
+	text "Entiendes los Com-"
+	line "bates Inversos bas-"
+	cont "tante bien."
 	done
 
 InverseBattle7_9PointRewardText:
-	text "You understand"
-	line "Inverse Battles"
-	cont "perfectly!"
+	text "¡Entiendes los Com-"
+	line "bates Inversos a"
+	cont "la perfección!"
 	done
 
 InverseBattle10PointRewardText:
-	text "You're an expert at"
-	line "Inverse Battles."
+	text "Dominas los Comba-"
+	line "tes Inversos."
 
-	para "I'm no match for"
-	line "you."
+	para "No tengo nada que"
+	line "hacer contra ti."
 	done
 
 PsychicInverZeroRewardText:
-	text "Still, I'll give"
-	line "you a little some-"
-	cont "thing, so be sure"
-	cont "to come try again!"
+	text "Aun así, te daré"
+	line "un detalle, ¡así"
+
+	para "que vuelve a in-"
+	line "tentarlo!"
 	done
 
 PsychicInverRewardText:
-	text "I've got a little"
-	line "something for an"
-	cont "opponent like you!"
+	text "¡Tengo un detalle"
+	line "para un rival como"
+	cont "tú!"
 
-	para "Here! Take it!"
+	para "¡Toma! ¡Quédatelo!"
 	done
 
 PsychicInverTomorrowText:
-	text "This strange power"
-	line "that reverses type"
-	cont "matchups…"
+	text "Este extraño poder"
+	line "que invierte la"
 
-	para "I can't use it very"
-	line "often."
+	para "efectividad de ti-"
+	line "pos…"
 
-	para "Please come back"
-	line "tomorrow."
+	para "No puedo usarlo"
+	line "muy a menudo."
+
+	para "Vuelve mañana, por"
+	line "favor."
 	done
 
 PsychicInversHouseHexManiacText:
-	text "My brother has a"
-	line "mysterious power!"
+	text "¡Mi hermano tiene"
+	line "un misterioso"
+	cont "poder!"
 
-	para "He can reverse"
-	line "type matchups!"
-	cont "It's really crazy!"
+	para "¡Puede invertir la"
+	line "efectividad de los"
 
-	para "Super effective"
-	line "and not very eff-"
-	cont "moves get swapped!"
+	para "tipos! ¡Es una pa-"
+	line "sada!"
+
+	para "¡Lo supereficaz y"
+	line "lo poco eficaz se"
+	cont "intercambian!"
 	done

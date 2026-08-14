@@ -94,7 +94,7 @@ OlivineLighthouseJasmine:
 	pause 15
 	jumpthistext
 
-	text "…Amphy, hang on!"
+	text "¡…Amphy, aguanta!"
 	done
 
 OlivineLighthouseAmphy:
@@ -154,75 +154,74 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "Yasmina: …This"
-	line "#mon always"
+	text "Yasmina: …Este"
+	line "#mon siempre"
 
-	para "kept the sea lit"
-	line "at night."
+	para "iluminaba el mar"
+	line "por la noche."
 
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	para "…Pero enfermó de"
+	line "repente… Apenas"
+	cont "puede respirar…"
 
-	para "…I understand"
-	line "that there is a"
+	para "…Tengo entendido"
+	line "que hay una gran"
 
-	para "wonderful Pharmacy"
-	line "in Cianwood…"
+	para "Farmacia en Ciu-"
+	line "dad Orquídea…"
 
-	para "But that's across"
-	line "the sea…"
+	para "Pero está al otro"
+	line "lado del mar…"
 
-	para "And I can't leave"
-	line "Amphy unattended…"
+	para "Y no puedo dejar a"
+	line "Amphy sola…"
 	done
 
-
 JasmineCureAmphyText:
-	text "Yasmina: …Will"
-	line "that medicine cure"
+	text "Yasmina: …¿Esa"
+	line "medicina curará a"
 	cont "Amphy?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SecretPotion to"
-	cont "Yasmina."
+	text "¡<PLAYER> entregó"
+	line "la PociónSecreta a"
+	cont "Yasmina!"
 	done
 
 JasmineDontBeOffendedText:
-	text "Yasmina: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "Yasmina: …Mmm, no"
+	line "te ofendas, por"
+	cont "favor…"
 
-	para "…Amphy will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "…Amphy no toma"
+	line "nada de nadie que"
+	cont "no sea yo…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
 	text "Yasmina: …"
 
-	para "Amphy, how are you"
-	line "feeling?"
+	para "Amphy, ¿cómo te"
+	line "encuentras?"
 	done
 
 JasmineThankYouText:
-	text "Yasmina: …Oh, I'm"
-	line "so relieved…"
+	text "Yasmina: …¡Uf, qué"
+	line "alivio!…"
 
-	para "This is just so"
-	line "wonderful…"
+	para "Esto es tan ma-"
+	line "ravilloso…"
 
-	para "Thank you so very,"
-	line "very much."
+	para "Muchísimas gracias"
+	line "de todo corazón."
 
-	para "…I will return to"
-	line "the Gym…"
+	para "…Volveré al"
+	line "Gimnasio…"
 	done
 
 JasmineISeeText:
-	text "Yasmina: …I see…"
+	text "Yasmina: …Ya veo…"
 	done
 
 

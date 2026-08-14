@@ -84,8 +84,9 @@ OlivinePortSailorAtGangwayScript:
 OlivinePortAlreadyRodeScript:
 	jumpthisopenedtext
 
-	text "Sorry. You can't"
-	line "board now."
+	text "Lo siento. Ahora"
+	line "no puedes embar-"
+	cont "car."
 	done
 
 OlivinePortWalkUpToShipScript:
@@ -258,96 +259,101 @@ OlivinePortApproachFastShipAfterHOFRightMovement:
 	step_end
 
 OlivinePortSailorGetOnBoardText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Zarpamos pronto."
+	line "Por favor, sube a"
+	cont "bordo."
 	done
 
-
 OlivinePortAskBoardText:
-	text "Welcome to Fast"
-	line "Ship S.S.Aqua."
+	text "Te damos la bien-"
+	line "venida al Expreso"
+	cont "S.S. Aqua."
 
-	para "Will you be board-"
-	line "ing today?"
+	para "¿Vas a embarcar"
+	line "hoy?"
 	done
 
 OlivinePortAskTicketText:
-	text "May I see your"
-	line "S.S.Ticket?"
+	text "¿Me permites ver"
+	line "tu Ticket Barco?"
 	done
 
 OlivinePortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "¡Esperamos verte"
+	line "de nuevo!"
 	done
 
 OlivinePortFlashTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.Ticket."
+	text "¡<PLAYER> enseñó el"
+	line "Ticket Barco!"
 
-	para "That's it."
-	line "Thank you!"
+	para "Es correcto."
+	line "¡Muchas gracias!"
 	done
 
 OlivinePortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "Ticket…"
+	text "<PLAYER> intentó"
+	line "mostrar el Ticket"
+	cont "Barco…"
 
-	para "…But no Ticket!"
+	para "… ¡Pero no lo"
+	line "tiene!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "¡Lo siento!"
+	line "Solo puedes subir"
 
-	para "if you have an"
-	line "S.S.Ticket."
+	para "a bordo si tienes"
+	line "un Ticket Barco."
 	done
 
 OlivinePortMondayShipText:
-	text "The Fast Ship will"
-	line "sail next Monday."
+	text "El barco rápido"
+	line "zarpará el próxi-"
+	cont "mo lunes."
 	done
 
 OlivinePortFridayShipText:
-	text "The Fast Ship will"
-	line "sail next Friday."
+	text "El barco rápido"
+	line "zarpará el próxi-"
+	cont "mo viernes."
 	done
 
 OlivinePortFishingGuru1Text:
-	text "Shellder are easy"
-	line "to catch here."
+	text "Aquí es fácil pes-"
+	line "car a Shellder."
 
-	para "They're kind of"
-	line "rare elsewhere."
+	para "En otros sitios"
+	line "son bastante ra-"
+	cont "ros."
 	done
 
 OlivinePortFishingGuru2Text:
-	text "How many Rods do"
-	line "you have?"
+	text "¿Cuántas Cañas"
+	line "tienes?"
 
-	para "Different Rods"
-	line "catch different"
+	para "Diferentes Cañas"
+	line "pescan distintos"
 	cont "#mon."
 	done
 
 OlivinePortYoungsterText:
-	text "S.S.Aqua uses jets"
-	line "to skim over the"
-	cont "waves!"
+	text "¡El S.S. Aqua usa"
+	line "propulsores para"
+	cont "rozar las olas!"
 	done
 
 OlivinePortCooltrainerFText:
-	text "There are lots of"
-	line "#mon in Kanto."
+	text "Hay montones de"
+	line "#mon en Kanto."
 
-	para "I wish I could go…"
+	para "Ojalá pudiera"
+	line "ir…"
 	done
 
 OlivinePortSailorBeforeHOFText:
-	text "We don't want you"
-	line "to fall into the"
+	text "No queremos que te"
+	line "caigas al mar,"
 
-	para "sea, so you're not"
-	line "allowed in."
+	para "así que no tienes"
+	line "permitido el paso."
 	done

@@ -24,20 +24,22 @@ RocketHideoutB2F_MapScriptHeader:
 RocketHideoutB2FHexManiacCoryn:
 	generictrainer HEX_MANIAC, CORYN, EVENT_BEAT_HEX_MANIAC_CORYN, .SeenText, .BeatenText
 
-	text "Team Mystic could"
-	line "use more talents"
-	cont "like yours."
+	text "Al Equipo Sabi-"
+	line "duría le vendría"
+
+	para "bien más talento"
+	line "como el tuyo."
 	done
 
 .SeenText:
-	text "You might have"
-	line "potential for"
-	cont "Team Mystic."
+	text "Podrías tener"
+	line "potencial para el"
+	cont "Equipo Sabiduría."
 
-	para "Let me test your"
-	line "limits."
+	para "Déjame probar tus"
+	line "límites."
 	done
 
 .BeatenText:
-	text "Squared away…"
+	text "Todo en orden…"
 	done

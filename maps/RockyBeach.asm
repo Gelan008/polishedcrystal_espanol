@@ -28,15 +28,15 @@ RockyBeach_MapScriptHeader:
 	object_event 23, 32, SPRITE_FAT_GUY, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, (1 << DAY), PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ShamoutiIslandFisherText, -1
 
 RockyBeachSign1Text:
-	text "Rocky Beach"
+	text "Playa Rocosa"
 	done
 
 RockyBeachSign2Text:
-	text "Noisy Forest"
-	line "Ahead"
+	text "Bosque Murmullos"
+	line "adelante"
 
-	para "Thru to"
-	line "Shrine Ruins"
+	para "Hacia Templo"
+	line "Olvidado"
 	done
 
 GenericTrainerSightseermBlaise:
@@ -58,125 +58,124 @@ GenericTrainerSightseermBlaise:
 GenericTrainerBeautyIoana:
 	generictrainer BEAUTY, IOANA, EVENT_BEAT_BEAUTY_IOANA, .SeenText, .BeatenText
 
-	text "I have a naturally"
-	line "pale complexion,"
+	text "Tengo la piel muy"
+	line "blanca de forma"
+	cont "natural,"
 
-	para "so I have to be"
-	line "careful in the"
-	cont "sun."
+	para "así que debo tener"
+	line "cuidado con el sol."
 	done
 
 .SeenText:
-	text "I come here every"
-	line "year to work on"
-	cont "my tan."
+	text "Vengo aquí cada"
+	line "año a broncearme."
 	done
 
 .BeatenText:
-	text "I just got"
-	line "burned!"
+	text "¡Me acabo de"
+	line "quemar!"
 	done
 
 GenericTrainerSightseerfKamila:
 	generictrainer SIGHTSEERF, KAMILA, EVENT_BEAT_SIGHTSEERF_KAMILA, .SeenText, .BeatenText
 
-	text "Alola is an archi-"
-	line "pelago located far"
-	cont "away from here."
+	text "Alola es un archi-"
+	line "piélago situado"
+	cont "muy lejos de aquí."
 
-	para "You should visit"
-	line "it someday!"
+	para "¡Deberías visitarlo"
+	line "algún día!"
 	done
 
 .SeenText:
-	text "Alola!"
+	text "¡Alola!"
 
-	para "That's how we greet"
-	line "each other in my"
-	cont "region."
+	para "Así nos saludamos"
+	line "en mi región."
 	done
 
 .BeatenText:
-	text "Cheehoo! You're"
-	line "pretty good!"
+	text "¡Cheehoo! ¡Eres"
+	line "bastante fuerte!"
 	done
 
 GenericTrainerAromaLadyHeather:
 	generictrainer AROMA_LADY, HEATHER, EVENT_BEAT_AROMA_LADY_HEATHER, .SeenText, .BeatenText
 
-	text "I studied flower"
-	line "arranging with"
+	text "Estudié arreglos"
+	line "florales con Erika"
 
-	para "Erika at Celadon"
-	line "University."
+	para "en la Universidad"
+	line "de Azulona."
 
-	para "She praised this"
-	line "island for its"
-	cont "local fauna."
+	para "Ella elogió esta"
+	line "isla por su fauna"
+	cont "autóctona."
 	done
 
 .SeenText:
-	text "A deep red flower"
-	line "grows all over"
-	cont "this island."
+	text "Una flor roja cre-"
+	line "ce por toda esta"
+	cont "isla."
 
-	para "Have you noticed?"
+	para "¿Te has fijado?"
 	done
 
 .BeatenText:
-	text "A lovely battle,"
-	line "but what about"
-	cont "the flowers?"
+	text "Un combate bonito,"
+	line "¿pero qué hay de"
+	cont "las flores?"
 	done
 
 GenericTrainerBreederBrenda:
 	generictrainer BREEDER, BRENDA, EVENT_BEAT_BREEDER_BRENDA, .SeenText, .BeatenText
 
-	text "To hatch an Egg,"
-	line "you have to walk"
-	cont "a lot."
+	text "Para eclosionar un"
+	line "Huevo, tienes que"
+	cont "caminar mucho."
 
-	para "Where better than"
-	line "sunny Shamouti?"
+	para "¿Qué mejor sitio"
+	line "que Shamouti?"
 	done
 
 .SeenText:
-	text "The key to good"
-	line "#mon breeding"
+	text "La clave para una"
+	line "buena crianza"
+	cont "#mon"
 
-	para "is a good enviro-"
-	line "nment."
+	para "es un buen entor-"
+	line "no."
 
-	para "There's no place"
-	line "better than here!"
+	para "¡No hay mejor si-"
+	line "tio que este!"
 	done
 
 .BeatenText:
-	text "Your #mon are"
-	line "well-bred."
+	text "Tus #mon están"
+	line "muy bien criados."
 	done
 
 GenericTrainerSwimmermEzra:
 	generictrainer SWIMMERM, EZRA, EVENT_BEAT_SWIMMERM_EZRA, .SeenText, .BeatenText
 
-	text "I like to go scuba"
-	line "diving here."
+	text "Me encanta bucear"
+	line "por aquí."
 
-	para "It's so amazing to"
-	line "breathe while"
-	cont "underwater!"
+	para "¡Es alucinante po-"
+	line "der respirar bajo"
+	cont "el agua!"
 	done
 
 .SeenText:
-	text "Have you ever won-"
-	line "dered what it's"
+	text "¿Alguna vez te has"
+	line "preguntado qué se"
 
-	para "like to breathe"
-	line "underwater?"
+	para "siente al respirar"
+	line "bajo el agua?"
 	done
 
 .BeatenText:
-	text "Ran out of air!"
+	text "¡Me quedé sin aire!"
 	done
 
 RockyBeachWilhomenaScript:
@@ -185,16 +184,17 @@ RockyBeachWilhomenaScript:
 .Text1
 	text "Oh, no. Oh, no…"
 
-	para "My poor Pikablu"
-	line "is missing."
+	para "Mi pobre Pikablu"
+	line "ha desaparecido."
 
-	para "No… It couldn't"
-	line "have gone into"
-	cont "Noisy Forest."
+	para "No… No puede haber"
+	line "ido al Bosque"
+	cont "Ruidoso."
 
-	para "I'll never find"
-	line "it in the trees…"
+	para "Nunca lo encontra-"
+	line "ré entre los árbo-"
+	cont "les…"
 
-	para "Oh, what should I"
-	line "do…?"
+	para "Oh, ¿qué debería"
+	line "hacer…?"
 	done

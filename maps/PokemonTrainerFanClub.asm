@@ -19,17 +19,18 @@ PokemonJournalBrunoScript:
 	setflag ENGINE_READ_BRUNO_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Elite Four Bruno!"
+	para "Edición especial:"
+	line "¡Bruno, Alto Mando!"
 
-	para "Bruno apparently"
-	line "joined the Elite"
+	para "Por lo visto, Bru-"
+	line "no se unió al Alto"
 
-	para "Four out of his"
-	line "burning ambition"
+	para "Mando por su ar-"
+	line "diente deseo de"
 
-	para "to battle the"
-	line "best trainers."
+	para "luchar contra los"
+	line "mejores entrena-"
+	cont "dores."
 	done

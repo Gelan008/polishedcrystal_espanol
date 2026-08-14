@@ -65,11 +65,12 @@ PowerPlantOfficerScript:
 	iftrue_jumptextfaceplayer PowerPlantOfficer1CouldIAskForYourCooperationText
 	jumpthistextfaceplayer
 
-	text "A thief broke into"
-	line "the Power Plant…"
+	text "Un ladrón entró a"
+	line "robar a la Central"
+	cont "de Energía…"
 
-	para "What is the world"
-	line "coming to?"
+	para "¿A dónde va a ir a"
+	line "parar este mundo?"
 	done
 
 PowerPlantGymGuide1Script:
@@ -77,15 +78,15 @@ PowerPlantGymGuide1Script:
 	iftrue_jumptextfaceplayer PowerPlantGymGuide1GeneratorUpAndRunningText
 	jumpthistextfaceplayer
 
-	text "Someone made off"
-	line "with a part that's"
+	text "Alguien se ha lle-"
+	line "vado una pieza"
 
-	para "essential for the"
-	line "generator."
+	para "esencial para el"
+	line "generador."
 
-	para "Without it, the"
-	line "new generator's"
-	cont "useless!"
+	para "¡Sin ella, el nue-"
+	line "vo generador no"
+	cont "sirve de nada!"
 	done
 
 PowerPlantGymGuide2Script:
@@ -93,15 +94,15 @@ PowerPlantGymGuide2Script:
 	iftrue_jumptextfaceplayer PowerPlantGymGuide2GeneratorIsRunningAgainText
 	jumpthistextfaceplayer
 
-	text "This Power Plant"
-	line "had been abandoned"
-	cont "in the past."
+	text "Esta Central de"
+	line "Energía estuvo"
+	cont "abandonada."
 
-	para "We got it back up"
-	line "and running to"
+	para "La pusimos en mar-"
+	line "cha de nuevo para"
 
-	para "provide power to"
-	line "the Magnet Train."
+	para "darle energía al"
+	line "Magnetotren."
 	done
 
 PowerPlantOfficer2Script:
@@ -109,15 +110,15 @@ PowerPlantOfficer2Script:
 	iftrue_jumptextfaceplayer PowerPlantOfficer2ManagerHasBeenCheerfulText
 	jumpthistextfaceplayer
 
-	text "The Power Plant's"
-	line "Manager is up"
-	cont "ahead."
+	text "El Director de la"
+	line "Central de Energía"
+	cont "está más adelante."
 
-	para "But since someone"
-	line "wrecked the gener-"
-	cont "ator, he's been"
-	cont "both sad and"
-	cont "furious…"
+	para "Pero como averia-"
+	line "ron el generador,"
+
+	para "está muy triste y"
+	line "a la vez furioso…"
 	done
 
 PowerPlantGymGuide4Script:
@@ -125,13 +126,13 @@ PowerPlantGymGuide4Script:
 	iftrue_jumptextfaceplayer PowerPlantGymGuide4WeCanGetMagnetTrainRunningText
 	jumpthistextfaceplayer
 
-	text "The Magnet Train"
-	line "consumes a lot of"
-	cont "electricity."
+	text "El Magnetotren"
+	line "consume mucha"
+	cont "electricidad."
 
-	para "It can't move if"
-	line "the new generator"
-	cont "isn't operating."
+	para "No se moverá si el"
+	line "nuevo generador no"
+	cont "funciona."
 	done
 
 PowerPlantManager:
@@ -193,25 +194,28 @@ PowerPlantTutorZapCannonScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Have it your way."
+	text "Como tú quieras."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Sorry, but I can't"
-	line "teach Zap Cannon"
-	cont "without that Leaf!"
+	text "¡Lo siento, pero"
+	line "no puedo enseñar"
+
+	para "Electrocañón sin"
+	line "esa Hoja!"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows Zap Cannon!"
+	text "¡Tu #mon ya"
+	line "sabe usar"
+	cont "Electrocañón!"
 
-	para "Wahahah!"
+	para "¡Jajajaja!"
 	done
 
 PowerPlantOfficer1ApproachGymGuide2Movement:
@@ -231,145 +235,139 @@ PowerPlantOfficer1ReturnToPostMovement:
 
 
 PowerPlantOfficer1CeruleanShadyCharacterText:
-	text "I just got word"
-	line "from Cerulean."
+	text "Me acaban de avi-"
+	line "sar de Celeste."
 
-	para "It appears that a"
-	line "shady character"
+	para "Parece que hay un"
+	line "tipo sospechoso"
 
-	para "has been loitering"
-	line "around."
+	para "merodeando por"
+	line "allí."
 	done
 
 PowerPlantOfficer1CouldIAskForYourCooperationText:
-	text "Could I ask for"
-	line "your cooperation?"
+	text "¿Podrías prestar-"
+	line "nos tu ayuda?"
 	done
 
 PowerPlantOfficer1HaveToBeefUpSecurityText:
-	text "We'll have to beef"
-	line "up our security"
-	cont "presence."
+	text "Tendremos que re-"
+	line "forzar la seguri-"
+	cont "dad."
 	done
-
 
 PowerPlantGymGuide1GeneratorUpAndRunningText:
-	text "The generator's up"
-	line "and running. It's"
+	text "El generador ya"
+	line "funciona. Genera"
 
-	para "making electricity"
-	line "to spare."
+	para "electricidad de"
+	line "sobra."
 	done
-
 
 PowerPlantGymGuide2GeneratorIsRunningAgainText:
-	text "The generator's"
-	line "running again!"
+	text "¡El generador fun-"
+	line "ciona de nuevo!"
 	done
-
 
 PowerPlantOfficer2ManagerHasBeenCheerfulText:
-	text "Since the gener-"
-	line "ator's been fixed,"
+	text "Desde que arregla-"
+	line "ron el generador,"
 
-	para "the Manager has"
-	line "been cheerful."
+	para "el Director está"
+	line "muy alegre."
 	done
 
-
 PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
-	text "All right! We can"
-	line "finally get the"
+	text "¡Genial! Por fin"
+	line "podemos poner en"
 
-	para "Magnet Train"
-	line "running again."
+	para "marcha otra vez el"
+	line "Magnetotren."
 	done
 
 PowerPlantManagerWhoWouldRuinMyGeneratorText:
-	text "Manager: I, I, I'm"
-	line "ready to blast"
-	cont "someone!"
+	text "Director: ¡Es-estoy"
+	line "que trino!"
 
-	para "Who would dare"
-	line "ruin my generator?"
+	para "¿Quién se atreve a"
+	line "romper mi genera-"
+	cont "dor?"
 
-	para "I spent so much"
-	line "time on it!"
+	para "¡Le dediqué mu-"
+	line "chísimo tiempo!"
 
-	para "If I catch him,"
-	line "he's going to get"
+	para "¡Si lo pillo, le"
+	line "daré a probar mi"
 
-	para "a taste of my Zap"
-	line "Cannon!"
+	para "propio Electro-"
+	line "cañón!"
 	done
 
 PowerPlantManagerIWontForgiveCulpritText:
-	text "Manager: I won't"
-	line "forgive him!"
+	text "Director: ¡No le"
+	line "perdonaré!"
 
-	para "The culprit can"
-	line "cry and apologize,"
+	para "¡El culpable ya"
+	line "puede llorar y pe-"
+	cont "dir disculpas,"
 
-	para "but I'll still"
-	line "hammer him!"
+	para "que le daré una"
+	line "buena tunda!"
 
-	para "Gahahahah!"
+	para "¡Jajajaja!"
 	done
 
 PowerPlantManagerThatsThePartText:
-	text "Manager: Ah! Yeah!"
+	text "Director: ¡Ah! ¡Sí!"
 
-	para "That's the missing"
-	line "part from my be-"
-	cont "loved generator!"
+	para "¡Es la pieza que"
+	line "le faltaba a mi"
+	cont "amado generador!"
 
-	para "You found it?"
-	line "Wahah! Thanks!"
+	para "¿La encontraste tú?"
+	line "¡Jaja! ¡Gracias!"
 
-	para "Let's get my"
-	line "generator up and"
-	cont "running!"
+	para "¡Vamos a poner en"
+	line "marcha mi genera-"
+	cont "dor!"
 	done
 
 PowerPlantManagerYouDeserveARewardText:
-	text "You deserve a"
-	line "reward!"
+	text "¡Te mereces una"
+	line "recompensa!"
 	done
 
 Text_PowerPlantTutorZapCannon:
-	text "Manager: I can"
-	line "teach your"
+	text "Director: ¡Puedo"
+	line "enseñar a tu"
 
-	para "#mon to use"
-	line "my Zap Cannon!"
+	para "#mon a usar mi"
+	line "Electrocañón!"
 
-	para "It's not what any-"
-	line "one would consider"
+	para "No es lo que se di-"
+	line "ce muy preciso,"
 
-	para "accurate, but it"
-	line "packs a wallop!"
+	para "¡pero pega con mu-"
+	line "cha fuerza!"
 
-	para "I'll just need one"
-	line "Silver Leaf."
+	para "Solo necesitaré"
+	line "una Hoja Plata."
 	done
-
 
 Text_PowerPlantTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Zap Cannon?"
+	text "¿Quieres que le"
+	line "enseñe a tu #mon"
+	cont "Electrocañón?"
 	done
 
-
-
 PowerPlantForestText:
-	text "Magneton behaves"
-	line "strangely in Rock"
-	cont "Tunnel."
+	text "Magneton actúa de"
+	line "forma extraña en"
+	cont "el Túnel Roca."
 
-	para "Could the Power"
-	line "Plant's turbines"
+	para "¿Tendrán algo que"
+	line "ver las turbinas"
 
-	para "have something to"
-	line "do with it?"
+	para "de la Central de"
+	line "Energía?"
 	done

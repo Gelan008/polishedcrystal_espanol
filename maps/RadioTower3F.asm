@@ -40,15 +40,16 @@ RadioTower3FGymGuideScript:
 	iftrue_jumptextfaceplayer RadioTower3FGymGuideText
 	jumpthistextfaceplayer
 
-	text "To trainers, #-"
-	line "mon are their"
-	cont "beloved partners."
+	text "Para los entrena-"
+	line "dores, los #mon"
+	cont "son sus queridos"
+	cont "compañeros."
 
-	para "It's terrible how"
-	line "Team Rocket is"
+	para "Es terrible cómo"
+	line "el Team Rocket"
 
-	para "trying to control"
-	line "#mon."
+	para "trata de contro-"
+	line "lar a los #mon."
 	done
 
 RadioTower3FCooltrainerFScript:
@@ -60,17 +61,18 @@ RadioTower3FCooltrainerFScript:
 	iftrue_jumptextfaceplayer RadioTower3FCooltrainerFIsDirectorSafeText
 	jumpthistextfaceplayer
 
-	text "The Team Rocket"
-	line "boss has locked"
-	cont "himself in."
+	text "El jefe del Team"
+	line "Rocket se ha"
+	cont "encerrado."
 
-	para "But the Director"
-	line "can open it."
+	para "Pero el Director"
+	line "puede abrirla."
 
-	para "He's up on the"
-	line "fifth floor."
+	para "Está arriba, en"
+	line "el cuarto piso."
 
-	para "Please save him!"
+	para "¡Por favor,"
+	line "sálvalo!"
 	done
 
 .NoRockets:

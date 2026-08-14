@@ -43,38 +43,41 @@ VictoryRoadGateBadgeCheckScript:
 	showtext VictoryRoadGateOfficerText
 	setscene SCENE_POKEMONLEAGUEGATE_NOOP
 	end
-
+	
 VictoryRoadGateOfficerText:
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "Solo los entrena-"
+	line "dores que hayan"
 
-	para "You took the Johto"
-	line "Gym challenge?"
+	para "demostrado su va-"
+	line "lía pueden pasar."
 
-	para "The guards ahead"
-	line "will check your"
-	cont "Badges."
+	para "¿Aceptaste el de-"
+	line "safío de los Gim-"
+	cont "nasios de Johto?"
 
-	para "Go on now."
+	para "Los guardias de"
+	line "adelante comproba-"
+	cont "rán tus Medallas."
+
+	para "Pasa, pues."
 	done
 
 VictoryRoadGateLeftBlackBeltText:
-	text "This way leads to"
-	line "Mt.Silver."
+	text "Este camino lleva"
+	line "al Mt. Plateado."
 
-	para "You'll see scary-"
-	line "strong #mon out"
-	cont "there."
+	para "Allí verás #mon"
+	line "tan fuertes que"
+	cont "dan miedo."
 	done
 
 VictoryRoadGateRightBlackBeltText:
-	text "Off to the #mon"
-	line "League, are you?"
+	text "¿Vas a la Liga"
+	line "#mon, verdad?"
 
-	para "The Elite Four are"
-	line "so strong it's"
+	para "El Alto Mando es"
+	line "terriblemente"
 
-	para "scary, and they're"
-	line "ready for you!"
+	para "fuerte, ¡y ya te"
+	line "está esperando!"
 	done

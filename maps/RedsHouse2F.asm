@@ -20,35 +20,36 @@ PokemonJournalProfOakScript:
 	setflag ENGINE_READ_PROF_OAK_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "#mon Prof.Oak!"
+	para "Edición especial:"
+	line "¡Prof. Samuel Oak!"
 
-	para "Samuel Oak's grand-"
-	line "children, Azul and"
+	para "Azul y Dalia, los"
+	line "nietos de Samuel"
 
-	para "Dalia, live near"
-	line "his lab in Pallet"
-	cont "Town."
+	para "Oak, viven cerca"
+	line "de su laboratorio"
+	cont "en Pueblo Paleta."
 
-	para "His cousin Samson"
-	line "is rumored to live"
+	para "Se rumorea que su"
+	line "primo Gabriel vive"
 
-	para "in the far-off"
-	line "Alola region."
+	para "en la lejana"
+	line "región de Alola."
 	done
 
 RedsHouse2FPCText:
-	text "It looks like it"
-	line "hasn't been used"
-	cont "in a long time…"
+	text "Parece que no se"
+	line "ha usado en mucho"
+	cont "tiempo…"
 	done
 
 RedsHouse2FSNESText:
-	text "<PLAYER> played the"
-	line "SNES."
+	text "¡<PLAYER> jugó a"
+	line "la SNES!"
 
-	para "Better get going--"
-	line "no time to lose!"
+	para "Mejor ponerse en"
+	line "marcha… ¡No hay"
+	cont "tiempo que perder!"
 	done

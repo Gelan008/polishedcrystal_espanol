@@ -118,73 +118,80 @@ RocketHideoutB4FMeetLeadersScript:
 
 
 .CandelaIntro1Text:
-	text "Candela: I'm tell-"
-	line "ing you, raw power"
-	cont "wins every time!"
+	text "Candela: ¡Te digo"
+	line "yo que el poder"
+	cont "bruto siempre gana!"
 
-	para "Training should be"
-	line "tough, like a"
-	cont "battle!"
+	para "¡Entrenar debe"
+	line "ser duro, como un"
+	cont "combate!"
 	done
 
 .BlancheIntro1Text:
-	text "Blanche: Strength"
-	line "is pointless with-"
-	cont "out strategy."
+	text "Blanche: La fuerza"
+	line "no sirve de nada"
+	cont "sin estrategia."
 
-	para "Smart planning"
-	line "wins, every time."
+	para "Planear con inte-"
+	line "ligencia siempre"
+	cont "da la victoria."
 	done
 
 .SparkIntro1Text:
-	text "Spark: Both of you"
-	line "are missing the"
-	cont "point!"
+	text "Spark: ¡Ninguno de"
+	line "los dos entiende"
+	cont "el asunto!"
 
-	para "Instinct is key--"
-	line "trust your gut!"
+	para "El instinto es la"
+	line "clave: ¡confiad en"
+	cont "la intuición!"
 	done
 
 .CandelaIntro2Text:
-	text "Candela: Instinct?"
-	line "That's just guess-"
-	cont "work!"
+	text "Candela: ¿El ins-"
+	line "tinto? ¡Eso solo"
+	cont "es dar palos"
+	cont "de ciego!"
 
-	para "Real trainers rely"
-	line "on strength!"
+	para "¡Los entrenadores"
+	line "de verdad usan la"
+	cont "fuerza!"
 	done
 
 .BlancheIntro2Text:
 	text "Blanche: Candela,"
-	line "Spark, this isn't"
-	cont "the time!"
+	line "Spark, ¡no es el"
+	cont "momento!"
 
-	para "What about the"
-	line "the Great Tree"
-	cont "project?"
+	para "¿Qué hay del pro-"
+	line "yecto del Gran"
+	cont "Arbol?"
 	done
 
 .SparkIntro2Text:
-	text "Spark: Right! The"
-	line "big cherry tree--"
+	text "Spark: ¡Cierto! El"
+	line "gran cerezo…"
 	done
 
 .SparkIntro3Text:
-	text "Wait, who's that?"
+	text "Un momento, ¿quién"
+	line "es ése?"
 	done
 
 .CandelaIntro3Text:
-	text "Candela: Looks"
-	line "like this one has"
-	cont "power!"
+	text "Candela: ¡Parece"
+	line "que alguien tiene"
+	cont "fuerza!"
 
-	para "Since you made it"
-	line "this far, let's"
-	cont "battle!"
+	para "Ya que has llegado"
+	line "hasta aquí, ¡a com-"
+	cont "batir!"
 
-	para "If you win, we'll"
-	line "let you in on our"
-	cont "big project!"
+	para "¡Si ganas, te de-"
+	line "jaremos unirte a"
+
+	para "nuestro gran pro-"
+	line "yecto!"
 	done
 
 RocketHideoutB4FMeetLeadersScene:
@@ -225,49 +232,52 @@ RocketHideoutB4FSparkScript:
 	jumpopenedtext .RefusedText
 
 .GreetingText:
-	text "Spark: Hey! Ready"
-	line "to trust your gut?"
-	cont "In a battle?"
+	text "Spark: ¡Ey! ¿Te a-"
+	line "treves a confiar"
+	cont "en tu instinto?"
+
+	para "¿En un combate?"
 	done
 
 .SeenText:
-	text "Sweet! Let's see"
-	line "how far your inst-"
-	cont "inct takes you!"
+	text "¡Genial! ¡A ver"
+	line "hasta dónde te"
+	cont "lleva tu intuición!"
 	done
 
 .BeatenText:
-	text "Whoa, you totally"
-	line "nailed it!"
+	text "¡Hala, lo has cla-"
+	line "vado por completo!"
 
-	para "Guess your gut"
-	line "was right!"
+	para "¡Tu intuición te"
+	line "ha guiado bien!"
 	done
 
 .AfterText1:
-	text "Spark: Here's the"
-	line "Malign Lure."
+	text "Spark: ¡Toma el"
+	line "Cebo Maligno!"
 	done
 
 .AfterText2:
-	text "The Malign Lure"
-	line "draws on bold"
-	cont "energy."
+	text "El Cebo Maligno"
+	line "atrae la energía"
+	cont "audaz."
 
-	para "It's my way of"
-	line "sparking some"
-	cont "creativity!"
+	para "¡Es mi forma de"
+	line "dar una chispa de"
+	cont "creatividad!"
 
-	para "Use it boldly!"
+	para "¡Úsalo con deci-"
+	line "sión!"
 	done
 
 .RefusedText:
-	text "Aw, bummer!"
-	line "Don't let fear"
-	cont "hold you back!"
+	text "¡Vaya, qué pena!"
+	line "¡No dejes que el"
+	cont "miedo te frene!"
 
-	para "Come back when"
-	line "you're feeling it."
+	para "¡Vuelve cuando lo"
+	line "sientas dentro!"
 	done
 
 RocketHideoutB4FCandelaScript:
@@ -302,48 +312,48 @@ RocketHideoutB4FCandelaScript:
 	jumpopenedtext .RefusedText
 
 .GreetingText:
-	text "Candela: Ready to"
-	line "test out your"
-	cont "strength?"
+	text "Candela: ¿A punto"
+	line "para poner a prue-"
+	cont "ba tu fuerza?"
 	done
 
 .SeenText:
-	text "That's the spirit!"
-	line "Show me your"
-	cont "power!"
+	text "¡Ese es el espíri-"
+	line "tu! ¡Demuéstrame"
+	cont "tu poder!"
 	done
 
 .BeatenText:
-	text "Alright, you've"
-	line "proven your"
-	cont "strength today."
+	text "De acuerdo, hoy"
+	line "has demostrado tu"
+	cont "fuerza."
 
-	para "I'll admit defeat."
+	para "Admito mi derrota."
 	done
 
 .AfterText1:
-	text "Candela: Here's the"
-	line "Harsh Lure."
+	text "Candela: ¡Toma el"
+	line "Cebo Cruel!"
 	done
 
 .AfterText2:
-	text "Candela: The Harsh"
-	line "Lure draws fierce"
-	cont "power."
+	text "Candela: El Cebo"
+	line "Cruel atrae un po-"
+	cont "der feroz."
 
-	para "This is my contri-"
-	line "bution to our"
-	cont "project."
+	para "Esta es mi aporta-"
+	line "ción a nuestro"
+	cont "proyecto."
 
-	para "Use it wisely."
+	para "Úsalo con cabeza."
 	done
 
 .RefusedText:
-	text "No? Guess your"
-	line "not ready yet."
+	text "¿No? Se ve que aún"
+	line "no estás a punto."
 
-	para "Come back when you"
-	line "have more fire!"
+	para "¡Vuelve cuando"
+	line "tengas más chispa!"
 	done
 
 RocketHideoutB4FBlancheScript:
@@ -378,50 +388,50 @@ RocketHideoutB4FBlancheScript:
 	jumpopenedtext .RefusedText
 
 .GreetingText:
-	text "Blanche: Do you"
-	line "value strategy?"
+	text "Blanche: ¿Valoras"
+	line "la estrategia?"
 
-	para "Shall we test"
-	line "your tactics?"
+	para "¿Ponemos a prueba"
+	line "tus tácticas?"
 	done
 
 .SeenText:
-	text "Very well, let's"
-	line "see your"
-	cont "technique!"
+	text "Muy bien, ¡veamos"
+	line "tu técnica!"
 	done
 
 .BeatenText:
-	text "A well-executed"
-	line "plan, indeed."
+	text "Un plan bien eje-"
+	line "cutado, sin duda."
 
-	para "You've bested me."
+	para "Me has superado."
 	done
 
 .AfterText1:
-	text "Blanche: This is"
-	line "the Potent Lure."
+	text "Blanche: Aquí tie-"
+	line "nes el Cebo"
+	cont "Potente."
 	done
 
 .AfterText2:
-	text "The Potent Lure"
-	line "amplifies its"
-	cont "precision."
+	text "El Cebo Potente"
+	line "amplifica su pre-"
+	cont "cisión."
 
-	para "It's my contri-"
-	line "bution to ensuring"
-	cont "our success."
+	para "Es mi contribución"
+	line "para asegurar"
+	cont "nuestro éxito."
 
-	para "Use it carefully."
+	para "Úsalo con cuidado."
 	done
 
 .RefusedText:
-	text "Hmm, not"
-	line "feeling confident?"
+	text "Hum, ¿no tienes"
+	line "seguridad?"
 
-	para "Return when you're"
-	line "ready to think"
-	cont "ahead."
+	para "Vuelve cuando ten-"
+	line "gas una estrate-"
+	cont "gia pensada."
 	done
 
 RocketHideoutB4FYoungsterArdenScript:
@@ -444,25 +454,26 @@ RocketHideoutB4FYoungsterArdenScript:
 	end
 
 .GreetingText
-	text "Team Valor is…"
+	text "El Equipo Valor"
+	line "es…"
 
-	para "Wait--no!"
+	para "¡Espera, no!"
 
-	para "I mean, I think"
-	line "I'm lost!"
+	para "O sea… ¡creo que"
+	line "me he perdido!"
 	done
 
 .BeatenText:
-	text "Which way was"
-	line "the elevator?"
+	text "¿Por dónde que-"
+	line "daba el ascensor?"
 	done
 
 .AfterText:
-	text "Aww, I dropped"
-	line "the lift key!"
+	text "¡Vaya, se me cayó"
+	line "la Llave Ascensor!"
 
-	para "Candela is going"
-	line "to be so mad!"
+	para "¡Candela se va a"
+	line "poner furiosa!"
 	done
 
 RocketHideoutB4FTeacherSerena:
@@ -494,25 +505,24 @@ RocketHideoutB4FTeacherSerena:
 	end
 
 .AfterText
-	text "The leaders are"
-	line "only here at"
-	cont "night."
+	text "Los líderes solo"
+	line "están aquí por"
+	cont "la noche."
 
-	para "They work at"
-	line "the university"
-	cont "during the day."
+	para "De día trabajan"
+	line "en la universidad."
 	done
 
 .SeenText:
-	text "Let me see if you"
-	line "are smart enough"
+	text "¡A ver si tienes"
+	line "la agudeza para"
 
-	para "to take on the"
-	line "leaders!"
+	para "enfrentarte a los"
+	line "líderes!"
 	done
 
 .BeatenText:
-	text "Class dismissed!"
+	text "¡Fin de la clase!"
 	done
 
 RocketHideoutB4FSuperNerdNolan:
@@ -544,21 +554,21 @@ RocketHideoutB4FSuperNerdNolan:
 	end
 
 .AfterText
-	text "The leaders argue"
-	line "a lot, but they"
-	cont "are good friends."
+	text "Los líderes discu-"
+	line "ten mucho, pero"
+	cont "son buenos amigos."
 	done
 
 .SeenText:
-	text "You here to chal-"
-	line "lenge the leaders?"
+	text "¿Vienes a desafiar"
+	line "a los líderes?"
 
-	para "You need to beat"
-	line "me first!"
+	para "¡Tendrás que ven-"
+	line "cerme primero!"
 	done
 
 .BeatenText:
-	text "I choked!"
+	text "¡Me he bloqueado!"
 	done
 
 RocketHideoutB4FDefeatedAllLeadersScript:
@@ -573,58 +583,55 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	end
 
 .FinalText:
-	text "Candela: You're"
-	line "stronger than I"
-	cont "expected."
+	text "Candela: Eres más"
+	line "fuerte de lo que"
+	cont "me esperaba."
 
-	para "The sprays we've"
-	line "given you are more"
-	cont "than they seem."
+	para "Los espráis que te"
+	line "dimos son más de"
+	cont "lo que parecen."
 
-	para "Blanche: Each"
-	line "lure contains the"
+	para "Blanche: Cada cebo"
+	line "contiene la esen-"
+	cont "cia de un pájaro"
 
-	para "essence of a"
-	line "legendary bird"
-	cont "#mon."
+	para "legendario #mon."
 
-	para "They were created"
-	line "to call out to"
+	para "Se crearon para"
+	line "atraer a otros de"
+	cont "su misma especie."
 
-	para "others of their"
-	line "kind."
+	para "Spark: Pero solo"
+	line "sirven en el lugar"
+	cont "adecuado."
 
-	para "Spark: But they're"
-	line "only useful in the"
-	cont "right place."
+	para "Por eso es impor-"
+	line "tante el Gran"
+	cont "Arbol."
 
-	para "That's why the"
-	line "Great Tree is"
-	cont "important."
+	para "Candela: El árbol"
+	line "es antiquísimo,"
 
-	para "Candela: The tree"
-	line "is ancient,"
+	para "un lugar sagrado"
+	line "para anidar."
 
-	para "a sacred site for"
-	line "roosting."
+	para "Está conectado a"
+	line "la energía de la"
+	cont "región."
 
-	para "It's connected to"
-	line "the energy of the"
-	cont "region."
+	para "Blanche: Pájaros"
+	line "de gran poder se"
 
-	para "Blanche: Birds of"
-	line "great power have"
+	para "han reunido allí"
+	line "por generaciones."
 
-	para "gathered there for"
-	line "generations."
+	para "El árbol amplifi-"
+	line "ca la llamada de"
+	cont "los cebos."
 
-	para "The tree amplifies"
-	line "the call of the"
-	cont "lures."
+	para "Spark: Así que, si"
+	line "los usas allí…"
 
-	para "Spark: So if you"
-	line "use them there,"
-
-	para "who knows what"
-	line "might appear!"
+	para "¡quién sabe lo que"
+	line "podría aparecer!"
 	done
