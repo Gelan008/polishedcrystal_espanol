@@ -49,7 +49,7 @@ MoveReminderIntroText::
 
 	para "a move if you'll"
 	line "trade me a"
-	cont "Gold Leaf!"
+	cont "Hoja Oro!"
 	done
 
 MoveReminderPromptText::
@@ -86,5 +86,5 @@ MoveReminderCancelText::
 	line "needs to learn a"
 
 	para "move, come back"
-	line "with a Gold Leaf!"
+	line "with a Hoja Oro!"
 	done

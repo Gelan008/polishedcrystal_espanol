@@ -191,7 +191,7 @@ BurnedTower1FEusineMovement:
 	step_end
 
 BurnedTowerRival_BeforeText:
-	text "...... ...... ......"
+	text "...... ...... ..."
 
 	para "...Oh, eres tú."
 

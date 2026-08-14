@@ -291,7 +291,7 @@ endc
 	li "Cable Link"
 
 	li "Hoja Plata"
-	li "Hoja de Oro"
+	li "Hoja Oro"
 	li "Hoja Menta"
 	li "ChapPlateada"
 
