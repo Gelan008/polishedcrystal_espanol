@@ -38,7 +38,7 @@ MrPsychicsHouseTutorZenHeadbuttScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "… ¿Me he equi-"
+	text "…¿Me he equi-"
 	line "vocado?"
 	done
 
@@ -65,7 +65,7 @@ MrPsychicText:
 
 	para "…"
 
-	para "… ¡Ya lo tengo!"
+	para "…¡Ya lo tengo!"
 
 	para "¡Quieres aprender"
 	line "Cabezazo Zen!"

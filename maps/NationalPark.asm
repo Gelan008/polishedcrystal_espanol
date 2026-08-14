@@ -325,7 +325,7 @@ NationalParkTeacher1Text:
 	text "¡Prestad atención,"
 	line "por favor!"
 
-	para "… Uy, tengo que"
+	para "…Uy, tengo que"
 	line "dejar de pensar"
 
 	para "como una maestra a"

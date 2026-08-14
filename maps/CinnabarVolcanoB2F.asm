@@ -120,7 +120,7 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 	cont "Moltres por aquí."
 	cont "¿Te inspiré?"
 
-	para "… ¡¿Qué?! ¿Ya lo"
+	para "…¡¿Qué?! ¿Ya lo"
 	line "has atrapado?"
 	cont "Imposible."
 

@@ -416,7 +416,7 @@ DragonShrineMustIInformLanceText:
 	line "y entrégale la"
 	cont "Medalla Dragón!"
 
-	para "… ¿O tendré que"
+	para "…¿O tendré que"
 	line "informar a Lance"
 	cont "de esto?"
 	done
@@ -532,7 +532,7 @@ DragonShrineClairYouPassedText:
 
 	para "¿Has suspendido?"
 
-	para "… … … …"
+	para "…… … …"
 
 	para "…¿Qué? ¿Has"
 	line "aprobado?"

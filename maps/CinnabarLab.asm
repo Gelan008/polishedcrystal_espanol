@@ -406,7 +406,7 @@ CinnabarLabGiovanniWhoAreYouText:
 	para "¿Eres un espía"
 	line "de la policía?"
 
-	para "… Bien. ¿Quieres"
+	para "…Bien. ¿Quieres"
 	line "saber de los"
 	cont "negocios del"
 	cont "Team Rocket?"

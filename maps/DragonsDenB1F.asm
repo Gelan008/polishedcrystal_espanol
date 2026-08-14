@@ -223,7 +223,7 @@ DragonsDenB1FRivalScript:
 	text "…"
 	line "¿Qué? ¿<PLAYER>?"
 
-	para "… No, no lucharé"
+	para "…No, no lucharé"
 	line "contigo ahora…"
 
 	para "Mis #mon no"
@@ -432,7 +432,7 @@ KimonoGirlMinaScript:
 	done
 
 .BagFullText:
-	text "… Eso es, una"
+	text "…Eso es, una"
 	line "vez que hagas"
 	cont "espacio en tu"
 	cont "Mochila."

@@ -81,7 +81,7 @@ LyraPhoneNoNextMoveText:
 LyraPhoneNoEggMovesText:
 	text "¡Los Huevos no a-"
 	line "prenden ataques!"
-	cont "… ¿A que no?"
+	cont "…¿A que no?"
 	prompt
 
 LyraPhoneEndText:

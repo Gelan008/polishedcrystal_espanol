@@ -96,7 +96,7 @@ DiglettsCaveFossilManiacScript:
 	done
 
 .NoItemText:
-	text "… No, nada guay"
+	text "…No, nada guay"
 	line "en tu Mochila."
 
 	para "Oh, bueno. ¡Tal"

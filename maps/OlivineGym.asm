@@ -45,7 +45,7 @@ OlivineGymJasmineScript:
 	setevent EVENT_GOT_TM23_IRON_TAIL
 	jumpthisopenedtext
 
-	text "… Podrías usar"
+	text "…Podrías usar"
 	line "esa MT para ense-"
 	cont "ñar Cola Férrea."
 	done
@@ -147,7 +147,7 @@ OlivineGymStatue:
 	jumpstd gymstatue3
 
 Jasmine_SteelTypeIntro:
-	text "… Gracias por tu"
+	text "…Gracias por tu"
 	line "ayuda en el Faro…"
 
 	para "Pero esto es dis-"
@@ -158,19 +158,19 @@ Jasmine_SteelTypeIntro:
 	line "de Gimnasio. Uso"
 	cont "el tipo Acero."
 
-	para "… ¿Conoces el"
+	para "…¿Conoces el"
 	line "tipo Acero?"
 
 	para "Son muy duros,"
 	line "fríos, afilados y"
 	cont "muy fuertes."
 
-	para "… Mmm… ¿Podemos"
+	para "…Mmm… ¿Podemos"
 	line "empezar?"
 	done
 
 Jasmine_BetterTrainer:
-	text "… Eres mejor"
+	text "…Eres mejor"
 	line "entrenador que yo,"
 
 	para "tanto en habilidad"
@@ -192,7 +192,7 @@ Jasmine_BadgeSpeech:
 	para "te obedecerán sin"
 	line "protestar."
 
-	para "… Mmm… Por favor,"
+	para "…Mmm… Por favor,"
 	line "toma esto también…"
 	done
 

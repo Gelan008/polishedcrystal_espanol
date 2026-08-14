@@ -232,6 +232,6 @@ GentlemanPrestonSeenText:
 	done
 
 GentlemanPrestonBeatenText:
-	text "… Ay… Debo entre-"
+	text "…Ay… Debo entre-"
 	line "nar un poco más…"
 	done

@@ -1711,7 +1711,7 @@ _NameRaterWhichMonText::
 
 SECTION "_NameRaterBetterNameText", ROMX
 _NameRaterBetterNameText::
-	text "Mmm… "
+	text "Mmm…"
 	text_ram wStringBuffer1
 	text "…"
 	line "Es un buen mote."

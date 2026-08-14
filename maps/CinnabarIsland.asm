@@ -90,7 +90,7 @@ if !DEF(DEBUG)
 	para "desafiarme o"
 	line "algo así?"
 
-	para "… Odio decirlo,"
+	para "…Odio decirlo,"
 	line "pero ahora no"
 
 	para "tengo ganas de"

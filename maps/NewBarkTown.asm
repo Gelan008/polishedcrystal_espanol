@@ -313,7 +313,7 @@ NewBarkTownRivalText1:
 	done
 
 NewBarkTownRivalText2:
-	text "… ¿Qué estás"
+	text "…¿Qué estás"
 	line "mirando?"
 	done
 
@@ -350,7 +350,7 @@ Text_LyraGoodbye1:
 	cont "las Medallas de"
 	cont "Gimnasio de Johto."
 
-	para "… Eres un as,"
+	para "…Eres un as,"
 	line "<PLAYER>."
 
 	para "Pensar que ambos"
@@ -367,7 +367,7 @@ Text_LyraGoodbye1:
 	line "el Campeón de la"
 	cont "Liga."
 
-	para "… Antes de que te"
+	para "…Antes de que te"
 	line "vayas…"
 
 	para "¿Qué tal un último"
@@ -392,7 +392,7 @@ Text_LyraGoodbyeLoss:
 	done
 
 Text_LyraGoodbye2:
-	text "… Gracias,"
+	text "…Gracias,"
 	line "<PLAYER>."
 
 	para "Se nota cuánto"
@@ -401,7 +401,7 @@ Text_LyraGoodbye2:
 	para "pones al criar a"
 	line "tus #mon."
 
-	para "… Así que esto"
+	para "…Así que esto"
 	line "es un adiós."
 
 	para "¡Sé que puedes"

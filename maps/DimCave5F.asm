@@ -84,7 +84,7 @@ DimCave5FRileyScript:
 	end
 
 .ChallengeText:
-	text "… ¿Tú eres?"
+	text "…¿Tú eres?"
 
 	para "Vale, eres"
 	line "<PLAYER>."

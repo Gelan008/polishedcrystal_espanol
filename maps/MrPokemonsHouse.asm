@@ -316,7 +316,7 @@ if !DEF(DEBUG)
 	line "tratarías con mu-"
 	cont "cho cariño."
 
-	para "… ¡Ah!"
+	para "…¡Ah!"
 
 	para "Pareces de fiar."
 

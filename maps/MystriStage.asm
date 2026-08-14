@@ -161,7 +161,7 @@ MystriStageCynthiaIntroText:
 
 	para "¿Y tú quién eres?"
 
-	para "… Ya veo. El poder"
+	para "…Ya veo. El poder"
 	line "de los Unown te ha"
 	cont "traído hasta aquí."
 	done

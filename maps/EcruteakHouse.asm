@@ -114,7 +114,7 @@ EcruteakTinTowerEntranceSageScript:
 	line "bo pedirte que te"
 	cont "vayas."
 
-	para "… Lo que calma"
+	para "…Lo que calma"
 	line "el alma…"
 
 	para "El Trío Sabio dice"

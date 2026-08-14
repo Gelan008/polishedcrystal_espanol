@@ -128,10 +128,10 @@ DimCave4FSuper_nerdText:
 
 	para "en esa peli!"
 
-	para "… Excepto que"
+	para "…Excepto que"
 	line "estoy en una"
 	cont "cueva… y solo…"
 
-	para "… Esto ya no"
+	para "…Esto ya no"
 	line "tiene gracia."
 	done
