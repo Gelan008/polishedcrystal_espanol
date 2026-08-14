@@ -114,14 +114,14 @@ CherrygroveBayGalarianBirdsScript:
 	waitbutton
 	endtext
 .GreatTreeText
-	text "¡Es el Gran Árbol"
+	text "¡Es el Gran Arbol"
 	line "de Ciudad Cerezo!"
 	done
 
 .LikeToUseItemText
 	text "¿Quieres usar un"
 	line "Cebo en el Gran"
-	cont "Árbol?"
+	cont "Arbol?"
 	done
 
 .WhichLureText
@@ -228,7 +228,7 @@ TrainerSwimmerfTara:
 	jumpthistextfaceplayer
 
 	text "Al norte de aquí"
-	line "está el Gran Árbol"
+	line "está el Gran Arbol"
 	cont "de Ciudad Cerezo."
 
 	para "Dicen que aves"
@@ -298,10 +298,10 @@ CherrygroveBayHikerText:
 	para "#mon legendarios."
 
 	para "¡Johto se formó"
-	line "durante millones de"
+	line "durante millones"
 
-	para "años por el poder"
-	line "de la tierra!"
+	para "de años por el po-"
+	line "-der de la tierra!"
 	done
 
 Text_CherrygroveBayTutorEarthPower:

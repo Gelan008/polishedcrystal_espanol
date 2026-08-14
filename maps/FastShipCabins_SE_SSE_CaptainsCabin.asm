@@ -221,7 +221,7 @@ SSAquaCantFindGranddaughterText:
 	text "Oh, hola..."
 
 	para "Aún no puedo en-"
-	line "contrar a mi nieta."
+	line "contrar a mi nieta"
 
 	para "Mientras esté en"
 	line "el barco, bien."
@@ -231,7 +231,7 @@ SSAquaCantFindGranddaughterText:
 
 	para "puede estar moles-"
 	line "tando a alguien."
-	cont "Estoy preocupado..."
+	cont "Estoy preocupado.."
 	done
 
 SSAquaEntertainedGranddaughterText:

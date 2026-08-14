@@ -47,9 +47,9 @@ IrwinNumberDeclinedText:
 	done
 
 IrwinPhoneFullText:
-	text "Tu lista de telé-"
-	line "fonos está llena..."
+	text "Tu agenda está"
+	line "llena…"
 
-	para "Debes ser muy"
-	line "popular..."
+	para "Debes de ser muy"
+	line "popular…"
 	done

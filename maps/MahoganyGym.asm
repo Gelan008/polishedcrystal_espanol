@@ -106,7 +106,7 @@ GenericTrainerBoarderRonald:
 GenericTrainerBoarderBrad:
 	generictrainer BOARDER, BRAD, EVENT_BEAT_BOARDER_BRAD, BoarderBradSeenText, BoarderBradBeatenText
 
-	text "Este Gimnasio mola."
+	text "Este Gimnasio mola"
 	line "¡Me gusta patinar"
 	cont "con mis #mon!"
 	done
@@ -114,8 +114,8 @@ GenericTrainerBoarderBrad:
 GenericTrainerBoarderDouglas:
 	generictrainer BOARDER, DOUGLAS, EVENT_BEAT_BOARDER_DOUGLAS, BoarderDouglasSeenText, BoarderDouglasBeatenText
 
-	text "El secreto tras"
-	line "el poder de Fredo..."
+	text "El secreto tras el"
+	line "poder de Fredo..."
 
 	para "Medita a diario"
 	line "bajo una cascada"

@@ -83,8 +83,8 @@ GenericTrainerSightseermJaska:
 	done
 
 .BeatenText:
-	text "Pero no me ayudan"
-	line "a ganar combates..."
+	text "No me ayudan a"
+	line "ganar combates…"
 	done
 
 GenericTrainerTamerVince:
@@ -94,8 +94,8 @@ GenericTrainerTamerVince:
 	line "domados experta-"
 	cont "mente,"
 
-	para "¡pero yo sigo sien-"
-	line "do tan salvaje"
+	para "¡pero yo sigo"
+	line "siendo tan salvaje"
 	cont "como siempre!"
 	done
 
@@ -129,9 +129,9 @@ GenericTrainerSightseerfRosie:
 	done
 
 .BeatenText:
-	text "Supongo que el Cen-"
-	line "tro #mon es lo"
-	cont "primero."
+	text "Supongo que el"
+	line "Centro #mon"
+	cont "es lo primero."
 	done
 
 TrainerSwimmerfRachel:
@@ -183,6 +183,7 @@ GenericTrainerArtistMarlene:
 	done
 
 .BeatenText:
-	text "Pero no pudieron"
-	line "ganar un combate..."
+	text "No han podido"
+	line "ganar ni un"
+	cont "combate…"
 	done

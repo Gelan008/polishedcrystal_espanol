@@ -340,7 +340,7 @@ CeladonCityHotelSignText:
 	done
 
 CeladonCityTrainerTips1Text:
-	text "Pistas Entrenador"
+	text "Pistas Entren."
 
 	para "Protección X"
 
@@ -356,7 +356,7 @@ CeladonCityTrainerTips1Text:
 	done
 
 CeladonCityTrainerTips2Text:
-	text "Pistas Entrenador"
+	text "Pistas Entren."
 
 	para "Eevee es un #mon"
 	line "lleno de poten-"

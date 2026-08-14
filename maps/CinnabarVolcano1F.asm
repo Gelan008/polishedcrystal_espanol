@@ -132,7 +132,7 @@ CinnabarVolcano1FBuckScript:
 	cont "este volcán tam-"
 	cont "bién tiene!"
 
-	para "Por eso estoy aquí."
+	para "Por eso estoy aquí"
 
 	para "Así que, <PLAYER>,"
 	line "¿qué dices si lu-"
@@ -163,7 +163,7 @@ CinnabarVolcano1FBuckScript:
 	line "volcán no es para"
 	cont "mí..."
 
-	para "Pero oye, ¡<PLAYER>!"
+	para "Pero oye ¡<PLAYER>!"
 	line "¡Eres un entrena-"
 	cont "dor increíble!"
 

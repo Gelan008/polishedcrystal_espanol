@@ -26,7 +26,7 @@ PokemonJournalChuckScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial:"
+	para "Reportaje especial"
 	line "¡Líder Aníbal!"
 
 	para "Se dice que a"

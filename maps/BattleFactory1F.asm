@@ -60,13 +60,16 @@ BattleFactory1FContinueChallenge:
 	opentext
 	writethistext
 		text "¡Disculpe!"
-		line "No guardó la parti-"
-		cont "da antes de salir."
+		line "No guardó la"
 
-		para "Lo siento mucho,"
-		line "pero su desafío"
+		para "partida antes de"
+		line "salir de la Sala"
+		cont "de Batalla."
 
-		para "será declarado in-"
+		para "Lo lamento mucho,"
+		line "pero su desafío se"
+
+		para "declarará no"
 		line "válido."
 		done
 	waitbutton
@@ -286,7 +289,7 @@ PokemonJournalThortonScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial:"
+	para "Reportaje especial"
 	line "¡Jefe Fábrica"
 	cont "Espinal!"
 

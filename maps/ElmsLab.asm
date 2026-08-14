@@ -345,8 +345,7 @@ ElmsLabHealingMachine:
 	iftruefwd .CanHeal
 	jumpthisopenedtext
 
-	text "I wonder what this"
-	line "does?"
+	text "¿Para que servirá?"
 	done
 
 .CanHeal:
@@ -730,8 +729,8 @@ ElmsLabLyraScript:
 	iffalse_jumptextfaceplayer ElmsLabLyraWhichPokemonText
 	jumpthistextfaceplayer
 
-	text "Your #mon"
-	line "looks cute too!"
+	text "!Tu #mon"
+	line "también es mono!"
 	done
 
 ElmsLabWindow:
@@ -938,7 +937,7 @@ if !DEF(DEBUG)
 	line "también, Lira."
 
 	para "Necesitaba pediros"
-	line "un favor a los dos."
+	line "un favor a los dos"
 
 	para "Veréis…"
 
@@ -946,7 +945,7 @@ if !DEF(DEBUG)
 	line "un artículo que"
 
 	para "quiero presentar"
-	line "en una conferencia."
+	line "en una conferencia"
 
 	para "Pero aún hay"
 	line "cosas que no"
@@ -956,7 +955,7 @@ if !DEF(DEBUG)
 	para "¡Así que!"
 
 	para "Me gustaría que"
-	line "ambos criaseis a un"
+	line "ambos criaseis un"
 
 	para "#mon que atrapé"
 	line "hace poco."
@@ -964,7 +963,7 @@ endc
 	done
 
 ElmText_Accepted:
-	text "¡Gracias, <PLAYER>!"
+	text "¡Gracias <PLAYER>!"
 
 	para "¡Nos sirve de"
 	line "gran ayuda!"
@@ -980,11 +979,11 @@ ElmText_ResearchAmbitions:
 	text "Cuando anuncie mis"
 	line "hallazgos, seguro"
 
-	para "que profundizaremos"
-	line "un poco más en los"
+	para "que sabremos más"
+	line "sobre los muchos"
 
-	para "muchos misterios de"
-	line "los #mon."
+	para "muchos misterios"
+	line "de los #mon."
 
 	para "¡Podéis darlo por"
 	line "hecho!"
@@ -1013,7 +1012,7 @@ ElmText_MissionFromMrPokemon:
 	para "entusiasma con sus"
 	line "descubrimientos."
 
-	para "En fin, me acaba de"
+	para "En fin, acaba de"
 	line "mandar un e-mail"
 
 	para "diciendo que esta"
@@ -1044,7 +1043,7 @@ ElmText_ChooseAPokemon:
 	line "compañero,"
 	cont "<PLAYER>!"
 
-	para "Vaya, ¡elige uno!"
+	para "Adelante elige uno"
 	done
 
 
@@ -1066,9 +1065,9 @@ TakeTotodileText:
 	done
 
 TakeChikoritaText:
-	text "Elm: Así que te"
-	line "gusta Chikorita, el"
-	cont "#mon de planta, ¿eh?"
+	text "Elm: Así que, ¿te"
+	line "gusta Chikorita?"
+	cont "#mon de planta"
 	done
 
 DidntChooseStarterText:
@@ -1275,7 +1274,7 @@ ElmWaitingEggHatchText:
 
 
 ShowElmTogepiText1:
-	text "Elm: ¡Oh, <PLAYER>!"
+	text "Elm: ¡Oh <PLAYER>!"
 	line "¡Ese #mon es de"
 	cont "ese Huevo!"
 	done
@@ -1301,7 +1300,7 @@ ShowElmTogepiText3:
 	done
 
 ElmGiveOddSouvenirText1:
-	text "¡Gracias, <PLAYER>!"
+	text "¡Gracias <PLAYER>!"
 	line "¡Nos ayudas a"
 
 	para "desvelar los mis-"
@@ -1389,7 +1388,7 @@ AideText_ThiefReturnedMon:
 	done
 
 ElmGiveMasterBallText1:
-	text "Elm: ¡Hola, <PLAYER>!"
+	text "Elm: ¡Hola <PLAYER>!"
 	line "¡Gracias a ti, mi"
 
 	para "investigación va"
@@ -1498,7 +1497,7 @@ LyraAnnouncesGymChallengeText:
 	para "Quiero ver de lo"
 	line "que soy capaz."
 
-	para "Prof. Elm, lo sien-"
+	para "Prof.Elm, lo sien-"
 	line "to, no puedo se-"
 	cont "guir ayudando."
 
@@ -1643,7 +1642,7 @@ ElmsLabOfficerText2:
 
 ElmsLabOfficerText3:
 	text "¡Vale! Así que su"
-	line "nombre era <RIVAL>."
+	line "nombre era <RIVAL>"
 
 	para "¡Gracias por ayu-"
 	line "dar en mi investi-"
@@ -1651,8 +1650,8 @@ ElmsLabOfficerText3:
 	done
 
 ElmsLabLyraWhichPokemonText:
-	text "¿Qué #mon vas"
-	line "a elegir, <PLAYER>?"
+	text "¿Qué #mon vas a"
+	line "elegir, <PLAYER>?"
 	done
 
 LyraChoosesStarterText:
@@ -1765,7 +1764,7 @@ ElmsLabTravelTip1Text:
 	text "<PLAYER> abrió un"
 	line "libro."
 
-	para "Consejo n 1:"
+	para "Consejo n1:"
 
 	para "Pulsa Start para"
 	line "abrir el menú."
@@ -1775,7 +1774,7 @@ ElmsLabTravelTip2Text:
 	text "<PLAYER> abrió un"
 	line "libro."
 
-	para "Consejo n 2:"
+	para "Consejo n2:"
 
 	para "¡Registra tu viaje"
 	line "guardando!"
@@ -1785,7 +1784,7 @@ ElmsLabTravelTip3Text:
 	text "<PLAYER> abrió un"
 	line "libro."
 
-	para "Consejo n 3:"
+	para "Consejo n3:"
 
 	para "Abre la Mochila y"
 	line "pulsa Select para"
@@ -1796,7 +1795,7 @@ ElmsLabTravelTip4Text:
 	text "<PLAYER> abrió un"
 	line "libro."
 
-	para "Consejo n 4:"
+	para "Consejo n4:"
 
 	para "Revisa los movi-"
 	line "mientos #mon."

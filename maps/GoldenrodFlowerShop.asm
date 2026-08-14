@@ -140,9 +140,9 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	para "Mi hermana pequeña"
 	line "se emocionó mucho"
 
-	para "y ha ido a verlo..."
+	para "y ha ido a verlo.."
 
-	para "Estoy preocupada..."
+	para "Estoy preocupada.."
 	line "¿No es peligroso?"
 	done
 
@@ -153,7 +153,7 @@ GoldenrodFlowerShopTeacherStopMySisterText:
 	para "y ha ido a ver el"
 	line "árbol raro..."
 
-	para "Estoy preocupada..."
+	para "Estoy preocupada.."
 	line "¿Puedes por favor"
 
 	para "evitar que se haga"
@@ -191,8 +191,8 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	line "que Blanca..."
 
 	para "Entonces, estarás"
-	line "bien. ¡Aquí tie-"
-	cont "nes mi Squirgadera!"
+	line "bien. ¡Aquí tienes"
+	cont "mi Squirgadera!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:

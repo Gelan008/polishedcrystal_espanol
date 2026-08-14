@@ -47,7 +47,7 @@ InitialOptionDescriptions:
 .EVs:
 	assert MODERN_MAX_EV % 4 == 0
 	text "Los EVs suben los"
-	line STRFMT("stats hasta %d pts,", MODERN_MAX_EV / 4) ; 252 / 4 == 63
+	line STRFMT("stats hasta %d pts", MODERN_MAX_EV / 4) ; 252 / 4 == 63
 	cont "1 por cada 4 EVs."
 
 	para "Puedes maximizar"
@@ -141,7 +141,7 @@ InitialOptionDescriptions:
 	para "Variación al azar"
 	line "que no afecta a"
 
-	para "sus características"
+	para "sus caracters."
 	line "o calidad."
 
 	para "Inspirado en"
@@ -149,6 +149,6 @@ InitialOptionDescriptions:
 	prompt
 
 InitialOptionsDoneDescription:
-	text "¡Guarda tus ajustes"
+	text "¡Guarda ajustes"
 	line "y empieza a jugar!"
 	prompt

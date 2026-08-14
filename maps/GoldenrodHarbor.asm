@@ -372,12 +372,12 @@ GoldenrodHarborDollVendorText:
 
 GoldenrodHarborMagikarpDollText:
 	text "<PLAYER> compró"
-	line "el Muñeco Magikarp."
+	line "Muñeco Magikarp."
 	done
 
 GoldenrodHarborMagikarpDollSentText:
-	text "El Muñeco Magikarp"
-	line "fue enviado a casa."
+	text "Muñeco Magikarp"
+	line "fue enviado a casa"
 	done
 
 GoldenrodHarborMarillDollText:
@@ -386,18 +386,18 @@ GoldenrodHarborMarillDollText:
 	done
 
 GoldenrodHarborMarillDollSentText:
-	text "El Muñeco Marill"
-	line "fue enviado a casa."
+	text "Muñeco Marill"
+	line "fue enviado a casa"
 	done
 
 GoldenrodHarborOctilleryDollText:
 	text "<PLAYER> compró"
-	line "el Muñeco Octillery."
+	line "Muñeco Octillery"
 	done
 
 GoldenrodHarborOctilleryDollSentText:
-	text "El Muñeco Octillery"
-	line "fue enviado a casa."
+	text "Muñeco Octillery"
+	line "fue enviado a casa"
 	done
 
 GoldenrodHarborNoMoneyText:
@@ -426,7 +426,7 @@ GoldenrodHarborMagnaPlantText:
 
 GoldenrodHarborMagnaPlantSentText:
 	text "La Planta Magna"
-	line "fue enviada a casa."
+	line "fue enviada a casa"
 	done
 
 GoldenrodHarborTropicPlantText:
@@ -436,7 +436,7 @@ GoldenrodHarborTropicPlantText:
 
 GoldenrodHarborTropicPlantSentText:
 	text "La Planta Trópico"
-	line "fue enviada a casa."
+	line "fue enviada a casa"
 	done
 
 GoldenrodHarborJumboPlantText:
@@ -446,7 +446,7 @@ GoldenrodHarborJumboPlantText:
 
 GoldenrodHarborJumboPlantSentText:
 	text "La Planta Gigante"
-	line "fue enviada a casa."
+	line "fue enviada a casa"
 	done
 
 GoldenrodHarborLass2Text:

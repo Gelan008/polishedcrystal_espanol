@@ -114,7 +114,7 @@ if !DEF(DEBUG)
 	line "raleza se queja,"
 
 	para "podemos perderlo"
-	line "todo en un segundo."
+	line "todo en un segundo"
 
 	para "..."
 

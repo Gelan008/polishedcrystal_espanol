@@ -27,7 +27,7 @@ PokemonJournalRedScript:
 	text "Revista #mon"
 
 	para "Edición Especial:"
-	line "¡Entrenador <PK><MN>"
+	line "¡Entren. <PK><MN>"
 	cont "Rojo!"
 
 	para "Se dice que Rojo"

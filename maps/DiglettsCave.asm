@@ -96,8 +96,8 @@ DiglettsCaveFossilManiacScript:
 	done
 
 .NoItemText:
-	text "... No, nada"
-	line "guay en tu Mochila."
+	text "... No, nada guay"
+	line "en tu Mochila."
 
 	para "Oh, bueno. ¡Tal"
 	line "vez la próxima!"
@@ -191,7 +191,7 @@ GenericTrainerEngineerSmith:
 
 DiglettsCaveCooltrainerfText:
 	text "¡Mira a todos es-"
-	line "tos lindos Diglett!"
+	line "tos Diglett monos!"
 
 	para "¡Juro que he visto"
 	line "a uno con la nariz"
@@ -207,6 +207,6 @@ DiglettsCavePokefanMText:
 
 	para "He oído que los"
 	line "Diglett de Isla"
-	cont "Canela son diferen-"
-	cont "tes."
+	cont "Canela son"
+	cont "diferentes."
 	done

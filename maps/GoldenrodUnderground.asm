@@ -834,7 +834,7 @@ GoldenrodUndergroundWeAreNotOpenTodayText:
 
 GoldenrodUndergroundNoEntryText: ; text > text
 	text "PROHIBIDO EL PASO"
-	line "A PARTIR DE AQUÍ"
+	line "A PARTIR DE AQUI"
 	done
 
 PiersMicrophoneText:

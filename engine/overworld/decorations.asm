@@ -60,14 +60,14 @@ _PlayerDecorationMenu:
 	dw DecoExitMenu,     .exit
 	assert_table_length NUM_DECO_CATEGORIES + 1
 
-.bed:      db "Bed@"
-.carpet:   db "Carpet@"
+.bed:      db "Cama@"
+.carpet:   db "Alfombra@"
 .plant:    db "Plant@"
-.poster:   db "Poster@"
-.game:     db "Game Console@"
-.ornament: db "Ornament@"
-.big_doll: db "Big Doll@"
-.exit:     db "Exit@"
+.poster:   db "Planta@"
+.game:     db "Consola@"
+.ornament: db "Adorno@"
+.big_doll: db "Muñeco gde@"
+.exit:     db "Salir@"
 
 .FindCategoriesWithOwnedDecos:
 	xor a

@@ -47,7 +47,7 @@ AdminRangiText:
 RangiComputerScript:
 	jumpthistext
 
-	text "\"Optimizando...\""
+	text "Optimizando..."
 	line "parpadea en la"
 	cont "pantalla."
 
@@ -140,16 +140,18 @@ EmiComputerScript:
 
 AdminAizawaText:
 	text "Aizawa: Diálogos,"
-	line "diseño de mapas,"
-	cont "sprites de perso-"
-	cont "najes, equipos..."
+	line "diseños de mapa,"
 
-	para "¡Qué suerte tiene"
-	line "Game Freak en Kanto"
+	para "sprites de per-"
+	line "sonajes, equipos"
+	cont "de entrenador…"
+
+	para "¡Game Freak en"
+	line "Kanto tiene suerte"
 
 	para "de tener a toda"
 	line "una empresa para"
-	cont "esto!"
+	cont "hacer esto!"
 	done
 
 AizawaComputerScript:

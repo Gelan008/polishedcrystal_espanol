@@ -235,7 +235,7 @@ DayCareLyraProtestText:
 DayCareLyraGoodbyeText:
 	text "Lira: Bueno, será"
 	line "mejor que me"
-	cont "vaya... ¡Nos vemos!"
+	cont "vaya.. ¡Nos vemos!"
 	done
 
 DayCareLyraForgotText:

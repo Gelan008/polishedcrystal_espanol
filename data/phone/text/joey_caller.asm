@@ -25,7 +25,7 @@ JoeyDefeatedMonText:
 	line "Bueno, supongo que"
 
 	para "es normal, al ser"
-	line "nosotros tan duros."
+	line "nosotros tan duros"
 	done
 
 JoeyLostAMonText:

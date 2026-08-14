@@ -217,7 +217,7 @@ SurfGuyNeverLeftAScratchText:
 	line "safío, pero ni si-"
 
 	para "quiera les he"
-	line "hecho un rasguño..."
+	line "hecho un rasguño.."
 	done
 
 SurfGuyLikeADanceText:
@@ -263,7 +263,7 @@ DanceTheatreCooltrainerMText:
 
 DanceTheatreGrannyText:
 	text "Las Chicas Kimono"
-	line "son muy hermosas..."
+	line "son muy hermosas.."
 
 	para "Pero tienen que"
 	line "pasar por un"
@@ -287,8 +287,8 @@ DanceTheatreLadyText:
 	cont "feon, Glaceon o"
 	cont "Sylveon,"
 
-	para "pero no veo a ningu-"
-	line "no aquí."
+	para "pero no veo a"
+	line "ninguno aquí."
 
 	para "Me pregunto si las"
 	line "Chicas Kimono que"

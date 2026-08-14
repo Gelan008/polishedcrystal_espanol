@@ -80,7 +80,7 @@ LakeOfRageFloodScript:
 LakeOfRageSignText:
 	text "Lago de la Furia,"
 	line "también conocido"
-	cont "como Lago Gyarados."
+	cont "como Lago Gyarados"
 	done
 
 LakeOfRageAdvancedTipsSignText:
@@ -159,9 +159,9 @@ LakeOfRageLanceScript:
 	line "lleno de Gyarados,"
 	cont "pero nada más..."
 
-	para "Por lo que se es-"
-	line "tán forzando a evo-"
-	cont "lucionar a los"
+	para "Por lo que se"
+	line "está obligando a"
+	cont "evolucionar a los"
 	cont "Magikarp..."
 	done
 
@@ -317,10 +317,10 @@ WesleyScript:
 .WednesdayText:
 	text "Mireia: Puesto"
 	line "que me has encon-"
-	cont "trado, debes de ha-"
+	cont "trado, debes de"
 
-	para "berte topado con"
-	line "mis hermanos."
+	para "haberte topado"
+	line "con mis hermanos."
 
 	para "¿O fue pura"
 	line "suerte?"

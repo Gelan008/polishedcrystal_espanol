@@ -1,7 +1,7 @@
 MomPhoneGreetingText:
 	text "¿Hola?"
 
-	para "¡Oh, hola, <PLAYER>!"
+	para "¡Oh, <PLAYER>!"
 	line "¿Trabajando duro?"
 	done
 
@@ -125,7 +125,7 @@ MomPhoneHangUpText:
 MomPhoneNoPokemonText:
 	text "¿Hola?"
 
-	para "¡Oh, hola, <PLAYER>!"
+	para "¡Oh, <PLAYER>!"
 	line "¿No te esperaba el"
 	cont "Prof. Elm?"
 	done
@@ -133,7 +133,7 @@ MomPhoneNoPokemonText:
 MomPhoneNoPokedexText:
 	text "¿Hola?"
 
-	para "¡Oh, hola, <PLAYER>!"
+	para "¡Oh, <PLAYER>!"
 	line "¿Estás en una gran"
 
 	para "misión para el"
@@ -143,7 +143,7 @@ MomPhoneNoPokedexText:
 MomPhoneNoGymQuestText:
 	text "¿Hola?"
 
-	para "¡Hola, <PLAYER>! Si"
+	para "¡Hola <PLAYER>! Si"
 	line "has terminado con"
 
 	para "tu recado ven a"

@@ -79,7 +79,7 @@ BuenaPhoneNiteText:
 	done
 
 BuenaPhoneRocketText:
-	text "Oh. ¡Hola, <PLAYER>!"
+	text "Oh ¡Hola <PLAYER>!"
 
 	para "¿Cómo estás?"
 

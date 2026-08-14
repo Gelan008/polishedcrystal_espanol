@@ -87,9 +87,9 @@ JoeyRematchGiftText:
 	para "No hay duda, eres"
 	line "duro de pelar."
 
-	para "¡Perder tan a menu-"
-	line "do hasta se sien-"
-	cont "te bien ahora!"
+	para "¡Perder tan a"
+	line "menudo ya hasta me"
+	cont "sienta bien!"
 
 	para "Ten, toma esto."
 	line "Úsalo para hacerte"

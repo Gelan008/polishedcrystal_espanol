@@ -180,8 +180,8 @@ EusineNoBeastsText:
 	line "<PLAYER>."
 
 	para "¿Has capturado"
-	line "a los #mon"
-	cont "bestia legendarios?"
+	line "a los perros"
+	cont "legendarios?"
 
 	para "………………"
 
@@ -202,7 +202,8 @@ EusineShowsEnteiText:
 
 EusineShowsSuicuneText:
 	text "Éste, por su-"
-	line "puesto, es Suicune:"
+	line "puesto, es"
+	cont "Suicune:"
 	done
 
 

@@ -26,7 +26,7 @@ PokemonJournalClairScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial:"
+	para "Reportaje especial"
 	line "¡Líder Débora!"
 
 	para "El traje y la capa"

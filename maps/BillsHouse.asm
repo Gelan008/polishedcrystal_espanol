@@ -23,7 +23,7 @@ PokemonJournalBillScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial:"
+	para "Reportaje especial"
 	line "¡Pokémaníaco Bill!"
 
 	para "Bill inventó el"
@@ -82,8 +82,8 @@ BillsHouseBillScript:
 	line "#mon de lo más"
 	cont "fascinante."
 
-	para "Dicen que las tres"
-	line "bestias legendari-"
+	para "Dicen que los tres"
+	line "perros legendari-"
 
 	para "as de Johto solían"
 	line "ser tres #mon"
@@ -99,8 +99,8 @@ BillsHouseBillScript:
 	done
 
 .SeenText:
-	text "¿Atrapaste a las"
-	line "tres bestias le-"
+	text "¿Atrapaste a los"
+	line "tres perros le-"
 	cont "gendarias?"
 
 	para "¡Qué genial,"

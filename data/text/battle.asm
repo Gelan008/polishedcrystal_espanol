@@ -254,7 +254,7 @@ BattleText_ItemRaisedCrit:
 	text "¡<USER>"
 	line "usó "
 	text_ram wStringBuffer1
-	cont "para entusiasmarse!"
+	cont "para motivarse!"
 	prompt
 
 BattleText_MegaSolCharged:
@@ -644,7 +644,8 @@ IsConfusedText:
 
 HurtItselfText:
 	text "¡Tan confuso que"
-	line "se hirió a sí mismo!"
+	line "se hirió a sí"
+	cont "mismo!"
 	prompt
 
 ConfusedNoMoreText:
@@ -928,8 +929,8 @@ SwappedItemsText:
 	prompt
 
 ChangeIntoTypeText:
-	text "¿Cambiar al tipo de"
-	line "qué movimiento?"
+	text "¿Cambiar al tipo"
+	line "de qué movimiento?"
 	prompt
 
 InvalidTypeChangeText:
@@ -1029,7 +1030,8 @@ StatRoseSharplyText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> subió mucho!"
+	line "<USER> subió"
+	cont "mucho!"
 	prompt
 
 StatRoseDrasticallyText:
@@ -1120,7 +1122,8 @@ MadeSubstituteText:
 
 HasSubstituteText:
 	text "¡<USER>"
-	line "tiene un Sustituto!"
+	line "tiene un"
+	cont "Sustituto!"
 	prompt
 
 TooWeakSubText:
@@ -1129,8 +1132,8 @@ TooWeakSubText:
 	prompt
 
 SubTookDamageText:
-	text "¡El Sustituto sufrió"
-	line "daño por"
+	text "¡El Sustituto"
+	line "sufrió daño por"
 	cont "<TARGET>!"
 	prompt
 
@@ -1157,8 +1160,9 @@ WasDisabledText:
 	prompt
 
 CoinsScatteredText:
-	text "¡Monedas esparcidas"
-	line "por todos lados!"
+	text "¡Monedas"
+	line "esparcidas por"
+	cont "todos lados!"
 	prompt
 
 TransformedTypeText:
@@ -1170,8 +1174,9 @@ TransformedTypeText:
 	prompt
 
 EliminatedStatsText:
-	text "¡Los cambios en las"
-	line "est. se eliminaron!"
+	text "¡Los cambios en"
+	line "las estadísticas"
+	cont "se eliminaron!"
 	prompt
 
 TransformedText:
@@ -1334,8 +1339,9 @@ SpikesText:
 	prompt
 
 ToxicSpikesText:
-	text "¡Púas Tóxicas en el"
-	line "bando de <TARGET>!"
+	text "¡Púas Tóxicas"
+	line "alrededor de"
+	cont "<TARGET>!"
 	prompt
 
 IdentifiedText:
@@ -1345,9 +1351,9 @@ IdentifiedText:
 	prompt
 
 StartPerishSongText:
-	text "#mon that heard"
-	line "the song will"
-	cont "faint in 3 turns!"
+	text "Los #mon que"
+	line "oigan el canto"
+	cont "mueren en 3 turnos"
 	prompt
 
 StartPerishBodyText:
@@ -1356,12 +1362,12 @@ StartPerishBodyText:
 	prompt
 
 SandstormBrewedText:
-	text "A sandstorm"
-	line "brewed!"
+	text "¡Comenzó una"
+	line "tormenta de arena!"
 	prompt
 
 HailStartedText:
-	text "¡Empezó a granizar!"
+	text "Empezó a granizar"
 	prompt
 
 BracedItselfText:
@@ -1593,7 +1599,7 @@ FirePoweredUpText:
 
 AngerPointMaximizedAttackText:
 	text "¡<USER>"
-	line "maximizó su Ataque!"
+	line "maximizó su Ataq.!"
 	prompt
 
 CannotUseText:
@@ -1731,7 +1737,7 @@ WillFinalPkmnText:
 
 KogaFinalPkmnText:
 	text "¡Juajuajua!"
-	line "¡He estado confiado"
+	line "¡Me he confiado"
 
 	para "desde el"
 	line "principio!"
@@ -1757,7 +1763,7 @@ ChampionFinalPkmnText:
 
 BrockFinalPkmnText:
 	text "¡Ja ja ja!"
-	line "¡Me hace cosquillas!"
+	line "¡Qué gracioso!"
 	prompt
 
 MistyFinalPkmnText:
@@ -1766,7 +1772,7 @@ MistyFinalPkmnText:
 	prompt
 
 LtSurgeFinalPkmnText:
-	text "Esto no ha acabado."
+	text "Esto no ha acabado"
 	line "¡Solo acaba"
 	cont "de empezar!"
 	prompt
@@ -1778,8 +1784,8 @@ ErikaFinalPkmnText:
 	prompt
 
 JanineFinalPkmnText:
-	text "¡Tienes una técnica"
-	line "de combate genial!"
+	text "¡Tu técnica de"
+	line "combate es genial!"
 	prompt
 
 SabrinaFinalPkmnText:
@@ -1814,22 +1820,23 @@ Rival1_1FinalPkmnText:
 	prompt
 
 Rival1_2FinalPkmnText:
-	text "Hay que tener mucho"
-	line "valor para venir"
-	cont "aquí…"
+	text "Hay que tener"
+	line "mucho valor para"
+	cont "venir aquí…"
 	prompt
 
 Rival1_3FinalPkmnText:
-	text "Por la desespera-"
-	line "ción, la gente débil"
+	text "Por pura desespe-"
+	line "ración, los más"
 
-	para "a veces lo hace"
-	line "bien al defenderse."
+	para "débiles a veces se"
+	line "defienden bien."
 	prompt
 
 Rival1_4FinalPkmnText:
 	text "¡Eh, eh!"
-	line "¿Por qué tan serio?"
+	line "¿Por qué tan"
+	cont "serio?"
 	prompt
 
 Rival1_5FinalPkmnText:
@@ -1894,9 +1901,9 @@ Proton1FinalPkmnText:
 	prompt
 
 Proton2FinalPkmnText:
-	text "Vayamos donde vaya-"
-	line "mos, siempre hay"
-	cont "quien se queje…"
+	text "Vayamos donde"
+	line "vayamos, siempre"
+	cont "hay quien se queje"
 	prompt
 
 Petrel1FinalPkmnText:
@@ -2017,8 +2024,8 @@ CherylFinalPkmnText:
 	prompt
 
 RileyFinalPkmnText:
-	text "¡Tu equipo! ¡Siento"
-	line "tu gran aura!"
+	text "¡Tu equipo! ¡Sien-"
+	line "-to tu gran aura!"
 	prompt
 
 BuckFinalPkmnText:
@@ -2042,13 +2049,13 @@ AnabelFinalPkmnText:
 	prompt
 
 DarachFinalPkmnText:
-	text "¡Mi último bastión!"
-	line "¡Adelante!"
+	text "¡Mi último"
+	line "bastión!¡Adelante!"
 	prompt
 
 CaitlinFinalPkmnText:
-	text "Incluso ahora, debo"
-	line "mantenerme"
+	text "Incluso ahora,"
+	line "debo mantenerme"
 	cont "serena y fría…"
 	prompt
 
@@ -2123,7 +2130,8 @@ YellowFinalPkmnText:
 	prompt
 
 WalkerFinalPkmnText:
-	text "¡Aún podemos volar!"
+	text "¡Aún podemos"
+	line "volar!"
 	prompt
 
 ImakuniFinalPkmnText:

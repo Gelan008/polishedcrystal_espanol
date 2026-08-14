@@ -56,8 +56,8 @@ ManiaScript:
 .refusetotakeshuckie
 	jumpthisopenedtext
 
-	text "Oh, no... ¿Qué haré"
-	line "si regresa?"
+	text "Oh, no... ¿Qué"
+	line "haré si regresa?"
 	done
 
 .returnshuckie

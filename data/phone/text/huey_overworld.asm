@@ -58,11 +58,11 @@ HueyRematchGiftText:
 	text "¡Tío! ¡Eres tan"
 	line "duro como siempre!"
 
-	para "He luchado con-"
-	line "tigo muchas veces,"
+	para "Hemos luchado una"
+	line "y otra vez, pero,"
 
-	para "<PLAYER>, pero no he"
-	line "ganado ni una vez."
+	para "<PLAYER>, no te he"
+	line "ganado ni una."
 
 	para "Compré muchos"
 	line "objetos para for-"
@@ -75,8 +75,8 @@ HueyRematchGiftText:
 	line "sí solos no lo"
 	cont "son todo."
 
-	para "Eso debe ser lo"
-	line "que pasa..."
+	para "Debe de ser por"
+	line "eso…"
 
 	para "Toma esto,"
 	line "<PLAYER>."

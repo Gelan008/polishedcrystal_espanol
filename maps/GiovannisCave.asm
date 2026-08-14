@@ -309,7 +309,7 @@ GiovannisCaveLyraFeelsSorryText:
 	cont "a venir."
 
 	para "¡Pero ahora mismo,"
-	line "<PLAYER>, ¡debes de"
+	line "<PLAYER> ¡debes de"
 	cont "estar venciéndo-"
 	cont "los!"
 	done

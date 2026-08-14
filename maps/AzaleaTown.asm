@@ -177,7 +177,7 @@ AzaleaTownRivalBattleTrigger2:
 	cont "grupo."
 
 	para "Pero cuando están"
-	line "solos, son débiles."
+	line "solos son débiles."
 
 	para "Los odio a todos."
 

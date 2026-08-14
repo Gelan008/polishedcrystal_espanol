@@ -232,7 +232,7 @@ BattleTower2FBuckScript:
 	jumpthistext
 
 .AfterText:
-	text "¡Fiuuu! ¡Demasiado!"
+	text "¡Fiuu! ¡Demasiado!"
 
 	para "Supongo que segui-"
 	line "ré mejorando a mi"

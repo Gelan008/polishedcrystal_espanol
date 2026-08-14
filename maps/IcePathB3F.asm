@@ -137,7 +137,7 @@ Text_IcePathB3FIceRock:
 
 LoreleiIntroText:
 	text "Lorelei: Hola,"
-	line "joven. Soy Lorelei."
+	line "joven. Soy Lorelei"
 
 	para "¿Ves esa roca de"
 	line "hielo de ahí?"

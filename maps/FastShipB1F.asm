@@ -109,7 +109,7 @@ GenericTrainerSailorJeff:
 GenericTrainerPicnickerDebra:
 	generictrainer PICNICKER, DEBRA, EVENT_BEAT_PICNICKER_DEBRA, PicnickerDebraSeenText, PicnickerDebraBeatenText
 
-	text "Azafrán, Azulona..."
+	text "Azafrán, Azulona.."
 	line "He oído que hay"
 
 	para "muchas ciudades"

@@ -164,9 +164,9 @@ BellchimeTrailValerieScript:
 .IntroText:
 	text "Vaya, si es el"
 	line "entrenador que se"
-	cont "enfrentó a Suicune..."
+	cont "enfrentó a Suicune."
 
-	para "Soy Valerie."
+	para "Soy Valeria."
 	line "Vengo a este"
 
 	para "sendero para"

@@ -1020,7 +1020,7 @@ IlexForestSignpost:
 	done
 
 IlexForestTrainerTips:
-	text "Pistas Entrenador"
+	text "Pistas Entren."
 
 	para "Siempre que ten-"
 	line "gas una MO en la"
@@ -1127,7 +1127,7 @@ Text_IlexForestLyraWhatWasThat:
 	done
 
 Text_IlexForestLyraWorried:
-	text "Lira: ...¿<PLAYER>?"
+	text "Lira: ..¿<PLAYER>?"
 	line "¿Has vuelto?"
 
 	para "¡Te eché mucho de"

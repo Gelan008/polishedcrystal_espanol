@@ -112,10 +112,11 @@ LavRadioTower1FSuperNerd2Script:
 	cont "¡Qué mala pata!"
 
 	para "Si consigues una"
-	line "T. Expansión po-"
+	line "Tarj. Expansión"
 
-	para "drás sintonizarlos."
-	line "¡A qué esperas!"
+	para "podrás sintonizar"
+	line "los programas."
+	cont "¡A qué esperas!"
 	done
 
 LavRadioTower1FReceptionistText:
@@ -193,7 +194,7 @@ LavRadioTower1FPokeFluteSignText:
 
 ; TODO: use this text
 LavRadioTower1FReferenceLibraryText:
-	text "¡Guau! Una estante-"
+	text "¡Guau! Una estante"
 	line "ría entera de CD y"
 	cont "vídeos de #mon."
 

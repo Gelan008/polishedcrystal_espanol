@@ -165,11 +165,11 @@ PictureBookshelfText:
 	done
 
 MagazineBookshelfText:
-	text "Revistas #mon..."
-	line "El Compañero,"
+	text "Revista #mon..."
+	line "Amigos #mon,"
 
-	para "El Manual, Los"
-	line "Gráficos #mon..."
+	para "manual #mon,"
+	line "arte #mon.."
 	done
 
 TeamRocketOathText:

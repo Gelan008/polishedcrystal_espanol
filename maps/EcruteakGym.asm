@@ -335,9 +335,9 @@ MediumMarthaBeatenText:
 	done
 
 MediumGraceSeenText:
-	text "¿Atrapado por nues-"
-	line "tro suelo invi-"
-	cont "sible?"
+	text "¿Atrapado por"
+	line "nuestro suelo"
+	cont "invisible?"
 
 	para "¡Derrótame si"
 	line "quieres una pista!"

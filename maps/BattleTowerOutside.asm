@@ -124,8 +124,8 @@ BattleTowerOutsideAnabelScript:
 	line "nombre es Destra."
 
 	para "¿...Eres <PLAYER>?"
-	line "He oído varios"
-	cont "rumores sobre ti..."
+	line "He oído varios ru-"
+	cont "-mores sobre ti..."
 
 	para "Déjame ver tu"
 	line "talento en su"
@@ -143,7 +143,7 @@ BattleTowerOutsideAnabelScript:
 	done
 
 .BeatenText:
-	text "Vale, lo entiendo..."
+	text "Vale, entendido..."
 	done
 
 .ItemText:

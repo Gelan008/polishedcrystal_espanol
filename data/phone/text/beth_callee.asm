@@ -14,7 +14,7 @@ BethAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh. Hola, <PLAYER>."
+	para "Oh. Hola <PLAYER>."
 	done
 
 BethAnswerPhoneNiteText:

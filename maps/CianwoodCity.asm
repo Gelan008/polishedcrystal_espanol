@@ -257,7 +257,7 @@ EusineSuicuneText:
 	para "Es maravilloso..."
 
 	para "Quiero ver a"
-	line "Suicune de cerca..."
+	line "Suicune de cerca.."
 
 	para "Lo he decidido."
 
@@ -357,7 +357,7 @@ CianwoodMoveManiacSignText:
 	done
 
 CianwoodAdvancedTipsSignText:
-	text "¡Pistas Entrenador!"
+	text "¡Pistas Entren.!"
 
 	para "¡Puedes usar una"
 	line "# Ball en un"

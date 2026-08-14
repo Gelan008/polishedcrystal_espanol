@@ -413,11 +413,11 @@ IndigoPlateauYellowScript:
 	text "Amarillo: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "Estaba viendo com-"
-	line "batir al Alto"
+	para "Estaba viendo"
+	line "luchar al Alto"
 	cont "Mando."
 
-	para "Son tan intensos..."
+	para "Son intensos..."
 	line "Y tienen unos"
 
 	para "lazos tan fuertes"
@@ -428,7 +428,7 @@ IndigoPlateauYellowScript:
 	done
 
 .QuestionText:
-	text "Amarillo: <PLAYER>,"
+	text "Amarillo: <PLAYER>"
 	line "¿puedes hacerme"
 	cont "un favor?"
 

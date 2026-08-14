@@ -71,8 +71,8 @@ CliffEdgeGateReceptionistText:
 	text "¡El Bosq. Amarillo"
 	line "está por aquí!"
 
-	para "¡Es un sitio turís-"
-	line "tico muy popular!"
+	para "¡Es un sitio turís"
+	line "-tico muy popular!"
 	done
 
 ProfOaksAide3HiText:

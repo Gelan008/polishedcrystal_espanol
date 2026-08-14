@@ -288,7 +288,7 @@ CopycatLostDoll1Text:
 	para "diste tu Muñeco"
 	line "#mon favorito."
 
-	para "<PLAYER>: Si lo en-"
+	para "<PLAYER>: Si lo en"
 	line "cuentro, ¿me darás"
 	cont "un pase de tren?"
 
@@ -332,10 +332,10 @@ CopycatLostDoll2Text:
 	cont "te a tu Muñeco"
 	cont "#mon?"
 
-	para "<PLAYER>: ¿En serio"
-	line "me darás un pase"
+	para "<PLAYER>: ¿En se-"
+	line "-rio me darás un"
 
-	para "de tren si lo"
+	para "pase de tren si lo"
 	line "encuentro?"
 
 	para "<PLAYER>: ¡Claro,"

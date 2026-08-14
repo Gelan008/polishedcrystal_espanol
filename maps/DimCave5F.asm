@@ -225,8 +225,8 @@ GenericTrainerSuper_nerdDave:
 	text "Necesitas un pico"
 	line "minero para minar."
 
-	para "Pero no puedes con-"
-	line "seguirlos por"
+	para "Pero no puedes"
+	line "conseguirlos por"
 	cont "aquí."
 	done
 

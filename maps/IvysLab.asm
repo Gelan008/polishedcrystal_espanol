@@ -97,6 +97,7 @@ ProfIvyScript:
 	giveitem LIECHI_BERRY
 	jumpthisopenedtext
 
+.NoBerryText:
 	text "Ivy: Lo en-"
 	line "tiendo..."
 
@@ -128,7 +129,8 @@ ProfIvyScript:
 	cont "<PLAYER>!"
 
 	para "A ver si esto"
-	line "ayuda a Nidorino..."
+	line "ayuda a"
+	cont "Nidorino..."
 	done
 
 .ThanksText:

@@ -317,7 +317,7 @@ BreederSophieBeatenText:
 
 YellowForestWalkerSeenText:
 	text "Hello there!"
-	line "The name's Walker."
+	line "The name's Wayne."
 
 	para "I was once the Gym"
 	line "Leader of Violet"
@@ -331,7 +331,7 @@ YellowForestWalkerSeenText:
 	para "take in the"
 	line "sights."
 
-	para "Walker: You're"
+	para "Wayne: You're"
 	line "collecting Gym"
 	cont "Badges, huh?"
 
@@ -355,7 +355,7 @@ YellowForestWalkerBeatenText:
 	done
 
 YellowForestWalkerAfterText:
-	text "Walker: Well, I"
+	text "Wayne: Well, I"
 	line "can see why you"
 
 	para "won against"
@@ -370,7 +370,7 @@ YellowForestWalkerAfterText:
 	done
 
 YellowForestWalkerFinalText:
-	text "Walker: Bird"
+	text "Wayne: Bird"
 	line "#mon soar"
 
 	para "through the sky"

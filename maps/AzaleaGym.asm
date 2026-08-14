@@ -84,7 +84,7 @@ AzaleaGymBugsyScript:
 		para "el ataque fuera"
 		line "del combate."
 
-		para "Toma, también quiero"
+		para "También quiero"
 		line "que tengas esto."
 		done
 	promptbutton
@@ -155,16 +155,16 @@ AzaleaGymGuyScript:
 
 	text "¡Eh, aspirante!"
 
-	para "Antón es joven, pero"
-	line "su conocimiento de"
+	para "Antón es un joven"
+	line "con un gran"
 
-	para "los #mon bicho"
-	line "es de verdad."
+	para "conocimiento de"
+	line "los #mon bicho."
 
 	para "Será duro sin mis"
 	line "consejos."
 
-	para "A ver... A los #"
+	para "A ver... los #"
 	line "mon bicho no les"
 	cont "gusta el fuego."
 

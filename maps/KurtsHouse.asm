@@ -393,10 +393,10 @@ PokemonJournalProfWestwoodScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial:"
-	line "¡Prof. Westwood!"
+	para "Reportaje especial"
+	line "¡Prof.Westwood!"
 
-	para "El Prof. Westwood V"
+	para "El Prof.Westwood V"
 	line "da clases en la"
 	cont "Univ. de Azulona."
 
@@ -551,8 +551,10 @@ KurtsHouseKurtThatsALetdownText:
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "César: ¡Trabajando!"
-	line "¡No me molestes!"
+	text "César: ¡Estoy"
+	line "trabajando!"
+
+	para "¡No me molestes!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:

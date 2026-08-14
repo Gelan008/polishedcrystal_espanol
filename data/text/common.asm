@@ -838,7 +838,7 @@ _PnP_picky::
 
 SECTION "_PnP_sortofok", ROMX
 _PnP_sortofok::
-	line "está bastante bien."
+	line "está bastante bien"
 	done
 
 SECTION "_PnP_soso", ROMX
@@ -935,14 +935,14 @@ SECTION "_RocketRadioText9", ROMX
 _RocketRadioText9::
 	line ""
 	text_pause
-	text "¿Dónde está el jefe?"
+	text "¿Dónde está jefe?"
 	done
 
 SECTION "_RocketRadioText10", ROMX
 _RocketRadioText10::
 	line ""
 	text_pause
-	text "¿Estará escuchando?"
+	text "¿Estará oyendo?"
 	done
 
 SECTION "_BuenaRadioText1", ROMX
@@ -1583,7 +1583,7 @@ _PerfectHeresYourMonText::
 
 SECTION "_GotBackMonText", ROMX
 _GotBackMonText::
-	text "<PLAYER> recuperó a"
+	text "<PLAYER> recuperó"
 	line ""
 	text_ram wStringBuffer1
 	text "."
@@ -2151,7 +2151,7 @@ _CantGetOffBikeText::
 
 SECTION "_GotOnBikeText", ROMX
 _GotOnBikeText::
-	text "<PLAYER> se subió a"
+	text "<PLAYER> subió en"
 	line ""
 	text_ram wStringBuffer2
 	text "."
@@ -2159,7 +2159,7 @@ _GotOnBikeText::
 
 SECTION "_GotOffBikeText", ROMX
 _GotOffBikeText::
-	text "<PLAYER> se bajó de"
+	text "<PLAYER> bajó de"
 	line ""
 	text_ram wStringBuffer2
 	text "."
@@ -2219,7 +2219,7 @@ WhiteoutToWildText::
 	text "¡A <PLAYER> no le"
 	line "quedan #mon!"
 
-	para "¡<PLAYER> se asustó"
+	para "¡<PLAYER> huyó"
 	line "y tiró ¥"
 	text_decimal hMoneyTemp, 3, 7
 	text "…"
@@ -2292,7 +2292,7 @@ _SweetHoneyNothingText::
 
 SECTION "_SquirtbottleNothingText", ROMX
 _SquirtbottleNothingText::
-	text "<PLAYER> echó agua."
+	text "<PLAYER> echó agua"
 
 	para "Pero no pasó"
 	line "nada..."
@@ -2301,7 +2301,8 @@ _SquirtbottleNothingText::
 SECTION "_UseSacredAshText", ROMX
 _UseSacredAshText::
 	text "¡Los #mon de"
-	line "<PLAYER> se curaron!"
+	line "<PLAYER>"
+	cont "se curaron!"
 	done
 
 SECTION "Text_AnEGGCantHoldAnItem", ROMX
@@ -2866,8 +2867,8 @@ _OakRating04::
 
 SECTION "_OakRating05", ROMX
 _OakRating05::
-	text "Te estás esforzando,"
-	line "se nota."
+	text "Te estás esfor-"
+	line "zando, ¡se nota!"
 
 	para "Tu #dex va"
 	line "tomando forma."
@@ -2884,18 +2885,18 @@ _OakRating06::
 
 SECTION "_OakRating07", ROMX
 _OakRating07::
-	text "¿Ya conseguiste una"
-	line "Caña? Puedes pescar"
+	text "¿Ya conseguiste"
+	line "una Caña? Puedes"
 
-	para "para atrapar"
-	line "#mon."
+	para "pescar para"
+	line "atrapar #mon."
 	done
 
 SECTION "_OakRating08", ROMX
 _OakRating08::
-	text "¡Excelente! ¡Parece"
+	text "¡Excelente! Parece"
 	line "que te gusta"
-	cont "coleccionar cosas!"
+	cont "coleccionar cosas"
 	done
 
 SECTION "_OakRating09", ROMX
@@ -2916,16 +2917,16 @@ _OakRating10::
 
 SECTION "_OakRating11", ROMX
 _OakRating11::
-	text "Me impresionas."
-	line "Estás evolucionando"
+	text "¡Me impresionas!"
+	line "No solo atrapas"
 
-	para "#mon, no solo"
-	line "atrapándolos."
+	para "#mon, ¡también"
+	line "los evolucionas!"
 	done
 
 SECTION "_OakRating12", ROMX
 _OakRating12::
-	text "Conociste a César?"
+	text "¿Conoces a César?"
 	line "Sus Balls a medida"
 	cont "te ayudarán."
 	done
@@ -2941,8 +2942,8 @@ _OakRating13::
 
 SECTION "_OakRating14", ROMX
 _OakRating14::
-	text "¿Estás intercambian-"
-	line "do tus #mon?"
+	text "¿Estás intercambi-"
+	line "-ando tus #mon?"
 
 	para "¡Es muy difícil"
 	line "hacerlo solo!"
@@ -2957,11 +2958,12 @@ _OakRating15::
 
 SECTION "_OakRating16", ROMX
 _OakRating16::
-	text "¡Has atrapado"
-	line "tantos #mon!"
+	text "¡Has encontrado"
+	line "muchos #mon!"
 
-	para "¡De verdad has"
-	line "ayudado al estudio!"
+	para "¡Me has ayudado"
+	line "mucho en mis"
+	cont "estudios!"
 	done
 
 SECTION "_OakRating17", ROMX
@@ -3196,7 +3198,7 @@ _ElmText2::
 
 SECTION "_ElmText4", ROMX
 _ElmText4::
-	text "Gente y #mon"
+	text "Humanos y #mon"
 	line "conviven apoyándo-"
 	cont "se los unos a los"
 	cont "otros."
@@ -3234,8 +3236,8 @@ _ElmText7::
 
 if !DEF(DEBUG)
 	para "Tu propia historia"
-	line "#mon está a punto"
-	cont "de comenzar."
+	line "#mon está a"
+	cont "punto de comenzar."
 
 	para "Pasarás por buenos"
 	line "momentos y duros"
@@ -3390,7 +3392,7 @@ _PutItemInPocketText::
 	text "<PLAYER> puso"
 	line ""
 	text_ram wStringBuffer1
-	text " en"
+	text " en "
 	text_ram wStringBuffer3
 	text "."
 	prompt
@@ -3561,8 +3563,8 @@ _BargainShopComeAgainText::
 
 SECTION "_PharmacyIntroText", ROMX
 _PharmacyIntroText::
-	text "¿Qué tal? ¿Necesitas"
-	line "medicinas?"
+	text "¿Qué tal? ¿Nece-"
+	line "-sitas medicinas?"
 	done
 
 SECTION "_HowManyText", ROMX
@@ -3645,8 +3647,9 @@ _MartPackFullText::
 
 SECTION "_MartCantBuyText", ROMX
 _MartCantBuyText::
-	text "Lo siento, no puedo"
-	line "comprarte eso."
+	text "Lo siento, pero"
+	line "no puedo comprarte"
+	cont "eso."
 	prompt
 
 SECTION "_MartComeAgainText", ROMX

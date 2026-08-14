@@ -30,12 +30,12 @@ PokemonJournalMortyScript:
 
 	text "Revista #mon"
 
-	para "Reportaje Especial:"
+	para "Reportaje Especial"
 	line "¡Líder Morti!"
 
 	para "Morti asegura ha-"
-	line "ber visto una vez a"
-	cont "Entei. Él dice:"
+	line "ber visto una vez"
+	cont "a Entei. Él dice:"
 
 	para "“Fue asombroso."
 	line "Entei me miró a"
@@ -45,7 +45,7 @@ PokemonJournalMortyScript:
 	line "sus ojos. Fue"
 
 	para "como si pudiera"
-	line "ver a través de mí,"
+	line "ver a través de mí"
 
 	para "hasta lo más pro-"
 	line "fundo de mi cora-"
@@ -105,8 +105,8 @@ EcruteakPokeCenter1FBillScript:
 	cont "momento."
 
 	para "Las Cápsulas del"
-	line "Tiempo están total-"
-	cont "mente fritas,"
+	line "Tiempo están"
+	cont "totalmente fritas,"
 
 	para "y me vendría bien"
 	line "tu ayuda."

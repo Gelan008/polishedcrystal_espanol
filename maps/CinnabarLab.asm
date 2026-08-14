@@ -413,7 +413,7 @@ CinnabarLabGiovanniWhoAreYouText:
 	cont "Te lo enseñaré."
 
 	para "El #mon más"
-	line "fuerte del mundo..."
+	line "fuerte del mundo.."
 	done
 
 CinnabarLabGiovanniAttackText:

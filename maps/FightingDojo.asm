@@ -415,7 +415,7 @@ ErikaText_Greeting:
 	para "¿Cómo estás?"
 
 	para "Este sitio no me"
-	line "pega mucho, pero..."
+	line "pega mucho, pero.."
 
 	para "¡Ignoremos eso y"
 	line "luchemos!"
@@ -475,7 +475,7 @@ WhitneyText_Greeting:
 	text "¡Hola, <PLAYER>!"
 	line "Ya que estamos"
 
-	para "ambos aquí, ¡tenga-"
+	para "ambos aquí ¡tenga-"
 	line "mos un combate!"
 
 	para "¿Todo listo?"
@@ -777,7 +777,7 @@ FightingDojoScheduleMondayText:
 
 FightingDojoScheduleMondayWalkerText:
 	text "Lunes: Pegaso,"
-	line "Sachiko, Walker"
+	line "Sachiko, Wayne"
 	done
 
 FightingDojoScheduleTuesdayText:

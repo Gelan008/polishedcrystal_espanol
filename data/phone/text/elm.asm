@@ -133,7 +133,7 @@ ElmPhonePokerusText:
 	done
 
 ElmPhoneDisasterText:
-	text "¿H-hola? ¿<PLAYER>?"
+	text "¿H-hola, <PLAYER>?"
 	line "¡Es un desastre!"
 
 	para "¡Ay! ¡Es"
@@ -142,13 +142,13 @@ ElmPhoneDisasterText:
 	para "¿Qué debería"
 	line "hacer? Oh, no..."
 
-	para "¡Vuelve aquí"
-	line "inmediatamente!"
+	para "¡Por favor, vuelve"
+	line "aquí cuanto antes!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "¿Hola, <PLAYER>? ¡He-"
-	line "mos descubierto"
+	text "¿Hola, <PLAYER>?"
+	line "¡Hemos descubierto"
 
 	para "algo sobre el"
 	line "Huevo!"

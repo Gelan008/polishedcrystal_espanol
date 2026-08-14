@@ -24,7 +24,7 @@ PokemonJournalBlaineScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial:"
+	para "Reportaje especial"
 	line "¡Líder Blaine!"
 
 	para "Se dice que Blaine"

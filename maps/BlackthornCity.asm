@@ -84,7 +84,7 @@ DragonDensSignText:
 	done
 
 BlackthornCityTrainerTipsText:
-	text "Pistas Entrenador"
+	text "Pistas Entren."
 
 	para "Un #mon que"
 	line "lleve una Baya"

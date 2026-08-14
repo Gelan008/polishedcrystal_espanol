@@ -4,7 +4,7 @@ ReenaAnswerPhoneText:
 	text_ram wStringBuffer3
 	text "..."
 
-	para "Oh. Hola, <PLAYER>."
+	para "Oh. Hola, <PLAYER>"
 	line "¿Qué pasa?"
 	done
 
@@ -14,7 +14,7 @@ ReenaAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "..."
 
-	para "Oh. Hola, <PLAYER>,"
+	para "Oh. Hola, <PLAYER>"
 	line "¿qué pasa?"
 	done
 
@@ -24,7 +24,7 @@ ReenaAnswerPhoneNiteText:
 	text_ram wStringBuffer3
 	text "..."
 
-	para "Oh. Hola, <PLAYER>,"
+	para "Oh. Hola, <PLAYER>"
 	line "¿qué pasa?"
 	done
 

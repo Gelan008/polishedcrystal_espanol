@@ -218,7 +218,7 @@ EcruteakGymSign:
 	done
 
 EcruteakCityAdvancedTips:
-	text "¡Pistas Entrenador!"
+	text "¡Pistas Entren.!"
 
 	para "Algunos #mon que"
 	line "encuentres pueden"

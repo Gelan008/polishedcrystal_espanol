@@ -29,7 +29,7 @@ TiffanyAnswerPhoneNiteText:
 	done
 
 TiffanyGreetText:
-	text "¿Eres tú, <PLAYER>?"
+	text "¿Eres <PLAYER>?"
 
 	para "Buenos días. Soy"
 	line ""
@@ -38,7 +38,7 @@ TiffanyGreetText:
 	done
 
 TiffanyGreetDayText:
-	text "¿Eres tú, <PLAYER>?"
+	text "¿Eres <PLAYER>?"
 
 	para "Hola, soy "
 	text_ram wStringBuffer3
@@ -46,7 +46,7 @@ TiffanyGreetDayText:
 	done
 
 TiffanyGreetNiteText:
-	text "¿Eres tú, <PLAYER>?"
+	text "¿Eres <PLAYER>?"
 
 	para "Buenas noches."
 	line "Soy "

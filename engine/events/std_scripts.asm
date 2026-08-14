@@ -339,19 +339,19 @@ DayToTextScript:
 	getstring .SaturdayText, STRING_BUFFER_3
 	end
 .SundayText:
-	db "Sunday@"
+	db "Domingo@"
 .MondayText:
-	db "Monday@"
+	db "Lunes@"
 .TuesdayText:
-	db "Tuesday@"
+	db "Martes@"
 .WednesdayText:
-	db "Wednesday@"
+	db "Miércoles@"
 .ThursdayText:
-	db "Thursday@"
+	db "Jueves@"
 .FridayText:
-	db "Friday@"
+	db "Viernes@"
 .SaturdayText:
-	db "Saturday@"
+	db "Sábado@"
 
 BugContestResultsWarpScript:
 	special ClearBGPalettes

@@ -233,8 +233,8 @@ GoldenrodDeptStoreRoofFisherDuplicateText:
 	done
 
 GotVoltorbDollText:
-	text "<PLAYER> recibió un"
-	line "Muñeco Voltorb."
+	text "<PLAYER> recibió"
+	line "un Muñeco Voltorb."
 	done
 
 VoltorbDollSentText:
@@ -304,9 +304,9 @@ GoldenrodDeptStoreRoofBugCatcherText:
 
 
 PokeDollVendingMachineText:
-	text "¡Una máquina expen-"
-	line "dedora de muñecos"
-	cont "#mon!"
+	text "¡Una máquina"
+	line "expendedora de"
+	cont "muñecos #mon!"
 	done
 
 PokeDollVendingMachineNoMoneyText:

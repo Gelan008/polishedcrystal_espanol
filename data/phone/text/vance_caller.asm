@@ -20,16 +20,16 @@ VanceDefeatedMonText:
 	done
 
 VanceLostAMonText:
-	text "Pero mira esto,"
-	line "un "
+	text "¡Oye! Se nos acaba"
+	line "de escapar un"
+
+	para ""
 	text_ram wStringBuffer4
-	text " sal-"
+	text " salvaje"
+	line "por los pelos."
 
-	para "vaje apenas nos"
-	line "eludió."
-
-	para "Quería usar Vuelo"
-	line "para ir a por él..."
+	para "¡Quise usar Vuelo"
+	line "para seguirle…!"
 	done
 
 VanceBattleRematchText:

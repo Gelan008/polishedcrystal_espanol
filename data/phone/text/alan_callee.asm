@@ -3,7 +3,7 @@ AlanAnswerPhoneText:
 	text_ram wStringBuffer3
 	text "!"
 
-	para "¿Eres tú, <PLAYER>?"
+	para "¿Eres <PLAYER>?"
 	line "¡Buenos días!"
 	done
 
@@ -12,7 +12,7 @@ AlanAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "!"
 
-	para "¿Eres tú, <PLAYER>?"
+	para "¿Eres <PLAYER>?"
 	done
 
 AlanAnswerPhoneNiteText:
@@ -20,7 +20,7 @@ AlanAnswerPhoneNiteText:
 	text_ram wStringBuffer3
 	text "!"
 
-	para "¿Eres tú, <PLAYER>?"
+	para "¿Eres <PLAYER>?"
 	line "¡Buenas noches!"
 	done
 

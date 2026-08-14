@@ -14,7 +14,7 @@ JoseAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "..."
 
-	para "Ah, ¿<PLAYER>? ¡Hola!"
+	para "Ah <PLAYER> ¡Hola!"
 	done
 
 JoseAnswerPhoneNiteText:

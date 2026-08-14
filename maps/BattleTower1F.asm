@@ -66,8 +66,9 @@ BattleTower1FContinueChallenge:
 	opentext
 	writethistext
 		text "¡Disculpe!"
-		line "No guardó la parti-"
-		cont "da antes de salir."
+		line "No guardó la"
+		cont "partida antes de"
+		cont "salir."
 
 		para "Lo siento mucho,"
 		line "pero su desafío"
@@ -193,7 +194,7 @@ BattleTower1FReceptionistScript:
 		cont "Torre Batalla."
 
 		para "En cada Sala hay"
-		line "siete entrenadores."
+		line "siete entrenadores"
 
 		para "Gana a todos y re-"
 		line "cibe PB."
@@ -406,7 +407,7 @@ PokemonJournalPalmerScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial:"
+	para "Reportaje especial"
 	line "¡Amo Torre"
 	cont "Jericor!"
 

@@ -61,7 +61,7 @@ GenericTrainerScientistDexter:
 
 .BeatenText:
 	text "Debería centrarme"
-	line "en la hidrología..."
+	line "en la hidrología.."
 	done
 
 TrainerGuitaristmBiff:

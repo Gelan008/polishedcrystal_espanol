@@ -1,6 +1,6 @@
 KenjiHangUpText:
-	text "Como sea, ¡hablare-"
-	line "mos de nuevo!"
+	text "Como sea, ¡habla-"
+	line "-remos de nuevo!"
 	done
 
 KenjiRemainDedicatedText:

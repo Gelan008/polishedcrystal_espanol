@@ -50,8 +50,8 @@ GoldenrodDeptStore4FGameboyKidText:
 	text "Algunos #mon"
 	line "solo evolucionan"
 
-	para "cuando llevan cier-"
-	line "to objeto."
+	para "cuando llevan"
+	line "cierto objeto."
 
 	para "Conozco a cuatro:"
 	line "Poliwhirl, Onix,"

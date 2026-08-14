@@ -20,7 +20,8 @@ IrwinRocketTakeoverRumorText:
 	done
 
 IrwinPlainBadgeGossipText:
-	text "¡<PLAYER>, me enteré!"
+	text "¡<PLAYER>, me he"
+	line "enterado!"
 
 	para "¿Has derrotado a"
 	line "esa Blanca?"
@@ -227,11 +228,12 @@ IrwinFogBadgeGossipText:
 	line "por todos lados!"
 
 	para "Me acobardé y salí"
-	line "corriendo a casa..."
+	line "corriendo a casa."
 	done
 
 IrwinMarshBadgeGossipText:
-	text "¡<PLAYER>, me enteré!"
+	text "¡<PLAYER>, me he"
+	line "enterado!"
 
 	para "¡Estás montando"
 	line "un buen lío por"

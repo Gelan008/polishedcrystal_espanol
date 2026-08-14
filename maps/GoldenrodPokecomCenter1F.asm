@@ -338,30 +338,31 @@ GoldenrodPokecenter1FSuperNerdText:
 	done
 
 GoldenrodPokecenter1FLassText_PidgeyMail:
-	text "¡Se me ha ocurri-"
-	line "do algo divertido"
-	cont "para el Intercam-"
-	cont "bio Prodigioso!"
+	text "¡Se me ocurrió una"
+	line "idea divertida"
 
-	para "¡Hago que un Pidgey"
-	line "lleve una Carta, y"
+	para "para el Centro de"
+	line "Intercambio"
+	cont "Prodigioso!"
+
+	para "¡Le doy una Carta"
+	line "a un Pidgey y"
 
 	para "luego lo inter-"
 	line "cambio por otro!"
 
-	para "¡Si todo el mundo"
-	line "hiciera eso, po-"
+	para "¡Si todos hicieran"
+	line "eso, se podrían"
 
-	para "dríamos inter-"
-	line "cambiar Cartas"
-	cont "con todo tipo de"
-	cont "personas!"
+	para "intercambiar"
+	line "Cartas con un"
+	cont "montón de gente!"
 
 	para "¡Lo llamo Pidgey-"
-	line "correo!"
+	line "Correo!"
 
-	para "¡Si se vuelve"
-	line "popular, podría"
+	para "Si se vuelve"
+	line "popular, ¡podría"
 
 	para "hacer montones de"
 	line "nuevos amigos!"
@@ -406,8 +407,8 @@ JudgeMachineEngineerWorkingText:
 	cont "puede ser una"
 	cont "realidad,"
 
-	para "¡incluso si requie-"
-	line "re un ordenador"
+	para "¡incluso si requie"
+	line "-ere un ordenador"
 	cont "del tamaño de una"
 	cont "habitación!"
 
