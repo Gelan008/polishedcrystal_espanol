@@ -97,8 +97,8 @@ CeladonHomeDecorStore3FClerk1Script:
 	db $80 ; flags
 	db 4 ; items
 	db "Rojo       ¥45000@"
-	db "Amarillo    ¥45000@"
-	db "Verde     ¥45000@"
+	db "Amarillo   ¥45000@"
+	db "Verde      ¥45000@"
 	db "Salir@"
 
 CeladonHomeDecorStore3FClerk2Script:

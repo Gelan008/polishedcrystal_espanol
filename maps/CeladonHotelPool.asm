@@ -37,13 +37,13 @@ CeladonHotelPoolSwimmerMScript:
 	done
 
 .Text1:
-	text "Para nadar despaci-"
+	text "Para nadar despaci"
 	line "to de espaldas, no"
 	cont "necesito mis ga-"
-	cont "fas."
+	cont "-fas."
 
 	para "Puedes quedárte-"
-	line "las."
+	line "-las."
 	done
 
 CeladonHotelPoolPokefanMText:

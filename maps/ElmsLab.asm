@@ -1388,7 +1388,7 @@ AideText_ThiefReturnedMon:
 	done
 
 ElmGiveMasterBallText1:
-	text "Elm: ¡Hola <PLAYER>!"
+	text "Elm: ¡<PLAYER>!"
 	line "¡Gracias a ti, mi"
 
 	para "investigación va"

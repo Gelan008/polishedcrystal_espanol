@@ -72,7 +72,7 @@ CeladonMansionRoofHousePharmacistScript:
 	line "tiendo tanto que"
 
 	para "no se dio cuenta"
-	line "de que anochecía..."
+	line "de que anochecía.."
 
 	para "De vuelta a casa"
 	line "en la oscura no-"
@@ -103,7 +103,7 @@ CeladonMansionRoofHousePharmacistScript:
 
 	para "¡AAAAAAAAAAAAAAAA!"
 
-	para "¡Resulta que el ni-"
+	para "¡Resulta que el ni"
 	line "ño iba cuesta ar-"
 	cont "riba por el Cami-"
 	cont "no de Bicis!"

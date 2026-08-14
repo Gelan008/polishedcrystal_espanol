@@ -183,10 +183,10 @@ GenericTrainerSwimmermArmand:
 
 	text "Esa chica de la"
 	line "orilla... Su mú-"
-	cont "sica es buena, ¡pe-"
+	cont "sica es buena,"
 
-	para "ro distrae a los"
-	line "#mon!"
+	para "¡pero distrae a"
+	line "los #mon!"
 	done
 
 .SeenText:
@@ -216,9 +216,9 @@ GenericTrainerBeautyBridget:
 	done
 
 .BeatenText:
-	text "Solo intentaba dis-"
-	line "frutar las vis-"
-	cont "tas..."
+	text "Solo intentaba"
+	line "disfrutar las"
+	cont "vistas..."
 	done
 
 GenericTrainerBeautyVeronica:
@@ -255,7 +255,7 @@ GenericTrainerGentlemanCamus:
 	cont "lento,"
 
 	para "pero ahora solo"
-	line "soy un viejo inútil."
+	line "soy un viejo inútil"
 
 	para "Disfruta mientras"
 	line "aún eres joven."
@@ -368,9 +368,9 @@ GenericTrainerFisherLeroy:
 	text "Todo lo que atra-"
 	line "po son Magikarp..."
 
-	para "Al menos todos tie-"
-	line "nen un aspecto ú-"
-	cont "nico."
+	para "Al menos todos"
+	line "tienen un aspecto"
+	cont "único."
 	done
 
 .SeenText:

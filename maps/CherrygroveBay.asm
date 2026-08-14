@@ -208,7 +208,7 @@ GenericTrainerSwimmerfSally:
 	done
 
 .SeenText:
-	text "Me gusta esta bahía."
+	text "Me gusta esta bahía"
 	line "Sus aguas son muy"
 
 	para "más tranquilas que"
@@ -240,8 +240,8 @@ TrainerSwimmerfTara:
 
 .SeenText:
 	text "¡Ah, nadar entre"
-	line "flores de cerezo es"
-	cont "tan relajante!"
+	line "flores de cerezo"
+	cont "es tan relajante!"
 	done
 
 .BeatenText:
@@ -264,11 +264,11 @@ GenericTrainerHikerTony:
 	done
 
 .SeenText:
-	text "¡Caminé millas por"
-	line "el bosque solo para"
+	text "¡Caminé km por"
+	line "el bosque solo"
 
-	para "ver al ave #mon"
-	line "legendaria!"
+	para "para ver al ave"
+	line "#mon legendaria"
 	done
 
 .BeatenText:

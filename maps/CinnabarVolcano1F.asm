@@ -157,18 +157,19 @@ CinnabarVolcano1FBuckScript:
 	done
 
 .ItemText:
-	text "¡Fuf! ¡Demasiado!"
+	text "¡Uf! ¡Es demasiado"
+	line "para mí!"
 
 	para "El tesoro de este"
 	line "volcán no es para"
 	cont "mí..."
 
-	para "Pero oye ¡<PLAYER>!"
+	para "Pero ¡<PLAYER>!"
 	line "¡Eres un entrena-"
 	cont "dor increíble!"
 
-	para "¡Debería gustarte"
-	line "esto!"
+	para "¡Seguro que esto"
+	line "te gusta!"
 	done
 
 .GoodbyeText:

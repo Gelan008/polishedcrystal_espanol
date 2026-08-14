@@ -108,8 +108,8 @@ PosterClerkText:
 	done
 
 PosterClerkNoMoneyText:
-	text "No tienes suficien-"
-	line "te dinero."
+	text "No tienes"
+	line "suficiente dinero."
 	done
 
 PosterClerkAlreadyBoughtText:

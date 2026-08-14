@@ -187,8 +187,8 @@ GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript:
 GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript:
 	jumpthisopenedtext
 
-	text "¡Perdona! Necesitas"
-	line "más fichas."
+	text "¡Perdona! Nece-"
+	line "-sitas más fichas."
 	done
 
 GoldenrodGameCornerTMVendorMenuData:

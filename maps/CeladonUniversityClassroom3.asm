@@ -103,8 +103,8 @@ CeladonUniversityClassroom3BlackboardText:
 	line "ca'."
 
 	para "...Los #mon se"
-	line "dividen en 14 'Gru-"
-	cont "pos Huevo',"
+	line "dividen en 14"
+	cont "Grupos Huevo,"
 	cont "más Ditto."
 
 	para "Los #mon Bebé"

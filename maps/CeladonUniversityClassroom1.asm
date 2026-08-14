@@ -102,7 +102,7 @@ CeladonUniversityClassroom1ImakuniScript:
 	cont "bailas!"
 
 	para "♪ La di da di da,"
-	line "La di da di da... ♪"
+	line "La di da dida... ♪"
 
 	para "¡Eh! ¡Mueve esos"
 	line "pies!"

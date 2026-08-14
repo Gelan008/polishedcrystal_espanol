@@ -85,9 +85,9 @@ MrHyperScript:
 	text "¿No tienes ninguna"
 	line "Chapa?"
 
-	para "Sé que los Pescado-"
-	line "res las sacan a"
-	cont "veces..."
+	para "Sé que los Pesca-"
+	line "-dores las sacan"
+	cont "a veces..."
 	done
 
 .TextTrainWho:

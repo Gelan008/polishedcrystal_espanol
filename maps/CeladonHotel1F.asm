@@ -61,7 +61,7 @@ CeladonHotel1FLadyText:
 	done
 
 CeladonHotel1FCooltrainerFText:
-	text "Ahh, ¡realmente ne-"
+	text "Ah, ¡realmente ne-"
 	line "cesitaba estas va-"
 	cont "caciones!"
 	done
@@ -87,7 +87,7 @@ RichBoyGeraldBeatenText:
 	done
 
 RichBoyGeraldAfterText:
-	text "La próxima vez, de-"
+	text "La próxima vez, de"
 	line "beríamos ir de va-"
 	cont "caciones a"
 	cont "Ciudad Olivo."

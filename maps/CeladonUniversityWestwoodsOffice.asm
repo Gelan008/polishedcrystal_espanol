@@ -94,7 +94,7 @@ CeladonUniversityWestwoodsOfficeSignpost2Text:
 
 CeladonUniversityWestwoodsOfficeBookshelfText:
 	text "Obras Completas"
-	line "del Prof. Westwood."
+	line "del Prof.Westwood."
 
 	para "...Mejor me las"
 	line "salto."

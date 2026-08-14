@@ -132,7 +132,7 @@ ErikaBeforeBattleText:
 	line "Hace un tiempo"
 
 	para "precioso, ¿verdad?"
-	line "Es tan agradable..."
+	line "Es tan agradable.."
 
 	para "...Me temo que po-"
 	line "dría dormirme..."

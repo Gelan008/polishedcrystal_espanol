@@ -292,7 +292,7 @@ MistyWinLossText:
 	line "eres bueno..."
 
 	para "Admitiré que"
-	line "tienes habilidad..."
+	line "tienes habilidad.."
 
 	para "Toma. Es la"
 	line "Medalla Cascada."

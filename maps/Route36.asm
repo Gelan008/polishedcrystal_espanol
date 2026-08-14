@@ -391,7 +391,7 @@ Route36CooltrainerfChiaraScript:
 	text "Vi cómo despertas-"
 	line "te a Sudowoodo."
 
-	para "¡Lo hiciste genial!"
+	para "¡Fue genial!"
 
 	para "Y tienes una"
 	line "Medalla Planicie."

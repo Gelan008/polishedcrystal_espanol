@@ -221,14 +221,14 @@ GruntM2SeenText:
 
 GruntM2BeatenText:
 	text "Eres..."
-	line "Demasiado fuerte..."
+	line "Demasiado fuerte.."
 	done
 
 GruntF1SeenText:
 	text "¿Dejar de robar"
 	line "Colas?"
 
-	para "¡Sí, intenta derro-"
+	para "¡Sí, intenta derro"
 	line "tarnos a todos!"
 	done
 

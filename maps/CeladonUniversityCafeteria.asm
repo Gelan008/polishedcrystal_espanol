@@ -118,7 +118,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	done
 
 .BeatenText:
-	text "Te he subestimado..."
+	text "Te he subestimado.."
 	done
 
 .AfterText1:
@@ -147,7 +147,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	done
 
 CeladonUni_NoRoomText:
-	text "No puedes llevarlo."
+	text "No puedes llevarlo"
 	done
 
 CeladonUniversityCafeteriaCooltrainerfText:

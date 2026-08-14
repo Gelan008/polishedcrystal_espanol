@@ -164,8 +164,8 @@ CeladonUniversityLibrary2FBookshelf3Text:
 
 CeladonUniversityLibrary2FBookshelf4Text:
 	text "¡Este libro está"
-	line "escrito en un idio-"
-	cont "ma extranjero!"
+	line "escrito en un"
+	cont "idioma extranjero!"
 
 	para "Mejor lo devuelvo"
 	line "a su sitio..."
@@ -362,8 +362,8 @@ CeladonUniversityLibrary2FComputer3:
 
 	text "Hay una historia"
 	line "repleta de errores"
-	cont "ortográficos y gra-"
-	cont "maticales."
+	cont "ortográficos y"
+	cont "gramaticales."
 	done
 
 CeladonUniversityLibrary2FComputer4:

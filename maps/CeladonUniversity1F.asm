@@ -113,7 +113,7 @@ CeladonUniversity1FReceptionistText:
 	line "venida a la Univ."
 	cont "de Azulona!"
 
-	para "Las aulas y la ofi-"
+	para "Las aulas y la ofi"
 	line "cina del director"
 	cont "están al fondo."
 

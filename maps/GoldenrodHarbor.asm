@@ -94,7 +94,7 @@ TrainerSwimmerfKatie:
 	para "Escuché que re-"
 	line "fleja el cielo..."
 
-	para "Pero entonces, ¿por"
+	para "Pero entonces ¿por"
 	line "qué el cielo es"
 	cont "azul?"
 	done

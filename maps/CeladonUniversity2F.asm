@@ -89,7 +89,7 @@ CeladonUniversity2FCooltrainerfScript:
 	done
 
 .Text3:
-	text "<PLAYER> le entregó"
+	text "<PLAYER> le dió"
 	line "el Agua Fresca."
 	done
 
@@ -114,7 +114,7 @@ CeladonUniversity2FCooltrainermText:
 
 CeladonUniversity2FYoungster1Text:
 	text "Suspendí el Test"
-	line "Extremo de nuevo..."
+	line "Extremo de nuevo.."
 
 	para "¡Pero no me rin-"
 	line "diré!"

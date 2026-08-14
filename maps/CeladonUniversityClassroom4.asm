@@ -70,7 +70,7 @@ CeladonUniversityClassroom4RaymondScript:
 	jumpopenedtext .FinalText
 
 .IntroText1:
-	text "¡Hola! Soy Raymond."
+	text "¡Hola! Soy Raymond"
 	line "Llamáme Ray."
 
 	para "Soy de los cuatro"
@@ -91,7 +91,7 @@ CeladonUniversityClassroom4RaymondScript:
 	done
 
 .IntroText2:
-	text "¡Hola! Soy Raymond."
+	text "¡Hola! Soy Raymond"
 	line "Llamáme Ray."
 
 	para "¡Soy de los Cua-"

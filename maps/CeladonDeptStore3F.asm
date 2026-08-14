@@ -275,9 +275,9 @@ CeladonDeptStore3FYoungsterText:
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "La Tienda Tecnoló-"
-	line "gica vende consolas"
-	cont "geniales."
+	text "La Tienda"
+	line "Tecnológica vende"
+	cont "consolas geniales."
 	done
 
 CeladonDeptStore3FDirectoryText:

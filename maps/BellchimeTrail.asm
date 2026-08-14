@@ -164,7 +164,7 @@ BellchimeTrailValerieScript:
 .IntroText:
 	text "Vaya, si es el"
 	line "entrenador que se"
-	cont "enfrentó a Suicune."
+	cont "enfrentó a Suicune"
 
 	para "Soy Valeria."
 	line "Vengo a este"
@@ -202,7 +202,7 @@ BellchimeTrailValerieScript:
 	done
 
 .RefusedText:
-	text "Valeria: Qué pena..."
+	text "Valeria: Qué pena.."
 	done
 
 .AcceptedText:

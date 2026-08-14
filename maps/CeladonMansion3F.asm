@@ -149,8 +149,8 @@ GameFreakGameDesignerPauseForDiplomaText:
 	done
 
 GameFreakGameDesignerGiveDiplomaText:
-	text "¡<PLAYER> recibió el"
-	line "Diploma!"
+	text "¡<PLAYER> recibió"
+	line "el Diploma!"
 	done
 
 GameFreakGameDesignerDiplomaSentText:
@@ -220,7 +220,7 @@ CeladonMansion3FGameProgramText:
 	para "lo podría causar"
 	line "un error!"
 
-	para "¿Quieres modificar-"
+	para "¿Quieres modificar"
 	line "lo de todos modos?"
 	done
 
