@@ -45,25 +45,25 @@ MountMortarB1FTutorDefenseCurlScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "I'll be right here"
-	line "waiting."
+	text "Aquí me quedo"
+	line "esperando."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Shucks, you don't"
-	line "have a Silver"
-	cont "Leaf."
+	text "Vaya, no tienes"
+	line "ninguna Hoja"
+	cont "Plata."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "There! Now your"
-	line "#mon can use"
-	cont "Defense Curl!"
+	text "¡Listo! ¡Ahora tu"
+	line "#mon sabe usar"
+	cont "Rizo Defensa!"
 	done
 
 MountMortarB1FKiyoScript:
@@ -89,90 +89,92 @@ MountMortarB1FKiyoScript:
 	jumpthisopenedtext
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "Tyrogue is a"
-	line "Fighting-type."
+	text "Tyrogue es de tipo"
+	line "Lucha."
 
-	para "It evolves into a"
-	line "tougher #mon."
+	para "Evoluciona a un"
+	line "#mon más fuerte"
 
-	para "Keep up the hard"
-	line "work. I'll keep"
-	cont "training too."
+	para "Sigue trabajando"
+	line "duro. Yo también"
+	cont "seguiré entrenando."
 
-	para "Farewell!"
+	para "¡Hasta la vista!"
 	done
 
 MountMortarB1FHikerText:
-	text "My #mon used"
+	text "Mi #mon usó"
 if DEF(FAITHFUL)
-	line "Rock Smash on a"
+	line "Golpe Roca en una"
 else
-	line "Brick Break on a"
+	line "Demolición en una"
 endc
 
-	para "boulder, but it"
-	line "was undamaged."
+	para "roca, pero no le"
+	line "hizo nada."
 
-	para "It turned out to"
-	line "be a Geodude that"
-	cont "used Defense Curl!"
+	para "¡Resultó ser un"
+	line "Geodude que usó"
+	cont "Rizo Defensa!"
 	done
 
 Text_MountMortarB1FTutorDefenseCurl:
-	text "I can teach your"
-	line "#mon to use"
+	text "Puedo enseñar a"
+	line "tu #mon a usar"
 
-	para "Defense Curl for"
-	line "one Silver Leaf."
+	para "Rizo Defensa a"
+	line "cambio de una"
+	cont "Hoja Plata."
 	done
-
 
 Text_MountMortarB1FTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Defense Curl?"
+	text "¿Quieres que le"
+	line "enseñe Rizo"
+
+	para "Defensa a tu"
+	line "#mon?"
 	done
 
-
-
 MountMortarB1FKiyoIntroText:
-	text "Hey!"
+	text "¡Eh!"
 
-	para "I am the Karate"
-	line "King!"
+	para "¡Soy el Rey del"
+	line "Kárate!"
 
-	para "I train alone here"
-	line "in the dark!"
+	para "¡Entreno solo aquí"
+	line "en la oscuridad!"
 
-	para "You!"
-	line "Battle with me!"
+	para "¡Tú!"
+	line "¡Lucha conmigo!"
 
-	para "Hwaaarggh!"
+	para "¡Hwaaarggh!"
 	done
 
 MountMortarB1FKiyoWinText:
-	text "Waaaarggh!"
-	line "I'm beaten!"
+	text "¡Waaaarggh!"
+	line "¡He perdido!"
 	done
 
 MountMortarB1FTyrogueRewardText:
-	text "I… I'm crushed…"
+	text "Estoy… destrozado…"
 
-	para "My training is"
-	line "still not enough…"
+	para "Mi entrenamiento"
+	line "aún no es sufi-"
+	cont "ciente…"
 
-	para "But a loss is a"
-	line "loss. I admit it."
+	para "Pero una derrota"
+	line "es una derrota."
+	cont "Lo admito."
 
-	para "As proof that you"
-	line "defeated me, I'll"
+	para "Como prueba de"
+	line "que me has vencido,"
 
-	para "give you a rare"
-	line "fighting #mon."
+	para "te daré un raro"
+	line "#mon de lucha."
 	done
 
 MountMortarB1FKiyoFullPartyAndBoxText:
-	text "You have no room"
-	line "in your party"
-	line "or Box!"
+	text "¡No tienes sitio"
+	line "ni en tu equipo"
+	line "ni en la Caja!"
 	done

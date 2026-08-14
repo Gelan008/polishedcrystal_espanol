@@ -56,7 +56,7 @@ ManiaScript:
 .refusetotakeshuckie
 	jumpthisopenedtext
 
-	text "Oh, no... ¿Qué"
+	text "Oh, no… ¿Qué"
 	line "haré si regresa?"
 	done
 
@@ -93,7 +93,7 @@ ManiaScript:
 .refused
 	jumpthisopenedtext
 
-	text "Oh, no... Es lo"
+	text "Oh, no… Es lo"
 	line "mismo que si me"
 	cont "robaran."
 	done
@@ -125,7 +125,7 @@ ShuckieOTName:
 	rawchar "Kirk@"
 
 ManiaText_AskLookAfterShuckie:
-	text "¡Yo... yo estoy en"
+	text "¡Yo… yo estoy en"
 	line "shock!"
 
 	para "Entró un chico de"

@@ -109,7 +109,7 @@ CeladonUniversityLoungeNeeshaScript:
 
 .BeatenText:
 	text "Una pérdida"
-	line "dolorosa..."
+	line "dolorosa…"
 	done
 
 .AfterText1:
@@ -132,7 +132,7 @@ CeladonUniversityLoungeNeeshaScript:
 .AfterText2:
 	text "Así que venciste a"
 	line "los Cuatro de"
-	cont "Azulona..."
+	cont "Azulona…"
 
 	para "¡Qué guay!"
 
@@ -191,7 +191,7 @@ CeladonUniversityLoungeSuper_nerd1Text:
 	para "con una pregunta"
 	line "retórica?"
 
-	para "................"
+	para "…………………"
 	done
 
 CeladonUniversityLoungeSuper_nerd2Text:
@@ -233,7 +233,7 @@ CeladonUniversityLoungeBookshelf2:
 	done
 
 .Text2:
-	text "Lástima..."
+	text "Lástima…"
 	line "Está vacío."
 	done
 

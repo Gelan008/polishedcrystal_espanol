@@ -112,7 +112,7 @@ ChefText_Eatathon:
 	done
 
 Fisher1Text_Snarfle:
-	text "...Ñam, ñam..."
+	text "…Ñam, ñam…"
 	done
 
 Fisher1Text_Concentration:
@@ -123,7 +123,7 @@ Fisher1Text_Concentration:
 	done
 
 Fisher2Text_GulpChew:
-	text "...Glup... Ñam..."
+	text "…Glup… Ñam…"
 	done
 
 Fisher2Text_Quantity:
@@ -135,7 +135,7 @@ Fisher2Text_Quantity:
 	done
 
 Fisher3Text_MunchMunch:
-	text "Ñam, ñam..."
+	text "Ñam, ñam…"
 	done
 
 Fisher3Text_GoldenrodIsBest:
@@ -146,7 +146,7 @@ Fisher3Text_GoldenrodIsBest:
 	done
 
 TeacherText_CrunchCrunch:
-	text "Masc... Masc..."
+	text "Masc… Masc…"
 	done
 
 TeacherText_NoCoinCase:
@@ -158,7 +158,7 @@ TeacherText_NoCoinCase:
 	done
 
 TeacherText_KeepEating:
-	text "Masc... Masc..."
+	text "Masc… Masc…"
 
 	para "¡Puedo seguir co-"
 	line "miendo!"
@@ -170,7 +170,7 @@ TeacherText_MoreChef:
 
 MayleneText1:
 	text "Brega: Ñam"
-	line "ñam ñam..."
+	line "ñam ñam…"
 	done
 
 MayleneText2:
@@ -194,7 +194,7 @@ MayleneText2:
 
 MayleneText3:
 	text "Empiezo a sentirme"
-	line "llena..."
+	line "llena…"
 
 	para "Um, para descan-"
 	line "sar, ¿quieres lu-"
@@ -218,7 +218,7 @@ MayleneSeenText:
 
 MayleneBeatenText:
 	text "Debo admitir la"
-	line "derrota..."
+	line "derrota…"
 
 	para "Eres demasiado"
 	line "fuerte."
@@ -253,5 +253,5 @@ EatathonContestPosterText:
 
 EatathonContestTrashCanText:
 	text "La papelera está"
-	line "llena de sobras..."
+	line "llena de sobras…"
 	done

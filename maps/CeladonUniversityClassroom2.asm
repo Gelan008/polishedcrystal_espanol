@@ -50,7 +50,7 @@ CeladonUniversityClassroom2YoungsterText:
 	text "¡Hojeando mis"
 	line "apuntes a la velo-"
 	cont "cidad de--AY!"
-	cont "Me he cortado..."
+	cont "Me he cortado…"
 	done
 
 CeladonUniversityClassroom2ChildText:
@@ -84,14 +84,14 @@ CeladonUniversityClassroom2CooltrainermScript:
 	end
 
 .Text1: ; text > text
-	text "...Zzz..."
+	text "…Zzz…"
 	line "¡Aah!"
 	done
 
 .Text2:
 	text "Ejem."
 
-	para "Perdona..."
+	para "Perdona…"
 	line "Me asustaste."
 
 	para "Me quedé despierto"

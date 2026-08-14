@@ -49,7 +49,7 @@ ChadLostAMonText:
 	para "observar a "
 	line ""
 	text_ram wStringBuffer4
-	text ". Jo..."
+	text ". Jo…"
 	done
 
 ChadBattleRematchText:
@@ -115,7 +115,7 @@ ChadProfOaksDreamGossipText:
 
 	para "Te envidio por"
 	line "ser parte de ese"
-	cont "proyecto..."
+	cont "proyecto…"
 	done
 
 ChadKurtGossipText:
@@ -223,11 +223,11 @@ ChadProfOakTravelingGossipText:
 	para "sobre #mon de"
 	line "forma natural."
 
-	para "Le envidio..."
+	para "Le envidio…"
 	line "Me gustaría"
 
 	para "viajar y aprender"
-	line "cosas también..."
+	line "cosas también…"
 	done
 
 ChadGoingToStudyHardText:

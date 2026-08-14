@@ -27,7 +27,7 @@ GavenDefeatedMonText:
 	text_ram wStringBuffer4
 	text ""
 	cont "volverse tan"
-	cont "fuerte..."
+	cont "fuerte…"
 
 	para "No deberías bajar"
 	line "la guardia,"

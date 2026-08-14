@@ -34,7 +34,7 @@ ToddLostAMonText:
 	line "niveles de mis"
 
 	para "#mon no son su-"
-	line "ficientes aún..."
+	line "ficientes aún…"
 	done
 
 ToddBattleRematchText:
@@ -79,7 +79,7 @@ ToddDepartmentStoreBargainSaleText:
 	line "vendedor?"
 
 	para "Bueno, sí. Los es-"
-	line "taba imitando..."
+	line "taba imitando…"
 
 	para "El caso es que,"
 	line "¡tienes que ir"

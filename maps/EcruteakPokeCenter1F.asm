@@ -30,7 +30,7 @@ PokemonJournalMortyScript:
 
 	text "Revista #mon"
 
-	para "Reportaje Especial"
+	para "Edición Especial"
 	line "¡Líder Morti!"
 
 	para "Morti asegura ha-"
@@ -49,7 +49,7 @@ PokemonJournalMortyScript:
 
 	para "hasta lo más pro-"
 	line "fundo de mi cora-"
-	cont "zón...”"
+	cont "zón…”"
 	done
 
 EcruteakPokeCenter1FBillScript:
@@ -165,7 +165,7 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .NoText:
-	text "Oh... ¿Y ahora"
+	text "Oh… ¿Y ahora"
 	line "qué hago?"
 	done
 
@@ -259,7 +259,7 @@ EcruteakPokeCenter1FLassScript:
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 
-	text "Oh... No impor-"
+	text "Oh… No impor-"
 	line "ta entonces."
 	done
 
@@ -287,11 +287,11 @@ EcruteakPokeCenter1FCooltrainerFText:
 
 EcruteakPokeCenter1FGymGuyText:
 	text "El Lago de la Fu-"
-	line "ria..."
+	line "ria…"
 
 	para "La aparición de un"
 	line "enjambre de"
-	cont "Gyarados..."
+	cont "Gyarados…"
 
 	para "Huelo a conspira-"
 	line "ción. ¡Lo sé!"

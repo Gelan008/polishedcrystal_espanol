@@ -129,7 +129,7 @@ endc
 	done
 
 RageCandyBarMerchantRefusedText:
-	text "Oh, de acuerdo..."
+	text "Oh, de acuerdo…"
 	done
 
 RageCandyBarMerchantNoRoomText:

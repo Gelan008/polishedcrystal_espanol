@@ -216,10 +216,10 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu..."
+	text "Fufufufu…"
 
 	para "Siento decepcio-"
-	line "narte..."
+	line "narte…"
 
 	para "¡Solo bromeaba!"
 
@@ -234,7 +234,7 @@ JanineText_DisappointYou:
 JanineText_ToughOne:
 	text "Sachiko: Eres al-"
 	line "guien duro. Has"
-	cont "ganado..."
+	cont "ganado…"
 
 if DEF(FAITHFUL)
 	para "Aquí tienes la"
@@ -275,7 +275,7 @@ LassAmandaBeforeText:
 	done
 
 LassAmandaBeatenText:
-	text "Te he engañado..."
+	text "Te he engañado…"
 	done
 
 LassAmandaAfterText:
@@ -290,8 +290,8 @@ LassLindaBeforeText:
 	done
 
 LassLindaBeatenText:
-	text "Oh... Perdí..."
-	line "No eres débil..."
+	text "Oh… Perdí…"
+	line "No eres débil…"
 	done
 
 LassLindaAfterText:

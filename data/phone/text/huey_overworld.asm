@@ -35,7 +35,7 @@ HueyNumberAcceptedText:
 
 HueyNumberDeclinedText:
 	text "Parece que eres"
-	line "un cobarde..."
+	line "un cobarde…"
 	done
 
 HueyPhoneFullText:
@@ -49,8 +49,8 @@ HueyRematchText:
 	done
 
 HueyPackFullText:
-	text "Vaya... Tu Mochi-"
-	line "la está llena."
+	text "Vaya… Tu Mochila"
+	line "está llena."
 	cont "Te lo daré luego."
 	done
 
@@ -69,7 +69,7 @@ HueyRematchGiftText:
 
 	para "talecer a mis"
 	line "#mon, pero de"
-	cont "nada ha servido..."
+	cont "nada ha servido…"
 
 	para "Los objetos por"
 	line "sí solos no lo"
@@ -82,5 +82,5 @@ HueyRematchGiftText:
 	line "<PLAYER>."
 
 	para "Yo ya no lo"
-	line "necesitaré..."
+	line "necesitaré…"
 	done

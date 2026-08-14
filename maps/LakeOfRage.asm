@@ -141,7 +141,7 @@ LakeOfRageLanceScript:
 	setevent EVENT_REFUSED_TO_HELP_LANCE_AT_LAKE_OF_RAGE
 	jumpthisopenedtext
 
-	text "Oh... Bueno, si"
+	text "Oh… Bueno, si"
 	line "cambias de opi-"
 	cont "nión, ayúdame."
 	done
@@ -157,12 +157,12 @@ LakeOfRageLanceScript:
 .OverheardText:
 	text "Este lago está"
 	line "lleno de Gyarados,"
-	cont "pero nada más..."
+	cont "pero nada más…"
 
 	para "Por lo que se"
 	line "está obligando a"
 	cont "evolucionar a los"
-	cont "Magikarp..."
+	cont "Magikarp…"
 	done
 
 .IntroText:
@@ -175,7 +175,7 @@ LakeOfRageLanceScript:
 
 	para "He oído rumores,"
 	line "así que vine a in-"
-	cont "vestigar..."
+	cont "vestigar…"
 
 	para "Antes te vi"
 	line "combatir,"
@@ -347,7 +347,7 @@ GenericTrainerCooltrainermAaron:
 	done
 
 .BeatenText:
-	text "Uf..."
+	text "Uf…"
 	line "Buen combate."
 	done
 
@@ -397,7 +397,7 @@ FisherAndreBeatenText:
 
 	para "ro apesto como"
 	line "entrenador #-"
-	cont "mon..."
+	cont "mon…"
 	done
 
 GenericTrainerFisherRaymond:
@@ -413,12 +413,12 @@ FisherRaymondSeenText:
 	line "siempre atrapo"
 
 	para "a los mismos"
-	line "#mon..."
+	line "#mon…"
 	done
 
 FisherRaymondBeatenText:
 	text "Mi sedal está to-"
-	line "do enredado..."
+	line "do enredado…"
 	done
 
 LakeOfRageGrampsScript:
@@ -456,7 +456,7 @@ LakeOfRageCooltrainerFText:
 	line "los ojos? Vi un"
 
 	para "Gyarados rojo en"
-	line "el lago..."
+	line "el lago…"
 
 	para "¿Pero no se supo-"
 	line "ne que los Gyara-"

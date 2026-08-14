@@ -31,7 +31,7 @@ TiffanyNumberAcceptedText:
 	done
 
 TiffanyNumberDeclinedText:
-	text "Oh... Vaya."
+	text "Oh… Vaya."
 	line "Búscame si quie-"
 
 	para "res hablar sobre"

@@ -1,7 +1,7 @@
 IrwinAnswerPhoneText:
 	text "¿Hola? "
 	text_ram wStringBuffer3
-	line "al habla..."
+	line "al habla…"
 
 	para "¡Eh, <PLAYER>!"
 	done
@@ -9,7 +9,7 @@ IrwinAnswerPhoneText:
 IrwinAnswerPhoneDayText:
 	text "¿Hola? "
 	text_ram wStringBuffer3
-	line "al habla..."
+	line "al habla…"
 
 	para "¡Guau, <PLAYER>!"
 	done
@@ -17,7 +17,7 @@ IrwinAnswerPhoneDayText:
 IrwinAnswerPhoneNiteText:
 	text "¿Hola? "
 	text_ram wStringBuffer3
-	line "al habla..."
+	line "al habla…"
 
 	para "¡Yupi, <PLAYER>!"
 	done

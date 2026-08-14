@@ -42,5 +42,5 @@ CeruleanBerryPowderHouseGrampsScript:
 	cont "ya me jubilé."
 
 	para "Pero me sobra"
-	line "esto..."
+	line "esto…"
 	done

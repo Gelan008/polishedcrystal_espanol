@@ -15,7 +15,7 @@ IrwinRocketTakeoverRumorText:
 	para "Radio de"
 	line "Ciudad Trigal!"
 
-	para "...Mmm... ¿Y qué"
+	para "…Mmm… ¿Y qué"
 	line "es el Team Rocket?"
 	done
 
@@ -57,7 +57,7 @@ IrwinRocketHideoutGossipText:
 	para "¡Eres casi como un"
 	line "héroe de cine!"
 
-	para "Pero... eh..."
+	para "Pero… eh…"
 	line "¿Qué era eso del"
 	cont "Team Rocket?"
 	done

@@ -39,7 +39,7 @@ CeladonDeptStore2FYoungsterText:
 	line "los objetos y cómo"
 
 	para "se supone que se"
-	line "usan..."
+	line "usan…"
 	done
 
 CeladonDeptStore2FDirectoryText:

@@ -26,7 +26,7 @@ PokemonJournalBugsyScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial"
+	para "Edición especial:"
 	line "¡Líder Antón!"
 
 	para "Se dice que Antón"

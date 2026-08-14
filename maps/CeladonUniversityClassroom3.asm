@@ -25,7 +25,7 @@ CeladonUniversityClassroom3_MapScriptHeader:
 
 CeladonUniversityClassroom3SparkText:
 	text "¡Oye! Soy Spark."
-	line "Enseño Ciencias..."
+	line "Enseño Ciencias…"
 
 	para "ahora mismo,"
 	line "#biología."
@@ -102,7 +102,7 @@ CeladonUniversityClassroom3BlackboardText:
 	text "Pone: 'Filogenéti-"
 	line "ca'."
 
-	para "...Los #mon se"
+	para "…Los #mon se"
 	line "dividen en 14"
 	cont "Grupos Huevo,"
 	cont "más Ditto."
@@ -135,5 +135,5 @@ CeladonUniversityClassroom3Bookshelf2Text:
 
 	para "“Informe de"
 	line "Investigación de"
-	cont "Ruinas Alfa”..."
+	cont "Ruinas Alfa”…"
 	done

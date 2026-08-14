@@ -88,7 +88,7 @@ GenericTrainerSkierClarissa:
 
 	text "No debí haber"
 	line "alardeado sobre"
-	cont "cómo esquío..."
+	cont "cómo esquío…"
 	done
 
 GenericTrainerBoarderRonald:
@@ -115,7 +115,7 @@ GenericTrainerBoarderDouglas:
 	generictrainer BOARDER, DOUGLAS, EVENT_BEAT_BOARDER_DOUGLAS, BoarderDouglasSeenText, BoarderDouglasBeatenText
 
 	text "El secreto tras el"
-	line "poder de Fredo..."
+	line "poder de Fredo…"
 
 	para "Medita a diario"
 	line "bajo una cascada"
@@ -215,7 +215,7 @@ PryceText_GlacierBadgeSpeech:
 	line "para cruzar los"
 	cont "remolinos."
 
-	para "Y esto... ¡Es un"
+	para "Y esto… ¡Es un"
 	line "regalo de mi par-"
 	cont "te!"
 	done

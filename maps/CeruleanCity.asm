@@ -163,7 +163,7 @@ CeruleanCityCooltrainerFText2:
 	done
 
 CeruleanCityCooltrainerFText3: ; text > text
-	text "..."
+	text "…"
 	done
 
 CeruleanCityFisherText:
@@ -189,7 +189,7 @@ CeruleanCityYoungsterText1:
 CeruleanCityYoungsterText:
 	text "Mi Buscaobjetos"
 	line "dejó de respon-"
-	cont "der..."
+	cont "der…"
 
 	para "Alguien debe de"
 	line "habérseme ade-"
@@ -197,7 +197,7 @@ CeruleanCityYoungsterText:
 	done
 
 CeruleanCaveGuardText:
-	text "Esta es..."
+	text "Esta es…"
 
 	para "¡La notoria Cueva"
 	line "Celeste!"
@@ -238,7 +238,7 @@ CeruleanBikeShopSignText:
 
 CeruleanPoliceSignText:
 	text "Hay un aviso"
-	line "aquí..."
+	line "aquí…"
 
 	para "¡Erradiquemos los"
 	line "robos y hagamos"

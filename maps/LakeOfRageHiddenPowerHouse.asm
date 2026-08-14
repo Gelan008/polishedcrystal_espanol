@@ -43,7 +43,7 @@ HiddenPowerGuy:
 	ifequalfwd $1, .Egg
 	jumpthisopenedtext
 
-	text "Puedo sentirlo..."
+	text "Puedo sentirlo…"
 
 	para "¡Tu "
 	text_ram wStringBuffer3
@@ -59,12 +59,12 @@ HiddenPowerGuy:
 
 	text "Un Huevo aún no ha"
 	line "desarrollado un"
-	cont "Poder Oculto..."
+	cont "Poder Oculto…"
 	done
 
 .Text1:
-	text "...Has viajado"
-	line "lejos..."
+	text "…Has viajado"
+	line "lejos…"
 
 	para "He meditado"
 	line "aquí. Dentro de"
@@ -101,7 +101,7 @@ HiddenPowerGuy:
 	done
 
 .Text4:
-	text "Estoy meditando..."
+	text "Estoy meditando…"
 	done
 
 .Text5:
@@ -111,5 +111,5 @@ HiddenPowerGuy:
 	done
 
 .Text7:
-	text "...Muy bien..."
+	text "…Muy bien…"
 	done

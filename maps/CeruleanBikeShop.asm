@@ -40,7 +40,7 @@ CeruleanBikeShopClerkText:
 	cont "tienda."
 
 	para "Solo me queda un"
-	line "inflador de bicis.."
+	line "inflador de bicis…"
 
 	para "¿Debería vender"
 	line "cámaras inflables?"

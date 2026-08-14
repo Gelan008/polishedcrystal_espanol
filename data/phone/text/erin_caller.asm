@@ -9,7 +9,7 @@ ErinMonIsMuchStrongerText:
 	done
 
 ErinDefeatedMonText:
-	text "Y, y..."
+	text "Y, y…"
 	line "¡Acabo de luchar"
 	cont "y vencer a un"
 	cont ""
@@ -21,7 +21,7 @@ ErinDefeatedMonText:
 	done
 
 ErinLostAMonText:
-	text "Pero, pero..."
+	text "Pero, pero…"
 
 	para "Un "
 	text_ram wStringBuffer4

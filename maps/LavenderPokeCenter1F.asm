@@ -62,7 +62,7 @@ LavenderPokeCenter1FYoungsterScript:
 	para "Y eso también"
 	line "significa que la"
 	cont "Torre Radio no"
-	cont "puede emitir..."
+	cont "puede emitir…"
 	done
 
 .NoExorcismText:

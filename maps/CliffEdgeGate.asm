@@ -95,7 +95,7 @@ ProfOaksAide3HiText:
 	done
 
 ProfOaksAide3UhOhText:
-	text "Veamos..."
+	text "Veamos…"
 	line "¡Vaya! Solo has"
 
 	para "atrapado "
@@ -109,7 +109,7 @@ ProfOaksAide3UhOhText:
 	done
 
 ProfOaksAide3HereYouGoText:
-	text "Veamos..."
+	text "Veamos…"
 	line "¡Genial! Has"
 
 	para "atrapado "

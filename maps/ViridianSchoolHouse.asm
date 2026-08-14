@@ -116,7 +116,7 @@ PokemonJournalKiyoScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "Karate King Kiyo!"
+	line "Rey Karateka Kiyo!"
 
 	para "Kiyo is said to"
 	line "have studied under"

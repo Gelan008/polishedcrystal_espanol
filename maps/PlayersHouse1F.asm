@@ -105,37 +105,40 @@ MomEventScript:
 	end
 
 PlayersHouse1FFridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
+	text "A ver qué hay en"
+	line "el frigorífico…"
 
-	para "Fresh Water and"
-	line "tasty Lemonade!"
+	para "¡Agua Fresca y una"
+	line "rica Limonada!"
 	done
 
 PlayersHouse1FSinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "El fregadero está"
+	line "impoluto. A Mamá"
+	cont "le gusta limpio."
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "¡La especialidad"
+	line "de Mamá!"
 
-	para "Cinnabar Volcano"
-	line "Burger!"
+	para "¡Hamburguesa"
+	line "Volcán Canela!"
 	done
 
 PlayersHouse1FTVScript:
 	jumpthistext
 
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "Echan una peli en"
+	line "la tele: Dos niños"
 
-	para "sky as two boys"
-	line "ride on a train…"
+	para "viajan en tren"
+	line "bajo las estre-"
+	cont "llas…"
 
-	para "I'd better get"
-	line "rolling too!"
+	para "¡Será mejor que yo"
+	line "también me ponga"
+	cont "en marcha!"
 	done
 
 MomScript:
@@ -172,103 +175,114 @@ MomScript:
 
 MomIntroText:
 if DEF(DEBUG)
-	text "Don't forget to use"
-	line "your debug radio!"
+	text "¡No olvides usar"
+	line "tu radio debug!"
 	done
 else
-	text "Oh, <PLAYER>!"
-	line "You're awake."
+	text "¡Oh, <PLAYER>!"
+	line "Ya has despertado."
 
-	para "Your friend Lira"
-	line "was just here."
+	para "Tu amiga Lira"
+	line "estuvo aquí hace"
+	cont "un momento."
 
-	para "She said that our"
-	line "neighbor, Prof."
+	para "Dijo que nuestro"
+	line "vecino, el Prof."
 
-	para "Elm, was looking"
-	line "for you."
+	para "Elm, te estaba"
+	line "buscando."
 
-	para "Oh! I almost for-"
-	line "got! Your #mon"
+	para "¡Ah! ¡Casi se me"
+	line "olvida! Tu #mon"
 
-	para "Gear is back from"
-	line "the repair shop."
+	para "Gear ya volvió del"
+	line "taller de repara-"
+	cont "ciones."
 
-	para "Here you go!"
+	para "¡Aquí tienes!"
 	done
 endc
 
 MomPokegearText:
-	text "#mon Gear, or"
-	line "just #gear."
+	text "#mon Gear, o"
+	line "simplemente"
+	cont "#gear."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "Es esencial si"
+	line "quieres ser un"
+	cont "buen entrenador."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "¡Vaya! No está"
+	line "puesto el día de"
+	cont "la semana."
 
-	para "You mustn't forget"
-	line "that!"
+	para "¡No debes olvidar"
+	line "eso!"
 	done
 
 MomDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "¿Está activo el"
+	line "horario de verano?"
 	done
 
 MomRunningShoesText:
-	text "Come home to"
-	line "adjust your clock"
+	text "Vuelve a casa para"
+	line "ajustar el reloj"
 
-	para "for Daylight"
-	line "Saving Time."
+	para "al horario de"
+	line "verano."
 
-	para "By the way, do"
-	line "you know how to"
+	para "Por cierto, ¿sabes"
+	line "cómo usar tus"
 
-	para "use your new"
-	line "Running Shoes?"
+	para "nuevas Deporti-"
+	line "vas?"
 	done
 
 MomInstructionsText:
-	text "I'll read the"
-	line "instructions."
+	text "Leeré las instruc-"
+	line "ciones."
 
-	para "Just hold down the"
-	line "B Button to run,"
-	cont "indoors or out."
+	para "Mantén pulsado el"
+	line "Botón B para"
 
-	para "Or use the Option"
-	line "to always run, and"
-	cont "hold B to walk."
+	para "correr, dentro o"
+	line "fuera."
+
+	para "O usa la opción de"
+	line "correr siempre y"
+
+	para "mantén B para"
+	line "caminar."
 	done
 
 MomOutroText:
-	text "Gee, aren't they"
-	line "convenient?"
+	text "¡Vaya! ¿A que son"
+	line "muy prácticas?"
 	done
 
 MomErrandText:
-	text "So, what was Prof."
-	line "Elm's errand?"
+	text "Y bien, ¿qué te ha"
+	line "pedido el Prof."
+	cont "Elm?"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Parece un reto di-"
+	line "fícil."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Pero debes enorgu-"
+	line "llecerte de que la"
+
+	para "gente confíe en"
+	line "ti."
 	done
 
 MomDoItText:
-	text "<PLAYER>, do it!"
+	text "¡Animo, <PLAYER>!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "¡Te apoyaré en"
+	line "todo momento!"
 	done
 
 NeighborScript:
@@ -304,34 +318,34 @@ NeighborScript:
 	end
 
 .MornIntroText:
-	text "Good morning,"
+	text "¡Buenos días,"
 	line "<PLAYER>!"
 
-	para "I'm visiting!"
+	para "¡Vengo de visita!"
 	done
 
 .DayIntroText:
-	text "Hello, <PLAYER>!"
-	line "I'm visiting!"
+	text "¡Hola, <PLAYER>!"
+	line "¡Vengo de visita!"
 	done
 
 .NiteIntroText:
-	text "Good evening,"
+	text "¡Buenas noches,"
 	line "<PLAYER>!"
 
-	para "I'm visiting!"
+	para "¡Vengo de visita!"
 	done
 
 .NeighborText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, ¿te has"
+	line "enterado?"
 
-	para "My daughter is"
-	line "adamant about"
+	para "Mi hija está empe-"
+	line "ñada en ser la"
 
-	para "becoming Prof."
-	line "Elm's assistant."
+	para "ayudante del"
+	line "Prof. Elm."
 
-	para "She really loves"
+	para "¡Le encantan los"
 	line "#mon!"
 	done

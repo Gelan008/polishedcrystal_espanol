@@ -10,7 +10,7 @@ KenjiAskNumber1Text:
 
 	para "Mi entrenamiento"
 	line "hace que charlar"
-	cont "sea difícil..."
+	cont "sea difícil…"
 	done
 
 KenjiAskNumber2Text:
@@ -48,7 +48,7 @@ KenjiGiftText:
 	cont "<PLAYER>!"
 
 	para "He estado entre-"
-	line "nando muy solo..."
+	line "nando muy solo…"
 
 	para "Me alegró que te"
 	line "animaras a llamar."

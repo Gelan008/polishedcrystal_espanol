@@ -43,7 +43,7 @@ CeladonDeptStore1FTeacherText:
 	text "Es la primera vez"
 	line "que vengo."
 
-	para "Es tan grande..."
+	para "Es tan grande…"
 
 	para "Me temo que me voy"
 	line "a perder."

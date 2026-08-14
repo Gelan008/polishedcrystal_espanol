@@ -2,7 +2,7 @@ TullyAnswerPhoneText:
 	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Oh. Buenos días,"
 	line "<PLAYER>."
@@ -12,9 +12,9 @@ TullyAnswerPhoneDayText:
 	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
-	para "Esa voz..."
+	para "Esa voz…"
 	line "<PLAYER>, ¿verdad?"
 	done
 
@@ -22,7 +22,7 @@ TullyAnswerPhoneNiteText:
 	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Debes de ser"
 	line "<PLAYER>!"
@@ -32,7 +32,7 @@ TullyGreetText:
 	text "¡Hola!"
 	line ""
 	text_ram wStringBuffer3
-	text " al habla..."
+	text " al habla…"
 
 	para "¡Buenos días! ¡El"
 	line "clima es genial!"
@@ -42,7 +42,7 @@ TullyGreetDayText:
 	text "¡Hola!"
 	line ""
 	text_ram wStringBuffer3
-	text " al habla..."
+	text " al habla…"
 
 	para "¡Qué día perfecto"
 	line "para pescar!"
@@ -52,7 +52,7 @@ TullyGreetNiteText:
 	text "¡Hola!"
 	line ""
 	text_ram wStringBuffer3
-	text " al habla..."
+	text " al habla…"
 
 	para "¡Qué gran noche"
 	line "para pescar!"

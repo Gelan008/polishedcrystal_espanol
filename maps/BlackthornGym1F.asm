@@ -90,7 +90,7 @@ BlackthornGymClairScript:
 	para "¿Aún quieres en-"
 	line "frentarte a mí?"
 
-	para "...Bien."
+	para "…Bien."
 	line "¡Hagámoslo!"
 
 	para "¡Como Líder de"
@@ -106,7 +106,7 @@ BlackthornGymClairScript:
 
 	para "No me lo creo."
 	line "Debe haber algún"
-	cont "error..."
+	cont "error…"
 	done
 
 .GoToDragonsDenText:

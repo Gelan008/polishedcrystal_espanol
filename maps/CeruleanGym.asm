@@ -289,10 +289,10 @@ MistyIntroText:
 
 MistyWinLossText:
 	text "Misty: De verdad"
-	line "eres bueno..."
+	line "eres bueno…"
 
 	para "Admitiré que"
-	line "tienes habilidad.."
+	line "tienes habilidad…"
 
 	para "Toma. Es la"
 	line "Medalla Cascada."
@@ -342,7 +342,7 @@ SwimmerfViolaSeenText:
 
 SwimmerfViolaBeatenText:
 	text "He perdido be-"
-	line "llamente..."
+	line "llamente…"
 	done
 
 SwimmerfBrianaSeenText:
@@ -354,7 +354,7 @@ SwimmerfBrianaSeenText:
 SwimmerfBrianaBeatenText:
 	text "Huy, te has de-"
 	line "shecho de mí tan"
-	cont "tranquilamente..."
+	cont "tranquilamente…"
 	done
 
 SailorParkerSeenText:
@@ -363,7 +363,7 @@ SailorParkerSeenText:
 	done
 
 SailorParkerBeatenText:
-	text "No puede ser..."
+	text "No puede ser…"
 	done
 
 SailorEddieSeenText:
@@ -396,7 +396,7 @@ CeruleanGymFoundMachinePartText:
 
 CeruleanGymSomethingUnderwaterText:
 	text "Hay algo bajo el"
-	line "agua..."
+	line "agua…"
 
 	para "¿Puede que el Sol-"
 	line "dado Rocket ha-"

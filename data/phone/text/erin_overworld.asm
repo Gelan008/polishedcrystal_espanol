@@ -3,7 +3,7 @@ ErinAskNumber1Text:
 	line "rabia perder."
 
 	para "Tendré que entre-"
-	line "nar más duro..."
+	line "nar más duro…"
 
 	para "Aquí está mi"
 	line "número. Soy Erin,"
@@ -28,7 +28,7 @@ ErinNumberAcceptedText:
 	done
 
 ErinNumberDeclinedText:
-	text "Oh... Qué pena..."
+	text "Oh… Qué pena…"
 	line "Si al final quie-"
 
 	para "res luchar, ven"
@@ -48,18 +48,18 @@ ErinRematchText:
 
 ErinPackFullText:
 	text "¡Vaya, qué pena!"
-	line "No tienes sitio..."
+	line "No tienes sitio…"
 
 	para "Te lo daré"
 	line "en otro momento."
 	done
 
 ErinRematchGiftText:
-	text "Jo... ¡He vuelto"
+	text "Jo… ¡He vuelto"
 	line "a perder!"
 
 	para "¿Cuántas veces"
-	line "van ya...?"
+	line "van ya…?"
 
 	para "¡Gracias por"
 	line "venir! ¡Toma un"

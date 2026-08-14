@@ -26,7 +26,7 @@ CeladonHotel2FTeacherText:
 	cont "universidad!"
 
 	para "Espero que no se"
-	line "avergüence..."
+	line "avergüence…"
 	done
 
 CeladonHotel2FRoom1Text:

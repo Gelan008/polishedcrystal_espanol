@@ -23,7 +23,7 @@ BethDefeatedMonText:
 	cont "antes?"
 
 	para "Acabo de luchar"
-	line "contra uno..."
+	line "contra uno…"
 
 	para "Era mucho más"
 	line "rápido de lo que"
@@ -85,7 +85,7 @@ BethLetsBattleAgainSometimeText:
 	done
 
 BethReminderText:
-	text "Mmm... ¿<PLAYER>?"
+	text "Mmm… ¿<PLAYER>?"
 	line "¿Qué pasa?"
 
 	para "¿Has olvidado"

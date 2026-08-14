@@ -2,7 +2,7 @@ GavenAnswerPhoneText:
 	text "Hola, al aparato"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Hola, <PLAYER>!"
 	line "¡Buenos días!"
@@ -12,7 +12,7 @@ GavenAnswerPhoneDayText:
 	text "Hola, al aparato"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Hola, <PLAYER>!"
 	done
@@ -21,7 +21,7 @@ GavenAnswerPhoneNiteText:
 	text "Hola, al aparato"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Hola, <PLAYER>!"
 	line "¡Buenas noches!"

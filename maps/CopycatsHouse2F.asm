@@ -199,7 +199,7 @@ CopycatWorriedScript:
 	cont "debes hacer?"
 
 	para "Pero estoy muy"
-	line "preocupada..."
+	line "preocupada…"
 	cont "¿Y si alguien"
 	cont "lo encuentra?"
 	done
@@ -351,7 +351,7 @@ CopycatThanks2Text:
 	line "por el pase de"
 	cont "tren!"
 
-	para "<PLAYER>: ..."
+	para "<PLAYER>: …"
 	line "¿Perdón?"
 
 	para "<PLAYER>: ¿De ver-"
@@ -396,9 +396,9 @@ CopycatsHouse2FDollScript:
 	line "muy raro! ¿Eh?"
 
 	para "Es solo un"
-	line "muñeco..."
+	line "muñeco…"
 	done
 
 CopycatsHouse2FDittoText:
-	text "Ditto: Dii..."
+	text "Ditto: Dii…"
 	done

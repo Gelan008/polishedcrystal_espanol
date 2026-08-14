@@ -38,7 +38,7 @@ DanaLostAMonText:
 	line "poco! De verdad,"
 
 	para "un poquito más"
-	line "y lo habría..."
+	line "y lo habría…"
 	done
 
 DanaBattleRematchText:

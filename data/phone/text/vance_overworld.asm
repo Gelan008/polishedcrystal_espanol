@@ -3,7 +3,7 @@ VanceAskNumber1Text:
 	line "fuerte."
 
 	para "Pero no quiero es-"
-	line "cabullirme..."
+	line "cabullirme…"
 
 	para "¡Ya sé! ¿Podrías"
 	line "darme tu número?"
@@ -33,7 +33,7 @@ VanceNumberAcceptedText:
 VanceNumberDeclinedText:
 	text "Un amigo ornitólo-"
 	line "go nunca viene"
-	cont "mal, creo..."
+	cont "mal, creo…"
 
 	para "¿No lo vas a"
 	line "reconsiderar?"

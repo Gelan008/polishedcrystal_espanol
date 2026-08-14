@@ -14,7 +14,7 @@ LyraPhoneGreetingText_Eve:
 	prompt
 
 LyraPhoneGreetingText_Nite:
-	text "¡...<PLAYER>!"
+	text "¡…<PLAYER>!"
 	line "¡Buenas noches!"
 	cont "Qué tarde es."
 	prompt
@@ -45,7 +45,7 @@ LyraPhoneJohtoText_Generic:
 	prompt
 
 LyraPhoneNextMoveQuestionText:
-	text "Bueno, <PLAYER>..."
+	text "Bueno, <PLAYER>…"
 
 	para "¿Quieres que te"
 	line "diga cuándo tu"
@@ -81,11 +81,11 @@ LyraPhoneNoNextMoveText:
 LyraPhoneNoEggMovesText:
 	text "¡Los Huevos no a-"
 	line "prenden ataques!"
-	cont "... ¿A que no?"
+	cont "… ¿A que no?"
 	prompt
 
 LyraPhoneEndText:
-	text "En fin... Ha sido"
+	text "En fin… Ha sido"
 	line "genial hablar"
 	cont "contigo, <PLAYER>."
 
@@ -172,10 +172,10 @@ LyraPhoneSpecialText_LyrasEgg:
 	cont "ro de #mon,"
 
 	para "así que, um, si"
-	line "te gustaría te-"
-	cont "nerlo..."
+	line "te gustaría"
+	cont "quedártelo…"
 
-	para "Eso es... En fin,"
+	para "Eso es… En fin,"
 	line "¡dejé el Huevo"
 
 	para "en la Guardería"

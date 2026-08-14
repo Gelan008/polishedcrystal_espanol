@@ -25,7 +25,7 @@ PokemonJournalPryceScript:
 
 	text "Revista #mon"
 
-	para "Reportaje sobre"
+	para "Edición sobre"
 	line "el Líder Fredo."
 
 	para "El segundo nombre"
@@ -50,7 +50,7 @@ MahoganyPokeCenter1FPokefanmText:
 
 	para "Vi hombres de ne-"
 	line "gro en el Lago"
-	cont "de la Furia..."
+	cont "de la Furia…"
 	done
 
 MahoganyPokeCenter1FYoungsterText:

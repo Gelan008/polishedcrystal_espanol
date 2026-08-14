@@ -47,7 +47,7 @@ AdminRangiText:
 RangiComputerScript:
 	jumpthistext
 
-	text "Optimizando..."
+	text "Optimizando…"
 	line "parpadea en la"
 	cont "pantalla."
 
@@ -170,13 +170,13 @@ AdminVulcanText:
 	line "el tiempo?"
 
 	para "No es sólo por ha-"
-	line "blar... ¡De hecho"
+	line "blar… ¡De hecho"
 	cont "yo lo implemen-"
 	cont "té!"
 
 	para "Pensábamos que"
 	line "no se podía"
-	cont "hacer..."
+	cont "hacer…"
 
 	para "¡Y me demostré a"
 	line "mí mismo lo"

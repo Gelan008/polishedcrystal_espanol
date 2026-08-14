@@ -362,7 +362,7 @@ KurtsGranddaughter1:
 	jumpthistext
 
 	text "Los Slowpoke no"
-	line "están... ¿Se los"
+	line "están… ¿Se los"
 
 	para "habrá llevado"
 	line "gente mala?"
@@ -393,7 +393,7 @@ PokemonJournalProfWestwoodScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial"
+	para "Edición especial:"
 	line "¡Prof.Westwood!"
 
 	para "El Prof.Westwood V"
@@ -546,7 +546,7 @@ KurtsHouseKurtItWillTakeADayText:
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "César: Oh..."
+	text "César: Oh…"
 	line "Qué decepción."
 	done
 
@@ -603,7 +603,7 @@ KurtsHouseKurtImCheckingItNowText:
 
 KurtsHouseKurtAhHaISeeText:
 	text "¡Ajá! ¡Ya veo!"
-	line "Así que..."
+	line "Así que…"
 	done
 
 KurtsHouseKurtThisBallStartedToShakeText:
@@ -620,8 +620,8 @@ KurtsHouseKurtThisBallStartedToShakeText:
 
 KurtsGranddaughterLonelyText:
 	text "El abuelo se ha"
-	line "ido... Qué sola"
-	cont "estoy..."
+	line "ido… Qué sola"
+	cont "estoy…"
 	done
 
 KurtsGranddaughterSlowpokeBackText:
@@ -665,12 +665,12 @@ KurtsGranddaughterGSBallText:
 	done
 
 KurtsHouseSlowpokeText:
-	text "Slowpoke: ..."
+	text "Slowpoke: …"
 	line "¿Bostezo?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "...¿Un joven Prof."
+	text "…¿Un joven Prof."
 	line "Oak?"
 	done
 

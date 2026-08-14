@@ -114,14 +114,14 @@ EcruteakTinTowerEntranceSageScript:
 	line "bo pedirte que te"
 	cont "vayas."
 
-	para "... Lo que calma"
-	line "el alma..."
+	para "… Lo que calma"
+	line "el alma…"
 
 	para "El Trío Sabio dice"
 	line "cosas que son muy"
 
 	para "difíciles de en-"
-	line "tender..."
+	line "tender…"
 	done
 
 .RingClearBell:
@@ -191,7 +191,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	line "bo pedirte que te"
 	cont "vayas."
 
-	para "......"
+	para "……"
 
 	para "¡Ah!"
 
@@ -209,7 +209,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	cont "alma de su porta-"
 	cont "dor."
 
-	para "Tú..."
+	para "Tú…"
 
 	para "Es posible que pu-"
 	line "edas atravesar la"
@@ -230,7 +230,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	cont "alma de su porta-"
 	cont "dor."
 
-	para "Tú..."
+	para "Tú…"
 
 	para "Es posible que pu-"
 	line "edas atravesar la"
@@ -251,8 +251,8 @@ EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Dos torres..."
-	line "Dos #mon..."
+	text "Dos torres…"
+	line "Dos #mon…"
 
 	para "Pero cuando una se"
 	line "quemó, ambos #"

@@ -49,7 +49,7 @@ GenericTrainerAromaLadyBryony:
 .SeenText:
 	text "Flores tropica-"
 	line "les, brisa ma-"
-	cont "rina..."
+	cont "rina…"
 
 	para "¡La Isla Shamouti"
 	line "está llena de de-"
@@ -123,7 +123,7 @@ GenericTrainerSightseerfRosie:
 .SeenText:
 	text "El santuario, los"
 	line "tres templos, las"
-	cont "antiguas ruinas..."
+	cont "antiguas ruinas…"
 	cont "¿Adónde ir pri-"
 	cont "mero?"
 	done
@@ -148,7 +148,7 @@ TrainerSwimmerfRachel:
 
 .SeenText:
 	text "Arena blanca y"
-	line "agua azul..."
+	line "agua azul…"
 
 	para "¡La Costa Bella"
 	line "hace honor a su"

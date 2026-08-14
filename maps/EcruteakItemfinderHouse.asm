@@ -116,9 +116,9 @@ EcruteakItemfinderTrueSpiritText:
 	done
 
 EcruteakItemfinderToEachHisOwnText:
-	text "Oh... Para gustos"
+	text "Oh… Para gustos"
 	line "colores,"
-	cont "supongo..."
+	cont "supongo…"
 	done
 
 EcruteakHistoryBookText:
@@ -142,7 +142,7 @@ EcruteakTwoTowersText:
 
 	para "Desde entonces, no"
 	line "se ha visto a los"
-	cont "dos #mon..."
+	cont "dos #mon…"
 
 	para "¿Seguir leyendo?"
 	done

@@ -1,6 +1,6 @@
 KenjiAnswerPhoneText:
 	text_ram wStringBuffer3
-	text " al habla..."
+	text " al habla…"
 
 	para "¡<PLAYER>! Hermosa"
 	line "mañana, ¿eh?"
@@ -8,7 +8,7 @@ KenjiAnswerPhoneText:
 
 KenjiAnswerPhoneDayText:
 	text_ram wStringBuffer3
-	text " al habla..."
+	text " al habla…"
 
 	para "¡<PLAYER>! Hermoso"
 	line "clima, ¿eh?"
@@ -16,7 +16,7 @@ KenjiAnswerPhoneDayText:
 
 KenjiAnswerPhoneNiteText:
 	text_ram wStringBuffer3
-	text " al habla..."
+	text " al habla…"
 
 	para "¡<PLAYER>! Hermosa"
 	line "luz de luna, ¿eh?"

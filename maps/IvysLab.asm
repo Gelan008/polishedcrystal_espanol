@@ -99,7 +99,7 @@ ProfIvyScript:
 
 .NoBerryText:
 	text "Ivy: Lo en-"
-	line "tiendo..."
+	line "tiendo…"
 
 	para "No te sobran tres"
 	line "Bayas Lichi."
@@ -130,7 +130,7 @@ ProfIvyScript:
 
 	para "A ver si esto"
 	line "ayuda a"
-	cont "Nidorino..."
+	cont "Nidorino…"
 	done
 
 .ThanksText:
@@ -162,7 +162,7 @@ ProfIvyScript:
 
 .SeenText:
 	text "Profesora contra"
-	line "Campeón... ¡Vamos!"
+	line "Campeón… ¡Vamos!"
 	done
 
 .BeatenText:
@@ -207,7 +207,7 @@ IvysLabNidorinoScript:
 	jumpthisopenedtext
 
 	text "Su llanto es"
-	line "débil..."
+	line "débil…"
 	done
 
 .WeakCry:
@@ -258,7 +258,7 @@ PokemonJournalProfIvyScript:
 
 	text "Diario #mon"
 
-	para "Reportaje: ¡Profe-"
+	para "Edición: ¡Profe-"
 	line "sora #mon Ivy!"
 
 	para "Philena Ivy"

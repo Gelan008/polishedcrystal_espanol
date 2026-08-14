@@ -46,7 +46,7 @@ CeladonUniversityWestwoodsOfficeChildScript:
 
 	para "¡Estoy FURIOSO!"
 
-	para "...Tal vez debería"
+	para "…Tal vez debería"
 	line "dejar de comer"
 if DEF(FAITHFUL)
 	cont "Caramelos Furia."
@@ -96,6 +96,6 @@ CeladonUniversityWestwoodsOfficeBookshelfText:
 	text "Obras Completas"
 	line "del Prof.Westwood."
 
-	para "...Mejor me las"
+	para "…Mejor me las"
 	line "salto."
 	done

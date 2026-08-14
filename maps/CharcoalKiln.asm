@@ -30,7 +30,7 @@ CharcoalKilnBoss:
 
 	para "El protector del"
 	line "bosque puede es-"
-	cont "tar enfadado..."
+	cont "tar enfadado…"
 
 	para "Es un mal presa-"
 	line "gio. Deberíamos"
@@ -39,7 +39,7 @@ CharcoalKilnBoss:
 
 .Text2:
 	text "Los Slowpoke han"
-	line "vuelto..."
+	line "vuelto…"
 
 	para "Pero mi Aprendiz"
 	line "no ha vuelto"

@@ -81,7 +81,7 @@ ArnieHaventSeenRareMonText:
 	text "Últimamente no he"
 	line "tenido suerte"
 	cont "viendo #mon"
-	cont "raros..."
+	cont "raros…"
 
 	para "¡Pero sé que están"
 	line "por ahí fuera!"

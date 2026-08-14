@@ -138,7 +138,7 @@ GenericTrainerSwimmermRomeo:
 	text "Ser un buen Nado-"
 	line "dor no me hace un"
 
-	para "buen entrenador..."
+	para "buen entrenador…"
 	done
 
 .SeenText:
@@ -182,7 +182,7 @@ GenericTrainerSwimmermArmand:
 	generictrainer SWIMMERM, ARMAND, EVENT_BEAT_SWIMMERM_ARMAND, .SeenText, .BeatenText
 
 	text "Esa chica de la"
-	line "orilla... Su mú-"
+	line "orilla… Su mú-"
 	cont "sica es buena,"
 
 	para "¡pero distrae a"
@@ -218,7 +218,7 @@ GenericTrainerBeautyBridget:
 .BeatenText:
 	text "Solo intentaba"
 	line "disfrutar las"
-	cont "vistas..."
+	cont "vistas…"
 	done
 
 GenericTrainerBeautyVeronica:
@@ -229,7 +229,7 @@ GenericTrainerBeautyVeronica:
 
 	para "Debe ser por eso"
 	line "que estoy soltera."
-	cont "...¡Jaja!"
+	cont "…¡Jaja!"
 	done
 
 .SeenText:
@@ -346,10 +346,10 @@ TrainerLadyJessica:
 .AfterText1:
 	text "Tendré que com-"
 	line "prar un #mon"
-	cont "mejor..."
-	cont "......"
+	cont "mejor…"
+	cont "……"
 	cont "Y un vestido"
-	cont "nuevo..."
+	cont "nuevo…"
 	done
 
 .AfterText2:
@@ -358,7 +358,7 @@ TrainerLadyJessica:
 
 	para "¡Deja de mirar-"
 	line "me!"
-	cont "......"
+	cont "……"
 	cont "¡Asqueroso!"
 	done
 
@@ -366,7 +366,7 @@ GenericTrainerFisherLeroy:
 	generictrainer FISHER, LEROY, EVENT_BEAT_FISHER_LEROY, .SeenText, .BeatenText
 
 	text "Todo lo que atra-"
-	line "po son Magikarp..."
+	line "po son Magikarp…"
 
 	para "Al menos todos"
 	line "tienen un aspecto"
@@ -375,7 +375,7 @@ GenericTrainerFisherLeroy:
 
 .SeenText:
 	text "No dejo de atrapar"
-	line "al mismo #mon..."
+	line "al mismo #mon…"
 
 	para "Quizás un combate"
 	line "haga que cambie mi"
@@ -384,7 +384,7 @@ GenericTrainerFisherLeroy:
 
 .BeatenText:
 	text "Nada me sale bien"
-	line "últimamente..."
+	line "últimamente…"
 	done
 
 Route25MistysDateLeavesMovement2:
@@ -434,9 +434,9 @@ Route25MistyDateText:
 	para "¡Plasta! ¡Has oí-"
 	line "do bien, plasta!"
 
-	para "..."
+	para "…"
 
-	para "...¿Oh? Esas Me-"
+	para "…¿Oh? Esas Me-"
 	line "dallas... ¿Son de"
 	cont "Gimnasios de"
 	cont "Johto?"

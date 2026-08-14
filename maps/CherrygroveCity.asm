@@ -341,7 +341,7 @@ GuideGentSeaText:
 	done
 
 GuideGentGiftText:
-	text "Aquí..."
+	text "Aquí…"
 
 	para "¡Esta es mi casa!"
 	line "Gracias por tu"
@@ -368,7 +368,7 @@ GuideGentPokegearText:
 	done
 
 CherrygroveRivalText_Seen:
-	text "...... ...... ..."
+	text "… … … …"
 
 	para "Conseguiste un"
 	line "#mon en el"
@@ -378,7 +378,7 @@ CherrygroveRivalText_Seen:
 	line "Un debilucho"
 	cont "como tú."
 
-	para "...... ...... ..."
+	para "… … … …"
 
 	para "¿No entiendes lo"
 	line "que te digo?"
@@ -403,7 +403,7 @@ RivalCherrygroveLossText:
 	done
 
 CherrygroveRivalTextAfter1:
-	text "...... ...... ..."
+	text "… … … …"
 
 	para "¿Quieres saber"
 	line "quién soy?"
@@ -416,13 +416,13 @@ CherrygroveRivalTextAfter1:
 
 CherrygroveRivalTextAfter2:
 	text "Se me cayó mi Tar-"
-	line "jeta Entrenador..."
+	line "jeta Entrenador…"
 
 	para "¡Eh! ¡Devuélveme-"
 	line "la!"
 
-	para "Oh no... Has visto"
-	line "mi nombre..."
+	para "Oh no… Has visto"
+	line "mi nombre…"
 	done
 
 CherrygroveTeacherText_HaveMapCard:

@@ -91,8 +91,8 @@ GenericTrainerCooltrainermCody:
 GenericTrainerCooltrainerfFran:
 	generictrainer COOLTRAINERF, FRAN, EVENT_BEAT_COOLTRAINERF_FRAN, .SeenText, .BeatenText
 
-	text "Ay, ay... Débora"
-	line "se enfadará..."
+	text "Ay, ay… Débora"
+	line "se enfadará…"
 	done
 
 .SeenText:
@@ -106,5 +106,5 @@ GenericTrainerCooltrainerfFran:
 	done
 
 .BeatenText:
-	text "Ayyy... Perdí..."
+	text "Ayyy… Perdí…"
 	done

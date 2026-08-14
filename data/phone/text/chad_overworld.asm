@@ -42,9 +42,9 @@ ChadNumberAcceptedText:
 	done
 
 ChadNumberDeclinedText:
-	text "Oh... Ojalá"
+	text "Oh… Ojalá"
 	line "pudiera conocer"
-	cont "a Prof.Oak..."
+	cont "a Prof.Oak…"
 	done
 
 ChadPhoneFullText:

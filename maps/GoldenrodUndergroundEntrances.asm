@@ -42,7 +42,7 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 .Text2:
 	text "A la larga, la"
 	line "casa siempre"
-	cont "gana..."
+	cont "gana…"
 	done
 
 .Text1:
@@ -57,7 +57,7 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 
 GoldenrodUndergroundEntrances_TeacherText:
 	text "Hay algunas"
-	line "tiendas abajo..."
+	line "tiendas abajo…"
 
 	para "Pero también hay"
 	line "entrenadores."

@@ -31,7 +31,7 @@ CeladonDeptStore3FGameboyKid2Script:
 CeladonDeptStore6FSuperNerdText:
 	text "Una expendedora"
 	line "con ruleta de pre-"
-	cont "mios..."
+	cont "mios…"
 
 	para "Ya no se ven"
 	line "de esas."
@@ -65,7 +65,7 @@ CeladonDeptStore3FGameboyKid2Text:
 	line "las tragaperras, y"
 
 	para "no podía conseguir"
-	line "las monedas..."
+	line "las monedas…"
 
 	para "¡Lo entrenaré con"
 	line "una Mejora para"

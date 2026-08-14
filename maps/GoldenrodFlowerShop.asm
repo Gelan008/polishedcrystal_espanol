@@ -97,7 +97,7 @@ FlowerShopTeacherScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Bueno... perdona,"
+	text "Bueno… perdona,"
 	line "pero te falta"
 	cont "dinero."
 	done
@@ -151,7 +151,7 @@ GoldenrodFlowerShopTeacherStopMySisterText:
 	line "se emocionó mucho"
 
 	para "y ha ido a ver el"
-	line "árbol raro..."
+	line "árbol raro…"
 
 	para "Estoy preocupada.."
 	line "¿Puedes por favor"
@@ -188,7 +188,7 @@ GoldenrodFlowerShopTeacherBetterThanWhitneyText:
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	text "Oh, eres mejor"
-	line "que Blanca..."
+	line "que Blanca…"
 
 	para "Entonces, estarás"
 	line "bien. ¡Aquí tienes"
@@ -212,7 +212,7 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	line "Blanca, igual me"
 
 	para "presta su"
-	line "Squirgadera..."
+	line "Squirgadera…"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
@@ -251,7 +251,7 @@ DescribeMulchText:
 	line "una mezcla de tie-"
 
 	para "rra de calidad y"
-	line "de... em... ya sa-"
+	line "de… em… ya sa-"
 	cont "bes de los #mon."
 
 	para "¡Está lleno de"

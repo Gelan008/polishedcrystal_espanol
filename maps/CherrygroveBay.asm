@@ -168,7 +168,7 @@ CherrygroveBayTutorEarthPowerScript:
 	jumpthisopenedtext
 
 	text "No tienes ninguna"
-	line "Hoja Plata..."
+	line "Hoja Plata…"
 	done
 
 .TeachMove

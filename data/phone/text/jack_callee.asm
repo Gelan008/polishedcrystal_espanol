@@ -2,7 +2,7 @@ JackAnswerPhoneText:
 	text "Hola. Soy "
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Buenos días,"
 	line "<PLAYER>!"
@@ -12,7 +12,7 @@ JackAnswerPhoneDayText:
 	text "Hola. Soy "
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¿Cómo te va,"
 	line "<PLAYER>?"
@@ -22,7 +22,7 @@ JackAnswerPhoneNiteText:
 	text "Hola. Soy "
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Buenas noches,"
 	line "<PLAYER>!"
@@ -67,5 +67,5 @@ JackGenericText:
 	line "es muy curioso, es"
 
 	para "un problema."
-	line "Será como yo..."
+	line "Será como yo…"
 	done

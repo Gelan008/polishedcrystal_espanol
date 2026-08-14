@@ -1,14 +1,14 @@
 BuenaPhoneMorningAnswerText:
-	text "Hola, soy Buena..."
+	text "Hola, soy Buena…"
 	para "¡Oh, buenos días,"
 	line "<PLAYER>!"
 	para "Me cuesta mucho"
 	line "despertarme por"
-	cont "las mañanas..."
+	cont "las mañanas…"
 	done
 
 BuenaPhoneDayAnswerText:
-	text "Hola, soy Buena..."
+	text "Hola, soy Buena…"
 	line "¡Oh! ¡Hola,"
 	cont "<PLAYER>!"
 
@@ -32,7 +32,7 @@ BuenaPhoneMidnightAnswerText:
 	done
 
 BuenaPhoneNiteAnswerText:
-	text "Hola, soy Buena..."
+	text "Hola, soy Buena…"
 	line "¡Oh! ¡Hola,"
 	cont "<PLAYER>!"
 
@@ -114,7 +114,7 @@ BuenaPhoneWentOutWithBenText:
 	line "¿qué debería"
 	cont "hacer?"
 
-	para "...Uy, ¡tengo"
+	para "…Uy, ¡tengo"
 	line "que prepararme"
 
 	para "para el show! ¡Te"
@@ -165,7 +165,7 @@ BuenaPhoneLuckyNumberShowText:
 
 BuenaPhoneStressedFromWorkText:
 	text "Oye, ¿sabes? Ayer"
-	line "por la noche..."
+	line "por la noche…"
 
 	para "¡Me estresé tanto"
 	line "por el trabajo,"
@@ -175,10 +175,10 @@ BuenaPhoneStressedFromWorkText:
 
 	para "Rosa y yo tenemos"
 	line "un trato para"
-	cont "perder peso..."
+	cont "perder peso…"
 
 	para "Esto no puede"
-	line "ser..."
+	line "ser…"
 
 	para "¿Eh? ¿Cuánto"
 	line "pesa?"
@@ -186,11 +186,11 @@ BuenaPhoneStressedFromWorkText:
 	para "¡Esto tiene que"
 	line "ser un secreto!"
 
-	para "Rosa pesa..."
+	para "Rosa pesa…"
 
 	para "¡Ay! ¡R-Rosa!"
 
-	para "Eh... Emm... Lo"
+	para "Eh… Emm… Lo"
 	line "siento, ¡número"
 	cont "equivocado!"
 	done
@@ -220,7 +220,7 @@ BuenaPhoneProfessorOakText:
 	done
 
 BuenaPhoneGotAColdText:
-	text "...¡Cof, cof!"
+	text "…¡Cof, cof!"
 
 	para "Lho ziento,"
 	line "eztoy rzfriada."
@@ -255,7 +255,7 @@ BuenaPhoneRadioCardQuestionsText:
 	line "¡Yo hice las"
 	cont "preguntas!"
 
-	para "...¿Te resultaron"
+	para "…¿Te resultaron"
 	line "demasiado"
 	cont "fáciles?"
 
@@ -273,8 +273,8 @@ BuenaPhonePikachuFanClubText:
 	para "Pero cuando la"
 	line "contraseña era"
 
-	para "Pikachu, fue eh..."
-	line "uf... agobiante."
+	para "Pikachu, fue eh…"
+	line "uf… agobiante."
 
 	para "Los del Club de"
 	line "Fans vinieron"
@@ -351,17 +351,17 @@ BuenaPhoneWhenDoYouRelaxText:
 
 	para "que poco a poco"
 	line "me entra el"
-	cont "sueño..."
+	cont "sueño…"
 
-	para "... ... ..."
+	para "… … …"
 
-	para "... ... ...Zzz"
+	para "… … …Zzz"
 
 	para "Uy, ¡me he"
 	line "dormido solo de"
 
 	para "pensarlo! ¡Qué,"
-	line "eh... qué corte!"
+	line "eh… qué corte!"
 
 	para "¡Olvida esto, por"
 	line "favor! ¡Adiós!"
@@ -372,7 +372,7 @@ BuenaPhoneStarterPokemonText:
 	line "fue tu primer"
 	cont "#mon atrapado?"
 
-	para "...Oh, ¿en serio?"
+	para "…Oh, ¿en serio?"
 
 	para "He visto muchos"
 	line "#mon por ahí,"
@@ -439,7 +439,7 @@ BuenaPhoneCompanyVacationText:
 	done
 
 BuenaPhoneBenAndFernText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Ben y Nando hablan"
 	line "por teléfono"
@@ -478,7 +478,7 @@ BuenaPhoneGoingShoppingText:
 
 	para "de Trigal"
 	line "tuviera rebajas"
-	cont "cuando vayamos..."
+	cont "cuando vayamos…"
 
 	para "<PLAYER>, ¡quizás"
 	line "podamos quedar"
@@ -497,7 +497,7 @@ BuenaPhoneFavoriteSlotMachineAnswerText:
 
 	para "Verás, tengo mi"
 	line "máquina"
-	cont "favorita..."
+	cont "favorita…"
 
 	para "Da muchos premios,"
 	line "¡no bromeo!"
@@ -529,7 +529,7 @@ BuenaPhonePokegearAnswerText:
 	cont "orientación,"
 
 	para "así que el #gear"
-	line "sería útil..."
+	line "sería útil…"
 
 	para "En fin, ¡gracias"
 	line "por llamar!"

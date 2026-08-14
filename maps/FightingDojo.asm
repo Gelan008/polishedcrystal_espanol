@@ -484,7 +484,7 @@ WhitneyText_Greeting:
 MortyText_Greeting:
 	text "Los #mon"
 	line "legendarios no me"
-	cont "eligieron..."
+	cont "eligieron…"
 
 	para "Pero eso no signi-"
 	line "fica que haya"
@@ -502,9 +502,9 @@ ChuckText_Greeting:
 	done
 
 JasmineText_Greeting:
-	text "Hola, <PLAYER>..."
+	text "Hola, <PLAYER>…"
 	line "¿Cómo estás?"
-	cont "Yo estoy bien..."
+	cont "Yo estoy bien…"
 
 	para "En fin, ¿te has"
 	line "preparado para"
@@ -521,7 +521,7 @@ PryceText_Greeting:
 	done
 
 ClairText_Greeting:
-	text "...Así que estás"
+	text "…Así que estás"
 	line "aquí."
 
 	para "¡Ahora a luchar!"
@@ -587,7 +587,7 @@ WalkerText_Greeting:
 	line "de cruzarme con"
 
 	para "mi hijo Pegaso"
-	line "hace poco..."
+	line "hace poco…"
 
 	para "¿Qué te parece si"
 	line "luchamos en su"
@@ -597,7 +597,7 @@ WalkerText_Greeting:
 YellowText_Greeting:
 	text "¡Hola, <PLAYER>!"
 
-	para "Déjame ver..."
+	para "Déjame ver…"
 
 	para "¡Sí! ¡Aún cuidas"
 	line "muy bien de tus"
@@ -610,7 +610,7 @@ YellowText_Greeting:
 
 BrockText_WinLoss:
 	text "He vuelto a"
-	line "perder..."
+	line "perder…"
 
 	para "¡No estás de aven-"
 	line "tura por nada!"
@@ -632,7 +632,7 @@ SurgeText_WinLoss:
 
 ErikaText_WinLoss:
 	text "Te has vuelto aún"
-	line "más fuerte..."
+	line "más fuerte…"
 	done
 
 JanineText_WinLoss:
@@ -658,11 +658,11 @@ BlueText_WinLoss:
 
 	para "Con razón te has"
 	line "convertido en el"
-	cont "Campeón..."
+	cont "Campeón…"
 	done
 
 FalknerText_WinLoss:
-	text "Mmm... Aún queda"
+	text "Mmm… Aún queda"
 	line "mucho para ser el"
 	cont "mejor entrenador.."
 	done
@@ -683,7 +683,7 @@ WhitneyText_WinLoss:
 
 MortyText_WinLoss:
 	text "He perdido de"
-	line "nuevo... Tienes"
+	line "nuevo… Tienes"
 
 	para "algo más que solo"
 	line "fuerza."
@@ -697,17 +697,17 @@ ChuckText_WinLoss:
 
 JasmineText_WinLoss:
 	text "Fiel a tu"
-	line "reputación..."
+	line "reputación…"
 	done
 
 PryceText_WinLoss:
-	text "Mmm... ¡Impresio-"
+	text "Mmm… ¡Impresio-"
 	line "nante!"
 	done
 
 ClairText_WinLoss:
 	text "Bien hecho."
-	line "..."
+	line "…"
 
 	para "¡Ahora dalo todo!"
 	done

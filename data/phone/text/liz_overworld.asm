@@ -29,7 +29,7 @@ LizNumberAcceptedText:
 	done
 
 LizNumberDeclinedText:
-	text "Jo... ¿No quieres"
+	text "Jo… ¿No quieres"
 	line "ser mi amigo?"
 	done
 

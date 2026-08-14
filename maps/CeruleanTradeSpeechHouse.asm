@@ -26,8 +26,8 @@ CeruleanTradeSpeechHouseGrannyText:
 	done
 
 CeruleanTradeSpeechHouseGrampsText:
-	text "Ah... Soy tan fe-"
-	line "liz..."
+	text "Ah… Soy tan fe-"
+	line "liz…"
 	done
 
 CeruleanTradeSpeechHouseRhydonText:

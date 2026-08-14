@@ -2,7 +2,7 @@ ChadAnswerPhoneText:
 	text "Hola, habla"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Hola, <PLAYER>!"
 	line "¡Buenos días!"
@@ -12,7 +12,7 @@ ChadAnswerPhoneDayText:
 	text "Hola, habla"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Hola, <PLAYER>!"
 	line "¡Buenas!"
@@ -22,7 +22,7 @@ ChadAnswerPhoneNiteText:
 	text "Hola, habla"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Hola, <PLAYER>!"
 	line "¡Buenas noches!"

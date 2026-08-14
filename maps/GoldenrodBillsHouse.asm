@@ -303,7 +303,7 @@ BillsMom:
 	para "Mi marido se fue"
 	line "al Casino sin"
 
-	para "que lo llamaran..."
+	para "que lo llamaran…"
 	done
 
 BillsSister:
@@ -344,7 +344,7 @@ BillsSister:
 	cont "#mon del PC."
 
 	para "Iba a darte el"
-	line "número de Bill..."
+	line "número de Bill…"
 	done
 
 BillsGrandpaIntroText:
@@ -371,7 +371,7 @@ BillsGrandpaExcitedToSeeText:
 
 BillsGrandpaYouDontHaveItTextText:
 	text "¿No lo tienes?"
-	line "Qué pena..."
+	line "Qué pena…"
 	done
 
 BillsGrandpaShownPokemonText:

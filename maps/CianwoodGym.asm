@@ -187,7 +187,7 @@ GenericTrainerBlackbeltLao:
 
 	text "Los #mon de"
 	line "lucha tienen miedo"
-	cont "a los psíquicos..."
+	cont "a los psíquicos…"
 	done
 
 GenericTrainerBlackbeltNob:
@@ -202,9 +202,9 @@ GenericTrainerBlackbeltLung:
 	generictrainer BLACKBELT_T, LUNG, EVENT_BEAT_BLACKBELT_LUNG, BlackbeltLungSeenText, BlackbeltLungBeatenText
 
 	text "Mis #mon perdi-"
-	line "eron... Mi... mi"
+	line "eron… Mi… mi"
 	cont "orgullo está des-"
-	cont "trozado..."
+	cont "trozado…"
 	done
 
 CianwoodGymStatue:
@@ -234,7 +234,7 @@ ChuckIntroText1:
 
 	para "El agua golpeando"
 	line "directo en mi ca-"
-	cont "beza..."
+	cont "beza…"
 
 	para "¿Por qué has pa-"
 	line "rado la cascada?"
@@ -256,7 +256,7 @@ ChuckIntroText1:
 
 ChuckIntroText2:
 	text "Aníbal: ¡Urggh!"
-	line "..."
+	line "…"
 
 	para "¡Oooarrgh!"
 	done
@@ -341,7 +341,7 @@ BlackbeltNobSeenText:
 	done
 
 BlackbeltNobBeatenText: ; text > text
-	text "..."
+	text "…"
 	done
 
 BlackbeltLungSeenText:

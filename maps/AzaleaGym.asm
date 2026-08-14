@@ -164,7 +164,7 @@ AzaleaGymGuyScript:
 	para "Será duro sin mis"
 	line "consejos."
 
-	para "A ver... los #"
+	para "A ver… los #"
 	line "mon bicho no les"
 	cont "gusta el fuego."
 
@@ -215,7 +215,7 @@ GenericTrainerBug_catcherAl:
 	para "de chicas no les"
 	line "gustan."
 
-	para "Y no sé por qué..."
+	para "Y no sé por qué…"
 	done
 
 .SeenText:
@@ -228,7 +228,7 @@ GenericTrainerBug_catcherAl:
 
 .BeatenText:
 	text "Has demostrado lo"
-	line "duro que eres..."
+	line "duro que eres…"
 	done
 
 GenericTrainerBug_catcherJosh:
@@ -236,7 +236,7 @@ GenericTrainerBug_catcherJosh:
 
 	text "Supongo que de-"
 	line "bería enseñarles"
-	cont "mejores ataques..."
+	cont "mejores ataques…"
 	done
 
 .SeenText:

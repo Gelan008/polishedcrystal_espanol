@@ -125,11 +125,11 @@ BattleTowerOutsideAnabelScript:
 
 	para "¿...Eres <PLAYER>?"
 	line "He oído varios ru-"
-	cont "-mores sobre ti..."
+	cont "-mores sobre ti…"
 
 	para "Déjame ver tu"
 	line "talento en su"
-	cont "totalidad..."
+	cont "totalidad…"
 	done
 
 .YesText:
@@ -139,19 +139,19 @@ BattleTowerOutsideAnabelScript:
 
 .NoText:
 	text "Es muy decep-"
-	line "cionante..."
+	line "cionante…"
 	done
 
 .BeatenText:
-	text "Vale, entendido..."
+	text "Vale, entendido…"
 	done
 
 .ItemText:
 	text "Jujuju, muy bien"
-	line "hecho..."
+	line "hecho…"
 
 	para "Toma esto,"
-	line "por favor..."
+	line "por favor…"
 	done
 
 .GoodbyeText:
@@ -165,7 +165,7 @@ BattleTowerOutsideAnabelScript:
 
 	para "Hasta la próxima"
 	line "vez que nos vea-"
-	cont "mos..."
+	cont "mos…"
 	done
 
 BattleTowerOutsideYoungsterScript:
@@ -213,7 +213,7 @@ BattleTowerOutsideBeautyScript:
 	line "cidir cuáles irán"
 
 	para "a luchar en los"
-	line "combates..."
+	line "combates…"
 	done
 
 BattleTowerOutsideSailorText:
@@ -232,5 +232,5 @@ BattleTowerOutsideSailorText:
 BattleTowerOutsideDoorsClosedText:
 	text "Las puertas de la"
 	line "Torre Batalla es-"
-	cont "tán cerradas..."
+	cont "tán cerradas…"
 	done

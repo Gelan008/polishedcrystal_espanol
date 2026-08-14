@@ -43,7 +43,7 @@ EcruteakShrineOutsideSageText:
 
 EcruteakShrineOutsideStatueText:
 	text "Una estatua #"
-	line "mon..."
+	line "mon…"
 
 	para "Parece muy sere-"
 	line "na."

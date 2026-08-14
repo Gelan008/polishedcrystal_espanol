@@ -71,7 +71,7 @@ MagikarpLengthRaterScript:
 	text "¡Guau! ¡Este es"
 	line "impresionante!"
 
-	para "...Ojalá pudiera"
+	para "…Ojalá pudiera"
 	line "decir eso, pero"
 
 	para "he visto uno más"
@@ -81,7 +81,7 @@ MagikarpLengthRaterScript:
 .Refused:
 	jumpthisopenedtext
 
-	text "Oh... ¿Así que no"
+	text "Oh… ¿Así que no"
 	line "conseguiste uno"
 
 	para "bueno para ense-"
@@ -111,7 +111,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	line "pescar Magikarp"
 
 	para "muy vivaces,"
-	line "pero..."
+	line "pero…"
 
 	para "No entiendo qué"
 	line "está pasando."

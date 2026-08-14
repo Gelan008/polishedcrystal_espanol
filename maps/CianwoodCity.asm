@@ -120,7 +120,7 @@ CianwoodCityChucksWife:
 	line "fácil si tus #-"
 
 	para "mon supieran"
-	line "Vuelo..."
+	line "Vuelo…"
 	done
 
 CianwoodCitySuicuneApproachMovement:
@@ -254,7 +254,7 @@ EusineSuicuneText:
 	para "tas a velocidades"
 	line "asombrosas."
 
-	para "Es maravilloso..."
+	para "Es maravilloso…"
 
 	para "Quiero ver a"
 	line "Suicune de cerca.."

@@ -22,12 +22,12 @@ LyrasHouseLyraText:
 	text "Lira: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "Mmm... Puede que"
+	para "Mmm… Puede que"
 	line "últimamente mi"
 
 	para "#mon esté co-"
 	line "giendo algo de"
-	cont "peso..."
+	cont "peso…"
 	done
 
 LyrasHousePidgeotText:

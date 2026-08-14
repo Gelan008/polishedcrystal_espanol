@@ -7,7 +7,7 @@ TiffanyMonIsAdorableText:
 	para "te parece?"
 	line "Siempre duermo"
 
-	para "con él... ¡Es tan"
+	para "con él… ¡Es tan"
 	line "suave y cálido!"
 	done
 
@@ -18,7 +18,7 @@ TiffanyDefeatedMonText:
 	para ""
 	text_ram wStringBuffer4
 	text " salvaje"
-	line "hace un rato..."
+	line "hace un rato…"
 
 	para "¡Mi Clefairy casi"
 	line "se debilita!"
@@ -39,7 +39,7 @@ TiffanyLostAMonText:
 	para ""
 	text_ram wStringBuffer4
 	text " salvaje"
-	line "hace un rato..."
+	line "hace un rato…"
 
 	para "Mi Clefairy se as-"
 	line "ustó, ¡así que"
@@ -71,12 +71,12 @@ TiffanyItsAwfulText:
 	text "!"
 
 	para "Es horrible."
-	line "Mi Clefairy..."
+	line "Mi Clefairy…"
 
 	para "¿Eh? ¿<PLAYER>?"
 
 	para "¡Ay, lo siento! I-"
-	line "ba con prisa, y..."
+	line "ba con prisa, y…"
 
 	para "¡Me tengo que ir!"
 	line "¡Adiós!"
@@ -117,7 +117,7 @@ TiffanyAsleepText:
 	cont "dormido."
 
 	para "No sé si podré"
-	line "despertarlo..."
+	line "despertarlo…"
 
 	para "¡Por favor, date"
 	line "prisa y ven a"

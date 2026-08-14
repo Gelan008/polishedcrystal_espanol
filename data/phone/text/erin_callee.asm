@@ -2,7 +2,7 @@ ErinAnswerPhoneText:
 	text "Sí, soy "
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Oh. ¡Hola,"
 	line "<PLAYER>! ¡Buenos"
@@ -13,7 +13,7 @@ ErinAnswerPhoneDayText:
 	text "Sí, soy "
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Oh. ¡Hola,"
 	line "<PLAYER>!"
@@ -24,7 +24,7 @@ ErinAnswerPhoneNiteText:
 	text "Sí, soy "
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Oh. ¡Hola,"
 	line "<PLAYER>!"

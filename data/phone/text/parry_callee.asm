@@ -65,7 +65,7 @@ ParryGenericText:
 	para "Mi "
 	text_ram wStringBuffer4
 	text " y"
-	line "yo... ¡estamos"
+	line "yo… ¡estamos"
 
 	para "superguais!"
 	line "¡Jajajaja!"

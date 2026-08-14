@@ -230,10 +230,10 @@ FastShipB1FSailorBlocksLeftMovement:
 
 
 FastShipB1FOnDutySailorRefusedText:
-	text "Oh, vaya..."
+	text "Oh, vaya…"
 
 	para "El Capitán se va a"
-	line "poner furioso..."
+	line "poner furioso…"
 	done
 
 FastShipB1FOnDutySailorThanksText:
@@ -280,13 +280,13 @@ PicnickerDebraBeatenText:
 	done
 
 JugglerFritzSeenText:
-	text "Urrf..."
+	text "Urrf…"
 	line "¡Estoy mareado!"
 	done
 
 JugglerFritzBeatenText:
 	text "No puedo moverme"
-	line "más..."
+	line "más…"
 	done
 
 BakerSharynSeenText:
@@ -308,7 +308,7 @@ SailorGarrettSeenText:
 
 SailorGarrettBeatenText:
 	text "He perdido en mi"
-	line "propio terreno..."
+	line "propio terreno…"
 	done
 
 FisherJonahSeenText:
@@ -321,8 +321,8 @@ FisherJonahSeenText:
 	done
 
 FisherJonahBeatenText:
-	text "Ya... Ya no me"
-	line "aburro..."
+	text "Ya… Ya no me"
+	line "aburro…"
 	done
 
 BlackbeltWaiSeenText:

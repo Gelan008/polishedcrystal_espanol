@@ -33,7 +33,7 @@ ToddNumberAcceptedText:
 	done
 
 ToddNumberDeclinedText:
-	text "En fin..."
+	text "En fin…"
 
 	para "Si andas corto de"
 	line "dinero, anota mi"

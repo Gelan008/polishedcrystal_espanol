@@ -70,5 +70,5 @@ TullyPackFullText:
 	line "llena?"
 
 	para "Vuelve más tar-"
-	line "de... eso bastará."
+	line "de… eso bastará."
 	done

@@ -60,7 +60,7 @@ CeladonUniversityWillowsOfficeScientistText:
 
 	para "Hoy vi 42"
 	line "Raticate y 37"
-	cont "Pidgeotto..."
+	cont "Pidgeotto…"
 	cont "¡y un Vulpix!"
 	done
 
@@ -70,7 +70,7 @@ CeladonUniversityWillowsOfficeBlackboardText:
 
 	para "una flecha hacia"
 	line "un garabato"
-	cont "ilegible..."
+	cont "ilegible…"
 	done
 
 CeladonUniversityWillowsOfficeBookshelf1Text:

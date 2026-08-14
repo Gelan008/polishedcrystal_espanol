@@ -141,7 +141,7 @@ GameFreakGameDesignerCompletedPokedexText:
 
 GameFreakGameDesignerPauseForDiplomaText:
 	text "Para reconocer tu"
-	line "logro..."
+	line "logro…"
 	cont "¡aquí tienes!"
 
 	para "¡Un reluciente y"

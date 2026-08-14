@@ -32,10 +32,10 @@ BeverlyNumberAcceptedText:
 	done
 
 BeverlyNumberDeclinedText:
-	text "Oh... Qué"
-	line "decepción..."
+	text "Oh… Qué"
+	line "decepción…"
 
-	para "Adiós, Marill..."
+	para "Adiós, Marill…"
 	done
 
 BeverlyPhoneFullText:

@@ -36,7 +36,7 @@ IrwinNumberAcceptedText:
 	done
 
 IrwinNumberDeclinedText:
-	text "Oh, pero..."
+	text "Oh, pero…"
 	line "¡No soy peligroso!"
 
 	para "¡Sólo quiero"

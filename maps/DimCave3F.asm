@@ -100,7 +100,7 @@ GenericTrainerBlackbeltTakeo:
 .BeatenText:
 	text "Está claro que"
 	line "necesito entrenar"
-	cont "más..."
+	cont "más…"
 	done
 
 GenericTrainerHikerFloyd:

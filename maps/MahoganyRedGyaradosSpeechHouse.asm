@@ -34,13 +34,13 @@ MahoganyRedGyaradosSpeechHouseBlackBeltText:
 	line "incluso los ordi-"
 
 	para "narios son raros"
-	line "en ese lago..."
+	line "en ese lago…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
 	text "He estado oyendo"
 	line "risas por la"
 
-	para "radio..."
+	para "radio…"
 	line "Es espeluznante."
 	done

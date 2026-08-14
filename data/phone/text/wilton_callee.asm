@@ -2,7 +2,7 @@ WiltonAnswerPhoneText:
 	text "Hola, estás"
 	line "hablando con "
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah, <PLAYER>."
 	done
@@ -11,7 +11,7 @@ WiltonAnswerPhoneDayText:
 	text "Hola, estás"
 	line "hablando con "
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah, eres <PLAYER>,"
 	line "¿verdad?"
@@ -21,7 +21,7 @@ WiltonAnswerPhoneNiteText:
 	text "Hola, estás"
 	line "hablando con "
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah, si es"
 	line "<PLAYER>."
@@ -30,7 +30,7 @@ WiltonAnswerPhoneNiteText:
 WiltonGreetText:
 	text "Ah, soy "
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¿Tienes un"
 	line "momento?"
@@ -39,7 +39,7 @@ WiltonGreetText:
 WiltonGreetDayText:
 	text "Ah, soy "
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¿Puedes hablar"
 	line "ahora?"
@@ -48,7 +48,7 @@ WiltonGreetDayText:
 WiltonGreetNiteText:
 	text "Ah, soy "
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Perdón por llamar"
 	line "tan tarde."

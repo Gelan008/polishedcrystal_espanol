@@ -117,7 +117,7 @@ CinnabarVolcano1FBuckScript:
 
 .ChallengeText:
 	text "¡Hola! Soy Bulgur."
-	line "Y tú eres..."
+	line "Y tú eres…"
 	cont "¿<PLAYER>?"
 
 	para "No me digas que"
@@ -162,7 +162,7 @@ CinnabarVolcano1FBuckScript:
 
 	para "El tesoro de este"
 	line "volcán no es para"
-	cont "mí..."
+	cont "mí…"
 
 	para "Pero ¡<PLAYER>!"
 	line "¡Eres un entrena-"
@@ -228,5 +228,5 @@ SuperNerdLuisSeenText:
 
 SuperNerdLuisBeatenText:
 	text "Me acabas de"
-	line "enseñar..."
+	line "enseñar…"
 	done

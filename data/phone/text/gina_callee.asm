@@ -2,7 +2,7 @@ GinaAnswerPhoneText:
 	text "¿Hola? Al aparato"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Oh, <PLAYER>!"
 	line "¡Buenos días!"
@@ -12,7 +12,7 @@ GinaAnswerPhoneDayText:
 	text "¿Hola? Al aparato"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Oh, <PLAYER>!"
 	line "Hola, ¿qué tal?"
@@ -22,7 +22,7 @@ GinaAnswerPhoneNiteText:
 	text "¿Hola? Al aparato"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¡Oh, <PLAYER>!"
 	line "¡Buenas noches!"

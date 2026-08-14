@@ -79,7 +79,7 @@ GoldenrodMuseumOfficerText:
 	line "toy bromeando!"
 
 	para "Vigilo a todo el"
-	line "mundo..."
+	line "mundo…"
 	done
 
 
@@ -122,11 +122,11 @@ GoldenrodMuseum1FBigPearlText:
 	done
 
 GoldenrodMuseum1FRocketScoutText1:
-	text "Hmm... Esto"
+	text "Mmm… Esto"
 	line "alcanzaría un pre-"
 	cont "cio bastante alto."
 
-	para "Ahora... ¿cómo lo"
+	para "Ahora… ¿cómo lo"
 	line "saco de aquí"
 
 	para "sin que me"

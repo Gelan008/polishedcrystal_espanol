@@ -1,5 +1,5 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Escucha, cielo..."
+	text "Escucha, cielo…"
 
 	para "¿Te acuerdas de"
 	line "mi "
@@ -45,7 +45,7 @@ ReenaLostAMonText:
 
 	para ""
 	text_ram wStringBuffer4
-	text " salvaje..."
+	text " salvaje…"
 	line "¡Oh! ¡Olvídalo!"
 	done
 
@@ -70,7 +70,7 @@ ReenaForwardText:
 	text "No estés tan orgu-"
 	line "lloso solo por ha-"
 
-	para "berme ganado..."
+	para "berme ganado…"
 
 	para "¡Fue pura suerte!"
 	done

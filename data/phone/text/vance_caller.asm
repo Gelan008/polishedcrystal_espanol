@@ -14,7 +14,7 @@ VanceDefeatedMonText:
 	text_ram wStringBuffer4
 	text "!"
 
-	para "...¿Eh? ¿Tú"
+	para "…¿Eh? ¿Tú"
 	line "también? ¿A que"
 	cont "es genial?"
 	done

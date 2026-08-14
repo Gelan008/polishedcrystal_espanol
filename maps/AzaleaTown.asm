@@ -126,7 +126,7 @@ AzaleaTownRivalBattleTrigger2:
 	end
 
 .SeenText:
-	text "...Dime una cosa."
+	text "…Dime una cosa."
 
 	para "¿Es verdad que el"
 	line "Team Rocket ha"
@@ -313,7 +313,7 @@ AzaleaTownGrampsScript:
 
 	text "Los Slowpoke han"
 	line "desaparecido del"
-	cont "pueblo..."
+	cont "pueblo…"
 
 	para "Dicen que venden"
 	line "sus Colas en al-"
@@ -360,7 +360,7 @@ AzaleaTownTeacherScript:
 
 	para "Mi pobre Wooster"
 	line "no puede vivir en"
-	cont "este clima..."
+	cont "este clima…"
 	done
 
 .Text3:

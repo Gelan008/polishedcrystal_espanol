@@ -26,7 +26,7 @@ CeladonDeptStore5FGentlemanText:
 
 	para "suban las caracte-"
 	line "rísticas, pero no"
-	cont "tengo dinero..."
+	cont "tengo dinero…"
 	done
 
 CeladonDeptStore5FSailorText:
@@ -35,7 +35,7 @@ CeladonDeptStore5FSailorText:
 
 	para "los movimientos."
 	line "Pero no se pueden"
-	cont "comprar..."
+	cont "comprar…"
 	done
 
 CeladonDeptStore5FTeacherText:
@@ -44,7 +44,7 @@ CeladonDeptStore5FTeacherText:
 	cont "a los #mon."
 
 	para "Pero odian ciertos"
-	line "objetos..."
+	line "objetos…"
 	done
 
 CeladonDeptStore5FDirectoryText:

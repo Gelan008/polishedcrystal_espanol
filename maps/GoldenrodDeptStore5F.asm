@@ -97,7 +97,7 @@ GoldenrodDeptStore5FTwinScript:
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
 	text "Hola. Oh, tu"
-	line "#mon..."
+	line "#mon…"
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
@@ -124,7 +124,7 @@ GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
 
 MysteryGiftGirl_NoRoomText:
 	text "Pero no puedes"
-	line "llevarla..."
+	line "llevarla…"
 	done
 
 GoldenrodDeptStore5FLassText:

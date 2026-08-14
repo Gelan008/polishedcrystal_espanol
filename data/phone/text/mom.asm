@@ -9,7 +9,7 @@ MomPhoneLandmarkText:
 	text "Oh, así que estás"
 	line "en "
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "¿No es ahí donde"
 	line "está "
@@ -153,14 +153,14 @@ MomPhoneNoGymQuestText:
 MomPhoneLectureText:
 	text "¿Hola?"
 
-	para "...¿<PLAYER>?"
+	para "…¿<PLAYER>?"
 	line "El Prof. Elm me ha"
 
 	para "dicho que fuiste"
 	line "a un largo viaje."
 
 	para "Ojalá me lo hubie-"
-	line "ras dicho..."
+	line "ras dicho…"
 
 	para "¿Qué hay del di-"
 	line "nero? ¿Lo ahorro?"

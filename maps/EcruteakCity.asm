@@ -62,7 +62,7 @@ EcruteakCityLass2Script:
 	jumpthistextfaceplayer
 
 	text "La torre que solía"
-	line "estar aquí..."
+	line "estar aquí…"
 
 	para "Mi abuela me dijo"
 	line "que solía ser"
@@ -119,7 +119,7 @@ EcruteakCityLass1Text:
 EcruteakCityHexManiacText:
 	text "Los espíritus de"
 	line "#mon rondan"
-	cont "este lugar..."
+	cont "este lugar…"
 	done
 
 EcruteakCitySightseerMText:
@@ -169,7 +169,7 @@ EcruteakCityYoungsterText:
 
 EcruteakCityGramps3Text:
 	text "En el pasado"
-	line "distante..."
+	line "distante…"
 
 	para "Esta torre ardió"
 	line "en un incendio."
@@ -183,7 +183,7 @@ EcruteakCityGramps3Text:
 	cont "descendió"
 
 	para "del cielo y los"
-	line "resucitó..."
+	line "resucitó…"
 
 	para "Es una leyenda que"
 	line "se ha transmitido"

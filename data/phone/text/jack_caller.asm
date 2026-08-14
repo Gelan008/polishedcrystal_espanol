@@ -36,7 +36,7 @@ JackLostAMonText:
 	line "más informado, se-"
 
 	para "guro que lo habría"
-	line "atrapado..."
+	line "atrapado…"
 	done
 
 JackBattleRematchText:
@@ -68,7 +68,7 @@ JackThunderTriviaText:
 	done
 
 JackRolloutTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Si usas Rizo De-"
 	line "fensa, Desenrollar"
@@ -79,7 +79,7 @@ JackRolloutTriviaText:
 	done
 
 JackSolarbeamTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Si el sol brilla"
 	line "fuerte, Rayo Solar"
@@ -89,7 +89,7 @@ JackSolarbeamTriviaText:
 	done
 
 JackStompTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Si tu rival usa"
 	line "Reducción,"
@@ -99,7 +99,7 @@ JackStompTriviaText:
 	done
 
 JackGustTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Si tu rival usa"
 	line "Vuelo, tu Tornado"
@@ -109,7 +109,7 @@ JackGustTriviaText:
 	done
 
 JackKnockOffTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Si tu rival lleva"
 	line "un objeto que tu"
@@ -122,7 +122,7 @@ JackKnockOffTriviaText:
 	done
 
 JackEarthquakeTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Si el rival usa"
 	line "Excavar, tu"
@@ -132,7 +132,7 @@ JackEarthquakeTriviaText:
 	done
 
 JackMagnitudeTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Si el rival usa"
 	line "Excavar, tu"
@@ -142,7 +142,7 @@ JackMagnitudeTriviaText:
 	done
 
 JackSandstormTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "A los tipos Roca,"
 	line "Tierra y Acero"
@@ -152,7 +152,7 @@ JackSandstormTriviaText:
 	done
 
 JackSunnyDayTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Si el sol brilla"
 	line "fuerte, los movi-"
@@ -162,7 +162,7 @@ JackSunnyDayTriviaText:
 	done
 
 JackRainDanceTriviaText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 
 	para "Cuando llueve,"
 	line "los movimientos de"

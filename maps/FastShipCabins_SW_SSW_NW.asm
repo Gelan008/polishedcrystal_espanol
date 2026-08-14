@@ -87,7 +87,7 @@ GuitaristmClydeScript:
 
 	text "Iba a hacer mi de-"
 	line "but en la Torre"
-	cont "Batalla..."
+	cont "Batalla…"
 
 	para "Debería volver a"
 	line "Carmín y repetir"
@@ -136,8 +136,8 @@ FirebreatherLyleSeenText:
 	done
 
 FirebreatherLyleBeatenText:
-	text "Puf... La llama"
-	line "es enana..."
+	text "Puf… La llama"
+	line "es enana…"
 	done
 
 Bug_catcherKenSeenText:
@@ -194,7 +194,7 @@ GuitaristmClydeBeatenText:
 
 FastShipBedText1:
 	text "¡Una cama cómoda!"
-	line "Hora de dormir..."
+	line "Hora de dormir…"
 	done
 
 FastShipBedText2:

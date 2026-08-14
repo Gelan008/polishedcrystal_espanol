@@ -182,8 +182,8 @@ UndergroundRivalBattleScript2:
 	playmusic MUSIC_RIVAL_AFTER
 	jumpthistext
 
-	text "...No lo en-"
-	line "tiendo..."
+	text "…No lo en-"
+	line "tiendo…"
 
 	para "¿Es cierto lo que"
 	line "dijo ese tal"
@@ -193,9 +193,9 @@ UndergroundRivalBattleScript2:
 	line "los #mon de"
 	cont "forma adecuada?"
 
-	para "Amor..."
+	para "Amor…"
 
-	para "Confianza..."
+	para "Confianza…"
 
 	para "¿De verdad es eso"
 	line "lo que me falta?"
@@ -204,7 +204,7 @@ UndergroundRivalBattleScript2:
 	line "me impiden"
 	cont "ganar?"
 
-	para "Yo... Yo sigo sin"
+	para "Yo… Yo sigo sin"
 	line "entenderlo."
 
 	para "Pero esto no va"
@@ -225,12 +225,12 @@ GenericTrainerGruntM11:
 	generictrainer GRUNTM, 11, EVENT_BEAT_ROCKET_GRUNTM_11, GruntM11SeenText, GruntM11BeatenText
 
 	text "Yo también estoy"
-	line "confundido..."
+	line "confundido…"
 	cont "El interruptor"
 
 	para "verde se debe"
 	line "pulsar el último,"
-	cont "pero..."
+	cont "pero…"
 	done
 
 GenericTrainerGruntM25:
@@ -358,7 +358,7 @@ UndergroundRivalBeforeText:
 	para "me encargo del"
 	line "Team Rocket."
 
-	para "...Un momento."
+	para "…Un momento."
 	line "Tú ya me has"
 	cont "ganado antes,"
 	cont "¿verdad?"
@@ -371,7 +371,7 @@ UndergroundRivalBeforeText:
 	done
 
 UndergroundRivalWinText:
-	text "...Por qué..."
+	text "…Por qué…"
 	line "¿Por qué pierdo?"
 
 	para "He reunido a los"
@@ -426,7 +426,7 @@ GruntM25SeenText:
 	done
 
 GruntM25BeatenText:
-	text "Ayyy..."
+	text "Ayyy…"
 	line "Lo estropeé."
 	done
 

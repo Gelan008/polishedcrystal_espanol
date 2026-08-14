@@ -26,17 +26,18 @@ OlivineLighthouse4F_MapScriptHeader:
 GenericTrainerLassConnie:
 	generictrainer LASS, CONNIE, EVENT_BEAT_LASS_CONNIE, LassConnieSeenText, LassConnieBeatenText
 
-	text "Right. Anybody"
-	line "would be worried"
+	text "Claro. Cualquiera"
+	line "se preocuparía si"
 
-	para "if their own #-"
-	line "mon were hurt."
+	para "su propio #mon"
+	line "estuviera herido."
 
-	para "I'll pray for the"
-	line "#mon here, so"
+	para "Rezaré por el"
+	line "#mon de aquí"
 
-	para "Yasmina can come"
-	line "back to the Gym."
+	para "para que Yasmina"
+	line "pueda volver al"
+	cont "Gimnasio."
 	done
 
 TrainerSailorKent:
@@ -48,47 +49,55 @@ SailorKentScript:
 	iftrue_jumptextfaceplayer SailorKentFinalText
 	jumpthistextfaceplayer
 
-	text "Speaking of sick,"
-	line "I've heard there's"
+	text "Hablando de enfer-"
+	line "medades, he oído"
 
-	para "a good Pharmacy in"
-	line "Cianwood."
+	para "que hay una buena"
+	line "Farmacia en Ciu-"
+	cont "dad Orquídea."
 	done
 
 SailorKentSeenText:
-	text "Yasmina must be"
-	line "worried sick about"
-	cont "the #mon here."
+	text "Yasmina debe de"
+	line "estar sumamente"
 
-	para "She won't even"
-	line "smile these days."
+	para "preocupada por el"
+	line "#mon de aquí."
+
+	para "Últimamente ni"
+	line "siquiera sonríe."
 	done
 
 SailorKentBeatenText:
-	text "I can't manage a"
-	line "smile either…"
+	text "A mí tampoco me"
+	line "sale sonreír…"
 	done
 
 SailorKentFinalText:
-	text "The #mon here"
-	line "is well again."
+	text "El #mon de aquí"
+	line "ya está bien."
 
-	para "Cianwood Pharmacy"
-	line "lived up to its"
-	cont "reputation!"
+	para "¡La Farmacia de"
+	line "Ciudad Orquídea ha"
+
+	para "hecho honor a su"
+	line "fama!"
 	done
 
 LassConnieSeenText:
-	text "Yasmina is this"
-	line "city's Gym Leader."
+	text "Yasmina es la"
+	line "Líder de Gimnasio"
+	cont "de esta ciudad."
 
-	para "I mean to bring"
-	line "her back with me."
+	para "Pienso hacer que"
+	line "vuelva conmigo."
 
-	para "Nobody had better"
-	line "get in my way!"
+	para "¡Será mejor que"
+	line "nadie se interpón-"
+	cont "ga en mi camino!"
 	done
 
 LassConnieBeatenText:
-	text "Aaack! My #mon!"
+	text "¡Aaaay! ¡Mis"
+	line "#mon!"
 	done

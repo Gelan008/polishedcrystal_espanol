@@ -31,7 +31,7 @@ GoldenrodMagnetTrainStationOfficerScript:
 	jumpthisopenedtext
 
 	text "El tren no ha"
-	line "llegado..."
+	line "llegado…"
 
 	para "¡Ya sé! ¡Llevaré"
 	line "a los pasajeros"
@@ -77,7 +77,7 @@ GoldenrodMagnetTrainStationCooltrainerfScript:
 	cont "¡Zuum, fiun, shuu!"
 
 	para "Al menos cuando"
-	line "funciona..."
+	line "funciona…"
 	done
 
 .PowerRestored

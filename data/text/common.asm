@@ -172,10 +172,10 @@ _CameToItsSensesText::
 
 SECTION "_OakTimeWokeUpText", ROMX
 _OakTimeWokeUpText::
-	text "………………………………"
-	line "………………………………"
+	text "… … … …"
+	line "… … … …"
 
-	para "Zzz... ¿Mmm? ¿Eh?"
+	para "Zzz… ¿Mmm? ¿Eh?"
 	line "¡Me has"
 	cont "despertado!"
 
@@ -768,12 +768,12 @@ _LC_Text11::
 
 SECTION "_LC_DragText1", ROMX
 _LC_DragText1::
-	line "...Repetirme tanto"
+	line "…Repetirme tanto"
 	done
 
 SECTION "_LC_DragText2", ROMX
 _LC_DragText2::
-	line "es un fastidio..."
+	line "es un fastidio…"
 	done
 
 ; Places and People
@@ -889,7 +889,7 @@ _PnP_Text5::
 
 SECTION "_RocketRadioText1", ROMX
 _RocketRadioText1::
-	line "...Ejem, ¡somos el"
+	line "…Ejem, ¡somos el"
 	done
 
 SECTION "_RocketRadioText2", ROMX
@@ -957,7 +957,7 @@ _BuenaRadioText2::
 
 SECTION "_BuenaRadioText3", ROMX
 _BuenaRadioText3::
-	line "Déjame pensar..."
+	line "Déjame pensar…"
 	done
 
 SECTION "_BuenaRadioText4", ROMX
@@ -984,7 +984,7 @@ _BuenaRadioText7::
 
 SECTION "_BuenaRadioMidnightText1", ROMX
 _BuenaRadioMidnightText1::
-	line "Buena: Vaya..."
+	line "Buena: Vaya…"
 	done
 
 SECTION "_BuenaRadioMidnightText2", ROMX
@@ -1029,7 +1029,7 @@ _BuenaRadioMidnightText9::
 
 SECTION "_BuenaRadioMidnightText10", ROMX
 _BuenaRadioMidnightText10::
-	text "..."
+	text "…"
 	done
 
 SECTION "_BuenaOffTheAirText", ROMX
@@ -1104,7 +1104,7 @@ _JustSawSomeRareMonText::
 
 SECTION "_SavingRecordText", ROMX
 _SavingRecordText::
-	text "Guardando..."
+	text "Guardando…"
 	line "¡No apagar!"
 	done
 
@@ -1160,7 +1160,7 @@ _NPCTradeIntroText1::
 SECTION "_NPCTradeCancelText1", ROMX
 _NPCTradeCancelText1::
 	text "¿No quieres hacer"
-	line "el cambio? Oh..."
+	line "el cambio? Oh…"
 	done
 
 SECTION "_NPCTradeWrongText1", ROMX
@@ -1169,7 +1169,7 @@ _NPCTradeWrongText1::
 	line ""
 	text_ram wStringBuffer1
 	text "."
-	cont "Qué decepción..."
+	cont "Qué decepción…"
 	done
 
 SECTION "_NPCTradeCompleteText1", ROMX
@@ -1212,7 +1212,7 @@ _NPCTradeCancelText2::
 	line "uno?"
 
 	para "Vaya, qué decep-"
-	line "ción..."
+	line "ción…"
 	done
 
 SECTION "_NPCTradeWrongText2", ROMX
@@ -1263,7 +1263,7 @@ _NPCTradeIntroText3::
 SECTION "_NPCTradeCancelText3", ROMX
 _NPCTradeCancelText3::
 	text "¿No quieres"
-	line "cambiar? Vaya..."
+	line "cambiar? Vaya…"
 	done
 
 SECTION "_NPCTradeWrongText3", ROMX
@@ -1308,7 +1308,7 @@ _NPCTradeCompleteText4::
 SECTION "_NPCTradeAfterText4", ROMX
 _NPCTradeAfterText4::
 	text "Intercambiar es"
-	line "tan raro..."
+	line "tan raro…"
 
 	para "Aún tengo mucho"
 	line "que aprender."
@@ -1322,10 +1322,10 @@ _MomLeavingText1::
 	para "¿De dónde lo"
 	line "sacaste?"
 
-	para "..."
+	para "…"
 
 	para "Así que te vas de"
-	line "aventura..."
+	line "aventura…"
 
 	para "¡Vale!"
 	line "Yo también te"
@@ -1349,7 +1349,7 @@ _MomLeavingText2::
 	text "Vale, cuidaré de"
 	line "tu dinero."
 
-	para "............"
+	para "………"
 	prompt
 
 SECTION "_MomLeavingText3", ROMX
@@ -1628,7 +1628,7 @@ _ComeAgainText::
 
 SECTION "_NotYetText", ROMX
 _NotYetText::
-	text "Aún no..."
+	text "Aún no…"
 	done
 
 SECTION "_FoundAnEggAgainText", ROMX
@@ -1646,7 +1646,7 @@ _FoundAnEggText::
 	text "¡Ah, eres tú!"
 
 	para "Cuidábamos de"
-	line "tu #mon, y..."
+	line "tu #mon, y…"
 
 	para "¡madre mía, qué"
 	line "sorpresa!"
@@ -1711,9 +1711,9 @@ _NameRaterWhichMonText::
 
 SECTION "_NameRaterBetterNameText", ROMX
 _NameRaterBetterNameText::
-	text "Mmm... "
+	text "Mmm… "
 	text_ram wStringBuffer1
-	text "..."
+	text "…"
 	line "Es un buen mote."
 
 	para "Pero, ¿qué te pa-"
@@ -1746,7 +1746,7 @@ _NameRaterComeAgainText::
 
 SECTION "_NameRaterPerfectNameText", ROMX
 _NameRaterPerfectNameText::
-	text "Mmm... ¿"
+	text "Mmm… ¿"
 	text_ram wStringBuffer1
 	text "?"
 	line "¡Qué gran mote!"
@@ -1759,7 +1759,7 @@ _NameRaterPerfectNameText::
 
 SECTION "_NameRaterEggText", ROMX
 _NameRaterEggText::
-	text "Vaya... Eso solo"
+	text "Vaya… Eso solo"
 	line "es un Huevo."
 	done
 
@@ -2086,7 +2086,7 @@ _UseHeadbuttText::
 
 SECTION "_HeadbuttNothingText", ROMX
 _HeadbuttNothingText::
-	text "No. Nada..."
+	text "No. Nada…"
 	done
 
 SECTION "_AskHeadbuttText", ROMX
@@ -2287,7 +2287,7 @@ endc
 SECTION "_SweetHoneyNothingText", ROMX
 _SweetHoneyNothingText::
 	text "Parece que no hay"
-	line "nada aquí..."
+	line "nada aquí…"
 	done
 
 SECTION "_SquirtbottleNothingText", ROMX
@@ -2295,7 +2295,7 @@ _SquirtbottleNothingText::
 	text "<PLAYER> echó agua"
 
 	para "Pero no pasó"
-	line "nada..."
+	line "nada…"
 	done
 
 SECTION "_UseSacredAshText", ROMX
@@ -2573,7 +2573,7 @@ ContestJudging_FirstPlaceText::
 	text "Y el ganador del"
 	line "Concurso es"
 	text_pause
-	text "..."
+	text "…"
 
 	para "¡"
 	text_ram wBugContestWinnerName
@@ -2638,7 +2638,7 @@ _MagikarpGuruMeasureText::
 	text "Déjame medir ese"
 	line "Magikarp."
 
-	para "... Mmm, mide"
+	para "… Mmm, mide"
 	line ""
 	text_ram wStringBuffer1
 	text "."
@@ -3401,7 +3401,7 @@ SECTION "_PocketIsFullText", ROMX
 _PocketIsFullText::
 	text "El "
 	text_ram wStringBuffer3
-	line "está lleno..."
+	line "está lleno…"
 	prompt
 
 SECTION "_FoundWingsText", ROMX
@@ -3744,8 +3744,8 @@ _SlotsNotEnoughCoinsText::
 
 SECTION "_SlotsRanOutOfCoinsText", ROMX
 _SlotsRanOutOfCoinsText::
-	text "Vaya... No quedan"
-	line "fichas..."
+	text "Vaya… No quedan"
+	line "fichas…"
 	done
 
 SECTION "_SlotsPlayAgainText", ROMX
@@ -3779,7 +3779,7 @@ _PhoneClickText::
 
 SECTION "_PhoneEllipseText", ROMX
 _PhoneEllipseText::
-	text "......"
+	text "……"
 	done
 
 SECTION "_PhoneOutOfAreaText", ROMX
@@ -3870,7 +3870,7 @@ _AskForgetMoveText::
 
 SECTION "Text_MoveForgetCount", ROMX
 Text_MoveForgetCount::
-	text "1, 2 y..."
+	text "1, 2 y…"
 	text_pause
 	text_end
 
@@ -3903,7 +3903,7 @@ _CardFlipPlayWithThreeCoinsText::
 
 SECTION "_CardFlipNotEnoughCoinsText", ROMX
 _CardFlipNotEnoughCoinsText::
-	text "Faltan fichas..."
+	text "Faltan fichas…"
 	prompt
 
 SECTION "_CardFlipChooseACardText", ROMX
@@ -3935,7 +3935,7 @@ _CardFlipYeahText::
 
 SECTION "_CardFlipDarnText", ROMX
 _CardFlipDarnText::
-	text "Vaya..."
+	text "Vaya…"
 	done
 
 SECTION "_GearTodayText", ROMX
@@ -4180,7 +4180,7 @@ _PPRestoredText::
 
 SECTION "_ItemLooksBitterText", ROMX
 _ItemLooksBitterText::
-	text "Parece amargo..."
+	text "Parece amargo…"
 	prompt
 
 SECTION "_ItemCantUseOnEggText", ROMX
@@ -4296,7 +4296,7 @@ _DeleterAskWhichMoveText::
 
 SECTION "_DeleterIntroText", ROMX
 _DeleterIntroText::
-	text "Eh... Ah, sí, soy"
+	text "Eh… Ah, sí, soy"
 	line "el Quita-movimien-"
 	cont "tos."
 
@@ -4422,7 +4422,7 @@ WonderTradeConfirmText::
 SECTION "WonderTradeSetupText", ROMX
 WonderTradeSetupText::
 	text "Buscando a un com-"
-	line "pañero..."
+	line "pañero…"
 	prompt
 
 SECTION "WonderTradeReadyText", ROMX

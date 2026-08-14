@@ -50,7 +50,7 @@ CinnabarIslandBlue:
 	line "Medallas de Kanto"
 	cont "tienes."
 
-	para "Menos de siete..."
+	para "Menos de siete…"
 	line "No estás pre-"
 	cont "parado."
 	done
@@ -71,7 +71,7 @@ CinnabarIslandBlueText:
 if !DEF(DEBUG)
 	para "Bueno, está claro"
 	line "que eres"
-	cont "entrenador..."
+	cont "entrenador…"
 
 	para "Me llamo Azul."
 
@@ -79,10 +79,10 @@ if !DEF(DEBUG)
 	line "vez, aunque solo"
 
 	para "fuera por poco"
-	line "tiempo..."
+	line "tiempo…"
 
 	para "El entrometido de"
-	line "Rojo me venció..."
+	line "Rojo me venció…"
 
 	para "Como sea, ¿qué"
 	line "quieres? ¿Quieres"
@@ -90,7 +90,7 @@ if !DEF(DEBUG)
 	para "desafiarme o"
 	line "algo así?"
 
-	para "... Odio decirlo,"
+	para "… Odio decirlo,"
 	line "pero ahora no"
 
 	para "tengo ganas de"
@@ -98,7 +98,7 @@ if !DEF(DEBUG)
 
 	para "Echa un buen vis-"
 	line "tazo a tu"
-	cont "alrededor..."
+	cont "alrededor…"
 
 	para "Un volcán entra en"
 	line "erupción, y así,"
@@ -116,10 +116,10 @@ if !DEF(DEBUG)
 	para "podemos perderlo"
 	line "todo en un segundo"
 
-	para "..."
+	para "…"
 
 	para "Así son las"
-	line "cosas..."
+	line "cosas…"
 
 	para "Pero bueno, sigo"
 	line "siendo entrenador."
@@ -146,7 +146,7 @@ CinnabarIslandBlueReadyText:
 
 CinnabarIslandGymSignText:
 	text "Hay un aviso"
-	line "aquí..."
+	line "aquí…"
 
 	para "“El Gimnasio"
 	line "Canela se ha tras-"

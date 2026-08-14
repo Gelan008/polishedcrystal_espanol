@@ -138,7 +138,7 @@ GenericTrainerArtistAlina:
 	done
 
 .BeatenText:
-	text "Mi suerte acabó..."
+	text "Mi suerte acabó…"
 	done
 
 GenericTrainerSightseersLiandsu1:

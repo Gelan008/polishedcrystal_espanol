@@ -29,7 +29,7 @@ EcruteakMartSuperNerdText:
 
 	para "criando a nuestro"
 	line "Eevee de la misma"
-	cont "manera..."
+	cont "manera…"
 	done
 
 EcruteakMartGrannyText:

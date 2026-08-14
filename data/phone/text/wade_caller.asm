@@ -45,7 +45,7 @@ WadeLostAMonText:
 	line "timo segundo."
 
 	para "Sé que es muy"
-	line "común..."
+	line "común…"
 
 	para "Pero me fastidia"
 	line "que escapara cuan-"

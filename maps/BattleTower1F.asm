@@ -329,7 +329,7 @@ BattleTowerTutorTrickScript:
 		text "Enseñaré a tu"
 		line "#mon a usar"
 
-		para "Truco... por una"
+		para "Truco… por una"
 		line "Hoja Plata."
 		done
 	waitbutton
@@ -355,7 +355,7 @@ BattleTowerTutorTrickScript:
 	jumpthisopenedtext
 		text "Tsk. No tienes"
 		line "ninguna Hoja"
-		cont "Plata..."
+		cont "Plata…"
 		done
 
 .TeachMove
@@ -398,7 +398,7 @@ Text_BattleTowerBugCatcher:
 	line "#mon bicho."
 
 	para "Espero que no haya"
-	line "#mon de fuego..."
+	line "#mon de fuego…"
 	done
 
 PokemonJournalPalmerScript:
@@ -407,7 +407,7 @@ PokemonJournalPalmerScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial"
+	para "Edición especial:"
 	line "¡Amo Torre"
 	cont "Jericor!"
 

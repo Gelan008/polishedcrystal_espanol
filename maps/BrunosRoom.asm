@@ -116,7 +116,7 @@ BrunoScript:
 .AfterText:
 	text "Habiendo perdido,"
 	line "no tengo derecho a"
-	cont "decir nada..."
+	cont "decir nada…"
 
 	para "¡Ve a por tu"
 	line "próximo desafío!"

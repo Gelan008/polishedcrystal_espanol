@@ -26,7 +26,7 @@ PokemonJournalErikaScript:
 
 	text "Revista #mon"
 
-	para "Reportaje Especial"
+	para "Edición Especial:"
 	line "¡Líder Erika!"
 
 	para "Se rumorea que"

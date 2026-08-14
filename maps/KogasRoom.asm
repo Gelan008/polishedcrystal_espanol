@@ -92,7 +92,7 @@ KogaScript:
 	cont "truirá!"
 
 	para "Confusión, sueño,"
-	line "veneno..."
+	line "veneno…"
 
 	para "¡Prepárate para"
 	line "ser víctima de mi"
@@ -103,7 +103,7 @@ KogaScript:
 	para "Los #mon no se"
 	line "basan en la"
 
-	para "fuerza bruta..."
+	para "fuerza bruta…"
 	line "¡Pronto lo verás!"
 	done
 

@@ -54,7 +54,7 @@ BattleTower2FCherylScript:
 		line "<PLAYER>."
 
 		para "Ha pasado mucho"
-		line "tiempo... ¿Verdad?"
+		line "tiempo… ¿Verdad?"
 
 		para "¿Te apetecería"
 		line "echar un combate"
@@ -105,14 +105,14 @@ BattleTower2FCherylScript:
 	text "Lograr el equili-"
 	line "brio adecuado"
 	cont "entre el ataque"
-	cont "y la defensa..."
+	cont "y la defensa…"
 
 	para "No es nada"
 	line "fácil."
 	done
 
 .RefuseText:
-	text "Jeje..."
+	text "Jeje…"
 
 	para "Los #mon acaba-"
 	line "rían agotados si"
@@ -131,7 +131,7 @@ BattleTower2FRileyScript:
 		text "Hola. Cuánto tiem-"
 		line "po sin vernos."
 
-		para "Esa mirada tuya..."
+		para "Esa mirada tuya…"
 		line "Supongo que estás"
 
 		para "¿listo para un"
@@ -162,10 +162,10 @@ BattleTower2FRileyScript:
 .AfterText:
 	text "Si no hubiera es-"
 	line "tado en la Cueva"
-	cont "Oscura entonces..."
+	cont "Oscura entonces…"
 
 	para "Si tú no hubieras"
-	line "estado allí..."
+	line "estado allí…"
 
 	para "Quizá nunca nos"
 	line "habríamos conoci-"
@@ -256,14 +256,14 @@ BattleTower2FMarleyScript:
 	faceplayer
 	opentext
 	writethistext
-		text "...¿Oh? ¿Un com-"
+		text "…¿Oh? ¿Un com-"
 		line "bate? ¿Conmigo?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_MARLEY_DONE_TODAY
 	writethistext
-		text "...Vale. Yo..."
+		text "…Vale. Yo…"
 		line "¡no perderé...!"
 		done
 	waitbutton
@@ -287,20 +287,20 @@ BattleTower2FMarleyScript:
 	jumpthistext
 
 .AfterText:
-	text "...Puede que me"
+	text "…Puede que me"
 	line "guste combatir"
 	cont "contigo."
 
-	para "...Solo un poco."
+	para "…Solo un poco."
 	line "Solo un poquitín."
 	done
 
 .BeatenText:
-	text "...Ohhh."
+	text "…Ohhh."
 	done
 
 .RefuseText:
-	text "...Oh, vaya. Estás"
+	text "…Oh, vaya. Estás"
 	line "empezando a cae-"
 	cont "rme un poco mal."
 	done
@@ -365,7 +365,7 @@ BattleTower2FMiraScript:
 
 .RefuseText:
 	text "Mira está un po-"
-	line "co triste..."
+	line "co triste…"
 	done
 
 BattleTower2FAnabelScript:
@@ -375,11 +375,11 @@ BattleTower2FAnabelScript:
 	opentext
 	writethistext
 		text "De verdad viniste"
-		line "a verme..."
+		line "a verme…"
 
 		para "No tendré que con-"
 		line "tenerme conti-"
-		cont "go..."
+		cont "go…"
 
 		para "¿Estás listo?"
 		done
@@ -401,22 +401,22 @@ BattleTower2FAnabelScript:
 
 .AfterText:
 	text "Eso fue diverti-"
-	line "do..."
+	line "do…"
 
 	para "Nunca antes había"
 	line "tenido un comba-"
 
 	para "te #mon tan"
-	line "agradable..."
+	line "agradable…"
 	done
 
 .BeatenText:
-	text "Gracias..."
+	text "Gracias…"
 	done
 
 .RefuseText:
 	text "Es muy decep-"
-	line "cionante..."
+	line "cionante…"
 	done
 
 BattleTower2FCooltrainermText:
@@ -458,7 +458,7 @@ BattleTower2FSuperNerdText:
 	cont "nos rodean pare-"
 	cont "cen patéticos!"
 
-	para "...En realidad,"
+	para "…En realidad,"
 	line "¡pensar así hace"
 	cont "que pierdas de"
 	cont "un golpe!"

@@ -119,18 +119,21 @@ MystriStageBeatCynthiaScript:
 	pause 40
 	jumpthistextfaceplayer
 
-	text "Cynthia: Could it"
-	line "be… an Egg?"
+	text "Cintia: ¿Podría"
+	line "ser… un Huevo?"
 
-	para "Did we just"
-	line "witness the very"
+	para "¿Acabamos de"
+	line "presenciar el"
 
-	para "moment an Egg was"
-	line "brought to this"
-	cont "world?"
+	para "preciso instante"
+	line "en que un Huevo ha"
 
-	para "A moment no one"
-	line "has ever seen?"
+	para "llegado a este"
+	line "mundo?"
+
+	para "¿Un momento que"
+	line "nadie ha visto"
+	cont "jamás?"
 	done
 
 MystriStageEggScript:
@@ -152,178 +155,181 @@ MystriStageEggScript:
 	waitendtext
 
 MystriStageCynthiaIntroText:
-	text "My name is"
-	line "Cynthia. I am a"
-	cont "#mon trainer."
+	text "Me llamo Cintia."
+	line "Soy una entrena-"
+	cont "dora #mon."
 
-	para "And you are?"
+	para "¿Y tú quién eres?"
 
-	para "…I see. The power"
-	line "of the Unown"
-	cont "brought you here."
+	para "… Ya veo. El poder"
+	line "de los Unown te ha"
+	cont "traído hasta aquí."
 	done
 
 MystriStageCynthiaSpeechText:
-	text "Cynthia: These are"
-	line "the Sinjoh Ruins."
+	text "Cintia: Estas son"
+	line "las Ruinas Sinjoh."
 
-	para "A long time ago…"
-	line "people came from"
+	para "Hace mucho tiempo…"
+	line "la gente vino a"
 
-	para "Sinnoh, my home"
-	line "region, to live"
-	cont "here."
+	para "vivir aquí desde"
+	line "Sinnoh, mi tierra"
+	cont "natal."
 
-	para "They must have"
-	line "longed for home,"
+	para "Debieron de sentir"
+	line "nostalgia de su"
 
-	para "and built this"
-	line "temple to honor"
-	cont "their traditions."
+	para "hogar y alzaron"
+	line "este templo en ho-"
+	cont "nor a sus raíces."
 
-	para "We are standing on"
-	line "the Mystri Stage."
+	para "Nos encontramos en"
+	line "el Estrado Mistrío."
 
-	para "People once cele-"
-	line "brated here with"
-	cont "music and dance."
+	para "Antaño se celebra-"
+	line "ba aquí con música"
+	cont "y bailes."
 
-	para "Cynthia: I study"
-	line "myths about"
+	para "Cintia: Estudio"
+	line "los mitos sobre"
 
-	para "ancient sites like"
-	line "the Sinjoh Ruins."
+	para "lugares antiguos"
+	line "como estas ruinas."
 
-	para "One claims that"
-	line "this stage is"
+	para "Uno dice que este"
+	line "estrado alberga el"
+	cont "poder del creador."
 
-	para "imbued with the"
-	line "power of creation."
+	para "Habla de cuando"
+	line "“el líder suba"
 
-	para "It speaks of when"
-	line "“the lead enters"
-
-	para "the Mystri Stage"
-	line "at last…”"
+	para "al fin al Estrado"
+	line "Mistrío…”"
 	done
 
 MystriStageCynthiaLeadText2:
-	text "Cynthia: What?"
-	line "You read that"
+	text "Cintia: ¿Qué?"
+	line "¿Leíste esa frase"
 
-	para "phrase in the"
-	line "Ruins of Alph?"
+	para "en las Ruinas"
+	line "Alfa?"
 
-	para "That is very"
-	line "intriguing."
+	para "Es de lo más"
+	line "intrigante."
 
-	para "Could “the lead”"
-	line "be a #mon?"
-	cont "Or a person?"
+	para "¿Podría ser ese"
+	line "líder un #mon?"
+	cont "¿O una persona?"
 	done
 
 MystriStageCynthiaIdeaText:
-	text "Cynthia: …I have"
-	line "an idea. Call it"
+	text "Cintia: … Tengo"
+	line "una idea. Llámalo"
 
-	para "a trainer's"
-	line "intuition."
+	para "intuición de"
+	line "entrenadora."
 
-	para "When you and I"
-	line "battle on this"
+	para "Si combatimos tú"
+	line "y yo en este"
 
-	para "stage, something"
-	line "will happen."
+	para "estrado, ocurrirá"
+	line "algo."
 	done
 
 MystriStageCynthiaNotNowText:
-	text "Cynthia: But I"
-	line "don't think we"
+	text "Cintia: Pero no"
+	line "creo que debamos"
+	cont "luchar ahora."
 
-	para "should battle now."
-	line "You aren't ready."
+	para "Aún no estás a"
+	line "punto."
 
-	para "Come back when"
-	line "you've beaten the"
-	cont "Elite Four."
+	para "Vuelve cuando"
+	line "hayas vencido al"
+	cont "Alto Mando."
 	done
 
 MystriStageCynthiaChallengeText:
-	text "Cynthia: Are you"
-	line "prepared to be my"
-	cont "opponent?"
+	text "Cintia: ¿Te has"
+	line "preparado para ser"
+	cont "mi rival?"
 	done
 
 MystriStageCynthiaNoText:
-	text "Cynthia: Come back"
-	line "when you're ready."
+	text "Cintia: Vuelve"
+	line "cuando estés a"
+	cont "punto."
 	done
 
 MystriStageCynthiaYesText:
-	text "Cynthia: Before"
-	line "I send out my"
+	text "Cintia: Antes de"
+	line "sacar a mis"
 	cont "#mon,"
 
-	para "my heart always"
-	line "begins to race…"
+	para "el corazón siempre"
+	line "me late con"
+	cont "fuerza…"
 	done
 
 MystriStageCynthiaWinText:
-	text "I can't remember"
-	line "the last time I"
-
-	para "was outclassed"
-	line "like this!"
+	text "¡Hacía mucho que"
+	line "no me superaban de"
+	cont "esta forma!"
 	done
 
 MystriStageCynthiaItemText:
-	text "Cynthia: That was"
-	line "beyond my expec-"
-	cont "tation!"
+	text "Cintia: ¡Has supe-"
+	line "rado mis expec-"
+	cont "tativas!"
 
-	para "What an excep-"
-	line "tional battle!"
+	para "¡Qué combate tan"
+	line "excepcional!"
 
-	para "Please take this"
-	line "item. I believe"
+	para "Por favor, toma"
+	line "este objeto. Sé"
 
-	para "you will know how"
-	line "to use it well."
+	para "que sabrás usarlo"
+	line "bien."
 	done
 
 MystriStageCynthiaAfterText:
-	text "Cynthia: But did"
-	line "our battle affect"
-	cont "the Mystri Stage?"
+	text "Cintia: ¿Habrá"
+	line "afectado el"
+
+	para "combate al"
+	line "Estrado Mistrío?"
 	done
 
-
 MystriStageCynthiaFinalText:
-	text "Cynthia: An Egg"
-	line "is the cradle of"
-	cont "every being."
+	text "Cintia: Un Huevo"
+	line "es la cuna de"
+	cont "todo ser."
 
-	para "The planet itself"
-	line "is an Egg in a"
-	cont "sense…"
+	para "El propio planeta"
+	line "es un Huevo en"
+	cont "cierto sentido…"
 
-	para "Life that comes"
-	line "from an Egg will"
-	cont "come to an end in"
+	para "La vida que nace"
+	line "de un Huevo llega"
 
-	para "due course… to"
-	line "begin anew…"
+	para "a su fin a su"
+	line "debido tiempo…"
+
+	para "para renacer de"
+	line "nuevo…"
 	done
 
 MystriStageEggText:
-	text "<PLAYER> found"
-	line "a mysterious Egg!"
+	text "¡<PLAYER> halló"
+	line "un misterioso"
+	cont "Huevo!"
 	done
 
 MystriStageNoRoomText:
-	text "You don't have"
-	line "room for this,"
-	cont "even in your Box!"
+	text "¡No tienes sitio"
+	line "para esto, ni en"
+	cont "la Caja!"
 	done
 
 MystriStageMovementData_CynthiaStepsUp:

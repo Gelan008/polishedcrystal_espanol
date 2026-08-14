@@ -165,7 +165,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 	para "Sin duda ganaré"
 	line "una condecoración"
-	cont "dentro de poco..."
+	cont "dentro de poco…"
 	done
 
 .QuestionText:
@@ -286,7 +286,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .PartyAndBoxFullText:
 	text "¡Oh no! Tu equipo"
 	line "y Cajas están"
-	cont "llenos..."
+	cont "llenos…"
 	done
 
 .RefusedText:

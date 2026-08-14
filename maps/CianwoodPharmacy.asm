@@ -50,7 +50,7 @@ PharmacistGiveSecretpotionText:
 	para "¿Te preocupa"
 	line "algo?"
 
-	para "..."
+	para "…"
 
 	para "¿El #mon del"
 	line "Faro está en"

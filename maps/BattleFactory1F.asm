@@ -289,7 +289,7 @@ PokemonJournalThortonScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial"
+	para "Edición especial:"
 	line "¡Jefe Fábrica"
 	cont "Espinal!"
 

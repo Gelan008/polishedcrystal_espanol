@@ -47,7 +47,7 @@ DerekLostAMonText:
 	para "Pero no era muy"
 	line "mono, así que lo"
 
-	para "dejé..."
+	para "dejé…"
 	line "Los #mon tienen"
 
 	para "que ser monos."

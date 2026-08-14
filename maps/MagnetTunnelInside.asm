@@ -310,7 +310,7 @@ MagnetTunnelInsideMachineText7:
 
 	para "ligero hedor a"
 	line "plástico fundi-"
-	cont "do..."
+	cont "do…"
 
 	para "Parece que está"
 	line "totalmente frita."
@@ -385,7 +385,7 @@ GenericTrainerEngineerGraden:
 	para "un camino para la"
 	line "nueva vía del"
 	cont "Magnetotrén, pe-"
-	cont "ro..."
+	cont "ro…"
 
 	para "¡Quién iba a de-"
 	line "cirme que toda la"
@@ -413,7 +413,7 @@ GenericTrainerEngineerGustav:
 
 	text "Intenté arreglar-"
 	line "lo, pero no sir-"
-	cont "vió de nada..."
+	cont "vió de nada…"
 
 	para "¡No consigo"
 	line "averiguar qué"
@@ -425,7 +425,7 @@ GenericTrainerEngineerGustav:
 
 	para "la máquina tenga"
 	line "un cortocircuito"
-	cont "y se estropee..."
+	cont "y se estropee…"
 	done
 
 .SeenText:
@@ -437,7 +437,7 @@ GenericTrainerEngineerGustav:
 
 .BeatenText:
 	text "¡Fundido! Igual"
-	line "que un fusible..."
+	line "que un fusible…"
 	done
 
 GenericTrainerEngineerNicolas:

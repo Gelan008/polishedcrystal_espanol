@@ -2,7 +2,7 @@ BrentAnswerPhoneText:
 	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah, <PLAYER>."
 	line "¿Qué necesitas?"
@@ -12,7 +12,7 @@ BrentAnswerPhoneDayText:
 	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah, <PLAYER>."
 	line "¿Qué necesitas?"
@@ -22,7 +22,7 @@ BrentAnswerPhoneNiteText:
 	text "¿Sí? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah, <PLAYER>."
 	line "¿Qué necesitas?"

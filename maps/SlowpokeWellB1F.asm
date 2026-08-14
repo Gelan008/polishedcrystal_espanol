@@ -180,7 +180,7 @@ Proton2SeenText:
 	line "el tío más duro"
 
 	para "y cruel del"
-	line "Team Rocket..."
+	line "Team Rocket…"
 
 	para "Si interrumpes"
 	line "nuestro trabajo,"
@@ -220,8 +220,8 @@ GruntM2SeenText:
 	done
 
 GruntM2BeatenText:
-	text "Eres..."
-	line "Demasiado fuerte.."
+	text "Eres…"
+	line "Demasiado fuerte…"
 	done
 
 GruntF1SeenText:
@@ -239,7 +239,7 @@ GruntF1BeatenText:
 SlowpokeWellB1FSlowpokeWithMailText:
 	text "Un Slowpoke al que"
 	line "le han cortado la"
-	cont "cola..."
+	cont "cola…"
 
 	para "¿Eh? Tiene una"
 	line "Carta. ¿Leerla?"
@@ -260,5 +260,5 @@ SlowpokeWellB1FSlowpokeMailText:
 SlowpokeWellB1FTaillessSlowpokeText:
 	text "Un Slowpoke al que"
 	line "le han cortado la"
-	cont "cola..."
+	cont "cola…"
 	done

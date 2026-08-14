@@ -49,7 +49,7 @@ GoldenrodBikeShopClerkFirstRateBikesText:
 	done
 
 GoldenrodBikeShopClerkIntroText:
-	text "...ay... Abrí una"
+	text "…ay… Abrí una"
 	line "sucursal aquí,"
 
 	para "pero no puedo ven-"
@@ -75,10 +75,10 @@ GoldenrodBikeShopClerkAgreedText:
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "...ay... Dónde"
+	text "…ay… Dónde"
 	line "habrá quedado la"
 	cont "amabilidad de la"
-	cont "gente..."
+	cont "gente…"
 	done
 
 GoldenrodBikeShopBicycleText:

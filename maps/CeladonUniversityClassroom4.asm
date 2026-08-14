@@ -139,7 +139,7 @@ CeladonUniversityClassroom4RaymondScript:
 
 	para "¡No me digas!"
 
-	para "...Vale. Supongo"
+	para "…Vale. Supongo"
 	line "que te has gana-"
 	cont "do esto."
 	done
@@ -283,7 +283,7 @@ CeladonUniversityClassroom4Bookshelf1:
 	para "<PLAYER> arregló"
 	line "los libros."
 
-	para "...¿Oh?"
+	para "…¿Oh?"
 	done
 
 .Text2:

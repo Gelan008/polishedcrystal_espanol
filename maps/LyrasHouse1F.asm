@@ -65,7 +65,7 @@ LyrasFridgeScript:
 	jumpthistext
 
 	text "A ver qué hay"
-	line "en la nevera..."
+	line "en la nevera…"
 
 	para "¡Agua Fresca y"
 	line "bolas de arroz!"

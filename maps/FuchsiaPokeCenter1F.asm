@@ -28,7 +28,7 @@ PokemonJournalJanineScript:
 
 	text "Revista #mon"
 
-	para "Reportaje especial"
+	para "Edición especial:"
 	line "¡Líder Sachiko!"
 
 	para "Se dice que Sachi-"
@@ -54,7 +54,7 @@ JanineImpersonatorScript:
 
 .Text1:
 	text "¡Soy Sachiko! A-"
-	line "bracadabra... Puf!"
+	line "bracadabra… Puf!"
 	done
 
 .Text2:

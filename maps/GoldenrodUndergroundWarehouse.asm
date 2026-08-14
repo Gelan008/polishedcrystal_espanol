@@ -37,7 +37,7 @@ GenericTrainerGruntM24:
 GenericTrainerGruntM14:
 	generictrainer GRUNTM, 14, EVENT_BEAT_ROCKET_GRUNTM_14, GruntM14SeenText, GruntM14BeatenText
 
-	text "He perdido..."
+	text "He perdido…"
 
 	para "¡Por favor, per-"
 	line "dóname, Giovanni!"
@@ -79,7 +79,7 @@ GruntM24SeenText:
 
 GruntM24BeatenText:
 	text "Se deshicieron"
-	line "de mí..."
+	line "de mí…"
 	done
 
 GruntM14SeenText:
@@ -158,7 +158,7 @@ DirectorAfterText:
 	cont "puedo pedir ayuda."
 
 	para "Por favor, salva"
-	line "la Torre Radio..."
+	line "la Torre Radio…"
 
 	para "¡Y a todos los #-"
 	line "mon del país!"

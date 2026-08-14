@@ -33,5 +33,5 @@ CeruleanWaterShowSpeechHouseSuperNerdText:
 
 	para "¿Lo has visto?"
 	line "Está un poco o-"
-	cont "culto, je, je..."
+	cont "culto, je, je…"
 	done

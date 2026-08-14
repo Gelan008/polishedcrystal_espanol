@@ -396,7 +396,7 @@ GoldenrodGameCornerFisherText:
 	line "¡A celebrarlo a"
 	cont "las tragaperras!"
 
-	para "...Sabes, los #"
+	para "…Sabes, los #"
 	line "mon también tienen"
 	cont "Día de Pago."
 	done
@@ -438,7 +438,7 @@ GoldenrodGameCornerCooltrainerMText:
 	done
 
 GoldenrodGameCornerPokefanFText:
-	text "Levantar cartas..."
+	text "Levantar cartas…"
 
 	para "Lo prefiero a las"
 	line "tragaperras, es"
@@ -472,7 +472,7 @@ GoldenrodGameCornerPokefanM2Text:
 	line "a las tragaperras,"
 
 	para "y lo fastidié a"
-	line "las cartas..."
+	line "las cartas…"
 
 	para "Me enfadé tanto"
 	line "que tiré mi Mone-"

@@ -112,7 +112,7 @@ Binoculars3:
 	jumpthistext
 
 	text "Un Pescador atrapó"
-	line "muchos Magikarp..."
+	line "muchos Magikarp…"
 
 	para "¡Están usando Sal-"
 	line "picadura a la vez!"
@@ -268,11 +268,11 @@ GoldenrodDeptStoreRoofPokefanMText:
 	text "Hay algo que de"
 	line "verdad quiero, pe-"
 	cont "ro no tengo dinero"
-	cont "suficiente..."
+	cont "suficiente…"
 
 	para "Quizá venda algu-"
 	line "nas Bayas que he"
-	cont "recolectado..."
+	cont "recolectado…"
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
@@ -290,7 +290,7 @@ GoldenrodDeptStoreRoofBugCatcherText:
 
 	para "envenenan cuando"
 	line "la cosa se pone"
-	cont "difícil..."
+	cont "difícil…"
 
 	para "Así que vine a"
 	line "comprar algunas"

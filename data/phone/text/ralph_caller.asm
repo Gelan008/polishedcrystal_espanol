@@ -70,7 +70,7 @@ RalphHangUpText:
 	done
 
 RalphItemText:
-	text "Oye, yo... ¡Ay!"
+	text "Oye, yo… ¡Ay!"
 
 	para "¡Ah, perdona!"
 	line "¡Mira, están"
@@ -106,7 +106,7 @@ RalphNoItemText:
 
 	para "Últimamente, todo"
 	line "lo que atrapo son"
-	cont "Magikarp..."
+	cont "Magikarp…"
 	done
 
 RalphReminderText:

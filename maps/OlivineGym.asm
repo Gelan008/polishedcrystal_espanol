@@ -45,9 +45,9 @@ OlivineGymJasmineScript:
 	setevent EVENT_GOT_TM23_IRON_TAIL
 	jumpthisopenedtext
 
-	text "…You could use"
-	line "that TM to teach"
-	cont "Iron Tail."
+	text "… Podrías usar"
+	line "esa MT para ense-"
+	cont "ñar Cola Férrea."
 	done
 
 OlivineGymGuyScript:
@@ -57,12 +57,12 @@ OlivineGymGuyScript:
 	iffalse_jumptextfaceplayer OlivineGymGuyPreText
 	jumpthistextfaceplayer
 
-	text "Yasmina uses the"
-	line "newly discovered"
-	cont "Steel-type."
+	text "Yasmina usa el"
+	line "recién descubierto"
+	cont "tipo Acero."
 
-	para "I don't know very"
-	line "much about it."
+	para "No sé gran cosa"
+	line "sobre él."
 	done
 
 OlivineGymLassConnie:
@@ -75,28 +75,28 @@ OlivineGymLassConnie:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "Giggle… I know"
-	line "how capable you"
+	text "Je, je… Ya sé de"
+	line "lo que eres capaz"
 
-	para "are from the"
-	line "Lighthouse."
+	para "por lo que hiciste"
+	line "en el Faro."
 
-	para "It's time you"
-	line "showed that to"
+	para "¡Es hora de que se"
+	line "lo demuestres a"
 	cont "Yasmina!"
 
-	para "Good luck!"
+	para "¡Buena suerte!"
 	done
 
 .AfterText:
-	text "You are amazing…"
-	line "You should aim"
+	text "Eres increíble…"
+	line "Deberías apuntar"
 
-	para "even higher, with"
-	line "such potential."
+	para "aún más alto con"
+	line "ese potencial."
 
-	para "Have you been to"
-	line "Mahogany Town?"
+	para "¿Has estado en"
+	line "Pueblo Caoba?"
 	done
 
 OlivineGymGentlemanPreston:
@@ -109,25 +109,25 @@ OlivineGymGentlemanPreston:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "I knew you'd"
-	line "come here."
+	text "Sabía que ven-"
+	line "drías aquí."
 
-	para "Thank you for"
-	line "helping the"
-	cont "Gym Leader,"
+	para "Gracias por ayudar"
+	line "a la Líder de"
+	cont "Gimnasio,"
 
-	para "but battle is a"
-	line "separate matter."
+	para "pero un combate es"
+	line "asunto aparte."
 
-	para "Go for it!"
+	para "¡A por todas!"
 	done
 
 .AfterText:
-	text "Impressive!"
-	line "You should earn"
+	text "¡Impresionante!"
+	line "Deberías ganar más"
 
-	para "more Badges with"
-	line "that much skill."
+	para "Medallas con tanta"
+	line "habilidad."
 	done
 
 OlivineGymStatue:
@@ -147,84 +147,83 @@ OlivineGymStatue:
 	jumpstd gymstatue3
 
 Jasmine_SteelTypeIntro:
-	text "…Thank you for"
-	line "your help at the"
-	cont "Lighthouse…"
+	text "… Gracias por tu"
+	line "ayuda en el Faro…"
 
-	para "But this is dif-"
-	line "ferent. Please"
+	para "Pero esto es dis-"
+	line "tinto. Permíteme"
+	cont "presentarme."
 
-	para "allow me to intro-"
-	line "duce myself."
+	para "Soy Yasmina, Líder"
+	line "de Gimnasio. Uso"
+	cont "el tipo Acero."
 
-	para "I am Yasmina, a"
-	line "Gym Leader. I use"
-	cont "the Steel-type."
+	para "… ¿Conoces el"
+	line "tipo Acero?"
 
-	para "…Do you know about"
-	line "the Steel-type?"
+	para "Son muy duros,"
+	line "fríos, afilados y"
+	cont "muy fuertes."
 
-	para "They are very"
-	line "hard, cold, sharp,"
-	cont "and really strong."
-
-	para "…Um… May I begin?"
+	para "… Mmm… ¿Podemos"
+	line "empezar?"
 	done
 
 Jasmine_BetterTrainer:
-	text "…You are a better"
-	line "trainer than me,"
+	text "… Eres mejor"
+	line "entrenador que yo,"
 
-	para "in both skill and"
-	line "kindness."
+	para "tanto en habilidad"
+	line "como en bondad."
 
-	para "In accordance with"
-	line "League rules, I"
-
-	para "confer upon you"
-	line "this Badge."
+	para "Siguiendo las nor-"
+	line "mas de la Liga, te"
+	cont "hago entrega de"
+	cont "esta Medalla."
 	done
 
 Jasmine_BadgeSpeech:
-	text "With that Badge,"
-	line "all #mon up"
+	text "Con esa Medalla,"
+	line "los #mon hasta"
 
-	para "to <LV>70, even"
-	line "traded ones, will"
+	para "el <LV>70, incluso"
+	line "intercambiados,"
 
-	para "obey you without"
-	line "question."
+	para "te obedecerán sin"
+	line "protestar."
 
-	para "…Um… Please take"
-	line "this too…"
+	para "… Mmm… Por favor,"
+	line "toma esto también…"
 	done
 
 Jasmine_GoodLuck:
-	text "Um… I don't know"
-	line "how to say this,"
-	cont "but good luck…"
+	text "Mmm… No sé cómo"
+	line "decir esto, pero…"
+	cont "buena suerte…"
 	done
 
 OlivineGymGuyWinText:
-	text "That was awesome."
+	text "¡Ha sido aluci-"
+	line "nante!"
 
-	para "The Steel-type,"
-	line "huh?"
+	para "El tipo Acero,"
+	line "¿eh?"
 
-	para "That was a close"
-	line "encounter of an"
-	cont "unknown kind!"
+	para "¡Ha sido un en-"
+	line "cuentro en la ter-"
+	cont "cera fase!"
 	done
 
 OlivineGymGuyPreText:
-	text "Yasmina, the Gym"
-	line "Leader, is at the"
-	cont "Lighthouse."
+	text "Yasmina, la Líder"
+	line "de Gimnasio, está"
+	cont "en el Faro."
 
-	para "She's been tending"
-	line "to a sick #mon."
+	para "Ha estado cuidando"
+	line "a un #mon"
+	cont "enfermo."
 
-	para "A strong trainer"
-	line "has to be compas-"
-	cont "sionate."
+	para "Un buen entrenador"
+	line "también debe tener"
+	cont "compasión."
 	done

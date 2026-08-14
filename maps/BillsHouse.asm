@@ -23,7 +23,7 @@ PokemonJournalBillScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial"
+	para "Edición especial:"
 	line "¡Pokémaníaco Bill!"
 
 	para "Bill inventó el"
@@ -95,7 +95,7 @@ BillsHouseBillScript:
 	line "solo un rumor."
 
 	para "Aun así, me encan-"
-	line "taría verlos..."
+	line "taría verlos…"
 	done
 
 .SeenText:

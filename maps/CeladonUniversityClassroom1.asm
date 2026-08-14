@@ -87,7 +87,7 @@ CeladonUniversityClassroom1ImakuniScript:
 	done
 
 .Text1:
-	text "¿Eh? ¿Q... Quién"
+	text "¿Eh? ¿Q… Quién"
 	line "eres tú?"
 
 	para "¿Quién? ¿Yo? ¿No"
@@ -98,11 +98,11 @@ CeladonUniversityClassroom1ImakuniScript:
 	cont "¡Imakuni!"
 
 	para "Yo cantaré el"
-	line "#Rap... ¡Tú"
+	line "#Rap… ¡Tú"
 	cont "bailas!"
 
 	para "♪ La di da di da,"
-	line "La di da dida... ♪"
+	line "La di da di da… ♪"
 
 	para "¡Eh! ¡Mueve esos"
 	line "pies!"
@@ -194,7 +194,7 @@ CeladonUniversityClassroom1Artist2Text:
 	cont "jar de estornudar."
 
 	para "Debo ser alér-"
-	line "gico..."
+	line "gico…"
 	done
 
 CeladonUniversityClassroom1Artist3Text:

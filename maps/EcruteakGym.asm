@@ -235,7 +235,7 @@ MortyIntroText:
 	cont "den."
 
 	para "Solo un poco"
-	line "más..."
+	line "más…"
 
 	para "Con un poco"
 	line "más, podría ver"
@@ -253,7 +253,7 @@ MortyIntroText:
 
 MortyWinLossText:
 	text "Aún no soy lo bas-"
-	line "tante bueno..."
+	line "tante bueno…"
 
 	para "De acuerdo. Esta"
 	line "Medalla es tuya."
@@ -281,7 +281,7 @@ MortyText_FogBadgeSpeech:
 
 
 MortyFightDoneText:
-	text "Ya veo..."
+	text "Ya veo…"
 
 	para "Tu viaje te ha"
 	line "llevado a lugares"
@@ -292,7 +292,7 @@ MortyFightDoneText:
 	cont "que yo."
 
 	para "Te envidio por"
-	line "eso..."
+	line "eso…"
 	done
 
 SageJeffreySeenText:
@@ -301,7 +301,7 @@ SageJeffreySeenText:
 
 	para "Luego el verano,"
 	line "otoño e in-"
-	cont "vierno..."
+	cont "vierno…"
 
 	para "Y volvió la"
 	line "primavera. Hemos"

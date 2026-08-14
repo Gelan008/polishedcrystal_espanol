@@ -85,7 +85,7 @@ NurseTrainerStarText:
 	cont "volverles la salud"
 	cont "al 100%."
 
-	para "¿Quier...?"
+	para "¿Quier…?"
 
 	para "¡Es... esa Ficha"
 	line "de Entrenador!"
@@ -165,7 +165,7 @@ PictureBookshelfText:
 	done
 
 MagazineBookshelfText:
-	text "Revista #mon..."
+	text "Revista #mon…"
 	line "Amigos #mon,"
 
 	para "manual #mon,"
@@ -221,7 +221,7 @@ WrongSideText:
 
 RadioOffAirText:
 	text "Solo se escucha"
-	line "estática..."
+	line "estática…"
 	done
 
 RefrigeratorText:
@@ -238,7 +238,7 @@ StoveText:
 
 TrashCanText:
 	text "No hay nada aquí"
-	line "dentro..."
+	line "dentro…"
 	done
 
 PokeCenterSignText:
@@ -258,8 +258,8 @@ ContestResults_ReadyToJudgeText:
 	line "los #mon que"
 	cont "habéis atrapado."
 
-	para "......"
-	line "......"
+	para "……"
+	line "……"
 
 	para "¡Ya hemos elegido"
 	line "a los ganadores!"
@@ -461,12 +461,12 @@ VendingMachineScoreText:
 
 VendingMachineNoMoneyText:
 	text "Uy, no tienes"
-	line "dinero..."
+	line "dinero…"
 	done
 
 VendingMachineNoSpaceText:
 	text "No te queda"
-	line "sitio..."
+	line "sitio…"
 	done
 
 HiddenGrottoText:

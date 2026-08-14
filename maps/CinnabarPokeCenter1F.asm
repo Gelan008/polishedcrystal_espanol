@@ -24,7 +24,7 @@ PokemonJournalBlaineScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial"
+	para "Edición especial:"
 	line "¡Líder Blaine!"
 
 	para "Se dice que Blaine"
@@ -42,7 +42,7 @@ CinnabarPokeCenter1FCooltrainerfText:
 
 	para "vive solo en la"
 	line "cueva de las Islas"
-	cont "Espuma..."
+	cont "Espuma…"
 	done
 
 CinnabarPokeCenter1FFisherText:

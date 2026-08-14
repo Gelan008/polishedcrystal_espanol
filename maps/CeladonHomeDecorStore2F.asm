@@ -151,7 +151,7 @@ CeladonHomeDecorStore2FPokefanfText:
 
 	para "Pero la Cama de"
 	line "Pikachu es tan li-"
-	cont "nda..."
+	cont "nda…"
 	done
 
 CeladonHomeDecorStore2FDirectoryText:

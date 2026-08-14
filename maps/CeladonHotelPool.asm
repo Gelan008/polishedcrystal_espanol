@@ -33,7 +33,7 @@ CeladonHotelPoolSwimmerMScript:
 .Text2:
 	text "Es un nado"
 	line "bastante relajan-"
-	cont "te..."
+	cont "te…"
 	done
 
 .Text1:

@@ -191,8 +191,8 @@ MoveTutor:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "...No tienes sufi-"
-	line "cientes fichas..."
+	text "…No tienes sufi-"
+	line "cientes fichas…"
 	done
 
 GoldenrodCityCooltrainerF1Script:
@@ -324,7 +324,7 @@ GoldenrodCityCooltrainerFOlivineText:
 
 
 GoldenrodCityYoungster2Text:
-	text "Je, je, je..."
+	text "Je, je, je…"
 
 	para "Me metí en pro-"
 	line "blemas por jugar"
@@ -358,7 +358,7 @@ GoldenrodCityGrampsText:
 
 GoldenrodCityRocketScoutText1:
 	text "Así que esta es la"
-	line "Torre Radio..."
+	line "Torre Radio…"
 	done
 
 GoldenrodCityRocketScoutText2:
@@ -373,7 +373,7 @@ GoldenrodCityRocket1Text:
 
 GoldenrodCityRocket2Text:
 	text "Tomar la Torre"
-	line "Radio..."
+	line "Radio…"
 
 	para "¿Qué pasa? ¡No es"
 	line "asunto tuyo!"
@@ -390,10 +390,10 @@ GoldenrodCityRocket3Text:
 GoldenrodCityRocket4Text:
 	text "Nuestro sueño"
 	line "pronto se hará"
-	cont "realidad..."
+	cont "realidad…"
 
 	para "Ha sido una larga"
-	line "lucha..."
+	line "lucha…"
 	done
 
 GoldenrodCityRocket5Text:
@@ -516,8 +516,8 @@ GoldenrodCityMoveTutorAsk4000CoinsOkayText:
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
-	text "Oh... Pero si son"
-	line "increíbles..."
+	text "Oh… Pero si son"
+	line "increíbles…"
 	done
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
@@ -531,7 +531,7 @@ GoldenrodCityMoveTutorWhichMoveShouldITeachText:
 GoldenrodCityMoveTutorHmTooBadText:
 	text "Mmm, qué pena."
 	line "Tendré que pedir"
-	cont "dinero en casa..."
+	cont "dinero en casa…"
 	done
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
@@ -545,5 +545,5 @@ GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
 
 
 GoldenrodCityMoveTutorBButText:
-	text "P-pero..."
+	text "P-pero…"
 	done

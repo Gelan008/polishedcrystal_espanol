@@ -140,7 +140,7 @@ ElmPhoneDisasterText:
 	line "terrible!"
 
 	para "¿Qué debería"
-	line "hacer? Oh, no..."
+	line "hacer? Oh, no…"
 
 	para "¡Por favor, vuelve"
 	line "aquí cuanto antes!"

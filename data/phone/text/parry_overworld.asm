@@ -65,7 +65,7 @@ ParryRematchGiftText:
 
 	para "Ojalá hubiese co-"
 	line "menzado con los"
-	cont "#mon de joven..."
+	cont "#mon de joven…"
 
 	para "Quiero que te es-"
 	line "fuerces por los"

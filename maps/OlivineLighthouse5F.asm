@@ -27,47 +27,52 @@ OlivineLighthouse5F_MapScriptHeader:
 GenericTrainerBird_keeperDenis:
 	generictrainer BIRD_KEEPER, DENIS, EVENT_BEAT_BIRD_KEEPER_DENIS, Bird_keeperDenisSeenText, Bird_keeperDenisBeatenText
 
-	text "My #mon learned"
-	line "how to use Fly in"
-	cont "the Bosq Amarillo."
+	text "Mi #mon aprendió"
+	line "a usar Vuelo en el"
+	cont "Bosque Amarillo."
 
-	para "Well, since I'm a"
-	line "loser, I'll Fly"
-	cont "across the sea…"
+	para "Bueno, como he"
+	line "perdido, me iré"
+
+	para "Volando cruzando"
+	line "el mar"
 	done
 
 GenericTrainerSailorErnest:
 	generictrainer SAILOR, ERNEST, EVENT_BEAT_SAILOR_ERNEST, SailorErnestSeenText, SailorErnestBeatenText
 
-	text "A Gym Leader isn't"
-	line "just about being"
+	text "Un Líder de Gimna-"
+	line "sio no solo debe"
+	cont "ser fuerte."
 
-	para "strong. A Leader"
-	line "also needs to be"
-	cont "compassionate."
+	para "Un Líder también"
+	line "debe tener compa-"
+	cont "sión."
 	done
 
 SailorErnestSeenText:
-	text "I wanted to battle"
-	line "Yasmina, but she's"
+	text "Quería luchar con"
+	line "Yasmina, pero no"
+	cont "está de humor."
 
-	para "not up to it now."
-	line "So, how about you?"
+	para "¿Qué te parece si"
+	line "luchamos tú y yo?"
 	done
 
 SailorErnestBeatenText:
-	text "Whoa, whoa. You're"
-	line "overwhelming!"
+	text "¡Uf, uf! ¡Eres una"
+	line "fiera!"
 	done
 
 Bird_keeperDenisSeenText:
-	text "We're pretty high"
-	line "up here. My bird"
+	text "Estamos muy arriba."
+	line "Mis #mon pájaro"
 
-	para "#mon are in"
-	line "prime form."
+	para "están en plena"
+	line "forma."
 	done
 
 Bird_keeperDenisBeatenText:
-	text "Oops…They crashed…"
+	text "¡Uy! Cayeron en"
+	line "picado…"
 	done

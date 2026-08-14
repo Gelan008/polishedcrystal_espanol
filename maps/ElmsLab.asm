@@ -1135,7 +1135,7 @@ ElmDescribesMrPokemonText:
 
 	para "Lástima que sólo"
 	line "sean raras y no"
-	cont "muy útiles..."
+	cont "muy útiles…"
 	done
 
 ElmPokeBallText:
@@ -1153,7 +1153,7 @@ ElmsLabHealingMachineText2:
 ElmAfterTheftText1:
 	text "Elm: <PLAYER>,"
 	line "esto es terri-"
-	cont "ble..."
+	cont "ble…"
 
 	para "Ah, sí, ¿cuál fue"
 	line "el gran descu-"
@@ -1172,7 +1172,7 @@ ElmAfterTheftText3:
 	done
 
 ElmAfterTheftText4:
-	text "Pero... ¿Es un"
+	text "Pero… ¿Es un"
 	line "Huevo #mon?"
 
 	para "Si lo es, ¡es un"
@@ -1219,7 +1219,7 @@ endc
 	done
 
 ElmAfterTheftText6:
-	text "...El camino es"
+	text "…El camino es"
 	line "largo, así que"
 	cont "cuidado."
 
@@ -1288,7 +1288,7 @@ ShowElmTogepiText3:
 	text "¡El Huevo eclosio-"
 	line "nó! Así que los"
 	cont "#mon nacen de"
-	cont "Huevos..."
+	cont "Huevos…"
 
 	para "No, puede que no"
 	line "todos los #mon"
@@ -1337,7 +1337,7 @@ ElmText_CallYou:
 	done
 
 AideText_AfterTheft:
-	text "...ay... Ese #"
+	text "…ay… Ese #"
 	line "mon robado."
 
 	para "Me pregunto cómo"
@@ -1357,13 +1357,13 @@ AideText_ThiefReturnedMon:
 
 	para "El chico que robó"
 	line "el #mon del"
-	cont "Profesor..."
+	cont "Profesor…"
 
 	para "¡...vino a"
 	line "devolverlo!"
 
 	para "Pero el Prof. Elm"
-	line "le dijo..."
+	line "le dijo…"
 
 	para "Parece que al #"
 	line "mon le gustas"
@@ -1491,7 +1491,7 @@ LyraAnnouncesGymChallengeText:
 
 	para "Aunque no pueda"
 	line "llegar a ese"
-	cont "nivel... Quiero"
+	cont "nivel… Quiero"
 	cont "intentarlo."
 
 	para "Quiero ver de lo"
@@ -1534,7 +1534,7 @@ ElmBeforeBattleText:
 
 ElmByTheWayText:
 	text "Ya que estás"
-	line "aquí, <PLAYER>..."
+	line "aquí, <PLAYER>…"
 	done
 
 ElmAskBattleText:
@@ -1589,7 +1589,7 @@ AideText_AlwaysBusy:
 
 AideText_TheftTestimony:
 	text "Se oyó un ruido"
-	line "fuerte fuera..."
+	line "fuerte fuera…"
 
 	para "Cuando fuimos a"
 	line "mirar, alguien ha-"
@@ -1599,7 +1599,7 @@ AideText_TheftTestimony:
 	para "¡Es increíble que"
 	line "alguien haga eso!"
 
-	para "...ay... Ese #"
+	para "…ay… Ese #"
 	line "mon robado."
 
 	para "Me pregunto cómo"
@@ -1623,9 +1623,9 @@ ElmsLabOfficerText1:
 
 	para "siempre vuelve al"
 	line "lugar del cri-"
-	cont "men..."
+	cont "men…"
 
-	para "Vaya... ¿Así que"
+	para "Vaya… ¿Así que"
 	line "tú eres el ladrón?"
 	done
 
@@ -1809,5 +1809,5 @@ ElmsLabTrashcanText:
 	text "El envoltorio del"
 	line "snack que se comió"
 	cont "el Prof. Elm está"
-	cont "ahí dentro..."
+	cont "ahí dentro…"
 	done

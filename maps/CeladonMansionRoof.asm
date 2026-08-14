@@ -20,14 +20,14 @@ MapCeladonMansionRoofSignpost0Script:
 	jumpthistext
 
 	text "Hay un grafiti"
-	line "en la pared..."
+	line "en la pared…"
 
 	para "¡<PLAYER> le"
 	line "añadió un bigote!"
 	done
 
 CeladonMansionRoofFisherText:
-	text "Lugares altos..."
+	text "Lugares altos…"
 	line "¡Me encantan!"
 
 	para "¡Diría que lo"

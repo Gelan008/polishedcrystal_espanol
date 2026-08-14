@@ -178,7 +178,7 @@ Kimono_girlZukiSeenText:
 
 Kimono_girlZukiBeatenText:
 	text "No me quedan"
-	line "#mon..."
+	line "#mon…"
 	done
 
 Kimono_girlKuniSeenText:

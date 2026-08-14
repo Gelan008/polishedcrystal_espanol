@@ -44,133 +44,143 @@ GenericTrainerBug_maniacPierre:
 
 	text "Bzzz… Bzzz…"
 
-	para "That noise is"
-	line "stuck in my head…"
+	para "Ese zumbido se me"
+	line "ha metido en la"
+	cont "cabeza…"
 	done
 
 .SeenText:
-	text "My #mon love"
-	line "this forest."
+	text "A mis #mon les"
+	line "encanta este"
+	cont "bosque."
 
-	para "They buzz nonstop"
-	line "here!"
+	para "¡Aquí no paran"
+	line "de zumbar!"
 	done
 
 .BeatenText:
-	text "Bzzz! I lost!"
+	text "¡Bzzz! ¡He"
+	line "perdido!"
 	done
 
 GenericTrainerBug_maniacDylan:
 	generictrainer BUG_MANIAC, DYLAN, EVENT_BEAT_BUG_MANIAC_DYLAN, .SeenText, .BeatenText
 
-	text "There's something"
-	line "about the buzz of"
+	text "El zumbido de este"
+	line "bosque tiene algo"
 
-	para "this forest that"
-	line "bugs just love."
+	para "que vuelve locos a"
+	line "los bichos."
 	done
 
 .SeenText:
-	text "I've never seen my"
-	line "bugs this happy!"
+	text "¡Nunca había visto"
+	line "a mis bichos tan"
+	cont "felices!"
 	done
 
 .BeatenText:
-	text "Aw, but they were"
-	line "so happy!"
+	text "¡Vaya, con lo fe-"
+	line "lices que estaban!"
 	done
 
 GenericTrainerGuitaristfJaclyn:
 	generictrainer GUITARISTF, JACLYN, EVENT_BEAT_GUITARISTF_JACLYN, .SeenText, .BeatenText
 
-	text "Wait up! I'm not"
-	line "done singing!"
+	text "¡Espera! ¡Aún no he"
+	line "terminado de"
+	cont "cantar!"
 	done
 
 .SeenText:
-	text "Let my guitar"
-	line "howl!"
+	text "¡Que aúlle mi"
+	line "guitarra!"
 
-	para "Hear me scream!"
+	para "¡Escucha mi grito!"
 	done
 
 .BeatenText:
-	text "Giyaaaah!"
+	text "¡Giyaaaah!"
 	done
 
 GenericTrainerGuitaristmEzekiel:
 	generictrainer GUITARISTM, EZEKIEL, EVENT_BEAT_GUITARISTM_EZEKIEL, .SeenText, .BeatenText
 
-	text "If you listen"
-	line "carefully, you can"
+	text "Si escuchas con"
+	line "atención, oirás"
 
-	para "hear the rhythm of"
-	line "the forest's hum."
+	para "el ritmo del"
+	line "murmullo del"
+	cont "bosque."
 	done
 
 .SeenText:
-	text "Battle? Yeah, I'm"
-	line "up for that."
+	text "¿Un combate? Sí,"
+	line "me apunto."
 	done
 
 .BeatenText:
-	text "Wow. Good stuff."
+	text "Vaya. Ha estado"
+	line "genial."
 	done
 
 GenericTrainerHikerLester:
 	generictrainer HIKER, LESTER, EVENT_BEAT_HIKER_LESTER, .SeenText, .BeatenText
 
-	text "What, can't a Hiker"
-	line "explore a forest"
+	text "¿Qué pasa? ¿Un"
+	line "Montañero no puede"
 
-	para "instead of a moun-"
-	line "tain now and then?"
+	para "explorar un bosque"
+	line "en vez de una mon-"
+	cont "taña de vez en"
+	cont "cuando?"
 	done
 
 .SeenText:
-	text "Yahoo!"
+	text "¡Iiii-ja!"
 	done
 
 .BeatenText:
-	text "Gweh! Cough!"
+	text "¡Gof! ¡Cof, cof!"
 
-	para "Hollering choked"
-	line "me up!"
+	para "¡Me he atragantado"
+	line "de tanto gritar!"
 	done
 
 GenericTrainerBird_keeperTrent:
 	generictrainer BIRD_KEEPER, TRENT, EVENT_BEAT_BIRD_KEEPER_TRENT, .SeenText, .BeatenText
 
-	text "I get up early"
-	line "every day to train"
-	cont "my birds here."
+	text "Madrugo todos los"
+	line "días para entrenar"
+	cont "a mis pájaros aquí."
 
-	para "The din is part of"
-	line "our training."
+	para "El estruendo es"
+	line "parte de nuestro"
+	cont "entrenamiento."
 	done
 
 .SeenText:
-	text "The early bird"
-	line "catches the worm!"
+	text "¡A quien madruga,"
+	line "Dios le ayuda!"
 	done
 
 .BeatenText:
-	text "Looks like I was"
-	line "the worm…"
+	text "Parece que a mí no"
+	line "me ayudó…"
 	done
 
 NoisyForestTeacherText:
-	text "I come here for my"
-	line "morning stroll."
+	text "Vengo aquí a dar"
+	line "mi paseo matutino."
 
-	para "I even have a ped-"
-	line "ometer that counts"
-	cont "my steps!"
+	para "¡Hasta llevo un"
+	line "podómetro para"
+	cont "contar mis pasos!"
 	done
 
 NoisyForestChildText:
-	text "Gah! This place"
-	line "is deafening!"
+	text "¡Uf! ¡Este lugar"
+	line "es ensordecedor!"
 	done
 
 NoisyForestPikabluScript:
@@ -204,35 +214,35 @@ NoisyForestPikabluScript:
 	done
 
 .OwnerText1:
-	text "You found my"
+	text "¡Encontraste a mi"
 	line "Pikablu!"
-	cont "Thank you!"
+	cont "¡Muchas gracias!"
 	done
 
 .OwnerText2:
-	text "Let me give you a"
-	line "little something."
+	text "Deja que te dé"
+	line "un detalle."
 	done
 
 .OwnerText3:
-	text "A souvenir of your"
-	line "time on Shamouti"
-	cont "Island!"
+	text "¡Un recuerdo de tu"
+	line "estancia en Isla"
+	cont "Shamouti!"
 
-	para "Doesn't it look"
-	line "strange?"
+	para "¿A que parece muy"
+	line "extraño?"
 
-	para "Bye, and thanks"
-	line "again!"
+	para "¡Adiós y gracias"
+	line "de nuevo!"
 	done
 
 .OwnerText4:
-	text "Oh, you can't carry"
-	line "it right now."
+	text "Oh, no puedes lle-"
+	line "var más cosas."
 
-	para "Come find me by"
-	line "the #mon Center"
-	cont "if you want it."
+	para "Búscame junto al"
+	line "Centro #mon"
+	cont "si lo quieres."
 	done
 
 .WalkToYou:

@@ -54,7 +54,7 @@ GoldenrodGymWhitneyScript:
 
 	para "¡Buuuuaaaah!"
 
-	para "...Snif, hip..."
+	para "…Snif, hip…"
 	line "¡...Eres malo!"
 	done
 
@@ -150,7 +150,7 @@ GenericTrainerBeautySamantha:
 	text "Le enseñé a Meowth"
 	line "movimientos para"
 	cont "enfrentar a cual-"
-	cont "quier tipo..."
+	cont "quier tipo…"
 	done
 
 GoldenrodGymGuyScript:
@@ -170,7 +170,7 @@ GoldenrodGymGuyScript:
 	cont "Lucha."
 
 	para "Pero ten cuida-"
-	line "do... Los #mon"
+	line "do… Los #mon"
 
 	para "de tipo Hada re-"
 	line "sisten los ataques"
@@ -216,12 +216,12 @@ WhitneyBeforeText:
 
 	para "¿Quieres un"
 	line "combate? Te lo"
-	cont "advierto..."
+	cont "advierto…"
 	cont "¡soy muy buena!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
-	text "Snif..."
+	text "Snif…"
 
 	para "¡...Buuuuaaaah!"
 	line "¡Eres malo!"
@@ -278,8 +278,8 @@ LassCathySeenText:
 	done
 
 LassCathyBeatenText:
-	text "Jolín... Creí que"
-	line "eras débil..."
+	text "Jolín… Creí que"
+	line "eras débil…"
 	done
 
 SrandjrJoandcath1SeenText:

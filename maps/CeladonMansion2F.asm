@@ -29,13 +29,13 @@ CeladonMansion2FComputerText:
 	text "<PLAYER> encendió"
 	line "el PC."
 
-	para "..."
+	para "…"
 
 	para "Alguien estaba en"
 	line "medio de escribir"
 	cont "un e-mail."
 
-	para "...Espero que"
+	para "…Espero que"
 	line "vengas a Kanto."
 
 	para "Creo que te"
@@ -53,5 +53,5 @@ CeladonMansion2FComputerText:
 
 	para "Para el Productor"
 
-	para "..."
+	para "…"
 	done

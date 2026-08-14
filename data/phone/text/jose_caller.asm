@@ -29,7 +29,7 @@ JoseLostAMonText:
 	text "Me topé con un"
 	line ""
 	text_ram wStringBuffer4
-	text " salvaje..."
+	text " salvaje…"
 
 	para "Intentaba atra-"
 	line "parlo, pero se"

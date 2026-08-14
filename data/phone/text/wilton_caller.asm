@@ -12,7 +12,7 @@ WiltonDefeatedMonText:
 	text "Vencimos a un"
 	line ""
 	text_ram wStringBuffer4
-	text " salvaje..."
+	text " salvaje…"
 
 	para "Sabes, me divier-"
 	line "te más pescar que"
@@ -72,13 +72,13 @@ WiltonHaventFoundAnythingText:
 	done
 
 WiltonNotBitingText:
-	text "Ay..."
+	text "Ay…"
 	line "Ya no pican como"
 
 	para "antes en"
 	line ""
 	text_ram wStringBuffer5
-	text "..."
+	text "…"
 
 	para "¡Tienes que venir"
 	line "para un combate!"
@@ -93,7 +93,7 @@ WiltonWantThisText:
 
 	para "En "
 	text_ram wStringBuffer5
-	text "..."
+	text "…"
 	line "¡Solo ve desde"
 
 	para "Caoba hacia En-"

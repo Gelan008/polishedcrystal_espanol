@@ -200,7 +200,7 @@ DayCareLyraHelloText:
 
 	para "Abuela: Ajá."
 
-	para "Así que es tu..."
+	para "Así que es tu…"
 	line ""
 	text_ram wStringBuffer3
 	text "."
@@ -210,13 +210,13 @@ DayCareLyraHelloText:
 
 DayCareLyraProtestText:
 	text "Lira: ¡¿Qué?!"
-	line "¡Abuela...!"
+	line "¡Abuela…!"
 
 	para "¿De qué estás"
 	line "hablando?"
 
 	para "<PLAYER> solo"
-	line "vive cerca..."
+	line "vive cerca…"
 
 	para "Abuela: Jajaja."
 	line "Lo sé, lo sé."

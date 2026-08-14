@@ -2,7 +2,7 @@ ReenaAnswerPhoneText:
 	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Oh. Hola, <PLAYER>"
 	line "¿Qué pasa?"
@@ -12,7 +12,7 @@ ReenaAnswerPhoneDayText:
 	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Oh. Hola, <PLAYER>"
 	line "¿qué pasa?"
@@ -22,7 +22,7 @@ ReenaAnswerPhoneNiteText:
 	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Oh. Hola, <PLAYER>"
 	line "¿qué pasa?"
@@ -60,7 +60,7 @@ ReenaGenericText:
 	line "tus #mon?"
 
 	para "¿Qué? ¿Genial?"
-	line "Ya veo..."
+	line "Ya veo…"
 
 	para "¿Qué? ¿Mis #mon?"
 

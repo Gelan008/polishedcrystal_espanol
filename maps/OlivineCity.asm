@@ -140,10 +140,11 @@ OlivineCityYoungster1Script:
 	iffalse_jumptextfaceplayer OlivineCityStandingYoungsterPokedexText
 	jumpthistextfaceplayer
 
-	text "That thing you"
-	line "have--it's a #-"
-	cont "gear, right? Wow,"
-	cont "that's cool."
+	text "Eso que tienes…"
+	line "¿es un #gear,"
+
+	para "¿a que sí? ¡Hala,"
+	line "cómo mola!"
 	done
 
 OlivineCityPokefanMScript:
@@ -151,11 +152,11 @@ OlivineCityPokefanMScript:
 	iffalse_jumptextfaceplayer OlivineCityPokefanMText
 	jumpthistextfaceplayer
 
-	text "Fast Ship S.S.Aqua"
-	line "sails to Kanto on"
+	text "Barco S.S. Aqua"
+	line "viaja a Kanto los"
 
-	para "Mondays and Fri-"
-	line "days."
+	para "lunes y los"
+	line "viernes."
 	done
 
 OlivineCityPanUpMovementData:
@@ -198,249 +199,246 @@ OlivineCityMovementData_RivalLeavesLighthouse:
 OlivineCityRivalGymText:
 	text "…"
 
-	para "You again?"
+	para "¿Tú otra vez?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "No te asustes. No"
+	line "pierdo el tiempo"
 
-	para "bother with wimps"
-	line "like you."
+	para "con cobardes como"
+	line "tú."
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "Hablando de débi-"
+	line "les, la Líder de"
 
-	para "Gym Leader isn't"
-	line "here."
+	para "este Gimnasio no"
+	line "está."
 
-	para "Supposedly taking"
-	line "care of a sick"
+	para "Dicen que está"
+	line "cuidando de un"
 
-	para "#mon at the"
-	line "Lighthouse."
+	para "#mon enfermo en"
+	line "el Faro."
 
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#mon go!"
+	para "¡Bah! ¡Menuda"
+	line "bobada! ¡Debería"
+	cont "abandonarlo!"
 
-	para "A #mon that"
-	line "can't battle is"
-	cont "worthless!"
+	para "¡Un #mon que no"
+	line "puede luchar no"
+	cont "sirve para nada!"
 
-	para "Why don't you go"
-	line "train at the"
-	cont "Lighthouse?"
+	para "¿Por qué no vas"
+	line "a entrenar al"
+	cont "Faro?"
 
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
+	para "Quién sabe… ¡A lo"
+	line "mejor te vuelves"
+	cont "menos endeble!"
 	done
 
 OlivineCityRivalLighthouseText:
 	text "…"
 
-	para "You again?"
+	para "¿Tú otra vez?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "No te asustes. No"
+	line "pierdo el tiempo"
 
-	para "bother with wimps"
-	line "like you."
+	para "con cobardes como"
+	line "tú."
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "Hablando de débi-"
+	line "les, la Líder"
 
-	para "Gym Leader is"
-	line "taking care of a"
+	para "está cuidando a un"
+	line "#mon enfermo en"
+	cont "el Faro."
 
-	para "sick #mon in"
-	line "the Lighthouse."
+	para "¡Bah! ¡Menuda"
+	line "bobada! ¡Debería"
+	cont "abandonarlo!"
 
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#mon go!"
+	para "¡Un #mon que no"
+	line "puede luchar no"
+	cont "sirve para nada!"
 
-	para "A #mon that"
-	line "can't battle is"
-	cont "worthless!"
+	para "¿Por qué no vas"
+	line "a entrenar dentro?"
 
-	para "Why don't you go"
-	line "train inside?"
-
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
+	para "Quién sabe… ¡A lo"
+	line "mejor te vuelves"
+	cont "menos endeble!"
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, you have a"
+	text "¡Hala, tienes una"
 	line "#dex!"
 
-	para "That is just so"
-	line "awesome."
+	para "Es una auténtica"
+	line "pasada."
 	done
 
 OlivineCitySailor1Text:
-	text "Dark roads are"
-	line "dangerous at"
-	cont "night."
+	text "Los caminos oscu-"
+	line "ros son peligro-"
+	cont "sos de noche."
 
-	para "But in the pitch-"
-	line "black of night,"
+	para "¡Pero en la más"
+	line "absoluta oscuri-"
 
-	para "the sea is even"
-	line "more treacherous!"
+	para "dad, el mar es aú-"
+	line "n más traicionero!"
 
-	para "Without the beacon"
-	line "of the Lighthouse"
+	para "Sin la luz guía"
+	line "del Faro, ningún"
 
-	para "to guide it, no"
-	line "ship can sail."
+	para "barco podría"
+	line "navegar."
 	done
 
 OlivineCitySailor2Text:
-	text "The sea is sweet!"
+	text "¡El mar es vida!"
 
-	para "Sunsets on the sea"
-	line "are marvelous!"
+	para "¡Las puestas de"
+	line "sol sobre el mar"
+	cont "son maravillosas!"
 
-	para "Sing with me!"
-	line "♪ Yo-ho! Blow the"
-	cont "man down!… ♪"
+	para "¡Canta conmigo!"
+	line "♪ ¡Ron, ron, ron,"
+	cont "la botella de ron! ♪"
 	done
 
 OlivineCityFisherText:
-	text "You remind me of"
-	line "a kid who used to"
-	cont "live here."
+	text "Me recuerdas a un"
+	line "chico que solía"
+	cont "vivir aquí."
 
-	para "The family moved"
-	line "away when their"
+	para "Su familia se mudó"
+	line "cuando su padre se"
 
-	para "father became a"
-	line "Gym Leader in"
-	cont "another region."
+	para "convirtió en Líder"
+	line "de Gimnasio en"
+	cont "Hoenn."
 	done
 
 OlivineCitySailor3Text:
-	text "To see the Light-"
-	line "house illuminate"
+	text "Ver el Faro ilumi-"
+	line "nando el mar por"
 
-	para "the sea at night--"
-	line "it's beautiful!"
+	para "la noche… ¡es de"
+	line "lo más bello!"
 	done
 
 OlivineCityPokefanFText:
-	text "Have you been to"
-	line "Olivine Café?"
+	text "¿Has estado en el"
+	line "Café Olivo?"
 
-	para "The food is"
-	line "delicious."
+	para "La comida está"
+	line "deliciosa."
 	done
 
 OlivineCityPokefanMText:
-	text "Most trainers who"
-	line "visit Olivine head"
+	text "Muchos entrenado-"
+	line "res que vienen a"
 
-	para "straight for the"
-	line "Battle Tower."
+	para "Ciudad Olivo van"
+	line "directos a la"
+	cont "Torre Batalla."
 
-	para "Only the best can"
-	line "compete there."
+	para "Allí solo compiten"
+	line "los mejores."
 	done
 
 OlivineCitySailor4Text:
-	text "♪ A home like"
-	line "O-li-vine,"
+	text "♪ Un ho-gar como"
+	line "Ciu-dad O-li-vo,"
 
-	para "I'm so hap-py I"
-	line "can call you mine,"
+	para "qué fe-liz soy"
+	line "de es-tar con-ti-go,"
 
-	para "Next to the deep"
-	line "blue brine,"
+	para "jun-to a la pro-"
+	line "fun-da mar a-zul,"
 
-	para "Ci-ty oh so"
-	line "di-vine,"
-
-	para "Shine bright my"
-	line "O-li-vine!… ♪"
+	para "¡ciu-dad di-vi-na,"
+	line "bri-lla tú!… ♪"
 	done
 
 OlivineCitySailor5Text:
-	text "Us sailors love"
-	line "a sing-song."
-	cont "Join in!"
+	text "A los marineros nos"
+	line "encanta cantar."
+	cont "¡Únete!"
 
-	para "♪ From off the"
-	line "plank,"
+	para "♪ Ca-yó del ta-blón"
+	line "el ma-ri-ne-ro,"
 
-	para "'twas then he"
-	line "thank,"
-
-	para "oh fiddle-dee"
-	line "fiddle-dee dee… ♪"
+	para "y se lo co-mió un"
+	line "bo-que-rón… ♪"
 	done
 
 OlivineCityLass1Text:
-	text "The sailors here"
-	line "may seem like a"
+	text "Los marineros de"
+	line "aquí pueden parecer"
 
-	para "handful, but"
-	line "they're harmless."
+	para "escandalosos, pero"
+	line "son inofensivos."
 	done
 
 OlivineCityYoungster2Text:
-	text "Sailors and camp-"
-	line "ers have something"
-	cont "in common:"
+	text "Marineros y cam-"
+	line "pistas tenemos"
+	cont "algo en común:"
 
-	para "we both like to"
-	line "sing!"
+	para "¡a ambos nos gusta"
+	line "cantar!"
 
-	para "But sailors' songs"
-	line "are really…"
-	cont "different."
+	para "Aunque los cantos"
+	line "marineros son…"
+	cont "muy distintos."
 	done
 
 OlivineCityLass2Text:
-	text "Yasmina, our Gym"
-	line "Leader, is a shy"
+	text "Yasmina, nuestra"
+	line "Líder de Gimnasio,"
 
-	para "girl. She's no"
-	line "pushover, mind!"
+	para "es una chica tími-"
+	line "da. ¡Pero ojo, no"
+	cont "es nada débil!"
 	done
 
 OlivineCitySignText:
-	text "Olivine City"
+	text "Ciudad Olivo"
 
-	para "The Port Closest"
-	line "to Foreign Lands"
+	para "Puerto de enlace"
+	line "con el extranjero"
 	done
 
 OlivineCityPortSignText:
-	text "Olivine Port"
-	line "Fast Ship Pier"
+	text "Puerto Olivo"
+	line "Muelle del Barco"
+	cont "Rápido"
 	done
 
 OlivineGymSignText:
-	text "Olivine City"
-	line "#mon Gym"
-	cont "Leader: Yasmina"
+	text "Gimnasio #mon"
+	line "de Ciudad Olivo"
+	cont "Líder: Yasmina"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "La chica de la"
+	line "defensa de acero"
 	done
 
 OlivineLighthouseSignText:
-	text "Olivine Lighthouse"
-	line "Also known as the"
-	cont "Glitter Lighthouse"
+	text "Faro de Olivo"
+	line "También conocido"
+	cont "como Faro Farol"
 	done
 
 OlivineCityBattleTowerSignText:
-	text "Battle Tower Ahead"
-	line "Opening Now!"
+	text "Torre Batalla"
+	line "más adelante"
+	cont "¡Ya abierta!"
 	done
 
 OlivineCityCafeSignText:
-	text "Olivine Café"
+	text "Café Olivo"
 	done

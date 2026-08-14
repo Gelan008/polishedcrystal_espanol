@@ -43,7 +43,7 @@ CeladonMansionRoofHousePharmacistScript:
 .IntroText:
 	text "Déjame contarte"
 	line "una historia"
-	cont "terrorífica..."
+	cont "terrorífica…"
 	done
 
 .NotNiteText:
@@ -63,16 +63,16 @@ CeladonMansionRoofHousePharmacistScript:
 
 	para "al que le regala-"
 	line "ron una nueva"
-	cont "Bici..."
+	cont "Bici…"
 
 	para "Él quería probarla"
-	line "inmediatamente..."
+	line "inmediatamente…"
 
 	para "Se estaba divir-"
 	line "tiendo tanto que"
 
 	para "no se dio cuenta"
-	line "de que anochecía.."
+	line "de que anochecía…"
 
 	para "De vuelta a casa"
 	line "en la oscura no-"
@@ -97,9 +97,9 @@ CeladonMansionRoofHousePharmacistScript:
 	para "tratara de arras-"
 	line "trarle al olvido!"
 
-	para "..."
+	para "…"
 
-	para "..."
+	para "…"
 
 	para "¡AAAAAAAAAAAAAAAA!"
 
@@ -108,7 +108,7 @@ CeladonMansionRoofHousePharmacistScript:
 	cont "riba por el Cami-"
 	cont "no de Bicis!"
 
-	para "..."
+	para "…"
 	line "¡Ba-dum ba-dum!"
 
 	para "Por escuchar tan"

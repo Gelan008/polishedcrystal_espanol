@@ -207,19 +207,19 @@ CeladonGameCornerPokemonVendor:
 CeladonGameCornerPrizeRoomGentlemanText:
 	text "Quería un Porygon,"
 	line "pero me faltaron"
-	cont "100 monedas..."
+	cont "100 monedas…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
-	text "Uf..."
+	text "Uf…"
 
 	para "Tengo que estar"
 	line "tranquilo y"
-	cont "calmado..."
+	cont "calmado…"
 
 	para "No puedo perder"
 	line "la cabeza, o per-"
-	cont "deré mi dinero..."
+	cont "deré mi dinero…"
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:

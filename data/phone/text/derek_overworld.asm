@@ -32,11 +32,11 @@ DerekNumberAcceptedText:
 	done
 
 DerekNumberDeclinedText:
-	text "Tú..."
+	text "Tú…"
 
 	para "Seguro que ni"
 	line "siquiera te gusta"
-	cont "Pikachu..."
+	cont "Pikachu…"
 	done
 
 DerekPhoneFullText:

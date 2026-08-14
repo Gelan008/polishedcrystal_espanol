@@ -95,7 +95,7 @@ CeladonUniversity1FYoungsterText:
 
 CeladonUniversity1FChildText:
 	text "¡Uf! No encuen-"
-	line "tro mi clase..."
+	line "tro mi clase…"
 
 	para "¡Llegaré tarde!"
 	done

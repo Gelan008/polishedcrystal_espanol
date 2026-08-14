@@ -26,7 +26,7 @@ PokemonJournalClairScript:
 
 	text "Diario #mon"
 
-	para "Reportaje especial"
+	para "Edición especial:"
 	line "¡Líder Débora!"
 
 	para "El traje y la capa"
@@ -49,7 +49,7 @@ ProfOaksAide4Script:
 	iftruefwd .HereYouGo
 	jumpthisopenedtext
 
-	text "Veamos..."
+	text "Veamos…"
 	line "¡Vaya! Solo has"
 
 	para "atrapado "
@@ -101,7 +101,7 @@ ProfOaksAide4Script:
 	done
 
 .HereYouGoText:
-	text "Veamos..."
+	text "Veamos…"
 	line "¡Buen trabajo! Has"
 
 	para "atrapado "

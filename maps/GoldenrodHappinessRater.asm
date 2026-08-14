@@ -141,7 +141,7 @@ GoldenrodHappinessRaterTeacherText:
 	text "¿Oh? A ver tu"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 	done
 
 GoldenrodHappinessRaterPokefanMText:
@@ -149,12 +149,12 @@ GoldenrodHappinessRaterPokefanMText:
 	line "combates, y mis"
 
 	para "#mon acaban"
-	line "debilitándose..."
+	line "debilitándose…"
 
 	para "A lo mejor por"
 	line "eso a mis #mon"
 	cont "no les caigo muy"
-	cont "bien..."
+	cont "bien…"
 	done
 
 GoldenrodHappinessRaterTwinText:

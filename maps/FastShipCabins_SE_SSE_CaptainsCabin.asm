@@ -218,7 +218,7 @@ SSAquaCaptainHowDoYouLikeText:
 	done
 
 SSAquaCantFindGranddaughterText:
-	text "Oh, hola..."
+	text "Oh, hola…"
 
 	para "Aún no puedo en-"
 	line "contrar a mi nieta"
@@ -266,7 +266,7 @@ SSAquaGranddaughterHasToFindGrandpaText:
 	text "¡Hola! ¿Jugarás"
 	line "conmigo?"
 
-	para "...¡Ah!"
+	para "…¡Ah!"
 
 	para "¿Mi abuelo está"
 	line "preocupado por mí?"
@@ -328,7 +328,7 @@ PsychicRodneySeenText:
 	done
 
 PsychicRodneyBeatenText:
-	text "...¡Oigo algo!"
+	text "…¡Oigo algo!"
 	done
 
 PokefanmJeremySeenText:
@@ -346,7 +346,7 @@ PokefanmJeremyBeatenText:
 PokefanfGeorgiaSeenText:
 	text "Voy a comprar en"
 	line "el Centro Comer-"
-	cont "cial y luego..."
+	cont "cial y luego…"
 	done
 
 PokefanfGeorgiaBeatenText:

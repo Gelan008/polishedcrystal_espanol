@@ -28,7 +28,7 @@ WiltonNumberAcceptedText:
 	done
 
 WiltonNumberDeclinedText:
-	text "De acuerdo..."
+	text "De acuerdo…"
 	line "Vuelve si cambias"
 	cont "de opinión."
 	done

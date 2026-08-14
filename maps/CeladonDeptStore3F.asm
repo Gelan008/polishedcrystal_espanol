@@ -58,7 +58,7 @@ CeladonDeptStore3FTutorCounterScript:
 	jumpthisopenedtext
 
 	text "No tienes ningu-"
-	line "na Hoja Plata..."
+	line "na Hoja Plata…"
 	done
 
 .TeachMove
@@ -268,7 +268,7 @@ CeladonDeptStore3FYoungsterText:
 	text "No puedo decidir"
 	line "en qué #mon"
 
-	para "usar esta MT..."
+	para "usar esta MT…"
 
 	para "Menos mal que no"
 	line "se gastan."

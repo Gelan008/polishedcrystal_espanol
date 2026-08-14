@@ -47,7 +47,7 @@ SkierMariaBeatenText:
 	done
 
 BoarderStefanSeenText:
-	text "¡Brrr... Hace"
+	text "¡Brrr… Hace"
 	line "mucho frío!"
 
 	para "¡Entremos en calor"
@@ -58,5 +58,5 @@ BoarderStefanSeenText:
 BoarderStefanBeatenText:
 	text "Este frío es la"
 	line "vergüenza de per-"
-	cont "der..."
+	cont "der…"
 	done

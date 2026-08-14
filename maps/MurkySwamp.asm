@@ -73,76 +73,78 @@ MurkySwampCherylScript:
 	end
 
 .ChallengeText:
-	text "Hello, my name's"
+	text "Hola, me llamo"
 	line "Malta."
-	cont "And you are…?"
+	cont "¿Y tú eres…?"
 
-	para "OK, so your name"
-	line "is <PLAYER>."
+	para "Vale, conque te"
+	line "llamas <PLAYER>."
 
-	para "I'm sincerely glad"
-	line "to meet you."
+	para "Me alegro mucho de"
+	line "conocerte."
 
-	para "I'm afraid of the"
-	line "ghosts in this"
-	cont "swamp, so how"
+	para "Me dan miedo los"
+	line "fantasmas de este"
 
-	para "about a battle to"
-	line "ward them off?"
+	para "pantano, ¿qué tal"
+	line "un combate para"
+	cont "ahuyentarlos?"
 	done
 
 .YesText:
-	text "I should warn you,"
-	line "my #mon can be"
-	cont "quite rambunc-"
-	cont "tious."
+	text "Debo advertirte"
+	line "de que mis #mon"
+
+	para "son bastante"
+	line "alborotadores."
 	done
 
 .NoText:
-	text "Oh, but my #mon"
-	line "were itching for"
-	cont "a battle…"
+	text "Vaya, y mis #mon"
+	line "que tenían tantas"
+
+	para "ganas de luchar…"
 	done
 
 .BeatenText:
-	text "Striking the right"
-	line "balance of offense"
-	cont "and defense…"
+	text "Hallar el equili-"
+	line "brio entre ataque"
+	cont "y defensa…"
 
-	para "It's not easy"
-	line "to do."
+	para "no es nada fácil."
 	done
 
 .ItemText:
-	text "Thank you,"
+	text "¡Muchas gracias,"
 	line "<PLAYER>!"
 
-	para "Now I can confi-"
-	line "dently get through"
-	cont "this swamp."
+	para "Ahora podré cruzar"
+	line "este pantano con"
+	cont "seguridad."
 
-	para "It reminds me of a"
-	line "forest far away…"
+	para "Me recuerda a un"
+	line "bosque muy lejano…"
 
-	para "Oh, this is my"
-	line "token of appreci-"
-	cont "ation."
+	para "¡Ah! Esto es una"
+	line "muestra de mi"
+	cont "agradecimiento."
 
-	para "Please accept it!"
+	para "¡Acéptalo, por"
+	line "favor!"
 	done
 
 .GoodbyeText:
-	text "I'm heading to the"
-	line "Battle Tower near"
-	cont "Olivine City."
+	text "Me dirijo a la"
+	line "Torre Batalla,"
+	cont "en Ciudad Olivo"
 
-	para "Have you heard of"
-	line "it?"
+	para "¿Has oído hablar"
+	line "de ella?"
 
-	para "Perhaps we'll meet"
-	line "again there!"
+	para "¡Quizá volvamos a"
+	line "vernos allí!"
 
-	para "Bye for now!"
+	para "¡Hasta luego!"
 	done
 
 MurkySwampNurseBeatriceScript:
@@ -167,28 +169,29 @@ MurkySwampNurseBeatriceScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "All better now!"
+	text "¡Ya estoy mejor!"
 	done
 
 .SeenText:
-	text "I'm a Nurse!"
+	text "¡Soy Enfermera!"
 
-	line "Defeat me and I'll"
-	cont "heal your #mon!"
+	para "¡Vénceme y curaré"
+	line "a tus #mon!"
 	done
 
 .BeatenText:
-	text "But first I need"
-	line "to heal my own"
-	cont "#mon…"
+	text "Pero antes tendré"
+	line "que curar a mis"
+	cont "propios #mon…"
 	done
 
 .AfterText:
-	text "Making #mon"
-	line "feel better--"
+	text "Hacer que los"
+	line "#mon se sientan"
+	cont "mejor…"
 
-	para "that's why I"
-	line "came here!"
+	para "¡por eso vine"
+	line "aquí!"
 	done
 
 MurkySwampBloodmoonUrsaluna:
@@ -215,127 +218,129 @@ MurkySwampBloodmoonUrsaluna:
 	end
 
 BloodmoonUrsalunaText:
-	text "Wa-gaaah!"
+	text "¡Ua-gaaah!"
 	done
 
 GenericTrainerBug_catcherOscar:
 	generictrainer BUG_CATCHER, OSCAR, EVENT_BEAT_BUG_CATCHER_OSCAR, .SeenText, .BeatenText
 
-	text "I came here to"
-	line "find bugs!"
+	text "¡Vine aquí a bus-"
+	line "car bichos!"
 
-	para "Nobody warned me"
-	line "about ghosts!"
+	para "¡Nadie me avisó de"
+	line "los fantasmas!"
 	done
 
 .SeenText:
-	text "G-g-g-ghost!"
+	text "¡F-f-f-fantasma!"
 	done
 
 .BeatenText:
-	text "Get me outta here!"
+	text "¡Sacadme de aquí!"
 	done
 
 GenericTrainerHex_maniacMatilda:
 	generictrainer HEX_MANIAC, MATILDA, EVENT_BEAT_HEX_MANIAC_MATILDA, .SeenText, .BeatenText
 
-	text "So off into the"
-	line "trees I stroll,"
+	text "Entre los árboles"
+	line "vagaré sin fin,"
 
-	para "to lose my mind"
-	line "and find my soul."
+	para "perder el juicio"
+	line "y mi alma abrir."
 	done
 
 .SeenText:
-	text "Within the dark-"
-	line "ness, vast and"
-	cont "deep, I offer you"
-	cont "eternal sleep."
+	text "En la penumbra,"
+	line "honda y sin par,"
+
+	para "el sueño eterno"
+	line "te voy a dar."
 	done
 
 .BeatenText:
-	text "Fufufufu…"
+	text "Uf, uf, uf, uf…"
 	done
 
 GenericTrainerFirebreatherOleg:
 	generictrainer FIREBREATHER, OLEG, EVENT_BEAT_FIREBREATHER_OLEG, .SeenText, .BeatenText
 
-	text "It's cold and dark"
-	line "without a fire…"
+	text "Hace frío y está"
+	line "oscuro sin fuego…"
 	done
 
 .SeenText:
-	text "I want to light a"
-	line "fire… but would it"
+	text "Quiero encender un"
+	line "fuego… pero ¿y si"
 
-	para "ignite the swamp"
-	line "gas and blow up?"
+	para "prende el gas del"
+	line "pantano y explota?"
 
-	para "It's too risky!"
+	para "¡Es muy arriesga-"
+	line "do!"
 	done
 
 .BeatenText:
-	text "I risked and lost!"
+	text "¡Arriesgué y perdí!"
 	done
 
 GenericTrainerLassAbigail:
 	generictrainer LASS, ABIGAIL, EVENT_BEAT_LASS_ABIGAIL, .SeenText, .BeatenText
 
-	text "The rumor is that"
-	line "a strange red orb"
-	cont "can be seen,"
+	text "Se rumorea que se"
+	line "ve un extraño orbe"
+	cont "rojo,"
 
-	para "glowing like a"
-	line "blood moon."
+	para "que brilla como"
+	line "una luna carmesí."
 
-	para "That sounds scary."
+	para "Suena terrorífico."
 	done
 
 .SeenText:
-	text "People are scared"
-	line "to go deep into"
-	cont "the swamp."
+	text "A la gente le da"
+	line "miedo adentrarse"
+	cont "en el pantano."
 	done
 
 .BeatenText:
-	text "Eek!"
+	text "¡Iiiik!"
 	done
 
 GenericTrainerPokemaniacEnzo:
 	generictrainer POKEMANIAC, ENZO, EVENT_BEAT_POKEMANIAC_ENZO, .SeenText, .BeatenText
 
-	text "I don't think"
-	line "Gastly can make"
+	text "No creo que Gastly"
+	line "pueda emitir una"
 
-	para "a red light like"
-	line "what I saw."
+	para "luz roja como la"
+	line "que yo vi."
 
-	para "What could it be?"
+	para "¿Qué podrá ser?"
 	done
 
 .SeenText
-	text "I saw a weird red"
-	line "light in the trees"
+	text "¡Vi una extraña"
+	line "luz roja entre los"
 
-	para "while looking for"
-	line "rare #mon!"
+	para "árboles mientras"
+	line "buscaba #mon"
+	cont "raros!"
 	done
 
 .BeatenText
-	text "You have nothing"
-	line "to be afraid of."
+	text "No tienes nada que"
+	line "temer."
 	done
 
 MurkySwampPokemaniacText:
-	text "This close to the"
-	line "coast, the land"
+	text "Tan cerca de la"
+	line "costa, la tierra"
 
-	para "becomes soaked"
-	line "with water."
+	para "se empapa de agua."
 
-	para "But the rare #-"
-	line "mon here make it"
+	para "¡Pero los #mon"
+	line "raros que hay aquí"
 
-	para "worth exploring"
-	line "anyway!"
+	para "hacen que valga la"
+	line "pena explorar!"
 	done

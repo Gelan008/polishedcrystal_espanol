@@ -39,7 +39,7 @@ AnthonyLostAMonText:
 
 	para ""
 	text_ram wStringBuffer4
-	line "el otro día..."
+	line "el otro día…"
 
 	para "Huyó cuando me"
 	line "distraje con una"

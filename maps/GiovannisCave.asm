@@ -96,7 +96,7 @@ GiovannisCaveRadioScript:
 	jumpthistext
 
 	text "Hay una radio que"
-	line "ya no funciona..."
+	line "ya no funciona…"
 	done
 
 GiovannisCaveRadioAfterTimeTravelText:
@@ -105,7 +105,7 @@ GiovannisCaveRadioAfterTimeTravelText:
 
 	para "Giovanni debe ha-"
 	line "berla dejado"
-	cont "aquí..."
+	cont "aquí…"
 	done
 
 GiovannisCave_GiovanniStepsBackMovementData:
@@ -150,7 +150,7 @@ GiovannisCave_CelebiFloatsMovementData:
 	step_end
 
 GiovannisCaveGiovanniIntroText:
-	text "..."
+	text "…"
 
 	para "No sé por qué has"
 	line "venido aquí,"
@@ -170,7 +170,7 @@ GiovannisCaveGiovanniIntroText:
 
 GiovannisCaveGiovanniMemoriesText:
 	text "Me suenas de algo."
-	line "..."
+	line "…"
 
 	para "¡Me acuerdo de ti!"
 
@@ -182,7 +182,7 @@ GiovannisCaveGiovanniMemoriesText:
 	line "todos nuestros"
 	cont "problemas primero!"
 
-	para "..."
+	para "…"
 
 	para "Voy de camino a"
 	line "Ciudad Trigal para"
@@ -198,8 +198,8 @@ GiovannisCaveGiovanniMemoriesText:
 
 GiovannisCaveLyraQuestionsText:
 	text "Lira: ¿Hace tres"
-	line "años...? ¿Ciudad"
-	cont "Trigal...?"
+	line "años…? ¿Ciudad"
+	cont "Trigal…?"
 	done
 
 GiovannisCaveLyraRecognizesGiovanniText:
@@ -213,11 +213,11 @@ GiovannisCaveLyraRecognizesGiovanniText:
 
 	para "<PLAYER>, ¿cuándo"
 	line "te encontraste con"
-	cont "Giovanni antes...?"
+	cont "Giovanni antes…?"
 	done
 
 GiovannisCaveBroadcastText:
-	text "... ...Ejem, ¡so-"
+	text "…Ejem, ¡so-"
 	line "mos el Team"
 	cont "Rocket!"
 	cont "¡Tras tres años de"
@@ -234,17 +234,17 @@ GiovannisCaveBroadcastText:
 	line "ket ha ocupado la"
 
 	para "Torre Radio ahora"
-	line "mismo..."
+	line "mismo…"
 
 	para "Tú estás allí,"
 	line "pero también estás"
-	cont "aquí..."
+	cont "aquí…"
 	done
 
 GiovannisCaveGiovanniIMustGoText:
 	text "Giovanni: Mis vie-"
 	line "jos socios me"
-	cont "necesitan..."
+	cont "necesitan…"
 
 	para "¡No repetiremos el"
 	line "fracaso de hace"
@@ -256,12 +256,12 @@ GiovannisCaveGiovanniIMustGoText:
 	para "Lira: ¡Ja!"
 	line "¡<PLAYER> ya te ha"
 	cont "detenido!"
-	cont "...Te detendrá."
+	cont "…Te detendrá."
 
 	para "¿Te habrá"
-	line "detenido...?"
+	line "detenido…?"
 
-	para "...¡Viajar en el"
+	para "…¡Viajar en el"
 	line "tiempo es confuso!"
 
 	para "Giovanni: ¡Basta"
@@ -277,11 +277,11 @@ GiovannisCaveGiovanniBeatenText:
 
 GiovannisCaveGiovanniAfterText:
 	text "Giovanni: ¿Cómo es"
-	line "esto posible...?"
+	line "esto posible…?"
 
 	para "¿Los últimos tres"
 	line "años han sido en"
-	cont "vano...?"
+	cont "vano…?"
 
 	para "¿Cómo puede un ni-"
 	line "ño como tú lograr"
@@ -291,13 +291,13 @@ GiovannisCaveGiovanniAfterText:
 	done
 
 GiovannisCaveBroadcastAfterText:
-	text "... ...¡Eh! ¿A"
+	text "…¡Eh! ¿A"
 	line "dónde ha ido"
 	cont "Giovanni?"
 	cont "Me pregunto si"
 	cont "está escuchando"
 	cont "nuestra emi-"
-	cont "sión... ..."
+	cont "sión…"
 	done
 
 GiovannisCaveLyraFeelsSorryText:
@@ -316,7 +316,7 @@ GiovannisCaveLyraFeelsSorryText:
 
 GiovannisCaveLyraWantsToLeaveText:
 	text "Lira: ¡Otra vez"
-	line "no...! ¡Ya tengo"
+	line "no…! ¡Ya tengo"
 	cont "suficiente!"
 
 	para "¡Por favor, déja-"

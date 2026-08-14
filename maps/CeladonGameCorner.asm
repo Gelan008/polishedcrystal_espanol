@@ -195,7 +195,7 @@ CeladonGameCornerRichBoyTobin:
 
 .BeatenText:
 	text "No me vi venir"
-	line "eso..."
+	line "eso…"
 	done
 
 .AfterScript
@@ -275,7 +275,7 @@ CeladonGameCornerTeacherText:
 CeladonGameCornerFishingGuruText:
 	text "Creo que esta ma-"
 	line "quina dará un pre-"
-	cont "mio..."
+	cont "mio…"
 
 	para "Las probabilida-"
 	line "des varían entre"
@@ -360,16 +360,16 @@ CeladonGymGuyText:
 	cont "#mon de premio."
 
 	para "Pero aún no tengo"
-	line "suficientes..."
+	line "suficientes…"
 	done
 
 CeladonGameCornerGrampsText:
-	text "Hmmm... Seguro que"
+	text "Mmmm… Seguro que"
 	line "hay más probabil-"
 
 	para "idades en la fila"
 	line "de Pikachu, pe-"
-	cont "ro... ¿Qué hacer?"
+	cont "ro… ¿Qué hacer?"
 	done
 
 CeladonGameCornerPosterScript:
@@ -408,10 +408,10 @@ CeladonGameCornerLighterText:
 
 CeladonGameCornerSodaCanText:
 	text "Una lata de re-"
-	line "fresco..."
+	line "fresco…"
 
 	para "Alguien debe de"
-	line "volver pronto..."
+	line "volver pronto…"
 
 	para "¿Eh? ¡Está vacía!"
 	done

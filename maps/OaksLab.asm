@@ -126,9 +126,10 @@ Oak:
 .NoShinyCharm
 	jumpthisopenedtext
 
-	text "If you're in the"
-	line "area, I hope you"
-	cont "come visit again."
+	text "Si te pásas por la"
+	line "zona, espero que"
+	cont "vuelvas a visitar-"
+	cont "me."
 	done
 
 .BattleOak:
@@ -192,385 +193,396 @@ EeveeDollScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Prof.Oak: Set it"
-	line "somewhere you can"
-	cont "appreciate it!"
+	text "Prof. Oak: Ponlo"
+	line "en un lugar donde"
+	cont "puedas apreciarlo."
 	done
 
 OakWelcomeKantoText:
-	text "Oak: Ah, <PLAYER>!"
-	line "It's good of you"
+	text "Oak: ¡Ah, <PLAYER>!"
+	line "Me alegra que"
 
-	para "to come all this"
-	line "way to Kanto."
+	para "hayas venido desde"
+	line "tan lejos a Kanto."
 
-	para "What do you think"
-	line "of the trainers"
+	para "¿Qué te parecen"
+	line "los entrenadores"
 
-	para "out here?"
-	line "Pretty tough, huh?"
+	para "de aquí?"
+	line "Son duros, ¿eh?"
 	done
 
 OakLabGiveStarterText:
-	text "Oak: Oh, so Prof."
-	line "Ivy says hello?"
+	text "Oak: ¡Vaya, conque"
+	line "la Prof. Ivy me"
+	cont "manda recuerdos!"
 
-	para "Thanks for convey-"
-	line "ing her message,"
+	para "Gracias por trans-"
+	line "mitir su mensaje,"
 	cont "<PLAYER>."
 
-	para "She's a good friend"
-	line "of mine."
+	para "Es una muy buena"
+	line "amiga mía."
 
-	para "If she gave you a"
-	line "#mon, let me do"
-	cont "the same!"
+	para "Si ella te dio un"
+	line "#mon, ¡deja que"
+	cont "haga lo mismo!"
 
-	para "You don't see this"
-	line "#mon very often"
-	cont "in Kanto or Johto."
+	para "No se suele ver a"
+	line "este #mon por"
+	cont "Kanto ni Johto."
 	done
 
 OakLabPartyAndBoxFullText:
-	text "Hm, you don't have"
-	line "room for it, and"
-	line "your Box is full."
+	text "Mmm, no tienes"
+	line "sitio en tu equipo"
+	cont "y la Caja está"
+	cont "llena."
 	done
 
 OakLabDexCheckText:
-	text "How is your #-"
-	line "dex coming?"
+	text "¿Cómo va esa"
+	line "#dex?"
 
-	para "Let's see…"
+	para "A ver…"
 	done
 
 OakLabCatchMoreText:
-	text "I want to thank"
-	line "you for being of"
+	text "Quiero darte las"
+	line "gracias por tu"
 
-	para "such help with"
-	line "filling out the"
-	cont "#dex."
+	para "gran ayuda al com-"
+	line "pletar la #dex."
 
-	para "Take this as a"
-	line "reward for your"
-	cont "hard work!"
+	para "¡Toma esto como"
+	line "recompensa por tu"
+	cont "esfuerzo!"
 	done
 
 OakLabCatchCharmText:
-	text "Holding a Catch"
-	line "Charm will improve"
+	text "Llevar el Amuleto"
+	line "Captura aumentará"
 
-	para "your chances of a"
-	line "critical capture."
+	para "tus opciones de"
+	line "lograr una captura"
+	cont "crítica."
 
-	para "That's when your"
-	line "# Ball is"
+	para "¡Es cuando lanzas"
+	line "la # Ball justo"
 
-	para "thrown just right"
-	line "and is more likely"
-	cont "to succeed!"
+	para "en el punto exacto"
+	line "y es más fácil que"
+	cont "tenga éxito!"
 	done
 
 OakLabSeenAllText:
-	text "You've been meeting"
-	line "new #mon at a"
+	text "Has estado viendo"
+	line "nuevos #mon a"
 
-	para "good clip, haven't"
-	line "you?"
+	para "buen ritmo, ¿a que"
+	line "sí?"
 
-	para "Take this as a"
-	line "reward for your"
-	cont "hard work!"
+	para "¡Toma esto como"
+	line "recompensa por tu"
+	cont "esfuerzo!"
 	done
 
 OakLabOvalCharmText:
-	text "Holding an Oval"
-	line "Charm will improve"
+	text "Llevar el Amuleto"
+	line "Oval aumentará tus"
 
-	para "your chances of"
-	line "finding an Egg at"
-	cont "the Day-Care."
+	para "opciones de hallar"
+	line "un Huevo en la"
+	cont "Guardería."
 	done
 
 OakLabCaughtAllText:
-	text "I was completely"
-	line "justified in"
+	text "No me equivoqué en"
+	line "absoluto al confiar"
+	cont "en ti y darte esa"
+	cont "#dex."
 
-	para "giving you that"
-	line "#dex."
+	para "Es una prueba de"
+	line "tu esfuerzo…"
 
-	para "It is a testament"
-	line "to your effort…"
+	para "Y del apoyo de"
+	line "todos los que te"
+	cont "han ayudado…"
 
-	para "And to the support"
-	line "of the many who"
-	cont "helped you…"
+	para "¡Así como de los"
+	line "lazos que has for-"
+	cont "jado con tus"
+	cont "#mon!"
 
-	para "And to the bonds"
-	line "you have built"
-	cont "with your #mon!"
-
-	para "Take this as a"
-	line "reward for your"
-	cont "hard work!"
+	para "¡Toma esto como"
+	line "recompensa por tu"
+	cont "esfuerzo!"
 	done
 
 OakLabShinyCharmText:
-	text "Holding a Shiny"
-	line "Charm will improve"
+	text "Llevar el Amuleto"
+	line "Iris aumentará tus"
 
-	para "your chances of"
-	line "finding a shiny"
-	cont "#mon!"
+	para "probabilidades de"
+	line "hallar un #mon"
+	cont "variocolor."
 	done
 
-
 OakMightBeReadyText:
-	text "Oak: Incredible,"
+	text "Oak: ¡Increíble,"
 	line "<PLAYER>!"
 
-	para "You won against"
-	line "the Elite Four"
-	cont "a second time!"
+	para "¡Has vencido al"
+	line "Alto Mando por"
+	cont "segunda vez!"
 
-	para "You just might be"
-	line "ready to ascend"
-	cont "Mt.Silver."
+	para "Puede que ya"
+	line "estés a punto para"
+	cont "subir al Mnt."
+	cont "Plateado."
 	done
 
 OakChallengeText:
-	text "Oak: Mt.Silver is"
-	line "a tall mountain"
+	text "Oak: El Monte"
+	line "Plateado es una"
 
-	para "that is home to"
-	line "many wild #mon."
+	para "gran montaña donde"
+	line "viven multitud de"
+	cont "#mon salvajes."
 
-	para "It's too dangerous"
-	line "for your average"
+	para "Es un lugar dema-"
+	line "siado peligroso"
 
-	para "trainer, so it's"
-	line "off limits."
+	para "para cualquier en-"
+	line "trenador común, y"
+	cont "está restringido."
 
-	para "I'll need to see"
-	line "your skills for"
-	cont "myself."
+	para "Tendré que com-"
+	line "probar tu nivel"
+	cont "yo mismo."
 
-	para "Are you ready for"
-	line "a battle?"
+	para "¿Todo a punto para"
+	line "un combate?"
 	done
 
 OakRefusedText:
-	text "Oak: Come back"
-	line "when you're ready."
+	text "Oak: Vuelve"
+	line "cuando estés a"
+	cont "punto."
 	done
 
 OakSeenText:
-	text "Oak: Put every-"
-	line "thing you have"
-	cont "into this battle!"
+	text "Oak: ¡Ponlo todo"
+	line "en este combate!"
 	done
 
 OakWinText:
-	text "I was right in my"
-	line "assessment of you!"
+	text "¡No me equivoqué"
+	line "en mi juicio sobre"
+	cont "ti!"
 	done
 
 OakOpenMtSilverText:
-	text "Oak: Spectacular,"
+	text "Oak: ¡Espectacular,"
 	line "<PLAYER>!"
 
-	para "I'll make arrange-"
-	line "ments so that you"
+	para "Haré los trámites"
+	line "necesarios para"
 
-	para "can go to Mt."
-	line "Silver."
+	para "que puedas ir al"
+	line "Mnt. Plateado."
 
-	para "It's unusual, but"
-	line "we can make an"
+	para "Es insólito, pero"
+	line "haremos una excep-"
 
-	para "exception in your"
-	line "case, <PLAYER>."
+	para "ción contigo,"
+	line "<PLAYER>."
 
-	para "Go up to Indigo"
-	line "Plateau. You can"
+	para "Sube a la Meseta"
+	line "Añil. Podrás lle-"
 
-	para "reach Mt.Silver"
-	line "from there."
+	para "gar al Mnt. Pla-"
+	line "teado desde allí."
 
 	para "…"
 
-	para "I let Rojo train on"
-	line "Mt.Silver after"
+	para "Dejé que Rojo en-"
+	line "trenara en el Mnt."
 
-	para "his first defeat"
-	line "as Champion."
+	para "Plateado tras su"
+	line "primera derrota"
+	cont "como Campeón."
 
-	para "But he hasn't"
-	line "come back…"
+	para "Pero aún no ha"
+	line "regresado…"
 	done
 
 OakNoKantoBadgesText:
-	text "Oak: Hmm? You're"
-	line "not collecting"
-	cont "Kanto Gym Badges?"
+	text "Oak: ¿Mmm? ¿No"
+	line "estás reuniendo"
 
-	para "The Gym Leaders in"
-	line "Kanto are as tough"
+	para "Medallas de Gimna-"
+	line "sio de Kanto?"
 
-	para "as any you battled"
-	line "in Johto."
+	para "Los Líderes de"
+	line "Gimnasio de Kanto"
 
-	para "I recommend that"
-	line "you challenge"
-	cont "them."
+	para "son tan duros como"
+	line "los que combatiste"
+	cont "en Johto."
+
+	para "Te recomiendo que"
+	line "los desafíes."
 	done
 
 OakNoEliteFourRematchText:
-	text "Oak: Wow! That's"
-	line "excellent!"
+	text "Oak: ¡Vaya! ¡Eso"
+	line "es excelente!"
 
-	para "You collected the"
-	line "Badges of Gyms in"
-	cont "Kanto. Well done!"
+	para "Has conseguido las"
+	line "Medallas de los"
 
-	para "Now you can cha-"
-	line "llenge the Elite"
+	para "Gimnasios de Kan-"
+	line "to. ¡Bien hecho!"
 
-	para "Four with their"
-	line "best #mon."
+	para "Ahora puedes desa-"
+	line "fiar al Alto Mando"
 
-	para "Keep trying hard,"
-	line "<PLAYER>!"
+	para "con sus mejores"
+	line "#mon."
+
+	para "¡Sigue esforzán-"
+	line "dote, <PLAYER>!"
 	done
 
 OakYesKantoBadgesText:
-	text "Oak: Ah, you're"
-	line "collecting Kanto"
-	cont "Gym Badges."
+	text "Oak: Ah, ya estás"
+	line "reuniendo Medallas"
+	cont "de Gimnasio."
 
-	para "I imagine that"
-	line "it's hard, but the"
+	para "Imagino que será"
+	line "duro, pero esa ex-"
 
-	para "experience is sure"
-	line "to help you."
+	para "periencia te ser-"
+	line "virá de ayuda."
 
-	para "After you earn all"
-	line "eight, you can"
-	cont "challenge the"
+	para "Cuando reúnas las"
+	line "ocho, podrás desa-"
 
-	para "Elite Four at"
-	line "their best."
+	para "fiar al Alto Mando"
+	line "en su máximo"
+	cont "esplendor."
 
-	para "Keep trying hard,"
-	line "<PLAYER>!"
+	para "¡Sigue esforzán-"
+	line "dote, <PLAYER>!"
 	done
 
 OaksAssistant1Text:
-	text "The Prof's #mon"
-	line "Talk radio program"
+	text "El programa de ra-"
+	line "dio La Hora"
 
-	para "isn't aired here"
-	line "in Kanto."
+	para "Oak no se emite"
+	line "aquí en Kanto."
 
-	para "It's a shame--I'd"
-	line "like to hear it."
+	para "Es una pena… me"
+	line "gustaría oírlo."
 	done
 
 OaksAssistant2Text:
-	text "Thanks to your"
-	line "work on the #-"
-	cont "dex, the Prof's"
+	text "Gracias a tu tra-"
+	line "bajo con la #-"
 
-	para "research is coming"
-	line "along great."
+	para "dex, la investiga-"
+	line "ción del Profesor"
+	cont "va viento en popa."
 	done
 
 OaksAssistant3Text:
-	text "Don't tell anyone,"
-	line "but Prof.Oak's"
+	text "No se lo digas a"
+	line "nadie, pero La"
 
-	para "La Hora Oak isn't"
-	line "a live broadcast."
+	para "Hora de Oak no se"
+	line "emite en directo."
 	done
 
 OaksLabPoster1Text:
-	text "Press Start to"
-	line "open the Menu."
+	text "Pulsa Start para"
+	line "abrir el Menú."
 	done
 
 OaksLabPoster2Text:
-	text "The Save option is"
-	line "on the Menu."
+	text "La opción Guardar"
+	line "está en el Menú."
 
-	para "Use it in a timely"
-	line "manner."
+	para "Úsala con frecuen-"
+	line "cia."
 	done
 
 OaksLabPCText:
-	text "There's an e-mail"
-	line "message on the PC."
+	text "Hay un e-mail en"
+	line "el PC."
 
 	para "…"
 
-	para "Prof.Oak, how is"
-	line "your research"
-	cont "coming along?"
+	para "Prof. Oak: ¿Cómo"
+	line "va su investiga-"
+	cont "ción?"
 
-	para "I'm still plugging"
-	line "away."
+	para "Yo sigo trabajando"
+	line "duro."
 
-	para "I heard rumors"
-	line "that <PLAYER> is"
+	para "Se rumorea que"
+	line "<PLAYER> se está"
 
-	para "getting quite a"
-	line "reputation."
+	para "labrando una gran"
+	line "reputación."
 
-	para "I'm delighted to"
-	line "hear that."
+	para "Me alegra mucho"
+	line "saberlo."
 
-	para "Elm in New Bark"
-	line "Town 8-)"
+	para "Elm, de Pueblo"
+	line "Primavera 8-)"
 	done
 
 ProfOakEeveeDollTradeText:
-	text "Oak: Oh, are you"
-	line "admiring my"
-	cont "Eevee Doll?"
+	text "Oak: ¡Oh! ¿Estás"
+	line "admirando mi Muñe-"
+	cont "co de Eevee?"
 
-	para "I'll trade it"
-	line "to you for an"
-	cont "Everstone."
+	para "Te lo cambiaré"
+	line "por una Piedra-"
+	cont "eterna."
 	done
 
 NoEverstoneText:
-	text "But you don't have"
-	line "one of those…"
+	text "Pero si no tienes"
+	line "ninguna…"
 	done
 
 WantToTradeText:
-	text "Do you want to"
-	line "trade?"
+	text "¿Quieres hacer el"
+	line "intercambio?"
 	done
 
 NoTradeText:
-	text "It will still be"
-	line "here if you change"
-	cont "your mind."
+	text "Seguirá aquí si"
+	line "cambias de opi-"
+	cont "nión."
 	done
 
 EeveeDollText:
-	text "<PLAYER> received"
-	line "Eevee Doll."
+	text "¡<PLAYER> recibió"
+	line "el Muñeco de"
+	cont "Eevee!"
 	done
 
 EeveeDollSentText:
-	text "Eevee Doll"
-	line "was sent home."
+	text "¡El Muñeco de"
+	line "Eevee se envió a"
+	cont "casa!"
 	done
 
-
 OaksLabPokedexText:
-	text "It's Prof.Oak's"
-	line "#dex."
+	text "Es la #dex del"
+	line "Prof. Oak."
 	done

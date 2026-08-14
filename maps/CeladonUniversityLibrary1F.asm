@@ -223,8 +223,8 @@ CeladonUniversityLibrary1FBookshelf6Text:
 	done
 
 CeladonUniversityLibrary1FBookshelf7Text:
-	text "Es un lib..."
-	line "espera..."
+	text "Es un lib…"
+	line "espera…"
 
 	para "¡Es un video-"
 	line "juego!"
@@ -265,7 +265,7 @@ CeladonUniversityLibrary1FBookshelf10Text:
 	para "Gelatina Jiggly-"
 	line "puff, Salsa de"
 	cont "Charmander, Sna-"
-	cont "cks de Munchlax..."
+	cont "cks de Munchlax…"
 	done
 
 CeladonUniversityLibrary1FBookshelf11Text:

@@ -190,16 +190,16 @@ MahoganyMart1FLanceApproachHiddenStairsMovement:
 MahoganyMart1FPharmacistText_LanceEntered:
 	text "¡Aaarg! Encontras-"
 	line "te la escalera"
-	cont "secreta..."
+	cont "secreta…"
 	done
 
 
 MahoganyMart1FBlackBeltText_LanceEntered:
-	text "Urrgh..."
+	text "Urrgh…"
 
 	para "Los #mon dra-"
 	line "gón de ese tipo"
-	cont "son muy duros..."
+	cont "son muy duros…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
@@ -265,7 +265,7 @@ PokemonJournalWillScript:
 
 	text "Revista #mon"
 
-	para "Reportaje sobre"
+	para "Edición sobre"
 	line "Mento, del"
 	cont "Alto Mando."
 

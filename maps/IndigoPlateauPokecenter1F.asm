@@ -214,28 +214,28 @@ PlateauRivalText1:
 	done
 
 PlateauRivalWinText:
-	text "..."
+	text "…"
 
-	para "Vale... Perdí..."
+	para "Vale… Perdí…"
 	done
 
 PlateauRivalText2:
-	text "...Maldición..."
+	text "…Maldición…"
 	line "Aún no puedo"
-	cont "ganar..."
+	cont "ganar…"
 
-	para "Yo... Tengo que"
+	para "Yo… Tengo que"
 	line "pensar más en"
-	cont "mis #mon..."
+	cont "mis #mon…"
 
 	para "¡Hum! ¡Intenta"
 	line "no perder!"
 	done
 
 PlateauRivalLoseText:
-	text "..."
+	text "…"
 
-	para "Fiu..."
+	para "Fiu…"
 	line "¡Con mis compa-"
 	cont "ñeros,"
 
@@ -256,7 +256,7 @@ PlateauLyraText1:
 	para "Sabes cómo es eso,"
 	line "<PLAYER>."
 
-	para "Y ahora..."
+	para "Y ahora…"
 
 	para "Aquí estoy, en la"
 	line "Meseta Añil."
@@ -278,11 +278,11 @@ PlateauLyraText2:
 PlateauLyraWinText:
 	text "Así que aún eres"
 	line "más fuerte que"
-	cont "yo..."
+	cont "yo…"
 	done
 
 PlateauLyraLoseText:
-	text "...¿He ganado?"
+	text "…¿He ganado?"
 	done
 
 PlateauLyraText3:
@@ -298,7 +298,7 @@ PlateauLyraText3:
 	cont "que fueran más"
 
 	para "fuertes de lo que"
-	line "creía posible..."
+	line "creía posible…"
 
 	para "Y pude combatir"
 	line "contigo dando"
@@ -331,7 +331,7 @@ PokemonJournalGiovanniScript:
 
 	text "Diario #mon"
 
-	para "Reportaje:"
+	para "Edición:"
 	line "¡Jefe Giovanni!"
 
 	para "Cuando la policía"
@@ -399,14 +399,14 @@ IndigoPlateauYellowScript:
 	end
 
 .PartyAndBoxFullText:
-	text "Amarillo: Oh..."
+	text "Amarillo: Oh…"
 	line "Tampoco puedes"
 
 	para "llevar otro"
-	line "#mon..."
+	line "#mon…"
 
 	para "Y tu Caja también"
-	line "está llena..."
+	line "está llena…"
 	done
 
 .GreetingText:
@@ -417,11 +417,11 @@ IndigoPlateauYellowScript:
 	line "luchar al Alto"
 	cont "Mando."
 
-	para "Son intensos..."
+	para "Son intensos…"
 	line "Y tienen unos"
 
 	para "lazos tan fuertes"
-	line "con sus #mon..."
+	line "con sus #mon…"
 
 	para "Algún día alcan-"
 	line "zaré su nivel."
@@ -450,7 +450,7 @@ IndigoPlateauYellowScript:
 	done
 
 .RefusedText:
-	text "Amarillo: Oh..."
+	text "Amarillo: Oh…"
 	line "¿Pero qué hay de"
 	cont "este #mon?"
 	done
@@ -515,7 +515,7 @@ IndigoPlateauTeleportGuyScript:
 .YesText:
 	text "Vale, vale. Ima-"
 	line "gina tu casa en tu"
-	cont "mente..."
+	cont "mente…"
 	done
 
 .NoText:

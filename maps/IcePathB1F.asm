@@ -90,7 +90,7 @@ GenericTrainerSkierBecky:
 
 BoarderMaxSeenText:
 	text "Endrino no puede"
-	line "estar muy lejos..."
+	line "estar muy lejos…"
 	done
 
 BoarderMaxBeatenText:

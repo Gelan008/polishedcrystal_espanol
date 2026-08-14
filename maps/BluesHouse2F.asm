@@ -29,7 +29,7 @@ BluesHouse2FSNESText:
 	text "<PLAYER> jugó con"
 	line "la SNES."
 
-	para "Mejor irse..."
+	para "Mejor irse…"
 	line "¡No hay tiempo"
 	cont "que perder!"
 	done

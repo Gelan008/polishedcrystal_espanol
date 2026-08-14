@@ -178,7 +178,7 @@ BellchimeTrailValerieScript:
 
 	para "presenciar tu com-"
 	line "bate contra una"
-	cont "leyenda..."
+	cont "leyenda…"
 
 	para "Me encantaría"
 	line "luchar contra"
@@ -202,7 +202,7 @@ BellchimeTrailValerieScript:
 	done
 
 .RefusedText:
-	text "Valeria: Qué pena.."
+	text "Valeria: Qué pena…"
 	done
 
 .AcceptedText:
@@ -215,7 +215,7 @@ BellchimeTrailValerieScript:
 
 .BeatenText:
 	text "Espero que mañana"
-	line "brille el sol..."
+	line "brille el sol…"
 
 	para "Esa sería razón"
 	line "suficiente para"
@@ -238,7 +238,7 @@ BellchimeTrailValerieScript:
 .FarewellText:
 	text "Valeria: ¿Oh? Va-"
 	line "ya, qué sensación"
-	cont "más curiosa..."
+	cont "más curiosa…"
 
 	para "No consigo"
 	line "recordar qué movi-"
@@ -263,7 +263,7 @@ BellchimeTrailValerieScript:
 .RematchText:
 	text "Valeria: Oh, si no"
 	line "es mi joven"
-	cont "entrenador..."
+	cont "entrenador…"
 
 	para "Es un placer"
 	line "volver a verte"
@@ -291,7 +291,7 @@ BellchimeTrailValerieScript:
 	line "cuentres cosas"
 
 	para "por las que son-"
-	line "reír mañana..."
+	line "reír mañana…"
 	done
 
 .RematchFarewellText:

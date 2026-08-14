@@ -32,7 +32,7 @@ GinaLostAMonText:
 	text "."
 
 	para "Empieza a ser"
-	line "frustrante..."
+	line "frustrante…"
 	done
 
 GinaBattleRematchText:
@@ -46,7 +46,7 @@ GinaBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "...¿Podrías ser"
+	para "…¿Podrías ser"
 	line "algo más amable"
 	cont "la próxima vez?"
 	done
@@ -89,7 +89,7 @@ GinaHaventFoundAnythingYetText:
 	text "Lo siento, aún no"
 	line "he encontrado"
 
-	para "nada útil..."
+	para "nada útil…"
 	line "Lo prometo, si"
 
 	para "encuentro algo,"

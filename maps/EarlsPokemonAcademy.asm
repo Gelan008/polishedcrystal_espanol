@@ -157,7 +157,7 @@ PokemonJournalWalkerScript:
 
 	text "Revista #mon"
 
-	para "Reportaje sobre"
+	para "Edición sobre"
 	line "el ExLíder Wayne!"
 
 	para "El padre de Pega-"
@@ -261,10 +261,10 @@ EarlsPokemonAcademyYoungster2Text:
 
 	para "Otros muchos ob-"
 	line "jetos pueden ser"
-	cont "equipados..."
+	cont "equipados…"
 
 	para "Vaya lío tomar"
-	line "apuntes..."
+	line "apuntes…"
 	done
 
 AcademyBlackboardText:
@@ -345,7 +345,7 @@ AcademyFreezeText:
 
 AcademyNotebookText:
 	text "Es el cuaderno"
-	line "del chico..."
+	line "del chico…"
 
 	para "Captura #mon"
 	line "con # Balls."
@@ -402,10 +402,10 @@ AcademyNotebookText3:
 	cont "res."
 
 	para "La siguiente pá-"
-	line "gina... ¡Blanca!"
+	line "gina… ¡Blanca!"
 
-	para "Chico: Je-je-je..."
+	para "Chico: Je-je-je…"
 
 	para "No he escrito"
-	line "más aún..."
+	line "más aún…"
 	done

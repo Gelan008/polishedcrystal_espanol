@@ -164,14 +164,14 @@ EmbeddedTowerSteven1ItemText:
 
 	para "Los sentimientos"
 	line "que tienes por"
-	cont "tus #mon..."
+	cont "tus #mon…"
 
 	para "Y los #mon que"
 	line "respondieron a"
 
 	para "esos sentimientos"
 	line "con todas sus"
-	cont "fuerzas..."
+	cont "fuerzas…"
 
 	para "Se unieron como"
 	line "uno solo y crea-"

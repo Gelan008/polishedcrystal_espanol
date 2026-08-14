@@ -193,12 +193,12 @@ DragonsDenB1FRivalScript:
 	end
 
 .GiveEggText:
-	text "..."
+	text "…"
 	line "Escucha."
 
-	para "El #mon que..."
+	para "El #mon que…"
 	line "cogí del Labora-"
-	cont "torio..."
+	cont "torio…"
 
 	para "Tenía un Huevo."
 	line "No lo necesito."
@@ -215,16 +215,16 @@ DragonsDenB1FRivalScript:
 
 .PartyAndBoxFullText:
 	text "Mpf. No tienes"
-	line "espacio..."
-	cont "Ni en tu Caja..."
+	line "espacio…"
+	cont "Ni en tu Caja…"
 	done
 
 .Training1Text:
-	text "..."
+	text "…"
 	line "¿Qué? ¿<PLAYER>?"
 
-	para "... No, no lucharé"
-	line "contigo ahora..."
+	para "… No, no lucharé"
+	line "contigo ahora…"
 
 	para "Mis #mon no"
 	line "están listos para"
@@ -237,16 +237,16 @@ DragonsDenB1FRivalScript:
 	line "plinado para ser"
 
 	para "el mejor entrena-"
-	line "dor #mon..."
+	line "dor #mon…"
 	done
 
 .Training2Text:
-	text "..."
+	text "…"
 
-	para "Uff..."
+	para "Uff…"
 
 	para "Aprende a apartar-"
-	line "te de mi camino..."
+	line "te de mi camino…"
 	done
 
 GenericTrainerDragonTamerDarin:
@@ -432,7 +432,7 @@ KimonoGirlMinaScript:
 	done
 
 .BagFullText:
-	text "... Eso es, una"
+	text "… Eso es, una"
 	line "vez que hagas"
 	cont "espacio en tu"
 	cont "Mochila."
@@ -462,7 +462,7 @@ KimonoGirlMinaScript:
 
 .BeatenText:
 	text "Oh, eres maravi-"
-	line "lloso..."
+	line "lloso…"
 	done
 
 .AfterText:

@@ -1,6 +1,6 @@
 BethAskNumber1Text:
 	text "Hacía tiempo que"
-	line "no perdía..."
+	line "no perdía…"
 
 	para "Se te da muy"
 	line "bien luchar."
@@ -41,7 +41,7 @@ BethNumberAcceptedText:
 	done
 
 BethNumberDeclinedText:
-	text "Qué lástima..."
+	text "Qué lástima…"
 
 	para "Dime si cambias"
 	line "de opinión."

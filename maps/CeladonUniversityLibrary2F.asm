@@ -80,7 +80,7 @@ CeladonUniversityLibrary2FArtistScript:
 	text "“Yasmina miró fi-"
 	line "jamente los ojos"
 	cont "marrones de"
-	cont "Erika...”"
+	cont "Erika…”"
 	done
 
 .Text2:
@@ -100,7 +100,7 @@ CeladonUniversityLibrary2FSuper_nerdText:
 	cont "resto de ordena-"
 	cont "dores!"
 
-	para "Mmm, qué enviar..."
+	para "Mmm, qué enviar…"
 
 	para "“¡Pizza gratis en"
 	line "la oficina del"
@@ -124,7 +124,7 @@ CeladonUniversityLibrary2FYoungsterText:
 	cont "espacio."
 
 	para "Da bastante"
-	line "miedo..."
+	line "miedo…"
 	done
 
 CeladonUniversityLibrary2FBookshelf1Text:
@@ -168,12 +168,12 @@ CeladonUniversityLibrary2FBookshelf4Text:
 	cont "idioma extranjero!"
 
 	para "Mejor lo devuelvo"
-	line "a su sitio..."
+	line "a su sitio…"
 	done
 
 CeladonUniversityLibrary2FBookshelf5Text:
 	text "Detrás de estos"
-	line "libros..."
+	line "libros…"
 
 	para "No. No hay nada"
 	line "aquí."
@@ -189,7 +189,7 @@ CeladonUniversityLibrary2FBookshelf6Text:
 	para "Hay una imagen"
 	line "de un Raichu que"
 	cont "se ve un tanto"
-	cont "extraño..."
+	cont "extraño…"
 	done
 
 CeladonUniversityLibrary2FBookshelf7Text:
@@ -238,7 +238,7 @@ CeladonUniversityLibrary2FBookshelf10Text:
 	cont "gantes."
 
 	para "“Robótica #mon”"
-	line "por Anne Droid..."
+	line "por Anne Droid…"
 	done
 
 CeladonUniversityLibrary2FBookshelf11Text:
@@ -333,7 +333,7 @@ CeladonUniversityLibrary2FBookshelf20Text:
 	text "Libros rojos,"
 	line "libros azules,"
 	cont "libros amarillos,"
-	cont "libros verdes..."
+	cont "libros verdes…"
 
 	para "¡Libros de todos"
 	line "los colores!"

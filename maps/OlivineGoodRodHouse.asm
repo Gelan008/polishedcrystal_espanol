@@ -30,44 +30,43 @@ GoodRodGuru:
 	closetext
 	setevent EVENT_GOT_GOOD_ROD
 	end
-
 OfferGoodRodText:
-	text "Olivine is on the"
-	line "sea!"
+	text "¡Olivo da al"
+	line "mar!"
 
-	para "And if it's on the"
-	line "sea, there are"
-	cont "bound to be fish!"
+	para "Y si da al mar,"
+	line "¡seguro que hay"
+	cont "peces!"
 
-	para "I've fished here"
-	line "for 30 years."
+	para "He pescado aquí"
+	line "durante 30 años."
 
-	para "Would you like to"
-	line "face the sea and"
-	cont "fish?"
+	para "¿Te gustaría mirar"
+	line "al mar y pescar?"
 	done
 
 GiveGoodRodText:
-	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	text "¡Ja, ja, ja!"
+	line "¡Tenemos a un"
+	cont "nuevo pescador!"
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
+	text "No solo hay peces"
+	line "en el mar."
 
-	para "They go wherever"
-	line "there is water."
+	para "Están dondequiera"
+	line "que haya agua."
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish?!"
-	cont "Incomprehensible!"
+	text "¿Cóoomo? ¡¿No te"
+	line "gusta pescar?!"
+	cont "¡Incomprensible!"
 	done
 
 HaveGoodRodText:
-	text "How are things?"
-	line "Land the big one?"
+	text "¿Cómo va eso?"
+	line "¿Pescaste alguno"
+	cont "grande?"
 	done

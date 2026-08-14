@@ -331,7 +331,7 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm... Me alegro de"
+	text "Mm… Me alegro de"
 	line "verte aquí."
 
 	para "No hace falta"
@@ -342,7 +342,7 @@ DragonShrineElderGreetingText:
 	line "¿verdad?"
 
 	para "Esa chica es un"
-	line "caso..."
+	line "caso…"
 
 	para "Lo siento, pero"
 	line "tengo que ponerte"
@@ -387,7 +387,7 @@ DragonShrineQuestion5Text:
 	done
 
 DragonShrinePassedTestText:
-	text "Hm... Ya veo..."
+	text "Mm… Ya veo…"
 
 	para "Te preocupas mucho"
 	line "por los #mon."
@@ -416,13 +416,13 @@ DragonShrineMustIInformLanceText:
 	line "y entrégale la"
 	cont "Medalla Dragón!"
 
-	para "... ¿O tendré que"
+	para "… ¿O tendré que"
 	line "informar a Lance"
 	cont "de esto?"
 	done
 
 DragonShrineElderScoldsClairText:
-	text "Débora..."
+	text "Débora…"
 
 	para "Reflexiona sobre"
 	line "qué es lo que te"
@@ -438,7 +438,7 @@ DragonShrineComeAgainText:
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm... Me alegro de"
+	text "Mm… Me alegro de"
 	line "verte aquí."
 
 	para "Tu llegada es de"
@@ -480,12 +480,12 @@ DragonShrineSilverIsInTrainingText:
 	line "Débora cuando era"
 
 	para "joven. Es un po-"
-	line "co preocupante..."
+	line "co preocupante…"
 	done
 
 DragonShrineWrongAnswerText1:
 	text "¿Eh? No lo he co-"
-	line "gido del todo..."
+	line "gido del todo…"
 	done
 
 DragonShrineWrongAnswerText2:
@@ -494,7 +494,7 @@ DragonShrineWrongAnswerText2:
 	done
 
 DragonShrineRightAnswerText:
-	text "Oh, lo entiendo..."
+	text "Oh, lo entiendo…"
 	done
 
 DragonShrineElder2Text:
@@ -532,9 +532,9 @@ DragonShrineClairYouPassedText:
 
 	para "¿Has suspendido?"
 
-	para "................"
+	para "… … … …"
 
-	para "... ¿Qué? ¿Has"
+	para "…¿Qué? ¿Has"
 	line "aprobado?"
 	done
 
@@ -550,12 +550,12 @@ DragonShrineClairYoureLyingText:
 	done
 
 DragonShrineIUnderstandText:
-	text "L-lo entiendo..."
+	text "L-lo entiendo…"
 	done
 
 DragonShrineHereRisingBadgeText:
 	text "Toma, esta es la"
-	line "Medalla Dragón..."
+	line "Medalla Dragón…"
 
 	para "¡Date prisa!"
 	line "¡Cógela!"

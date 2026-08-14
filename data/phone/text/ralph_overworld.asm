@@ -4,7 +4,7 @@ RalphAskNumber1Text:
 
 	para "He visto #mon"
 	line "raros mientras"
-	cont "pescaba..."
+	cont "pescaba…"
 
 	para "A vosotros os gus-"
 	line "tan, ¿no?"
@@ -31,11 +31,11 @@ RalphNumberAcceptedText:
 	done
 
 RalphNumberDeclinedText:
-	text "Oh..."
+	text "Oh…"
 	line "Mis propios hijos"
 
 	para "no me dan ni su"
-	line "número..."
+	line "número…"
 
 	para "¿Así son los"
 	line "jóvenes de hoy?"

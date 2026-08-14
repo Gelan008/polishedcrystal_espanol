@@ -133,9 +133,9 @@ IlexForestCharcoalApprenticeScript:
 	setscene SCENE_ILEXFOREST_FARFETCHD_QUEST
 	jumpthistextfaceplayer
 
-	text "Jo, tío... Mi jefe"
+	text "Jo, tío… Mi jefe"
 	line "se va a poner de"
-	cont "los nervios..."
+	cont "los nervios…"
 
 	para "El Farfetch'd que"
 	line "usa Corte"
@@ -149,7 +149,7 @@ IlexForestCharcoalApprenticeScript:
 
 	para "Es demasiado gran-"
 	line "de, oscuro y a mí"
-	cont "me da miedo..."
+	cont "me da miedo…"
 	done
 
 IlexForestFarfetchdScript:
@@ -963,7 +963,7 @@ Text_HeadbuttIntro:
 	para "Solo necesitas"
 	line "un Estuche para"
 	cont "guardar Plumas"
-	cont "delicadas..."
+	cont "delicadas…"
 	done
 
 Text_HeadbuttIntro2:
@@ -1042,20 +1042,20 @@ IlexForestTrainerTips:
 
 Text_IlexForestShrine:
 	text "El Encinar"
-	line "Santuario..."
+	line "Santuario…"
 
 	para "Es en honor al"
 	line "protector del"
-	cont "bosque..."
+	cont "bosque…"
 	done
 
 Text_ShrineCelebiEvent:
 	text "El Encinar"
-	line "Santuario..."
+	line "Santuario…"
 
 	para "Es en honor al"
 	line "protector del"
-	cont "bosque..."
+	cont "bosque…"
 
 	para "¿Oh? ¿Qué es esto?"
 
@@ -1090,7 +1090,7 @@ Text_KurtCaughtCelebi:
 	cont "que lo toca"
 
 	para "desaparece tam-"
-	line "bién sea verdad..."
+	line "bién sea verdad…"
 
 	para "Me siento inspi-"
 	line "rado por lo que"
@@ -1122,7 +1122,7 @@ Text_IlexForestLyraHello:
 	done
 
 Text_IlexForestLyraWhatWasThat:
-	text "Lira: ..."
+	text "Lira: …"
 	line "¿Qué fue eso?"
 	done
 
@@ -1134,13 +1134,13 @@ Text_IlexForestLyraWorried:
 	line "menos! Celebi me"
 
 	para "envió aquí y tú"
-	line "no estabas..."
+	line "no estabas…"
 
 	para "¡Pensé que te que-"
 	line "darías en el pasa-"
 	cont "do para siempre!"
 
-	para "..."
+	para "…"
 
 	para "Al menos ahora am-"
 	line "bos estamos a sal-"
@@ -1153,10 +1153,10 @@ Text_IlexForestLyraArmorSuit:
 	line "aventura has teni-"
 	cont "do tú solo?"
 
-	para "Se te cayó esto..."
+	para "Se te cayó esto…"
 	line "esta cosa cuando"
 	cont "Celebi te trajo"
-	cont "de vuelta..."
+	cont "de vuelta…"
 	done
 
 Text_IlexForestLyraGoodbye:
@@ -1184,7 +1184,7 @@ BugCatcherWayneSeenText:
 
 BugCatcherWayneBeatenText:
 	text "No había visto a"
-	line "ese #mon..."
+	line "ese #mon…"
 	done
 
 IlexForestHoneyBoyText:

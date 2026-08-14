@@ -115,31 +115,31 @@ SantosScript:
 	setevent EVENT_GOT_SPELL_TAG_FROM_SANTOS
 	jumpthisopenedtext
 
-	text "Sabino: ..."
+	text "Sabino: …"
 
-	para "Hechizo..."
+	para "Hechizo…"
 
 	para "Los ataques tipo"
 	line "Fantasma se ha-"
-	cont "cen más fuertes..."
+	cont "cen más fuertes…"
 
-	para "Te asustará..."
+	para "Te asustará…"
 	done
 
 .NotSaturday:
 	jumpthistextfaceplayer
 
 	text "Sabino: Hoy no"
-	line "es sábado..."
+	line "es sábado…"
 	done
 
 .MeetText:
-	text "Sabino: ..."
+	text "Sabino: …"
 
-	para "Es sábado..."
+	para "Es sábado…"
 
 	para "Soy Sabino del"
-	line "sábado..."
+	line "sábado…"
 	done
 
 .GivesGiftText:
@@ -147,13 +147,13 @@ SantosScript:
 	done
 
 .SaturdayText:
-	text "Sabino: ..."
+	text "Sabino: …"
 
 	para "Nos veremos en"
-	line "otro sábado..."
+	line "otro sábado…"
 
 	para "No tendré más"
-	line "regalos..."
+	line "regalos…"
 	done
 
 BlackthornDragonTamer1Script:

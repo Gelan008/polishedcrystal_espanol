@@ -114,7 +114,7 @@ GenericTrainerPsychicLeon:
 GenericTrainerPsychicJared:
 	generictrainer PSYCHIC_T, JARED, EVENT_BEAT_PSYCHIC_JARED, PsychicJaredSeenText, PsychicJaredBeatenText
 
-	text "Karate King, the"
+	text "Rey del Kárate, the"
 	line "master of the"
 
 	para "Fighting Dojo, was"

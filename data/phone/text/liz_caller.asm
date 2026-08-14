@@ -12,7 +12,7 @@ LizMonAlwaysWantsToNuzzleText:
 	done
 
 LizDefeatedMonText:
-	text "¡Y, y! Mmm..."
+	text "¡Y, y! Mmm…"
 
 	para "Vencimos a un"
 	line ""
@@ -27,7 +27,7 @@ LizDefeatedMonText:
 	done
 
 LizLostAMonText:
-	text "¡Y, y! Eh..."
+	text "¡Y, y! Eh…"
 
 	para "Vimos a un precio-"
 	line "so "
@@ -68,7 +68,7 @@ LizWrongNumberText:
 	line "muero de aburri-"
 	cont "miento!"
 
-	para "Eh... ¿Me he"
+	para "Eh… ¿Me he"
 	line "equivocado? ¡Ups!"
 	done
 
@@ -195,7 +195,7 @@ LizSalonGossipText:
 	line "me cuesta mucho"
 
 	para "decidir a quién"
-	line "debería elegir..."
+	line "debería elegir…"
 	done
 
 LizWhitneyGossipText:
@@ -254,7 +254,7 @@ LizBeautifulMonGossipText:
 LizForgotGossipText:
 	text "¡Escucha, escucha!"
 
-	para "Eh... Um... ¡Ups!"
+	para "Eh… Um… ¡Ups!"
 
 	para "¡He olvidado lo"
 	line "que iba a decir!"
@@ -265,23 +265,23 @@ LizFawningOverMonText:
 
 	para "Mi "
 	text_ram wStringBuffer4
-	text "..."
-	line "es... tan guapo..."
+	text "…"
+	line "es… tan guapo…"
 
-	para "y... jiji... muy"
-	line "genial... sí..."
+	para "y… jiji… muy"
+	line "genial… sí…"
 
-	para "muchísimo... ¡Ay!"
-	line "Y... adorable..."
+	para "muchísimo… ¡Ay!"
+	line "Y… adorable…"
 
-	para "Encantador..."
+	para "Encantador…"
 	line "¡Ay, demasiado!"
 
-	para "...Abrazarlo..."
-	line "Eso es..."
+	para "…Abrazarlo…"
+	line "Eso es…"
 
-	para "guapo... ay... Qué"
-	line "mono... Lindo..."
+	para "guapo… ay… Qué"
+	line "mono… Lindo…"
 
 	para "¡Ups! ¡Mira qué"
 	line "hora es! ¡Hablé"

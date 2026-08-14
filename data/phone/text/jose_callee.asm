@@ -2,7 +2,7 @@ JoseAnswerPhoneText:
 	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah, ¿<PLAYER>?"
 	line "¡Buenos días!"
@@ -12,7 +12,7 @@ JoseAnswerPhoneDayText:
 	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah <PLAYER> ¡Hola!"
 	done
@@ -21,7 +21,7 @@ JoseAnswerPhoneNiteText:
 	text "Hola, aquí"
 	line ""
 	text_ram wStringBuffer3
-	text "..."
+	text "…"
 
 	para "Ah, ¿<PLAYER>?"
 	line "¡Buenas noches!"

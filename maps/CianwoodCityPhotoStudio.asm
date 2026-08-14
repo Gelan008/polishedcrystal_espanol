@@ -66,7 +66,7 @@ CianwoodPhotoStudioFishingGuruScript:
 	jumpthisopenedtext
 
 	text "¿Un Huevo? Mi ta-"
-	line "lento vale más..."
+	line "lento vale más…"
 	done
 
 PhotoStudioGreetingText:
@@ -114,5 +114,5 @@ PhotoStudioAlreadyDoneText:
 PhotoStudioRefusedText:
 	text "Oh, qué pena. Pen-"
 	line "sé que sería un"
-	cont "gran recuerdo..."
+	cont "gran recuerdo…"
 	done

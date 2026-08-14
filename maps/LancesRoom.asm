@@ -178,7 +178,7 @@ LanceScript:
 	line "dor más fuerte"
 	cont "y Campeón de la"
 
-	para "Liga #mon..."
+	para "Liga #mon…"
 
 	para "Yo, Lance, el ma-"
 	line "estro dragón,"
@@ -186,7 +186,7 @@ LanceScript:
 	done
 
 .BeatenText:
-	text "...Se acabó."
+	text "…Se acabó."
 
 	para "Pero es una sen-"
 	line "sación extraña."
@@ -204,7 +204,7 @@ LanceScript:
 	done
 
 .AfterText:
-	text "...Uf."
+	text "…Uf."
 
 	para "Te has vuelto"
 	line "realmente fuerte,"
@@ -259,7 +259,7 @@ LanceScript:
 	line "¡Ya terminó!"
 
 	para "Prof. Oak, si no"
-	line "fuera tan lento..."
+	line "fuera tan lento…"
 	done
 
 .OakSpeechText:
@@ -336,7 +336,7 @@ LanceScript:
 .LanceLeavingText:
 	text "Lance: Esto se"
 	line "está poniendo un"
-	cont "poco ruidoso..."
+	cont "poco ruidoso…"
 
 	para "<PLAYER>, ¿puedes"
 	line "venir conmigo?"

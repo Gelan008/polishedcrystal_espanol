@@ -32,22 +32,22 @@ BrentAskNumber2Text:
 	done
 
 BrentNumberAcceptedText:
-	text "Bill... ¡es más"
+	text "Bill… ¡es más"
 	line "que asombroso!"
 
 	para "Ser un #Maniac"
 	line "como él algún"
-	cont "día..."
+	cont "día…"
 
 	para "Ese es mi sueño."
 	done
 
 BrentNumberDeclinedText:
 	text "Te vas a"
-	line "arrepentir..."
+	line "arrepentir…"
 
 	para "Y no me"
-	line "importará..."
+	line "importará…"
 	done
 
 BrentPhoneFullText:

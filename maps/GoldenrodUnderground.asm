@@ -137,7 +137,7 @@ GenericTrainerSupernerdEric:
 
 	text "Supongo que ten-"
 	line "dré que hacer"
-	cont "las cosas bien..."
+	cont "las cosas bien…"
 	done
 
 GenericTrainerSupernerdTeru:
@@ -430,7 +430,7 @@ GoldenrodUndergroundCandyManScript:
 	pokemart MARTTYPE_EXP_CANDY, 0
 
 .GiveCandyJarText1:
-	text "¡Psst! Por aquí..."
+	text "¡Psst! Por aquí…"
 	line "Parece que te"
 	cont "vendría bien una"
 	cont "ayuda."
@@ -454,7 +454,7 @@ GoldenrodUndergroundCandyManScript:
 	line "vita la casa!"
 	cont "Pruébalo."
 
-	para "...Para tu"
+	para "…Para tu"
 	line "#mon,"
 	cont "por supuesto."
 	done
@@ -573,7 +573,7 @@ PiersIntroText:
 	line "que puede hacer un"
 	cont "humilde cantante"
 	cont "es cantar una hu-"
-	cont "milde canción... ♪"
+	cont "milde canción… ♪"
 
 	para "Me llamo Nerio."
 	line "No soy de Johto,"
@@ -599,7 +599,7 @@ PiersAfterIntroText:
 	done
 
 PiersNoBattleText:
-	text "Ay... Siento que"
+	text "Ay… Siento que"
 	line "mi alma llora."
 	done
 
@@ -647,7 +647,7 @@ PiersRematchSeenText:
 
 	para "Y yo sigo cantando"
 	line "mis humildes can-"
-	cont "ciones..."
+	cont "ciones…"
 
 	para "¿Así que quieres"
 	line "un bis?"
@@ -668,11 +668,11 @@ SupernerdEricSeenText:
 
 	para "Intentaba hacer"
 	line "trampas con mi"
-	cont "#mon..."
+	cont "#mon…"
 	done
 
 SupernerdEricBeatenText:
-	text "...Grrr..."
+	text "…Grrr…"
 	done
 
 SupernerdTeruSeenText:
@@ -732,7 +732,7 @@ CosplayerClaraBeatenText:
 
 GoldenrodUndergroundTheDoorsLockedText:
 	text "La puerta está ce-"
-	line "rrada..."
+	line "rrada…"
 	done
 
 GoldenrodUndergroundTheDoorIsOpenText:

@@ -34,7 +34,7 @@ CopycatsHouse1FPokefanFScript:
 	jumpthistextfaceplayer
 
 	text "Mi hija es tan"
-	line "egocéntrica..."
+	line "egocéntrica…"
 
 	para "Solo tiene unos"
 	line "pocos amigos."
@@ -49,7 +49,7 @@ CopycatsHouse1FPokefanFScript:
 
 	para "Desde entonces,"
 	line "ha mejorado aún"
-	cont "más imitando..."
+	cont "más imitando…"
 	done
 
 CopycatsHouse1FBlisseyText:

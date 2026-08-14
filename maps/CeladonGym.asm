@@ -63,7 +63,7 @@ CeladonGymErikaScript:
 
 	para "Por favor, úsala"
 	line "si es de tu agra-"
-	cont "do..."
+	cont "do…"
 	done
 
 GenericTrainerLassMichelle:
@@ -128,22 +128,22 @@ CeladonGymStatue:
 	jumpstd gymstatue2
 
 ErikaBeforeBattleText:
-	text "Erika: Hola..."
+	text "Erika: Hola…"
 	line "Hace un tiempo"
 
 	para "precioso, ¿verdad?"
-	line "Es tan agradable.."
+	line "Es tan agradable…"
 
-	para "...Me temo que po-"
-	line "dría dormirme..."
+	para "…Me temo que po-"
+	line "dría dormirme…"
 
 	para "Me llamo Erika."
 	line "Soy la Líder del"
 	cont "Gimnasio Azulona."
 
-	para "...¿Ah? ¿Vienes"
+	para "…¿Ah? ¿Vienes"
 	line "desde Johto? Qué"
-	cont "bien..."
+	cont "bien…"
 
 	para "Oh. Lo siento, no"
 	line "me di cuenta"
@@ -158,13 +158,13 @@ ErikaBeforeBattleText:
 ErikaBeatenText:
 	text "Erika: ¡Oh!"
 	line "Admito la derro-"
-	cont "ta..."
+	cont "ta…"
 
 	para "Eres realmente"
-	line "fuerte..."
+	line "fuerte…"
 
 	para "Te daré la Meda-"
-	line "lla Arcoíris..."
+	line "lla Arcoíris…"
 	done
 
 ErikaExplainTMText:
@@ -180,13 +180,13 @@ ErikaExplainTMText:
 
 ErikaAfterBattleText:
 	text "Erika: Perder deja"
-	line "un sabor amargo..."
+	line "un sabor amargo…"
 
 	para "Pero saber que hay"
 	line "entrenadores fuer-"
 
 	para "tes me anima a"
-	line "hacerlo mejor..."
+	line "hacerlo mejor…"
 	done
 
 LassMichelleSeenText:
@@ -221,12 +221,12 @@ BeautyJuliaBeatenText:
 Aroma_ladyDahliaSeenText:
 	text "Hay un olor intri-"
 	line "gante a tu alrede-"
-	cont "dor..."
+	cont "dor…"
 	done
 
 Aroma_ladyDahliaBeatenText:
 	text "El fétido olor de"
-	line "la derrota..."
+	line "la derrota…"
 	done
 
 TwinsJoandzoe1SeenText:
@@ -237,7 +237,7 @@ TwinsJoandzoe1SeenText:
 	done
 
 TwinsJoandzoe1BeatenText:
-	text "Oh... Perdimos..."
+	text "Oh… Perdimos…"
 	done
 
 TwinsJoandzoe2SeenText:
@@ -247,5 +247,5 @@ TwinsJoandzoe2SeenText:
 
 TwinsJoandzoe2BeatenText:
 	text "No pudimos ga-"
-	line "nar..."
+	line "nar…"
 	done

@@ -87,7 +87,7 @@ MrHyperScript:
 
 	para "Sé que los Pesca-"
 	line "-dores las sacan"
-	cont "a veces..."
+	cont "a veces…"
 	done
 
 .TextTrainWho:

@@ -163,13 +163,13 @@ FarawayIslandLawrenceText1:
 
 	para "He venido a re-"
 	line "cordar cómo empe-"
-	cont "zó mi colección..."
+	cont "zó mi colección…"
 
 	para "con un grabado de"
 	line "Mew hallado en"
 	cont "esta misma isla."
 
-	para "...He estado"
+	para "…He estado"
 	line "pensando en nues-"
 	cont "tro último duelo."
 
@@ -188,12 +188,12 @@ FarawayIslandLawrenceYesText:
 	done
 
 FarawayIslandLawrenceNoText:
-	text "...Muy bien."
+	text "…Muy bien."
 	done
 
 FarawayIslandLawrenceBeatenText:
 	text "Me has derrotado"
-	line "una vez más..."
+	line "una vez más…"
 	done
 
 FarawayIslandLawrenceText2:
@@ -212,17 +212,17 @@ FarawayIslandSignText:
 	line "desvanece como si"
 
 	para "se hubiese escri-"
-	line "to hace mucho..."
+	line "to hace mucho…"
 
-	para "...bre, día 6"
+	para "…bre, día 6"
 
-	para "Si algún humano..."
+	para "Si algún humano…"
 	line "pone un pie aquí"
-	cont "de nuevo... ue sea"
-	cont "una pers. bonda..."
+	cont "de nuevo… ue sea"
+	cont "una pers. bonda…"
 
-	para "...n esa esperan-"
-	line "za, me mar..."
+	para "…n esa esperan-"
+	line "za, me mar…"
 
-	para "...ji"
+	para "…ji"
 	done

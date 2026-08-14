@@ -30,7 +30,7 @@ JoeyNumberAcceptedText:
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, vale..."
+	text "Oh, vale…"
 
 	para "¡Pero no volveré a"
 	line "perder contra ti!"
@@ -82,7 +82,7 @@ JoeyPackFullText:
 	done
 
 JoeyRematchGiftText:
-	text "Y otra derrota..."
+	text "Y otra derrota…"
 
 	para "No hay duda, eres"
 	line "duro de pelar."

@@ -38,13 +38,13 @@ AlanNumberAcceptedText:
 	done
 
 AlanNumberDeclinedText:
-	text "Oh... Pensaba que"
+	text "Oh… Pensaba que"
 	line "sería un buen"
 	cont "descanso para"
 
 	para "llamarte cuando"
 	line "estuviera"
-	cont "estudiando..."
+	cont "estudiando…"
 	done
 
 AlanPhoneFullText:

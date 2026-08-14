@@ -32,7 +32,7 @@ AlanLostAMonText:
 
 	para "Un error de"
 	line "cálculo por mi"
-	cont "parte..."
+	cont "parte…"
 	done
 
 AlanBattleRematchText:

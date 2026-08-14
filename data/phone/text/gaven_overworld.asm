@@ -36,7 +36,7 @@ GavenNumberAcceptedText:
 
 	para "pensamientos me"
 	line "atormentan a"
-	cont "todas horas..."
+	cont "todas horas…"
 	done
 
 GavenNumberDeclinedText:

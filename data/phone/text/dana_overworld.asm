@@ -41,7 +41,7 @@ DanaNumberDeclinedText:
 	line "nada?"
 
 	para "Pero si es todo"
-	line "gratis..."
+	line "gratis…"
 	done
 
 DanaPhoneFullText:

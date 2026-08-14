@@ -91,7 +91,7 @@ CeladonCityTutorSwaggerScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "...¿No tienes la"
+	text "…¿No tienes la"
 	line "Hoja Plata?"
 	cont "Qué pena."
 	done
@@ -162,7 +162,7 @@ CeladonCityPoliwrathText:
 CeladonCityTeacher1Text:
 	text "Volví a perder"
 	line "en las traga-"
-	cont "perras..."
+	cont "perras…"
 
 	para "Nosotras las"
 	line "chicas también"
@@ -186,7 +186,7 @@ CeladonCityGramps1Text:
 
 	para "¿De dónde han sa-"
 	line "lido? Es un"
-	cont "problema grave..."
+	cont "problema grave…"
 	done
 
 CeladonCityGramps2Text:
@@ -221,7 +221,7 @@ CeladonCityYoungster2Text:
 
 	para "Solo de verla de-"
 	line "vorar comida me"
-	cont "siento lleno..."
+	cont "siento lleno…"
 	done
 
 CeladonCityTeacher2Text:
@@ -238,7 +238,7 @@ CeladonCityTeacher2Text:
 	para "lo conseguirás en"
 	line "ningún sitio."
 
-	para "Vaya... Parezco"
+	para "Vaya… Parezco"
 	line "una dependienta."
 	done
 
@@ -257,7 +257,7 @@ CeladonCityLassText_PCC:
 	line "Ojalá tuviéramos"
 
 	para "un sitio así en"
-	line "Kanto..."
+	line "Kanto…"
 	done
 
 CeladonCityLassText:
@@ -265,7 +265,7 @@ CeladonCityLassText:
 	line "mo premios en el"
 	cont "Casino."
 
-	para "Pobrecitos..."
+	para "Pobrecitos…"
 	done
 
 CeladonCitySignText:

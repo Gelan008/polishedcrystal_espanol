@@ -68,7 +68,7 @@ FuchsiaCityPokefanMText:
 
 FuchsiaCityTeacherText:
 	text "El Juego Safari se"
-	line "ha cancelado..."
+	line "ha cancelado…"
 
 	para "Al menos la Zona"
 	line "Safari sigue"
@@ -114,7 +114,7 @@ FuchsiaGymSignText:
 
 SafariZoneOfficeSignText:
 	text "Hay un aviso"
-	line "aquí..."
+	line "aquí…"
 
 	para "La Oficina de la"
 	line "Zona Safari está"
@@ -123,7 +123,7 @@ SafariZoneOfficeSignText:
 	done
 
 SafariZoneOfficeClosedSignText:
-	text "Está cerrado..."
+	text "Está cerrado…"
 	done
 
 WardensHomeSignText:
@@ -150,13 +150,13 @@ NoLitteringSignText:
 
 SafariZoneExhibitSignText:
 	text "El cartel ha sido"
-	line "arrancado..."
+	line "arrancado…"
 	done
 
 HouseForSaleSignText:
 	text "¿Qué es esto?"
 
-	para "Casa en Venta..."
+	para "Casa en Venta…"
 	line "Aquí no vive na-"
 	cont "die."
 	done

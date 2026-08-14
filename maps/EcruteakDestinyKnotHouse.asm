@@ -40,7 +40,7 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	line "destino te ata a"
 
 	para "los #mon"
-	line "legendarios..."
+	line "legendarios…"
 
 	para "¿Eres una especie"
 	line "de Elegido?"
@@ -56,7 +56,7 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	cont "legendarios."
 
 	para "Leyendas dentro de"
-	line "leyendas..."
+	line "leyendas…"
 	done
 
 .Text2:
@@ -74,7 +74,7 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	cont "los has atrapado?!"
 
 	para "Déjame ver tu"
-	line "#dex... ¡Hala!"
+	line "#dex… ¡Hala!"
 
 	para "Debía ser tu"
 	line "destino."

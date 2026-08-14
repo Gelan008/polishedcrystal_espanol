@@ -184,7 +184,7 @@ BurnedTowerB1FEusineMovement1:
 BurnedTowerB1FEusineText:
 	text "Eusine: También"
 	line "cavé un hoyo"
-	cont "aquí..."
+	cont "aquí…"
 
 	para "¡Me quedé de"
 	line "piedra!"

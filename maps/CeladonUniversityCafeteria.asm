@@ -118,7 +118,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	done
 
 .BeatenText:
-	text "Te he subestimado.."
+	text "Te he subestimado…"
 	done
 
 .AfterText1:
@@ -246,7 +246,7 @@ CeladonUniversityCafeteriaBakerScript:
 	jumpthisopenedtext
 
 	text "No tienes sufici-"
-	line "ente dinero..."
+	line "ente dinero…"
 	done
 
 .Text1:

@@ -22,7 +22,7 @@ CeruleanCoupleHousePokefanMText:
 
 	para "Sus ojos eran de"
 	line "un celeste pro-"
-	cont "fundo..."
+	cont "fundo…"
 	done
 
 CeruleanCoupleHousePokefanFText:

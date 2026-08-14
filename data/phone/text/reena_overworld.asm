@@ -1,10 +1,10 @@
 ReenaAskNumber1Text:
-	text "No está mal..."
+	text "No está mal…"
 	line "Tiene su mérito"
 
 	para "ganarme, incluso"
 	line "por un golpe de"
-	cont "suerte..."
+	cont "suerte…"
 
 	para "¡Me agradas! ¡Dame"
 	line "tu número!"

@@ -65,7 +65,7 @@ ElmsHousePCText:
 	para "al estudio de los"
 	line "#mon!"
 
-	para "..."
+	para "…"
 
 	para "Es un fragmento de"
 	line "los trabajos de"

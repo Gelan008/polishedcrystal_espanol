@@ -12,7 +12,7 @@ ParryDefeatedMonText:
 	text " salvaje!"
 
 	para "Estuvo bien, pero"
-	line "quería cogerlo..."
+	line "quería cogerlo…"
 	done
 
 ParryLostAMonText:

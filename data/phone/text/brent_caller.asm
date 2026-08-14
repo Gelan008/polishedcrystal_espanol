@@ -33,7 +33,7 @@ BrentLostAMonText:
 	line "veo. Pero no"
 
 	para "tenía ninguna"
-	line "# Ball..."
+	line "# Ball…"
 
 	para "¿Se reiría Bill"
 	line "de mis errores?"
@@ -63,7 +63,7 @@ BrentHangUpText:
 	done
 
 BrentFatherGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "Se supone que el"
 
 	para "padre de Bill es"
@@ -71,7 +71,7 @@ BrentFatherGossipText:
 	done
 
 BrentGrandpaGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "Al parecer, el"
 
 	para "abuelo de Bill no"
@@ -79,13 +79,13 @@ BrentGrandpaGossipText:
 	done
 
 BrentGoldenrodGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "Bill nació en"
 	cont "Ciudad Trigal."
 	done
 
 BrentRoute25GossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "Bill vive en"
 
 	para "la Ruta 25,"
@@ -93,7 +93,7 @@ BrentRoute25GossipText:
 	done
 
 BrentAbraGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "El primer #mon"
 
 	para "que capturó Bill"
@@ -101,7 +101,7 @@ BrentAbraGossipText:
 	done
 
 BrentSisterGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "La hermana menor"
 
 	para "de Bill no puede"
@@ -109,7 +109,7 @@ BrentSisterGossipText:
 	done
 
 BrentMilkGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "Bill supuesta-"
 
 	para "mente odia la"
@@ -118,7 +118,7 @@ BrentMilkGossipText:
 	done
 
 BrentBattlingGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "Por lo visto,"
 
 	para "a Bill no se le"
@@ -126,7 +126,7 @@ BrentBattlingGossipText:
 	done
 
 BrentFlowerShopGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "Parece que a Bill"
 
 	para "le gusta la chica"
@@ -135,7 +135,7 @@ BrentFlowerShopGossipText:
 	done
 
 BrentKimonoGirlGossipText:
-	text "¿Sabías que...?"
+	text "¿Sabías que…?"
 	line "Se dice que la"
 
 	para "madre de Bill fue"

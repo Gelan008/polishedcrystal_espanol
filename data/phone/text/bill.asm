@@ -34,8 +34,8 @@ BillPhoneGenericText:
 	para "¿Eres <PLAYER>?"
 	line "Espera un momento."
 
-	para "..."
-	line "..."
+	para "…"
+	line "…"
 	done
 
 BillPhoneNotFullText:

@@ -191,9 +191,9 @@ BurnedTower1FEusineMovement:
 	step_end
 
 BurnedTowerRival_BeforeText:
-	text "...... ...... ..."
+	text "…………………"
 
-	para "...Oh, eres tú."
+	para "…Oh, eres tú."
 
 	para "Vine buscando a"
 	line "un #mon legen-"
@@ -215,7 +215,7 @@ BurnedTowerRival_BeforeText:
 	done
 
 BurnedTowerRival_WinText:
-	text "...¡Humpf!"
+	text "…¡Humpf!"
 
 	para "Por esto odio lu-"
 	line "char con cobardes."
@@ -225,7 +225,7 @@ BurnedTowerRival_WinText:
 	done
 
 BurnedTowerRival_AfterText1:
-	text "...Ah, da igual."
+	text "…Ah, da igual."
 
 	para "Tú nunca serías"
 	line "capaz de atrapar"
@@ -236,7 +236,7 @@ BurnedTowerRival_AfterText1:
 	done
 
 BurnedTowerRival_LossText:
-	text "...¡Humpf!"
+	text "…¡Humpf!"
 
 	para "Por esto odio lu-"
 	line "char con cobardes."
@@ -318,11 +318,11 @@ BurnedTower1FMortyText:
 
 HexManiacTamaraSeenText:
 	text "Siento un extraño"
-	line "poder aquí..."
+	line "poder aquí…"
 	done
 
 HexManiacTamaraBeatenText:
-	text "He perdido..."
+	text "He perdido…"
 	done
 
 FirebreatherNedSeenText:
@@ -335,7 +335,7 @@ FirebreatherNedSeenText:
 
 FirebreatherNedBeatenText:
 	text "Aún no hace bas-"
-	line "tante calor..."
+	line "tante calor…"
 	done
 
 FirebreatherDickBeforeText:

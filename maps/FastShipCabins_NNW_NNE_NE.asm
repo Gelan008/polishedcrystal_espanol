@@ -99,7 +99,7 @@ GenericTrainerBurglarCorey:
 	line "moneda bonita."
 
 	para "Alguien debe de"
-	line "haberla perdido..."
+	line "haberla perdido…"
 	done
 
 FastShipLazySailorScript:
@@ -150,7 +150,7 @@ FastShipLazySailorLeavesMovement2:
 PILookerSeenText:
 	text "¡¿QUÉEE?!"
 
-	para "...¿Cómo lo"
+	para "…¿Cómo lo"
 	line "supiste? ¿Cómo me"
 
 	para "desenmascaraste"
@@ -241,7 +241,7 @@ GentlemanEdwardSeenText:
 
 GentlemanEdwardBeatenText:
 	text "Y... Yo no puedo"
-	line "encontrarlo..."
+	line "encontrarlo…"
 	done
 
 BurglarCoreySeenText:

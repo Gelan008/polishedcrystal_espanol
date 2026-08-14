@@ -209,7 +209,7 @@ LoreleiRematchSeenText:
 	line "jaras los humos a"
 	cont "Karen."
 
-	para "... Eres el nuevo"
+	para "… Eres el nuevo"
 	line "Campeón."
 	cont "Estoy impresio-"
 	cont "nada."

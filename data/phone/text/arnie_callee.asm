@@ -4,7 +4,7 @@ ArnieAnswerPhoneText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "...¿<PLAYER>? ¡Ey!"
+	para "…¿<PLAYER>? ¡Ey!"
 	done
 
 ArnieAnswerPhoneDayText:
@@ -13,7 +13,7 @@ ArnieAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "...¿<PLAYER>? ¡Ey!"
+	para "…¿<PLAYER>? ¡Ey!"
 	done
 
 ArnieAnswerPhoneNiteText:
@@ -22,7 +22,7 @@ ArnieAnswerPhoneNiteText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "...¿<PLAYER>? ¡Ey!"
+	para "…¿<PLAYER>? ¡Ey!"
 	done
 
 ArnieGreetText:

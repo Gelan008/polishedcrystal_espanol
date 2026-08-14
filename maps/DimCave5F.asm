@@ -84,7 +84,7 @@ DimCave5FRileyScript:
 	end
 
 .ChallengeText:
-	text "... ¿Tú eres?"
+	text "… ¿Tú eres?"
 
 	para "Vale, eres"
 	line "<PLAYER>."
@@ -193,7 +193,7 @@ GenericTrainerSuper_nerdFoote:
 
 .BeatenText:
 	text "Has respondido sin"
-	line "palabras..."
+	line "palabras…"
 	cont "¡Qué zen!"
 	done
 
@@ -216,7 +216,7 @@ GenericTrainerEngineerHoward:
 	done
 
 .BeatenText:
-	text "¡No! Un apagón..."
+	text "¡No! Un apagón…"
 	done
 
 GenericTrainerSuper_nerdDave:
@@ -241,5 +241,5 @@ GenericTrainerSuper_nerdDave:
 
 .BeatenText:
 	text "Pero no las de"
-	line "combate..."
+	line "combate…"
 	done

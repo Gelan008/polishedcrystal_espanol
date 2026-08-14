@@ -22,7 +22,7 @@ TullyDefeatedMonText:
 
 	para "Je, supongo que"
 	line "no puedes notarlo"
-	cont "por teléfono..."
+	cont "por teléfono…"
 	done
 
 TullyLostAMonText:
@@ -36,7 +36,7 @@ TullyLostAMonText:
 
 	para "Je, supongo que"
 	line "no puedes notarlo"
-	cont "por teléfono..."
+	cont "por teléfono…"
 	done
 
 TullyBattleRematchText:
@@ -84,7 +84,7 @@ TullyNoItemText:
 
 TullyForwardText:
 	text "Sip, al habla"
-	line "Tully..."
+	line "Tully…"
 
 	para "¿<PLAYER>? ¿Qué?"
 	line "¿Te has perdido?"

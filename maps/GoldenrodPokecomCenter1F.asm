@@ -124,7 +124,7 @@ GoldenrodPokecenter1FPokefanF:
 	giveitem EON_MAIL
 	jumpthisopenedtext
 
-	text "Ah... Bueno, en-"
+	text "Ah… Bueno, en-"
 	line "tonces en otro"
 	cont "momento."
 	done
@@ -241,7 +241,7 @@ WonderTradeCompleteText:
 
 
 WonderTradeForGSBallPichuText:
-	text "...¿Pero qué es"
+	text "…¿Pero qué es"
 	line "esto? ¿Algo va mal"
 
 	para "con la Máquina"
@@ -254,7 +254,7 @@ WonderTradeForGSBallPichuText:
 	line "contigo mismo."
 
 	para "Pero eso no puede"
-	line "ser... No puedes"
+	line "ser… No puedes"
 
 	para "estar en dos"
 	line "sitios a la vez."
@@ -264,7 +264,7 @@ WonderTradeForGSBallPichuText:
 
 	para "a través del"
 	line "espacio, no del"
-	cont "tiempo..."
+	cont "tiempo…"
 
 	para "¿Y qué es esa ex-"
 	line "traña Ball que"
@@ -273,7 +273,7 @@ WonderTradeForGSBallPichuText:
 	line "Ball de Bonguri?"
 
 	para "Toma, echa un"
-	line "vistazo..."
+	line "vistazo…"
 	done
 
 WonderTradeForGSBallPichuText2:
@@ -309,7 +309,7 @@ PokemonJournalWhitneyScript:
 
 	text "Revista #mon"
 
-	para "Reportaje Espe-"
+	para "Edición Espe-"
 	line "cial: ¡Líder"
 	cont "Blanca!"
 
@@ -395,7 +395,7 @@ JudgeMachineEngineerScript:
 
 JudgeMachineEngineerWorkingText:
 	text "La Máquina Juez"
-	line "de #mon..."
+	line "de #mon…"
 
 	para "Ha sido mi sueño"
 	line "durante mucho"
@@ -419,12 +419,12 @@ JudgeMachineEngineerWorkingText:
 	cont "Huevos!"
 
 	para "Ya casi he termi-"
-	line "nado..."
+	line "nado…"
 	done
 
 JudgeMachineEngineerFinishedText:
 	text "La Máquina Juez"
-	line "de #mon..."
+	line "de #mon…"
 
 	para "¡Por fin está lis-"
 	line "ta! ¡Mi sueño se"

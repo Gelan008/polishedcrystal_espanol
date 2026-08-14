@@ -92,7 +92,7 @@ TrainerSwimmerfKatie:
 	line "es azul?"
 
 	para "Escuché que re-"
-	line "fleja el cielo..."
+	line "fleja el cielo…"
 
 	para "Pero entonces ¿por"
 	line "qué el cielo es"
@@ -115,7 +115,7 @@ GoldenrodHarborMagikarpScript:
 	line "Pez! ¿Eh?"
 
 	para "Sólo es un"
-	line "muñeco..."
+	line "muñeco…"
 	done
 
 GoldenrodHarborPokefanmScript:
@@ -349,9 +349,9 @@ SwimmerfKatieSeenText:
 	done
 
 SwimmerfKatieBeatenText:
-	text "Perdí..."
+	text "Perdí…"
 	line "Ahora me siento"
-	cont "azul..."
+	cont "azul…"
 	done
 
 SwimmermJamesSeenText:
@@ -361,7 +361,7 @@ SwimmermJamesSeenText:
 
 SwimmermJamesBeatenText:
 	text "Quizás no sepa"
-	line "luchar..."
+	line "luchar…"
 	done
 
 GoldenrodHarborDollVendorText:
@@ -451,7 +451,7 @@ GoldenrodHarborJumboPlantSentText:
 
 GoldenrodHarborLass2Text:
 	text "Toda esta agua,"
-	line "es totalmente..."
+	line "es totalmente…"
 
 	para "glu-glu,"
 	line "plis-plas."

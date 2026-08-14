@@ -168,7 +168,7 @@ GoldenrodMuseum2FScientistScript:
 
 	text "Esperaba que hu-"
 	line "biera más expo-"
-	cont "siciones..."
+	cont "siciones…"
 
 	para "¿Dónde están las"
 	line "tallas Alfa?"
@@ -180,7 +180,7 @@ GoldenrodMuseum2FScientistSomeArtifactsText:
 
 	para "Es una pena que"
 	line "sólo sean répli-"
-	cont "cas..."
+	cont "cas…"
 
 	para "Me encantaría es-"
 	line "tudiar los de"

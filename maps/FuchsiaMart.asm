@@ -23,7 +23,7 @@ FuchsiaMartFisherText:
 	para "Zona Safari,"
 	line "pero ya no los"
 
-	para "venden más..."
+	para "venden más…"
 	done
 
 FuchsiaMartCooltrainerFText:
