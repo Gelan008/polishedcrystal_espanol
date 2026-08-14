@@ -164,22 +164,22 @@ BurnedTowerRivalBattleScript:
 GenericTrainerHexManiacTamara:
 	generictrainer HEX_MANIAC, TAMARA, EVENT_BEAT_HEX_MANIAC_TAMARA, HexManiacTamaraSeenText, HexManiacTamaraBeatenText
 
-	text "There are powers"
-	line "beyond our under-"
+	text "Hay poderes en el"
+	line "mundo más allá de"
 
-	para "standing in the"
-	line "world…"
+	para "nuestra compren-"
+	line "sión…"
 	done
 
 GenericTrainerFirebreatherNed:
 	generictrainer FIREBREATHER, NED, EVENT_BEAT_FIREBREATHER_NED, FirebreatherNedSeenText, FirebreatherNedBeatenText
 
-	text "We Firebreathers"
-	line "know the true"
+	text "¡Los Comefuego"
+	line "conocemos el ver-"
 
-	para "power of fire"
-	line "better than"
-	cont "anyone!"
+	para "dadero poder del"
+	line "fuego mejor que"
+	cont "nadie!"
 	done
 
 BurnedTower1FEusineMovement:

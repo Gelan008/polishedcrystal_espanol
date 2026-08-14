@@ -474,12 +474,12 @@ ElmAskBattleScript:
 	special HealParty
 	jumpthistextfaceplayer
 
-	text "Elm: I'm proud"
-	line "of you, <PLAYER>."
+	text "Elm: ¡Estoy muy"
+	line "orgulloso de ti,"
+	cont "<PLAYER>!"
 
-	para "I was right to"
-	line "trust you with"
-	cont "a #mon!"
+	para "¡Hice bien en con-"
+	line "fiarte un #mon!"
 	done
 
 ElmGiveTicketScript:

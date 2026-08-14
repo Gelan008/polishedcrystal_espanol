@@ -178,14 +178,15 @@ DragonShrineElder1Script:
 	iftrue_jumptextfaceplayer DragonShrineSilverIsInTrainingText
 	jumpthistextfaceplayer
 
-	text "Débora appears to"
-	line "have learned an"
+	text "Parece que Débora"
+	line "ha aprendido una"
 
-	para "invaluable lesson"
-	line "from you."
+	para "valiosa lección de"
+	line "ti."
 
-	para "I thank you as her"
-	line "grandfather."
+	para "Te lo agradezco"
+	line "como su abuelo que"
+	cont "soy."
 	done
 
 .GiveDratini:

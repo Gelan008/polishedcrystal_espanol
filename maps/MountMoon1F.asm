@@ -91,62 +91,68 @@ MountMoon1FRivalBattleScene:
 GenericTrainerBugManiacKenta:
 	generictrainer BUG_MANIAC, KENTA, EVENT_BEAT_BUG_MANIAC_KENTA, BugManiacKentaSeenText, BugManiacKentaBeatenText
 
-	text "Team Rocket used"
-	line "to lurk around"
-	cont "here."
+	text "El Team Rocket"
+	line "solía rondar por"
+	cont "aquí."
 
-	para "I wonder if the"
-	line "red-haired boy has"
-	cont "any connection to"
-	cont "them?"
+	para "¿Tendrá algo que"
+	line "ver con ellos ese"
+
+	para "chico de pelo"
+	line "rojo?"
 	done
 
 GenericTrainerLassMiriam:
 	generictrainer LASS, MIRIAM, EVENT_BEAT_LASS_MIRIAM, LassMiriamSeenText, LassMiriamBeatenText
 
-	text "Mt.Moon is big,"
-	line "but you'll get"
-	cont "used to it soon."
+	text "El Mt. Moon es"
+	line "grande, pero te"
+
+	para "acostumbrarás"
+	line "pronto."
 	done
 
 GenericTrainerSuperNerdJovan:
 	generictrainer SUPER_NERD, JOVAN, EVENT_BEAT_SUPER_NERD_JOVAN, SuperNerdJovanSeenText, SuperNerdJovanBeatenText
 
-	text "I have yet to find"
-	line "stronger #mon."
+	text "Aún no he encon-"
+	line "trado a #mon"
+	cont "más fuertes."
 
-	para "Where might they"
-	line "be?"
+	para "¿Dónde podrán"
+	line "estar?"
 	done
 
 GenericTrainerBugManiacRobby:
 	generictrainer BUG_MANIAC, ROBBY, EVENT_BEAT_BUG_MANIAC_ROBBY, BugManiacRobbySeenText, BugManiacRobbyBeatenText
 
-	text "I used to only"
-	line "catch bug #mon"
-	cont "as a hobby,"
+	text "Antes solo atrapa-"
+	line "ba #mon bicho"
+	cont "por afición,"
 
-	para "but now it's my"
-	line "pride and joy."
+	para "pero ahora son mi"
+	line "mayor orgullo."
 	done
 
 GenericTrainerLassIris:
 	generictrainer LASS, IRIS, EVENT_BEAT_LASS_IRIS, LassIrisSeenText, LassIrisBeatenText
 
-	text "I come here every"
-	line "day just to catch"
-	cont "a Clefairy, but"
+	text "Vengo aquí a dia-"
+	line "rio solo para"
 
-	para "I haven't seen a"
-	line "single one…"
+	para "atrapar a un"
+	line "Clefairy, pero"
+
+	para "no he visto ni"
+	line "uno solo…"
 	done
 
 GenericTrainerHikerMarcos:
 	generictrainer HIKER, MARCOS, EVENT_BEAT_HIKER_MARCOS, HikerMarcosSeenText, HikerMarcosBeatenText
 
-	text "A long time ago,"
-	line "I was beaten by a"
-	cont "kid just like you."
+	text "Hace mucho tiempo,"
+	line "un crío como tú me"
+	cont "derrotó."
 	done
 
 MountMoon1FRivalMovementBefore:
@@ -170,146 +176,149 @@ MountMoon1FRivalMovementAfter:
 MountMoonRivalTextBefore:
 	text "…… …… ……"
 
-	para "It's been a while,"
+	para "Cuánto tiempo,"
 	line "<PLAYER>."
 
-	para "…Since I lost to"
-	line "you, I thought"
+	para "…Desde que perdí"
+	line "contra ti, he"
 
-	para "about what I was"
-	line "lacking with my"
-	cont "#mon…"
+	para "pensado en qué nos"
+	line "faltaba a mis"
+	cont "#mon y a mí…"
 
-	para "And we came up"
-	line "with an answer."
+	para "Y ya hemos dado"
+	line "con la respuesta."
 
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "¡<PLAYER>, ahora"
+	line "te lo demostra-"
+	cont "remos!"
 	done
 
 MountMoonRivalTextWin:
 	text "…… …… ……"
 
-	para "I thought I raised"
-	line "my #mon to be"
+	para "Creía haber entre-"
+	line "nado a mis #mon"
 
-	para "the best they"
-	line "could be…"
+	para "para ser los"
+	line "mejores…"
 
-	para "…But it still"
-	line "wasn't enough…"
+	para "…Pero aun así no"
+	line "ha sido sufi-"
+	cont "ciente…"
 	done
 
 MountMoonRivalTextAfter:
 	text "…… …… ……"
 
-	para "…You won, fair"
-	line "and square."
+	para "…Has ganado de"
+	line "forma justa."
 
-	para "I admit it. But"
-	line "this isn't the"
-	cont "end."
+	para "Lo admito. Pero"
+	line "esto no acaba"
+	cont "aquí."
 
-	para "After some more"
-	line "training in"
-	cont "Dragon's Den…"
+	para "Tras entrenar un"
+	line "poco más en la"
+	cont "Guarida Dragón…"
 
-	para "I'm going to be"
-	line "the greatest #-"
-	cont "mon trainer ever."
+	para "¡Seré el mejor"
+	line "entrenador #mon"
+	cont "de la historia!"
 
-	para "Because these guys"
-	line "are behind me."
+	para "Porque ellos están"
+	line "conmigo."
 
-	para "…Listen, <PLAYER>."
+	para "…Escucha,"
+	line "<PLAYER>."
 
-	para "One of these days"
-	line "I'm going to prove"
+	para "Uno de estos días"
+	line "te venceré para"
 
-	para "how good I am by"
-	line "beating you."
+	para "demostrar lo bueno"
+	line "que soy."
 	done
 
 MountMoonRivalTextLoss:
 	text "…… …… ……"
 
-	para "I've repaid my"
-	line "debt to you."
+	para "He saldado mi"
+	line "deuda contigo."
 
-	para "With my #mon,"
-	line "I'm going to beat"
+	para "Con mis #mon,"
+	line "venceré al Campeón"
 
-	para "the Champion and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "y seré el mejor"
+	line "entrenador del"
+	cont "mundo."
 	done
 
 BugManiacKentaSeenText:
-	text "I saw a red-haired"
-	line "boy training here."
+	text "He visto a un"
+	line "chico pelirrojo"
+	cont "entrenando aquí."
 
-	para "Have you battled"
-	line "him?"
+	para "¿Has luchado"
+	line "contra él?"
 	done
 
 BugManiacKentaBeatenText:
-	text "You got me!"
+	text "¡Me has pillado!"
 	done
 
 LassMiriamSeenText:
-	text "When I was young-"
-	line "er, I always used"
+	text "Cuando era más"
+	line "joven, siempre me"
 
-	para "to get lost in"
-	line "this place."
+	para "acababa perdiendo"
+	line "en este lugar."
 	done
 
 LassMiriamBeatenText:
-	text "Oh! I lost it!"
+	text "¡Oh! ¡He perdido!"
 	done
 
 SuperNerdJovanSeenText:
-	text "What! Don't sneak"
-	line "up on me!"
+	text "¡Qué! ¡No me des"
+	line "esos sustos!"
 	done
 
 SuperNerdJovanBeatenText:
-	text "My #mon"
-	line "won't do!"
+	text "¡Mis #mon no"
+	line "dan la talla!"
 	done
 
 BugManiacRobbySeenText:
-	text "You need to go"
-	line "through this cave"
-
-	para "to get to Cerulean"
-	line "City."
+	text "Debes cruzar esta"
+	line "cueva para llegar"
+	cont "a Ciudad Celeste."
 	done
 
 BugManiacRobbyBeatenText:
-	text "I lost…"
+	text "He perdido…"
 	done
 
 LassIrisSeenText:
-	text "Have you seen a"
+	text "¿Has visto algún"
 	line "Clefairy?"
 
-	para "They're so cute!"
+	para "¡Son tan monos!"
 	done
 
 LassIrisBeatenText:
-	text "That was so fast…"
+	text "Ha sido visto y"
+	line "no visto…"
 	done
 
 HikerMarcosSeenText:
-	text "Kids like you"
-	line "shouldn't be"
+	text "Los críos como tú"
+	line "no deberían vagar"
 
-	para "wandering around"
-	line "here in the dark."
+	para "por aquí a oscu-"
+	line "ras."
 	done
 
 HikerMarcosBeatenText:
-	text "Woah!"
-	line "You're strong!"
+	text "¡Uau! ¡Qué fuerte"
+	line "eres!"
 	done
