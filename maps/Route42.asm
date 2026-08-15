@@ -409,7 +409,7 @@ FisherTully1SeenText:
 	done
 
 FisherTully1BeatenText:
-	text "¿Qué? ¡Eso no vale!"
+	text "¿Qué? ¡No vale!"
 	done
 
 FisherTullyAfterBattleText:
@@ -442,7 +442,7 @@ PokemaniacShaneSeenText:
 	done
 
 PokemaniacShaneBeatenText:
-	text "Debí haber usado mi"
+	text "Debí usar mi"
 	line "Piedra Lunar…"
 	done
 

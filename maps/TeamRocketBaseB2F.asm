@@ -354,11 +354,9 @@ TeamRocketBaseB2FTransmitterScript:
 	done
 
 .DeactivateTransmitterText:
-	text "El transmisor de"
-	line "radio por fin ha"
-
-	para "detenido su maléfi-"
-	line "ca emisión."
+	text "El transmisor"
+	line "por fin detuvo su"
+	cont "maléfica emisión."
 	done
 
 RocketBaseLanceLeavesAfterHealMovement:
@@ -634,8 +632,8 @@ RocketBaseBossRetreatText:
 	done
 
 RocketBaseLancePostBattleText:
-	text "Lance: Ya está. He-"
-	line "mos derrotado a"
+	text "Lance: Listo."
+	line "Hemos derrotado a"
 
 	para "todos los Rocket"
 	line "de aquí."
@@ -749,9 +747,9 @@ RocketBaseLanceMonMasterText:
 	para "Si te rindieras"
 	line "tan fácilmente,"
 
-	para "nunca habrías per-"
-	line "seguido ese sueño"
-	cont "desde el principio."
+	para "nunca habrías bus-"
+	line "cado ese sueño al"
+	cont "principio."
 
 	para "¡Espero que nos"
 	line "volvamos a ver!"

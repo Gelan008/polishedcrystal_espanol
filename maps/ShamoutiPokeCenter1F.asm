@@ -119,9 +119,9 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .GreetingText:
-	text "Ivy: ¡Oh! ¡Eres"
-	line "<PLAYER>, ¡el nuevo"
-	cont "Campeón!"
+	text "Ivy: ¡<PLAYER>!"
+	line "¡El flamante"
+	cont "nuevo Campeón!"
 
 	para "¡Encantada de"
 	line "conocerte!"
@@ -219,4 +219,4 @@ ShamoutiPokeCenter1FIvyScript:
 	db "Bulbasaur@"
 	db "Charmander@"
 	db "Squirtle@"
-	db "Cancel@"
+	db "Cancelar@"

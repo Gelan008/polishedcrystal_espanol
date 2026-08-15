@@ -87,8 +87,8 @@ GenericTrainerBug_maniacDylan:
 GenericTrainerGuitaristfJaclyn:
 	generictrainer GUITARISTF, JACLYN, EVENT_BEAT_GUITARISTF_JACLYN, .SeenText, .BeatenText
 
-	text "¡Espera! ¡Aún no he"
-	line "terminado de"
+	text "¡Espera! ¡No he"
+	line "terminado aún de"
 	cont "cantar!"
 	done
 
@@ -150,9 +150,9 @@ GenericTrainerHikerLester:
 GenericTrainerBird_keeperTrent:
 	generictrainer BIRD_KEEPER, TRENT, EVENT_BEAT_BIRD_KEEPER_TRENT, .SeenText, .BeatenText
 
-	text "Madrugo todos los"
-	line "días para entrenar"
-	cont "a mis pájaros aquí."
+	text "Madrugo cada día"
+	line "para entrenar a"
+	cont "mis pájaros aquí."
 
 	para "El estruendo es"
 	line "parte de nuestro"

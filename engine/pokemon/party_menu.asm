@@ -171,12 +171,13 @@ BT_SwapRentals:
 	farjp BT_SetRentalOT
 
 .MustSwapBetweenTeams:
-	text "You must trade <PK><MN>"
-	line "between the teams!"
+	text "¡Debes cambiar de"
+	line "#mon entre los"
+	cont "equipos!"
 	prompt
 
 .TradeWhichPKMN:
-	db "Trade which <PK><MN>?   @"
+	db "¿Inter con <PK><MN>?   @"
 
 BT_PartySelect:
 	ld a, PARTYMENUACTION_BATTLE_TOWER
@@ -276,8 +277,8 @@ BT_PartySelect:
 	jmp .loop
 
 .too_many_mons_text
-	text "You may only enter"
-	line "with 3 #mon!"
+	text "¡Solo se admiten 3"
+	line "#mon!"
 	prompt
 
 .Stats:
@@ -350,7 +351,7 @@ BT_ConfirmPartySelection:
 .YesNoMenuData:
 	db $c0 ; flags
 	db 2 ; items
-	db "Yes@"
+	db "Si@"
 	db "No@"
 
 BT_DisplayMenu:
@@ -857,13 +858,13 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "Able@"
+	db "Apto@"
 
 .string_not_able
-	db "Not able@"
+	db "No apto@"
 
 .string_learned
-	db "Learned@"
+	db "Aprendido@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -941,9 +942,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "Able@"
+	db "Apto@"
 .string_not_able
-	db "Not able@"
+	db "No apto@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -1034,10 +1035,10 @@ PlacePartyMonRemindable:
 	ret
 
 .string_able
-	db "Able@"
+	db "Apto@"
 
 .string_not_able
-	db "Not able@"
+	db "No apto@"
 
 PlacePartyMonBattleTower:
 	ld bc, 0
@@ -1076,22 +1077,22 @@ PlacePartyMonBattleTower:
 	jr .loop
 
 .Banned
-	db "Banned@"
+	db "Prohib@"
 
 .Able
-	db "Able@"
+	db "Apto@"
 
 .First
-	db "First@"
+	db "Primer@"
 
 .Second
-	db "Second@"
+	db "Segun@"
 
 .Third
-	db "Third@"
+	db "Tercero@"
 
 .LastFoe
-	db "Last foe@"
+	db "Ultimo@"
 
 PartyMenuCheckEgg:
 	push hl

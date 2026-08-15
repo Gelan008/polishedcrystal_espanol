@@ -81,11 +81,9 @@ GenericTrainerSwimmermConrad:
 	done
 
 .SeenText:
-	text "Crema puesta, ga-"
-	line "fas listas… ¡A tope"
-
-	para "para cabalgar las"
-	line "olas!"
+	text "Crema y gafas lis-"
+	line "tas… ¡A tope para"
+	cont "las olas!"
 	done
 
 .BeatenText:

@@ -252,12 +252,11 @@ TrainerCoupleJoeandjo1:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Joe: Cazamos fan-"
-	line "tasmas, pero no te-"
+	text "Joe: Cazamos"
+	line "fantasmas, pero no"
 
-	para "mo nada mientras"
-	line "tenga a mi Jo al"
-	cont "lado."
+	para "temo nada si tengo"
+	line "a mi Jo al lado."
 	done
 
 .SeenText:

@@ -79,12 +79,11 @@ OreManiacScript:
 	done
 
 .WrongItemText:
-	text "¿Eh? ¿Pero qué"
-	line "diablos es esto?"
+	text "¿Eh? ¿Qué diablos"
+	line "es esto?"
 
-	para "¡Un mineral tan ba-"
-	line "rato no me va a"
-	cont "fascinar!"
+	para "¡Un mineral barato"
+	line "no me fascinará!"
 	done
 
 .NoItemText:

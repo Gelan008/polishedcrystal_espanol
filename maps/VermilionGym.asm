@@ -261,8 +261,8 @@ LtSurgeThunderBadgeText:
 
 LtSurgeFightDoneText:
 	text "Surge: ¡Eh, peque!"
-	line "¿Sigues dándolo to-"
-	cont "do ahí fuera?"
+	line "¿Sigues dándolo"
+	cont "todo ahí fuera?"
 
 	para "¡Mis #mon y yo"
 	line "seguimos al pie"
@@ -331,9 +331,8 @@ VermilionGymGuyWinText:
 	done
 
 VermilionGymFoundSwitchText:
-	text "¿Un interruptor se-"
-	line "creto bajo la ba-"
-	cont "sura?"
+	text "¿Un interruptor"
+	line "en la papelera?"
 
 	para "Mejor pulsarlo."
 	done

@@ -53,16 +53,16 @@ GenericTrainerSupernerdMarkus:
 	generictrainer SUPER_NERD, MARKUS, EVENT_BEAT_SUPER_NERD_MARKUS, SupernerdMarkusSeenText, SupernerdMarkusBeatenText
 
 	text "Vine a explorar el"
-	line "Monte Mortero, pero"
+	line "Monte Mortero"
 
-	para "me separé de mi"
-	line "compañero…"
+	para "pero me separé"
+	line "de mi compañero…"
 
-	para "¿Te has cruzado con"
-	line "un entrenador que"
+	para "¿Te has cruzado"
+	line "con un entrenador"
 
-	para "usa un Seadra que"
-	line "sabe Cascada?"
+	para "que usa un Seadra"
+	line "que sabe Cascada?"
 	done
 
 PokemaniacMillerSeenText:

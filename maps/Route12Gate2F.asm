@@ -17,10 +17,11 @@ Route12Gate2F_MapScriptHeader:
 Route12Gate2FBinoculars1:
 	jumpthistext
 
-	text "¡Has mirado por"
-	line "los prismáticos!"
+	text "¡Miras por los"
+	line "prismáticos!"
 
-	para "¡Un hombre pescando!"
+	para "¡Hay un hombre"
+	line "pescando!"
 	done
 
 Route12Gate2FBinoculars2:

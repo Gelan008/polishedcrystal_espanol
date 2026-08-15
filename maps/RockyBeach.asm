@@ -62,8 +62,8 @@ GenericTrainerBeautyIoana:
 	line "blanca de forma"
 	cont "natural,"
 
-	para "así que debo tener"
-	line "cuidado con el sol."
+	para "así que me cuido"
+	line "mucho del sol."
 	done
 
 .SeenText:
@@ -83,7 +83,7 @@ GenericTrainerSightseerfKamila:
 	line "piélago situado"
 	cont "muy lejos de aquí."
 
-	para "¡Deberías visitarlo"
+	para "¡Deberías ir allí"
 	line "algún día!"
 	done
 
@@ -95,7 +95,7 @@ GenericTrainerSightseerfKamila:
 	done
 
 .BeatenText:
-	text "¡Cheehoo! ¡Eres"
+	text "Tch! ¡Eres"
 	line "bastante fuerte!"
 	done
 
@@ -175,7 +175,8 @@ GenericTrainerSwimmermEzra:
 	done
 
 .BeatenText:
-	text "¡Me quedé sin aire!"
+	text "¡Me quedé sin"
+	line "aire!"
 	done
 
 RockyBeachWilhomenaScript:

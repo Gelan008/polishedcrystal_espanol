@@ -4607,9 +4607,9 @@ BattleMenuPKMN_Loop:
 .MenuData:
 	db $c0 ; flags
 	db 3 ; items
-	db "Switch@"
-	db "Summary@"
-	db "Cancel@"
+	db "Cambiar@"
+	db "Datos@"
+	db "Cancelar@"
 
 AI_OpponentCanSwitch:
 	call StackCallOpponentTurn
@@ -8387,13 +8387,13 @@ ReadAndPrintLinkBattleRecord:
 	next1 "         -    -    -"
 	done
 .Record:
-	text "<PLAYER>'s Record"
+	text "Récord <PLAYER>"
 	done
 .Result:
-	text "Result Win Lose Draw"
+	text "Result  Vic  Der Emp"
 	done
 .Total:
-	text "Total  Win Lose Draw"
+	text "Total   Vic  Der Emp"
 	done
 
 BattleEnd_HandleRoamMons:

@@ -32,7 +32,7 @@ ViridianSchoolHouseTeacherText:
 
 ViridianSchoolHouseNotesText:
 	text "La página está"
-	line "llena de garabatos."
+	line "con garabatos."
 
 	para "Un laberinto, flo-"
 	line "res, la letra S…"

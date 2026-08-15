@@ -282,7 +282,7 @@ Bird_keeperTobySeenText:
 	done
 
 Bird_keeperTobyBeatenText:
-	text "Ahora mismo saldría"
+	text "Ahora saldría"
 	line "volando de aquí."
 	done
 

@@ -26,7 +26,8 @@ PokemonJournalKurtScript:
 	text "Revista #mon"
 
 	para "Edición Especial:"
-	line "¡El artesano César!"
+	line "¡El artesano"
+	cont "César!"
 
 	para "César no deja que"
 	line "nadie se acerque"
@@ -138,7 +139,7 @@ Route32PokeCenter1FPokefanMScript:
 	done
 
 .Text2:
-	text "¿Non? ¡Qué lástima!"
+	text "¿Non? ¡Lástima!"
 	line "¡Te enseñaré lo"
 
 	para "fantásticos que"

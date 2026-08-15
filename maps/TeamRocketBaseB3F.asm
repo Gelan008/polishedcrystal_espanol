@@ -448,8 +448,8 @@ GruntF5AfterBattleText:
 GruntM28SeenText:
 	text "¡Ji, ji, ji!"
 
-	para "¿Me estás desafian-"
-	line "do a un combate?"
+	para "¿Me desafías a un"
+	line "combate?"
 
 	para "¡Ja! Estás chifla-"
 	line "do, ¡pero tienes"

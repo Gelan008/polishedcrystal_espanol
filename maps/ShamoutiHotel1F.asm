@@ -121,9 +121,9 @@ ShamoutiHotel1FLadyText:
 	para "Extremo” a tus"
 	line "#mon para sacar"
 
-	para "su máximo poten-"
-	line "cial a cambio de"
-	cont "una Chapa Plateada."
+	para "su potencial a"
+	line "cambio de una"
+	cont "Chapa Plata."
 	done
 
 ShamoutiHotel1FYoungsterText:

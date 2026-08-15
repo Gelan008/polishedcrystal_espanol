@@ -239,8 +239,8 @@ VermilionCitySuperNerd2Script:
 	iftrue_jumptextfaceplayer VermilionCitySuperNerd2Text
 	jumpthistextfaceplayer
 
-	text "¡La Fábrica Batalla"
-	line "es nuevecita!"
+	text "¡La Fábrica es"
+	line "nuevecita!"
 
 	para "Pero consume mu-"
 	line "chísima energía…"
@@ -257,9 +257,9 @@ VermilionCityBadgeGuyBattleEdgeText:
 	para "dará ventaja en el"
 	line "combate."
 
-	para "Seguro que las Me-"
-	line "dallas de Gimnasio"
-	cont "de Kanto te ayudan."
+	para "Las Medallas de"
+	line "Gimnasio de Kanto"
+	cont "te ayudarán."
 	done
 
 LawrenceOverheardText:
@@ -274,7 +274,7 @@ LawrenceOverheardText:
 
 LawrenceIntroText:
 	text "Lawrence: Perdón"
-	line "por chocar contigo."
+	line "por el choque."
 
 	para "Tengo prisa por"
 	line "completar mi co-"
@@ -371,7 +371,7 @@ VermilionCityOfficerFText:
 	line "brica Batalla está"
 
 	para "cerrada hasta que"
-	line "la Central de Ener-"
+	line "la Central de Ener"
 
 	para "gía vuelva a fun-"
 	line "cionar."

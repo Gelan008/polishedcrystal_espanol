@@ -54,7 +54,7 @@ GenericTrainerBird_keeperHank:
 	cont "en concreto,"
 
 	para "sácalo primero y"
-	line "cámbialo enseguida."
+	line "cámbialo luego."
 
 	para "Así es como se"
 	line "hace."

@@ -113,7 +113,7 @@ Route27VeteranfScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "¡Mucha suerte! Dale"
+	text "¡Suerte! Dale"
 	line "recuerdos a Lance"
 	cont "de mi parte."
 	done
@@ -474,8 +474,8 @@ AceDuoJakeandbri2SeenText:
 	done
 
 AceDuoJakeandbri2BeatenText:
-	text "Bri: No ha bastado"
-	line "con compenetrarnos…"
+	text "Bri: No bastó con"
+	line "compenetrarnos…"
 	done
 
 CooltrainerfReena1SeenText:
@@ -513,8 +513,8 @@ CooltrainerfMeganBeatenText:
 PsychicGilbertSeenText:
 	text "¡Ni una palabra!"
 
-	para "Déjame adivinar en"
-	line "qué estás pensando."
+	para "Adivinaré en qué"
+	line "estás pensando."
 
 	para "Mmmmmmm…"
 
@@ -548,6 +548,6 @@ BirdKeeperJose2AfterBattleText:
 TohjoFallsSignText:
 	text "Cataratas Tohjo"
 
-	para "El nexo de unión"
-	line "entre Kanto y Johto"
+	para "La unión entre"
+	line "Kanto y Johto"
 	done

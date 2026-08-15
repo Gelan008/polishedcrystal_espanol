@@ -214,7 +214,7 @@ Route30_MikeysPidgeyAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "¡Adelante, Rattata!"
+	text "¡Vamos, Rattata!"
 
 	para "¡Placaje!"
 	done
@@ -277,9 +277,9 @@ Bug_catcherDonBeatenText:
 	done
 
 Route30YoungsterText:
-	text "¡Estas vías del"
-	line "tren llevan direc-"
-	cont "tas a Ciudad Trigal!"
+	text "¡Estas vías van"
+	line "directo a Ciudad"
+	cont "Trigal!"
 
 	para "Me divierte hacer"
 	line "equilibrios en"
@@ -287,11 +287,12 @@ Route30YoungsterText:
 	done
 
 Route30CooltrainerFText:
-	text "No soy entrenadora."
+	text "No soy entrenadora"
+	line "de #mon."
 
 	para "Pero si miras a"
 	line "uno a los ojos,"
-	cont "prepárate a luchar."
+	cont "habrá combate."
 	done
 
 Route30SignText:
@@ -317,14 +318,14 @@ BerryMastersHouseSignText:
 	done
 
 Route30TrainerTipsText:
-	text "Pistas Entrenadores"
+	text "Pistas Entren."
 
 	para "¡Prohibido robar"
 	line "los #mon de los"
 	cont "demás!"
 
-	para "¡Las # Balls so-"
-	line "lo deben lanzarse a"
+	para "¡Las # Balls"
+	line "solo se lanzan a"
 	cont "#mon salvajes!"
 	done
 

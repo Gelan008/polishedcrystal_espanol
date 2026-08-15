@@ -36,8 +36,8 @@ VermilionSSAnneSpeechHouseGrampsText:
 	done
 
 VermilionSSAnneSpeechHouseBeautyText:
-	text "He visto una ma-"
-	line "queta del S.S. Anne"
+	text "Vi una maqueta"
+	line "del S.S. Anne"
 
 	para "en un Museo Oceá-"
 	line "nico muy lejano."

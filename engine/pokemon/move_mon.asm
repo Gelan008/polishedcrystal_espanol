@@ -734,51 +734,55 @@ Special_HyperTrain:
 	dbw BANK(.MenuData), 0
 
 .Strings:
-	db "HP@"
-	db "Speed@"
-	db "Attack@"
-	db "Sp.Atk@"
-	db "Defense@"
-	db "Sp.Def@"
+	db "PS@"
+	db "Vel.@"
+	db "Ataque@"
+	db "AtqEsp@"
+	db "Defensa@"
+	db "DefEsp@"
 
 .TrainWhichStat:
-	text "Train which of"
-	line ""
+	text "¿Qué estadística"
+	line "vas a entrenar"
+	cont "a "
 	text_ram wStringBuffer1
-	text "'s stats?"
+	text "?"
 	done
 
 .TextCantTrainEgg:
-	text "An Egg? I get that"
-	line "you're hyped to"
-	cont "have it, but I"
-	cont "can't train it yet!"
+	text "¿Un Huevo? Entien-"
+	line "do la emoción,"
+	cont "¡pero aún no puedo"
+	cont "entrenarlo!"
 	prompt
 
 .TextNotEnoughLevels:
-	text "Oh no… No, no, no!"
-	line ""
+	text "¡Oh, no, no, no!"
+
+	para "¡"
 	text_ram wStringBuffer1
-	text " hasn't"
-	cont "leveled up enough"
-	cont "to be ready!"
+	text ""
+	line "no tiene el nivel"
+	cont "suficiente!"
 	prompt
+
 
 .TextNotMaxEffort:
-	text "Oh no… No, no, no!"
-	line ""
+	text "¡Oh, no, no, no!"
+
+	para "¡"
 	text_ram wStringBuffer1
-	text " hasn't"
-	cont "maxed their effort"
-	cont "in that stat!"
+	text " no ha"
+	line "alcanzado el tope"
+	cont "en esa caract.!"
 	prompt
 
+
 .TextAlreadyHypedUp:
-	text "But "
+	text "¡Pero "
 	text_ram wStringBuffer1
-	text " is"
-	line "already hyped up"
-	cont "in that stat!"
+	line "ya está al máximo"
+	cont "en esa caract.!"
 	prompt
 
 RecalculatePartyMonStats:
@@ -1298,7 +1302,7 @@ GiftEggSentToPCText:
 	; The Egg was sent to <BOX>.
 	text_farend _EggSentToPCText
 String_Egg:
-	rawchar "Egg@"
+	rawchar "Huevo@"
 
 InitNickname:
 	push de

@@ -135,15 +135,15 @@ InverseBattle1_3PointRewardText:
 	done
 
 InverseBattle4_6PointRewardText:
-	text "Entiendes los Com-"
-	line "bates Inversos bas-"
-	cont "tante bien."
+	text "Entiendes bien"
+	line "los Combates"
+	cont "Inversos."
 	done
 
 InverseBattle7_9PointRewardText:
-	text "¡Entiendes los Com-"
-	line "bates Inversos a"
-	cont "la perfección!"
+	text "¡Comprendes los"
+	line "Combates Inversos"
+	cont "a la perfección!"
 	done
 
 InverseBattle10PointRewardText:

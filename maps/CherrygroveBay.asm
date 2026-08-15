@@ -208,8 +208,8 @@ GenericTrainerSwimmerfSally:
 	done
 
 .SeenText:
-	text "Me gusta esta bahía"
-	line "Sus aguas son muy"
+	text "Me gusta la bahía"
+	line "Sus aguas son"
 
 	para "más tranquilas que"
 	line "en mar abierto."

@@ -255,7 +255,7 @@ GenericTrainerGentlemanCamus:
 	cont "lento,"
 
 	para "pero ahora solo"
-	line "soy un viejo inútil"
+	line "soy viejo e inútil"
 
 	para "Disfruta mientras"
 	line "aún eres joven."

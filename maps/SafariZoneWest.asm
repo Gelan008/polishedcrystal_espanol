@@ -32,7 +32,7 @@ GenericTrainerLassDuplica:
 	generictrainer LASS, DUPLICA, EVENT_BEAT_LASS_DUPLICA, LassDuplicaSeenText, LassDuplicaBeatenText
 
 	text "¡Se me da genial"
-	line "imitar a los demás!"
+	line "imitar a otros!"
 
 	para "¡Algún día seré"
 	line "Entrenadora del"

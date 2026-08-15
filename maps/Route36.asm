@@ -202,12 +202,12 @@ endc
 	para "de un solo golpe"
 	line "bien dado."
 
-	para "Si alguna roca se"
-	line "cruza en tu camino,"
+	para "Si hay rocas en"
+	line "tu camino,"
 if DEF(FAITHFUL)
-	cont "¡hazla trizas!"
+	cont "¡hazlas trizas!"
 else
-	cont "¡rómpela bien!"
+	cont "¡rómpelas bien!"
 endc
 	done
 
@@ -669,8 +669,8 @@ SchoolboyAlan1BeatenText:
 	done
 
 SchoolboyAlanBooksText:
-	text "Vaya. Y eso que es-"
-	line "tudio cinco horas"
+	text "Vaya. Y eso que"
+	line "estudio 5 horas"
 	cont "al día."
 
 	para "Para aprender no"

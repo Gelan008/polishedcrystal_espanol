@@ -85,9 +85,9 @@ VioletPokeCenter1FElmsAideScript:
 	para "Tampoco tienes es-"
 	line "pacio en tu Caja."
 
-	para "Esperaré aquí"
-	line "mientras haces"
-	cont "sitio para el Huevo."
+	para "Esperaré a que"
+	line "hagas sitio para"
+	cont "el Huevo."
 	done
 
 .RefusedEgg:
@@ -106,8 +106,8 @@ VioletPokeCenter1FElmsAideScript:
 	line "#mon mientras"
 	cont "te esperaba."
 
-	para "Sus cotilleos son"
-	line "un buen pasatiempo…"
+	para "¡Son un gran"
+	line "pasatiempo!"
 
 	para "En fin, el Prof."
 	line "Elm tiene otro fa-"

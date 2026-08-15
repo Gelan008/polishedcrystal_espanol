@@ -126,7 +126,7 @@ Route41MarlonScript:
 	done
 
 .BeatenText:
-	text "¡Ha sido alucinante"
+	text "¡Fue alucinante"
 	line "lo bien que lo has"
 	cont "hecho!"
 
@@ -332,8 +332,8 @@ SwimmermMathewBeatenText:
 	done
 
 SwimmermLewisSeenText:
-	text "¡En el mar me sien-"
-	line "to como en casa!"
+	text "¡En el mar estoy"
+	line "como en casa!"
 	done
 
 SwimmermLewisBeatenText:
@@ -356,8 +356,8 @@ SwimmerfKayleeBeatenText:
 	done
 
 SwimmerfSusieSeenText:
-	text "¡Qué elegancia tie-"
-	line "nes montando a tu"
+	text "¡Qué porte tienes"
+	line "al montar a tu"
 	cont "#mon!"
 	done
 
@@ -366,9 +366,9 @@ SwimmerfSusieBeatenText:
 	done
 
 SwimmerfDeniseSeenText:
-	text "¡Hace un tiempo tan"
-	line "bueno que estoy en"
-	cont "las nubes!"
+	text "¡Hace tan buen"
+	line "tiempo que estoy"
+	cont "en las nubes!"
 	done
 
 SwimmerfDeniseBeatenText:

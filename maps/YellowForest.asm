@@ -374,9 +374,9 @@ YellowForestWalkerFinalText:
 	text "Wayne: Los #mon"
 	line "pájaro surcan el"
 
-	para "cielo porque lo de-"
-	line "sean con todo su"
-	cont "corazón."
+	para "cielo porque lo"
+	line "desean con todo"
+	cont "su corazón."
 
 	para "Si deseas algo con"
 	line "tanta fuerza, sé"
@@ -385,7 +385,7 @@ YellowForestWalkerFinalText:
 	line "zarlo."
 
 	para "Lo que yo quiero"
-	line "es seguir viajando."
+	line "es viajar más."
 
 	para "¡Hasta luego!"
 	done
@@ -445,11 +445,9 @@ YellowForestYellowAfterText:
 	done
 
 YellowForestYellowGoodbyeText:
-	text "Amarillo: Dale esa"
-	line "Bolaluminosa a un"
-
-	para "Pikachu para aumen-"
-	line "tar su poder."
+	text "Amarillo: Dásela"
+	line "a un Pikachu para"
+	cont "aumentar su poder."
 	done
 
 YellowForestCooltrainerMText:

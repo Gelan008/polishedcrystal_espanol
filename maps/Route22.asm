@@ -75,9 +75,9 @@ KukuiScript:
 	text "¡Hola, buenas!"
 	line "Me llamo Kukui."
 
-	para "¿Así que te llamas"
-	line "<PLAYER>? ¡Recibido,"
-	cont "camarada!"
+	para "¿Te llamas"
+	line "<PLAYER>?"
+	cont "¡Recibido, amigo!"
 
 	para "¡Vengo de la leja-"
 	line "na región de"
@@ -91,7 +91,7 @@ KukuiScript:
 	cont "contra el Alto"
 	cont "Mando, ¡sí señor!"
 
-	para "¿Cómo? ¿Que eres el"
+	para "¿Cómo? ¿Eres el"
 	line "nuevo Campeón?"
 
 	para "¡Ujuuu! ¡Con razón"
@@ -148,8 +148,8 @@ Route22CooltrainerfText:
 	cont "de la barrera”."
 
 	para "Supongo que dicha"
-	line "barrera debe de"
-	cont "ser Monte Plateado."
+	line "barrera es el"
+	cont "Monte Plateado."
 	done
 
 VictoryRoadEntranceSignText:
@@ -162,13 +162,13 @@ VictoryRoadEntranceSignText:
 Route22AdvancedTipsSignText:
 	text "Pistas Entren."
 
-	para "¡Empezar una Nue-"
-	line "va Partida+ conser-"
-	cont "vará el dinero"
+	para "¡Empezar una"
+	line "Nueva Partida+"
+	cont "conservará el"
+	cont "dinero anterior,"
 
-	para "de la anterior,"
-	line "los Puntos de Ba-"
-	cont "talla y cualquier"
+	para "los Puntos de Ba-"
+	line "talla y cualquier"
 
 	para "#mon guardado"
 	line "en el PC!"

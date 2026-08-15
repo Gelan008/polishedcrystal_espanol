@@ -59,5 +59,5 @@ HexManiacVivianSeenText:
 	done
 
 HexManiacVivianBeatenText:
-	text "¿¡Solo era un eco!?"
+	text "¿Solo era un eco?"
 	done

@@ -37,8 +37,8 @@ GenericTrainerBreederCarlene:
 
 .SeenText:
 	text "¡Crié a mi equipo"
-	line "para afrontar cual-"
-	cont "quier situación!"
+	line "para toda clase"
+	cont "de situaciones!"
 	done
 
 .BeatenText:

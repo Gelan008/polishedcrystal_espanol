@@ -138,10 +138,9 @@ SwimmermCameronBeatenText:
 GenericTrainerSwimmermLuis:
 	generictrainer SWIMMERM, SWIMMERM_LUIS, EVENT_BEAT_SWIMMERM_LUIS, .SeenText, .BeatenText
 
-	text "¡Muy bien! ¡La"
-	line "próxima vez me pon-"
-	cont "dré un bañador de"
-	cont "fiesta!"
+	text "¡La próxima vez"
+	line "me pondré mi"
+	cont "bañador de gala!"
 	done
 
 .SeenText:
@@ -166,10 +165,10 @@ GenericTrainerSwimmermElmo:
 	text "Antes era un Pes-"
 	line "cador."
 
-	para "¡Pero le he cogido"
-	line "tanto gusto a na-"
-	cont "dar que siempre voy"
-	cont "en bañador!"
+	para "¡Pero me gusta"
+	line "tanto nadar que"
+	cont "siempre voy en"
+	cont "bañador!"
 	done
 
 .BeatenText: ; text > text
@@ -179,9 +178,9 @@ GenericTrainerSwimmermElmo:
 GenericTrainerPicnickerCheyenne:
 	generictrainer PICNICKER, CHEYENNE, EVENT_BEAT_PICNICKER_CHEYENNE, .SeenText, .BeatenText
 
-	text "¡Si estoy con mis"
-	line "#mon, no me im-"
-	cont "porta tanto perder!"
+	text "¡Junto a mis #-"
+	line "mon, no me impor-"
+	cont "ta tanto perder!"
 	done
 
 .SeenText:
@@ -190,8 +189,8 @@ GenericTrainerPicnickerCheyenne:
 	cont "casa."
 
 	para "¡Ahora me encanta"
-	line "jugar fuera con los"
-	cont "#mon!"
+	line "jugar fuera con"
+	cont "los #mon!"
 	done
 
 .BeatenText:
@@ -201,8 +200,8 @@ GenericTrainerPicnickerCheyenne:
 GenericTrainerPicnickerAdrian:
 	generictrainer PICNICKER, ADRIAN, EVENT_BEAT_PICNICKER_ADRIAN, .SeenText, .BeatenText
 
-	text "Aunque he perdido,"
-	line "¡me lo he pasado en"
+	text "¡Aunque he perdi-"
+	line "do, me lo pasé en"
 	cont "grande!"
 	done
 
@@ -221,16 +220,15 @@ GenericTrainerPicnickerAdrian:
 GenericTrainerCamperPedro:
 	generictrainer CAMPER, PEDRO, EVENT_BEAT_CAMPER_PEDRO, .SeenText, .BeatenText
 
-	text "Si olvidas la man-"
-	line "ta, ¡puedes acourru-"
-	cont "carte junto a un"
-	cont "#mon calentito!"
+	text "Si te falta manta,"
+	line "¡acurrúcate con un"
+	cont "#mon caliente!"
 	done
 
 .SeenText:
 	text "¿Alguna vez has"
-	line "ido de acampada con"
-	cont "#mon?"
+	line "ido de acampada"
+	cont "con #mon?"
 	done
 
 .BeatenText:
@@ -254,8 +252,8 @@ GenericTrainerBird_keeperBert:
 	done
 
 .BeatenText:
-	text "¡He luchado con to-"
-	line "das mis fuerzas!"
+	text "¡Luché con todas"
+	line "mis fuerzas!"
 	done
 
 GenericTrainerBird_keeperErnie:

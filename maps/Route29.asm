@@ -148,7 +148,7 @@ TuscanyScript:
 	cont "Normal."
 
 	para "Seguro que te"
-	line "resultará muy útil."
+	line "será muy útil."
 	done
 
 TuscanyNotTuesdayScript:
@@ -218,8 +218,8 @@ CatchingTutorialDebriefText:
 	done
 
 CatchingTutorialRefusedText:
-	text "Vaya… Quería fardar"
-	line "un poco de cómo"
+	text "Vaya… Quería"
+	line "presumir de cómo"
 	cont "atrapo #mon…"
 
 	para "En fin, quédate"
@@ -235,16 +235,15 @@ Route29YoungsterText:
 	text "Ey. ¿Cómo van tus"
 	line "#mon?"
 
-	para "Si están débiles y"
-	line "no listos para com-"
-	cont "batir, no te me-"
-	cont "tas en la hierba."
+	para "Si están débiles"
+	line "para combatir, no"
+	cont "vayas a la hierba."
 	done
 
 Route29TeacherText:
-	text "¿Ves esos bordillos?"
+	text "¿Ves el desnivel?"
 	line "Da algo de miedo"
-	cont "saltar por ellos."
+	cont "saltar por ahí."
 
 	para "Pero puedes volver"
 	line "a Pueblo Primavera"
@@ -254,11 +253,9 @@ Route29TeacherText:
 	done
 
 Route29FisherText:
-	text "Quería descansar,"
-	line "así que he guar-"
-
-	para "dado para registrar"
-	line "mi progreso."
+	text "Iba a descansar,"
+	line "así que guardé mi"
+	cont "partida."
 	done
 
 

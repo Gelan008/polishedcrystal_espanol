@@ -35,7 +35,7 @@ ViridianForest_MapScriptHeader:
 GenericTrainerBug_maniacDane:
 	generictrainer BUG_MANIAC, DANE, EVENT_BEAT_BUG_MANIAC_DANE, BugManiacDaneSeenText, BugManiacDaneBeatenText
 
-	text "¡Muy impresionante!"
+	text "¡Impresionante!"
 
 	para "¡Seguro que puedes"
 	line "ir a donde sea con"
@@ -58,10 +58,10 @@ GenericTrainerBug_maniacDion:
 GenericTrainerBug_maniacStacey:
 	generictrainer BUG_MANIAC, STACEY, EVENT_BEAT_BUG_MANIAC_STACEY, BugManiacStaceySeenText, BugManiacStaceyBeatenText
 
-	text "¿Te ha dicho al-"
-	line "guien que de espal-"
-	cont "das te pareces a"
-	cont "un Venonat?"
+	text "¿Te dijeron que"
+	line "de espaldas te"
+	cont "pareces a un"
+	cont "Venonat?"
 	done
 
 GenericTrainerBug_maniacEllis:

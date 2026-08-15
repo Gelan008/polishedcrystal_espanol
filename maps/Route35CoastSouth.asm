@@ -92,8 +92,8 @@ GenericTrainerSailorHarvey:
 	line "puedes confiar en"
 	cont "ti mismo."
 
-	para "¡Estoy orgulloso de"
-	line "mi cuerpo serrano!"
+	para "¡Orgulloso de mi"
+	line "cuerpo serrano!"
 	done
 
 GenericTrainerLassRose:
@@ -109,11 +109,9 @@ GenericTrainerLassRose:
 	done
 
 SwimmermWalterSeenText:
-	text "Olvidé ponerme"
-	line "crema, así que me"
-
-	para "escondo a la som-"
-	line "bra de estas rocas."
+	text "Olvidé la crema,"
+	line "así que me escondo"
+	cont "bajo las rocas."
 	done
 
 SwimmermWalterBeatenText:

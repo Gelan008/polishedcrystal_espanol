@@ -56,10 +56,10 @@ GenericTrainerBikerJoel:
 	generictrainer BIKER, JOEL, EVENT_BEAT_BIKER_JOEL, BikerJoelSeenText, BikerJoelBeatenText
 
 	text "Parezco enrollado,"
-	line "pero soy débil, así"
+	line "pero soy débil."
 
-	para "que en verdad no"
-	line "molo nada."
+	para "La verdad es que"
+	line "no molo nada."
 
 	para "Tengo que entre-"
 	line "nar más duro…"
@@ -162,8 +162,8 @@ BikerAidenBeatenText:
 GenericTrainerBikerDan:
 	generictrainer BIKER, DAN, EVENT_BEAT_BIKER_DAN, BikerDanSeenText, BikerDanBeatenText
 
-	text "Me encanta esta me-"
-	line "lodía melancólica."
+	text "Me encanta esta"
+	line "triste melodía."
 
 	para "De verdad que va"
 	line "mucho conmigo…"
@@ -229,7 +229,7 @@ GenericTrainerRoughneckTheron:
 	done
 
 RoughneckTheronSeenText:
-	text "Te voy a espabilar."
+	text "¡Te espabilaré!"
 	line "¡Vente conmigo!"
 	done
 
@@ -255,7 +255,7 @@ RoughneckMarkeySeenText:
 	done
 
 RoughneckMarkeyBeatenText:
-	text "¡Muy bien, gracias!"
+	text "¡Bien, gracias!"
 	done
 
 Route17SouthNotice1Text:
@@ -271,12 +271,12 @@ Route17SouthTrainerTips1Text:
 	para "Cada #mon es"
 	line "único."
 
-	para "Dos #mon de la"
-	line "misma especie y ni-"
-	cont "vel pueden crecer,"
+	para "Dos #mon de"
+	line "la misma especie"
+	cont "y nivel pueden"
 
-	para "actuar y verse de"
-	line "forma distinta."
+	para "crecer y actuar"
+	line "de forma distinta."
 	done
 
 Route17SouthTrainerTips2Text:

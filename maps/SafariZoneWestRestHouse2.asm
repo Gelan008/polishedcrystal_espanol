@@ -78,9 +78,9 @@ SafariZoneWestRestHouse2FlanneryScript:
 	line "hace sentir como"
 	cont "en casa!"
 
-	para "¡Intercambiemos"
-	line "movimientos abra-"
-	cont "sadores en combate!"
+	para "¡Usemos ataques"
+	line "abrasadores en un"
+	cont "buen combate!"
 	done
 
 .RematchText:

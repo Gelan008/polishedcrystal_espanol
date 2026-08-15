@@ -252,9 +252,8 @@ BlaineIntroText:
 	line "me, te daré una"
 	cont "Medalla."
 
-	para "¡Ja! ¡Será mejor"
-	line "que lleves Antique-"
-	cont "maduras!"
+	para "¡Ja! ¡Lleva algún"
+	line "Antiquemaduras!"
 	done
 
 BlaineWinLossText:

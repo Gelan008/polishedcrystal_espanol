@@ -60,9 +60,9 @@ Route19ClearRocks:
 GenericTrainerSwimmerfDawn:
 	generictrainer SWIMMERF, DAWN, EVENT_BEAT_SWIMMERF_DAWN, SwimmerfDawnSeenText, SwimmerfDawnBeatenText
 
-	text "Se llega nadando"
-	line "en nada entre Fuc-"
-	cont "sia e Islas Espuma…"
+	text "Se nada fácil"
+	line "entre Fucsia e"
+	cont "Islas Espuma…"
 
 	para "¡Menudo hombretón"
 	line "está hecho mi no-"
@@ -102,8 +102,8 @@ GenericTrainerCosplayerBrooke:
 	text "Hice este disfraz"
 	line "para una fiesta,"
 
-	para "¡pero me gusta tan-"
-	line "to que lo llevo a"
+	para "¡y me gusta tanto"
+	line "que lo llevo a"
 	cont "todas partes!"
 	done
 

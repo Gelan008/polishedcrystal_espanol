@@ -150,8 +150,9 @@ Route35GoldenrodGateRandyThanksText:
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
-	text "¡<PLAYER> recibió un"
-	line "#mon con Carta!"
+	text "<PLAYER> recibió"
+	line "un #mon con"
+	cont "Carta."
 	done
 
 

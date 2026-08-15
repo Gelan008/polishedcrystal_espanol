@@ -1596,7 +1596,7 @@ CoinVendor_IntroScript:
 	db 3 ; items
 	db " 50 :  ¥1000@"
 	db "500 : ¥10000@"
-	db "Cancel@"
+	db "Cancelar@"
 
 HappinessCheckScript:
 	faceplayer
@@ -1719,10 +1719,10 @@ VendingMachineScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Fresh Water  ¥200@"
-	db "Soda Pop     ¥300@"
-	db "Lemonade     ¥350@"
-	db "Cancel@"
+	db "Agua Fresca  ¥200@"
+	db "Refresco     ¥300@"
+	db "Limonada     ¥350@"
+	db "Cancelar@"
 
 TreeGrottoScript:
 	scall _HiddenGrottoInitScript

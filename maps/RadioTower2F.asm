@@ -459,11 +459,10 @@ RadioTower2FBuenaEveryoneSayPasswordText:
 	done
 
 RadioTower2FBuenaComeBackAfterListeningText:
-	text "Buena: Vuelve des-"
-	line "pués de escuchar"
+	text "Buena: Vuelve tras"
+	line "oír mi programa."
 
-	para "mi programa, ¿vale?"
-	line "¡Hasta luego!"
+	para "¡Hasta luego!"
 	done
 
 RadioTower2FBuenaAlreadyPlayedText:
@@ -582,8 +581,8 @@ RadioTower2FBuenaOfferNumberAgainText:
 	done
 
 RadioTower2FRegisteredBuenasNumberText:
-	text "<PLAYER> registró el"
-	line "número de Buena."
+	text "<PLAYER> registró"
+	line "el número de Buena"
 	done
 
 RadioTower2FBuenaCallMeText:

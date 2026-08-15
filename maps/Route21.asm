@@ -49,13 +49,13 @@ SwimmerfNikkiBeatenText:
 GenericTrainerSwimmerfChelan:
 	generictrainer SWIMMERF, CHELAN, EVENT_BEAT_SWIMMERF_CHELAN, .SeenText, .BeatenText
 
-	text "¡Supongo que un"
-	line "bikini eléctrico te"
-	cont "daría calambre!"
+	text "¡Un bikini que dé"
+	line "electricidad te"
+	cont "daría un calambre!"
 	done
 
 .SeenText:
-	text "¡Adoro los bikinis!"
+	text "¡Amo los bikinis!"
 
 	para "¡Si tuviera un bi-"
 	line "kini térmico, po-"
@@ -71,9 +71,9 @@ GenericTrainerSwimmerfChelan:
 GenericTrainerSwimmerfKendra:
 	generictrainer SWIMMERF, KENDRA, EVENT_BEAT_SWIMMERF_KENDRA, .SeenText, .BeatenText
 
-	text "¿Venderán bañadores"
-	line "para #mon en"
-	cont "alguna tienda?"
+	text "¿Venderán ropa de"
+	line "baño para #mon"
+	cont "en alguna tienda?"
 	done
 
 .SeenText:
@@ -89,8 +89,8 @@ GenericTrainerSwimmerfKendra:
 GenericTrainerSwimmermEsteban:
 	generictrainer SWIMMERM, ESTEBAN, EVENT_BEAT_SWIMMERM_ESTEBAN, .SeenText, .BeatenText
 
-	text "¡Llamábamos a nues-"
-	line "tro profe Profesor"
+	text "¡Al profe le decí-"
+	line "amos Profesor"
 	cont "Poliwhirl!"
 	done
 
@@ -135,7 +135,7 @@ GenericTrainerSwimmermSeth:
 	done
 
 SwimmermSethSeenText:
-	text "¡Tierra a la vista!"
+	text "¡Veo tierra firme!"
 	line "¡Hay que seguir!"
 	done
 
@@ -147,8 +147,7 @@ GenericTrainerFisherMurphy:
 	generictrainer FISHER, MURPHY, EVENT_BEAT_FISHER_MURPHY, .SeenText, .BeatenText
 
 	text "El #mon que se"
-	line "me escapó era enor-"
-	cont "me."
+	line "escapó era enorme."
 
 	para "¡Te lo juro!"
 	done
@@ -191,7 +190,7 @@ GenericTrainerFisherLiam:
 	done
 
 .SeenText:
-	text "¡Toma! ¡Han picado!"
+	text "¡Toma! ¡Picaron!"
 
 	para "¿Eh? ¿Un combate?"
 
@@ -212,11 +211,11 @@ GenericTrainerFisherGideon:
 	done
 
 .SeenText:
-	text "¿Me hice Pescador"
-	line "por ser paciente, o"
+	text "¿Soy Pescador por"
+	line "ser paciente, o me"
 
-	para "me volví paciente"
-	line "por ser Pescador?"
+	para "volví paciente por"
+	line "ser Pescador?"
 	done
 
 .BeatenText:

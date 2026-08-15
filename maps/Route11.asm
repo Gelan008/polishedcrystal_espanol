@@ -60,11 +60,11 @@ GenericTrainerYoungsterJason:
 	done
 
 YoungsterJasonSeenText:
-	text "Pica y hace un po-"
-	line "co de cosquillas"
+	text "Pica y hace cos-"
+	line "quillas ir en"
 
-	para "ir en pantalón cor-"
-	line "to por la hierba."
+	para "pantalón corto"
+	line "por la hierba."
 	done
 
 YoungsterJasonBeatenText:

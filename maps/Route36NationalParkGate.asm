@@ -324,11 +324,9 @@ BugCatchingContestant8BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant8BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Josh: No… ¡no me"
-	line "puedo creer que"
-
-	para "haya perdido cazan-"
-	line "do bichos…!"
+	text "Josh: ¡No me creo"
+	line "haber perdido ca-"
+	cont "zando bichos…!"
 	done
 
 BugCatchingContestant9BScript:

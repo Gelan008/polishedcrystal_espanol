@@ -189,9 +189,9 @@ GenericTrainerFisherKiley:
 	done
 
 .SeenText:
-	text "Je, hoy estoy en"
-	line "racha. ¿Qué tal un"
-	cont "combate, renacuajo?"
+	text "Hoy estoy en"
+	line "racha. ¿Luchamos,"
+	cont "renacuajo?"
 	done
 
 .BeatenText:
@@ -202,16 +202,17 @@ GenericTrainerFisherKiley:
 GenericTrainerCamperCraig:
 	generictrainer CAMPER, CRAIG, EVENT_BEAT_CAMPER_CRAIG, .SeenText, .BeatenText
 
-	text "La aventura aguarda"
-	line "fuera de tu tienda."
+	text "La aventura espera"
+	line "tras tu tienda."
 
 	para "¡Sal ahí fuera y"
-	line "pásatelo en grande!"
+	line "disfruta a tope!"
 	done
 
 .SeenText:
 	text "¡Nada supera la"
-	line "vida al aire libre!"
+	line "vida al aire"
+	cont "libre!"
 	done
 
 .BeatenText:
@@ -242,9 +243,9 @@ GenericTrainerLassLayla:
 GenericTrainerCoupleFoxandrae1:
 	generictrainer COUPLE, FOXANDRAE1, EVENT_BEAT_COUPLE_FOX_AND_RAE, .SeenText, .BeatenText
 
-	text "Fox: Esta vez no ha"
-	line "bastado con estar"
-	cont "muy compenetrados."
+	text "Fox: No bastó con"
+	line "estar tan bien"
+	cont "compenetrados."
 	done
 
 .SeenText:
@@ -267,15 +268,15 @@ GenericTrainerCoupleFoxandrae2:
 	done
 
 .SeenText:
-	text "Rae: Oye, Fox, ¿por"
-	line "qué no libramos un"
+	text "Rae: Oye, Fox,"
+	line "¿y si libramos un"
 	cont "combate?"
 	done
 
 .BeatenText:
-	text "Rae: ¿Cómo has po-"
-	line "dido ganarnos a Fox"
-	cont "y a mí?"
+	text "Rae: ¿Cómo nos has"
+	line "ganado a Fox y"
+	cont "a mí?"
 	done
 
 Route32CoastLassText:
@@ -284,9 +285,9 @@ Route32CoastLassText:
 	para "Por fin he cruzado"
 	line "esa cueva."
 
-	para "Era mucho más gran-"
-	line "de de lo que me"
-	cont "esperaba."
+	para "Era mucho más"
+	line "grande de lo que"
+	cont "me esperaba."
 
 	para "Me cansé de explo-"
 	line "rarla entera y me"

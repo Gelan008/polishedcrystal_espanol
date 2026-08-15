@@ -365,7 +365,7 @@ SchoolboyJohnnySeenText:
 	text "¡Bellsprout es el"
 	line "más guay de todos!"
 
-	para "¿A que tengo razón?"
+	para "¿A que sí?"
 	done
 
 SchoolboyJohnnyBeatenText:
@@ -383,7 +383,7 @@ NationalParkTeacher2Text:
 	done
 
 NationalParkPersianText:
-	text "Persian: ¡Fufushaa!"
+	text "Persian: ¡Fufusha!"
 	done
 
 NationalParkGameboyKidText:
@@ -423,8 +423,8 @@ SchoolboyJackTradeMonText:
 	line "de MT."
 
 	para "Los #mon inter-"
-	line "cambiados suben"
-	cont "de nivel más rápido."
+	line "cambiados suben de"
+	cont "nivel más rápido."
 	done
 
 PokefanfBeverly1SeenText:
@@ -445,11 +445,11 @@ PokefanfBeverly1BeatenText:
 PokefanBeverlyCuteMonText:
 	text "Debo decir que tus"
 	line "#mon también"
-	cont "son bastante monos."
+	cont "son muy monos."
 	done
 
 PokefanmWilliamSeenText:
-	text "Adoramos a nuestros"
+	text "Queremos a los"
 	line "#mon, aunque"
 	cont "no nos quieran."
 
@@ -480,7 +480,7 @@ BugManiacLouSeenText:
 	done
 
 BugManiacLouBeatenText:
-	text "¡¿Cómo es posible?!"
+	text "¡¿Cómo ha sido?!"
 	done
 
 OfficermKeithSeenText:
@@ -533,10 +533,10 @@ NationalParkTrainerTipsText:
 	text "Consejos para"
 	line "entrenadores"
 
-	para "Los #mon se"
-	line "vuelven más felices"
+	para "Los #mon son"
+	line "más felices con"
 
-	para "con cortes de pelo,"
+	para "cortes de pelo,"
 	line "atenciones, fotos"
 	cont "y otros mimos."
 	done

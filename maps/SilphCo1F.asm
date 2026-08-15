@@ -87,11 +87,11 @@ SilphCo1FGentlemanText:
 	done
 
 SilphCo1FCooltrainerfText:
-	text "Estoy reuniendo el"
-	line "valor necesario"
+	text "Reúno el valor"
+	line "necesario para"
 
-	para "para pedirle una"
-	line "cita a la recepcio-"
+	para "pedirle una cita"
+	line "a la recepcio-"
 	cont "nista."
 
 	para "En cuanto cuelgue"

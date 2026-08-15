@@ -443,9 +443,8 @@ HikerMichaelSeenText:
 	text "¡Epa! ¡Tienes mu-"
 	line "chas agallas!"
 
-	para "Pero en lo que a"
-	line "agallas se refie-"
-	cont "re, ¡el amo soy yo!"
+	para "¡Pero en agallas"
+	line "el amo soy yo!"
 	done
 
 HikerMichaelBeatenText:

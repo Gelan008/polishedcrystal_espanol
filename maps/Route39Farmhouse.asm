@@ -195,8 +195,8 @@ FarmerMText_GotMilk:
 
 
 FarmerFText_HealedMiltank:
-	text "Has curado a nues-"
-	line "tra Miltank, cielo."
+	text "Has curado a"
+	line "nuestra Miltank."
 
 	para "Ahora vuelve a dar"
 	line "Leche Mu-mu."

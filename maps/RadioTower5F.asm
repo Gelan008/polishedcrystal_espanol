@@ -211,8 +211,8 @@ FakeDirectorTextBefore3:
 	para "preparar la toma"
 	line "del edificio."
 
-	para "¿Quieres saber dón-"
-	line "de escondimos al"
+	para "¿Quieres saber"
+	line "dónde está el"
 	cont "Director real?"
 
 	para "Vale, te lo diré."
@@ -252,8 +252,8 @@ Ariana1BeatenText:
 	text "¡Esto no puede"
 	line "estar pasando!"
 
-	para "Luché con todo, pe-"
-	line "ro volví a perder…"
+	para "¡Luché con todo y"
+	line "volví a perder…!"
 	done
 
 RadioTower5FRocketBossBeforeText:
@@ -311,8 +311,8 @@ RadioTower5FRocketBossAfterText:
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "Director: ¡<PLAYER>,"
-	line "muchas gracias!"
+	text "Director: ¡Muchas"
+	line "gracias, <PLAYER>!"
 
 	para "Tu valerosa acción"
 	line "ha salvado a los"
@@ -333,9 +333,9 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "Pero era vieja y"
 	line "estaba en ruinas."
 
-	para "Así que la sustitui-"
-	line "mos por la Torre"
-	cont "Radio."
+	para "Así que pusimos"
+	line "la Torre Radio en"
+	cont "su lugar."
 
 	para "Desenterramos esa"
 	line "campana durante"

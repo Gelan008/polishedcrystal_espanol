@@ -162,9 +162,9 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	done
 
 RuinsOfAlphKabutoChamberScientistCrypticText:
-	text "Hace poco apare-"
-	line "cieron extraños di-"
-	cont "bujos crípticos."
+	text "Han aparecido"
+	line "unos dibujos"
+	cont "crípticos."
 
 	para "Es raro. ¡Hace un"
 	line "momento no estaban"

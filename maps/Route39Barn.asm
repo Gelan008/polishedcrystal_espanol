@@ -181,15 +181,15 @@ Text_AskGiveBerry:
 	done
 
 Text_GaveOranBerry:
-	text "¡<PLAYER> le dio una"
+	text "<PLAYER> dio una"
 	line "Baya Aranja a"
-	cont "Miltank!"
+	cont "Miltank."
 	done
 
 Text_GaveSitrusBerry:
-	text "¡<PLAYER> le dio una"
+	text "<PLAYER> dio una"
 	line "Baya Cidra a"
-	cont "Miltank!"
+	cont "Miltank."
 	done
 
 Text_LittleHealthier:
@@ -214,8 +214,8 @@ Text_NoBerries:
 	done
 
 Text_RefusedToGiveBerry:
-	text "<PLAYER> decidió no"
-	line "darle ninguna"
+	text "<PLAYER> prefirió"
+	line "no darle ninguna"
 	cont "Baya."
 
 	para "Miltank parece"

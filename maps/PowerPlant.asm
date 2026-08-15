@@ -286,7 +286,7 @@ PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
 	done
 
 PowerPlantManagerWhoWouldRuinMyGeneratorText:
-	text "Director: ¡Es-estoy"
+	text "Director: ¡Estoy"
 	line "que trino!"
 
 	para "¿Quién se atreve a"
@@ -318,13 +318,14 @@ PowerPlantManagerIWontForgiveCulpritText:
 	done
 
 PowerPlantManagerThatsThePartText:
-	text "Director: ¡Ah! ¡Sí!"
+	text "Director: ¡Ah!"
+	line "¡Sí!"
 
 	para "¡Es la pieza que"
 	line "le faltaba a mi"
 	cont "amado generador!"
 
-	para "¿La encontraste tú?"
+	para "¿La hallaste tú?"
 	line "¡Jaja! ¡Gracias!"
 
 	para "¡Vamos a poner en"
@@ -344,8 +345,8 @@ Text_PowerPlantTutorZapCannon:
 	para "#mon a usar mi"
 	line "Electrocañón!"
 
-	para "No es lo que se di-"
-	line "ce muy preciso,"
+	para "No es que sea"
+	line "muy preciso,"
 
 	para "¡pero pega con mu-"
 	line "cha fuerza!"

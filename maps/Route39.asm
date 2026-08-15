@@ -204,7 +204,7 @@ Route39CowgirlAnnieScript:
 	done
 
 .QuestionText:
-	text "Ya he terminado mis"
+	text "Terminé mis"
 	line "tareas, y tú has"
 
 	para "despejado todas"
@@ -220,8 +220,8 @@ Route39CowgirlAnnieScript:
 	done
 
 .RefusedText:
-	text "Vaya. Pues me vuel-"
-	line "vo a cuidar de las"
+	text "Vaya. Pues vuelvo"
+	line "a cuidar de las"
 	cont "Miltank."
 	done
 
@@ -237,10 +237,10 @@ Route39CowgirlAnnieScript:
 	done
 
 .AfterText1:
-	text "¡Uf! ¡Vaya descanso"
+	text "¡Vaya descanso"
 	line "tan intenso!"
 
-	para "Gracias por el buen"
+	para "Gracias por este"
 	line "rato, camarada."
 
 	para "¡Llévate esto con-"
@@ -263,8 +263,8 @@ GenericTrainerPsychicNorman:
 	generictrainer PSYCHIC_T, NORMAN, EVENT_BEAT_PSYCHIC_NORMAN, PsychicNormanSeenText, PsychicNormanBeatenText
 
 	text "¿Sabías que los"
-	line "#mon tienen dis-"
-	cont "tintas habilidades?"
+	line "#mon tienen"
+	cont "más habilidades?"
 
 	para "A la gente le pasa"
 	line "igual. Cada uno"
@@ -404,8 +404,8 @@ Route39BeautyText:
 	para "¿o el Faro de Ciu-"
 	line "dad Olivo?"
 
-	para "¡La Torre Hojalata,"
-	line "sin duda!"
+	para "¡La Torre,"
+	line "Hojalata sin duda!"
 	done
 
 Route39HikerText:

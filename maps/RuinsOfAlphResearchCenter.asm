@@ -315,7 +315,8 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	line "modo opcional a la"
 
 	para "#dex para guar-"
-	line "dar datos de Unown."
+	line "dar los datos de"
+	cont "los Unown."
 
 	para "Los registrará en"
 	line "orden alfabético."
@@ -340,7 +341,7 @@ RuinsOfAlphResearchCenterScientist3Text:
 
 	para "que te daré algo"
 	line "bueno si logras"
-	cont "encontrarlos todos."
+	cont "encontrarlos todos"
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
@@ -378,7 +379,7 @@ RuinsofAlphResearchCenterScientistInterruptedText:
 	done
 
 RuinsofAlphResearchCenterScientistShockedText:
-	text "¡¿Qué ha sido ESO?!"
+	text "¡¿Qué fue eso?!"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:

@@ -142,9 +142,9 @@ Route39RuggedRoadGateOfficerCannotPassText:
 	done
 
 Route39RuggedRoadGateOfficerText:
-	text "¡La travesía a"
-	line "Cumbre Nevada puede"
-	cont "ser peligrosa!"
+	text "¡El camino a"
+	line "Cumbre Nevada"
+	cont "es peligroso!"
 
 	para "Por eso se cons-"
 	line "truyó allí un"

@@ -82,7 +82,7 @@ Route27RestHouseGranny:
 	cont "zados."
 
 	para "¡Úsalo si te atre-"
-	line "ves! ¡Buena suerte!"
+	line "ves! ¡Suerte!"
 	done
 
 .IntroText:

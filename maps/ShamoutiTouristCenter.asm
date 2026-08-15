@@ -114,12 +114,11 @@ endc
 	text "Hola de nuevo,"
 	line "<PLAYER>."
 
-	para "Ya nos hemos en-"
-	line "frentado antes, así"
+	para "Ya luchamos antes,"
+	line "así que dudo que"
 
-	para "que dudo que esto"
-	line "te cause una gran"
-	cont "impresión."
+	para "esto te cause una"
+	line "gran impresión."
 
 	para "En cualquier caso,"
 	line "¿empezamos?"

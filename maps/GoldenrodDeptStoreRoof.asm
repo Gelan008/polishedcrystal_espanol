@@ -202,7 +202,7 @@ PokeDollVendingMachine:
 	db "Jigglypuff  ¥2400@"
 	db "Ditto       ¥2400@"
 	db "Meowth      ¥2400@"
-	db "Cancel@"
+	db "Cancelar@"
 
 GoldenrodDeptStoreRoofPokefanFText:
 	text "Uf, qué cansancio."

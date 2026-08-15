@@ -19,12 +19,11 @@ Route5_MapScriptHeader:
 	object_event 17, 28, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route5PokefanMText, EVENT_ROUTE_5_6_POKEFAN_M_BLOCKS_UNDERGROUND_PATH
 
 Route5PokefanMText:
-	text "El camino está ce-"
-	line "rrado hasta que se"
+	text "El paso se cerró"
+	line "por el problema"
 
-	para "resuelva el proble-"
-	line "ma de la Central"
-	cont "Energía."
+	para "en la Central"
+	line "de Energía."
 	done
 
 Route5UndergroundPathSignText:

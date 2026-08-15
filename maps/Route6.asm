@@ -181,12 +181,11 @@ OfficerfJennyScript:
 	done
 
 Route6PokefanMText:
-	text "El camino está ce-"
-	line "rrado hasta que se"
+	text "El paso se cerró"
+	line "por el problema"
 
-	para "resuelva el proble-"
-	line "ma de la Central"
-	cont "Energía."
+	para "en la Central"
+	line "de Energía."
 	done
 
 Route6UndergroundPathSignText:
@@ -200,12 +199,13 @@ Route6AdvancedTipsSignText:
 	text "¡Pistas Entren.!"
 
 	para "Hay objetos que"
-	line "pueden parecer per-"
-	cont "judiciales para"
+	line "parecen perjudi-"
+	cont "ciales para quien"
+	cont "los lleva,"
 
-	para "quien los lleva,"
-	line "como la Bola Férrea"
-	cont "o el Pañuelo Elec."
+	para "como la Bola"
+	line "Férrea o el"
+	cont "Pañuelo Elegido."
 
 	para "¡Pero con el movi-"
 	line "miento Truco, el"

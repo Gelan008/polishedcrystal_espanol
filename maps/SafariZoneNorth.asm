@@ -55,9 +55,9 @@ GenericTrainerBeautyRachael:
 	text "Hace solo un año"
 	line "era un Karateka."
 
-	para "¡El poder de la"
-	line "medicina es increí-"
-	cont "ble! ¿A que sí?"
+	para "¡La medicina obra"
+	line "maravillas! ¿A"
+	cont "que sí?"
 	done
 
 SafariZoneNorthCooltrainerFScript:

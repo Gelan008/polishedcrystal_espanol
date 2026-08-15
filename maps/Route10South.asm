@@ -21,9 +21,9 @@ Route10South_MapScriptHeader:
 GenericTrainerHikerJim:
 	generictrainer HIKER, JIM, EVENT_BEAT_HIKER_JIM, HikerJimSeenText, HikerJimBeatenText
 
-	text "¡La alergia al"
-	line "polen me hace es-"
-	cont "tornudar! ¡Aaa-chís!"
+	text "¡El polen me hace"
+	line "estornudar!"
+	cont "¡Achís!"
 	done
 
 GenericTrainerPokefanmRobert:

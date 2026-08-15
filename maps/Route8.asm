@@ -145,7 +145,7 @@ BikerDwayneSeenText:
 	cont "#mon de Kanto!"
 
 	para "¡Te pasaremos por"
-	line "encima con la moto!"
+	line "encima en moto!"
 	done
 
 BikerDwayneBeatenText:
@@ -223,8 +223,9 @@ CoupleMoeandlulu1BeatenText:
 	done
 
 CoupleMoeandlulu2SeenText:
-	text "Lulu: ¡Moe y yo ha-"
-	line "cemos buena pareja!"
+	text "Lulu: ¡Moe y yo"
+	line "hacemos muy buena"
+	cont "pareja!"
 
 	para "¡Prepárate bien!"
 	done

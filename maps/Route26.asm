@@ -231,9 +231,9 @@ TrainerCooltrainerfBeth1:
 GenericTrainerPsychicRichard:
 	generictrainer PSYCHIC_T, RICHARD, EVENT_BEAT_PSYCHIC_RICHARD, PsychicRichardSeenText, PsychicRichardBeatenText
 
-	text "Las personas"
-	line "y los #mon crecen"
-	cont "con la experiencia."
+	text "Personas y"
+	line "#mon crecen"
+	cont "con experiencia."
 
 	para "No te vuelvas una"
 	line "persona vaga ni"
@@ -250,17 +250,15 @@ GenericTrainerBattleGirlRonda:
 	line "fuertes del mundo."
 
 	para "¡Y yo puedo luchar"
-	line "contra todos ellos!"
+	line "contra todos!"
 	done
 
 GenericTrainerFisherScott:
 	generictrainer FISHER, SCOTT, EVENT_BEAT_FISHER_SCOTT, FisherScottSeenText, FisherScottBeatenText
 
-	text "Igual que al pes-"
-	line "car, en los #mon"
-
-	para "se acaba todo si te"
-	line "rindes."
+	text "Al igual que al"
+	line "pescar, todo acaba"
+	cont "si te rindes."
 	done
 
 GenericTrainerDragonTamerErick:
@@ -292,7 +290,7 @@ CooltrainermGaven1SeenText:
 	done
 
 CooltrainermGaven1BeatenText:
-	text "¡Aaaah! ¡La vida es"
+	text "¡Aah! ¡La vida es"
 	line "aún más dura!"
 	done
 
@@ -325,16 +323,16 @@ CooltrainerfJoyceBeatenText:
 	done
 
 CooltrainerfBeth1SeenText:
-	text "Perdí contra un en-"
-	line "trenador llamado"
+	text "Perdí contra un"
+	line "entrenador llamado"
 	cont "<RIVAL>."
 
 	para "Era muy fuerte,"
 	line "pero…"
 
-	para "Parecía que solo le"
-	line "importaba ganar a"
-	cont "toda costa."
+	para "Parecía que solo"
+	line "le importaba ganar"
+	cont "a toda costa."
 
 	para "Me dieron pena sus"
 	line "#mon."
@@ -354,11 +352,11 @@ CooltrainerfBethAfterText:
 PsychicRichardSeenText:
 	text "¡Uau, mira cuántas"
 	line "Medallas tienes!"
-	cont "Me he quedado loco."
+	cont "¡Qué locura!"
 
-	para "Pero no te conten-"
-	line "tas solo con colec-"
-	cont "cionarlas, ¿no?"
+	para "Pero no te limitas"
+	line "a coleccionarlas,"
+	cont "¿a que no?"
 	done
 
 PsychicRichardBeatenText:
@@ -380,8 +378,8 @@ FisherScottSeenText:
 	line "mucha energía!"
 
 	para "¡Siento que podría"
-	line "tumbar hasta al"
-	cont "Campeón de la Liga!"
+	line "vencer al Campeón"
+	cont "de la Liga!"
 	done
 
 FisherScottBeatenText:
@@ -390,7 +388,7 @@ FisherScottBeatenText:
 	done
 
 DragonTamerErickSeenText:
-	text "¡Aquí hay dragones!"
+	text "¡Hay dragones!"
 	done
 
 DragonTamerErickBeatenText:

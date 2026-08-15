@@ -67,19 +67,16 @@ FisherStephenSeenText:
 	done
 
 FisherStephenBeatenText:
-	text "¡Esta dichosa ra-"
-	line "dio me ha despistas"
-	cont "do!"
+	text "¡Esta radio me ha"
+	line "despistado!"
 	done
 
 GenericTrainerFisherBarney:
 	generictrainer FISHER, BARNEY, EVENT_BEAT_FISHER_BARNEY, FisherBarneySeenText, FisherBarneyBeatenText
 
-	text "Creo que la elec-"
-	line "tricidad es lo más"
-
-	para "importante en nues-"
-	line "tra vida diaria."
+	text "La electricidad"
+	line "es vital en nues-"
+	cont "tra vida diaria."
 
 	para "Si no, la gente no"
 	line "habría armado tan-"

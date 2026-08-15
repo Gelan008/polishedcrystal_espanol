@@ -305,7 +305,7 @@ OlivineCitySailor2Text:
 
 	para "¡Canta conmigo!"
 	line "♪ ¡Ron, ron, ron,"
-	cont "la botella de ron! ♪"
+	cont "la botella de ron!"
 	done
 
 OlivineCityFisherText:
@@ -354,7 +354,7 @@ OlivineCitySailor4Text:
 	line "Ciu-dad O-li-vo,"
 
 	para "qué fe-liz soy"
-	line "de es-tar con-ti-go,"
+	line "de estar conti-go,"
 
 	para "jun-to a la pro-"
 	line "fun-da mar a-zul,"
@@ -364,11 +364,11 @@ OlivineCitySailor4Text:
 	done
 
 OlivineCitySailor5Text:
-	text "A los marineros nos"
-	line "encanta cantar."
+	text "A los marineros"
+	line "nos gusta cantar."
 	cont "¡Únete!"
 
-	para "♪ Ca-yó del ta-blón"
+	para "♪Ca-yó del ta-blón"
 	line "el ma-ri-ne-ro,"
 
 	para "y se lo co-mió un"
@@ -377,7 +377,7 @@ OlivineCitySailor5Text:
 
 OlivineCityLass1Text:
 	text "Los marineros de"
-	line "aquí pueden parecer"
+	line "aquí parecen"
 
 	para "escandalosos, pero"
 	line "son inofensivos."

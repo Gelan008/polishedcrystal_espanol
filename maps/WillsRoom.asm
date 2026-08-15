@@ -111,8 +111,8 @@ WillScript:
 
 .AfterText:
 	text "Aunque haya sido"
-	line "derrotado, no voy"
-	cont "a cambiar mi rumbo."
+	line "derrotado, no"
+	cont "cambiaré de rumbo."
 
 	para "¡Seguiré luchando"
 	line "hasta estar por"

@@ -524,11 +524,10 @@ TinTower1FSage5Text1:
 TinTowerEusineHoOhText:
 	text "Lo sabía."
 
-	para "Sabía que consegui-"
-	line "rías ver al #mon"
-
-	para "del color del"
-	line "arcoíris, <PLAYER>."
+	para "Sabía que verías"
+	line "al #mon del co-"
+	cont "lor del arcoíris,"
+	cont "<PLAYER>."
 
 	para "Ha pasado justo"
 	line "como imaginaba."
@@ -549,9 +548,10 @@ TinTowerEusineHoOhText:
 	para "¿podrías saludar"
 	line "a mi abuelo?"
 
-	para "Seguro que le gus-"
-	line "tará tener compa-"
-	cont "ñía mientras falto."
+	para "Seguro que le"
+	line "gusta tener com-"
+	cont "pañía en mi"
+	cont "ausencia."
 
 	para "¡Hasta luego,"
 	line "<PLAYER>!"

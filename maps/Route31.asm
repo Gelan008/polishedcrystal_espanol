@@ -426,8 +426,9 @@ Bug_catcherWade1AfterText:
 Text_Route31SleepyManGotMail:
 	text "… Zzzz… ¿Eh?"
 
-	para "¿Qué es eso? ¿Tienes"
-	line "una Carta para mí?"
+	para "¿Qué es eso?"
+	line "¿Traes una Carta"
+	cont "para mí?"
 	done
 
 Text_Route31HandOverMailMon:
@@ -439,7 +440,7 @@ Text_Route31HandOverMailMon:
 Text_Route31ReadingMail:
 	text "A ver…"
 
-	para "… Cueva Oscura lle-"
+	para "…Cueva Oscura lle-"
 	line "va a otro camino…"
 
 	para "Es bueno saberlo."
@@ -447,9 +448,9 @@ Text_Route31ReadingMail:
 	para "Gracias por traér-"
 	line "mela hasta aquí."
 
-	para "Mi amigo es un buen"
-	line "tío, ¡y tú también"
-	cont "eres genial!"
+	para "Mi amigo es genial"
+	line "¡y tú también lo"
+	cont "eres!"
 
 	para "¡Me gustaría darte"
 	line "algo a cambio!"

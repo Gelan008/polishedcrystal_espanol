@@ -89,7 +89,7 @@ KimonoGirlAmiScript:
 	done
 
 .IntroText:
-	text "Soy una Chica del"
+	text "Soy una Chica"
 	line "Kimono."
 
 	para "¿No has conocido a"
@@ -98,7 +98,8 @@ KimonoGirlAmiScript:
 	para "bailarinas en Ciu-"
 	line "dad Iris?"
 
-	para "Avísame si las ves."
+	para "Avísame si logras"
+	line "verlas."
 	done
 
 .SeenText:

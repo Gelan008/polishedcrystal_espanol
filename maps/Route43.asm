@@ -136,7 +136,7 @@ Route43SightseerfScript:
 	done
 
 .QuestionText:
-	text "¡Excelente! Hora de"
+	text "¡Genial! Hora de"
 	line "probar mi nueva"
 	cont "estrategia…"
 
@@ -516,8 +516,8 @@ PokemaniacBrent1BeatenText:
 	done
 
 PokemaniacBrentAfterBattleText:
-	text "Sería feliz con te-"
-	line "ner solo un #-"
+	text "Sería feliz solo"
+	line "con tener un #-"
 	cont "mon raro."
 	done
 
@@ -552,8 +552,8 @@ FisherMarvinSeenText:
 	done
 
 FisherMarvinBeatenText:
-	text "He perdido, pero me"
-	line "siento mejor."
+	text "He perdido, pero"
+	line "me siento mejor."
 	done
 
 CamperSpencerSeenText:
@@ -580,7 +580,7 @@ PicnickerTiffany1BeatenText:
 	done
 
 PicnickerTiffanyWantsPicnicText:
-	text "Estoy de picnic con"
+	text "Hago un picnic con"
 	line "mis #mon."
 
 	para "¿No te unes a no-"
@@ -648,11 +648,11 @@ Route43TrainerTipsText:
 	cont "tajas según su"
 	cont "tipo."
 
-	para "Si los tipos difie-"
-	line "ren, un #mon de"
+	para "Por los tipos, un"
+	line "#mon de mayor"
 
-	para "mayor nivel puede"
-	line "perder un combate."
+	para "nivel puede perder"
+	line "un combate."
 
 	para "Aprende qué tipos"
 	line "son fuertes y dé-"

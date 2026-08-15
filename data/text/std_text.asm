@@ -97,7 +97,7 @@ NurseTrainerStarText:
 	para "Eres un Entrena-"
 	line "dor de primera."
 
-	para "Por favor, <PLAYER>,"
+	para "Por favor <PLAYER>"
 	line "¿puedo curar a"
 	cont "tus #mon?"
 	done
@@ -423,16 +423,16 @@ HappinessText1:
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> registró el"
-	line "número de"
+	text "<PLAYER> registró"
+	line "el número de"
 	cont ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> registró el"
-	line "número de"
+	text "<PLAYER> registró"
+	line "el número de"
 	cont ""
 	text_ram wStringBuffer3
 	text "."

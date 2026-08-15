@@ -81,7 +81,7 @@ Museum1FFossilScientistScript:
 .ask_old_amber
 	writetext AskOldAmberText
 	yesorno
-	iftruefwd ResurrectOldAmber
+	iftrue ResurrectOldAmber
 	sjumpfwd .maybe_later
 
 .ask_helix_amber
@@ -138,7 +138,7 @@ HelixAmberMenuDataHeader:
 	db 3 ; items
 	db "Fósil Hélix@"
 	db "Ambar Viejo@"
-	db "Cancel@"
+	db "Cancelar@"
 
 DomeAmberMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -151,7 +151,7 @@ DomeAmberMenuDataHeader:
 	db 3 ; items
 	db "Fósil Domo@"
 	db "Ambar Viejo@"
-	db "Cancel@"
+	db "Cancelar@"
 
 HelixDomeAmberMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -162,10 +162,10 @@ HelixDomeAmberMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Helix Fossil@"
-	db "Dome Fossil@"
-	db "Old Amber@"
-	db "Cancel@"
+	db "Fósil Hélix@"
+	db "Fósil Domo@"
+	db "Ambar Viejo@"
+	db "Cancelar@"
 
 ResurrectHelixFossil:
 	takeitem HELIX_FOSSIL
@@ -221,8 +221,8 @@ Museum1FReceptionistScript:
 	text "¡Te damos la bien-"
 	line "venida!"
 
-	para "¡Gracias al dona-"
-	line "tivo de Silph S.A.,"
+	para "¡Gracias al apoyo"
+	line "de Silph S.A.,"
 
 	para "la entrada es to-"
 	line "talmente gratis!"
@@ -295,8 +295,8 @@ Museum1FFossilScientistText:
 	cont "de los fósiles?"
 
 	para "Si alguna vez lo"
-	line "necesitas, ¡déjamelo"
-	cont "a mí!"
+	line "necesitas, ¡déja-"
+	cont "melo a mí!"
 	done
 
 Museum1FGrampsText:

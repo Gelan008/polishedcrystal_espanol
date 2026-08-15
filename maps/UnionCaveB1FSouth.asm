@@ -131,11 +131,11 @@ HikerLeonardBeatenText:
 GenericTrainerFirebreatherJay:
 	generictrainer FIREBREATHER, JAY, EVENT_BEAT_FIREBREATHER_JAY, .SeenText, .BeatenText
 
-	text "Una vez se me pren-"
-	line "dió fuego al gorro."
+	text "Una vez se me"
+	line "quemó el gorro."
 
 	para "Parecía un Magmar…"
-	line "¡pero cómo dolía!"
+	line "¡y cómo dolía!"
 	done
 
 .SeenText:

@@ -227,12 +227,11 @@ Route22PastLyraIlexForestDisappearedText:
 	done
 
 Route22PastLyraPokeGearText:
-	text "Lira: <PLAYER>, ¡la"
-	line "radio del #gear"
+	text "Lira: <PLAYER>,"
+	line "¡el #gear dice"
 
-	para "dice que la fecha"
-	line "es de hace tres"
-	cont "años!"
+	para "que la fecha es"
+	line "de hace 3 años!"
 	done
 
 Route22PastLyraExplainsTimeTravelText:
@@ -255,9 +254,9 @@ Route22PastLyraHearsSomeoneText:
 	done
 
 Route22PastRivalQuestionsGiovanniText:
-	text "<RIVAL>: Me dijiste…"
-	line "¡que eras el núme-"
-	cont "ro uno del mundo!"
+	text "<RIVAL>: Dijiste"
+	line "que eras el número"
+	cont "uno del mundo…"
 
 	para "¿Te vas a rendir?"
 
@@ -281,9 +280,9 @@ Route22PastGiovanniRivalArgumentText:
 	line "día una organiza-"
 	cont "ción más fuerte!"
 
-	para "<RIVAL>: ¿En qué se"
-	line "supone que eras el"
-	cont "número uno?"
+	para "<RIVAL>: ¿En qué"
+	line "se supone que eras"
+	cont "el número uno?"
 
 	para "¡Reunir a tantos"
 	line "solo para ser"
@@ -294,10 +293,8 @@ Route22PastGiovanniRivalArgumentText:
 	para "…… …… ……"
 
 	para "Unir el potencial"
-	line "de muchos es el mo-"
-
-	para "do de crear un po-"
-	line "der descomunal…"
+	line "de muchos crea"
+	cont "un gran poder…"
 
 	para "¡En eso consiste"
 	line "una organización!"
@@ -309,16 +306,14 @@ Route22PastGiovanniRivalArgumentText:
 	line "cial de mis su-"
 	cont "bordinados…"
 
-	para "¡Pero algún día se-"
-	line "rás testigo de mi"
-
-	para "regreso y del del"
-	line "Team Rocket!"
+	para "¡Algún día verás"
+	line "mi regreso y el"
+	cont "del Team Rocket!"
 	done
 
 Route22PastRivalProtestsText:
-	text "<RIVAL>: ¡No te en-"
-	line "tiendo!"
+	text "<RIVAL>: ¡No te"
+	line "entiendo!"
 
 	para "¡Nada de lo que"
 	line "dices tiene senti-"
@@ -333,8 +328,8 @@ Route22PastGiovanniGoodbyeText:
 	done
 
 Route22PastRivalRantText:
-	text "<RIVAL>: ¡No quiero"
-	line "entenderte!"
+	text "<RIVAL>: ¡No"
+	line "quiero entenderte!"
 
 	para "Jamás me converti-"
 	line "ré en alguien como"

@@ -61,10 +61,10 @@ ViridianGymBlueScript:
 	para "…"
 
 	para "Vale, me he equi-"
-	line "vocado. Eres de lo"
+	line "vocado. Eres de"
 
-	para "bueno, lo mejor."
-	line "Un buen entrenador."
+	para "lo mejor de todo."
+	line "Un gran rival."
 
 	para "Con ocho Medallas"
 	line "de Kanto, puedes"
@@ -219,7 +219,7 @@ LeaderBlueWinText:
 	para "…"
 
 	para "Tch, de acuerdo…"
-	line "Toma, quédate esto:"
+	line "Toma, quédatelo:"
 
 	para "es la Medalla"
 	line "Tierra."
@@ -239,8 +239,8 @@ LeaderBlueEpilogueText:
 	done
 
 ViridianGymGuyWinText:
-	text "¡Vaya, sí que eres"
-	line "fuerte…!"
+	text "¡Vaya, qué comba-"
+	line "te más fiero!"
 
 	para "Ha sido un comba-"
 	line "te de lo más ins-"
@@ -304,8 +304,8 @@ AceDuoElanandida1SeenText:
 	done
 
 AceDuoElanandida1BeatenText:
-	text "Elan: Vaya, esto"
-	line "sí es una sorpresa."
+	text "Elan: Vaya, qué"
+	line "gran sorpresa."
 	done
 
 AceDuoElanandida2SeenText:

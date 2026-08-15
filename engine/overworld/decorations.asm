@@ -884,9 +884,9 @@ WhichSideMenuHeader:
 WhichSideMenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "Right side@"
-	db "Left side@"
-	db "Cancel@"
+	db "Lado derecho@"
+	db "Lado izquierd.@"
+	db "Cancelar@"
 
 DecoText_PutAwayTheDeco:
 	; Put away the @ .

@@ -16,9 +16,9 @@ VermilionHouseFishingSpeechHouse_MapScriptHeader:
 	object_event  2,  4, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FishingDudeText, -1
 
 FishingDudeText:
-	text "Soy el Gurú Pescad."
+	text "Soy el Gurú Pesca,"
 	line "el mayor de los"
-	cont "Hermanos Pescad."
+	cont "Hermanos Pesca."
 
 	para "¿Has visto al Gurú"
 	line "Pescador del Lago"

@@ -26,9 +26,9 @@ ShamoutiCoast_MapScriptHeader:
 GenericTrainerArtistRin:
 	generictrainer ARTIST, RIN, EVENT_BEAT_ARTIST_RIN, .SeenText, .BeatenText
 
-	text "Se siente un po-"
-	line "der extraño proce-"
-	cont "dente de las islas."
+	text "Se siente un poder"
+	line "extraño que emana"
+	cont "de las islas."
 
 	para "Quiero plasmarlo"
 	line "en mi cuadro."
@@ -71,9 +71,8 @@ TrainerSwimmerfMarina:
 	done
 
 .BeatenText:
-	text "¡Me he quedado com-"
-	line "pletamente a la"
-	cont "deriva!"
+	text "¡Me he quedado a"
+	line "la deriva!"
 	done
 
 GenericTrainerFisherDallas:

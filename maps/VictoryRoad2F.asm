@@ -166,8 +166,8 @@ VictoryRoadRivalAfterText:
 	para "Y te aplastaré con"
 	line "todo mi poder."
 
-	para "…¡Humph! Sigue"
-	line "así hasta entonces."
+	para "…¡Humph! Mejora"
+	line "hasta entonces."
 	done
 
 VictoryRoadRivalVictoryText:

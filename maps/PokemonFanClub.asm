@@ -132,8 +132,8 @@ PokemonFanClubChairmanRapidashText:
 
 	para "Es… mono… dulce…"
 	line "listo… increíble…"
-	cont "además… genial… oh…"
-	cont "¿tú crees?…"
+	cont "además… genial…"
+	cont "¿tú crees?… oh…"
 	cont "Demasiado… fiero…"
 	cont "bello… cariñoso…"
 	cont "¡lo adoro!"

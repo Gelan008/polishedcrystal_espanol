@@ -26,7 +26,7 @@ VermilionMagnetTrainSpeechHousePokefanFText:
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
-	text "Quiero ir a Azafrán"
-	line "para ver el Magne-"
-	cont "totren."
+	text "Iré a Azafrán para"
+	line "ver el Magneto-"
+	cont "trén."
 	done

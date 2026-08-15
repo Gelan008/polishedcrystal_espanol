@@ -88,9 +88,9 @@ GenericTrainerSchoolgirlFaith:
 GenericTrainerPokefanfBoone:
 	generictrainer POKEFANF, BOONE, EVENT_BEAT_POKEFANF_BOONE, PokefanfBooneSeenText, PokefanfBooneBeatenText
 
-	text "Al combatir, puedes"
+	text "Luchando puedes"
 	line "ver #mon que"
-	cont "nunca habías visto"
+	cont "no habías visto"
 	cont "antes."
 
 	para "¡Es genial!"
@@ -99,10 +99,10 @@ GenericTrainerPokefanfBoone:
 GenericTrainerPokefanfEleanor:
 	generictrainer POKEFANF, ELEANOR, EVENT_BEAT_POKEFANF_ELEANOR, PokefanfEleanorSeenText, PokefanfEleanorBeatenText
 
-	text "¡Mis #mon no son"
-	line "débiles! ¡Los tuyos"
-	cont "son demasiado"
-	cont "fuertes!"
+	text "¡Mis #mon no"
+	line "son débiles! ¡Es"
+	cont "que los tuyos son"
+	cont "muy fuertes!"
 	done
 
 GenericTrainerTwinsKayandtia1:

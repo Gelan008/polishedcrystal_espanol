@@ -33,11 +33,10 @@ PokemonJournalJasmineScript:
 	line "¡Líder Yasmina!"
 
 	para "Dicen que Yasmina"
-	line "y Érika, Líder del"
+	line "y Érika, Líder de"
 
-	para "Gimnasio de Azulona,"
-	line "hablan sobre moda"
-	cont "juntas."
+	para "Azulona, hablan"
+	line "sobre moda juntas."
 	done
 
 BeautyCharlotteScript:
@@ -85,8 +84,8 @@ BeautyCharlotteScript:
 
 .NoBattleText:
 	text "¿Ah, sí? ¡Pues"
-	line "avísame si te apete-"
-	cont "ce luchar luego!"
+	line "avísame si te"
+	cont "apetece luchar!"
 	done
 
 .SeenText:

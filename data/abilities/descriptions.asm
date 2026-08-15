@@ -189,8 +189,8 @@ ShellArmorDescription:
 	done
 
 SturdyDescription:
-	text "Evita caer debilitado"
-	next "de un solo golpe."
+	text "Evita caer debili-"
+	next "-tado de un golpe."
 	done
 
 DampDescription:
@@ -234,7 +234,7 @@ CloudNineDescription:
 	done
 
 CompoundEyesDescription:
-	text "Aumenta la precisión"
+	text "Aumenta precisión"
 	next "del #mon."
 	done
 
@@ -312,7 +312,7 @@ LightningRodDescription:
 	done
 
 SereneGraceDescription:
-	text "Sube la probabilidad"
+	text "Sube probabilidad"
 	next "de efectos extra."
 	done
 
@@ -482,8 +482,8 @@ RockHeadDescription:
 	done
 
 DroughtDescription:
-	text "Invoca sol radiante"
-	next "al entrar a luchar."
+	text "Invoca sol al"
+	next "entrar a luchar."
 	done
 
 ArenaTrapDescription:
@@ -537,7 +537,7 @@ DrySkinDescription:
 	done
 
 DownloadDescription:
-	text "Ajusta caract. según"
+	text "Ajusta crac. según"
 	next "defensa del rival."
 	done
 
@@ -552,8 +552,8 @@ PoisonHealDescription:
 	done
 
 AdaptabilityDescription:
-	text "Potencia ataques de"
-	next "su mismo tipo."
+	text "Potencia ataques"
+	next "de su mismo tipo."
 	done
 
 SkillLinkDescription:
@@ -582,7 +582,7 @@ SniperDescription:
 	done
 
 MagicGuardDescription:
-	text "Solo recibe daño de"
+	text "Solo recibe daño"
 	next "ataques directos."
 	done
 
@@ -667,8 +667,8 @@ endc
 	done
 
 FriskDescription:
-	text "Identifica el objeto"
-	next "del rival."
+	text "Identifica el"
+	next "objeto del rival."
 	done
 
 RecklessDescription:
@@ -692,13 +692,13 @@ SheerForceDescription:
 	done
 
 ContraryDescription:
-	text "Invierte los cambios"
-	next "de características."
+	text "Invierte los"
+	next "cambios de caract."
 	done
 
 UnnerveDescription:
-	text "Evita que los rivales"
-	next "coman Bayas."
+	text "Evita que el"
+	next "enemigo coma Bayas"
 	done
 
 DefiantDescription:
@@ -762,7 +762,7 @@ SandRushDescription:
 	done
 
 WonderSkinDescription:
-	text "Hace fallar más los"
+	text "Hace fallar los"
 	next "ataques de estado."
 	done
 
@@ -787,12 +787,12 @@ MoxieDescription:
 	done
 
 JustifiedDescription:
-	text "Sube Ataque al recibir"
+	text "Sube At al recibir"
 	next "ataques Siniestros."
 	done
 
 RattledDescription:
-	text "Siniestro, Fantasma"
+	text "Siniestro Fantasma"
 	next "o Bicho suben Vel."
 	done
 
@@ -802,7 +802,7 @@ MagicBounceDescription:
 	done
 
 SapSipperDescription:
-	text "Sube Ataque al recibir"
+	text "Sube At al recibir"
 	next "ataques Planta."
 	done
 
@@ -857,7 +857,7 @@ ParentalBondDescription:
 	done
 
 BerserkDescription:
-	text "Sube At.Esp si baja"
+	text "Sube AtEsp si baja"
 	next "de la mitad de PS."
 	done
 

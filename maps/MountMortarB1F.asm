@@ -97,7 +97,7 @@ MountMortarB1FKiyoGotTyrogueText:
 
 	para "Sigue trabajando"
 	line "duro. Yo también"
-	cont "seguiré entrenando."
+	cont "seguiré entrenando"
 
 	para "¡Hasta la vista!"
 	done
@@ -166,8 +166,8 @@ MountMortarB1FTyrogueRewardText:
 	line "es una derrota."
 	cont "Lo admito."
 
-	para "Como prueba de"
-	line "que me has vencido,"
+	para "Como prueba de que"
+	line "me has vencido,"
 
 	para "te daré un raro"
 	line "#mon de lucha."

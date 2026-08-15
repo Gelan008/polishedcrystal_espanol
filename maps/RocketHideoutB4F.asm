@@ -118,9 +118,9 @@ RocketHideoutB4FMeetLeadersScript:
 
 
 .CandelaIntro1Text:
-	text "Candela: ¡Te digo"
-	line "yo que el poder"
-	cont "bruto siempre gana!"
+	text "Candela: ¡El poder"
+	line "bruto siempre"
+	cont "gana!"
 
 	para "¡Entrenar debe"
 	line "ser duro, como un"
@@ -183,9 +183,8 @@ RocketHideoutB4FMeetLeadersScript:
 	line "que alguien tiene"
 	cont "fuerza!"
 
-	para "Ya que has llegado"
-	line "hasta aquí, ¡a com-"
-	cont "batir!"
+	para "¡Ya que estás"
+	line "aquí, a combatir!"
 
 	para "¡Si ganas, te de-"
 	line "jaremos unirte a"
@@ -241,8 +240,8 @@ RocketHideoutB4FSparkScript:
 
 .SeenText:
 	text "¡Genial! ¡A ver"
-	line "hasta dónde te"
-	cont "lleva tu intuición!"
+	line "adónde te lleva"
+	cont "tu intuición!"
 	done
 
 .BeatenText:

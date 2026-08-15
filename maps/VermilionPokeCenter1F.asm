@@ -68,12 +68,12 @@ VermilionPokeCenter1FSightseerMScript:
 	done
 
 VermilionPokeCenter1FSailorText:
-	text "El Magnetotren y"
+	text "El Magnetotrén y"
 	line "el S.S. Aqua son"
 
-	para "sitios geniales pa-"
-	line "ra luchar contra"
-	cont "otros entrenadores."
+	para "ideales para lu-"
+	line "char con otros"
+	cont "entrenadores."
 	done
 
 VermilionPokeCenter1FBugCatcherText:
@@ -81,7 +81,7 @@ VermilionPokeCenter1FBugCatcherText:
 	line "nas Medallas que"
 	cont "no había visto."
 
-	para "Ah, ya lo entiendo."
+	para "Ah, ya entiendo."
 	line "Las conseguiste en"
 	cont "Johto."
 	done

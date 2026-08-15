@@ -98,9 +98,9 @@ SaffronCityFisherScript:
 
 	text "Ñam… Ñam…"
 
-	para "He oído que hay un"
-	line "grave problema en"
-	cont "la Central Energía."
+	para "Oí que hay un lío"
+	line "en la Central"
+	cont "de Energía."
 
 	para "Ñam… Ñam…"
 	done

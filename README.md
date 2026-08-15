@@ -2,14 +2,8 @@
 
 ## Notas de Progreso de Traducción
 <!-- Usa este espacio para añadir tus notas sobre el progreso de la traducción del hackrom -->
-- [x] Textos de batallas (`data/text/battle.asm`)
-- [x] Habilidades, ataques, tipos, fuentes, etc...
-- [x] Objetos.
-- [x] Menús de tiendas y PC
-- [x] Textos de entrenadores de la Torre Batalla
-- [x] Opciones de menú y menús principales
 
-De momento no se ha lanzado ninguna release.
+Todos los textos están traducidos, pero todavía no hay ninguna realease porque me gustaría probarlo antes de lanzar una. Si alguién quiere probarlo puede descargarse el código y compilarlo. Si necesitan ayuda para compilarlo, puedes hablarme por discord o twitter. Gelan008. 
 
 ---
 README traducido de Rangi42

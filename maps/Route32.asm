@@ -196,8 +196,8 @@ Route32CooltrainerMTrigger:
 	done
 
 .AfterText1:
-	text "Tu entrenamiento ha"
-	line "sido superior."
+	text "Tu entrenamiento"
+	line "ha sido superior."
 
 	para "Toma esto como re-"
 	line "cuerdo de nuestro"
@@ -398,9 +398,10 @@ Route32LyraIntroducesHiddenGrottoesOutroScript:
 	para "pero tengo cosas"
 	line "que hacer."
 
-	para "¡<PLAYER>, no pierdas"
-	line "de vista los Cla-"
-	cont "ros Ocultos!"
+	para "¡<PLAYER>! ¡No"
+	line "pierdas de vista"
+	cont "los Claros"
+	cont "Ocultos!"
 	done
 
 .LeaveMovement1:
@@ -718,8 +719,8 @@ GenericTrainerBird_keeperPeter:
 	generictrainer BIRD_KEEPER, PETER, EVENT_BEAT_BIRD_KEEPER_PETER, Bird_keeperPeterSeenText, Bird_keeperPeterBeatenText
 
 	text "Debería volver a"
-	line "entrenar en el Gim-"
-	cont "nasio de Malva."
+	line "entrenar al"
+	cont "Gimnasio de Malva."
 	done
 
 FriedaScript:
@@ -782,11 +783,11 @@ Route32CooltrainerMText_WhatsTheHurry:
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, ¿no?"
+	text "¿Eres <PLAYER>?"
 	line "Un tipo con gafas"
 
-	para "te estaba buscando."
-	line "Compruébalo tú."
+	para "te está buscando."
+	line "Ve a comprobarlo."
 
 	para "Te está esperando"
 	line "en el Centro"
@@ -801,19 +802,19 @@ Route32CooltrainerMText_VioletGym:
 	line "te a prueba a ti y"
 	cont "a tus #mon."
 
-	para "¡Es un rito de ini-"
-	line "ciación para todo"
-	cont "entrenador!"
+	para "¡Es una prueba"
+	line "de fuego para"
+	cont "todo entrenador!"
 	done
 
 Text_MillionDollarSlowpokeTail:
 	text "¿Te gustaría tener"
 	line "esta sabrosa y nu-"
-	cont "tritiva Colaslow- "
+	cont "tritiva Colaslow-"
 	cont "poke?"
 
-	para "¡Para ti ahora mis-"
-	line "mo, por solo"
+	para "¡Para ti ahora,"
+	line "por tan solo"
 	cont "¥10.000.000!"
 
 	para "¡Seguro que la"
@@ -908,13 +909,13 @@ PicnickerLiz1SeenText:
 	line "bate? Estoy al te-"
 	cont "léfono."
 
-	para "Ah, bueno. Pero que"
-	line "sea rápido."
+	para "En fin. Que sea"
+	line "rápido."
 	done
 
 PicnickerLiz1BeatenText:
-	text "¡Oh! ¡Tengo que"
-	line "desahogar mi furia!"
+	text "¡Oh! ¡Qué furia"
+	line "tengo encima!"
 	done
 
 PicnickerLiz1AfterText:
@@ -931,8 +932,8 @@ Bird_keeperPeterSeenText:
 	done
 
 Bird_keeperPeterBeatenText:
-	text "Ya sé cuáles son"
-	line "mis puntos débiles."
+	text "Ya conozco mis"
+	line "puntos débiles."
 	done
 
 Text_RoarIntro: ; text > text
@@ -972,11 +973,11 @@ FriedaGivesGiftText:
 	done
 
 FriedaFridayText:
-	text "Vero: ¡Buenas! ¿Qué"
+	text "Vero: Hola, ¿Qué"
 	line "día te gusta más?"
 
-	para "A mí me chifla el"
-	line "viernes. ¡Sin duda!"
+	para "A mí me encanta"
+	line "el viernes."
 
 	para "¿A que a ti tam-"
 	line "bién te encanta?"

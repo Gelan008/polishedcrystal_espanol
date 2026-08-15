@@ -184,8 +184,8 @@ MystriStageCynthiaSpeechText:
 	line "este templo en ho-"
 	cont "nor a sus raíces."
 
-	para "Nos encontramos en"
-	line "el Estrado Mistrío."
+	para "Estamos en el"
+	line "Estrado Mistrío."
 
 	para "Antaño se celebra-"
 	line "ba aquí con música"

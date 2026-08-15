@@ -68,8 +68,8 @@ Route17Route18GateCannotPassMovement:
 
 Route17Route18GateOfficerText:
 	text "El Camino de Bicis"
-	line "empieza a subir"
-	cont "cuesta arriba aquí."
+	line "sube cuesta arriba"
+	cont "desde aquí."
 	done
 
 Route17Route18GateCannotPassText:

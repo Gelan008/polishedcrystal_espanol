@@ -259,9 +259,9 @@ PokeCenter2FMovementData_ReceptionistStepsRightAndDown:
 	step_end
 
 Text_BattleReceptionistIntro:
-	text "Te damos la bien-"
-	line "venida al Coliseo"
-	cont "del Club del Cable."
+	text "¡Bienvenido al"
+	line "Coliseo del Club"
+	cont "del Cable!"
 
 	para "Aquí puedes luchar"
 	line "contra un amigo."
@@ -338,8 +338,8 @@ Text_WrongGameID:
 	prompt
 
 Text_WrongVersion:
-	text "Las versiones del"
-	line "juego no coinciden."
+	text "La versión del"
+	line "juego no coincide."
 
 	para "Para jugar en el"
 	line "Coliseo de Enla-"

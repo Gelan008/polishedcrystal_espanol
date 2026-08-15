@@ -118,7 +118,7 @@ SunnyNotSundayScript:
 
 	text "Dominga: ¿No es"
 	line "hoy domingo?"
-	cont "Mmm… ¡Se me olvidó!"
+	cont "¡Se me olvidó!"
 	done
 
 GenericTrainerBeautyCallie:
@@ -174,9 +174,11 @@ PsychicGregBeatenText:
 MeetSunnyText:
 	text "Dominga: ¡Hola!"
 
-	para "¡Soy Dominga, del"
-	line "domingo! ¡O sea que"
-	cont "hoy es domingo!"
+	para "¡Soy Dominga, la"
+	line "del domingo!"
+
+	para "¡O sea que hoy es"
+	line "domingo!"
 	done
 
 SunnyGivesGiftText:

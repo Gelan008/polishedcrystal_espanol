@@ -69,9 +69,9 @@ GenericTrainerGruntM10:
 GenericTrainerProton1:
 	generictrainer PROTON, PROTON1, EVENT_BEAT_PROTON_1, Proton1SeenText, Proton1BeatenText
 
-	text "Te has ganado mi"
-	line "respeto, así que"
-	cont "te daré un consejo."
+	text "Te ganaste mi"
+	line "respeto, toma un"
+	cont "consejo."
 
 	para "Aún no es tarde."
 	line "Todavía puedes"
@@ -179,8 +179,8 @@ RocketScientistRichSeenText:
 RocketScientistRichBeatenText:
 	text "Hum…"
 
-	para "Todo gran plan tie-"
-	line "ne sus tropiezos."
+	para "Todo gran plan"
+	line "tiene tropiezos."
 	done
 
 RadioTower4FProductionSignText:

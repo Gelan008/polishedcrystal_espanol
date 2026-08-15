@@ -390,7 +390,7 @@ GenericTrainerCooltrainerfCybil:
 	line "para ser lo que"
 
 	para "hoy soy: una en-"
-	line "trenadora de élite."
+	line "trenadora de lujo."
 	done
 
 GenericTrainerPokemaniacZach:
@@ -461,8 +461,8 @@ FisherEdgarSeenText:
 	text "Pesco hasta que no"
 	line "puedo más."
 
-	para "Y también lucho"
-	line "hasta caer rendido."
+	para "Y lucho hasta"
+	line "caer rendido."
 
 	para "Esa es la relación"
 	line "que tengo con mis"

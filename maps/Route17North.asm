@@ -63,8 +63,8 @@ OfficerfJamieDaytimeText:
 	line "problemas por"
 	cont "esta zona."
 
-	para "¡No te metas en lí-"
-	line "os, ¿entendido?!"
+	para "¡No busques líos,"
+	line "¿entendido?!"
 	done
 
 CyclingRoadSignText:

@@ -284,8 +284,8 @@ OlivinePortComeAgainText:
 	done
 
 OlivinePortFlashTicketText:
-	text "¡<PLAYER> enseñó el"
-	line "Ticket Barco!"
+	text "<PLAYER> enseñó el"
+	line "Ticket Barco."
 
 	para "Es correcto."
 	line "¡Muchas gracias!"

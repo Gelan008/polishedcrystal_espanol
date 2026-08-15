@@ -395,8 +395,8 @@ GruntF6BeatenText:
 	done
 
 GruntM23SeenText:
-	text "¡Oh! ¿Vienes a sal-"
-	line "var a los pobres"
+	text "¿Vienes a salvar"
+	line "a los pobres"
 	cont "#mon?"
 	done
 

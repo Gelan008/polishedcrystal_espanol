@@ -330,9 +330,9 @@ Route35NationalParkGateOfficer1WellHoldYourMonText:
 
 Route35NationalParkGatePlayersMonLeftWithHelperText:
 	text "Los #mon de"
-	line "<PLAYER> se que-"
-	cont "daron con el Ayuda-"
-	cont "nte del Concurso."
+	line "<PLAYER> quedan"
+	cont "a cargo del"
+	cont "Ayudante."
 	done
 
 Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
@@ -481,7 +481,7 @@ Text_Route35NationalParkGateTutorCharm:
 	line "mon rivales les"
 
 	para "costará atacarle"
-	line "con fuerza después!"
+	line "con fuerza luego!"
 	done
 
 Text_Route35NationalParkGateTutorQuestion:

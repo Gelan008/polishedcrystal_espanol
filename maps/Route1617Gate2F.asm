@@ -38,78 +38,78 @@ Route1617Gate2FTutorTrickRoomScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "What a pity."
+	text "Qué lástima."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "But I'll need a"
-	line "Silver Leaf first,"
+	text "Necesito una"
+	line "Hoja Plata antes."
 
-	para "so come back when"
-	line "you get one."
+	para "Vuelve cuando"
+	line "consigas una."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "My technique is"
-	line "pretty clever,"
-	cont "don't you think?"
+	text "Mi técnica es muy"
+	line "ingeniosa, ¿a que"
+	cont "sí?"
 	done
 
 Route1617Gate2FBinoculars1:
 	jumpthistext
 
-	text "Looked into the"
-	line "binoculars."
+	text "¡Miras por los"
+	line "prismáticos!"
 
-	para "It's Celadon Dept."
-	line "Store!"
+	para "¡Es el Centro"
+	line "Comercial de"
+	cont "Azulona!"
 	done
 
 Route1617Gate2FBinoculars2:
 	jumpthistext
 
-	text "Looked into the"
-	line "binoculars."
+	text "¡Miras por los"
+	line "prismáticos!"
 
-	para "There's a long"
-	line "path over water!"
+	para "¡Hay un largo"
+	line "camino sobre el"
+	cont "agua!"
 	done
 
 Route1617Gate2FPsychicText:
-	text "There's a Psychic"
-	line "not far from here"
+	text "Hay un Médium cer-"
+	line "ca de aquí capaz"
 
-	para "who has the power"
-	line "to change his"
+	para "de alterar el"
+	line "entorno en comba-"
+	cont "tes #mon."
 
-	para "surroundings in a"
-	line "#mon battle."
+	para "Es mi gran inspi-"
+	line "ración, así que"
 
-	para "He's an inspiration"
-	line "of mine, so I've"
-
-	para "worked on my own"
-	line "technique."
+	para "he creado mi pro-"
+	line "pia técnica."
 	done
 
 Text_Route1617Gate2FTutorTrickRoom:
-	text "I can teach your"
-	line "#mon the move"
-	cont "Trick Room."
+	text "Puedo enseñarle a"
+	line "tu #mon Espacio"
+	cont "Raro."
 
-	para "This will let"
-	line "slower #mon"
+	para "Hace que los #-"
+	line "mon lentos ataquen"
 
-	para "outspeed faster"
-	line "ones for a time."
+	para "antes durante un"
+	line "tiempo."
 	done
 
 Text_Route1617Gate2FTutorQuestion:
-	text "Is a Silver Leaf"
-	line "a fair price?"
+	text "¿Me das una Hoja"
+	line "Plata a cambio?"
 	done

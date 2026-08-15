@@ -111,13 +111,12 @@ Route19BeachHouseVictorScript:
 	para "Tal vez el mío"
 	line "venga de allí."
 
-	para "Encontré a Puka en"
-	line "la orilla arrastra-"
-	cont "do por el mar hace"
+	para "Hallé a Puka en"
+	line "la orilla hace ya"
+	cont "años, y desde en-"
 
-	para "años, y desde en-"
-	line "tonces hemos sido"
-	cont "inseparables."
+	para "tonces hemos sido"
+	line "inseparables."
 	done
 
 .NoBattleText:

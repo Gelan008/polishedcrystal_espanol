@@ -22,7 +22,7 @@ SaffronOrreSpeechHouseSilphEmployeeText:
 	cont "de los #mon"
 
 	para "y forzarlos a ata-"
-	line "car a las personas."
+	line "car a la gente."
 
 	para "¡¿Cómo puede al-"
 	line "guien hacerle algo"

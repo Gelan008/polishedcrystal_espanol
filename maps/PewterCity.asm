@@ -149,9 +149,8 @@ PewterCityCooltrainermText:
 	para "tienen más debili-"
 	line "dades de todos."
 
-	para "Aunque no tengo va-"
-	line "lor para decírse-"
-	cont "lo."
+	para "Pero no me atrevo"
+	line "a decírselo."
 	done
 
 PewterCityBugCatcherText:
@@ -178,9 +177,9 @@ PewterCityGrampsText:
 	line "cho a cómo era yo"
 	cont "de joven."
 
-	para "Toma. Quiero que"
-	line "tengas este objeto"
-	cont "que hallé en Johto."
+	para "Toma. Quiero darte"
+	line "este objeto que"
+	cont "hallé en Johto."
 	done
 
 PewterCityGrampsText_GotSilverWing:

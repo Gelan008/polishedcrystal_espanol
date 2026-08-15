@@ -157,11 +157,10 @@ OlivineCafeLyraText2:
 	line "tirando."
 
 	para "Quiero ver el"
-	line "Bosque Amarillo en"
+	line "Bosque Amarillo"
 
-	para "Ciudad Orquídea an-"
-	line "tes de volver a"
-	cont "casa."
+	para "en Orquídea antes"
+	line "de volver a casa."
 
 	para "¡Nos vemos,"
 	line "<PLAYER>!"

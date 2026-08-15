@@ -119,8 +119,8 @@ WarmBeachLassScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "¡Una Campana Alivio"
-	line "solo para ti!"
+	text "¡Una Campana"
+	line "Concha para ti!"
 	done
 
 .NotEnoughMoney:
@@ -181,6 +181,6 @@ WarmBeachShackSignText:
 
 WarmBeachShrineText:
 	text "Es un santuario"
-	line "dedicado al Guardi-"
+	line "dedicado al Guardi"
 	cont "án de los Mares."
 	done

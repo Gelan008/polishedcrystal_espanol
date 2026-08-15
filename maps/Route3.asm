@@ -62,8 +62,8 @@ GenericTrainerYoungsterRegis:
 GenericTrainerYoungsterJimmy:
 	generictrainer YOUNGSTER, JIMMY, EVENT_BEAT_YOUNGSTER_JIMMY, .SeenText, .BeatenText
 
-	text "Llevo pantalones"
-	line "cortos todo el año."
+	text "Llevo pantalón"
+	line "corto todo el año."
 
 	para "Ese es mi estilo."
 	done

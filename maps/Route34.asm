@@ -638,11 +638,11 @@ Route34LyraGoodWorkText:
 	line "jo, abuelito!"
 
 	para "¡El #mon que"
-	line "cuidaste por mí es-"
-	cont "tá sanísimo!"
+	line "has cuidado está"
+	cont "sanísimo!"
 
-	para "¡A ti también se te"
-	line "ve en plena forma!"
+	para "¡Y a ti se te ve"
+	line "en plena forma!"
 	done
 
 Route34LyraGreetingText:
@@ -654,20 +654,20 @@ Route34LyraIntroductionText:
 	text "¡Abuelito, te pre-"
 	line "sento a mi compi!"
 
-	para "A <PLAYER> se le da"
-	line "genial criar"
+	para "<PLAYER> cria"
+	line "genial a los"
 	cont "#mon."
 
-	para "Bueno, ¡no tan bien"
-	line "como a ti, claro!"
+	para "Bueno, ¡no tanto"
+	line "como a tu, claro!"
 	done
 
 Route34LyraChallengeText:
 	text "<PLAYER>, ¿por qué"
 	line "no le enseñamos al"
 
-	para "abuelito lo que sa-"
-	line "bes hacer?"
+	para "abuelito lo que"
+	line "sabes hacer?"
 	done
 
 Route34LyraWinText:
@@ -694,7 +694,7 @@ BreederJulieSeenText:
 	done
 
 BreederJulieBeatenText:
-	text "¡He perdido ante un"
+	text "¡He perdido con un"
 	line "desconocido!"
 	done
 
@@ -720,8 +720,8 @@ CamperTodd1AfterText:
 	done
 
 CamperToddSaleText:
-	text "¡De compras bajo el"
-	line "cielo abierto!"
+	text "¡De compras bajo"
+	line "el cielo abierto!"
 
 	para "¡Da gusto estar en"
 	line "la azotea!"
@@ -775,8 +775,8 @@ PokefanmBrandonSeenText:
 	line "mi #mon de la"
 	cont "Guardería."
 
-	para "¡A ver cuánto se ha"
-	line "fortalecido!"
+	para "¡A ver cuánto ha"
+	line "mejorado!"
 	done
 
 PokefanmBrandonBeatenText:
@@ -820,8 +820,8 @@ CooltrainerfJennAfterText2:
 	done
 
 CooltrainerfKateSeenText:
-	text "Kate: ¡Te has pasa-"
-	line "do un pelo con mis"
+	text "Kate: ¡Te pasaste"
+	line "un pelo con mis"
 	cont "hermanitas!"
 	done
 
@@ -851,7 +851,7 @@ Route34SignText:
 	done
 
 Route34TrainerTipsText:
-	text "Pistas Entrenadores"
+	text "Pistas Entren."
 
 	para "Los árboles dan"
 	line "nuevas Bayas cada"

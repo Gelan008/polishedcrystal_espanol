@@ -225,9 +225,8 @@ SeagallopFerryVermilionGateSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryWelcomeText:
-	text "¡Bienvenido a bordo"
-	line "del Surcamar"
-	cont "Veloce!"
+	text "¡Bienvenido al"
+	line "Surcamar Veloce!"
 	done
 
 SeagallopFerryGiveOrangeTicketText:
@@ -254,7 +253,7 @@ SeagallopFerryOrangeTicketQuestionText:
 SeagallopFerryMysticTicketQuestionText:
 	text "¡Oh! ¡Es un"
 	line "TicketMístic!"
-	cont "Eso sí que es raro."
+	cont "¡Qué rareza!"
 
 	para "Te llevaremos a"
 	line "Roca Ombligo cuan-"

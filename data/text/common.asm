@@ -3516,8 +3516,8 @@ _BargainShopIntroText::
 	text "¡Buenas! ¿Quieres"
 	line "ver alguna ganga?"
 
-	para "Vendo objetos raros"
-	line "que nadie más"
+	para "Vendo objetos ra-"
+	line "-ros que nadie más"
 
 	para "tiene, pero solo"
 	line "uno de cada."
@@ -4191,7 +4191,8 @@ SECTION "_ItemOakWarningText", ROMX
 _ItemOakWarningText::
 	text "Oak: ¡<PLAYER>!"
 	line "¡Este no es el"
-	cont "momento de usar eso!"
+	cont "momento de"
+	cont "usar eso!"
 	prompt
 
 SECTION "_ItemWontHaveEffectText", ROMX

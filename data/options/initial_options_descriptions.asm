@@ -50,13 +50,11 @@ InitialOptionDescriptions:
 	line STRFMT("stats hasta %d pts", MODERN_MAX_EV / 4) ; 252 / 4 == 63
 	cont "1 por cada 4 EVs."
 
-	para "Puedes maximizar"
-	line "cada stat a"
+	para "Puedes subir cada"
+	line "stat a {d:MODERN_MAX_EV} EVs,"
 
-	para "{d:MODERN_MAX_EV} EVs como antes,"
-	line "o limitarlos a un"
-
-	para "total de {d:MODERN_EV_LIMIT}."
+	para "o limitarlos a un"
+	line "total de {d:MODERN_EV_LIMIT}."
 
 	para "Sustituyeron a la"
 	line "Exp.Stat en Gen 3."

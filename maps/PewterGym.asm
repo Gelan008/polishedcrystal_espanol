@@ -102,11 +102,10 @@ PewterGymStatue:
 	jumpstd gymstatue2
 
 BrockIntroText:
-	text "Brock: ¡Vaya, no"
-	line "es habitual recibir"
+	text "Brock: ¡No suelo"
+	line "recibir aspirantes"
 
-	para "a un aspirante de"
-	line "Johto!"
+	para "de Johto!"
 
 	para "Soy Brock, Líder"
 	line "de Gimnasio de"
@@ -188,7 +187,7 @@ CamperJerryBeatenText:
 	done
 
 HikerEdwinSeenText: ; text > text
-	text "¡R-r-r-R-R… CATAPLÚM!"
+	text "¡R-r-r… CATAPLÚM!"
 	done
 
 HikerEdwinBeatenText: ; text > text

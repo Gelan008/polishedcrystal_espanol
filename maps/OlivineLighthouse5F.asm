@@ -65,7 +65,7 @@ SailorErnestBeatenText:
 	done
 
 Bird_keeperDenisSeenText:
-	text "Estamos muy arriba."
+	text "¡Qué alto estamos!"
 	line "Mis #mon pájaro"
 
 	para "están en plena"

@@ -116,16 +116,16 @@ GenericTrainerCoupleGailandeli1:
 GenericTrainerCoupleGailandeli2:
 	generictrainer COUPLE, GAILANDELI2, EVENT_BEAT_COUPLE_GAIL_AND_ELI, CoupleGailandeli2SeenText, CoupleGailandeli2BeatenText
 
-	text "Gail: Puedo confiar"
-	line "más en mis #mon"
+	text "Gail: Confío más"
+	line "en mis #mon"
 	cont "que en mi novio."
 	done
 
 GenericTrainerPicnickerKim:
 	generictrainer PICNICKER, KIM, EVENT_BEAT_PICNICKER_KIM, PicnickerKimSeenText, PicnickerKimBeatenText
 
-	text "Las Medallas de los"
-	line "Gimnasios son muy"
+	text "Las Medallas de"
+	line "Gimnasio son muy"
 
 	para "bonitas. ¡Me gusta"
 	line "coleccionarlas!"
@@ -295,10 +295,9 @@ CamperIvanBeatenText:
 	done
 
 CoupleGailandeli1SeenText:
-	text "Eli: ¡Voy a ense-"
-	line "ñarle a mi novia de"
-	cont "qué pasta estoy"
-	cont "hecho!"
+	text "Eli: ¡Le enseñaré"
+	line "a mi novia de qué"
+	cont "pasta estoy hecho!"
 	done
 
 CoupleGailandeli1BeatenText:
@@ -309,13 +308,13 @@ CoupleGailandeli1BeatenText:
 
 CoupleGailandeli2SeenText:
 	text "Gail: Mi novio es"
-	line "débil, así que no"
-	cont "puedo confiar en él."
+	line "débil. No confío"
+	cont "nada en él."
 	done
 
 CoupleGailandeli2BeatenText:
 	text "Gail: ¡Madre mía!"
-	line "¡Qué fuerza tienes!"
+	line "¡Qué fuerte eres!"
 	done
 
 PicnickerKimSeenText:
@@ -354,9 +353,8 @@ JugglerIrwinAfterBattleText:
 	line "te con mis #mon"
 	cont "estrella."
 
-	para "¡Pero tu talento me"
-	line "ha dejado electri-"
-	cont "zado!"
+	para "¡Tu talento me ha"
+	line "dejado de piedra!"
 	done
 
 Bug_catcherArnie1SeenText:
@@ -372,11 +370,10 @@ Bug_catcherArnie1BeatenText:
 
 BugCatcherArnieAfterBattleText:
 	text "Gané el Concurso"
-	line "de Captura de Bi-"
+	line "de Bichos del"
 
-	para "chos del Parque Na-"
-	line "cional con mi"
-	cont "Venonat."
+	para "Parque Nacional"
+	line "con mi Venonat."
 	done
 
 FirebreatherWaltSeenText:
@@ -385,9 +382,8 @@ FirebreatherWaltSeenText:
 	done
 
 FirebreatherWaltBeatenText:
-	text "¡Ay! ¡Me he que-"
-	line "mado la punta de la"
-	cont "nariz!"
+	text "¡Ay! ¡Me quemé la"
+	line "punta de la nariz!"
 	done
 
 OfficerDirkSeenText:

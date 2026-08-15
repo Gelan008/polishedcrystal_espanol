@@ -149,17 +149,17 @@ KimonoGirlMakoScript:
 .IntroText:
 	text "Hola, Entrenador."
 
-	para "Soy una Chica del"
+	para "Soy una Chica"
 	line "Kimono."
 
 	para "He viajado aquí"
 	line "desde Ciudad"
 
-	para "Iris, cruzando bos-"
-	line "ques y cavernas,"
+	para "Iris, por bosques"
+	line "y cuevas, para"
 
-	para "para entrenar en"
-	line "esta torre."
+	para "entrenar en esta"
+	line "torre."
 
 	para "¿Has conocido a"
 	line "mis cinco primas"

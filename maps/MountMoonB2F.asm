@@ -89,7 +89,7 @@ YoungsterJoshSeenText:
 	line "plorar la cueva,"
 	cont "¿verdad?"
 
-	para "Ten cuidado, podrí-"
+	para "Ten cuidado, podrí"
 	line "as perderte."
 	done
 

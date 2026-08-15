@@ -92,7 +92,7 @@ Route34IlexForestGateTeacherText:
 	line "pletando una"
 	cont "#dex?"
 
-	para "Debe de ser difícil"
+	para "Debe ser difícil"
 	line "atrapar a tantos"
 	cont "#mon."
 

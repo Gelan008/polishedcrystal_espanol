@@ -33,7 +33,7 @@ YellowForestGateNurseScript:
 	text "¡Listo!"
 
 	para "Tus #mon están"
-	line "totalmente curados."
+	line "del todo curados."
 	done
 
 YellowForestGateOfficerText:

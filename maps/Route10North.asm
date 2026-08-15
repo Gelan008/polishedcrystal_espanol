@@ -316,8 +316,8 @@ Route10NorthLawrenceSpeechText:
 	cont "fracasé?"
 
 	para "¿Acaso aprecias la"
-	line "majestuosidad de"
-	cont "las aves espejismo?"
+	line "preciosidad de las"
+	cont "aves espejismo?"
 
 	para "¿Has oído hablar"
 	line "siquiera del"

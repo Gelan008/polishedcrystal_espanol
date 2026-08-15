@@ -125,7 +125,7 @@ SchoolboyDudleySeenText:
 	cont "un gran premio!"
 
 	para "¿Crees que podrás"
-	line "conseguir algo así?"
+	line "conseguirlo?"
 	done
 
 SchoolboyDudleyBeatenText:
@@ -143,7 +143,7 @@ LassEllenBeatenText:
 	done
 
 SchoolboyJoeSeenText:
-	text "¡Llega el número 3!"
+	text "¡Soy el número 3!"
 	line "No será fácil."
 	done
 
@@ -154,7 +154,7 @@ SchoolboyJoeBeatenText:
 
 LassLauraSeenText:
 	text "¡Soy la número 4!"
-	line "¿Te estás cansando?"
+	line "¿Te has cansado?"
 	done
 
 LassLauraBeatenText:
@@ -172,8 +172,8 @@ CamperLloydBeatenText:
 	done
 
 LassShannonSeenText:
-	text "¡Soy la última, pe-"
-	line "ro te aseguro que"
+	text "¡Soy la última!"
+	line "¡Y te aseguro que"
 	cont "soy la más dura!"
 	done
 
@@ -204,9 +204,9 @@ Route25MewYoungsterText:
 	text "¡Una vez vi a un"
 	line "Mew por aquí!"
 
-	para "¿No me crees? ¡Pues"
-	line "Slowpoke también"
-	cont "lo vio!"
+	para "¿No me crees?"
+	line "¡Pues Slowpoke"
+	cont "también lo vio!"
 	done
 
 Route25SlowpokeText1:
@@ -224,7 +224,7 @@ CooltrainermKevinNuggetText:
 	line "te más de lo que"
 
 	para "esperabas, pero"
-	line "ganaste igualmente."
+	line "ganaste igual."
 
 	para "Como prometí, aquí"
 	line "tienes tu premio."
@@ -242,8 +242,7 @@ CooltrainermKevinSeenText:
 	done
 
 CooltrainermKevinBeatenText:
-	text "¡Jamás tuve un com-"
-	line "bate tan bueno!"
+	text "¡Qué gran combate!"
 	done
 
 CooltrainermKevinAfterBattleText:

@@ -2923,27 +2923,28 @@ BillsPC_Release:
 	jmp BillsPC_PrintText
 
 .CantReleaseEgg:
-	text "You can't release"
-	line "an Egg!"
+	text "¡No puedes soltar"
+	line "un Huevo!"
 	prompt
 
 .CantReleaseHMMons:
-	text "You can't release"
-	line "<PK><MN> with HM moves!"
+	text "¡No puedes soltar"
+	line "#mon con MO!"
 	prompt
 
 .ReallyReleaseMon:
-	text "Really release"
-	line ""
+	text "¿Seguro que"
+	line "quieres soltar a"
+	cont ""
 	text_ram wTempMonNickname
 	text "?"
 	done
 
 .WasReleasedOutside:
 	text_ram wStringBuffer1
-	text " was"
-	line "released outside."
-	cont "Bye, "
+	text " fue"
+	line "puesto en libertad"
+	cont "Adiós, "
 	text_ram wStringBuffer1
 	text "!"
 	prompt
@@ -3415,23 +3416,23 @@ BillsPC_SwapStorage:
 	prompt
 
 .IsHoldingMail:
-	text "Held Mail must be"
-	line "removed first."
+	text "Debes retirar la"
+	line "Carta primero."
 	prompt
 
 .CantStoreMail:
-	text "Can't place Mail in"
-	line "storage."
+	text "No puedes guardar"
+	line "la Carta."
 	prompt
 
 BillsPC_LastPartyMon:
-	text "That's your last"
-	line "healthy #mon!"
+	text "¡Es tu único"
+	line "#mon sano!"
 	prompt
 
 BillsPC_MustSaveToContinue:
-	text "Save the game to"
-	line "do this?"
+	text "¿Guardar la"
+	line "partida?"
 	done
 
 BillsPC_GameSaved:

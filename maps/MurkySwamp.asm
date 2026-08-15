@@ -280,7 +280,8 @@ GenericTrainerFirebreatherOleg:
 	done
 
 .BeatenText:
-	text "¡Arriesgué y perdí!"
+	text "¡Arriesgué y"
+	line "perdí!"
 	done
 
 GenericTrainerLassAbigail:

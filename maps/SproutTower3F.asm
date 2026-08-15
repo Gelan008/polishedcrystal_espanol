@@ -106,9 +106,9 @@ ElderLiScript:
 GenericTrainerSageJin:
 	generictrainer SAGE, JIN, EVENT_BEAT_SAGE_JIN, SageJinSeenText, SageJinBeatenText
 
-	text "Si los #mon se"
-	line "hacen fuertes, el"
-	cont "Entrenador también."
+	text "Si el #mon se"
+	line "hace fuerte, su"
+	cont "dueño también."
 
 	para "No, espera. Si el"
 	line "Entrenador se hace"

@@ -213,11 +213,11 @@ MrPokemonIntroText3:
 
 	para "Me intrigó tanto"
 	line "que le envié un"
-	cont "correo al Prof. Elm."
+	cont "correo al Prof.Elm"
 
 	para "En evolución"
 	line "#mon, el Prof."
-	cont "Elm es una eminencia."
+	cont "Elm es un experto."
 	done
 
 MrPokemonIntroText4:
@@ -306,8 +306,8 @@ if !DEF(DEBUG)
 	para "dio un #mon"
 	line "para este recado."
 
-	para "Para investigadores"
-	line "como Elm o como yo,"
+	para "Para estudiosos"
+	line "como Elm y yo,"
 
 	para "los #mon son"
 	line "nuestros amigos."
@@ -320,8 +320,8 @@ if !DEF(DEBUG)
 
 	para "Pareces de fiar."
 
-	para "¿Te gustaría echar-"
-	line "me una mano?"
+	para "¿Te gustaría"
+	line "echarme una mano?"
 
 	para "¿Ves esto? Es la"
 	line "última versión de"
@@ -351,8 +351,8 @@ if !DEF(DEBUG)
 	line "dado demasiado."
 
 	para "Tengo que ir a"
-	line "Trigal para mi pro-"
-	cont "grama de radio."
+	line "Trigal para mi"
+	cont "programa de radio."
 
 	para "¡<PLAYER>, cuento"
 	line "contigo!"
@@ -364,24 +364,25 @@ MrPokemonText_GimmeTheScale:
 	line "¿Qué es eso?"
 	cont "¿Un Gyarados rojo?"
 
-	para "¡Debe de haber con-"
-	line "servado su color"
-	cont "de Magikarp!"
+	para "¡Debe de haber"
+	line "conservado su"
+	cont "color de Magikarp!"
 
 	para "¡Podría ser único"
 	line "en su especie!"
 	cont "¡L-la quiero…!"
 
 	para "<PLAYER>, ¿te"
-	line "gustaría cambiarla?"
+	line "gustaría"
+	cont "cambiarla?"
 
 	para "Puedo ofrecerte un"
 	line "#mon raro."
 	done
 
 MrPokemonText_GotShinyDitto:
-	text "¡<PLAYER> recibió un"
-	line "#mon!"
+	text "¡<PLAYER> recibió"
+	line "un #mon!"
 	done
 
 MrPokemonText_SentToPC:
@@ -394,7 +395,7 @@ MrPokemonText_SentToPC:
 MrPokemonText_PartyAndBoxFull:
 	text "¡No tienes sitio"
 	line "para esto, ni"
-	cont "siquiera en la Caja!"
+	cont "siquiera en Caja!"
 	done
 
 MrPokemonText_Disappointed:
@@ -404,8 +405,8 @@ MrPokemonText_Disappointed:
 	done
 
 MrPokemonsHouse_ForeignMagazinesText:
-	text "Está lleno de re-"
-	line "vistas extranjeras."
+	text "Lleno de revistas"
+	line "extranjeras."
 
 	para "No se pueden leer"
 	line "ni los títulos…"
@@ -432,7 +433,7 @@ MrPokemonsHouse_CabinetText:
 	done
 
 MrPokemonsHouse_RedScaleCabinetText:
-	text "¡Una de ellas es la"
-	line "brillante Escama"
-	cont "Roja!"
+	text "¡Entre ellas está"
+	line "la brillante"
+	cont "Escama Roja!"
 	done

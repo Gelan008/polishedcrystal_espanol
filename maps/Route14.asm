@@ -39,7 +39,7 @@ GenericTrainerPokefanmTrevor:
 	done
 
 PokefanmTrevorSeenText:
-	text "Hola. ¿Sabías que…?"
+	text "¿Sabías que…?"
 
 	para "Los #mon se vuel-"
 	line "ven más afectuosos"
@@ -60,8 +60,8 @@ GenericTrainerPokefanmCarter:
 	text "Squirtle, Charman-"
 	line "der y Bulbasaur…"
 
-	para "Creo que forman un"
-	line "equipo equilibrado."
+	para "Forman un equipo"
+	line "muy equilibrado."
 	done
 
 PokefanmCarterSeenText:
@@ -100,9 +100,9 @@ Bird_keeperRoyBeatenText:
 GenericTrainerBird_keeperJosh:
 	generictrainer BIRD_KEEPER, BIRD_KEEPER_JOSH, EVENT_BEAT_BIRD_KEEPER_JOSH, .SeenText, .BeatenText
 
-	text "Quizá debería men-"
-	line "tir y decir que"
-	cont "soy de peso pesado…"
+	text "Quizá deba mentir"
+	line "y decir que soy de"
+	cont "peso pesado…"
 	done
 
 .SeenText:
@@ -124,9 +124,9 @@ GenericTrainerBird_keeperJosh:
 GenericTrainerSchoolboyConnor:
 	generictrainer SCHOOLBOY, SCHOOLBOY_CONNOR, EVENT_BEAT_SCHOOLBOY_CONNOR, .SeenText, .BeatenText
 
-	text "No tengas prisa"
-	line "y avanza paso a"
-	cont "paso por el camino."
+	text "Sin prisa: avanza"
+	line "paso a paso por"
+	cont "el camino."
 
 	para "¡Un gran consejo!"
 	done
@@ -197,8 +197,8 @@ GenericTrainerTeacherClarice:
 	done
 
 .BeatenText:
-	text "¡Muy bien! Con es-"
-	line "to concluye la lec-"
+	text "¡Bien! Con esto"
+	line "termina la lec-"
 	cont "ción de hoy."
 	done
 

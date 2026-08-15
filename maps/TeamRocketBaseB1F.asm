@@ -698,7 +698,7 @@ SecurityCameraMovement9:
 
 CameraGrunt1SeenText:
 	text "¡Alto!"
-	line "¡Alerta de intruso!"
+	line "¡Hay un intruso!"
 	done
 
 CameraGrunt1BeatenText:

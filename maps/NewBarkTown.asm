@@ -275,7 +275,9 @@ Text_ItsDangerousToGoAlone:
 Text_YourMonIsAdorable:
 	text "¡Oh! ¡Tu #mon"
 	line "es adorable!"
-	cont "¡Ojalá tuviera uno!"
+
+	para "¡Ojalá tuviese"
+	line "uno!"
 	done
 
 Text_TellMomIfLeaving:
@@ -335,8 +337,8 @@ Text_LyraIntro:
 	line "nueva investiga-"
 
 	para "ción #mon y le"
-	line "gustaría que le"
-	cont "ayudáramos los dos."
+	line "gustaría que los"
+	cont "dos le ayudemos."
 
 	para "¡Vamos a ver qué"
 	line "quiere!"

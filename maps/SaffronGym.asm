@@ -103,14 +103,15 @@ GenericTrainerMediumDoris:
 
 	text "¡Ostras! Olvidé"
 	line "que predije que"
-	cont "perdería contra ti."
+	cont "perdería ante ti."
 	done
 
 GenericTrainerPsychicLeon:
 	generictrainer PSYCHIC_T, LEON, EVENT_BEAT_PSYCHIC_LEON, PsychicLeonSeenText, PsychicLeonBeatenText
 
-	text "¡El poder de Sabri-"
-	line "na supera al mío!"
+	text "¡El poder de"
+	line "Sabrina supera"
+	cont "con creces el mío!"
 	done
 
 GenericTrainerPsychicJared:
@@ -201,14 +202,12 @@ SabrinaIntroText:
 	para "Vienes a por mi"
 	line "Medalla."
 
-	para "No me gusta luchar,"
-	line "pero mi deber como"
+	para "No me gusta la"
+	line "lucha, mas como"
 
-	para "Líder es otorgar"
-	line "Medallas a quien"
-
-	para "demuestre ser"
-	line "digno."
+	para "Líder otorgaré la"
+	line "Medalla a quien"
+	cont "sea digno."
 
 	para "¡Ya que lo deseas,"
 	line "te mostraré mis"
@@ -228,11 +227,11 @@ SabrinaWinLossText:
 	line "tud…"
 
 	para "Bien, tú ganas."
-	line "Te has ganado"
+	line "Te has ganado la"
 if DEF(FAITHFUL)
-	cont "la Medalla Pantano."
+	cont "Medalla Pantano."
 else
-	cont "la Medalla Alma."
+	cont "Medalla Alma."
 endc
 	done
 

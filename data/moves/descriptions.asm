@@ -335,7 +335,7 @@ RockBlastDescription:
 
 TakeDownDescription:
 DoubleEdgeDescription:
-	text "Placaje que también"
+	text "Golpe que también"
 	next "daña al usuario."
 	done
 
@@ -367,8 +367,8 @@ PoisonStingDescription:
 SludgeBombDescription:
 PoisonJabDescription:
 GunkShotDescription:
-	text "Un ataque que puede"
-	next "envenenar al rival"
+	text "Un ataque que pue-"
+	next "-de env. al rival"
 	done
 
 EmberDescription:

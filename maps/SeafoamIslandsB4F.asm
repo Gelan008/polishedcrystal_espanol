@@ -139,10 +139,10 @@ SeafoamIslandsB4FLawrenceSpeechText:
 	cont "tres aves?"
 	cont "Imposible."
 
-	para "Ni siquiera yo, con"
-	line "mis conocimientos"
+	para "Ni yo, con mis co-"
+	line "nocimientos y"
 
-	para "y recursos, he lo-"
+	para "recursos, he lo-"
 	line "grado encontrar a"
 	cont "Moltres…"
 

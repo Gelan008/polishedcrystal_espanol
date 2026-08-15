@@ -714,12 +714,12 @@ ChestoBerryDesc:
 	done
 
 PechaBerryDesc:
-	text "Cura de forma autó-"
+	text "Cura de forma autó"
 	next "nomaenvenenamiento"
 	done
 
 RawstBerryDesc:
-	text "Cura de forma autó-"
+	text "Cura de forma autó"
 	next "noma quemaduras."
 	done
 
@@ -976,12 +976,12 @@ FocusBandDesc:
 	done
 
 LeftoversDesc:
-	text "Recupera PS durante"
-	next "el combate.(Equip)"
+	text "Recupera PS en"
+	next "cada turno (Equip)"
 	done
 
 LuckyEggDesc:
-	text "Consigue más Puntos"
+	text "Consigue más Pts."
 	next "Exp. (Equipar)"
 	done
 
@@ -1296,8 +1296,8 @@ MagmarizerDesc:
 	done
 
 OvalStoneDesc:
-	text "Piedra redonda cual"
-	next "Huevo #mon."
+	text "Piedra redonda cu-"
+	next "-al Huevo #mon."
 	done
 
 OddSouvenirDesc:
@@ -1547,7 +1547,7 @@ CoinCaseDesc:
 	done
 
 ItemfinderDesc:
-	text "Busca objetos invi-"
+	text "Busca objetos invi"
 	next "sibles en la zona."
 	done
 
@@ -1621,11 +1621,11 @@ ClearBellDesc:
 	done
 
 GSBallDesc:
-	text "La Ball misteriosa."
+	text "La Ball misteriosa"
 	done
 
 GBCSoundsDesc:
-	text "Reproductor repleto"
+	text "Reproductor lleno"
 	next "de canciones."
 	done
 

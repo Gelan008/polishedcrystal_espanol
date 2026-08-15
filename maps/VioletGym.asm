@@ -152,11 +152,11 @@ FalknerIntroText:
 	cont "#mon de Malva!"
 
 	para "Dicen que se pue-"
-	line "den cortar las alas"
+	line "den cortar las"
 
-	para "a los #mon tipo"
-	line "Volador con una"
-	cont "descarga eléctrica…"
+	para "alas a los #mon"
+	line "tipo Volador con"
+	cont "un ataq electrico…"
 
 	para "¡No toleraré tales"
 	line "insultos a los"
@@ -198,7 +198,7 @@ FalknerZephyrBadgeText:
 FalknerFightDoneText:
 	text "Hay Gimnasios"
 	line "#mon en otras"
-	cont "ciudades y pueblos."
+	cont "ciudades y pueblos"
 
 	para "Deberías poner a"
 	line "prueba tu talento"
@@ -229,9 +229,9 @@ Bird_keeperRodBeatenText:
 	done
 
 Bird_keeperAbeSeenText:
-	text "¡A ver si tienes el"
-	line "nivel para enfren-"
-	cont "tarte a Pegaso!"
+	text "¡A ver si tienes"
+	line "nivel para luchar"
+	cont "contra Pegaso!"
 	done
 
 Bird_keeperAbeBeatenText:

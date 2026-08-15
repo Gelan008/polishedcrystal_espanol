@@ -199,7 +199,7 @@ EeveeDollScript:
 	done
 
 OakWelcomeKantoText:
-	text "Oak: ¡Ah, <PLAYER>!"
+	text "Oak: ¡<PLAYER>!"
 	line "Me alegra que"
 
 	para "hayas venido desde"
@@ -297,9 +297,9 @@ OakLabOvalCharmText:
 	done
 
 OakLabCaughtAllText:
-	text "No me equivoqué en"
-	line "absoluto al confiar"
-	cont "en ti y darte esa"
+	text "No me equivoqué"
+	line "al confiar en ti"
+	cont "y darte esa"
 	cont "#dex."
 
 	para "Es una prueba de"
@@ -383,7 +383,7 @@ OakWinText:
 	done
 
 OakOpenMtSilverText:
-	text "Oak: ¡Espectacular,"
+	text "Oak: ¡Asombroso,"
 	line "<PLAYER>!"
 
 	para "Haré los trámites"

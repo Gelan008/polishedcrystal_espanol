@@ -187,7 +187,7 @@ ShamoutiShrineRuinsLadyText:
 	para "mi vuelta al"
 	line "mundo."
 
-	para "Por lo visto, hay"
-	line "un #mon que ha-"
-	cont "bla por aquí cerca."
+	para "Por lo visto hay"
+	line "un #mon que"
+	cont "habla por aquí."
 	done

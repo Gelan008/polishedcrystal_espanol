@@ -184,11 +184,10 @@ RadioTower1FRadioCardWomanScript:
 	jumpthisopenedtext
 
 	text "¡Vaya por Dios!"
-	line "Lo siento, pero has"
+	line "Has fallado."
 
-	para "fallado."
-	line "¡Inténtalo otra"
-	cont "vez!"
+	para "¡Inténtalo otra"
+	line "vez!"
 	done
 
 GenericTrainerGruntM3:
@@ -198,8 +197,8 @@ GenericTrainerGruntM3:
 	line "fuerte."
 
 	para "Podrías arruinar"
-	line "nuestro plan. ¡Iré"
-	cont "a avisar al resto…!"
+	line "el plan. ¡Iré a"
+	cont "avisar al resto…!"
 	done
 
 RadioTower1FWhitneyScript:
@@ -320,9 +319,9 @@ WonFourthPlaceText:
 	line "los dos últimos"
 	cont "números!"
 
-	para "Has ganado el cuar-"
-	line "to premio: un"
-	cont "Más PP."
+	para "¡Ganaste el"
+	line "cuarto premio: un"
+	cont "Más PP!"
 	done
 
 WonFifthPlaceText:
@@ -386,7 +385,7 @@ RadioTower1FRadioCardWomanQuestion3Text:
 	line "3a pregunta:"
 
 	para "¿Puede Magikarp"
-	line "aprender alguna MT?"
+	line "aprender MTs?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:
@@ -482,7 +481,7 @@ GruntM3BeatenText:
 	done
 
 RadioTower1FWhitney1Text:
-	text "¡Hola! ¡Soy Blanca!"
+	text "¡Hola! Soy Blanca."
 
 	para "Oí hablar del con-"
 	line "curso para ganar"

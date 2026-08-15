@@ -140,9 +140,8 @@ endc
 	para "canzó una de las"
 	line "torres."
 
-	para "Fue envuelta por"
-	line "llamas que ardieron"
-	cont "durante tres días."
+	para "El fuego ardió"
+	line "durante tres días."
 
 	para "Un repentino cha-"
 	line "parrón apagó por"
