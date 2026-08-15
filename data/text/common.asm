@@ -3834,8 +3834,6 @@ SECTION "_MoveAskForgetText", ROMX
 _MoveAskForgetText::
 	text "¿Qué movimiento"
 	next "debe olvidar?"
-
-	para ""
 	done
 
 SECTION "_StopLearningMoveText", ROMX

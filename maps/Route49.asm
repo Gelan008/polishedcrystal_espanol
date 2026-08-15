@@ -67,7 +67,7 @@ GenericTrainerSightseermHari:
 	done
 
 GenericTrainerTamerJordan:
-	generictrainer TAMER, JORDAN, EVENT_BEAT_TAMER, JORDAN, .SeenText, .BeatenText
+	generictrainer TAMER, JORDAN, EVENT_BEAT_TAMER_JORDAN, .SeenText, .BeatenText
 
 	text "¿Cómo domaste tan"
 	line "bien a tus #-"
