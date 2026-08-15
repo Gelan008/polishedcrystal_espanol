@@ -23,18 +23,18 @@ PokemonJournalSabrinaScript:
 	setflag ENGINE_READ_SABRINA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Sabrina!"
+	para "Edición especial:"
+	line "¡Líder Sabrina!"
 
-	para "People say that"
-	line "Sabrina can com-"
-	cont "municate with her"
+	para "Se dice que Sabri-"
+	line "na puede comuni-"
+	cont "carse con sus"
 
-	para "#mon during"
-	line "battle without"
-	cont "speaking."
+	para "#mon durante"
+	line "el combate sin"
+	cont "decir palabra."
 	done
 
 SaffronPokeCenter1FFisherScript:
@@ -42,53 +42,55 @@ SaffronPokeCenter1FFisherScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "I just happened to"
-	line "come through Rock"
+	text "Acabo de cruzar"
+	line "el Túnel Roca."
 
-	para "Tunnel. There was"
-	line "some commotion at"
-	cont "the Power Plant."
+	para "Había cierto re-"
+	line "vuelo cerca de la"
+	cont "Central Energía."
 	done
 
 .Text2:
-	text "Caves collapse"
-	line "easily."
+	text "Las cuevas se de-"
+	line "rrumban fácilmen-"
+	cont "te."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "En estos últimos"
+	line "años han desapa-"
+	cont "recido varias,"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side Cerulean."
+	para "como la que había"
+	line "a las afueras de"
+	cont "Ciudad Celeste."
 
-	para "As a pro Hiker,"
-	line "that's common"
-	cont "knowledge."
+	para "Cualquier Monta-"
+	line "ñero experto sa-"
+	cont "bría eso."
 	done
 
 SaffronPokeCenter1FTeacherText:
-	text "What are Johto's"
-	line "#mon Centers"
-	cont "like?"
+	text "¿Cómo son los Cen-"
+	line "tros #mon de"
+	cont "Johto?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "… Ah, ya veo. Así"
+	line "que no son muy"
 
-	para "different from the"
-	line "ones in Kanto."
+	para "distintos de los"
+	line "de Kanto."
 
-	para "I can go to Johto"
-	line "without worrying,"
-	cont "then!"
+	para "¡Entonces podré ir"
+	line "a Johto sin preo-"
+	cont "cuparme!"
 	done
 
 SaffronPokeCenter1FYoungsterText:
-	text "Silph Co.'s Head"
-	line "Office and the"
+	text "La sede central de"
+	line "Silph S.A. y la"
 
-	para "Magnet Train Sta-"
-	line "tion--they're the"
+	para "estación del Mag-"
+	line "netotrén son los"
 
-	para "places to see in"
-	line "Saffron."
+	para "lugares más famo-"
+	line "sos de Azafrán."
 	done

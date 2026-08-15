@@ -45,10 +45,12 @@ ShamoutiIslandAlolanExeggutorScript:
 	showemote EMOTE_SLEEP, SHAMOUTIISLAND_ALOLAN_EXEGGUTOR_HEAD, 15
 	jumpthistext
 
-	text "The weird tree is…"
-	line "fast asleep?"
+	text "El árbol raro es-"
+	line "tá… ¿profundamente"
+	cont "dormido?"
 
-	para "Is it a #mon?"
+	para "¿Acaso será un"
+	line "#mon?"
 	done
 
 .Awake:
@@ -68,14 +70,14 @@ ShamoutiIslandAlolanExeggutorScript:
 	end
 
 .PokeFluteText:
-	text "The #gear was"
-	line "placed near the"
-	cont "weird tree…"
+	text "Se puso el"
+	line "#gear cerca"
+	cont "del árbol raro…"
 	done
 
 .WokeUpText:
-	text "The #mon"
-	line "woke up!"
+	text "¡El #mon"
+	line "se despertó!"
 	done
 
 ShamoutiIslandGrampsScript:
@@ -99,49 +101,50 @@ ShamoutiIslandWilhomenaScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "A shiny Pikachu"
-	line "would be a real"
-	cont "Pikablu."
+	text "Un Pikachu va-"
+	line "riocolor sería un"
+	cont "auténtico Pikablu."
 
-	para "I've never found"
-	line "one, but I'm happy"
-	cont "with my Marill."
+	para "Nunca he visto"
+	line "uno, pero soy fe-"
+	cont "liz con mi Marill."
 	done
 
 .Text1:
-	text "Hello again! Let"
-	line "me give you that"
-	cont "souvenir."
+	text "¡Hola de nuevo!"
+	line "Deja que te dé ese"
+	cont "recuerdo."
 	done
 
 ShamoutiIslandPikabluText:
-	text "Pikablu: Rill!"
+	text "Pikablu: ¡Rill!"
 	done
 
 ShamoutiIslandFisherText:
-	text "Today we're dancing"
-	line "for no reason. ♪"
+	text "Hoy bailamos sin"
+	line "motivo alguno. ♪"
 
-	para "Someday we'll"
-	line "disappear for no"
-	cont "reason."
+	para "Algún día desapa-"
+	line "receremos sin ra-"
+	cont "zón alguna."
 
-	para "…You thought we'd"
-	line "block the road?"
+	para "… ¿Creías que íba-"
+	line "mos a bloquear el"
+	cont "camino?"
 
-	para "That would be"
-	line "rude!"
+	para "¡Eso sería de muy"
+	line "mala educación!"
 	done
 
 ShamoutiIslandSignText:
-	text "Shamouti Island"
+	text "Isla Shamouti"
 	done
 
 ShamoutiHotelSignText:
-	text "Shamouti Hotel"
+	text "Hotel Shamouti"
 	done
 
 ShamoutiTouristCenterSignText:
-	text "Shamouti Tourist"
-	line "Center"
+	text "Centro Turístico"
+	line "de Shamouti"
 	done

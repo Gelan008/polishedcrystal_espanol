@@ -23,18 +23,18 @@ VioletNicknameSpeechHouseBirdScript:
 	end
 
 VioletNicknameSpeechHouseTeacherText:
-	text "She uses the names"
-	line "of her favorite"
-	cont "things to eat."
+	text "Usa los nombres"
+	line "de sus comidas fa-"
+	cont "voritas."
 
-	para "For the nicknames"
-	line "she gives to her"
-	cont "#mon, I mean."
+	para "Para los motes"
+	line "que les pone a sus"
+	cont "#mon, claro."
 	done
 
 VioletNicknameSpeechHouseLassText:
-	text "I call my Eevee"
-	line "Strawberry!"
+	text "¡A mi Eevee lo"
+	line "llamo Fresita!"
 	done
 
 VioletNicknameSpeechHouseGrampsText:
@@ -45,9 +45,10 @@ VioletNicknameSpeechHouseGrampsText:
 	line "del viento oeste."
 
 	para "Muy apropiado para"
-	line "un Gym Volador."
+	line "un Gimnasio Vola-"
+	cont "dor."
 	done
 
 VioletNicknameSpeechHouseBirdText:
-	text "Strawberry: Vui!"
+	text "Fresita: ¡Vui!"
 	done

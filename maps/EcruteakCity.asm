@@ -265,7 +265,7 @@ EcruteakShrineSign:
 
 EcruteakBarrierStationSign:
 	text "Estación Barrera a"
-	line "la Torre Campana"
+	line "la Torre Hojalata"
 
 	para "Prohibido el paso"
 	line "a los indignos"

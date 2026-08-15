@@ -184,30 +184,30 @@ TinTower1FSage4Script:
 	iftruefwd .FoughtHoOh
 	jumpthistextfaceplayer
 
-	text "Ho-Oh appears to"
-	line "have descended"
+	text "¡Parece que Ho-Oh"
+	line "ha descendido"
 
-	para "upon this, the"
-	line "Bell Tower!"
+	para "sobre esta, la"
+	line "Torre Hojalata!"
 	done
 
 .FoughtHoOh:
 	jumpthistextfaceplayer
 
-	text "The legendary"
-	line "#mon are said"
+	text "Dicen que los #-"
+	line "mon legendarios"
 
-	para "to embody three"
-	line "powers…"
+	para "encarnan tres po-"
+	line "deres…"
 
-	para "The lightning that"
-	line "struck the tower."
+	para "El rayo que cayó"
+	line "sobre la torre."
 
-	para "The fire that"
-	line "burned the tower."
+	para "El fuego que que-"
+	line "mó la torre."
 
-	para "And the rain that"
-	line "put out the fire…"
+	para "Y la lluvia que"
+	line "apagó el fuego…"
 	done
 
 TinTower1FSage5Script:
@@ -233,30 +233,33 @@ TinTower1FSage5Script:
 .GotRainbowWing:
 	jumpthisopenedtext
 
-	text "Now, go."
+	text "Ahora, ve."
 	done
 
 .FoughtHoOh:
 	jumpthisopenedtext
 
-	text "When the legendary"
-	line "#mon appeared…"
+	text "Al aparecer los"
+	line "#mon legenda-"
+	cont "rios…"
 
-	para "They struck terror"
-	line "in those who saw"
-	cont "their rise."
+	para "sembraron el te-"
+	line "rror entre quienes"
+	cont "los contemplaban."
 
-	para "And…"
+	para "Y…"
 
-	para "Some even took to"
-	line "futile attacks."
+	para "hubo quienes ata-"
+	line "caron en vano."
 
-	para "The legendary"
-	line "#mon, knowing"
+	para "Los #mon legen-"
+	line "darios, sabiendo"
 
-	para "their own power,"
-	line "fled, ignoring the"
-	cont "frightened people."
+	para "el poder que po-"
+	line "seían, huyeron sin"
+
+	para "hacer daño a la"
+	line "gente asustada."
 	done
 
 TinTower1FSage6Script:
@@ -264,34 +267,36 @@ TinTower1FSage6Script:
 	iftruefwd .FoughtHoOh
 	jumpthistextfaceplayer
 
-	text "I believe you are"
-	line "being tested."
+	text "Creo que te están"
+	line "poniendo a prueba."
 
-	para "Free your mind"
-	line "from uncertainty,"
-	cont "and advance."
+	para "Despeja tu mente"
+	line "de dudas y sigue"
+	cont "adelante."
 	done
 
 .FoughtHoOh:
 	jumpthistextfaceplayer
 
-	text "Of the legendary"
-	line "#mon, Suicune"
+	text "De los #mon le-"
+	line "gendarios, dicen"
 
-	para "is said to be the"
-	line "closest to Ho-Oh."
+	para "que Suicune es el"
+	line "más cercano a"
+	cont "Ho-Oh."
 
-	para "I hear there may"
-	line "also be a link to"
+	para "He oído que tam-"
+	line "bién podría tener"
 
-	para "#mon known as"
-	line "Unown."
+	para "un vínculo con los"
+	line "#mon Unown."
 
-	para "The #mon Unown"
-	line "must be sharing a"
+	para "Los #mon Unown"
+	line "deben de compartir"
 
-	para "cooperative bond"
-	line "with Suicune."
+	para "un lazo de coope-"
+	line "ración con"
+	cont "Suicune."
 	done
 
 TinTower1FEusineAfterHoOhScript:
@@ -396,154 +401,158 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTowerEusineSuicuneText:
-	text "Eusine: Awesome!"
-	line "Too awesome, even!"
+	text "Eusine: ¡Increí-"
+	line "ble! ¡Ha sido de-"
+	cont "masiado increíble!"
 
-	para "I've never seen a"
-	line "battle that great."
+	para "Jamás había visto"
+	line "un combate igual."
 
-	para "That was truly"
-	line "inspiring to see."
+	para "Ha sido muy emo-"
+	line "cionante de ver."
 
-	para "Suicune was tough,"
-	line "but you were even"
+	para "Suicune era fuer-"
+	line "te, pero tú has"
 
-	para "more incredible,"
-	line "<PLAYER>."
+	para "estado aún más in-"
+	line "creíble, <PLAYER>."
 
-	para "I heard Suicune's"
-	line "mystic power"
+	para "He oído que el po-"
+	line "der místico de"
+	cont "Suicune"
 
-	para "summons a rainbow-"
-	line "colored #mon."
+	para "invoca a un #mon"
+	line "del color del"
+	cont "arcoíris."
 
-	para "Maybe, just maybe,"
-	line "what went on today"
+	para "Puede que lo que"
+	line "ha pasado hoy"
 
-	para "will cause that"
-	line "#mon to appear."
+	para "haga que ese #-"
+	line "mon aparezca."
 
-	para "I'm going to study"
-	line "the legends more."
+	para "Voy a estudiar más"
+	line "las leyendas."
 
-	para "Thanks for showing"
-	line "me that fantastic"
-	cont "battle."
+	para "Gracias por mos-"
+	line "trarme este com-"
+	cont "bate tan genial."
 
-	para "Later, <PLAYER>!"
+	para "¡Hasta luego,"
+	line "<PLAYER>!"
 	done
 
 TinTower1FSage1Text:
-	text "According to"
-	line "legend…"
+	text "Según cuenta la"
+	line "leyenda…"
 
-	para "When the souls of"
-	line "#mon and humans"
+	para "Cuando las almas"
+	line "de humanos y #-"
+	cont "mon se unen,"
 
-	para "commune, from the"
-	line "heavens descends a"
+	para "baja del cielo un"
+	line "#mon del color"
+	cont "del arcoíris…"
 
-	para "#mon of rainbow"
-	line "colors…"
+	para "¿Querrá decir que"
+	line "los #mon legen-"
 
-	para "Could it mean the"
-	line "legendary #mon"
-
-	para "are testing us"
-	line "humans?"
+	para "darios nos están"
+	line "poniendo a prueba?"
 	done
 
 TinTower1FSage2Text:
 if DEF(FAITHFUL)
-	text "When the Brass"
+	text "Cuando ardió la"
+	line "Torre Latón,"
 else
-	text "When the Gong"
+	text "Cuando ardió la"
+	line "Torre Gong,"
 endc
-	line "Tower burned down,"
 
-	para "three nameless"
-	line "#mon were said"
+	para "se dice que tres"
+	line "#mon sin nombre"
 
-	para "to have perished."
-	line "It was tragic."
+	para "perecieron allí."
+	line "Fue una tragedia."
 
-	para "However…"
+	para "Sin embargo…"
 
-	para "A rainbow-colored"
-	line "#mon…"
+	para "Un #mon del co-"
+	line "lor del arcoíris…"
 
-	para "In other words…"
+	para "En otras pala-"
+	line "bras…"
 
-	para "Ho-Oh descended"
-	line "from the sky and"
+	para "Ho-Oh descendió"
+	line "del cielo y dio"
 
-	para "gave new life to"
-	line "the three #mon."
+	para "nueva vida a esos"
+	line "tres #mon."
 
-	para "They are…"
+	para "Ellos son…"
 
-	para "Suicune, Entei and"
+	para "Suicune, Entei y"
 	line "Raikou."
 
-	para "That is what they"
-	line "say."
+	para "Eso es lo que se"
+	line "cuenta."
 	done
 
 TinTower1FSage3Text:
-	text "The two towers are"
-	line "said to have been"
+	text "Dicen que las dos"
+	line "torres fueron eri-"
 
-	para "built to foster"
-	line "friendship and"
+	para "gidas para fomen-"
+	line "tar la amistad y"
 
-	para "hope between #-"
-	line "mon and people."
+	para "la esperanza entre"
+	line "humanos y #mon."
 
-	para "That was 700 years"
-	line "ago, but the ideal"
+	para "Eso fue hace 700"
+	line "años, pero ese"
 
-	para "still remains"
-	line "important today."
+	para "ideal sigue siendo"
+	line "importante hoy."
 	done
-
 
 TinTower1FSage5Text1:
-	text "This will protect"
-	line "you. Take it."
+	text "Esto te protege-"
+	line "rá. Tómalo."
 	done
 
-
-
 TinTowerEusineHoOhText:
-	text "I knew it."
+	text "Lo sabía."
 
-	para "I knew you'd get"
-	line "to see the #mon"
+	para "Sabía que consegui-"
+	line "rías ver al #mon"
 
-	para "of rainbow colors,"
-	line "<PLAYER>."
+	para "del color del"
+	line "arcoíris, <PLAYER>."
 
-	para "It happened just"
-	line "as I envisioned."
+	para "Ha pasado justo"
+	line "como imaginaba."
 
-	para "My research isn't"
-	line "bad, I might say."
+	para "Mis investigacio-"
+	line "nes no van mal,"
+	cont "que digamos."
 
-	para "I'm going to keep"
-	line "studying #mon"
+	para "Seguiré estudian-"
+	line "do a los #mon"
 
-	para "to become a famous"
-	line "#Maniac!"
+	para "para ser un Poké-"
+	line "maníaco famoso."
 
-	para "If you're ever in"
-	line "Ciudad Azulona,"
+	para "Si alguna vez vas"
+	line "a Ciudad Azulona,"
 
-	para "will you say hi to"
-	line "my grandpa?"
+	para "¿podrías saludar"
+	line "a mi abuelo?"
 
-	para "I'm sure he would"
-	line "like the company"
-	cont "while I'm away."
+	para "Seguro que le gus-"
+	line "tará tener compa-"
+	cont "ñía mientras falto."
 
-	para "Later, <PLAYER>!"
+	para "¡Hasta luego,"
+	line "<PLAYER>!"
 	done

@@ -61,41 +61,45 @@ ShamoutiHotelRestaurantChallengeScript:
 	sjump ShamoutiHotelRestaurantLeaveScript
 
 .GreetingText:
-	text "Welcome to the"
-	line "Oasis Restaurant."
+	text "¡Te damos la bien-"
+	line "venida al Restau-"
+	cont "rante Oasis!"
 
-	para "Here you can par-"
-	line "take, not just in"
+	para "Aquí podrás dis-"
+	line "frutar no solo de"
 
-	para "food, but in #-"
-	line "mon battles."
+	para "la comida, sino"
+	line "también de comba-"
+	cont "tes #mon."
 
-	para "Every day we have"
-	line "a new menu."
+	para "Cada día ofrecemos"
+	line "un menú nuevo."
 
-	para "The fee is ¥5000."
-	line "Would you like to"
-	cont "enter?"
+	para "El precio es de"
+	line "¥5000. ¿Te gusta-"
+	cont "ría entrar?"
 	done
 
 .AlreadyAteText:
-	text "I'm so sorry, but"
-	line "you already came"
-	cont "here today."
+	text "Lo siento mucho,"
+	line "pero ya has comido"
+	cont "aquí hoy."
 
-	para "Please do visit"
-	line "again tomorrow."
+	para "Por favor, vuelve"
+	line "a visitarnos"
+	cont "mañana."
 	done
 
 .NeverMindText:
-	text "I understand."
-	line "Have a nice day!"
+	text "Comprendido."
+	line "¡Que tengas un"
+	cont "buen día!"
 	done
 
 .NotEnoughMoneyText:
-	text "I'm so sorry, but"
-	line "you don't have"
-	cont "enough money."
+	text "Lo siento mucho,"
+	line "pero no tienes"
+	cont "dinero suficiente."
 	done
 
 ShamoutiHotelRestaurantLeavingTrigger2:
@@ -118,16 +122,17 @@ ShamoutiHotelRestaurantLeavingTrigger1:
 	end
 
 .LeavingText:
-	text "Are you ready to"
-	line "leave?"
+	text "¿Quieres marcharte"
+	line "ya?"
 	done
 
 .GoodbyeText:
-	text "Thank you for"
-	line "coming."
+	text "Muchas gracias por"
+	line "venir."
 
-	para "Please do visit"
-	line "again tomorrow."
+	para "Por favor, vuelve"
+	line "a visitarnos"
+	cont "mañana."
 	done
 
 ShamoutiHotelRestaurantLeaveScript:
@@ -141,6 +146,7 @@ ShamoutiHotelRestaurantLeaveScript:
 	end
 
 ShamoutiHotelRestaurantReceptionistText:
-	text "Please enjoy a"
-	line "meal and a battle."
+	text "¡Disfruta de la"
+	line "comida y del"
+	cont "combate!"
 	done

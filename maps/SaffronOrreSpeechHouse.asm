@@ -16,30 +16,33 @@ SaffronOrreSpeechHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronOrreSpeechHouseCooltrainerMText, -1
 
 SaffronOrreSpeechHouseSilphEmployeeText:
-	text "I heard about a"
-	line "method to seal off"
-	cont "a #mon's heart"
+	text "He oído hablar de"
+	line "un método para ce-"
+	cont "rrar el corazón"
+	cont "de los #mon"
 
-	para "and force them to"
-	line "attack people."
+	para "y forzarlos a ata-"
+	line "car a las personas."
 
-	para "How could anyone"
-	line "do such a horrible"
-	cont "thing to #mon?!"
+	para "¡¿Cómo puede al-"
+	line "guien hacerle algo"
+
+	para "tan horrible a los"
+	line "#mon?!"
 	done
 
 SaffronOrreSpeechHouseCooltrainerMText:
-	text "We just got back"
-	line "from seeing a"
+	text "Acabamos de volver"
+	line "de ver a un amigo"
+	cont "en otra región."
 
-	para "friend in another"
-	line "region."
+	para "Tuvieron muchos"
+	line "problemas por dos"
+	cont "bandas criminales,"
 
-	para "They had a lot of"
-	line "trouble from two"
-	cont "criminal gangs,"
+	para "pero un talentoso"
+	line "entrenador dio un"
 
-	para "but a talented"
-	line "trainer stepped up"
-	cont "to save them."
+	para "paso al frente y"
+	line "los salvó."
 	done

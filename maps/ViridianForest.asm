@@ -35,162 +35,174 @@ ViridianForest_MapScriptHeader:
 GenericTrainerBug_maniacDane:
 	generictrainer BUG_MANIAC, DANE, EVENT_BEAT_BUG_MANIAC_DANE, BugManiacDaneSeenText, BugManiacDaneBeatenText
 
-	text "Pretty impressive!"
+	text "¡Muy impresionante!"
 
-	para "I'm sure you can"
-	line "go anywhere with"
-	cont "that skill!"
+	para "¡Seguro que puedes"
+	line "ir a donde sea con"
+	cont "esa habilidad!"
 	done
 
 GenericTrainerBug_maniacDion:
 	generictrainer BUG_MANIAC, DION, EVENT_BEAT_BUG_MANIAC_DION, BugManiacDionSeenText, BugManiacDionBeatenText
 
-	text "Bug-type #mon"
-	line "make all kinds of"
-	cont "sounds."
+	text "Los #mon de tipo"
+	line "Bicho hacen todo"
+	cont "tipo de sonidos."
 
-	para "For bug #mon"
-	line "fans, knowing how"
-	cont "to distinguish"
-	cont "them is key!"
+	para "Para los fans de"
+	line "los #mon bicho,"
+	cont "¡saber distinguir-"
+	cont "los es la clave!"
 	done
 
 GenericTrainerBug_maniacStacey:
 	generictrainer BUG_MANIAC, STACEY, EVENT_BEAT_BUG_MANIAC_STACEY, BugManiacStaceySeenText, BugManiacStaceyBeatenText
 
-	text "Has anyone ever"
-	line "told you that from"
-	cont "behind you look"
-	cont "like a Venonat?"
+	text "¿Te ha dicho al-"
+	line "guien que de espal-"
+	cont "das te pareces a"
+	cont "un Venonat?"
 	done
 
 GenericTrainerBug_maniacEllis:
 	generictrainer BUG_MANIAC, ELLIS, EVENT_BEAT_BUG_MANIAC_ELLIS, BugManiacEllisSeenText, BugManiacEllisBeatenText
 
-	text "If this is it,"
-	line "then I don't mind"
-	cont "losing!"
+	text "Si es contra ti,"
+	line "¡no me importa"
+	cont "perder!"
 	done
 
 GenericTrainerBug_maniacAbner:
 	generictrainer BUG_MANIAC, ABNER, EVENT_BEAT_BUG_MANIAC_ABNER, BugManiacAbnerSeenText, BugManiacAbnerBeatenText
 
-	text "Doesn't matter what"
-	line "kind of #mon--"
+	text "Da igual qué clase"
+	line "de #mon sea…"
 
-	para "as long as you"
-	line "like them, they"
-	cont "all look cute."
+	para "Mientras te gus-"
+	line "ten, todos te pa-"
+	cont "recerán monos."
 	done
 
 BugManiacDaneSeenText:
-	text "Welcome to"
-	line "Viridian Forest."
-	cont "Enjoy my Bug-type"
-	cont "#mon."
+	text "Te doy la bienve-"
+	line "nida al Bosque"
+	cont "Verde."
+
+	para "¡Disfruta de mis"
+	line "#mon tipo Bicho!"
 	done
 
 BugManiacDaneBeatenText:
-	text "That's wonderful…"
+	text "Es maravilloso…"
 	done
 
 BugManiacDionSeenText:
-	text "Shh! Be quiet! The"
-	line "bug #mon will"
-	cont "run away!"
+	text "¡Ssshh! ¡Silencio!"
+	line "¡Los #mon bicho"
+	cont "van a huir!"
 	done
 
 BugManiacDionBeatenText:
-	text "Phew…"
+	text "Uf…"
 	done
 
 BugManiacStaceySeenText:
-	text "Wow, that's a HUGE"
-	line "#mon!"
+	text "¡Hala, menudo"
+	line "#mon tan ENORME!"
 
 	para "…"
-	line "…What kind of"
-	cont "trainer?!"
+	line "…¡¿Pero qué clase"
+	cont "de entrenador?!"
 	done
 
 BugManiacStaceyBeatenText:
-	text "I couldn't catch"
-	line "it!"
+	text "¡No pude atrapar-"
+	line "lo!"
 	done
 
 BugManiacEllisSeenText:
-	text "There's nothing"
-	line "more efficient and"
-	cont "beautiful than a"
-	cont "Bug-type #mon."
+	text "No hay nada más"
+	line "eficiente y bello"
+
+	para "que un #mon de"
+	line "tipo Bicho."
 	done
 
 BugManiacEllisBeatenText:
-	text "I lost"
-	line "beautifully!"
+	text "¡He perdido con"
+	line "gran elegancia!"
 	done
 
 BugManiacAbnerSeenText:
-	text "Many people prefer"
-	line "solid bug #mon"
-	cont "over squishy bug"
-	cont "#mon."
+	text "Muchos prefieren"
+	line "#mon bicho duros"
+
+	para "antes que blandos"
+	line "y viscosos."
 	done
 
 BugManiacAbnerBeatenText:
-	text "Thanks for your"
-	line "hard work, my"
-	cont "lovely #mon…"
+	text "Gracias por esfor-"
+	line "zaros, mis que-"
+	cont "ridos #mon…"
 	done
 
 ViridianForestSignText1:
-	text "Leaving"
-	line "Viridian Forest"
-	cont "Pewter City Ahead"
+	text "Salida del"
+	line "Bosque Verde"
+
+	para "Ciudad Plateada"
+	line "más adelante"
 	done
 
 ViridianForestSignText2:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Hold on to that"
-	line "Big Mushroom!"
+	para "¡Guarda bien esa"
+	line "Seta Grande!"
 
-	para "Some maniacs will"
-	line "pay lots of money"
-	cont "for useless items!"
+	para "¡Hay coleccionis-"
+	line "tas que pagan mu-"
+	cont "cho por objetos"
+	cont "aparentemente inú-"
+	cont "tiles!"
 	done
 
 ViridianForestSignText3:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Grass-type #mon"
-	line "are unaffected by"
+	para "¡Los #mon de"
+	line "tipo Planta no se"
 
-	para "powder and spore"
-	line "moves!"
+	para "ven afectados por"
+	line "polvos ni esporas!"
 	done
 
 ViridianForestSignText4:
-	text "For poison, use"
-	line "Antidote! Get it"
-	cont "at #mon Marts!"
+	text "¡Contra el veneno,"
+	line "usa Antídoto!"
+
+	para "¡De venta en las"
+	line "Tiendas #mon!"
 	done
 
 ViridianForestSignText5:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Poison-type #-"
-	line "mon can't be poi-"
-	cont "soned themselves!"
+	para "¡Los #mon de"
+	line "tipo Veneno no"
+	cont "pueden ser enve-"
+	cont "nenados!"
 	done
 
 ViridianForestSignText6:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Weaken #mon"
-	line "before attempting"
-	cont "capture!"
+	para "¡Debilita a los"
+	line "#mon antes de"
+	cont "intentar atrapar-"
+	cont "los!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "¡Si están sanos,"
+	line "podrían escapar!"
 	done

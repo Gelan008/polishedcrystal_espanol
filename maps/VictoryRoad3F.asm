@@ -19,22 +19,22 @@ VictoryRoad3F_MapScriptHeader:
 GenericTrainerVeteranmRemy:
 	generictrainer VETERANM, REMY, EVENT_BEAT_VETERANM_REMY, VeteranmRemySeenText, VeteranmRemyBeatenText
 
-	text "I can beat you"
-	line "when it comes to"
+	text "¡Te gano de sobra"
+	line "si hablamos de"
 
-	para "knowledge about"
-	line "#mon!"
+	para "conocimientos"
+	line "sobre los #mon!"
 	done
 
 VeteranmRemySeenText:
-	text "If you can get"
-	line "through here, you"
+	text "¡Si logras pasar"
+	line "por aquí, podrás"
 
-	para "can challenge the"
-	line "Elite Four!"
+	para "desafiar al Alto"
+	line "Mando!"
 	done
 
 VeteranmRemyBeatenText:
-	text "No!"
-	line "Inconceivable!"
+	text "¡No!"
+	line "¡Inconcebible!"
 	done

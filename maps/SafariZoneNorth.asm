@@ -35,32 +35,29 @@ SafariZoneNorth_MapScriptHeader:
 GenericTrainerBattleGirlPadma:
 	generictrainer BATTLE_GIRL, PADMA, EVENT_BEAT_BATTLE_GIRL_PADMA, BattleGirlPadmaSeenText, BattleGirlPadmaBeatenText
 
-	text "If you throw your"
-	line "emotions into"
-
-	para "training, you'll"
-	line "become strong!"
+	text "¡Si pones tus sen-"
+	line "timientos al en-"
+	cont "trenar, te harás"
+	cont "fuerte!"
 	done
 
 GenericTrainerYoungsterTyler:
 	generictrainer YOUNGSTER, TYLER, EVENT_BEAT_YOUNGSTER_TYLER, YoungsterTylerSeenText, YoungsterTylerBeatenText
 
-	text "#mon leap out"
-	line "when you least"
-	cont "expect it."
+	text "Los #mon saltan"
+	line "cuando menos te lo"
+	cont "esperas."
 	done
 
 GenericTrainerBeautyRachael:
 	generictrainer BEAUTY, RACHAEL, EVENT_BEAT_BEAUTY_RACHAEL, BeautyRachaelSeenText, BeautyRachaelBeatenText
 
-	text "I was a Black Belt"
-	line "just one year ago."
+	text "Hace solo un año"
+	line "era un Karateka."
 
-	para "The power of med-"
-	line "ical science is"
-
-	para "amazing, wouldn't"
-	line "you say?"
+	para "¡El poder de la"
+	line "medicina es increí-"
+	cont "ble! ¿A que sí?"
 	done
 
 SafariZoneNorthCooltrainerFScript:

@@ -44,32 +44,33 @@ WarmBeachShackTutorBodySlamScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Come again!"
-	line "Boioing!"
+	text "¡Vuelve cuando"
+	line "quieras!"
+	cont "¡Boing!"
 	done
 
 WarmBeachShackBodySlamFisherText:
-	text "Ready?"
-	line "Boing!"
+	text "¿Listo?"
+	line "¡Boing!"
 
-	para "We're having a"
-	line "sumo match to see"
+	para "¡Hacemos un com-"
+	line "bate de sumo para"
 
-	para "who wimps out"
-	line "first."
+	para "ver quién se raja"
+	line "primero!"
 
-	para "I use Body Slam,"
-	line "and he Endures it!"
+	para "¡Yo uso Golpe"
+	line "Cuerpo y él usa"
+	cont "Aguante!"
 	done
 
 Text_WarmBeachShackBodySlamTutorBodySlamQuestion:
-	text "How about I teach"
-	line "Body Slam to a"
+	text "¿Qué tal si le en-"
+	line "seño Golpe Cuerpo"
 
-	para "#mon of yours"
-	line "for a Silver Leaf?"
+	para "a un #mon tuyo"
+	line "por una Hoja Plata"
 	done
-
 
 WarmBeachShackEndureFisherScript:
 	faceplayer
@@ -100,38 +101,39 @@ WarmBeachShackTutorEndureScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Come again!"
-	line "Nnnh!"
+	text "¡Vuelve cuando"
+	line "quieras!"
+	cont "¡Uuuf!"
 	done
 
 WarmBeachShackEndureFisherText:
-	text "Ready?"
-	line "Nnnh!"
+	text "¿Listo?"
+	line "¡Uuuf!"
 
-	para "We're having a"
-	line "sumo match to see"
+	para "¡Hacemos un com-"
+	line "bate de sumo para"
 
-	para "who gives up"
-	line "first."
+	para "ver quién se rinde"
+	line "primero!"
 
-	para "He uses Body Slam,"
-	line "and I Endure it!"
+	para "¡Él usa Golpe"
+	line "Cuerpo y yo uso"
+	cont "Aguante!"
 	done
 
 Text_WarmBeachShackEndureTutorEndureQuestion:
-	text "How about I teach"
-	line "Endure to one of"
+	text "¿Qué tal si le en-"
+	line "seño Aguante a uno"
 
-	para "your #mon for"
-	line "a Silver Leaf?"
+	para "de tus #mon por"
+	line "una Hoja Plata?"
 	done
 
-
 Text_WarmBeachShackTutorsNoSilverLeaf:
-	text "Huh? You don't"
-	line "have any!"
+	text "¿Eh? ¡No tienes"
+	line "ninguna!"
 	done
 
 Text_WarmBeachShackTutorsRefused:
-	text "Alright then."
+	text "Pues nada."
 	done

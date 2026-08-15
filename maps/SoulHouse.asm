@@ -44,9 +44,9 @@ AgathaScript:
 AgathaAfterScript:
 	jumpthisopenedtext
 
-	text "I expect great"
-	line "things from you,"
-	cont "if you will them."
+	text "Espero grandes co-"
+	line "sas de ti, si te"
+	cont "lo propones."
 	done
 
 MrFujiScript:
@@ -65,134 +65,146 @@ MrFujiScript:
 	endtext
 
 MrFujiText:
-	text "Sr.Fuji: Welcome."
+	text "Sr. Fuji: Te doy"
+	line "la bienvenida."
 
-	para "Hmm… You appear to"
-	line "be raising your"
+	para "Mmm… Se nota que"
+	line "estás criando a"
 
-	para "#mon in a kind"
-	line "and loving manner."
+	para "tus #mon con"
+	line "mucho cariño y"
+	cont "dedicación."
 
-	para "#mon lovers"
-	line "come here to pay"
+	para "Los amantes de los"
+	line "#mon vienen"
 
-	para "their respects to"
-	line "departed #mon."
+	para "aquí a rendir"
+	line "homenaje a los"
+	cont "#mon difuntos."
 
-	para "Please offer con-"
-	line "dolences for the"
+	para "Por favor, reza"
+	line "por las almas de"
+	cont "los #mon que ya"
+	cont "no están."
 
-	para "souls of the de-"
-	line "parted #mon."
-
-	para "I'm sure that will"
-	line "make them happy."
+	para "Seguro que eso les"
+	line "hará felices."
 	done
 
 MrFujiGiveSilphScopeText:
-	text "Here, I have"
-	line "a gift for you."
+	text "Toma, tengo un re-"
+	line "galo para ti."
 
-	para "Please, take it."
+	para "Por favor, acép-"
+	line "talo."
 	done
 
 MrFujiUseThisText:
-	text "You may use that"
-	line "to help ease the"
+	text "Puedes usarlo para"
+	line "ayudar a apaciguar"
 
-	para "souls of any"
-	line "restless #mon."
+	para "las almas de los"
+	line "#mon que no des-"
+	cont "cansan en paz."
 	done
 
 SoulHouseTeacherText:
-	text "There are other"
-	line "graves of #mon"
-	cont "here, I think."
+	text "Creo que aquí hay"
+	line "más tumbas de"
+	cont "#mon."
 
-	para "There are many"
-	line "chambers that only"
-	cont "Sr.Fuji may enter."
+	para "Hay muchas cáma-"
+	line "ras a las que solo"
+	cont "el Sr. Fuji puede"
+	cont "entrar."
 	done
 
 SoulHouseLassText:
-	text "I came with my mom"
-	line "to visit #mon"
-	cont "graves…"
+	text "He venido con mi"
+	line "madre a visitar"
+
+	para "las tumbas de los"
+	line "#mon…"
 	done
 
 SoulHouseGrannyText:
-	text "The #mon that"
-	line "lived with me…"
+	text "Los #mon que vi-"
+	line "vían conmigo…"
 
-	para "I loved them like"
-	line "my grandchildren…"
+	para "Los quería como a"
+	line "mis propios nie-"
+	cont "tos…"
 	done
 
 AgathaSeenText:
-	text "Agatha: Hello,"
-	line "child."
+	text "Agatha: Hola,"
+	line "criatura."
 
-	para "My name is"
-	line "Agatha."
+	para "Me llamo Agatha."
 
-	para "I fought for years"
-	line "as a member of"
-	cont "the Elite Four."
-
-	para "…………"
-
-	para "Have you come to"
-	line "mourn a #mon?"
-
-	para "It might not be"
-	line "here any longer."
-
-	para "Sr.Fuji kept many"
-	line "of the graves"
-	cont "elsewhere after"
-
-	para "the radio company"
-	line "took over."
+	para "Luché durante años"
+	line "como miembro del"
+	cont "Alto Mando."
 
 	para "…………"
 
-	para "He could have"
-	line "fought to preserve"
-	cont "the tower! But he"
+	para "¿Has venido a llo-"
+	line "rar a un #mon?"
 
-	para "wouldn't get"
-	line "involved. Too"
+	para "Puede que ya no"
+	line "esté aquí."
 
-	para "scared of abusing"
-	line "his influence."
+	para "El Sr. Fuji tras-"
+	line "ladó muchas de las"
 
-	para "That old fool…"
+	para "tumbas a otra par-"
+	line "te cuando la com-"
 
-	para "Power is meant to"
-	line "be used!"
+	para "pañía de radio to-"
+	line "mó el control."
 
-	para "You clearly"
-	line "understand me."
+	para "…………"
 
-	para "I'll show you"
-	line "what a powerful"
-	cont "trainer can do!"
+	para "¡Podría haber lu-"
+	line "chado por conser-"
+	cont "var la torre!"
+
+	para "Pero no quiso in-"
+	line "miscuirse. Tenía"
+
+	para "demasiado miedo de"
+	line "abusar de su in-"
+	cont "fluencia."
+
+	para "Ese viejo necio…"
+
+	para "¡El poder está pa-"
+	line "ra usarse!"
+
+	para "Está claro que tú"
+	line "me comprendes."
+
+	para "¡Te mostraré lo"
+	line "que puede hacer un"
+
+	para "Entrenador podero-"
+	line "so de verdad!"
 	done
 
 AgathaBeatenText:
-	text "Oh, my!"
+	text "¡Vaya, por Dios!"
 	done
 
 AgathaRewardText:
-	text "You're quite"
-	line "something, child."
+	text "Vales mucho, cria-"
+	line "tura."
 
-	para "A strong trainer"
-	line "with a deep"
+	para "Eres un Entrena-"
+	line "dor fuerte con un"
 
-	para "connection to"
-	line "your #mon."
+	para "vínculo profundo"
+	line "con tus #mon."
 
-	para "Here, take this"
-	line "TM!"
+	para "¡Toma, quédate con"
+	line "esta MT!"
 	done

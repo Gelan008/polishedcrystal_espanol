@@ -579,7 +579,7 @@ SECTION "WillGroup", ROMX
 WillGroup:
 
 	def_trainer_class WILL
-	def_trainer 1, "Will"
+	def_trainer 1, "Mento"
 	tr_mon 48, WYRDEER @ TWISTEDSPOON, MALE
 		tr_extra INTIMIDATE
 		tr_evs 252 HP, 36 Spe
@@ -606,7 +606,7 @@ WillGroup:
 		tr_moves AIR_SLASH, CONFUSE_RAY, GIGA_DRAIN, FUTURE_SIGHT
 	end_trainer
 
-	def_trainer 2, "Will"
+	def_trainer 2, "Mento"
 	tr_mon 67, WYRDEER @ ASSAULT_VEST, MALE
 		tr_extra INTIMIDATE, SATK_UP_SPE_DOWN
 		tr_evs 252 HP, 4 Atk, 252 SAt
@@ -8553,7 +8553,7 @@ SECTION "FlanneryGroup", ROMX
 FlanneryGroup:
 
 	def_trainer_class FLANNERY
-	def_trainer 1, "Flannery"
+	def_trainer 1, "Candela"
 	tr_mon 64, MAGCARGO, FEMALE
 		tr_extra FLAME_BODY
 		tr_evs 252 SAt, 172 Spe
@@ -8580,7 +8580,7 @@ FlanneryGroup:
 		tr_moves FLAMETHROWER, FOCUS_BLAST, THUNDERBOLT, PSYCHIC
 	end_trainer
 
-	def_trainer 2, "Flannery"
+	def_trainer 2, "Candela"
 	tr_mon 74, MAGCARGO @ FOCUS_SASH, FEMALE
 		tr_extra WEAK_ARMOR, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 SDf, 252 Spe

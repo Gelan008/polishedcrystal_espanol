@@ -352,8 +352,8 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "Esa campana guarde"
 	line "alguna relación"
 
-	para "con la Torre Cam-"
-	line "pana de Ciudad"
+	para "con la Torre Hoja-"
+	line "-lata de Ciudad"
 	cont "Iris…"
 
 	para "¡Ah!"

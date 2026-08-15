@@ -80,48 +80,52 @@ KimonoGirlAmiScript:
 	jumpthisopenedtext
 
 .OutroText:
-	text "My cousins and I"
-	line "dance in Ecruteak"
-	cont "City, but we are"
+	text "Mis primas y yo"
+	line "bailamos en Ciudad"
+	cont "Iris, pero tam-"
 
-	para "known to travel"
-	line "as well."
+	para "bién se nos conoce"
+	line "por viajar."
 	done
 
 .IntroText:
-	text "I am a Kimono"
-	line "Girl."
+	text "Soy una Chica del"
+	line "Kimono."
 
-	para "Haven't you met my"
-	line "five dancing cou-"
-	cont "sins in Ecruteak?"
+	para "¿No has conocido a"
+	line "mis cinco primas"
 
-	para "Let me know if"
-	line "you do."
+	para "bailarinas en Ciu-"
+	line "dad Iris?"
+
+	para "Avísame si las ves."
 	done
 
 .SeenText:
-	text "If I were to dance"
-	line "here, my sandals"
+	text "Si me pusiera a"
+	line "bailar aquí, mis"
 
-	para "would slip, or"
-	line "stick to the ice."
+	para "sandalias resba-"
+	line "larían o se que-"
+	cont "darían pegadas al"
+	cont "hielo."
 
-	para "Therefore let us"
-	line "battle instead!"
+	para "¡Por tanto, mejor"
+	line "luchemos!"
 	done
 
 .BeatenText:
-	text "Oh, you are"
-	line "fearsome…"
+	text "Oh, eres temi-"
+	line "ble…"
 	done
 
 .AfterText:
-	text "You are a well-"
-	line "balanced Trainer."
+	text "Eres un Entrenador"
+	line "muy equilibrado."
 
-	para "Please, make use"
-	line "of this item!"
+	para "¡Por favor, haz"
+	line "buen uso de este"
+	cont "objeto!"
 	done
 
 SnowtopMountainInsideSkierScript:
@@ -149,50 +153,48 @@ SnowtopMountainInsideTutorIcyWindScript:
 
 .NoSilverLeaf
 	jumpthisopenedtext
-
-	text "Oh, but you don't"
-	line "have a Silver"
-	cont "Leaf."
+text "¡Vaya! Pero no"
+	line "tienes ninguna"
+	cont "Hoja Plata."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "OK! Now your"
-	line "#mon knows"
-	cont "Icy Wind!"
+	text "¡Listo! ¡Ahora tu"
+	line "#mon sabe"
+	cont "Viento Hielo!"
 	done
 
 SnowtopMountainInsideSkierText:
-	text "The wind and hail"
-	line "in this canyon"
+	text "El viento y el"
+	line "granizo del cañón"
 
-	para "can hurt if you're"
-	line "not equipped for"
-	cont "icy weather."
+	para "hacen daño si no"
+	line "vas preparado pal"
+	cont "frío glacial."
 
-	para "It could be a"
-	line "good technique"
-	cont "for a #mon!"
+	para "¡Sería una gran"
+	line "técnica para un"
+	cont "#mon!"
 	done
 
 Text_SnowtopMountainInsideTutorIcyWind:
-	text "I'll teach a #-"
-	line "mon of yours to"
+	text "Enseñaré a uno de"
+	line "tus #mon a usar"
 
-	para "use Icy Wind if"
-	line "you trade me a"
-	cont "Silver Leaf."
+	para "Viento Hielo si"
+	line "me das una Hoja"
+	cont "Plata."
 	done
 
-
 Text_SnowtopMountainInsideTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Icy Wind?"
+	text "¿Quieres que le"
+	line "enseñe a tu #-"
+	cont "mon Viento Hielo?"
 	done
 
 Text_SnowtopMountainInsideTutorRefused: ; text > text
-	text "Brr…"
+	text "¡Brrr!…"
 	done

@@ -26,71 +26,75 @@ UragaChannelEast_MapScriptHeader:
 GenericTrainerSwimmerfWoda:
 	generictrainer SWIMMERF, WODA, EVENT_BEAT_SWIMMERF_WODA, .SeenText, .BeatenText
 
-	text "The strong curr-"
-	line "ents here make it"
-	cont "a good place to"
-	cont "train."
+	text "Las fuertes co-"
+	line "rrientes de aquí"
+
+	para "hacen que sea un"
+	line "buen sitio para"
+	cont "entrenar."
 	done
 
 .SeenText:
-	text "Did you come here"
-	line "to train too?"
+	text "¿Tú también has"
+	line "venido a entrenar?"
 	done
 
 .BeatenText:
-	text "You don't need"
-	line "more training!"
+	text "¡No necesitas más"
+	line "entrenamiento!"
 	done
 
 GenericTrainerCooltrainermKieran:
 	generictrainer COOLTRAINERM, KIERAN, EVENT_BEAT_COOLTRAINERM_KIERAN, .SeenText, .BeatenText
 
-	text "I couldn't get my"
-	line "#m-on."
+	text "No logré conectar"
+	line "con mis #mon."
 
-	para "I need to get my"
-	line "head back in the"
-	cont "game."
+	para "Tengo que volver a"
+	line "centrarme en el"
+	cont "combate."
 	done
 
 .SeenText:
-	text "It's on like"
-	line "#mon!"
+	text "¡A por todas,"
+	line "al estilo #mon!"
 	done
 
 .BeatenText:
-	text "Game over."
+	text "Fin de la partida."
 	done
 
 GenericTrainerBikerTyrone:
 	generictrainer BIKER, TYRONE, EVENT_BEAT_BIKER_TYRONE, .SeenText, .BeatenText
 
-	text "I fell in the"
-	line "water while show-"
-	cont "ing off on Cycling"
-	cont "Road."
+	text "Me caí al agua"
+	line "mientras fardaba"
 
-	para "Then the strong"
-	line "currents dragged"
-	cont "me here."
+	para "en el Camino de"
+	line "Bicis."
+
+	para "Luego las fuertes"
+	line "corrientes me"
+	cont "arrastraron aquí."
 	done
 
 .SeenText:
-	text "Cough! Splutter!"
+	text "¡Cof! ¡Cof!"
+	line "¡Glub! ¡Glub!"
 	done
 
 .BeatenText:
-	text "…Gasp!"
+	text "…¡Argh!"
 	done
 
 UragaChannelSignText:
-	text "Uraga Channel"
+	text "Canal Uraga"
 	done
 
 ScaryCaveEastSignText:
-	text "There's graffiti"
-	line "on this sign…"
+	text "Hay un grafiti en"
+	line "este cartel…"
 
-	para "“This cave is"
-	line "scary!”"
+	para "¡Esta cueva da"
+	line "mucho miedo!"
 	done

@@ -23,17 +23,17 @@ PokemonJournalBlueScript:
 	setflag ENGINE_READ_BLUE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Azul!"
+	para "Edición especial:"
+	line "¡Líder Azul!"
 
-	para "Azul supposedly"
-	line "visits his cher-"
-	cont "ished #mon"
+	para "Cuentan que Azul"
+	line "visita a sus que-"
+	cont "ridos #mon"
 
-	para "every year in the"
-	line "House of Souls."
+	para "cada año en la"
+	line "Casa de las Almas."
 	done
 
 ViridianPokeCenter1FCooltrainermScript:
@@ -41,33 +41,36 @@ ViridianPokeCenter1FCooltrainermScript:
 	iftrue_jumptextfaceplayer .BlueText
 	jumpthistextfaceplayer
 
-	text "Where in the world"
-	line "is Viridian's Gym"
+	text "¿Dónde narices se"
+	line "ha metido el Líder"
 
-	para "Leader? I wanted"
-	line "to challenge him."
+	para "de Ciudad Verde?"
+	line "Quería retarle."
 	done
 
 .BlueText:
-	text "There are strong"
-	line "Gym Trainers at"
-	cont "the Viridian Gym."
+	text "Hay entrenadores"
+	line "muy fuertes en el"
 
-	para "Someday I'm going"
-	line "to join them!"
+	para "Gimnasio de Ciudad"
+	line "Verde."
+
+	para "¡Algún día me uni-"
+	line "ré a ellos!"
 	done
 
 ViridianPokeCenter1FCooltrainerfText:
-	text "I heard that the"
-	line "Gym in Cinnabar is"
-	cont "gone."
+	text "He oído que el"
+	line "Gimnasio de Isla"
+	cont "Canela ya no está."
 
-	para "I wonder what be-"
-	line "came of Blaine,"
-	cont "the Gym Leader."
+	para "¿Qué habrá sido de"
+	line "Blaine, su Líder"
+	cont "de Gimnasio?"
 	done
 
 ViridianPokeCenter1FBugCatcherText:
-	text "My dream is to be-"
-	line "come a Gym Leader."
+	text "Mi sueño es llegar"
+	line "a ser Líder de"
+	cont "Gimnasio."
 	done

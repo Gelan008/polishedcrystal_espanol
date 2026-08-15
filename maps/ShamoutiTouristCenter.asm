@@ -59,85 +59,86 @@ LarryScript:
 .Done
 	jumpthisopenedtext
 
-	text "Now, I'd better"
-	line "get back to work."
+	text "Bueno, será mejor"
+	line "que vuelva al"
+	cont "trabajo."
 
-	para "If you'll excuse"
-	line "me."
+	para "Con su permiso."
 	done
 
 .RewardText:
-	text "For me, the best"
-	line "part of traveling"
+	text "Para mí, lo mejor"
+	line "de viajar es pro-"
+	cont "bar los platos"
+	cont "locales."
 
-	para "is trying out the"
-	line "local dishes."
+	para "El restaurante de"
+	line "aquí cerca prepara"
 
-	para "The restaurant"
-	line "nearby makes a"
-
-	para "decadent dessert"
+	para "un postre de lo"
+	line "más exquisito"
 if DEF(FAITHFUL)
-	line "with Honey."
+	line "con Miel."
 else
-	line "with Sweet Honey."
+	line "con Miel Dulce."
 endc
 
-	para "Let me share some"
-	line "with you."
+	para "Permíteme compar-"
+	line "tir algo contigo."
 	done
 
 .IntroText:
-	text "Hello."
-	line "I'm Larry."
+	text "Buenas."
+	line "Soy Larry."
 
-	para "My boss sent me"
-	line "out here on"
+	para "Mi jefa me envió"
+	line "aquí por negocios,"
 
-	para "business, but I"
-	line "may as well enjoy"
+	para "pero bien puedo"
+	line "aprovechar para"
+	cont "disfrutar un poco."
 
-	para "myself while I'm"
-	line "at it."
+	para "Acabo de comer en"
+	line "el Restaurante"
+	cont "Oasis del hotel."
 
-	para "I just ate at the"
-	line "Oasis Restaurant"
-	cont "in the hotel."
+	para "Eso me ha abierto"
+	line "el apetito para un"
+	cont "combate más duro."
 
-	para "It whet my appe-"
-	line "tite for an even"
-	cont "stronger battle."
-
-	para "Care to join me?"
+	para "¿Te apetece acom-"
+	line "pañarme?"
 	done
 
 .RematchText:
-	text "Hello again,"
+	text "Hola de nuevo,"
 	line "<PLAYER>."
 
-	para "You already faced"
-	line "me, so I doubt"
+	para "Ya nos hemos en-"
+	line "frentado antes, así"
 
-	para "this will leave"
-	line "much of an impres-"
-	cont "sion on you."
+	para "que dudo que esto"
+	line "te cause una gran"
+	cont "impresión."
 
-	para "In any case, shall"
-	line "we get started?"
+	para "En cualquier caso,"
+	line "¿empezamos?"
 	done
 
 .SeenText:
-	text "I, Larry, will be"
-	line "at your service."
+	text "Un servidor, Lau-"
+	line "rel, queda a tu"
+	cont "disposición."
 	done
 
 .BeatenText:
-	text "Well, I've had"
-	line "my fill…"
+	text "En fin, ya he te-"
+	line "nido bastante…"
 	done
 
 .RefusedText:
-	text "Maybe another time"
-	line "when our schedules"
-	cont "align."
+	text "Quizá en otra oca-"
+	line "sión, cuando nos"
+	cont "cuadren las agen-"
+	cont "das."
 	done

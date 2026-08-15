@@ -26,27 +26,25 @@ ShamoutiCoast_MapScriptHeader:
 GenericTrainerArtistRin:
 	generictrainer ARTIST, RIN, EVENT_BEAT_ARTIST_RIN, .SeenText, .BeatenText
 
-	text "There's a strange"
-	line "sense of power"
-	cont "from the islands."
+	text "Se siente un po-"
+	line "der extraño proce-"
+	cont "dente de las islas."
 
-	para "I want to capture"
-	line "that in my paint-"
-	cont "ing."
+	para "Quiero plasmarlo"
+	line "en mi cuadro."
 	done
 
 .SeenText:
-	text "I'm painting the"
-	line "three islands!"
+	text "¡Estoy pintando"
+	line "las tres islas!"
 
-	para "Please don't block"
-	line "my view!"
+	para "¡Por favor, no me"
+	line "tapes las vistas!"
 	done
 
 .BeatenText:
-	text "I can't paint and"
-	line "battle at the same"
-	cont "time."
+	text "No puedo pintar y"
+	line "combatir a la vez."
 	done
 
 TrainerSwimmerfMarina:
@@ -56,49 +54,48 @@ TrainerSwimmerfMarina:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "If I were stran-"
-	line "ded on a desert"
-	cont "island, I'd take…"
+	text "Si me quedase en"
+	line "una isla desierta,"
+	cont "me llevaría…"
 
-	para "my #mon, of"
-	line "course!"
+	para "¡a mis #mon, por"
+	line "supuesto!"
 	done
 
 .SeenText:
-	text "If you were stran-"
-	line "ded on a desert"
-	cont "island, what three"
+	text "Si te quedases en"
+	line "una isla desierta,"
 
-	para "things would you"
-	line "bring?"
+	para "¿qué tres cosas te"
+	line "llevarías?"
 	done
 
 .BeatenText:
-	text "Washed away with-"
-	line "out a paddle!"
+	text "¡Me he quedado com-"
+	line "pletamente a la"
+	cont "deriva!"
 	done
 
 GenericTrainerFisherDallas:
 	generictrainer FISHER, DALLAS, EVENT_BEAT_FISHER_DALLAS, .SeenText, .BeatenText
 
-	text "No matter where I"
-	line "fish, I just keep"
+	text "Da igual dónde"
+	line "pesque, no paro de"
 
-	para "reeling in Bottle"
-	line "Caps."
+	para "sacar Chapas"
+	line "Plateadas."
 
-	para "It's driving me"
-	line "nuts!"
+	para "¡Me saca de"
+	line "quicio!"
 	done
 
 .SeenText:
-	text "Gah! Not another"
-	line "one!"
+	text "¡Aj! ¡Otro más no!"
 	done
 
 .BeatenText:
-	text "Huh? Oh, not you--"
-	line "you're fine."
+	text "¿Eh? Ah, tú no…"
+	line "Tú estás bien."
 	done
 
 GenericTrainerSightseerfPilar:
@@ -116,7 +113,7 @@ GenericTrainerSightseerfPilar:
 
 .SeenText:
 	text "¡Hola! He venido"
-	line "hasta acá desde"
+	line "hasta aquí desde"
 	cont "muy lejos."
 
 	para "¿Qué tal si"
@@ -165,22 +162,22 @@ TrainerSwimmermAshe:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "I couldn't swim at"
-	line "all a while ago."
+	text "Hace nada no sabía"
+	line "nadar en absoluto."
 
-	para "Now I do it so"
-	line "much it's hard to"
+	para "¡Ahora nado tanto"
+	line "que casi ni me"
 
-	para "remember what I"
-	line "did before. Haha!"
+	para "acuerdo de lo que"
+	line "hacía antes! ¡Ja!"
 	done
 
 .SeenText:
-	text "Swimming? Me?"
-	line "Yeah, I dig it."
+	text "¿Nadar? ¿Yo?"
+	line "Sí, ¡me flipa!"
 	done
 
 .BeatenText:
-	text "I have that sink-"
-	line "ing feeling…"
+	text "Siento que me voy"
+	line "a pique…"
 	done

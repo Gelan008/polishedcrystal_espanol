@@ -81,8 +81,9 @@ VermilionPortSailorAtGangwayScript:
 VermilionPortAlreadyRodeScript:
 	jumpthisopenedtext
 
-	text "Sorry. You can't"
-	line "board now."
+	text "Lo sentimos. No"
+	line "puede embarcar"
+	cont "ahora."
 	done
 
 VermilionPortWalkUpToShipScript:
@@ -205,67 +206,67 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Zarparemos pronto."
+	line "Sube a bordo, por"
+	cont "favor."
 	done
 
-
 VermilionPortAskBoardingText:
-	text "Welcome to Fast"
-	line "Ship S.S.Aqua."
+	text "Te damos la bien-"
+	line "venida al ferri"
+	cont "S.S. Aqua."
 
-	para "Will you be board-"
-	line "ing today?"
+	para "¿Vas a embarcar"
+	line "hoy?"
 	done
 
 VermilionPortAskTicketText:
-	text "May I see your"
-	line "S.S.Ticket?"
+	text "¿Me permites ver"
+	line "tu S.S.Ticket?"
 	done
 
 VermilionPortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "¡Esperamos verte"
+	line "de nuevo!"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.Ticket."
+	text "¡<PLAYER> enseñó"
+	line "el S.S.Ticket!"
 
-	para "That's it."
-	line "Thank you!"
+	para "Es correcto."
+	line "¡Muchas gracias!"
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "Ticket…"
+	text "<PLAYER> intentó"
+	line "mostrar el Ticket"
+	cont "Barco…"
 
-	para "…But no Ticket!"
+	para "…¡Pero no tiene"
+	line "ningún Ticket!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "¡Lo siento!"
+	line "Solo puedes embar-"
 
-	para "if you have an"
+	para "car si tienes un"
 	line "S.S.Ticket."
 	done
 
 VermilionPortSailMondayText:
-	text "The Fast Ship will"
-	line "sail on Wednesday."
+	text "El ferri zar-"
+	line "pará el miércoles."
 	done
 
 VermilionPortSailSundayText:
-	text "The Fast Ship will"
-	line "sail next Sunday."
+	text "El ferri zar-"
+	line "pará el domingo."
 	done
 
 VermilionPortSuperNerdText:
-	text "You came from"
-	line "Johto?"
+	text "¿Vienes de Johto?"
 
-	para "I hear many rare"
-	line "#mon live over"
-	cont "there."
+	para "He oído que allí"
+	line "viven muchos #mon"
+	cont "raros."
 	done

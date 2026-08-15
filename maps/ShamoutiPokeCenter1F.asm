@@ -24,16 +24,18 @@ PokemonJournalLoreleiScript:
 	setflag ENGINE_READ_LORELEI_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Ex-Elite Lorelei!"
+	para "Edición especial:"
+	line "¡Lorelei, excuarto"
+	cont "miembro del Alto"
+	cont "Mando!"
 
-	para "Lorelei is said to"
-	line "have a complete"
+	para "Se dice que Lore-"
+	line "lei tiene una co-"
 
-	para "collection of"
-	line "#mon dolls."
+	para "lección completa"
+	line "de muñecos #mon"
 	done
 
 ShamoutiPokeCenter1FIvyScript:
@@ -54,11 +56,11 @@ ShamoutiPokeCenter1FIvyScript:
 	ifequalfwd $3, .Squirtle
 	jumpthisopenedtext
 
-	text "Ivy: Hm, I thought"
-	line "you'd be happy to"
+	text "Ivy: Mmm, pensaba"
+	line "que te alegraría"
 
-	para "raise a rare"
-	line "#mon…"
+	para "criar a un #mon"
+	line "tan poco común…"
 	done
 
 .Bulbasaur:
@@ -110,88 +112,92 @@ ShamoutiPokeCenter1FIvyScript:
 	end
 
 .NoRoomText:
-	text "Alas, it seems"
-	line "there's no room in"
-	cont "either your party"
-	cont "or your Box…"
+	text "Vaya, parece que"
+	line "no tienes sitio ni"
+	cont "en tu equipo ni en"
+	cont "tu Caja…"
 	done
 
 .GreetingText:
-	text "Ivy: Oh! You're"
-	line "<PLAYER>, the new"
-	cont "Champion!"
+	text "Ivy: ¡Oh! ¡Eres"
+	line "<PLAYER>, ¡el nuevo"
+	cont "Campeón!"
 
-	para "Pleased to meet"
-	line "you!"
+	para "¡Encantada de"
+	line "conocerte!"
 
-	para "I'm Ivy, a #mon"
-	line "professor."
+	para "Soy Ivy, una pro-"
+	line "fesora #mon."
 
-	para "I'm studying local"
-	line "variation in #-"
-	cont "mon phenotypes."
+	para "Estudio la varia-"
+	line "ción local en los"
+	cont "fenotipos #mon."
 
-	para "Did you know that"
-	line "some wild #mon"
+	para "¿Sabías que algu-"
+	line "nos #mon salvajes"
 
-	para "know moves unique"
-	line "to their habitat?"
+	para "conocen ataques"
+	line "únicos de su hábi-"
+	cont "tat?"
 
-	para "And even two of"
-	line "the same #mon"
+	para "¡E incluso dos"
+	line "#mon de la misma"
 
-	para "in one area can"
-	line "have different"
-	cont "colors…"
+	para "especie en una zo-"
+	line "na pueden tener"
+	cont "distinto color…!"
 
-	para "Ah, sorry, I get"
-	line "carried away some-"
-	cont "times."
+	para "¡Ah, perdón! A ve-"
+	line "ces me dejo llevar"
+	cont "por la emoción."
 	done
 
 .OfferText:
-	text "Ivy: So you're"
-	line "taking a whole new"
+	text "Ivy: ¿Conque vas a"
+	line "afrontar un nuevo"
 
-	para "Gym challenge in"
-	line "a new region…"
+	para "desafío de Gimna-"
+	line "sios en otra re-"
+	cont "gión…?"
 
-	para "Aha! Why don't I"
-	line "give you a new"
-	cont "#mon too?"
+	para "¡Ajá! ¿Por qué no"
+	line "te doy a ti tam-"
+	cont "bién un nuevo"
+	cont "#mon?"
 
-	para "Which one do you"
-	line "want?"
+	para "¿Cuál de ellos te"
+	line "gustaría tener?"
 	done
 
 .ChoseKantoStarterText:
-	text "Ivy: I think"
-	line "that's a great"
-	cont "#mon too!"
+	text "Ivy: ¡A mí también"
+	line "me parece un gran"
+	cont "#mon!"
 	done
 
 .GoodbyeText:
-	text "Ivy: Prof.Elm"
-	line "trusted you with"
-	cont "a #mon, and"
+	text "Ivy: El Prof. Elm"
+	line "confió en ti dán-"
+	cont "dote un #mon, y"
 
-	para "Prof.Oak gave you"
-	line "a #dex, so I"
+	para "el Prof. Oak te"
+	line "dio una #dex, así"
 
-	para "know you'll take"
-	line "good care of that"
-	cont ""
+	para "que sé que cuida-"
+	line "rás muy bien de"
+	cont "este "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Well, I need to"
-	line "take a ferry back"
+	para "En fin, tengo que"
+	line "coger un ferry de"
 
-	para "to my lab on"
-	line "Valencia Island."
+	para "vuelta a mi labo-"
+	line "ratorio en Isla"
+	cont "Valencia."
 
-	para "Say hi to Prof.Oak"
-	line "for me!"
+	para "¡Saluda al Prof."
+	line "Oak de mi parte!"
 	done
 
 .DownMovement:

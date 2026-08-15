@@ -80,7 +80,7 @@ BellchimeTrailPanUpTrigger:
 	step_end
 
 TinTowerSignText:
-	text "Torre Campana"
+	text "Torre Hojalata"
 
 	para "Se dice que aquí"
 	line "anida un #mon"

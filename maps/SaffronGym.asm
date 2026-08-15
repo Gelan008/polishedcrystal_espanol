@@ -86,74 +86,76 @@ SaffronGymSabrinaScript:
 	setevent EVENT_GOT_TM29_PSYCHIC
 	jumpthisopenedtext
 
-	text "TM29 is Psychic."
+	text "La MT29 es"
+	line "Psíquico."
 
-	para "It may lower the"
-	line "target's Sp.Def."
+	para "Puede bajar la"
+	line "Def. Esp. del"
+	cont "objetivo."
 
-	para "You will become a"
-	line "celebrated and"
-	cont "beloved Champion!"
+	para "¡Llegarás a ser un"
+	line "Campeón ilustre y"
+	cont "admirado!"
 	done
 
 GenericTrainerMediumDoris:
 	generictrainer MEDIUM, DORIS, EVENT_BEAT_MEDIUM_DORIS, MediumDorisSeenText, MediumDorisBeatenText
 
-	text "Darn! I forgot"
-	line "that I predicted I"
-	cont "would lose to you."
+	text "¡Ostras! Olvidé"
+	line "que predije que"
+	cont "perdería contra ti."
 	done
 
 GenericTrainerPsychicLeon:
 	generictrainer PSYCHIC_T, LEON, EVENT_BEAT_PSYCHIC_LEON, PsychicLeonSeenText, PsychicLeonBeatenText
 
-	text "Sabrina's power is"
-	line "greater than mine!"
+	text "¡El poder de Sabri-"
+	line "na supera al mío!"
 	done
 
 GenericTrainerPsychicJared:
 	generictrainer PSYCHIC_T, JARED, EVENT_BEAT_PSYCHIC_JARED, PsychicJaredSeenText, PsychicJaredBeatenText
 
-	text "Rey del Kárate, the"
-	line "master of the"
+	text "El Rey del Kárate,"
+	line "el maestro del"
 
-	para "Fighting Dojo, was"
-	line "just destroyed by"
+	para "Dojo Kárate, fue"
+	line "arrollado por"
 	cont "Sabrina."
 	done
 
 GenericTrainerHexManiacLuna:
 	generictrainer HEX_MANIAC, LUNA, EVENT_BEAT_HEX_MANIAC_LUNA, HexManiacLunaSeenText, HexManiacLunaBeatenText
 
-	text "Alakazam is a pow-"
-	line "erful #mon,"
+	text "Alakazam es un"
+	line "#mon podero-"
+	cont "so, así que las"
 
-	para "so Hex Maniacs use"
-	line "its name for"
-	cont "powerful spells."
+	para "Brujas usamos su"
+	line "nombre en grandes"
+	cont "hechizos."
 	done
 
 GenericTrainerHexManiacNatalie:
 	generictrainer HEX_MANIAC, NATALIE, EVENT_BEAT_HEX_MANIAC_NATALIE, HexManiacNatalieSeenText, HexManiacNatalieBeatenText
 
-	text "Maybe I'm not cut"
-	line "out to be a Hex"
-	cont "Maniac…"
+	text "Quizá no valga pa-"
+	line "ra ser Bruja…"
 	done
 
 GenericTrainerPsychicFranklin:
 	generictrainer PSYCHIC_T, FRANKLIN, EVENT_BEAT_PSYCHIC_FRANKLIN, PsychicFranklinSeenText, PsychicFranklinBeatenText
 
-	text "You made your soul"
-	line "stronger, not just"
-	cont "your abilities."
+	text "No solo has mejo-"
+	line "rado tu técnica,"
+	cont "sino tu alma."
 	done
 
 GenericTrainerMediumRebecca:
 	generictrainer MEDIUM, REBECCA, EVENT_BEAT_MEDIUM_REBECCA, MediumRebeccaSeenText, MediumRebeccaBeatenText
 
-	text "What is the source"
-	line "of your power?"
+	text "¿De dónde procede"
+	line "tu fuerza?"
 	done
 
 SaffronGymGuyScript:
@@ -161,22 +163,23 @@ SaffronGymGuyScript:
 	iftrue_jumptextfaceplayer SaffronGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo, Champ in"
-	line "making!"
+	text "¡Hola, futuro"
+	line "Campeón!"
 
-	para "A trainer as"
-	line "skilled as you"
+	para "A un entrenador"
+	line "tan hábil como tú"
 
-	para "doesn't need to be"
-	line "told how to deal"
+	para "no hace falta de-"
+	line "cirle cómo luchar"
 
-	para "with Psychic-type"
-	line "#mon, right?"
+	para "contra los #mon"
+	line "de tipo Psíquico,"
+	cont "¿verdad?"
 
-	para "I expect great"
-	line "things from you!"
+	para "¡Espero grandes"
+	line "cosas de ti!"
 
-	para "Good luck!"
+	para "¡Buena suerte!"
 	done
 
 SaffronGymStatue:
@@ -188,156 +191,161 @@ SaffronGymStatue:
 	jumpstd gymstatue2
 
 SabrinaIntroText:
-	text "Sabrina: I knew"
-	line "you were coming…"
+	text "Sabrina: Sabía que"
+	line "vendrías…"
 
-	para "Three years ago I"
-	line "had a vision of"
-	cont "your arrival."
+	para "Hace tres años"
+	line "tuve una visión de"
+	cont "tu llegada."
 
-	para "You're after my"
-	line "Badge."
+	para "Vienes a por mi"
+	line "Medalla."
 
-	para "I don't enjoy bat-"
-	line "tling, but it's my"
+	para "No me gusta luchar,"
+	line "pero mi deber como"
 
-	para "duty as a Leader"
-	line "to confer Badges"
+	para "Líder es otorgar"
+	line "Medallas a quien"
 
-	para "on anyone who has"
-	line "proven themselves"
-	cont "worthy."
+	para "demuestre ser"
+	line "digno."
 
-	para "Since you wish it,"
-	line "I will show you my"
-	cont "psychic powers!"
+	para "¡Ya que lo deseas,"
+	line "te mostraré mis"
+	cont "poderes psíquicos!"
 	done
 
 SabrinaWinLossText:
-	text "Sabrina: Your"
-	line "power…"
+	text "Sabrina: Tu poder…"
 
-	para "It far exceeds"
-	line "what I foresaw…"
+	para "Supera con creces"
+	line "lo que preví…"
 
-	para "Maybe it isn't"
-	line "possible to fully"
+	para "Quizá no sea po-"
+	line "sible predecir el"
 
-	para "predict what the"
-	line "future holds…"
+	para "futuro con exacti-"
+	line "tud…"
 
-	para "OK, you win. You"
-	line "earned yourself"
+	para "Bien, tú ganas."
+	line "Te has ganado"
 if DEF(FAITHFUL)
-	cont "the Marsh Badge."
+	cont "la Medalla Pantano."
 else
-	cont "the Soul Badge."
+	cont "la Medalla Alma."
 endc
 	done
 
 SabrinaMarshBadgeText:
-	text "Sabrina: I failed"
-	line "to accurately pre-"
+	text "Sabrina: No logré"
+	line "predecir con exac-"
 
-	para "dict your power."
-	line "That means your"
+	para "titud tu fuerza."
+	line "Eso significa que"
 
-	para "power is beyond my"
-	line "psychic ability."
+	para "tu poder supera mi"
+	line "poder psíquico."
 
-	para "You deserve this"
-	line "TM, too!"
+	para "¡También mereces"
+	line "esta MT!"
 	done
 
 SabrinaFightDoneText:
-	text "Sabrina: Your love"
-	line "for your #mon"
+	text "Sabrina: El amor"
+	line "por tus #mon"
 
-	para "overwhelmed my"
-	line "psychic power…"
+	para "ha superado mi po-"
+	line "der psíquico…"
 
-	para "The power of love,"
-	line "I think, is also a"
+	para "Creo que el poder"
+	line "del amor también"
 
-	para "kind of psychic"
-	line "power…"
+	para "es una clase de"
+	line "poder psíquico…"
 	done
 
 MediumDorisSeenText:
 	text "Fufufufu…"
-	line "I see it clearly."
+	line "Lo veo con gran"
+	cont "claridad."
 
-	para "I can see into"
-	line "your soul!"
+	para "¡Puedo ver dentro"
+	line "de tu alma!"
 	done
 
 MediumDorisBeatenText:
-	text "Though I read you,"
-	line "I still lost…"
+	text "Aunque te leí la"
+	line "mente, he perdi-"
+	cont "do…"
 	done
 
 PsychicLeonSeenText:
-	text "You cannot resist"
-	line "my psychic power!"
+	text "¡No podrás resis-"
+	line "tirte a mi poder"
+	cont "psíquico!"
 	done
 
 PsychicLeonBeatenText:
-	text "My prediction was"
-	line "inaccurate…"
+	text "Mi predicción no"
+	line "fue acertada…"
 	done
 
 PsychicJaredSeenText:
-	text "The Fighting Dojo"
-	line "next door was once"
-	cont "this city's Gym."
+	text "El Dojo Kárate de"
+	line "al lado fue una"
+
+	para "vez el Gimnasio de"
+	line "esta ciudad."
 	done
 
 PsychicJaredBeatenText:
-	text "I was no match…"
+	text "No fui rival…"
 	done
 
 HexManiacLunaSeenText:
-	text "Abra, Kadabra,"
+	text "¡Abra, Kadabra,"
 	line "Alakazam!"
 	done
 
 HexManiacLunaBeatenText:
-	text "My curse failed?"
+	text "¿Ha fallado mi"
+	line "maldición?"
 	done
 
 HexManiacNatalieSeenText:
-	text "Let us do battle!"
-	line "Mwahaha!"
+	text "¡Vamos a luchar!"
+	line "¡Juajuajua!"
 	done
 
 HexManiacNatalieBeatenText:
-	text "Mwaha--cough!"
+	text "Juajua… ¡Cof!"
 	done
 
 PsychicFranklinSeenText:
-	text "Psychic power is"
-	line "the power of your"
-	cont "soul."
+	text "El poder psíquico"
+	line "es la fuerza de tu"
+	cont "propia alma."
 	done
 
 PsychicFranklinBeatenText:
-	text "Your soul has more"
-	line "power than mine!"
+	text "¡Tu alma tiene más"
+	line "fuerza que la mía!"
 	done
 
 MediumRebeccaSeenText:
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "¡La fuerza de to-"
+	line "dos a los que has"
+
+	para "vencido pasa aho-"
+	line "ra a mí!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Strong…"
-	line "Far too strong…"
+	text "Fuerte…"
+	line "Demasiado fuerte…"
 	done
 
-
 SaffronGymGuyWinText:
-	text "That was another"
-	line "fantastic battle!"
+	text "¡Ha sido otro com-"
+	line "bate fantástico!"
 	done

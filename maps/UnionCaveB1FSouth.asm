@@ -35,68 +35,71 @@ UnionCaveB1FSouth_MapScriptHeader:
 GenericTrainerPokemaniacAndrew:
 	generictrainer POKEMANIAC, ANDREW, EVENT_BEAT_POKEMANIAC_ANDREW, PokemaniacAndrewSeenText, PokemaniacAndrewBeatenText
 
-	text "Just me and my"
-	line "#mon. I'm de-"
-	cont "lirious with joy."
+	text "Solo mis #mon"
+	line "y yo. ¡Me muero"
+	cont "de felicidad!"
 	done
 
 PokemaniacAndrewSeenText:
-	text "Who's there?"
+	text "¿Quién anda ahí?"
 
-	para "Leave me and my"
-	line "#mon alone!"
+	para "¡Dejadnos a mis"
+	line "#mon y a mí en"
+	cont "paz!"
 	done
 
 PokemaniacAndrewBeatenText:
-	text "Go…"
-	line "Go away!"
+	text "¡Fuera!…"
+	line "¡Largo de aquí!"
 	done
 
 GenericTrainerPokemaniacCalvin:
 	generictrainer POKEMANIAC, CALVIN, EVENT_BEAT_POKEMANIAC_CALVIN, PokemaniacCalvinSeenText, PokemaniacCalvinBeatenText
 
-	text "I should compile"
-	line "and announce my"
-	cont "study findings."
+	text "Debería recopilar"
+	line "y publicar mis in-"
+	cont "vestigaciones."
 
-	para "I might even be-"
-	line "come famous like"
-	cont "Prof.Elm."
+	para "Igual hasta me ha-"
+	line "go famoso como el"
+	cont "Prof. Elm."
 	done
 
 PokemaniacCalvinSeenText:
-	text "I came all the way"
-	line "here to conduct my"
-	cont "#mon research."
+	text "He venido hasta"
+	line "aquí para investi-"
+	cont "gar a los #mon."
 
-	para "Let me demonstrate"
-	line "my findings in a"
-	cont "real battle!"
+	para "¡Demostraré mis"
+	line "hallazgos en un"
+	cont "combate real!"
 	done
 
 PokemaniacCalvinBeatenText:
-	text "You demonstrated"
-	line "on me!"
+	text "¡Vaya demostración"
+	line "me has dado!"
 	done
 
 GenericTrainerHikerPhillip:
 	generictrainer HIKER, PHILLIP, EVENT_BEAT_HIKER_PHILLIP, HikerPhillipSeenText, HikerPhillipBeatenText
 
-	text "I've been lost for"
-	line "a long time…"
+	text "Llevo mucho tiempo"
+	line "perdido…"
 
-	para "I don't mind it"
-	line "here, but I am"
-	cont "soooo hungry!"
+	para "No me disgusta es-"
+	line "tar aquí, ¡pero"
+
+	para "tengo muuucha"
+	line "hambre!"
 	done
 
 HikerPhillipSeenText:
-	text "It's been a while"
-	line "since I last saw"
-	cont "another person."
+	text "Hacía tiempo que"
+	line "no veía a otra"
+	cont "persona."
 
-	para "Don't be shy."
-	line "Let's battle!"
+	para "No te cortes."
+	line "¡A luchar!"
 	done
 
 HikerPhillipBeatenText:
@@ -106,87 +109,84 @@ HikerPhillipBeatenText:
 GenericTrainerHikerLeonard:
 	generictrainer HIKER, LEONARD, EVENT_BEAT_HIKER_LEONARD, HikerLeonardSeenText, HikerLeonardBeatenText
 
-	text "I live down here."
+	text "Vivo aquí abajo."
 
-	para "You can, too, if"
-	line "you'd like."
+	para "Tú también puedes"
+	line "si quieres."
 
-	para "There's plenty of"
-	line "room, you see."
+	para "Como ves, sobra el"
+	line "espacio."
 	done
 
 HikerLeonardSeenText:
-	text "What do you know!"
-	line "A visitor!"
+	text "¡Vaya! ¡Una"
+	line "visita!"
 	done
 
 HikerLeonardBeatenText:
-	text "Wahahah! You're a"
-	line "feisty one!"
+	text "¡Jajaja! ¡Tienes"
+	line "mucho genio!"
 	done
 
 GenericTrainerFirebreatherJay:
 	generictrainer FIREBREATHER, JAY, EVENT_BEAT_FIREBREATHER_JAY, .SeenText, .BeatenText
 
-	text "One time my hat"
-	line "caught on fire."
+	text "Una vez se me pren-"
+	line "dió fuego al gorro."
 
-	para "It looked kind of"
-	line "like a Magmar… but"
-	cont "it hurt!"
+	para "Parecía un Magmar…"
+	line "¡pero cómo dolía!"
 	done
 
 .SeenText:
-	text "I learned how to"
-	line "breathe fire by"
-
-	para "watching my #-"
-	line "mon!"
+	text "¡Aprendí a escupir"
+	line "fuego observando"
+	cont "a mis #mon!"
 	done
 
 .BeatenText:
-	text "Our fire couldn't"
-	line "beat you…"
+	text "Nuestro fuego no"
+	line "ha podido contigo…"
 	done
 
 GenericTrainerSuper_nerdRory:
 	generictrainer SUPER_NERD, RORY, EVENT_BEAT_SUPER_NERD_RORY, .SeenText, .BeatenText
 
-	text "A jiffy is the"
-	line "scientific name"
+	text "Un santiamén es el"
+	line "término científico"
 
-	para "for 1/100th of a"
-	line "second."
+	para "para 1/100 de se-"
+	line "gundo."
 	done
 
 .SeenText:
-	text "This'll be over"
-	line "in a jiffy."
+	text "Esto se acaba en"
+	line "un santiamén."
 	done
 
 .BeatenText:
-	text "Maybe I was a bit"
-	line "off…"
+	text "Puede que haya fa-"
+	line "llado el cálculo…"
 	done
 
 GenericTrainerRuin_maniacGlyn:
 	generictrainer RUIN_MANIAC, GLYN, EVENT_BEAT_RUIN_MANIAC_GLYN, .SeenText, .BeatenText
 
-	text "Rocks hide all"
-	line "sorts of interest-"
-	cont "ing items."
+	text "Las rocas esconden"
+	line "todo tipo de obje-"
+	cont "tos curiosos."
 	done
 
 .SeenText:
-	text "My #mon were"
-	line "born from fossils"
+	text "¡Mis #mon nacie-"
+	line "ron de fósiles que"
 
-	para "I found in this"
-	line "very cave!"
+	para "encontré en esta"
+	line "misma cueva!"
 	done
 
 .BeatenText:
-	text "And they lost in"
-	line "this very cave,"
-	cont "too!"
+	text "¡Y han perdido en"
+	line "esta misma cueva"
+	cont "también!"
 	done

@@ -71,19 +71,17 @@ RuggedRoadSouth_FinishBridge:
 RuggedRoadSouthAdvancedTipsSignText:
 	text "¡Pistas Entren.!"
 
-	para "If your #mon"
-	line "KOs its opponent,"
+	para "Si tu #mon de-"
+	line "bilita al rival"
 
-	para "and it's holding a"
-	line "Power item that"
-	cont "ups effort gain,"
+	para "y lleva un objeto"
+	line "Recio que aumenta"
+	cont "el esfuerzo,"
 
-	para "every #mon that"
-	line "participated in"
+	para "¡todo #mon que"
+	line "haya participado"
 
-	para "the battle or"
-	line "that's holding an"
-
-	para "Exp.Share will"
-	line "gain from it!"
+	para "o que lleve Re-"
+	line "partir Exp. tam-"
+	cont "bién lo ganará!"
 	done

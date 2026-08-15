@@ -22,49 +22,51 @@ SproutTower2F_MapScriptHeader:
 GenericTrainerSageNico:
 	generictrainer SAGE, NICO, EVENT_BEAT_SAGE_NICO, SageNicoSeenText, SageNicoBeatenText
 
-	text "The flexible pil-"
-	line "lar protects the"
+	text "El pilar flexible"
+	line "protege la torre,"
 
-	para "tower, even from"
-	line "earthquakes."
+	para "incluso de los"
+	line "terremotos."
 	done
 
 GenericTrainerSageEdmond:
 	generictrainer SAGE, EDMOND, EVENT_BEAT_SAGE_EDMOND, SageEdmondSeenText, SageEdmondBeatenText
 
-	text "I tried to copy"
-	line "Bellsprout's"
+	text "Intenté copiar los"
+	line "suaves movimientos"
 
-	para "gentle movements"
-	line "for battle…"
+	para "de Bellsprout pal"
+	line "combate…"
 
-	para "But I didn't train"
-	line "well enough."
+	para "Pero no entrené lo"
+	line "suficiente."
 	done
 
 SageNicoSeenText:
-	text "However hard we"
-	line "battle, the tower"
-	cont "will stand strong."
+	text "Por duro que sea"
+	line "el combate, la to-"
+	cont "rre resistirá."
 	done
 
 SageNicoBeatenText:
-	text "I fought hard but"
-	line "I'm too weak."
+	text "Luché con ganas,"
+	line "pero soy débil."
 	done
 
 SageEdmondSeenText:
-	text "…Sway like leaves"
-	line "in the wind…"
+	text "…Mécete cual hoja"
+	line "con el viento…"
 	done
 
 SageEdmondBeatenText:
-	text "Oh, I'm weak!"
+	text "¡Oh, qué débil"
+	line "soy!"
 	done
 
 SproutTower2FStatueText:
-	text "A #mon statue…"
+	text "Una estatua de un"
+	line "#mon…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Tiene un aspecto"
+	line "muy distinguido."
 	done

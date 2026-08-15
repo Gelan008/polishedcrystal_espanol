@@ -134,7 +134,7 @@ TrainerClassNames::
 	li "Líder"           ; CANDELA
 	li "Líder"           ; BLANCHE
 	li "Líder"           ; SPARK_T
-	li "Entrenador"          ; FLANNERY
+	li "Entrenadora"          ; FLANNERY
 	li "Luchadora"          ; MAYLENE
 	li "Nadador"          ; MARLON
 	li "Diseñadora"         ; VALERIE

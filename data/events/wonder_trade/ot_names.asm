@@ -115,7 +115,7 @@ WonderTradeOTNames1:
 	rawchar "Yasmina" ; $70
 	rawchar "Pryce@@" ; $71
 	rawchar "Débora@" ; $72
-	rawchar "Will@@@" ; $73
+	rawchar "Mento@@" ; $73
 	rawchar "Koga@@@" ; $74
 	rawchar "Karen@@" ; $75
 	rawchar "Roxanne" ; $76

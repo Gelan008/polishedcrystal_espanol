@@ -30,7 +30,7 @@ KeyItemNames::
 	li "S.S.Ticket"
 	li "Magnetopase"
 	li "TicketNaranj"
-	li "TicketMistic"
+	li "TicketMístic"
 	li "Viej Map Mar"
 	li "Llave Ascen."
 	li "Cebo Cruel"

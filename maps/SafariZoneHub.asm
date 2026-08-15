@@ -28,34 +28,35 @@ SafariZoneHub_MapScriptHeader:
 GenericTrainerBug_maniacKai:
 	generictrainer BUG_MANIAC, KAI, EVENT_BEAT_BUG_MANIAC_KAI, Bug_maniacKaiSeenText, Bug_maniacKaiBeatenText
 
-	text "Venonat is so"
-	line "similar to"
+	text "¡Venonat se parece"
+	line "mucho a"
 	cont "Butterfree!"
 
-	para "Their weight,"
-	line "their eyes,"
-	cont "their abilities…"
+	para "El peso, los ojos,"
+	line "las habilidades…"
 
-	para "Evolution is"
-	line "weird sometimes."
+	para "La evolución es"
+	line "rara a veces."
 	done
 
 Bug_maniacKaiSeenText:
-	text "My Venonat evolved"
-	line "into a Venomoth?!"
+	text "¿Mi Venonat ha"
+	line "evolucionado a"
+	cont "Venomoth?!"
 	done
 
 Bug_maniacKaiBeatenText:
-	text "I thought it would"
-	line "for sure evolve"
-	cont "into Butterfree!"
+	text "¡Pensaba de verdad"
+	line "que iba a evolu-"
+	cont "cionar a"
+	cont "Butterfree!"
 	done
 
 SafariZoneHubAreaSignText:
-	text "Safari Zone"
-	line "Center Area"
+	text "Zona Safari"
+	line "Zona Centro"
 	done
 
 SafariZoneHubRestHouseSignText:
-	text "Rest House"
+	text "Casa de Reposo"
 	done

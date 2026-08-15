@@ -16,19 +16,22 @@ VermilionPollutionSpeechHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionPollutionSpeechHouseCooltrainerMText, -1
 
 VermilionPollutionSpeechHouseBreederText:
-	text "Vermilion is a"
-	line "wonderful place,"
+	text "Carmín es un lu-"
+	line "gar maravilloso,"
 
-	para "but in a port like"
-	line "this we have to be"
-	cont "wary of pollution!"
+	para "pero en un puerto"
+	line "así ¡hay que tener"
+
+	para "cuidado con la"
+	line "contaminación!"
 	done
 
 VermilionPollutionSpeechHouseCooltrainerMText:
-	text "Thanks to all the"
-	line "cruise ships that"
-	cont "come and go,"
+	text "Gracias a todos"
+	line "los cruceros que"
+	cont "van y vienen,"
 
-	para "we get visitors"
-	line "from all over!"
+	para "¡recibimos visi-"
+	line "tantes de todas"
+	cont "partes!"
 	done

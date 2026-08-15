@@ -114,7 +114,7 @@ EusinesHouseGrampsScript:
 	cont "aventura."
 
 	para "Se fue a visitar"
-	line "la Torre Campana"
+	line "la Torre Hojalata"
 	cont "en Ciudad Iris."
 	done
 
@@ -163,7 +163,7 @@ EusineLeavesCeladonText:
 
 	para "#mon arcoíris"
 	line "que aparece en la"
-	cont "Torre Campana."
+	cont "Torre Hojalata."
 
 	para "Acabo de curar a"
 	line "mi equipo, así"

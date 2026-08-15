@@ -154,7 +154,7 @@ Bug_catcherKenBeatenText:
 RichBoyWinstonSeenText:
 	text "No hay manera de"
 	line "que puedas pagar"
-	cont "un billete."
+	cont "un ticket."
 
 	para "¡Parece que tene-"
 	line "mos un polizón!"

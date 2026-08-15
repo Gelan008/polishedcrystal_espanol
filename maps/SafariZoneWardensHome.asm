@@ -32,54 +32,54 @@ WardensGranddaughter:
 .AlreadyMet:
 	jumpthisopenedtext
 
-	text "Many people were"
-	line "disappointed that"
+	text "Mucha gente se"
+	line "decepcionó por el"
 
-	para "Safari Zone closed"
-	line "down, but Grandpa"
-	cont "is so stubborn…"
+	para "cierre de la Zona"
+	line "Safari, pero mi"
+
+	para "abuelo es muy ca-"
+	line "bezota…"
 	done
 
 WardensGranddaughterText1:
-	text "My grandpa is the"
-	line "Safari Zone War-"
-	cont "den."
+	text "Mi abuelo es el"
+	line "Guarda de la Zona"
+	cont "Safari."
 
-	para "At least he was…"
+	para "Al menos lo era…"
 
-	para "He decided to go"
-	line "on a vacation and"
+	para "Decidió irse de"
+	line "vacaciones y se"
 
-	para "took off overseas"
-	line "all by himself."
+	para "marchó al extran-"
+	line "jero él solo."
 
-	para "He quit running"
-	line "Safari Zone just"
-	cont "like that."
+	para "Dejó de dirigir la"
+	line "Zona Safari así"
+	cont "como si nada."
 	done
 
-
 WardenPhotoText:
-	text "It's a photo of a"
-	line "grinning old man"
+	text "Es la foto de un"
+	line "anciano sonriente"
 
-	para "who's surrounded"
-	line "by #mon."
+	para "rodeado de"
+	line "#mon."
 	done
 
 SafariZonePhotoText:
-	text "It's a photo of a"
-	line "huge grassy plain"
+	text "Es la foto de una"
+	line "enorme llanura de"
 
-	para "with rare #mon"
-	line "frolicking in it."
+	para "hierba con #mon"
+	line "raros retozando."
 	done
 
 WardensHouseCuriosText:
-	text "It's a curio"
-	line "cabinet full of"
+	text "Es una vitrina"
+	line "llena de fósiles"
 
-	para "fossils and old"
-	line "#mon merchan-"
-	cont "dise."
+	para "y artículos anti-"
+	line "guos de #mon."
 	done

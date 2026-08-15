@@ -23,22 +23,22 @@ PokemonJournalLtSurgeScript:
 	setflag ENGINE_READ_LT_SURGE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Lt.Surge!"
+	para "Edición especial:"
+	line "¡Líder Lt. Surge!"
 
-	para "Lt.Surge is rumor-"
-	line "ed to have been a"
+	para "Dicen que el Lt."
+	line "Surge fue piloto"
 
-	para "pilot while home"
-	line "in America."
+	para "cuando vivía en"
+	line "América."
 
-	para "He used the elec-"
-	line "tricity generated"
+	para "Utilizaba la elec-"
+	line "tricidad creada"
 
-	para "by #mon to pow-"
-	line "er his plane."
+	para "por los #mon pa-"
+	line "ra mover su avión."
 	done
 
 VermilionPokeCenter1FSightseerMScript:
@@ -46,41 +46,42 @@ VermilionPokeCenter1FSightseerMScript:
 	iftrue_jumptextfaceplayer .SnorlaxText
 	jumpthistextfaceplayer
 
-	text "A sleeping #mon"
-	line "is lying in front"
-	cont "of Diglett's Cave."
+	text "Hay un #mon dor-"
+	line "mido delante de la"
+	cont "Cueva Diglett."
 
-	para "It's a fantastic"
-	line "opportunity to get"
+	para "¡Es una gran opor-"
+	line "tunidad de atra-"
+	cont "parlo!"
 
-	para "it, but how do you"
-	line "wake it up?"
+	para "Pero ¿cómo se le"
+	line "puede despertar?"
 	done
 
 .SnorlaxText:
-	text "There used to be a"
-	line "sleeping #mon"
+	text "Había un #mon"
+	line "dormido delante de"
+	cont "la Cueva Diglett."
 
-	para "lying in front of"
-	line "Diglett's Cave."
-
-	para "But it seems to"
-	line "have disappeared."
+	para "Pero parece que ha"
+	line "desaparecido."
 	done
 
 VermilionPokeCenter1FSailorText:
-	text "The Fast Ship is a"
-	line "great place to"
+	text "El Magnetotren y"
+	line "el S.S. Aqua son"
 
-	para "meet and battle"
-	line "trainers."
+	para "sitios geniales pa-"
+	line "ra luchar contra"
+	cont "otros entrenadores."
 	done
 
 VermilionPokeCenter1FBugCatcherText:
-	text "Oh? You have some"
-	line "Badges I've never"
-	cont "seen before."
+	text "¿Eh? Tienes algu-"
+	line "nas Medallas que"
+	cont "no había visto."
 
-	para "Oh, I get it. You"
-	line "got them in Johto."
+	para "Ah, ya lo entiendo."
+	line "Las conseguiste en"
+	cont "Johto."
 	done

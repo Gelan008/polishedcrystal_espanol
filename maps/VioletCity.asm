@@ -57,8 +57,8 @@ VioletCityEarlScript:
 	iffalsefwd .FollowEarl
 	jumpthisopenedtext
 
-	text "Ooh, la la!"
-	line "Very indeed nice!"
+	text "¡Ooh, la la!"
+	line "¡Realmente bonito!"
 	done
 
 .FollowEarl:
@@ -163,140 +163,140 @@ VioletCitySpinningEarl_MovementData:
 	step_end
 
 Text_EarlAsksIfYouBeatFalkner:
-	text "Hello!"
-	line "You are trainer?"
+	text "¡Hola!"
+	line "¿Entrenador ser?"
 
-	para "Battle Gym Leader,"
-	line "win you did?"
+	para "¿A Líder Gimnasio,"
+	line "tú ganar hiciste?"
 	done
 
-
 Text_FollowEarl:
-	text "Is that so? Then"
-	line "study shall you!"
-	cont "Follow me!"
+	text "¿Ah, sí? ¡Entonces"
+	line "tú deber estudiar!"
+	cont "¡Sígueme a mí!"
 	done
 
 Text_HereTeacherIAm:
-	text "Here, teacher I"
-	line "am. Good it is"
-	cont "you study here!"
+	text "Aquí, el maestro"
+	line "yo soy. ¡Bueno es"
+	cont "que tú estudies!"
 
-	para "Take this and"
-	line "learn you will!"
+	para "¡Toma esto y"
+	line "tú aprenderás!"
 	done
 
 Text_EarlsTypeChart:
-	text "In battle, type"
-	line "advantages you"
-	cont "must know!"
+	text "¡En combate, las"
+	line "ventajas de tipo"
+	cont "tú debes saber!"
 
-	para "At any time, con-"
-	line "sult this chart"
-	cont "you may!"
+	para "¡En todo momento,"
+	line "esta tabla"
+	cont "consultar podrás!"
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "Sprout Tower."
+	text "Se rumorea que hay"
+	line "fantasmas en la"
+	cont "Torre Bellsprout."
 
-	para "They said Normal-"
-	line "type #mon moves"
+	para "Dicen que movi-"
+	line "mientos de tipo"
 
-	para "had no effect on"
-	line "ghosts."
+	para "Normal no afectan"
+	line "a los fantasmas."
 	done
 
 VioletCityCooltrainerM1Text:
-	text "Hey, you're a"
-	line "#mon trainer?"
+	text "Oye, ¿eres entre-"
+	line "nador #mon?"
 
-	para "If you beat the"
-	line "Gym Leader here,"
+	para "Si vences al Líder"
+	line "de Gimnasio local,"
 
-	para "you'll be ready"
-	line "for prime time!"
+	para "¡estarás listo pa-"
+	line "ra el estrellato!"
 	done
 
 VioletCityCooltrainerFText:
-	text "Bellsprout is a"
-	line "popular #mon"
-	cont "in this town."
+	text "Bellsprout es muy"
+	line "popular en esta"
+	cont "ciudad."
 
-	para "It doesn't do well"
-	line "against our Gym"
-	cont "Leader, though…"
+	para "Pero no lo hace"
+	line "bien contra el Lí-"
+	cont "der de Gimnasio…"
 	done
 
 VioletCityGrampsText:
-	text "Pegaso, from the"
-	line "Violet #mon"
+	text "¡Pegaso, el del"
+	line "Gimnasio #mon"
+	cont "de Ciudad Malva,"
 
-	para "Gym, is a fine"
-	line "trainer!"
+	para "es un gran"
+	line "entrenador!"
 
-	para "He inherited his"
-	line "father's gym and"
+	para "Heredó el Gimnasio"
+	line "de su padre y ha"
 
-	para "has done a great"
-	line "job with it."
+	para "hecho un trabajo"
+	line "excelente."
 	done
 
 VioletCityYoungsterText:
-	text "I saw a wiggly"
-	line "tree up ahead!"
+	text "¡Vi un árbol que"
+	line "se movía adelante!"
 
-	para "If you touch it,"
-	line "it squirms and"
-	cont "dances! Cool!"
+	para "¡Si lo tocas, se"
+	line "retuerce y baila!"
+	cont "¡Es genial!"
 	done
 
 VioletCityFisherText:
-	text "How does such a"
-	line "wobbly building"
+	text "¿Cómo aguanta un"
+	line "edificio tan ines-"
 
-	para "survive an earth-"
-	line "quake? I must be"
-	cont "missing something."
+	para "table un terremo-"
+	line "to? Algo se me"
+	cont "debe escapar."
 	done
 
 VioletCityCooltrainerM2Text:
-	text "We care about the"
-	line "traditional build-"
-	cont "ings around here."
+	text "Nos importan los"
+	line "edificios tradi-"
+	cont "cionales de aquí."
 
-	para "Even the # Mart"
-	line "and #mon Center"
+	para "Hasta la Tienda y"
+	line "el Centro #mon"
 
-	para "are painted som-"
-	line "berly to blend in."
+	para "están pintados"
+	line "para no destacar."
 	done
 
 VioletCitySignText:
-	text "Violet City"
+	text "Ciudad Malva"
 
-	para "The City of"
-	line "Nostalgic Scents"
+	para "La ciudad de los"
+	line "olores nostálgicos"
 	done
 
 VioletGymSignText:
-	text "Violet City"
-	line "#mon Gym"
-	cont "Leader: Pegaso"
+	text "Líder del Gimnasio"
+	line "#mon de Ciudad"
+	cont "Malva: Pegaso"
 
-	para "The Elegant Master"
-	line "of Flying #mon"
+	para "El maestro de los"
+	line "#mon pájaro"
 	done
 
 SproutTowerSignText:
-	text "Sprout Tower"
+	text "Torre Bellsprout"
 
-	para "Experience the"
-	line "Way of #mon"
+	para "Experimenta el"
+	line "camino #mon"
 	done
 
 EarlsPokemonAcademySignText:
-	text "Earl's #mon"
-	line "Academy"
+	text "Academia #mon"
+	line "de Primo"
 	done

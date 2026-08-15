@@ -59,76 +59,84 @@ SafariZoneWestRestHouse2FlanneryScript:
 	jumpopenedtext .RefusedText
 
 .IntroText:
-	text "Hi there!"
+	text "¡Hola!"
 
-	para "Good to see some-"
-	line "one else exploring"
-	cont "this place!"
+	para "¡Qué bien ver a"
+	line "alguien más explo-"
+	cont "rando este lugar!"
 
-	para "I am Flannery."
+	para "Soy Candela."
 
-	para "I'm from the Hoenn"
-	line "region, so I like"
+	para "Vengo de la región"
+	line "de Hoenn, así que"
 
-	para "humidity and hot"
-	line "springs."
+	para "me encantan la hu-"
+	line "medad y las aguas"
+	cont "termales."
 
-	para "The Safari Zone"
-	line "feels like home!"
+	para "¡La Zona Safari me"
+	line "hace sentir como"
+	cont "en casa!"
 
-	para "Let's exchange"
-	line "superhot moves in"
-	cont "a battle!"
+	para "¡Intercambiemos"
+	line "movimientos abra-"
+	cont "sadores en combate!"
 	done
 
 .RematchText:
-	text "Hi there,"
-	line "<PLAYER>!"
+	text "¡Hola,"
+	line "¡<PLAYER>!"
 
-	para "Good to see you"
-	line "again!"
+	para "¡Qué bien volver a"
+	line "verte!"
 
-	para "Losing a match"
-	line "isn't going to"
-	cont "deflate me."
+	para "Perder un combate"
+	line "no va a desani-"
+	cont "marme."
 
-	para "Let's exchange"
-	line "superhot moves in"
-	cont "another battle!"
+	para "¡Intercambiemos"
+	line "movimientos abra-"
+
+	para "sadores en otro"
+	line "combate!"
 	done
 
 .SeenText:
-	text "I'm going to demo-"
-	line "nstrate the hot"
+	text "¡Voy a hacerte una"
+	line "demostración de"
 
-	para "moves I honed"
-	line "close to a vol-"
-	cont "cano!"
+	para "los movimientos"
+	line "ardientes que per-"
+
+	para "feccioné junto a"
+	line "un volcán!"
 	done
 
 .BeatenText:
-	text "Whew! On the verge"
-	line "of eruption!"
+	text "¡Uf! ¡Al borde de"
+	line "la erupción!"
 	done
 
 .AfterText:
-	text "I lost the match,"
-	line "but I'm completely"
-	cont "satisfied."
+	text "He perdido el com-"
+	line "bate, pero estoy"
+	cont "muy satisfecha."
 
-	para "It's not often I"
-	line "get to enjoy a"
+	para "No suelo disfrutar"
+	line "a menudo de com-"
 
-	para "battle this"
-	line "heated."
+	para "bates tan apasio-"
+	line "nantes."
 
-	para "Let's have another"
-	line "one like this"
-	cont "sometime!"
+	para "¡Tenemos que repe-"
+	line "tir otro igual al-"
+	cont "guna vez!"
 	done
 
 .RefusedText:
-	text "OK then… Uh…"
-	line "Don't be shy about"
-	cont "it if you return!"
+	text "Vale… Eh…"
+	line "¡No tengas corte"
+
+	para "en pedirlo si"
+	line "vuelves!"
 	done

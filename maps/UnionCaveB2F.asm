@@ -51,70 +51,76 @@ UnionCaveLapras:
 GenericTrainerCooltrainermNick:
 	generictrainer COOLTRAINERM, NICK, EVENT_BEAT_COOLTRAINERM_NICK, CooltrainermNickSeenText, CooltrainermNickBeatenText
 
-	text "Your #mon style"
-	line "is stunning and"
-	cont "colorful, I admit."
+	text "Reconozco que el"
+	line "estilo de tus #-"
+	cont "mon es llamativo y"
+	cont "vistoso."
 
-	para "You'll just keep"
-	line "getting better!"
+	para "¡Seguro que irás"
+	line "a mejor!"
 	done
 
 GenericTrainerCooltrainerfGwen:
 	generictrainer COOLTRAINERF, GWEN, EVENT_BEAT_COOLTRAINERF_GWEN, CooltrainerfGwenSeenText, CooltrainerfGwenBeatenText
 
-	text "I'm going to train"
-	line "by myself until I"
-	cont "improve."
+	text "Entrenaré yo sola"
+	line "hasta que consiga"
+	cont "mejorar."
 	done
 
 GenericTrainerCooltrainerfEmma:
 	generictrainer COOLTRAINERF, EMMA, EVENT_BEAT_COOLTRAINERF_EMMA, CooltrainerfEmmaSeenText, CooltrainerfEmmaBeatenText
 
-	text "Just once a week,"
-	line "a #mon comes to"
-	cont "the water's edge."
+	text "Solo una vez por"
+	line "semana va un #-"
+	cont "mon a la orilla"
+	cont "del agua."
 
-	para "I wanted to see"
-	line "that #mon…"
+	para "Quería ver a ese"
+	line "#mon…"
 	done
 
 CooltrainermNickSeenText:
-	text "There are two"
-	line "kinds of people."
+	text "Hay dos tipos de"
+	line "personas."
 
-	para "Those who have"
-	line "style, and those"
-	cont "who don't."
+	para "Las que tienen es-"
+	line "tilo y las que no."
 
-	para "What kind of"
-	line "person are you?"
+	para "¿Qué clase de per-"
+	line "sona eres tú?"
 	done
 
 CooltrainermNickBeatenText:
-	text "You've got"
-	line "dazzling style!"
+	text "¡Tienes un estilo"
+	line "deslumbrante!"
 	done
 
 CooltrainerfGwenSeenText:
-	text "I'm in training."
-	line "Care for a round?"
+	text "Estoy entrenando."
+	line "¿Te hace un asal-"
+	cont "to?"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "Aww, no! You're"
-	line "too good for me."
+	text "¡Oh, no! Eres de-"
+	line "masiado para mí."
 	done
 
 CooltrainerfEmmaSeenText:
-	text "If the #mon I"
-	line "liked were there,"
-	cont "I'd go anywhere."
+	text "Si el #mon que me"
+	line "gusta estuviera"
 
-	para "That's what a real"
-	line "trainer does."
+	para "allí, iría a cual-"
+	line "quier parte."
+
+	para "Eso es lo que hace"
+	line "un auténtico en-"
+	cont "trenador."
 	done
 
 CooltrainerfEmmaBeatenText:
-	text "I'd rather pet my"
-	line "babies than this!"
+	text "¡Preferiría estar"
+	line "mimando a mis pe-"
+	cont "ques que esto!"
 	done

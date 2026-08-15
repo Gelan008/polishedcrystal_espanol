@@ -136,20 +136,21 @@ RuinsOfAlphOutsideFisherScript:
 	jumpthisopenedtext
 
 RuinsOfAlphOutsideFisherText2:
-	text "The ruins hide a"
-	line "huge secret!"
+	text "¡Las ruinas ocul-"
+	line "tan un gran se-"
+	cont "creto!"
 
-	para "…I think…"
+	para "… O eso creo…"
 	done
 
 RuinsOfAlphOutsideYoungster1Script:
 	jumpthistextfaceplayer
 
-	text "There are many"
-	line "kinds of Unown, so"
+	text "Hay muchas formas"
+	line "de Unown, así que"
 
-	para "we use them for"
-	line "our secret codes."
+	para "las usamos para"
+	line "mensajes secretos."
 	done
 
 RuinsOfAlphOutsideYoungster2Script:
@@ -160,29 +161,30 @@ RuinsOfAlphOutsideYoungster2Script:
 GenericTrainerPsychicNathan:
 	generictrainer PSYCHIC_T, NATHAN, EVENT_BEAT_PSYCHIC_NATHAN, PsychicNathanSeenText, PsychicNathanBeatenText
 
-	text "I like thinking"
-	line "here."
+	text "Me gusta meditar"
+	line "aquí."
 	done
 
 GenericTrainerSuperNerdStan:
 	generictrainer SUPER_NERD, STAN, EVENT_BEAT_SUPER_NERD_STAN, SuperNerdStanSeenText, SuperNerdStanBeatenText
 
-	text "The ruins are from"
-	line "about 1,500 years"
-	cont "ago."
+	text "Las ruinas datan"
+	line "de hace unos"
+	cont "1500 años."
 
-	para "Nobody knows who"
-	line "built them."
+	para "Nadie sabe quién"
+	line "las construyó."
 
-	para "It's also not"
-	line "known if the #-"
-	cont "mon statues have"
-	cont "any meaning."
+	para "Tampoco se sabe si"
+	line "las estatuas de"
 
-	para "It's all one big"
-	line "mystery…"
+	para "#mon tienen al-"
+	line "gún significado."
+
+	para "Todo esto es un"
+	line "gran misterio…"
 	done
-
+	
 RuinsOfAlphOutsideScientistWalkToLabMovement:
 rept 7
 	step_right

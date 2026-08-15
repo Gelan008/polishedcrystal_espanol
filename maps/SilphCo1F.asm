@@ -37,66 +37,67 @@ SilphCoOfficerScript:
 	iftruefwd .OfficerScriptAfterPowerRestored
 	jumpthisopenedtext
 
-	text "Only employees are"
-	line "permitted to go"
-	cont "upstairs."
+	text "Solo los empleados"
+	line "tienen permiso"
+	cont "para subir."
 
-	para "The main power"
-	line "isn't working,"
+	para "El suministro"
+	line "principal de ener-"
+	cont "gía no funciona,"
 
-	para "and the CEO wants"
-	line "high security in"
+	para "y el presidente ha"
+	line "ordenado máxima"
 
-	para "case of an"
-	line "emergency."
+	para "seguridad en caso"
+	line "de emergencia."
 
-	para "We learned our"
-	line "lesson about that"
-	cont "three years ago."
+	para "Ya aprendimos la"
+	line "lección sobre eso"
+	cont "hace tres años."
 	done
 
 .OfficerScriptAfterPowerRestored
 	jumpthisopenedtext
 
-	text "You're responsible"
-	line "for restoring the"
-	cont "power supply?"
+	text "¿Has sido tú quien"
+	line "ha restablecido el"
+	cont "suministro?"
 
-	para "Thank you! Now"
-	line "R&D can continue."
+	para "¡Muchas gracias!"
+	line "Ahora I+D puede"
+	cont "continuar."
 
-	para "Feel free to take"
-	line "a tour upstairs."
+	para "Sube a echar un"
+	line "vistazo si te"
+	cont "apetece."
 	done
 
 SilphCoReceptionistText:
-	text "Welcome. This is"
-	line "Silph Co.'s Head"
-	cont "Office Building."
+	text "Te damos la bien-"
+	line "venida a la sede"
+	cont "central de Silph."
 	done
 
-
 SilphCo1FGentlemanText:
-	text "I have an appoint-"
-	line "ment with the"
+	text "Tengo una cita con"
+	line "el ingeniero jefe"
 
-	para "chief engineer"
-	line "here at Silph Co."
+	para "aquí, en Silph"
+	line "S.A."
 	done
 
 SilphCo1FCooltrainerfText:
-	text "I'm trying to"
-	line "pluck up the"
-	cont "courage to ask"
+	text "Estoy reuniendo el"
+	line "valor necesario"
 
-	para "the receptionist"
-	line "out on a date."
+	para "para pedirle una"
+	line "cita a la recepcio-"
+	cont "nista."
 
-	para "Just as soon as"
-	line "she's done on the"
-	cont "phone…"
+	para "En cuanto cuelgue"
+	line "el teléfono…"
 	done
 
 SilphCoElevatorText:
-	text "Out Of Order"
+	text "Fuera de servicio"
 	done

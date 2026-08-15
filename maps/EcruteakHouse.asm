@@ -86,7 +86,7 @@ EcruteakTinTowerEntranceSageScript:
 	iftrue_jumpopenedtext EcruteakTinTowerEntranceSageText_GotFogBadge
 	jumpthisopenedtext
 
-	text "La Torre Campana"
+	text "La Torre Hojalata"
 	line "está cerrada si no"
 
 	para "tienes la Medalla"
@@ -139,7 +139,7 @@ EcruteakTinTowerEntranceWanderingSageScript:
 	iftrue_jumptextfaceplayer EcruteakTinTowerEntranceWanderingSageText_GotClearBell
 	jumpthistextfaceplayer
 
-	text "La Torre Campana"
+	text "La Torre Hojalata"
 	line "de enfrente es una"
 
 	para "torre de nueve pi-"
@@ -167,7 +167,7 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "La Torre Campana"
+	text "La Torre Hojalata"
 	line "está cerrada si no"
 
 	para "tienes la Medalla"
@@ -213,7 +213,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 
 	para "Es posible que pu-"
 	line "edas atravesar la"
-	cont "Torre Campana."
+	cont "Torre Hojalata."
 
 	para "Por favor, pasa"
 	line "adelante."
@@ -234,7 +234,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 
 	para "Es posible que pu-"
 	line "edas atravesar la"
-	cont "Torre Campana."
+	cont "Torre Hojalata."
 
 	para "Por favor, pasa"
 	line "adelante."
@@ -242,7 +242,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "¡La Torre Campana"
+	text "¡La Torre Hojalata"
 	line "tembló! ¡Un #-"
 	cont "mon"
 

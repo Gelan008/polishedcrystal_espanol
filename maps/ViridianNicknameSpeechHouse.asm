@@ -18,29 +18,30 @@ ViridianNicknameSpeechHouse_MapScriptHeader:
 	pokemon_event  6,  3, RATTATA, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PURPLE, RatteyText, -1
 
 ViridianNicknameSpeechHousePokefanMText:
-	text "Do you put a lot"
-	line "of thought into"
+	text "¿Te piensas mucho"
+	line "el nombre que les"
 
-	para "naming your"
+	para "pones a tus"
 	line "#mon?"
 
-	para "Giving them good"
-	line "nicknames adds to"
+	para "Ponerles buenos"
+	line "motes hace que in-"
 
-	para "the fun of trading"
-	line "with others."
+	para "tercambiarlos con"
+	line "otros sea más"
+	cont "divertido."
 	done
 
 ViridianNicknameSpeechHouseLassText:
-	text "They're Hooty--"
-	line "a Hoothoot--and"
-	cont "Rattey--a Rattata."
+	text "Son Hooty, un"
+	line "Hoothoot, y Rattey,"
+	cont "un Rattata."
 	done
 
 HootyText:
-	text "Hooty: Hoot!"
+	text "¡Hooty: Hoot!"
 	done
 
 RatteyText:
-	text "Rattey: Kikiii!"
+	text "¡Rattey: Kikiii!"
 	done

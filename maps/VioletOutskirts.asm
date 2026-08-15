@@ -41,11 +41,12 @@ VioletOutskirtsAvalanche:
 	endcallback
 
 VioletOutskirtsCemeterySignText:
-	text "Violet Cemetery"
-	line "Caretaker's House"
+	text "Casa del Cuidador"
+	line "del Cementerio de"
+	cont "Malva"
 	done
 
 VioletOutskirtsHeadstoneText:
-	text "It's too faded"
-	line "to read…"
+	text "Está muy desgasta-"
+	line "do para leerlo…"
 	done

@@ -45,29 +45,29 @@ ValenciaPortSailorScript:
 	jumpopenedtext .RefuseText
 
 .QuestionText:
-	text "Going back to"
-	line "Shamouti Island?"
+	text "¿Vuelves a Isla"
+	line "Shamouti?"
 	done
 
 .DepartText:
-	text "All right!"
+	text "¡Muy bien!"
 
-	para "All aboard the"
+	para "¡Todos a bordo del"
 	line "Surcamar Veloce!"
 	done
 
 .RefuseText:
-	text "I'll be waiting"
-	line "right here."
+	text "Estaré esperando"
+	line "aquí mismo."
 	done
 
 ValenciaPortFisherText:
-	text "Have you noticed"
-	line "the sea?"
+	text "¿Te has fijado en"
+	line "el mar?"
 
-	para "These waters are"
-	line "different from"
+	para "Estas aguas son"
+	line "diferentes a las"
 
-	para "those found in"
-	line "Kanto and Johto."
+	para "que se encuentran"
+	line "en Kanto y Johto."
 	done

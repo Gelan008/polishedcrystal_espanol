@@ -70,36 +70,35 @@ SetupFairyBookScript:
 	endcallback
 
 ValeriesHouseValerieText:
-	text "Valeria: My"
-	line "fashion designs"
+	text "Valeria: Dicen"
+	line "que mis diseños"
 
-	para "are said to be"
-	line "rather mystifying."
-	cont "Do you agree with"
-	cont "that?"
+	para "de moda son bas-"
+	line "tante enigmáticos."
+	cont "¿Estás de acuerdo?"
 
-	para "I've always wanted"
-	line "to be a #mon,"
-	cont "you see."
+	para "La verdad es que"
+	line "siempre he querido"
+	cont "ser un #mon."
 
-	para "That desire is my"
-	line "inspiration and"
+	para "Ese deseo me sirve"
+	line "de inspiración y"
 
-	para "what I try to"
-	line "achieve by"
-	cont "designing."
+	para "es lo que intento"
+	line "plasmar en mis"
+	cont "diseños."
 
-	para "And yet… the only"
-	line "time I feel truly"
+	para "Y aun así… solo me"
+	line "siento en perfecta"
 
-	para "one with #mon"
-	line "is when we are"
+	para "comunión con los"
+	line "#mon cuando nos"
 
-	para "embroiled in"
-	line "desperate battle."
+	para "envolvemos en un"
+	line "combate a deses-"
+	cont "perar."
 
-	para "I wonder why that"
-	line "is…"
+	para "¿Por qué será?…"
 	done
 
 ValeriesHouseFairyBookScript:
@@ -117,60 +116,70 @@ ValeriesHouseFairyBookScript:
 .Sunday
 	jumpthisopenedtext
 
-	text "A man is being"
-	line "led by a turtle"
-	cont "under the sea…"
+	text "Una tortuga guía"
+	line "a un hombre bajo"
+	cont "el mar…"
 	done
 
 .Monday
 	jumpthisopenedtext
 
-	text "A peasant's house"
-	line "has become a fine"
-	cont "palace overnight…"
+	text "La choza de un la-"
+	line "brador se ha con-"
+
+	para "vertido en palacio"
+	line "de la noche a la"
+	cont "mañana…"
 	done
 
 .Tuesday
 	jumpthisopenedtext
 
-	text "A girl with very"
-	line "long hair is lock-"
-	cont "ed in a tower…"
+	text "Una joven de lar-"
+	line "ga cabellera está"
+
+	para "encerrada en una"
+	line "torre…"
 	done
 
 .Wednesday
 	jumpthisopenedtext
 
-	text "A beautiful girl"
-	line "is talking to a"
-	cont "horse's head…"
+	text "Una hermosa joven"
+	line "habla con la cabe-"
+	cont "za de un caballo…"
 	done
 
 .Thursday
 	jumpthisopenedtext
 
-	text "A talking fish"
-	line "claims that it can"
-	cont "grant wishes…"
+	text "Un pez parlante"
+	line "afirma que puede"
+
+	para "conceder deseos…"
 	done
 
 .Friday
 	jumpthisopenedtext
 
-	text "A golden apple"
-	line "tree stands atop"
-	cont "a glass mountain…"
+	text "Un manzano de oro"
+	line "se alza en la cima"
+
+	para "de una montaña de"
+	line "cristal…"
 	done
 
 .Saturday
 	jumpthisopenedtext
 
-	text "A dog digs in the"
-	line "garden and finds"
-	cont "golden treasure…"
+	text "Un perro escarba"
+	line "en el jardín y ha-"
+
+	para "lla un tesoro de"
+	line "oro…"
 	done
 
 ValeriesHouseFairyBookText:
-	text "It's a book of"
-	line "fairy tales."
+	text "Es un libro de"
+	line "cuentos de hadas."
 	done

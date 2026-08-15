@@ -60,19 +60,19 @@ SaffronMagnetTrainStationGymGuideScript:
 	iftrue_jumptextfaceplayer SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "The Magnet Train"
-	line "is a super modern"
+	text "El Magnetotrén es"
+	line "un tren ultramo-"
+	cont "derno que usa"
 
-	para "rail liner that"
-	line "uses electricity"
+	para "electricidad e"
+	line "imanes para alcan-"
 
-	para "and magnets to"
-	line "attain incredible"
-	cont "speed."
+	para "zar una velocidad"
+	line "increíble."
 
-	para "However, if there"
-	line "isn't any elec-"
-	cont "tricity…"
+	para "Sin embargo, si"
+	line "no hay nada de"
+	cont "electricidad…"
 	done
 
 SaffronMagnetTrainStationOfficerApproachTrainDoorMovement:

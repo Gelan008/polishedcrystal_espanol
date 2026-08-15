@@ -136,64 +136,69 @@ MapRuinsofAlphKabutoChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Welcome to this"
-	line "chamber."
+	text "Te damos la bien-"
+	line "venida a esta"
+	cont "cámara."
 
-	para "There are sliding"
-	line "panels that depict"
+	para "Hay paneles desli-"
+	line "zantes con un #-"
 
-	para "a #mon drawn by"
-	line "the ancients."
+	para "mon dibujado por"
+	line "los antiguos."
 
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
+	para "Mueve los paneles"
+	line "para recomponer la"
+	cont "imagen."
 
-	para "To the right is a"
-	line "description of the"
-	cont "#mon."
+	para "A la derecha verás"
+	line "la descripción"
+	cont "del #mon."
 
-	para "Scientists in the"
-	line "back are examining"
+	para "Los científicos"
+	line "del fondo examinan"
 
-	para "some newly found"
-	line "patterns."
+	para "nuevos dibujos re-"
+	line "cién descubiertos."
 	done
 
 RuinsOfAlphKabutoChamberScientistCrypticText:
-	text "Recently, strange,"
-	line "cryptic patterns"
-	cont "have appeared."
+	text "Hace poco apare-"
+	line "cieron extraños di-"
+	cont "bujos crípticos."
 
-	para "It's odd. They"
-	line "weren't here a"
-	cont "little while ago…"
+	para "Es raro. ¡Hace un"
+	line "momento no estaban"
+	cont "aquí…!"
 
-	para "You should take a"
-	line "look at the walls."
+	para "Deberías echarle"
+	line "un vistazo a las"
+	cont "paredes."
 	done
 
 RuinsOfAlphKabutoChamberScientistHoleText:
-	text "Ah! Here's another"
-	line "huge hole!"
+	text "¡Ah! ¡Aquí hay"
+	line "otro enorme agu-"
+	cont "jero!"
 
-	para "It's big enough to"
-	line "go through!"
+	para "¡Es tan grande que"
+	line "se puede pasar!"
 	done
 
 RuinsOfAlphKabutoChamberScientistTremorText:
-	text "That tremor was"
-	line "pretty scary!"
+	text "¡Ese temblor dio"
+	line "mucho miedo!"
 
-	para "But I'm more"
-	line "concerned about"
-	cont "this wall here…"
+	para "Pero me preocupa"
+	line "más esta pared de"
+	cont "aquí…"
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "A #mon that hid"
-	line "on the sea floor."
+	text "Un #mon que se"
+	line "escondía en el"
+	cont "fondo del mar."
 
-	para "Eyes on its back"
-	line "scanned the area."
+	para "Vigilaba alrededor"
+	line "con los ojos de su"
+	cont "espalda."
 	done

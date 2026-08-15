@@ -67,41 +67,45 @@ VioletGymFalknerScript:
 	setevent EVENT_GOT_TM31_ROOST
 	jumpthisopenedtext
 
-	text "By using a TM, a"
-	line "#mon will"
+	text "Al usar una MT, el"
+	line "#mon aprende"
 
-	para "instantly learn a"
-	line "new move."
+	para "un movimiento al"
+	line "instante."
 
-	para "A TM can be used"
-	line "as many times as"
-	cont "you want."
+	para "¡Puedes usar las"
+	line "MT tantas veces"
+	cont "como quieras!"
 
-	para "TM51 contains"
-	line "Roost."
+	para "La MT51 contiene"
+	line "Respiro."
 
-	para "It lands on the"
-	line "ground to restore"
-	cont "half the max HP."
+	para "Aterriza en el"
+	line "suelo para recu-"
+
+	para "perar la mitad de"
+	line "los PS máximos."
 	done
 
 GenericTrainerBird_keeperRod:
 	generictrainer BIRD_KEEPER, ROD, EVENT_BEAT_BIRD_KEEPER_ROD, Bird_keeperRodSeenText, Bird_keeperRodBeatenText
 
-	text "Pegaso's skills"
-	line "are for real!"
+	text "¡La destreza de"
+	line "Pegaso es real!"
 
-	para "Don't get cocky"
-	line "just because you"
-	cont "beat me!"
+	para "¡No te crezcas"
+	line "solo por haberme"
+	cont "vencido a mí!"
 	done
 
 GenericTrainerBird_keeperAbe:
 	generictrainer BIRD_KEEPER, ABE, EVENT_BEAT_BIRD_KEEPER_ABE, Bird_keeperAbeSeenText, Bird_keeperAbeBeatenText
 
-	text "This is pathetic,"
-	line "losing to some"
-	cont "rookie trainer…"
+	text "Qué patético,"
+	line "perder contra un"
+
+	para "entrenador nova-"
+	line "to…"
 	done
 
 VioletGymGuyScript:
@@ -109,24 +113,25 @@ VioletGymGuyScript:
 	iftrue_jumptextfaceplayer VioletGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Hey! I'm no train-"
-	line "er but I can give"
-	cont "some advice!"
+	text "¡Hola! No soy en-"
+	line "trenador, ¡pero sé"
+	cont "dar buenos conse-"
+	cont "jos!"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "¡Créeme! Si crees"
+	line "en ti, el sueño"
 
-	para "championship dream"
-	line "can come true."
+	para "de ser Campeón se"
+	line "puede cumplir."
 
-	para "You believe?"
-	line "Then listen."
+	para "¿Tú crees en ti?"
+	line "Pues escucha."
 
-	para "The Grass-type is"
-	line "weak against the"
+	para "El tipo Planta es"
+	line "débil contra el"
 
-	para "Flying-type. Keep"
-	line "this in mind."
+	para "tipo Volador."
+	line "Recuérdalo bien."
 	done
 
 VioletGymStatue:
@@ -142,26 +147,26 @@ VioletGymStatue:
 	jumpstd gymstatue3
 
 FalknerIntroText:
-	text "I'm Pegaso, the"
-	line "Violet #mon Gym"
-	cont "Leader!"
+	text "¡Soy Pegaso, Líder"
+	line "del Gimnasio"
+	cont "#mon de Malva!"
 
-	para "People say you can"
-	line "clip Flying-type"
+	para "Dicen que se pue-"
+	line "den cortar las alas"
 
-	para "#mon's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "a los #mon tipo"
+	line "Volador con una"
+	cont "descarga eléctrica…"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#mon!"
+	para "¡No toleraré tales"
+	line "insultos a los"
+	cont "#mon pájaro!"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "¡Te mostraré el"
+	line "auténtico poder de"
 
-	para "magnificent bird"
-	line "#mon!"
+	para "los magníficos"
+	line "#mon pájaro!"
 	done
 
 FalknerWinLossText:
@@ -183,77 +188,76 @@ FalknerZephyrBadgeText:
 
 	para "dar órdenes a los"
 	line "#mon, intercam-"
-	cont "-biados inclusive,"
+	cont "biados inclusive,"
 	cont "hasta el <LV>20."
 
 	para "Oye, ¡toma esto"
 	line "también!"
 	done
 
-
 FalknerFightDoneText:
-	text "There are #mon"
-	line "Gyms in cities and"
-	cont "towns ahead."
+	text "Hay Gimnasios"
+	line "#mon en otras"
+	cont "ciudades y pueblos."
 
-	para "You should test"
-	line "your skills at"
-	cont "these Gyms."
+	para "Deberías poner a"
+	line "prueba tu talento"
+	cont "en ellos."
 
-	para "I'm going to train"
-	line "harder to become"
+	para "¡Entrenaré más du-"
+	line "ro para ser el me-"
 
-	para "the greatest bird"
-	line "master!"
+	para "jor maestro de"
+	line "#mon pájaro!"
 	done
 
 Bird_keeperRodSeenText:
-	text "The keyword is"
-	line "guts!"
+	text "¡La clave son las"
+	line "agallas!"
 
-	para "Those here are"
-	line "training night and"
+	para "¡Los de aquí en-"
+	line "trenan noche y día"
 
-	para "day to become bird"
-	line "#mon masters."
+	para "para ser maestros"
+	line "de #mon pájaro!"
 
-	para "Come on!"
+	para "¡Vamos allá!"
 	done
 
 Bird_keeperRodBeatenText:
-	text "Gaaah!"
+	text "¡Gaaah!"
 	done
 
 Bird_keeperAbeSeenText:
-	text "Let me see if you"
-	line "are good enough to"
-	cont "face Pegaso!"
+	text "¡A ver si tienes el"
+	line "nivel para enfren-"
+	cont "tarte a Pegaso!"
 	done
 
 Bird_keeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+	text "¡Esto no puede"
+	line "ser verdad!"
 	done
 
-
 VioletGymGuyWinText:
-	text "Nice battle! Keep"
-	line "it up, and you'll"
+	text "¡Buen combate!"
+	line "¡Sigue así y serás"
 
-	para "be the Champ in no"
-	line "time at all!"
+	para "Campeón en un san-"
+	line "tiamén!"
 	done
 
 VioletGymGuyFalknerAwayText:
-	text "Hey! You can't"
-	line "challenge Pegaso"
-	cont "right now."
+	text "¡Oye! No puedes"
+	line "retar a Pegaso"
+	cont "ahora mismo."
 
-	para "He's in Dark Cave"
-	line "taming an Ursa-"
+	para "Está en Cueva Os-"
+	line "cura amansando a"
 
-	para "ring that attacked"
-	line "a young trainer."
+	para "un Ursaring que"
+	line "atacó a un joven"
+	cont "entrenador."
 
-	para "Come back later."
+	para "Vuelve más tarde."
 	done

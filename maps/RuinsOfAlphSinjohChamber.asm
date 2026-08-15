@@ -109,11 +109,11 @@ MovementData_WarpToSinjohRuins:
 	step_end
 
 RuinsofAlphSinjohChamberMystriText:
-	text "The lead enters"
-	line "the Mystri Stage"
-	cont "at last."
+	text "El líder entra"
+	line "por fin en el"
+	cont "Estrado Mistrío."
 	done
 
 RuinsofAlphSinjohChamberSurpriseText: ; text > text
-	text "…!"
+	text "¡…!"
 	done

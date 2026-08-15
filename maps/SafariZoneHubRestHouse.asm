@@ -21,20 +21,21 @@ PokemonJournalKogaScript:
 	setflag ENGINE_READ_KOGA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Elite Four Koga!"
+	para "Edición especial:"
+	line "¡Koga, del Alto"
+	cont "Mando!"
 
-	para "Koga is said to"
-	line "have a thorough"
+	para "Se dice que Koga"
+	line "tiene grandes"
 
-	para "knowledge of"
-	line "medicine."
+	para "conocimientos de"
+	line "medicina."
 
-	para "He even concocts"
-	line "medicine to nurse"
+	para "Incluso prepara su"
+	line "propia medicina"
 
-	para "his #mon to"
-	line "health."
+	para "para curar a sus"
+	line "#mon."
 	done

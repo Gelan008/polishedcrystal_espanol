@@ -28,75 +28,75 @@ WarmBeach_MapScriptHeader:
 GenericTrainerSightseermGareth:
 	generictrainer SIGHTSEERM, GARETH, EVENT_BEAT_SIGHTSEERM_GARETH, .SeenText, .BeatenText
 
-	text "Even outside of"
-	line "battle, these"
+	text "Incluso fuera del"
+	line "combate, estos ob-"
 
-	para "items make memor-"
-	line "able souvenirs."
+	para "jetos son grandes"
+	line "recuerdos."
 	done
 
 .SeenText:
-	text "I just picked up"
-	line "some useful items"
+	text "¡Acabo de comprar"
+	line "objetos muy útiles"
 
-	para "from the outdoor"
-	line "market!"
+	para "en el mercadillo"
+	line "al aire libre!"
 	done
 
 .BeatenText:
-	text "My items weren't"
-	line "enough…"
+	text "Mis objetos no han"
+	line "bastado…"
 	done
 
 GenericTrainerAromaLadyHolly:
 	generictrainer AROMA_LADY, HOLLY, EVENT_BEAT_AROMA_LADY_HOLLY, .SeenText, .BeatenText
 
-	text "The sense of smell"
-	line "is vital to living"
-	cont "in nature."
+	text "El olfato es vital"
+	line "para vivir en ple-"
+	cont "na naturaleza."
 	done
 
 .SeenText:
-	text "I am at one with"
-	line "the aromas of"
-	cont "nature."
+	text "Estoy en armonía"
+	line "con los aromas de"
+	cont "la naturaleza."
 	done
 
 .BeatenText:
-	text "Defeat has its"
-	line "own scent…"
+	text "La derrota tiene"
+	line "su propio aroma…"
 	done
 
 WarmBeachCooltrainermText:
-	text "There's a #mon"
-	line "here that talks!"
+	text "¡Hay un #mon por"
+	line "aquí que habla!"
 
-	para "I would never be-"
-	line "lieve it if I"
+	para "¡No me lo creería"
+	line "si no lo hubiera"
 
-	para "hadn't seen it for"
-	line "myself!"
+	para "visto con mis pro-"
+	line "pios ojos!"
 	done
 
 WarmBeachCooltrainerfText:
-	text "I've been selected"
-	line "as the festival"
-	cont "maiden this year,"
+	text "Me han elegido do-"
+	line "ncella del festi-"
+	cont "val este año,"
 
-	para "so I have to play"
-	line "the melody of the"
-	cont "Chosen One."
+	para "así que tengo que"
+	line "tocar la melodía"
+	cont "del Elegido."
 
-	para "I'm pretty nervous,"
-	line "so I came here to"
-	cont "practice."
+	para "Estoy de los ner-"
+	line "vios, así que vine"
+	cont "aquí a practicar."
 	done
 
 WarmBeachSlowkingScript:
 	jumpthistext
 
-	text "I could use"
-	line "pants…"
+	text "Me vendrían bien"
+	line "unos pantalones…"
 	done
 
 WarmBeachLassScript:
@@ -119,70 +119,68 @@ WarmBeachLassScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "One Shell Bell,"
-	line "just for you!"
+	text "¡Una Campana Alivio"
+	line "solo para ti!"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "You don't have"
-	line "enough money…"
+	text "No tienes sufi-"
+	line "ciente dinero…"
 	done
 
 .Text1:
-	text "I collect shells"
-	line "off the beach and"
+	text "Recojo conchas de"
+	line "la playa y hago"
 
-	para "turn them into"
-	line "Shell Bells."
+	para "Campan. Alivio con"
+	line "ellas."
 
-	para "People say their"
-	line "chime is healing."
+	para "Dicen que su soni-"
+	line "do es curativo."
 
-	para "They're ¥4000"
-	line "each. Want one?"
+	para "Cuestan ¥4000 cada"
+	line "una. ¿Quieres una?"
 	done
 
 .Text3:
-	text "I only made one"
-	line "Shell Bell today…"
+	text "Hoy solo he podido"
+	line "hacer una Campana"
+	cont "Alivio…"
 	done
 
 .Text4:
-	text "That's OK!"
+	text "¡No pasa nada!"
 	done
 
 .Text6:
-	text "You don't have"
-	line "enough room…"
+	text "No tienes sufi-"
+	line "ciente espacio…"
 	done
 
 WarmBeachLadyText:
-	text "Those islands"
-	line "across the water"
+	text "Esas islas que se"
+	line "ven a lo lejos"
 
-	para "are known as the"
-	line "temples of Fire,"
+	para "se conocen como"
+	line "los templos del"
 
-	para "Ice, and Light-"
-	line "ning."
+	para "Fuego, el Hielo"
+	line "y el Rayo."
 
-	para "That's what this"
-	line "brochure says,"
+	para "Eso dice este fo-"
+	line "lleto, pero ¿para"
 
-	para "but what are they"
-	line "for?"
+	para "qué servirán?"
 	done
 
 WarmBeachShackSignText:
-	text "Beach Shack"
+	text "Cabaña de la Playa"
 	done
 
 WarmBeachShrineText:
-	text "It's a shrine"
-	line "dedicated to the"
-
-	para "Guardian of the"
-	line "Seas."
+	text "Es un santuario"
+	line "dedicado al Guardi-"
+	cont "án de los Mares."
 	done

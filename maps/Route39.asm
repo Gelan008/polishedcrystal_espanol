@@ -398,13 +398,13 @@ PokefanfJaimeBeatenText:
 
 Route39BeautyText:
 	text "¿Cuál es más alta:"
-	line "la Torre Campana"
+	line "la Torre Hojalata"
 	cont "de Ciudad Iris,"
 
 	para "¿o el Faro de Ciu-"
 	line "dad Olivo?"
 
-	para "¡La Torre Campana,"
+	para "¡La Torre Hojalata,"
 	line "sin duda!"
 	done
 

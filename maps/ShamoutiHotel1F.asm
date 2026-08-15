@@ -27,15 +27,17 @@ ShamoutiHotel1FRestaurantTrigger:
 	endcallback
 
 ShamoutiHotel1FReceptionistText:
-	text "Welcome to the"
-	line "Shamouti Hotel."
+	text "¡Te damos la bien-"
+	line "venida al Hotel"
+	cont "Shamouti!"
 
-	para "I'm afraid our"
-	line "rooms are all"
-	cont "booked, but please"
+	para "Me temo que todas"
+	line "las habitaciones"
+	cont "están ocupadas,"
 
-	para "visit our deluxe"
-	line "Oasis Restaurant."
+	para "pero puedes visi-"
+	line "tar el exclusivo"
+	cont "Restaurante Oasis."
 	done
 
 ShamoutiHotel1FArtistScript:
@@ -59,76 +61,77 @@ ShamoutiHotel1FArtistScript:
 	jumpopenedtext .Text5
 
 .Text1:
-	text "No matter where"
-	line "you go, <TRENDY>"
+	text "Vayas donde vayas,"
+	line "¡<TRENDY> es"
 
-	para "is the coolest"
-	line "thing around!"
-	cont "Isn't that so?"
+	para "lo más guay que"
+	line "hay! ¿A que sí?"
 	done
 
 .Text2:
-	text "What?! <TRENDY>"
-	line "isn't the coolest"
-	cont "thing around?"
+	text "¡¿Qué?! ¿Que"
+	line "<TRENDY> no"
+	cont "es lo más guay?"
 
-	para "Well, what is the"
-	line "coolest thing"
-	cont "these days?"
+	para "Bueno, ¿pues qué"
+	line "es lo que está de"
+	cont "moda estos días?"
 	done
 
 .Text3:
-	text "Oh, yeah! I've got"
-	line "it now!"
+	text "¡Ah, sí! ¡Ya lo"
+	line "tengo!"
 
-	para "<TRENDY> is"
-	line "totally the best"
-	cont "thing ever!"
+	para "¡<TRENDY> es"
+	line "lo mejor de todo,"
+	cont "sin duda!"
 	done
 
 .Text4:
-	text "<TRENDY> is the"
-	line "hip and happening"
-	cont "thing right now!"
+	text "¡<TRENDY> es"
+	line "lo que se lleva"
+	cont "ahora mismo!"
 	done
 
 .Text5:
-	text "You know it!"
-	line "I just can't get"
-	cont "enough of"
+	text "¡Ya te digo!"
+	line "¡Es que no me can-"
+	cont "so para nada de"
 	cont "<TRENDY>!"
 	done
 
 ShamoutiHotel1FCooltrainermText:
-	text "So <TRENDY> is"
-	line "the hot new thing?"
+	text "¿Conque <TRENDY>"
+	line "es la nueva moda?"
 
-	cont "That's so cool!"
+	para "¡Mola un montón!"
 	done
 
 ShamoutiHotel1FLadyText:
-	text "Have you ever"
-	line "found a Bottle Cap"
-	cont "while fishing?"
+	text "¿Alguna vez has"
+	line "pescado una Chapa"
+	cont "Plateada?"
 
-	para "In Alola, where I'm"
-	line "from, there's a man"
+	para "En Alola, de donde"
+	line "vengo, hay un"
 
-	para "who will “Hyper"
-	line "Train” your #-"
-	cont "mon--bringing out"
+	para "hombre que hace"
+	line "“Entrenamiento"
 
-	para "its full poten-"
-	line "tial--just for a"
-	cont "Bottle Cap."
+	para "Extremo” a tus"
+	line "#mon para sacar"
+
+	para "su máximo poten-"
+	line "cial a cambio de"
+	cont "una Chapa Plateada."
 	done
 
 ShamoutiHotel1FYoungsterText:
-	text "I heard that"
-	line "<TRENDY> is “in”"
-	cont "right now!"
+	text "¡He oído que"
+	line "<TRENDY> está"
+	cont "de moda ahora!"
 	done
 
 ShamoutiHotelRestaurantSignText:
-	text "Oasis Restaurant"
+	text "Restaurante Oasis"
 	done

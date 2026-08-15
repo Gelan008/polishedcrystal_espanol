@@ -45,153 +45,159 @@ OreManiacScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "The deal is done!"
-	line "I've scored an ore"
-	cont "I can adore!"
+	text "¡Trato hecho!"
+	line "¡He conseguido un"
+
+	para "mineral que me"
+	line "enamora de verdad!"
 	done
 
 .GreetingText:
-	text "Ore, ore, ore…"
-	line "Ores that I adore!"
+	text "Minerales… ¡ay,"
+	line "cuánto me fascinan"
+	cont "los minerales!"
 
-	para "I'll pay you well"
-	line "for rare ores."
+	para "Pagaré muy bien"
+	line "por los minerales"
+	cont "más raros."
 
-	para "Don't you have an"
-	line "adorable ore that"
-	cont "shakes my core?"
+	para "¿No tienes algún"
+	line "mineral colosal"
+
+	para "que me haga aluci-"
+	line "nar de verdad?"
 	done
 
 .OfferText:
-	text "That ore, it's"
-	line "shaking me!"
+	text "¡Ese mineral me"
+	line "hace alucinar!"
 
-	para "Will you sell it"
-	line "for ¥"
+	para "¿Me lo venderías"
+	line "por ¥"
 	text_decimal hMoneyTemp, 3, 7
 	text "?"
 	done
 
 .WrongItemText:
-	text "Huh? What on earth"
-	line "is this?"
+	text "¿Eh? ¿Pero qué"
+	line "diablos es esto?"
 
-	para "You can't shake my"
-	line "core with an ore"
-	cont "so poor!"
+	para "¡Un mineral tan ba-"
+	line "rato no me va a"
+	cont "fascinar!"
 	done
 
 .NoItemText:
-	text "Hmmm. My core won't"
-	line "change."
+	text "Mmm. Nada me saca"
+	line "de mi asombro."
 
-	para "I hope you sell"
-	line "one to me someday."
+	para "Espero que algún"
+	line "día me vendas uno."
 	done
 
 GenericTrainerTamerOswald:
 	generictrainer TAMER, OSWALD, EVENT_BEAT_TAMER_OSWALD, .SeenText, .BeatenText
 
-	text "I'm a Tamer now,"
-	line "but when I first"
+	text "Ahora soy Domador,"
+	line "pero cuando empe-"
 
-	para "started out in"
-	line "the circus I was"
+	para "cé en el circo"
+	line "hacía el número"
 
-	para "in the #mon"
-	line "trapeze act."
+	para "del trapecio con"
+	line "#mon."
 	done
 
 .SeenText:
-	text "I was born a"
-	line "circus man."
+	text "Nací siendo un"
+	line "hombre de circo."
 
-	para "Now I'm also a"
-	line "fierce battler."
+	para "¡Y ahora también"
+	line "soy un fiero lu-"
+	cont "chador!"
 	done
 
 .BeatenText:
-	text "I couldn't tame"
-	line "your #mon…"
+	text "No pude domar a"
+	line "tus #mon…"
 	done
 
 GenericTrainerFirebreatherTala:
 	generictrainer FIREBREATHER, TALA, EVENT_BEAT_FIREBREATHER_TALA, .SeenText, .BeatenText
 
-	text "My fire-breathing"
-	line "act is really"
+	text "Mi número de tra-"
+	line "gafuegos es muy"
 
-	para "popular with the"
-	line "tourists."
+	para "popular entre los"
+	line "turistas."
 
-	para "Some even leave"
-	line "donations!"
+	para "¡Algunos incluso"
+	line "me dejan propina!"
 	done
 
 .SeenText:
-	text "Roll up, roll up,"
-	line "for my spectacular"
-	cont "fire-breathing"
-	cont "extravaganza!"
+	text "¡Pasen y vean, pa-"
+	line "sen y vean mi gran"
+
+	para "y espectacular ex-"
+	line "travagancia de"
+	cont "fuego!"
 	done
 
 .BeatenText:
-	text "Burned out"
-	line "already!"
+	text "¡Me he apagado"
+	line "tan pronto…!"
 	done
 
 GenericTrainerSightseerfNoelle:
 	generictrainer SIGHTSEERF, NOELLE, EVENT_BEAT_SIGHTSEERF_NOELLE, .SeenText, .BeatenText
 
-	text "I'm making a photo"
-	line "album to show my"
-	cont "parents."
+	text "Estoy haciendo un"
+	line "álbum de fotos pa-"
+	cont "ra mis padres."
 
-	para "Hey, don't look!"
-	line "It's private!"
+	para "¡Eh, no mires!"
+	line "¡Es privado!"
 	done
 
 .SeenText:
-	text "Oh my gosh!"
-	line "You have #mon"
+	text "¡Madre mía! ¡Tie-"
+	line "nes #mon que no"
+	cont "había visto nunca!"
 
-	para "that I haven't"
-	line "seen before!"
-
-	para "Can I take a"
-	line "photo?"
+	para "¿Puedo sacar una"
+	line "foto?"
 	done
 
 .BeatenText:
-	text "Aww… I lost?"
-	line "No problem!"
+	text "Oh… ¿He perdido?"
+	line "¡No pasa nada!"
 
-	para "Selfie! ♥"
-	line "Click!"
+	para "¡Un selfi! ♥"
+	line "¡Clic!"
 	done
 
 GenericTrainerSightseermChester:
 	generictrainer SIGHTSEERM, CHESTER, EVENT_BEAT_SIGHTSEERM_CHESTER, .SeenText, .BeatenText
 
-	text "So you're from"
-	line "Johto? I haven't"
-	cont "been there!"
+	text "¿Conque eres de"
+	line "Johto? ¡Nunca he"
+	cont "estado allí!"
 
-	para "Maybe I'll see"
-	line "you in the Battle"
-	cont "Tower."
+	para "Quizá nos veamos"
+	line "en la Torre"
+	cont "Batalla."
 	done
 
 .SeenText:
-	text "I'm traveling"
-	line "around the world."
+	text "Estoy viajando por"
+	line "todo el mundo."
 
-	para "Which region"
-	line "should I visit"
-	cont "next?"
+	para "¿Qué región debe-"
+	line "ría visitar ahora?"
 	done
 
 .BeatenText:
-	text "What a great"
-	line "experience!"
+	text "¡Qué gran expe-"
+	line "riencia!"
 	done
