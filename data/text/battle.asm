@@ -1357,8 +1357,9 @@ StartPerishSongText:
 	prompt
 
 StartPerishBodyText:
-	text "Both #mon will"
-	line "faint in 3 turns!"
+	text "¡Ambos #mon se"
+	line "debilitarán en"
+	cont "3 turnos!"
 	prompt
 
 SandstormBrewedText:
@@ -1924,33 +1925,34 @@ Archer1FinalPkmnText:
 	prompt
 
 Archer2FinalPkmnText:
-	text "Ah, you are indeed"
-	line "strong, but…"
-	cont "I wonder…"
+	text "Ah, es verdad que"
+	line "tienes fuerza,"
+	cont "pero… ¿bastará?"
 	prompt
 
 Ariana1FinalPkmnText:
-	text "Wh… Wha… Why are"
-	line "you so strong?!"
+	text "¿Có… cómo…? ¡¿Por"
+	line "qué tienes tanta"
+	cont "fuerza?!"
 	prompt
 
 Ariana2FinalPkmnText:
-	text "Hey, what do you"
-	line "think you're"
-	cont "doing?!"
+	text "¡Oye! ¡¿Qué te has"
+	line "creído que estás"
+	cont "haciendo?!"
 	prompt
 
 Giovanni1FinalPkmnText:
-	text "My #mon is"
-	line "invincible!"
+	text "¡Mi #mon es"
+	line "invencible!"
 	prompt
 
 Giovanni2FinalPkmnText:
-	text "Don't tell me some"
-	line "inexperienced kid"
+	text "¡No me digas que"
+	line "un crío sin expe-"
 
-	para "can possibly be"
-	line "that strong!"
+	para "riencia puede ser"
+	line "tan fuerte!"
 	prompt
 
 ProfOakFinalPkmnText:

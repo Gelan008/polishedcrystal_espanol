@@ -426,7 +426,7 @@ VermilionCityPortSignText:
 	done
 
 VermilionCityAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Pistas Entren.!"
 
 	para "Your Trainer Card"
 	line "has room to show"

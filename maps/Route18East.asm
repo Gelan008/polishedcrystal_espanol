@@ -19,45 +19,45 @@ Route18East_MapScriptHeader:
 GenericTrainerBird_keeperBoris:
 	generictrainer BIRD_KEEPER, BORIS, EVENT_BEAT_BIRD_KEEPER_BORIS, Bird_keeperBorisSeenText, Bird_keeperBorisBeatenText
 
-	text "Since you're so"
-	line "strong, it must be"
-	cont "fun to battle."
+	text "Siendo tan fuerte,"
+	line "debe de ser diver-"
+	cont "tido combatir."
 	done
 
 GenericTrainerBird_keeperBob:
 	generictrainer BIRD_KEEPER, BOB, EVENT_BEAT_BIRD_KEEPER_BOB, Bird_keeperBobSeenText, Bird_keeperBobBeatenText
 
-	text "If you don't have"
-	line "a Bicycle, you're"
+	text "Si no tienes una"
+	line "Bicicleta, no te"
 
-	para "not allowed to use"
-	line "the shortcut."
+	para "permiten usar el"
+	line "atajo."
 	done
 
 Bird_keeperBorisSeenText:
-	text "If you're looking"
-	line "for #mon, you"
+	text "Si andas buscando"
+	line "#mon, tienes"
 
-	para "have to look in"
-	line "the tall grass."
+	para "que buscar entre"
+	line "la hierba alta."
 	done
 
 Bird_keeperBorisBeatenText:
-	text "Ayieee!"
+	text "¡Aaaay!"
 	done
 
 Bird_keeperBobSeenText:
-	text "Cycling Road is a"
-	line "quick shortcut to"
-	cont "Celadon."
+	text "El Camino de Bicis"
+	line "es un buen atajo"
+	cont "para ir a Azulona."
 	done
 
 Bird_keeperBobBeatenText:
-	text "…Whew!"
+	text "… ¡Uf!"
 	done
 
 Route18SignText:
-	text "Route 18"
+	text "Ruta 18"
 
 	para "Ciudad Azulona -"
 	line "Ciudad Fucsia"

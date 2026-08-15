@@ -28,28 +28,29 @@ DayOfWeekSiblingsHousePokedexScript:
 	endtext
 
 DayOfWeekSiblingsHousePokedexText1:
-	text "There's something"
-	line "written here."
+	text "Hay algo escrito"
+	line "aquí."
 
-	para "Read it?"
+	para "¿Quieres leerlo?"
 	done
 
 DayOfWeekSiblingsHousePokedexText2:
-	text "To my brothers and"
-	line "sisters:"
+	text "Para mis hermanos"
+	line "y hermanas:"
 
-	para "We take pride in"
-	line "serving #mon"
-	cont "trainers."
+	para "Es un orgullo"
+	line "ayudar a los"
+	cont "entrenadores"
+	cont "#mon."
 
-	para "When trainers talk"
-	line "to you, give them"
-	cont "something useful."
+	para "Cuando hablen con"
+	line "vosotros, dadles"
+	cont "algo útil."
 
-	para "Love,"
+	para "Con cariño,"
 	line "Lune"
 
-	para "Keep reading?"
+	para "¿Seguir leyendo?"
 	done
 
 DayOfWeekSiblingsHousePokedexText3:
@@ -59,7 +60,7 @@ DayOfWeekSiblingsHousePokedexText3:
 	para "Martes, Marta"
 	line "Ruta 29"
 
-	para "Miércoles, Mireia"
+	para "Miércoles, Merlín"
 	line "Lago de la Furia"
 
 	para "Jueves, Juan"

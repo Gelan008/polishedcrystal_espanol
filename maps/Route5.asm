@@ -19,32 +19,33 @@ Route5_MapScriptHeader:
 	object_event 17, 28, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route5PokefanMText, EVENT_ROUTE_5_6_POKEFAN_M_BLOCKS_UNDERGROUND_PATH
 
 Route5PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "El camino está ce-"
+	line "rrado hasta que se"
 
-	para "at the Power Plant"
-	line "is solved."
+	para "resuelva el proble-"
+	line "ma de la Central"
+	cont "Energía."
 	done
 
 Route5UndergroundPathSignText:
-	text "Underground Path"
+	text "Vía Subterránea"
 
-	para "Cerulean City -"
-	line "Vermilion City"
+	para "Ciudad Celeste -"
+	line "Ciudad Carmín"
 	done
 
 Route5AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Pistas Entren.!"
 
-	para "Berserk Gene is"
-	line "a powerful held"
+	para "El Gen Loco es un"
+	line "objeto equipado"
 
-	para "item, but it"
-	line "causes confusion."
+	para "muy potente, pero"
+	line "causa confusión."
 
-	para "But a #mon"
-	line "with the Own Tempo"
+	para "¡Pero un #mon"
+	line "con la habilidad"
 
-	para "Ability won't"
-	line "get confused!"
+	para "Ritmo Propio no"
+	line "se confundirá!"
 	done

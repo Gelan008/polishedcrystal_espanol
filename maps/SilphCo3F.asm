@@ -61,7 +61,7 @@ SilphCo3FSilphEmployeeScript:
 	line "out in Azalea"
 	cont "Town? Great!"
 
-	para "I'm glad my Maizie"
+	para "I'm glad my Millie"
 	line "is doing well."
 
 	para "Take this as a"

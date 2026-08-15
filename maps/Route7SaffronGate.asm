@@ -22,36 +22,37 @@ Route7SaffronGuardScript:
 	iftrue_jumptextfaceplayer Route7SaffronGuardSeriousText
 	jumpthistextfaceplayer
 
-	text "Did you hear about"
-	line "the accident at"
-	cont "the Power Plant?"
+	text "¿Te enteraste del"
+	line "accidente de la"
+	cont "Central Energía?"
 
-	para "It's located in"
-	line "the East, close to"
-	cont "Lavender Town."
+	para "Está al este,"
+	line "cerca de Pueblo"
+	cont "Lavanda."
 	done
 
 Route7SaffronGuardSeriousText:
-	text "I take my guard"
-	line "job seriously."
+	text "Me tomo en serio"
+	line "mi trabajo de"
+	cont "guardia."
 
-	para "Hey! You have a"
+	para "¡Eh! Si tienes una"
 	line "#dex."
 
-	para "OK. You can go"
-	line "through."
+	para "De acuerdo. Puedes"
+	line "pasar."
 	done
 
 Route7SaffronGateSilphEmployeeText:
-	text "The Elite Four's"
-	line "Bruno used to hone"
+	text "Bruno, del Alto"
+	line "Mando, solía pulir"
 
-	para "his skills in"
-	line "Saffron."
+	para "su técnica en"
+	line "Ciudad Azafrán."
 
-	para "He trained with a"
-	line "guy named Brawly"
+	para "Entrenó con un"
+	line "tal Marcial en"
 
-	para "back in the early"
-	line "days."
+	para "sus primeros"
+	line "tiempos."
 	done

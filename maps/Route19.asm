@@ -60,53 +60,51 @@ Route19ClearRocks:
 GenericTrainerSwimmerfDawn:
 	generictrainer SWIMMERF, DAWN, EVENT_BEAT_SWIMMERF_DAWN, SwimmerfDawnSeenText, SwimmerfDawnBeatenText
 
-	text "It's a quick swim"
-	line "between Fuchsia"
+	text "Se llega nadando"
+	line "en nada entre Fuc-"
+	cont "sia e Islas Espuma…"
 
-	para "and Seafoam Is-"
-	line "lands…"
-
-	para "Sheesh, some big"
-	line "man my boyfriend"
-	cont "is! What a wimp!"
+	para "¡Menudo hombretón"
+	line "está hecho mi no-"
+	cont "vio! ¡Qué quejica!"
 	done
 
 GenericTrainerSwimmermTucker:
 	generictrainer SWIMMERM, TUCKER, EVENT_BEAT_SWIMMERM_TUCKER, SwimmermTuckerSeenText, SwimmermTuckerBeatenText
 
-	text "I… asked my girl-"
-	line "friend to swim to"
-	cont "Fuchsia… Gasp…"
+	text "Le pedí a mi novia"
+	line "ir nadando hasta"
+	cont "Fucsia… Uf… Uf…"
 	done
 
 GenericTrainerSwimmermJerome:
 	generictrainer SWIMMERM, JEROME, EVENT_BEAT_SWIMMERM_JEROME, SwimmermJeromeSeenText, SwimmermJeromeBeatenText
 
-	text "I might be bad at"
-	line "swimming, but I"
-	cont "love the sea."
+	text "Nadar no se me da"
+	line "muy bien, pero me"
+	cont "encanta el mar."
 	done
 
 GenericTrainerSwimmermHarold:
 	generictrainer SWIMMERM, HAROLD, EVENT_BEAT_SWIMMERM_HAROLD, SwimmermHaroldSeenText, SwimmermHaroldBeatenText
 
-	text "At night, the sea"
-	line "turns black. It"
+	text "De noche, el mar"
+	line "se vuelve negro."
 
-	para "feels like it will"
-	line "swallow you up."
+	para "Da la sensación de"
+	line "que te va a tragar"
+	cont "por completo."
 	done
 
 GenericTrainerCosplayerBrooke:
 	generictrainer COSPLAYER, BROOKE, EVENT_BEAT_COSPLAYER_BROOKE, CosplayerBrookeSeenText, CosplayerBrookeBeatenText
 
-	text "I made this outfit"
-	line "for a fancy dress"
-	cont "party, but I love"
+	text "Hice este disfraz"
+	line "para una fiesta,"
 
-	para "it so much that I"
-	line "wear it elsewhere"
-	cont "too."
+	para "¡pero me gusta tan-"
+	line "to que lo llevo a"
+	cont "todas partes!"
 	done
 
 Route19Fisher1Script:
@@ -114,8 +112,9 @@ Route19Fisher1Script:
 	iffalse_jumptextfaceplayer Route19Fisher1Text
 	jumpthistextfaceplayer
 
-	text "I'm all sweaty."
-	line "Time for a swim!"
+	text "Estoy empapado en"
+	line "sudor. ¡Toca darse"
+	cont "un baño!"
 	done
 
 Route19Fisher2Script:
@@ -123,53 +122,53 @@ Route19Fisher2Script:
 	iffalse_jumptextfaceplayer Route19EngineerText1
 	jumpthistextfaceplayer
 
-	text "The roadwork is"
-	line "finally finished."
+	text "Las obras por fin"
+	line "han terminado."
 
-	para "Now I can go"
-	line "fishing again."
+	para "Ahora podré volver"
+	line "a pescar."
 	done
 
 SwimmerfDawnSeenText:
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "¡No soporto a los"
+	line "hombres quejicas!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "I could beat you"
-	line "at swimming…"
+	text "Seguro que a na-"
+	line "dar te ganaba…"
 	done
 
 SwimmermTuckerSeenText:
-	text "Pant, pant…"
-	line "Just… a little…"
+	text "Uf, uf… Ya solo…"
+	line "un poco más…"
 
-	para "farther… to…"
-	line "Fuchsia…"
+	para "para llegar… a…"
+	line "Fucsia…"
 	done
 
 SwimmermTuckerBeatenText:
-	text "I'm drowning!"
+	text "¡Que me ahogo!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Swimming?"
-	line "I'm lousy at it."
+	text "¿Nadar? Se me da"
+	line "fatal."
 
-	para "I'm just splashing"
-	line "around in these"
-	cont "shallow waters."
+	para "Solo estoy aquí"
+	line "chapoteando en la"
+	cont "orilla."
 	done
 
 SwimmermJeromeBeatenText:
-	text "I thought I could"
-	line "win."
+	text "Pensaba que podía"
+	line "ganar."
 	done
 
 SwimmermHaroldSeenText:
-	text "Have you ever gone"
-	line "swimming in the"
-	cont "sea at night?"
+	text "¿Has nadado alguna"
+	line "vez en el mar de"
+	cont "noche?"
 	done
 
 SwimmermHaroldBeatenText: ; text > text
@@ -177,48 +176,46 @@ SwimmermHaroldBeatenText: ; text > text
 	done
 
 CosplayerBrookeSeenText:
-	text "Dressing up is"
-	line "such fun!"
+	text "¡Disfrazarse es"
+	line "súper divertido!"
 	done
 
 CosplayerBrookeBeatenText:
-	text "You'd better not"
-	line "have damaged my"
-	cont "costume!"
+	text "¡Más te vale no"
+	line "haberme roto el"
+	cont "disfraz!"
 	done
 
 Route19Fisher1Text:
-	text "Sorry. This road"
-	line "is closed for"
-	cont "construction."
+	text "Perdón. Esta ruta"
+	line "está cortada por"
+	cont "obras."
 
-	para "If you want to get"
-	line "to Cinnabar, you'd"
+	para "Si quieres llegar"
+	line "a Isla Canela,"
 
-	para "better go south"
-	line "from Pallet Town."
+	para "es mejor que vayas"
+	line "al sur de Pueblo"
+	cont "Paleta."
 	done
-
 
 Route19EngineerText1:
-	text "Who knows how long"
-	line "it would take to"
-	cont "move this boulder…"
+	text "A saber cuánto nos"
+	line "llevará mover esta"
+	cont "roca gigante…"
 	done
 
-
 Route19SignText:
-	text "Route 19"
+	text "Ruta 19"
 
-	para "Fuchsia City -"
-	line "Seafoam Islands"
+	para "Ciudad Fucsia -"
+	line "Islas Espuma"
 	done
 
 CarefulSwimmingSignText:
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to Seafoam"
-	cont "Islands."
+	text "Mucha precaución"
+	line "si vas a nado a"
+	cont "Islas Espuma."
 
-	para "Fuchsia Police"
+	para "Policía de Fucsia"
 	done

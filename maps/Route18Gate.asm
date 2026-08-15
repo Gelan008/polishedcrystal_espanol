@@ -67,18 +67,20 @@ Route17Route18GateCannotPassMovement:
 	step_end
 
 Route17Route18GateOfficerText:
-	text "Cycling Road"
-	line "starts going"
-	cont "uphill here."
+	text "El Camino de Bicis"
+	line "empieza a subir"
+	cont "cuesta arriba aquí."
 	done
 
 Route17Route18GateCannotPassText:
-	text "Hang on! Don't you"
-	line "have a Bicycle?"
+	text "¡Un momento! ¿No"
+	line "llevas Bicicleta?"
 
-	para "The Cycling Road"
-	line "is beyond here."
+	para "Más adelante está"
+	line "el Camino de"
+	cont "Bicis."
 
-	para "You have to have a"
-	line "Bicycle to go on."
+	para "¡Necesitas una"
+	line "Bicicleta para"
+	cont "poder pasar!"
 	done

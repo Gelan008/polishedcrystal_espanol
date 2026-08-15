@@ -17,9 +17,9 @@ Route42EcruteakGate_MapScriptHeader:
 	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route42EcruteakGateOfficerText, -1
 
 Route42EcruteakGateOfficerText:
-	text "Mt.Mortar is like"
-	line "a maze inside."
+	text "El Monte Mortero"
+	line "es un laberinto."
 
-	para "Be careful. Don't"
-	line "get lost in there."
+	para "Ten cuidado. ¡No"
+	line "te pierdas dentro!"
 	done

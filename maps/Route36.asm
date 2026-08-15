@@ -134,29 +134,31 @@ Route36FloriaScript:
 	iftrue_jumptextfaceplayer FloriaTextAfterSquirtBottle
 	jumpthistextfaceplayer
 
-	text "I'm the Flower"
-	line "Shop's Floria!"
+	text "¡Soy Floria, de la"
+	line "Floristería!"
 
-	para "Listen, listen!"
+	para "¡Oye, oye!"
 
-	para "When I sprinkled"
-	line "water on that"
+	para "Cuando le eché"
+	line "agua a ese árbol"
 
-	para "wiggly tree, it"
-	line "jumped right up!"
+	para "que se menea,"
+	line "¡dio un respingo!"
 
-	para "It just has to be"
-	line "a #mon."
+	para "Tiene que ser un"
+	line "#mon seguro."
 
-	para "I bet it would be"
-	line "shocked out of its"
+	para "¡Seguro que si lo"
+	line "empapas bien,"
 
-	para "disguise if you"
-	line "soaked it!"
+	para "saldrá de su"
+	line "escondite!"
 
-	para "I know! I'll tell"
-	line "my sis and borrow"
-	cont "her water bottle!"
+	para "¡Ya sé! ¡Se lo di-"
+	line "ré a mi hermana y"
+
+	para "le pediré la"
+	line "Regadera!"
 	done
 
 Route36RockSmashGuyScript:
@@ -168,16 +170,15 @@ Route36RockSmashGuyScript:
 	iftruefwd .ClearedSudowoodo
 	jumpthisopenedtext
 
-	text "Wa-hey!"
+	text "¡Aaaah!"
 
-	para "I was going to"
-	line "snap that tree"
+	para "¡Iba a partir ese"
+	line "árbol con mi golpe"
+	cont "directo!"
 
-	para "with my straight-"
-	line "arm punch."
-
-	para "But I couldn't!"
-	line "I'm a failure!"
+	para "¡Pero no he podi-"
+	line "do! ¡Soy un fraca-"
+	cont "sado!"
 	done
 
 .ClearedSudowoodo:
@@ -188,25 +189,25 @@ Route36RockSmashGuyScript:
 .AlreadyGotRockSmash:
 	jumpthisopenedtext
 
-	text "That happens to be"
+	text "Ese resulta ser"
 if DEF(FAITHFUL)
-	line "Rock Smash."
+	line "Golpe Roca."
 else
-	line "Brick Break."
+	line "Demolición."
 endc
 
-	para "You can shatter"
-	line "rocks with just a"
+	para "Puedes hacer pe-"
+	line "dazos las rocas"
 
-	para "single well-aimed"
-	line "smack."
+	para "de un solo golpe"
+	line "bien dado."
 
-	para "If any rocks are"
-	line "in your way, just"
+	para "Si alguna roca se"
+	line "cruza en tu camino,"
 if DEF(FAITHFUL)
-	cont "smash 'em up!"
+	cont "¡hazla trizas!"
 else
-	cont "break 'em up!"
+	cont "¡rómpela bien!"
 endc
 	done
 
@@ -215,15 +216,15 @@ Route36LassScript:
 	iftrue_jumptextfaceplayer Route36LassText_ClearedSudowoodo
 	jumpthistextfaceplayer
 
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to Goldenrod City."
+	text "Un árbol raro cor-"
+	line "ta el paso hacia"
+	cont "Ciudad Trigal."
 
-	para "I wanted to go see"
-	line "the huge #mon"
+	para "Quería ir a ver el"
+	line "enorme Centro"
 
-	para "Center they just"
-	line "opened…"
+	para "#mon que acaban"
+	line "de inaugurar…"
 	done
 
 TrainerSchoolboyAlan1:
@@ -379,22 +380,22 @@ Route36CooltrainerfChiaraScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "With skill like"
-	line "yours, I'm not the"
+	text "Con tu nivel, no"
+	line "seré el único en-"
 
-	para "only elite trainer"
-	line "who'll want to test"
-	cont "you."
+	para "trenador de élite"
+	line "que quiera poner-"
+	cont "te a prueba."
 	done
 
 .IntroText:
-	text "Vi cómo despertas-"
-	line "te a Sudowoodo."
+	text "Vi cómo desper-"
+	line "taste a Sudowoodo."
 
 	para "¡Fue genial!"
 
-	para "Y tienes una"
-	line "Medalla Planicie."
+	para "Y tienes una Me-"
+	line "dalla Planicie."
 	cont "¡Yo también!"
 
 	para "¿Qué te parece"
@@ -408,64 +409,65 @@ Route36CooltrainerfChiaraScript:
 	done
 
 .QuestionText:
-	text "So you beat every-"
-	line "one else in the"
-	cont "area."
+	text "Así que has ven-"
+	line "cido a todos los"
+	cont "demás de la zona."
 
-	para "Then it's time for"
-	line "our showdown!"
+	para "¡Ha llegado la ho-"
+	line "ra de nuestro due-"
+	cont "lo decisivo!"
 
-	para "I use a Binding"
-	line "Band to press my"
-	cont "advantage."
+	para "Uso una Banda Ata-"
+	line "dura para aumen-"
+	cont "tar mi ventaja."
 
-	para "Think you're ready"
-	line "for me?"
+	para "¿Crees que estás a"
+	line "la altura?"
 	done
 
 .RefusedText:
-	text "Well, I'm ready"
-	line "when you are!"
+	text "Bueno, ¡yo estaré"
+	line "listo cuando tú lo"
+	cont "estés!"
 	done
 
 .SeenText:
-	text "You won't last"
-	line "long against my"
-	cont "technique!"
+	text "¡No aguantarás mu-"
+	line "cho contra mi"
+	cont "técnica!"
 	done
 
 .BeatenText:
-	text "I'm the one who"
-	line "didn't last?!"
+	text "¡¿Yo he sido quien"
+	line "no ha aguantado?!"
 	done
 
 .AfterText1:
-	text "You observed my"
-	line "technique and"
-	cont "countered it."
+	text "Has analizado mi"
+	line "técnica y la has"
+	cont "contrarrestado."
 
-	para "Why not try it"
-	line "yourself?"
+	para "¿Por qué no la"
+	line "pruebas tú?"
 
-	para "Here, it's for"
-	line "you!"
+	para "¡Toma, para ti!"
 	done
 
 GenericTrainerPsychicMark:
 	generictrainer PSYCHIC_T, MARK, EVENT_BEAT_PSYCHIC_MARK, PsychicMarkSeenText, PsychicMarkBeatenText
 
-	text "I'd be strong if"
-	line "only I could tell"
+	text "Sería muy fuerte"
+	line "si pudiera saber"
 
-	para "what my opponent"
-	line "was thinking."
+	para "lo que piensa mi"
+	line "rival."
 	done
 
 GenericTrainerSchoolgirlMolly:
 	generictrainer SCHOOLGIRL, MOLLY, EVENT_BEAT_SCHOOLGIRL_MOLLY, SchoolgirlMollySeenText, SchoolgirlMollyBeatenText
 
-	text "I still have a"
-	line "lot to learn."
+	text "Aún me queda mu-"
+	line "cho por aprender."
 	done
 
 ArthurScript:
@@ -488,14 +490,14 @@ ArthurScript:
 	setevent EVENT_GOT_HARD_STONE_FROM_ARTHUR
 	jumpthisopenedtext
 
-	text "Juan: A #mon"
-	line "that uses Rock-"
+	text "Juan: Si un #mon"
+	line "usa movimientos de"
 
-	para "type moves should"
-	line "hold on to that."
+	para "tipo Roca, debe-"
+	line "ría llevarla."
 
-	para "It pumps up Rock-"
-	line "type attacks."
+	para "¡Potencia los ata-"
+	line "ques de tipo Roca!"
 	done
 
 .AlreadyGotStone:
@@ -507,9 +509,9 @@ ArthurScript:
 ArthurNotThursdayScript:
 	jumpthisopenedtext
 
-	text "Juan: Today's"
-	line "not Thursday. How"
-	cont "disappointing."
+	text "Juan: Hoy no es"
+	line "jueves. Qué lásti-"
+	cont "ma."
 	done
 
 WeirdTreeMovement_Flee:
@@ -552,213 +554,218 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "It's a weird tree."
-	line "Use SquirtBottle?"
+	text "Es un árbol raro."
+	line "¿Usar Regadera?"
 	done
 
 UsedSquirtbottleText:
-	text "<PLAYER> used the"
-	line "SquirtBottle."
+	text "¡<PLAYER> usó la"
+	line "Regadera!"
 	done
 
 SudowoodoAttackedText:
-	text "The weird tree"
-	line "doesn't like the"
-	cont "SquirtBottle!"
+	text "¡Al árbol raro no"
+	line "le gusta nada la"
+	cont "Regadera!"
 
-	para "The weird tree"
-	line "attacked!"
+	para "¡El árbol raro"
+	line "atacó!"
 	done
 
 
 FloriaTextAfterSquirtBottle:
-	text "I'm the Flower"
-	line "Shop's Floria!"
+	text "¡Soy Floria, de la"
+	line "Floristería!"
 
-	para "When I told my sis"
-	line "about the jiggly"
+	para "Cuando le hablé a"
+	line "mi hermana del ár-"
 
-	para "tree, she said"
-	line "it's dangerous."
+	para "bol que se menea,"
+	line "me dijo que era"
+	cont "peligroso."
 
-	para "Oh, she lent you"
-	line "her water bottle?"
+	para "¡Anda, te ha pres-"
+	line "tado la Regadera!"
 
-	para "You must be a good"
-	line "trainer then!"
+	para "¡Debes de ser muy"
+	line "buen entrenador!"
 
-	para "I'll leave the"
-	line "weird tree to you."
+	para "Te dejo a ti lo"
+	line "del árbol raro."
 
-	para "Ta-ta!"
+	para "¡Chao!"
 	done
 
 FloriaTextAfterSudowoodo:
-	text "I just knew that"
-	line "wiggly tree was a"
-	cont "#mon!"
+	text "¡Sabía que ese ár-"
+	line "bol que se menea"
+	cont "era un #mon!"
 
-	para "I was going to"
-	line "shock it out of"
+	para "¡Iba a sacarlo de"
+	line "su escondite, pero"
 
-	para "its disguise, but"
-	line "you beat me to it!"
+	para "te me has adelan-"
+	line "tado!"
 
-	para "Oh well, I'll head"
-	line "back to the Flower"
-	cont "Shop."
+	para "En fin, vuelvo a"
+	line "la Floristería."
 
-	para "I'm Floria, by the"
-	line "way."
+	para "Por cierto, soy"
+	line "Floria."
 
-	para "Ta-ta!"
+	para "¡Chao!"
 	done
 
 
 RockSmashGuyText2:
-	text "Did you clear that"
-	line "wretched tree?"
+	text "¿Quitaste ese ár-"
+	line "bol tan dichoso?"
 
-	para "I'm impressed!"
-	line "I want you to"
-	cont "have this."
+	para "¡Me has dejado im-"
+	line "presionado! Quiero"
+	cont "que tengas esto."
 	done
 
 
 
 Route36LassText_ClearedSudowoodo:
-	text "That odd tree dis-"
-	line "appeared without a"
-	cont "trace."
+	text "Ese árbol tan raro"
+	line "desapareció sin"
+	cont "dejar rastro."
 
-	para "Oh! That tree was"
-	line "really a #mon?"
+	para "¡Ah! ¿Ese árbol"
+	line "era en realidad un"
+	cont "#mon?"
 	done
 
 PsychicMarkSeenText:
-	text "I'm going to read"
-	line "your thoughts!"
+	text "¡Voy a leer tus"
+	line "pensamientos!"
 	done
 
 PsychicMarkBeatenText:
-	text "I misread you!"
+	text "¡Te he leído mal!"
 	done
 
 SchoolgirlMollySeenText:
-	text "Sr.Primo taught me"
-	line "how to battle with"
-	cont "#mon!"
+	text "¡El Sr. Primo me"
+	line "enseñó a luchar"
+	cont "con #mon!"
 	done
 
 SchoolgirlMollyBeatenText:
-	text "My studying…"
+	text "Tanto estudiar…"
 	done
 
 SchoolboyAlan1SeenText:
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #mon!"
+	text "¡Gracias a mis es-"
+	line "tudios, puedo con"
+	cont "cualquier #mon!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Oops! Computation"
-	line "error?"
+	text "¡Uy! ¿Un error de"
+	line "cálculo?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Vaya. Y eso que es-"
+	line "tudio cinco horas"
+	cont "al día."
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "Para aprender no"
+	line "basta solo con"
+	cont "leer libros."
 	done
 
 MeetArthurText:
-	text "Juan: Who are"
-	line "you?"
+	text "Juan: ¿Quién eres"
+	line "tú?"
 
-	para "I'm Juan of"
-	line "Thursday."
+	para "Yo soy Juan, del"
+	line "jueves."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Toma. Quédate con"
+	line "esto."
 	done
 
 
 ArthurThursdayText:
-	text "Juan: I'm Juan"
-	line "of Thursday. I'm"
+	text "Juan: Soy Juan,"
+	line "del jueves. Soy el"
 
-	para "the second son out"
-	line "of seven children."
+	para "segundo de siete"
+	line "hermanos."
 	done
 
 
 Route36SignText:
-	text "Route 36"
+	text "Ruta 36"
 	done
 
 RuinsOfAlphNorthSignText:
-	text "Ruins of Alph"
-	line "North Entrance"
+	text "Ruinas Alfa"
+	line "Entrada Norte"
 	done
 
 Route36TrainerTips1Text:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "#mon stats"
-	line "vary--even within"
-	cont "the same species."
+	para "Las característi-"
+	line "cas de los #mon"
 
-	para "Their stats may be"
-	line "similar at first."
+	para "varían, incluso"
+	line "dentro de la misma"
+	cont "especie."
 
-	para "However, differ-"
-	line "ences will become"
+	para "Al principio pue-"
+	line "den ser parecidas,"
 
-	para "pronounced as the"
-	line "#mon grow."
+	para "pero las diferen-"
+	line "cias se notarán a"
+
+	para "medida que los"
+	line "#mon crezcan."
 	done
 
 Route36TrainerTips2Text:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Use Dig to return"
-	line "to the entrance of"
-	cont "any place."
+	para "Usa Excavar para"
+	line "volver a la entra-"
+	cont "da de cualquier"
+	cont "lugar."
 
-	para "It is convenient"
-	line "for exploring"
+	para "Es muy útil para"
+	line "explorar cuevas y"
 
-	para "caves and other"
-	line "landmarks."
+	para "otros lugares de"
+	line "interés."
 	done
 
 Route36AdvancedTips1Text:
-	text "Advanced Tips!"
+	text "¡Pistas Entren.!"
 
-	para "You can pick from"
-	line "twenty different"
-	cont "textbox frames and"
+	para "¡Puedes elegir en-"
+	line "tre veinte marcos"
 
-	para "eight different"
-	line "text typefaces in"
-	cont "the Options!"
+	para "de diálogo y ocho"
+	line "tipografías en las"
+	cont "Opciones!"
 	done
 
 Route36AdvancedTips2Text:
-	text "Advanced Tips!"
+	text "¡Pistas Entren.!"
 
-	para "Treating your"
-	line "#mon with hair-"
-	cont "cuts, blessings or"
+	para "¡Si mimas a tus"
+	line "#mon con cortes"
 
-	para "massages can make"
-	line "them help you out"
+	para "de pelo, bendicio-"
+	line "nes o masajes,"
 
-	para "in battles due to"
-	line "their affection!"
+	para "¡te ayudarán en el"
+	line "combate gracias a"
+	cont "su afecto!"
 	done

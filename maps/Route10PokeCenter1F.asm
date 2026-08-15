@@ -23,17 +23,19 @@ PokemonJournalAgathaScript:
 	setflag ENGINE_READ_AGATHA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Ex-Elite Agatha!"
+	para "Edición Especial:"
+	line "¡Agatha, exmiembro"
+	cont "del Alto Mando!"
 
-	para "In their youth,"
-	line "Agatha and Prof."
-	cont "Oak were rivals"
+	para "De jóvenes, Agatha"
+	line "y el Prof. Oak"
+	cont "fueron rivales que"
 
-	para "who vied for supr-"
-	line "emacy as trainers."
+	para "competían por el"
+	line "título de mejor"
+	cont "entrenador."
 	done
 
 Route10PokeCenter1FGymGuyScript:
@@ -41,45 +43,46 @@ Route10PokeCenter1FGymGuyScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The Power Plant's"
-	line "Manager is looking"
+	text "El Director de la"
+	line "Central Energía"
 
-	para "for a strong #-"
-	line "mon trainer."
+	para "busca a alguien"
+	line "fuerte con los"
+	cont "#mon."
 
-	para "He needs help"
-	line "getting back"
+	para "Necesita ayuda"
+	line "para recuperar"
 
-	para "something that"
-	line "was stolen."
+	para "algo que le han"
+	line "robado."
 	done
 
 .Text2:
-	text "I hear Team Rocket"
-	line "got back together"
+	text "Oí que el Team"
+	line "Rocket se volvió"
+	cont "a reunir en Johto,"
 
-	para "in Johto but fell"
-	line "apart right away."
+	para "pero los vencieron"
+	line "enseguida."
 
-	para "I didn't know any-"
-	line "thing about that."
+	para "No tenía ni idea"
+	line "de todo eso."
 	done
 
 Route10PokeCenter1FGentlemanText:
-	text "A #mon Center"
-	line "near a cave?"
+	text "¿Un Centro #mon"
+	line "junto a una cueva?"
 
-	para "That's mighty"
-	line "convenient."
+	para "¡Qué gran como-"
+	line "didad!"
 	done
 
 Route10PokeCenter1FCooltrainerfText:
-	text "When you go out-"
-	line "side, you can see"
+	text "Al salir fuera,"
+	line "puedes ver el te-"
+	cont "cho de un gran"
+	cont "edificio."
 
-	para "the roof of a big"
-	line "building."
-
-	para "That's the Power"
-	line "Plant."
+	para "Es la Central"
+	line "Energía."
 	done

@@ -24,25 +24,26 @@ Route7_MapScriptHeader:
 GenericTrainerBreederCarlene:
 	generictrainer BREEDER, CARLENE, EVENT_BEAT_BREEDER_CARLENE, .SeenText, .BeatenText
 
-	text "I make my Smeargle"
-	line "Sketch a move,"
+	text "Hago que mi"
+	line "Smeargle use"
+	cont "Esquema,"
 
-	para "then breed it"
-	line "to pass the move"
-	cont "down!"
+	para "¡y luego lo crío"
+	line "para heredar el"
+	cont "movimiento!"
 
-	para "Isn't that smart?"
+	para "¿A que es listo?"
 	done
 
 .SeenText:
-	text "My team is bred"
-	line "to handle any"
-	cont "situation!"
+	text "¡Crié a mi equipo"
+	line "para afrontar cual-"
+	cont "quier situación!"
 	done
 
 .BeatenText:
-	text "We couldn't"
-	line "handle you!"
+	text "¡No pudimos con-"
+	line "tigo!"
 	done
 
 Route7Snorlax:
@@ -51,8 +52,8 @@ Route7Snorlax:
 	iftruefwd .Awake
 	jumpthisopenedtext
 
-	text "Snorlax is snoring"
-	line "peacefully…"
+	text "Snorlax ronca"
+	line "plácidamente…"
 	done
 
 .Awake:
@@ -70,34 +71,35 @@ Route7Snorlax:
 
 
 .AwakeText:
-	text "The #gear was"
-	line "placed near the"
-	cont "sleeping Snorlax…"
+	text "Se puso el #gear"
+	line "cerca de Snorlax…"
 
 	para "…"
 
-	para "Snorlax woke up!"
+	para "¡Snorlax se ha"
+	line "despertado!"
 	done
 
 Route7UndergroundPathSignText:
-	text "What's this flyer?"
+	text "¿Qué es este"
+	line "folleto?"
 
-	para "“Uncouth trainers"
-	line "have been holding"
+	para "Entrenadores ru-"
+	line "dos han estado lu-"
+	cont "chando en la Vía"
+	cont "Subterránea."
 
-	para "battles in the"
-	line "Underground Path."
+	para "Debido al aumento"
+	line "de quejas de los"
+	cont "vecinos, la Vía"
+	cont "Subterránea queda"
+	cont "clausurada por"
+	cont "tiempo indefini-"
+	cont "do."
 
-	para "Because of rising"
-	line "complaints by lo-"
-	cont "cal residents, the"
-	cont "Underground Path"
-	cont "has been sealed"
-	cont "indefinitely.”"
-
-	para "-- Celadon Police"
+	para "-- Policía Azulona"
 	done
 
 Route7LockedDoorText:
-	text "It's locked…"
+	text "Está cerrado…"
 	done

@@ -31,31 +31,32 @@ Route5CleanseTagHouseGrannyScript:
 	waitbutton
 .NoRoom:
 	endtext
-
+	
 Route5CleanseTagHouseGrannyText1:
-	text "Eeyaaaah!"
+	text "¡Aaaayyyy!"
 
-	para "I sense a sinister"
-	line "shadow hovering"
-	cont "over you."
+	para "Siento una sombra"
+	line "siniestra sobre"
+	cont "ti."
 
-	para "Take this to ward"
-	line "it off!"
+	para "¡Toma esto para"
+	line "ahuyentarla!"
 	done
 
 Route5CleanseTagHouseGrannyText2:
-	text "You were in mortal"
-	line "danger, but you"
-	cont "are protected now."
+	text "¡Estabas en peli-"
+	line "gro de muerte, pe-"
+	cont "ro ya no!"
 	done
 
 Route5CleanseTagHouseTeacherText:
-	text "My grandma is into"
-	line "warding off what"
+	text "A mi abuela le ha"
+	line "dado por ahuyentar"
 
-	para "she believes to be"
-	line "evil spirits."
+	para "lo que cree que"
+	line "son malos espíri-"
+	cont "tus."
 
-	para "I'm sorry that she"
-	line "startled you."
+	para "Siento que te haya"
+	line "asustado."
 	done

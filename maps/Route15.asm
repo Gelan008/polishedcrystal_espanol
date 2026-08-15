@@ -29,11 +29,11 @@ Route15_MapScriptHeader:
 GenericTrainerTeacherColette:
 	generictrainer TEACHER_F, COLETTE, EVENT_BEAT_TEACHER_COLETTE, TeacherColetteSeenText, TeacherColetteBeatenText
 
-	text "Before I became a"
-	line "teacher, I used to"
+	text "Antes de hacerme"
+	line "profesora, solía"
 
-	para "forget a lot of"
-	line "things."
+	para "olvidarme de mu-"
+	line "chas cosas."
 	done
 
 TrainerTeacherHillary:
@@ -43,198 +43,198 @@ TrainerTeacherHillary:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Studying is impor-"
-	line "tant, but exercise"
-	cont "is just as vital."
+	text "Estudiar es impor-"
+	line "tante, pero hacer"
+
+	para "ejercicio es igual"
+	line "de vital."
 	done
 
 GenericTrainerSchoolboyKipp:
 	generictrainer SCHOOLBOY, KIPP, EVENT_BEAT_SCHOOLBOY_KIP, SchoolboyKippSeenText, SchoolboyKippBeatenText
 
-	text "My mom worries so"
-	line "much about me, I"
+	text "Mi madre se preo-"
+	line "cupa tanto por mí"
 
-	para "have to phone her"
-	line "all the time."
+	para "que tengo que lla-"
+	line "marla a cada rato."
 	done
 
 GenericTrainerSchoolboyTommy:
 	generictrainer SCHOOLBOY, TOMMY, EVENT_BEAT_SCHOOLBOY_TOMMY, SchoolboyTommySeenText, SchoolboyTommyBeatenText
 
-	text "Sayonara! I just"
-	line "learned that in my"
-	cont "Japanese class."
+	text "¡Sayonara! Lo aca-"
+	line "bo de aprender en"
+	cont "clase de japonés."
 	done
 
 GenericTrainerSchoolboyBilly:
 	generictrainer SCHOOLBOY, BILLY, EVENT_BEAT_SCHOOLBOY_BILLY, SchoolboyBillySeenText, SchoolboyBillyBeatenText
 
-	text "If #mon were a"
-	line "subject at school,"
-	cont "I'd be the best!"
+	text "¡Si los #mon"
+	line "fueran una asigna-"
+	cont "tura, sacaría un"
+	cont "sobresaliente!"
 	done
 
 GenericTrainerSchoolgirlFaith:
 	generictrainer SCHOOLGIRL, FAITH, EVENT_BEAT_SCHOOLGIRL_FAITH, SchoolgirlFaithSeenText, SchoolgirlFaithBeatenText
 
-	text "I'm tired of walk-"
-	line "ing. I need to"
-	cont "take a break."
+	text "Me he cansado de"
+	line "caminar. Me hace"
+	cont "falta un descanso."
 	done
 
 GenericTrainerPokefanfBoone:
 	generictrainer POKEFANF, BOONE, EVENT_BEAT_POKEFANF_BOONE, PokefanfBooneSeenText, PokefanfBooneBeatenText
 
-	text "When you battle,"
-	line "you get to see"
-	cont "#mon you've"
-	cont "never seen before."
+	text "Al combatir, puedes"
+	line "ver #mon que"
+	cont "nunca habías visto"
+	cont "antes."
 
-	para "It's so great!"
+	para "¡Es genial!"
 	done
 
 GenericTrainerPokefanfEleanor:
 	generictrainer POKEFANF, ELEANOR, EVENT_BEAT_POKEFANF_ELEANOR, PokefanfEleanorSeenText, PokefanfEleanorBeatenText
 
-	text "My #mon aren't"
-	line "weak! Your #mon"
-	cont "are too strong!"
+	text "¡Mis #mon no son"
+	line "débiles! ¡Los tuyos"
+	cont "son demasiado"
+	cont "fuertes!"
 	done
 
 GenericTrainerTwinsKayandtia1:
 	generictrainer TWINS, KAYANDTIA1, EVENT_BEAT_TWINS_KAY_AND_TIA, TwinsKayandtia1SeenText, TwinsKayandtia1BeatenText
 
-	text "Absolute truth--"
-	line "I'm Kay! Maybe…"
+	text "Verdad absoluta:"
+	line "¡Soy Kay! Quizá…"
 	done
 
 GenericTrainerTwinsKayandtia2:
 	generictrainer TWINS, KAYANDTIA2, EVENT_BEAT_TWINS_KAY_AND_TIA, TwinsKayandtia2SeenText, TwinsKayandtia2BeatenText
 
-	text "Maybe truth--I'm"
-	line "Tia! Absolutely!"
+	text "Quizá sea verdad:"
+	line "¡Soy Tia! ¡Fijo!"
 	done
 
 TeacherColetteSeenText:
-	text "Have you forgotten"
-	line "anything?"
+	text "¿Te has olvidado"
+	line "de algo?"
 	done
 
 TeacherColetteBeatenText:
-	text "Kyaaah!"
+	text "¡Kyaaaah!"
 	done
 
 TeacherHillarySeenText:
-	text "On sunny days, I"
-	line "think that the"
+	text "En días soleados,"
+	line "creo que los niños"
 
-	para "kids would rather"
-	line "be playing in the"
-
-	para "schoolyard than"
-	line "studying in class."
+	para "preferirían jugar"
+	line "en el patio a es-"
+	cont "tudiar en clase."
 	done
 
 TeacherHillaryBeatenText:
-	text "I didn't want to"
-	line "lose…"
+	text "No quería perder…"
 	done
 
 SchoolboyKippSeenText:
-	text "Hang on. I have to"
-	line "phone my mom."
+	text "Espera. Tengo que"
+	line "llamar a mi madre."
 	done
 
 SchoolboyKippBeatenText:
-	text "Sorry, Mom!"
-	line "I was beaten!"
+	text "¡Perdón, mamá!"
+	line "¡Me han ganado!"
 	done
 
 SchoolboyTommySeenText:
-	text "Let's battle."
-	line "I won't lose!"
+	text "¡Luchemos! ¡No voy"
+	line "a perder!"
 	done
 
 SchoolboyTommyBeatenText:
-	text "I forgot to do my"
-	line "homework!"
+	text "¡Me olvidé de ha-"
+	line "cer los deberes!"
 	done
 
 SchoolgirlFaithSeenText:
-	text "We're on a field"
-	line "trip to Lavender"
+	text "Vamos de excursión"
+	line "a la Torre Radio"
 
-	para "Radio Tower for"
-	line "social studies."
+	para "de Lavanda para la"
+	line "clase de sociales."
 	done
 
 SchoolgirlFaithBeatenText:
-	text "You're wickedly"
-	line "tough!"
+	text "¡Tienes una fuerza"
+	line "increíble!"
 	done
 
 SchoolboyBillySeenText:
-	text "My favorite class"
-	line "is gym!"
+	text "¡Mi clase favorita"
+	line "es gimnasia!"
 	done
 
 SchoolboyBillyBeatenText:
-	text "Oh, no!"
-	line "How could I lose?"
+	text "¡Oh, no! ¿Cómo he"
+	line "podido perder?"
 	done
 
 PokefanfBooneSeenText:
-	text "Hey, your"
+	text "Oye, tus"
 	line "#mon…"
 
-	para "Show me. Show me."
-	line "Show me!"
+	para "Enséñamelos."
+	line "¡Enséñamelos!"
 	done
 
 PokefanfBooneBeatenText:
-	text "Yay! That was"
-	line "great!"
+	text "¡Bien! ¡Ha sido"
+	line "fantástico!"
 	done
 
 PokefanfEleanorSeenText:
-	text "All right,"
-	line "#mon, time for"
-	cont "a battle!"
+	text "¡Muy bien, #mon,"
+	line "hora de luchar!"
 	done
 
 PokefanfEleanorBeatenText:
-	text "Oh, well…"
+	text "En fin…"
 	done
 
 TwinsKayandtia1SeenText:
-	text "We're the twins"
-	line "Kay and Tia!"
+	text "¡Somos las gemelas"
+	line "Kay y Tia!"
 
-	para "Do you know which"
-	line "one I am?"
+	para "¿A que no sabes"
+	line "quién soy yo?"
 	done
 
 TwinsKayandtia1BeatenText:
-	text "Tia and Kay both"
-	line "lost…"
+	text "Tia y Kay hemos"
+	line "perdido las dos…"
 	done
 
 TwinsKayandtia2SeenText:
-	text "We're the twins"
-	line "Kay and Tia!"
+	text "¡Somos las gemelas"
+	line "Kay y Tia!"
 
-	para "Do you know which"
-	line "one I am?"
+	para "¿A que no sabes"
+	line "quién soy yo?"
 	done
 
 TwinsKayandtia2BeatenText:
-	text "Tia and Kay both"
-	line "lost…"
+	text "Tia y Kay hemos"
+	line "perdido las dos…"
 	done
 
 Route15SignText:
-	text "Route 15"
+	text "Ruta 15"
 
-	para "Fuchsia City -"
-	line "Lavender Town"
+	para "Ciudad Fucsia -"
+	line "Pueblo Lavanda"
 	done

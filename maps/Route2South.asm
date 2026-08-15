@@ -23,46 +23,48 @@ Route2South_MapScriptHeader:
 GenericTrainerBug_maniacRob:
 	generictrainer BUG_MANIAC, ROB, EVENT_BEAT_BUG_MANIAC_ROB, Bug_maniacRobSeenText, Bug_maniacRobBeatenText
 
-	text "I'm going to look"
-	line "for stronger bug"
-	cont "#mon."
+	text "Buscaré #mon"
+	line "bicho que sean"
+	cont "más fuertes."
 	done
 
 GenericTrainerBug_maniacDoug:
 	generictrainer BUG_MANIAC, DOUG, EVENT_BEAT_BUG_MANIAC_DOUG, Bug_maniacDougSeenText, Bug_maniacDougBeatenText
 
-	text "Bug #mon squish"
-	line "like plush toys"
+	text "Los #mon bicho"
+	line "se aplastan como"
 
-	para "when you squeeze"
-	line "their bellies."
+	para "peluches si les"
+	line "estrujas la tripa."
 
-	para "I love how they"
-	line "feel!"
+	para "¡Me encanta lo que"
+	line "se siente!"
 	done
 
 Bug_maniacRobSeenText:
-	text "My bug #mon are"
-	line "tough. Prepare to"
-	cont "lose!"
+	text "Mis #mon bicho"
+	line "son duros. ¡Pre-"
+	cont "párate a perder!"
 	done
 
 Bug_maniacRobBeatenText:
-	text "I was whipped…"
+	text "Me han zurrado…"
 	done
 
 Bug_maniacDougSeenText:
-	text "Why don't girls"
-	line "like bug #mon?"
+	text "¿Por qué a las"
+	line "chicas no les gus-"
+	cont "tan los #mon"
+	cont "bicho?"
 	done
 
 Bug_maniacDougBeatenText:
-	text "No good!"
+	text "¡No puede ser!"
 	done
 
 Route2SignText:
-	text "Route 2"
+	text "Ruta 2"
 
-	para "Viridian City -"
-	line "Pewter City"
+	para "Ciudad Verde -"
+	line "Ciudad Plateada"
 	done

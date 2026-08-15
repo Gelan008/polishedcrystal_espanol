@@ -27,34 +27,36 @@ Route2North_MapScriptHeader:
 GenericTrainerBug_maniacEd:
 	generictrainer BUG_MANIAC, ED, EVENT_BEAT_BUG_MANIAC_ED, Bug_maniacEdSeenText, Bug_maniacEdBeatenText
 
-	text "They'll really"
-	line "sting when you"
-	cont "take a bath."
+	text "¡Escuecen un mon-"
+	line "tón cuando te ba-"
+	cont "ñas!"
 	done
 
 Bug_maniacEdSeenText:
-	text "If you walk in"
-	line "tall grass wearing"
+	text "Si vas por la"
+	line "hierba alta en"
+	cont "pantalón corto…"
 
-	para "shorts, do you get"
-	line "nicks and cuts?"
+	para "¿te haces rasguños"
+	line "y cortes?"
 	done
 
 Bug_maniacEdBeatenText:
-	text "Ouch, ouch, ouch!"
+	text "¡Ay, ay, ay!"
 	done
 
 Route2NorthCooltrainermText:
-	text "Diglett's Cave is"
-	line "just a dead end."
+	text "La Cueva Diglett"
+	line "es un callejón sin"
+	cont "salida."
 
-	para "The Vermilion City"
-	line "exit is blocked"
+	para "La salida hacia"
+	line "Ciudad Carmín está"
 
-	para "by a sleeping"
-	line "Snorlax."
+	para "bloqueada por un"
+	line "Snorlax dormido."
 	done
 
 Route2DiglettsCaveSignText:
-	text "Diglett's Cave"
+	text "Cueva Diglett"
 	done

@@ -80,85 +80,82 @@ TrainerCooltrainermFinch:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "You saw the effect"
-	line "of an Air Balloon"
-	cont "in our battle."
+	text "Has comprobado el"
+	line "efecto de un Globo"
+	cont "Helio al luchar."
 
-	para "You may find other"
-	line "trainers like me"
-	cont "wandering Johto."
+	para "Podrías encontrar"
+	line "a otros entrenado-"
+	cont "res por Johto,"
+	cont "En busca de fuerza"
 
-	para "Searching for"
-	line "strength."
-
-	para "You would do well"
-	line "to challenge them!"
+	para "¡Harías bien en"
+	line "desafiarlos!"
 	done
 
 .IntroText:
-	text "I am a trainer who"
-	line "uses Air Balloons"
-	cont "in battle."
+	text "Soy un entrenador"
+	line "que usa Globos"
+	cont "Helio en combate."
 
-	para "I want to be"
-	line "swayed by your"
-	cont "strength…"
+	para "Quiero dejarme"
+	line "llevar por tu"
+	cont "fuerza…"
 
-	para "If you can defeat"
-	line "every trainer on"
-	cont "Route 30 and 31,"
-	cont "then come face me."
+	para "Si logras vencer a"
+	line "todos los entrena-"
+	cont "dores de las Rutas"
+	cont "30 y 31, ven a mí."
 	done
 
 .QuestionText:
-	text "So you've defeated"
-	line "all of the train-"
-	cont "ers here!"
+	text "¡Así que has ven-"
+	line "cido a todos los"
+	cont "entrenadores!"
 
-	para "Then you're fit to"
-	line "challenge me!"
+	para "¡Pues estás a la"
+	line "altura de retarme!"
 
-	para "Shall we battle?"
+	para "¿Luchamos?"
 	done
 
 .RefusedText:
-	text "You don't want to"
-	line "test your strength"
-	cont "with mine?"
+	text "¿No quieres medir"
+	line "tus fuerzas con"
+	cont "las mías?"
 
-	para "I'll give you my"
-	line "signature item if"
-	cont "you win…"
+	para "Te daré mi objeto"
+	line "estrella si me"
+	cont "ganas…"
 	done
 
 .SeenText:
-	text "Well met! I will"
-	line "stand before you"
+	text "¡Bien hallado! ¡Me"
+	line "enfrento a ti como"
 
-	para "as an Air Balloon"
-	line "user!"
+	para "portador de un"
+	line "Globo Helio!"
 	done
 
 .BeatenText:
-	text "You've brought me"
-	line "to the ground…"
+	text "Me has bajado los"
+	line "humos…"
 	done
 
 .AfterText1:
-	text "A fine battle!"
-	line "You are a rising"
+	text "¡Qué gran combate!"
+	line "¡Eres una estrella"
 
-	para "star among train-"
-	line "ers!"
+	para "en alza entre los"
+	line "entrenadores!"
 
-	para "Here is proof of"
-	line "our battle."
-	cont "An Air Balloon!"
+	para "Aquí tienes la"
+	line "prueba: ¡un Globo"
+	cont "Helio!"
 
-	para "Take it, my"
-	line "strong friend!"
+	para "¡Tómalo, gran"
+	line "camarada!"
 	done
-
 TrainerBug_catcherWade1:
 	trainer BUG_CATCHER, WADE1, EVENT_BEAT_BUG_CATCHER_WADE, Bug_catcherWade1SeenText, Bug_catcherWade1BeatenText, 0, .Script
 
@@ -298,20 +295,20 @@ Route31MailRecipientScript:
 	iftruefwd .TryGiveKenya
 	jumpthisopenedtext
 
-	text "…Hnuurg… Huh?"
+	text "… Uaaah… ¿Eh?"
 
-	para "I walked too far"
-	line "today looking for"
+	para "Hoy he andado de-"
+	line "masiado buscando"
 	cont "#mon."
 
-	para "My feet hurt and"
-	line "I'm sleepy…"
+	para "Me duelen los pies"
+	line "y tengo sueño…"
 
-	para "If I were a wild"
-	line "#mon, I'd be"
-	cont "easy to catch…"
+	para "Si fuera un #-"
+	line "mon salvaje, sería"
+	cont "fácil atraparme…"
 
-	para "…Zzzz…"
+	para "… Zzzz…"
 	done
 
 .TryGiveKenya:
@@ -342,173 +339,167 @@ Route31MailRecipientScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "OK then…"
+	text "Está bien…"
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have a"
-	line "Silver Leaf,"
-	cont "though…"
+	text "Pero no tienes"
+	line "ninguna Hoja"
+	cont "Plata…"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "There! Now your"
-	line "#mon knows"
-	cont "Sleep Talk!"
+	text "¡Listo! ¡Ahora tu"
+	line "#mon sabe"
+	cont "Sonámbulo!"
 	done
 
 .WrongMail:
 	jumpthisopenedtext
 
-	text "This Mail isn't"
-	line "for me."
+	text "Esta Carta no es"
+	line "para mí."
 	done
 
 .NoMail:
 	jumpthisopenedtext
 
-	text "Why is this #-"
-	line "mon so special?"
+	text "¿Por qué es tan"
+	line "especial este"
+	cont "#mon?"
 
-	para "It doesn't have"
-	line "any Mail."
+	para "Si no lleva"
+	line "ninguna Carta."
 	done
 
 .Refused:
 	jumpthisopenedtext
 
-	text "What? You don't"
-	line "want anything?"
+	text "¿Cómo? ¿No"
+	line "quieres nada?"
 	done
 
 .LastMon:
 	jumpthisopenedtext
 
-	text "If I take that"
-	line "#mon from you,"
+	text "Si me quedo con"
+	line "ese #mon,"
 
-	para "what are you going"
-	line "to use in battle?"
+	para "¿con qué lucharás"
+	line "en los combates?"
 	done
 
 ReceivedSpearowMailText:
 	setcharmap no_ngrams
-	db   "Dark Cave leads"
-	next "to another road@"
+	db   "Cueva Oscura lleva"
+	next "a otro camino@"
 	setcharmap default
 
 Bug_catcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #mon. Let me"
-	cont "battle with you!"
+	text "He atrapado muchos"
+	line "#mon. ¡Déjame"
+	cont "luchar contigo!"
 	done
 
 Bug_catcherWade1BeatenText:
-	text "Awwwww…"
+	text "Nooooo…"
 	done
 
 Bug_catcherWade1AfterText:
-	text "You can catch"
-	line "#mon even if"
+	text "Puedes atrapar"
+	line "#mon aunque"
 
-	para "you have six with"
-	line "you."
+	para "ya lleves seis"
+	line "contigo."
 
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "Box automatically."
+	para "Si atrapas uno,"
+	line "irá a tu Caja"
+	cont "automáticamente."
 	done
 
 
 Text_Route31SleepyManGotMail:
-	text "…Zzzz… Huh?"
+	text "… Zzzz… ¿Eh?"
 
-	para "What's that? You"
-	line "have Mail for me?"
+	para "¿Qué es eso? ¿Tienes"
+	line "una Carta para mí?"
 	done
 
 Text_Route31HandOverMailMon:
-	text "<PLAYER> handed"
-	line "over the #mon"
-	cont "holding the Mail."
+	text "¡<PLAYER> entregó"
+	line "el #mon que"
+	cont "llevaba la Carta!"
 	done
 
 Text_Route31ReadingMail:
-	text "Let's see…"
+	text "A ver…"
 
-	para "…Dark Cave leads"
-	line "to another road…"
+	para "… Cueva Oscura lle-"
+	line "va a otro camino…"
 
-	para "That's good to"
-	line "know."
+	para "Es bueno saberlo."
 
-	para "Thanks for bring-"
-	line "ing this to me."
+	para "Gracias por traér-"
+	line "mela hasta aquí."
 
-	para "My friend's a good"
-	line "guy, and you're"
-	cont "swell too!"
+	para "Mi amigo es un buen"
+	line "tío, ¡y tú también"
+	cont "eres genial!"
 
-	para "I'd like to do"
-	line "something good in"
-	cont "return!"
+	para "¡Me gustaría darte"
+	line "algo a cambio!"
 	done
 
 Text_Route31TutorSleepTalk:
-	text "For just one"
-	line "Silver Leaf,"
+	text "¡Por solo una"
+	line "Hoja Plata,"
 
-	para "I can teach your"
-	line "#mon to talk"
-	cont "in their sleep!"
+	para "puedo enseñar a tu"
+	line "#mon a hablar"
+	cont "mientras duerme!"
 	done
 
 
 Text_Route31TutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Sleep Talk?"
+	text "¿Quieres que le"
+	line "enseñe Sonámbulo"
+	cont "a tu #mon?"
 	done
 
-
-
-
-
-
-
 Route31YoungsterText:
-	text "I found a good"
-	line "#mon in Dark"
-	cont "Cave."
+	text "Encontré un buen"
+	line "#mon en la"
+	cont "Cueva Oscura."
 
-	para "I'm going to raise"
-	line "it to take on"
+	para "Voy a entrenarlo"
+	line "para desafiar a"
 	cont "Pegaso."
 
-	para "He's the leader of"
-	line "Violet City's Gym."
+	para "Es el Líder del"
+	line "Gimnasio de Ciudad"
+	cont "Malva."
 	done
 
 Route31SignText:
-	text "Route 31"
+	text "Ruta 31"
 
-	para "Violet City -"
-	line "Cherrygrove City"
+	para "Ciudad Malva -"
+	line "Ciudad Cerezo"
 	done
 
 DarkCaveSignText:
-	text "Dark Cave"
+	text "Cueva Oscura"
 	done
 
 Route31AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Pistas Entren.!"
 
-	para "Press Start in"
-	line "the Bag to sort"
-	cont "an item pocket!"
+	para "¡Pulsa Start en la"
+	line "Mochila para or-"
+	cont "denar un bolsillo!"
 	done

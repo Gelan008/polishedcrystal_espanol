@@ -30,53 +30,52 @@ Route4_MapScriptHeader:
 GenericTrainerYoungsterOliver:
 	generictrainer YOUNGSTER, OLIVER, EVENT_BEAT_YOUNGSTER_OLIVER, YoungsterOliverSeenText, YoungsterOliverBeatenText
 
-	text "People say that"
-	line "I ask too many"
-	cont "questions, but"
+	text "Dicen que hago"
+	line "demasiadas pregun-"
+	cont "tas, pero"
 
-	para "that's what kids"
-	line "do, right?"
+	para "eso hacen los ni-"
+	line "ños, ¿no?"
 	done
 
 GenericTrainerLassJennifer:
 	generictrainer LASS, JENNIFER, EVENT_BEAT_LASS_JENNIFER, LassJenniferSeenText, LassJenniferBeatenText
 
-	text "#mon are so"
-	line "much fun."
-	cont "Don't you agree?"
+	text "Los #mon son"
+	line "muy divertidos."
+	cont "¿A que sí?"
 	done
 
 GenericTrainerBird_keeperHank:
 	generictrainer BIRD_KEEPER, HANK, EVENT_BEAT_BIRD_KEEPER_HANK, Bird_keeperHankSeenText, Bird_keeperHankBeatenText
 
-	text "If you have a"
-	line "specific #mon"
+	text "Si quieres entre-"
+	line "nar a un #mon"
+	cont "en concreto,"
 
-	para "that you want to"
-	line "raise, put it out"
+	para "sácalo primero y"
+	line "cámbialo enseguida."
 
-	para "first, then switch"
-	line "it right away."
-
-	para "That's how to do"
-	line "it."
+	para "Así es como se"
+	line "hace."
 	done
 
 GenericTrainerPicnickerHope:
 	generictrainer PICNICKER, HOPE, EVENT_BEAT_PICNICKER_HOPE, PicnickerHopeSeenText, PicnickerHopeBeatenText
 
-	text "I heard Clefairy"
-	line "appear at Mt.Moon."
+	text "Oí que Clefairy"
+	line "aparece en el"
+	cont "Monte Moon."
 
-	para "But where could"
-	line "they be?"
+	para "Pero ¿dónde po-"
+	line "drán estar?"
 	done
 
 GenericTrainerPicnickerSharon:
 	generictrainer PICNICKER, SHARON, EVENT_BEAT_PICNICKER_SHARON, PicnickerSharonSeenText, PicnickerSharonBeatenText
 
-	text "……I'll go train"
-	line "some more…"
+	text "…… Iré a entrenar"
+	line "un poco más…"
 	done
 
 Route4SuperNerd1Script:
@@ -102,8 +101,8 @@ Route4TutorIronHeadScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "But it's better"
-	line "than Aqua Tail!"
+	text "¡Pero si es mejor"
+	line "que Acua Cola!"
 	done
 
 .NoSilverLeaf
@@ -113,9 +112,9 @@ Route4TutorIronHeadScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows how to use"
-	cont "Iron Head!"
+	text "¡Tu #mon ha"
+	line "aprendido a usar"
+	cont "Cabeza de Hierro!"
 	done
 
 Route4SuperNerd2Script:
@@ -141,8 +140,8 @@ Route4TutorAquaTailScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "But it's better"
-	line "than Iron Head!"
+	text "¡Pero si es mejor"
+	line "que Cabezahierro!"
 	done
 
 .NoSilverLeaf
@@ -152,9 +151,9 @@ Route4TutorAquaTailScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows how to use"
-	cont "Aqua Tail!"
+	text "¡Tu #mon ha"
+	line "aprendido a usar"
+	cont "Acua Cola!"
 	done
 
 Route4EngineerScript:
@@ -164,55 +163,56 @@ Route4EngineerScript:
 	end
 
 YoungsterOliverSeenText:
-	text "Hi! What's your"
-	line "name? Where are"
-	cont "you going?"
+	text "¡Hola! ¿Cómo te"
+	line "llamas? ¿Adónde"
+	cont "vas?"
 	done
 
 YoungsterOliverBeatenText:
-	text "I was just"
-	line "asking…"
+	text "Solo estaba pre-"
+	line "guntando…"
 	done
 
 LassJenniferSeenText:
-	text "I battle every"
-	line "chance I get,"
+	text "Lucho cada vez que"
+	line "puedo, solo por"
 
-	para "just to spend time"
-	line "with my #mon."
+	para "pasar tiempo con"
+	line "mis #mon."
 	done
 
 LassJenniferBeatenText:
-	text "Wheeee!"
+	text "¡Yuuuju!"
 	done
 
 Bird_keeperHankSeenText:
-	text "I'm raising my"
-	line "#mon. Want to"
-	cont "battle with me?"
+	text "Estoy entrenando"
+	line "a mis #mon."
+	cont "¿Luchas conmigo?"
 	done
 
 Bird_keeperHankBeatenText:
-	text "Ack! I lost that"
-	line "one…"
+	text "¡Vaya! Esta vez me"
+	line "ha tocado perder…"
 	done
 
 PicnickerHopeSeenText:
-	text "I have a feeling"
-	line "that I can win."
+	text "Tengo el presenti-"
+	line "miento de que pue-"
+	cont "do ganar."
 
-	para "Let's see if I'm"
-	line "right!"
+	para "¡A ver si tengo"
+	line "razón!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, you are too"
-	line "strong."
+	text "Vaya, eres dema-"
+	line "siado fuerte."
 	done
 
 PicnickerSharonSeenText: ; text > text
-	text "Um…"
-	line "I…"
+	text "Esto…"
+	line "Yo…"
 	done
 
 PicnickerSharonBeatenText: ; text > text
@@ -220,83 +220,83 @@ PicnickerSharonBeatenText: ; text > text
 	done
 
 Route4SuperNerd1Text:
-	text "#mon with tough"
-	line "heads are best!"
+	text "¡Los #mon con"
+	line "cabezas duras son"
+	cont "los mejores!"
 
-	para "Arcanine, Golem,"
+	para "¡Arcanine, Golem,"
 	line "Snorlax!"
 
-	para "Don't you agree?"
+	para "¿A que sí?"
 	done
 
 Route4SuperNerd2Text:
-	text "#mon with long"
-	line "tails are best!"
+	text "¡Los #mon con"
+	line "colas largas son"
+	cont "los mejores!"
 
-	para "Slowbro, Golduck,"
+	para "¡Slowbro, Golduck,"
 	line "Feraligatr!"
 
-	para "Don't you agree?"
+	para "¿A que sí?"
 	done
 
 Text_Route4TutorIronHead:
-	text "If you give me a"
-	line "Silver Leaf, I'll"
+	text "Si me das una Hoja"
+	line "Plata, ¡le en-"
 
-	para "teach your #mon"
-	line "to use Iron Head!"
+	para "señaré a tu #mon"
+	line "Cabeza de Hierro!"
 	done
 
 Text_Route4TutorAquaTail:
-	text "If you give me a"
-	line "Silver Leaf, I'll"
+	text "Si me das una Hoja"
+	line "Plata, ¡le en-"
 
-	para "teach your #mon"
-	line "to use Aqua Tail!"
+	para "señaré a tu #mon"
+	line "Acua Cola!"
 	done
 
 Text_Route4TutorsNoSilverLeaf:
-	text "But you don't have"
-	line "a Silver Leaf."
+	text "Pero si no tienes"
+	line "ninguna Hoja"
+	cont "Plata."
 	done
 
 Text_Route4Tutor1Question:
-	text "Should I teach"
-	line "your #mon"
-	cont "Iron Head?"
+	text "¿Le enseño Cabeza"
+	line "de Hierro a tu"
+	cont "#mon?"
 	done
 
 Text_Route4Tutor2Question:
-	text "Should I teach"
-	line "your #mon"
-	cont "Aqua Tail?"
+	text "¿Le enseño Acua"
+	line "Cola a tu #mon?"
 	done
 
-
-
-
-
 Route4EngineerText1:
-	text "Get those bolts"
-	line "tighter!"
+	text "¡Apretad más esos"
+	line "tornillos!"
 	done
 
 Route4EngineerText2:
-	text "The cable car's"
-	line "out right now."
+	text "El teleférico no"
+	line "funciona ahora."
 
-	para "Until we're done"
-	line "fixing it,"
+	para "Hasta que no aca-"
+	line "bemos de arreglar-"
+	cont "lo, la Plaza del"
 
-	para "Mt.Moon Square"
-	line "is closed."
+	para "Monte Moon estará"
+	line "cerrada."
 	done
 
 MtMoonSignText:
-	text "Mt.Moon Tunnel"
+	text "Túnel del"
+	line "Monte Moon"
 	done
 
 CableCarSignText:
-	text "Cable Car to"
-	line "Mt.Moon Square"
+	text "Teleférico a la"
+	line "Plaza Monte Moon"
 	done

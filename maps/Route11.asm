@@ -30,62 +30,64 @@ Route11_MapScriptHeader:
 GenericTrainerYoungsterOwen:
 	generictrainer YOUNGSTER, OWEN, EVENT_BEAT_YOUNGSTER_OWEN, YoungsterOwenSeenText, YoungsterOwenBeatenText
 
-	text "I fought fair and"
-	line "square with honor."
+	text "He luchado de for-"
+	line "ma limpia y con"
+	cont "honor."
 
-	para "I don't regret"
-	line "this at all."
+	para "No me arrepiento"
+	line "de nada."
 	done
 
 YoungsterOwenSeenText:
-	text "There's no cheat-"
-	line "ing in #mon."
+	text "No hay trampas que"
+	line "valgan con los"
+	cont "#mon."
 
-	para "Let's keep it fair"
-	line "and square!"
+	para "¡Juguemos limpio!"
 	done
 
 YoungsterOwenBeatenText:
-	text "Huh? How did this"
-	line "happen?"
+	text "¿Eh? ¿Cómo ha"
+	line "podido pasar?"
 	done
 
 GenericTrainerYoungsterJason:
 	generictrainer YOUNGSTER, JASON, EVENT_BEAT_YOUNGSTER_JASON, YoungsterJasonSeenText, YoungsterJasonBeatenText
 
-	text "I'm going to catch"
-	line "more #mon in"
-	cont "the grass."
+	text "Iré a atrapar más"
+	line "#mon entre la"
+	cont "hierba."
 	done
 
 YoungsterJasonSeenText:
-	text "It itches and"
-	line "tickles a bit when"
+	text "Pica y hace un po-"
+	line "co de cosquillas"
 
-	para "I wear shorts in"
-	line "the grass."
+	para "ir en pantalón cor-"
+	line "to por la hierba."
 	done
 
 YoungsterJasonBeatenText:
-	text "Aiyaaah!"
-	line "I got stomped!"
+	text "¡Aaaay!"
+	line "¡Me han machacado!"
 	done
 
 GenericTrainerYoungsterAlfie:
 	generictrainer YOUNGSTER, ALFIE, EVENT_BEAT_YOUNGSTER_ALFIE, .SeenText, .BeatenText
 
-	text "Everything's more"
-	line "fun when it's a"
-	cont "competition."
+	text "Todo es más diver-"
+	line "tido si es una"
+	cont "competición."
 	done
 
 .SeenText:
-	text "Three, two, one,"
-	line "GO!"
+	text "Tres, dos, uno…"
+	line "¡YA!"
 	done
 
 .BeatenText:
-	text "Game, set, match."
+	text "Juego, set y"
+	line "partido."
 	done
 
 GenericTrainerPsychicHerman:
@@ -93,8 +95,9 @@ GenericTrainerPsychicHerman:
 
 	text "…"
 
-	para "I lost while I had"
-	line "my eyes closed…"
+	para "Perdí mientras te-"
+	line "nía los ojos ce-"
+	cont "rrados…"
 	done
 
 PsychicHermanSeenText: ; text > text
@@ -105,106 +108,105 @@ PsychicHermanBeatenText:
 GenericTrainerPsychicFidel:
 	generictrainer PSYCHIC_T, FIDEL, EVENT_BEAT_PSYCHIC_FIDEL, PsychicFidelSeenText, PsychicFidelBeatenText
 
-	text "Strength in con-"
-	line "viction…"
+	text "La fuerza de la"
+	line "convicción…"
 
-	para "You're strong be-"
-	line "cause you believe"
-	cont "in your #mon."
+	para "Tienes poder por-"
+	line "que crees en tus"
+	cont "#mon."
 	done
 
 PsychicFidelSeenText:
-	text "I can see it…"
+	text "Puedo verlo…"
 
-	para "Everything to see"
-	line "about you…"
+	para "Todo lo relativo"
+	line "a ti…"
 	done
 
 PsychicFidelBeatenText:
-	text "I couldn't foresee"
-	line "your power…"
+	text "No pude prever tu"
+	line "gran poder…"
 	done
 
 GenericTrainerPsychicUri:
 	generictrainer PSYCHIC_T, URI, EVENT_BEAT_PSYCHIC_URI, .SeenText, .BeatenText
 
-	text "Prof.Oak won't"
-	line "give me a #dex."
-	cont "I wonder why?"
+	text "El Prof. Oak no me"
+	line "da una #dex."
+	cont "¿Por qué será?"
 	done
 
 .SeenText:
-	text "It happened one"
-	line "morning--a boy"
-	cont "with ESP awoke in"
+	text "Ocurrió una maña-"
+	line "na: un niño con"
+	cont "poderes psíquicos"
 
-	para "bed transformed"
-	line "into Kadabra!"
+	para "despertó en su ca-"
+	line "ma convertido en"
+	cont "un Kadabra."
 	done
 
 .BeatenText:
-	text "Urban legend?"
-	line "What's that?"
+	text "¿Leyenda urbana?"
+	line "¿Qué es eso?"
 	done
 
 GenericTrainerEngineerBernie:
 	generictrainer ENGINEER, BERNIE, EVENT_BEAT_ENGINEER_BERNIE, .SeenText, .BeatenText
 
-	text "Spread the word"
-	line "to save energy!"
+	text "¡Pasa la voz para"
+	line "ahorrar energía!"
 	done
 
 .SeenText:
-	text "Careful!"
-	line "I'm laying down"
-	cont "some cables!"
+	text "¡Cuidado! ¡Estoy"
+	line "instalando cables!"
 	done
 
 .BeatenText:
-	text "That was"
-	line "electric!"
+	text "¡Eso ha sido"
+	line "electrizante!"
 	done
 
 GenericTrainerEngineerCamden:
 	generictrainer ENGINEER, CAMDEN, EVENT_BEAT_ENGINEER_CAMDEN, .SeenText, .BeatenText
 
-	text "Building a bridge"
-	line "and building a"
-	cont "team of #mon"
+	text "Construir puentes"
+	line "y crear un equipo"
+	cont "#mon requiere"
 
-	para "both require know-"
-	line "ledge and skill."
+	para "conocimientos y"
+	line "mucha destreza."
 	done
 
 .SeenText:
-	text "I learned engin-"
-	line "eering at Celadon"
-	cont "University!"
+	text "¡Estudié ingenie-"
+	line "ría en la Univer-"
+	cont "sidad Azulona!"
 	done
 
 .BeatenText:
-	text "Shut down!"
+	text "¡Cortocircuito!"
 	done
 
 GenericTrainerGuitaristmRoger:
 	generictrainer GUITARISTM, ROGER, EVENT_BEAT_GUITARISTM_ROGER, .SeenText, .BeatenText
 
-	text "Don't give in"
-	line "without a fight!"
+	text "¡No te rindas sin"
+	line "pelear!"
 	done
 
 .SeenText:
-	text "Strangers passing"
-	line "in the street,"
+	text "Dos extraños cru-"
+	line "zan por la calle,"
 
-	para "by chance two"
-	line "separate glances"
-	cont "meet!"
+	para "¡y por azar cruzan"
+	line "sus miradas!"
 	done
 
 .BeatenText:
-	text "Shine on, you"
-	line "crazy diamond!"
+	text "¡Sigue brillando,"
+	line "loco diamante!"
 	done
 
 GenericTrainerGuitaristfRitsuko:
@@ -215,14 +217,15 @@ GenericTrainerGuitaristfRitsuko:
 	done
 
 .SeenText:
-	text "Hey ho, let's go!"
+	text "¡Hey, ho, let's"
+	line "go!"
 	done
 
 .BeatenText:
-	text "There's no success"
-	line "for me…"
+	text "No hay éxito para"
+	line "mí…"
 	done
 
 Route11SignText:
-	text "Route 11"
+	text "Ruta 11"
 	done

@@ -18,9 +18,10 @@ Route12Gate_MapScriptHeader:
 	object_event  0,  5, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route12GateOfficerText, -1
 
 Route12GateOfficerText:
-	text "Silence Bridge got"
-	line "its name from all"
+	text "El Puente del Si-"
+	line "lencio se llama"
 
-	para "the people quietly"
-	line "fishing on it."
+	para "así por toda la"
+	line "gente que pesca en"
+	cont "él en calma."
 	done

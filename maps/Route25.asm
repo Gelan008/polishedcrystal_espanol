@@ -31,50 +31,50 @@ Route25_MapScriptHeader:
 GenericTrainerSchoolboyDudley:
 	generictrainer SCHOOLBOY, DUDLEY, EVENT_BEAT_SCHOOLBOY_DUDLEY, SchoolboyDudleySeenText, SchoolboyDudleyBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Hice lo que pude."
+	line "No me arrepiento."
 	done
 
 GenericTrainerLassEllen:
 	generictrainer LASS, ELLEN, EVENT_BEAT_LASS_ELLEN, LassEllenSeenText, LassEllenBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Hice lo que pude."
+	line "No me arrepiento."
 	done
 
 GenericTrainerSchoolboyJoe:
 	generictrainer SCHOOLBOY, JOE, EVENT_BEAT_SCHOOLBOY_JOE, SchoolboyJoeSeenText, SchoolboyJoeBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Hice lo que pude."
+	line "No me arrepiento."
 	done
 
 GenericTrainerLassLaura:
 	generictrainer LASS, LAURA, EVENT_BEAT_LASS_LAURA, LassLauraSeenText, LassLauraBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Hice lo que pude."
+	line "No me arrepiento."
 	done
 
 GenericTrainerCamperLloyd:
 	generictrainer CAMPER, LLOYD, EVENT_BEAT_CAMPER_LLOYD, CamperLloydSeenText, CamperLloydBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Hice lo que pude."
+	line "No me arrepiento."
 	done
 
 GenericTrainerLassShannon:
 	generictrainer LASS, SHANNON, EVENT_BEAT_LASS_SHANNON, LassShannonSeenText, LassShannonBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Hice lo que pude."
+	line "No me arrepiento."
 	done
 
 GenericTrainerSupernerdPat:
 	generictrainer SUPER_NERD, PAT, EVENT_BEAT_SUPER_NERD_PAT, SupernerdPatSeenText, SupernerdPatBeatenText
 
-	text "I'm sorry… I won't"
-	line "cheat anymore…"
+	text "Perdón… No volveré"
+	line "a hacer trampas…"
 	done
 
 Route25SlowpokeScript:
@@ -120,90 +120,93 @@ Route25CooltrainerMovementData:
 	step_end
 
 SchoolboyDudleySeenText:
-	text "Beat the six of us"
-	line "trainers to win a"
-	cont "fabulous prize!"
+	text "¡Gana a los seis"
+	line "entrenadores para"
+	cont "un gran premio!"
 
-	para "Think you've got"
-	line "what it takes?"
+	para "¿Crees que podrás"
+	line "conseguir algo así?"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "¡Uau! Qué pasada."
 	done
 
 LassEllenSeenText:
-	text "I'm second."
-	line "Now it's serious!"
+	text "Soy la segunda."
+	line "¡Esto va en serio!"
 	done
 
 LassEllenBeatenText:
-	text "How could I lose?"
+	text "¿Cómo he podido"
+	line "perder?"
 	done
 
 SchoolboyJoeSeenText:
-	text "Here's No. 3!"
-	line "I won't be easy."
+	text "¡Llega el número 3!"
+	line "No será fácil."
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Stomped flat!"
+	text "¡Ay! ¡Me has he-"
+	line "cho papilla!"
 	done
 
 LassLauraSeenText:
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "¡Soy la número 4!"
+	line "¿Te estás cansando?"
 	done
 
 LassLauraBeatenText:
-	text "I lost too…"
+	text "Yo también perdí…"
 	done
 
 CamperLloydSeenText:
-	text "OK! I'm No. 5."
-	line "I'll stomp you!"
+	text "¡Vale! Soy el nú-"
+	line "mero 5. ¡Te voy a"
+	cont "aplastar!"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Too much."
+	text "¡Uf! Demasiado."
 	done
 
 LassShannonSeenText:
-	text "I'm the last in"
-	line "line, but I tell"
-	cont "you, I'm tough!"
+	text "¡Soy la última, pe-"
+	line "ro te aseguro que"
+	cont "soy la más dura!"
 	done
 
 LassShannonBeatenText:
-	text "You're kidding."
+	text "Es una broma…"
 	done
 
 SupernerdPatSeenText:
 	text "Mufufufu…"
 
-	para "I have nothing to"
-	line "do with the six-"
-	cont "pack trainers."
+	para "No tengo nada que"
+	line "ver con los seis"
+	cont "entrenadores."
 
-	para "I waited here to"
-	line "beat you when you"
+	para "He esperado aquí"
+	line "a que estuvieras"
 
-	para "were tired out by"
-	line "all the battles."
+	para "sin fuerzas tras"
+	line "tantos combates."
 	done
 
 SupernerdPatBeatenText:
-	text "Aren't you tired"
-	line "at all?"
+	text "¿Es que no estás"
+	line "sin fuerzas?"
 	done
 
 Route25MewYoungsterText:
-	text "One time I saw a"
-	line "Mew around here!"
+	text "¡Una vez vi a un"
+	line "Mew por aquí!"
 
-	para "You don't believe"
-	line "me? Slowpoke saw"
-	cont "it too!"
+	para "¿No me crees? ¡Pues"
+	line "Slowpoke también"
+	cont "lo vio!"
 	done
 
 Route25SlowpokeText1:
@@ -213,58 +216,57 @@ Route25SlowpokeText1:
 	done
 
 Route25SlowpokeText2:
-	text "…… ……Yawn?"
+	text "…… …… ¿Bostezo?"
 	done
 
 CooltrainermKevinNuggetText:
-	text "You took on one"
-	line "more battle than"
+	text "Luchaste un comba-"
+	line "te más de lo que"
 
-	para "you expected, but"
-	line "you won anyway."
+	para "esperabas, pero"
+	line "ganaste igualmente."
 
-	para "As promised, you"
-	line "win a prize."
+	para "Como prometí, aquí"
+	line "tienes tu premio."
 	done
 
 CooltrainermKevinSeenText:
-	text "But after seeing"
-	line "how you battle, I"
+	text "Pero viendo cómo"
+	line "luchas, quiero ver"
 
-	para "want to see how"
-	line "I'll fare."
+	para "cómo me desenvuel-"
+	line "vo yo."
 
-	para "How about it? Let"
-	line "me take you on."
+	para "¿Qué me dices?"
+	line "Permíteme luchar."
 	done
 
 CooltrainermKevinBeatenText:
-	text "I've never had a"
-	line "battle this good!"
+	text "¡Jamás tuve un com-"
+	line "bate tan bueno!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "That was a great"
-	line "battle!"
+	text "¡Menudo combate"
+	line "tan genial!"
 
-	para "You and your #-"
-	line "mon are truly out-"
-	cont "standing!"
+	para "¡Tus #mon y tú"
+	line "sois asombrosos!"
 	done
 
 NuggetBridgeNotClearedText:
-	text "Hey there!"
+	text "¡Buenas!"
 
-	para "Six trainers and"
-	line "I are hosting a"
+	para "Seis entrenadores"
+	line "y yo organizamos"
 
-	para "battle challenge"
-	line "on this route."
+	para "un desafío en"
+	line "esta ruta."
 
-	para "You can't skip"
-	line "ahead of them!"
+	para "¡No te los puedes"
+	line "saltar!"
 
-	para "There's a shortcut"
-	line "just below us back"
-	cont "to Route 24."
+	para "Abajo hay un ata-"
+	line "jo para volver a"
+	cont "la Ruta 24."
 	done

@@ -158,7 +158,7 @@ WonderTradeOTNames1:
 	rawchar "Brycen@" ; $9b
 	rawchar "Drayden" ; $9c
 	rawchar "Iris@@@" ; $9d
-	rawchar "Marlon@" ; $9e
+	rawchar "Ciprián" ; $9e
 	rawchar "Shantal" ; $9f
 	rawchar "Marshal" ; $a0
 	rawchar "Grimsly" ; $a1
@@ -203,7 +203,7 @@ WonderTradeOTNames1:
 	rawchar "Argenta" ; $c8
 	rawchar "Proton@" ; $c9
 	rawchar "Petrel@" ; $ca
-	rawchar "Archer@" ; $cb
+	rawchar "Atlas@@" ; $cb
 	rawchar "Ariana@" ; $cc
 	rawchar "Jessie@" ; $cd
 	rawchar "James@@" ; $ce
@@ -315,7 +315,7 @@ WonderTradeOTNames2:
 	rawchar "Felicty" ; $34
 	rawchar "Lune@@@" ; $35
 	rawchar "Marta@@" ; $36
-	rawchar "Mireia@" ; $37
+	rawchar "Merlín@" ; $37
 	rawchar "Juan@@@" ; $38
 	rawchar "Vero@@@" ; $39
 	rawchar "Sabino@" ; $3a

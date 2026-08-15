@@ -25,121 +25,122 @@ Route49_MapScriptHeader:
 	cuttree_event 20, 15, EVENT_ROUTE_49_CUT_TREE_2
 
 Route49LadyText:
-	text "Look at the grass"
-	line "and trees here!"
+	text "¡Mira la hierba y"
+	line "los árboles de"
+	cont "aquí!"
 
-	para "Valencia is full"
-	line "of unique flora."
+	para "Isla Valencia está"
+	line "llena de una flo-"
+	cont "ra única."
 	done
 
 Route49YoungsterText:
-	text "This landscape"
-	line "makes me feel like"
+	text "¡Este paisaje me"
+	line "hace sentir como"
 
-	para "an adventurer in"
-	line "the middle of the"
-	cont "jungle!"
+	para "un aventurero en"
+	line "plena jungla!"
 	done
 
 GenericTrainerSightseermHari:
 	generictrainer SIGHTSEERM, HARI, EVENT_BEAT_SIGHTSEERM_HARI, .SeenText, .BeatenText
 
-	text "I've been traveling"
-	line "a lot just to meet"
+	text "He viajado mucho"
+	line "solo para conocer"
 
-	para "every #mon"
-	line "Prof."
+	para "a todos los Prof."
+	line "#mon."
 
-	para "Wanna see the pho-"
-	line "tos I took?"
+	para "¿Quieres ver las"
+	line "fotos que saqué?"
 	done
 
 .SeenText:
-	text "Hey! I came here"
-	line "to meet Prof.Ivy!"
+	text "¡Oye! ¡He venido"
+	line "aquí a conocer a"
+	cont "la Prof. Ivy!"
 	done
 
 .BeatenText:
-	text "What? You already"
-	line "know her?"
+	text "¿Qué? ¿Ya la"
+	line "conoces?"
 	done
 
 GenericTrainerTamerJordan:
-	generictrainer TAMER, JORDAN, EVENT_BEAT_TAMER_JORDAN, .SeenText, .BeatenText
+	generictrainer TAMER, JORDAN, EVENT_BEAT_TAMER, JORDAN, .SeenText, .BeatenText
 
-	text "How did you tame"
-	line "your #mon so"
-	cont "well?"
+	text "¿Cómo domaste tan"
+	line "bien a tus #-"
+	cont "mon?"
 
-	para "They're strong,"
-	line "but calm at the"
-	cont "same time."
+	para "Son fuertes, pero"
+	line "tranquilos al mis-"
+	cont "mo tiempo."
 	done
 
 .SeenText:
-	text "Be careful! #-"
-	line "mon here can be"
-	cont "really wild!"
+	text "¡Cuidado! ¡Los #-"
+	line "mon de aquí pueden"
+	cont "ser muy fieros!"
 	done
 
 .BeatenText:
-	text "Whoa! Looks like"
-	line "yours are wilder."
+	text "¡Guau! Parece que"
+	line "los tuyos son más"
+	cont "fieros."
 	done
 
 GenericTrainerAromaLadyPeony:
 	generictrainer AROMA_LADY, PEONY, EVENT_BEAT_AROMA_LADY_PEONY, .SeenText, .BeatenText
 
-	text "My Bellossom loves"
-	line "living on this"
+	text "A mi Bellossom le"
+	line "encanta vivir en"
 
-	para "peaceful little"
-	line "island."
+	para "esta pequeña isla"
+	line "tan pacífica."
 	done
 
 .SeenText:
-	text "Do you want to see"
-	line "my Bellossom?"
+	text "¿Quieres ver a mi"
+	line "Bellossom?"
 	done
 
 .BeatenText:
-	text "Aww… Bellossom"
-	line "didn't want to"
-	cont "battle…"
+	text "Vaya… Bellossom no"
+	line "quería combatir…"
 	done
 
 GenericTrainerGuitaristmGeddy:
 	generictrainer GUITARISTM, GEDDY, EVENT_BEAT_GUITARISTM_GEDDY, .SeenText, .BeatenText
 
-	text "You think that I'm"
-	line "playing a guitar?"
-	cont "Wrong!"
+	text "¿Crees que toco la"
+	line "guitarra? ¡Pues te"
+	cont "equivocas!"
 
-	para "It's a 6-string"
-	line "bass."
+	para "Es un bajo de seis"
+	line "cuerdas."
 	done
 
 .SeenText:
-	text "It seems to me I"
-	line "could live my life"
+	text "Creo que podría"
+	line "vivir la vida mu-"
 
-	para "a lot better than"
-	line "I think I am…"
+	para "cho mejor de lo"
+	line "que lo hago…"
 
-	para "I guess that's why"
-	line "they call me…"
+	para "Por eso me llaman…"
 
-	para "They call me the"
-	line "working man!"
+	para "¡El currante me"
+	line "llaman!"
 	done
 
 .BeatenText:
-	text "Good battle!"
-	line "I may write a"
-	cont "song about it."
+	text "¡Buen combate!"
+	line "Quizá componga una"
+	cont "canción sobre él."
 	done
 
 Route49SignText:
-	text "Route 49"
-	line "Valencia Island"
+	text "Ruta 49"
+	line "Isla Valencia"
 	done

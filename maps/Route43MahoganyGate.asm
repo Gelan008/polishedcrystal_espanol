@@ -21,15 +21,16 @@ Route43MahoganyGateOfficer:
 	iftrue_jumptextfaceplayer Route43MahoganyGateOfficerRocketsClearedText
 	jumpthistextfaceplayer
 
-	text "Only people headed"
-	line "up to Lake of Rage"
+	text "Últimamente solo"
+	line "pasa por aquí"
 
-	para "have been through"
-	line "here lately."
+	para "gente que va hacia"
+	line "el Lago de la"
+	cont "Furia."
 	done
 
 Route43MahoganyGateOfficerRocketsClearedText:
-	text "Nobody goes up to"
-	line "Lake of Rage these"
-	cont "days."
+	text "Ya nadie va al"
+	line "Lago de la Furia"
+	cont "estos días."
 	done

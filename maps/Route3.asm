@@ -41,236 +41,239 @@ Route3FlyPoint:
 GenericTrainerYoungsterRegis:
 	generictrainer YOUNGSTER, REGIS, EVENT_BEAT_YOUNGSTER_REGIS, .SeenText, .BeatenText
 
-	text "Looks like I need"
-	line "more training!"
+	text "¡Parece que nece-"
+	line "sito entrenar más!"
 	done
 
 .SeenText:
-	text "Youngster? Good-"
-	line "ness, how rude!"
+	text "¿Joven? ¡Cielo"
+	line "santo, qué falta"
+	cont "de respeto!"
 
-	para "Call me Shorts"
-	line "Boy!"
+	para "¡Llámame el Chico"
+	line "Pantalones Cortos!"
 	done
 
 .BeatenText:
-	text "That is…"
-	line "Fail Boy…"
+	text "Más bien…"
+	line "Chico Fracaso…"
 	done
 
 GenericTrainerYoungsterJimmy:
 	generictrainer YOUNGSTER, JIMMY, EVENT_BEAT_YOUNGSTER_JIMMY, .SeenText, .BeatenText
 
-	text "I wear shorts the"
-	line "whole year round."
+	text "Llevo pantalones"
+	line "cortos todo el año."
 
-	para "That's my fashion"
-	line "policy."
+	para "Ese es mi estilo."
 	done
 
 .SeenText:
-	text "I can run like the"
-	line "wind!"
+	text "¡Puedo correr como"
+	line "el viento!"
 	done
 
 .BeatenText:
-	text "Blown away!"
+	text "¡Por los aires!"
 	done
 
 GenericTrainerYoungsterWarren:
 	generictrainer YOUNGSTER, WARREN, EVENT_BEAT_YOUNGSTER_WARREN, .SeenText, .BeatenText
 
-	text "You looked strong."
+	text "Parecías fuerte."
 
-	para "I was afraid to"
-	line "take you on…"
+	para "Me daba miedo en-"
+	line "frentarme a ti…"
 	done
 
 .SeenText:
-	text "Hmmm… I don't know"
-	line "what to do…"
+	text "Ummm… No sé qué"
+	line "debería hacer…"
 	done
 
 .BeatenText:
-	text "I knew I'd lose…"
+	text "Sabía que iba a"
+	line "perder…"
 	done
 
 GenericTrainerFirebreatherOtis:
 	generictrainer FIREBREATHER, OTIS, EVENT_BEAT_FIREBREATHER_OTIS, .SeenText, .BeatenText
 
-	text "When it rains,"
-	line "it's hard to get"
-	cont "ignition…"
+	text "Cuando llueve,"
+	line "cuesta un montón"
+	cont "prender fuego…"
 	done
 
 .SeenText:
-	text "Ah! The weather's"
-	line "as fine as ever."
+	text "¡Ah! Hace un tiem-"
+	line "po tan bueno como"
+	cont "siempre."
 	done
 
 .BeatenText:
-	text "It's sunny, but"
-	line "I'm all wet…"
+	text "Hace sol, pero es-"
+	line "toy empapado…"
 	done
 
 GenericTrainerFirebreatherBurt:
 	generictrainer FIREBREATHER, BURT, EVENT_BEAT_FIREBREATHER_BURT, .SeenText, .BeatenText
 
-	text "The greatest fire-"
-	line "breather in Kanto,"
-	cont "that's me."
+	text "El mejor tragafue-"
+	line "gos de Kanto, ¡ese"
+	cont "mismo soy yo!"
 
-	para "But not the best"
-	line "trainer…"
+	para "Pero no el mejor"
+	line "entrenador…"
 	done
 
 .SeenText:
-	text "Step right up and"
-	line "take a look!"
+	text "¡Acérquense y ve-"
+	line "an el espectáculo!"
 	done
 
 .BeatenText:
-	text "Yow! That's hot!"
+	text "¡Uf! ¡Cómo quema!"
 	done
 
 GenericTrainerBlackbeltManford:
 	generictrainer BLACKBELT_T, MANFORD, EVENT_BEAT_BLACKBELT_MANFORD, .SeenText, .BeatenText
 
-	text "You must have"
-	line "trained under a"
-	cont "well-known master!"
+	text "¡Debes de haberte"
+	line "formado con un"
+	cont "gran maestro!"
 	done
 
 .SeenText:
-	text "Slow down and give"
-	line "me the chance to"
-	cont "defeat you!"
+	text "¡Para un momento y"
+	line "dame la oportuni-"
+	cont "dad de vencerte!"
 	done
 
 .BeatenText:
-	text "I've been beaten"
-	line "at my own game…"
+	text "Me venciste en mi"
+	line "propio terreno…"
 	done
 
 GenericTrainerBlackbeltAnder:
 	generictrainer BLACKBELT_T, ANDER, EVENT_BEAT_BLACKBELT_ANDER, .SeenText, .BeatenText
 
-	text "You came all the"
-	line "way from Johto?"
+	text "¿Has venido desde"
+	line "Johto?"
 
-	para "You must be very"
-	line "persistent!"
+	para "¡Debes de ser al-"
+	line "guien muy tenaz!"
 	done
 
 .SeenText:
-	text "Wait a moment!"
-	line "Come fight me!"
+	text "¡Espera un poco!"
+	line "¡Ven a luchar!"
 	done
 
 .BeatenText:
-	text "You did it…"
+	text "Lo lograste…"
 	done
 
 GenericTrainerHikerBruce:
 	generictrainer HIKER, BRUCE, EVENT_BEAT_HIKER_BRUCE, .SeenText, .BeatenText
 
-	text "All right, guess I"
-	line "should carry my"
-	cont "Bag again!"
+	text "Bueno, ¡supongo"
+	line "que toca cargar"
+	cont "la Mochila otra"
+	cont "vez!"
 	done
 
 .SeenText:
-	text "My Bag is digging"
-	line "into my shoulders!"
+	text "¡La Mochila se me"
+	line "clava en los hom-"
+	cont "bros!"
 
-	para "I'll take a break"
-	line "and have a battle!"
+	para "¡Descansaré con un"
+	line "buen combate!"
 	done
 
 .BeatenText:
-	text "Feh."
+	text "Bah."
 	done
 
 GenericTrainerHikerDwight:
 	generictrainer HIKER, DWIGHT, EVENT_BEAT_HIKER_DWIGHT, .SeenText, .BeatenText
 
-	text "Greeting someone"
-	line "you don't know…"
+	text "Saludar a alguien"
+	line "a quien no cono-"
+	cont "ces…"
 
-	para "That's the best"
-	line "thing about moun-"
-	cont "tains!"
+	para "¡Es lo mejor de la"
+	line "montaña!"
 	done
 
 .SeenText:
-	text "Peace!"
+	text "¡Paz!"
 
-	para "When you meet the"
-	line "unknown on a moun-"
-	cont "tain road, all you"
+	para "Cuando te encuen-"
+	line "tras a un descono-"
+	cont "cido en un camino"
 
-	para "want is peace,"
-	line "right?"
+	para "de montaña, buscas"
+	line "paz, ¿verdad?"
 	done
 
 .BeatenText:
-	text "Peace--even though"
-	line "I lost!"
+	text "¡Paz! Aunque haya"
+	line "perdido…"
 	done
 
 GenericTrainerAceDuoZacandjen1:
 	generictrainer ACE_DUO, ZACANDJEN1, EVENT_BEAT_ACE_DUO_ZAC_AND_JEN, .SeenText, .BeatenText
 
-	text "Zac: Your future"
-	line "looks promising."
+	text "Zac: Tu futuro"
+	line "parece prometedor."
 	done
 
 .SeenText:
-	text "Zac: Really, you"
-	line "want to battle us?"
+	text "Zac: ¿De verdad"
+	line "quieres luchar"
+	cont "contra nosotros?"
 
-	para "You've got a lot"
-	line "of courage for"
-	cont "someone so young."
+	para "Tienes valor para"
+	line "ser tan joven."
 	done
 
 .BeatenText:
-	text "Zac: You weren't"
-	line "bluffing…"
+	text "Zac: No ibas de"
+	line "farol…"
 	done
 
 GenericTrainerAceDuoZacandjen2:
 	generictrainer ACE_DUO, ZACANDJEN2, EVENT_BEAT_ACE_DUO_ZAC_AND_JEN, .SeenText, .BeatenText
 
-	text "Jen: I'm looking"
-	line "forward to seeing"
+	text "Jen: Tengo ganas"
+	line "de ver qué clase"
 
-	para "what kind of"
-	line "trainer you'll"
-	cont "become."
+	para "de entrenador"
+	line "llegarás a ser."
 	done
 
 .SeenText:
-	text "Jen: Huh? You'd"
-	line "like to go up"
-	cont "against us? Great!"
+	text "Jen: ¿Eh? ¿Quieres"
+	line "retarnos? ¡Genial!"
 	done
 
 .BeatenText:
-	text "Jen: You're so"
-	line "much stronger than"
-	cont "I thought."
+	text "Jen: Eres mucho"
+	line "más fuerte de lo"
+	cont "que pensaba."
 	done
 
 Route3MeteoriteText:
-	text "Never seen a stone"
-	line "like this before!"
+	text "¡Nunca había visto"
+	line "una piedra así!"
 
-	para "Could it be…"
-	line "a meteorite from"
-	cont "space?"
+	para "¿Podría ser…"
+	line "un meteorito del"
+	cont "espacio?"
 	done
 
 Route3MtMoonSquareSignText:
-	text "Mt.Moon Tunnel"
+	text "Túnel del"
+	line "Monte Moon"
 	done

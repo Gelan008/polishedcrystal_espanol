@@ -44,30 +44,30 @@ RandyScript:
 .alreadyhavekenya
 	jumpthisopenedtext
 
-	text "You can read it,"
-	line "but don't lose it!"
-	cont "Route 31!"
+	text "¡Puedes leerla,"
+	line "pero no la pier-"
+	cont "das! ¡Ruta 31!"
 
-	para "Oh, yeah. There"
-	line "was a weird tree"
-	cont "blocking the road."
+	para "Ah, sí. Había un"
+	line "árbol muy raro"
+	cont "cortando el paso."
 
-	para "I wonder if it's"
-	line "been cleared?"
+	para "¿Lo habrán quita-"
+	line "do ya?"
 	done
 
 .partyfull
 	jumpthisopenedtext
 
-	text "You can't carry"
-	line "another #mon…"
+	text "No puedes llevar"
+	line "otro #mon…"
 	done
 
 .refused
 	jumpthisopenedtext
 
-	text "Oh… Never mind,"
-	line "then…"
+	text "Oh… En ese caso,"
+	line "déjalo…"
 	done
 
 .questcomplete
@@ -118,70 +118,68 @@ Route35GoldenrodGatePokefanFScript:
 .aftersudowoodo
 	jumpthisopenedtext
 
-	text "I like the #mon"
-	line "Lullaby they play"
-	cont "on the radio."
+	text "Me gusta la Nana"
+	line "#mon que ponen"
+	cont "en la radio."
 	done
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
-	text "Excuse me, kid!"
-	line "Can you do a guy"
-	cont "a favor?"
+	text "¡Oye, chaval! ¿Me"
+	line "haces un favor?"
 
-	para "Can you take this"
-	line "#mon with Mail"
-	cont "to my friend?"
+	para "¿Puedes llevarle"
+	line "este #mon con"
+	cont "Carta a mi amigo?"
 
-	para "He's on Route 31."
+	para "Está en la"
+	line "Ruta 31."
 	done
 
 Route35GoldenrodGateRandyThanksText:
-	text "You will? Perfect!"
-	line "Thanks, kid!"
+	text "¿Sí? ¡Genial!"
+	line "¡Gracias, chaval!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
+	para "Mi colega es un"
+	line "gordinflón que se"
 
-	para "You'll recognize"
-	line "him right away!"
+	para "pasa el día dur-"
+	line "miendo."
+
+	para "¡Lo reconocerás al"
+	line "instante!"
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
-	text "<PLAYER> received a"
-	line "#mon with Mail."
+	text "¡<PLAYER> recibió un"
+	line "#mon con Carta!"
 	done
-
-
 
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Thanks, kid! You"
-	line "made the delivery"
-	cont "for me!"
+	text "¡Gracias! ¡Me has"
+	line "hecho la entrega!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "¡Toma esto por las"
+	line "molestias!"
 	done
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "Estaba durmiendo,"
+	line "¿verdad? ¡Je, te"
+	cont "lo dije!"
 	done
 
 
-
 Route35GoldenrodGateFisherText:
-	text "I wonder how many"
-	line "kinds of #mon"
+	text "Me pregunto cuán-"
+	line "tas clases de"
 
-	para "there are in the"
-	line "world."
+	para "#mon habrá en"
+	line "el mundo."
 
-	para "Three years ago,"
-	line "Prof.Oak said that"
+	para "Hace tres años, el"
+	line "Prof. Oak dijo que"
 
-	para "there were 150"
-	line "different kinds."
+	para "había 150 tipos"
+	line "diferentes."
 	done

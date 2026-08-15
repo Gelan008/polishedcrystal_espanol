@@ -19,15 +19,15 @@ Route40BattleTowerGate_MapScriptHeader:
 	object_event  7,  5, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route40BattleTowerGateTwinScript, -1
 
 Route40BattleTowerGateOfficer:
-	text "Are you going to"
-	line "the Battle Tower?"
+	text "¿Vas a la Torre"
+	line "Batalla?"
 
-	para "If you win a whole"
-	line "lot, you can earn"
+	para "Si ganas un montón"
+	line "de veces, ganarás"
 
-	para "Battle Points and"
-	line "trade them in for"
-	cont "special items."
+	para "Puntos de Batalla"
+	line "y podrás canjear-"
+	cont "los por objetos."
 	done
 
 Route40BattleTowerGateRockerScript:
@@ -35,23 +35,24 @@ Route40BattleTowerGateRockerScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "Did you come to"
-	line "see the Battle"
-	cont "Tower too?"
+	text "¿Tú también has"
+	line "venido a ver la"
+	cont "Torre Batalla?"
 
-	para "But I guess you"
-	line "can't go in yet."
+	para "Pero me temo que"
+	line "aún no se puede"
+	cont "entrar."
 	done
 
 .OpenText:
-	text "Battle Tower has"
-	line "opened."
+	text "¡Ya han abierto la"
+	line "Torre Batalla!"
 
-	para "I want to go, but"
-	line "I haven't thought"
+	para "Quiero ir, pero"
+	line "aún no he pensado"
 
-	para "up a cool line for"
-	line "when I win."
+	para "una frase chula"
+	line "para cuando gane."
 	done
 
 Route40BattleTowerGateTwinScript:
@@ -59,20 +60,20 @@ Route40BattleTowerGateTwinScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "I'm going to train"
-	line "my #mon so I'll"
+	text "Voy a entrenar a"
+	line "mis #mon para"
 
-	para "be all ready for"
-	line "the Battle Tower."
+	para "estar a punto para"
+	line "la Torre Batalla."
 	done
 
 .OpenText:
-	text "The levels of the"
-	line "#mon I want to"
+	text "Los niveles de los"
+	line "#mon que quiero"
 
-	para "use are all"
-	line "different."
+	para "usar son todos"
+	line "distintos."
 
-	para "I have to go train"
-	line "them now!"
+	para "¡Tengo que ir a"
+	line "entrenarlos ya!"
 	done

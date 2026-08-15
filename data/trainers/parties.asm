@@ -7377,7 +7377,7 @@ SECTION "ArcherGroup", ROMX
 ArcherGroup:
 
 	def_trainer_class ARCHER
-	def_trainer ARCHER1, "Archer"
+	def_trainer ARCHER1, "Atlas"
 	tr_mon 41, HOUNDOUR @ EVIOLITE, MALE
 		tr_extra FLASH_FIRE
 		tr_evs 252 HP
@@ -7400,7 +7400,7 @@ ArcherGroup:
 		tr_moves SMOKESCREEN, SUPER_FANG, FEINT_ATTACK, FLAMETHROWER
 	end_trainer
 
-	def_trainer ARCHER2, "Archer"
+	def_trainer ARCHER2, "Atlas"
 	tr_mon 28, HAUNTER @ SPELL_TAG, MALE
 		tr_extra LEVITATE
 		tr_evs 88 SAt, 88 Spe
@@ -8693,7 +8693,7 @@ SECTION "MarlonGroup", ROMX
 MarlonGroup:
 
 	def_trainer_class MARLON
-	def_trainer 1, "Marlon"
+	def_trainer 1, "Ciprián"
 	tr_mon 27, QUAGSIRE, MALE
 		tr_extra WATER_ABSORB
 		tr_evs 200 SDf
@@ -8716,7 +8716,7 @@ MarlonGroup:
 		tr_moves PAIN_SPLIT, BUBBLE_BEAM, SWIFT, RAIN_DANCE
 	end_trainer
 
-	def_trainer 2, "Marlon"
+	def_trainer 2, "Ciprián"
 	tr_mon 57, QUAGSIRE, MALE
 		tr_extra WATER_ABSORB
 		tr_evs 68 HP, 252 SDf
@@ -8743,7 +8743,7 @@ MarlonGroup:
 		tr_moves ICICLE_SPEAR, ROCK_BLAST, PIN_MISSILE, HYDRO_PUMP
 	end_trainer
 
-	def_trainer 3, "Marlon"
+	def_trainer 3, "Ciprián"
 	tr_mon 72, CLOYSTER @ FOCUS_SASH, MALE
 		tr_extra SKILL_LINK, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe

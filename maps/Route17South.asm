@@ -38,253 +38,259 @@ Route17SouthAlwaysOnBikeCallback:
 GenericTrainerBikerReilly:
 	generictrainer BIKER, REILLY, EVENT_BEAT_BIKER_REILLY, BikerReillySeenText, BikerReillyBeatenText
 
-	text "Don't get cocky,"
-	line "you Johto punk!"
+	text "¡No te crezcas,"
+	line "mocoso de"
+	cont "Johto!"
 	done
 
 BikerReillySeenText:
-	text "Hey, you! You're"
-	line "from Johto, huh?"
+	text "¡Eh, tú! Vienes de"
+	line "Johto, ¿a que sí?"
 	done
 
 BikerReillyBeatenText:
-	text "Whoa, you kick!"
+	text "¡Uau, cómo pegas!"
 	done
 
 GenericTrainerBikerJoel:
 	generictrainer BIKER, JOEL, EVENT_BEAT_BIKER_JOEL, BikerJoelSeenText, BikerJoelBeatenText
 
-	text "I look cool, but"
-	line "I'm weak, so I'm"
-	cont "not really cool."
+	text "Parezco enrollado,"
+	line "pero soy débil, así"
 
-	para "I have to train"
-	line "harder…"
+	para "que en verdad no"
+	line "molo nada."
+
+	para "Tengo que entre-"
+	line "nar más duro…"
 	done
 
 BikerJoelSeenText:
-	text "Wow. That's a cool"
-	line "Bicycle!"
+	text "¡Hala! ¡Qué Bici-"
+	line "cleta más chula!"
 	done
 
 BikerJoelBeatenText:
-	text "But you don't just"
-	line "look cool…"
+	text "No solo tienes un"
+	line "aspecto genial…"
 	done
 
 GenericTrainerBikerGlenn:
 	generictrainer BIKER, GLENN, EVENT_BEAT_BIKER_GLENN, BikerGlennSeenText, BikerGlennBeatenText
 
-	text "Hands-free riding"
-	line "is considered cool"
-	cont "on Cycling Road."
+	text "Ir sin manos mola"
+	line "un montón en el"
+	cont "Camino de Bicis."
 	done
 
 BikerGlennSeenText:
-	text "Hey! Want to have"
-	line "a speed battle?"
+	text "¡Oye! ¿Quieres un"
+	line "combate a toda"
+	cont "velocidad?"
 	done
 
 BikerGlennBeatenText:
-	text "Yikes! You've got"
-	line "awesome torque!"
+	text "¡Ay va! ¡Tienes"
+	line "una aceleración"
+	cont "increíble!"
 	done
 
 GenericTrainerBikerDale:
 	generictrainer BIKER, DALE, EVENT_BEAT_BIKER_DALE, BikerDaleSeenText, BikerDaleBeatenText
 
-	text "You're so cool!"
-	line "You don't do any-"
-	cont "thing halfway!"
+	text "¡Molas un montón!"
+	line "¡No haces nada a"
+	cont "medias!"
 	done
 
 BikerDaleSeenText:
-	text "You're gonna lose!"
-	line "I've got a hunch!"
+	text "¡Vas a perder!"
+	line "¡Tengo una cora-"
+	cont "zonada!"
 	done
 
 BikerDaleBeatenText:
-	text "Maybe my hunch was"
-	line "a little off…"
+	text "Quizá me haya fa-"
+	line "llado el ojo…"
 	done
 
 GenericTrainerBikerJacob:
 	generictrainer BIKER, JACOB, EVENT_BEAT_BIKER_JACOB, BikerJacobSeenText, BikerJacobBeatenText
 
-	text "Chopper? Oh, I"
-	line "was talking about"
-	cont "my Bicycle!"
+	text "¿Mi moto? ¡Hablaba"
+	line "de mi Bicicleta!"
 	done
 
 BikerJacobSeenText:
-	text "Modding my"
-	line "chopper costs a"
+	text "¡Trucar mi moto me"
+	line "cuesta una pasta!"
 
-	para "bunch of money!"
-	line "I need a job!"
+	para "¡Necesito un tra-"
+	line "bajo ya!"
 	done
 
 BikerJacobBeatenText:
-	text "Argh. I failed!"
+	text "¡Maldita sea! ¡He"
+	line "fracasado!"
 	done
 
 GenericTrainerBikerAiden:
 	generictrainer BIKER, AIDEN, EVENT_BEAT_BIKER_AIDEN, BikerAidenSeenText, BikerAidenBeatenText
 
-	text "Gaon gaooon!"
-	line "Buwaribaribari…!"
+	text "¡Brum, brrruuum!"
+	line "¡Ratatatatata…!"
 
-	para "There, my engine"
-	line "imitation has"
-	cont "evolved!"
+	para "¡Toma, mi imita-"
+	line "ción de motor ha"
+	cont "evolucionado!"
 	done
 
 BikerAidenSeenText:
-	text "Vroom vroom!"
-	line "Baribaribaribari!"
+	text "¡Brum, brum!"
+	line "¡Brrr, brrr, brrr!"
 
-	para "What do you think"
-	line "of my engine"
-	cont "imitation?"
+	para "¿Qué te parece mi"
+	line "imitación del mo-"
+	cont "tor?"
 	done
 
 BikerAidenBeatenText:
-	text "Hnnff… hnnff…"
-	line "I'm out of breath…"
+	text "Uf… Uf…"
+	line "¡Me falta el aire!"
 	done
 
 GenericTrainerBikerDan:
 	generictrainer BIKER, DAN, EVENT_BEAT_BIKER_DAN, BikerDanSeenText, BikerDanBeatenText
 
-	text "I love this melan-"
-	line "choly melody."
+	text "Me encanta esta me-"
+	line "lodía melancólica."
 
-	para "It really suits me"
-	line "well…"
+	para "De verdad que va"
+	line "mucho conmigo…"
 	done
 
 BikerDanSeenText:
-	text "Parara parapara"
-	line "para-parara!"
+	text "¡Tururú tururú"
+	line "turu-tururú!"
 
-	para "My horn's got a"
-	line "great sound to it,"
-	cont "don't you think?"
+	para "Mi bocina suena"
+	line "genial, ¿a que sí?"
 	done
 
 BikerDanBeatenText:
-	text "Paaraaraaaaa…"
+	text "Turuuuruuuu…"
 	done
 
 GenericTrainerBikerTeddy:
 	generictrainer BIKER, TEDDY, EVENT_BEAT_BIKER_TEDDY, BikerTeddySeenText, BikerTeddyBeatenText
 
-	text "I love the way you"
-	line "do battle, too!"
+	text "¡Me gusta tu forma"
+	line "de combatir!"
 
-	cont "Consider me a fan!"
+	para "¡Cuenta conmigo"
+	line "como fan tuyo!"
 	done
 
 BikerTeddySeenText:
-	text "Hey, that's a cool"
-	line "Bike you're riding!"
+	text "¡Oye, qué Bici más"
+	line "chula llevas!"
 	done
 
 BikerTeddyBeatenText:
-	text "Great job."
+	text "Buen combate."
 	done
 
 GenericTrainerRoughneckBrian:
 	generictrainer ROUGHNECK, BRIAN, EVENT_BEAT_ROUGHNECK_BRIAN, RoughneckBrianSeenText, RoughneckBrianBeatenText
 
-	text "See you later!"
-	line "Come back anytime!"
+	text "¡Hasta luego!"
+	line "¡Vuelve cuando"
+	cont "quieras!"
 	done
 
 RoughneckBrianSeenText:
-	text "Hey, who told you"
-	line "you could ride"
-	cont "on this road?"
+	text "¡Oye! ¿Quién te ha"
+	line "dicho que puedes"
+	cont "ir por aquí?"
 	done
 
 RoughneckBrianBeatenText:
-	text "Crash!"
+	text "¡Vaya castañazo!"
 	done
 
 GenericTrainerRoughneckTheron:
 	generictrainer ROUGHNECK, THERON, EVENT_BEAT_ROUGHNECK_THERON, RoughneckTheronSeenText, RoughneckTheronBeatenText
 
-	text "You wanna join"
-	line "my team?"
+	text "¿Quieres unirte a"
+	line "mi banda?"
 
-	para "Won't you give it"
-	line "a try?"
+	para "¿Por qué no lo"
+	line "pruebas?"
 	done
 
 RoughneckTheronSeenText:
-	text "I'll toughen you"
-	line "up. Now, you come"
-	cont "along with me."
+	text "Te voy a espabilar."
+	line "¡Vente conmigo!"
 	done
 
 RoughneckTheronBeatenText:
-	text "I lost. I lost!"
+	text "He perdido."
+	line "¡He perdido!"
 	done
 
 GenericTrainerRoughneckMarkey:
 	generictrainer ROUGHNECK, MARKEY, EVENT_BEAT_ROUGHNECK_MARKEY, RoughneckMarkeySeenText, RoughneckMarkeyBeatenText
 
-	text "All right!"
+	text "¡Genial!"
 
-	para "That fighting"
-	line "yell was great!"
+	para "¡Ese grito de gue-"
+	line "rra ha sido total!"
 	done
 
 RoughneckMarkeySeenText:
-	text "Hey hey hey!"
-	line "You're in my way!"
+	text "¡Eh, eh, eh! ¡Que"
+	line "estás en medio!"
 
-	para "IN MY WAY!"
+	para "¡EN MEDIO!"
 	done
 
 RoughneckMarkeyBeatenText:
-	text "All right, thanks!"
+	text "¡Muy bien, gracias!"
 	done
 
 Route17SouthNotice1Text:
-	text "It's a notice."
+	text "Es un aviso."
 
-	para "Watch out for"
-	line "discarded items!"
+	para "¡Atención a los"
+	line "objetos tirados!"
 	done
 
 Route17SouthTrainerTips1Text:
-	text "Trainer Tips"
+	text "Pistas Entren."
 
-	para "All #mon are"
-	line "unique."
+	para "Cada #mon es"
+	line "único."
 
-	para "Two #mon of the"
-	line "same species and"
-	cont "level may still"
+	para "Dos #mon de la"
+	line "misma especie y ni-"
+	cont "vel pueden crecer,"
 
-	para "look, act, and"
-	line "grow differently."
+	para "actuar y verse de"
+	line "forma distinta."
 	done
 
 Route17SouthTrainerTips2Text:
-	text "Trainer Tips"
+	text "Pistas Entren."
 
-	para "Open the Start"
-	line "menu to stay in"
-	cont "place while on a"
-	cont "slope."
+	para "Abre el menú con"
+	line "Start para frenar"
+	cont "en las cuestas."
 	done
 
 Route17SouthNotice2Text:
-	text "It's a notice."
+	text "Es un aviso."
 
-	para "Don't throw the"
-	line "game, throw #"
-	cont "Balls instead!"
+	para "¡No tires la to-"
+	line "alla, tira #"
+	cont "Balls!"
 	done

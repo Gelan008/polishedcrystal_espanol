@@ -150,75 +150,78 @@ MooMoo:
 	end
 
 Text_MoomooIsSick:
-	text "Moomoo is sick…"
+	text "Mu-mu está"
+	line "enferma…"
 
-	para "She needs lots of"
-	line "healthy Berries."
+	para "Necesita muchas"
+	line "Bayas curativas."
 	done
 
 Text_WereFeedingMoomoo:
-	text "We're feeding"
-	line "Moomoo!"
+	text "¡Le estamos dando"
+	line "de comer a Mu-mu!"
 	done
 
 Text_WeakMoo:
-	text "Miltank: …Moo…"
+	text "Miltank: … Muu…"
 	done
 
 Text_ItsCryIsWeak:
-	text "Its cry is weak…"
+	text "Su gemido es muy"
+	line "débil…"
 	done
 
 MoomooHappyMooText:
-	text "Miltank: Mooo!"
+	text "Miltank: ¡Muuu!"
 	done
 
 Text_AskGiveBerry:
-	text "Give an Oran or"
-	line "Sitrus Berry to"
-	cont "Miltank?"
+	text "¿Dar Baya Aranja o"
+	line "Cidra a Miltank?"
 	done
 
 Text_GaveOranBerry:
-	text "<PLAYER> gave an"
-	line "Oran Berry to"
-	cont "Miltank."
+	text "¡<PLAYER> le dio una"
+	line "Baya Aranja a"
+	cont "Miltank!"
 	done
 
 Text_GaveSitrusBerry:
-	text "<PLAYER> gave a"
-	line "Sitrus Berry to"
-	cont "Miltank."
+	text "¡<PLAYER> le dio una"
+	line "Baya Cidra a"
+	cont "Miltank!"
 	done
 
 Text_LittleHealthier:
-	text "Miltank became a"
-	line "little healthier!"
+	text "¡Miltank ha mejo-"
+	line "rado un poco!"
 	done
 
 Text_QuiteHealthy:
-	text "Miltank became"
-	line "quite healthy!"
+	text "¡Miltank ha mejo-"
+	line "rado bastante!"
 	done
 
 Text_TotallyHealthy:
-	text "Miltank became"
-	line "totally healthy!"
+	text "¡Miltank se ha re-"
+	line "cuperado del todo!"
 	done
 
 Text_NoBerries:
-	text "<PLAYER> has no"
-	line "Oran or Sitrus"
-	cont "Berries…"
+	text "<PLAYER> no tiene"
+	line "Bayas Aranja ni"
+	cont "Cidra…"
 	done
 
 Text_RefusedToGiveBerry:
-	text "<PLAYER> wouldn't"
-	line "give a Berry."
+	text "<PLAYER> decidió no"
+	line "darle ninguna"
+	cont "Baya."
 
-	para "Miltank looks sad."
+	para "Miltank parece"
+	line "triste."
 	done
 
 Route39BarnBucketText:
-	text "It's a bucket."
+	text "Es un cubo."
 	done

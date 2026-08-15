@@ -32,256 +32,260 @@ Route20_MapScriptHeader:
 GenericTrainerSwimmerfNicole:
 	generictrainer SWIMMERF, NICOLE, EVENT_BEAT_SWIMMERF_NICOLE, SwimmerfNicoleSeenText, SwimmerfNicoleBeatenText
 
-	text "Swimming exercises"
-	line "your full body."
+	text "Al nadar ejercitas"
+	line "todo el cuerpo."
 
-	para "It's really good"
-	line "for you."
+	para "Es genial para la"
+	line "salud."
 	done
 
 SwimmerfNicoleSeenText:
-	text "I feel so much"
-	line "lighter in water."
+	text "Me siento mucho"
+	line "más ligera en el"
+	cont "agua."
 	done
 
 SwimmerfNicoleBeatenText:
-	text "Oh, no!"
+	text "¡Oh, no!"
 	done
 
 GenericTrainerSwimmerfLori:
 	generictrainer SWIMMERF, LORI, EVENT_BEAT_SWIMMERF_LORI, SwimmerfLoriSeenText, SwimmerfLoriBeatenText
 
-	text "Surf is no longer"
-	line "the only HM move"
-	cont "you use in water."
+	text "Surf ya no es el"
+	line "único movimiento"
+
+	para "MO que se usa en"
+	line "el agua."
 	done
 
 SwimmerfLoriSeenText:
-	text "What an impressive"
-	line "collection of Gym"
+	text "Impresionante co-"
+	line "lección de Meda-"
+	cont "llas de Gimnasio."
 
-	para "Badges. We should"
-	line "battle!"
+	para "¡Deberíamos com-"
+	line "batir!"
 	done
 
 SwimmerfLoriBeatenText: ; text > text
-	text "No!"
+	text "¡No!"
 	done
 
 GenericTrainerSwimmerfMayu:
 	generictrainer SWIMMERF, MAYU, EVENT_BEAT_SWIMMERF_MAYU, .SeenText, .BeatenText
 
-	text "I was trying to"
-	line "see how long I"
+	text "¡Estaba intentando"
+	line "ver cuánto tiempo"
 
-	para "could hold my"
-	line "breath!"
+	para "aguantaba la res-"
+	line "piración!"
 	done
 
 .SeenText:
-	text "Mmph? Mmmph"
+	text "¿Mmph? ¿Mmmph"
 	line "mmmmphh?"
 
-	para "Mmmmph"
+	para "¡Mmmmph"
 	line "mmmmmppphh!"
 	done
 
 .BeatenText:
-	text "Pwah!"
+	text "¡Puah!"
 	done
 
 GenericTrainerSwimmerfLeona:
 	generictrainer SWIMMERF, LEONA, EVENT_BEAT_SWIMMERF_LEONA, .SeenText, .BeatenText
 
-	text "Your #mon--are"
-	line "you following the"
+	text "Tus #mon… ¿si-"
+	line "gues las últimas"
 
-	para "latest trend in"
-	line "teams?"
+	para "tendencias en"
+	line "equipos?"
 	done
 
 .SeenText:
-	text "Look! It's my very"
-	line "best swimsuit and"
+	text "¡Mira! ¡Llevo mi"
+	line "mejor bañador y a"
 
-	para "my very best"
+	para "mis mejores"
 	line "#mon!"
 	done
 
 .BeatenText:
-	text "Ohhh!"
+	text "¡Ohhh!"
 	done
 
 GenericTrainerSwimmermCameron:
 	generictrainer SWIMMERM, CAMERON, EVENT_BEAT_SWIMMERM_CAMERON, SwimmermCameronSeenText, SwimmermCameronBeatenText
 
-	text "Besides the sea, I"
-	line "can also swim in"
-	cont "ponds and rivers."
+	text "Aparte del mar,"
+	line "también puedo na-"
+	cont "dar en lagos y"
+	cont "ríos."
 	done
 
 SwimmermCameronSeenText:
-	text "I guess it's im-"
-	line "possible to swim"
-
-	para "all the way to"
-	line "Johto."
+	text "Supongo que es im-"
+	line "posible llegar na-"
+	cont "dando a Johto."
 	done
 
 SwimmermCameronBeatenText:
-	text "Aiyah!"
+	text "¡Aaaay!"
 	done
 
 GenericTrainerSwimmermLuis:
 	generictrainer SWIMMERM, SWIMMERM_LUIS, EVENT_BEAT_SWIMMERM_LUIS, .SeenText, .BeatenText
 
-	text "All right! Next"
-	line "time I'll wear"
-	cont "party swim trunks!"
+	text "¡Muy bien! ¡La"
+	line "próxima vez me pon-"
+	cont "dré un bañador de"
+	cont "fiesta!"
 	done
 
 .SeenText:
-	text "I've worn my best"
-	line "swim trunks today!"
+	text "¡Hoy me he puesto"
+	line "mi mejor bañador!"
 	done
 
 .BeatenText:
-	text "Even with my best"
-	line "pants, I just"
-	cont "didn't win."
+	text "Ni con mi mejor"
+	line "bañador he podido"
+	cont "ganar."
 	done
 
 GenericTrainerSwimmermElmo:
 	generictrainer SWIMMERM, ELMO, EVENT_BEAT_SWIMMERM_ELMO, .SeenText, .BeatenText
 
-	text "Maybe I should go"
-	line "back to fishing…"
+	text "Tal vez debería"
+	line "volver a la pesca…"
 	done
 
 .SeenText:
-	text "I used to be a"
-	line "Fisherman."
+	text "Antes era un Pes-"
+	line "cador."
 
-	para "I've grown to love"
-	line "swimming so much,"
-
-	para "I'm always in my"
-	line "swim trunks!"
+	para "¡Pero le he cogido"
+	line "tanto gusto a na-"
+	cont "dar que siempre voy"
+	cont "en bañador!"
 	done
 
 .BeatenText: ; text > text
-	text "Ulp…"
+	text "Glup…"
 	done
 
 GenericTrainerPicnickerCheyenne:
 	generictrainer PICNICKER, CHEYENNE, EVENT_BEAT_PICNICKER_CHEYENNE, .SeenText, .BeatenText
 
-	text "If I'm with #-"
-	line "mon, I don't mind"
-	cont "losing so much!"
+	text "¡Si estoy con mis"
+	line "#mon, no me im-"
+	cont "porta tanto perder!"
 	done
 
 .SeenText:
-	text "When I was a kid,"
-	line "I only played in-"
-	cont "side the house."
+	text "De pequeña solo"
+	line "jugaba dentro de"
+	cont "casa."
 
-	para "Now I love playing"
-	line "outside with #-"
-	cont "mon!"
+	para "¡Ahora me encanta"
+	line "jugar fuera con los"
+	cont "#mon!"
 	done
 
 .BeatenText:
-	text "Argh!"
+	text "¡Argh!"
 	done
 
 GenericTrainerPicnickerAdrian:
 	generictrainer PICNICKER, ADRIAN, EVENT_BEAT_PICNICKER_ADRIAN, .SeenText, .BeatenText
 
-	text "Even though I"
-	line "lost, I had fun!"
+	text "Aunque he perdido,"
+	line "¡me lo he pasado en"
+	cont "grande!"
 	done
 
 .SeenText:
-	text "Are you in a"
-	line "hurry?"
+	text "¿Llevas prisa?"
 
-	para "How about a quick"
-	line "battle break?"
+	para "¿Qué tal una pausa"
+	line "para un combate"
+	cont "rápido?"
 	done
 
 .BeatenText:
-	text "Aaahh… that's it."
+	text "Aaaah… se acabó."
 	done
 
 GenericTrainerCamperPedro:
 	generictrainer CAMPER, PEDRO, EVENT_BEAT_CAMPER_PEDRO, .SeenText, .BeatenText
 
-	text "If you forget your"
-	line "blanket, you can"
-
-	para "snuggle up to a"
-	line "warm #mon!"
+	text "Si olvidas la man-"
+	line "ta, ¡puedes acourru-"
+	cont "carte junto a un"
+	cont "#mon calentito!"
 	done
 
 .SeenText:
-	text "Have you ever gone"
-	line "camping with #-"
-	cont "mon?"
+	text "¿Alguna vez has"
+	line "ido de acampada con"
+	cont "#mon?"
 	done
 
 .BeatenText:
-	text "You're strong!"
+	text "¡Qué fuerte eres!"
 	done
 
 GenericTrainerBird_keeperBert:
 	generictrainer BIRD_KEEPER, BERT, EVENT_BEAT_BIRD_KEEPER_BERT, .SeenText, .BeatenText
 
-	text "That was an in-"
-	line "credible battle!"
+	text "¡Ha sido un comba-"
+	line "te increíble!"
 
-	para "I've got goose"
-	line "bumps!"
+	para "¡Tengo la piel de"
+	line "gallina!"
 	done
 
 .SeenText:
-	text "Found it! A"
-	line "trainer that I can"
-	cont "enjoy fighting!"
+	text "¡Por fin! ¡Alguien"
+	line "con quien da gusto"
+	cont "luchar!"
 	done
 
 .BeatenText:
-	text "I lost with all my"
-	line "strength!"
+	text "¡He luchado con to-"
+	line "das mis fuerzas!"
 	done
 
 GenericTrainerBird_keeperErnie:
 	generictrainer BIRD_KEEPER, ERNIE, EVENT_BEAT_BIRD_KEEPER_ERNIE, .SeenText, .BeatenText
 
-	text "You're something"
-	line "special!"
+	text "¡Tienes algo es-"
+	line "pecial!"
 	done
 
 .SeenText:
-	text "Hey, hey. Will you"
-	line "battle me?"
+	text "¡Oye, oye! ¿Lucha-"
+	line "rías contra mí?"
 	done
 
 .BeatenText:
-	text "That was pretty"
-	line "incredible."
+	text "Ha sido bastante"
+	line "impresionante."
 	done
 
 CinnabarGymSignText:
-	text "Seafoam Islands"
+	text "Islas Espuma"
 
-	para "…What does this"
-	line "notice say?"
+	para "¿Qué pone en este"
+	line "aviso…?"
 
-	para "Cinnabar Gym"
-	line "Leader: Blaine"
+	para "Gimnasio de Isla"
+	line "Canela"
+	cont "Líder: Blaine"
 	done
 
 SeafoamIslandsSignText:
-	text "Seafoam Islands"
+	text "Islas Espuma"
 	done

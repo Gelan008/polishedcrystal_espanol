@@ -53,119 +53,123 @@ KukuiScript:
 	jumpthistext
 
 .AfterText:
-	text "Amazing! I went"
-	line "right at you, and"
-	cont "you still won!"
+	text "¡Increíble! ¡Fui"
+	line "con todo a por ti"
+	cont "y aun así ganaste!"
 
-	para "No wonder you're"
-	line "the Champion!"
+	para "¡Con razón eres el"
+	line "Campeón!"
 
-	para "I need to train"
-	line "harder before I'm"
+	para "Tengo que entre-"
+	line "nar más duro an-"
+	cont "tes de estar listo"
 
-	para "ready for the"
-	line "League."
+	para "para la Liga."
 
-	para "And when I do,"
-	line "I'll battle you"
-	cont "again! Woo!"
+	para "Y en cuanto lo"
+	line "esté, ¡volveremos"
+	cont "a luchar! ¡Ujuuu!"
 	done
 
 .IntroText:
-	text "Hey there!"
-	line "The name's Kukui."
+	text "¡Hola, buenas!"
+	line "Me llamo Kukui."
 
-	para "So, you go by"
-	line "<PLAYER>? 10-4,"
-	cont "good buddy!"
+	para "¿Así que te llamas"
+	line "<PLAYER>? ¡Recibido,"
+	cont "camarada!"
 
-	para "I'm from the far-"
-	line "off region of"
+	para "¡Vengo de la leja-"
+	line "na región de"
 	cont "Alola!"
 
-	para "But we don't have a"
-	line "#mon League, so"
+	para "Pero allí no tene-"
+	line "mos Liga #mon,"
 
-	para "I came to Kanto to"
-	line "battle the Elite"
-	cont "Four here, yeah!"
+	para "así que vine a"
+	line "Kanto a luchar"
+	cont "contra el Alto"
+	cont "Mando, ¡sí señor!"
 
-	para "Huh? You're the"
-	line "new Champion?"
+	para "¿Cómo? ¿Que eres el"
+	line "nuevo Campeón?"
 
-	para "Woo, no wonder you"
-	line "look so stylin'!"
+	para "¡Ujuuu! ¡Con razón"
+	line "te ves con tanto"
+	cont "estilo!"
 
-	para "My team and I feel"
-	line "ready. How about"
+	para "Mi equipo y yo nos"
+	line "vemos listos. ¿Qué"
 
-	para "we skip the League"
-	line "and challenge you"
-	cont "right now?"
+	para "tal si pasamos de"
+	line "la Liga y te desa-"
+	cont "fío directamente?"
 	done
 
 .RematchText:
-	text "Hey there,"
+	text "¡Hola de nuevo,"
 	line "<PLAYER>!"
 
-	para "I've been training"
-	line "hard since our"
-	cont "last battle, yeah!"
+	para "He estado entre-"
+	line "nando duro desde"
+	cont "el último combate,"
+	cont "¡sí señor!"
 
-	para "You look like you"
-	line "got stronger too!"
+	para "¡Tú también pare-"
+	line "ces más fuerte!"
 
-	para "Say, how about a"
-	line "rematch?"
+	para "Dime, ¿qué tal una"
+	line "revancha?"
 	done
 
 .SeenText:
-	text "Let's have a battle"
-	line "worthy of this"
-	cont "moment!"
+	text "¡Tengamos un com-"
+	line "bate digno de este"
+	cont "momento!"
 	done
 
 .BeatenText:
-	text "I couldn't win"
-	line "even though I"
-	cont "went all out…"
+	text "No pude ganar aun-"
+	line "que di todo lo que"
+	cont "tenía…"
 	done
 
 .RefusedText:
-	text "Totally focused on"
-	line "your own quest,"
-	cont "yeah?"
+	text "Totalmente a lo"
+	line "tuyo con tu viaje,"
+	cont "¿eh?"
 
-	para "I respect that!"
+	para "¡Lo respeto!"
 	done
 
 Route22CooltrainerfText:
-	text "The name “Kanto”"
-	line "means “east of the"
-	cont "barrier.”"
+	text "El nombre “Kanto”"
+	line "significa “al este"
+	cont "de la barrera”."
 
-	para "I suppose the"
-	line "barrier must be"
-	cont "Mt.Silver."
+	para "Supongo que dicha"
+	line "barrera debe de"
+	cont "ser Monte Plateado."
 	done
 
 VictoryRoadEntranceSignText:
-	text "Route 22"
+	text "Ruta 22"
 
-	para "#mon League"
-	line "Reception Gate"
+	para "Control de Acceso"
+	line "a la Liga #mon"
 	done
 
 Route22AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "Pistas Entren."
 
-	para "Starting a New"
-	line "Game+ will keep"
+	para "¡Empezar una Nue-"
+	line "va Partida+ conser-"
+	cont "vará el dinero"
 
-	para "your previous"
-	line "game's money,"
-	cont "Battle Points, and"
+	para "de la anterior,"
+	line "los Puntos de Ba-"
+	cont "talla y cualquier"
 
-	para "any #mon stored"
-	line "in the PC!"
+	para "#mon guardado"
+	line "en el PC!"
 	done

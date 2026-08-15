@@ -23,19 +23,19 @@ PokemonJournalKurtScript:
 	setflag ENGINE_READ_KURT_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Craftsman César!"
+	para "Edición Especial:"
+	line "¡El artesano César!"
 
-	para "César does not let"
-	line "anyone near while"
+	para "César no deja que"
+	line "nadie se acerque"
 
-	para "he is making #"
-	line "Balls except his"
+	para "mientras fabrica"
+	line "# Balls, salvo"
 
-	para "granddaughter"
-	line "Maizie."
+	para "su nieta"
+	line "Millie."
 	done
 
 Route32Pokecenter1FFishingGuruScript:
@@ -56,43 +56,43 @@ Route32Pokecenter1FFishingGuruScript:
 	end
 
 .IntroText:
-	text "This is a great"
-	line "fishing spot."
+	text "Este es un gran"
+	line "sitio para pescar."
 
-	para "You saw people"
-	line "fishing? How"
-	cont "about you?"
+	para "¿Has visto a gente"
+	line "pescando? ¿Y a ti"
+	cont "te gustaría?"
 
-	para "Would you like one"
-	line "of my Rods?"
+	para "¿Quieres una de"
+	line "mis Cañas?"
 	done
 
 .YesText:
-	text "Heh, that's good"
-	line "to hear."
+	text "¡Je! Me alegro de"
+	line "oír eso."
 
-	para "Now you're an"
-	line "angler too!"
+	para "¡Ahora tú también"
+	line "eres pescador!"
 	done
 
 .AfterText:
-	text "Fishing is great!"
+	text "¡La pesca es"
+	line "genial!"
 
-	para "If there's water,"
-	line "be it the sea or a"
+	para "Si hay agua, ya"
+	line "sea el mar o un"
 
-	para "stream, try out"
-	line "your Rod."
+	para "riachuelo, prueba"
+	line "tu Caña."
 	done
 
 .NoText:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "Vaya. Es una pena…"
 	done
 
 .DoneText:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Hola, chaval."
+	line "¿Pican o no pican?"
 	done
 
 Route32PokeCenter1FPokefanMScript:
@@ -114,57 +114,58 @@ Route32PokeCenter1FPokefanMScript:
 	setevent EVENT_GOT_LURE_BALL_FROM_FRENCHMAN
 	jumpthisopenedtext
 
-	text "This Ball easily"
-	line "catches #mon"
-	cont "hooked on a Rod!"
+	text "¡Esta Ball atrapa"
+	line "fácilmente a los"
 
-	para "César of Azalea"
-	line "Town made it from"
-	cont "an Apricorn."
+	para "#mon que pican"
+	line "en una Caña!"
 
-	para "Apricorns,"
-	line "hourrah!"
+	para "César, de Pueblo"
+	line "Azalea, la fabricó"
+	cont "con un Bonguri."
+
+	para "¡Vivan los"
+	line "Bonguris!"
 	done
 
 .NoRoom
 	endtext
 
 .Text1:
-	text "Bonjour. How are"
-	line "you? Do you know"
-	cont "about Apricorns?"
+	text "Bonjour! ¿Qué tal?"
+	line "¿Conoces los Bon-"
+	cont "guris?"
 	done
 
 .Text2:
-	text "Non? What a waste!"
-	line "I will show you"
+	text "¿Non? ¡Qué lástima!"
+	line "¡Te enseñaré lo"
 
-	para "how great Apri-"
-	line "corns are!"
+	para "fantásticos que"
+	line "son los Bonguris!"
 	done
 
 .Text3:
-	text "Youpi! Way to go!"
-	line "I feel so great,"
+	text "¡Youpi! ¡Así se"
+	line "hace! Estoy tan"
 
-	para "I want to give you"
-	line "this!"
+	para "contento que quie-"
+	line "ro darte esto!"
 	done
 
 .Text5:
-	text "César is the hero"
-	line "of every Apricorn"
-	cont "collector."
+	text "César es el héroe"
+	line "de todo coleccio-"
+	cont "nista de Bonguris."
 
-	para "Apricorns,"
-	line "hourrah!"
+	para "¡Vivan los"
+	line "Bonguris!"
 	done
 
 Route32Pokecenter1FCooltrainerFText:
-	text "What should I make"
-	line "my #mon hold?"
+	text "¿Qué objeto le"
+	line "doy a mi #mon?"
 
-	para "Maybe an item that"
-	line "increases Attack"
-	cont "power…"
+	para "Quizá uno que au-"
+	line "mente su Ataque…"
 	done

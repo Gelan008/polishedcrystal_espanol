@@ -283,7 +283,7 @@ WesleyScript:
 	setevent EVENT_GOT_BLACK_BELT_FROM_WESLEY
 	jumpthisopenedtext
 
-	text "Mireia: El Cin-"
+	text "Merlín: El Cin-"
 	line "turón Negro aumen-"
 	cont "ta el poder de los"
 	cont "ataques de Lucha."
@@ -292,19 +292,19 @@ WesleyScript:
 .NotWednesday:
 	jumpthisopenedtext
 
-	text "Mireia: Hoy"
+	text "Merlín: Hoy"
 	line "no es miércoles."
 	cont "Qué pena."
 	done
 
 .MeetText:
-	text "Mireia: ¿Qué"
+	text "Merlín: ¿Qué"
 	line "tal?"
 
 	para "Dado que hoy"
 	line "es miércoles,"
 
-	para "soy Mireia,"
+	para "soy Merlín,"
 	line "la de ese día."
 	done
 
@@ -315,7 +315,7 @@ WesleyScript:
 	done
 
 .WednesdayText:
-	text "Mireia: Puesto"
+	text "Merlín: Puesto"
 	line "que me has encon-"
 	cont "trado, debes de"
 

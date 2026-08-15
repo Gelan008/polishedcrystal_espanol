@@ -291,7 +291,7 @@ RuinsOfAlphResearchCenterSignText:
 	done
 
 RuinsOfAlphAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Pistas Entren.!"
 
 	para "The #dex is a"
 	line "powerful tool!"

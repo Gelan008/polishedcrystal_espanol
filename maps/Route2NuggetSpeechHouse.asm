@@ -27,24 +27,24 @@ Route2NuggetSpeechHouseFisherScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "That's a Nugget."
+	text "Es una Pepita."
 
-	para "I can't give you"
-	line "any nuggets of"
+	para "No puedo darte"
+	line "perlas de sabi-"
 
-	para "wisdom, so that'll"
-	line "have to do!"
+	para "duría, ¡así que"
+	line "eso servirá!"
 	done
 
 .Text1:
-	text "Hi! Wow, I'm glad"
-	line "to see you."
+	text "¡Hola! Vaya, me"
+	line "alegro de verte."
 
-	para "You're the first"
-	line "visitor I've had"
-	cont "in a long time."
+	para "Eres la primera"
+	line "visita que tengo"
+	cont "en mucho tiempo."
 
-	para "I'm super happy!"
-	line "Let me give you a"
-	cont "little present."
+	para "¡Estoy superfe-"
+	line "liz! Déjame darte"
+	cont "un detallito."
 	done

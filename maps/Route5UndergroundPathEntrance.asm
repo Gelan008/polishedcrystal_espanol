@@ -16,9 +16,9 @@ Route5UndergroundPathEntrance_MapScriptHeader:
 	object_event  5,  3, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route5UndergroundPathEntranceTeacherText, -1
 
 Route5UndergroundPathEntranceTeacherText:
-	text "Many cities in"
-	line "Johto have long"
+	text "Muchas ciudades de"
+	line "Johto tienen una"
 
-	para "histories. I'd"
-	line "love to visit!"
+	para "gran historia. ¡Me"
+	line "encantaría ir!"
 	done

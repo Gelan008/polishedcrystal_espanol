@@ -183,49 +183,48 @@ Rocket2Script_LetsYouPassNorth:
 	step_end
 
 RocketText_TollFee:
-	text "Hold it there,"
-	line "kiddo!"
+	text "¡Alto ahí,"
+	line "mocoso!"
 
-	para "The toll is ¥{d:ROUTE43GATE_TOLL}"
-	line "to go through."
+	para "El peaje para pa-"
+	line "sar es ¥{d:ROUTE43GATE_TOLL}."
 	done
 
 RocketText_ThankYou:
-	text "Thank you very"
-	line "much!"
+	text "¡Muchas gracias!"
 	done
 
 RocketText_AllYouGot:
-	text "Then pay what you"
-	line "have, please."
+	text "Pues paga lo que"
+	line "tengas, anda."
 	done
 
 RocketText_MakingABundle:
-	text "He-he-he. We're"
-	line "making a bundle."
+	text "Je, je, je. Nos"
+	line "estamos forrando."
 
-	para "Everyone wants to"
-	line "see what's going"
+	para "Todo el mundo"
+	line "quiere ver qué"
 
-	para "on up at Lake of"
-	line "Rage."
+	para "pasa en el Lago de"
+	line "la Furia."
 	done
 
 OfficerText_FoundTM:
-	text "I got chased from"
-	line "my post by these"
-	cont "thugs in black."
+	text "Unos matones de"
+	line "negro me echaron"
+	cont "de mi puesto."
 
-	para "They left this"
-	line "behind."
+	para "Se dejaron esto"
+	line "olvidado."
 
-	para "It makes me uncom-"
-	line "fortable. Could"
-	cont "you take it away?"
+	para "Me da mal rollo."
+	line "¿Te lo puedes"
+	cont "llevar?"
 	done
 
 OfficerText_AvoidGrass:
-	text "Use this gate to"
-	line "avoid walking in"
-	cont "the grass."
+	text "Usa este paso para"
+	line "evitar pisar la"
+	cont "hierba."
 	done

@@ -212,9 +212,9 @@ Route47Bridge4UnderfootTrigger:
 GenericTrainerHikerDevin:
 	generictrainer HIKER, DEVIN, EVENT_BEAT_HIKER_DEVIN, HikerDevinSeenText, HikerDevinBeatenText
 
-	text "After a battle,"
-	line "you should part"
-	cont "with a laugh!"
+	text "Tras un combate,"
+	line "¡lo mejor es una"
+	cont "sonrisa!"
 	done
 
 TrainerCamperGrant:
@@ -224,228 +224,232 @@ TrainerCamperGrant:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "See ya!"
+	text "¡Hasta luego!"
 	done
 
 GenericTrainerAceDuoThomandkae1:
 	generictrainer ACE_DUO, THOMANDKAE1, EVENT_BEAT_ACE_DUO_THOM_AND_KAE, AceDuoThomandkae1SeenText, AceDuoThomandkae1BeatenText
 
-	text "Thom: Your power"
-	line "is impossible to"
-	cont "predict!"
+	text "Thom: ¡Tu fuerza"
+	line "es imposible de"
+	cont "predecir!"
 	done
 
 GenericTrainerAceDuoThomandkae2:
 	generictrainer ACE_DUO, THOMANDKAE2, EVENT_BEAT_ACE_DUO_THOM_AND_KAE, AceDuoThomandkae2SeenText, AceDuoThomandkae2BeatenText
 
-	text "Kae: I figured you"
-	line "were an ordinary"
+	text "Kae: Creía que"
+	line "eras un simple"
 
-	para "lone trainer."
-	line "Boy, was I wrong!"
+	para "entrenador solita-"
+	line "rio. ¡Qué error!"
 	done
 
 GenericTrainerCoupleDuffandeda1:
 	generictrainer COUPLE, DUFFANDEDA1, EVENT_BEAT_COUPLE_DUFF_AND_EDA, CoupleDuffandeda1SeenText, CoupleDuffandeda1BeatenText
 
-	text "Duff: Thank you"
-	line "for the awe-"
-	cont "inspiring battle!"
+	text "Duff: ¡Gracias por"
+	line "este combate tan"
+	cont "impresionante!"
 	done
 
 GenericTrainerCoupleDuffandeda2:
 	generictrainer COUPLE, DUFFANDEDA2, EVENT_BEAT_COUPLE_DUFF_AND_EDA, CoupleDuffandeda2SeenText, CoupleDuffandeda2BeatenText
 
-	text "Eda: You should"
-	line "find a wonderful"
-	cont "partner, too."
+	text "Eda: Deberías bus-"
+	line "carte una pareja"
+	cont "maravillosa."
 	done
 
 GenericTrainerCowgirlDaniela:
 	generictrainer COWGIRL, DANIELA, EVENT_BEAT_COWGIRL_DANIELA, CowgirlDanielaSeenText, CowgirlDanielaBeatenText
 
-	text "Have you ever"
-	line "tried to ride a"
-	cont "Tauros?"
+	text "¿Alguna vez has"
+	line "intentado montar"
+	cont "un Tauros?"
 	done
 
 GenericTrainerGruntF6:
 	generictrainer GRUNTF, 6, EVENT_BEAT_ROCKET_GRUNTF_6, GruntF6SeenText, GruntF6BeatenText
 
-	text "If we treated"
-	line "every single"
-	cont "#mon well,"
+	text "Si tratáramos bien"
+	line "a cada #mon,"
 
-	para "how would we"
-	line "make money?"
+	para "¿cómo ganaríamos"
+	line "dinero?"
 	done
 
 GenericTrainerGruntM23:
 	generictrainer GRUNTM, 23, EVENT_BEAT_ROCKET_GRUNTM_23, GruntM23SeenText, GruntM23BeatenText
 
-	text "It doesn't matter."
-	line "You can't beat"
-	cont "all of us!"
+	text "Da igual. ¡No po-"
+	line "drás vencernos a"
+	cont "todos!"
 	done
 
 GenericTrainerGruntM26:
 	generictrainer GRUNTM, 26, EVENT_BEAT_ROCKET_GRUNTM_26, GruntM26SeenText, GruntM26BeatenText
 
-	text "How we treat"
-	line "#mon is none"
-	cont "of your business!"
+	text "¡Cómo tratemos a"
+	line "los #mon no es"
+	cont "asunto tuyo!"
 	done
 
 HikerDevinSeenText:
-	text "Battles are"
-	line "battles, so"
-	cont "let's go!"
+	text "Un combate es un"
+	line "combate, ¡así que"
+	cont "al lío!"
 	done
 
 HikerDevinBeatenText:
-	text "Wah ha ha!"
+	text "¡Ja, ja, ja!"
 	done
 
 CamperGrantSeenText:
-	text "I'm not good with"
-	line "crowds, so I'm"
-	cont "camping out here"
-	cont "with my #mon!"
+	text "No me van las mul-"
+	line "titudes, ¡así que"
+
+	para "acampo aquí con"
+	line "mis #mon!"
 	done
 
 CamperGrantBeatenText:
-	text "I should head"
-	line "deeper into the"
-	cont "mountain…"
+	text "Debería ir más"
+	line "hacia el fondo de"
+	cont "la montaña…"
 	done
 
 AceDuoThomandkae1SeenText:
-	text "Thom: One plus one"
-	line "is two. But the"
+	text "Thom: Uno más uno"
+	line "son dos. ¡Pero"
 
-	para "two of us together"
-	line "is much stronger!"
+	para "nosotros dos jun-"
+	line "tos somos mucho"
+	cont "más fuertes!"
 	done
 
 AceDuoThomandkae1BeatenText:
-	text "Thom: That wasn't"
-	line "what I expected…"
+	text "Thom: No me espe-"
+	line "raba esto…"
 	done
 
 AceDuoThomandkae2SeenText:
-	text "Kae: The two of us"
-	line "aren't just some"
-	cont "boring pair!"
+	text "Kae: ¡Nosotros dos"
+	line "no somos una pare-"
+	cont "ja cualquiera!"
 	done
 
 AceDuoThomandkae2BeatenText:
-	text "Kae: You're"
-	line "unusual, too!"
+	text "Kae: ¡Tú tampoco"
+	line "te quedas atrás!"
 	done
 
 CoupleDuffandeda1SeenText:
-	text "Duff: Watching"
-	line "over my girlfriend"
+	text "Duff: Cuidar de"
+	line "mi novia hace que"
 
-	para "makes my heart"
-	line "soar!"
+	para "mi corazón se"
+	line "desboque."
 	done
 
 CoupleDuffandeda1BeatenText:
-	text "Duff: I was no"
-	line "match for you…"
+	text "Duff: No he sido"
+	line "rival para ti…"
 	done
 
 CoupleDuffandeda2SeenText:
-	text "Eda: My feelings"
-	line "for my boyfriend"
+	text "Eda: Lo que siento"
+	line "por mi novio es"
 
-	para "are as wide and"
-	line "deep as the ocean."
+	para "tan grande y pro-"
+	line "fundo como el mar."
 	done
 
 CoupleDuffandeda2BeatenText:
-	text "Eda: You're really"
-	line "something…"
+	text "Eda: Eres alguien"
+	line "increíble…"
 	done
 
 CowgirlDanielaSeenText:
-	text "Hiya, cutie!"
+	text "¡Hola, encanto!"
 	done
 
 CowgirlDanielaBeatenText:
-	text "Well aren't you a"
-	line "feisty one?"
+	text "¡Menudo genio te"
+	line "gastas!"
 	done
 
 GruntF6SeenText:
-	text "Why should we"
-	line "raise #mon like"
-	cont "ordinary trainers?"
+	text "¿Por qué criar a"
+	line "los #mon como"
 
-	para "We're Team Rocket!"
+	para "entrenadores del"
+	line "montón?"
+
+	para "¡Somos el Team"
+	line "Rocket!"
 	done
 
 GruntF6BeatenText:
-	text "Who are you?!"
+	text "¿Quién eres tú?"
 	done
 
 GruntM23SeenText:
-	text "Aww, are you here"
-	line "to save the cute"
-	cont "little #mon?"
+	text "¡Oh! ¿Vienes a sal-"
+	line "var a los pobres"
+	cont "#mon?"
 	done
 
 GruntM23BeatenText:
-	text "Ack!"
-	line "You're tough!"
+	text "¡Puaj!"
+	line "¡Eres fuerte!"
 	done
 
 GruntM26SeenText:
-	text "Stop meddling with"
-	line "our plans!"
+	text "¡Deja de entrome-"
+	line "terte en nuestros"
+	cont "planes!"
 	done
 
 GruntM26BeatenText:
-	text "Just leave us"
-	line "alone…"
+	text "Déjanos en paz…"
 	done
 
 Route47RocketGirlText:
-	text "What are you head-"
-	line "ing this way for,"
-	cont "you brat?"
+	text "¿A dónde crees"
+	line "que vas, renacua-"
+	cont "jo?"
 	done
 
 Route47SealedCaveSign:
 	dw EVENT_DOOR_OPENED_IN_RUINS_OF_ALPH
 	jumpthistext
 
-	text "There's a door-"
-	line "shaped groove in"
-	cont "the rock."
+	text "Hay una hendidura"
+	line "con forma de puer-"
+	cont "ta en la roca."
 	done
 
 Route47QuietCaveSignText:
-	text "Route 47"
+	text "Ruta 47"
 
-	para "West to"
-	line "Quiet Cave"
+	para "Al oeste hacia la"
+	line "Cueva Calma"
 	done
 
 Route47AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Pistas Entren.!"
 
-	para "Some #mon found"
-	line "in certain areas"
+	para "¡Ciertos #mon de"
+	line "algunas zonas po-"
 
-	para "may know a move"
-	line "unique to that"
-	cont "area!"
+	para "drían saber un mo-"
+	line "vimiento único de"
+	cont "ese lugar!"
 
-	para "But these moves"
-	line "can't be remembered"
+	para "¡Pero estos movi-"
+	line "mientos no se re-"
 
-	para "or inherited via"
-	line "breeding!"
+	para "cuerdan ni se he-"
+	line "redan al criar!"
 	done
