@@ -1003,13 +1003,13 @@ PlaceStatusString:
 StatusStrings:
 	table_width 3
 	rawchar "OK "
-	rawchar "Psn"
+	rawchar "Env"
 	rawchar "Par"
-	rawchar "Slp"
-	rawchar "Brn"
-	rawchar "Frz"
+	rawchar "Dor"
+	rawchar "Que"
+	rawchar "Con"
 	rawchar "Tox"
-	rawchar "Fnt"
+	rawchar "Deb"
 	assert_table_length 8
 
 ListMoves:

@@ -39,10 +39,8 @@ CeladonUniversityLibrary1F_MapScriptHeader:
 CeladonUniversityLibrary1FLadyText:
 	text "La biblioteca está"
 	line "en el campus,"
-	cont "pero está abier-"
-
-	para "ta a todo el mun-"
-	line "do."
+	cont "pero está abierta"
+	cont "a todo el mundo."
 
 	para "¿No es genial?"
 	done

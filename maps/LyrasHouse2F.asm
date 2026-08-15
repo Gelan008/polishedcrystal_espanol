@@ -35,13 +35,13 @@ LyrasHousePidgeotText:
 	done
 
 LyrasHousePCText:
-	text "¡No deberías ur-"
-	line "gar en el PC de"
-	cont "los demás!"
+	text "¡No deberías"
+	line "urgar en el PC"
+	cont "de los demás!"
 	done
 
 LyrasHouseN64Text:
 	text "¡Es una N64 de"
-	line "Pikachu de edi-"
-	cont "ción limitada!"
+	line "Pikachu de"
+	cont "edición limitada!"
 	done

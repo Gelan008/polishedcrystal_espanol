@@ -489,62 +489,62 @@ _OPT_MaryText1::
 
 SECTION "OPT_SweetAdorably", ROMX
 OPT_SweetAdorably::
-	line "es dulce y lindo."
+	line "es dulce y lindo"
 	done
 
 SECTION "OPT_WigglySlickly", ROMX
 OPT_WigglySlickly::
-	line "es escurridizo."
+	line "es escurridizo"
 	done
 
 SECTION "OPT_AptlyNamed", ROMX
 OPT_AptlyNamed::
-	line "hace honor al nom."
+	line "hace honor al nom"
 	done
 
 SECTION "OPT_UndeniablyKindOf", ROMX
 OPT_UndeniablyKindOf::
-	line "es innegable."
+	line "es innegable"
 	done
 
 SECTION "OPT_Unbearably", ROMX
 OPT_Unbearably::
-	line "es insoportable."
+	line "es insoportable"
 	done
 
 SECTION "OPT_WowImpressively", ROMX
 OPT_WowImpressively::
-	line "es impresionante."
+	line "es impresionante"
 	done
 
 SECTION "OPT_AlmostPoisonously", ROMX
 OPT_AlmostPoisonously::
-	line "es casi venenoso."
+	line "es casi venenoso"
 	done
 
 SECTION "OPT_Sensually", ROMX
 OPT_Sensually::
-	line "es muy sensual."
+	line "es muy sensual"
 	done
 
 SECTION "OPT_Mischievously", ROMX
 OPT_Mischievously::
-	line "es muy travieso."
+	line "es muy travieso"
 	done
 
 SECTION "OPT_Topically", ROMX
 OPT_Topically::
-	line "es de actualidad."
+	line "es de actualidad"
 	done
 
 SECTION "OPT_Addictively", ROMX
 OPT_Addictively::
-	line "es muy adictivo."
+	line "es muy adictivo"
 	done
 
 SECTION "OPT_LooksInWater", ROMX
 OPT_LooksInWater::
-	line "mira en el agua."
+	line "mira en el agua"
 	done
 
 SECTION "OPT_EvolutionMustBe", ROMX
@@ -554,17 +554,17 @@ OPT_EvolutionMustBe::
 
 SECTION "OPT_Provocatively", ROMX
 OPT_Provocatively::
-	line "ser provocativa."
+	line "ser provocativa"
 	done
 
 SECTION "OPT_FlippedOut", ROMX
 OPT_FlippedOut::
-	line "es una locura,"
+	line "es una locura"
 	done
 
 SECTION "OPT_HeartMeltingly", ROMX
 OPT_HeartMeltingly::
-	line "te derrite el cor."
+	line "te derrite el cor"
 	done
 
 SECTION "OPT_Cute", ROMX
@@ -2182,7 +2182,7 @@ _CanCutText::
 
 SECTION "_FoundItemText", ROMX
 _FoundItemText::
-	text "¡<PLAYER> encontró"
+	text "¡<PLAYER> obtuvo"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
@@ -2385,7 +2385,7 @@ Text_AreYouABoyOrAreYouAGirl::
 
 SECTION "Text_SoThisIsYou", ROMX
 Text_SoThisIsYou::
-	text "¿Así que eres tú?"
+	text "¿Es correcto?"
 	done
 
 SECTION "Text_BattleUser", ROMX
@@ -3204,7 +3204,7 @@ _ElmText4::
 	cont "otros."
 
 	para "Hay gente que jue-"
-	line "ga con los #mon,"
+	line "ga con #mon y,"
 	cont "otros combaten."
 	prompt
 
@@ -3389,10 +3389,10 @@ _GainedMultipleItemsText::
 
 SECTION "_PutItemInPocketText", ROMX
 _PutItemInPocketText::
-	text "<PLAYER> puso"
+	text "<PLAYER> guardó"
 	line ""
 	text_ram wStringBuffer1
-	text " en "
+	cont "en "
 	text_ram wStringBuffer3
 	text "."
 	prompt

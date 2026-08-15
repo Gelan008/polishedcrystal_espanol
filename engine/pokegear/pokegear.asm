@@ -1161,13 +1161,13 @@ NoRadioName:
 	ld bc, $412
 	jmp Textbox
 
-OaksPkmnTalkName:     db "Oak's <PK><MN> Talk@"
+OaksPkmnTalkName:     db "Oak <PK><MN> al habla@"
 PokemonMusicName:     db "#mon Music@"
-LuckyChannelName:     db "Lucky Channel@"
+LuckyChannelName:     db "Canal Suerte@"
 UnknownStationName:   db "?????@"
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# Flute@"
+PlacesAndPeopleName:  db "Lugares & Gente@"
+LetsAllSingName:      db "¡Cantemos!@"
+PokeFluteStationName: db "# Flauta@"
 
 _TownMap:
 	ld hl, wOptions1

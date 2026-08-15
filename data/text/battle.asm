@@ -87,22 +87,26 @@ endc
 
 HurtByPoisonText:
 	text "¡El veneno resta"
-	line "salud a <USER>!"
+	line "salud a"
+	cont "<USER>!"
 	done
 
 HurtByBurnText:
 	text "¡La quemadura"
-	line "hiere a <USER>!"
+	line "hiere a"
+	cont "<USER>!"
 	done
 
 LeechSeedSapsText:
 	text "¡Drenadoras quita"
-	line "salud a <USER>!"
+	line "salud a" 
+	cont "<USER>!"
 	prompt
 
 HurtByCurseText:
-	text "¡<USER> sufre"
-	line "la maldición!"
+	text "¡<USER>"
+	line "sufre la"
+	cont "maldición!"
 	prompt
 
 SandstormHitsText:
@@ -117,7 +121,8 @@ HailHitsText:
 
 PerishCountText:
 	text "¡La cuenta de"
-	line "<USER> cae a "
+	line "<USER>"
+	cont "cae a "
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
@@ -129,11 +134,11 @@ BattleText_UserLostSomeOfItsHP:
 	prompt
 
 BattleText_PickedUpItem:
-	; assumes player (enemy might overflow text-wise)
-	text "<USER> recogió"
-	line ""
+	text "¡<USER>"
+	line "recogió"
+	cont ""
 	text_ram wStringBuffer2
-	text "."
+	text "!"
 	prompt
 
 BattleText_UserRecoveredWithItem:
@@ -146,7 +151,8 @@ BattleText_UserRecoveredWithItem:
 
 BattleText_UserAteItem:
 	text "¡<USER>"
-	line "comió "
+	line "comió"
+	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	prompt
@@ -281,8 +287,8 @@ BattleText_UsersFutureSightMissed:
 
 BattleText_TargetWasHitByFutureSight:
 	text "¡<TARGET>"
-	line "recibió el"
-	cont "Future Sight!"
+	line "recibió"
+	cont "Premonición!"
 	prompt
 
 BattleText_MistFaded:
@@ -1007,61 +1013,64 @@ WontRiseAnymoreText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> no"
-	cont "subirá más!"
+	line "<USER>"
+	cont "no subirá más!"
 	prompt
 
 WontDropAnymoreText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> no"
-	cont "bajará más!"
+	line "<USER>"
+	cont "no bajará más!"
 	prompt
 
 StatRoseText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> subió!"
+	line "<USER>"
+	cont "subió!"
 	prompt
 
 StatRoseSharplyText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> subió"
-	cont "mucho!"
+	line "<USER>"
+	cont "subió mucho!"
 	prompt
 
 StatRoseDrasticallyText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> subió"
-	cont "muchísimo!"
+	line "<USER>"
+	cont "subió muchísimo!"
 	prompt
 
 StatFellText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> bajó!"
+	line "<USER>"
+	cont "bajó!"
 	prompt
 
 StatHarshlyFellText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> bajó mucho!"
+	line "<USER>"
+	cont "bajó mucho!"
 	prompt
 
 StatSeverelyFellText:
 	text "¡"
 	text_ram wStringBuffer2
 	text " de"
-	line "<USER> bajó"
-	cont "muchísimo!"
+	line "<USER>"
+	cont "bajó muchísimo!"
 	prompt
 
 FledFromBattleText::

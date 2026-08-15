@@ -287,12 +287,12 @@ LevitateDescription:
 
 EffectSporeDescription:
 	text "El contacto causa"
-	next "Par, Psn o Slp."
+	next "Par, Env o Dor."
 	done
 
 SynchronizeDescription:
-	text "Pasa Psn, Par"
-	next "o Brn al rival."
+	text "Pasa Env, Par"
+	next "o Que al rival."
 	done
 
 ClearBodyDescription:

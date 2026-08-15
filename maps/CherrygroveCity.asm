@@ -408,10 +408,9 @@ CherrygroveRivalTextAfter1:
 	para "¿Quieres saber"
 	line "quién soy?"
 
-	para "Voy a ser el me-"
-	line "jor entrenador"
-	cont "#mon del mun-"
-	cont "do."
+	para "Voy a ser el"
+	line "mejor entrenador"
+	cont "#mon del mundo"
 	done
 
 CherrygroveRivalTextAfter2:
