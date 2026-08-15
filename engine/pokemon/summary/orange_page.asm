@@ -103,6 +103,7 @@ INCLUDE "gfx/stats/orange_page.pal"
 	rst PlaceString
 	ret
 .traded
+	hlcoord 1, 17
 	ld de, .str_traded
 	rst PlaceString
 	ret
@@ -114,7 +115,7 @@ INCLUDE "gfx/stats/orange_page.pal"
 	db "de un huevo@"
 
 .str_traded
-	db "por intercambio@"
+	db "Por intercambio@"
 
 .TN_PrintCharacteristics:
 	; b = value of best DV, c = index of best DV

@@ -167,8 +167,9 @@ VioletPokeCenter1FElmsAideScript:
 
 VioletPokeCenter1FGameboyKidText:
 	text "Un tal Bill creó"
-	line "el Sistema de Al-"
-	cont "macenamiento #mon."
+	line "el Sistema de"
+	cont "Almacenamiento"
+	cont "#mon."
 	done
 
 VioletPokeCenter1FGentlemanText:

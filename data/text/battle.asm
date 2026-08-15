@@ -371,7 +371,7 @@ SentSomeToMomText:
 	line "¥"
 	text_decimal wBattleReward, 3, 6
 	text "!"
-	cont "¡Le envió a Mamá!"
+	cont "Envió parte a mamá"
 	prompt
 
 SentHalfToMomText:

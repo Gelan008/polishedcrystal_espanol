@@ -74,9 +74,8 @@ Characteristics:
 	next1 "luchar"
 	done
 .Chara_Atk4:
-	text  "Muy"
-	next1 "cascarrab-"
-	next1 "ias"
+	text  "Muy casca-"
+	next1 "-rrabias"
 	done
 
 .Chara_Def0:

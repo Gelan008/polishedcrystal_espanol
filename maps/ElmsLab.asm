@@ -1152,13 +1152,12 @@ ElmsLabHealingMachineText2:
 
 ElmAfterTheftText1:
 	text "Elm: <PLAYER>,"
-	line "esto es terri-"
-	cont "ble…"
+	line "esto es terrible"
 
 	para "Ah, sí, ¿cuál fue"
-	line "el gran descu-"
-	cont "brimiento del Sr."
-	cont "#mon?"
+	line "el gran"
+	cont "descubrimiento del"
+	cont "Sr. #mon?"
 	done
 
 ElmAfterTheftText2:
@@ -1234,8 +1233,8 @@ ElmAfterTheftText7:
 	line "vez en cuando."
 
 	para "Si quieres saber"
-	line "cómo podría evo-"
-	cont "lucionar tu"
+	line "cómo podría"
+	cont "evolucionar tu"
 	cont "#mon,"
 
 	para "¡mi investigación"

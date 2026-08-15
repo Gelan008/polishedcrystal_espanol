@@ -1546,10 +1546,10 @@ FurretPokedexEntry::
 SECTION "HoothootPokedexEntry", ROMX
 HoothootPokedexEntry::
 	db "Búho@"
-	text "Ulla a la misma"
+	text "Ulula a la misma"
 	next "hora cada día."
-	next "Algunos lo usan"
-	page "como reloj.@"
+	page "Algunos lo usan"
+	next "como reloj.@"
 
 SECTION "NoctowlPokedexEntry", ROMX
 NoctowlPokedexEntry::

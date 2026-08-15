@@ -116,7 +116,7 @@ AcademyBlackboard:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 11, 8
+	menu_coords 0, 0, 13, 8
 	dw .Data
 	db 1 ; default option
 
@@ -276,16 +276,14 @@ AcademyBlackboardText:
 	done
 
 AcademyPoisonText:
-	text "Si envenenado, un"
-	line "#mon pierde PS"
-	cont "gradualmente."
+	text "Si es envenenado,"
+	line "el #mon pierde"
+	cont "PS gradualmente."
 
 	para "El veneno persis-"
 	line "te tras el comba-"
-	cont "te,"
-
-	para "y se pierden PS"
-	line "al caminar."
+	cont "te, y se pierden"
+	cont "PS al caminar."
 
 	para "Para curarlo, usa"
 	line "un Antídoto."
@@ -298,7 +296,7 @@ AcademyParalysisText:
 	cont "moverse."
 
 	para "Persiste tras el"
-	line "combate. Usa una"
+	line "combate. Usa un"
 	cont "Antiparaliz."
 	done
 

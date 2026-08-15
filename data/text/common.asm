@@ -1144,7 +1144,7 @@ _NPCTradeFanfareText::
 
 SECTION "_NPCTradeIntroText1", ROMX
 _NPCTradeIntroText1::
-	text "Colecciono #mon."
+	text "Colecciono #mon"
 	line "¿Tienes a"
 	cont ""
 	text_ram wStringBuffer1
@@ -3879,12 +3879,12 @@ _MoveForgotText::
 
 	para ""
 	text_ram wMonOrItemNameBuffer
-	text " forgot"
+	text " olvidó"
 	line ""
 	text_ram wStringBuffer1
 	text "."
 
-	para "And…"
+	para "¡Y…"
 	prompt
 
 SECTION "_MoveCantForgetHMText", ROMX
@@ -4214,9 +4214,9 @@ _BallDontBeAThiefText::
 
 SECTION "_BallStorageFullText", ROMX
 _BallStorageFullText::
-	text "El Sistema de Al-"
-	line "macenamiento está"
-	cont "lleno."
+	text "El Sistema de"
+	line "Almacenamiento"
+	cont "está lleno."
 	prompt
 
 SECTION "_BallDatabaseFullText", ROMX

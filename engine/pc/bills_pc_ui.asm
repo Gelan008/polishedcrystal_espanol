@@ -2528,18 +2528,19 @@ BillsPC_UpdateStorage_CheckMewtwo:
 	jmp PopBCDEHL
 
 BillsPC_CantPutMailIntoPackText:
-	text "The Mail would"
-	line "lose its message."
+	text "La Carta perderá"
+	line "su mensaje."
 	prompt
 
 BillsPC_PackFullText:
-	text "The Bag is full…"
+	text "La Mochila está"
+	line "llena…"
 	prompt
 
 BillsPC_MovedToPackText:
-	text "Moved "
 	text_ram wStringBuffer1
-	line "to Bag."
+	text ""
+	line "a la Mochila."
 	prompt
 
 BillsPC_Menu:
@@ -2601,14 +2602,14 @@ BillsPC_Item:
 
 .ItemIsSelected:
 	text_ram wStringBuffer2
-	text " is"
-	line "selected."
+	text " está"
+	line "seleccionado."
 	done
 
 .ItCanHoldAnItem:
 	text_ram wTempMonNickname
-	text " can"
-	line "hold an item."
+	text " puede"
+	line "llevar un objeto."
 	done
 
 .MailMenu:
@@ -2672,8 +2673,8 @@ BillsPC_Item:
 	db -1
 
 BillsPC_EggsCantHoldItemsText:
-	text "Eggs can't hold"
-	line "items."
+	text "Los Huevos no"
+	line "llevan objetos."
 	prompt
 
 BillsPC_CanReleaseMon:
@@ -2840,35 +2841,36 @@ BillsPC_ReleaseAll:
 	jmp CloseWindow
 
 .ReallyReleaseBox:
-	text "Really release the"
-	line "entire Box?"
+	text "¿Liberar toda"
+	line "la Caja?"
 	done
 
 .CantRecallReleasedMons:
-	text "You can't recall"
-	line "released #mon."
-	cont "Are you sure?"
+	text "No volverán los"
+	line "#mon soltados."
+	cont "¿Seguro?"
 	done
 
 .NothingThere:
-	text "The Box is empty."
+	text "La Caja está"
+	line "vacía."
 	prompt
 
 .NothingReleased:
-	text "You can't release"
-	line "Eggs or #mon"
-	cont "with HM moves."
+	text "No puedes soltar"
+	line "Huevos ni #mon"
+	cont "con MO."
 	prompt
 
 .ReleasedXMon:
-	text "Released "
+	text "Liberaste "
 	text_decimal wTextDecimalByte, 1, 2
 	line "#mon."
 	prompt
 
 .TheRestWasnt:
-	text "The rest are Eggs"
-	line "or know HM moves."
+	text "El resto son"
+	line "Huevos o con MO."
 	prompt
 
 BillsPC_Release:
@@ -2998,8 +3000,8 @@ BillsPC_Theme:
 	jmp BillsPC_RefreshTheme
 
 .PickAThemeText:
-	text "Please"
-	line "pick a theme."
+	text "Por favor, elige"
+	line "un tema."
 	done
 
 .ThemeMenuDataHeader:
@@ -3078,8 +3080,8 @@ BillsPC_Change:
 	jr BillsPC_ChangeBox
 
 .PickABoxToChangeToText:
-	text "Pick a"
-	line "Box to change to."
+	text "Elige la Caja a"
+	line "la que cambiar."
 	done
 
 .ChangeMenuDataHeader:
@@ -3408,11 +3410,12 @@ BillsPC_SwapStorage:
 	ret
 
 .PartyIsFull:
-	text "The party is full."
+	text "El equipo"
+	line "está lleno."
 	prompt
 
 .BoxIsFull:
-	text "The Box is full."
+	text "La caja está llena"
 	prompt
 
 .IsHoldingMail:

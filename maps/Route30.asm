@@ -265,10 +265,10 @@ YoungsterMikeyBeatenText:
 	done
 
 Bug_catcherDonSeenText:
-	text "¡En vez de un #-"
-	line "mon bicho, he en-"
-	cont "contrado a un en-"
-	cont "trenador!"
+	text "¡En vez de un"
+	line "#mon bicho, he"
+	cont "encontrado a un"
+	cont "entrenador!"
 	done
 
 Bug_catcherDonBeatenText:

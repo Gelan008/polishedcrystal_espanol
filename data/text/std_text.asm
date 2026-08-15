@@ -193,8 +193,8 @@ IncenseBurnerText:
 	done
 
 MerchandiseShelfText:
-	text "¡Hay mucho mer-"
-	line "chandising #mon!"
+	text "¡Hay muchos"
+	line "artículos #mon!"
 	done
 
 TownMapText:
