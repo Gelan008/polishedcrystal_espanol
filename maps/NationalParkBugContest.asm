@@ -81,9 +81,9 @@ BugCatchingContestant6AScript:
 	text "Barry: Deberías"
 	line "debilitar a los"
 
-	para "#mon Bicho antes"
-	line "de lanzar una"
-	cont "Ball."
+	para "#mon Bicho"
+	line "antes de lanzar"
+	cont "una Ball."
 	done
 
 BugCatchingContestant7AScript:

@@ -68,8 +68,9 @@ GenericTrainerAromaLadyHolly:
 	done
 
 WarmBeachCooltrainermText:
-	text "¡Hay un #mon por"
-	line "aquí que habla!"
+	text "¡Hay un #mon"
+	line "por aquí que"
+	cont "habla!"
 
 	para "¡No me lo creería"
 	line "si no lo hubiera"

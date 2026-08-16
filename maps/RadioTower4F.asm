@@ -52,7 +52,8 @@ RadioTower4FDJMaryScript:
 	jumpthisopenedtext
 
 	text "Rosa: ¡Le va per-"
-	line "fecto a los #mon"
+	line "fecto a los"
+	cont "#mon"
 
 	para "con movimientos"
 	line "de tipo Hada!"

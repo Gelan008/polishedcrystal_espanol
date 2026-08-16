@@ -52,8 +52,9 @@ GenericTrainerCooltrainermNick:
 	generictrainer COOLTRAINERM, NICK, EVENT_BEAT_COOLTRAINERM_NICK, CooltrainermNickSeenText, CooltrainermNickBeatenText
 
 	text "Reconozco que el"
-	line "estilo de tus #-"
-	cont "mon es llamativo y"
+	line "estilo de tus"
+	cont "#mon es"
+	cont "llamativo y"
 	cont "vistoso."
 
 	para "¡Seguro que irás"
@@ -108,15 +109,15 @@ CooltrainerfGwenBeatenText:
 	done
 
 CooltrainerfEmmaSeenText:
-	text "Si el #mon que me"
-	line "gusta estuviera"
+	text "Si el #mon que"
+	line "me gusta estuviera"
 
-	para "allí, iría a cual-"
-	line "quier parte."
+	para "aquí, lo buscaría"
+	line "por todas partes."
 
 	para "Eso es lo que hace"
-	line "un auténtico en-"
-	cont "trenador."
+	line "un auténtico "
+	cont "entrenador."
 	done
 
 CooltrainerfEmmaBeatenText:

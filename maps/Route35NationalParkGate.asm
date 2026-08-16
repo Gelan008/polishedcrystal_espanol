@@ -371,8 +371,8 @@ Route35NationalParkGateOfficer1MakeRoomText:
 	line "PC están llenos."
 
 	para "No tienes sitio"
-	line "para el #mon bi-"
-	cont "cho que captures."
+	line "para el #mon"
+	cont "bicho que captures"
 
 	para "Haz sitio en tu"
 	line "equipo o en tu Ca-"
@@ -460,10 +460,10 @@ BugCatchingContestExplanationText:
 	done
 
 Route35NationalParkGatePokefanFText:
-	text "Muchos #mon vie-"
-	line "nen al Parque Na-"
-	cont "cional con sus"
-	cont "entrenadores,"
+	text "Muchos #mon"
+	line "vienen al Parque"
+	cont "Nacional con"
+	cont "sus entrenadores,"
 
 	para "¡y todos son súper"
 	line "monos!"

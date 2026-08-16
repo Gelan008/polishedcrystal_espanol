@@ -332,7 +332,8 @@ NationalParkTeacher1Text:
 	line "todas horas."
 
 	para "Debes de ser un"
-	line "entrenador #mon."
+	line "entrenador"
+	cont "#mon."
 
 	para "Como te estás es-"
 	line "forzando tanto,"
@@ -343,7 +344,8 @@ NationalParkTeacher1Text:
 
 NationalParkTeacher1Text_GotQuickClaw:
 	text "Equípale esa Garra"
-	line "Rápida a un #mon."
+	line "Rápida a un"
+	cont "#mon."
 
 	para "A veces le permi-"
 	line "tirá atacar prime-"

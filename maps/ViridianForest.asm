@@ -45,9 +45,10 @@ GenericTrainerBug_maniacDane:
 GenericTrainerBug_maniacDion:
 	generictrainer BUG_MANIAC, DION, EVENT_BEAT_BUG_MANIAC_DION, BugManiacDionSeenText, BugManiacDionBeatenText
 
-	text "Los #mon de tipo"
-	line "Bicho hacen todo"
-	cont "tipo de sonidos."
+	text "Los #mon de"
+	line "tipo Bicho hacen"
+	cont "todo tipo de"
+	cont "sonidos."
 
 	para "Para los fans de"
 	line "los #mon bicho,"
@@ -89,7 +90,8 @@ BugManiacDaneSeenText:
 	cont "Verde."
 
 	para "¡Disfruta de mis"
-	line "#mon tipo Bicho!"
+	line "#mon tipo"
+	cont "Bicho!"
 	done
 
 BugManiacDaneBeatenText:
@@ -108,7 +110,8 @@ BugManiacDionBeatenText:
 
 BugManiacStaceySeenText:
 	text "¡Hala, menudo"
-	line "#mon tan ENORME!"
+	line "#mon tan"
+	cont "ENORME!"
 
 	para "…"
 	line "…¡¿Pero qué clase"
@@ -135,7 +138,8 @@ BugManiacEllisBeatenText:
 
 BugManiacAbnerSeenText:
 	text "Muchos prefieren"
-	line "#mon bicho duros"
+	line "#mon bicho"
+	cont "duros"
 
 	para "antes que blandos"
 	line "y viscosos."

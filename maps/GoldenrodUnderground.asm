@@ -788,9 +788,9 @@ GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 	cont "luqueros y el más"
 	cont "barato."
 
-	para "Pondré a tu #mon"
-	line "guapísimo por"
-	cont "sólo 300¥."
+	para "Pondré a tu"
+	line "#mon guapísimo"
+	cont "por sólo ¥300."
 
 	para "¿Qué te parece?"
 	done

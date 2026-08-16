@@ -141,10 +141,10 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	cont "cámara."
 
 	para "Hay paneles desli-"
-	line "zantes con un #-"
+	line "zantes con un"
+	cont "#mon dibujado"
+	cont "por antepasados."
 
-	para "mon dibujado por"
-	line "los antiguos."
 
 	para "Mueve los paneles"
 	line "para recomponer la"

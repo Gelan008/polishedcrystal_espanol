@@ -111,11 +111,10 @@ ManiaScript:
 .default_postevent
 	jumpthisopenedtext
 
-	text "Para un #mon, la"
-	line "felicidad es es-"
-
-	para "tar con alguien"
-	line "que lo cuide."
+	text "Para un #mon,"
+	line "la felicidad es"
+	cont "estar con alguien"
+	cont "que lo cuide."
 	done
 
 ShuckieName:

@@ -71,7 +71,7 @@ Route7Snorlax:
 
 
 .AwakeText:
-	text "Se puso el #gear"
+	text "Suena el #gear"
 	line "cerca de Snorlax…"
 
 	para "…"

@@ -296,8 +296,8 @@ CeladonUniversityLibrary2FBookshelf16Text:
 	para "de los #mon"
 	line "Extintos”"
 
-	para "¡Suena muy intere-"
-	line "sante!"
+	para "¡Suena muy"
+	line "interesante!"
 	done
 
 CeladonUniversityLibrary2FBookshelf17Text:

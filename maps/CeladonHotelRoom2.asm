@@ -71,8 +71,8 @@ MrHyperScript:
 
 	para "Si quieres que"
 	line "entrene a tus"
-	cont "#mon, tráeme al-"
-	cont "gunas Chapas."
+	cont "#mon, tráeme"
+	cont "algunas Chapas."
 	done
 
 .TextAskTrain:

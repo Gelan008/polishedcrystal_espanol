@@ -37,8 +37,9 @@ PokemonJournalLtSurgeScript:
 	para "Utilizaba la elec-"
 	line "tricidad creada"
 
-	para "por los #mon pa-"
-	line "ra mover su avión."
+	para "por sus #mon"
+	line "para mover su"
+	cont "avión."
 	done
 
 VermilionPokeCenter1FSightseerMScript:
@@ -46,9 +47,9 @@ VermilionPokeCenter1FSightseerMScript:
 	iftrue_jumptextfaceplayer .SnorlaxText
 	jumpthistextfaceplayer
 
-	text "Hay un #mon dor-"
-	line "mido delante de la"
-	cont "Cueva Diglett."
+	text "Hay un #mon"
+	line "dormido delante de"
+	cont "la Cueva Diglett."
 
 	para "¡Es una gran opor-"
 	line "tunidad de atra-"

@@ -382,7 +382,8 @@ GenericTrainerFisherAndre:
 
 	text "¡No perderé como"
 	line "pescador! Atrapo"
-	cont "#mon todo el día."
+	cont "#mon todo el"
+	cont "día."
 	done
 
 FisherAndreSeenText:

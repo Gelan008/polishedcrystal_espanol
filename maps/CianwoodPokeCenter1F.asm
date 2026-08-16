@@ -82,12 +82,11 @@ CianwoodGymGuyScript:
 	line "confundirlo con"
 	cont "#mon Psíquicos."
 
-	para "Acaba con sus #-"
-	line "mon antes de que"
-
-	para "puedan usar su"
-	line "fuerza física."
-
+	para "Acaba con sus"
+	line "#mon antes de"
+	cont "que puedan usar"
+	cont "su fuerza física."
+	
 	para "¿Y esas rocas"
 	line "en el medio del"
 	cont "Gimnasio?"

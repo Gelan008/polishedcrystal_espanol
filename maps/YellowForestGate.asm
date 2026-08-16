@@ -49,8 +49,8 @@ YellowForestGateOfficerText:
 	done
 
 YellowForestGateNurseText:
-	text "Tus #mon parecen"
-	line "agotados."
+	text "Tus #mon"
+	line "parecen agotados."
 
 	para "Deja que los cure"
 	line "por ti."

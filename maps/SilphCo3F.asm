@@ -38,7 +38,8 @@ SilphCo3FSilphEmployeeScript:
 
 .Text2:
 	text "Es un tipo de"
-	line "# Ball muy raro."
+	line "# Ball muy"
+	cont "raro."
 
 	para "¡No la malgastes!"
 	done
@@ -79,17 +80,17 @@ SilphCo3FScientist1Text:
 	done
 
 SilphCo3FScientist2Text:
-	text "Las # Balls fun-"
-	line "cionan con el mis-"
-	cont "mo principio que"
+	text "Las # Balls"
+	line "funcionan con el"
+	cont "mismo principio"
 
-	para "el Sistema de Al-"
-	line "macenamiento del"
+	para "que el Sistema de"
+	line "Almacenamiento del"
 	cont "PC."
 
-	para "Los #mon se con-"
-	line "vierten en datos"
-	cont "digitales y"
+	para "Los #mon se"
+	line "convierten en"
+	cont "datos digitales y"
 
 	para "se recomponen en"
 	line "otra ubicación."
@@ -114,9 +115,10 @@ SilphCo3FGentlemanText:
 	para "¡Estamos colabo-"
 	line "rando para hacer"
 
-	para "avanzar la tecno-"
-	line "logía de las"
-	cont "# Balls aún más!"
+	para "avanzar la"
+	line "tecnología de las"
+	cont "# Balls aún"
+	cont "más!"
 	done
 
 SilphCo3FDeptSignText:

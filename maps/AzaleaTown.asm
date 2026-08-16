@@ -251,8 +251,8 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "Gimnasio #mon de"
-	line "Pueblo Azalea"
+	text "Gimnasio #mon"
+	line "de Pueblo Azalea"
 	cont "Líder: Antón"
 
 	para "La enciclopedia"

@@ -158,8 +158,8 @@ TwinsToriandtil2SeenText:
 	done
 
 PsychicGregSeenText:
-	text "Los #mon no pue-"
-	line "den hacer nada"
+	text "Los #mon no"
+	line "pueden hacer nada"
 	cont "si están dormidos."
 
 	para "¡Te mostraré lo"

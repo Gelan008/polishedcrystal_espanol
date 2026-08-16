@@ -176,9 +176,9 @@ FarmerMText_BuyMilk:
 	para "Es mi mayor orgu-"
 	line "llo y alegría."
 
-	para "¡Dásela a tus #-"
-	line "mon para recupe-"
-	cont "rar PS!"
+	para "¡Dásela a tus"
+	line "#mon para"
+	cont "recuperar PS!"
 
 	para "Te la dejaré por"
 	line "solo ¥500."

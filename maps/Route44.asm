@@ -396,11 +396,11 @@ GenericTrainerCooltrainerfCybil:
 GenericTrainerPokemaniacZach:
 	generictrainer POKEMANIAC, ZACH, EVENT_BEAT_POKEMANIAC_ZACH, PokemaniacZachSeenText, PokemaniacZachBeatenText
 
-	text "Si un #mon tiene"
-	line "colores distintos"
-
-	para "de lo normal, es"
-	line "más valioso."
+	text "Si un #mon"
+	line "tiene colores"
+	cont "distintos de lo"
+	cont "normal, es más"
+	cont "valioso."
 
 	para "¿Qué? ¿Me dices"
 	line "que no es verdad?"

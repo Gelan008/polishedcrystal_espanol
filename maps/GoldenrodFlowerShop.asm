@@ -248,11 +248,12 @@ NoRoomForMulchText:
 
 DescribeMulchText:
 	text "Nuestro Abono es"
-	line "una mezcla de tie-"
+	line "una mezcla de "
 
-	para "rra de calidad y"
-	line "de… em… ya sa-"
-	cont "bes de los #mon."
+	para "tierra de calidad"
+	line "y de… em… ya"
+	cont "sabes de los"
+	cont "#mon."
 
 	para "¡Está lleno de"
 	line "nutrientes!"

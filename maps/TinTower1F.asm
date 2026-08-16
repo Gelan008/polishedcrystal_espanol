@@ -194,8 +194,8 @@ TinTower1FSage4Script:
 .FoughtHoOh:
 	jumpthistextfaceplayer
 
-	text "Dicen que los #-"
-	line "mon legendarios"
+	text "Dicen que los #"
+	line "-mon legendarios"
 
 	para "encarnan tres po-"
 	line "deres…"
@@ -421,9 +421,9 @@ TinTowerEusineSuicuneText:
 	line "der místico de"
 	cont "Suicune"
 
-	para "invoca a un #mon"
-	line "del color del"
-	cont "arcoíris."
+	para "invoca a un"
+	line "#mon del color"
+	cont "del arcoíris."
 
 	para "Puede que lo que"
 	line "ha pasado hoy"

@@ -393,8 +393,9 @@ Route38TrainerTipsText:
 	cont "ción."
 
 	para "Eso asustará al"
-	line "#mon e interrum-"
-	cont "pirá su evolución."
+	line "#mon e"
+	cont "interrumpirá"
+	cont "su evolución."
 	done
 
 Route38AdvancedTipsText:

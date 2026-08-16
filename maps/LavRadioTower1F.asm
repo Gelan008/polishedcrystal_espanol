@@ -185,11 +185,11 @@ LavRadioTower1FDirectoryText:
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Anima a tus #mon"
-	line "con los suaves "
-
-	para "sonidos de la #"
-	line "Flauta, canal 20."
+	text "Anima a tus"
+	line "#mon con los "
+	cont "suaves sonidos de"
+	cont "la # Flauta,"
+	cont "canal 20."
 	done
 
 ; TODO: use this text

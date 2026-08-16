@@ -284,9 +284,9 @@ SchoolgirlSarahBeatenText:
 	done
 
 SchoolgirlIsabelSeenText:
-	text "¿Tienes #mon tan"
-	line "monos como los que"
-	cont "hay por aquí?"
+	text "¿Tienes #mon"
+	line "tan monos como los"
+	cont "que hay por aquí?"
 	done
 
 SchoolgirlIsabelBeatenText:
@@ -414,9 +414,9 @@ YellowForestYellowGreetingText:
 	cont "algo:"
 
 	para "que si cuidas de"
-	line "los #mon con to-"
+	line "los #mon con"
 
-	para "do tu corazón,"
+	para "todo tu corazón,"
 	line "¡siempre serán tus"
 	cont "amigos!"
 

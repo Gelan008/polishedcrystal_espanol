@@ -100,10 +100,10 @@ MurkySwampCherylScript:
 	done
 
 .NoText:
-	text "Vaya, y mis #mon"
-	line "que tenían tantas"
-
-	para "ganas de luchar…"
+	text "Vaya, y mis"
+	line "#mon que tenían"
+	cont "tantas ganas de"
+	cont "luchar…"
 	done
 
 .BeatenText:

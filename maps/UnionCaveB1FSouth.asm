@@ -178,8 +178,9 @@ GenericTrainerRuin_maniacGlyn:
 	done
 
 .SeenText:
-	text "¡Mis #mon nacie-"
-	line "ron de fósiles que"
+	text "¡Mis #mon"
+	line "nacieron de"
+	cont "fósiles que"
 
 	para "encontré en esta"
 	line "misma cueva!"

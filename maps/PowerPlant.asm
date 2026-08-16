@@ -357,7 +357,8 @@ Text_PowerPlantTutorZapCannon:
 
 Text_PowerPlantTutorQuestion:
 	text "¿Quieres que le"
-	line "enseñe a tu #mon"
+	line "enseñe a tu"
+	cont "#mon"
 	cont "Electrocañón?"
 	done
 

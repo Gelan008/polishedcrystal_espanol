@@ -58,8 +58,8 @@ TrainerSwimmerfMarina:
 	line "una isla desierta,"
 	cont "me llevaría…"
 
-	para "¡a mis #mon, por"
-	line "supuesto!"
+	para "¡a mis #mon,"
+	line "por supuesto!"
 	done
 
 .SeenText:

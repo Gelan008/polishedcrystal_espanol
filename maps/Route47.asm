@@ -440,16 +440,15 @@ Route47QuietCaveSignText:
 Route47AdvancedTipsSignText:
 	text "¡Pistas Entren.!"
 
-	para "¡Ciertos #mon de"
-	line "algunas zonas po-"
+	para "¡Ciertos #mon"
+	line "de algunas zonas"
+	cont "podrían saber un"
+	cont "movimiento único"
+	cont "de ese lugar!"
 
-	para "drían saber un mo-"
-	line "vimiento único de"
-	cont "ese lugar!"
+	para "¡Pero estos"
+	line "movimientos no se"
 
-	para "¡Pero estos movi-"
-	line "mientos no se re-"
-
-	para "cuerdan ni se he-"
-	line "redan al criar!"
+	para "recuerdan ni se"
+	line "heredan al criar!"
 	done

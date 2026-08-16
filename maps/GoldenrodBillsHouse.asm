@@ -387,8 +387,8 @@ BillsGrandpaShownPokemonText:
 BillsGrandpaTokenOfAppreciationText:
 	text "¡Gracias!"
 
-	para "Esto es una mues-"
-	line "tra de mi"
+	para "Esto es una"
+	line "muestra de mi"
 	cont "agradecimiento."
 	done
 
@@ -399,8 +399,8 @@ BillsGrandpaComeAgainText:
 
 BillsGrandpaShownAllThePokemonText:
 	text "Gracias por mos-"
-	line "trarme tantos #-"
-	cont "mon tan monos."
+	line "trarme tantos"
+	cont "#mon tan monos."
 
 	para "Me he divertido"
 	line "mucho. Me alegro"
@@ -412,7 +412,8 @@ BillsGrandpaShownAllThePokemonText:
 
 BillsGrandpaSnubbullText:
 	text "Mi nieto Bill me"
-	line "habló de un #mon"
+	line "habló de un"
+	cont "#mon"
 
 	para "canino rosa, bajo,"
 	line "y con lunares"

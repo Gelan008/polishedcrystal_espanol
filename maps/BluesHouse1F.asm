@@ -84,8 +84,8 @@ DaisyScript:
 	para "¿Te gustaría"
 	line "acompañarme?"
 
-	para "Oh, tus #mon es-"
-	line "tán algo sucios."
+	para "Oh, tus #mon"
+	line "están algo sucios."
 
 	para "¿Te gustaría que"
 	line "acicalara a uno?"

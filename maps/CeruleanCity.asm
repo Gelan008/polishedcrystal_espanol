@@ -180,8 +180,8 @@ CeruleanCityFisherRocketTipText:
 
 CeruleanCityYoungsterText1:
 	text "Aquí hay una cue-"
-	line "va con #mon ate-"
-	cont "rradoramente"
+	line "va con #mon"
+	cont "aterradoramente"
 	cont "fuertes."
 	done
 

@@ -593,8 +593,7 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	para "Blanche: Cada cebo"
 	line "contiene la esen-"
 	cont "cia de un pájaro"
-
-	para "legendario #mon."
+	cont "legendario."
 
 	para "Se crearon para"
 	line "atraer a otros de"

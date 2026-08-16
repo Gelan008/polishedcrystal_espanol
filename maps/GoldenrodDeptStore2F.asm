@@ -29,9 +29,9 @@ GoldenrodDeptStore2FClerk2Script:
 	pokemart MARTTYPE_STANDARD, MART_GOLDENROD_2F_2_EEVEE
 
 GoldenrodDeptStore2FYoungsterText:
-	text "El #gear no tie-"
-	line "ne límite de capa-"
-	cont "cidad."
+	text "El #gear no"
+	line "tiene límite de"
+	cont "capacidad."
 
 	para "Pero recibir dema-"
 	line "siadas llamadas"

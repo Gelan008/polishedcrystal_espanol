@@ -413,11 +413,11 @@ FisherTully1BeatenText:
 	done
 
 FisherTullyAfterBattleText:
-	text "Quiero ser el Cam-"
-	line "peón usando los"
+	text "Quiero ser el"
+	line "Campeón usando los"
 
-	para "#mon que he pes-"
-	line "cado yo mismo."
+	para "#mon que he"
+	line "pescado yo mismo."
 
 	para "¡Es lo mejor de"
 	line "la pesca!"

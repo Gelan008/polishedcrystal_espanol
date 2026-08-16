@@ -243,17 +243,17 @@ Route4SuperNerd2Text:
 
 Text_Route4TutorIronHead:
 	text "Si me das una Hoja"
-	line "Plata, ¡le en-"
+	line "Plata ¡le enseñaré"
 
-	para "señaré a tu #mon"
+	para "a tu #mon"
 	line "Cabeza de Hierro!"
 	done
 
 Text_Route4TutorAquaTail:
 	text "Si me das una Hoja"
-	line "Plata, ¡le en-"
+	line "Plata ¡le enseñaré"
 
-	para "señaré a tu #mon"
+	para "a tu #mon"
 	line "Acua Cola!"
 	done
 

@@ -63,7 +63,8 @@ GenericTrainerTamerBrett:
 LassDuplicaSeenText:
 	text "¡Para dominar a"
 	line "Ditto, debes cono-"
-	cont "cer a todo #mon!"
+	cont "cer a todo"
+	cont "#mon!"
 	done
 
 LassDuplicaBeatenText:
@@ -108,9 +109,9 @@ SafariZoneWestRestHouseSignText:
 SafariZoneWestTrainerTips1SignText:
 	text "Pistas Entrenador"
 
-	para "Los #mon de tipo"
-	line "Fuego no se pueden"
-	cont "quemar,"
+	para "Los #mon de"
+	line "tipo Fuego no se"
+	cont "pueden quemar,"
 
 	para "los de tipo Eléc-"
 	line "trico no sufren"

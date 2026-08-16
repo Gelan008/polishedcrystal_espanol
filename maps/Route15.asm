@@ -198,8 +198,9 @@ PokefanfBooneBeatenText:
 	done
 
 PokefanfEleanorSeenText:
-	text "¡Muy bien, #mon,"
-	line "hora de luchar!"
+	text "¡Muy bien,"
+	line "#mon, hora de"
+	cont "luchar!"
 	done
 
 PokefanfEleanorBeatenText:

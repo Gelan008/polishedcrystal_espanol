@@ -117,7 +117,8 @@ HexManiacEstherSeenText:
 	line "en la pared…"
 
 	para "¿quién lanzará su"
-	line "# Ball esta vez?"
+	line "# Ball esta"
+	cont "vez?"
 	done
 
 HexManiacEstherBeatenText:

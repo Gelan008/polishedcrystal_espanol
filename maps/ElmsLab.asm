@@ -1230,12 +1230,10 @@ ElmAfterTheftText6:
 
 ElmAfterTheftText7:
 	text "Y llámame de"
-	line "vez en cuando."
-
-	para "Si quieres saber"
-	line "cómo podría"
-	cont "evolucionar tu"
-	cont "#mon,"
+	line "vez en cuando si"
+	cont "quieres saber cómo"
+	cont "podría evolucionar"
+	cont "tu #mon,"
 
 	para "¡mi investigación"
 	line "será de gran"
@@ -1313,7 +1311,8 @@ ElmGiveOddSouvenirText1:
 
 ElmGiveOddSouvenirText2:
 	text "Esa rareza me la"
-	line "dio el Sr. #mon."
+	line "dio el Sr."
+	cont "#mon."
 
 	para "Me dijo que es un"
 	line "recuerdo de su"

@@ -284,9 +284,9 @@ DragonTamerKazuBeatenText:
 	done
 
 CooltrainermGaven1SeenText:
-	text "Al librar comba-"
-	line "tes difíciles, ga-"
-	cont "nas más fuerza."
+	text "Al librar combates"
+	line "difíciles, ganas"
+	cont "más fuerza."
 	done
 
 CooltrainermGaven1BeatenText:
@@ -344,9 +344,10 @@ CooltrainerfBeth1BeatenText:
 	done
 
 CooltrainerfBethAfterText:
-	text "Los #mon son com-"
-	line "pañeros inestima-"
-	cont "bles para siempre."
+	text "Los #mon son"
+	line "compañeros"
+	cont "inestimables"
+	cont "para toda la vida."
 	done
 
 PsychicRichardSeenText:

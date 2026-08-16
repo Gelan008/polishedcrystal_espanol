@@ -234,11 +234,10 @@ BlaineIntroText:
 	line "Isla Canela ardió"
 	cont "por completo."
 
-	para "Mis #mon y yo nos"
-	line "hemos quedado sin"
-
-	para "hogar por culpa"
-	line "del volcán."
+	para "Mis #mon y yo"
+	line "nos hemos quedado"
+	cont "sin hogar por"
+	cont "culpa del volcán"
 
 	para "¡Uaaah!"
 
@@ -270,20 +269,22 @@ BlaineAfterBattleText:
 	done
 
 BlaineFightDoneText:
-	text "Blaine: Mis #mon"
-	line "de fuego serán aún"
+	text "Blaine: Mis"
+	line "#mon de fuego"
+	cont "serán aún más"
+	cont "fuertes."
 
-	para "más fuertes."
-	line "¡Ya lo verás!"
+	para "¡Ya lo verás!"
 	done
 
 SeafoamGymGuyWinText2:
-	text "Un Gimnasio #mon"
-	line "puede estar en"
+	text "Un Gimnasio"
+	line "#mon puede"
+	cont "estar en cualquier"
 
-	para "cualquier parte si"
-	line "el Líder de Gimna-"
-	cont "sio está allí."
+	para "parte si el"
+	line "Líder de Gimnasio"
+	cont "está allí."
 
 	para "No hace falta un"
 	line "edificio."

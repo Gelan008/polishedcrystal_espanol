@@ -238,7 +238,8 @@ GenericTrainerFirebreatherWalt:
 
 	text "La Marcha #mon"
 	line "de la radio atrae"
-	cont "a #mon salvajes."
+	cont "a #mon"
+	cont "salvajes."
 	done
 
 TrainerOfficerDirk:

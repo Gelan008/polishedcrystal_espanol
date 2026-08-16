@@ -490,11 +490,12 @@ ArthurScript:
 	setevent EVENT_GOT_HARD_STONE_FROM_ARTHUR
 	jumpthisopenedtext
 
-	text "Juan: Si un #mon"
-	line "usa movimientos de"
+	text "Juan: Si un"
+	line "#mon usa"
+	cont "movimientos de"
 
-	para "tipo Roca, debe-"
-	line "ría llevarla."
+	para "tipo Roca,"
+	line "debería llevarla."
 
 	para "¡Potencia los ata-"
 	line "ques de tipo Roca!"

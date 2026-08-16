@@ -63,9 +63,10 @@ Route46TutorRoute46Script:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "¡Listo! ¡Tu #mon"
-	line "ha aprendido a"
-	cont "usar Desenrrollar!"
+	text "¡Listo! ¡Tu"
+	line "#mon ha"
+	cont "aprendido a usar"
+	cont "Desenrrollar!"
 	done
 
 GenericTrainerCamperTed:
@@ -201,18 +202,17 @@ GenericTrainerHikerBailey:
 	done
 
 Route46HikerText:
-	text "¡Un Donphan me em-"
-	line "bistió y caí ro-"
-
-	para "dando hasta aquí"
-	line "abajo!"
+	text "¡Un Donphan me"
+	line "embistió y caí"
+	cont "rodando hasta"
+	cont "aquí abajo!"
 
 	para "Aun así, he apren-"
 	line "dido la lección…"
 
 	para "¡Mucho cuidado con"
-	line "los #mon que es-"
-	cont "tén enfadados!"
+	line "los #mon que"
+	cont "estén enfadados!"
 	done
 
 Text_Route46TutorRollout:

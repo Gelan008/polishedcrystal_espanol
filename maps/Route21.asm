@@ -122,8 +122,8 @@ GenericTrainerSwimmermDuane:
 	done
 
 .BeatenText:
-	text "Mis #mon y yo no"
-	line "tenemos fuerzas…"
+	text "Mis #mon y yo"
+	line "no tenemos fuerzas"
 	done
 
 GenericTrainerSwimmermSeth:
@@ -155,7 +155,8 @@ GenericTrainerFisherMurphy:
 .SeenText:
 	text "¿Eh? ¡He pescado a"
 	line "un entrenador en"
-	cont "vez de a un #mon!"
+	cont "vez de a un"
+	cont "#mon!"
 	done
 
 .BeatenText:
@@ -255,7 +256,8 @@ GenericTrainerBird_keeperEaston:
 .SeenText:
 	text "¡Los Ornitólogos"
 	line "somos geniales con"
-	cont "los #mon pájaro!"
+	cont "los #mon"
+	cont "pájaro!"
 	done
 
 .BeatenText:

@@ -73,9 +73,9 @@ endr
 	step_end
 
 FuchsiaPokeCenter1FCooltrainerMText:
-	text "¡Eh! Tienes un #"
-	line "dex que parece muy"
-	cont "nuevo."
+	text "¡Eh! Tienes una"
+	line "#dex que parece"
+	cont "muy nueva."
 
 	para "¿Te la dio el"
 	line "Prof. Oak?"

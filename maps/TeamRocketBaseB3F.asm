@@ -346,8 +346,8 @@ RocketBaseRivalText:
 	line "ber perdido. Pue-"
 
 	para "do vencerle consi-"
-	line "guiendo #mon más"
-	cont "fuertes."
+	line "guiendo #mon"
+	cont "más fuertes."
 
 	para "Lo que me fastidia"
 	line "es lo que me ha"

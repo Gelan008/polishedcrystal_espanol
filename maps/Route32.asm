@@ -326,8 +326,8 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	line "dió el Prof. Elm."
 
 	para "¡Qué curiosidad"
-	line "por ver qué #mon"
-	cont "será!"
+	line "por ver qué"
+	cont "#mon será!"
 	done
 
 .QuestionText:
@@ -387,8 +387,8 @@ Route32LyraIntroducesHiddenGrottoesOutroScript:
 	para "árboles o en los"
 	line "acantilados."
 
-	para "¡Podría haber #-"
-	line "mon increíbles"
+	para "¡Podría haber"
+	line "#mon increíbles"
 	cont "escondidos dentro!"
 
 	para "Ojalá tuviera"

@@ -115,7 +115,7 @@ GenericTrainerFisherKyler:
 	done
 
 .BeatenText:
-	text "¡Mi cubo de #mon"
+	text "¡Mi cubo #mon"
 	line "está vacío!"
 	done
 

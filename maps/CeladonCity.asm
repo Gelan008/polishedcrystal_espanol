@@ -261,8 +261,8 @@ CeladonCityLassText_PCC:
 	done
 
 CeladonCityLassText:
-	text "Ofrecen #mon co-"
-	line "mo premios en el"
+	text "Ofrecen #mon"
+	line "como premios en el"
 	cont "Casino."
 
 	para "Pobrecitos…"
@@ -358,9 +358,9 @@ CeladonCityTrainerTips1Text:
 CeladonCityTrainerTips2Text:
 	text "Pistas Entren."
 
-	para "Eevee es un #mon"
-	line "lleno de poten-"
-	cont "cial."
+	para "Eevee es un"
+	line "#mon lleno de"
+	cont "potencial."
 
 	para "Prueba a exponerlo"
 	line "a muchos lugares"

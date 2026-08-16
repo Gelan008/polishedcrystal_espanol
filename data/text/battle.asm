@@ -340,8 +340,8 @@ BattleText_TheHailStopped:
 BattleText_EnemyPkmnFainted:
 	text "¡"
 	text_ram wEnemyMonNickname
-	text " enemigo"
-	line "se debilitó!"
+	line "enemigo"
+	cont "se debilitó!"
 	prompt
 
 GotMoneyForWinningText:

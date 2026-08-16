@@ -79,9 +79,10 @@ GenericTrainerTamerJordan:
 	done
 
 .SeenText:
-	text "¡Cuidado! ¡Los #-"
-	line "mon de aquí pueden"
-	cont "ser muy fieros!"
+	text "¡Cuidado! ¡Los"
+	line "#mon de aquí"
+	cont "pueden ser muy"
+	cont "fieros!"
 	done
 
 .BeatenText:

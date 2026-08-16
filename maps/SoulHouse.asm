@@ -104,8 +104,8 @@ MrFujiUseThisText:
 	line "ayudar a apaciguar"
 
 	para "las almas de los"
-	line "#mon que no des-"
-	cont "cansan en paz."
+	line "#mon que no"
+	cont "descansan en paz."
 	done
 
 SoulHouseTeacherText:
@@ -128,8 +128,8 @@ SoulHouseLassText:
 	done
 
 SoulHouseGrannyText:
-	text "Los #mon que vi-"
-	line "vían conmigo…"
+	text "Los #mon que"
+	line "vivían conmigo…"
 
 	para "Los quería como a"
 	line "mis propios nie-"

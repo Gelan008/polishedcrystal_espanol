@@ -28,9 +28,10 @@ GentlemanAlfredScript:
 	iftrue_jumptextfaceplayer GentlemanAlfredFinalText
 	jumpthistextfaceplayer
 
-	text "Arriba hay un #-"
-	line "mon que mantiene"
-	cont "el Faro encendido."
+	text "Arriba hay un"
+	line "#mon que"
+	cont "mantiene el Faro"
+	cont "encendido."
 
 	para "Pero he oído que"
 	line "ahora está enfermo"
@@ -185,9 +186,10 @@ GentlemanAlfredBeatenText:
 	done
 
 GentlemanAlfredFinalText:
-	text "Arriba hay un #-"
-	line "mon que mantiene"
-	cont "el Faro encendido."
+	text "Arriba hay un"
+	line "#mon que"
+	cont "mantiene el Faro"
+	cont "encendido."
 
 	para "¿Has ayudado a"
 	line "curar su mal?"

@@ -169,9 +169,10 @@ Route27VeteranfScript:
 	line "das potencian el"
 	cont "Ataque Especial"
 
-	para "de un #mon, pero"
-	line "solo puede usar un"
-	cont "mismo movimiento."
+	para "de un #mon,"
+	line "pero solo puede"
+	cont "usar un mismo"
+	cont "movimiento."
 
 	para "¡Quédate con un"
 	line "par!"
@@ -541,8 +542,9 @@ BirdKeeperJose2AfterBattleText:
 	line "como yo imitamos"
 
 	para "los silbidos de"
-	line "aves para dar ór-"
-	cont "denes a los #mon."
+	line "aves para dar"
+	cont "órdenes a los"
+	cont "#mon."
 	done
 
 TohjoFallsSignText:

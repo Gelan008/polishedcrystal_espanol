@@ -222,16 +222,17 @@ VermilionMachokeOwnerScript:
 	iftrue_jumptextfaceplayer VermilionMachokeOwnerText
 	jumpthistextfaceplayer
 
-	text "¡Mis #mon allana-"
-	line "ron el terreno"
+	text "¡Mis #mon"
+	line "allanaron el"
+	cont "terreno"
 
 	para "para construir ese"
-	line "edificio tan gran-"
-	cont "de!"
+	line "edificio tan"
+	cont "grande!"
 
 	para "Es una pena que la"
-	line "gente no pueda en-"
-	cont "trar aún…"
+	line "gente no pueda"
+	cont "entrar aún…"
 	done
 
 VermilionCitySuperNerd2Script:
@@ -251,10 +252,10 @@ VermilionCitySuperNerd2Script:
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Tener #mon de di-"
-	line "ferentes tipos te"
+	text "Tener #mon de"
+	line "diferentes tipos"
 
-	para "dará ventaja en el"
+	para "te dará ventaja en el"
 	line "combate."
 
 	para "Las Medallas de"
@@ -263,13 +264,14 @@ VermilionCityBadgeGuyBattleEdgeText:
 	done
 
 LawrenceOverheardText:
-	text "…Así que el #mon"
-	line "legendario no es-"
+	text "…Así que"
+	line "el #mon"
+	cont "legendario no es-"
 	cont "taba en esa isla…"
 
-	para "Debo seguir bus-"
-	line "cando en otra par-"
-	cont "te…"
+	para "Debo seguir"
+	line "buscando en otra"
+	cont "parte…"
 	done
 
 LawrenceIntroText:
@@ -290,9 +292,10 @@ LawrenceIntroText:
 	para "…Vaya, las apa-"
 	line "riencias engañan."
 
-	para "Los #mon legenda-"
-	line "rios siempre han"
-	cont "sido mi pasión."
+	para "Los #mon"
+	line "legendarios"
+	cont "siempre han sido"
+	cont "mi pasión."
 
 	para "Tomé el ferri"
 	line "Gaviota hasta Isla"
@@ -302,8 +305,9 @@ LawrenceIntroText:
 	cont "buscaba."
 
 	para "¡Vaya! ¿Has visto"
-	line "a los #mon de las"
-	cont "leyendas de Johto?"
+	line "a los #mon de"
+	cont "las leyendas de"
+	cont "Johto?"
 
 	para "Entonces puede que"
 	line "nos volvamos a ver"
@@ -327,8 +331,9 @@ VermilionCityTeacherText:
 	done
 
 VermilionMachokeOwnerText:
-	text "¡Mis #mon allana-"
-	line "ron el terreno"
+	text "¡Mis #mon"
+	line "allanaron el"
+	cont "terreno"
 
 	para "para construir ese"
 	line "edificio tan gran-"
@@ -384,9 +389,8 @@ VermilionCitySailorText:
 	done
 
 VermilionCityRadioNearSnorlaxText:
-	text "Se puso el #gear"
-	line "cerca del Snorlax"
-	cont "dormido…"
+	text "Suena el #gear"
+	line "cerca de Snorlax…"
 
 	para "…"
 
@@ -426,8 +430,8 @@ PokemonFanClubSignText:
 	line "#mon"
 
 	para "¡Todos los fans de"
-	line "#mon son bienve-"
-	cont "nidos!"
+	line "#mon son"
+	cont "bienvenidos!"
 	done
 
 VermilionCityDiglettsCaveSignText:

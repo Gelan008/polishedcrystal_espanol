@@ -133,8 +133,9 @@ DimCave5FRileyScript:
 	line "migo."
 
 	para "Si conoces los"
-	line "#mon y movimien-"
-	cont "tos de tu rival,"
+	line "#mon y"
+	cont "los movimientos"
+	cont "de tu rival,"
 
 	para "tus posibilidades"
 	line "de ganar mejoran"

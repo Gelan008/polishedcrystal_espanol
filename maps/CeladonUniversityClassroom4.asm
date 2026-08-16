@@ -174,9 +174,9 @@ CeladonUniversityClassroom4TeacherText:
 
 CeladonUniversityClassroom4Bug_catcherText:
 	text "Mi maestro dijo"
-	line "que mis #mon po-"
-	cont "drían competir con"
-	cont "los mejores."
+	line "que mis #mon"
+	cont "podrían competir"
+	cont "contra los mejores"
 
 	para "¡Su potencial es"
 	line "el mejor que ha-"

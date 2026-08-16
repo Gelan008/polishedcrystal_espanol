@@ -114,8 +114,8 @@ BrockIntroText:
 	para "Soy un experto en"
 	line "#mon tipo Roca."
 
-	para "Mis #mon son im-"
-	line "permeables a los"
+	para "Mis #mon son"
+	line "resistentes a los"
 
 	para "ataques físicos."
 	line "Te costará mucho"

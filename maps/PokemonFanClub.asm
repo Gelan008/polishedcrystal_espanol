@@ -92,7 +92,8 @@ PokemonJournalGreenScript:
 
 	para "dicen que a Hoja"
 	line "le fascinan los"
-	cont "#mon legendarios."
+	cont "#mon"
+	cont "legendarios."
 	done
 
 ClefairyDollScript:

@@ -33,9 +33,9 @@ SlowpokeWellEntranceKurtText:
 	para "¡Maldición! Si no"
 	line "estuviera herido,"
 
-	para "mis #mon les ha-"
-	line "brían dado un buen"
-	cont "escarmiento…"
+	para "mis #mon les"
+	line "habrían dado un"
+	cont "buen escarmiento…"
 
 	para "En fin, no hay más"
 	line "remedio."

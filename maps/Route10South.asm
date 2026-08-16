@@ -30,7 +30,8 @@ GenericTrainerPokefanmRobert:
 	generictrainer POKEFANM, ROBERT, EVENT_BEAT_POKEFANM_ROBERT, PokefanmRobertSeenText, PokefanmRobertBeatenText
 
 	text "Mira lo que le has"
-	line "hecho a mi #mon…"
+	line "hecho a mi"
+	cont "#mon…"
 
 	para "No me olvidaré"
 	line "de esto…"
@@ -73,8 +74,9 @@ HexManiacAmySeenText:
 	done
 
 HexManiacAmyBeatenText:
-	text "Tus #mon desbor-"
-	line "dan vitalidad…"
+	text "Tus #mon"
+	line "desbordan"
+	cont "vitalidad…"
 	done
 
 Route10SignText:

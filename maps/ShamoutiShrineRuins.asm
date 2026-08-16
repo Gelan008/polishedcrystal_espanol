@@ -141,7 +141,8 @@ ShamoutiShrineRuinsLawrenceScript:
 
 .GoodbyeText:
 	text "Mi sueño era po-"
-	line "seer a ese #mon,"
+	line "seer a ese"
+	cont "#mon,"
 
 	para "pero has demos-"
 	line "trado ser digno."

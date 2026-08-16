@@ -82,9 +82,9 @@ Route45Dragon_tamerScript:
 
 .AfterText2:
 	text "El arte de entre-"
-	line "nar #mon de tipo"
-	cont "Dragón es algo"
-	cont "maravilloso."
+	line "nar #mon de"
+	cont "tipo Dragón es"
+	cont "algo maravilloso."
 
 	para "Tú también debe-"
 	line "rías hacerte"
@@ -112,8 +112,8 @@ Route45Dragon_tamerScript:
 .QuestionText:
 	text "¡Ah, ya estás a"
 	line "punto! Es hora de"
-	cont "un duelo: tus #-"
-	cont "mon contra mis"
+	cont "un duelo: tus"
+	cont "#mon contra mis"
 	cont "dragones."
 
 	para "¿Empezamos ya?"
@@ -137,9 +137,9 @@ Route45Dragon_tamerScript:
 
 .BeatenText:
 	text "¡Qué gran poder!"
-	line "¡Mis #mon no han"
-	cont "sido rivales para"
-	cont "ti!"
+	line "¡Mis #mon no"
+	cont "han sido rivales"
+	cont "para ti!"
 	done
 
 .AfterText1:
@@ -402,7 +402,8 @@ GenericTrainerCooltrainerfKelly:
 
 	para "Quiero ganar, pero"
 	line "tampoco quiero"
-	cont "dañar a los #mon."
+	cont "dañar a los"
+	cont "#mon."
 	done
 
 GenericTrainerCamperQuentin:

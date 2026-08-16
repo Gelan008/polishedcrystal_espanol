@@ -397,12 +397,12 @@ BugCatchingContestant3BStillCompetingText:
 
 
 BugCatchingContestant4BStillCompetingText:
-	text "William: Bueno, yo"
-	line "me doy por satis-"
-	cont "fecho,"
+	text "William: Bueno,"
+	line "yo me doy por"
+	cont "satisfecho,"
 
 	para "porque atrapé el"
-	line "#mon que quería."
+	line "#mon que quería"
 	done
 
 

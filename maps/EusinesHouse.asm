@@ -222,8 +222,9 @@ EusinesHouseGrampsEusineSearchingForSuicuneText:
 	cont "das partes."
 
 	para "¡Yo le enseñé"
-	line "todo sobre los #"
-	cont "mon legendarios!"
+	line "todo sobre"
+	cont "los #mon"
+	cont "legendarios!"
 	done
 
 

@@ -235,9 +235,9 @@ PewterCityMtMoonGiftShopSignText:
 PewterCityTrainerTipsText:
 	text "Pistas Entrenador"
 
-	para "Un #mon que lleve"
-	line "una Cápsula Ha-"
-	cont "bilidad tendrá más"
+	para "Un #mon que"
+	line "lleve una Cápsula"
+	cont "Habilidad tendrá más"
 
 	para "posibilidades de"
 	line "criar una cría con"

@@ -53,8 +53,8 @@ GenericTrainerSwimmerfJill:
 GenericTrainerBird_keeperBryan:
 	generictrainer BIRD_KEEPER, BRYAN, EVENT_BEAT_BIRD_KEEPER_BRYAN, Bird_keeperBryanSeenText, Bird_keeperBryanBeatenText
 
-	text "Hay #mon que hu-"
-	line "yen al instante."
+	text "Hay #mon que"
+	line "huyen al instante."
 
 	para "Prueba a atrapar-"
 	line "los con la Rapid"
@@ -166,8 +166,9 @@ SrandjrBeaandmay1BeatenText:
 
 SrandjrBeaandmay2SeenText:
 	text "May: Prefiero los"
-	line "#mon monos a los"
-	cont "#mon fuertes."
+	line "#mon monos a"
+	cont "los #mon"
+	cont "fuertes."
 
 	para "¡Pero juntas tene-"
 	line "mos #mon fuer-"
@@ -196,8 +197,8 @@ SailorHarveyBeatenText:
 
 LassRoseSeenText:
 	text "¡He atrapado a es-"
-	line "tos #mon por to-"
-	cont "do el mundo!"
+	line "tos #mon por"
+	cont "todo el mundo!"
 	done
 
 LassRoseBeatenText:

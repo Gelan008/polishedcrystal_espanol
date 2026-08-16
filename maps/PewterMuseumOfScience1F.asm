@@ -346,8 +346,9 @@ AskOldAmberText:
 	done
 
 ResurrectingPokemonText:
-	text "¡Muy bien! ¡Revi-"
-	line "viré a ese #mon!"
+	text "¡Muy bien!"
+	line "¡Reviviré a ese"
+	cont "#mon!"
 	done
 
 NoRoomForFossilPokemonText:

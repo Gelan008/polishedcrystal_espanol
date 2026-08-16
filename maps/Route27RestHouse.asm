@@ -89,7 +89,8 @@ Route27RestHouseGranny:
 	text "¿Adónde vas con"
 	line "tus #mon?"
 
-	para "¿A la Liga #mon?"
+	para "¿A la Liga"
+	line "#mon?"
 
 	para "¿Son tus #mon"
 	line "lo bastante leales"

@@ -69,7 +69,8 @@ SageChowSeenText:
 
 	para "Aquí expresamos"
 	line "nuestra gratitud"
-	cont "a todos los #mon."
+	cont "a todos los"
+	cont "#mon."
 	done
 
 SageChowBeatenText:

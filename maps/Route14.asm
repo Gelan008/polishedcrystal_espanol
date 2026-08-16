@@ -31,8 +31,9 @@ GenericTrainerPokefanmTrevor:
 	text "Ojalá hubiera una"
 	line "forma fácil de"
 
-	para "saber dónde con-"
-	line "seguí a mis #mon…"
+	para "saber dónde"
+	line "conseguí a mis"
+	cont "#mon…"
 
 	para "¡Ah! ¡Si solo debo"
 	line "mirar sus datos!"
@@ -41,8 +42,9 @@ GenericTrainerPokefanmTrevor:
 PokefanmTrevorSeenText:
 	text "¿Sabías que…?"
 
-	para "Los #mon se vuel-"
-	line "ven más afectuosos"
+	para "Los #mon se"
+	line "vuelven más"
+	cont "afectuosos"
 
 	para "si los entrenas"
 	line "en un lugar que"
@@ -80,7 +82,7 @@ GenericTrainerBird_keeperRoy:
 	generictrainer BIRD_KEEPER, ROY, EVENT_BEAT_BIRD_KEEPER_ROY, Bird_keeperRoySeenText, Bird_keeperRoyBeatenText
 
 	text "Tienes #mon que"
-	line "saben la MO Vuelo,"
+	line "sepan la MO Vuelo,"
 
 	para "¿a que sí? Qué"
 	line "envidia me das."
@@ -88,8 +90,9 @@ GenericTrainerBird_keeperRoy:
 
 Bird_keeperRoySeenText:
 	text "Mi sueño es volar"
-	line "junto a mis queri-"
-	cont "dos #mon pájaro."
+	line "junto a mis"
+	cont "queridos #mon"
+	cont "pájaro."
 	done
 
 Bird_keeperRoyBeatenText:

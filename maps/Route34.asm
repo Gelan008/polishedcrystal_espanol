@@ -689,8 +689,8 @@ Route34LyraFollowMeText:
 
 BreederJulieSeenText:
 	text "¡Aquí es donde en-"
-	line "treno a mis #mon"
-	cont "bebé!"
+	line "treno a mis"
+	cont "#mon bebé!"
 	done
 
 BreederJulieBeatenText:

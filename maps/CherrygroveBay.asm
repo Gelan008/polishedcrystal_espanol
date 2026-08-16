@@ -292,16 +292,18 @@ CherrygroveBayFisherText:
 	done
 
 CherrygroveBayHikerText:
-	text "No creo en mitos"
-	line "de creación de"
-
-	para "#mon legendarios."
+	text "No creo en los"
+	line "mitos sobre la"
+	cont "creación de los"
+	cont "#mon"
+	cont "legendarios."
 
 	para "¡Johto se formó"
 	line "durante millones"
 
-	para "de años por el po-"
-	line "-der de la tierra!"
+	para "de años gracias al"
+	line "poder de la"
+	cont "tierra!"
 	done
 
 Text_CherrygroveBayTutorEarthPower:

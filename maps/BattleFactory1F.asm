@@ -181,8 +181,9 @@ BattleFactory1FReceptionistScript:
 	writethistext
 		text "Fábrica Batalla es"
 		line "un recinto donde"
-		cont "luchas usando #-"
-		cont "mon de préstamo."
+		cont "luchas usando"
+		cont "#mon de"
+		cont "préstamo."
 
 		para "Entrenadores de"
 		line "#mon acuden"

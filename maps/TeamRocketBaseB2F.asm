@@ -664,8 +664,8 @@ RockerBaseLanceElectrodeFaintText:
 	line "causante de todos"
 	cont "los problemas."
 
-	para "No veo ningún in-"
-	line "terruptor…"
+	para "No veo ningún"
+	line "interruptor…"
 
 	para "No hay opción. Te-"
 	line "nemos que debili-"
@@ -679,11 +679,11 @@ RockerBaseLanceElectrodeFaintText:
 	para "siga emitiendo esa"
 	line "extraña señal."
 
-	para "Los #mon no tie-"
-	line "nen la culpa, así"
+	para "Los #mon no"
+	line "tienen la culpa,"
 
-	para "que me siento cul-"
-	line "pable."
+	para "me siento mal"
+	line "por ellos."
 
 	para "¡<PLAYER>, repar-"
 	line "támonos el tra-"

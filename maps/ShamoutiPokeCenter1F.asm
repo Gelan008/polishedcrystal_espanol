@@ -126,22 +126,24 @@ ShamoutiPokeCenter1FIvyScript:
 	para "¡Encantada de"
 	line "conocerte!"
 
-	para "Soy Ivy, una pro-"
-	line "fesora #mon."
+	para "Soy Ivy, una"
+	line "profesora #mon."
 
 	para "Estudio la varia-"
 	line "ción local en los"
 	cont "fenotipos #mon."
 
 	para "¿Sabías que algu-"
-	line "nos #mon salvajes"
+	line "nos #mon"
+	cont "salvajes"
 
 	para "conocen ataques"
 	line "únicos de su hábi-"
 	cont "tat?"
 
 	para "¡E incluso dos"
-	line "#mon de la misma"
+	line "#mon de la"
+	cont "misma"
 
 	para "especie en una zo-"
 	line "na pueden tener"
@@ -177,15 +179,15 @@ ShamoutiPokeCenter1FIvyScript:
 
 .GoodbyeText:
 	text "Ivy: El Prof. Elm"
-	line "confió en ti dán-"
-	cont "dote un #mon, y"
+	line "confió en ti"
+	cont "dándote un #mon"
 
-	para "el Prof. Oak te"
-	line "dio una #dex, así"
+	para "y el Prof. Oak te"
+	line "dio una #dex,"
 
-	para "que sé que cuida-"
-	line "rás muy bien de"
-	cont "este "
+	para "así que sé que"
+	line "cuidarás muy bien"
+	cont "de este "
 	text_ram wStringBuffer3
 	text "."
 

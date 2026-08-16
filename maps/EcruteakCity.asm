@@ -159,12 +159,11 @@ EcruteakCityFisherText_JasmineReturned:
 	done
 
 EcruteakCityYoungsterText:
-	text "He oído que hay #"
-	line "mon alborotando en"
-
-	para "el Lago de la Fu-"
-	line "ria. Me gustaría"
-	cont "verlo."
+	text "He oído que hay"
+	line "#mon alborota-"
+	cont "-dos en el"
+	cont "Lago de la Furia"
+	cont "Me gustaría verlo."
 	done
 
 EcruteakCityGramps3Text:
@@ -220,14 +219,14 @@ EcruteakGymSign:
 EcruteakCityAdvancedTips:
 	text "¡Pistas Entren.!"
 
-	para "Algunos #mon que"
-	line "encuentres pueden"
+	para "Algunos #mon"
+	line "que encuentres"
+	cont "pueden tener una"
+	cont "rara habilidad,"
 
-	para "tener una rara ha-"
-	line "bilidad, ¡también"
-
-	para "conocida como"
-	line "Habilidad Oculta!"
+	para "¡también conocida"
+	line "como Habilidad"
+	cont " Oculta!"
 
 	para "Un #mon salido"
 	line "del huevo también"

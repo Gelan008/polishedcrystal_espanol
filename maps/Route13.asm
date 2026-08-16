@@ -81,11 +81,11 @@ GenericTrainerCamperClark:
 GenericTrainerPicnickerGinger:
 	generictrainer PICNICKER, GINGER, EVENT_BEAT_PICNICKER_GINGER, .SeenText, .BeatenText
 
-	text "¡Te puedes comuni-"
-	line "car con los #mon"
-
-	para "silbando en vez"
-	line "de con palabras!"
+	text "¡Te puedes"
+	line "comunicar con los"
+	cont "#mon silbando"
+	cont "en vez de con"
+	cont "palabras!"
 	done
 
 .SeenText:
@@ -127,11 +127,12 @@ GenericTrainerBird_keeperBret:
 	done
 
 Bird_keeperBretSeenText:
-	text "Mira a mis #mon."
-	line "Fíjate bien en"
+	text "Mira a mis"
+	line "#mon."
 
-	para "sus colores y en"
-	line "su plumaje."
+	para "Fíjate bien en"
+	line "sus colores y en"
+	cont "su plumaje."
 	done
 
 Bird_keeperBretBeatenText:
@@ -296,8 +297,8 @@ Route13TrainerTips1Text:
 Route13TrainerTips2Text:
 	text "Pistas Entren."
 
-	para "Ciertos #mon re-"
-	line "quieren objetos"
+	para "Ciertos #mon"
+	line "requieren objetos"
 	cont "para evolucionar."
 
 	para "¡Si tienes suerte,"

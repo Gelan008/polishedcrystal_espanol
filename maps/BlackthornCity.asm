@@ -64,8 +64,8 @@ BlackthornCitySignText:
 	done
 
 BlackthornGymSignText:
-	text "Gimnasio #mon de"
-	line "Ciudad Endrino"
+	text "Gimnasio #mon"
+	line "de Ciudad Endrino"
 	cont "Líder: Débora"
 
 	para "La maestra en el"

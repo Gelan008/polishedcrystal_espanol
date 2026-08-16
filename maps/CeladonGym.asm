@@ -59,7 +59,8 @@ CeladonGymErikaScript:
 
 	para "la mitad del daño"
 	line "que inflige para"
-	cont "curar a tu #mon."
+	cont "curar a tu"
+	cont "#mon."
 
 	para "Por favor, úsala"
 	line "si es de tu agra-"
@@ -231,9 +232,9 @@ Aroma_ladyDahliaBeatenText:
 
 TwinsJoandzoe1SeenText:
 	text "¡Te enseñaremos"
-	line "movimientos #mon"
-	cont "que Erika nos en-"
-	cont "señó!"
+	line "movimientos"
+	cont "#mon que Erika"
+	cont "nos enseñó."
 	done
 
 TwinsJoandzoe1BeatenText:

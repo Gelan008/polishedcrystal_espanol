@@ -589,11 +589,11 @@ PicnickerTiffanyWantsPicnicText:
 
 
 BreederJodySeenText:
-	text "¡Crié a mis #mon"
-	line "para que supieran"
-
-	para "movimientos espe-"
-	line "ciales!"
+	text "¡Crié a mis"
+	line "#mon para"
+	cont "que supieran"
+	cont "movimientos"
+	cont "especiales!"
 	done
 
 BreederJodyBeatenText:
@@ -658,14 +658,16 @@ Route43TrainerTipsText:
 	line "son fuertes y dé-"
 
 	para "biles contra el"
-	line "tipo de tu #mon."
+	line "tipo de tu"
+	cont "#mon."
 	done
 
 Route43AdvancedTipsText:
 	text "¡Pistas Entren.!"
 
-	para "¡Un #mon hereda-"
-	line "rá su naturaleza"
+	para "¡Un #mon"
+	line "heredará su"
+	cont "naturaleza"
 
 	para "si lleva equipada"
 	line "una Piedraeterna!"

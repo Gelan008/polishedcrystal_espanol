@@ -70,9 +70,10 @@ CeladonUniversity1FLassText:
 	done
 
 CeladonUniversity1FCooltrainermText:
-	text "Todos en esta uni-"
-	line "versidad son en-"
-	cont "trenadores #mon."
+	text "Todos en esta"
+	line "universidad son"
+	cont "entrenadores"
+	cont "#mon."
 
 	para "Para que te ofrez-"
 	line "can una plaza, de-"

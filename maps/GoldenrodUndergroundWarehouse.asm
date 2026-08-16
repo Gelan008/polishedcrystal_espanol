@@ -160,6 +160,6 @@ DirectorAfterText:
 	para "Por favor, salva"
 	line "la Torre Radio…"
 
-	para "¡Y a todos los #-"
-	line "mon del país!"
+	para "¡Y a todos los"
+	line "#mon del país!"
 	done

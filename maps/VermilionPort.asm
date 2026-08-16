@@ -267,6 +267,6 @@ VermilionPortSuperNerdText:
 	text "¿Vienes de Johto?"
 
 	para "He oído que allí"
-	line "viven muchos #mon"
-	cont "raros."
+	line "viven muchos"
+	cont "#mon raros."
 	done

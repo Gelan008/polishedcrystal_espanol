@@ -374,7 +374,8 @@ PokefanfRuthBeatenText:
 
 PsychicNormanSeenText:
 	text "Veamos de qué son"
-	line "capaces tus #mon."
+	line "capaces tus"
+	cont "#mon."
 	done
 
 PsychicNormanBeatenText:
@@ -486,9 +487,9 @@ Route39TrainerTipsText:
 	text "Pistas Entrenador"
 
 	para "Usa Golpe Cabeza"
-	line "en los árboles pa-"
-	cont "ra hacer caer #-"
-	cont "mon."
+	line "en los árboles"
+	cont "para hacer caer"
+	cont "#mon."
 
 	para "¡Caerán clases de"
 	line "#mon distintas!"

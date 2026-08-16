@@ -457,7 +457,8 @@ GoldenrodGameCornerCooltrainerFText:
 
 GoldenrodGameCornerGentlemanText:
 	text "Le enseñé Rayo"
-	line "Hielo a mi #mon."
+	line "Hielo a mi"
+	cont "#mon."
 
 	para "Costó conseguir"
 	line "las fichas"

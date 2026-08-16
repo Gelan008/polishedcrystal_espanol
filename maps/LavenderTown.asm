@@ -186,15 +186,16 @@ KantoRadioStationSignText:
 
 VolunteerPokemonHouseSignText:
 	text "Casa Voluntarios"
-	line "de #mon de Lavanda"
+	line "de #mon de"
+	cont "Lavanda"
 	done
 
 SoulHouseSignText:
 	text "Casa de las Almas"
 
 	para "Que las almas de"
-	line "los #mon descan-"
-	cont "sen en paz."
+	line "los #mon"
+	cont "descansen en paz."
 	done
 
 LavenderTownPokefanMText:

@@ -35,8 +35,9 @@ Route26HealHouseTeacherScript:
 	done
 
 Route26HealHouseRestAWhileText:
-	text "Tus #mon parecen"
-	line "algo cansados."
+	text "Tus #mon"
+	line "parecen algo"
+	cont "cansados."
 
 	para "Deberías dejarlos"
 	line "descansar un rato."

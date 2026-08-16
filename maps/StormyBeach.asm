@@ -59,8 +59,8 @@ GenericTrainerBird_keeperJulian:
 
 .SeenText:
 	text "Aquí entreno a"
-	line "mis #mon de tipo"
-	cont "Volador."
+	line "mis #mon de"
+	cont "tipo Volador."
 
 	para "¿Me echas una"
 	line "mano?"
@@ -77,9 +77,10 @@ GenericTrainerCamperFelix:
 	text "¡Luego haremos una"
 	line "barbacoa!"
 
-	para "Solo me falta leña"
-	line "para que mi #mon"
-	cont "la encienda."
+	para "Solo me falta"
+	line "leña para que"
+	cont "mi #mon la"
+	cont "encienda."
 	done
 
 .SeenText:

@@ -185,7 +185,8 @@ BellchimeTrailValerieScript:
 
 	para "alguien que llamó"
 	line "la atención de un"
-	cont "#mon legendario."
+	cont "#mon"
+	cont "legendario."
 	done
 
 .BattleText:
