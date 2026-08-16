@@ -212,8 +212,8 @@ _OakTimeOversleptText::
 SECTION "_OakTimeYikesText", ROMX
 _OakTimeYikesText::
 	text "!"
-	line "¡Ay! ¡Me he que-"
-	cont "dado dormido!"
+	line "¡Ay! ¡Me he"
+	cont "quedado dormido!"
 	done
 
 SECTION "ProfElmNappedText", ROMX
@@ -1193,7 +1193,7 @@ _NPCTradeAfterText1::
 SECTION "_NPCTradeIntroText2", ROMX
 _NPCTradeIntroText2::
 	text "Hola, estoy bus-"
-	line "cando este #mon."
+	line "cando a un #mon."
 
 	para "Si tienes a"
 	line ""
@@ -1211,8 +1211,8 @@ _NPCTradeCancelText2::
 	text "¿Tampoco tienes"
 	line "uno?"
 
-	para "Vaya, qué decep-"
-	line "ción…"
+	para "Vaya, qué"
+	line "decepción…"
 	done
 
 SECTION "_NPCTradeWrongText2", ROMX

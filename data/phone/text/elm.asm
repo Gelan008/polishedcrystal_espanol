@@ -41,11 +41,12 @@ ElmPhoneCheckingEggText:
 ElmPhoneAssistantText:
 	text "¿Hola, <PLAYER>?"
 
-	para "¿Viste a mi ayu-"
-	line "dante? Está en el"
+	para "¿Viste a mi"
+	line "ayudante?"
 
-	para "Centro #mon de"
-	line "Ciudad Malva."
+	para "Está en el Centro"
+	line "#mon de"
+	cont "Ciudad Malva."
 	done
 
 ElmPhoneEggUnhatchedText:
@@ -62,10 +63,10 @@ ElmPhoneEggHatchedText:
 	text "¿Hola, <PLAYER>?"
 	line "¿Cómo va el Huevo?"
 
-	para "¿Qué? ¿Ha eclosio-"
-	line "nado? ¡Guau! ¿Qué"
-	cont "tipo de #mon"
-	cont "es?"
+	para "¿Qué? ¿Se ha"
+	line "abierto? ¡Guau!"
+	cont "¿Qué tipo de"
+	cont "#mon es?"
 
 	para "¡Por favor, ven y"
 	line "enséñamelo ya!"
@@ -74,29 +75,28 @@ ElmPhoneEggHatchedText:
 ElmPhoneDiscovery1Text:
 	text "¿Hola, <PLAYER>?"
 
-	para "Acabo de hacer un"
-	line "nuevo descubri-"
-	cont "miento."
+	para "Acabo de hacer"
+	line "un nuevo"
+	cont "descubrimiento."
 
 	para "El tiempo que"
 	line "tarda un Huevo en"
 
-	para "eclosionar depen-"
-	line "de del #mon."
+	para "eclosionar depende"
+	line "del #mon."
 	prompt
 
 ElmPhoneDiscovery2Text:
 	text "¿Hola, <PLAYER>?"
 
-	para "Aún es un miste-"
-	line "rio los movimien-"
+	para "Aún es un misterio"
+	line "los movimientos"
 
-	para "tos que tienen"
-	line "los recién"
-	cont "nacidos."
+	para "que tienen los"
+	line "recién nacidos."
 
-	para "Lo estamos in-"
-	line "vestigando."
+	para "Lo estamos"
+	line "investigando."
 	prompt
 
 ElmPhonePokerusText:
@@ -107,9 +107,8 @@ ElmPhonePokerusText:
 
 	para "Al parecer hay"
 	line "algo llamado"
-
-	para "#rus que"
-	line "infecta #mon."
+	cont "#rus que"
+	cont "infecta #mon."
 
 	para "Sí, es como un"
 	line "virus, de ahí el"
@@ -117,19 +116,19 @@ ElmPhonePokerusText:
 
 	para "Se multiplica muy"
 	line "rápido e infecta a"
-
-	para "otros #mon. Y"
-	line "ya está."
+	cont "otros #mon. Y"
+	cont "ya está."
 
 	para "No parece hacer"
 	line "nada más y"
-
-	para "desaparece con"
-	line "el tiempo."
+	cont "desaparece con"
+	cont "el tiempo."
 
 	para "Supongo que no"
-	line "hay de qué preocu-"
-	cont "parse. ¡Adiós!"
+	line "hay de qué"
+	cont "preocuparse."
+	
+	para "¡Adiós!"
 	done
 
 ElmPhoneDisasterText:
@@ -205,8 +204,9 @@ ElmPhoneEvolutionQuestionText:
 	text "Por cierto,"
 	line "<PLAYER>, ¿quieres"
 
-	para "saber cómo evolu-"
-	line "ciona tu #mon?"
+	para "saber cómo"
+	line "evoluciona tu"
+	cont "#mon?"
 	done
 
 ElmPhoneEvoText_None:
@@ -217,40 +217,40 @@ ElmPhoneEvoText_None:
 
 ElmPhoneEvoText_Level:
 	text_ram wStringBuffer3
-	line "evoluciona al al-"
-	cont "canzar el nivel "
+	line "evoluciona al"
+	cont "alcanzar el"
+	cont "nivel "
 	text_decimal wStringBuffer4, 1, 3
 	text "."
 	prompt
 
 ElmPhoneEvoText_Item:
 	text_ram wStringBuffer3
-	line "evoluciona cuan-"
-
-	para "do se le da"
-	line ""
+	line "evoluciona al"
+	cont "usar en él"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 	prompt
 
 ElmPhoneEvoText_TradeNoItem:
 	text_ram wStringBuffer3
-	line "evoluciona"
+	line "evoluciona al"
+	cont "intercambiarlo,"
 
-	para "al intercambiarlo,"
-	line "o dándole"
-	cont ""
+	para "o al usar"
+	line ""
 	text_ram wStringBuffer4
 	text "."
 	prompt
 
 ElmPhoneEvoText_TradeWithItem:
 	text_ram wStringBuffer3
-	line "evoluciona"
+	line "evoluciona al"
+	cont "intercambiarlo,"
 
-	para "al intercambiarlo,"
-	line "o al subir de"
-	cont "nivel llevando"
+	para "o al subir de"
+	line "nivel si lleva"
 	cont ""
 	text_ram wStringBuffer4
 	text "."
@@ -260,9 +260,8 @@ ElmPhoneEvoText_Holding:
 	text_ram wStringBuffer3
 	line "evoluciona al"
 	cont "subir de nivel"
-
-	para "si lleva"
-	line ""
+	cont "si lleva"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 	prompt
@@ -271,28 +270,26 @@ ElmPhoneEvoText_Holding_MornDay:
 	text_ram wStringBuffer3
 	line "evoluciona al"
 	cont "subir de nivel"
-
-	para "si lleva"
-	line ""
+	cont "si lleva"
+	cont ""
 	text_ram wStringBuffer4
 	text ","
 
-	para "pero solo de ma-"
-	line "ñana o de día."
+	para "pero solo por la"
+	line "mañana o de día."
 	prompt
 
 ElmPhoneEvoText_Holding_EveNite:
 	text_ram wStringBuffer3
 	line "evoluciona al"
 	cont "subir de nivel"
-
-	para "si lleva"
-	line ""
+	cont "si lleva"
+	cont ""
 	text_ram wStringBuffer4
 	text ","
 
-	para "pero solo al a-"
-	line "tardecer o noche."
+	para "pero al atardecer"
+	line "o por la noche."
 	prompt
 
 ElmPhoneEvoText_Happiness:
@@ -306,8 +303,8 @@ ElmPhoneEvoText_Happiness_MornDay:
 	line "evoluciona cuando"
 	cont "es muy feliz,"
 
-	para "pero solo de ma-"
-	line "ñana o de día."
+	para "pero solo por la"
+	line "mañana o de día."
 	prompt
 
 ElmPhoneEvoText_Happiness_EveNite:
@@ -315,30 +312,27 @@ ElmPhoneEvoText_Happiness_EveNite:
 	line "evoluciona cuando"
 	cont "es muy feliz,"
 
-	para "pero solo al a-"
-	line "tardecer o noche."
+	para "pero al atardecer"
+	line "o por la noche."
 	prompt
 
 ElmPhoneEvoText_Stat:
 	text_ram wStringBuffer3
-	line "evoluciona al ni-"
-	cont "vel "
+	line "evoluciona al"
+	cont "nivel "
 	text_decimal wStringBuffer4, 1, 3
-	text ", pero la"
+	text ", pero"
 
-	para "evolución depen-"
-	line "de de sus stats"
-
-	para "de Ataque y"
-	line "Defensa."
+	para "depende de sus"
+	line "puntos de Ataque"
+	cont "y Defensa."
 	prompt
 
 ElmPhoneEvoText_Location:
 	text_ram wStringBuffer3
 	line "evoluciona al"
-
-	para "subir de nivel en"
-	line ""
+	cont "subir de nivel en"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 	prompt
@@ -346,12 +340,9 @@ ElmPhoneEvoText_Location:
 ElmPhoneEvoText_Move:
 	text_ram wStringBuffer3
 	line "evoluciona al"
-
-	para "subir de nivel"
-	line "mientras sabe"
-
-	para "cómo usar"
-	line ""
+	cont "subir de nivel si"
+	cont "conoce el ataque"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 	prompt
@@ -359,9 +350,8 @@ ElmPhoneEvoText_Move:
 ElmPhoneEvoText_Crit:
 	text_ram wStringBuffer3
 	line "evoluciona tras"
-
-	para "dar tres golpes"
-	line "críticos en el"
+	cont "dar tres golpes"
+	cont "críticos en el"
 	cont "mismo combate."
 	prompt
 
@@ -369,9 +359,8 @@ ElmPhoneEvoText_Party:
 	text_ram wStringBuffer3
 	line "evoluciona al"
 	cont "subir de nivel"
-
-	para "mientras tienes"
-	line "a "
+	cont "si tienes a"
+	cont ""
 	text_ram wStringBuffer4
 	text " en"
 	cont "tu equipo."
@@ -386,68 +375,58 @@ ElmPhoneEvoText_Egg:
 ElmPhoneEvoText_Pikachu:
 	text_ram wStringBuffer3
 	line "evoluciona al"
-
-	para "exponerse a una"
-	line "PiedraTrueno o"
-	cont "una Estatua Rara."
+	cont "usar PiedraTrueno"
+	cont "o Estatua Rara."
 	prompt
 
 ElmPhoneEvoText_Gloom:
 	text_ram wStringBuffer3
 	line "evoluciona al"
-
-	para "exponerse a una"
-	line "PiedraHoja o una"
-	cont "PiedraSolar."
+	cont "usar PiedraHoja"
+	cont "o PiedraSolar."
 	prompt
 
 ElmPhoneEvoText_Poliwhirl:
 	text_ram wStringBuffer3
 	line "evoluciona con"
+	cont "una PiedraAgua,"
 
-	para "una PiedraAgua,"
-	line "o si lleva una"
-
-	para "Roca del Rey al"
-	line "intercambiarlo"
-
-	para "o al subir de"
-	line "nivel."
+	para "o llevando una"
+	line "Roca del Rey al"
+	cont "intercambiarlo"
+	cont "o subir de nivel."
 	prompt
 
 ElmPhoneEvoText_SlowpokePlain:
 ElmPhoneEvoText_SlowpokeGalarian:
 	text_ram wStringBuffer3
 	line "evoluciona al"
-	cont "nivel 37, o si"
+	cont "nivel 37, o bien"
 
-	para "lleva Roca del Rey"
-	line "al ser intercam-"
-	cont "biado o al subir."
+	para "con Roca del Rey"
+	line "al intercambiarlo"
+	cont "o subir de nivel."
 	prompt
 
 ElmPhoneEvoText_Magneton:
 	text_ram wStringBuffer3
 	line "evoluciona al"
+	cont "usar PiedraTrueno,"
 
-	para "usar PiedraTrueno,"
-	line "o cuando sube de"
+	para "o al subir de"
+	line "nivel en un campo"
+	cont "magnético."
 
-	para "nivel en un cam-"
-	line "po magnético."
-
-	para "He oído que el"
-	line "Magnetotrén y"
-	cont "Cueva¯Tenue lo son"
+	para "Dicen que hay uno"
+	line "en Magnetotrén y"
+	cont "en Cueva Tenue."
 	prompt
 
 ElmPhoneEvoText_Exeggcute:
 	text_ram wStringBuffer3
 	line "evoluciona al"
-
-	para "exponerse a una"
-	line "PiedraHoja o una"
-	cont "Estatua Rara."
+	cont "usar PiedraHoja"
+	cont "o Estatua Rara."
 	prompt
 
 ElmPhoneEvoText_Koffing:
@@ -462,10 +441,9 @@ ElmPhoneEvoText_Koffing:
 
 ElmPhoneEvoText_Cubone:
 	text_ram wStringBuffer3
-	line "evoluciona al ni-"
-	cont "vel 28 o usando"
-
-	para "una Estatua Rara."
+	line "evoluciona al"
+	cont "nivel 28 o con"
+	cont "una Estatua Rara."
 	prompt
 
 ElmPhoneEvoText_Scyther:
@@ -501,38 +479,33 @@ ElmPhoneEvoText_Eevee:
 
 	para "Además, Eevee"
 	line "evolucionará con"
-
-	para "el sol o la luna"
-	line "si es muy feliz."
+	cont "el sol o la luna"
+	cont "si es muy feliz."
 	prompt
 
 ElmPhoneEvoText_MimeJr:
 	text_ram wStringBuffer3
 	line "evoluciona al"
+	cont "usar PiedraHielo,"
 
-	para "usar una"
-	line "PiedraHielo, o"
+	para "o al subir de"
+	line "nivel junto a"
+	cont "una RocaHielo."
 
-	para "al subir de"
-	line "nivel junto a un"
-	cont "RocaHielo."
-
-	para "He oído que hay"
-	line "una en Ruta Helada"
+	para "Hay una de ellas"
+	line "en Ruta Helada."
 	prompt
 
 ElmPhoneEvoText_Stantler:
 	text_ram wStringBuffer3
 	line "evoluciona si se"
-
-	para "expone a granizo"
-	line "o arena extremos."
+	cont "expone a granizo"
+	cont "o arena extremos."
 
 	para "Dicen que en"
 	line "Cam Pedregoso y en"
-
-	para "Cumbre Nevada"
-	line "tienen ese clima."
+	cont "Cumbre Nevada"
+	cont "tienen ese clima."
 	prompt
 
 ElmPhoneEvoText_AncientSinnoh:
@@ -540,10 +513,9 @@ ElmPhoneEvoText_AncientSinnoh:
 	line "antepasados,"
 
 	para "podría evolucionar"
-	line "si recuerda"
-
-	para "la antigua Sinnoh…"
-	line "de algún modo…"
+	line "si recuerda la"
+	cont "antigua Sinnoh…"
+	cont "de algún modo…"
 	prompt
 
 ElmPhoneEvoText_DunsparceSegments:

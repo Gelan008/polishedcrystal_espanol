@@ -59,6 +59,6 @@ DerekGenericText:
 	line "y me sonrió!"
 
 	para "¡Debe ser porque"
-	line "nuestros corazo-"
-	cont "nes laten unidos!"
+	line "nuestros corazones"
+	cont "laten unidos!"
 	done

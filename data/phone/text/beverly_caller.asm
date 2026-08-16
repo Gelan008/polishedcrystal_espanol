@@ -44,10 +44,10 @@ BeverlyHangUpText:
 
 BeverlyFoundItemText:
 	text "Mi marido ha"
-	line "conseguido Nuggets"
+	line "conseguido Pepitas"
 
 	para "Si quieres,"
-	line "puedo darte uno"
+	line "puedo darte una"
 
 	para "como agradeci-"
 	line "miento por tu"

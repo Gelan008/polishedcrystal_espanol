@@ -115,9 +115,9 @@ AzaleaGymBugsyScript:
 	para "¡Mis investiga-"
 	line "ciones me conver-"
 
-	para "tirán en la má-"
-	line "xima autoridad en"
-	cont "#mon bicho!"
+	para "tirán en la"
+	line "máxima autoridad"
+	cont "en #mon bicho!"
 
 	para "Déjame enseñarte"
 	line "lo que aprendí"
