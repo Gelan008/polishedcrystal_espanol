@@ -663,7 +663,7 @@ Route43TrainerTipsText:
 	done
 
 Route43AdvancedTipsText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Un #mon"
 	line "heredará su"

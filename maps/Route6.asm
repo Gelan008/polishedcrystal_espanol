@@ -196,7 +196,7 @@ Route6UndergroundPathSignText:
 	done
 
 Route6AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "Hay objetos que"
 	line "parecen perjudi-"

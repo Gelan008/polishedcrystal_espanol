@@ -295,7 +295,7 @@ Route32CoastLassText:
 	done
 
 Route32CoastTrainerTipsText:
-	text "Pistas Entrenad."
+	text "Pistas Entrenador"
 
 	para "¡Un #mon con la"
 	line "habilidad Recogida"

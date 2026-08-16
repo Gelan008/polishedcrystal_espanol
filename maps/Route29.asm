@@ -319,7 +319,7 @@ Route29Sign2Text:
 	done
 
 Route29AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Pulsa Abajo+B en"
 	line "la pantalla del"

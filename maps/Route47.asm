@@ -438,7 +438,7 @@ Route47QuietCaveSignText:
 	done
 
 Route47AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Ciertos #mon"
 	line "de algunas zonas"

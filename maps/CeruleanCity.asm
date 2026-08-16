@@ -260,7 +260,7 @@ CeruleanBubblerText:
 	done
 
 CeruleanTrainerTipsText:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "Incluso sin un"
 	line "Buscaobjetos, pue-"

@@ -160,7 +160,7 @@ VictoryRoadEntranceSignText:
 	done
 
 Route22AdvancedTipsSignText:
-	text "Pistas Entren."
+	text "¡Consejo Avanzado!"
 
 	para "¡Empezar una"
 	line "Nueva Partida+"

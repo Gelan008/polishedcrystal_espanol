@@ -293,7 +293,7 @@ AzaleaTownIlexForestSignText:
 	done
 
 AzaleaTownAdvancedTipsSignText:
-	text "¡Pista Avanzada!"
+	text "¡Consejo Avanzado!"
 
 	para "¡El estilo de com-"
 	line "bate Cambio te"

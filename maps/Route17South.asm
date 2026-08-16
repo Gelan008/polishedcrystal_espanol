@@ -266,7 +266,7 @@ Route17SouthNotice1Text:
 	done
 
 Route17SouthTrainerTips1Text:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "Cada #mon es"
 	line "único."
@@ -280,7 +280,7 @@ Route17SouthTrainerTips1Text:
 	done
 
 Route17SouthTrainerTips2Text:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "Abre el menú con"
 	line "Start para frenar"

@@ -106,13 +106,13 @@ CeladonCityTutorSwaggerScript:
 	done
 
 CeladonCityRichBoyText:
-	text "¿No es deslumbran-"
-	line "te mi traje?"
+	text "¿No es maravilloso"
+	line "mi traje?"
 
-	para "¡Hago girar cabe-"
-	line "zas cuando me con-"
-	cont "toneo por la ca-"
-	cont "lle!"
+	para "¡Hago girar"
+	line "cabezas cuando me"
+	cont "contoneo por la"
+	cont "calle!"
 
 	para "¡La gente me ama!"
 
@@ -131,8 +131,8 @@ Text_CeladonCityTutorSwagger:
 
 
 Text_CeladonCityTutorQuestion:
-	text "¿Deseas que le en-"
-	line "señe Contoneo a"
+	text "¿Deseas que le"
+	line "enseñe Contoneo a"
 	cont "tu #mon?"
 	done
 
@@ -143,12 +143,12 @@ CeladonCityFisherText:
 	line "mi compañero."
 
 	para "Solía ser Manso,"
-	line "pero la señora di-"
+	line "pero la señora"
 
-	para "rectora del condo-"
-	line "minio nos prepa-"
+	para "directora del condo-"
+	line "minio nos preparó"
 
-	para "ró té con una Hoja"
+	para "té con una Hoja"
 	line "Menta que lo hizo"
 
 	para "actuar de forma"
@@ -161,21 +161,21 @@ CeladonCityPoliwrathText:
 
 CeladonCityTeacher1Text:
 	text "Volví a perder"
-	line "en las traga-"
-	cont "perras…"
+	line "en las"
+	cont "tragaperras…"
 
 	para "Nosotras las"
 	line "chicas también"
 	cont "jugamos ahora."
 
-	para "Tú también de-"
-	line "berías echarles"
+	para "Tú también"
+	line "deberías echarles"
 	cont "un vistazo."
 	done
 
 CeladonCityGramps1Text:
-	text "Últimamente apa-"
-	line "recen muchos"
+	text "Últimamente"
+	line "aparecen muchos"
 	cont "Grimer."
 
 	para "¿Ves ese estanque"
@@ -184,8 +184,8 @@ CeladonCityGramps1Text:
 	para "casa? Los Grimer"
 	line "viven allí ahora."
 
-	para "¿De dónde han sa-"
-	line "lido? Es un"
+	para "¿De dónde han"
+	line "salido? Es un"
 	cont "problema grave…"
 	done
 
@@ -194,8 +194,8 @@ CeladonCityGramps2Text:
 	line "Gimnasio es"
 	cont "genial!"
 
-	para "¡Aquí solo ad-"
-	line "miten chicas!"
+	para "¡Aquí solo"
+	line "admiten chicas!"
 	done
 
 CeladonCityYoungster1Text:
@@ -340,7 +340,7 @@ CeladonCityHotelSignText:
 	done
 
 CeladonCityTrainerTips1Text:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "Protección X"
 
@@ -356,7 +356,7 @@ CeladonCityTrainerTips1Text:
 	done
 
 CeladonCityTrainerTips2Text:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "Eevee es un"
 	line "#mon lleno de"

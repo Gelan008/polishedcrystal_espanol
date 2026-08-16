@@ -217,7 +217,7 @@ EcruteakGymSign:
 	done
 
 EcruteakCityAdvancedTips:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "Algunos #mon"
 	line "que encuentres"

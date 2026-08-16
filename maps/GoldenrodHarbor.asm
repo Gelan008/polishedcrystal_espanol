@@ -464,7 +464,7 @@ GoldenrodHarborSignText:
 	done
 
 GoldenrodHarborAdvancedTipsSignText:
-	text "¡Consejos Útiles!"
+	text "¡Consejo Avanzado!"
 
 	para "¡A veces tendrás"
 	line "suerte con las"

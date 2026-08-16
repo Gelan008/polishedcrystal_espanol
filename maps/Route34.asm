@@ -851,7 +851,7 @@ Route34SignText:
 	done
 
 Route34TrainerTipsText:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "Los árboles dan"
 	line "nuevas Bayas cada"
@@ -862,7 +862,7 @@ Route34TrainerTipsText:
 	done
 
 Route34AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Algunos #mon"
 	line "tienen potencial"

@@ -399,7 +399,7 @@ Route38TrainerTipsText:
 	done
 
 Route38AdvancedTipsText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Pulsa Start en el"
 	line "Sistema de Alma-"

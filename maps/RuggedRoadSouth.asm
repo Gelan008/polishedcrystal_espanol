@@ -69,7 +69,7 @@ RuggedRoadSouth_FinishBridge:
 	jmp GenericFinishBridge
 
 RuggedRoadSouthAdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "Si tu #mon de-"
 	line "bilita al rival"
@@ -81,7 +81,7 @@ RuggedRoadSouthAdvancedTipsSignText:
 	para "¡todo #mon que"
 	line "haya participado"
 
-	para "o que lleve Re-"
-	line "partir Exp. tam-"
-	cont "bién lo ganará!"
+	para "o que lleve"
+	line "Repartir Exp."
+	cont "también lo ganará!"
 	done

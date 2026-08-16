@@ -318,7 +318,7 @@ BerryMastersHouseSignText:
 	done
 
 Route30TrainerTipsText:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "¡Prohibido robar"
 	line "los #mon de los"
@@ -330,7 +330,7 @@ Route30TrainerTipsText:
 	done
 
 Route30AdvancedTipsText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "En combate, ¡pulsa"
 	line "Select para cam-"

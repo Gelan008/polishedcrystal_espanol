@@ -34,7 +34,7 @@ Route5UndergroundPathSignText:
 	done
 
 Route5AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "El Gen Loco es un"
 	line "objeto equipado"

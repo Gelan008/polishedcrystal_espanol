@@ -444,7 +444,7 @@ VermilionCityPortSignText:
 	done
 
 VermilionCityAdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡En tu Ficha de"
 	line "Entrenador caben"

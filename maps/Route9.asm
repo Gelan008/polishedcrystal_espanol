@@ -158,7 +158,7 @@ Route9SignText:
 	done
 
 Route9AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "Un #mon con una"
 	line "Toxisfera se enve-"

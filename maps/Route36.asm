@@ -747,7 +747,7 @@ Route36TrainerTips2Text:
 	done
 
 Route36AdvancedTips1Text:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Puedes elegir en-"
 	line "tre veinte marcos"
@@ -758,7 +758,7 @@ Route36AdvancedTips1Text:
 	done
 
 Route36AdvancedTips2Text:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Si mimas a tus"
 	line "#mon con cortes"

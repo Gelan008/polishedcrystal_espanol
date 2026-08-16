@@ -401,12 +401,12 @@ Route35SignText:
 	done
 
 Route35AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Puedes registrar"
-	line "hasta cuatro Obje-"
+	line "hasta cuatro"
 
-	para "tos Clave para su"
-	line "uso rápido con el"
-	cont "botón Select!"
+	para "Objetos Clave para"
+	line "su uso rápido con"
+	cont "el botón Select!"
 	done

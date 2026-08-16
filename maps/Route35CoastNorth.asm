@@ -20,7 +20,7 @@ Route35CoastNorth_MapScriptHeader:
 	def_object_events
 
 Route35CoastNorthAdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Puedes lanzar la"
 	line "caña incluso sobre"

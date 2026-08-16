@@ -1001,7 +1001,7 @@ Route32UnionCaveSignText:
 	done
 
 Route32AdvancedTips1Text:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Puedes encontrar"
 	line "objetos pescando o"
@@ -1009,7 +1009,7 @@ Route32AdvancedTips1Text:
 	done
 
 Route32AdvancedTips2Text:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "Si pierdes un com-"
 	line "bate contra otro"

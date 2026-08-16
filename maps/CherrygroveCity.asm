@@ -323,7 +323,7 @@ GuideGentRoute30Text:
 
 GuideGentAdvancedTipsText:
 	text "Los carteles de"
-	line "Pistas Entren."
+	line "Consejos Avanzados"
 	cont "tienen este raro"
 	cont "aspecto."
 
@@ -475,7 +475,7 @@ GuideGentsHouseSignText:
 	done
 
 CherrygroveCityAdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "Las Tiendas #"
 	line "te darán una"

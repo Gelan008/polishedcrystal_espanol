@@ -84,7 +84,7 @@ LakeOfRageSignText:
 	done
 
 LakeOfRageAdvancedTipsSignText:
-	text "¡Pistas Avanzadas!"
+	text "¡Consejo Avanzado!"
 
 	para "Poder Oculto pue-"
 	line "de ser de cual-"

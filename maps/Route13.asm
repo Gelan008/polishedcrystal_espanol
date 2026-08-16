@@ -287,7 +287,7 @@ HikerKennyBeatenText:
 	done
 
 Route13TrainerTips1Text:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "¡Mira! Justo ahí,"
 	line "a la izquierda"
@@ -295,7 +295,7 @@ Route13TrainerTips1Text:
 	done
 
 Route13TrainerTips2Text:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "Ciertos #mon"
 	line "requieren objetos"

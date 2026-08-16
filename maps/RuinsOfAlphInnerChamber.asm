@@ -67,14 +67,14 @@ RuinsOfAlphInnerChamberStrangePresenceScene:
 	end
 
 RuinsOfAlphStrangePresenceText:
-	text "Se siente una ex-"
-	line "traña presencia…"
+	text "Se siente una"
+	line "extraña presencia…"
 	done
 
 RuinsOfAlphInnerChamberFisherText:
-	text "Esta sala es gran-"
-	line "de, pero aquí no"
-	cont "hay nada."
+	text "Esta sala es"
+	line "grande, pero aquí"
+	cont "no hay nada."
 	done
 
 RuinsOfAlphInnerChamberTeacherText:

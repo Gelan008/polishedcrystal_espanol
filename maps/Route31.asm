@@ -498,7 +498,7 @@ DarkCaveSignText:
 	done
 
 Route31AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Pulsa Start en la"
 	line "Mochila para or-"

@@ -442,7 +442,7 @@ Route39SignText:
 	done
 
 Route39AdvancedTips1Text:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡La Tormenta Arena"
 	line "sube la Def. Esp."
@@ -454,7 +454,7 @@ Route39AdvancedTips1Text:
 	done
 
 Route39AdvancedTips2Text:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "¡Un #mon con"
 	line "Ojo Compuesto o"

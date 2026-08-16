@@ -293,7 +293,7 @@ RuinsOfAlphResearchCenterSignText:
 	done
 
 RuinsOfAlphAdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "The #dex is a"
 	line "powerful tool!"

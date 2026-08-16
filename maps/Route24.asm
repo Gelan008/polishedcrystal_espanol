@@ -200,7 +200,7 @@ Route24RocketDisappearsText:
 	done
 
 Route24AdvancedTipsSignText:
-	text "¡Pistas Entren.!"
+	text "¡Consejo Avanzado!"
 
 	para "The Sheer Force"
 	line "Ability negates"

@@ -1020,7 +1020,7 @@ IlexForestSignpost:
 	done
 
 IlexForestTrainerTips:
-	text "Pistas Entren."
+	text "Pistas Entrenador"
 
 	para "Siempre que ten-"
 	line "gas una MO en la"
