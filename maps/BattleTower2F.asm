@@ -102,23 +102,22 @@ BattleTower2FCherylScript:
 	done
 
 .BeatenText:
-	text "Lograr el equili-"
-	line "brio adecuado"
-	cont "entre el ataque"
-	cont "y la defensa…"
+	text "Lograr el"
+	line "equilibrio"
+	cont "adecuado entre"
+	cont "el ataque y la"
+	cont "defensa…"
 
-	para "No es nada"
-	line "fácil."
+	para "¡No es nada"
+	line "fácil!"
 	done
 
 .RefuseText:
-	text "Jeje…"
-
-	para "Los #mon acaba-"
-	line "rían agotados si"
-
-	para "luchásemos todo"
-	line "el rato, ¿no"
+	text "Jeje… Los #mon"
+	line "acabarían"
+	cont "agotados si"
+	cont "luchásemos todo"
+	cont "el rato, ¿no"
 	cont "crees?"
 	done
 
@@ -128,14 +127,13 @@ BattleTower2FRileyScript:
 	faceplayer
 	opentext
 	writethistext
-		text "Hola. Cuánto tiem-"
-		line "po sin vernos."
+		text "Hola. Cuánto"
+		line "tiempo sin vernos."
 
 		para "Esa mirada tuya…"
 		line "Supongo que estás"
-
-		para "¿listo para un"
-		line "combate?"
+		cont "¿listo para un"
+		cont "combate?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
@@ -160,16 +158,16 @@ BattleTower2FRileyScript:
 	jumpthistext
 
 .AfterText:
-	text "Si no hubiera es-"
-	line "tado en la Cueva"
+	text "Si no hubiera"
+	line "estado en la Cueva"
 	cont "Oscura entonces…"
 
 	para "Si tú no hubieras"
 	line "estado allí…"
 
 	para "Quizá nunca nos"
-	line "habríamos conoci-"
-	cont "do."
+	line "habríamos"
+	cont "conocido."
 
 	para "O, ¿nos habríamos"
 	line "visto en otra"
@@ -188,9 +186,8 @@ BattleTower2FRileyScript:
 
 .RefuseText:
 	text "Oh, está bien."
-	line "Entonces espere-"
-	cont "mos a que estés"
-	cont "listo."
+	line "Entonces esperemos"
+	cont "a que estés listo."
 	done
 
 BattleTower2FBuckScript:
@@ -234,9 +231,9 @@ BattleTower2FBuckScript:
 .AfterText:
 	text "¡Fiuu! ¡Demasiado!"
 
-	para "Supongo que segui-"
-	line "ré mejorando a mi"
-	cont "equipo."
+	para "Supongo que"
+	line "seguiré mejorando"
+	cont "a mi equipo."
 	done
 
 .BeatenText:
@@ -256,8 +253,8 @@ BattleTower2FMarleyScript:
 	faceplayer
 	opentext
 	writethistext
-		text "…¿Oh? ¿Un com-"
-		line "bate? ¿Conmigo?"
+		text "…¿Oh? ¿Un combate?"
+		line "¿Conmigo?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
@@ -301,8 +298,9 @@ BattleTower2FMarleyScript:
 
 .RefuseText:
 	text "…Oh, vaya. Estás"
-	line "empezando a cae-"
-	cont "rme un poco mal."
+	line "empezando a"
+	cont "caerme un poco"
+	cont "mal."
 	done
 
 BattleTower2FMiraScript:
@@ -314,18 +312,17 @@ BattleTower2FMiraScript:
 		text "¡<PLAYER>! ¡Mira"
 		line "es más fuerte!"
 
-		para "¡Por favor! ¡Com-"
-		line "bate con Mira!"
+		para "¡Por favor!"
+		line "¡Combate con Mira!"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_MIRA_DONE_TODAY
 	writethistext
-		text "¡Mira te de-"
-		line "mostrará que ya no"
-
-		para "se pierde,"
-		line "<PLAYER>!"
+		text "¡Mira te"
+		line "demostrará que ya"
+		cont "no se pierde,"
+		cont "<PLAYER>!"
 		done
 	waitbutton
 	closetext
@@ -348,8 +345,8 @@ BattleTower2FMiraScript:
 	cont "#mon."
 
 	para "Así es como te"
-	line "hiciste tan fuer-"
-	cont "te."
+	line "hiciste tan"
+	cont "fuerte."
 
 	para "¡Mira empieza"
 	line "a entenderlo!"
@@ -364,8 +361,8 @@ BattleTower2FMiraScript:
 	done
 
 .RefuseText:
-	text "Mira está un po-"
-	line "co triste…"
+	text "Mira está un poco"
+	line "triste…"
 	done
 
 BattleTower2FAnabelScript:
@@ -377,9 +374,9 @@ BattleTower2FAnabelScript:
 		text "De verdad viniste"
 		line "a verme…"
 
-		para "No tendré que con-"
-		line "tenerme conti-"
-		cont "go…"
+		para "No tendré que"
+		line "contenerme"
+		cont "contigo…"
 
 		para "¿Estás listo?"
 		done
@@ -400,14 +397,13 @@ BattleTower2FAnabelScript:
 	jumpthistext
 
 .AfterText:
-	text "Eso fue diverti-"
-	line "do…"
+	text "Eso fue"
+	line "divertido…"
 
 	para "Nunca antes había"
-	line "tenido un comba-"
-
-	para "te #mon tan"
-	line "agradable…"
+	line "tenido un combate"
+	cont "#mon tan"
+	cont "agradable…"
 	done
 
 .BeatenText:
@@ -415,16 +411,15 @@ BattleTower2FAnabelScript:
 	done
 
 .RefuseText:
-	text "Es muy decep-"
-	line "cionante…"
+	text "Es muy"
+	line "decepcionante…"
 	done
 
 BattleTower2FCooltrainermText:
 	text "Me tengo que ir,"
 	line "¡pero no puedo"
-
-	para "dejar de mirar es-"
-	line "te combate!"
+	cont "dejar de mirar"
+	cont "este combate!"
 	done
 
 BattleTower2FLadyText:
@@ -434,17 +429,15 @@ BattleTower2FLadyText:
 
 	para "¡El hecho de que"
 	line "los #mon me"
-
-	para "traerán un mon-"
-	line "tón de amigos!"
+	cont "traerán un montón"
+	cont "de amigos!"
 	done
 
 BattleTower2FTwinText:
 	text "Algunos se"
 	line "sorprenden al ver"
-
-	para "a una niña peque-"
-	line "ña como yo en la"
+	cont "a una niña pequeña"
+	cont "como yo en la"
 	cont "Torre Batalla."
 
 	para "Tampoco es que yo"
@@ -455,8 +448,9 @@ BattleTower2FTwinText:
 BattleTower2FSuperNerdText:
 	text "¡Jeje! ¡Todos los"
 	line "entrenadores que"
-	cont "nos rodean pare-"
-	cont "cen patéticos!"
+	cont "nos rodean"
+	cont "parecen"
+	cont "patéticos!"
 
 	para "…En realidad,"
 	line "¡pensar así hace"
@@ -464,8 +458,7 @@ BattleTower2FSuperNerdText:
 	cont "un golpe!"
 
 	para "¡No bajes la"
-	line "guardia,"
-	cont "Pikachu!"
+	line "guardia, Pikachu!"
 	done
 
 BattleTower2FPikachuText:
@@ -483,8 +476,8 @@ BattleTower2FYoungsterText:
 	line "eso antes."
 
 	para "No lo entiendo,"
-	line "pero suena pro-"
-	cont "fundo."
+	line "pero suena"
+	cont "profundo."
 	done
 
 BattleTower2FBlackbeltText:
@@ -494,7 +487,6 @@ BattleTower2FBlackbeltText:
 
 	para "¡No hay nada más"
 	line "adecuado para la"
-
-	para "Torre Batalla que"
-	line "esto!"
+	cont "Torre Batalla"
+	cont "que esto!"
 	done

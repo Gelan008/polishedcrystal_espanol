@@ -62,15 +62,12 @@ CeruleanCityCooltrainerMScript:
 	text "¿La Central de"
 	line "Energía de Kanto?"
 
-	para "Está cerca del"
-	line "final de la"
+	para "Está al final de"
+	line "la Ruta 9, al este"
+	cont "de aquí."
 
-	para "Ruta 9, al este"
-	line "de aquí."
-
-	para "Creo que ha habi-"
-	line "do un accidente"
-	cont "allí."
+	para "Creo que hubo un"
+	line "accidente allí."
 	done
 
 CeruleanCityCooltrainerFScript:
@@ -129,13 +126,12 @@ CeruleanCityYoungsterScript:
 
 
 CeruleanCityCooltrainerMText2:
-	text "¿Estás coleccio-"
-	line "nando cada tipo"
-	cont "de #mon?"
+	text "¿Coleccionas cada"
+	line "tipo de #mon?"
 
-	para "Debe ser todo un"
-	line "reto, pero suena"
-	cont "divertido."
+	para "¡Debe de ser un"
+	line "gran reto, pero"
+	cont "suena divertido!"
 	done
 
 CeruleanCitySuperNerdText:
@@ -152,14 +148,14 @@ CeruleanCitySlowbroText:
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "¡Mi Slowbro y yo"
-	line "hacemos un equi-"
-	cont "po alucinante!"
+	text "¡Slowbro y yo"
+	line "hacemos un gran"
+	cont "equipo!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "Slowbro, ¡enséña-"
-	line "me tu Confusión!"
+	text "Slowbro, ¡usa tu"
+	line "Confusión!"
 	done
 
 CeruleanCityCooltrainerFText3: ; text > text
@@ -167,51 +163,45 @@ CeruleanCityCooltrainerFText3: ; text > text
 	done
 
 CeruleanCityFisherText:
-	text "Soy un gran fan"
-	line "de Misty, del Gim-"
-	cont "nasio de Celeste."
+	text "Soy un gran fan de"
+	line "Misty, del Gim. de"
+	cont "Celeste."
 	done
 
 CeruleanCityFisherRocketTipText:
-	text "Vi a un tipo sos-"
-	line "pechoso ir hacia"
-	cont "el Cabo Celeste."
+	text "Vi a un tipo muy"
+	line "sospechoso ir al"
+	cont "Cabo Celeste."
 	done
 
 CeruleanCityYoungsterText1:
-	text "Aquí hay una cue-"
-	line "va con #mon"
-	cont "aterradoramente"
-	cont "fuertes."
+	text "Por aquí hay una"
+	line "cueva con #mon"
+	cont "muy fuertes."
 	done
 
 
 CeruleanCityYoungsterText:
-	text "Mi Buscaobjetos"
-	line "dejó de respon-"
-	cont "der…"
+	text "El Buscaobjetos ya"
+	line "no reacciona…"
 
-	para "Alguien debe de"
-	line "habérseme ade-"
-	cont "lantado."
+	para "Alguien se me ha"
+	line "adelantado."
 	done
 
 CeruleanCaveGuardText:
 	text "Esta es…"
 
-	para "¡La notoria Cueva"
+	para "¡La gran Cueva"
 	line "Celeste!"
 
 	para "Aquí viven #mon"
-	line "terriblemente po-"
-	cont "derosos."
+	line "muy poderosos."
 
-	para "Solo los que han"
-	line "derrotado a los 8"
-
-	para "Líderes de Gimna-"
-	line "sio de Kanto pue-"
-	cont "den entrar."
+	para "Solo los que hayan"
+	line "vencido a los 8"
+	cont "Líderes de Kanto"
+	cont "pueden entrar."
 	done
 
 CeruleanCitySignText:
@@ -263,11 +253,9 @@ CeruleanTrainerTipsText:
 	text "Pistas Entrenador"
 
 	para "Incluso sin un"
-	line "Buscaobjetos, pue-"
-
-	para "des encontrar ob-"
-	line "jetos en árboles,"
-
-	para "debajo de rocas,"
-	line "o bajo el agua."
+	line "Buscaobjetos,"
+	cont "puedes encontrar"
+	cont "objetos en árboles,"
+	cont "debajo de rocas,"
+	cont "o bajo el agua."
 	done

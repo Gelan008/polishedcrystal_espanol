@@ -24,17 +24,17 @@ CharcoalKilnBoss:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Los Slowpoke"
-	line "han desaparecido"
-	cont "del pueblo."
+	text "Los Slowpoke han"
+	line "desaparecido del"
+	cont "pueblo."
 
 	para "El protector del"
-	line "bosque puede es-"
-	cont "tar enfadado…"
+	line "bosque podría"
+	cont "estar enfadado…"
 
-	para "Es un mal presa-"
-	line "gio. Deberíamos"
-	cont "quedarnos aquí."
+	para "Es mal presagio."
+	line "Será mejor no"
+	cont "salir de aquí."
 	done
 
 .Text2:
@@ -42,25 +42,22 @@ CharcoalKilnBoss:
 	line "vuelto…"
 
 	para "Pero mi Aprendiz"
-	line "no ha vuelto"
-	cont "del Encinar."
+	line "no ha vuelto del"
+	cont "Encinar."
 
 	para "¿Dónde se habrá"
-	line "metido ese hol-"
-	cont "gazán?"
+	line "metido ese vago?"
 	done
 
 .Text3:
-	text "¿Ahuyentaste al"
-	line "Team Rocket y"
-
-	para "fuiste al Encinar"
-	line "tú solo?"
+	text "¿Venciste al Team"
+	line "Rocket y fuiste al"
+	cont "Encinar a solas?"
 
 	para "¡Tienes agallas!"
-	line "Eso me gusta. Ven"
+	line "Eso me gusta. ¡Ven"
 	cont "a entrenar con"
-	cont "nosotros."
+	cont "nosotros!"
 	done
 
 CharcoalKilnApprentice:
@@ -87,15 +84,14 @@ CharcoalKilnApprentice:
 
 .Text2:
 	text "Lo siento, olvidé"
-	line "darte las"
-	cont "gracias."
+	line "darte las gracias."
 
 	para "Este Carbón lo"
-	line "hice yo."
+	line "hice yo mismo."
 
 	para "A los #mon de"
-	line "fuego les gus-"
-	cont "tará llevarlo."
+	line "fuego les vendrá"
+	cont "muy bien."
 	done
 
 .Text3:

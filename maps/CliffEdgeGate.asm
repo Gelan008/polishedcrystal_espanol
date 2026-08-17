@@ -76,13 +76,13 @@ CliffEdgeGateReceptionistText:
 	done
 
 ProfOaksAide3HiText:
-	text "¡Hola! Soy el ayu-"
-	line "dante del Prof."
-	cont "Oak."
+	text "¡Hola! Soy el"
+	line "ayudante del"
+	cont "Profesor Oak."
 
 	para "Si has atrapado"
-	line "45 tipos de #-"
-	cont "mon,"
+	line "45 tipos de"
+	cont "#mon,"
 
 	para "se supone que debo"
 	line "darte un objeto."

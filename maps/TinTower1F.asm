@@ -467,7 +467,7 @@ if DEF(FAITHFUL)
 	line "Torre Latón,"
 else
 	text "Cuando ardió la"
-	line "Torre Gong,"
+	line "Torre Latón,"
 endc
 
 	para "se dice que tres"

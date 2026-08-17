@@ -75,11 +75,10 @@ CeladonUniversityLibrary1FGameboyKidScript:
 	done
 
 CeladonUniversityLibrary1FPokefan_fText:
-	text "Tenemos un acuer-"
-	line "do de préstamo"
-
-	para "con la Biblioteca"
-	line "Canal en Sinnoh."
+	text "Tenemos acuerdo"
+	line "de préstamo con la"
+	cont "Biblioteca Canal"
+	cont "en Sinnoh."
 	done
 
 CeladonUniversityLibrary1FCooltrainermScript:
@@ -95,11 +94,10 @@ CeladonUniversityLibrary1FCooltrainermScript:
 	jumpopenedtext .Text2
 
 .Text1:
-	text "Tengo un gran"
-	line "examen pronto, así"
-
-	para "que planeo estar"
-	line "aquí un rato."
+	text "Pronto tengo un"
+	line "examen importante,"
+	cont "así que me quedaré"
+	cont "aquí un buen rato."
 
 	para "Solo tengo que"
 	line "aguantar un poco."
@@ -110,21 +108,21 @@ CeladonUniversityLibrary1FCooltrainermScript:
 
 .Text2:
 	text "Si quieres que tus"
-	line "#mon aguanten"
-	cont "un poco más, da-"
-	cont "les Cinta Focus."
+	line "#mon aguanten,"
+	cont "dales una"
+	cont "Cinta Focus."
 	done
 
 CeladonUniversityLibrary1FTeacherText:
-	text "Soy la bibliote-"
-	line "caria jefa."
+	text "Soy la encargada"
+	line "de la biblioteca."
 
 	para "Si necesitas algo,"
-	line "solo dilo."
+	line "dímelo."
 
 	para "En voz baja, eso"
-	line "sí. Esto ES una"
-	cont "biblioteca."
+	line "sí. ¡Esto ES una"
+	cont "biblioteca!"
 	done
 
 CeladonUniversityLibrary1FBookText:
@@ -153,38 +151,33 @@ CeladonUniversityLibrary1FSignpost2Text:
 
 CeladonUniversityLibrary1FBookshelf1Text:
 	text "¿Eh? Alguien dejó"
-	line "una vieja foto-"
-	cont "grafía en este"
-	cont "libro."
+	line "una vieja foto en"
+	cont "este libro."
 
-	para "Erika y un hombre"
-	line "de sonrisa ama-"
-
-	para "ble posan felices"
-	line "junto a un Oddish."
+	para "Erika y un señor"
+	line "muy amable posan"
+	cont "junto a un Oddish."
 	done
 
 CeladonUniversityLibrary1FBookshelf2Text:
-	text "Es un álbum que"
-	line "contiene un mon-"
-	cont "tón de fotos"
-	cont "de #mon."
+	text "Es un álbum con un"
+	line "montón de fotos de"
+	cont "#mon."
 
-	para "“El portfolio de"
-	line "Todd Snap” pone"
-	cont "en la portada."
+	para "En la portada pone"
+	line "“El portfolio de"
+	cont "Todd Snap”."
 	done
 
 CeladonUniversityLibrary1FBookshelf3Text:
 	text "Es un libro sobre"
-	line "un hombre que en-"
+	line "un hombre que"
+	cont "enseñó a sus"
+	cont "#mon a tocar"
+	cont "música."
 
-	para "señó a sus #mon"
-	line "a tocar instru-"
-	cont "mentos musicales."
-
-	para "Parecen los mejo-"
-	line "res amigos."
+	para "¡Parecen los"
+	line "mejores amigos!"
 	done
 
 CeladonUniversityLibrary1FBookshelf4Text:
@@ -200,70 +193,60 @@ CeladonUniversityLibrary1FBookshelf4Text:
 CeladonUniversityLibrary1FBookshelf5Text:
 	text "Trata de #mon"
 	line "de juguete que"
-
-	para "cobran vida al ser"
-	line "girados por una"
+	cont "cobran vida al ser"
+	cont "girados con una"
 	cont "Llave Milagrosa."
 
-	para "Son un poco mo-"
-	line "nos."
+	para "Son muy monos."
 	done
 
 CeladonUniversityLibrary1FBookshelf6Text:
 	text "Es un libro de una"
 	line "marioneta #mon"
-	cont "que no puede"
-	cont "decir mentiras."
+	cont "que no puede decir"
+	cont "mentiras."
 
-	para "“Pinpokéo” está"
-	line "escrito en la por-"
-	cont "tada."
+	para "En la portada pone"
+	line "“Pinpokéo”."
 	done
 
 CeladonUniversityLibrary1FBookshelf7Text:
 	text "Es un lib…"
 	line "espera…"
 
-	para "¡Es un video-"
-	line "juego!"
+	para "¡Es un videojuego!"
 
-	para "Muestra orgullosa-"
-	line "mente un pinball"
-
-	para "de #mon en la"
-	line "carátula."
+	para "Luce en la portada"
+	line "un gran pinball de"
+	cont "#mon."
 	done
 
 CeladonUniversityLibrary1FBookshelf8Text:
-	text "Es un libro es-"
-	line "crito por un Gurú"
-	cont "Pescador dando"
+	text "Es un libro de un"
+	line "Gurú Pescador con"
+	cont "consejos para"
+	cont "pescadores."
 
-	para "consejos a pesca-"
-	line "dores novatos."
-
-	para "“Cañas y Rarezas”"
-	line "pone en la por-"
-	cont "tada."
+	para "En la portada pone"
+	line "“Cañas y Rarezas”."
 	done
 
 CeladonUniversityLibrary1FBookshelf9Text:
-	text "Es un manual"
-	line "explicando el jue-"
-
-	para "go de Cartas"
-	line "Coleccionables."
+	text "Es un manual que"
+	line "explica el Juego"
+	cont "de Cartas"
+	cont "Coleccionables."
 	done
 
 CeladonUniversityLibrary1FBookshelf10Text:
 	text "¡Es un libro de"
-	line "recetas con de-"
-	cont "coración #mon!"
+	line "recetas temáticas"
+	cont "de #mon!"
 
-	para "Gelatina Jiggly-"
-	line "puff, Salsa de"
-	cont "Charmander, Sna-"
-	cont "cks de Munchlax…"
+	para "Gelatina de"
+	line "Jigglypuff, Salsa"
+	cont "de Charmander,"
+	cont "Snacks Munchlax…"
 	done
 
 CeladonUniversityLibrary1FBookshelf11Text:

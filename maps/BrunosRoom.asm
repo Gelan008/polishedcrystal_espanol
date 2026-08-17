@@ -94,16 +94,14 @@ BrunoScript:
 	line "nuestro poder?"
 
 	para "¿Hm? No veo miedo"
-	line "en ti. Te ves"
-
-	para "con decisión. ¡Un"
-	line "rival perfecto!"
+	line "en ti. Te veo muy"
+	cont "decidido. ¡Un"
+	cont "rival perfecto!"
 
 	para "¿Listo, <PLAYER>?"
-	line "¡Te postrarás"
-
-	para "ante nuestro"
-	line "poder abrumador!"
+	line "¡Caerás ante"
+	cont "nuestro poder"
+	cont "abrumador!"
 
 	para "¡Hoo hah!"
 	done
@@ -127,8 +125,8 @@ BrunoScript:
 
 	para "¡Como miembro del"
 	line "Alto Mando, haré"
-	cont "frente a tu desa-"
-	cont "fío!"
+	cont "frente a tu"
+	cont "desafío!"
 
 	para "Me molestaría que"
 	line "subestimaras a mis"

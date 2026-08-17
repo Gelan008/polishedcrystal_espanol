@@ -120,23 +120,20 @@ CinnabarVolcano1FBuckScript:
 	line "Y tú eres…"
 	cont "¿<PLAYER>?"
 
-	para "No me digas que"
-	line "tú también buscas"
-	cont "tesoros."
+	para "¿Tú también buscas"
+	line "tesoros?"
 
-	para "¡La Montaña Dura"
-	line "en mi hogar tiene"
+	para "¡En mi tierra, la"
+	line "Montaña Dura tiene"
+	cont "tesoros dentro!"
 
-	para "tesoros dentro, "
-	line "así que seguro que"
-	cont "este volcán tam-"
-	cont "bién tiene!"
+	para "¡Seguro que este"
+	line "volcán también!"
 
 	para "Por eso estoy aquí"
 
 	para "Así que, <PLAYER>,"
-	line "¿qué dices si lu-"
-	cont "chamos por ello?"
+	line "¿echamos un duelo?"
 	done
 
 .YesText:
@@ -146,9 +143,8 @@ CinnabarVolcano1FBuckScript:
 	done
 
 .NoText:
-	text "Seguiré preguntan-"
-	line "do hasta que di-"
-	cont "gas “¡Sí!”"
+	text "¡Insistiré hasta"
+	line "que digas que sí!"
 	done
 
 .BeatenText:
@@ -157,25 +153,25 @@ CinnabarVolcano1FBuckScript:
 	done
 
 .ItemText:
-	text "¡Uf! ¡Es demasiado"
-	line "para mí!"
+	text "¡Uf! ¡Ha sido"
+	line "demasiado!"
 
 	para "El tesoro de este"
 	line "volcán no es para"
 	cont "mí…"
 
-	para "Pero ¡<PLAYER>!"
-	line "¡Eres un entrena-"
-	cont "dor increíble!"
+	para "¡Pero eres un gran"
+	line "entrenador,"
+	cont "<PLAYER>!"
 
 	para "¡Seguro que esto"
 	line "te gusta!"
 	done
 
 .GoodbyeText:
-	text "Supongo que mejo-"
-	line "raré a mi equipo"
-	cont "en Torre Batalla."
+	text "Entrenaré a mi"
+	line "equipo en la"
+	cont "Torre Batalla."
 
 	para "¡Nos vemos,"
 	line "<PLAYER>!"
@@ -185,23 +181,21 @@ CinnabarVolcano1FBuckScript:
 GenericTrainerScientistOskar:
 	generictrainer SCIENTIST, OSKAR, EVENT_BEAT_SCIENTIST_OSKAR, ScientistOskarSeenText, ScientistOskarBeatenText
 
-	text "Es importante es-"
-	line "tudiar los desas-"
-	cont "tres naturales"
-
-	para "para prepararnos"
-	line "para el próximo."
+	text "Hay que estudiar"
+	line "los desastres"
+	cont "naturales para"
+	cont "estar preparados."
 	done
 
 GenericTrainerSuperNerdLuis:
 	generictrainer SUPER_NERD, LUIS, EVENT_BEAT_SUPER_NERD_LUIS, SuperNerdLuisSeenText, SuperNerdLuisBeatenText
 
-	text "¡Es tan emocio-"
-	line "nante estar dentro"
-	cont "de un volcán!"
+	text "¡Es emocionante"
+	line "estar dentro de un"
+	cont "volcán!"
 
-	para "Pero asusta al"
-	line "mismo tiempo."
+	para "¡Aunque también"
+	line "da algo de miedo!"
 	done
 
 ScientistOskarSeenText:
@@ -216,14 +210,10 @@ ScientistOskarBeatenText:
 	done
 
 SuperNerdLuisSeenText:
-	text "¿Sabías que al"
-	line "magma solo se le"
-
-	para "llama lava una"
-	line "vez que llega a"
-
-	para "la superficie"
-	line "por un volcán?"
+	text "¿Sabías que el"
+	line "magma solo se"
+	cont "llama lava cuando"
+	cont "sale al exterior?"
 	done
 
 SuperNerdLuisBeatenText:

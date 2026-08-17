@@ -71,39 +71,34 @@ CeladonUniversityClassroom4RaymondScript:
 
 .IntroText1:
 	text "¡Hola! Soy Raymond"
-	line "Llamáme Ray."
+	line "Llámame Ray."
 
-	para "Soy de los cuatro"
-	line "mejores entrena-"
-	cont "dores de la Uni-"
-	cont "versidad."
+	para "¡Soy uno de los"
+	line "cuatro mejores de"
+	cont "la Universidad!"
 
-	para "¡Se nos conoce co-"
-	line "mo los Cuatro de"
-	cont "Azulona!"
+	para "¡Nos llaman los"
+	line "Cuatro de Azulona!"
 
-	para "¿Quieres ver nues-"
-	line "tra habilidad?"
+	para "¿Quieres ver de"
+	line "qué somos capaces?"
 
-	para "¡Echemos un com-"
-	line "bate! A menos que"
-	cont "temas perder."
+	para "¡Luchemos! Salvo"
+	line "que tengas miedo."
 	done
 
 .IntroText2:
 	text "¡Hola! Soy Raymond"
-	line "Llamáme Ray."
+	line "Llámame Ray."
 
-	para "¡Soy de los Cua-"
-	line "tro de Azulona!"
+	para "¡Soy de los"
+	line "Cuatro de Azulona!"
 
-	para "¿Nos estás desa-"
-	line "fiando a los"
-	cont "cuatro?"
+	para "¿Nos desafías a"
+	line "los cuatro?"
 
-	para "¡Echemos un com-"
-	line "bate! A menos que"
-	cont "temas perder."
+	para "¡Luchemos! Salvo"
+	line "que tengas miedo."
 	done
 
 .NoBattleText:
@@ -121,13 +116,12 @@ CeladonUniversityClassroom4RaymondScript:
 
 .AfterText1:
 	text "¿Cómo puede ser?"
-	line "¡Soy de los Cua-"
-	cont "tro de Azulona!"
+	line "¡Soy de los"
+	cont "Cuatro de Azulona!"
 
-	para "Puede que haya"
-	line "perdido, pero mis"
-	cont "colegas me ven-"
-	cont "garán."
+	para "He perdido, pero"
+	line "mis colegas me"
+	cont "vengarán."
 
 	para "¡Ve a buscarlos"
 	line "tú mismo!"
@@ -137,11 +131,10 @@ CeladonUniversityClassroom4RaymondScript:
 	text "¿Venciste a los"
 	line "Cuatro de Azulona?"
 
-	para "¡No me digas!"
+	para "¡No me lo creo!"
 
-	para "…Vale. Supongo"
-	line "que te has gana-"
-	cont "do esto."
+	para "…Vale. Te has"
+	line "ganado esto."
 	done
 
 .FinalText:
@@ -154,17 +147,14 @@ CeladonUniversityClassroom4RaymondScript:
 	done
 
 CeladonUniversityClassroom4CandelaText:
-	text "¡Hola! Soy Cande-"
-	line "la. ¡Enseño los"
-	cont "Combates #mon!"
+	text "¡Soy Candela!"
+	line "¡Enseño Combates"
+	cont "#mon!"
 
-	para "Estoy investigando"
-	line "formas de mejorar"
-
-	para "el poder natural"
-	line "de los #mon"
-	cont "para aumentar la"
-	cont "fuerza."
+	para "Investigo formas"
+	line "de potenciar el"
+	cont "poder natural de"
+	cont "los #mon."
 	done
 
 CeladonUniversityClassroom4TeacherText:
@@ -173,34 +163,31 @@ CeladonUniversityClassroom4TeacherText:
 	done
 
 CeladonUniversityClassroom4Bug_catcherText:
-	text "Mi maestro dijo"
+	text "La profesora dijo"
 	line "que mis #mon"
 	cont "podrían competir"
-	cont "contra los mejores"
+	cont "al máximo nivel."
 
-	para "¡Su potencial es"
-	line "el mejor que ha-"
-	cont "bía visto nunca!"
+	para "¡Tienen un gran"
+	line "potencial!"
 	done
 
 CeladonUniversityClassroom4FisherText:
-	text "¡El profesor dijo"
+	text "¡La profesora dijo"
 	line "que mis #mon"
-	cont "son una maravi-"
-	cont "lla!"
+	cont "son una maravilla!"
 
-	para "Son unos #mon"
-	line "impresionantes."
+	para "¡Son realmente"
+	line "impresionantes!"
 	done
 
 CeladonUniversityClassroom4LadyText:
-	text "El profesor dijo"
-	line "que mi #mon le"
+	text "La profesora dijo"
+	line "que mi #mon la"
 	cont "ha sorprendido."
 
-	para "¡Supongo que pue-"
-	line "de lograr lo que"
-	cont "sea!"
+	para "¡Puede lograr lo"
+	line "que se proponga!"
 	done
 
 CeladonUniversityClassroom4Rich_boyScript:
@@ -218,13 +205,13 @@ CeladonUniversityClassroom4Rich_boyScript:
 	waitendtext
 
 .Text1:
-	text "Estamos apren-"
-	line "diendo sobre habi-"
-	cont "lidades #mon."
+	text "Aprendemos sobre"
+	line "las habilidades"
+	cont "de los #mon."
 
 	para "Algunas especies"
-	line "tienen más de"
-	cont "una habilidad."
+	line "tienen más de una"
+	cont "habilidad."
 
 	para "¡Usa esto para"
 	line "cambiar entre"
@@ -232,21 +219,17 @@ CeladonUniversityClassroom4Rich_boyScript:
 	done
 
 .Text2:
-	text "Hay unas raras"
-	line "“habilidades ocul-"
-	cont "tas” que la"
+	text "Hay habilidades"
+	line "ocultas muy raras"
+	cont "que no se pueden"
+	cont "conseguir con una"
+	cont "Cáps. Hab."
 
-	para "Cáps. Hab. no pue-"
-	line "de cambiar."
-
-	para "¡Pero! Si un #-"
-	line "mon que lleva una"
-
-	para "Cáps. Hab. tiene"
-	line "un Huevo, su bebé"
-
-	para "podría tener una"
-	line "habilidad oculta."
+	para "¡Pero si un #mon"
+	line "con Cáps. Hab."
+	cont "pone un Huevo,"
+	cont "la cría podría"
+	cont "tenerla!"
 	done
 
 CeladonUniversityClassroom4BlackboardText:

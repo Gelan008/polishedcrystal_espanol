@@ -24,9 +24,8 @@ CeruleanBikeShopClerkText:
 	line "chico guay usaba"
 	cont "mi Bici,"
 
-	para "y eso provocó"
-	line "el boom de las"
-	cont "Bicis."
+	para "y eso provocó el"
+	line "boom de las Bicis."
 
 	para "Entonces decidí"
 	line "abrir una sucursal"

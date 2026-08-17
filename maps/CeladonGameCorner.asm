@@ -185,8 +185,9 @@ CeladonGameCornerRichBoyTobin:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "¿Qué haces husme-"
-	line "ando por aquí?"
+	text "¿Qué haces"
+	line "husmeando por"
+	cont "aquí?"
 
 	para "¡Será mejor que no"
 	line "te metas con el"
@@ -249,36 +250,34 @@ CeladonGameCornerReceptionistText:
 	text "¡Bienvenido!"
 
 	para "Puedes cambiar tus"
-	line "monedas por fabu-"
-
-	para "losos premios en"
-	line "la puerta de al"
+	line "monedas por"
+	cont "fabulosos premios"
+	cont "en la puerta de al"
 	cont "lado."
 	done
 
 CeladonGameCornerPokefanMText:
 	text "Las tragaperras"
-	line "son todas de últi-"
-	cont "ma generación."
+	line "son de última"
+	cont "generación."
 	done
 
 CeladonGameCornerTeacherText:
-	text "Es esta máquina la"
+	text "Esta máquina es la"
 	line "que quiero."
 
 	para "Ayer me desplumó,"
-	line "así que debería"
-
-	para "dar premios hoy."
+	line "así que hoy me"
+	cont "dará premios."
 	done
 
 CeladonGameCornerFishingGuruText:
-	text "Creo que esta ma-"
-	line "quina dará un pre-"
-	cont "mio…"
+	text "Creo que esta"
+	line "máquina va a dar"
+	cont "un buen premio…"
 
-	para "Las probabilida-"
-	line "des varían entre"
+	para "Las probabilidades"
+	line "varían entre"
 	cont "máquinas."
 	done
 
@@ -299,10 +298,8 @@ CeladonGameCornerFisherText2:
 	text "¡Gajajaja!"
 
 	para "¡Me hace sentir"
-	line "bien hacer cosas"
-
-	para "buenas por los de-"
-	line "más!"
+	line "bien ayudar a los"
+	cont "demás!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
@@ -329,12 +326,12 @@ CeladonGameCornerReceived18CoinsText:
 
 FisherOfferText:
 	text "¿Hm? ¿Qué, chico?"
-	line "¿Aún quieres ju-"
-	cont "gar?"
+	line "¿Aún quieres"
+	cont "jugar?"
 
 	para "¡Ya sé! Te dejaré"
-	line "jugar por 50 mone-"
-	cont "das."
+	line "jugar por 50"
+	cont "monedas."
 
 	para "¿Qué te parece?"
 	done
@@ -365,11 +362,10 @@ CeladonGymGuyText:
 
 CeladonGameCornerGrampsText:
 	text "Mmmm… Seguro que"
-	line "hay más probabil-"
-
-	para "idades en la fila"
-	line "de Pikachu, pe-"
-	cont "ro… ¿Qué hacer?"
+	line "hay más opciones"
+	cont "en la fila de"
+	cont "Pikachu, pero…"
+	cont "¿qué hago?"
 	done
 
 CeladonGameCornerPosterScript:
@@ -388,8 +384,7 @@ CeladonGameCornerPosterScript:
 
 .AlreadyPushedText
 	text "El interruptor"
-	line "ya ha sido pulsa-"
-	cont "do."
+	line "ya está pulsado."
 	done
 
 .PushSwitchText
@@ -407,8 +402,8 @@ CeladonGameCornerLighterText:
 	done
 
 CeladonGameCornerSodaCanText:
-	text "Una lata de re-"
-	line "fresco…"
+	text "Una lata de"
+	line "refresco…"
 
 	para "Alguien debe de"
 	line "volver pronto…"

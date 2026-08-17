@@ -89,11 +89,12 @@ CeruleanGymMistyScript:
 	setevent EVENT_GOT_TM63_WATER_PULSE
 	jumpthisopenedtext
 
-	text "Contiene el movi-"
-	line "miento Hidropulso."
+	text "Contiene"
+	line "Hidropulso."
 
-	para "A veces puede con-"
-	line "fundir al rival."
+	para "A veces puede"
+	line "confundir al"
+	cont "rival."
 	done
 
 GenericTrainerSwimmerfDiana:
@@ -127,13 +128,12 @@ GenericTrainerSwimmerfBriana:
 GenericTrainerSailorParker:
 	generictrainer SAILOR, PARKER, EVENT_BEAT_SAILOR_PARKER, SailorParkerSeenText, SailorParkerBeatenText
 
-	text "Misty ha mejora-"
-	line "do mucho estos"
+	text "Misty ha mejorado"
+	line "mucho en estos"
 	cont "últimos años."
 
-	para "¡No bajes la"
-	line "guardia o serás"
-	cont "aplastado!"
+	para "¡No te descuides o"
+	line "serás aplastado!"
 	done
 
 GenericTrainerSailorEddie:
@@ -142,9 +142,8 @@ GenericTrainerSailorEddie:
 	text "¡Oye, vamos a"
 	line "nadar!"
 
-	para "¡Los marineros ti-"
-	line "nen que saber na-"
-	cont "dar!"
+	para "¡Los marineros han"
+	line "de saber nadar!"
 	done
 
 CeruleanGymGuyScript:
@@ -155,11 +154,10 @@ CeruleanGymGuyScript:
 	text "¡Eh! ¡Campeón en"
 	line "ciernes!"
 
-	para "Como Misty no es-"
-	line "taba, también sa-"
-
-	para "lí a divertirme."
-	line "Je, je, je."
+	para "Como Misty no"
+	line "estaba, salí a"
+	cont "divertirme!"
+	cont "Je, je, je."
 	done
 
 CeruleanGymHiddenMachinePart:
@@ -192,9 +190,8 @@ CeruleanGymStatue2:
 	iffalsefwd CeruleanGymStatue
 	jumpthistext
 
-	text "Como Misty no es-"
-	line "tá, nosotros tam-"
-	cont "poco."
+	text "Si Misty no está,"
+	line "nosotros tampoco."
 	cont "Entrenadores Gim."
 	done
 
@@ -238,15 +235,14 @@ CeruleanGymGruntBacksAwayMovement:
 
 CeruleanGymGruntIntroText:
 	text "¡Uy! ¡Yo sentirlo"
-	line "mucho! Tú no he-"
-	cont "rido, ¿vale?"
+	line "mucho! Tú no"
+	cont "herido, ¿vale?"
 
-	para "Yo estar muy ocu-"
-	line "pado. No tener"
+	para "Yo estar muy"
+	line "ocupado. No tener"
 	cont "tiempo de hablar."
-	cont "No ser bueno pa-"
-	cont "ra mí si alguien"
-	cont "verme."
+	cont "No ser bueno si"
+	cont "alguien verme."
 	done
 
 CeruleanGymGruntBigMistakeText:
@@ -259,31 +255,25 @@ CeruleanGymGruntByeText:
 	text "¡Eh, tú! Olvidar"
 	line "verme, ¿vale?"
 
-	para "Tú ver, oír, sa-"
-	line "ber nada,"
-
-	para "¿vale? ¡Chao,"
-	line "chico! ¡Nada!"
+	para "Tú no ver, no oír,"
+	line "no saber nada,"
+	cont "¿vale? ¡Adiós,"
+	cont "chico! ¡Nada!"
 
 	para "¡Bye-bye go-go!"
 	done
 
-
-
 MistyIntroText:
 	text "Misty: ¡Te estaba"
-	line "esperando, plas-"
-	cont "ta!"
+	line "esperando, plasta!"
 
-	para "Puedes tener mu-"
-	line "chas Medallas de"
-
-	para "Gimnasio de Johto,"
-	line "pero no deberías"
+	para "Tendrás muchas"
+	line "Medallas de Johto,"
+	cont "pero no deberías"
 	cont "subestimarme."
 
 	para "¡Mis #mon de"
-	line "tipo Agua son"
+	line "tipo Agua son muy"
 	cont "duros!"
 	done
 
@@ -299,32 +289,26 @@ MistyWinLossText:
 	done
 
 MistyGiveTMText:
-	text "Misty: Aquí tie-"
-	line "nes otro recuer-"
-	cont "do del combate."
-
-	para "¡Tómalo!"
+	text "Misty: ¡Toma otro"
+	line "recuerdo de"
+	cont "nuestro combate!"
 	done
 
-
 MistyFightDoneText:
-	text "Misty: ¿Hay mu-"
-	line "chos entrenadores"
+	text "Misty: ¿Hay tantos"
+	line "entrenadores"
 	cont "fuertes en Johto?"
 	cont "Como tú, digo."
 
-	para "Algún día viaja-"
-	line "ré para poder"
-
-	para "combatir con en-"
-	line "trenadores ex-"
-	cont "pertos."
+	para "Algún día viajaré"
+	line "para combatir con"
+	cont "gente experta."
 	done
 
 SwimmerfDianaSeenText:
-	text "Siento haber es-"
-	line "tado fuera. ¡Va-"
-	cont "mos allá!"
+	text "Perdón por haber"
+	line "estado fuera."
+	cont "¡Vamos allá!"
 	done
 
 SwimmerfDianaBeatenText:
@@ -333,16 +317,16 @@ SwimmerfDianaBeatenText:
 	done
 
 SwimmerfViolaSeenText:
-	text "¡La natación no es"
-	line "solo velocidad!"
+	text "¡Nadar no solo es"
+	line "velocidad!"
 
-	para "¡También es bel-"
-	line "leza y gracia!"
+	para "¡También es pura"
+	line "belleza y gracia!"
 	done
 
 SwimmerfViolaBeatenText:
-	text "He perdido be-"
-	line "llamente…"
+	text "He perdido con"
+	line "mucha elegancia…"
 	done
 
 SwimmerfBrianaSeenText:
@@ -352,14 +336,13 @@ SwimmerfBrianaSeenText:
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Huy, te has de-"
-	line "shecho de mí tan"
-	cont "tranquilamente…"
+	text "Huy, me venciste"
+	line "tan fácil…"
 	done
 
 SailorParkerSeenText:
-	text "¡Muy bien!"
-	line "¡A por mí!"
+	text "¡Muy bien! ¡Ven"
+	line "a por mí!"
 	done
 
 SailorParkerBeatenText:
@@ -367,9 +350,8 @@ SailorParkerBeatenText:
 	done
 
 SailorEddieSeenText:
-	text "Me he estado re-"
-	line "lajando en la"
-	cont "piscina, ¡así que"
+	text "¡Me he relajado"
+	line "en la piscina y"
 	cont "estoy a tope!"
 	done
 
@@ -378,30 +360,28 @@ SailorEddieBeatenText:
 	line "solo con fuerza."
 	done
 
-
 CeruleanGymGuyWinText:
-	text "Hoo, me has demos-"
-	line "trado lo duro que"
-	cont "eres."
+	text "¡Hoo! Me has"
+	line "demostrado lo"
+	cont "fuerte que eres."
 
-	para "Como siempre, ¡has"
-	line "librado un com-"
-	cont "bate alucinante!"
+	para "Como siempre, ¡ha"
+	line "sido un combate"
+	para "increíble!"
 	done
 
 CeruleanGymFoundMachinePartText:
-	text "¡<PLAYER> encon-"
-	line "tró Maquinaria!"
+	text "¡<PLAYER> halló"
+	line "la Maquinaria!"
 	done
 
 CeruleanGymSomethingUnderwaterText:
 	text "Hay algo bajo el"
 	line "agua…"
 
-	para "¿Puede que el Sol-"
-	line "dado Rocket ha-"
-	cont "ble?"
+	para "¿Hablaba de esto"
+	line "el Soldado Rocket?"
 
-	para "¿Adónde habrá hui-"
-	line "do?"
+	para "¿Adónde habrá"
+	line "escapado?"
 	done

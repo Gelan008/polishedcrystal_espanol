@@ -30,10 +30,8 @@ CeladonMansionRoofFisherText:
 	text "Lugares altos…"
 	line "¡Me encantan!"
 
-	para "¡Diría que lo"
-	line "único que ama"
-
-	para "las alturas tanto"
-	line "como yo es el"
-	cont "humo!"
+	para "¡Lo único que"
+	line "ama las alturas"
+	cont "tanto como yo es"
+	cont "el humo!"
 	done

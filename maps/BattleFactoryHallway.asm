@@ -70,15 +70,14 @@ BattleFactoryHallwayEnterScene:
 .WarnAboutHead:
 	writethistext
 		text "¡Felicidades por"
-		line "tu racha de vic-"
-		cont "torias,"
+		line "tu racha de"
+		cont "victorias,"
 		cont "entrenador!"
 
 		para "El Jefe Fábrica"
 		line "ha mandado decir"
-
-		para "que te exige"
-		line "un combate."
+		cont "que te exige un"
+		cont "combate."
 
 		para "¿Estás listo"
 		line "para luchar"
@@ -93,8 +92,9 @@ BattleFactoryHallwayEnterScene:
 
 .DontBattleNextOpponent:
 	writethistext
-		text "¿Guardar y termi-"
-		line "nar la sesión?"
+		text "¿Guardar y"
+		line "terminar la"
+		cont "sesión?"
 		done
 	yesorno
 	iffalsefwd .DontSaveAndEndTheSession
@@ -107,12 +107,13 @@ BattleFactoryHallwayEnterScene:
 	special SoftReset
 .DontSaveAndEndTheSession:
 	writethistext
-		text "¿Cancelar tu desa-"
-		line "fío en el Piso de"
-		cont "combates?"
+		text "¿Cancelar tu"
+		line "desafío en el"
+		cont "Piso de combates?"
 
-		para "Ojo, se considera-"
-		line "rá una derrota."
+		para "Ojo, se"
+		line "considerará una"
+		cont "derrota."
 		done
 	yesorno
 	iffalse .AskNextBattle

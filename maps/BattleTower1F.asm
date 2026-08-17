@@ -72,9 +72,8 @@ BattleTower1FContinueChallenge:
 
 		para "Lo siento mucho,"
 		line "pero su desafío"
-
-		para "será declarado in-"
-		line "válido."
+		cont "será declarado"
+		cont "inválido."
 		done
 	waitbutton
 	sjumpfwd Script_CommitBattleTowerResult
@@ -93,9 +92,9 @@ BattleTower1FContinueChallenge:
 	writethistext
 		text "¡Felicidades!"
 
-		para "¡Has vencido a to-"
-		line "dos los entrena-"
-		cont "dores!"
+		para "¡Has vencido a"
+		line "todos los"
+		cont "entrenadores!"
 
 		para "Por eso, ¡obtienes"
 		line "este gran premio!"
@@ -132,8 +131,9 @@ BattleTower1FRulesScript:
 		line "diferentes."
 
 		para "Los objetos que"
-		line "lleven también de-"
-		cont "ben ser distintos."
+		line "lleven también"
+		cont "deben ser"
+		cont "distintos."
 
 		para "Los Huevos o"
 		line "ciertos #mon"
@@ -158,8 +158,8 @@ BattleTower1FReceptionistScript:
 		cont "bienvenida!"
 
 		para "Puedo acompañarte"
-		line "a la Sala de com-"
-		cont "bates."
+		line "a la Sala de"
+		cont "combates."
 		done
 	promptbutton
 	checkevent EVENT_BATTLE_TOWER_INTRO
@@ -178,35 +178,32 @@ BattleTower1FReceptionistScript:
 .Explanation:
 	writethistext
 		text "La Torre Batalla"
-		line "es un recinto pa-"
-		cont "ra los combates."
+		line "es un recinto para"
+		cont "los combates."
 
 		para "Entrenadores de"
-		line "#mon acuden"
-
-		para "de todas partes a"
-		line "luchar en Salas de"
-		cont "combate especial-"
-		cont "mente diseñadas."
+		line "#mon acuden de"
+		cont "todas partes a"
+		cont "luchar en Salas de"
+		cont "combate diseñadas"
+		cont "especialmente."
 
 		para "Hay muchas Salas"
 		line "de combate en la"
 		cont "Torre Batalla."
 
 		para "En cada Sala hay"
-		line "siete entrenadores"
+		line "7 entrenadores."
 
-		para "Gana a todos y re-"
-		line "cibe PB."
+		para "¡Gana a todos y"
+		line "recibe PB!"
 
 		para "Para interrumpir"
 		line "la sesión, debes"
-
-		para "guardar. Si no, no"
-		line "podrás retomar"
-
-		para "tu desafío de"
-		line "la Sala."
+		cont "guardar. Si no, no"
+		cont "podrás retomar"
+		cont "tu desafío de"
+		cont "la Sala."
 		prompt
 	; fallthrough
 .BattleTowerMenu:
@@ -236,9 +233,9 @@ BattleTower1FReceptionistScript:
 	special Special_BattleTower_SelectParticipants
 	iffalse .BattleTowerMenu
 	writethistext
-		text "Antes de entrar a"
-		line "la Sala de com-"
-		cont "bates,"
+		text "Antes de entrar"
+		line "a la Sala de"
+		cont "combates,"
 
 		para "se guardará tu"
 		line "progreso."
@@ -310,17 +307,15 @@ BattleTowerPharmacistScript:
 	iftruefwd BattleTowerTutorTrickScript
 	writethistext
 		text "Los entrenadores"
-		line "de aquí usan ob-"
-		cont "jetos con estra-"
-		cont "tegia."
+		line "de aquí usan"
+		cont "objetos con"
+		cont "estrategia."
 
 		para "¡Pero tengo un"
-		line "truco en la"
-		cont "manga--cambiaré"
-
-		para "sus objetos por"
-		line "los míos con"
-		cont "Truco!"
+		line "truco en la manga!"
+		cont "¡Cambiaré sus"
+		cont "objetos por los"
+		cont "míos con Truco!"
 		done
 	waitbutton
 	setevent EVENT_LISTENED_TO_TRICK_INTRO
@@ -370,32 +365,27 @@ BattleTowerTutorTrickScript:
 Text_BattleTowerCooltrainerF:
 	text "Hay muchísimas"
 	line "Salas de combate,"
-	cont "¡pero"
-
-	para "yo voy a ganar"
-	line "en todas!"
+	cont "¡pero yo voy a"
+	cont "ganar en todas!"
 	done
 
 Text_BattleTowerGranny:
-	text "Es una tarea ruda,"
+	text "Es una tarea ruda"
 	line "el no poder usar"
-
-	para "objetos en comba-"
-	line "te."
+	cont "objetos en"
+	cont "combate."
 
 	para "Hacer que tus"
 	line "#mon lleven"
-
-	para "objetos es la cla-"
-	line "ve para ganar."
+	cont "objetos es la"
+	cont "clave para ganar."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "Intento ver cuán-"
-	line "to puedo avanzar"
-
-	para "usando solo"
-	line "#mon bicho."
+	text "Intento ver cuánto"
+	line "puedo avanzar"
+	cont "usando solo"
+	cont "#mon bicho."
 
 	para "Espero que no haya"
 	line "#mon de fuego…"
@@ -411,10 +401,9 @@ PokemonJournalPalmerScript:
 	line "¡Amo Torre"
 	cont "Jericor!"
 
-	para "Se dice que Pal-"
-	line "mer tiene un hijo"
-
-	para "en la región Sin-"
-	line "noh que quiere ser"
+	para "Se dice que"
+	line "Jericor tiene un"
+	cont "hijo en Sinnoh"
+	cont "que quiere ser"
 	cont "como él."
 	done

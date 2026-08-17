@@ -77,8 +77,8 @@ CeladonMansionManagerScript:
 	jumpthisopenedtext
 
 	text "No hay nada como"
-	line "el té de menta ca-"
-	cont "liente."
+	line "el té de menta"
+	cont "bien caliente."
 
 	para "¡Puede cambiar la"
 	line "naturaleza de un"
@@ -98,14 +98,12 @@ CeladonMansionManagerScript:
 	line "cariño."
 
 	para "Estoy tomando el"
-	line "té con mis que-"
-	cont "ridos #mon."
+	line "té con mis"
+	cont "queridos #mon."
 
 	para "Si tuvieras una"
-	line "Hoja Menta,"
-
-	para "te invitaría a"
-	line "acompañarme."
+	line "Hoja Menta te"
+	cont "invitaría."
 
 	para "A los #mon les"
 	line "encanta la menta"
@@ -123,17 +121,15 @@ CeladonMansionManagerScript:
 	para "Veo que tienes una"
 	line "Hoja Menta."
 
-	para "¿Te gustaría que"
-	line "haga una infusión"
-
-	para "de té para tus"
-	line "#mon?"
+	para "¿Quieres que haga"
+	line "una infusión de té"
+	cont "para tus #mon?"
 	done
 
 .RefusedText:
 	text "¡No te vayas a"
-	line "llenar con Limo-"
-	cont "nada y Refresco!"
+	line "llenar con"
+	cont "Limonada!"
 	done
 
 .AcceptedText:
@@ -155,11 +151,11 @@ CeladonMansionManagerScript:
 	done
 
 .NeutralTeaText:
-	text "Es una preferen-"
-	line "cia inusual, ¡pero"
-	cont "puedo prepararlo!"
+	text "¡Es una opción"
+	line "inusual, pero"
+	cont "puedo prepararla!"
 
-	para "¡Una taza para ti,"
+	para "¡Una taza para ti"
 	line "y una taza para"
 	cont ""
 	text_ram wStringBuffer1
@@ -167,10 +163,10 @@ CeladonMansionManagerScript:
 	done
 
 .TeaIsReadyText:
-	text "¡Okey! Aquí tie-"
-	line "nes tu té."
+	text "¡Aquí tienes tu"
+	line "té recién hecho!"
 
-	para "¡Una taza para ti,"
+	para "¡Una taza para ti"
 	line "y una taza para"
 	cont ""
 	text_ram wStringBuffer1

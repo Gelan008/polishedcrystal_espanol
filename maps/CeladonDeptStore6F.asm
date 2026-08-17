@@ -30,31 +30,29 @@ CeladonDeptStore3FGameboyKid2Script:
 
 CeladonDeptStore6FSuperNerdText:
 	text "Una expendedora"
-	line "con ruleta de pre-"
-	cont "mios…"
+	line "con ruleta de"
+	cont "premios…"
 
 	para "Ya no se ven"
 	line "de esas."
 	done
 
 CeladonDeptStore6FYoungsterText:
-	text "¡Puedo jugar vi-"
-	line "deojuegos en la"
-	cont "segunda planta, y"
-
-	para "luego venir aquí"
-	line "si tengo sed!"
+	text "¡Puedo jugar a"
+	line "videojuegos en la"
+	cont "segunda planta y"
+	cont "luego venir aquí"
+	cont "si tengo sed!"
 
 	para "¡Esta tienda es"
 	line "genial!"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
-	text "He intercambiado"
-	line "mi #mon"
-
-	para "mientras llevaba"
-	line "una Mejora."
+	text "Intercambié a mi"
+	line "#mon mientras"
+	cont "llevaba una"
+	cont "Mejora."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
@@ -62,15 +60,14 @@ CeladonDeptStore3FGameboyKid2Text:
 	line "tengo a Porygon!"
 
 	para "Soy malísima en"
-	line "las tragaperras, y"
+	line "las tragaperras y"
+	cont "no podía reunir"
+	cont "tantas monedas…"
 
-	para "no podía conseguir"
-	line "las monedas…"
-
-	para "¡Lo entrenaré con"
-	line "una Mejora para"
-	cont "hacerlo evolucio-"
-	cont "nar!"
+	para "¡Lo intercambiaré"
+	line "con Mejora para"
+	cont "hacerlo"
+	cont "evolucionar!"
 	done
 
 CeladonDeptStore6FDirectoryText:

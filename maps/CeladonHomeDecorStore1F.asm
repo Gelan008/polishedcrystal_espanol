@@ -24,8 +24,9 @@ CeladonHomeDecorStore1F_MapScriptHeader:
 CeladonHomeDecorStore1FBulbasaurDollScript:
 	jumpthistext
 
-	text "¡Es un lindo muñe-"
-	line "co de Bulbasaur!"
+	text "¡Es un lindo"
+	line "muñeco de"
+	cont "Bulbasaur!"
 	done
 
 CeladonHomeDecorStore1FCharmanderDollScript:
@@ -38,8 +39,9 @@ CeladonHomeDecorStore1FCharmanderDollScript:
 CeladonHomeDecorStore1FSquirtleDollScript:
 	jumpthistext
 
-	text "¡Es un genial mu-"
-	line "ñeco de Squirtle!"
+	text "¡Es un muñeco"
+	line "genial de"
+	cont "Squirtle!"
 	done
 
 CeladonHomeDecorStore1FClerkScript:
@@ -128,8 +130,9 @@ CeladonHomeDecorStore1FClerkScript:
 CeladonHomeDecorStore1FReceptionistText:
 	text "¡Hola! ¡Te damos"
 	line "la bienvenida a la"
-	cont "Tienda de Decora-"
-	cont "ción de Azulona!"
+	cont "Tienda de"
+	cont "Decoración de"
+	cont "Azulona!"
 
 	para "El directorio está"
 	line "en la pared."
@@ -147,8 +150,9 @@ BoughtBulbasaurDollText:
 	done
 
 BulbasaurDollSentText:
-	text "El Muñeco Bulba-"
-	line "saur fue a casa."
+	text "El Muñeco de"
+	line "Bulbasaur fue"
+	cont "a casa."
 	done
 
 BoughtCharmanderDollText:
@@ -157,8 +161,9 @@ BoughtCharmanderDollText:
 	done
 
 CharmanderDollSentText:
-	text "El Muñeco Charman-"
-	line "der fue a casa."
+	text "El Muñeco de"
+	line "Charmander fue"
+	cont "a casa."
 	done
 
 BoughtSquirtleDollText:
@@ -167,8 +172,9 @@ BoughtSquirtleDollText:
 	done
 
 SquirtleDollSentText:
-	text "El Muñeco Squir-"
-	line "tle fue a casa."
+	text "El Muñeco de"
+	line "Squirtle fue"
+	cont "a casa."
 	done
 
 CeladonHomeDecorStore1FNoMoneyText:
@@ -182,11 +188,10 @@ CeladonHomeDecorStore1FAlreadyBoughtText:
 
 CeladonHomeDecorStore1FCooltrainerfText:
 	text "Esta nueva ala"
-	line "se siente más lu-"
-	cont "josa que el"
-
-	para "Centro Comercial"
-	line "principal."
+	line "se ve más lujosa"
+	cont "que el Centro"
+	cont "Comercial"
+	cont "principal."
 	done
 
 CeladonHomeDecorStore1FDirectoryText:
@@ -197,5 +202,5 @@ CeladonHomeDecorStore1FDirectoryText:
 	para "P2: Alfombras"
 
 	para "P3: Muñecos"
-	line "Gigantes"
+	line "    Gigantes"
 	done

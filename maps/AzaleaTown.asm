@@ -146,10 +146,9 @@ AzaleaTownRivalBattleTrigger2:
 	line "inútiles!"
 
 	para "Oye, tú. Solo has"
-	line "ganado porque"
-
-	para "mis #mon eran"
-	line "débiles."
+	line "ganado porque mis"
+	cont "#mon eran"
+	cont "débiles."
 	done
 
 .LossText:
@@ -158,16 +157,17 @@ AzaleaTownRivalBattleTrigger2:
 	done
 
 .AfterText:
-	text "Odio a los débi-"
-	line "les."
+	text "Odio a los"
+	line "débiles."
 
-	para "#mon, entrena-"
-	line "dores. Da igual"
-	cont "quién o qué."
+	para "#mon o"
+	line "entrenadores."
+	cont "Da igual quién"
+	cont "o qué."
 
-	para "Seré fuerte y aca-"
-	line "baré con todos los"
-	cont "débiles."
+	para "Seré fuerte y"
+	line "acabaré con todos"
+	cont "los débiles."
 
 	para "Eso también va por"
 	line "el Team Rocket."
@@ -182,11 +182,10 @@ AzaleaTownRivalBattleTrigger2:
 	para "Los odio a todos."
 
 	para "Y tú, apártate de"
-	line "mi camino. Un en-"
-
-	para "clenque como tú"
-	line "solo es una dis-"
-	cont "tracción."
+	line "mi camino. ¡Un"
+	cont "enclenque como tú"
+	cont "solo es una"
+	cont "distracción!"
 	done
 
 .ApproachMovement:
@@ -217,8 +216,9 @@ AzaleaTown_CelebiTrigger:
 	promptbutton
 	turnobject AZALEATOWN_KURT, RIGHT
 	writethistext
-		text "<PLAYER>, ¡te de-"
-		line "vuelvo la GS Ball!"
+		text "<PLAYER>,"
+		line "¡te devuelvo la"
+		cont "GS Ball!"
 		done
 	promptbutton
 	writetext AzaleaTownKurtText
@@ -241,9 +241,8 @@ AzaleaTown_CelebiTrigger:
 AzaleaTownSignText:
 	text "Pueblo Azalea"
 	line "Donde humanos y"
-
-	para "#mon viven en"
-	line "feliz armonía"
+	cont "#mon viven en"
+	cont "feliz armonía."
 	done
 
 KurtsHouseSignText:
@@ -267,18 +266,16 @@ SlowpokeWellSignText:
 	line "como Pozo de la"
 	cont "Lluvia."
 
-	para "Dicen que el bos-"
-	line "tezo de Slowpoke"
-	cont "atrae la lluvia."
+	para "Dicen que el"
+	line "bostezo de"
+	cont "Slowpoke atrae"
+	cont "la lluvia."
 
-	para "Existen registros"
-	line "que dicen que el"
-
-	para "bostezo de un"
-	line "Slowpoke acabó con"
-
-	para "una sequía hace"
-	line "400 años."
+	para "Hay registros de"
+	line "que el bostezo de"
+	cont "un Slowpoke acabó"
+	cont "con una sequía"
+	cont "hace 400 años."
 	done
 
 CharcoalKilnSignText:
@@ -295,12 +292,11 @@ AzaleaTownIlexForestSignText:
 AzaleaTownAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "¡El estilo de com-"
-	line "bate Cambio te"
-
-	para "permite saber qué"
-	line "#mon sacará el"
-	cont "oponente,"
+	para "¡El estilo de"
+	line "combate Cambio te"
+	cont "permite saber qué"
+	cont "#mon sacará el"
+	cont "rival,"
 
 	para "pero el estilo"
 	line "Fijo no!"
@@ -316,8 +312,8 @@ AzaleaTownGrampsScript:
 	cont "pueblo…"
 
 	para "Dicen que venden"
-	line "sus Colas en al-"
-	cont "gún sitio."
+	line "sus Colas en"
+	cont "algún sitio."
 	done
 
 .Text2:
@@ -326,9 +322,9 @@ AzaleaTownGrampsScript:
 
 	para "Conociéndolos,"
 	line "seguro que se"
-
-	para "fueron a holga-"
-	line "zanear por ahí."
+	cont "fueron a"
+	cont "holgazanear"
+	cont "por ahí."
 	done
 
 AzaleaTownTeacherScript:
@@ -348,15 +344,15 @@ AzaleaTownTeacherScript:
 .Text2:
 	text "Ha cambiado, pero"
 	line "siempre será mi"
-
-	para "pequeño Wooster"
-	line "para mí."
+	cont "pequeño Wooster"
+	cont "para mí."
 	done
 
 .Text1:
-	text "No ha llovido des-"
-	line "de que los Slow-"
-	cont "poke se fueron."
+	text "No ha llovido"
+	line "desde que los"
+	cont "Slowpoke se"
+	cont "fueron."
 
 	para "Mi pobre Wooster"
 	line "no puede vivir en"
@@ -391,11 +387,9 @@ AzaleaTownYoungsterText:
 	line "Azalea y llegarás"
 	cont "al Encinar."
 
-	para "Pero esos arbu-"
-	line "stos hacen impo-"
-
-	para "sible pasar por"
-	line "ahí."
+	para "Pero esos arbustos"
+	line "hacen imposible"
+	cont "pasar por ahí."
 
 	para "El #mon del"
 	line "Carbonero puede"
@@ -403,9 +397,9 @@ AzaleaTownYoungsterText:
 	done
 
 AzaleaTownRocket1Text:
-	text "Es peligroso en-"
-	line "trar ahí, así que"
-	cont "hago guardia."
+	text "Es peligroso"
+	line "entrar ahí, así"
+	cont "que hago guardia."
 
 	para "¿A que soy un"
 	line "buen samaritano?"

@@ -41,45 +41,43 @@ BeautifulBeachVillaSignText:
 GenericTrainerAromaLadyBryony:
 	generictrainer AROMA_LADY, BRYONY, EVENT_BEAT_AROMA_LADY_BRYONY, .SeenText, .BeatenText
 
-	text "Siempre me in-"
-	line "vigorizan los aro-"
-	cont "mas de aquí."
+	text "Siempre me"
+	line "invigorizan los"
+	cont "aromas de aquí."
 	done
 
 .SeenText:
-	text "Flores tropica-"
-	line "les, brisa ma-"
-	cont "rina…"
+	text "Flores"
+	line "tropicales,"
+	cont "brisa marina…"
 
 	para "¡La Isla Shamouti"
-	line "está llena de de-"
-	cont "liciosos aromas!"
+	line "está llena de"
+	cont "deliciosos aromas!"
 	done
 
 .BeatenText:
 	text "¿Acaso el aroma de"
-	line "la isla te inspi-"
-	cont "ró a ganar?"
+	line "la isla te inspiró"
+	cont "a ganar?"
 	done
 
 GenericTrainerSightseermJaska:
 	generictrainer SIGHTSEERM, JASKA, EVENT_BEAT_SIGHTSEERM_JASKA, .SeenText, .BeatenText
 
-	text "Sé que es una ton-"
-	line "tería, pero me"
+	text "Sé que es una"
+	line "tontería, pero me"
 	cont "siento más seguro"
-
-	para "viajando con un"
-	line "amuleto de la"
+	cont "viajando con un"
+	cont "amuleto de la"
 	cont "suerte."
 	done
 
 .SeenText:
 	text "Mis calcetines de"
 	line "la suerte me"
-
-	para "mantienen a salvo"
-	line "en mis viajes."
+	cont "mantienen a salvo"
+	cont "en mis viajes."
 	done
 
 .BeatenText:
@@ -91,8 +89,8 @@ GenericTrainerTamerVince:
 	generictrainer TAMER, VINCE, EVENT_BEAT_TAMER_VINCE, .SeenText, .BeatenText
 
 	text "Mis #mon están"
-	line "domados experta-"
-	cont "mente,"
+	line "domados"
+	cont "por un experto,"
 
 	para "¡pero yo sigo"
 	line "siendo tan salvaje"
@@ -100,9 +98,9 @@ GenericTrainerTamerVince:
 	done
 
 .SeenText:
-	text "¡Mi espíritu rugi-"
-	line "dor nunca será do-"
-	cont "mado!"
+	text "¡Mi espíritu"
+	line "rugidor nunca"
+	cont "será domado!"
 	done
 
 .BeatenText:
@@ -113,8 +111,8 @@ GenericTrainerSightseerfRosie:
 	generictrainer SIGHTSEERF, ROSIE, EVENT_BEAT_SIGHTSEERF_ROSIE, .SeenText, .BeatenText
 
 	text "¡La Isla Shamouti"
-	line "tiene mucha his-"
-	cont "toria!"
+	line "tiene mucha"
+	cont "historia!"
 
 	para "No puedo esperar"
 	line "a fotografiarla."
@@ -124,8 +122,8 @@ GenericTrainerSightseerfRosie:
 	text "El santuario, los"
 	line "tres templos, las"
 	cont "antiguas ruinas…"
-	cont "¿Adónde ir pri-"
-	cont "mero?"
+	cont "¿Adónde ir"
+	cont "primero?"
 	done
 
 .BeatenText:
@@ -141,9 +139,9 @@ TrainerSwimmerfRachel:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Podría pasarme to-"
-	line "do el día en este"
-	cont "agua."
+	text "Podría pasarme"
+	line "todo el día en"
+	cont "este agua."
 	done
 
 .SeenText:
@@ -165,10 +163,8 @@ GenericTrainerArtistMarlene:
 
 	text "Los tres colores"
 	line "primarios de la"
-	cont "pintura"
-
-	para "son rojo, azul"
-	line "y amarillo."
+	cont "pintura son rojo,"
+	cont "azul y amarillo."
 
 	para "Pero para la luz"
 	line "son rojo, azul y"

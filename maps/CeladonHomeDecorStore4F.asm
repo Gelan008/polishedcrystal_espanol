@@ -101,13 +101,13 @@ BigOnixDollScript:
 	done
 
 BigDollClerkText:
-	text "¿No son impresio-"
-	line "nantes nuestros"
-	cont "muñecos gigantes?"
+	text "¿No te impresionan"
+	line "nuestros muñecos"
+	cont "gigantes?"
 
-	para "Son tan grandes,"
-	line "que apenas nos ca-"
-	cont "ben en el cuarto."
+	para "Son tan grandes"
+	line "que apenas caben"
+	cont "en el cuarto."
 	done
 
 BigDollClerkNoSaleText:
@@ -115,13 +115,12 @@ BigDollClerkNoSaleText:
 	line "lo dices."
 	done
 
-
 BigDollClerkSellLaprasText:
 	text "Dep.: ¿Te gusta el"
 	line "muñeco de Lapras?"
 
 	para "Te costará"
-	line "¥300000."
+	line "300000¥."
 	done
 
 BigDollClerkSellSnorlaxText:
@@ -129,7 +128,7 @@ BigDollClerkSellSnorlaxText:
 	line "muñeco Snorlax?"
 
 	para "Te costará"
-	line "¥200000."
+	line "200000¥."
 	done
 
 BigDollClerkSellOnixText:
@@ -137,7 +136,7 @@ BigDollClerkSellOnixText:
 	line "muñeco de Onix?"
 
 	para "Te costará"
-	line "¥250000."
+	line "250000¥."
 	done
 
 BoughtBigLaprasDollText:
@@ -145,18 +144,15 @@ BoughtBigLaprasDollText:
 	line "Muñeco Lapras Gig."
 	done
 
-
 BoughtBigSnorlaxDollText:
 	text "<PLAYER> compró un"
 	line "Muñeco Snorlax G."
 	done
 
-
 BoughtBigOnixDollText:
 	text "<PLAYER> compró un"
 	line "Muñeco Onix Gig."
 	done
-
 
 BigLaprasDollText:
 	text "¡Es un Muñeco de"
@@ -178,5 +174,5 @@ CeladonHomeDecorStore4FDirectoryText:
 	line "acompañarte!"
 
 	para "P3: Muñecos"
-	line "Gigantes"
+	line "    Gigantes"
 	done

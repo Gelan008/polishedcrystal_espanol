@@ -46,14 +46,13 @@ CherrygroveMartCooltrainerMText_PokeBallsInStock:
 CherrygroveMartYoungsterText:
 	text "Mientras andaba"
 	line "por la hierba, ¡un"
+	cont "#mon bicho"
+	cont "envenenó al mío!"
 
-	para "#mon bicho en-"
-	line "venenó al mío!"
+	para "Seguí caminando y"
+	line "mi #mon casi"
+	cont "no lo cuenta."
 
-	para "Seguí caminando, y"
-	line "mi #mon ape-"
-	cont "nas se recuperó."
-
-	para "Deberías llevar un"
-	line "Antídoto contigo."
+	para "¡Deberías llevar"
+	line "Antídotos siempre!"
 	done

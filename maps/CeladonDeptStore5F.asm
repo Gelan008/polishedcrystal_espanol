@@ -21,21 +21,22 @@ CeladonDeptStore5F_MapScriptHeader:
 	object_event  1,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore5FTeacherText, -1
 
 CeladonDeptStore5FGentlemanText:
-	text "Quiero comprar al-"
-	line "gunos objetos que"
-
-	para "suban las caracte-"
-	line "rísticas, pero no"
-	cont "tengo dinero…"
+	text "Quiero comprar"
+	line "algunos objetos"
+	cont "que mejoren las"
+	cont "características,"
+	cont "pero no me queda"
+	cont "dinero…"
 	done
 
 CeladonDeptStore5FSailorText:
-	text "Quiero Más PP, pa-"
-	line "ra subir los PP de"
+	text "Quiero Más PP"
+	line "para subir los PP"
+	cont "de los"
+	cont "movimientos."
 
-	para "los movimientos."
-	line "Pero no se pueden"
-	cont "comprar…"
+	para "Pero no se pueden"
+	line "comprar…"
 	done
 
 CeladonDeptStore5FTeacherText:

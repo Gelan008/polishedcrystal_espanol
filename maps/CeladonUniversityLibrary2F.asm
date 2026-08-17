@@ -51,23 +51,19 @@ CeladonUniversityLibrary2FCosplayerText:
 	text "¡Es genial estar"
 	line "en la ciudad!"
 
-	para "Puedo usar mi cos-"
-	line "play en público y"
-
-	para "¡la gente ni si-"
-	line "quiera pestañea!"
+	para "Puedo llevar mi"
+	line "cosplay en público"
+	cont "¡y nadie pestañea!"
 	done
 
 CeladonUniversityLibrary2FLassText:
-	text "Nunca juzgues un"
-	line "libro por su por-"
-	cont "tada."
+	text "No juzgues a un"
+	line "libro por su"
+	cont "portada."
 
-	para "A veces incluso el"
-	line "exterior más soso"
-
-	para "puede ocultar las"
-	line "mejores historias."
+	para "A veces la tapa"
+	line "más sosa oculta la"
+	cont "mejor historia."
 	done
 
 CeladonUniversityLibrary2FArtistScript:
@@ -77,30 +73,26 @@ CeladonUniversityLibrary2FArtistScript:
 	end
 
 .Text1:
-	text "“Yasmina miró fi-"
-	line "jamente los ojos"
-	cont "marrones de"
-	cont "Erika…”"
+	text "“Yasmina miró a"
+	line "los ojos marrones"
+	cont "de Erika…”"
 	done
 
 .Text2:
 	text "¿Eh? ¡Vete!"
 
-	para "¡Es de mala edu-"
-	line "cación leer por"
-	cont "encima del hombro!"
+	para "¡Es de mala"
+	line "educación mirar lo"
+	cont "que escribo!"
 	done
 
 CeladonUniversityLibrary2FSuper_nerdText:
 	text "¡El comando"
-	line "“net send” mos-"
+	line "“net send” muestra"
+	cont "un aviso en otros"
+	cont "ordenadores!"
 
-	para "trará un mensaje"
-	line "en la pantalla del"
-	cont "resto de ordena-"
-	cont "dores!"
-
-	para "Mmm, qué enviar…"
+	para "Mmm, qué poner…"
 
 	para "“¡Pizza gratis en"
 	line "la oficina del"
@@ -115,16 +107,13 @@ CeladonUniversityLibrary2FCooltrainerfText:
 	done
 
 CeladonUniversityLibrary2FYoungsterText:
-	text "Estoy leyendo so-"
-	line "bre un #mon le-"
-	cont "gendario"
+	text "Leo sobre un"
+	line "#mon legendario"
+	cont "con el poder de"
+	cont "doblar el espacio."
 
-	para "con el poder de"
-	line "distorsionar el"
-	cont "espacio."
-
-	para "Da bastante"
-	line "miedo…"
+	para "¡Da bastante"
+	line "miedo…!"
 	done
 
 CeladonUniversityLibrary2FBookshelf1Text:
@@ -143,14 +132,11 @@ CeladonUniversityLibrary2FBookshelf2Text:
 	text "Este libro se cae"
 	line "a trozos."
 
-	para "El título ya no"
-	line "puede leerse,"
-
-	para "pero hay una ima-"
-	line "gen de un #mon"
-
-	para "llevando una pesa-"
-	line "da armadura."
+	para "El título no se"
+	line "puede leer, pero"
+	cont "se ve a un #mon"
+	cont "con una armadura"
+	cont "muy pesada."
 	done
 
 CeladonUniversityLibrary2FBookshelf3Text:
@@ -181,14 +167,11 @@ CeladonUniversityLibrary2FBookshelf5Text:
 
 CeladonUniversityLibrary2FBookshelf6Text:
 	text "Es un libro sobre"
-	line "#mon que tienen"
+	line "variaciones"
+	cont "regionales #mon."
 
-	para "diferencias regio-"
-	line "nales."
-
-	para "Hay una imagen"
-	line "de un Raichu que"
-	cont "se ve un tanto"
+	para "Sale una imagen"
+	line "de un Raichu algo"
 	cont "extraño…"
 	done
 
@@ -198,9 +181,8 @@ CeladonUniversityLibrary2FBookshelf7Text:
 	cont "#mon."
 
 	para "En la portada sale"
-	line "un edificio de as-"
-	cont "pecto impresio-"
-	cont "nante."
+	line "un edificio"
+	cont "impresionante."
 	done
 
 CeladonUniversityLibrary2FBookshelf8Text:
@@ -233,9 +215,8 @@ CeladonUniversityLibrary2FBookshelf9Text:
 
 CeladonUniversityLibrary2FBookshelf10Text:
 	text "Es un libro sobre"
-	line "una isla de rob-"
-	cont "ots #mon gi-"
-	cont "gantes."
+	line "una isla de robots"
+	cont "#mon gigantes."
 
 	para "“Robótica #mon”"
 	line "por Anne Droid…"
@@ -259,64 +240,55 @@ CeladonUniversityLibrary2FBookshelf12Text:
 
 CeladonUniversityLibrary2FBookshelf13Text:
 	text "Es un libro que"
-	line "explica la biolo-"
-
-	para "gía de los"
-	line "#mon."
+	line "explica biología"
+	cont "#mon."
 
 	para "¡Es enorme!"
 	done
 
 CeladonUniversityLibrary2FBookshelf14Text:
 	text "Este libro está"
-	line "cubierto de te-"
-	cont "larañas."
+	line "con telarañas."
 
-	para "Parece que nadie"
-	line "lo ha leído en"
-	cont "mucho tiempo."
+	para "Nadie lo ha leído"
+	line "en mucho tiempo."
 	done
 
 CeladonUniversityLibrary2FBookshelf15Text:
-	text "Es un libro"
-	line "mostrando a un te-"
-	cont "mible #mon."
+	text "Es un libro sobre"
+	line "un temible #mon"
+
+	para "El título reza en"
+	line "letras gigantes:"
 
 	para "“Absofusión y el"
-	line "Trío Tao”"
-
-	para "está escrito con"
-	line "letras gigantes."
+	line "Trío Tao”."
 	done
 
 CeladonUniversityLibrary2FBookshelf16Text:
-	text "“Antigua #mo-"
-	line "polis: La Historia"
-
-	para "de los #mon"
-	line "Extintos”"
+	text "“Antigua"
+	line "#mopolis:"
+	cont "La Historia de los"
+	cont "#mon Extintos”."
 
 	para "¡Suena muy"
 	line "interesante!"
 	done
 
 CeladonUniversityLibrary2FBookshelf17Text:
-	text "Es un libro lla-"
-	line "mado “Etiquetado:"
-
-	para "El Misterio de"
-	line "Sudowoodo”."
+	text "Es un libro sobre"
+	line "“El Misterio de"
+	cont "Sudowoodo”."
 	done
 
 CeladonUniversityLibrary2FBookshelf18Text:
 	text "Es un libro sobre"
 	line "un antiguo árbol"
+	cont "custodiado por"
+	cont "tres titanes."
 
-	para "guardado por tres"
-	line "titanes."
-
-	para "Se ve casi má-"
-	line "gico."
+	para "Parece algo"
+	line "mágico."
 	done
 
 CeladonUniversityLibrary2FBookshelf19Text:

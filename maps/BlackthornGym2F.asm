@@ -67,13 +67,11 @@ GenericTrainerCooltrainermCody:
 
 	text "Los miembros de"
 	line "nuestro clan de"
-	cont "domadragones"
-
-	para "solo pueden usar"
-	line "dragones cuando"
-
-	para "el Maestro se lo"
-	line "permita."
+	cont "domadragones solo"
+	cont "pueden usar"
+	cont "dragones cuando"
+	cont "el Maestro se lo"
+	cont "permita."
 	done
 
 .SeenText:
@@ -96,13 +94,13 @@ GenericTrainerCooltrainerfFran:
 	done
 
 .SeenText:
-	text "¡No puedo permi-"
-	line "tir que pase un"
-	cont "entrenador sin"
+	text "¡No puedo"
+	line "permitir que pase"
+	cont "un entrenador sin"
 	cont "nombre!"
 
-	para "¡Débora se pon-"
-	line "dría furiosa!"
+	para "¡Débora se pondría"
+	line "furiosa!"
 	done
 
 .BeatenText:

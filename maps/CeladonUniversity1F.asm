@@ -43,30 +43,24 @@ CeladonUniversity1F_MapScriptHeader:
 	object_event 23, 13, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversity1FCooltrainerfText, -1
 
 CeladonUniversity1FSuperNerdText:
-	text "Algunos académi-"
-	line "cos creen que hay"
+	text "Varios expertos"
+	line "creen que existen"
+	cont "otros universos"
+	cont "paralelos a este."
 
-	para "otros universos"
-	line "paralelos a este."
-
-	para "¿Significa eso que"
-	line "hay un universo"
-
-	para "sin #mon?"
+	para "¿Significa que hay"
+	line "un universo sin"
+	cont "#mon?"
 
 	para "¡Sería trágico!"
 	done
 
 CeladonUniversity1FLassText:
-	text "Este lugar ofre-"
-	line "ce cursos de es-"
-	cont "tudio"
-
-	para "en todo, ¡desde"
-	line "arreglos florales"
-
-	para "hasta psicología"
-	line "#mon!"
+	text "Aquí dan cursos"
+	line "de todo, ¡desde"
+	cont "arreglos florales"
+	cont "hasta psicología"
+	cont "#mon!"
 	done
 
 CeladonUniversity1FCooltrainermText:
@@ -75,11 +69,9 @@ CeladonUniversity1FCooltrainermText:
 	cont "entrenadores"
 	cont "#mon."
 
-	para "Para que te ofrez-"
-	line "can una plaza, de-"
-
-	para "bes aprobar unos"
-	line "tests de combates"
+	para "Para entrar debes"
+	line "aprobar unos tests"
+	cont "de combates"
 	cont "#mon."
 	done
 
@@ -90,13 +82,13 @@ CeladonUniversity1FYoungsterText:
 
 	para "¡Es un símbolo de"
 	line "que todos pueden"
-	cont "llegar a la gran-"
-	cont "deza!"
+	cont "alcanzar la"
+	cont "grandeza!"
 	done
 
 CeladonUniversity1FChildText:
-	text "¡Uf! No encuen-"
-	line "tro mi clase…"
+	text "¡Uf! No encuentro"
+	line "mi clase…"
 
 	para "¡Llegaré tarde!"
 	done
@@ -104,41 +96,36 @@ CeladonUniversity1FChildText:
 CeladonUniversity1FPokefanmText:
 	text "¡Soy el conserje!"
 
-	para "¡Ten cuidado, el"
-	line "suelo está moja-"
-	cont "do!"
+	para "¡Cuidado, el suelo"
+	line "está mojado!"
 	done
 
 CeladonUniversity1FReceptionistText:
-	text "¡Te damos la bien-"
-	line "venida a la Univ."
-	cont "de Azulona!"
+	text "¡Bienvenido a la"
+	line "Univ. de Azulona!"
 
-	para "Las aulas y la ofi"
-	line "cina del director"
-	cont "están al fondo."
+	para "Las aulas y la"
+	line "Dirección están al"
+	cont "fondo."
 
-	para "La biblioteca a tu"
-	line "derecha, la sala"
-
-	para "de estudiantes a"
-	line "tu izquierda."
+	para "La biblioteca está"
+	line "a la derecha y la"
+	cont "sala de estar a la"
+	cont "izquierda."
 
 	para "La cafetería,"
-	line "piscina y enfer-"
-	cont "mería están arri-"
-	cont "ba."
+	line "la piscina y la"
+	cont "enfermería están"
+	cont "arriba."
 	done
 
 CeladonUniversity1FCooltrainerfText:
 	text "Estudio para ser"
 	line "enfermera #mon."
 
-	para "Con tantas espe-"
-	line "cies ahí fuera,"
-
-	para "¡hay muchísimo que"
-	line "aprender!"
+	para "¡Con tantas"
+	line "especies hay mucho"
+	cont "que aprender!"
 	done
 
 CeladonUniversity1FPrincipalsOfficeSignText:

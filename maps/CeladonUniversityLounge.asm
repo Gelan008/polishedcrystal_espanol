@@ -68,29 +68,26 @@ CeladonUniversityLoungeNeeshaScript:
 
 .IntroText1:
 	text "¡Hola! Soy Neesha."
-	line "Soy de los cuatro"
+	line "¡Soy una de los"
+	cont "cuatro mejores de"
+	cont "esta universidad!"
 
-	para "mejores entrena-"
-	line "dores de la Univ."
-	cont "de Azulona."
+	para "¡Nos llaman los"
+	line "Cuatro de Azulona!"
 
-	para "¡Se nos conoce co-"
-	line "mo los Cuatro de"
-	cont "Azulona!"
-
-	para "¿Quieres que te"
-	line "enseñe por qué so-"
-	cont "mos tan famosos?"
+	para "¿Quieres ver por"
+	line "qué somos tan"
+	cont "famosos?"
 
 	para "¡Pues a luchar!"
 	done
 
 .IntroText2:
 	text "¡Hola! Soy Neesha."
-	line "¡Soy de los Cua-"
-	cont "tro de Azulona!"
+	line "¡Soy de los"
+	cont "Cuatro de Azulona!"
 
-	para "Parece que has"
+	para "Parece que ya has"
 	line "oído hablar de"
 	cont "nosotros."
 
@@ -114,19 +111,16 @@ CeladonUniversityLoungeNeeshaScript:
 
 .AfterText1:
 	text "¡Eres un rival"
-	line "digno!"
+	line "muy digno!"
 
-	para "Pero no has visto"
-	line "todo lo que"
+	para "Pero aún no has"
+	line "visto lo que los"
+	cont "Cuatro de Azulona"
+	cont "pueden hacer."
 
-	para "los Cuatro de"
-	line "Azulona pueden"
-	cont "hacer."
-
-	para "¿Por qué no bus-"
-	line "cas al resto de"
-	cont "nosotros y los"
-	cont "desafías?"
+	para "¿Por qué no buscas"
+	line "al resto para"
+	cont "desafiarlos?"
 	done
 
 .AfterText2:
@@ -141,11 +135,9 @@ CeladonUniversityLoungeNeeshaScript:
 	done
 
 .FinalText:
-	text "No suele pasar que"
-	line "alguien dé a los"
-
-	para "Cuatro de Azulona"
-	line "un desafío real."
+	text "Pocos han logrado"
+	line "desafiar así a los"
+	cont "Cuatro de Azulona."
 
 	para "¡No te olvidaré,"
 	line "entrenador!"
@@ -161,27 +153,23 @@ CeladonUniversityLoungeLassText:
 	done
 
 CeladonUniversityLoungeRichBoyText:
-	text "¿Alguna vez te has"
-	line "preguntado por qué"
+	text "¿Te has preguntado"
+	line "por qué las"
+	cont "Ultra Balls llevan"
+	cont "una H amarilla"
+	cont "arriba del todo?"
 
-	para "las Ultra Balls"
-	line "tienen una letra"
-	cont "H amarilla en lo"
-	cont "más alto?"
-
-	para "¡Es porque prime-"
-	line "ro se llamaron"
+	para "¡Es porque antes"
+	line "se llamaban"
 	cont "Hyper Balls!"
 	done
 
 CeladonUniversityLoungeCooltrainerfText:
-	text "Los #mon con"
-	line "su fuerza física"
-
-	para "reducida intentan"
-	line "instintivamente"
-	cont "entrar en una"
-	cont "# Ball."
+	text "Los #mon con su"
+	line "fuerza reducida"
+	cont "intentan entrar"
+	cont "por instinto en"
+	cont "una # Ball."
 	done
 
 CeladonUniversityLoungeSuper_nerd1Text:
@@ -226,10 +214,9 @@ CeladonUniversityLoungeBookshelf2:
 .Text1:
 	text "¡Este libro tiene"
 	line "un compartimento"
-
-	para "secreto donde de-"
-	line "berían estar las"
-	cont "páginas!"
+	cont "secreto donde"
+	cont "deberían estar"
+	cont "las páginas!"
 	done
 
 .Text2:

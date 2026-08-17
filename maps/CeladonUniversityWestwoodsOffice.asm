@@ -32,54 +32,47 @@ CeladonUniversityWestwoodsOfficeChildScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Mejor compraré un"
-	line "ramen en la cafe-"
-	cont "tería."
+	text "Mejor me compro un"
+	line "ramen en la"
+	cont "cafetería."
 	done
 
 .Text1:
 	text "¡Me dijeron que"
-	line "habría pizza gra-"
-	cont "tis aquí!"
+	line "había pizza gratis"
 
 	para "¿Dónde está?"
 
 	para "¡Estoy FURIOSO!"
 
-	para "…Tal vez debería"
-	line "dejar de comer"
+	para "…Quizás deba dejar"
+	line "de comer"
 if DEF(FAITHFUL)
 	cont "Caramelos Furia."
 else
 	cont "Pasteles Furia."
 endc
 
-	para "Puedes quedarte"
-	line "con este."
+	para "Quédate con esto."
 	done
 
 CeladonUniversityWestwoodsOfficeBookText:
 	text "Querido diario:"
 
-	para "Mi trabajo reco-"
-	line "pilando entradas"
-	cont "para la #dex"
+	para "Mi recopilación de"
+	line "datos de la"
+	cont "#dex sigue"
+	cont "teniendo muy buena"
+	cont "acogida."
 
-	para "sigue teniendo"
-	line "una buena acogida."
+	para "¡Demuestra que no"
+	line "hace falta salir"
+	cont "del despacho para"
+	cont "tener gran éxito!"
 
-	para "¡Prueba de que uno"
-	line "no siempre necesi-"
-
-	para "ta salir de la"
-	line "oficina para te-"
-	cont "ner éxito!"
-
-	para "Usar informes a-"
-	line "portados por otros"
-
-	para "hace el trabajo"
-	line "igual de bien."
+	para "¡Usar informes de"
+	line "otros funciona"
+	cont "igual de bien!"
 	done
 
 CeladonUniversityWestwoodsOfficeSignpost1Text:

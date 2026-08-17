@@ -27,19 +27,16 @@ CeladonDeptStore2FPokefanMText:
 	line "serlo."
 
 	para "Me impresiona la"
-	line "selección de obje-"
-	cont "tos tan prácticos."
+	line "variedad de"
+	cont "objetos tan útiles"
 	done
 
 CeladonDeptStore2FYoungsterText:
-	text "A mi padre le está"
-	line "costando aprender-"
-
-	para "se los nombres de"
-	line "los objetos y cómo"
-
-	para "se supone que se"
-	line "usan…"
+	text "A mi padre le"
+	line "cuesta aprenderse"
+	cont "los nombres de los"
+	cont "objetos y cómo se"
+	cont "usan…"
 	done
 
 CeladonDeptStore2FDirectoryText:

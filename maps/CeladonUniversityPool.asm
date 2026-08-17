@@ -63,26 +63,23 @@ CeladonUniversityPoolFergusScript:
 	jumpopenedtext .FinalText
 
 .IntroText1:
-	text "¡Mi nombre es"
-	line "Fergus! Soy de los"
-
-	para "cuatro mejores en-"
-	line "trenadores de la"
-	cont "Univ. de Azulona."
+	text "¡Me llamo Fergus!"
+	line "¡Soy de los cuatro"
+	cont "mejores de la"
+	cont "Univ. de Azulona!"
 
 	para "¡Nos llaman los"
 	line "Cuatro de Azulona!"
 
 	para "¡Te demostraré en"
 	line "un combate cómo"
-	cont "me gané mi"
-	cont "reputación!"
+	cont "gané mi puesto!"
 	done
 
 .IntroText2:
 	text "¡Me llamo Fergus!"
-	line "¡Soy de los Cua-"
-	cont "tro de Azulona!"
+	line "¡Soy de los"
+	cont "Cuatro de Azulona!"
 
 	para "¿Vas a enfrentarte"
 	line "a los cuatro?"
@@ -92,9 +89,9 @@ CeladonUniversityPoolFergusScript:
 	done
 
 .NoBattleText:
-	text "Entonces no te me"
-	line "cruces en el cami-"
-	cont "no."
+	text "¡Entonces no te"
+	line "cruces en mi"
+	cont "camino!"
 	done
 
 .SeenText:
@@ -107,16 +104,14 @@ CeladonUniversityPoolFergusScript:
 	done
 
 .AfterText1:
-	text "He pasado mucho"
-	line "tiempo entrenando"
-	cont "a mi equipo, pero"
-	cont "ganaste igual."
+	text "Entrené mucho a mi"
+	line "equipo, pero me"
+	cont "has ganado igual."
 
-	para "Con tu fuerza, de-"
-	line "berías enfrentarte"
-
-	para "al resto de los"
-	line "Cuatro de Azulona."
+	para "Con tu nivel,"
+	line "deberías buscar"
+	cont "al resto de los"
+	cont "Cuatro de Azulona."
 	done
 
 .AfterText2:
@@ -127,18 +122,16 @@ CeladonUniversityPoolFergusScript:
 	para "¡Eres realmente"
 	line "fuerte!"
 
-	para "¡Te has ganado es-"
-	line "ta recompensa!"
+	para "¡Te has ganado"
+	line "esta recompensa!"
 	done
 
 .FinalText:
-	text "Los Cuatro de Azu-"
-	line "lona somos impor-"
-	cont "tantes aquí, pero"
-
-	para "tú estás haciendo"
-	line "olas en el mundo"
-	cont "real."
+	text "Los Cuatro de"
+	line "Azulona destacamos"
+	cont "aquí, pero tú"
+	cont "marcas época en el"
+	cont "mundo real."
 
 	para "¡Sigue así!"
 	done
@@ -146,22 +139,19 @@ CeladonUniversityPoolFergusScript:
 CeladonUniversityPoolLassText:
 	text "¡Ay!"
 
-	para "Estoy tratando de"
-	line "quitarme un calam-"
-	cont "bre de la pierna."
+	para "Tengo un calambre"
+	line "en la pierna…"
 	done
 
 CeladonUniversityPoolSwimmer_girlText:
 	text "Pedí entrar a un"
 	line "programa especial"
+	cont "para estudiar en"
+	cont "las Islas Espuma."
 
-	para "para estudiar en"
-	line "las Islas Espuma."
-
-	para "Necesito estar"
-	line "preparada para su"
-	cont "corriente inten-"
-	cont "sa."
+	para "Debo prepararme"
+	line "para su fuerte"
+	cont "corriente."
 	done
 
 CeladonUniversityPoolTeacherText:

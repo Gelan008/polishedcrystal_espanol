@@ -103,12 +103,13 @@ CeladonCafeFisher3:
 ChefText_Eatathon:
 	text "¡Hola!"
 
-	para "Celebramos un con-"
-	line "curso de tragones."
+	para "Celebramos un"
+	line "concurso de"
+	cont "tragones."
 
-	para "No podemos ser-"
-	line "virte ahora. Lo"
-	cont "siento."
+	para "No podemos"
+	line "servirte ahora."
+	cont "Lo siento."
 	done
 
 Fisher1Text_Snarfle:
@@ -160,8 +161,8 @@ TeacherText_NoCoinCase:
 TeacherText_KeepEating:
 	text "Masc… Masc…"
 
-	para "¡Puedo seguir co-"
-	line "miendo!"
+	para "¡Puedo seguir"
+	line "comiendo!"
 	done
 
 TeacherText_MoreChef:
@@ -177,8 +178,9 @@ MayleneText2:
 	text "¡El concurso de"
 	line "tragones!"
 
-	para "Nunca soñé con al-"
-	line "go tan increíble."
+	para "Nunca soñé con"
+	line "algo tan"
+	cont "increíble."
 
 	para "Tras una estricta"
 	line "dieta al entrenar,"
@@ -188,17 +190,17 @@ MayleneText2:
 	para "Además el ganador"
 	line "come gratis."
 
-	para "¡Es un sueño he-"
-	line "cho realidad!"
+	para "¡Es un sueño hecho"
+	line "realidad!"
 	done
 
 MayleneText3:
 	text "Empiezo a sentirme"
 	line "llena…"
 
-	para "Um, para descan-"
-	line "sar, ¿quieres lu-"
-	cont "char conmigo?"
+	para "Um, para descansar"
+	line "¿quieres luchar"
+	cont "conmigo?"
 	done
 
 MayleneRefusedText:
@@ -208,9 +210,9 @@ MayleneRefusedText:
 MayleneSeenText:
 	text "¡Vale! ¡Rei!"
 
-	para "Oh, esa es mi re-"
-	line "verencia antes de"
-	cont "un combate."
+	para "Oh, esa es mi"
+	line "reverencia antes"
+	cont "de un combate."
 
 	para "¡Voy a darlo todo"
 	line "contra ti!"
@@ -234,20 +236,19 @@ MayleneAfterText:
 
 CeladonCafeBakerText:
 	text "Trabajo aquí"
-	line "porque puedo"
-
-	para "comer cuando"
-	line "quiera. Simple."
+	line "porque puedo comer"
+	cont "cuando quiera."
+	cont "Simple."
 	done
 
 EatathonContestPosterText:
-	text "¡Concurso de tra-"
-	line "gones! ¡Sin límite"
-	cont "de tiempo!"
+	text "¡Concurso de"
+	line "tragones! ¡Sin"
+	cont "límite de tiempo!"
 
 	para "¡Un combate sin"
-	line "fin! ¡El más tra-"
-	cont "gón se lo lleva"
+	line "fin! ¡El mayor"
+	cont "tragón se lo lleva"
 	cont "todo gratis!"
 	done
 

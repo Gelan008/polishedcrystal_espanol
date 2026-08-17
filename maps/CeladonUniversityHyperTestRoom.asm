@@ -143,12 +143,12 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	playsound SFX_WRONG
 	jumpthisopenedtext
 
-	text "Lo siento, ¡es in-"
-	line "correcto!"
+	text "Lo siento,"
+	line "¡es incorrecto!"
 
-	para "Puedes intentar de"
-	line "nuevo el Test Ex-"
-	cont "tremo mañana."
+	para "Podrás repetir el"
+	line "Test Extremo"
+	cont "mañana."
 	done
 
 .GreetingText:
@@ -169,29 +169,27 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .QuestionText:
-	text "Ejem. ¿Qué de-"
-	line "cías?"
+	text "Ejem. ¿Qué"
+	line "decías?"
 
-	para "¿Has venido a ha-"
-	line "cer el Test Ex-"
-	cont "tremo de la Univ."
-	cont "de Azulona?"
+	para "¿Vienes a hacer el"
+	line "Test Extremo de la"
+	cont "Univ. de Azulona?"
 	done
 
 .BeginText:
 	text "¡Excelente!"
 
-	para "El Test Extremo es"
-	line "una serie de seis"
-	cont "preguntas, ¡pro-"
-	cont "bando tus senti-"
-	cont "dos bajo presión!"
+	para "El Test Extremo"
+	line "tiene 6 preguntas,"
+	cont "¡probamos tus"
+	cont "sentidos bajo"
+	cont "presión!"
 
-	para "Si lo pasas, reci-"
-	line "birás un premio"
-
-	para "¡digno de nuestra"
-	line "universidad!"
+	para "Si apruebas,"
+	line "¡tendrás un premio"
+	cont "digno de esta"
+	cont "universidad!"
 	done
 
 .CorrectText:
@@ -247,14 +245,14 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 .Question6IntroText:
 	text "Pregunta 6:"
-	line "¡Piensa con sa-"
-	cont "biduría!"
+	line "¡Piensa con"
+	cont "sabiduría!"
 	done
 
 .Question6QuestionText:
-	text "¿Quién es el pro-"
-	line "fesor más pre-"
-	cont "miado?"
+	text "¿Quién es el"
+	line "profesor más"
+	cont "premiado?"
 	done
 
 .CongratulationsText:
@@ -267,20 +265,18 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	para "Aquí tienes tu"
 	line "premio:"
 
-	para "¡Un Magikarp cria-"
-	line "do con el movi-"
-	cont "miento Furia"
-	cont "Dragón!"
+	para "¡Un Magikarp con"
+	line "el movimiento"
+	cont "Furia Dragón!"
 	done
 
 .TestOverText:
 	text "Nuestros alumnos"
-	line "tienen la tenaci-"
+	line "tienen el tesón de"
+	cont "un Magikarp que"
+	cont "lucha por crecer."
 
-	para "dad de un Magikarp"
-	line "esforzándose por"
-	cont "evolucionar."
-	cont "¡Y tú también!"
+	para "¡Y tú también!"
 	done
 
 .PartyAndBoxFullText:
@@ -295,11 +291,11 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .AlreadyTookText:
-	text "¡Pero ya inten-"
-	line "taste el test hoy!"
+	text "¡Pero ya hiciste"
+	line "el test hoy!"
 
-	para "Puedes intentarlo"
-	line "de nuevo mañana."
+	para "Podrás probar de"
+	line "nuevo mañana."
 	done
 
 
@@ -389,16 +385,13 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 CeladonUniversityHyperTestRoomScientistText:
 	text "El Test Extremo es"
-	line "un rito de"
+	line "un gran rito de"
+	cont "iniciación para"
+	cont "los graduados de"
+	cont "esta universidad."
 
-	para "iniciación para"
-	line "los graduados en"
-	cont "la Univ. de"
-	cont "Azulona."
-
-	para "¡Pone a prueba to-"
-	line "das sus faculta-"
-	cont "des al máximo!"
+	para "¡Pone a prueba"
+	line "tus facultades!"
 	done
 
 CeladonUniversityHyperTestRoomTwin1Text:
@@ -437,9 +430,8 @@ CeladonUniversityHyperTestRoomBookshelf2Text:
 	text "¡Es una copia de"
 	line "Nintendo Acción!"
 
-	para "Una imagen de Pi-"
-	line "kachu llena la"
-	cont "portada."
+	para "La portada tiene"
+	line "un gran Pikachu."
 	done
 
 CeladonUniversityHyperTestRoomComputer:

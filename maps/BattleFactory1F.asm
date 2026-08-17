@@ -61,16 +61,14 @@ BattleFactory1FContinueChallenge:
 	writethistext
 		text "¡Disculpe!"
 		line "No guardó la"
-
-		para "partida antes de"
-		line "salir de la Sala"
+		cont "partida antes de"
+		cont "salir de la Sala"
 		cont "de Batalla."
 
 		para "Lo lamento mucho,"
-		line "pero su desafío se"
-
-		para "declarará no"
-		line "válido."
+		line "pero su desafío"
+		cont "se declarará no"
+		cont "válido."
 		done
 	waitbutton
 	sjumpfwd Script_CommitBattleFactoryResult
@@ -88,9 +86,9 @@ BattleFactory1FContinueChallenge:
 	writethistext
 		text "¡Felicidades!"
 
-		para "¡Has vencido a to-"
-		line "dos los entrena-"
-		cont "dores!"
+		para "¡Has vencido a"
+		line "todos los"
+		cont "entrenadores!"
 
 		para "Por eso, ¡obtienes"
 		line "este gran premio!"
@@ -121,8 +119,8 @@ BattleFactory1FRulesScript:
 	iffalse_endtext
 	jumpthisopenedtext
 		text "Te damos seis"
-		line "#mon de prest-"
-		cont "amo."
+		line "#mon de"
+		cont "préstamo."
 
 		para "Tres #mon"
 		line "podrán combatir."
@@ -131,8 +129,9 @@ BattleFactory1FRulesScript:
 		line "diferentes."
 
 		para "Los objetos que"
-		line "lleven también de-"
-		cont "ben ser distintos."
+		line "lleven también"
+		cont "deben ser"
+		cont "distintos."
 
 		para "Tras ganar un"
 		line "combate, puedes"
@@ -155,13 +154,13 @@ BattleFactory1FStreakText:
 BattleFactory1FReceptionistScript:
 	opentext
 	writethistext
-		text "¡La Fábrica Bata-"
-		line "lla te da la"
+		text "¡La Fábrica"
+		line "Batalla te da la"
 		cont "bienvenida!"
 
 		para "Puedo acompañarte"
-		line "al Piso de comba-"
-		cont "tes."
+		line "al Piso de"
+		cont "combates."
 		done
 	promptbutton
 	checkevent EVENT_BATTLE_FACTORY_INTRO
@@ -187,25 +186,22 @@ BattleFactory1FReceptionistScript:
 
 		para "Entrenadores de"
 		line "#mon acuden"
-
-		para "de todas partes a"
-		line "luchar en el Piso"
+		cont "de todas partes a"
+		cont "luchar en el Piso"
 		cont "de combates."
 
 		para "Cada desafío son"
 		line "7 entrenadores."
 
-		para "Gana a todos y re-"
-		line "cibe PB."
+		para "¡Gana a todos y"
+		line "recibe PB!"
 
 		para "Para interrumpir"
 		line "la sesión, debes"
-
-		para "guardar. Si no, no"
-		line "podrás retomar"
-
-		para "tu desafío del"
-		line "Piso."
+		cont "guardar. Si no, no"
+		cont "podrás retomar"
+		cont "tu desafío del"
+		cont "Piso."
 		prompt
 	; fallthrough
 .BattleFactoryMenu:
@@ -294,10 +290,10 @@ PokemonJournalThortonScript:
 	line "¡Jefe Fábrica"
 	cont "Espinal!"
 
-	para "Se dice que Espi-"
-	line "nal solo cree en"
-
-	para "lo que puede pro-"
-	line "bar numéricamente"
-	cont "con sus inventos."
+	para "Se dice que"
+	line "Espinal solo cree"
+	cont "en lo que puede"
+	cont "probar"
+	cont "numéricamente con"
+	cont "sus inventos."
 	done

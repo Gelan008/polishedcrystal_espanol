@@ -166,20 +166,18 @@ GenericTrainerHexManiacTamara:
 
 	text "Hay poderes en el"
 	line "mundo más allá de"
-
-	para "nuestra compren-"
-	line "sión…"
+	cont "nuestra"
+	cont "comprensión…"
 	done
 
 GenericTrainerFirebreatherNed:
 	generictrainer FIREBREATHER, NED, EVENT_BEAT_FIREBREATHER_NED, FirebreatherNedSeenText, FirebreatherNedBeatenText
 
 	text "¡Los Comefuego"
-	line "conocemos el ver-"
-
-	para "dadero poder del"
-	line "fuego mejor que"
-	cont "nadie!"
+	line "conocemos el"
+	cont "verdadero poder"
+	cont "del fuego mejor"
+	cont "que nadie!"
 	done
 
 BurnedTower1FEusineMovement:
@@ -196,19 +194,18 @@ BurnedTowerRival_BeforeText:
 	para "…Oh, eres tú."
 
 	para "Vine buscando a"
-	line "un #mon legen-"
-	cont "dario que dicen"
-	cont "que anida aquí."
+	line "un #mon"
+	cont "legendario que"
+	cont "dicen que anida"
+	cont "aquí."
 
 	para "¡Pero aquí no hay"
 	line "nada!"
 
-	para "¿Nada después de"
-	line "las molestias de"
-
-	para "venir a este ba-"
-	line "surero? ¡Ni"
-	cont "hablar!"
+	para "¿Nada tras la"
+	line "molestia de venir"
+	cont "a este basurero?"
+	cont "¡Ni hablar!"
 
 	para "¡Todo esto es"
 	line "culpa tuya!"
@@ -217,8 +214,9 @@ BurnedTowerRival_BeforeText:
 BurnedTowerRival_WinText:
 	text "…¡Humpf!"
 
-	para "Por esto odio lu-"
-	line "char con cobardes."
+	para "Por esto odio"
+	line "luchar con"
+	cont "cobardes."
 
 	para "No supone ningún"
 	line "desafío."
@@ -229,17 +227,17 @@ BurnedTowerRival_AfterText1:
 
 	para "Tú nunca serías"
 	line "capaz de atrapar"
-
-	para "a un #mon le-"
-	line "gendario de to-"
-	cont "das formas."
+	cont "a un #mon"
+	cont "legendario de"
+	cont "todas formas."
 	done
 
 BurnedTowerRival_LossText:
 	text "…¡Humpf!"
 
-	para "Por esto odio lu-"
-	line "char con cobardes."
+	para "Por esto odio"
+	line "luchar con"
+	cont "cobardes."
 
 	para "Es solo una"
 	line "pérdida de"
@@ -251,9 +249,8 @@ BurnedTowerRival_AfterText2:
 
 	para "¿Qué haces"
 	line "cayéndote en un"
-
-	para "agujero? ¡Menudo"
-	line "genio estás hecho!"
+	cont "agujero? ¡Menudo"
+	cont "genio eres!"
 
 	para "¡Te lo mereces!"
 	done
@@ -263,57 +260,51 @@ BurnedTower1FEusineIntroText:
 	line "Eusine."
 
 	para "Sigo el rastro de"
-	line "un #mon llama-"
-	cont "do Suicune."
+	line "un #mon llamado"
+	cont "Suicune."
 
 	para "¿Y tú eres...?"
 
-	para "¿<PLAYER>? ¡Encan-"
-	line "tado de conocerte!"
+	para "¿<PLAYER>? ¡Mucho"
+	line "gusto en"
+	cont "conocerte!"
 
-	para "Oí rumores de"
-	line "que Suicune está"
+	para "Oí rumores de que"
+	line "Suicune está en"
+	cont "la Torre Quemada,"
+	cont "así que vine aquí."
 
-	para "en la Torre"
-	line "Quemada, así que"
-	cont "vine a ver."
-
-	para "Pero ¿dónde po-"
-	line "dría estar exac-"
-	cont "tamente?"
+	para "¿Pero dónde podría"
+	line "estar"
+	cont "exactamente?"
 	done
 
 BurnedTower1FEusineText:
 	text "Eusine: Oí rumores"
 	line "de que Suicune"
-	cont "está en"
-
-	para "esta Torre Que-"
-	line "mada, así que"
+	cont "está en la Torre"
+	cont "Quemada, así que"
 	cont "vine a ver."
 
-	para "Pero ¿dónde po-"
-	line "dría estar exac-"
-	cont "tamente?"
+	para "¿Pero dónde podría"
+	line "estar"
+	cont "exactamente?"
 	done
 
 BurnedTower1FMortyText:
-	text "Morty: El Líder"
+	text "Morti: El Líder"
 	line "del Gimnasio de"
 	cont "Iris tiene que"
-
-	para "estudiar a los que"
-	line "dicen ser"
-
-	para "#mon legenda-"
-	line "rios: Suicune,"
-	cont "Entei y Raikou."
+	cont "estudiar a los"
+	cont "#mon"
+	cont "legendarios:"
+	cont "Suicune, Entei"
+	cont "y Raikou."
 
 	para "Eusine está aquí,"
-	line "así que he decidi-"
-
-	para "do investigar la"
-	line "Torre con él."
+	line "así que decidí"
+	cont "investigar la"
+	cont "Torre con él."
 	done
 
 HexManiacTamaraSeenText:
@@ -327,21 +318,20 @@ HexManiacTamaraBeatenText:
 
 FirebreatherNedSeenText:
 	text "Mi alma está en"
-	line "llamas. ¡Te mos-"
-
-	para "traré lo mucho"
-	line "que arde!"
+	line "llamas. ¡Te"
+	cont "mostraré lo mucho"
+	cont "que arde!"
 	done
 
 FirebreatherNedBeatenText:
-	text "Aún no hace bas-"
-	line "tante calor…"
+	text "Aún no hace"
+	line "bastante calor…"
 	done
 
 FirebreatherDickBeforeText:
-	text "¡Oye, estoy en-"
-	line "trenando en se-"
-	cont "creto aquí!"
+	text "¡Oye, estoy"
+	line "entrenando en"
+	cont "secreto aquí!"
 
 	para "¡No me avergüences"
 	line "mirando!"
@@ -353,9 +343,9 @@ FirebreatherDickBeatenText:
 	done
 
 FirebreatherDickAfterText:
-	text "Estaba tan concen-"
-	line "trado entrenando"
-
-	para "que me caí por"
-	line "este agujero."
+	text "Estaba tan"
+	line "concentrado"
+	cont "entrenando que me"
+	cont "caí por este"
+	cont "agujero."
 	done

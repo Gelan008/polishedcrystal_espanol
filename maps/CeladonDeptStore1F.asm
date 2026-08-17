@@ -28,14 +28,13 @@ CeladonDeptStore1FReceptionistText:
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "Este Centro Comer-"
-	line "cial es de la mis-"
+	text "Este Centro"
+	line "Comercial es de la"
+	cont "misma cadena que"
+	cont "el de Trigal."
 
-	para "ma cadena que el"
-	line "de Ciudad Trigal."
-
-	para "Ambos fueron reno-"
-	line "vados al mismo"
+	para "Ambos fueron"
+	line "renovados al mismo"
 	cont "tiempo."
 	done
 
@@ -43,10 +42,9 @@ CeladonDeptStore1FTeacherText:
 	text "Es la primera vez"
 	line "que vengo."
 
-	para "Es tan grande…"
-
-	para "Me temo que me voy"
-	line "a perder."
+	para "¡Es tan grande!"
+	line "Me da miedo"
+	cont "perderme."
 	done
 
 CeladonDeptStore1FDirectoryText:

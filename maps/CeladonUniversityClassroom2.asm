@@ -48,33 +48,31 @@ CeladonUniversityClassroom2TeacherText:
 
 CeladonUniversityClassroom2YoungsterText:
 	text "¡Hojeando mis"
-	line "apuntes a la velo-"
-	cont "cidad de--AY!"
-	cont "Me he cortado…"
+	line "apuntes a la"
+	cont "velocidad de…"
+
+	para "¡AY!"
+
+	para "Me he cortado…"
 	done
 
 CeladonUniversityClassroom2ChildText:
-	text "Tuvimos una"
-	line "clase del Prof."
+	text "El Prof. Westwood"
+	line "nos dio una clase"
+	cont "sobre sus aportes"
+	cont "a la #dex."
 
-	para "Westwood sobre sus"
-	line "contribuciones a"
-	cont "la #dex."
-
-	para "Escuché que"
-	line "hacia el final"
-
-	para "¡se volvió perez-"
-	line "oso e inventó la"
-	cont "mitad!"
+	para "¡Dicen que hacia"
+	line "el final le dio"
+	cont "pereza e inventó"
+	cont "la mitad!"
 	done
 
 CeladonUniversityClassroom2LadyText:
 	text "¿Eres de Johto?"
 	line "¡Esa región tiene"
-
-	para "una historia tan"
-	line "fascinante!"
+	cont "una historia"
+	cont "fascinante!"
 	done
 
 CeladonUniversityClassroom2CooltrainermScript:
@@ -95,51 +93,49 @@ CeladonUniversityClassroom2CooltrainermScript:
 	line "Me asustaste."
 
 	para "Me quedé despierto"
-	line "hasta tarde aca-"
-
-	para "bando un trabajo,"
-	line "así que estoy ex-"
-	cont "hausto."
+	line "hasta tarde para"
+	cont "acabar un trabajo,"
+	cont "y estoy agotado."
 	done
 
 CeladonUniversityClassroom2BlackboardText:
-	text "Hay una cronología"
-	line "de historia."
+	text "Cronología de la"
+	line "historia:"
 
 	para "Hace 400 años:"
-	line "Se inventa el mo-"
-	cont "vimiento Tóxico."
+	line "Se inventó el"
+	cont "movimiento Tóxico."
 
 	para "Hace 71 años:"
-	line "Se desarrolla la"
+	line "Se desarrolló la"
 	cont "# Ball moderna."
 
 	para "Hace 27 años:"
-	line "Primer aterriza-"
-	cont "je en la Luna."
+	line "Primer alunizaje"
+	cont "en la Luna."
 
 	para "Hace tres años:"
-	line "Se crea el primer"
+	line "Se creó el primer"
 	cont "#mon virtual."
 
-	para "“Hipótesis: la te-"
-	line "cnología crece de"
-	cont "forma exponencial”"
+	para "“Hipótesis: la"
+	line "tecnología crece"
+	cont "exponencialmente”"
+
 	done
 
 CeladonUniversityClassroom2Bookshelf1Text:
 	text "Es un libro sobre"
 if DEF(FAITHFUL)
-	line "cómo la Torre La-"
-	cont "tón de Iris ardió"
-
-	para "hace 150 años."
+	line "cómo la Torre"
+	cont "Latón de Iris se"
+	cont "quemó hace 150"
+	cont "años."
 else
 	line "cómo la Torre"
-	cont "Gong de Iris"
-
-	para "ardió hace 150"
-	line "años."
+	cont "Latón de Iris se"
+	cont "quemó hace 150"
+	cont "años."
 endc
 	done
 

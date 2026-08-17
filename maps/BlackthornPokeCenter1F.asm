@@ -31,10 +31,9 @@ PokemonJournalClairScript:
 
 	para "El traje y la capa"
 	line "azul brillante de"
-	cont "Débora"
-
-	para "la han convertido"
-	line "en la última moda."
+	cont "Débora la han"
+	cont "convertido en la"
+	cont "última moda."
 	done
 
 ProfOaksAide4Script:
@@ -73,31 +72,29 @@ ProfOaksAide4Script:
 .ExplainText:
 	text "Ese Huevo Suerte"
 	line "ayuda a un #mon"
+	cont "a ganar más"
+	cont "experiencia de"
+	cont "lo normal."
 
-	para "a ganar más expe-"
-	line "riencia de lo nor-"
-	cont "mal."
-
-	para "¡Úsalo para com-"
-	line "pletar la #dex!"
+	para "¡Úsalo para"
+	line "completar la"
+	cont "#dex!"
 	done
 
 .HiText:
-	text "¡Hola! Soy el ayu-"
-	line "dante del Prof."
-	cont "Oak."
+	text "¡Hola! Soy el"
+	line "ayudante del"
+	cont "Profesor Oak."
 
-	para "Si atrapas a 60"
+	para "Si atrapas 60"
 	line "tipos de #mon,"
-
-	para "debo darte un"
-	line "objeto."
+	cont "debo darte un"
+	cont "objeto."
 
 	para "Así que, <PLAYER>,"
 	line "¿has atrapado al"
-
-	para "menos 60 tipos de"
-	line "#mon?"
+	cont "menos 60 tipos de"
+	cont "#mon?"
 	done
 
 .HereYouGoText:
@@ -120,30 +117,26 @@ ProfOaksAide4Script:
 	done
 
 BlackthornPokeCenter1FGentlemanText:
-	text "En lo más profun-"
-	line "do de la lejana"
-	cont "Meseta Añil"
+	text "En lo más profundo"
+	line "de la lejana"
+	cont "Meseta Añil está"
+	cont "la Liga #mon."
 
-	para "está la Liga"
-	line "#mon."
-
-	para "Escuché que los"
-	line "mejores entrena-"
-
-	para "dores se reúnen"
-	line "ahí de todo el"
-	cont "país."
+	para "Dicen que los"
+	line "mejores"
+	cont "entrenadores del"
+	cont "país se reúnen"
+	cont "allí."
 	done
 
 BlackthornPokeCenter1FTwinText:
-	text "Había este movi-"
-	line "miento que tenía"
-
-	para "que enseñarle a mi"
-	line "#mon."
+	text "Había un"
+	line "movimiento que"
+	cont "quería enseñarle"
+	cont "a mi #mon."
 
 	para "Así que fui al"
-	line "Quita-movimientos"
-	cont "para que olvide un"
-	cont "movimiento MO."
+	line "Quitamovimientos"
+	cont "para que olvidara"
+	cont "un movimiento MO."
 	done

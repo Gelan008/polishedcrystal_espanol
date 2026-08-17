@@ -184,9 +184,8 @@ GenericTrainerSwimmermThomas:
 	generictrainer SWIMMERM, THOMAS, EVENT_BEAT_SWIMMERM_THOMAS, .SeenText, .BeatenText
 
 	text "Mi #mon sabe"
-	line "usar Surf, pero"
-
-	para "prefiero nadar."
+	line "usar Surf, pero yo"
+	cont "prefiero nadar."
 	done
 
 .SeenText:
@@ -208,11 +207,10 @@ GenericTrainerSwimmerfSally:
 	done
 
 .SeenText:
-	text "Me gusta la bahía"
-	line "Sus aguas son"
-
-	para "más tranquilas que"
-	line "en mar abierto."
+	text "Me gusta la bahía."
+	line "Sus aguas son más"
+	cont "tranquilas que en"
+	cont "mar abierto."
 	done
 
 .BeatenText:
@@ -232,10 +230,8 @@ TrainerSwimmerfTara:
 	cont "de Ciudad Cerezo."
 
 	para "Dicen que aves"
-	line "#mon raras"
-
-	para "vienen de lejos a"
-	line "anidar allí."
+	line "#mon raras van"
+	cont "a anidar allí."
 	done
 
 .SeenText:
@@ -253,22 +249,19 @@ GenericTrainerHikerTony:
 	generictrainer HIKER, TONY, EVENT_BEAT_HIKER_TONY, .SeenText, .BeatenText
 
 	text "Tras una larga"
-	line "caminata, ¡vi lo"
+	line "caminata, ¡vi un"
+	cont "ave enorme volando"
+	cont "por aquí!"
 
-	para "que parecía un ave"
-	line "grande volando por"
-	cont "aquí!"
-
-	para "¿A dónde iba y"
-	line "por qué?"
+	para "¿Adónde iba y por"
+	line "qué?"
 	done
 
 .SeenText:
-	text "¡Caminé km por"
-	line "el bosque solo"
-
-	para "para ver al ave"
-	line "#mon legendaria"
+	text "¡He caminado mucho"
+	line "por el bosque para"
+	cont "ver al ave #mon"
+	cont "legendaria!"
 	done
 
 .BeatenText:
@@ -280,15 +273,13 @@ CherrygroveBayFisherText:
 	line "Cerezo desde lejos"
 	cont "mientras pesco."
 
-	para "¡Ah! Y el otro día"
-	line "también vi unas"
+	para "¡Ah! El otro día"
+	line "vi unas aves muy"
+	cont "grandes."
 
-	para "aves realmente"
-	line "grandes."
-
-	para "¿Creo que iban a"
-	line "ese viejo árbol"
-	cont "gigante de cerca?"
+	para "¿Iban hacia el"
+	line "árbol gigante de"
+	cont "por aquí?"
 	done
 
 CherrygroveBayHikerText:
@@ -300,18 +291,15 @@ CherrygroveBayHikerText:
 
 	para "¡Johto se formó"
 	line "durante millones"
-
-	para "de años gracias al"
-	line "poder de la"
-	cont "tierra!"
+	cont "de años gracias a"
+	cont "la tierra viva!"
 	done
 
 Text_CherrygroveBayTutorEarthPower:
 	text "Puedo enseñar a tu"
 	line "#mon a usar"
-
-	para "Tierra Viva por"
-	line "una Hoja Plata."
+	cont "Tierra Viva por"
+	cont "una Hoja Plata."
 	done
 
 Text_CherrygroveBayTutorQuestion:

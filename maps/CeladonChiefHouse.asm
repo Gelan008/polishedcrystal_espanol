@@ -16,9 +16,9 @@ CeladonChiefHouse_MapScriptHeader:
 	object_event  1,  3, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonChiefHouseCooltrainerMText, -1
 
 CeladonChiefHouseCooltrainerMText:
-	text "¡El Casino nos es-"
-	line "tá dando un mon-"
-	cont "tón de dinero!"
+	text "¡El Casino nos"
+	line "está dando un"
+	cont "montón de dinero!"
 
 	para "Además, es todo"
 	line "legal. ¡En serio!"

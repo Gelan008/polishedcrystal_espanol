@@ -43,16 +43,13 @@ CinnabarIslandBlue:
 	ifgreater 14, .Ready
 	jumpthisopenedtext
 
-	text "Si quieres luchar"
-	line "contra mí, mués-"
+	text "Para luchar contra"
+	line "mí, enséñame tus"
+	cont "Medallas de Kanto."
 
-	para "trame cuántas"
-	line "Medallas de Kanto"
-	cont "tienes."
-
-	para "Menos de siete…"
-	line "No estás pre-"
-	cont "parado."
+	para "¿Menos de siete?"
+	line "Aún no estás listo"
+	cont "para esto."
 	done
 
 .Ready
@@ -69,89 +66,70 @@ CinnabarIslandBlueText:
 	text "¿Quién eres tú?"
 
 if !DEF(DEBUG)
-	para "Bueno, está claro"
-	line "que eres"
-	cont "entrenador…"
+	para "Bueno, se nota que"
+	line "eres entrenador…"
 
 	para "Me llamo Azul."
 
 	para "Fui el Campeón una"
 	line "vez, aunque solo"
-
-	para "fuera por poco"
-	line "tiempo…"
+	cont "por poco tiempo…"
 
 	para "El entrometido de"
 	line "Rojo me venció…"
 
-	para "Como sea, ¿qué"
-	line "quieres? ¿Quieres"
+	para "En fin, ¿qué pasa?"
+	line "¿Quieres retarme?"
 
-	para "desafiarme o"
-	line "algo así?"
+	para "…No me apetece"
+	line "luchar ahora."
 
-	para "…Odio decirlo,"
-	line "pero ahora no"
-
-	para "tengo ganas de"
-	line "combatir."
-
-	para "Echa un buen vis-"
-	line "tazo a tu"
-	cont "alrededor…"
+	para "Mira a tu"
+	line "alrededor…"
 
 	para "Un volcán entra en"
-	line "erupción, y así,"
+	line "erupción y un"
+	cont "pueblo entero se"
+	cont "esfuma sin más."
 
-	para "sin más, un pueblo"
-	line "entero desaparece."
-
-	para "Podemos seguir"
-	line "ganando y perdi-"
-	cont "endo en #mon,"
-
-	para "pero si la natu-"
-	line "raleza se queja,"
-
-	para "podemos perderlo"
-	line "todo en un segundo"
+	para "Podemos ganar o"
+	line "perder combates,"
+	cont "pero si la propia"
+	cont "naturaleza ruge,"
+	cont "podemos perderlo"
+	cont "todo al instante."
 
 	para "…"
 
-	para "Así son las"
-	line "cosas…"
+	para "Así son las cosas…"
 
-	para "Pero bueno, sigo"
+	para "Aun así, sigo"
 	line "siendo entrenador."
 endc
 	done
 
 CinnabarIslandBlueBattleText:
-	text "Si veo un opo-"
-	line "nente fuerte, me"
-	cont "entran ganas de"
-	cont "luchar."
+	text "Si veo un rival"
+	line "fuerte, me dan"
+	cont "ganas de luchar."
 	done
 
 CinnabarIslandBlueReadyText:
-	text "Si quieres comba-"
-	line "tir conmigo, ven"
-	cont "al Gimnasio de"
-	cont "Ciudad Verde."
+	text "Si quieres luchar"
+	line "conmigo, ven al"
+	cont "Gimnasio Verde."
 
-	para "Allí me enfrenta-"
-	line "ré a ti."
+	para "¡Allí aceptaré tu"
+	line "desafío!"
 	done
 
 
 CinnabarIslandGymSignText:
-	text "Hay un aviso"
-	line "aquí…"
+	text "Hay un aviso:"
 
-	para "“El Gimnasio"
-	line "Canela se ha tras-"
-	cont "ladado a las Islas"
-	cont "Espuma.”"
+	para "“El Gimnasio de"
+	line "Canela se mudó a"
+	cont "las Islas Espuma.”"
 
 	para "-- Blaine"
 	done
@@ -168,9 +146,8 @@ CinnabarIslandVolcanoWarningSignText:
 	text "PRECAUCION"
 
 	para "El Volcán de Isla"
-	line "Canela está"
-	cont "dormido, ¡pero"
-	cont "aún activo!"
+	line "Canela duerme,"
+	cont "¡pero está activo!"
 
 	para "¡No entres al"
 	line "volcán sin forma"

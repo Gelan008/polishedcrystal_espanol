@@ -32,28 +32,27 @@ CeladonHotelPoolSwimmerMScript:
 
 .Text2:
 	text "Es un nado"
-	line "bastante relajan-"
-	cont "te…"
+	line "bastante"
+	cont "relajante…"
 	done
 
 .Text1:
-	text "Para nadar despaci"
-	line "to de espaldas, no"
-	cont "necesito mis ga-"
-	cont "-fas."
+	text "Para nadar"
+	line "despacito de"
+	cont "espaldas, no" 
+	cont "necesito mis gafas"
 
-	para "Puedes quedárte-"
-	line "-las."
+	para "Puedes"
+	line "quedártelas."
 	done
 
 CeladonHotelPoolPokefanMText:
 	text "Vaya, la verdad"
 	line "me impresiona."
 
-	para "¡Las instalacio-"
-	line "nes de este ho-"
-	cont "tel no tienen"
-	cont "igual!"
+	para "¡Las instalaciones"
+	line "de este hotel"
+	cont "no tienen igual!"
 	done
 
 CeladonHotelPoolChildText:

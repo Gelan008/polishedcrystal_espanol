@@ -164,28 +164,23 @@ BellchimeTrailValerieScript:
 .IntroText:
 	text "Vaya, si es el"
 	line "entrenador que se"
-	cont "enfrentó a Suicune"
+	cont "enfrentó a"
+	cont "Suicune."
 
-	para "Soy Valeria."
-	line "Vengo a este"
-
-	para "sendero para"
-	line "cautivarme con su"
-	cont "belleza."
+	para "Soy Valeria. Vengo"
+	line "a este sendero"
+	cont "para cautivarme"
+	cont "con su belleza."
 
 	para "Hoy tuve la suerte"
-	line "suficiente para"
-
-	para "presenciar tu com-"
-	line "bate contra una"
+	line "de presenciar tu"
+	cont "combate contra una"
 	cont "leyenda…"
 
 	para "Me encantaría"
 	line "luchar contra"
-
-	para "alguien que llamó"
-	line "la atención de un"
-	cont "#mon"
+	cont "alguien que atrajo"
+	cont "a un #mon"
 	cont "legendario."
 	done
 
@@ -208,10 +203,9 @@ BellchimeTrailValerieScript:
 
 .AcceptedText:
 	text "Valeria: Espero"
-	line "que nuestro com-"
-
-	para "bate te resulte"
-	line "entretenido."
+	line "que nuestro"
+	cont "combate te resulte"
+	cont "entretenido."
 	done
 
 .BeatenText:
@@ -237,15 +231,15 @@ BellchimeTrailValerieScript:
 	done
 
 .FarewellText:
-	text "Valeria: ¿Oh? Va-"
-	line "ya, qué sensación"
-	cont "más curiosa…"
+	text "Valeria: ¿Oh?"
+	line "Vaya, qué"
+	cont "sensación más"
+	cont "curiosa…"
 
 	para "No consigo"
-	line "recordar qué movi-"
-
-	para "miento contiene"
-	line "esa MT."
+	line "recordar qué"
+	cont "movimiento"
+	cont "contiene esa MT."
 
 	para "Espero que me"
 	line "perdones."
@@ -254,45 +248,40 @@ BellchimeTrailValerieScript:
 	line "un combate"
 	cont "cautivador."
 
-	para "Puede que me ha-"
-	line "yas cautivado."
+	para "Puede que me hayas"
+	line "cautivado."
 
 	para "Hasta que volvamos"
 	line "a vernos, adiós."
 	done
 
 .RematchText:
-	text "Valeria: Oh, si no"
-	line "es mi joven"
+	text "Valeria: Oh, pero"
+	line "si es mi joven"
 	cont "entrenador…"
 
 	para "Es un placer"
-	line "volver a verte"
-	cont "de esta manera."
+	line "volver a verte de"
+	cont "esta manera."
 
-	para "Entonces supongo"
-	line "que te has"
-
-	para "ganado el derecho"
-	line "a combatir."
+	para "Supongo que te has"
+	line "ganado el derecho"
+	cont "a combatir."
 
 	para "Las escurridizas"
-	line "Hadas pueden pa-"
-
-	para "recer frágiles"
-	line "como la brisa y"
-
-	para "delicadas como una"
-	line "flor, pero son"
+	line "Hadas pueden"
+	cont "parecer frágiles"
+	cont "como la brisa y"
+	cont "delicadas como una"
+	cont "flor, pero son"
 	cont "fuertes."
 	done
 
 .RematchBeatenText:
-	text "Espero que en-"
-	line "cuentres cosas"
-
-	para "por las que son-"
-	line "reír mañana…"
+	text "Espero que"
+	line "encuentres cosas"
+	cont "por las que"
+	cont "sonreír mañana…"
 	done
 
 .RematchFarewellText:
@@ -300,8 +289,8 @@ BellchimeTrailValerieScript:
 	line "un combate"
 	cont "cautivador."
 
-	para "Puede que me ha-"
-	line "yas cautivado."
+	para "Puede que me hayas"
+	line "cautivado."
 
 	para "Hasta que volvamos"
 	line "a vernos, adiós."

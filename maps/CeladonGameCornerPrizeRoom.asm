@@ -103,8 +103,9 @@ CeladonPrizeRoom_alreadyhavetm:
 CeladonPrizeRoom_notenoughcoins:
 	jumpthisopenedtext
 
-	text "No tienes sufici-"
-	line "entes monedas."
+	text "No tienes"
+	line "suficientes"
+	cont "monedas."
 	done
 
 CeladonPrizeRoom_TMMenuDataHeader:
@@ -218,16 +219,16 @@ CeladonGameCornerPrizeRoomPharmacistText:
 	cont "calmado…"
 
 	para "No puedo perder"
-	line "la cabeza, o per-"
-	cont "deré mi dinero…"
+	line "la cabeza o perderé"
+	cont "mi dinero…"
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:
 	text "¡Bienvenido!"
 
 	para "¡Cambiamos tus"
-	line "monedas por fabu-"
-	cont "losos premios!"
+	line "monedas por"
+	cont "fabulosos premios!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
@@ -269,8 +270,8 @@ CeladonPrizeRoom_NotEnoughRoomText:
 	done
 
 CeladonPrizeRoom_ComeAgainText:
-	text "Oh. ¡Vuelve cuan-"
-	line "do tengas monedas!"
+	text "Oh. ¡Vuelve cuando"
+	line "tengas monedas!"
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:

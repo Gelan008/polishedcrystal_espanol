@@ -27,18 +27,16 @@ PokemonJournalBlaineScript:
 	para "Edición especial:"
 	line "¡Líder Blaine!"
 
-	para "Se dice que Blaine"
+	para "Dicen que Blaine"
 	line "solo se quita las"
-
-	para "gafas cuando se"
-	line "le ocurren nuevos"
-	cont "acertijos."
+	cont "gafas al idear un"
+	cont "nuevo acertijo."
 	done
 
 CinnabarPokeCenter1FCooltrainerfText:
-	text "Al parecer, Blaine"
-	line "el Líder del Gim-"
-	cont "nasio Canela,"
+	text "Dicen que Blaine,"
+	line "el Líder de Gim."
+	cont "de Isla Canela,"
 
 	para "vive solo en la"
 	line "cueva de las Islas"

@@ -83,21 +83,19 @@ BlackthornGymClairScript:
 
 	para "Puedo defenderme"
 	line "incluso contra el"
+	cont "Alto Mando de la"
+	cont "Liga #mon."
 
-	para "Alto Mando de la"
-	line "Liga #mon."
-
-	para "¿Aún quieres en-"
-	line "frentarte a mí?"
+	para "¿Aún quieres"
+	line "enfrentarte a mí?"
 
 	para "…Bien."
 	line "¡Hagámoslo!"
 
 	para "¡Como Líder de"
 	line "Gimnasio, usaré"
-
-	para "todo mi poder"
-	line "contra cualquier"
+	cont "todo mi poder"
+	cont "contra cualquier"
 	cont "oponente!"
 	done
 
@@ -114,13 +112,13 @@ BlackthornGymClairScript:
 
 	para "Puede que haya"
 	line "perdido, pero no"
-
-	para "estás listo para"
-	line "la Liga #mon."
+	cont "estás listo para"
+	cont "la Liga #mon."
 
 	para "Ya sé. Deberías"
 	line "hacer el desafío"
-	cont "maestro Dragón."
+	cont "del maestro"
+	cont "Dragón."
 
 	para "Detrás de este"
 	line "Gimnasio hay un"
@@ -129,25 +127,23 @@ BlackthornGymClairScript:
 
 	para "Hay un pequeño"
 	line "santuario en el"
-	cont "centro."
-	cont "Ve allí."
+	cont "centro. Ve allí."
 
 	para "Si puedes probar"
-	line "que has perdido"
-
-	para "tus ideales pa-"
-	line "rezosos, te reco-"
-
-	para "noceré como un en-"
-	line "trenador digno de"
-	cont "una Medalla."
+	line "que has superado"
+	cont "tus ideales"
+	cont "perezosos, te"
+	cont "reconoceré como un"
+	cont "entrenador digno"
+	cont "de una Medalla."
 	done
 
 .TooMuchToExpectText:
 	text "¿Qué pasa?"
 
-	para "¿Es mucho espe-"
-	line "rar esto de ti?"
+	para "¿Es mucho"
+	line "esperar esto de"
+	cont "ti?"
 	done
 
 ClairPokemonLeagueDirectionsText:
@@ -173,9 +169,8 @@ ClairPokemonLeagueDirectionsText:
 
 	para "¡Si lo haces, me"
 	line "sentiré aún peor"
-
-	para "por haber perdido"
-	line "contra ti!"
+	cont "por haber perdido"
+	cont "contra ti!"
 
 	para "Da todo lo que"
 	line "tienes."
@@ -191,9 +186,8 @@ BlackthornGymGuyScript:
 
 	para "Ha sido un largo"
 	line "viaje, ¡pero ya"
-
-	para "casi terminamos!"
-	line "¡Cuenta conmigo!"
+	cont "casi terminamos!"
+	cont "¡Cuenta conmigo!"
 
 	para "Débora usa a los"
 	line "míticos y sagrados"
@@ -205,20 +199,19 @@ BlackthornGymGuyScript:
 
 	para "Pero ya sabes,"
 	line "se supone que son"
-
-	para "débiles contra mo-"
-	line "vimientos de"
+	cont "débiles contra"
+	cont "movimientos de"
 	cont "tipo Hielo."
 	done
 
 .WinText:
-	text "¡Has estado ge-"
-	line "nial venciendo a"
+	text "¡Has estado genial"
+	line "venciendo a"
 	cont "Débora!"
 
 	para "Solo queda el"
-	line "desafío de la Li-"
-	cont "ga #mon."
+	line "desafío de la"
+	cont "Liga #mon."
 
 	para "¡Estás en camino a"
 	line "ser el Campeón"
@@ -230,9 +223,8 @@ GenericTrainerDragonTamerPaul:
 
 	text "¿Que Lance te dijo"
 	line "que le gustaría"
-
-	para "volver a verte?"
-	line "¡Ni hablar!"
+	cont "volver a verte?"
+	cont "¡Ni hablar!"
 	done
 
 .SeenText:
@@ -254,15 +246,15 @@ GenericTrainerCooltrainermMike:
 	text "Ahora conozco mis"
 	line "defectos."
 
-	para "¡Gracias por mos-"
-	line "trármelos!"
+	para "¡Gracias por"
+	line "mostrármelos!"
 	done
 
 .SeenText:
-	text "¿Mis posibilida-"
-	line "des de perder?"
-	cont "¡Ni un 1 por cien-"
-	cont "to!"
+	text "¿Mis"
+	line "posibilidades de"
+	cont "perder? ¡Ni un 1"
+	cont "por ciento!"
 	done
 
 .BeatenText:
@@ -273,8 +265,9 @@ GenericTrainerCooltrainerfLola:
 	generictrainer COOLTRAINERF, LOLA, EVENT_BEAT_COOLTRAINERF_LOLA, .SeenText, .BeatenText
 
 	text "Los dragones son"
-	line "débiles a movi-"
-	cont "mientos Dragón."
+	line "débiles a los"
+	cont "movimientos de"
+	cont "tipo Dragón."
 	done
 
 .SeenText:
@@ -284,8 +277,8 @@ GenericTrainerCooltrainerfLola:
 	para "Están llenos de"
 	line "energía vital."
 
-	para "Si no vas en se-"
-	line "rio, no podrás"
+	para "Si no vas en"
+	line "serio, no podrás"
 	cont "vencerlos."
 	done
 

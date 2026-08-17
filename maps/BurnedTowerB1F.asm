@@ -191,39 +191,31 @@ BurnedTowerB1FEusineText:
 
 	para "Suicune pasó a"
 	line "toda prisa frente"
-
-	para "a mis ojos como"
-	line "una exhalación."
+	cont "a mis ojos como"
+	cont "una exhalación."
 
 	para "Llevo 10 años"
 	line "buscando a"
-	cont "Suicune, y por"
-
-	para "fin pude verlo."
+	cont "Suicune, y por fin"
+	cont "pude verlo."
 
 	para "¡Estoy que no me"
 	line "lo creo!"
 
 	para "<PLAYER>, ¡te lo"
 	line "debo todo a ti!"
-
-	para "¡Gracias!"
+	cont "¡Gracias!"
 
 	para "Oí que los #mon"
 	line "legendarios de"
-
-	para "Iris ponen a"
-	line "prueba a los hu-"
-	cont "manos elegidos"
-
-	para "dejándoles acer-"
-	line "carse."
+	cont "Iris prueban a los"
+	cont "humanos elegidos"
+	cont "dejándoles"
+	cont "acercarse."
 
 	para "Voy a rastrear a"
 	line "Suicune."
 
-	para "<PLAYER>, ¡nos ve-"
-	line "mos!"
-
-	para "¡Adiós!"
+	para "<PLAYER>, ¡nos"
+	line "vemos! ¡Adiós!"
 	done

@@ -135,10 +135,9 @@ CeruleanCapeDateInterruptedTrigger3:
 GenericTrainerSwimmermRomeo:
 	generictrainer SWIMMERM, ROMEO, EVENT_BEAT_SWIMMERM_ROMEO, .SeenText, .BeatenText
 
-	text "Ser un buen Nado-"
-	line "dor no me hace un"
-
-	para "buen entrenador…"
+	text "Nadar bien no me"
+	line "hace ser un buen"
+	cont "entrenador…"
 	done
 
 .SeenText:
@@ -158,11 +157,9 @@ TrainerSwimmermMalcolm:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "No me digas, vi-"
-	line "sitas muchos Gim-"
-
-	para "nasios #mon,"
-	line "¿verdad?"
+	text "¿A que visitas"
+	line "muchos Gimnasios"
+	cont "#mon, a que si?"
 	done
 
 .SeenText:
@@ -182,11 +179,9 @@ GenericTrainerSwimmermArmand:
 	generictrainer SWIMMERM, ARMAND, EVENT_BEAT_SWIMMERM_ARMAND, .SeenText, .BeatenText
 
 	text "Esa chica de la"
-	line "orilla… Su mú-"
-	cont "sica es buena,"
-
-	para "¡pero distrae a"
-	line "los #mon!"
+	line "orilla… Toca bien,"
+	cont "¡pero distrae a"
+	cont "los #mon!"
 	done
 
 .SeenText:
@@ -205,14 +200,15 @@ GenericTrainerSwimmermArmand:
 GenericTrainerBeautyBridget:
 	generictrainer BEAUTY, BRIDGET, EVENT_BEAT_BEAUTY_BRIDGET, .SeenText, .BeatenText
 
-	text "Creo que las vis-"
-	line "tas aquí son her-"
-	cont "mosas. ¿Verdad?"
+	text "El paisaje de aquí"
+	line "es hermoso,"
+	cont "¿a que sí?"
 	done
 
 .SeenText:
-	text "¡Eh! ¡Me estás ta-"
-	line "pando las vistas!"
+	text "¡Eh! ¡Me estás"
+	line "tapando las"
+	cont "vistas!"
 	done
 
 .BeatenText:
@@ -233,29 +229,27 @@ GenericTrainerBeautyVeronica:
 	done
 
 .SeenText:
-	text "No suelo tener ci-"
-	line "tas, pero cuando"
-
-	para "las tengo, el Cabo"
-	line "Celeste es perfec-"
-	cont "to."
+	text "No suelo tener"
+	line "citas, pero el"
+	cont "Cabo Celeste es el"
+	cont "lugar perfecto."
 	done
 
 .BeatenText:
-	text "Trátalos mal, man-"
-	line "tenlos atentos,"
-	cont "¿no?"
+	text "Trátalos con mano"
+	line "dura y estarán"
+	cont "atentos, ¿no?"
 	done
 
 GenericTrainerGentlemanCamus:
 	generictrainer GENTLEMAN, CAMUS, EVENT_BEAT_GENTLEMAN_CAMUS, .SeenText, .BeatenText
 
-	text "Una vez fui un en-"
-	line "trenador de ta-"
-	cont "lento,"
+	text "En mi época fui un"
+	line "entrenador con"
+	cont "mucho talento,"
 
-	para "pero ahora solo"
-	line "soy viejo e inútil"
+	para "pero ahora ya soy"
+	line "viejo e inútil."
 
 	para "Disfruta mientras"
 	line "aún eres joven."
@@ -279,8 +273,8 @@ GenericTrainerGentlemanGeoffrey:
 	line "es tan bueno como"
 	cont "un descanso."
 
-	para "¡Me siento tan re-"
-	line "novado!"
+	para "¡Me siento como"
+	line "nuevo!"
 	done
 
 .SeenText:
@@ -298,10 +292,10 @@ GenericTrainerGentlemanGeoffrey:
 GenericTrainerGuitaristfMorgan:
 	generictrainer GUITARISTF, MORGAN, EVENT_BEAT_GUITARISTF_MORGAN, .SeenText, .BeatenText
 
-	text "¡Los acantilados"
-	line "hacen del Cabo una"
-	cont "caja de resonan-"
-	cont "cia perfecta!"
+	text "¡El eco de los"
+	line "acantilados hace"
+	cont "del Cabo una gran"
+	cont "caja acústica!"
 	done
 
 .SeenText:
@@ -338,15 +332,13 @@ TrainerLadyJessica:
 	done
 
 .BeatenText:
-	text "¡Oh no! ¡Me he"
-	line "mojado el vesti-"
-	cont "do!"
+	text "¡Oh no! ¡He mojado"
+	line "mi vestido!"
 	done
 
 .AfterText1:
-	text "Tendré que com-"
-	line "prar un #mon"
-	cont "mejor…"
+	text "Tendré que comprar"
+	line "un #mon mejor…"
 	cont "……"
 	cont "Y un vestido"
 	cont "nuevo…"
@@ -356,8 +348,7 @@ TrainerLadyJessica:
 	text "¿Por qué sigues"
 	line "aquí?"
 
-	para "¡Deja de mirar-"
-	line "me!"
+	para "¡Deja de mirarme!"
 	cont "……"
 	cont "¡Asqueroso!"
 	done
@@ -365,8 +356,8 @@ TrainerLadyJessica:
 GenericTrainerFisherLeroy:
 	generictrainer FISHER, LEROY, EVENT_BEAT_FISHER_LEROY, .SeenText, .BeatenText
 
-	text "Todo lo que atra-"
-	line "po son Magikarp…"
+	text "Solo pesco a"
+	line "Magikarp…"
 
 	para "Al menos todos"
 	line "tienen un aspecto"
@@ -423,36 +414,34 @@ Route25MistyLeavesMovement:
 Route25MistyDateText:
 	text "Misty: ¡Uf! ¿Por"
 	line "qué tienes que"
+	cont "interrumpirnos?"
 
-	para "aparecer y moles-"
-	line "tarnos ahora?"
+	para "¿Sabes cómo llaman"
+	line "a la gente como"
+	cont "tú?"
 
-	para "¿Sabes cómo lla-"
-	line "man a la gente co-"
-	cont "mo tú?"
-
-	para "¡Plasta! ¡Has oí-"
-	line "do bien, plasta!"
+	para "¡Plasta! ¡Has oído"
+	line "bien, plasta!"
 
 	para "…"
 
-	para "…¿Oh? Esas Me-"
-	line "dallas... ¿Son de"
-	cont "Gimnasios de"
+	para "…¿Oh? Esas"
+	line "Medallas… ¿Son de"
+	cont "los Gimnasios de"
 	cont "Johto?"
 
 	para "Si tienes ocho,"
-	line "debes ser bueno."
+	line "debes de ser muy"
+	cont "bueno."
 
-	para "Vale. Ven al Gim-"
-	line "nasio de Celeste."
+	para "Vale. Ven al"
+	line "Gimnasio Celeste."
 
-	para "Estaré encantada"
-	line "de enfrentarme a"
-	cont "ti."
+	para "¡Estaré encantada"
+	line "de luchar contigo!"
 
-	para "Soy Misty, la Lí-"
-	line "der del Gimnasio"
+	para "Soy Misty, la"
+	line "Líder del Gimnasio"
 	cont "de Celeste."
 	done
 

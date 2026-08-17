@@ -366,22 +366,21 @@ CinnabarLabRoom1SignText:
 	done
 
 CinnabarLabRoom2SignText:
-	text "Sala de Cibernéti-"
-	line "ca"
+	text "Sala de"
+	line "Cibernética"
 	done
 
 CinnabarLabRoom3SignText:
-	text "Sala de Almacena-"
-	line "je"
+	text "Sala de Almacén"
 	done
 
 CinnabarLabRoom4SignText:
 	text "Sala de Pruebas"
 	line "del Proyecto Ambar"
 
-	para "PROHIBIDA LA ENTR-"
-	line "ADA SIN AUTORIZA-"
-	cont "CION DE NIVEL 5"
+	para "PROHIBIDO EL PASO"
+	line "SIN AUTORIZACIÓN"
+	cont "DE NIVEL 5"
 	done
 
 CinnabarLabLockedDoorText:
@@ -407,13 +406,12 @@ CinnabarLabGiovanniWhoAreYouText:
 	line "de la policía?"
 
 	para "…Bien. ¿Quieres"
-	line "saber de los"
-	cont "negocios del"
+	line "saber qué trama el"
 	cont "Team Rocket?"
-	cont "Te lo enseñaré."
+	cont "¡Te lo enseñaré!"
 
-	para "El #mon más"
-	line "fuerte del mundo.."
+	para "¡El #mon más"
+	line "fuerte del mundo!"
 	done
 
 CinnabarLabGiovanniAttackText:
@@ -426,16 +424,15 @@ CinnabarLabGiovanniBeatenText:
 	done
 
 CinnabarLabGiovanniAfterText:
-	text "Giovanni: ¿Cómo es"
-	line "que un crío como"
-
-	para "tú ha vencido al"
-	line "#mon perfecto?"
+	text "Giovanni: ¿Cómo ha"
+	line "podido un crío"
+	cont "vencer al #mon"
+	cont "perfecto?"
 
 	para "¡Fue creado para"
-	line "luchar para mí!"
+	line "servirme a mí!"
 
-	para "¡No debería ser"
+	para "¡No debería de ser"
 	line "tan inútil!"
 	done
 

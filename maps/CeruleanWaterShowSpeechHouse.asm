@@ -32,6 +32,6 @@ CeruleanWaterShowSpeechHouseSuperNerdText:
 	cont "Azulona."
 
 	para "¿Lo has visto?"
-	line "Está un poco o-"
-	cont "culto, je, je…"
+	line "Está algo oculto,"
+	cont "je, je, je…"
 	done

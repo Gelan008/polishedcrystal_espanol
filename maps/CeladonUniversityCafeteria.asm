@@ -66,42 +66,39 @@ CeladonUniversityCafeteriaCoreyScript:
 	jumpthisopenedtext
 
 .FinalText:
-	text "Serías un estu-"
-	line "diante estrella si"
-	cont "te unieras aquí."
+	text "Serías un alumno"
+	line "estrella si te"
+	cont "unieras aquí."
 
 	para "Pero tienes otras"
 	line "metas, ¿verdad?"
 	done
 
 .IntroText1:
-	text "¡Soy Corey! Soy de"
-	line "los cuatro mejo-"
-	cont "res entrenadores"
+	text "¡Soy Corey! Uno de"
+	line "los cuatro mejores"
 	cont "de la Universidad."
 
-	para "¡Se nos conoce co-"
-	line "mo los Cuatro de"
-	cont "Azulona!"
+	para "¡Nos llaman los"
+	line "Cuatro de Azulona!"
 
 	para "¡Déjame mostrarte"
 	line "cómo ganamos ese"
+	cont "título con un"
+	cont "combate rápido!"
 
-	para "título con un"
-	line "combate rápido!"
 	done
 
 .IntroText2:
-	text "¡Soy Corey! ¡Soy"
-	line "de los Cuatro de"
-	cont "Azulona!"
+	text "¡Soy Corey! Uno de"
+	line "los cuatro mejores"
+	cont "de la Universidad."
 
-	para "¿Nos estás desa-"
-	line "fiando a los"
-	cont "cuatro?"
+	para "¿Nos desafías a"
+	line "los cuatro?"
 
-	para "Claro, ya he ter-"
-	line "minado de comer."
+	para "Claro, ya"
+	line "terminé de comer."
 
 	para "¿Estás a punto"
 	line "para el combate?"
@@ -122,18 +119,16 @@ CeladonUniversityCafeteriaCoreyScript:
 	done
 
 .AfterText1:
-	text "¡Eres un entrena-"
-	line "dor muy fuerte!"
+	text "¡Qué entrenador"
+	line "tan fuerte eres!"
 
 	para "Pero solo soy uno"
 	line "de los Cuatro de"
 	cont "Azulona."
 
-	para "¡Deberías rastrear"
-	line "al resto para pro-"
-
-	para "bar de verdad tu"
-	line "fuerza!"
+	para "¡Busca al resto"
+	line "para poner a"
+	cont "prueba tu fuerza!"
 	done
 
 .AfterText2:
@@ -154,19 +149,17 @@ CeladonUniversityCafeteriaCooltrainerfText:
 	text "¡Aquí hacen los"
 	line "mejores filetes de"
 	cont "hamburguesa al"
+	cont "estilo Canela de"
+	cont "todo Kanto!"
 
-	para "estilo Canela de"
-	line "este lado de Kan-"
-	cont "to!"
-
-	para "Es igual que"
-	line "estar en casa."
+	para "¡Es como estar"
+	line "en casa!"
 	done
 
 CeladonUniversityCafeteriaBeautyText:
 	text "¡El cocinero por"
-	line "fin hizo otra hor-"
-	cont "nada de Barrita"
+	line "fin hizo otra"
+	cont "tanda de Barritas"
 	cont "Plus!"
 
 	para "Puede que vuelva a"
@@ -174,20 +167,20 @@ CeladonUniversityCafeteriaBeautyText:
 	done
 
 CeladonUniversityCafeteriaYoungster1Text:
-	text "Pedí a la cafete-"
-	line "ría que trajera"
-	cont "Porcehelados."
+	text "Pedí que trajeran"
+	line "Porcehelados a la"
+	cont "cafetería."
 
 	para "Me recuerdan a mi"
-	line "hogar, ¡y también"
-	cont "están ricos!"
+	line "hogar, ¡y están"
+	cont "buenísimos!"
 	done
 
 CeladonUniversityCafeteriaLadyText:
 	text "Estoy a dieta."
 	line "Hoy tomaré una"
-	para "nutritiva ensalada"
-	line "de Sem. Sumerno."
+	cont "ensalada de"
+	cont "Sem. Sumerno."
 	done
 
 CeladonUniversityCafeteriaYoungster2Script:
@@ -238,15 +231,15 @@ CeladonUniversityCafeteriaBakerScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "¡Aquí tienes, cie-"
-	line "lo! ¡Disfrútalo!"
+	text "¡Aquí tienes,"
+	line "cielo! ¡Disfruta!"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "No tienes sufici-"
-	line "ente dinero…"
+	text "No tienes"
+	line "suficiente dinero…"
 	done
 
 .Text1:
@@ -258,7 +251,7 @@ CeladonUniversityCafeteriaBakerScript:
 
 	para "Hay algunos Restos"
 	line "pero costarán"
-	cont "¥4000. ¿Quieres"
+	cont "4000¥. ¿Quieres"
 	cont "algunos?"
 	done
 
@@ -273,8 +266,8 @@ CeladonUniversityCafeteriaBakerScript:
 	done
 
 .Text6:
-	text "No puedes llevar-"
-	line "los, cielo."
+	text "No puedes llevar"
+	line "más, cielo."
 	done
 
 CeladonUniversityCafeteriaSignText:

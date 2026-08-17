@@ -57,8 +57,8 @@ CeladonDeptStore3FTutorCounterScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "No tienes ningu-"
-	line "na Hoja Plata…"
+	text "No tienes ninguna"
+	line "Hoja Plata…"
 	done
 
 .TeachMove
@@ -165,8 +165,9 @@ CeladonDeptStore3FWiiScript:
 	done
 
 CeladonDeptStore3FClerk2Text:
-	text "Hay un buen mo-"
-	line "vimiento llamado"
+	text "Hay un buen"
+	line "movimiento"
+	cont "llamado"
 	cont "Contraataque."
 
 	para "¡No tiene nada"
@@ -178,12 +179,10 @@ CeladonDeptStore3FClerk2Text:
 Text_CeladonDeptStore3FTutorCounter:
 	text "Enseñaré a tu"
 	line "#mon a usar"
-
-	para "Contraataque si me"
-	line "pagas con una Hoja"
+	cont "Contraataque si me"
+	cont "pagas con una Hoja"
 	cont "Plata."
 	done
-
 
 Text_CeladonDeptStore3FTutorQuestion:
 	text "¿Le enseño a"
@@ -191,12 +190,10 @@ Text_CeladonDeptStore3FTutorQuestion:
 	cont "Contraataque?"
 	done
 
-
-
 VideoGameClerkText:
 	text "¡Vendemos consolas"
-	line "retro y de últi-"
-	cont "ma generación!"
+	line "retro y de última"
+	cont "generación!"
 
 	para "¡Pruébalas tú"
 	line "mismo!"
@@ -206,7 +203,6 @@ VideoGameClerkNoSaleText:
 	text "Dep.: Bueno, si"
 	line "tú lo dices."
 	done
-
 
 VideoGameClerkSellSnesText:
 	text "Dep.: ¡Esa SNES"
@@ -225,11 +221,11 @@ VideoGameClerkSellN64Text:
 	done
 
 VideoGameClerkSellGameCubeText:
-	text "Dep.: ¡Esa Game-"
-	line "Cube puede ser"
+	text "Dep.: ¡Esa"
+	line "GameCube puede ser"
+	cont "tuya por 30000¥!"
 
-	para "tuya por 30000¥!"
-	line "¿Quieres una?"
+	para "¿Quieres una?"
 	done
 
 VideoGameClerkSellWiiText:
@@ -245,30 +241,25 @@ BoughtSnesText:
 	line "una Super NES."
 	done
 
-
 BoughtN64Text:
 	text "<PLAYER> compró"
 	line "una Nintendo 64."
 	done
-
 
 BoughtGameCubeText:
 	text "<PLAYER> compró"
 	line "una GameCube."
 	done
 
-
 BoughtWiiText:
 	text "<PLAYER> compró"
 	line "una Wii."
 	done
 
-
 CeladonDeptStore3FYoungsterText:
 	text "No puedo decidir"
 	line "en qué #mon"
-
-	para "usar esta MT…"
+	cont "usar esta MT…"
 
 	para "Menos mal que no"
 	line "se gastan."
@@ -290,29 +281,29 @@ CeladonDeptStore3FDirectoryText:
 CeladonDeptStore3FSnesText:
 	text "¡Una Super NES!"
 
-	para "¡Tengo una de es-"
-	line "tas en casa!"
+	para "¡Tengo una de"
+	line "estas en casa!"
 	done
 
 CeladonDeptStore3FN64Text:
 	text "¡Una N64!"
 
-	para "¡Tengo una de es-"
-	line "tas en casa!"
+	para "¡Tengo una de"
+	line "estas en casa!"
 	done
 
 CeladonDeptStore3FGameCubeText:
 	text "¡Una GameCube!"
 
-	para "¡Tengo una de es-"
-	line "tas en casa!"
+	para "¡Tengo una de"
+	line "estas en casa!"
 	done
 
 CeladonDeptStore3FWiiText:
 	text "¡Una Wii!"
 
-	para "¡Tengo una de es-"
-	line "tas en casa!"
+	para "¡Tengo una de"
+	line "estas en casa!"
 	done
 
 CeladonDeptStore3FRPGText:
@@ -321,9 +312,9 @@ CeladonDeptStore3FRPGText:
 	done
 
 CeladonDeptStore3FSportsGameText:
-	text "¡Juego de depor-"
-	line "tes! A papá le"
-	cont "gustará."
+	text "¡Juego de"
+	line "deportes! A papá"
+	cont "le gustará."
 	done
 
 CeladonDeptStore3FPuzzleGameText:

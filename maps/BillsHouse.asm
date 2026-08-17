@@ -27,17 +27,15 @@ PokemonJournalBillScript:
 	line "¡Pokémaníaco Bill!"
 
 	para "Bill inventó el"
-	line "Sistema de Alma-"
-	cont "cenamiento #mon"
-
-	para "para guardar su"
-	line "gran colección."
+	line "Sistema de"
+	cont "Almacenamiento"
+	cont "#mon para"
+	cont "guardar su gran"
+	cont "colección."
 
 	para "Por lo visto, el"
-	line "primero que atra-"
-
-	para "pó fue un"
-	line "Abra."
+	line "primer #mon que"
+	cont "atrapó fue un Abra"
 	done
 
 BillsHousePCText:
@@ -72,9 +70,8 @@ BillsHouseBillScript:
 	para "Cualquier"
 	line "Pokémaníaco"
 	cont "estaría encantado"
-
-	para "de ver lo que"
-	line "has atrapado."
+	cont "de ver lo que has"
+	cont "atrapado."
 	done
 
 .IntroText:
@@ -83,32 +80,30 @@ BillsHouseBillScript:
 	cont "fascinante."
 
 	para "Dicen que los tres"
-	line "perros legendari-"
-
-	para "as de Johto solían"
-	line "ser tres #mon"
-
-	para "que evolucionan"
-	line "de Eevee."
+	line "perros de Johto"
+	cont "solían ser tres"
+	cont "#mon que"
+	cont "evolucionan de"
+	cont "Eevee."
 
 	para "Pero podría ser"
 	line "solo un rumor."
 
-	para "Aun así, me encan-"
-	line "taría verlos…"
+	para "Aun así, me"
+	line "encantaría verlos…"
 	done
 
 .SeenText:
 	text "¿Atrapaste a los"
-	line "tres perros le-"
-	cont "gendarias?"
+	line "tres perros"
+	cont "legendarios?"
 
 	para "¡Qué genial,"
 	line "<PLAYER>!"
 
 	para "¿Crees que alguna"
-	line "vez estuvieron re-"
-	cont "lacionadas con"
+	line "vez estuvieron"
+	cont "relacionados con"
 	cont "Eevee?"
 
 	para "¡Vaya, ahora tengo"
@@ -117,9 +112,8 @@ BillsHouseBillScript:
 
 	para "¡Puedes comparar"
 	line "las tres leyendas"
-
-	para "con las que has"
-	line "luchado con mis"
+	cont "con las que has"
+	cont "luchado con mis"
 	cont "propios #mon!"
 	done
 

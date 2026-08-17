@@ -27,17 +27,14 @@ PokemonJournalRedScript:
 	text "Revista #mon"
 
 	para "Edición Especial:"
-	line "¡Entren. <PK><MN>"
-	cont "Rojo!"
+	line "¡Entrenador Rojo!"
 
-	para "Se dice que Rojo"
-	line "derrotó a su"
-
-	para "rival Azul por el"
-	line "título de Campeón"
-
-	para "de la Liga #mon"
-	line "en tiempo récord."
+	para "Dicen que Rojo"
+	line "derrotó a su rival"
+	cont "Azul por el título"
+	cont "de Campeón de la"
+	cont "Liga #mon en"
+	cont "un tiempo récord."
 	done
 
 CherrygrovePokeCenter1FTeacherScript:
@@ -45,9 +42,8 @@ CherrygrovePokeCenter1FTeacherScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "El Centro de Co-"
-	line "municaciones de"
-	cont "arriba acaba de"
+	text "El Centro de Unión"
+	line "de arriba acaba de"
 	cont "ser construido."
 
 	para "Pero todavía lo"
@@ -55,9 +51,8 @@ CherrygrovePokeCenter1FTeacherScript:
 	done
 
 .Text2:
-	text "El Centro de Co-"
-	line "municaciones de"
-	cont "arriba acaba de"
+	text "El Centro de Unión"
+	line "de arriba acaba de"
 	cont "ser construido."
 
 	para "¡Ya intercambié"
@@ -66,31 +61,24 @@ CherrygrovePokeCenter1FTeacherScript:
 
 CherrygrovePokeCenter1FFisherText:
 	text "Es genial. Puedo"
-	line "almacenar cual-"
-
-	para "quier cantidad de"
-	line "#mon, ¡y to-"
-	cont "do es gratis!"
+	line "guardar todos los"
+	cont "#mon que quiera"
+	cont "¡y todo gratis!"
 	done
 
 CherrygrovePokeCenter1FGentlemanText:
-	text "Ese PC es gra-"
-	line "tuito para que"
-	cont "cualquier entre-"
-	cont "nador lo use."
+	text "Ese PC es libre y"
+	line "gratuito para todo"
+	cont "el que lo use."
 	done
 
 CherrygrovePokeCenter1FLadyText:
-	text "¡La Revista #-"
-	line "mon tiene histo-"
-	cont "rias fascinantes!"
+	text "Las revistas"
+	line "#mon tienen"
+	cont "historias geniales"
 
-	para "Vengo a los"
-	line "Centros #mon a"
-
-	para "por las últimas,"
-	line "pero no son el"
-
-	para "único sitio con"
-	line "suscripción."
+	para "Vengo aquí a leer"
+	line "las últimas,"
+	cont "pero hay más"
+	cont "sitios suscritos."
 	done

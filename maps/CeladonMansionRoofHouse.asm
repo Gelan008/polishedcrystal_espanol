@@ -30,14 +30,13 @@ CeladonMansionRoofHousePharmacistScript:
 	jumpthisopenedtext
 
 .CurseText:
-	text "MT03 es Maldición."
+	text "La MT03 contiene"
+	line "Maldición."
 
-	para "Es un ataque"
+	para "Es un movimiento"
 	line "terrorífico que"
-
-	para "reduce poco a po-"
-	line "co los PS de su"
-	cont "víctima."
+	cont "drena poco a poco"
+	cont "los PS del rival."
 	done
 
 .IntroText:
@@ -47,71 +46,59 @@ CeladonMansionRoofHousePharmacistScript:
 	done
 
 .NotNiteText:
-	text "Aunque no da"
-	line "tanto miedo mien-"
-
-	para "tras siga habiendo"
-	line "luz afuera."
+	text "Aunque no asusta"
+	line "tanto de día."
 
 	para "Vuelve cuando se"
 	line "ponga el sol, ¿ok?"
 	done
 
 .StoryText:
-	text "Érase una vez,"
-	line "un niño pequeño"
+	text "Érase una vez un"
+	line "niño al que le"
+	cont "regalaron una Bici"
+	cont "nueva…"
 
-	para "al que le regala-"
-	line "ron una nueva"
-	cont "Bici…"
+	para "Quiso probarla al"
+	line "instante…"
 
-	para "Él quería probarla"
-	line "inmediatamente…"
-
-	para "Se estaba divir-"
-	line "tiendo tanto que"
-
-	para "no se dio cuenta"
-	line "de que anochecía…"
+	para "Se divertía tanto"
+	line "que no vio cómo se"
+	cont "hacía de noche…"
 
 	para "De vuelta a casa"
-	line "en la oscura no-"
-	cont "che,"
+	line "en la oscuridad,"
 
 	para "¡la bici empezó a"
-	line "ir más lento!"
+	line "ir más despacio!"
 
-	para "¡Los pedales se"
-	line "volvieron pesa-"
-	cont "dos!"
+	para "¡Los pedales eran"
+	line "muy pesados!"
 
 	para "¡Y cuando dejó de"
-	line "pedalear, la bici"
+	line "pedalear, ¡la bici"
+	cont "iba hacia atrás!"
 
-	para "empezó a ir ha-"
-	line "cia atrás!"
-
-	para "¡Era como si es-"
-	line "tuviera maldita y"
-
-	para "tratara de arras-"
-	line "trarle al olvido!"
+	para "¡Era como si"
+	line "estuviese maldita"
+	cont "y quisiera tirarlo"
+	cont "al abismo!"
 
 	para "…"
 
 	para "…"
 
-	para "¡AAAAAAAAAAAAAAAA!"
+	para "¡AAAAAAAAAH!"
 
-	para "¡Resulta que el ni"
-	line "ño iba cuesta ar-"
-	cont "riba por el Cami-"
-	cont "no de Bicis!"
+	para "¡Resulta que el"
+	line "niño iba cuesta"
+	cont "arriba por el"
+	cont "Camino de Bicis!"
 
 	para "…"
-	line "¡Ba-dum ba-dum!"
+	line "¡Ba-dum tsss!"
 
 	para "Por escuchar tan"
-	line "pacientemente, ¡te"
-	cont "daré esto--MT03!"
+	line "atento, ¡te daré"
+	cont "esto: la MT03!"
 	done

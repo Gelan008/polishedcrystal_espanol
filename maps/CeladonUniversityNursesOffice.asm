@@ -37,9 +37,8 @@ CeladonUniversityNursesOfficeNurseText:
 	para "¿O tus #mon"
 	line "están agotados?"
 
-	para "¡Por favor, des-"
-	line "cansa aquí un"
-	cont "rato!"
+	para "¡Por favor, ven a"
+	line "descansar aquí!"
 	done
 
 CeladonUniversityNursesOfficeSignText:
@@ -47,7 +46,7 @@ CeladonUniversityNursesOfficeSignText:
 	line "es un #mon"
 	cont "feliz!"
 
-	para "¡No dejes que tus"
-	line "amigos se debili-"
-	cont "ten luchando!"
+	para "¡No dejes que"
+	line "debiliten a tu"
+	cont "#mon!"
 	done

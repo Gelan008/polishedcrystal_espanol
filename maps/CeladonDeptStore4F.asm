@@ -103,8 +103,9 @@ PosterClerkScript:
 	db "Salir@"
 
 PosterClerkText:
-	text "¡Hola! ¿Te gusta-"
-	line "ría un póster?"
+	text "¡Hola!"
+	line "¿Te gustaría un"
+	cont "póster?"
 	done
 
 PosterClerkNoMoneyText:
@@ -154,11 +155,9 @@ CeladonDeptStore4FSuperNerdText:
 
 CeladonDeptStore4FYoungsterText:
 	text "Este es el único"
-	line "sitio en el que"
-
-	para "puedes comprar"
-	line "pósteres. ¡Los co-"
-	cont "lecciono!"
+	line "sitio donde puedes"
+	cont "comprar pósteres."
+	cont "¡Los colecciono!"
 	done
 
 CeladonDeptStore4FDirectoryText:

@@ -54,24 +54,22 @@ CeladonGymErikaScript:
 
 	text "Es Gigadrenado."
 
-	para "Es un gran movi-"
-	line "miento que drena"
-
-	para "la mitad del daño"
-	line "que inflige para"
-	cont "curar a tu"
-	cont "#mon."
+	para "Es un gran"
+	line "movimiento que"
+	cont "absorbe la mitad"
+	cont "del daño para"
+	cont "curar a tu #mon"
 
 	para "Por favor, úsala"
-	line "si es de tu agra-"
-	cont "do…"
+	line "si es de tu"
+	cont "agrado…"
 	done
 
 GenericTrainerLassMichelle:
 	generictrainer LASS, MICHELLE, EVENT_BEAT_LASS_MICHELLE, LassMichelleSeenText, LassMichelleBeatenText
 
-	text "¡Solo he sido des-"
-	line "cuidada, eso es"
+	text "¡Solo he sido"
+	line "descuidada, eso es"
 	cont "todo!"
 	done
 
@@ -80,17 +78,16 @@ GenericTrainerPicnickerTanya:
 
 	text "Oh, mira tus"
 	line "Medallas. ¡No me"
-
-	para "extraña que no"
-	line "haya podido ganar!"
+	cont "extraña que no"
+	cont "haya podido ganar!"
 	done
 
 GenericTrainerBeautyJulia:
 	generictrainer BEAUTY, JULIA, EVENT_BEAT_BEAUTY_JULIA, BeautyJuliaSeenText, BeautyJuliaBeatenText
 
-	text "¿Cómo puedo lle-"
-	line "gar a ser tan de-"
-	cont "licada como Erika?"
+	text "¿Cómo puedo ser"
+	line "tan delicada"
+	cont "como Erika?"
 	done
 
 GenericTrainerAroma_ladyDahlia:
@@ -98,19 +95,17 @@ GenericTrainerAroma_ladyDahlia:
 
 	text "Gloom emite una"
 	line "fragancia fétida,"
-
-	para "pero Erika sabe"
-	line "convertirla en"
-
-	para "un perfume muy"
-	line "dulce."
+	cont "pero Erika sabe"
+	cont "convertirla en"
+	cont "un perfume muy"
+	cont "dulce."
 	done
 
 GenericTrainerTwinsJoandzoe1:
 	generictrainer TWINS, JOANDZOE1, EVENT_BEAT_TWINS_JO_AND_ZOE, TwinsJoandzoe1SeenText, TwinsJoandzoe1BeatenText
 
-	text "¡Erika nos ven-"
-	line "gará!"
+	text "¡Erika nos"
+	line "vengará!"
 	done
 
 GenericTrainerTwinsJoandzoe2:
@@ -129,28 +124,24 @@ CeladonGymStatue:
 	jumpstd gymstatue2
 
 ErikaBeforeBattleText:
-	text "Erika: Hola…"
-	line "Hace un tiempo"
+	text "Erika: Hola… Hace"
+	line "un tiempo tan"
+	cont "precioso…"
 
-	para "precioso, ¿verdad?"
-	line "Es tan agradable…"
-
-	para "…Me temo que po-"
-	line "dría dormirme…"
+	para "…Me temo que"
+	line "podría dormirme…"
 
 	para "Me llamo Erika."
 	line "Soy la Líder del"
 	cont "Gimnasio Azulona."
 
-	para "…¿Ah? ¿Vienes"
-	line "desde Johto? Qué"
-	cont "bien…"
+	para "…¿Ah? ¿Vienes de"
+	line "Johto? Qué bien…"
 
 	para "Oh. Lo siento, no"
-	line "me di cuenta"
-
-	para "de que querías"
-	line "desafiarme."
+	line "me di cuenta de"
+	cont "que querías"
+	cont "desafiarme."
 
 	para "Muy bien, pero no"
 	line "pienso perder."
@@ -158,24 +149,23 @@ ErikaBeforeBattleText:
 
 ErikaBeatenText:
 	text "Erika: ¡Oh!"
-	line "Admito la derro-"
-	cont "ta…"
+	line "Admito mi derrota…"
 
 	para "Eres realmente"
 	line "fuerte…"
 
-	para "Te daré la Meda-"
-	line "lla Arcoíris…"
+	para "Te daré la Medalla"
+	line "Arcoíris…"
 	done
 
 ErikaExplainTMText:
 	text "Erika: Ha sido un"
-	line "combate encanta-"
-	cont "dor."
+	line "combate"
+	cont "encantador."
 
-	para "Me siento inspira-"
-	line "da. Por favor,"
-	cont "toma esta MT."
+	para "Me siento muy"
+	line "inspirada. Toma"
+	cont "esta MT."
 	done
 
 
@@ -184,15 +174,14 @@ ErikaAfterBattleText:
 	line "un sabor amargo…"
 
 	para "Pero saber que hay"
-	line "entrenadores fuer-"
-
-	para "tes me anima a"
-	line "hacerlo mejor…"
+	line "entrenadores tan"
+	cont "fuertes me anima"
+	cont "a mejorar…"
 	done
 
 LassMichelleSeenText:
-	text "¿Crees que un Gim-"
-	line "nasio solo de"
+	text "¿Crees que un"
+	line "Gimnasio solo de"
 	cont "chicas es raro?"
 	done
 
@@ -202,8 +191,8 @@ LassMichelleBeatenText:
 
 PicnickerTanyaSeenText:
 	text "¿Oh, un combate?"
-	line "Da un poco de mie-"
-	cont "do, ¡pero vale!"
+	line "Da un poco de"
+	cont "miedo, ¡pero vale!"
 	done
 
 PicnickerTanyaBeatenText:
@@ -220,9 +209,9 @@ BeautyJuliaBeatenText:
 	done
 
 Aroma_ladyDahliaSeenText:
-	text "Hay un olor intri-"
-	line "gante a tu alrede-"
-	cont "dor…"
+	text "Hay un olor"
+	line "intrigante a tu"
+	cont "alrededor…"
 	done
 
 Aroma_ladyDahliaBeatenText:
@@ -247,6 +236,6 @@ TwinsJoandzoe2SeenText:
 	done
 
 TwinsJoandzoe2BeatenText:
-	text "No pudimos ga-"
-	line "nar…"
+	text "No pudimos"
+	line "ganar…"
 	done

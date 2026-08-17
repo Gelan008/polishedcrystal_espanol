@@ -74,8 +74,8 @@ BlackthornGymSignText:
 	done
 
 MoveDeletersHouseSignText:
-	text "Casa del Quita-"
-	line "movimientos"
+	text "Casa del"
+	line "Quitamovimientos"
 	done
 
 DragonDensSignText:
@@ -88,11 +88,10 @@ BlackthornCityTrainerTipsText:
 
 	para "Un #mon que"
 	line "lleve una Baya"
-	cont "Ziuela"
-
-	para "se curará de"
-	line "cualquier proble-"
-	cont "ma de estado."
+	cont "Ziuela se curará"
+	cont "de cualquier"
+	cont "problema de"
+	cont "estado."
 	done
 
 SantosScript:
@@ -119,9 +118,10 @@ SantosScript:
 
 	para "Hechizo…"
 
-	para "Los ataques tipo"
-	line "Fantasma se ha-"
-	cont "cen más fuertes…"
+	para "Los ataques de"
+	line "tipo Fantasma"
+	cont "se hacen más"
+	cont "fuertes…"
 
 	para "Te asustará…"
 	done
@@ -167,10 +167,10 @@ BlackthornDragonTamer1Script:
 
 	para "Débora, nuestra"
 	line "Líder de Gimnasio,"
-
-	para "entró en la Guari-"
-	line "da Dragón, de-"
-	cont "trás del Gimnasio."
+	cont "entró en la"
+	cont "Guarida Dragón,"
+	cont "detrás del"
+	cont "Gimnasio."
 
 	para "No tengo idea de"
 	line "cuándo volverá."
@@ -181,8 +181,8 @@ BlackthornDragonTamer1Script:
 	line "te está esperando."
 
 	para "Sin embargo, un"
-	line "entrenador corrien"
-	cont "te no ganaría."
+	line "entrenador común"
+	cont "no ganaría."
 	done
 
 .ClairIsBeatenText:
@@ -193,9 +193,8 @@ BlackthornDragonTamer1Script:
 
 	para "Nunca escuché"
 	line "que perdiera con"
-
-	para "nadie que no sea"
-	line "su primo Lance."
+	cont "nadie que no sea"
+	cont "su primo Lance."
 	done
 
 BlackthornBlackbeltScript:
@@ -203,50 +202,52 @@ BlackthornBlackbeltScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "¿Se rompió la ra-"
-	line "dio? Últimamente,"
-	cont "solo capta una"
-	cont "señal extraña."
+	text "¿Se rompió la"
+	line "radio?"
+	cont "Últimamente solo"
+	cont "capta una señal"
+	cont "extraña."
 	done
 
 .Text2:
 	text "¡Auuu! ¡Voces en"
 	line "mi cabeza!"
 
-	para "¿Eh? ¡Estoy escu-"
-	line "chando la radio!"
+	para "¿Eh? ¡Estoy"
+	line "escuchando la"
+	cont "radio!"
 	done
 
 BlackthornGramps1Text:
-	text "No. Solo los en-"
-	line "trenadores elegi-"
-	cont "dos pueden en-"
-	cont "trenar aquí."
+	text "No. Solo los"
+	line "entrenadores"
+	cont "elegidos pueden"
+	cont "entrenar aquí."
 
 	para "Por favor, vete."
 	done
 
 BlackthornGramps2Text:
-	text "Si Débora lo per-"
-	line "mite, su abue-"
-	cont "lo, nuestro Maes-"
-	cont "tro, también."
+	text "Si Débora lo"
+	line "permite, su"
+	cont "abuelo, nuestro"
+	cont "Maestro, también."
 
 	para "Puedes entrar."
 	done
 
 BlackthornLassText:
 	text "¿Vas a hacer que"
-	line "tus #mon olvi-"
-	cont "den algún movi-"
-	cont "miento?"
+	line "tus #mon"
+	cont "olviden algún"
+	cont "movimiento?"
 	done
 
 BlackthornYoungsterText:
-	text "Los maestros Dra-"
-	line "gón provienen to-"
-	cont "dos de la ciudad"
-	cont "de Endrino."
+	text "Los maestros"
+	line "Dragón provienen"
+	cont "todos de Ciudad"
+	cont "Endrino."
 	done
 
 BlackthornCooltrainerF1Text:
@@ -255,8 +256,8 @@ BlackthornCooltrainerF1Text:
 	cont "Helada?"
 
 	para "¡Debes de ser un"
-	line "entrenador de pri-"
-	cont "mera!"
+	line "entrenador de"
+	cont "primera!"
 	done
 
 BlackthornCooltrainerF2Text:
@@ -270,21 +271,21 @@ BlackthornCooltrainerF2Text:
 	done
 
 BlackthornDragonTamer2Text:
-	text "Cuando nuestra Lí-"
-	line "der era una joven,"
+	text "Cuando nuestra"
+	line "Líder era joven,"
 
 	para "solía entrenar en"
-	line "la Guarida Dra-"
-
-	para "gón sin parar."
+	line "la Guarida Dragón"
+	cont "sin parar."
 	done
 
 BlackthornDragonTamer3Text:
 	text "Ciudad Endrino es"
 	line "el hogar de muchos"
 
-	para "domadragones famo-"
-	line "sos, como Lance."
+	para "domadragones"
+	line "famosos, como"
+	cont "Lance."
 
 	para "Es el primo de"
 	line "nuestra Líder,"

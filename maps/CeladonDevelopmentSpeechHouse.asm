@@ -29,8 +29,9 @@ CeladonDevelopmentSpeechHouseBeautyText:
 	line "ser un refugio"
 	cont "del Team Rocket."
 
-	para "¡Me daba miedo sa-"
-	line "lir de casa mien-"
-	cont "tras ellos acecha-"
-	cont "ban por ahí!"
+	para "¡Me daba miedo"
+	line "salir de casa"
+	cont "mientras ellos"
+	cont "acechaban por"
+	cont "ahí!"
 	done

@@ -268,15 +268,13 @@ CherrygroveCity_RivalComesBack:
 	step_end
 
 GuideGentIntroText:
-	text "Eres un entrena-"
-	line "dor novato,"
-	cont "¿verdad?"
-	cont "¡Se te nota!"
+	text "Eres un novato,"
+	line "¿verdad? ¡Se te"
+	cont "nota mucho!"
 
 	para "¡No pasa nada!"
-	line "¡Todos somos"
-	cont "novatos al"
-	cont "principio!"
+	line "¡Todos empezamos"
+	cont "siendo novatos!"
 
 	para "Puedo enseñarte"
 	line "algunas cosas."
@@ -284,30 +282,26 @@ GuideGentIntroText:
 	done
 
 GuideGentPokeCenterText:
-	text "Este es un Centro"
+	text "Este es el Centro"
 	line "#mon. Curarán a"
-
-	para "tus #mon en"
-	line "un santiamén."
+	cont "tus #mon en un"
+	cont "santiamén."
 
 	para "Dependerás mucho"
-	line "de ellos, así"
-
-	para "que mejor que"
-	line "aprendas sobre"
-	cont "ellos."
+	line "de ellos, así que"
+	cont "conviene que los"
+	cont "conozcas bien."
 	done
 
 GuideGentMartText:
-	text "Esta es una Tien-"
-	line "da #mon, o"
-	cont "solo Tienda #."
+	text "Esta es la Tienda"
+	line "#mon, o Tienda"
+	cont "# a secas."
 
-	para "Venden Balls"
-	line "para atrapar a"
-
-	para "#mon salvajes y"
-	line "otros objetos."
+	para "Venden # Balls"
+	line "para capturar a"
+	cont "#mon salvajes y"
+	cont "otros objetos."
 	done
 
 GuideGentRoute30Text:
@@ -315,10 +309,9 @@ GuideGentRoute30Text:
 	line "por este camino."
 
 	para "Los entrenadores"
-	line "estarán luchando"
-
-	para "con sus #mon"
-	line "allí."
+	line "suelen combatir"
+	cont "con sus #mon"
+	cont "en las rutas."
 	done
 
 GuideGentAdvancedTipsText:
@@ -335,9 +328,9 @@ GuideGentSeaText:
 	text "Este es el mar,"
 	line "como puedes ver."
 
-	para "La Ruta 32 está"
-	line "cruzando la ba-"
-	cont "hía."
+	para "La Ruta 32 está al"
+	line "otro lado de la"
+	cont "bahía."
 	done
 
 GuideGentGiftText:
@@ -383,23 +376,22 @@ CherrygroveRivalText_Seen:
 	para "¿No entiendes lo"
 	line "que te digo?"
 
-	para "Bueno, yo tam-"
-	line "bién tengo un"
-	cont "buen #mon."
+	para "Bueno, yo también"
+	line "tengo un buen"
+	cont "#mon."
 
 	para "¡Te enseñaré a"
 	line "qué me refiero!"
 	done
 
 RivalCherrygroveWinText:
-	text "Hmpf. ¿Estás fe-"
-	line "liz de ganar?"
+	text "¡Hmpf! ¿Te crees"
+	line "genial por ganar?"
 	done
 
 RivalCherrygroveLossText:
-	text "Hmpf. Ha sido una"
-	line "pérdida de tiem-"
-	cont "po."
+	text "¡Hmpf! Ha sido una"
+	line "pérdida de tiempo."
 	done
 
 CherrygroveRivalTextAfter1:
@@ -410,17 +402,16 @@ CherrygroveRivalTextAfter1:
 
 	para "Voy a ser el"
 	line "mejor entrenador"
-	cont "#mon del mundo"
+	cont "#mon del mundo."
 	done
 
 CherrygroveRivalTextAfter2:
-	text "Se me cayó mi Tar-"
-	line "jeta Entrenador…"
+	text "¡Se me cayó mi"
+	line "Tarjeta de Entr.!"
 
-	para "¡Eh! ¡Devuélveme-"
-	line "la!"
+	para "¡Eh! ¡Dámela!"
 
-	para "Oh no… Has visto"
+	para "Oh, no… Has visto"
 	line "mi nombre…"
 	done
 
@@ -432,17 +423,17 @@ CherrygroveTeacherText_HaveMapCard:
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "Luché con los en-"
-	line "trenadores del ca-"
-	cont "mino."
+	text "Luché con otros"
+	line "entrenadores del"
+	cont "camino."
 
-	para "Mis #mon perdi-"
-	line "eron. ¡Están fa-"
-	cont "tal! "
+	para "¡Mis #mon han"
+	line "perdido y están"
+	cont "fatal!"
 
-	para "Tengo que llevar-"
-	line "los a un Centro"
-	cont "#mon."
+	para "Tengo que llevar"
+	line "a mis #mon a un"
+	cont "Centro #mon."
 	done
 
 MysticWaterGuyTextBefore:
@@ -453,9 +444,8 @@ MysticWaterGuyTextBefore:
 	para "Creo que es"
 	line "Agua Mística."
 
-	para "No lo necesito,"
-	line "¿así que lo quie-"
-	cont "res?"
+	para "No la necesito,"
+	line "¿la quieres tú?"
 	done
 
 CherrygrovePidgeyText:
@@ -477,11 +467,9 @@ GuideGentsHouseSignText:
 CherrygroveCityAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "Las Tiendas #"
-	line "te darán una"
-
-	para "Honor Ball gra-"
-	line "tis con cada"
-	cont "compra de 10"
+	para "En las Tiendas"
+	line "te darán una Honor"
+	cont "Ball gratis por"
+	cont "comprar 10"
 	cont "# Balls."
 	done

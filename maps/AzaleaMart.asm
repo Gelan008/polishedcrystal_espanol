@@ -19,11 +19,10 @@ AzaleaMart_MapScriptHeader:
 	object_event  8,  6, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << EVE) | (1 << NITE), PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaMartRockerText, -1
 
 AzaleaMartCooltrainermText:
-	text "Aquí no hay Super"
-	line "Balls. Las #"
-
-	para "Balls tendrán que"
-	line "bastar."
+	text "Aquí no hay"
+	line "Super Balls. Las"
+	cont "# Balls"
+	cont "tendrán que bastar"
 
 	para "Ojalá César me"
 	line "hiciera algunas"
@@ -32,9 +31,9 @@ AzaleaMartCooltrainermText:
 
 AzaleaMartBugCatcherText:
 	text "Una Super Ball es"
-	line "mejor para atra-"
-	cont "par #mon que"
-	cont "una # Ball."
+	line "mejor para"
+	cont "atrapar #mon"
+	cont "que una # Ball"
 
 	para "Pero a veces las"
 	line "de César pueden"
@@ -42,36 +41,33 @@ AzaleaMartBugCatcherText:
 	done
 
 AzaleaMartLadyText:
-	text "Puedo comprar mu-"
-	line "chos objetos en"
+	text "Puedo comprar"
+	line "muchos objetos en"
 	cont "Ciudad Trigal,"
 
-	para "¡pero para forta-"
-	line "lecer el Fuego,"
-
-	para "nada supera al"
-	line "Carbón de Pueblo"
-	cont "Azalea!"
+	para "¡pero para"
+	line "fortalecer el"
+	cont "Fuego, nada"
+	cont "supera al Carbón"
+	cont "de Pueblo Azalea!"
 	done
 
 AzaleaMartRockerText:
 	text "Los prototipos de"
-	line "las Balls de"
+	line "las Balls de César"
+	cont "tenían algunos"
+	cont "problemas."
 
-	para "César tenían al-"
-	line "gunos problemas."
-
-	para "Las Amor Ball a-"
-	line "trapaban #mon"
+	para "Las Amor Ball"
+	line "atrapaban #mon"
 	cont "del mismo sexo,"
 
 	para "y las Rapid Ball"
 	line "solo funcionaban"
+	cont "para tres especies"
+	cont "de #mon."
 
-	para "para tres espe-"
-	line "cies de #mon."
-
-	para "¡Menos mal que a-"
-	line "rreglaron esos"
+	para "¡Menos mal que"
+	line "arreglaron esos"
 	cont "problemas!"
 	done

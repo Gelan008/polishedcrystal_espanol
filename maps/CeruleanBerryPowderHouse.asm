@@ -28,12 +28,12 @@ CeruleanBerryPowderHouseGrampsScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Preparar medi-"
-	line "cinas era un tra-"
-	cont "bajo gratificante,"
+	text "Hacer medicinas"
+	line "era un trabajo"
+	cont "gratificante,"
 
-	para "pero me merezco"
-	line "un descanso."
+	para "pero me merezco un"
+	line "descanso."
 	done
 
 .Text1:

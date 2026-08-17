@@ -18,11 +18,10 @@ BluesHouse2F_MapScriptHeader:
 
 BluesHouse2FPCText:
 	text "Hay un programa"
-	line "simulando un com-"
-	cont "bate entre un"
-
-	para "Blastoise y un"
-	line "Dragonite."
+	line "simulando un"
+	cont "combate entre un"
+	cont "Blastoise y un"
+	cont "Dragonite."
 	done
 
 BluesHouse2FSNESText:

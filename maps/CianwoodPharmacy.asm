@@ -58,8 +58,8 @@ PharmacistGiveSecretpotionText:
 
 	para "¡Entendido!"
 
-	para "Esto debería fun-"
-	line "cionar."
+	para "¡Esto debería de"
+	line "funcionar!"
 	done
 
 PharmacistDescribeSecretpotionText:

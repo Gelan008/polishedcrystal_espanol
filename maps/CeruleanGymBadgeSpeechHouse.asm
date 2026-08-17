@@ -26,18 +26,15 @@ CeruleanGymBadgeSpeechHouseGentlemanScript:
 
 .Text2:
 	text "¿Coleccionas las"
-	line "Medallas de Gim-"
-	cont "nasio de Kanto?"
+	line "Medallas de Kanto?"
 	cont "¡Buena suerte!"
 	done
 
 .Text1:
-	text "Tuvimos una ola de"
-	line "robos hace unos"
-
-	para "años, así que aho-"
-	line "ra todo el mundo"
-	cont "es supercauto."
+	text "Hubo una ola de"
+	line "robos hace años,"
+	cont "y ahora todos son"
+	cont "muy prudentes."
 
 	para "¿Quién eres tú?"
 	done

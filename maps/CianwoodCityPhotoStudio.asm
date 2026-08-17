@@ -65,34 +65,31 @@ CianwoodPhotoStudioFishingGuruScript:
 .EggPicture:
 	jumpthisopenedtext
 
-	text "¿Un Huevo? Mi ta-"
-	line "lento vale más…"
+	text "¿Un Huevo? Mi gran"
+	line "talento vale más…"
 	done
 
 PhotoStudioGreetingText:
 	text "Soy Cameron, el"
 	line "Fotógrafo."
 
-	para "Llevas unos #-"
-	line "mon magníficos"
-	cont "contigo."
+	para "Llevas #mon"
+	line "magníficos."
 
-	para "¿Qué tal una"
-	line "foto como"
-	cont "recuerdo?"
+	para "¿Qué tal una foto"
+	line "de recuerdo?"
 	done
 
 PhotoStudioWhichMonText:
-	text "¡Vale! ¡A sonreír!"
+	text "¡Vale! ¡Sonreíd!"
 
-	para "¿A qué #mon"
-	line "debería fotogra-"
-	cont "fiar?"
+	para "¿A qué #mon le"
+	line "hago una foto?"
 	done
 
 PhotoStudioHoldStillText:
-	text "Muy bien. Quéda-"
-	line "te quieto un rato."
+	text "Muy bien. No os"
+	line "mováis un segundo."
 	done
 
 PhotoStudioPrestoText:
@@ -112,7 +109,7 @@ PhotoStudioAlreadyDoneText:
 	done
 
 PhotoStudioRefusedText:
-	text "Oh, qué pena. Pen-"
-	line "sé que sería un"
-	cont "gran recuerdo…"
+	text "Qué pena. Pensaba"
+	line "que sería un buen"
+	cont "recuerdo…"
 	done

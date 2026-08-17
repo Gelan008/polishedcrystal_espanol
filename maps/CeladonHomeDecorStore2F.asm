@@ -145,13 +145,13 @@ CeladonHomeDecorStore2FAlreadyBoughtText:
 	done
 
 CeladonHomeDecorStore2FPokefanfText:
-	text "Las cosas de mar-"
-	line "ca cuestan más que"
+	text "Las cosas de marca"
+	line "cuestan más que"
 	cont "las normales."
 
 	para "Pero la Cama de"
-	line "Pikachu es tan li-"
-	cont "nda…"
+	line "Pikachu es tan"
+	cont "linda…"
 	done
 
 CeladonHomeDecorStore2FDirectoryText:

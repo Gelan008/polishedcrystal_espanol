@@ -71,19 +71,18 @@ Script_BattleRoomLoop:
 .WarnAboutTycoon
 	writethistext
 		text "¡Felicidades por"
-		line "tu racha de vic-"
-		cont "torias,"
+		line "tu racha de"
+		cont "victorias,"
 		cont "entrenador!"
 
 		para "El Amo Torre"
 		line "ha mandado decir"
+		cont "que tu habilidad"
+		cont "le impresiona."
 
-		para "que tu habilidad"
-		line "le impresiona."
-
-		para "¿Estás listo"
-		line "para luchar con-"
-		cont "tra el Amo Torre?"
+		para "¿Estás listo para"
+		line "luchar contra"
+		cont "el Amo Torre?"
 		done
 .ShownText
 	yesorno
@@ -95,8 +94,9 @@ Script_BattleRoomLoop:
 
 .DontBattleNextOpponent:
 	writethistext
-		text "¿Guardar y termi-"
-		line "nar la sesión?"
+		text "¿Guardar y"
+		line "terminar la"
+		cont "sesión?"
 		done
 	yesorno
 	iffalsefwd .DontSaveAndEndTheSession
@@ -112,8 +112,9 @@ Script_BattleRoomLoop:
 		text "¿Salir del desafío"
 		line "Sala de combates?"
 
-		para "Ojo, se considera-"
-		line "rá una derrota."
+		para "Ojo, se"
+		line "considerará una"
+		cont "derrota."
 		done
 	yesorno
 	iffalse .AskNextBattle

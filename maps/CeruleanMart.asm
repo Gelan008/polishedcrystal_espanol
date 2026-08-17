@@ -18,24 +18,18 @@ CeruleanMart_MapScriptHeader:
 
 CeruleanMart_CooltrainerMText:
 	text "Te encontrarás con"
-	line "muchos entrenado-"
+	line "unos entrenadores"
+	cont "camino al Cabo"
+	cont "Celeste."
 
-	para "res camino al Ca-"
-	line "bo Celeste."
-
-	para "Quieren ver cómo"
-	line "se comparan con"
-
-	para "otros entrena-"
-	line "dores."
+	para "Quieren medirse"
+	line "con otros rivales."
 	done
 
 CeruleanMart_CooltrainerFText:
 	text "Misty es casi la"
-	line "única persona del"
-
-	para "pueblo que puede"
-	line "vencer a los en-"
-	cont "trenadores del"
-	cont "Cabo Celeste."
+	line "única del pueblo"
+	cont "que puede ganar a"
+	cont "los entrenadores"
+	cont "del Cabo Celeste."
 	done

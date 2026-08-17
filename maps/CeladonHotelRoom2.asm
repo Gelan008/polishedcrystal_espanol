@@ -60,13 +60,12 @@ MrHyperScript:
 	cont "Entren. Extremo!"
 
 	para "¡Permite que un"
-	line "#mon que haya"
-	cont "maximizado su es-"
-	cont "fuerzo se vuelva"
-	cont "aún más fuerte!"
+	line "#mon al máximo"
+	cont "de esfuerzo se"
+	cont "vuelva más fuerte!"
 
-	para "Este entrenamien-"
-	line "to les ayudará a"
+	para "Este entrenamiento"
+	line "les ayudará a"
 	cont "subir sus stats."
 
 	para "Si quieres que"
@@ -85,20 +84,20 @@ MrHyperScript:
 	text "¿No tienes ninguna"
 	line "Chapa?"
 
-	para "Sé que los Pesca-"
-	line "-dores las sacan"
-	cont "a veces…"
+	para "Sé que a veces"
+	line "las pescan los"
+	cont "Pescadores…"
 	done
 
 .TextTrainWho:
-	text "¿Qué #mon de-"
-	line "be entrenar?"
+	text "¿Qué #mon debe"
+	line "entrenar?"
 	done
 
 .TextGotStronger:
-	text "¡Listo! ¡Mi En-"
-	line "tren. Extremo ha"
-	cont "mejorado a"
+	text "¡Listo! ¡El"
+	line "Entren. Extremo"
+	cont "ha mejorado a"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"

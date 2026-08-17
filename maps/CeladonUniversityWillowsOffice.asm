@@ -25,38 +25,31 @@ CeladonUniversityWillowsOfficeWillowText:
 	line "Soy el"
 	cont "Prof. Willow."
 
-	para "Superviso a Cande-"
-	line "la, Blanche y"
-	cont "Spark en sus cla-"
+	para "Superviso a"
+	line "Candela, Blanche y"
+	cont "Spark en sus"
+	cont "investigaciones."
 
-	para "ses e investiga-"
-	line "ciones."
+	para "Puede que los veas"
+	line "en sus aulas."
 
-	para "Puede que te cru-"
-	line "ces con ellos en"
-	cont "clase."
-
-	para "También estudio la"
-	line "distribución y há-"
-	cont "bitat de los"
+	para "También estudio el"
+	line "hábitat de los"
 	cont "#mon."
 
-	para "Estoy muy ocupa-"
-	line "do, pero mis ex-"
-
-	para "celentes asisten-"
-	line "tes me ayudan con"
-	cont "el trabajo."
+	para "Estoy ocupadísimo,"
+	line "pero mis geniales"
+	cont "ayudantes me echan"
+	cont "una mano."
 	done
 
 CeladonUniversityWillowsOfficeScientistText:
-	text "¡Trabajo como a-"
-	line "yudante del"
-	cont "Prof. Willow!"
+	text "¡Soy ayudante del"
+	line "Prof. Willow!"
 
-	para "Estoy catalogando"
-	line "mis observaciones"
-	cont "de la Ruta 7."
+	para "Catalogó mis"
+	line "observaciones en"
+	cont "la Ruta 7."
 
 	para "Hoy vi 42"
 	line "Raticate y 37"
@@ -65,38 +58,31 @@ CeladonUniversityWillowsOfficeScientistText:
 	done
 
 CeladonUniversityWillowsOfficeBlackboardText:
-	text "Alguien escribió"
-	line "“NO BORRAR” con"
-
-	para "una flecha hacia"
-	line "un garabato"
+	text "Pone “NO BORRAR”"
+	line "con una flecha"
+	cont "hacia un garabato"
 	cont "ilegible…"
 	done
 
 CeladonUniversityWillowsOfficeBookshelf1Text:
-	text "Es un libro de ni-"
-	line "chos ecológicos"
-
-	para "y cómo los #mon"
-	line "encajan en sus"
-	cont "entornos."
+	text "Es un libro sobre"
+	line "nichos ecológicos"
+	cont "y el hábitat de"
+	cont "los #mon."
 	done
 
 CeladonUniversityWillowsOfficeBookshelf2Text:
-	text "Es un folleto pro-"
-	line "mocional de la"
-	cont "Zona Safari."
+	text "Es un folleto de"
+	line "la Zona Safari."
 
-	para "Lo adornan un"
-	line "montón de #mon"
-	cont "exóticos."
+	para "Lo adornan muchos"
+	line "#mon exóticos."
 	done
 
 CeladonUniversityWillowsOfficeComputer:
 	jumpthistext
 
-	text "“Sistema de Trans-"
-	line "ferencia #mon”"
-	cont "está en la panta-"
-	cont "lla."
+	text "“Transferencia"
+	line "#mon” se lee en"
+	cont "la pantalla."
 	done

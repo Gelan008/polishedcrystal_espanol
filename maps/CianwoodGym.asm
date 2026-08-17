@@ -163,14 +163,11 @@ CianwoodGymChuckScript:
 	setevent EVENT_GOT_TM01_DYNAMICPUNCH
 	jumpthisopenedtext
 
-	text "Eso es Puño"
-	line "Dinámico."
+	text "Es Puño Dinámico."
 
-	para "No siempre"
-	line "acierta, ¡pero"
-
-	para "cuando lo hace,"
-	line "causa confusión!"
+	para "No siempre da en"
+	line "el blanco, ¡pero"
+	cont "siempre confunde!"
 	done
 
 GenericTrainerBlackbeltYoshi:
@@ -201,10 +198,10 @@ GenericTrainerBlackbeltNob:
 GenericTrainerBlackbeltLung:
 	generictrainer BLACKBELT_T, LUNG, EVENT_BEAT_BLACKBELT_LUNG, BlackbeltLungSeenText, BlackbeltLungBeatenText
 
-	text "Mis #mon perdi-"
-	line "eron… Mi… mi"
-	cont "orgullo está des-"
-	cont "trozado…"
+	text "Mis #mon han"
+	line "perdido… Mi… mi"
+	cont "orgullo está por"
+	cont "los suelos…"
 	done
 
 CianwoodGymStatue:
@@ -232,24 +229,22 @@ CianwoodGymMovement_ChuckChucksBoulder:
 ChuckIntroText1:
 	text "¡WARRGH!"
 
-	para "El agua golpeando"
-	line "directo en mi ca-"
-	cont "beza…"
+	para "El agua caía de"
+	line "lleno sobre mi"
+	cont "cabeza…"
 
-	para "¿Por qué has pa-"
-	line "rado la cascada?"
+	para "¿Por qué cortaste"
+	line "la cascada?"
 
-	para "¡Acabas de arrui-"
-	line "nar mi entrena-"
-	cont "miento!"
+	para "¡Has arruinado mi"
+	line "entrenamiento!"
 
-	para "Déjame decirte,"
-	line "¡soy duro!"
+	para "¡Te advierto que"
+	line "soy muy duro!"
 
 	para "¡Mis #mon"
-	line "aplastarán rocas"
-	cont "y romperán hue-"
-	cont "sos!"
+	line "rompen rocas y"
+	cont "quiebran huesos!"
 
 	para "¡Mira esto!"
 	done
@@ -263,16 +258,14 @@ ChuckIntroText2:
 
 ChuckIntroText3:
 	text "¡Ahí lo tienes!"
-	line "¿Asustado?"
+	line "¿Te asusta?"
 
 	para "¿Qué? ¿Que no"
-	line "tiene nada que ver"
+	line "tiene que ver con"
+	cont "los #mon?"
+	cont "¡Es verdad!"
 
-	para "con los #mon?"
-	line "¡Es verdad!"
-
-	para "Vamos. ¡Luchare-"
-	line "mos!"
+	para "¡Venga, a luchar!"
 	done
 
 ChuckLossText:
@@ -285,30 +278,28 @@ ChuckLossText:
 	done
 
 ChuckExplainBadgeText:
-	text "La Medalla Tormen-"
-	line "ta permite a tus"
+	text "La Medalla"
+	line "Tormenta permite"
+	cont "a tus #mon"
+	cont "usar Vuelo para"
+	cont "volar a cualquier"
+	cont "sitio visitado."
 
-	para "#mon usar Vuelo"
-	line "a cualquier pueblo"
-	cont "o ciudad que ya"
-	cont "hayas visitado."
-
-	para "Toma, ¡llévate"
+	para "¡Toma, llévate"
 	line "esto también!"
 	done
 
 ChuckAfterText:
-	text "¡WAJAJA! ¡He dis-"
-	line "frutado luchando"
+	text "¡WAJAJA! ¡Me ha"
+	line "encantado luchar"
 	cont "contigo!"
 
 	para "¡Pero una derrota"
 	line "es una derrota!"
 
-	para "¡De ahora en ade-"
-	line "lante, voy a en-"
-	cont "trenar 24 horas"
-	cont "al día!"
+	para "¡A partir de hoy"
+	line "entrenaré las 24"
+	cont "horas del día!"
 	done
 
 BlackbeltYoshiSeenText:
@@ -325,9 +316,8 @@ BlackbeltYoshiBeatenText:
 	done
 
 BlackbeltLaoSeenText:
-	text "¡Los artistas"
-	line "marciales no te-"
-	cont "memos a nada!"
+	text "¡Los luchadores"
+	line "no tememos a nada!"
 	done
 
 BlackbeltLaoBeatenText:
@@ -345,9 +335,9 @@ BlackbeltNobBeatenText: ; text > text
 	done
 
 BlackbeltLungSeenText:
-	text "¡Mis puños enra-"
-	line "becidos destroza-"
-	cont "rán a tus #mon!"
+	text "¡Mis fieros puños"
+	line "destrozarán a"
+	cont "tus #mon!"
 	done
 
 BlackbeltLungBeatenText:
@@ -355,19 +345,19 @@ BlackbeltLungBeatenText:
 	done
 
 CianwoodGymBlackBeltText:
-	text "El guía del Gimna-"
-	line "sio está dema-"
-	cont "siado asustado de"
-	cont "nosotros para aso-"
-	cont "marse por aquí."
+	text "El guía del"
+	line "Gimnasio está"
+	cont "demasiado asustado"
+	cont "de nosotros para"
+	cont "asomarse por aquí."
 
 	para "¡Qué cobarde!"
 	done
 
 CianwoodGymChuckTrainingText:
-	text "Está tan concen-"
-	line "trado en su entre-"
-	cont "namiento que no"
+	text "Está totalmente"
+	line "concentrado en su"
+	cont "entrenamiento y no"
 	cont "te hace caso."
 	done
 
@@ -378,7 +368,7 @@ CianwoodGymBoulderText:
 	done
 
 CianwoodGymChucksBoulderText:
-	text "La roca es dema-"
-	line "siado pesada para"
-	cont "moverla."
+	text "La roca pesa"
+	line "demasiado para"
+	cont "poder moverla."
 	done

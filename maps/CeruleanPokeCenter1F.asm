@@ -27,11 +27,10 @@ PokemonJournalMistyScript:
 	para "Edición Especial:"
 	line "¡Líder Misty!"
 
-	para "Se dice que Misty"
-	line "adora a Lorelei,"
-
-	para "una ex miembro"
-	line "del Alto Mando."
+	para "Dicen que Misty"
+	line "admira a Lorelei,"
+	cont "exmiembro del"
+	cont "Alto Mando."
 	done
 
 CeruleanPokeCenter1FGymGuyScript:
@@ -39,41 +38,31 @@ CeruleanPokeCenter1FGymGuyScript:
 	iftrue_jumptextfaceplayer .MetricText
 	jumpthistextfaceplayer
 
-	text "El Magnetotrén"
-	line "viaja a más de"
+	text "El Magnetotrén va"
+	line "a más de 550 km/h."
 
-	para "340 mph. Va entre"
-	line "Kanto y Johto en"
+	para "¡Une Kanto y Johto"
+	line "en un santiamén!"
 
-	para "casi nada de"
-	line "tiempo."
-
-	para "Realmente hace a"
-	line "Johto accesible."
+	para "¡Así Johto queda"
+	line "muy accesible!"
 	done
 
 .MetricText:
-	text "El Magnetotrén"
-	line "viaja a más de"
+	text "El Magnetotrén va"
+	line "a más de 550 km/h."
 
-	para "550 km/h. Va entre"
-	line "Kanto y Johto en"
+	para "¡Une Kanto y Johto"
+	line "en un santiamén!"
 
-	para "casi nada de"
-	line "tiempo."
-
-	para "Realmente hace a"
-	line "Johto accesible."
+	para "¡Así Johto queda"
+	line "muy accesible!"
 	done
 
 CeruleanPokeCenter1FSuperNerdText:
-	text "En combates,"
-	line "prefiero usar a"
-
-	para "los #mon que"
-	line "he criado, aunque"
-
-	para "sean más débiles"
-	line "que algunos que"
-	cont "acabo de atrapar."
+	text "Prefiero usar a"
+	line "mis propios #mon,"
+	cont "aunque sean más"
+	cont "débiles que otros"
+	cont "recién atrapados."
 	done

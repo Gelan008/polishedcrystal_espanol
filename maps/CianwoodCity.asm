@@ -113,14 +113,13 @@ CianwoodCityChucksWife:
 	text "¿Cruzaste el mar"
 	line "para llegar aquí?"
 
-	para "Debe de haber"
-	line "sido difícil."
+	para "Habrá sido muy"
+	line "difícil."
 
 	para "Sería mucho más"
-	line "fácil si tus #-"
-
-	para "mon supieran"
-	line "Vuelo…"
+	line "fácil si tus"
+	cont "#mon supieran"
+	cont "Vuelo…"
 	done
 
 CianwoodCitySuicuneApproachMovement:
@@ -155,55 +154,50 @@ CianwoodCityEusineDepartMovement:
 
 ChucksWifeChubbyText:
 	text "¡Esa es la Medalla"
-	line "Gimnasio Orquídea!"
+	line "del Gim. Orquídea!"
 
 	para "Mi marido perdió"
 	line "contra ti, así que"
 	cont "debe entrenar más."
 
-	para "Eso es bueno, ya"
-	line "que se estaba po-"
-	cont "niendo gordito."
+	para "Le vendrá bien, ya"
+	line "que estaba echando"
+	cont "barriga."
 
 	para "Las cascadas de la"
-	line "Ruta 47, al norte,"
-
-	para "son un buen lugar"
-	line "para entrenar."
+	line "Ruta 47 al norte"
+	cont "son un buen sitio."
 	done
 
 CianwoodCityYoungsterText:
 	text "Si usas Vuelo,"
-	line "puedes volver"
-
-	para "a Olivo al"
-	line "instante."
+	line "puedes volver a"
+	cont "Olivo al instante."
 	done
 
 CianwoodCityPokefanMText:
 	text "Las rocas al norte"
 	line "del pueblo pueden"
-	cont "ser aplastadas."
+	cont "romperse."
 
 	para "Podrían ocultar"
 	line "algo."
 
-	para "Tus #mon po-"
+	para "Tus #mon pueden"
 if DEF(FAITHFUL)
-	line "drían usar Golpe"
-	cont "Roca con ellas."
+	line "usar Golpe Roca en"
+	cont "ellas."
 else
-	line "drían usar Demoli-"
-	cont "ción con ellas."
+	line "usar Demolición en"
+	cont "ellas."
 endc
 	done
 
 CianwoodCityLassText:
 	text "Aníbal, el Líder"
-	line "del Gimnasio, pe-"
-
-	para "lea con sus #-"
-	line "mon de lucha."
+	line "del Gimnasio, usa"
+	cont "#mon de tipo"
+	cont "Lucha."
 	done
 
 CianwoodCityRocketText:
@@ -221,53 +215,47 @@ CianwoodCitySailorText:
 	done
 
 CianwoodCityFisherText:
-	text "La Farmacia Orquí-"
-	line "dea lleva abierta"
-	cont "durante más de"
+	text "La Farmacia de"
+	line "Orquídea lleva"
+	cont "abierta más de"
 	cont "500 años."
 
-	para "Eso debe ser al-"
-	line "gún tipo de ré-"
-	cont "cord, ¿verdad?"
+	para "¡Debe de ser algún"
+	line "récord, verdad?"
 	done
 
 EusineSuicuneText:
-	text "Eusine: Eh,"
-	line "<PLAYER>."
+	text "Eusine: ¡Eh,"
+	line "<PLAYER>!"
 
-	para "¿Ese de ahí no"
-	line "era Suicune?"
+	para "¿Ese de ahí no era"
+	line "Suicune?"
 
-	para "Solo le he echado"
-	line "un vistazo rápido,"
-
-	para "pero creí ver a"
-	line "Suicune corriendo"
+	para "Solo lo vi un"
+	line "instante, pero me"
+	cont "pareció que corría"
 	cont "sobre las olas."
 
 	para "Suicune es"
 	line "hermoso y magno."
 
-	para "Y corre a través"
-	line "de pueblos y ru-"
-
-	para "tas a velocidades"
-	line "asombrosas."
+	para "Corre por pueblos"
+	line "y rutas con gran"
+	cont "velocidad."
 
 	para "Es maravilloso…"
 
 	para "Quiero ver a"
-	line "Suicune de cerca.."
+	line "Suicune de cerca…"
 
-	para "Lo he decidido."
+	para "¡Lo he decidido!"
 
 	para "¡Lucharé contigo"
-	line "para lograr el"
-	cont "respeto de"
-	cont "Suicune!"
+	line "para ganarme su"
+	cont "respeto!"
 	
 	para "¡Vamos, <PLAYER>!"
-	line "¡Luchemos ahora!"
+	line "¡A luchar!"
 	done
 
 EusineBeatenText:
@@ -279,9 +267,8 @@ EusineLossText:
 	text "¡Sí!"
 
 	para "¡Seguro que"
-	line "Suicune reconoce-"
-	cont "rá mi grandeza"
-	cont "ahora!"
+	line "Suicune sabrá ver"
+	cont "mi grandeza ahora!"
 	done
 
 EusineAfterText:
@@ -289,28 +276,24 @@ EusineAfterText:
 	line "<PLAYER>!"
 
 	para "Con razón los"
-	line "#mon se"
-	cont "acercan a ti."
+	line "#mon van a ti."
 
 	para "Ahora lo entiendo."
 
-	para "Voy a seguir"
-	line "buscando a"
-	cont "Suicune."
+	para "Seguiré buscando"
+	line "a Suicune."
 
-	para "Estoy seguro de"
-	line "que nos volvere-"
-	cont "mos a ver."
+	para "Seguro que nos"
+	line "volveremos a ver."
 
-	para "¡Nos vemos!"
+	para "¡Hasta luego!"
 	done
 
 CianwoodCitySignText:
 	text "Ciudad Orquídea"
 
 	para "Un puerto rodeado"
-	line "de mares agita-"
-	cont "dos"
+	line "de bravos mares"
 	done
 
 CianwoodGymSignText:
@@ -318,8 +301,8 @@ CianwoodGymSignText:
 	line "#mon de Ciudad"
 	cont "Orquídea: Aníbal"
 
-	para "Sus puños rugien-"
-	line "tes hablan por él"
+	para "Sus puños feroces"
+	line "hablan por él"
 	done
 
 CianwoodPharmacySignText:
@@ -334,21 +317,20 @@ CianwoodPharmacySignText:
 	done
 
 CianwoodPhotoStudioSignText:
-	text "Estudio Fotográ-"
-	line "fico de Ciudad"
-	cont "Orquídea"
+	text "Estudio de Fotos"
+	line "de Ciudad Orquídea"
 
 	para "¡Sácate una foto"
 	line "de recuerdo!"
 	done
 
 CianwoodCliffEdgeGateSignText:
-	text "Puerta del Acanti-"
-	line "lado"
+	text "Puerta del"
+	line "Acantilado"
 
-	para "¡El Bosq. Amarillo"
-	line "está justo delan-"
-	cont "te!"
+	para "¡El Bosque"
+	line "Amarillo está"
+	cont "justo delante!"
 	done
 
 CianwoodMoveManiacSignText:
@@ -359,14 +341,11 @@ CianwoodMoveManiacSignText:
 CianwoodAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "¡Puedes usar una"
-	line "# Ball en un"
-
-	para "#mon que hayas"
-	line "atrapado para"
+	para "¡Usa una # Ball"
+	line "en un #mon ya"
+	cont "atrapado para"
 	cont "cambiar su Ball!"
 
-	para "¡Pero no recupe-"
-	line "rarás la # Ball"
-	cont "original!"
+	para "¡Pero perderás la"
+	line "# Ball original!"
 	done

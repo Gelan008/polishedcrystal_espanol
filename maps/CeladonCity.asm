@@ -123,12 +123,10 @@ CeladonCityRichBoyText:
 Text_CeladonCityTutorSwagger:
 	text "Enseñaré a tu"
 	line "#mon a hacer"
-
-	para "Contoneo como yo"
-	line "por solo una Hoja"
+	cont "Contoneo como yo"
+	cont "por solo una Hoja"
 	cont "Plata."
 	done
-
 
 Text_CeladonCityTutorQuestion:
 	text "¿Deseas que le"
@@ -136,23 +134,17 @@ Text_CeladonCityTutorQuestion:
 	cont "tu #mon?"
 	done
 
-
-
 CeladonCityFisherText:
 	text "Este Poliwrath es"
 	line "mi compañero."
 
 	para "Solía ser Manso,"
-	line "pero la señora"
-
-	para "directora del condo-"
-	line "minio nos preparó"
-
-	para "té con una Hoja"
-	line "Menta que lo hizo"
-
-	para "actuar de forma"
-	line "más Alegre."
+	line "pero la dueña del"
+	cont "edificio nos"
+	cont "preparó té con"
+	cont "una Hoja Menta"
+	cont "que lo hizo más"
+	cont "Alegre."
 	done
 
 CeladonCityPoliwrathText:
@@ -179,12 +171,11 @@ CeladonCityGramps1Text:
 	cont "Grimer."
 
 	para "¿Ves ese estanque"
-	line "delante de la"
+	line "frente a la casa?"
+	cont "¡Los Grimer viven"
+	cont "allí ahora!"
 
-	para "casa? Los Grimer"
-	line "viven allí ahora."
-
-	para "¿De dónde han"
+	para "¿De dónde habrán"
 	line "salido? Es un"
 	cont "problema grave…"
 	done
@@ -202,41 +193,37 @@ CeladonCityYoungster1Text:
 	text "¿Quieres saber"
 	line "un secreto?"
 
-	para "Condominios Azu-"
-	line "lona tiene una"
-	cont "puerta trasera."
+	para "La Mansión Azulona"
+	line "tiene una puerta"
+	cont "trasera."
 	done
 
 CeladonCityYoungster2Text:
 	text "Ese restaurante"
-	line "está celebrando un"
-	cont "concurso de trago-"
-	cont "nes."
+	line "celebra hoy un"
+	cont "concurso de"
+	cont "tragones."
 
-	para "Hay una concur-"
-	line "sante de la región"
+	para "Hay una chica de"
+	line "Sinnoh compitiendo"
+	cont "este año."
 
-	para "de Sinnoh este"
-	line "año."
-
-	para "Solo de verla de-"
-	line "vorar comida me"
+	para "Solo de verla"
+	line "devorar comida me"
 	cont "siento lleno…"
 	done
 
 CeladonCityTeacher2Text:
-	text "El Centro Comer-"
-	line "cial Azulona tie-"
-	cont "ne la mayor y me-"
+	text "El Centro"
+	line "Comercial de"
+	cont "Azulona tiene la"
+	cont "mejor selección de"
+	cont "artículos."
 
-	para "jor selección de"
-	line "artículos."
-
-	para "Si no puedes con-"
-	line "seguirlo ahí, no"
-
-	para "lo conseguirás en"
-	line "ningún sitio."
+	para "Si no puedes"
+	line "conseguirlo ahí,"
+	cont "no lo hallarás en"
+	cont "ningún sitio."
 
 	para "Vaya… Parezco"
 	line "una dependienta."
@@ -244,20 +231,18 @@ CeladonCityTeacher2Text:
 
 CeladonCityLassText_PCC:
 	text "¡Me encanta estar"
-	line "rodeada de edifi-"
-	cont "cios altos!"
+	line "rodeada de"
+	cont "edificios altos!"
 
 	para "¿Es verdad que el"
-	line "Centro #mon"
-
-	para "de Trigal es mu-"
-	line "cho más grande?"
+	line "Centro #mon de"
+	cont "Trigal es mucho"
+	cont "más grande?"
 
 	para "¡Qué pasada!"
 	line "Ojalá tuviéramos"
-
-	para "un sitio así en"
-	line "Kanto…"
+	cont "un sitio así en"
+	cont "Kanto…"
 	done
 
 CeladonCityLassText:
@@ -288,9 +273,9 @@ CeladonUniversitySignText:
 	text "Universidad"
 	line "Azulona"
 
-	para "“Crecimiento me-"
-	line "diante el es-"
-	cont "tudio”"
+	para "“Crecimiento"
+	line "mediante el"
+	cont "estudio”"
 	done
 
 CeladonCityDeptStoreSignText:
@@ -305,8 +290,7 @@ CeladonCityHomeDecorStoreSignText:
 	done
 
 CeladonCityMansionSignText:
-	text "Condominios"
-	line "Azulona"
+	text "Mansión Azulona"
 	done
 
 CeladonCityGameCornerSignText:
@@ -335,23 +319,21 @@ CeladonCityCafeSignText:
 CeladonCityHotelSignText:
 	text "Hotel Azulona"
 
-	para "¡Relájate en nues-"
-	line "tra piscina!"
+	para "¡Relájate en"
+	line "nuestra piscina!"
 	done
 
 CeladonCityTrainerTips1Text:
 	text "Pistas Entrenador"
 
 	para "Protección X"
-
 	line "protege a tus"
+	cont "#mon de los"
+	cont "cambios de"
+	cont "características."
 
-	para "#mon de los"
-	line "cambios de carac-"
-	cont "terísticas."
-
-	para "¡Consigue tus ob-"
-	line "jetos en el C.C."
+	para "¡Consigue tus"
+	line "objetos en el C.C."
 	cont "de Azulona!"
 	done
 
@@ -362,9 +344,9 @@ CeladonCityTrainerTips2Text:
 	line "#mon lleno de"
 	cont "potencial."
 
-	para "Prueba a exponerlo"
-	line "a muchos lugares"
-	cont "diferentes, horas"
-	cont "del día, y pie-"
-	cont "dras Evolutivas."
+	para "Prueba a llevarlo"
+	line "a varios lugares,"
+	cont "horas del día y"
+	cont "Piedras Evolutivas"
+	cont "para evolucionar."
 	done

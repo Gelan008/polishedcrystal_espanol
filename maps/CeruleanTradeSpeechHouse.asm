@@ -18,16 +18,15 @@ CeruleanTradeSpeechHouse_MapScriptHeader:
 	pokemon_event  5,  6, IVYSAUR, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_TEAL, CeruleanTradeSpeechHouseZubatText, -1
 
 CeruleanTradeSpeechHouseGrannyText:
-	text "Mi marido vive fe-"
-	line "lizmente con los"
-	cont "#mon que consi-"
-	cont "guió en intercam-"
-	cont "bios."
+	text "Mi marido vive muy"
+	line "feliz con los"
+	cont "#mon obtenidos"
+	cont "por intercambio."
 	done
 
 CeruleanTradeSpeechHouseGrampsText:
-	text "Ah… Soy tan fe-"
-	line "liz…"
+	text "Ah… ¡Soy tan"
+	line "feliz!"
 	done
 
 CeruleanTradeSpeechHouseRhydonText:

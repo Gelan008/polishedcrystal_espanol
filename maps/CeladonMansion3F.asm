@@ -114,9 +114,9 @@ MapCeladonMansion3FSignpost3Script:
 	jumpthistext
 
 	text "Está repleto de"
-	line "material de refe-"
-	cont "rencia. Hay hasta"
-	cont "un # Muñeco."
+	line "referencias. Hay"
+	cont "hasta un"
+	cont "# Muñeco."
 	done
 
 GameFreakGameDesignerText:
@@ -182,8 +182,9 @@ GameFreakGraphicArtistPrintDiplomaText:
 	para "Oh, ¿completaste"
 	line "tu #dex?"
 
-	para "¿Quieres que im-"
-	line "prima tu Diploma?"
+	para "¿Quieres que te"
+	line "imprima tu"
+	cont "Diploma?"
 	done
 
 GameFreakGraphicArtistRefusedText:
@@ -197,8 +198,8 @@ GameFreakProgrammerText:
 	line "el Programador."
 
 	para "¡Usa la Red de"
-	line "Intercambio Pro-"
-	cont "digioso!"
+	line "Intercambio"
+	cont "Prodigioso!"
 	done
 
 GameFreakCharacterDesignerText:
@@ -215,13 +216,12 @@ GameFreakCharacterDesignerText:
 
 CeladonMansion3FGameProgramText:
 	text "Es el código del"
-	line "juego. ¡Modificar-"
+	line "juego. ¡Tocarlo"
+	cont "podría causar un"
+	cont "error grave!"
 
-	para "lo podría causar"
-	line "un error!"
-
-	para "¿Quieres modificar"
-	line "lo de todos modos?"
+	para "¿Quieres tocarlo"
+	line "de todos modos?"
 	done
 
 CeladonMansion3FAreYouSureText:

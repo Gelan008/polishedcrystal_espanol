@@ -124,8 +124,8 @@ BattleTowerOutsideAnabelScript:
 	line "nombre es Destra."
 
 	para "¿...Eres <PLAYER>?"
-	line "He oído varios ru-"
-	cont "-mores sobre ti…"
+	line "He oído varios"
+	cont "rumores sobre ti…"
 
 	para "Déjame ver tu"
 	line "talento en su"
@@ -138,8 +138,8 @@ BattleTowerOutsideAnabelScript:
 	done
 
 .NoText:
-	text "Es muy decep-"
-	line "cionante…"
+	text "Es muy"
+	line "decepcionante…"
 	done
 
 .BeatenText:
@@ -159,13 +159,13 @@ BattleTowerOutsideAnabelScript:
 	line "combatiendo y"
 	cont "ganando."
 
-	para "Te estaré espe-"
-	line "rando en la Torre"
-	cont "Batalla."
+	para "Te estaré"
+	line "esperando en la"
+	cont "Torre Batalla."
 
 	para "Hasta la próxima"
-	line "vez que nos vea-"
-	cont "mos…"
+	line "vez que nos"
+	cont "veamos…"
 	done
 
 BattleTowerOutsideYoungsterScript:
@@ -198,22 +198,21 @@ BattleTowerOutsideBeautyScript:
 	text "¿Qué diablos"
 	line "hacen aquí?"
 
-	para "Si el nombre sir-"
-	line "ve de algo, supon-"
-
-	para "go que será para"
-	line "combates #mon."
+	para "Si el nombre"
+	line "sirve de algo,"
+	cont "supongo que será"
+	cont "para combates"
+	cont "#mon."
 	done
 
 .OpenText:
 	text "Solo puedes usar"
 	line "tres #mon."
 
-	para "Es tan difícil de-"
-	line "cidir cuáles irán"
-
-	para "a luchar en los"
-	line "combates…"
+	para "Es tan difícil"
+	line "decidir cuáles"
+	cont "irán a luchar en"
+	cont "los combates…"
 	done
 
 BattleTowerOutsideSailorText:
@@ -221,8 +220,9 @@ BattleTowerOutsideSailorText:
 	line "escaqueado del"
 	cont "trabajo."
 
-	para "¡No puedo rendir-"
-	line "me hasta ganar!"
+	para "¡No puedo"
+	line "rendirme hasta"
+	cont "ganar!"
 
 	para "Tengo que ganarlo"
 	line "todo. ¡Claro que"
@@ -231,6 +231,6 @@ BattleTowerOutsideSailorText:
 
 BattleTowerOutsideDoorsClosedText:
 	text "Las puertas de la"
-	line "Torre Batalla es-"
-	cont "tán cerradas…"
+	line "Torre Batalla"
+	cont "están cerradas…"
 	done

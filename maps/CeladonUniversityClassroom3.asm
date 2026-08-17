@@ -26,21 +26,20 @@ CeladonUniversityClassroom3_MapScriptHeader:
 CeladonUniversityClassroom3SparkText:
 	text "¡Oye! Soy Spark."
 	line "Enseño Ciencias…"
+	cont "más concretamente,"
+	cont "#biología."
 
-	para "ahora mismo,"
-	line "#biología."
-
-	para "Estamos estudiando"
-	line "cómo se reproducen"
-	cont "los #mon."
+	para "Estudiamos cómo se"
+	line "reproducen los"
+	cont "#mon."
 
 	para "El Prof. Elm es el"
 	line "pionero en este"
 	cont "campo."
 
 	para "¡Oh, le conoces!"
-	line "¿Es cierto que de"
-	cont "verdad vive en su"
+	line "¿Es verdad que"
+	cont "vive dentro de su"
 	cont "laboratorio?"
 	done
 
@@ -54,14 +53,10 @@ CeladonUniversityClassroom3TeacherText:
 
 CeladonUniversityClassroom3ChildText:
 	text "Los #mon dentro"
-	line "de # Balls se"
-
-	para "convierten en luz,"
-	line "y luego"
-
-	para "vuelven a ser ma-"
-	line "teria cuando salen"
-	cont "fuera."
+	line "de las # Balls"
+	cont "se vuelven luz, y"
+	cont "luego materia al"
+	cont "salir fuera."
 
 	para "No te preocupes,"
 	line "¡no les duele en"
@@ -69,50 +64,42 @@ CeladonUniversityClassroom3ChildText:
 	done
 
 CeladonUniversityClassroom3LassText:
-	text "Mi maestro dice"
-	line "que Magneton es la"
+	text "Mi profesor dice"
+	line "que Magneton surge"
+	cont "de tres Magnemite,"
+	cont "¡pero pesa 10"
+	cont "veces más!"
 
-	para "unión de tres Mag-"
-	line "nemite, pero"
-
-	para "Magneton es 10"
-	line "veces más pesado"
-	cont "que Magnemite."
-
-	para "¡¿Cómo funciona"
-	line "eso?!"
+	para "¿Cómo puede ser?"
 	done
 
 CeladonUniversityClassroom3Super_nerdText:
-	text "¿Has oído hablar"
-	line "del #mon eléc-"
-	cont "trico Mareep?"
+	text "¿Conoces al"
+	line "#mon eléctrico"
+	cont "Mareep?"
 
-	para "Su nombre deriva"
+	para "Su nombre viene"
 	line "de la unidad de"
+	cont "amperio (ampere)."
 
-	para "corriente eléc-"
-	line "trica, “ampere”."
-
-	para "¡Reorganiza sus"
-	line "letras y lo verás!"
+	para "¡Cambia el orden"
+	line "de letras y verás!"
 	done
 
 CeladonUniversityClassroom3BlackboardText:
-	text "Pone: 'Filogenéti-"
-	line "ca'."
+	text "Pone: Filogenia."
 
 	para "…Los #mon se"
 	line "dividen en 14"
 	cont "Grupos Huevo,"
-	cont "más Ditto."
+	cont "además de Ditto."
 
 	para "Los #mon Bebé"
 	line "no pueden criar."
 
-	para "Los #mon Le-"
-	line "gendarios no han"
-	cont "sido estudiados."
+	para "Los Legendarios"
+	line "no han sido aún"
+	cont "estudiados."
 	done
 
 CeladonUniversityClassroom3Bookshelf1Text:

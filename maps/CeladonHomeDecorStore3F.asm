@@ -137,22 +137,20 @@ CeladonHomeDecorStore3FClerk1Text:
 	done
 
 CeladonHomeDecorStore3FClerk2Text:
-	text "¿Acaso una alfom-"
-	line "bra no mejora un"
-	cont "montón tu cuarto?"
+	text "¿Una alfombra no"
+	line "mejora un montón"
+	cont "tu habitación?"
 	done
 
 CeladonHomeDecorStore3FClerk2SaleText:
 	text "Nuestra Alfombra"
 	line "Azul importada"
+	cont "está de oferta por"
+	cont "35000¥ ahora."
 
-	para "está en oferta"
-	line "ahora por ¥35000."
-
-	para "¿Te gustaría com-"
-	line "prar una?"
+	para "¿Te gustaría"
+	line "comprar una?"
 	done
-
 
 CeladonHomeDecorStore3FClerk2NoText:
 	text "¡Buen día!"
@@ -213,9 +211,9 @@ CeladonHomeDecorStore3FYoungsterText:
 	done
 
 CeladonHomeDecorStore3FBeautyText:
-	text "¡Algunas de estas"
-	line "alfombras son im-"
-	cont "portadas de Kalos!"
+	text "¡Algunas alfombras"
+	line "son importadas de"
+	cont "Kalos!"
 	done
 
 CeladonHomeDecorStore3FDirectoryText:

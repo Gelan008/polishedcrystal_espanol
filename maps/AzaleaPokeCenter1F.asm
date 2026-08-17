@@ -31,12 +31,10 @@ PokemonJournalBugsyScript:
 
 	para "Se dice que Antón"
 	line "ha ganado tantas"
-
-	para "veces el Concurso"
-	line "de Captura de"
-
-	para "Bichos que ya ni"
-	line "participa."
+	cont "veces el Concurso"
+	cont "de Captura de"
+	cont "Bichos que ya ni"
+	cont "participa."
 	done
 
 AzaleaPokeCenter1FCooltrainermScript:
@@ -46,16 +44,13 @@ AzaleaPokeCenter1FCooltrainermScript:
 
 	text "Para hacer unas"
 	line "# Balls tan"
-
-	para "buenas, César"
-	line "no es muy buen"
+	cont "buenas, César no"
+	cont "es muy buen"
 	cont "entrenador."
 
 	para "Tiene un #mon,"
-	line "pero no lo"
-
-	para "suele usar a"
-	line "menudo."
+	line "pero no lo suele"
+	cont "usar a menudo."
 	done
 
 .NiteText:
@@ -65,9 +60,8 @@ AzaleaPokeCenter1FCooltrainermScript:
 
 	para "También se llevan"
 	line "bien con Agatha,"
-
-	para "ex miembro del"
-	line "Alto Mando."
+	cont "ex miembro del"
+	cont "Alto Mando."
 	done
 
 AzaleaPokeCenter1FGentlemanText:
@@ -76,17 +70,15 @@ AzaleaPokeCenter1FGentlemanText:
 
 	para "Se pueden usar"
 	line "incluso si tu"
-
-	para "#mon se ha"
-	line "debilitado."
+	cont "#mon se ha"
+	cont "debilitado."
 	done
 
 AzaleaPokeCenter1FSightseermText:
 	text "Ese tal Bill creó"
 	line "el sistema para"
-
-	para "almacenar #mon"
-	line "en el PC."
+	cont "almacenar #mon"
+	cont "en el PC."
 
 	para "El PC de Bill"
 	line "puede guardar 20"
@@ -98,18 +90,16 @@ AzaleaPokeCenter1FPokefanfText:
 	line "Bonguris?"
 
 	para "Abre uno, vacíalo"
-	line "y ponle un meca-"
+	line "y ponle un"
+	cont "mecanismo"
+	cont "especial."
 
-	para "nismo especial."
-	line "Entonces podrás"
+	para "Entonces podrás"
+	line "atrapar #mon"
+	cont "con él."
 
-	para "atrapar #mon"
-	line "con él."
-
-	para "Antes de inven-"
-	line "tarse las #"
-	cont "Balls,"
-
-	para "todo el mundo"
-	line "usaba Bonguris."
+	para "Antes de inventar"
+	line "las # Balls,"
+	cont "todo el mundo"
+	cont "usaba Bonguris."
 	done

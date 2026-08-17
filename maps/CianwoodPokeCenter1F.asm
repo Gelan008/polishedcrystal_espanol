@@ -29,18 +29,14 @@ PokemonJournalChuckScript:
 	para "Edición especial:"
 	line "¡Líder Aníbal!"
 
-	para "Se dice que a"
-	line "Aníbal le encantan"
-	cont "los postres"
+	para "Dicen que a Aníbal"
+	line "le encantan los"
 	cont "dulces."
 
-	para "Sin embargo,"
-	line "también se le ha"
-
-	para "visto entrenando"
-	line "bajo una pesada"
-	cont "cascada para ba-"
-	cont "jarlos."
+	para "Sin embargo, suele"
+	line "entrenar bajo una"
+	cont "cascada para"
+	cont "quemarlos."
 	done
 
 CianwoodGymGuyScript:
@@ -64,42 +60,34 @@ CianwoodGymGuyScript:
 
 .Text:
 	text "Los entrenadores"
-	line "del Gimnasio #"
-	cont "mon de aquí son"
-	cont "unos machitos."
+	line "del Gimnasio de"
+	cont "aquí son todos"
+	cont "unos machotes."
 
-	para "Si me quedo por"
-	line "aquí, podrían ir"
-	cont "a por mí."
+	para "Si me acerco por"
+	line "allí, ¡podrían ir"
+	cont "a por mí!"
 
-	para "Aquí tienes un"
-	line "consejo: el Líder"
+	para "Un consejo: el"
+	line "Líder de Gimnasio"
+	cont "usa el tipo Lucha."
 
-	para "del Gimnasio usa"
-	line "el tipo Lucha."
+	para "Confúndelo con"
+	line "#mon Psíquicos."
 
-	para "Así que deberías"
-	line "confundirlo con"
-	cont "#mon Psíquicos."
-
-	para "Acaba con sus"
-	line "#mon antes de"
-	cont "que puedan usar"
-	cont "su fuerza física."
+	para "Derrótalos antes"
+	line "de que usen su"
+	cont "fuerza física."
 	
-	para "¿Y esas rocas"
-	line "en el medio del"
-	cont "Gimnasio?"
+	para "¿Y las rocas del"
+	line "medio del Gim.?"
 
 	para "Si no las mueves"
-	line "correctamente,"
+	line "bien, no llegarás"
+	cont "hasta el Líder."
 
-	para "no llegarás al"
-	line "Líder."
-
-	para "Si te quedas"
-	line "atrapado, sal"
-	cont "fuera."
+	para "Si te atascas,"
+	line "sal un momento."
 	done
 
 .StrengthText1:
@@ -116,33 +104,28 @@ CianwoodGymGuyScript:
 	done
 
 .WinText:
-	text "¡<PLAYER>! ¡Ga-"
-	line "naste! ¡Me he dado"
-	cont "cuenta con solo"
-	cont "mirarte!"
+	text "¡<PLAYER>! ¡Has"
+	line "ganado! ¡Lo supe"
+	cont "con solo mirarte!"
 	done
 
 CianwoodPokeCenter1FLassText:
 	text "¿Conociste al"
 	line "#maníaco?"
 
-	para "Siempre está pre-"
-	line "sumiendo de sus"
-	cont "#mon raros."
+	para "Siempre presume"
+	line "de sus #mon"
+	cont "raros."
 	done
 
 CianwoodPokeCenter1FSuperNerdText:
-	text "Me encanta pre-"
-	line "sumir de los"
+	text "Me encanta lucir a"
+	line "los #mon que he"
+	cont "criado. ¿Y a ti?"
 
-	para "#mon que he"
-	line "criado. ¿A ti no?"
-
-	para "¡Voy a meterme en"
-	line "un montón de"
-
-	para "combates y a pre-"
-	line "sumir de mis"
+	para "¡Voy a luchar en"
+	line "muchos combates y"
+	cont "presumir de mis"
 	cont "#mon!"
 	done
 
@@ -150,8 +133,7 @@ CianwoodPokeCenter1FRichBoyText:
 	text "No hay Tienda"
 	line "#mon aquí,"
 
-	para "así que tenemos"
-	line "que importar pro-"
-	cont "ductos del otro"
-	cont "lado del mar."
+	para "así que traemos"
+	line "los productos del"
+	cont "otro lado del mar."
 	done

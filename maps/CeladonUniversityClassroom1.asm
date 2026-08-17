@@ -75,9 +75,8 @@ CeladonUniversityClassroom1ImakuniScript:
 
 .Text6:
 	text "En el combate y la"
-	line "danza, alma y"
-	cont "ritmo son el se-"
-	cont "creto."
+	line "danza, ritmo y"
+	cont "alma son la clave."
 
 	para "Oye, ¡eso suena"
 	line "bastante guay!"
@@ -93,18 +92,16 @@ CeladonUniversityClassroom1ImakuniScript:
 	para "¿Quién? ¿Yo? ¿No"
 	line "sabes quién soy?"
 
-	para "Soy la superestre-"
-	line "lla musical,"
-	cont "¡Imakuni!"
+	para "¡Soy la estrella"
+	line "musical, Imakuni!"
 
 	para "Yo cantaré el"
-	line "#Rap… ¡Tú"
-	cont "bailas!"
+	line "#Rap… ¡Tú baila!"
 
-	para "♪ La di da di da,"
-	line "La di da di da… ♪"
+	para "♪ Y que #mon,"
+	line "eres tú… ♪"
 
-	para "¡Eh! ¡Mueve esos"
+	para "¡Yeah! ¡Mueve esos"
 	line "pies!"
 
 	para "¿Qué? ¿#mon?"
@@ -132,32 +129,25 @@ CeladonUniversityClassroom1ImakuniScript:
 	done
 
 .Text5:
-	text "¡Oye! ¡Eres bas-"
-	line "tante bueno!"
+	text "¡Oye! ¡Eres muy"
+	line "bueno!"
 
-	para "Te daré esta Baya,"
-	line "así que no le di-"
-
-	para "gas a nadie que"
-	line "perdí, ¿vale?"
+	para "Te daré una Baya,"
+	line "¡no digas a nadie"
+	cont "que perdí, ¿vale?"
 	done
 
 CeladonUniversityClassroom1AndyText:
-	text "¡Hola a todos!"
-	line "Soy el Prof. Andy,"
+	text "¡Hola a todos! Soy"
+	line "el Prof. Andy,"
+	cont "y enseño arte."
 
-	para "y enseño lo que"
-	line "amo: ¡arte!"
+	para "Recuerda: dibuja"
+	line "lo que ves, no lo"
+	cont "que crees ver."
 
-	para "Recuerda, dibuja"
-	line "lo que ves,"
-
-	para "no lo que crees"
-	line "que ves."
-
-	para "Supera tus precon-"
-	line "cepciones sobre"
-	cont "cómo lucen."
+	para "Supera cualquier"
+	line "prejuicio visual."
 	done
 
 CeladonUniversityClassroom1Dragon_tamerText:
@@ -167,66 +157,55 @@ CeladonUniversityClassroom1Dragon_tamerText:
 	done
 
 CeladonUniversityClassroom1LadyText:
-	text "Conoces a gente"
+	text "Hay gente muy"
 	line "única en la clase"
-	cont "de arte, ¡pero"
-
-	para "ese chico en traje"
-	line "negro es muy sos-"
-	cont "pechoso!"
+	cont "de arte, ¡pero ese"
+	cont "del traje negro es"
+	cont "muy sospechoso!"
 	done
 
 CeladonUniversityClassroom1Artist1Text:
-	text "Es difícil dibu-"
-	line "jar bien los plie-"
-	cont "gues de esa capa."
+	text "Cuesta dibujar"
+	line "los pliegues de"
+	cont "esa capa."
 	done
 
 CeladonUniversityClassroom1Artist2Text:
 	text "¡Aachís!"
 
-	para "Uf. Acabamos de"
-	line "tener un semina-"
-	cont "rio de arreglos"
+	para "Uf. Tras la clase"
+	line "de arreglos"
+	cont "florales, ¡no paro"
+	cont "de estornudar!"
 
-	para "florales, pero"
-	line "ahora no puedo de-"
-	cont "jar de estornudar."
-
-	para "Debo ser alér-"
-	line "gico…"
+	para "Debo de ser"
+	line "alérgico…"
 	done
 
 CeladonUniversityClassroom1Artist3Text:
-	text "Trabajo mucho"
-	line "por el día, así"
-
-	para "que cojo clases"
-	line "por las noches."
+	text "Trabajo de día,"
+	line "así que tomo"
+	cont "clases de noche."
 	done
 
 CeladonUniversityClassroom1BlackboardText:
-	text "Hay una descrip-"
-	line "ción sobre la"
-
-	para "perspectiva de dos"
-	line "y tres puntos."
+	text "Hay una lección de"
+	line "perspectiva de dos"
+	cont "y tres puntos."
 	done
 
 CeladonUniversityClassroom1Bookshelf1Text:
 	text "Es un libro sobre"
-	line "Smeargle, un ar-"
-	cont "tista #mon."
+	line "Smeargle, el"
+	cont "artista #mon."
 
 	para "Está lleno de"
 	line "hermosos dibujos."
 	done
 
 CeladonUniversityClassroom1Bookshelf2Text:
-	text "Es un folleto mos-"
-	line "trando las bellas"
-	cont "artes de un lugar"
-
-	para "llamado Museo de"
-	line "Calagua."
+	text "Es un folleto de"
+	line "las bellas artes"
+	cont "del Museo de"
+	cont "Calagua."
 	done

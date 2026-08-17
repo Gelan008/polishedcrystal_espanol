@@ -34,23 +34,18 @@ CianwoodHouseBlackBeltScript:
 CianwoodHouseBlackBeltText1:
 	text "Fui al Gimnasio"
 	line "con este chaleco,"
-	cont "¡pero se rieron"
+	cont "¡pero se rieron de"
+	cont "mí y me echaron!"
 
-	para "de mí y me echa-"
-	line "ron! No puedo"
-	cont "volver a llevarlo"
-
-	para "allí, así que me-"
-	line "jor te lo quedas"
-	cont "tú."
+	para "No puedo volver a"
+	line "llevarlo allí,"
+	cont "así que quédatelo."
 	done
 
 CianwoodHouseBlackBeltText2:
-	text "Bien. ¡Entrenaré"
-	line "duro y me ganaré"
-
-	para "mi puesto en el"
-	line "Gimnasio!"
+	text "¡Entrenaré duro y"
+	line "me ganaré mi sitio"
+	cont "en el Gimnasio!"
 	done
 
 CianwoodLugiaSpeechHouseTeacherText:
@@ -68,27 +63,22 @@ CianwoodLugiaSpeechHouseTeacherText:
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "He oído que solo"
-	line "puedes verla si"
+	text "Dicen que solo se"
+	line "deja ver si tienes"
+	cont "un Ala Plateada."
 
-	para "tienes un Ala"
-	line "Plateada."
-
-	para "Debe tener el"
+	para "Debe de tener el"
 	line "mismo olor que la"
 	cont "criatura."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "He oído que los"
-	line "remolinos de agua"
+	text "Dicen que esa gran"
+	line "criatura marina"
+	cont "crea los remolinos"
+	cont "de las islas."
 
-	para "alrededor de las"
-	line "islas son causados"
-	cont "por la criatura"
-	cont "marina."
-
-	para "Podrías necesitar"
-	line "un mov. especial"
-	cont "para pasarlos."
+	para "Necesitarás un"
+	line "mov. especial para"
+	cont "atravesarlos."
 	done

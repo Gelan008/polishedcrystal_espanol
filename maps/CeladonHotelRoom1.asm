@@ -28,11 +28,10 @@ CeladonHotelRoom1CooltrainerMText:
 	done
 
 CeladonHotelRoom1LassText:
-	text "El personal de a-"
-	line "quí dobla nues-"
-	cont "tras toallas en"
-	cont "forma de flor a"
-	cont "diario."
+	text "El personal de"
+	line "aquí dobla las"
+	cont "toallas en forma"
+	cont "de flor a diario."
 
 	para "Debería pedirles"
 	line "que me enseñen a"

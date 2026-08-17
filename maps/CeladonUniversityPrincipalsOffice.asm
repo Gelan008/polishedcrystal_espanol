@@ -32,13 +32,12 @@ CeladonUniversityPrincipalsOfficeMatsumotoScript:
 
 .Text2:
 	text "Trabajo duro para"
-	line "que este lugar"
-	cont "funcione bien,"
+	line "que todo funcione"
+	cont "bien aquí,"
 
-	para "así que me rela-"
-	line "jo tomando ca-"
-	cont "ramelos de vez"
-	cont "en cuando."
+	para "así que me relajo"
+	line "tomando caramelos"
+	cont "de vez en cuando."
 	done
 
 .Text1:
@@ -52,13 +51,12 @@ CeladonUniversityPrincipalsOfficeMatsumotoScript:
 	line "de la Univ."
 	cont "de Azulona."
 
-	para "¡Pero puedes lla-"
-	line "marme tu amigo!"
+	para "¡Pero puedes"
+	line "llamarme amigo!"
 
 	para "Toma algo de mi"
-	line "reserva de ca-"
-	cont "ramelos del escri-"
-	cont "torio."
+	line "reserva de dulces"
+	cont "del escritorio."
 	done
 
 CeladonUniversityPrincipalsOfficeSignpost1Text:
@@ -70,27 +68,22 @@ CeladonUniversityPrincipalsOfficeSignpost1Text:
 CeladonUniversityPrincipalsOfficeSignpost2Text:
 	text "Es una foto del"
 	line "Prof. Matsumoto"
-
-	para "frente a una cla-"
-	line "se graduándose."
+	cont "con una clase"
+	cont "recién graduada."
 	done
 
 CeladonUniversityPrincipalsOfficeComputer:
 	jumpthistext
 
-	text "Hay un borrador"
-	line "de e-mail pi-"
-
-	para "diendo donacio-"
-	line "nes a los alum-"
-	cont "nos."
+	text "Hay un borrador de"
+	line "un e-mail pidiendo"
+	cont "donaciones a los"
+	cont "antiguos alumnos."
 	done
 
 CeladonUniversityPrincipalsOfficeBookshelfText:
-	text "Es un conjunto co-"
-	line "mpleto de los li-"
-	cont "bros de la"
-
-	para "Enciclopedia"
-	line "#mónica."
+	text "Es la colección"
+	line "completa de la"
+	cont "Enciclopedia"
+	cont "#mónica."
 	done

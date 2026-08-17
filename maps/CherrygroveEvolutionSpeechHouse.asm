@@ -17,18 +17,16 @@ CherrygroveEvolutionSpeechHouse_MapScriptHeader:
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
 	text "Los #mon ganan"
-	line "experiencia en los"
-	cont "combates"
-
-	para "y cambian de"
-	line "forma."
+	line "experiencia al"
+	cont "luchar y cambian"
+	cont "de forma."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
 	text "¿Los #mon"
 	line "cambian?"
 
-	para "¡Me quedaría en"
-	line "shock si uno hi-"
-	cont "ciera eso!"
+	para "¡Me quedaría de"
+	line "piedra si alguno"
+	cont "hiciera eso!"
 	done

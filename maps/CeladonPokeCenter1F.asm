@@ -33,25 +33,21 @@ PokemonJournalErikaScript:
 	line "si te asomas al"
 	cont "Gim. de Azulona,"
 
-	para "a menudo puedes"
-	line "ver a Erika dor-"
-	cont "mitando."
+	para "puedes ver a"
+	line "Erika durmiendo."
 	done
 
 CeladonPokeCenter1FPharmacistText:
 	text "La guarida del"
 	line "Team Rocket está"
-
-	para "en el sótano del"
-	line "Casino."
+	cont "bajo el Casino."
 
 	para "Oh, espera. Eso"
 	line "fue hace tres"
 	cont "años."
 
-	para "Me pregunto para"
-	line "qué se usará a-"
-	cont "hora."
+	para "¿Para qué se"
+	line "usará ahora?"
 	done
 
 CeladonPokeCenter1FCooltrainerfText:

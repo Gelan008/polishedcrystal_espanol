@@ -16,13 +16,12 @@ CeruleanCoupleHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCoupleHousePokefanFText, -1
 
 CeruleanCoupleHousePokefanMText:
-	text "Conocí a mi queri-"
-	line "da mujer en esta"
-	cont "ciudad."
+	text "Conocí a mi esposa"
+	line "en esta ciudad."
 
 	para "Sus ojos eran de"
-	line "un celeste pro-"
-	cont "fundo…"
+	line "un azul celeste"
+	cont "profundo…"
 	done
 
 CeruleanCoupleHousePokefanFText:

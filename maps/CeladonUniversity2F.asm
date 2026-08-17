@@ -55,13 +55,13 @@ CeladonUniversity2FCooltrainerfScript:
 	jumpthisopenedtext
 
 .Text5:
-	text "Los Antídotos cu-"
-	line "ran el veneno en"
-	cont "los #mon, pero"
+	text "Los Antídotos"
+	line "curan el veneno en"
+	cont "los #mon."
 
-	para "una persona en-"
-	line "fermaría si bebe"
-	cont "uno."
+	para "¡Pero una persona"
+	line "enfermaría si se"
+	cont "toma uno!"
 	done
 
 .NoRoomForAntidote:
@@ -108,16 +108,16 @@ CeladonUniversity2FCooltrainermText:
 	line "llena bastante,"
 
 	para "así que prefiero"
-	line "comer en el pa-"
-	cont "sillo."
+	line "comer aquí en el"
+	cont "pasillo."
 	done
 
 CeladonUniversity2FYoungster1Text:
 	text "Suspendí el Test"
 	line "Extremo de nuevo…"
 
-	para "¡Pero no me rin-"
-	line "diré!"
+	para "¡Pero no me voy a"
+	line "rendir!"
 	done
 
 CeladonUniversity2FCowgirlText:
@@ -128,14 +128,11 @@ CeladonUniversity2FCowgirlText:
 
 CeladonUniversity2FBug_catcherText:
 	text "El Prof. Willow"
-	line "manda a sus ayu-"
-	cont "dantes"
-
-	para "a recorrer toda la"
-	line "ciudad y estudiar"
-
-	para "los #mon que"
-	line "viven aquí."
+	line "manda a sus"
+	cont "ayudantes por la"
+	cont "ciudad a estudiar"
+	cont "los #mon que"
+	cont "viven aquí."
 	done
 
 CeladonUniversity2FLassText:
@@ -144,23 +141,21 @@ CeladonUniversity2FLassText:
 	cont "Azulona,"
 
 	para "Erika era la mejor"
-	line "de su clase en es-"
-	cont "ta universidad."
+	line "de su clase en"
+	cont "esta universidad."
 
-	para "Ojalá fuera tan"
-	line "genial como ella."
+	para "¡Ojalá fuera tan"
+	line "genial como ella!"
 	done
 
 CeladonUniversity2FYoungster2Text:
 	text "El Prof. Westwood"
-	line "es un poco excén-"
-	cont "trico."
+	line "es algo excéntrico"
 
-	para "A veces se discul-"
-	line "pa ante los retra-"
-
-	para "tos de sus ante-"
-	line "pasados."
+	para "A veces pide"
+	line "disculpas a los"
+	cont "retratos de sus"
+	cont "antepasados."
 	done
 
 CeladonUniversity2FCafeteriaSignText:
@@ -210,6 +205,7 @@ CeladonUniversity2FCuboneSign:
 	jumpthistext
 
 	text "Es el Hueso Grueso"
-	line "y el casco cala-"
-	cont "vera de un Cubone."
+	line "y el casco de"
+	cont "calavera de un"
+	cont "Cubone."
 	done

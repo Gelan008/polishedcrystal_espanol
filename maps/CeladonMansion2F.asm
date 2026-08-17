@@ -31,25 +31,21 @@ CeladonMansion2FComputerText:
 
 	para "…"
 
-	para "Alguien estaba en"
-	line "medio de escribir"
-	cont "un e-mail."
+	para "Alguien estaba"
+	line "escribiendo un"
+	cont "e-mail."
 
 	para "…Espero que"
 	line "vengas a Kanto."
 
-	para "Creo que te"
-	line "sorprenderá lo"
-
-	para "mucho que han"
-	line "cambiado las co-"
-	cont "sas por aquí."
+	para "Te sorprenderá lo"
+	line "mucho que han"
+	cont "cambiado las cosas"
+	cont "por aquí."
 
 	para "También verás"
 	line "muchos #mon que"
-
-	para "no son nativos"
-	line "de Johto."
+	cont "no son de Johto."
 
 	para "Para el Productor"
 

@@ -45,11 +45,12 @@ CeladonHotel1FRichBoyGeraldScript:
 	end
 
 CeladonHotel1FGrampsText:
-	text "¿#mon? No, es"
-	line "un hotel para per-"
-	cont "sonas."
+	text "¿#mon? No, este"
+	line "hotel es para"
+	cont "personas."
 
-	para "Estamos completos."
+	para "Estamos al"
+	line "completo."
 	done
 
 CeladonHotel1FLadyText:
@@ -61,19 +62,17 @@ CeladonHotel1FLadyText:
 	done
 
 CeladonHotel1FCooltrainerFText:
-	text "Ah, ¡realmente ne-"
-	line "cesitaba estas va-"
-	cont "caciones!"
+	text "¡Cómo necesitaba"
+	line "estas vacaciones!"
 	done
 
 RichBoyGeraldGreetingText:
-	text "Mi hermana está"
-	line "disfrutando nues-"
-	cont "tras vacaciones,"
+	text "Mi hermana goza de"
+	line "las vacaciones,"
+	cont "pero me aburro."
 
-	para "pero me aburro."
-	line "¿Echamos un comba-"
-	cont "te?"
+	para "¿Echamos un"
+	line "combate?"
 	done
 
 RichBoyGeraldSeenText:
@@ -87,13 +86,13 @@ RichBoyGeraldBeatenText:
 	done
 
 RichBoyGeraldAfterText:
-	text "La próxima vez, de"
-	line "beríamos ir de va-"
-	cont "caciones a"
+	text "La próxima vez"
+	line "deberíamos ir de"
+	cont "vacaciones a"
 	cont "Ciudad Olivo."
 
-	para "Me gustaría mu-"
-	line "cho desafiar la"
+	para "Me gustaría mucho"
+	line "desafiar la"
 	cont "Torre Batalla."
 	done
 

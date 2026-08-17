@@ -24,17 +24,14 @@ DaisyScript:
 	jumpthistextfaceplayer
 
 	text "Dalia: ¡Hola! Mi"
-	line "hermanito es el"
-
-	para "Líder de Gimnasio"
-	line "de Ciudad Verde."
+	line "hermano es el"
+	cont "Líder de Gimnasio"
+	cont "de Ciudad Verde."
 
 	para "Pero sale tanto de"
-	line "la ciudad, que"
-
-	para "les causa proble-"
-	line "mas a los entre-"
-	cont "nadores."
+	line "la ciudad que les"
+	cont "causa problemas a"
+	cont "los entrenadores."
 	done
 
 .Massage:
@@ -76,10 +73,10 @@ DaisyScript:
 	done
 
 .IntroText:
-	text "Dalia: ¡Hola! Lle-"
-	line "gas justo a tiem-"
-	cont "po. Iba a tomar"
-	cont "un té."
+	text "Dalia: ¡Hola!"
+	line "Llegas justo a"
+	cont "tiempo. Iba a"
+	cont "tomar un té."
 
 	para "¿Te gustaría"
 	line "acompañarme?"
@@ -94,8 +91,9 @@ DaisyScript:
 .After:
 	jumpthistextfaceplayer
 
-	text "Dalia: Siempre to-"
-	line "mo té a esta hora."
+	text "Dalia: Siempre"
+	line "tomo té a esta"
+	cont "hora."
 
 	para "Ven a tomar algo"
 	line "conmigo."
@@ -108,8 +106,8 @@ DaisyScript:
 	line "que acicale a"
 	cont "ninguno?"
 
-	para "Vale, solo toma-"
-	line "remos el té."
+	para "Vale, solo"
+	line "tomaremos el té."
 	done
 
 .QuestionText:

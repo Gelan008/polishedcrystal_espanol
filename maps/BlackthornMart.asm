@@ -20,33 +20,32 @@ BlackthornMart_MapScriptHeader:
 BlackthornMartCooltrainermText:
 	text "No puedes comprar"
 	line "Max. Revivir,"
-
-	para "pero cura del to-"
-	line "do a los #mon"
+	cont "pero cura del todo"
+	cont "a los #mon"
 	cont "debilitados."
 
 	para "Ojo: no restaura"
-	line "los PP, los Pun-"
-	cont "tos de Poder"
-
-	para "necesarios para"
-	line "los movimientos."
+	line "los PP, los Puntos"
+	cont "de Poder"
+	cont "necesarios para"
+	cont "los movimientos."
 	done
 
 BlackthornMartBlackbeltText:
 	text "Máx Repel aleja a"
-	line "los #mon débi-"
-	cont "les de ti."
+	line "los #mon"
+	cont "débiles de ti."
 
 	para "Es el que más"
-	line "dura de los"
+	line "dura de todos los"
 	cont "repelentes."
 	done
 
 BlackthornMartSuperNerdText:
 	text "Los pueblos de"
-	line "Johto tienen nom-"
-	cont "bres de plantas."
+	line "Johto tienen"
+	cont "nombres de"
+	cont "plantas."
 
 	para "¿Te habías dado"
 	line "cuenta?"
