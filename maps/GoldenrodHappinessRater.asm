@@ -64,8 +64,8 @@ GoldenrodHappinessRaterTeacherScript:
 	line "No podría quererte"
 	cont "más."
 
-	para "¡Yo también me a-"
-	line "legro al verlo! ♥"
+	para "¡Me hace muy feliz"
+	line "verlo! ♥"
 	done
 
 .LovesYouALot:
@@ -79,8 +79,8 @@ GoldenrodHappinessRaterTeacherScript:
 .Affectionate:
 	jumpthisopenedtext
 
-	text "¡Es bastante cari-"
-	line "ñoso contigo!"
+	text "¡Te tiene mucho"
+	line "cariño!"
 
 	para "Parece que quiere"
 	line "que lo mimen un"
@@ -107,8 +107,8 @@ GoldenrodHappinessRaterTeacherScript:
 	jumpthisopenedtext
 
 	text "Empieza a coger"
-	line "confianza conti-"
-	cont "go. Es muy mono."
+	line "confianza contigo."
+	cont "¡Es muy mono!"
 	done
 
 .NotUsedToYou:
@@ -125,16 +125,13 @@ GoldenrodHappinessRaterTeacherScript:
 	done
 
 GoldenrodHappinessRaterAskCheckText:
-	text "Si tratas a tus"
-	line "#mon bien,"
+	text "Si tratas bien a"
+	line "tus #mon,"
+	cont "te corresponderán."
 
-	para "te querrán de"
-	line "vuelta."
-
-	para "¿Quieres que com-"
-	line "pruebe la felici-"
-	cont "dad de tus #-"
-	cont "mon?"
+	para "¿Quieres evaluar"
+	line "la felicidad de"
+	cont "tus #mon?"
 	done
 
 GoldenrodHappinessRaterTeacherText:
@@ -145,15 +142,12 @@ GoldenrodHappinessRaterTeacherText:
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "No paro de perder"
-	line "combates, y mis"
+	text "Siempre pierdo y"
+	line "mis #mon caen"
+	cont "debilitados…"
 
-	para "#mon acaban"
-	line "debilitándose…"
-
-	para "A lo mejor por"
-	line "eso a mis #mon"
-	cont "no les caigo muy"
+	para "Quizá por eso no"
+	line "les caigo muy"
 	cont "bien…"
 	done
 

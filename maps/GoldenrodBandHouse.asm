@@ -28,19 +28,17 @@ GoldenrodBandHouseRocker1Text:
 GoldenrodBandHouseRocker2Text:
 	text "La música y la"
 	line "pasión siempre"
+	cont "están de moda."
 
-	para "están de moda."
-	line "¡No lo olvides!"
+	para "¡No lo olvides!"
 	done
 
 GoldenrodBandHouseCooltrainerFText:
-	text "A la gente le"
-	line "gusta diferente"
-	cont "música, pero cada"
+	text "A cada quien le"
+	line "gusta un tipo de"
+	cont "música diferente."
 
-	para "uno tiene derecho"
-	line "a su opinión."
-
-	para "¡No critiques por"
-	line "criticar!"
+	para "¡Hay que respetar"
+	line "los gustos de los"
+	cont "demás!"
 	done

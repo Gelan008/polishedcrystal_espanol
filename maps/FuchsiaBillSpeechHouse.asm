@@ -17,16 +17,12 @@ FuchsiaBillSpeechHouse_MapScriptHeader:
 
 BillsBrotherText:
 	text "Mi abuelo está en"
-	line "casa de mi hermano"
-
-	para "Bill, en Ciudad"
-	line "Trigal."
+	line "casa de Bill, en"
+	cont "Ciudad Trigal."
 	done
 
 BillsBrothersHouseYoungsterText:
-	text "Vi unos #mon"
-	line "raros y lentos"
-
-	para "en el Camino de"
-	line "Bicis."
+	text "Vi #mon raros"
+	line "y lentos en el"
+	cont "Camino de Bicis."
 	done

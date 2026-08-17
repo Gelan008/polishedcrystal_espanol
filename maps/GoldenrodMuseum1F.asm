@@ -53,30 +53,24 @@ GoldenrodMuseum1FRocketScoutScript:
 	end
 
 GoldenrodMuseumReceptionistText:
-	text "Bienvenido al"
-	line "Museo de Ciudad"
-	cont "Trigal."
+	text "Te damos la"
+	line "bienvenida al"
+	cont "Museo de Trigal."
 
-	para "Para celebrar"
-	line "nuestra inaugu-"
-	cont "ración, la"
-	cont "entrada es gratis."
+	para "Por inauguración,"
+	line "la entrada es"
+	cont "gratuita."
 
-	para "Por favor, sién-"
-	line "tete libre de"
-	cont "echar un vistazo,"
-
-	para "y esperamos que"
-	line "disfrutes de la"
-	cont "visita."
+	para "¡Pasa y disfruta"
+	line "de la visita!"
 	done
 
 GoldenrodMuseumOfficerText:
-	text "¡Te estoy vigilan-"
-	line "do, chaval!"
+	text "¡Te tengo bien"
+	line "vigilado, chaval!"
 
-	para "¡Jajaja! ¡Sólo es-"
-	line "toy bromeando!"
+	para "¡Jajaja! ¡Es una"
+	line "broma!"
 
 	para "Vigilo a todo el"
 	line "mundo…"
@@ -84,30 +78,23 @@ GoldenrodMuseumOfficerText:
 
 
 GoldenrodMuseum1FDrillText:
-	text "Es un gran tala-"
-	line "dro usado para"
-
-	para "atravesar roca"
-	line "muy densa."
+	text "Un gran taladro"
+	line "empleado para"
+	cont "perforar roca"
+	cont "muy densa."
 	done
 
 GoldenrodMuseum1FHikerText:
-	text "Escuché que tuvie-"
-	line "ron que usar equi-"
-
-	para "po como este ta-"
-	line "ladro para exca-"
-
-	para "var el túnel del"
-	line "Magnetotrén."
+	text "Dicen que usaron"
+	line "taladros como este"
+	cont "para excavar el"
+	cont "Magnetotúnel."
 	done
 
 GoldenrodMuseum1FRadioDishText:
-	text "Un plato metálico"
-	line "usado para trans-"
-
-	para "mitir ondas de"
-	line "radio."
+	text "Una antena para"
+	line "emitir ondas de"
+	cont "radio."
 	done
 
 GoldenrodMuseum1FHarborText:
@@ -116,21 +103,19 @@ GoldenrodMuseum1FHarborText:
 	done
 
 GoldenrodMuseum1FBigPearlText:
-	text "Es una perla enor-"
-	line "me pescada en el"
+	text "Una perla gigante"
+	line "hallada en el"
 	cont "Puerto de Trigal."
 	done
 
 GoldenrodMuseum1FRocketScoutText1:
-	text "Mmm… Esto"
-	line "alcanzaría un pre-"
-	cont "cio bastante alto."
+	text "Mmm… Esto se"
+	line "vendería a muy"
+	cont "buen precio."
 
-	para "Ahora… ¿cómo lo"
-	line "saco de aquí"
-
-	para "sin que me"
-	line "pillen?"
+	para "¿Cómo lo saco de"
+	line "aquí sin que nadie"
+	cont "se dé cuenta…?"
 	done
 
 GoldenrodMuseum1FRocketScoutText2:

@@ -64,11 +64,9 @@ FuchsiaGymJanineScript:
 	jumpthisopenedtext
 
 	text "Es Puya Nociva, un"
-	line "poderoso movi-"
-
-	para "miento tipo Vene-"
-	line "no que puede"
-	cont "envenenar."
+	line "ataque potente de"
+	cont "tipo Veneno que"
+	cont "puede envenenar."
 	done
 
 LassAmandaScript:
@@ -179,16 +177,14 @@ FuchsiaGymGuyScript:
 	text "¡Eh, futuro"
 	line "Campeón!"
 
-	para "¡Uy! Echa un buen"
-	line "vistazo a tu al-"
-	cont "rededor."
+	para "¡Mira bien a tu"
+	line "alrededor!"
 
-	para "Todos los entre-"
-	line "nadores se parecen"
-	cont "a Sachiko."
+	para "¡Todos visten"
+	line "igual que Sachiko!"
 
-	para "¿Quién de ellos"
-	line "es la real?"
+	para "¿Quién de ellos es"
+	line "la de verdad?"
 	done
 
 FuchsiaGymStatue:
@@ -216,24 +212,20 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu…"
-
-	para "Siento decepcio-"
-	line "narte…"
+	text "Fufufufu… Siento"
+	line "decepcionarte…"
 
 	para "¡Solo bromeaba!"
+	line "¡Yo soy la real!"
 
-	para "¡Yo soy la"
-	line "verdadera!"
-
-	para "¡Sachiko del Gim-"
-	line "nasio Fucsia, esa"
+	para "¡Sachiko del"
+	line "Gim. Fucsia, esa"
 	cont "soy yo!"
 	done
 
 JanineText_ToughOne:
-	text "Sachiko: Eres al-"
-	line "guien duro. Has"
+	text "Sachiko: Eres muy"
+	line "fuerte. Has"
 	cont "ganado…"
 
 if DEF(FAITHFUL)
@@ -253,15 +245,12 @@ JanineText_ToxicSpeech:
 	done
 
 JanineText_ApplyMyself:
-	text "Sachiko: Voy a es-"
-	line "forzarme mucho y"
+	text "Sachiko: Voy a"
+	line "esforzarme mucho"
+	cont "para mejorar."
 
-	para "a mejorar mis"
-	line "habilidades."
-
-	para "¡Quiero llegar a"
-	line "ser mejor que mi"
-	cont "padre y que tú!"
+	para "¡Seré mejor que"
+	line "mi padre y que tú!"
 	done
 
 LassAmandaBeforeText:
@@ -338,7 +327,6 @@ CamperBarryAfterText:
 
 
 FuchsiaGymGuyWinText:
-	text "¡Ha sido un gran"
-	line "combate, entrena-"
-	cont "dor de Johto!"
+	text "¡Gran combate,"
+	line "campeón de Johto!"
 	done

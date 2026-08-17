@@ -19,7 +19,6 @@ GoldenrodHarborGate_MapScriptHeader:
 GoldenrodHarborGateOfficerText:
 	text "Si tu #mon sabe"
 	line "usar Surf, puedes"
-
-	para "ir al norte hasta"
-	line "Ciudad Olivo."
+	cont "ir al norte hasta"
+	cont "Ciudad Olivo."
 	done

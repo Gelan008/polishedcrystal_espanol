@@ -178,15 +178,12 @@ DragonShrineElder1Script:
 	iftrue_jumptextfaceplayer DragonShrineSilverIsInTrainingText
 	jumpthistextfaceplayer
 
-	text "Parece que Débora"
-	line "ha aprendido una"
-
-	para "valiosa lección de"
-	line "ti."
+	text "Débora ha"
+	line "aprendido una gran"
+	cont "lección de ti."
 
 	para "Te lo agradezco"
-	line "como su abuelo que"
-	cont "soy."
+	line "como su abuelo."
 	done
 
 .GiveDratini:
@@ -357,8 +354,8 @@ DragonShrineElderGreetingText:
 	done
 
 DragonShrineQuestion1Text:
-	text "¿Qué son los #"
-	line "mon para ti?"
+	text "¿Qué son para ti"
+	line "los #mon?"
 	done
 
 DragonShrineQuestion2Text:
@@ -367,9 +364,9 @@ DragonShrineQuestion2Text:
 	done
 
 DragonShrineQuestion3Text:
-	text "¿Contra qué tipo"
-	line "de entrenador pre-"
-	cont "fieres combatir?"
+	text "¿Contra qué clase"
+	line "de entrenador"
+	cont "prefieres luchar?"
 	done
 
 DragonShrineQuestion4Text:
@@ -390,46 +387,43 @@ DragonShrinePassedTestText:
 	text "Mm… Ya veo…"
 
 	para "Te preocupas mucho"
-	line "por los #mon."
+	line "por tus #mon."
 
-	para "Muy loable."
+	para "Es encomiable."
 
 	para "¡Esa convicción es"
 	line "lo importante!"
 
-	para "<PLAYER>, no pier-"
-	line "das esa fe."
+	para "<PLAYER>, jamás"
+	line "pierdas esa fe."
 
-	para "Te ayudará"
-	line "en la Liga"
+	para "Te servirá de"
+	line "mucho en la Liga"
 	cont "#mon."
 	done
 
 DragonShrineMustIInformLanceText:
 	text "¡Débora!"
 
-	para "¡Este niño es im-"
-	line "pecable, en habi-"
-	cont "lidad y espíritu!"
+	para "¡Tiene destreza y"
+	line "un espíritu puro!"
 
-	para "¡Admite la derrota"
+	para "¡Admite tu derrota"
 	line "y entrégale la"
 	cont "Medalla Dragón!"
 
 	para "…¿O tendré que"
-	line "informar a Lance"
-	cont "de esto?"
+	line "avisar a Lance de"
+	cont "lo sucedido?"
 	done
 
 DragonShrineElderScoldsClairText:
 	text "Débora…"
 
-	para "Reflexiona sobre"
-	line "qué es lo que te"
-
-	para "falta a ti y a"
-	line "este niño le so-"
-	cont "bra."
+	para "Piensa en qué es"
+	line "lo que te falta a"
+	cont "ti y a este joven"
+	cont "le sobra tanto."
 	done
 
 DragonShrineComeAgainText:
@@ -441,17 +435,12 @@ DragonShrineTakeThisDratiniText:
 	text "Mm… Me alegro de"
 	line "verte aquí."
 
-	para "Tu llegada es de"
-	line "lo más afortunada."
-
-	para "Tengo algo para"
-	line "ti."
+	para "Tu llegada es muy"
+	line "afortunada."
 
 	para "Toma este Dratini"
-	line "como prueba de que"
-
-	para "he reconocido"
-	line "tu valía."
+	line "en reconocimiento"
+	cont "de tu gran valía."
 	done
 
 DragonShrinePartyAndBoxFullText:
@@ -464,28 +453,26 @@ DragonShrineSymbolicDragonText:
 	line "son el símbolo de"
 	cont "nuestro clan."
 
-	para "Has demostrado"
-	line "que se te puede"
-
-	para "confiar uno."
+	para "Has demostrado ser"
+	line "digno de confianza"
+	cont "para criar uno."
 	done
 
 
 DragonShrineSilverIsInTrainingText:
-	text "Un chico de tu"
-	line "edad está entre-"
-	cont "nando aquí."
+	text "Un joven de tu"
+	line "edad entrena aquí."
 
-	para "Se parece mucho a"
-	line "Débora cuando era"
+	para "Se parece tanto a"
+	line "Débora de joven…"
 
-	para "joven. Es un po-"
-	line "co preocupante…"
+	para "Resulta un poco"
+	line "inquietante…"
 	done
 
 DragonShrineWrongAnswerText1:
-	text "¿Eh? No lo he co-"
-	line "gido del todo…"
+	text "¿Eh? No te he"
+	line "oído bien…"
 	done
 
 DragonShrineWrongAnswerText2:
@@ -498,17 +485,14 @@ DragonShrineRightAnswerText:
 	done
 
 DragonShrineElder2Text:
-	text "Ha pasado mucho"
-	line "tiempo desde que"
+	text "Hacía tiempo que"
+	line "nadie lograba la"
+	cont "aprobación de"
+	cont "nuestro Maestro."
 
-	para "un entrenador lo-"
-	line "gra la rara apro-"
-	cont "bación de nues-"
-	cont "tro Maestro."
-
-	para "De hecho, nadie"
-	line "desde el Maestro"
-	cont "Lance."
+	para "De hecho, nadie lo"
+	line "hacía desde el"
+	cont "Maestro Lance."
 	done
 
 DragonShrineElder3Text:
@@ -563,21 +547,16 @@ DragonShrineHereRisingBadgeText:
 
 DragonShrineRisingBadgeExplanationText:
 	text "La Medalla Dragón"
-	line "permitirá a tus"
-
-	para "#mon usar el"
-	line "movimiento para"
-	cont "subir cascadas."
+	line "permite a tus"
+	cont "#mon usar"
+	cont "Cascada para"
+	cont "remontarlas."
 
 	para "Además, todos los"
-	line "#mon te reco-"
-
-	para "nocerán como en-"
-	line "trenador y obe-"
-
-	para "decerán tus"
-	line "órdenes sin"
-	cont "preguntar."
+	line "#mon te verán"
+	cont "como su líder y"
+	cont "obedecerán todas"
+	cont "tus órdenes."
 	done
 
 DragonShrineSpeechlessText: ; text > text

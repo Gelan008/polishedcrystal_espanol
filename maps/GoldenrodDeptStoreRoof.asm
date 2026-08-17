@@ -81,41 +81,39 @@ GoldenrodDeptStoreRoofSuperNerdScript:
 Binoculars1:
 	jumpthistext
 
-	text "Estos prismáticos"
-	line "me dejan ver muy"
+	text "¡Estos prismáticos"
+	line "llegan muy lejos!"
 
-	para "lejos. Igual puedo"
-	line "ver mi propia ca-"
-	cont "sa."
+	para "Quizá pueda ver"
+	line "mi propia casa."
 
-	para "¿Es esa que tiene"
-	line "el tejado verde?"
+	para "¿Será la del"
+	line "tejado verde?"
 	done
 
 Binoculars2:
 	jumpthistext
 
-	text "¡Eh! ¡Hay entrena-"
-	line "dores luchando en"
-	cont "el camino!"
+	text "¡Hay entrenadores"
+	line "luchando en el"
+	cont "camino!"
 
 	para "¡Un #mon lanzó"
-	line "un montón de ho-"
-	cont "jas!"
+	line "muchas hojas!"
 
-	para "¡Eso me da ganas"
-	line "de combatir ahora"
+	para "¡Me dan ganas de"
+	line "luchar ahora"
 	cont "mismo!"
 	done
 
 Binoculars3:
 	jumpthistext
 
-	text "Un Pescador atrapó"
+	text "Un Pescador pescó"
 	line "muchos Magikarp…"
 
-	para "¡Están usando Sal-"
-	line "picadura a la vez!"
+	para "¡Usan Salpicadura"
+	line "a la vez!"
 
 	para "¡Mira cómo salpica"
 	line "el agua por todas"
@@ -208,10 +206,9 @@ GoldenrodDeptStoreRoofPokefanFText:
 	text "Uf, qué cansancio."
 
 	para "A veces subo a la"
-	line "azotea"
-
-	para "para descansar un"
-	line "poco de comprar."
+	line "azotea a descansar"
+	cont "un poco de tantas"
+	cont "compras."
 	done
 
 GoldenrodDeptStoreRoofFisherText:
@@ -220,10 +217,9 @@ GoldenrodDeptStoreRoofFisherText:
 	cont "no puede coleccio-"
 	cont "nar esto?"
 
-	para "¡Voy a volver"
-	line "todos los días pa-"
-	cont "ra conseguir todos"
-	cont "los muñecos!"
+	para "¡Vendré cada día"
+	line "para conseguir"
+	cont "todos los muñecos!"
 	done
 
 GoldenrodDeptStoreRoofFisherDuplicateText:
@@ -244,15 +240,14 @@ VoltorbDollSentText:
 	done
 
 GoldenrodDeptStoreRoofFisherCatchEmAllText:
-	text "He oído que hay"
-	line "30 tipos de muñe-"
-	cont "cos."
+	text "Oí que hay 30"
+	line "muñecos distintos."
 	done
 
 GoldenrodDeptStoreRoofTwinText:
-	text "Tienen ofertas es-"
-	line "peciales aquí de"
-	cont "vez en cuando."
+	text "A veces hacen aquí"
+	line "ofertas muy"
+	cont "especiales."
 	done
 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
@@ -266,13 +261,12 @@ GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
 
 GoldenrodDeptStoreRoofPokefanMText:
 	text "Hay algo que de"
-	line "verdad quiero, pe-"
-	cont "ro no tengo dinero"
-	cont "suficiente…"
+	line "verdad quiero,"
+	cont "pero no me llega"
+	cont "el dinero…"
 
-	para "Quizá venda algu-"
-	line "nas Bayas que he"
-	cont "recolectado…"
+	para "Quizá venda varias"
+	line "Bayas que recogí…"
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
@@ -285,19 +279,16 @@ GoldenrodDeptStoreRoofTeacherText:
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "Mis #mon siem-"
-	line "pre se paralizan o"
+	text "Mis #mon"
+	line "siempre se"
+	cont "envenenan en"
+	cont "mal momento…"
 
-	para "envenenan cuando"
-	line "la cosa se pone"
-	cont "difícil…"
+	para "Por eso vine a por"
+	line "Curas Totales."
 
-	para "Así que vine a"
-	line "comprar algunas"
-	cont "Curas Totales."
-
-	para "¿Me pregunto si"
-	line "quedará alguna?"
+	para "¿Quedará alguna en"
+	line "la tienda?"
 	done
 
 
@@ -323,9 +314,9 @@ BoughtJigglypuffDollText:
 	done
 
 JigglypuffDollSentText:
-	text "El Muñeco Jiggly-"
-	line "puff fue enviado a"
-	cont "casa."
+	text "El Muñeco"
+	line "Jigglypuff fue"
+	cont "enviado a casa."
 	done
 
 BoughtDittoDollText:

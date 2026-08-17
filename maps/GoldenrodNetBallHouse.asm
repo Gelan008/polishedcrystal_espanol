@@ -28,36 +28,31 @@ GoldenrodNetBallHouseYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "A veces tienes mu-"
-	line "cha suerte y atra-"
-	cont "pas a un #mon"
+	text "A veces hay suerte"
+	line "y puedes atrapar"
+	cont "un #mon con los"
+	cont "PS al máximo."
 
-	para "con los PS al"
-	line "máximo. Me en-"
-	cont "canta esa sen-"
-	cont "sación."
+	para "¡Me encanta esa"
+	line "sensación!"
 	done
 
 .Text1:
-	text "Me abastecí de"
+	text "Compré muchas"
 	line "Malla Balls para"
 	cont "atrapar un Pineco,"
 
-	para "¡pero lo conseguí"
-	line "con la primera!"
-
-	para "Ya no necesitaré"
-	line "esto."
+	para "¡pero lo atrapé a"
+	line "la primera! Toma,"
+	cont "para ti."
 	done
 
 GoldenrodNetBallHouseBugCatcherText:
-	text "Hacen Concursos de"
-	line "Captura de Bichos"
+	text "Hay Concursos de"
+	line "Bichos en el"
+	cont "Parque Nacional,"
+	cont "en la Ruta 35."
 
-	para "en el Parque"
-	line "Nacional, en la"
-	cont "Ruta 35."
-
-	para "A veces hasta"
-	line "Antón compite."
+	para "¡A veces hasta"
+	line "Antón compite!"
 	done

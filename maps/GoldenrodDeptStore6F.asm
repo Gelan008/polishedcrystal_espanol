@@ -21,14 +21,10 @@ GoldenrodDeptStore6FLassText:
 	text "¿Escuchas el Canal"
 	line "Suerte?"
 
-	para "Si quieres ganar,"
-	line "intercambia #-"
-
-	para "mon con tanta gen-"
-	line "te como puedas pa-"
-
-	para "ra conseguir IDs"
-	line "diferentes."
+	para "Para ganar, cambia"
+	line "#mon con mucha"
+	cont "gente y reúne IDs"
+	cont "diferentes."
 	done
 
 GoldenrodDeptStore6FSuperNerdText:
@@ -36,14 +32,13 @@ GoldenrodDeptStore6FSuperNerdText:
 	line "prueba las bebidas"
 	cont "de la máquina."
 
-	para "A tus #mon"
-	line "también les encan-"
-	cont "tarán."
+	para "¡A tus #mon"
+	line "les encantarán!"
 	done
 
 GoldenrodDeptStore6FDirectoryText:
-	text "¡Tómate un descan-"
-	line "so de las compras!"
+	text "¡Descansa de las"
+	line "compras!"
 
 	para "P5 Plaza de la"
 	line "   Tranquilidad"

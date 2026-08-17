@@ -35,16 +35,14 @@ EcruteakShrineOutsideHoothootText:
 EcruteakShrineOutsideSageText:
 	text "En Nochevieja, la"
 	line "gente visita este"
-
-	para "santuario y pide"
-	line "deseos para su"
-	cont "futuro."
+	cont "santuario para"
+	cont "pedir deseos."
 	done
 
 EcruteakShrineOutsideStatueText:
-	text "Una estatua #"
-	line "mon…"
+	text "Una estatua de"
+	line "un #mon…"
 
-	para "Parece muy sere-"
-	line "na."
+	para "Transmite mucha"
+	line "serenidad."
 	done

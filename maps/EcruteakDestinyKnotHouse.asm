@@ -37,32 +37,27 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 
 .Text4:
 	text "El hilo rojo del"
-	line "destino te ata a"
+	line "destino te une a"
+	cont "los #mon"
+	cont "legendarios…"
 
-	para "los #mon"
-	line "legendarios…"
-
-	para "¿Eres una especie"
-	line "de Elegido?"
+	para "¿Serás tú el gran"
+	line "Elegido?"
 	done
 
 .Text1:
-	text "Dos poderosos pá-"
-	line "jaros #mon"
-	cont "de Johto,"
-
-	para "cada uno guarda a"
-	line "un trío de #mon"
-	cont "legendarios."
+	text "Dos grandes aves"
+	line "#mon de Johto,"
+	cont "cada una guía a un"
+	cont "trío legendario."
 
 	para "Leyendas dentro de"
 	line "leyendas…"
 	done
 
 .Text2:
-	text "¿Y si un entrena-"
-	line "dor los atrapara"
-	cont "a todos?"
+	text "¿Y si alguien los"
+	line "atrapase a todos?"
 
 	para "¡Qué destino tan"
 	line "improbable!"
@@ -70,15 +65,14 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 
 .Text3:
 	text "¿Qué? ¿Los has"
-	line "visto? ¡¿Y hasta"
-	cont "los has atrapado?!"
+	line "visto y hasta los"
+	cont "has atrapado?!"
 
-	para "Déjame ver tu"
-	line "#dex… ¡Hala!"
+	para "¡A ver tu #dex!"
+	line "¡Increíble!"
 
-	para "Debía ser tu"
-	line "destino."
+	para "Era tu destino."
 
-	para "Toma, deberías te-"
-	line "ner esto."
+	para "Toma, quédate con"
+	line "este objeto."
 	done

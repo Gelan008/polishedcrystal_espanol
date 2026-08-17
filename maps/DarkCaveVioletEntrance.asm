@@ -136,39 +136,32 @@ DarkCaveVioletEntranceFalknerIntroText:
 	prompt
 
 DarkCaveVioletEntranceFalknerDarkIntroText:
-	text "Debes de ser val-"
-	line "iente para venir"
-	cont "aquí en total"
-	cont "oscuridad."
+	text "Hay que ser muy"
+	line "valiente para ir"
+	cont "a oscuras."
 	prompt
 
 DarkCaveVioletEntranceFalknerExplanationText:
 	text "Soy Pegaso, Líder"
-	line "del Gimnasio #-"
-	cont "mon de Malva."
+	line "del Gimnasio de"
+	cont "Ciudad Malva."
 
 	para "No exploro cuevas"
 	line "por diversión,"
-
-	para "pero ese Ursaring"
-	line "estaba atacando"
-
-	para "a entrenadores muy"
-	line "débiles para de-"
-	cont "fenderse."
+	cont "pero ese Ursaring"
+	cont "atacaba a novatos"
+	cont "indefensos."
 
 	para "Como Líder, es mi"
-	line "deber ocuparme de"
-
-	para "este tipo de si-"
-	line "tuaciones."
+	line "deber resolver"
+	cont "estas cosas."
 
 	para "Así que, ¿vienes a"
 	line "ganar una Medalla?"
 
-	para "Pues encuéntrame"
-	line "en el Gimnasio"
-	cont "Malva."
+	para "¡Pues ven a verme"
+	line "al Gimnasio de"
+	cont "Ciudad Malva!"
 	done
 
 DarkCaveVioletEntranceFalknerDarknessText:

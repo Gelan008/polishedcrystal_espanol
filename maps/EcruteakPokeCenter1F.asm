@@ -30,26 +30,21 @@ PokemonJournalMortyScript:
 
 	text "Revista #mon"
 
-	para "Edición Especial"
+	para "Edición Especial:"
 	line "¡Líder Morti!"
 
-	para "Morti asegura ha-"
-	line "ber visto una vez"
-	cont "a Entei. Él dice:"
+	para "Morti asegura que"
+	line "vio una vez a"
+	cont "Entei. Él dice:"
 
-	para "“Fue asombroso."
-	line "Entei me miró a"
-	cont "los ojos."
+	para "“Fue increíble."
+	line "Entei me miró fijo"
+	cont "a los ojos."
 
-	para "Nunca olvidaré"
-	line "sus ojos. Fue"
-
-	para "como si pudiera"
-	line "ver a través de mí"
-
-	para "hasta lo más pro-"
-	line "fundo de mi cora-"
-	cont "zón…”"
+	para "Jamás olvidaré su"
+	line "mirada. Parecía"
+	cont "ver a través de mí"
+	cont "hasta mi corazón…”"
 	done
 
 EcruteakPokeCenter1FBillScript:
@@ -114,35 +109,28 @@ EcruteakPokeCenter1FBillScript:
 
 .QuestionText:
 	text "Bill: Este Eevee"
-	line "llegó justo"
-
-	para "antes de que la"
-	line "Cápsula del Tiempo"
+	line "llegó antes de que"
+	cont "la Cápsula Tiempo"
 	cont "se apagara."
 
-	para "Alguien tiene que"
-	line "cuidar de él,"
+	para "Hay que cuidar de"
+	line "él, pero no suelo"
+	cont "salir mucho."
 
-	para "pero no me gusta"
-	line "estar fuera."
-
-	para "¿Puedo contar con-"
-	line "tigo para que jue-"
-	cont "gues con él,"
-	cont "<PLAYER>?"
+	para "¿Cuento contigo"
+	line "para que juegues"
+	cont "con él, <PLAYER>?"
 	done
 
 .YesText:
 	text "Bill: ¡Sabía que"
 	line "aceptarías!"
 
-	para "¡Genial! ¡Eres un"
-	line "crack!"
+	para "¡Genial! ¡Eres"
+	line "un crack!"
 
-	para "Vale, cuento con-"
-	line "tigo."
-
-	para "¡Cuídalo mucho!"
+	para "Vale, confío en"
+	line "ti. ¡Cuídalo bien!"
 	done
 
 .GoodbyeText:
@@ -208,29 +196,27 @@ EcruteakPokeCenter1FPokefanMScript:
 	iftrue_jumptextfaceplayer .SurfText
 	jumpthistextfaceplayer
 
-	text "El modo de bailar"
-	line "de las Chicas"
+	text "El baile de las"
+	line "Chicas Kimono es"
+	cont "una maravilla,"
 
-	para "Kimono es maravi-"
-	line "lloso. Igual que"
-	cont "su forma de usar a"
-	cont "sus #mon."
+	para "igual que su forma"
+	line "de luchar con sus"
+	cont "#mon."
 	done
 
 .SurfText:
-	text "Seguro que esperas"
-	line "combatir contra"
-	cont "más gente, ¿no?"
+	text "Seguro que quieres"
+	line "luchar contra más"
+	cont "gente, ¿a que sí?"
 
-	para "Al parecer hay"
-	line "un lugar donde se"
-	cont "reúnen entrenado-"
-	cont "res."
+	para "Dicen que hay un"
+	line "sitio de reunión"
+	cont "de entrenadores."
 
 	para "¿Que dónde está?"
-
-	para "Un poco más allá"
-	line "de Ciudad Olivo."
+	line "Un poco más allá"
+	cont "de Ciudad Olivo."
 	done
 
 EcruteakPokeCenter1FLassScript:
@@ -243,15 +229,13 @@ EcruteakPokeCenter1FLassScript:
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 
-	text "Una vez oí que"
-	line "la madre de Bill"
+	text "Una vez oí que la"
+	line "madre de Bill fue"
+	cont "una Chica Kimono."
 
-	para "fue una Chica"
-	line "Kimono. Quizá por"
-
-	para "eso visita este"
-	line "lugar tan a me-"
-	cont "nudo."
+	para "Quizá por eso nos"
+	line "visita tan a"
+	cont "menudo."
 	done
 
 .No:
@@ -259,8 +243,8 @@ EcruteakPokeCenter1FLassScript:
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 
-	text "Oh… No impor-"
-	line "ta entonces."
+	text "Oh… No importa"
+	line "entonces."
 	done
 
 .QuestionText:
@@ -269,30 +253,28 @@ EcruteakPokeCenter1FLassScript:
 	done
 
 .HereText:
-	text "¡Entonces ve a ha-"
-	line "blar con él! ¡Está"
-	cont "junto al mostra-"
-	cont "dor!"
+	text "¡Pues habla con"
+	line "él! ¡Está junto"
+	cont "al mostrador!"
 	done
 
 EcruteakPokeCenter1FCooltrainerFText:
-	text "Morti, el Líder"
-	line "del Gimnasio, mo-"
-	cont "la muuuuucho."
+	text "Morti, Líder del"
+	line "Gimnasio, mola un"
+	cont "montón."
 
-	para "Sus #mon tam-"
-	line "bién son muy"
-	cont "duros."
+	para "¡Y sus #mon son"
+	line "durísimos!"
 	done
 
 EcruteakPokeCenter1FGymGuyText:
-	text "El Lago de la Fu-"
-	line "ria…"
+	text "El Lago de la"
+	line "Furia…"
 
 	para "La aparición de un"
 	line "enjambre de"
 	cont "Gyarados…"
 
-	para "Huelo a conspira-"
-	line "ción. ¡Lo sé!"
+	para "¡Huelo a una gran"
+	line "conspiración!"
 	done

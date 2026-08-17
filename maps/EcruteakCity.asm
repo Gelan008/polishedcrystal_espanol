@@ -74,16 +74,13 @@ EcruteakCityFisherScript:
 	iftrue_jumptextfaceplayer EcruteakCityFisherText_JasmineReturned
 	jumpthistextfaceplayer
 
-	text "He oído un rumor"
-	line "sobre el Faro de"
-	cont "Olivo."
+	text "Hay un rumor sobre"
+	line "el Faro de Olivo."
 
-	para "El #mon que"
-	line "sirve de faro se"
-
-	para "ha puesto enfer-"
-	line "mo. Parece que"
-	cont "están en apuros."
+	para "El #mon que da"
+	line "luz al faro ha"
+	cont "enfermado."
+	cont "¡Están en apuros!"
 	done
 
 EcruteakCityGramps1Text:
@@ -95,25 +92,21 @@ EcruteakCityGramps1Text:
 	done
 
 EcruteakCityGramps2Text:
-	text "Ah, joven."
-	line "¿Has aprendido"
+	text "Ah, joven. ¿Sabes"
+	line "bailar como las"
+	cont "Chicas Kimono?"
 
-	para "a bailar como las"
-	line "Chicas Kimono?"
-
-	para "He oído que si vas"
-	line "al Teatro de Danza"
-
-	para "un viejo raro te"
-	line "dará algo bonito."
+	para "Dicen que en el"
+	line "Teatro de Danza un"
+	cont "viejo raro te dará"
+	cont "algo bonito."
 	done
 
 EcruteakCityLass1Text:
-	text "Voy a que bendi-"
-	line "gan a mis #mon"
-
-	para "en el santuario."
-	line "¿Te apetece venir?"
+	text "Voy a bendecir a"
+	line "mis #mon en el"
+	cont "santuario."
+	cont "¿Te vienes?"
 	done
 
 EcruteakCityHexManiacText:
@@ -124,12 +117,11 @@ EcruteakCityHexManiacText:
 
 EcruteakCitySightseerMText:
 	text "Ciudad Iris tiene"
-	line "una historia in-"
-	cont "creíble."
+	line "una gran historia."
 
-	para "Smeargle y yo vi-"
-	line "ajamos hasta aquí"
-	cont "para dibujarla."
+	para "Smeargle y yo"
+	line "hemos venido a"
+	cont "dibujarla."
 	done
 
 EcruteakCitySmeargleText:
@@ -138,62 +130,57 @@ EcruteakCitySmeargleText:
 
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Tres grandes #"
-	line "mon salieron co-"
-	cont "rriendo en direc-"
-	cont "ciones distintas."
-	cont "¿Qué eran?"
+	text "¡Tres grandes"
+	line "#mon huyeron"
+	cont "en varias"
+	cont "direcciones!"
+
+	para "¿Qué serían?"
 	done
 
 
 EcruteakCityFisherText_JasmineReturned:
-	text "El #mon del Fa-"
-	line "ro de Olivo ha"
-	cont "sido curado."
+	text "El #mon del"
+	line "Faro de Olivo ya"
+	cont "está curado."
 
 	para "Los barcos pueden"
-	line "volver a salir a"
-	cont "navegar por la"
-	cont "noche con seguri-"
-	cont "dad."
+	line "navegar de noche"
+	cont "con seguridad."
 	done
 
 EcruteakCityYoungsterText:
-	text "He oído que hay"
-	line "#mon alborota-"
-	cont "-dos en el"
-	cont "Lago de la Furia"
-	cont "Me gustaría verlo."
+	text "Dicen que hay"
+	line "#mon furiosos en"
+	cont "el Lago de la"
+	cont "Furia."
+
+	para "¡Me gustaría"
+	line "verlos!"
 	done
 
 EcruteakCityGramps3Text:
 	text "En el pasado"
-	line "distante…"
+	line "lejano…"
 
 	para "Esta torre ardió"
-	line "en un incendio."
-	cont "Tres #mon sin"
+	line "en un incendio y"
+	cont "tres #mon sin"
+	cont "nombre murieron."
 
-	para "nombre perecieron"
-	line "en él."
-
-	para "Un #mon con co-"
-	line "lores del arcoíris"
-	cont "descendió"
-
-	para "del cielo y los"
-	line "resucitó…"
+	para "Un #mon con los"
+	line "colores del iris"
+	cont "bajó de los cielos"
+	cont "y los resucitó…"
 
 	para "Es una leyenda que"
-	line "se ha transmitido"
+	line "han transmitido"
+	cont "los Líderes del"
+	cont "Gimnasio de Iris."
 
-	para "por los Líderes de"
-	line "Gimnasio de Iris."
-
-	para "¿Yo?"
-
-	para "Fui entrenador ha-"
-	line "ce mucho tiempo."
+	para "¿Yo? ¡Fui un gran"
+	line "entrenador hace ya"
+	cont "mucho tiempo!"
 	cont "¡Jo, jo, jo!"
 	done
 
@@ -219,21 +206,16 @@ EcruteakGymSign:
 EcruteakCityAdvancedTips:
 	text "¡Consejo Avanzado!"
 
-	para "Algunos #mon"
-	line "que encuentres"
-	cont "pueden tener una"
-	cont "rara habilidad,"
+	para "Ciertos #mon"
+	line "pueden tener una"
+	cont "habilidad rara,"
 
-	para "¡también conocida"
-	line "como Habilidad"
-	cont " Oculta!"
+	para "¡conocida como"
+	line "Habilidad Oculta!"
 
-	para "Un #mon salido"
-	line "del huevo también"
-
-	para "tiene una pequeña"
-	line "probabilidad de"
-	cont "tener una."
+	para "Los #mon de un"
+	line "Huevo también"
+	cont "pueden tenerla."
 	done
 
 EcruteakDanceTheaterSign:
@@ -244,22 +226,20 @@ EcruteakDanceTheaterSign:
 BurnedTowerSign:
 	text "Torre Quemada"
 
-	para "Fue destruida en"
-	line "un misterioso in-"
-	cont "cendio."
+	para "Destruida en un"
+	line "extraño incendio."
 
-	para "Por favor, mantén-"
-	line "te alejado. No es"
-	cont "segura."
+	para "Por favor, no te"
+	line "acerques. No es"
+	cont "un lugar seguro."
 	done
 
 EcruteakShrineSign:
 	text "Santuario de Iris"
 
-	para "“La vida es la"
-	line "llama de una lám-"
-	cont "para frente al"
-	cont "viento”"
+	para "“La vida es cual"
+	line "llama de candil"
+	cont "frente al viento”"
 	done
 
 EcruteakBarrierStationSign:

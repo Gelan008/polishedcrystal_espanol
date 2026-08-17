@@ -84,7 +84,7 @@ DimCave5FRileyScript:
 	end
 
 .ChallengeText:
-	text "…¿Tú eres?"
+	text "…¿Y tú eres?"
 
 	para "Vale, eres"
 	line "<PLAYER>."
@@ -92,79 +92,68 @@ DimCave5FRileyScript:
 	para "Soy Quinoa. Sí,"
 	line "soy entrenador."
 
-	para "Tengo una mina co-"
-	line "mo esta, por eso"
-	cont "es un buen lugar"
-	cont "de entrenamiento"
-	cont "para mí."
+	para "Tengo una mina"
+	line "como esta, así que"
+	cont "es un buen sitio"
+	cont "para entrenar."
 
-	para "Si quieres, po-"
-	line "dríamos librar un"
-	cont "combate."
+	para "¿Te apetece un"
+	line "combate conmigo?"
 	done
 
 .YesText:
-	text "Haremos todo lo"
-	line "posible para de-"
-
-	para "rrotar a tus #"
-	line "mon."
+	text "¡Haremos todo lo"
+	line "posible por ganar"
+	cont "a tus #mon!"
 	done
 
 .NoText:
-	text "Oh, de acuerdo."
-	line "Entonces seguire-"
-	cont "mos entrenando"
-	cont "aquí."
+	text "De acuerdo."
+	line "Seguiremos con el"
+	cont "entrenamiento."
 	done
 
 .BeatenText:
 	text "A veces luchamos,"
-	line "y a veces hacemos"
-	cont "equipo."
+	line "otras formamos un"
+	cont "buen equipo."
 
-	para "Es genial cómo los"
-	line "entrenadores pue-"
-	cont "den interactuar."
+	para "¡Es genial cómo"
+	line "interactuamos los"
+	cont "entrenadores!"
 	done
 
 .ItemText:
-	text "Conoce a tu ene-"
-	line "migo."
+	text "Conoce a tu rival."
 
-	para "Si conoces los"
-	line "#mon y"
-	cont "los movimientos"
-	cont "de tu rival,"
+	para "Si conoces a los"
+	line "#mon y ataques"
+	cont "de tu oponente,"
 
-	para "tus posibilidades"
-	line "de ganar mejoran"
-	cont "mucho."
+	para "tus opciones de"
+	line "ganar aumentan."
 
-	para "Pero fortalecer tu"
-	line "propio equipo tam-"
-	cont "bién es importan-"
-	cont "te."
+	para "Pero mejorar tu"
+	line "propio equipo es"
+	cont "igual de vital."
 
-	para "Esto te ayudará a"
-	line "hacerlo."
+	para "¡Esto te ayudará"
+	line "a lograrlo!"
 	done
 
 .GoodbyeText:
-	text "Luchar contra ti"
-	line "ha sido muy agra-"
-	cont "dable."
+	text "Ha sido un placer"
+	line "luchar contra ti."
 
-	para "Tengo intención de"
-	line "poner a prueba mis"
-	cont "habilidades en la"
+	para "Pondré a prueba mi"
+	line "fuerza en la"
 	cont "Torre Batalla."
 
-	para "¡Volvamos a ver-"
-	line "nos!"
+	para "¡Espero que nos"
+	line "volvamos a ver!"
 
-	para "Ten cuidado al sa-"
-	line "lir."
+	para "¡Ten cuidado al"
+	line "salir de la cueva!"
 	done
 
 GenericTrainerSuper_nerdFoote:
@@ -173,12 +162,10 @@ GenericTrainerSuper_nerdFoote:
 	text "¿Salvar una vida o"
 	line "salvar cinco?"
 
-	para "Como entrenador"
-	line "#mon, ¡puedes"
-
-	para "tener el poder"
-	line "para salvar las"
-	cont "seis!"
+	para "¡Un entrenador"
+	line "puede tener el"
+	cont "poder de salvar"
+	cont "a las seis!"
 	done
 
 .SeenText:
@@ -186,10 +173,8 @@ GenericTrainerSuper_nerdFoote:
 	line "para ti!"
 
 	para "¿Empujarías a un"
-	line "#mon delante"
-
-	para "de una vagoneta"
-	line "para salvar cinco?"
+	line "#mon a las vías"
+	cont "para salvar a 5?"
 	done
 
 .BeatenText:
@@ -201,13 +186,10 @@ GenericTrainerSuper_nerdFoote:
 GenericTrainerEngineerHoward:
 	generictrainer ENGINEER, HOWARD, EVENT_BEAT_ENGINEER_HOWARD, .SeenText, .BeatenText
 
-	text "El agua fluye ha-"
-	line "cia el sur desde"
-	cont "el Cabo Celeste"
-
-	para "y sigue un curso"
-	line "constante hacia la"
-	cont "Central Energía."
+	text "El agua va al sur"
+	line "desde Cabo Celeste"
+	cont "en curso constante"
+	cont "hacia la Central."
 	done
 
 .SeenText:
@@ -232,12 +214,10 @@ GenericTrainerSuper_nerdDave:
 	done
 
 .SeenText:
-	text "¡He maximizado mis"
-	line "habilidades de "
-	cont "minero, joyero,"
-
-	para "fundidor y de fa-"
-	line "bricación!"
+	text "¡He maximizado mi"
+	line "talento de minero,"
+	cont "joyero, fundidor"
+	cont "y fabricante!"
 	done
 
 .BeatenText:

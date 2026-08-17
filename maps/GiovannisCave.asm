@@ -103,9 +103,8 @@ GiovannisCaveRadioAfterTimeTravelText:
 	text "No puedes encender"
 	line "la radio."
 
-	para "Giovanni debe ha-"
-	line "berla dejado"
-	cont "aquí…"
+	para "Giovanni debió de"
+	line "dejarla aquí…"
 	done
 
 GiovannisCave_GiovanniStepsBackMovementData:
@@ -155,22 +154,19 @@ GiovannisCaveGiovanniIntroText:
 	para "No sé por qué has"
 	line "venido aquí,"
 
-	para "pero te advierto"
-	line "que este no es"
-	cont "lugar para críos"
+	para "pero este no es un"
+	line "lugar para críos"
 	cont "como tú."
 
-	para "Lira: ¿Eh? ¡Ese es"
-	line "el hombre que aca-"
-
-	para "bamos de ver dis-"
-	line "cutir con ese chi-"
-	cont "co!"
+	para "Lira: ¿Eh? ¡Es el"
+	line "hombre que vimos"
+	cont "discutir antes con"
+	cont "aquel chico!"
 	done
 
 GiovannisCaveGiovanniMemoriesText:
-	text "Me suenas de algo."
-	line "…"
+	text "Me resultas"
+	line "familiar…"
 
 	para "¡Me acuerdo de ti!"
 
@@ -178,22 +174,19 @@ GiovannisCaveGiovanniMemoriesText:
 	line "chico arruinaba"
 	cont "nuestros planes,"
 
-	para "¡pero tú causaste"
-	line "todos nuestros"
-	cont "problemas primero!"
+	para "¡pero tú fuiste"
+	line "la primera plaga!"
 
 	para "…"
 
-	para "Voy de camino a"
-	line "Ciudad Trigal para"
+	para "Voy hacia Ciudad"
+	line "Trigal a responder"
+	cont "a la llamada y"
+	cont "unirme a mi gente."
 
-	para "responder a la"
-	line "llamada y unirme a"
-	cont "mi equipo."
-
-	para "¿Vas a interpo-"
-	line "nerte en mi camino"
-	cont "otra vez?"
+	para "¿Vas a cruzarte en"
+	line "mi camino otra"
+	cont "vez?"
 	done
 
 GiovannisCaveLyraQuestionsText:
@@ -217,24 +210,20 @@ GiovannisCaveLyraRecognizesGiovanniText:
 	done
 
 GiovannisCaveBroadcastText:
-	text "…Ejem, ¡so-"
-	line "mos el Team"
-	cont "Rocket!"
-	cont "¡Tras tres años de"
-	cont "preparación, hemos"
-	cont "resurgido de nues-"
-	cont "tras cenizas!"
+	text "…Ejem… ¡Somos"
+	line "el Team Rocket!"
+	cont "¡Tras 3 años de"
+	cont "espera, hemos"
+	cont "resurgido de las"
+	cont "cenizas!"
 	cont "¡Giovanni! ¿Nos"
 	cont "oyes? ¡Lo hicimos!"
-	cont "¿Dónde está nues-"
-	cont "tro jefe? ¿Nos"
-	cont "está escuchando?"
+	cont "¿Dónde está el"
+	cont "jefe? ¿Nos oye?"
 
-	para "Lira: El Team Roc-"
-	line "ket ha ocupado la"
-
-	para "Torre Radio ahora"
-	line "mismo…"
+	para "Lira: ¡El Team"
+	line "Rocket ocupó la"
+	cont "Torre Radio ahora!"
 
 	para "Tú estás allí,"
 	line "pero también estás"
@@ -242,8 +231,8 @@ GiovannisCaveBroadcastText:
 	done
 
 GiovannisCaveGiovanniIMustGoText:
-	text "Giovanni: Mis vie-"
-	line "jos socios me"
+	text "Giovanni: Mis"
+	line "antiguos socios me"
 	cont "necesitan…"
 
 	para "¡No repetiremos el"
@@ -261,13 +250,12 @@ GiovannisCaveGiovanniIMustGoText:
 	para "¿Te habrá"
 	line "detenido…?"
 
-	para "…¡Viajar en el"
-	line "tiempo es confuso!"
+	para "…¡Viajar por el"
+	line "tiempo es un lío!"
 
 	para "Giovanni: ¡Basta"
-	line "de cháchara! ¡A-"
-	cont "pártate de mi"
-	cont "camino!"
+	line "de hablar! ¡Fuera"
+	cont "de mi camino!"
 	done
 
 GiovannisCaveGiovanniBeatenText:
@@ -280,46 +268,40 @@ GiovannisCaveGiovanniAfterText:
 	line "esto posible…?"
 
 	para "¿Los últimos tres"
-	line "años han sido en"
+	line "años fueron en"
 	cont "vano…?"
 
-	para "¿Cómo puede un ni-"
-	line "ño como tú lograr"
-
-	para "destruir mi sueño"
-	line "una vez más?"
+	para "¿Cómo un crío como"
+	line "tú destruye mi"
+	cont "sueño otra vez?"
 	done
 
 GiovannisCaveBroadcastAfterText:
-	text "…¡Eh! ¿A"
-	line "dónde ha ido"
-	cont "Giovanni?"
-	cont "Me pregunto si"
-	cont "está escuchando"
-	cont "nuestra emi-"
-	cont "sión…"
+	text "…¡Eh! ¿A dónde"
+	line "ha ido Giovanni?"
+	cont "¿Estará oyendo la"
+	cont "emisión…?"
 	done
 
 GiovannisCaveLyraFeelsSorryText:
-	text "Lira: Siguen lla-"
-	line "mando a su jefe."
+	text "Lira: No paran de"
+	line "llamar a su jefe."
 
-	para "Siento pena de que"
-	line "no sepan que no va"
-	cont "a venir."
+	para "Me da pena que no"
+	line "sepan que él no"
+	cont "va a venir."
 
-	para "¡Pero ahora mismo,"
-	line "<PLAYER> ¡debes de"
-	cont "estar venciéndo-"
-	cont "los!"
+	para "¡Pero ahora debes"
+	line "vencerlos a todos,"
+	cont "<PLAYER>!"
 	done
 
 GiovannisCaveLyraWantsToLeaveText:
 	text "Lira: ¡Otra vez"
-	line "no…! ¡Ya tengo"
+	line "no…! ¡Ya fue"
 	cont "suficiente!"
 
-	para "¡Por favor, déja-"
-	line "nos volver a nues-"
-	cont "tro tiempo!"
+	para "¡Por favor, haznos"
+	line "volver a nuestra"
+	cont "propia época!"
 	done

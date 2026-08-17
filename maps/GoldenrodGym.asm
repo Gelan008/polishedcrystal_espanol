@@ -75,15 +75,13 @@ GoldenrodGymWhitneyScript:
 	jumpthisopenedtext
 
 	text "¡Es Atracción!"
-	line "Saca todo el pro-"
+	line "Saca provecho del"
+	cont "encanto de un"
+	cont "#mon."
 
-	para "vecho del encanto"
-	line "de un #mon."
-
-	para "¿No es simplemen-"
-	line "te perfecto para"
-	cont "una ricura como"
-	cont "yo? ♥"
+	para "¿A que es ideal"
+	line "para una ricura"
+	cont "como yo? ♥"
 	done
 
 TrainerLassCathy:
@@ -93,8 +91,8 @@ TrainerLassCathy:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "¿Creen mis #-"
-	line "mon que soy"
+	text "¿Pensarán mis"
+	line "#mon que soy"
 	cont "mona?"
 	done
 
@@ -112,10 +110,8 @@ GenericTrainerSrandjrJoandcath1:
 	generictrainer SR_AND_JR, JOANDCATH1, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath1SeenText, SrandjrJoandcath1BeatenText
 
 	text "Jo: Ayudo a mi"
-	line "junior Cath a"
-
-	para "ganar una Medalla"
-	line "de Blanca."
+	line "compi Cath a ganar"
+	cont "a Blanca."
 
 	para "Poco a poco va"
 	line "mejorando."
@@ -124,24 +120,21 @@ GenericTrainerSrandjrJoandcath1:
 GenericTrainerSrandjrJoandcath2:
 	generictrainer SR_AND_JR, JOANDCATH2, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath2SeenText, SrandjrJoandcath2BeatenText
 
-	text "Cath: No dejo de"
-	line "perder contra"
-	cont "Blanca. Es muy"
-	cont "deprimente."
+	text "Cath: Siempre"
+	line "pierdo con Blanca."
+	cont "¡Es deprimente!"
 
-	para "¡Pero bueno! ¡Si"
-	line "pierdo me esforza-"
-	cont "ré más a la"
-	cont "próxima!"
+	para "¡Pero me esforzaré"
+	line "mucho más la"
+	cont "próxima vez!"
 	done
 
 GenericTrainerBeautyVictoria:
 	generictrainer BEAUTY, VICTORIA, EVENT_BEAT_BEAUTY_VICTORIA, BeautyVictoriaSeenText, BeautyVictoriaBeatenText
 
-	text "¡Vaya, debes ser"
-	line "bueno para haber-"
-	cont "me ganado!"
-	cont "¡Sigue así!"
+	text "¡Debes de ser muy"
+	line "bueno para haberme"
+	cont "ganado! ¡Bien!"
 	done
 
 GenericTrainerBeautySamantha:
@@ -149,8 +142,8 @@ GenericTrainerBeautySamantha:
 
 	text "Le enseñé a Meowth"
 	line "movimientos para"
-	cont "enfrentar a cual-"
-	cont "quier tipo…"
+	cont "hacer frente a"
+	cont "cualquier tipo…"
 	done
 
 GoldenrodGymGuyScript:
@@ -161,23 +154,19 @@ GoldenrodGymGuyScript:
 	text "¡Eh! ¡Futuro"
 	line "Campeón!"
 
-	para "Este Gimnasio re-"
-	line "úne a entrenadores"
-	cont "de tipo Normal."
+	para "Aquí hay muchos"
+	line "entrenadores de"
+	cont "tipo Normal."
 
 	para "Te recomiendo usar"
 	line "#mon de tipo"
 	cont "Lucha."
 
-	para "Pero ten cuida-"
-	line "do… Los #mon"
-
-	para "de tipo Hada re-"
-	line "sisten los ataques"
-	cont "de tipo Lucha,"
-
-	para "¡y aquí también"
-	line "los usan!"
+	para "Pero cuidado… ¡Los"
+	line "#mon de tipo"
+	cont "Hada resisten el"
+	cont "tipo Lucha y aquí"
+	cont "también los usan!"
 	done
 
 GoldenrodGymStatue:
@@ -206,18 +195,16 @@ WhitneyBeforeText:
 	text "¡Hola! ¡Soy"
 	line "Blanca!"
 
-	para "A todos les gusta-"
-	line "ban los #mon,"
-	cont "¡así que a mí"
-	cont "también!"
+	para "A todos les mola"
+	line "los #mon, ¡así"
+	cont "que a mí también!"
 
 	para "¡Los #mon son"
 	line "supermonos!"
 
-	para "¿Quieres un"
-	line "combate? Te lo"
-	cont "advierto…"
-	cont "¡soy muy buena!"
+	para "¿Quieres luchar?"
+	line "¡Te advierto que"
+	cont "soy muy buena!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
@@ -263,18 +250,17 @@ WhitneyGoodCryText:
 	line "me he quedado"
 	cont "llorando!"
 
-	para "¡Vuelve a visitar-"
-	line "nos! ¡Chao!"
+	para "¡Ven a visitarnos"
+	line "otra vez! ¡Chao!"
 	done
 
 LassCathySeenText:
-	text "Que el aspec-"
-	line "to adorable de"
+	text "¡Que lo monos que"
+	line "son mis #mon no"
+	cont "te engañe!"
 
-	para "mis #mon no te"
-	line "engañe."
-	cont "¡Te darán una pa-"
-	cont "liza!"
+	para "¡Te darán una gran"
+	line "paliza!"
 	done
 
 LassCathyBeatenText:
@@ -300,12 +286,10 @@ SrandjrJoandcath1BeatenText:
 	done
 
 SrandjrJoandcath2SeenText:
-	text "Cath: Intento ga-"
-	line "nar a Blanca,"
-	cont "¡pero mi sénior y"
-
-	para "yo podemos ganar-"
-	line "te a ti primero!"
+	text "Cath: Intento"
+	line "vencer a Blanca,"
+	cont "¡pero podemos"
+	cont "ganarte a ti!"
 	done
 
 SrandjrJoandcath2BeatenText:
@@ -319,14 +303,12 @@ JoWhitneyCriesText:
 
 	para "Tranquilo. Parará"
 	line "pronto. Siempre"
-
-	para "llora cuando"
-	line "pierde."
+	cont "llora al perder."
 	done
 
 BeautyVictoriaSeenText:
-	text "¡Oh, eres un en-"
-	line "trenador muy"
+	text "¡Oh, eres un"
+	line "entrenador muy"
 	cont "mono! ♥"
 
 	para "Me gustas, ¡pero"
@@ -349,9 +331,8 @@ BeautySamanthaBeatenText:
 	done
 
 GoldenrodGymGuyWinText:
-	text "¿Has ganado?"
-	line "¡Genial! Yo esta-"
-	cont "ba ocupado admi-"
-	cont "rando a las chicas"
-	cont "de aquí."
+	text "¿Ganaste? ¡Genial!"
+	line "Yo estaba ocupado"
+	cont "mirando a las"
+	cont "chicas de aquí."
 	done

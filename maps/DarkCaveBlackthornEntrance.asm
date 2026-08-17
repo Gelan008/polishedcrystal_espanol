@@ -29,29 +29,25 @@ DarkCaveBlackthornEntrancePharmacistScript:
 	jumpthisopenedtext
 
 .PharmacistText2:
-	text "Gafas de Sol suben"
-	line "el poder de movs."
-	cont "tipo Siniestro."
+	text "Las Gafas de Sol"
+	line "potencian ataques"
+	cont "de tipo Siniestro."
 	done
 
 .PharmacistText1:
-	text "¡Guau! ¡Me has as-"
-	line "ustado!"
+	text "¡Guau! ¡Qué susto"
+	line "me has dado!"
 
-	para "Tenía mis Gafas de"
-	line "Sol puestas, así"
+	para "Tenía puestas mis"
+	line "Gafas de Sol y no"
+	cont "te vi venir."
 
-	para "que no te he visto"
-	line "en absoluto."
+	para "¿Qué hago aquí?"
 
-	para "¿Qué estoy hacien-"
-	line "do aquí?"
+	para "Oye, ¡tú no te"
+	line "preocupes por eso!"
 
-	para "Oye, no te preo-"
-	line "cupes por eso."
-
-	para "Te daré unas Gafas"
-	line "de Sol, así que"
-	cont "olvida que me has"
-	cont "visto, ¿vale?"
+	para "Toma unas Gafas de"
+	line "Sol, pero olvida"
+	cont "que me viste, ¿sí?"
 	done

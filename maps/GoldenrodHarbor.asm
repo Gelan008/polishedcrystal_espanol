@@ -60,8 +60,8 @@ GoldenrodHarborTutorHyperVoiceScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "¡No tienes ningu-"
-	line "na Hoja Plata!"
+	text "¡No tienes Hoja"
+	line "Plata!"
 	done
 
 .TeachMove
@@ -88,23 +88,21 @@ TrainerSwimmerfKatie:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "¿Por qué el mar"
-	line "es azul?"
+	text "¿Por qué el mar es"
+	line "azul?"
 
-	para "Escuché que re-"
-	line "fleja el cielo…"
-
-	para "Pero entonces ¿por"
-	line "qué el cielo es"
-	cont "azul?"
+	para "Dicen que refleja"
+	line "el cielo… Pero"
+	cont "¿por qué el cielo"
+	cont "es azul?"
 	done
 
 GenericTrainerSwimmermJames:
 	generictrainer SWIMMERM, JAMES, EVENT_BEAT_SWIMMERM_JAMES, SwimmermJamesSeenText, SwimmermJamesBeatenText
 
-	text "¿No puede un Nada-"
-	line "dor usar un bote"
-	cont "a veces?"
+	text "¿No puede un"
+	line "Nadador usar un"
+	cont "bote a veces?"
 	done
 
 
@@ -298,33 +296,26 @@ GoldenrodHarborSailboatScript:
 	done
 
 GoldenrodHarborFisherText:
-	text "Si estás pescando,"
-	line "tienes que estar"
+	text "Para pescar hay"
+	line "que estar callado"
+	cont "para no asustar a"
+	cont "los #mon…"
 
-	para "callado para no"
-	line "asustar a los"
-	cont "#mon."
-
-	para "Pero para que te"
-	line "oigan por encima"
-	cont "de las olas,"
-
-	para "¡tienes que decir"
-	line "las cosas ALTO!"
+	para "¡Pero con el mar"
+	line "toca GRITAR!"
 	done
 
 Text_GoldenrodHarborTutorHyperVoice:
-	text "Puedo enseñar a"
-	line "tu #mon a usar"
-
-	para "Vozarrón a cambio"
-	line "de una Hoja Plata."
+	text "Puedo enseñar a tu"
+	line "#mon a usar"
+	cont "Vozarrón por una"
+	cont "Hoja Plata."
 	done
 
 
 Text_GoldenrodHarborTutorQuestion:
-	text "¿Debería enseñar-"
-	line "le Vozarrón a"
+	text "¿Quieres que le"
+	line "enseñe Vozarrón a"
 	cont "tu #mon?"
 	done
 
@@ -337,9 +328,8 @@ FisherPatonSeenText:
 	done
 
 FisherPatonBeatenText:
-	text "¿A que los #-"
-	line "mon son in-"
-	cont "teresantes?"
+	text "¿A que los #mon"
+	line "son interesantes?"
 	done
 
 SwimmerfKatieSeenText:
@@ -412,11 +402,9 @@ GoldenrodHarborAlreadyBoughtText:
 
 GoldenrodHarborPlantVendorText:
 	text "¡Hola! Tengo una"
-	line "selección de"
-
-	para "plantas exóticas"
-	line "para adornar tu"
-	cont "casa."
+	line "gran variedad de"
+	cont "plantas exóticas"
+	cont "para tu casa."
 	done
 
 GoldenrodHarborMagnaPlantText:
@@ -466,14 +454,10 @@ GoldenrodHarborSignText:
 GoldenrodHarborAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "¡A veces tendrás"
-	line "suerte con las"
-
-	para "Máquinas Expende-"
-	line "doras y sacarás"
-
-	para "dos bebidas por"
-	line "el precio de una!"
+	para "¡Las máquinas"
+	line "expendedoras a"
+	cont "veces dan dos"
+	cont "bebidas por una!"
 	done
 
 GoldenrodHarborCrateSignText:

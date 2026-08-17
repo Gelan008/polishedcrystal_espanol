@@ -19,11 +19,8 @@ FuchsiaMart_MapScriptHeader:
 FuchsiaMartFisherText:
 	text "Esperaba comprar"
 	line "recuerdos de la"
-
-	para "Zona Safari,"
-	line "pero ya no los"
-
-	para "venden más…"
+	cont "Zona Safari,"
+	cont "pero ya no venden."
 	done
 
 FuchsiaMartCooltrainerFText:

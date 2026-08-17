@@ -21,21 +21,19 @@ GoldenrodDeptStore1F_MapScriptHeader:
 	object_event 11,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStore1FGentlemanText, -1
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Bienvenido al Cen-"
-	line "tro Comercial de"
-	cont "Trigal."
+	text "¡Bienvenido al"
+	line "Centro Comercial"
+	cont "de Ciudad Trigal!"
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "El Centro Comer-"
-	line "cial tiene una"
-	cont "buena selección."
+	text "El Centro"
+	line "Comercial tiene"
+	cont "un gran surtido."
 
-	para "Pero algunos obje-"
-	line "tos solo están"
-
-	para "disponibles como"
-	line "premios en el"
+	para "Aunque ciertos"
+	line "objetos solo se"
+	cont "consiguen en el"
 	cont "Casino."
 	done
 
@@ -45,13 +43,12 @@ GoldenrodDeptStore1FPokefanFText:
 	done
 
 GoldenrodDeptStore1FBugCatcherText:
-	text "A mamá se le da"
-	line "bien buscar"
-	cont "gangas."
+	text "A mi madre se le"
+	line "da bien buscar"
+	cont "buenas gangas."
 
-	para "Siempre compra"
-	line "cosas a los pre-"
-	cont "cios más bajos."
+	para "¡Siempre compra al"
+	line "precio más bajo!"
 	done
 
 GoldenrodDeptStore1FDirectoryText:

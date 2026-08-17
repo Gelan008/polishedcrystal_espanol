@@ -235,7 +235,7 @@ DayCareLyraProtestText:
 DayCareLyraGoodbyeText:
 	text "Lira: Bueno, será"
 	line "mejor que me"
-	cont "vaya.. ¡Nos vemos!"
+	cont "vaya… ¡Nos vemos!"
 	done
 
 DayCareLyraForgotText:
@@ -257,27 +257,26 @@ DayCareLyraHasInfoText:
 	text "¡Llámame cuando"
 	line "quieras!"
 
-	para "Mis abuelos me en-"
-	line "señaron mucho so-"
-	cont "bre la crianza de"
+	para "Mis abuelos me han"
+	line "enseñado mucho"
+	cont "sobre la crianza"
+	cont "de los #mon,"
 
-	para "los #mon, y me"
-	line "gustaría compar-"
-	cont "tirlo contigo."
+	para "¡y me encantaría"
+	line "compartirlo con"
+	cont "un amigo!"
 	done
 
 DayCareLyraEmbarassedText:
 	text "Lira: ¡Abuela!"
 
-	para "No digas"
-	line "nada más."
+	para "¡No digas nada"
+	line "más!"
 
-	para "Ambos somos entre-"
-	line "nadores, y debe-"
-
-	para "mos intercambiar"
-	line "números."
-	cont "Eso es todo."
+	para "¡Solo somos dos"
+	line "entrenadores que"
+	cont "se pasan el núm.!"
+	cont "¡Eso es todo!"
 	done
 
 Text_GrampsLookingForYou:
@@ -292,23 +291,21 @@ DayCareManText_GiveOddEgg:
 	para "¿Sabes algo sobre"
 	line "los Huevos?"
 
-	para "Verás, estaba cri-"
-	line "ando #mon con"
+	para "Verás, criaba unos"
+	line "#mon junto con"
 	cont "mi mujer."
 
-	para "¡Nos sorprendió"
-	line "encontrar un"
-	cont "Huevo!"
+	para "¡Y nos sorprendió"
+	line "hallar un Huevo!"
 
 	para "¿A que es"
 	line "increíble?"
 
-	para "Bueno, ¿no te gus-"
-	line "taría tener este"
-	cont "Huevo?"
+	para "¿No te gustaría"
+	line "tener este Huevo?"
 
 	para "¡Pues muy bien,"
-	line "puedes quedártelo!"
+	line "¡te lo regalo!"
 	done
 
 DayCareText_GotOddEgg:
@@ -317,17 +314,12 @@ DayCareText_GotOddEgg:
 	done
 
 DayCareText_DescribeOddEgg:
-	text "Lo encontré mien-"
-	line "tras cuidaba el"
+	text "Apareció mientras"
+	line "cuidaba al #mon"
+	cont "de un cliente."
 
-	para "#mon de alguien"
-	line "anteriormente."
-
-	para "Pero el entrenador"
-	line "no quería el"
-
-	para "Huevo, así que lo"
-	line "he guardado."
+	para "Pero como no lo"
+	line "quería, lo guardé."
 	done
 
 DayCareLadyText_GiveLyrasEgg:
@@ -349,7 +341,7 @@ DayCareLadyText_DescribeLyrasEgg:
 	done
 
 DayCareText_PartyAndBoxFull:
-	text "No tienes sitio"
-	line "para esto, ni si-"
-	cont "quiera en tu Caja."
+	text "No tienes sitio,"
+	line "¡ni siquiera en"
+	cont "tu Caja del PC!"
 	done

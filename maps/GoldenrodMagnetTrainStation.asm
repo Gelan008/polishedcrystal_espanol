@@ -147,8 +147,8 @@ GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "¡Esperamos vol-"
-	line "ver a verte!"
+	text "¡Esperamos volver"
+	line "a verte pronto!"
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
@@ -162,13 +162,12 @@ GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 GoldenrodMagnetTrainStationGentlemanText:
 	text "Soy el Presidente."
 
-	para "Mi sueño era cons-"
-	line "truir un tren más"
+	para "Mi sueño era crear"
+	line "un tren más veloz"
+	cont "que cualquier"
+	cont "#mon."
 
-	para "rápido que cual-"
-	line "quier #mon."
-
-	para "De verdad que hace"
+	para "Realmente hace"
 	line "que Johto y Kanto"
 	cont "estén más cerca."
 	done

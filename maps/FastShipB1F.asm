@@ -68,17 +68,17 @@ FastShipB1FSailorScript:
 	clearevent EVENT_FAST_SHIP_CABINS_NNW_NNE_NE_SAILOR
 	jumpthisopenedtext
 
-	text "Oye, crío. ¿Podrí-"
-	line "as buscar a mi"
+	text "Oye, ¿podrías"
+	line "buscar a mi"
 	cont "compañero?"
 
-	para "Debe de estar ha-"
-	line "ciendo el vago"
+	para "Debe de estar"
+	line "haciendo el vago"
 	cont "por ahí."
 
-	para "Quiero ir a bus-"
-	line "carlo, pero estoy"
-	cont "de guardia ahora."
+	para "Iría a por él,"
+	line "pero ahora estoy"
+	cont "de guardia."
 	done
 
 .LazySailor:
@@ -101,19 +101,17 @@ FastShipB1FSailorScript:
 GenericTrainerSailorJeff:
 	generictrainer SAILOR, JEFF, EVENT_BEAT_SAILOR_JEFF, SailorJeffSeenText, SailorJeffBeatenText
 
-	text "Supongo que no ga-"
-	line "naré si no me lo"
+	text "Supongo que no"
+	line "ganaré si no me lo"
 	cont "tomo en serio."
 	done
 
 GenericTrainerPicnickerDebra:
 	generictrainer PICNICKER, DEBRA, EVENT_BEAT_PICNICKER_DEBRA, PicnickerDebraSeenText, PicnickerDebraBeatenText
 
-	text "Azafrán, Azulona.."
-	line "He oído que hay"
-
-	para "muchas ciudades"
-	line "grandes en Kanto."
+	text "Azafrán, Azulona…"
+	line "¡Hay muchas"
+	cont "ciudades en Kanto!"
 	done
 
 GenericTrainerJugglerFritz:
@@ -121,10 +119,8 @@ GenericTrainerJugglerFritz:
 
 	text "Se acabaron los"
 	line "barcos para mí."
-	cont "La próxima vez,"
-
-	para "iré en el"
-	line "Magnetotrén."
+	cont "La próxima vez iré"
+	cont "en Magnetotrén."
 	done
 
 GenericTrainerBakerSharyn:
@@ -147,9 +143,8 @@ TrainerSailorGarrett:
 
 	text "Vemos pasajeros"
 	line "muy distintos al"
-
-	para "ir de Ciudad"
-	line "Carmín a C. Olivo."
+	cont "ir de C. Carmín"
+	cont "a Ciudad Olivo."
 	done
 
 GenericTrainerFisherJonah:
@@ -176,42 +171,36 @@ GenericTrainerSailorKenneth:
 	generictrainer SAILOR, KENNETH, EVENT_BEAT_SAILOR_KENNETH, SailorKennethSeenText, SailorKennethBeatenText
 
 	text "¡Ocho Medallas!"
-	line "Deben probar"
-
-	para "que has vencido a"
-	line "los Líderes de"
-	cont "Gimnasio."
+	line "Eso demuestra que"
+	cont "venciste a todos"
+	cont "los Líderes."
 
 	para "¡Con razón eres"
-	line "tan bueno!"
+	line "tan fuerte!"
 	done
 
 GenericTrainerTeacherShirley:
 	generictrainer TEACHER_F, SHIRLEY, EVENT_BEAT_TEACHER_SHIRLEY, TeacherShirleySeenText, TeacherShirleyBeatenText
 
-	text "Estamos de excur-"
-	line "sión en las ruinas"
-	cont "a las afueras de"
-	cont "Ciudad Malva."
+	text "Vamos de excursión"
+	line "a las ruinas junto"
+	cont "a Ciudad Malva."
 	done
 
 GenericTrainerSchoolboyNate:
 	generictrainer SCHOOLBOY, NATE, EVENT_BEAT_SCHOOLBOY_NATE, SchoolboyNateSeenText, SchoolboyNateBeatenText
 
-	text "Las radios captan"
-	line "señales raras den-"
-	cont "tro de las ruinas."
+	text "La radio capta"
+	line "señales raras en"
+	cont "las ruinas."
 	done
 
 GenericTrainerSchoolboyRicky:
 	generictrainer SCHOOLBOY, RICKY, EVENT_BEAT_SCHOOLBOY_RICKY, SchoolboyRickySeenText, SchoolboyRickyBeatenText
 
-	text "Leí en un diario"
-	line "#mon que"
-
-	para "hay cuatro de esos"
-	line "paneles de piedra"
-	cont "en las ruinas."
+	text "Leí en el diario"
+	line "que hay 4 paneles"
+	cont "de piedra allí."
 	done
 
 FastShipB1FSailorBlocksRightMovement:
@@ -237,12 +226,10 @@ FastShipB1FOnDutySailorRefusedText:
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "¡Gracias, crío!"
-	line "¡Le he echado una"
-
-	para "buena bronca para"
-	line "que deje de hacer"
-	cont "el vago!"
+	text "¡Gracias! ¡Le he"
+	line "echado una buena"
+	cont "bronca para que"
+	cont "no holgazanee!"
 	done
 
 
@@ -258,9 +245,8 @@ FastShipB1FOnDutySailorDirectionsText:
 
 SailorJeffSeenText:
 	text "No hay nada como"
-	line "luchar mientras"
-	cont "estoy en mi des-"
-	cont "canso."
+	line "luchar durante mi"
+	cont "descanso."
 	done
 
 SailorJeffBeatenText:
@@ -269,9 +255,8 @@ SailorJeffBeatenText:
 	done
 
 PicnickerDebraSeenText:
-	text "Estoy aburridí-"
-	line "sima. ¿Quieres"
-	cont "luchar?"
+	text "Me aburro mucho."
+	line "¿Quieres luchar?"
 	done
 
 PicnickerDebraBeatenText:
@@ -316,8 +301,8 @@ FisherJonahSeenText:
 	line "alta mar, ¡no"
 	cont "puedo pescar!"
 
-	para "¡Esto es muy abu-"
-	line "rrido! ¡Luchemos!"
+	para "¡Qué aburrimiento!"
+	line "¡Luchemos!"
 	done
 
 FisherJonahBeatenText:
@@ -326,11 +311,9 @@ FisherJonahBeatenText:
 	done
 
 BlackbeltWaiSeenText:
-	text "¡Entreno mis pier-"
-	line "nas aguantando"
-
-	para "los vaivenes del"
-	line "barco!"
+	text "¡Entreno piernas"
+	line "con el vaivén de"
+	cont "este barco!"
 	done
 
 BlackbeltWaiBeatenText:
@@ -341,14 +324,13 @@ BlackbeltWaiBeatenText:
 SailorKennethSeenText:
 	text "¡Soy un marinero!"
 
-	para "Pero estoy entre-"
-	line "nando #mon,"
-	cont "¡así seré Campeón!"
+	para "¡Y entreno #mon"
+	line "para ser Campeón!"
 	done
 
 SailorKennethBeatenText:
-	text "Mi falta de entre-"
-	line "namiento es obvia."
+	text "Me falta mucho"
+	line "entrenamiento…"
 	done
 
 TeacherShirleySeenText:

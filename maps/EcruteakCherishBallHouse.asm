@@ -29,24 +29,19 @@ EcruteakCherishBallHouseGrampsScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Siempre apreciaré"
-	line "el tiempo"
-
-	para "que pasé con"
-	line "los #mon."
+	text "Siempre valoraré"
+	line "el tiempo que pasé"
+	cont "con los #mon."
 	done
 
 .Text1:
-	text "He vivido una"
-	line "larga vida, y"
-
-	para "tengo recuerdos"
-	line "que apreciaré"
-	cont "para siempre."
+	text "He vivido mucho y"
+	line "guardo recuerdos"
+	cont "inolvidables."
 
 	para "Toma esto y crea"
 	line "un nuevo recuerdo"
-	cont "que apreciar."
+	cont "para el futuro."
 	done
 
 EcruteakCherishBallHouseGrannyText:
@@ -54,7 +49,6 @@ EcruteakCherishBallHouseGrannyText:
 	line "con los años,"
 
 	para "pero Iris sigue"
-	line "siendo tan tradi-"
-	cont "cional como"
-	cont "siempre."
+	line "tan tradicional"
+	cont "como siempre."
 	done

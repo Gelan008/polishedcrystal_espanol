@@ -175,11 +175,9 @@ FightingDojoBlackBelt:
 	text "¡Hola!"
 
 	para "El Rey del Kárate,"
-	line "maestro del Dojo"
-
-	para "Kárate, está en"
-	line "una cueva en Johto"
-	cont "entrenando."
+	line "maestro del Dojo,"
+	cont "entrena en una"
+	cont "cueva de Johto."
 	done
 
 MapFightingDojoSignpost2Script:
@@ -245,12 +243,9 @@ MapFightingDojoSignpost2Script:
 	done
 
 BlackBeltText_ExplainsRematches:
-	text "Los Líderes de"
-	line "Gimnasio de Kanto"
-	cont "y Johto"
-
-	para "vienen a este Dojo"
-	line "Kárate a entrenar."
+	text "Líderes de Kanto y"
+	line "Johto vienen aquí"
+	cont "a este Dojo."
 
 	para "¡Deberías unirte"
 	line "a ellos!"
@@ -371,54 +366,45 @@ FightingDojoRematch3Script:
 	rematch_script Agatha, AGATHA, 3
 
 BrockText_Greeting:
-	text "Me gustan los #"
-	line "mon tipo Roca."
+	text "Me gustan los"
+	line "#mon tipo Roca."
 
 	para "Son sólidos y"
-	line "ásperos, pero que-"
-	cont "bradizos a la vez."
+	line "duros y a la vez"
+	cont "muy quebradizos."
 
 	para "¡Verás lo fuertes"
-	line "que se han vuelto"
-
-	para "mis #mon tipo"
-	line "Roca!"
+	line "que son ahora mis"
+	cont "#mon tipo Roca!"
 	done
 
 MistyText_Greeting:
-	text "He oído muchas"
-	line "cosas buenas de ti"
-
-	para "desde nuestro úl-"
-	line "timo combate."
+	text "Oí cosas buenas de"
+	line "ti desde nuestro"
+	cont "último combate."
 
 	para "¡Déjame ver lo"
 	line "bueno que eres!"
 	done
 
 SurgeText_Greeting:
-	text "¡Siento un gran"
-	line "poder eléctrico"
+	text "¡Siento la energía"
+	line "del Magnetotrén!"
 
-	para "alrededor del"
-	line "Magnetotrén!"
-
-	para "¡Estoy preparado"
-	line "para un combate"
+	para "¡Estoy listo para"
+	line "un gran combate"
 	cont "electrizante!"
 	done
 
 ErikaText_Greeting:
-	text "¡Me alegro de ver-"
-	line "te de nuevo!"
+	text "¡Me alegra verte"
+	line "de nuevo!"
 
 	para "¿Cómo estás?"
 
-	para "Este sitio no me"
-	line "pega mucho, pero.."
-
-	para "¡Ignoremos eso y"
-	line "luchemos!"
+	para "Este lugar no me"
+	line "pega mucho, pero…"
+	cont "¡vamos a luchar!"
 	done
 
 JanineText_Greeting:
@@ -434,16 +420,15 @@ SabrinaText_Greeting:
 	line "a luchar conmigo"
 	cont "de nuevo."
 
-	para "Tenía el presen-"
-	line "timiento."
+	para "Tuve esa visión."
 	done
 
 BlaineText_Greeting:
 	text "Mi Gimnasio sigue"
-	line "destruido, ¡así"
+	line "destruido…"
 
-	para "que tengamos nues-"
-	line "tra revancha aquí!"
+	para "¡Tengamos nuestra"
+	line "revancha aquí!"
 	done
 
 BlueText_Greeting:
@@ -456,12 +441,12 @@ BlueText_Greeting:
 	done
 
 FalknerText_Greeting:
-	text "Hoy estoy en ple-"
-	line "na forma."
+	text "Hoy estoy en plena"
+	line "forma."
 
-	para "¡Es un placer po-"
-	line "der luchar contra"
-	cont "ti de nuevo!"
+	para "¡Es un placer"
+	line "luchar contra ti"
+	cont "de nuevo!"
 	done
 
 BugsyText_Greeting:
@@ -474,9 +459,8 @@ BugsyText_Greeting:
 WhitneyText_Greeting:
 	text "¡Hola, <PLAYER>!"
 	line "Ya que estamos"
-
-	para "ambos aquí ¡tenga-"
-	line "mos un combate!"
+	cont "aquí los dos,"
+	cont "¡a combatir!"
 
 	para "¿Todo listo?"
 	done
@@ -486,19 +470,19 @@ MortyText_Greeting:
 	line "legendarios no me"
 	cont "eligieron…"
 
-	para "Pero eso no signi-"
-	line "fica que haya"
+	para "Pero eso no"
+	line "significa que haya"
+	cont "perdido mi futuro."
 
-	para "perdido mi futuro."
-	line "¡A luchar!"
+	para "¡A luchar!"
 	done
 
 ChuckText_Greeting:
 	text "¡Ahí estás!"
 
-	para "¡Prueba mi entre-"
-	line "namiento de 24"
-	cont "horas!"
+	para "¡Prueba mi duro"
+	line "entrenamiento de"
+	cont "24 horas!"
 	done
 
 JasmineText_Greeting:
@@ -528,27 +512,19 @@ ClairText_Greeting:
 	done
 
 PalmerText_Greeting:
-	text "¡Así que has"
-	line "llegado tan lejos!"
+	text "¡Has llegado muy"
+	line "lejos!"
 
-	para "Como el Amo de"
-	line "la Torre, tendré"
+	para "Como Amo de la"
+	line "Torre, daré todo"
+	cont "mi esfuerzo."
 
-	para "que dar mi mejor"
-	line "esfuerzo."
+	para "Así se muestran"
+	line "respeto los"
+	cont "grandes rivales."
 
-	para "Así es como los"
-	line "mejores entrena-"
-	cont "dores muestran"
-
-	para "su respeto por"
-	line "el otro."
-
-	para "¡Luchando al"
-	line "máximo como"
-
-	para "estudiantes dedi-"
-	line "cados a los"
+	para "¡Luchando a tope"
+	line "por amor a los"
 	cont "#mon!"
 	done
 
@@ -556,10 +532,9 @@ LoreleiText_Greeting:
 	text "Hola de nuevo,"
 	line "<PLAYER>."
 
-	para "Estamos en mi te-"
-	line "rreno ahora."
-
-	para "¡No perderé!"
+	para "Ahora estamos en"
+	line "mi terreno."
+	cont "¡No perderé!"
 	done
 
 AgathaText_Greeting:
@@ -567,31 +542,24 @@ AgathaText_Greeting:
 
 	para "¿Aún completas la"
 	line "#dex para ese"
-
-	para "viejo cascarrabias"
-	line "de Oak?"
+	cont "vejestorio de Oak?"
 
 	para "¡Los #mon son"
 	line "para luchar!"
 
-	para "¡Muéstrame tu"
-	line "verdadero talento"
-	cont "como entrenador!"
+	para "¡Demuéstrame tu"
+	line "talento real como"
+	cont "entrenador!"
 	done
 
 WalkerText_Greeting:
-	text "¡Hola,"
-	line "<PLAYER>!"
+	text "¡Hola, <PLAYER>!"
 
-	para "Parece que acabo"
-	line "de cruzarme con"
+	para "Me crucé con mi"
+	line "hijo Pegaso antes…"
 
-	para "mi hijo Pegaso"
-	line "hace poco…"
-
-	para "¿Qué te parece si"
-	line "luchamos en su"
-	cont "lugar?"
+	para "¿Luchamos en su"
+	line "lugar?"
 	done
 
 YellowText_Greeting:
@@ -609,11 +577,10 @@ YellowText_Greeting:
 	done
 
 BrockText_WinLoss:
-	text "He vuelto a"
-	line "perder…"
+	text "Volví a perder…"
 
-	para "¡No estás de aven-"
-	line "tura por nada!"
+	para "¡Tu gran viaje no"
+	line "ha sido en vano!"
 	done
 
 MistyText_WinLoss:
@@ -623,11 +590,10 @@ MistyText_WinLoss:
 	done
 
 SurgeText_WinLoss:
-	text "¡Eres muy"
-	line "fuerte!"
+	text "¡Eres muy fuerte!"
 
-	para "¡Pero me la paga-"
-	line "rás algún día!"
+	para "¡Pero algún día me"
+	line "las pagarás!"
 	done
 
 ErikaText_WinLoss:
@@ -642,8 +608,8 @@ JanineText_WinLoss:
 	done
 
 SabrinaText_WinLoss:
-	text "Lo sé... Nos vol-"
-	line "veremos a ver"
+	text "Lo sé… Nos vamos"
+	line "a volver a ver"
 	cont "algún día."
 	done
 
@@ -662,9 +628,9 @@ BlueText_WinLoss:
 	done
 
 FalknerText_WinLoss:
-	text "Mmm… Aún queda"
+	text "Mmm… Aún me queda"
 	line "mucho para ser el"
-	cont "mejor entrenador.."
+	cont "mejor entrenador…"
 	done
 
 BugsyText_WinLoss:
@@ -682,11 +648,10 @@ WhitneyText_WinLoss:
 	done
 
 MortyText_WinLoss:
-	text "He perdido de"
-	line "nuevo… Tienes"
+	text "He vuelto a caer…"
 
-	para "algo más que solo"
-	line "fuerza."
+	para "Tienes algo más"
+	line "que simple fuerza."
 	done
 
 ChuckText_WinLoss:
@@ -701,8 +666,7 @@ JasmineText_WinLoss:
 	done
 
 PryceText_WinLoss:
-	text "Mmm… ¡Impresio-"
-	line "nante!"
+	text "Mmm… ¡Formidable!"
 	done
 
 ClairText_WinLoss:
@@ -713,9 +677,8 @@ ClairText_WinLoss:
 	done
 
 PalmerText_WinLoss:
-	text "¡Bravo! ¡Me siento"
-	line "inspirado de co-"
-	cont "razón!"
+	text "¡Bravo! ¡Me habéis"
+	line "inspirado mucho!"
 	done
 
 LoreleiText_WinLoss:

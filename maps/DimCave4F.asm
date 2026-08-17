@@ -63,25 +63,20 @@ DimCave4FSetUpStoneTable:
 GenericTrainerScientistJoseph:
 	generictrainer SCIENTIST, JOSEPH, EVENT_BEAT_SCIENTIST_JOSEPH, .SeenText, .BeatenText
 
-	text "El agua subterrá-"
-	line "nea deja tras de"
-	cont "sí depósitos de"
-	cont "minerales."
+	text "El agua de la"
+	line "cueva deja restos"
+	cont "de minerales."
 
-	para "Los humanos los"
-	line "extraen, y los"
-	cont "microbios se"
-	cont "alimentan de"
-	cont "ellos."
+	para "Nosotros los"
+	line "extraemos y los"
+	cont "microbios comen"
+	cont "de ellos."
 	done
 
 .SeenText:
-	text "Estoy estudiando"
-	line "los microbios"
-	cont "antiguos"
-
-	para "conservados en"
-	line "estas rocas."
+	text "Estudio microbios"
+	line "antiguos que están"
+	cont "en estas rocas."
 	done
 
 .BeatenText:
@@ -94,16 +89,14 @@ GenericTrainerScientistJoseph:
 GenericTrainerScientistNigel:
 	generictrainer SCIENTIST, NIGEL, EVENT_BEAT_SCIENTIST_NIGEL, .SeenText, .BeatenText
 
-	text "El agua fluye y"
-	line "empuja una rueda"
-	cont "hidráulica para"
+	text "El agua mueve una"
+	line "rueda hidráulica"
+	cont "y da energía a los"
+	cont "generadores."
 
-	para "dar energía a unos"
-	line "generadores,"
-
-	para "convirtiendo la"
-	line "energía cinética"
-	cont "en eléctrica."
+	para "¡Convierte energía"
+	line "cinética en"
+	cont "eléctrica!"
 
 	para "Fascinante, ¿a que"
 	line "sí?"
@@ -123,15 +116,12 @@ GenericTrainerScientistNigel:
 	done
 
 DimCave4FSuper_nerdText:
-	text "Camino a lo largo"
-	line "de las vías, ¡como"
+	text "¡Sigo las vías"
+	line "como en esa peli!"
 
-	para "en esa peli!"
+	para "…Pero estoy solo"
+	line "en una cueva…"
 
-	para "…Excepto que"
-	line "estoy en una"
-	cont "cueva… y solo…"
-
-	para "…Esto ya no"
-	line "tiene gracia."
+	para "…Ya no me parece"
+	line "tan divertido."
 	done

@@ -28,18 +28,17 @@ FastShipCabins_NNW_NNE_NE_MapScriptHeader:
 GenericTrainerPILooker:
 	generictrainer PI, LOOKER, EVENT_BEAT_PI_LOOKER, PILookerSeenText, PILookerBeatenText
 
-	text "Mi nombre en cla-"
-	line "ve es Looker."
+	text "Mi nombre en clave"
+	line "es Looker."
 
-	para "Así es como me"
-	line "llaman todos."
+	para "Así me llaman"
+	line "todos."
 
-	para "Estoy al acecho"
-	line "de miembros del"
-	cont "Team Rocket."
+	para "Busco a miembros"
+	line "del Team Rocket."
 
-	para "¡¿Qué?! ¿Los"
-	line "derrotaste?"
+	para "¡¿Qué?! ¡¿Tú los"
+	line "has derrotado?!"
 
 	para "¡Bravo!"
 	done
@@ -48,10 +47,8 @@ GenericTrainerCooltrainermSean:
 	generictrainer COOLTRAINERM, SEAN, EVENT_BEAT_COOLTRAINERM_SEAN, CooltrainermSeanSeenText, CooltrainermSeanBeatenText
 
 	text "Los entrenadores"
-	line "de Johto pueden"
-
-	para "luchar con los"
-	line "Líderes de Kanto."
+	line "de Johto retan a"
+	cont "Líderes de Kanto."
 	done
 
 GenericTrainerCooltrainerfCarol:
@@ -76,20 +73,16 @@ GenericTrainerHikerNoland:
 	generictrainer HIKER, NOLAND, EVENT_BEAT_HIKER_NOLAND, HikerNolandSeenText, HikerNolandBeatenText
 
 	text "Me pregunto si hay"
-	line "alguna montaña"
-
-	para "que valga la pena"
-	line "escalar en Kanto."
+	line "montañas dignas de"
+	cont "escalar en Kanto."
 	done
 
 GenericTrainerGentlemanEdward:
 	generictrainer GENTLEMAN, EDWARD, EVENT_BEAT_GENTLEMAN_EDWARD, GentlemanEdwardSeenText, GentlemanEdwardBeatenText
 
-	text "Me rindo."
-	line "No tienes que"
-
-	para "buscar. ¡Simple-"
-	line "mente olvídalo!"
+	text "Me rindo. Ya no"
+	line "hace falta que lo"
+	cont "busques. ¡Déjalo!"
 	done
 
 GenericTrainerBurglarCorey:
@@ -150,11 +143,8 @@ FastShipLazySailorLeavesMovement2:
 PILookerSeenText:
 	text "¡¿QUÉEE?!"
 
-	para "…¿Cómo lo"
-	line "supiste? ¿Cómo me"
-
-	para "desenmascaraste"
-	line "como miembro de la"
+	para "…¿Cómo supiste"
+	line "que soy de la"
 	cont "Policía"
 	cont "Internacional?!"
 	done
@@ -165,9 +155,9 @@ PILookerBeatenText:
 	done
 
 CooltrainermSeanSeenText:
-	text "Voy a Kanto para"
-	line "probar mis habili-"
-	cont "dades."
+	text "Voy a Kanto a"
+	line "poner a prueba mis"
+	cont "habilidades."
 	done
 
 CooltrainermSeanBeatenText:
@@ -206,18 +196,15 @@ HikerNolandBeatenText:
 	done
 
 SailorStanlySeenText:
-	text "Sí, soy un mari-"
-	line "nero."
+	text "Sí, soy marinero."
 
-	para "¡No estaba hacien-"
-	line "do el vago!"
+	para "¡No holgazaneaba!"
 
-	para "¡Este camarote"
-	line "estaba libre, así"
-	cont "que eché una"
-	cont "siestecita!"
+	para "Este camarote no"
+	line "estaba ocupado, y"
+	cont "me eché a dormir."
 
-	para "¡Ah, olvídalo!"
+	para "¡En fin, olvídalo!"
 	line "¡A luchar!"
 	done
 
@@ -234,13 +221,13 @@ SailorStanlyAfterBattleText:
 	done
 
 GentlemanEdwardSeenText:
-	text "Oh, no. He per-"
-	line "dido algo que es"
-	cont "muy importante."
+	text "¡Oh, no! He"
+	line "perdido algo muy"
+	cont "importante."
 	done
 
 GentlemanEdwardBeatenText:
-	text "Y... Yo no puedo"
+	text "Y… no logro"
 	line "encontrarlo…"
 	done
 

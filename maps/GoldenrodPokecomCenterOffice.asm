@@ -29,19 +29,16 @@ GoldenrodPokecomCenterOffice_MapScriptHeader:
 	object_event  4,  1, SPRITE_MON_ICON, SPRITEMOVEDATA_ADMIN_MEOWTH, 0, MEOWTH, -1, PAL_MON_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, AdminEldredScript, -1
 
 AdminRangiText:
-	text "Rangi: Espero que"
+	text "Rangi: ¡Espero que"
 	line "estés disfrutando"
+	cont "del juego!"
 
-	para "tu viaje por"
-	line "este juego."
+	para "Nos costó meter"
+	line "todos los datos."
 
-	para "Tuvimos problemas"
-	line "para meter todos"
-	cont "los datos en él."
-
-	para "¡Apenas había es-"
-	line "pacio suficiente"
-	cont "para mi sprite!"
+	para "¡Casi no queda"
+	line "sitio libre para"
+	cont "mi sprite!"
 	done
 
 RangiComputerScript:
@@ -56,155 +53,122 @@ RangiComputerScript:
 	done
 
 AdminLunaText:
-	text "Luna: Cuando hi-"
-	line "ciste un Intercam-"
-	cont "bio Prodigioso"
+	text "Luna: Al hacer un"
+	line "Intercambio"
+	cont "Prodigioso con"
+	cont "otra región,"
 
-	para "con alguien de"
-	line "otra región por"
+	para "¿no te dio una"
+	line "gran emoción?"
 
-	para "primera vez,"
-	line "¿no te impresio-"
-	cont "naste?"
-
-	para "¡Yo construí el"
+	para "¡Yo creé todo el"
 	line "sistema original"
-	cont "aquí, en Trigal!"
+	cont "aquí en Trigal!"
 	done
 
 LunaComputerScript:
 	jumpthistext
 
-	text "Una pantalla lle-"
-	line "na de notas den-"
-	cont "sas, mapas de lu-"
+	text "La pantalla tiene"
+	line "muchas notas,"
+	cont "mapas de sitios"
+	cont "desconocidos…"
 
-	para "gares desconoci-"
-	line "dos y una imagen"
-
-	para "de Johto cubierto"
-	line "de nieve."
+	para "¡Y una foto de"
+	line "Johto nevado!"
 	done
 
 AdminFredrikText:
 	text "Fredrik: El PC de"
-	line "Bill es de código"
-	cont "abierto, así que"
-
-	para "pude reescribir"
-	line "por completo y"
-
-	para "mejorar su base"
-	line "de datos."
+	line "Bill es abierto,"
+	cont "así que pude"
+	cont "reescribir y"
+	cont "mejorar su base"
+	cont "de datos."
 	done
 
 FredrikComputerScript:
 	jumpthistext
 
-	text "Hay una docena de"
-	line "ventanas abiertas"
-	cont "a la vez,"
-
-	para "cada una relacio-"
-	line "nada con su fun-"
-	cont "ción."
+	text "Hay diez ventanas"
+	line "abiertas a la vez,"
+	cont "cada una con su"
+	cont "propia función."
 	done
 
 AdminEmiText:
-	text "Emi: ¿Has visto"
-	line "los Datos de"
-	cont "tus #mon?"
+	text "Emi: ¿Has visto los"
+	line "Datos #mon?"
 
-	para "¡Vengo de visita"
-	line "desde la región"
-	cont "Beria"
+	para "¡Vengo desde la"
+	line "región Beria para"
+	cont "traer estas"
+	cont "pantallas a Johto!"
 
-	para "para traer in-"
-	line "terfaces así"
-	cont "a Johto!"
-
-	para "¡Ven a saludar si"
-	line "alguna vez estás"
-	cont "en Pueblo Amatis-"
-	cont "ta!"
+	para "¡Salúdame si vas"
+	line "a Pueblo Amatista!"
 	done
 
 EmiComputerScript:
 	jumpthistext
 
-	text "Un montón de có-"
-	line "digo está cubierto"
-	cont "por una partida"
-	cont "del Solitario."
+	text "El código fuente"
+	line "está tapado por el"
+	cont "juego Solitario."
 	done
 
 AdminAizawaText:
-	text "Aizawa: Diálogos,"
-	line "diseños de mapa,"
+	text "Aizawa: Mapas,"
+	line "diálogos, sprites,"
+	cont "entrenadores…"
 
-	para "sprites de per-"
-	line "sonajes, equipos"
-	cont "de entrenador…"
-
-	para "¡Game Freak en"
-	line "Kanto tiene suerte"
-
-	para "de tener a toda"
-	line "una empresa para"
-	cont "hacer esto!"
+	para "¡Qué suerte tiene"
+	line "Game Freak en"
+	cont "Kanto al tener una"
+	cont "empresa para esto!"
 	done
 
 AizawaComputerScript:
 	jumpthistext
 
-	text "Un programa llama-"
-	line "do Polished Map++"
-	cont "muestra una isla"
-
-	para "tropical dibuja-"
-	line "da a medias."
+	text "El Polished Map++"
+	line "muestra una isla"
+	cont "tropical dibujada"
+	cont "a medias."
 	done
 
 AdminVulcanText:
 	text "Vulcan: ¿Qué tal"
-	line "el tiempo?"
+	line "el clima?"
 
-	para "No es sólo por ha-"
-	line "blar… ¡De hecho"
-	cont "yo lo implemen-"
-	cont "té!"
+	para "No es por hablar…"
+	line "¡Fui yo quien lo"
+	cont "implementó!"
 
-	para "Pensábamos que"
-	line "no se podía"
-	cont "hacer…"
-
-	para "¡Y me demostré a"
-	line "mí mismo lo"
-	cont "contrario!"
+	para "Creían que era"
+	line "imposible, ¡y les"
+	cont "demostré que no!"
 	done
 
 VulcanComputerScript:
 	jumpthistext
 
 	text "En la pantalla se"
-	line "muestra un mapa"
+	line "ve un mapa"
 	cont "meteorológico."
 
-	para "Muestra que llue-"
-	line "ve en Johto."
+	para "Muestra lluvia en"
+	line "todo Johto."
 	done
 
 AdminSourText:
 	text "Sour: ¿Te gustan"
-	line "las animaciones"
+	line "las animaciones de"
+	cont "ataque en combate?"
 
-	para "de los movimien-"
-	line "tos en combate?"
-
-	para "¡Me encanta hacer"
-	line "que usar cada"
-	cont "movimiento sea"
-	cont "una delicia!"
+	para "¡Me encanta lograr"
+	line "que cada ataque"
+	cont "se vea genial!"
 	done
 
 SourComputerScript:
@@ -223,9 +187,8 @@ AdminEldredScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Un Meowth tra-"
-	line "vieso está te-"
-	cont "cleando con sus"
+	text "Un Meowth travieso"
+	line "teclea con sus"
 	cont "patas."
 	done
 

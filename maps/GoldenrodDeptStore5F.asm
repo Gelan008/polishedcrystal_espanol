@@ -52,9 +52,8 @@ GoldenrodDeptStore5FReceptionistScript:
 
 	text "¡Es adorable!"
 
-	para "Deberías ense-"
-	line "ñarle buenos movi-"
-	cont "mientos de MT."
+	para "Deberías usar"
+	line "buenas MT con él."
 	done
 
 .VeryHappy:
@@ -68,10 +67,8 @@ GoldenrodDeptStore5FReceptionistScript:
 	jumpthisopenedtext
 
 	text "Seguro que hay"
-	line "MTs que son"
-
-	para "perfectas para"
-	line "tus #mon."
+	line "MTs perfectas"
+	cont "para tus #mon."
 	done
 
 GoldenrodDeptStore5FTwinScript:
@@ -101,24 +98,20 @@ GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
-	text "Está muy apega-"
-	line "do a ti."
+	text "¡Se nota que te"
+	line "quiere mucho!"
 
-	para "Este movimien-"
-	line "to será perfec-"
-	cont "to para una"
-	cont "pareja así."
+	para "Este movimiento"
+	line "es perfecto para"
+	cont "una gran pareja."
 	done
 
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "Mirar al suelo"
-	line "mientras andaba"
+	text "Caminar mirando al"
+	line "suelo me mareó…"
 
-	para "hizo que me"
-	line "mareara."
-
-	para "Pero, ¡encontré"
+	para "¡Pero encontré"
 	line "esta Baya!"
 	done
 
@@ -139,15 +132,12 @@ GoldenrodDeptStore5FLassText:
 
 GoldenrodDeptStore5FPokefanMText:
 	text "No puedes cambiar"
-	line "el mote a un"
-	cont "#mon intercam-"
-	cont "biado."
+	line "el mote a #mon"
+	cont "intercambiados."
 
-	para "El mote es un re-"
-	line "flejo de los sen-"
-
-	para "timientos del en-"
-	line "trenador original."
+	para "El mote refleja el"
+	line "afecto de quien lo"
+	cont "entrenó primero."
 	done
 
 GoldenrodDeptStore5FDirectoryText:

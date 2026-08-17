@@ -33,9 +33,9 @@ GoldenrodDeptStore2FYoungsterText:
 	line "tiene límite de"
 	cont "capacidad."
 
-	para "Pero recibir dema-"
-	line "siadas llamadas"
-	cont "puede ser molesto."
+	para "Pero que te llamen"
+	line "tanto puede ser"
+	cont "muy molesto."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
@@ -47,16 +47,13 @@ GoldenrodDeptStore2FCooltrainerFText:
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "Este Centro Co-"
-	line "mercial me hace"
+	text "Este gran Centro"
+	line "Comercial me hace"
+	cont "ver que Trigal es"
+	cont "una gran ciudad."
 
-	para "darme cuenta de"
-	line "que Trigal es una"
-	cont "gran ciudad."
-
-	para "La variedad que"
-	line "hay aquí es incom-"
-	cont "parable."
+	para "¡Su variedad es"
+	line "incomparable!"
 	done
 
 GoldenrodDeptStore2FDirectoryText:

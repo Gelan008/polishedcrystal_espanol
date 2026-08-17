@@ -126,12 +126,10 @@ DragonsDenB1FClairTrigger:
 DragonsDenShrineSignText:
 	text "Santuario Dragón"
 
-	para "Santuario en honor"
-	line "a los #mon"
-	cont "dragón que dicen"
-
-	para "que vivieron en la"
-	line "Guarida Dragón."
+	para "En honor a los"
+	line "#mon dragón que"
+	cont "habitaron en la"
+	cont "Guarida Dragón."
 	done
 
 DragonsDenB1FRivalScript:
@@ -193,24 +191,22 @@ DragonsDenB1FRivalScript:
 	end
 
 .GiveEggText:
-	text "…"
-	line "Escucha."
+	text "… Escucha."
 
-	para "El #mon que…"
-	line "cogí del Labora-"
-	cont "torio…"
+	para "Ese #mon que…"
+	line "robé del Lab…"
 
-	para "Tenía un Huevo."
+	para "Puso un Huevo."
 	line "No lo necesito."
 	cont "Toma. Quédatelo."
 	done
 
 .DescribeEggText:
-	text "Mpf. ¿Has termi-"
-	line "nado aquí?"
+	text "Mpf. ¿Ya has"
+	line "terminado aquí?"
 
-	para "Entonces apártate"
-	line "de mi camino."
+	para "Entonces quítate"
+	line "de en medio."
 	done
 
 .PartyAndBoxFullText:
@@ -220,24 +216,22 @@ DragonsDenB1FRivalScript:
 	done
 
 .Training1Text:
-	text "…"
-	line "¿Qué? ¿<PLAYER>?"
+	text "… ¿Qué?"
+	line "¿<PLAYER>?"
 
-	para "…No, no lucharé"
+	para "…No lucharé"
 	line "contigo ahora…"
 
-	para "Mis #mon no"
-	line "están listos para"
-	cont "vencerte."
+	para "Mis #mon aún no"
+	line "pueden ganarte."
 
-	para "No puedo forzarlos"
-	line "demasiado ahora."
+	para "No debo forzarlos"
+	line "demasiado."
 
-	para "Debo ser disci-"
-	line "plinado para ser"
-
-	para "el mejor entrena-"
-	line "dor #mon…"
+	para "Debo tener más"
+	line "disciplina para"
+	cont "ser el mejor"
+	cont "entrenador…"
 	done
 
 .Training2Text:
@@ -245,23 +239,20 @@ DragonsDenB1FRivalScript:
 
 	para "Uff…"
 
-	para "Aprende a apartar-"
-	line "te de mi camino…"
+	para "Aprende a salir de"
+	line "mi camino…"
 	done
 
 GenericTrainerDragonTamerDarin:
 	generictrainer DRAGON_TAMER, DARIN, EVENT_BEAT_DRAGON_TAMER_DARIN, .SeenText, .BeatenText
 
-	text "El Santuario de"
-	line "delante es hogar"
-
-	para "del Maestro de"
-	line "nuestro clan de"
+	text "El Santuario es el"
+	line "hogar del Maestro"
+	cont "de nuestro clan de"
 	cont "domadragones."
 
-	para "¡No tienes per-"
-	line "miso para entrar"
-	cont "así como así!"
+	para "¡No puedes pasar"
+	line "así como así!"
 	done
 
 .SeenText:
@@ -277,15 +268,13 @@ GenericTrainerDragonTamerDarin:
 GenericTrainerDragonTamerAdam:
 	generictrainer DRAGON_TAMER, ADAM, EVENT_BEAT_DRAGON_TAMER_ADAM, .SeenText, .BeatenText
 
-	text "Ni siquiera el po-"
-	line "der de los drago-"
-	cont "nes pudo pararte."
+	text "Ni los dragones"
+	line "pudieron frenarte."
 
-	para "Puede que seas el"
-	line "tipo de entrenador"
-
-	para "que nuestro"
-	line "Maestro busca."
+	para "Tal vez seas la"
+	line "clase de persona"
+	cont "que busca nuestro"
+	cont "Maestro."
 	done
 
 .SeenText:
@@ -301,28 +290,19 @@ GenericTrainerDragonTamerAdam:
 GenericTrainerAceDuoDanandcara1:
 	generictrainer ACE_DUO, DANANDCARA1, EVENT_BEAT_ACE_DUO_DAN_AND_CARA, .SeenText, .BeatenText
 
-	text "Dan: Pronto"
-	line "obtendré permiso"
+	text "Dan: Muy pronto el"
+	line "Maestro me dejará"
+	cont "usar dragones."
 
-	para "de nuestro Maestro"
-	line "para usar drago-"
-	cont "nes."
-
-	para "Cuando lo haga,"
-	line "voy a convertir-"
-	cont "me en un domadra-"
-	cont "gones admirable y"
-
-	para "a ganarme la"
-	line "aprobación de"
-	cont "nuestro Maestro."
+	para "¡Seré un gran"
+	line "domadragones y me"
+	cont "ganaré su respeto!"
 	done
 
 .SeenText:
-	text "Dan: ¡Puede que no"
-	line "use dragones, pe-"
-	cont "ro sigo siendo"
-	cont "fuerte!"
+	text "Dan: ¡No usaré"
+	line "dragones, ¡pero"
+	cont "soy muy fuerte!"
 	done
 
 .BeatenText:
@@ -335,12 +315,11 @@ GenericTrainerAceDuoDanandcara2:
 
 	text "Cara: Los dragones"
 	line "son difíciles de"
+	cont "criar y son muy"
+	cont "poderosos."
 
-	para "criar, y muy"
-	line "poderosos."
-
-	para "No son para cual-"
-	line "quiera."
+	para "¡No son para"
+	line "cualquiera!"
 	done
 
 .SeenText:
@@ -421,14 +400,13 @@ KimonoGirlMinaScript:
 	jumpthisopenedtext
 
 .OutroText:
-	text "Venir aquí desde"
-	line "Ciudad Iris"
-
-	para "valió la pena."
+	text "Valió la pena"
+	line "venir aquí desde"
+	cont "Ciudad Iris."
 
 	para "La Guarida Dragón"
-	line "es el lugar ideal"
-	cont "para entrenar."
+	line "es ideal para"
+	cont "entrenar."
 	done
 
 .BagFullText:
@@ -455,19 +433,18 @@ KimonoGirlMinaScript:
 	text "¡Quien más sabe,"
 	line "menos habla!"
 
-	para "¡Permíteme retarte"
-	line "a ti y a tus #"
-	cont "mon!"
+	para "¡Permíteme retar a"
+	line "todos tus #mon!"
 	done
 
 .BeatenText:
-	text "Oh, eres maravi-"
-	line "lloso…"
+	text "Oh, qué maravilla"
+	line "de entrenador…"
 	done
 
 .AfterText:
-	text "Eres todo un En-"
-	line "trenador."
+	text "Eres un grandioso"
+	line "entrenador."
 
 	para "¡Eres digno de"
 	line "este objeto!"

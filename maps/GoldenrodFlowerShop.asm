@@ -131,43 +131,36 @@ FlowerShopFloriaScript:
 	done
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "¿Has visto ese ár-"
-	line "bol raro que ha"
-
-	para "crecido en la"
-	line "Ruta 36?"
+	text "¿Has visto el"
+	line "árbol tan raro que"
+	cont "hay en la Ruta 36?"
 
 	para "Mi hermana pequeña"
-	line "se emocionó mucho"
+	line "fue a verlo toda"
+	cont "emocionada…"
 
-	para "y ha ido a verlo.."
-
-	para "Estoy preocupada.."
-	line "¿No es peligroso?"
+	para "Me preocupa que"
+	line "sea peligroso…"
 	done
 
 GoldenrodFlowerShopTeacherStopMySisterText:
 	text "Mi hermana pequeña"
-	line "se emocionó mucho"
+	line "fue a ver ese"
+	cont "árbol tan raro…"
 
-	para "y ha ido a ver el"
-	line "árbol raro…"
-
-	para "Estoy preocupada.."
-	line "¿Puedes por favor"
-
-	para "evitar que se haga"
-	line "daño?"
+	para "Estoy preocupada."
+	line "¿Podrías cuidar de"
+	cont "ella, por favor?"
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
 	text "¿También quieres"
-	line "pedir prestada la"
+	line "que te preste la"
 	cont "Squirgadera?"
 
-	para "No quiero que ha-"
-	line "gas nada peli-"
-	cont "groso con ella."
+	para "No quiero que te"
+	line "pongas en peligro"
+	cont "usándola."
 	done
 
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
@@ -196,45 +189,40 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "¡No hagas ningu-"
-	line "na locura!"
+	text "¡No hagas ninguna"
+	line "locura con ella!"
 	done
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
-	text "Cuando le hablé a"
-	line "mi hermana del"
+	text "Le hablé a mi"
+	line "hermana de ese"
+	cont "árbol tan raro y"
+	cont "dijo que es malo."
 
-	para "árbol raro, me"
-	line "dijo que era peli-"
-	cont "groso."
-
-	para "Si derroto a"
-	line "Blanca, igual me"
-
-	para "presta su"
-	line "Squirgadera…"
+	para "Si gano a Blanca,"
+	line "quizá me preste la"
+	cont "Squirgadera…"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Vaya, ¿has derro-"
-	line "tado a Blanca?"
-	cont "¡Qué guay!"
+	text "Vaya, ¿venciste a"
+	line "Blanca? ¡Qué bien!"
 
-	para "A lo mejor tú pue-"
-	line "des con ese árbol"
+	para "A lo mejor puedes"
+	line "con ese árbol tan"
 	cont "raro."
 
-	para "Solo necesitas una"
-	line "Squirgadera como"
-	cont "la de mi hermana."
+	para "Solo necesitas la"
+	line "Squirgadera de mi"
+	cont "hermana."
 	done
 
 WoukdYouLikeMulchText:
 	text "¿Quieres comprar"
 	line "Abono?"
 
-	para "¡Hace que las Ba-"
-	line "yas crezcan más"
+	para "¡Hace crecer las"
+	line "Bayas mucho más"
 	cont "rápido!"
 	done
 
@@ -248,23 +236,20 @@ NoRoomForMulchText:
 
 DescribeMulchText:
 	text "Nuestro Abono es"
-	line "una mezcla de "
-
-	para "tierra de calidad"
-	line "y de… em… ya"
-	cont "sabes de los"
-	cont "#mon."
+	line "mezcla de tierra y"
+	cont "de… esto… ya sabes"
+	cont "de los #mon."
 
 	para "¡Está lleno de"
 	line "nutrientes!"
 	done
 
 FlowerShopGentlemanText:
-	text "He estado traba-"
-	line "jando hasta tarde"
+	text "Trabajé mucho"
+	line "hasta muy tarde"
 	cont "últimamente,"
 
-	para "así que voy a"
-	line "comprar flores"
-	cont "para mi mujer."
+	para "así que compraré"
+	line "flores para mi"
+	cont "mujer."
 	done

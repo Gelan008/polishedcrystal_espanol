@@ -39,11 +39,10 @@ ProfOaksAide3Script:
 .Explain
 	jumpthisopenedtext
 
-	text "La Brazal Recio"
-	line "ayuda a un #mon"
-
-	para "a crecer más al"
-	line "luchar, pero lo"
+	text "El Brazal Recio"
+	line "ayuda a tu #mon"
+	cont "a crecer más al"
+	cont "luchar, aunque lo"
 	cont "hace más lento."
 	done
 
@@ -62,8 +61,8 @@ GenericTrainerGruntM12:
 	line "está lleno de"
 	cont "#mon raros."
 
-	para "¡Los estamos atra-"
-	line "pando todos para"
+	para "¡Los atraparemos"
+	line "todos para"
 	cont "nosotros!"
 	done
 
@@ -71,8 +70,8 @@ CliffEdgeGateReceptionistText:
 	text "¡El Bosq. Amarillo"
 	line "está por aquí!"
 
-	para "¡Es un sitio turís"
-	line "-tico muy popular!"
+	para "¡Es una zona muy"
+	line "turística!"
 	done
 
 ProfOaksAide3HiText:
@@ -82,40 +81,33 @@ ProfOaksAide3HiText:
 
 	para "Si has atrapado"
 	line "45 tipos de"
-	cont "#mon,"
-
-	para "se supone que debo"
-	line "darte un objeto."
+	cont "#mon te daré un"
+	cont "regalo."
 
 	para "Así que, <PLAYER>,"
-	line "¿has atrapado al"
-
-	para "menos 45 tipos de"
-	line "#mon?"
+	line "¿tienes al menos"
+	cont "45 #mon?"
 	done
 
 ProfOaksAide3UhOhText:
-	text "Veamos…"
-	line "¡Vaya! Solo has"
-
-	para "atrapado "
+	text "Veamos… ¡Vaya!"
+	line "Solo has atrapado"
+	cont "a "
 	text_decimal wTempDexOwn, 2, 3
-	text " tipos"
+	text " especies"
 	line "de #mon."
 
 	para "Vuelve a verme"
-	line "cuando atrapes 45"
-	cont "tipos distintos."
+	line "cuando tengas al"
+	cont "menos 45 tipos."
 	done
 
 ProfOaksAide3HereYouGoText:
-	text "Veamos…"
-	line "¡Genial! Has"
-
-	para "atrapado "
+	text "Veamos… ¡Genial!"
+	line "Has atrapado a "
 	text_decimal wTempDexOwn, 2, 3
-	text " tipos"
-	line "de #mon."
+	text " especies de"
+	line "#mon."
 
 	para "¡Enhorabuena!"
 	line "¡Aquí tienes!"
@@ -124,11 +116,11 @@ ProfOaksAide3HereYouGoText:
 
 
 GruntM12SeenText:
-	text "¿Sientes curio-"
-	line "sidad por nues-"
-	cont "tros planes?"
+	text "¿Tienes interés"
+	line "en nuestros"
+	cont "planes?"
 
-	para "¡Vénceme y te lo"
+	para "¡Vénceme y te los"
 	line "contaré!"
 	done
 

@@ -31,30 +31,22 @@ EcruteakItemfinderGuy:
 	jumpthisopenedtext
 
 ItemfinderExplanationText:
-	text "Hay muchos objetos"
-	line "tirados que no"
-	cont "están a la vista."
+	text "Hay objetos en el"
+	line "suelo que no se"
+	cont "ven a simple vista"
 
-	para "Usa el Buscaobje-"
-	line "tos para compro-"
-	cont "bar si hay"
+	para "El Buscaobjetos"
+	line "te avisa si hay un"
+	cont "objeto cerca."
 
-	para "un objeto en el"
-	line "suelo cerca de"
-	cont "ti."
+	para "No te da el punto"
+	line "exacto, así que"
+	cont "tendrás que buscar"
+	cont "tú mismo."
 
-	para "No te enseña el"
-	line "sitio exacto,"
-
-	para "así que tendrás"
-	line "que mirar tú mis-"
-	cont "mo."
-
-	para "Ah, sí, he oído"
-	line "que hay objetos en"
-
-	para "la Torre Quemada"
-	line "de Iris."
+	para "¡Dicen que hay"
+	line "cosas ocultas en"
+	cont "la Torre Quemada!"
 	done
 
 EcruteakHistoryBook:
@@ -67,52 +59,42 @@ EcruteakHistoryBook:
 	iffalse_endtext
 	jumpthisopenedtext
 
-	text "Ciudad Iris tam-"
-	line "bién fue hogar de"
-	cont "tres #mon que"
+	text "Iris también fue"
+	line "hogar de 3 #mon"
+	cont "que corrían por"
+	cont "los alrededores."
 
-	para "corrían alrededor"
-	line "de la ciudad."
+	para "Dicen que nacieron"
+	line "del agua, del rayo"
+	cont "y del fuego."
 
-	para "Se decía que na-"
-	line "cieron del"
-
-	para "agua, del rayo"
-	line "y del fuego."
-
-	para "Pero no podían"
-	line "contener su poder"
-	cont "excesivo."
-
-	para "Así que dicen que"
-	line "los tres corrieron"
-
-	para "como el viento"
-	line "hacia la pradera."
+	para "Al no contener su"
+	line "inmenso poder,"
+	cont "los tres corrieron"
+	cont "hacia las praderas"
+	cont "como el viento."
 	done
 
 EcruteakItemfinderAdventureText:
-	text "Ah, ¿estás en una"
+	text "Ah, ¿estás de"
 	line "aventura con tus"
 	cont "#mon?"
 
-	para "Bueno, ¿qué es una"
-	line "aventura sin bus-"
-	cont "car tesoros?"
+	para "¿Y qué sería de"
+	line "una aventura sin"
+	cont "buscar tesoros?"
 
-	para "¿Tengo razón, o"
-	line "tengo razón?"
+	para "¿Tengo o no tengo"
+	line "razón?"
 	done
 
 EcruteakItemfinderTrueSpiritText:
-	text "¡Bien! Entiendes"
-	line "el verdadero"
+	text "¡Bien! Conoces el"
+	line "auténtico espíritu"
+	cont "de la aventura."
 
-	para "espíritu de la"
-	line "aventura."
-
-	para "¡Me gusta! Llévate"
-	line "esto contigo."
+	para "¡Me gusta! ¡Toma"
+	line "esto contigo!"
 	done
 
 EcruteakItemfinderToEachHisOwnText:
@@ -128,21 +110,20 @@ EcruteakHistoryBookText:
 	done
 
 EcruteakTwoTowersText:
-	text "En Iris, había dos"
+	text "En Iris había dos"
 	line "torres."
 
-	para "Cada torre era el"
-	line "nido de un podero-"
-	cont "so #mon vola-"
-	cont "dor."
+	para "Cada una era hogar"
+	line "de un gran #mon"
+	cont "volador."
 
 	para "Pero una de las"
 	line "torres ardió hasta"
 	cont "los cimientos."
 
-	para "Desde entonces, no"
-	line "se ha visto a los"
-	cont "dos #mon…"
+	para "Desde entonces no"
+	line "se les ha vuelto"
+	cont "a ver…"
 
 	para "¿Seguir leyendo?"
 	done

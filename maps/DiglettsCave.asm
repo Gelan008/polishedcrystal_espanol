@@ -128,10 +128,9 @@ GenericTrainerHikerGerard:
 GenericTrainerHikerDent:
 	generictrainer HIKER, DENT, EVENT_BEAT_HIKER_DENT, .SeenText, .BeatenText
 
-	text "Encajaré perfec-"
-	line "tamente con los"
-	cont "tíos cachas del"
-	cont "Gimnasio Plateada."
+	text "¡Encajaré genial"
+	line "con los del Gim."
+	cont "de Ciudad Plateada"
 	cont "¡Jo, jo, jo!"
 	done
 
@@ -140,9 +139,9 @@ GenericTrainerHikerDent:
 	line "Plateada."
 
 	para "¡Su Gimnasio de"
-	line "tipo Roca es per-"
-	cont "fecto para un tío"
-	cont "cachas como yo!"
+	line "tipo Roca es ideal"
+	cont "para alguien como"
+	cont "yo!"
 	done
 
 .BeatenText:
@@ -154,12 +153,10 @@ GenericTrainerHikerDent:
 GenericTrainerBlackbeltInigo:
 	generictrainer BLACKBELT_T, INIGO, EVENT_BEAT_BLACKBELT_INIGO, .SeenText, .BeatenText
 
-	text "Hacer ruido no te"
-	line "hará mejor lucha-"
-	cont "dor, pero puede"
-
-	para "intimidar a tus"
-	line "enemigos."
+	text "Gritar no te hace"
+	line "mejor luchador,"
+	cont "pero puede asustar"
+	cont "a tus rivales."
 	done
 
 .SeenText:
@@ -190,8 +187,8 @@ GenericTrainerEngineerSmith:
 	done
 
 DiglettsCaveCooltrainerfText:
-	text "¡Mira a todos es-"
-	line "tos Diglett monos!"
+	text "¡Mira qué monos"
+	line "todos los Diglett!"
 
 	para "¡Juro que he visto"
 	line "a uno con la nariz"
@@ -199,13 +196,11 @@ DiglettsCaveCooltrainerfText:
 	done
 
 DiglettsCavePokefanMText:
-	text "¡Un grupo de Dig-"
-	line "lett salió del"
+	text "¡Varios Diglett"
+	line "salieron de golpe!"
+	cont "¡Qué sorpresa!"
 
-	para "suelo! Eso fue"
-	line "impactante."
-
-	para "He oído que los"
+	para "Dicen que los"
 	line "Diglett de Isla"
 	cont "Canela son"
 	cont "diferentes."

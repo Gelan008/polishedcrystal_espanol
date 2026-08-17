@@ -78,15 +78,15 @@ GenericTrainerEngineerHugo:
 	done
 
 .BeatenText:
-	text "¡Oh, solo em-"
-	line "pujaste una roca!"
+	text "¡Ah, solo has"
+	line "movido una roca!"
 	done
 
 GenericTrainerBlackbeltTakeo:
 	generictrainer BLACKBELT_T, TAKEO, EVENT_BEAT_BLACKBELT_TAKEO, .SeenText, .BeatenText
 
-	text "Solo quiero entre-"
-	line "nar en paz."
+	text "Solo quiero"
+	line "entrenar en paz."
 	done
 
 .SeenText:
@@ -106,12 +106,12 @@ GenericTrainerBlackbeltTakeo:
 GenericTrainerHikerFloyd:
 	generictrainer HIKER, FLOYD, EVENT_BEAT_HIKER_FLOYD, .SeenText, .BeatenText
 
-	text "¡Estoy SÚPER per-"
-	line "dido aquí!"
+	text "¡Estoy SÚPER"
+	line "perdido aquí!"
 
-	para "Debería centrarme"
-	line "en hacer senderis-"
-	cont "mo al aire libre."
+	para "Debería hacer solo"
+	line "rutas al aire"
+	cont "libre."
 	done
 
 .SeenText:
@@ -146,9 +146,8 @@ DimCave3FPokefanmScript:
 .YesText:
 	text "¡Yo también!"
 
-	para "La Central Ener-"
-	line "gía interfiere con"
-
-	para "mi brújula, y no"
-	line "tengo mapa."
+	para "La Central de"
+	line "Energía estropea"
+	cont "mi brújula y no"
+	cont "tengo mapa."
 	done

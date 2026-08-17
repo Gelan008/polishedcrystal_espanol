@@ -57,23 +57,21 @@ FuchsiaSafariBallHouseOfficerScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "No tienes sufici-"
-	line "ente dinero."
+	text "No tienes dinero"
+	line "suficiente."
 	done
 
 .IntroText:
-	text "Solía administrar"
-	line "el Juego Safari."
+	text "Yo administraba el"
+	line "Juego Safari."
 
-	para "Ahora que está"
-	line "cerrado, necesito"
-
-	para "ganar dinero de"
-	line "otra forma."
+	para "Al estar cerrado,"
+	line "debo ganar dinero"
+	cont "de alguna forma."
 
 	para "¿Quieres comprar"
-	line "Safari Balls de"
-	cont "sobra?"
+	line "Safari Balls que"
+	cont "me sobraron?"
 
 	para "¡Son un artículo"
 	line "de coleccionista!"

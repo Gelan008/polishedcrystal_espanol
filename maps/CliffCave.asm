@@ -39,8 +39,7 @@ GruntM22BeatenText:
 	done
 
 CliffCaveRocketText:
-	text "¡No merodees"
-	line "durante una ope-"
-	cont "ración del Team"
-	cont "Rocket!"
+	text "¡No merodees en"
+	line "una misión del"
+	cont "Team Rocket!"
 	done

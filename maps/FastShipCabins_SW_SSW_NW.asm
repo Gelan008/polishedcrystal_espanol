@@ -53,15 +53,13 @@ GenericTrainerRichBoyWinston:
 GenericTrainerBeautyCassie:
 	generictrainer BEAUTY, CASSIE, EVENT_BEAT_BEAUTY_CASSIE, BeautyCassieSeenText, BeautyCassieBeatenText
 
-	text "Un viaje es lo"
-	line "mejor para supe-"
-	cont "rar un corazón"
-	cont "roto."
+	text "Viajar es lo mejor"
+	line "para curar un mal"
+	cont "de amores."
 
-	para "Pero el viaje en"
+	para "Pero este viaje en"
 	line "el S.S. Aqua es"
-	cont "muy corto para"
-	cont "llorar."
+	cont "muy corto."
 	done
 
 TrainerGuitaristmClyde:
@@ -77,21 +75,19 @@ GuitaristmClydeScript:
 	text "Hablando de la"
 	line "Torre Radio,"
 
-	para "¿cuál es el nú-"
-	line "mero de la suerte"
-	cont "de esta semana?"
+	para "¿cuál es el número"
+	line "premiado de hoy?"
 	done
 
 .BattleTower:
 	jumpthisopenedtext
 
-	text "Iba a hacer mi de-"
-	line "but en la Torre"
-	cont "Batalla…"
+	text "Iba a debutar en"
+	line "la Torre Batalla…"
 
 	para "Debería volver a"
-	line "Carmín y repetir"
-	cont "mi entrenamiento."
+	line "Carmín y volver a"
+	cont "entrenar."
 	done
 
 FastShipBed:
@@ -129,10 +125,9 @@ FastShipBed:
 	end
 
 FirebreatherLyleSeenText:
-	text "¡Voy a Kanto para"
-	line "hacer mis espec-"
-	cont "táculos de escu-"
-	cont "pir fuego!"
+	text "¡Voy a Kanto a"
+	line "hacer mis shows"
+	cont "escupefuego!"
 	done
 
 FirebreatherLyleBeatenText:
@@ -152,18 +147,18 @@ Bug_catcherKenBeatenText:
 	done
 
 RichBoyWinstonSeenText:
-	text "No hay manera de"
-	line "que puedas pagar"
-	cont "un ticket."
+	text "No creo que hayas"
+	line "pagado tu ticket."
 
-	para "¡Parece que tene-"
-	line "mos un polizón!"
+	para "¡Aquí tenemos a un"
+	line "polizón!"
 	done
 
 RichBoyWinstonBeatenText:
 	text "¡Guau! ¿A quién le"
-	line "compraste tus #"
-	cont "mon?"
+	line "compraste tus"
+	cont "#mon tan"
+	cont "buenos?"
 	done
 
 BeautyCassieSeenText:
@@ -173,16 +168,15 @@ BeautyCassieSeenText:
 	done
 
 BeautyCassieBeatenText:
-	text "Mi corazón llora.."
+	text "Mi corazón llora…"
 	done
 
 GuitaristmClydeSeenText:
 	text "Voy a hacer una"
 	line "audición de mis"
-
-	para "canciones en la"
-	line "Torre Radio de"
-	cont "Trigal."
+	cont "canciones en la"
+	cont "Torre Radio de"
+	cont "Ciudad Trigal."
 	done
 
 GuitaristmClydeBeatenText:

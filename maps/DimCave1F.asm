@@ -30,10 +30,9 @@ GenericTrainerSuper_nerdGregg:
 	done
 
 .SeenText:
-	text "¡Estas vagonetas"
-	line "son patéticas!"
-	cont "¡No pueden de-"
-	cont "rrapar nada!"
+	text "¡Las vagonetas son"
+	line "muy lentas!"
+	cont "¡No derrapan nada!"
 	done
 
 .BeatenText:
@@ -54,14 +53,14 @@ GenericTrainerScientistDexter:
 	done
 
 .SeenText:
-	text "Soy hidrólogo"
-	line "primero, y entre-"
-	cont "nador después."
+	text "Primero soy"
+	line "hidrólogo y luego"
+	cont "entrenador."
 	done
 
 .BeatenText:
 	text "Debería centrarme"
-	line "en la hidrología.."
+	line "en la hidrología…"
 	done
 
 TrainerGuitaristmBiff:
@@ -71,9 +70,9 @@ TrainerGuitaristmBiff:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "¡Amo el heavy me-"
-	line "tal y los metales"
-	cont "pesados!"
+	text "¡Me mola el heavy"
+	line "metal y el metal"
+	cont "pesado!"
 	done
 
 .SeenText:

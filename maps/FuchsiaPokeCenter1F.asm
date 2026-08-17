@@ -31,12 +31,9 @@ PokemonJournalJanineScript:
 	para "Edición especial:"
 	line "¡Líder Sachiko!"
 
-	para "Se dice que Sachi-"
-	line "ko era fan del zoo"
-
-	para "#mon de C."
-	line "Fucsia cuando era"
-	cont "niña."
+	para "Dicen que Sachiko"
+	line "adoraba de niña el"
+	cont "zoo de Fucsia."
 	done
 
 JanineImpersonatorScript:
@@ -53,8 +50,8 @@ JanineImpersonatorScript:
 	end
 
 .Text1:
-	text "¡Soy Sachiko! A-"
-	line "bracadabra… Puf!"
+	text "¡Soy Sachiko!"
+	line "¡Abracadabra… Puf!"
 	done
 
 .Text2:
@@ -82,11 +79,9 @@ FuchsiaPokeCenter1FCooltrainerMText:
 	done
 
 FuchsiaPokeCenter1FCooltrainerFText:
-	text "Me llevé una bue-"
-	line "na sorpresa en el"
-	cont "Gimnasio."
+	text "¡Vaya sorpresa en"
+	line "el Gimnasio!"
 
-	para "Estaban todas"
-	line "esas chicas que"
-	cont "eran idénticas."
+	para "Había muchas"
+	line "chicas idénticas."
 	done

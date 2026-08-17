@@ -191,8 +191,8 @@ MoveTutor:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "…No tienes sufi-"
-	line "cientes fichas…"
+	text "…No tienes fichas"
+	line "suficientes…"
 	done
 
 GoldenrodCityCooltrainerF1Script:
@@ -229,12 +229,11 @@ GoldenrodCityYoungster2Script:
 	iftrue_jumpopenedtext GoldenrodCityYoungster2Text
 	jumpthisopenedtext
 
-	text "¿Has estado en"
-	line "el Museo?"
+	text "¿Has estado en el"
+	line "Museo?"
 
-	para "¡Está lleno de ex-"
-	line "posiciones ge-"
-	cont "niales!"
+	para "¡Tiene cosas muy"
+	line "geniales dentro!"
 	done
 
 GoldenrodCityRocketScoutScript:
@@ -266,15 +265,12 @@ GoldenrodCityPanUpMovementData:
 GoldenrodCityPokefanMText:
 	text "Construyeron la"
 	line "nueva Torre Radio"
+	cont "para reemplazar la"
+	cont "antigua."
 
-	para "para reemplazar la"
-	line "antigua."
-
-	para "Ahora transmite"
-	line "toda emisión para"
-
-	para "el #gear de"
-	line "Johto."
+	para "Ahora emite todos"
+	line "los programas en"
+	cont "el #gear."
 	done
 
 GoldenrodCityYoungster1Text:
@@ -287,28 +283,23 @@ GoldenrodCityYoungster1Text:
 
 
 GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
-	text "¿Ese hombre de ne-"
-	line "gro era realmente"
+	text "¿Ese tipo de negro"
+	line "era del Team"
+	cont "Rocket de verdad?"
 
-	para "del Team Rocket?"
-	line "¡No me lo puedo"
-	cont "creer!"
+	para "¡No me lo creo!"
 	done
 
 GoldenrodCityCooltrainerF2Text:
-	text "La Torre Radio en"
-	line "Ciudad Trigal es"
-	cont "monumental."
+	text "La Torre Radio de"
+	line "Trigal es enorme."
 
-	para "Están haciendo una"
-	line "campaña promocio-"
-	cont "nal ahora mismo."
+	para "Hay una promoción"
+	line "ahora mismo:"
 
-	para "Te modificarán"
-	line "el #gear,"
-
-	para "para que también"
-	line "sirva de radio."
+	para "te adaptan el"
+	line "#gear para que"
+	cont "tenga radio."
 	done
 
 GoldenrodCityCooltrainerFOlivineText:
@@ -324,13 +315,10 @@ GoldenrodCityCooltrainerFOlivineText:
 
 
 GoldenrodCityYoungster2Text:
-	text "Je, je, je…"
-
-	para "Me metí en pro-"
-	line "blemas por jugar"
-
-	para "en el sótano del"
-	line "Centro Comercial."
+	text "Je, je, je… Me"
+	line "regañaron por"
+	cont "jugar en el sótano"
+	cont "del C. Comercial."
 	done
 
 GoldenrodCityLassText:
@@ -338,22 +326,19 @@ GoldenrodCityLassText:
 	line "casa evalúa los"
 	cont "motes de #mon."
 
-	para "También puede ayu-"
-	line "darte a cambiar el"
-	cont "mote de tu #-"
-	cont "mon."
+	para "También ayuda a"
+	line "cambiar el mote a"
+	cont "tus #mon."
 
-	para "Le gustaron todos"
-	line "mis motes, ¡in-"
-	cont "cluso los raros!"
+	para "¡Le gustaron mis"
+	line "motes, hasta los"
+	cont "más raros!"
 	done
 
 GoldenrodCityGrampsText:
 	text "¡Uf! Esta ciudad"
 	line "es enorme. No sé"
-
-	para "dónde está ningu-"
-	line "na cosa."
+	cont "dónde está nada."
 	done
 
 GoldenrodCityRocketScoutText1:
@@ -380,11 +365,9 @@ GoldenrodCityRocket2Text:
 	done
 
 GoldenrodCityRocket3Text:
-	text "¿#mon? ¡No son"
-	line "más que herramien-"
-
-	para "tas para ganar"
-	line "dinero!"
+	text "¿#mon? ¡Solo"
+	line "son herramientas"
+	cont "para sacar dinero!"
 	done
 
 GoldenrodCityRocket4Text:
@@ -412,12 +395,11 @@ GoldenrodCityGymLassText:
 	text "Blanca no está"
 	line "aquí ahora mismo."
 
-	para "Salió disparada de"
-	line "aquí gritando:"
+	para "Salió corriendo"
+	line "y gritando:"
 
-	para "“¡Tengo que con-"
-	line "seguir una Tarjeta"
-	cont "Radio!”"
+	para "“¡Debo conseguir"
+	line "la Tarjeta Radio!”"
 	done
 
 GoldenrodCityStationSignText:
@@ -501,13 +483,11 @@ GoldenrodMuseumSignText:
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
 	text "Puedo enseñarles"
-	line "unos movimientos"
+	line "grandes ataques"
+	cont "a tus #mon."
 
-	para "increíbles a tus"
-	line "#mon."
-
-	para "¿Quieres que"
-	line "les enseñe algo?"
+	para "¿Quieres que les"
+	line "enseñe alguno?"
 	done
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
@@ -521,8 +501,8 @@ GoldenrodCityMoveTutorAwwButTheyreAmazingText:
 	done
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
-	text "¡Jajaja! ¡No te a-"
-	line "rrepentirás!"
+	text "¡Jajaja! ¡No te"
+	line "arrepentirás!"
 
 	para "¿Qué movimiento"
 	line "debería enseñar?"
@@ -535,12 +515,10 @@ GoldenrodCityMoveTutorHmTooBadText:
 	done
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
-	text "Si entiendes qué"
-	line "tienen de asom-"
-
-	para "broso, estás hecho"
-	line "un entrenador de"
-	cont "verdad."
+	text "Si sabes lo genial"
+	line "que es este ataque,"
+	cont "¡ya serás todo un"
+	cont "gran entrenador!"
 	done
 
 

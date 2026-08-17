@@ -51,18 +51,14 @@ FuchsiaCityFlyPoint:
 
 FuchsiaCityYoungsterText:
 	text "Uno del Alto Mando"
-	line "solía ser el Líder"
-
-	para "del Gimnasio de"
-	line "Fucsia."
+	line "era el Líder de"
+	cont "Ciudad Fucsia."
 	done
 
 FuchsiaCityPokefanMText:
 	text "La hija de Koga le"
-	line "sucedió como Líder"
-
-	para "de Gimnasio cuan-"
-	line "do se unió al Alto"
+	line "sucedió de Líder"
+	cont "al ir él al Alto"
 	cont "Mando."
 	done
 
@@ -70,30 +66,25 @@ FuchsiaCityTeacherText:
 	text "El Juego Safari se"
 	line "ha cancelado…"
 
-	para "Al menos la Zona"
-	line "Safari sigue"
-	cont "abierta."
+	para "Pero la Zona sigue"
+	line "abierta."
 
 	para "Necesitarás un"
 	line "#mon fuerte"
-
-	para "para explorarla,"
-	line "sin embargo."
+	cont "para explorarla"
+	cont "bien."
 	done
 
 FuchsiaCityPokefanFText:
-	text "Cuando el Guarda"
-	line "de la Zona Safari"
-	cont "se fue,"
+	text "Al irse el Guarda"
+	line "de la Zona Safari,"
+	cont "nadie cuidaba del"
+	cont "zoo de la ciudad."
 
-	para "no había nadie pa-"
-	line "ra mantener el zoo"
-	cont "de la ciudad."
-
-	para "Así que los #-"
-	line "mon fueron libera-"
-	cont "dos a la natura-"
-	cont "leza."
+	para "Así que los"
+	line "#mon fueron"
+	cont "liberados al"
+	cont "bosque."
 	done
 
 FuchsiaCitySignText:
@@ -157,8 +148,8 @@ HouseForSaleSignText:
 	text "¿Qué es esto?"
 
 	para "Casa en Venta…"
-	line "Aquí no vive na-"
-	cont "die."
+	line "Aquí no vive"
+	cont "nadie."
 	done
 
 FuchsiaCityCarefulSwimmingSignText:

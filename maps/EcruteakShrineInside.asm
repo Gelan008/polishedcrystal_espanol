@@ -93,15 +93,14 @@ EcruteakShrineInsideReiScript:
 	jumpthisopenedtext
 
 	text "Rei: Vuelve si"
-	line "cambias de opi-"
-	cont "nión."
+	line "cambias de idea."
 	done
 
 .EggBlessing
 	jumpthisopenedtext
 
-	text "Rei: No puedo ben-"
-	line "decir un Huevo."
+	text "Rei: No puedo"
+	line "bendecir un Huevo."
 	done
 
 .ReiMenuDataHeader:
@@ -118,17 +117,16 @@ EcruteakShrineInsideReiScript:
 	db "Salir@"
 
 EcruteakShrineInsideReiGreetingText:
-	text "Rei: Oh, hola."
-	line "Te doy la bienve-"
-	cont "nida a nuestro"
-	cont "santuario."
+	text "Rei: ¡Hola! Te doy"
+	line "la bienvenida a"
+	cont "este santuario."
 
-	para "¿Has venido a que"
-	line "bendiga a uno de"
-	cont "tus #mon?"
+	para "¿Vienes a que le"
+	line "dé una bendición"
+	cont "a tus #mon?"
 
-	para "¿O te gustaría"
-	line "combatir?"
+	para "¿O prefieres un"
+	line "combate?"
 	done
 
 EcruteakShrineInsideReiBlessText:
@@ -157,8 +155,8 @@ EcruteakShrineInsideReiBattleText:
 	done
 
 EcruteakShrineInsideReiBeatenText:
-	text "¡Admito la derro-"
-	line "ta!"
+	text "¡Admito mi"
+	line "derrota!"
 	done
 
 
@@ -170,28 +168,23 @@ EcruteakShrineInsideGrampsText:
 	done
 
 EcruteakShrineInsideSageText:
-	text "La mayoría en el"
-	line "santuario entre-"
-	cont "namos a"
+	text "Casi todos aquí"
+	line "entrenamos a"
+	cont "Hoothoot y Sentret"
+	cont "contra fantasmas."
 
-	para "Hoothoot y Sentret"
-	line "para luchar contra"
-	cont "fantasmas."
-
-	para "Rei es única."
-	line "Usa los tipos Fue-"
-	cont "go y Psíquico."
+	para "Rei es única,"
+	line "usa tipo Fuego y"
+	cont "tipo Psíquico."
 	done
 
 EcruteakShrineInsideGrannyText:
-	text "Me alegro de que"
-	line "no aprobaran una"
-	cont "parada en Iris pa-"
-	cont "ra el Magnetotrén."
+	text "Menos mal que no"
+	line "pusieron parada"
+	cont "del Magnetotrén."
 
-	para "Arruinaría nues-"
-	line "tro paisaje tradi-"
-	cont "cional."
+	para "Arruinaría nuestro"
+	line "paisaje clásico."
 	done
 
 EcruteakShrineInsideAltarText:

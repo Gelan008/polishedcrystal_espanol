@@ -105,8 +105,8 @@ AerodactylPuzzleScript:
 
 .Text:
 	text "¡Es el panel de"
-	line "Aerodactyl comple-"
-	cont "to!"
+	line "Aerodactyl al"
+	cont "completo!"
 	done
 
 HoOhPuzzleScript:
@@ -124,9 +124,8 @@ HoOhPuzzleScript:
 	done
 
 EmptyPuzzleText:
-	text "Réplica de un pa-"
-	line "nel de las"
-	cont "Ruinas Alfa"
+	text "Réplica de panel"
+	line "de Ruinas Alfa"
 
 	para "(restauración"
 	line "en progreso)"
@@ -140,15 +139,12 @@ TowerRelicText:
 	done
 
 GoldenrodMuseum2FSightseerMText:
-	text "¡Estos cuadros"
-	line "son hermosos!"
+	text "¡Estos cuadros son"
+	line "hermosos!"
 
-	para "Espero que algún"
-	line "día mi arte tam-"
-	cont "bién cuelgue en un"
-
-	para "museo para que to-"
-	line "dos lo vean."
+	para "Ojalá algún día mi"
+	line "arte también esté"
+	cont "en un museo."
 	done
 
 GoldenrodMuseum2FSmeargleText:
@@ -166,25 +162,23 @@ GoldenrodMuseum2FScientistScript:
 	iftrue_jumptextfaceplayer GoldenrodMuseum2FScientistSomeArtifactsText
 	jumpthistextfaceplayer
 
-	text "Esperaba que hu-"
-	line "biera más expo-"
-	cont "siciones…"
+	text "Esperaba ver más"
+	line "exposiciones…"
 
 	para "¿Dónde están las"
 	line "tallas Alfa?"
 	done
 
 GoldenrodMuseum2FScientistSomeArtifactsText:
-	text "¡Estos artefactos"
-	line "son fascinantes!"
+	text "¡Estos objetos son"
+	line "fascinantes!"
 
-	para "Es una pena que"
-	line "sólo sean répli-"
-	cont "cas…"
+	para "Lástima que solo"
+	line "sean réplicas…"
 
-	para "Me encantaría es-"
-	line "tudiar los de"
-	cont "verdad de cerca."
+	para "Me encantaría ver"
+	line "los reales de"
+	cont "cerca."
 	done
 
 GoldenrodMuseum2FTeacherScript:
@@ -217,8 +211,8 @@ GoldenrodMuseum2FTutorBatonPassScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "¡No tienes ningu-"
-	line "na Hoja Plata!"
+	text "¡No tienes Hoja"
+	line "Plata!"
 	done
 
 .TeachMove
@@ -231,44 +225,33 @@ GoldenrodMuseum2FTutorBatonPassScript:
 	done
 
 GoldenrodMuseum2FTutorIntroText:
-	text "Antes de la cons-"
-	line "trucción de la"
+	text "Antes de crear la"
+	line "nueva Torre Radio,"
+	cont "había una torre de"
+	cont "madera allí."
 
-	para "nueva Torre Radio,"
-	line "hubo una antigua"
+	para "Este mural estaba"
+	line "en aquella torre."
 
-	para "torre de madera"
-	line "en su lugar."
+	para "Moverlo aquí fue"
+	line "clave para salvar"
+	cont "la historia local."
 
-	para "Este mural esta-"
-	line "ba originalmente"
-	cont "en aquella torre."
-
-	para "Moverlo aquí"
-	line "fue necesario"
-
-	para "para preservar un"
-	line "pedazo de la his-"
-	cont "toria de Johto."
-
-	para "¡Incluso los #-"
-	line "mon pueden enten-"
-
-	para "der el valor de"
-	line "la conservación!"
+	para "¡Hasta los #mon"
+	line "entienden el valor"
+	cont "de conservarlo!"
 	done
 
 GoldenrodMuseum2FTutorBatonPassText:
-	text "Puedo enseñar a"
-	line "tus #mon a usar"
-
-	para "Relevo a cambio de"
-	line "una Hoja Plata."
+	text "Puedo enseñar a tu"
+	line "#mon a usar"
+	cont "Relevo por una"
+	cont "Hoja Plata."
 	done
 
 
 GoldenrodMuseum2FTutorQuestion:
-	text "¿Debería enseñar-"
-	line "le Relevo a"
+	text "¿Quieres que le"
+	line "enseñe Relevo a"
 	cont "tu #mon?"
 	done

@@ -21,17 +21,14 @@ ElmsHouse_MapScriptHeader:
 ElmsWifeText:
 	text "¡Hola, <PLAYER>!"
 	line "Mi marido siempre"
+	cont "está ocupado."
 
-	para "está ocupado. Es-"
-	line "pero que esté"
-	cont "bien."
+	para "Espero que esté"
+	line "bien."
 
-	para "Cuando está inmer-"
-	line "so en sus investi-"
-	cont "gaciones #mon,"
-
-	para "hasta se olvida de"
-	line "comer."
+	para "Cuando investiga a"
+	line "los #mon ¡hasta"
+	cont "se le pasa comer!"
 	done
 
 ElmsSonText:
@@ -54,21 +51,17 @@ ElmsHousePCText:
 
 	para "¿Hacia dónde van?"
 
-	para "¿Por qué nunca na-"
-	line "die ha presenciado"
-	cont "el nacimiento de"
-	cont "un #mon?"
+	para "¿Por qué nadie ha"
+	line "visto jamás nacer"
+	cont "a un #mon?"
 
 	para "¡Quiero saberlo!"
 	line "¡Dedicaré mi vida"
-
-	para "al estudio de los"
-	line "#mon!"
+	cont "a investigarlos!"
 
 	para "…"
 
-	para "Es un fragmento de"
-	line "los trabajos de"
-	cont "investigación del"
-	cont "Prof. Elm."
+	para "Es un texto de las"
+	line "investigaciones"
+	cont "del Prof. Elm."
 	done

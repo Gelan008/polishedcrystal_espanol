@@ -17,19 +17,18 @@ EcruteakMart_MapScriptHeader:
 	object_event  6,  6, SPRITE_RICH_BOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakMartGrannyText, -1
 
 EcruteakMartSuperNerdText:
-	text "Mi Eevee evolucio-"
-	line "nó a un Espeon."
+	text "Mi Eevee ha"
+	line "evolucionado a"
+	cont "un Espeon."
 
-	para "Pero el Eevee de"
-	line "mi amigo se con-"
-	cont "virtió en Umbreon."
+	para "¡Pero el de mi"
+	line "amigo se convirtió"
+	cont "en un Umbreon!"
 
 	para "¿Por qué será?"
-	line "Ambos estábamos"
-
-	para "criando a nuestro"
-	line "Eevee de la misma"
-	cont "manera…"
+	line "Si ambos cuidamos"
+	cont "a nuestros Eevee"
+	cont "del mismo modo…"
 	done
 
 EcruteakMartGrannyText:
@@ -37,7 +36,6 @@ EcruteakMartGrannyText:
 	line "Trigal es genial,"
 	cont "pero al principio"
 
-	para "también había pla-"
-	line "nes para poner una"
-	cont "estación en Iris."
+	para "iban a poner una"
+	line "estación en Iris."
 	done

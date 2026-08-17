@@ -115,47 +115,40 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 	text "Lawrence: Hola de"
 	line "nuevo, <PLAYER>."
 
-	para "Así que tú también"
-	line "estás buscando a"
-	cont "Moltres por aquí."
+	para "Así que buscas a"
+	line "Moltres por aquí."
 	cont "¿Te inspiré?"
 
-	para "…¡¿Qué?! ¿Ya lo"
+	para "…¡¿Cómo?! ¿Ya lo"
 	line "has atrapado?"
-	cont "Imposible."
+	cont "¡Es imposible!"
 
 	para "He pasado años"
 	line "buscando por la"
+	cont "Calle Victoria y"
+	cont "las islas del sur…"
 
-	para "Calle Victoria y"
-	line "las islas al sur"
-	cont "de Kanto…"
+	para "¿Por qué triunfas"
+	line "donde yo fracasé?"
 
-	para "¿Por qué has"
-	line "triunfado donde yo"
-	cont "he fracasado?"
-
-	para "¿Acaso aprecias la"
+	para "¿Aprecias acaso la"
 	line "majestuosidad de"
-	cont "los espejismos"
-	cont "alados?"
+	cont "estas aves?"
 
-	para "¿Alguna vez has"
-	line "oído hablar del"
+	para "¿Has oído hablar"
+	line "del guardián del"
+	cont "mar?"
 
-	para "guardián del mar?"
+	para "¡Esto es del todo"
+	line "inaceptable!"
 
-	para "Esto es inacep-"
-	line "table."
+	para "Ven a verme a las"
+	line "ruinas de la"
+	cont "Isla Shamouti."
 
-	para "Reúnete conmigo en"
-	line "el santuario en"
-	cont "ruinas de la Isla"
-	cont "Shamouti."
-
-	para "Te demostraré que"
-	line "yo merezco tener"
-	cont "esos #mon."
+	para "¡Te demostraré que"
+	line "merezco tener a"
+	cont "esos #mon!"
 	done
 
 CinnabarVolcanoB2FLawrenceEscapeRopeText:

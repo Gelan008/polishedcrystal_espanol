@@ -44,20 +44,16 @@ GenericTrainerEngineerLang:
 	line "Central Energía"
 	cont "era una ruina."
 
-	para "La pusimos en"
-	line "marcha para dar"
-
-	para "energía al Mag-"
-	line "netotrén a Johto."
+	para "¡La arreglamos"
+	line "para darle energía"
+	cont "al Magnetotrén!"
 	done
 
 .SeenText:
-	text "¡Extrajimos"
-	line "mineral de esta"
-
-	para "montaña para re-"
-	line "novar la Central"
-	cont "Energía!"
+	text "¡Sacamos mineral"
+	line "de esta montaña"
+	cont "para renovar la"
+	cont "Central Energía!"
 	done
 
 .BeatenText:
@@ -68,23 +64,21 @@ GenericTrainerHikerDerrick:
 	generictrainer HIKER, DERRICK, EVENT_BEAT_HIKER_DERRICK, .SeenText, .BeatenText
 
 	text "No hace falta ni"
-	line "decirlo, pero me"
-
-	para "encanta ir de"
-	line "excursión con mis"
-	cont "#mon."
+	line "decirlo, ¡pero me"
+	cont "encanta salir con"
+	cont "mis #mon!"
 	done
 
 .SeenText:
-	text "♪ A la montaña"
-	line "iremos, a la mon-"
-	cont "taña iremos... ♪"
+	text "♪ ¡A la montaña,"
+	line "a la montaña"
+	cont "nos vamos ya! ♪"
 	done
 
 .BeatenText:
-	text "♪ Eee-iiii-ah-"
-	line "dee-oh, ¡a la"
-	cont "montaña iremos! ♪"
+	text "♪ ¡Iari-iari-oh,"
+	line "a la montaña"
+	cont "nos vamos ya! ♪"
 	done
 
 DimCaveFallenBoulderText:

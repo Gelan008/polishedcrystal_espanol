@@ -22,21 +22,18 @@ GoldenrodDeptStore3FSuperNerdText:
 	text "¡S-s-soy muy"
 	line "impaciente!"
 
-	para "Uso Velocidad X en"
-	line "combate para ace-"
-	cont "lerar a mi #-"
-	cont "mon."
+	para "Uso Velocidad X"
+	line "para acelerar a"
+	cont "mis #mon."
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "¡Eh! Cuando pe-"
-	line "leas, ¿usas"
-	cont "Especial X?"
+	text "¡Eh! Al luchar,"
+	line "¿usas Especial X?"
 
-	para "Es genial. ¡De"
-	line "verdad aumenta un"
-	cont "montón el Ataque"
-	cont "Especial!"
+	para "¡Es genial! ¡Sube"
+	line "un montón el"
+	cont "Ataque Especial!"
 	done
 
 GoldenrodDeptStore3FDirectoryText:

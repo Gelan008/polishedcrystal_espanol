@@ -63,10 +63,9 @@ CeladonEusine:
 .OwnSuicune
 	jumpthistext
 
-	text "Si capturas"
-	line "aunque sea uno,"
-	cont "espero que me in-"
-	cont "formes."
+	text "Si capturas al"
+	line "menos a uno,"
+	cont "espero tu aviso."
 
 	para "¡Cuento contigo,"
 	line "<PLAYER>!"
@@ -158,18 +157,14 @@ EusineLeavesCeladonText:
 	text "<PLAYER>, ¿te has"
 	line "enterado?"
 
-	para "Hay nuevos"
-	line "rumores sobre un"
+	para "Hay rumores de un"
+	line "#mon arcoíris"
+	cont "en la Torre"
+	cont "Hojalata."
 
-	para "#mon arcoíris"
-	line "que aparece en la"
-	cont "Torre Hojalata."
-
-	para "Acabo de curar a"
-	line "mi equipo, así"
-
-	para "que me dirijo a"
-	line "Ciudad Iris."
+	para "Ya he curado a mi"
+	line "equipo, así que me"
+	cont "voy a Ciudad Iris."
 
 	para "¡Nos vemos,"
 	line "<PLAYER>!"
@@ -179,17 +174,16 @@ EusineNoBeastsText:
 	text "Oh, por cierto,"
 	line "<PLAYER>."
 
-	para "¿Has capturado"
-	line "a los perros"
-	cont "legendarios?"
+	para "¿Has capturado ya"
+	line "a las perros"
+	cont "legendarias?"
 
 	para "………………"
 
-	para "Vale…"
+	para "Ya veo…"
 
-	para "Déjame darte mis"
-	line "notas de investi-"
-	cont "gación."
+	para "Toma mis notas de"
+	line "investigación."
 	done
 
 EusineShowsRaikouText:
@@ -201,8 +195,8 @@ EusineShowsEnteiText:
 	done
 
 EusineShowsSuicuneText:
-	text "Éste, por su-"
-	line "puesto, es"
+	text "Y éste es,"
+	line "por supuesto,"
 	cont "Suicune:"
 	done
 
@@ -216,15 +210,13 @@ EusinesHouseGrampsGrandsonHomeText:
 EusinesHouseGrampsEusineSearchingForSuicuneText:
 	text "Mi nieto Eusine"
 	line "está en Johto,"
-
-	para "buscando a"
-	line "Suicune por to-"
-	cont "das partes."
+	cont "buscando a Suicune"
+	cont "por todas partes."
 
 	para "¡Yo le enseñé"
-	line "todo sobre"
-	cont "los #mon"
-	cont "legendarios!"
+	line "todo acerca de los"
+	cont "#mon!"
+	cont "legendarios"
 	done
 
 
@@ -235,21 +227,18 @@ EusinesHouseGrampsThankYouGiftText:
 	para "Le va muy bien."
 	line "¡Me alegro por él!"
 
-	para "¡Gracias por"
-	line "venir a verme,"
-	cont "<PLAYER>!"
+	para "¡Gracias por venir"
+	line "a verme, <PLAYER>!"
 
-	para "Por favor, toma"
-	line "esto como mues-"
-	cont "tra de mi agra-"
-	cont "decimiento."
+	para "Toma esto como"
+	line "muestra de mi gran"
+	cont "agradecimiento."
 	done
 
 EusinesHouseGrampsEusineTravelingWorldText:
-	text "Eusine está via-"
-	line "jando por todo"
-	cont "el mundo."
+	text "Eusine viaja por"
+	line "todo el mundo."
 
-	para "¡Estoy tan orgu-"
-	line "lloso de él!"
+	para "¡Estoy muy"
+	line "orgulloso de él!"
 	done

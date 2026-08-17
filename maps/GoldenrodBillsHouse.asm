@@ -279,9 +279,9 @@ BillsGrandpa:
 
 	text "¿Mmm?"
 
-	para "Ese no es el #-"
-	line "mon del que me"
-	cont "hablaron."
+	para "Ese no es el"
+	line "#mon del que"
+	cont "me hablaron."
 	done
 
 BillsMom:
@@ -289,21 +289,17 @@ BillsMom:
 	iffalse_jumptextfaceplayer BillsMomText_AfterEcruteak
 	jumpthistextfaceplayer
 
-	text "Oh, ¿coleccionas"
+	text "¿Tú coleccionas"
 	line "#mon? Mi hijo"
-	cont "Bill es un ex-"
-	cont "perto."
+	cont "Bill sabe mucho."
 
-	para "Lo acaban de lla-"
-	line "mar del Centro"
+	para "Le llamaron del"
+	line "Centro #mon de"
+	cont "Ciudad Iris."
 
-	para "#mon de Ciudad"
-	line "Iris."
-
-	para "Mi marido se fue"
-	line "al Casino sin"
-
-	para "que lo llamaran…"
+	para "Mi marido se fue al"
+	line "Casino sin que"
+	cont "nadie le llamara…"
 	done
 
 BillsSister:
@@ -324,12 +320,10 @@ BillsSister:
 .GotBillsNumber:
 	jumpthisopenedtext
 
-	text "Mi hermano mayor,"
-	line "Bill, creó el sis-"
-
-	para "tema de almacena-"
-	line "miento #mon"
-	cont "del PC."
+	text "Mi hermano Bill"
+	line "creó el sistema de"
+	cont "almacenamiento de"
+	cont "#mon del PC."
 	done
 
 .NoRoom:
@@ -338,9 +332,8 @@ BillsSister:
 .Refused:
 	jumpthisopenedtext
 
-	text "Mi hermano creó"
-	line "el sistema de al-"
-	cont "macenamiento"
+	text "Mi hermano creó el"
+	line "almacenamiento de"
 	cont "#mon del PC."
 
 	para "Iba a darte el"
@@ -351,11 +344,9 @@ BillsGrandpaIntroText:
 	text "¿Eh? ¿Conoces a"
 	line "Bill? Es mi nieto."
 
-	para "Está en Kanto."
-	line "Hace algo con PCs,"
-
-	para "así que yo cuido"
-	line "la casa."
+	para "Está en Kanto con"
+	line "sus PCs, y yo me"
+	cont "ocupo de la casa."
 	done
 
 BillsGrandpaAskToSeeMonText:
@@ -393,148 +384,114 @@ BillsGrandpaTokenOfAppreciationText:
 	done
 
 BillsGrandpaComeAgainText:
-	text "Vuelve a visitar-"
-	line "me algún día."
+	text "Ven a visitarme"
+	line "algún otro día."
 	done
 
 BillsGrandpaShownAllThePokemonText:
-	text "Gracias por mos-"
-	line "trarme tantos"
-	cont "#mon tan monos."
+	text "¡Gracias por"
+	line "traerme tantos"
+	cont "#mon tan monos!"
 
-	para "Me he divertido"
-	line "mucho. Me alegro"
-
-	para "de haber vivido"
-	line "una vida tan"
-	cont "larga."
+	para "Me alegra haber"
+	line "vivido una vida"
+	cont "tan larga y feliz."
 	done
 
 BillsGrandpaSnubbullText:
-	text "Mi nieto Bill me"
-	line "habló de un"
-	cont "#mon"
-
-	para "canino rosa, bajo,"
-	line "y con lunares"
+	text "Bill me habló de"
+	line "un #mon canino,"
+	cont "rosa y con lunares"
 	cont "azules."
 	done
 
 BillsGrandpaTogepiText:
 	text "¿Conoces a un"
-	line "#mon que tiene"
+	line "#mon con marcas"
+	cont "rojas y azules en"
+	cont "su cascarón?"
 
-	para "un caparazón cu-"
-	line "bierto de triángu-"
-	cont "los rojos y"
-	cont "azules?"
-
-	para "Se supone que es"
-	line "un símbolo de"
-	cont "buena suerte."
+	para "Dicen que da muy"
+	line "buena suerte."
 	done
 
 BillsGrandpaMurkrowText:
-	text "¿Conoces a un pá-"
-	line "jaro #mon que"
+	text "¿Conoces a un ave"
+	line "#mon con pico"
+	cont "amarillo y plumas"
+	cont "negras?"
 
-	para "tiene un pico"
-	line "amarillo curvo y"
-	cont "plumas negras?"
-
-	para "Escuché que apa-"
-	line "rece de noche."
-
-	para "Me gustaría"
-	line "mucho verlo."
+	para "Dicen que sale de"
+	line "noche. ¡Me molaría"
+	cont "mucho verlo!"
 	done
 
 BillsGrandpaOddishText:
-	text "Ah, mi nieto men-"
-	line "cionó un #mon"
-
-	para "redondo y azul al"
-	line "que le crecen ho-"
-	cont "jas en la cabeza."
+	text "Bill me habló de"
+	line "un #mon redondo"
+	cont "y azul con hojas"
+	cont "en la cabeza."
 	done
 
 BillsGrandpaJigglypuffText:
 	text "Bill me habló de"
 	line "un #mon rosa"
-
-	para "con una voz canta-"
-	line "rina hipnótica."
+	cont "que tiene una voz"
+	cont "cantarina e"
+	cont "hipnótica."
 	done
 
 BillsGrandpaBellsproutText:
-	text "Mi nieto Bill men-"
-	line "cionó un #mon"
-
-	para "verde que camina"
-	line "sobre sus raíces."
+	text "Bill me habló de"
+	line "un #mon verde"
+	cont "que camina sobre"
+	cont "sus raíces."
 	done
 
 BillsGrandpaStaryuText:
 	text "¿Conoces a un"
-	line "#mon marino que"
-
-	para "tiene una esfera"
-	line "roja en su cuerpo?"
-
-	para "Ya sabes, ¿el que"
-	line "tiene forma de"
-	cont "estrella?"
+	line "#mon marino con"
+	cont "una esfera roja y"
+	cont "forma de estrella?"
 
 	para "Oí que aparece de"
-	line "noche."
-
-	para "Seguro que me gus-"
-	line "taría verlo."
+	line "noche. ¡Me molaría"
+	cont "mucho verlo!"
 	done
 
 BillsGrandpaGrowlitheText:
 	text "Bill me habló de"
-	line "un #mon que es"
+	line "un #mon muy"
+	cont "leal a su"
+	cont "entrenador."
 
-	para "muy leal a su"
-	line "entrenador."
-
-	para "Se supone que sabe"
+	para "Dicen que sabe"
 	line "Rugir muy bien."
 	done
 
 BillsGrandpaPichuText:
-	text "¿Conoces a ese"
-	line "#mon tan popu-"
-	cont "lar?"
-
-	para "El #mon que"
-	line "tiene cuerpo ama-"
-	cont "rillo y mejillas"
-	cont "rojas."
+	text "¿Conoces al famoso"
+	line "#mon amarillo"
+	cont "y mejillas rojas?"
 
 	para "Me encantaría ver"
-	line "qué aspecto tiene"
-
-	para "antes de que"
-	line "evolucione."
+	line "su aspecto antes"
+	cont "de evolucionar."
 	done
 
 
 BillsMomText_AfterEcruteak:
-	text "Mi marido solía"
-	line "ser conocido como"
+	text "A mi marido"
+	line "le llamaban"
+	cont "#maníaco en"
+	cont "sus tiempos."
 
-	para "un #maníaco."
-	line "Bill debe de haber"
+	para "Bill debe haber"
+	line "salido a su padre."
 
-	para "salido a su padre."
-
-	para "Pero ahora mi ma-"
-	line "rido no trabaja."
-
-	para "Solo holgazanea"
-	line "todo el día."
+	para "Pero ahora él no"
+	line "trabaja. ¡Solo se"
+	cont "pasa el día vago!"
 	done
 
 BillsSisterUsefulNumberText:

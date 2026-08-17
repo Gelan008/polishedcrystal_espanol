@@ -42,24 +42,23 @@ GoldenrodBikeShopClerkScript:
 
 GoldenrodBikeShopClerkFirstRateBikesText:
 	text "¡Mis Bicis son de"
-	line "primera! Puedes"
+	line "primera clase!"
 
-	para "ir montado a cual-"
-	line "quier parte."
+	para "¡Úsala en"
+	line "todas partes!"
 	done
 
 GoldenrodBikeShopClerkIntroText:
-	text "…ay… Abrí una"
+	text "…Ay… Abrí una"
 	line "sucursal aquí,"
 
-	para "pero no puedo ven-"
-	line "der mis Bicis."
-	cont "¿Por qué será?"
+	para "pero no vendo ni"
+	line "una Bici. ¿Por qué"
+	cont "será…?"
 
-	para "¿Podrías ir en una"
-	line "Bici y hacerme un"
-	cont "poco de publici-"
-	cont "dad?"
+	para "¿Podrías usar una"
+	line "Bici para hacerme"
+	cont "publicidad?"
 	done
 
 GoldenrodBikeShopClerkAgreedText:
@@ -67,18 +66,15 @@ GoldenrodBikeShopClerkAgreedText:
 	line "¡Genial!"
 
 	para "Dame tu nombre y"
-	line "número de teléfo-"
-	cont "no,"
-
-	para "y te prestaré"
-	line "una Bici."
+	line "tu teléfono,"
+	cont "y te dejaré una"
+	cont "Bici para probar."
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "…ay… Dónde"
-	line "habrá quedado la"
-	cont "amabilidad de la"
-	cont "gente…"
+	text "…Ay… Dónde quedó"
+	line "la amabilidad de"
+	cont "la gente…"
 	done
 
 GoldenrodBikeShopBicycleText:

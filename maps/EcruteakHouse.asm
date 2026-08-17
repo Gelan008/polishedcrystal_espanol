@@ -87,14 +87,12 @@ EcruteakTinTowerEntranceSageScript:
 	jumpthisopenedtext
 
 	text "La Torre Hojalata"
-	line "está cerrada si no"
-
-	para "tienes la Medalla"
-	line "del Gimnasio de"
-	cont "Ciudad Iris."
+	line "está cerrada para"
+	cont "quien no tenga la"
+	cont "Medalla de Iris."
 
 	para "Lo siento, pero"
-	line "tendrás que irte."
+	line "debes marcharte."
 	done
 
 .CheckForClearBell:
@@ -106,22 +104,20 @@ EcruteakTinTowerEntranceSageScript:
 	iftruefwd .RingClearBell
 	jumpthisopenedtext
 
-	text "Ha ocurrido un in-"
-	line "cidente trascen-"
-	cont "dental."
+	text "Ha ocurrido un"
+	line "suceso muy grave."
 
-	para "Disculpa, pero de-"
-	line "bo pedirte que te"
-	cont "vayas."
+	para "Disculpa, pero"
+	line "debo pedirte que"
+	cont "te retires."
 
 	para "…Lo que calma"
 	line "el alma…"
 
 	para "El Trío Sabio dice"
 	line "cosas que son muy"
-
-	para "difíciles de en-"
-	line "tender…"
+	cont "difíciles de"
+	cont "comprender…"
 	done
 
 .RingClearBell:
@@ -140,15 +136,11 @@ EcruteakTinTowerEntranceWanderingSageScript:
 	jumpthistextfaceplayer
 
 	text "La Torre Hojalata"
-	line "de enfrente es una"
-
-	para "torre de nueve pi-"
-	line "sos de una belleza"
-	cont "divina."
+	line "tiene nueve pisos"
+	cont "de gran belleza."
 
 	para "Calma el alma de"
-	line "todo aquel que la"
-	cont "contempla."
+	line "quien la mira."
 	done
 
 EcruteakTinTowerEntranceSageBlocksLeftMovement:
@@ -169,51 +161,39 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 EcruteakTinTowerEntranceSageText_GotFogBadge:
 	text "La Torre Hojalata"
 	line "está cerrada si no"
+	cont "tienes la Medalla"
+	cont "del Gim. de Iris."
 
-	para "tienes la Medalla"
-	line "del Gimnasio de"
-	cont "Ciudad Iris."
-
-	para "¡Ah!"
-
-	para "¡La Medalla"
-	line "Iris! Por favor,"
-	cont "pasa adelante."
+	para "¡Ah, la Medalla!"
+	line "Por favor, pasa."
 	done
 
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "Ha ocurrido un in-"
-	line "cidente trascen-"
-	cont "dental."
+	text "Ha ocurrido un"
+	line "suceso muy grave."
 
-	para "Disculpa, pero de-"
-	line "bo pedirte que te"
-	cont "vayas."
+	para "Disculpa, pero"
+	line "debo pedirte que"
+	cont "te retires."
 
 	para "……"
 
-	para "¡Ah!"
+	para "¡Ah! ¡El sonido de"
+	line "la Campana Clara!"
+	cont "¡E-es sublime!"
 
-	para "¡El sonido de esa"
-	line "Campana Clara!"
-
-	para "¡E-es sublime!"
-
-	para "¡Nunca antes había"
-	line "oído un sonido tan"
+	para "¡Nunca había oído"
+	line "un sonido tan"
 	cont "hermoso!"
 
-	para "El repique de la"
-	line "campana indica el"
-	cont "alma de su porta-"
-	cont "dor."
+	para "El sonido refleja"
+	line "el alma pura de su"
+	cont "portador."
 
-	para "Tú…"
-
-	para "Es posible que pu-"
-	line "edas atravesar la"
-	cont "Torre Hojalata."
+	para "Tú… Puede que tú"
+	line "logres atravesar"
+	cont "la Torre Hojalata."
 
 	para "Por favor, pasa"
 	line "adelante."
@@ -225,16 +205,13 @@ EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "El repique de la"
-	line "campana indica el"
-	cont "alma de su porta-"
-	cont "dor."
+	text "El repique refleja"
+	line "el alma pura de su"
+	cont "portador."
 
-	para "Tú…"
-
-	para "Es posible que pu-"
-	line "edas atravesar la"
-	cont "Torre Hojalata."
+	para "Tú… Puede que tú"
+	line "logres atravesar"
+	cont "la Torre Hojalata."
 
 	para "Por favor, pasa"
 	line "adelante."
@@ -243,21 +220,17 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
 	text "¡La Torre Hojalata"
-	line "tembló! ¡Un #-"
-	cont "mon"
-
-	para "debe haber regre-"
-	line "sado a la cima!"
+	line "tembló! ¡Un"
+	cont "#mon ha vuelto"
+	cont "a la cima!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
 	text "Dos torres…"
 	line "Dos #mon…"
 
-	para "Pero cuando una se"
-	line "quemó, ambos #"
-	cont "mon"
-
-	para "se fueron volando,"
-	line "para nunca volver."
+	para "Al quemarse una,"
+	line "ambos #mon se"
+	cont "fueron volando"
+	cont "para no volver."
 	done

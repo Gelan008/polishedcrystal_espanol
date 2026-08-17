@@ -153,8 +153,8 @@ ProfElmScript:
 	jumpthistext
 
 	text "¿<PLAYER>? Creía"
-	line "que el Huevo ha-"
-	cont "bía eclosionado."
+	line "que el Huevo ya"
+	cont "había nacido."
 
 	para "¿Dónde está el"
 	line "#mon?"
@@ -190,10 +190,10 @@ ElmCheckGotEggAgain:
 	iftrue_jumpopenedtext ElmDescribesMrPokemonText
 	jumpthisopenedtext
 
-	text "Si aparece un #"
-	line "mon salvaje, ¡de-"
-	cont "ja que tu #mon"
-	cont "luché contra él!"
+	text "¡Si sale un"
+	line "#mon salvaje,"
+	cont "haz que tu #mon"
+	cont "luche contra él!"
 	done
 
 LabTryToLeaveScript:
@@ -478,8 +478,8 @@ ElmAskBattleScript:
 	line "orgulloso de ti,"
 	cont "<PLAYER>!"
 
-	para "¡Hice bien en con-"
-	line "fiarte un #mon!"
+	para "¡Hice muy bien en"
+	line "darte un #mon!"
 	done
 
 ElmGiveTicketScript:
@@ -933,32 +933,23 @@ ElmText_Intro:
 	line "¡Ahí estás!"
 
 if !DEF(DEBUG)
-	para "Hola a ti"
-	line "también, Lira."
+	para "¡Hola a ti"
+	line "también, Lira!"
 
-	para "Necesitaba pediros"
-	line "un favor a los dos"
+	para "Necesito pediros"
+	line "un gran favor."
 
-	para "Veréis…"
+	para "Veréis… Escribo un"
+	line "artículo para una"
+	cont "conferencia,"
 
-	para "Estoy escribiendo"
-	line "un artículo que"
+	para "pero aún hay cosas"
+	line "que no entiendo."
 
-	para "quiero presentar"
-	line "en una conferencia"
-
-	para "Pero aún hay"
-	line "cosas que no"
-
-	para "entiendo del todo."
-
-	para "¡Así que!"
-
-	para "Me gustaría que"
-	line "ambos criaseis un"
-
-	para "#mon que atrapé"
-	line "hace poco."
+	para "¡Así que me"
+	line "gustaría que cada"
+	cont "uno criase a un"
+	cont "#mon!"
 endc
 	done
 
@@ -976,14 +967,10 @@ ElmText_Refused:
 	done
 
 ElmText_ResearchAmbitions:
-	text "Cuando anuncie mis"
-	line "hallazgos, seguro"
-
-	para "que sabremos más"
-	line "sobre los muchos"
-
-	para "muchos misterios"
-	line "de los #mon."
+	text "Al anunciar mis"
+	line "hallazgos sabremos"
+	cont "más sobre los"
+	cont "misterios #mon!"
 
 	para "¡Podéis darlo por"
 	line "hecho!"
@@ -1003,30 +990,22 @@ ElmText_MissionFromMrPokemon:
 	text "Oye, escucha."
 
 	para "Tengo un conocido"
-	line "al que llaman Sr."
-	cont "#mon."
+	line "al que llaman"
+	cont "Sr. #mon."
 
-	para "Siempre está con"
-	line "cosas raras y se"
+	para "Siempre encuentra"
+	line "rarezas que le"
+	cont "entusiasman mucho."
 
-	para "entusiasma con sus"
-	line "descubrimientos."
+	para "Acaba de enviarme"
+	line "un e-mail diciendo"
+	cont "que es algo real."
 
-	para "En fin, acaba de"
-	line "mandar un e-mail"
+	para "Es intrigante, y"
+	line "estamos muy liados"
+	cont "investigando…"
 
-	para "diciendo que esta"
-	line "vez es de verdad."
-
-	para "Es intrigante,"
-	line "pero estamos muy"
-
-	para "liados con nuestra"
-	line "investigación…"
-
-	para "¡Espera!"
-
-	para "¡Ya sé!"
+	para "¡Espera! ¡Ya sé!"
 
 	para "<PLAYER>, ¿puedes"
 	line "ir en nuestro"
@@ -1036,14 +1015,13 @@ ElmText_MissionFromMrPokemon:
 ElmText_ChooseAPokemon:
 	text "Quiero que cries a"
 	line "uno de los #mon"
-
-	para "de estas Balls."
+	cont "de estas Balls."
 
 	para "¡Serás su primer"
 	line "compañero,"
 	cont "<PLAYER>!"
 
-	para "Adelante elige uno"
+	para "¡Adelante, elige!"
 	done
 
 
@@ -1054,20 +1032,20 @@ LabWhereGoingText:
 
 TakeCyndaquilText:
 	text "Elm: ¿Te llevas a"
-	line "Cyndaquil, el #"
-	cont "mon de fuego?"
+	line "Cyndaquil, el"
+	cont "#mon de Fuego?"
 	done
 
 TakeTotodileText:
 	text "Elm: ¿Quieres a"
-	line "Totodile, el #"
-	cont "mon de agua?"
+	line "Totodile, el"
+	cont "#mon de Agua?"
 	done
 
 TakeChikoritaText:
-	text "Elm: Así que, ¿te"
-	line "gusta Chikorita?"
-	cont "#mon de planta"
+	text "Elm: ¿Eliges a"
+	line "Chikorita, el"
+	cont "#mon de Planta?"
 	done
 
 DidntChooseStarterText:
@@ -1087,34 +1065,25 @@ ChoseStarterText:
 ElmDirectionsText1:
 	text "El Sr. #mon"
 	line "vive un poco más"
-
-	para "allá de Ciudad"
-	line "Cerezo, la"
-	cont "siguiente ciudad."
+	cont "allá de Cerezo."
 
 	para "El camino es casi"
-	line "directo,"
+	line "directo, no tiene"
+	cont "pérdida alguna."
 
-	para "así que no tiene"
-	line "pérdida."
-
-	para "Pero por si acaso,"
-	line "aquí tienes mi nú-"
-
-	para "mero. ¡Llámame si"
-	line "pasa algo!"
+	para "Por si acaso, aquí"
+	line "tienes mi número."
+	cont "¡Llámame si pasa"
+	cont "cualquier cosa!"
 	done
 
 ElmDirectionsText2:
-	text "Si tu #mon está"
-	line "herido, deberías"
+	text "Si tu #mon se"
+	line "hiere, cúralo en"
+	cont "esta máquina."
 
-	para "curarlo con esta"
-	line "máquina."
-
-	para "Siéntete libre de"
-	line "usarla en cual-"
-	cont "quier momento."
+	para "¡Puedes usarla"
+	line "cuando quieras!"
 	done
 
 ElmDirectionsText3:
@@ -1123,9 +1092,9 @@ ElmDirectionsText3:
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> consiguió"
-	line "el número de te-"
-	cont "léfono de Elm."
+	text "<PLAYER> registró"
+	line "el número del"
+	cont "Prof. Elm."
 	done
 
 ElmDescribesMrPokemonText:
@@ -1174,9 +1143,8 @@ ElmAfterTheftText4:
 	text "Pero… ¿Es un"
 	line "Huevo #mon?"
 
-	para "Si lo es, ¡es un"
-	line "gran descubri-"
-	cont "miento!"
+	para "¡Si es así, es un"
+	line "gran hallazgo!"
 	done
 
 ElmAfterTheftText5:
@@ -1186,34 +1154,30 @@ if !DEF(DEBUG)
 	para "¿El Prof. Oak te"
 	line "dio una #dex?"
 
-	para "<PLAYER>, ¿es eso"
-	line "cierto? ¡E-eso es"
+	para "<PLAYER>, ¿es de"
+	line "verdad? ¡E-eso es"
 	cont "increíble!"
 
-	para "Tiene un ojo clí-"
-	line "nico para ver el"
-	cont "potencial de la"
-	cont "gente."
+	para "Él tiene buen ojo"
+	line "para ver el valor"
+	cont "de la gente."
 
 	para "Guau, <PLAYER>."
-	line "Puede que tengas"
+	line "¡Quizá tengas lo"
+	cont "necesario para ser"
+	cont "un gran Campeón!"
 
-	para "lo que hay que te-"
-	line "ner para conver-"
-	cont "tirse en Campeón."
+	para "Además, te llevas"
+	line "de maravilla con"
+	cont "los #mon."
 
-	para "Parece que tam-"
-	line "bién te llevas"
-	cont "muy bien con los"
-	cont "#mon."
+	para "¡Deberías aceptar"
+	line "el desafío de los"
+	cont "Gimnasios #mon!"
 
-	para "Deberías acep-"
-	line "tar el reto del"
-	cont "Gimnasio #mon."
-
-	para "¡El Gimnasio más"
-	line "cercano sería el"
-	cont "de Ciudad Malva!"
+	para "¡El más cercano es"
+	line "el de Ciudad Malva"
+	cont "¡Pruébalo!"
 endc
 	done
 
@@ -1241,9 +1205,8 @@ ElmAfterTheftText7:
 	done
 
 ElmStudyingEggText:
-	text "Elm: ¡No te rin-"
-	line "das! ¡Te llamaré"
-	cont "si descubro algo"
+	text "Elm: ¡Ánimo! ¡Te"
+	line "llamaré si sé algo"
 	cont "sobre el Huevo!"
 	done
 
@@ -1252,21 +1215,18 @@ ElmAideHasEggText:
 	line "¿No viste a mi"
 	cont "ayudante?"
 
-	para "Debería haberse"
-	line "reunido contigo"
-	cont "con el Huevo en"
+	para "Iba a darte el"
+	line "Huevo en el Centro"
+	cont "#mon de Malva."
 
-	para "el Centro #mon"
-	line "de Ciudad Malva."
-
-	para "Te lo debiste per-"
-	line "der. Ve a buscar-"
-	cont "lo allí."
+	para "Te lo debiste de"
+	line "perder. ¡Búscalo"
+	cont "allí!"
 	done
 
 ElmWaitingEggHatchText:
-	text "Elm: Oye, ¿ha cam-"
-	line "biado el Huevo?"
+	text "Elm: Oye, ¿ha"
+	line "cambiado el Huevo?"
 	done
 
 
@@ -1282,50 +1242,40 @@ ShowElmTogepiText2:
 	done
 
 ShowElmTogepiText3:
-	text "¡El Huevo eclosio-"
-	line "nó! Así que los"
-	cont "#mon nacen de"
-	cont "Huevos…"
+	text "¡El Huevo ya ha"
+	line "eclosionado! Así"
+	cont "que los #mon"
+	cont "nacen de huevos…"
 
-	para "No, puede que no"
+	para "Aunque quizá no"
 	line "todos los #mon"
 	cont "lo hagan."
 
-	para "Guau, aún queda"
-	line "mucha investiga-"
-	cont "ción por hacer."
+	para "¡Aún queda mucho"
+	line "por investigar!"
 	done
 
 ElmGiveOddSouvenirText1:
 	text "¡Gracias <PLAYER>!"
 	line "¡Nos ayudas a"
+	cont "resolver misterios"
+	cont "sobre los #mon!"
 
-	para "desvelar los mis-"
-	line "terios de #mon!"
-
-	para "Quiero que tengas"
-	line "esto como muestra"
-	cont "de mi agradeci-"
-	cont "miento."
+	para "¡Toma esto como"
+	line "agradecimiento!"
 	done
 
 ElmGiveOddSouvenirText2:
 	text "Esa rareza me la"
-	line "dio el Sr."
-	cont "#mon."
+	line "dio el Sr. #mon"
 
 	para "Me dijo que es un"
 	line "recuerdo de su"
+	cont "viaje a los mares."
 
-	para "viaje a una isla"
-	line "tropical."
-
-	para "Se supone que hay"
-	line "unas pocas espe-"
-
-	para "cies de #mon"
-	line "a las que les gus-"
-	cont "ta llevarla."
+	para "Hay ciertos #mon"
+	line "a los que les"
+	cont "gusta llevarla."
 	done
 
 ElmText_CallYou:
@@ -1335,17 +1285,16 @@ ElmText_CallYou:
 	done
 
 AideText_AfterTheft:
-	text "…ay… Ese #"
-	line "mon robado."
+	text "…ay… Ese #mon"
+	line "robado."
 
 	para "Me pregunto cómo"
 	line "estará."
 
-	para "Dicen que un #"
-	line "mon criado por"
-
-	para "una mala persona"
-	line "se vuelve malo"
+	para "Dicen que un"
+	line "#mon criado por"
+	cont "una mala persona"
+	cont "se vuelve malo"
 	cont "también."
 	done
 
@@ -1388,9 +1337,8 @@ AideText_ThiefReturnedMon:
 ElmGiveMasterBallText1:
 	text "Elm: ¡<PLAYER>!"
 	line "¡Gracias a ti, mi"
-
-	para "investigación va"
-	line "genial!"
+	cont "investigación va"
+	cont "genial!"
 
 	para "Toma esto como"
 	line "muestra de mi"
@@ -1401,108 +1349,87 @@ ElmGiveMasterBallText2:
 	text "¡La Master Ball es"
 	line "la mejor!"
 
-	para "¡Es la Ball defi-"
-	line "nitiva! Atrapa a"
+	para "¡Es la Ball final!"
+	line "¡Atrapa a todo"
+	cont "#mon sin"
+	cont "fallar!"
 
-	para "cualquier #mon"
-	line "sin fallar."
-
-	para "Solo se entrega a"
+	para "Solo se otorga a"
 	line "investigadores de"
-	cont "#mon de"
-	cont "renombre."
+	cont "gran renombre."
 
-	para "¡Creo que puedes"
-	line "darle un uso mucho"
-
-	para "mejor que yo,"
-	line "<PLAYER>!"
+	para "¡Creo que tú le"
+	line "darás mejor uso,"
+	cont "<PLAYER>!"
 	done
 
 ElmGiveTicketText1:
 	text "Elm: ¡<PLAYER>!"
 	line "¡Ahí estás!"
 
-	para "Te he llamado"
-	line "porque tengo algo"
-	cont "para ti."
+	para "Te llamé porque"
+	line "tengo un regalo."
 
 	para "¿Ves? Es un"
 	line "S.S. Ticket."
 
-	para "Ahora puedes atra-"
-	line "par #mon en la"
-	cont "región de Kanto."
+	para "Ahora puedes ir a"
+	line "capturar #mon a"
+	cont "la región Kanto."
 
-	para "También puedes"
-	line "desafiar nuevos"
-	cont "Gimnasios."
+	para "Y retar a nuevos"
+	line "Gimnasios."
 
-	para "Si consigues ocho"
-	line "Medallas más,"
-
-	para "el Alto Mando"
-	line "luchará contra ti"
-
-	para "con todas sus"
-	line "fuerzas."
+	para "¡Si logras otras"
+	line "ocho Medallas, el"
+	cont "Alto Mando luchará"
+	cont "al máximo poder!"
 	done
 
 ElmGiveTicketText2:
 	text "El barco sale"
 	line "desde C. Olivo."
 
-	para "Pero seguro que"
-	line "eso ya lo sabías,"
-	cont "<PLAYER>."
+	para "Pero seguro que ya"
+	line "lo sabías."
 
 	para "Al fin y al cabo,"
-	line "has viajado por"
-	cont "todas partes con"
-	cont "tus #mon."
+	line "has recorrido todo"
+	cont "con tus #mon."
 
-	para "¡Ah, eso me re-"
-	line "cuerda algo!"
+	para "¡Ah, casi olvido!"
 
 	para "La Torre Batalla"
-	line "acaba de abrir"
-	cont "cerca de Olivo."
+	line "ha abierto cerca"
+	cont "de Ciudad Olivo."
 
-	para "¡Un as como tú"
-	line "lo hará genial"
-	cont "compitiendo ahí!"
+	para "¡Un as como tú lo"
+	line "hará genial allí!"
 	done
 
 LyraAnnouncesGymChallengeText:
 	text "Lira: ¡Ahí estás,"
 	line "<PLAYER>!"
 
-	para "Vi tu combate"
-	line "con el Campeón"
-	cont "por la tele."
+	para "¡Vi tu combate en"
+	line "la tele contra el"
+	cont "Campeón!"
+	cont "¡Estuviste genial!"
 
-	para "¡Estuviste"
-	line "increíble!"
+	para "¡Me has inspirado,"
+	line "<PLAYER>!"
 
-	para "Me ha inspirado,"
-	line "<PLAYER>."
+	para "Aunque no llegue a"
+	line "ese nivel… ¡quiero"
+	cont "intentarlo!"
 
-	para "Aunque no pueda"
-	line "llegar a ese"
-	cont "nivel… Quiero"
-	cont "intentarlo."
+	para "Prof. Elm, lo"
+	line "siento, no podré"
+	cont "seguir ayudando."
 
-	para "Quiero ver de lo"
-	line "que soy capaz."
-
-	para "Prof.Elm, lo sien-"
-	line "to, no puedo se-"
-	cont "guir ayudando."
-
-	para "¡Voy a desafiar"
-	line "a los Gimnasios y"
-	cont "llegar a la"
-	cont "Liga #mon!"
+	para "¡Voy a retar a los"
+	line "Gimnasios y llegar"
+	cont "a la Liga #mon!"
 
 	para "¡Deseadme suerte!"
 	line "¡Hasta luego!"
@@ -1511,17 +1438,14 @@ LyraAnnouncesGymChallengeText:
 ElmAfterTicketText:
 	text "Elm: Bueno,"
 	line "<PLAYER>, los dos"
+	cont "tenéis vuestro"
+	cont "propio viaje."
 
-	para "tenéis vuestros"
-	line "propios viajes."
+	para "¿Llegará ella"
+	line "antes a la Liga?"
 
-	para "Me pregunto si"
-	line "ella llegará pri-"
-	cont "mero a la Liga."
-
-	para "¡Dale saludos al"
-	line "Prof. Oak en"
-	cont "Kanto!"
+	para "¡Saluda al Prof."
+	line "Oak en Kanto!"
 	done
 
 ElmBeforeBattleText:
@@ -1537,13 +1461,11 @@ ElmByTheWayText:
 
 ElmAskBattleText:
 	text "Me vendría bien"
-	line "practicar comba-"
+	line "un combate con un"
+	cont "entrenador de gran"
+	cont "talento como tú."
 
-	para "tiendo con un en-"
-	line "trenador de talen-"
-	cont "to como tú."
-
-	para "¿Qué te parece,"
+	para "¿Te apetece,"
 	line "<PLAYER>?"
 	done
 
@@ -1565,11 +1487,9 @@ ElmLoseText:
 	done
 
 ElmRefusedBattleText:
-	text "Si tus #mon ne-"
-	line "cesitan curarse,"
-
-	para "usa la máquina de"
-	line "aquí."
+	text "Si tus #mon"
+	line "deben curarse,"
+	cont "usa la máquina."
 	done
 
 
@@ -1586,45 +1506,35 @@ AideText_AlwaysBusy:
 	done
 
 AideText_TheftTestimony:
-	text "Se oyó un ruido"
-	line "fuerte fuera…"
+	text "Se oyó un gran"
+	line "ruido afuera…"
 
-	para "Cuando fuimos a"
-	line "mirar, alguien ha-"
-	cont "bía robado un"
-	cont "#mon."
+	para "Al ir a mirar,"
+	line "alguien se había"
+	cont "llevado un #mon"
 
-	para "¡Es increíble que"
-	line "alguien haga eso!"
+	para "¡Qué maldad!"
 
-	para "…ay… Ese #"
-	line "mon robado."
+	para "…Ay… ese #mon"
+	line "que robaron…"
+	cont "¿Cómo estará?"
 
-	para "Me pregunto cómo"
-	line "estará."
-
-	para "Dicen que un #"
-	line "mon criado por"
-
-	para "una mala persona"
-	line "se vuelve malo"
-	cont "también."
+	para "Dicen que si a un"
+	line "#mon lo cría una"
+	cont "mala persona, se"
+	cont "vuelve malo."
 	done
 
 ElmsLabOfficerText1:
 	text "He oído que han"
-	line "robado un #mon"
-	cont "aquí."
+	line "robado un #mon."
 
 	para "¡Regla número uno!"
-	line "El criminal"
+	line "El criminal vuelve"
+	cont "al lugar del robo…"
 
-	para "siempre vuelve al"
-	line "lugar del cri-"
-	cont "men…"
-
-	para "Vaya… ¿Así que"
-	line "tú eres el ladrón?"
+	para "¿Acaso eres tú el"
+	line "ladrón?"
 	done
 
 ElmsLabOfficerText2:
@@ -1639,12 +1549,11 @@ ElmsLabOfficerText2:
 	done
 
 ElmsLabOfficerText3:
-	text "¡Vale! Así que su"
-	line "nombre era <RIVAL>"
+	text "¡Vale! Su nombre"
+	line "era <RIVAL>."
 
-	para "¡Gracias por ayu-"
-	line "dar en mi investi-"
-	cont "gación!"
+	para "¡Gracias por tu"
+	line "gran ayuda!"
 	done
 
 ElmsLabLyraWhichPokemonText:
@@ -1665,20 +1574,20 @@ LyraReceivedStarterText:
 	done
 
 LyraNicknamedChikoritaText:
-	text "Lira: ¡Es tan lin-"
-	line "do! ¡Le llamaré"
+	text "Lira: ¡Qué mono!"
+	line "¡Le llamaré"
 	cont "Chicory!"
 	done
 
 LyraNicknamedCyndaquilText:
-	text "Lira: ¡Es tan lin-"
-	line "do! ¡Le llamaré"
+	text "Lira: ¡Qué mono!"
+	line "¡Le llamaré"
 	cont "Cinder!"
 	done
 
 LyraNicknamedTotodileText:
-	text "Lira: ¡Es tan lin-"
-	line "do! ¡Le llamaré"
+	text "Lira: ¡Qué mono!"
+	line "¡Le llamaré"
 	cont "Toto!"
 	done
 
@@ -1702,8 +1611,8 @@ ElmsLabLyraLossText:
 
 ElmsLabLyraText_YouWon:
 ElmsLabLyraText_YouLost:
-	text "¡Ha sido un com-"
-	line "bate emocionante!"
+	text "¡Ha sido una lucha"
+	line "muy emocionante!"
 	done
 
 ElmsLabLyraThankYouText:
@@ -1732,17 +1641,14 @@ ElmsLabLyraTheftInnocentText:
 
 ElmsLabLyraTheftGoodbyeText:
 	text "Lira: <PLAYER>,"
-	line "me alegra que haya"
+	line "me alegra que ya"
+	cont "sepa tu inocencia."
 
-	para "entendido que eres"
-	line "inocente."
+	para "Ojalá atrapen al"
+	line "ladrón y devuelva"
+	cont "al #mon."
 
-	para "Espero que haga"
-	line "que el ladrón de-"
-	cont "vuelva ese #mon"
-
-	para "Bueno, ¡nos vemos"
-	line "luego!"
+	para "¡Nos vemos luego!"
 	done
 
 ElmsLabWindowText1:
@@ -1762,7 +1668,7 @@ ElmsLabTravelTip1Text:
 	text "<PLAYER> abrió un"
 	line "libro."
 
-	para "Consejo n1:"
+	para "Consejo N1:"
 
 	para "Pulsa Start para"
 	line "abrir el menú."
@@ -1772,7 +1678,7 @@ ElmsLabTravelTip2Text:
 	text "<PLAYER> abrió un"
 	line "libro."
 
-	para "Consejo n2:"
+	para "Consejo N2:"
 
 	para "¡Registra tu viaje"
 	line "guardando!"
@@ -1782,7 +1688,7 @@ ElmsLabTravelTip3Text:
 	text "<PLAYER> abrió un"
 	line "libro."
 
-	para "Consejo n3:"
+	para "Consejo N3:"
 
 	para "Abre la Mochila y"
 	line "pulsa Select para"
@@ -1793,10 +1699,10 @@ ElmsLabTravelTip4Text:
 	text "<PLAYER> abrió un"
 	line "libro."
 
-	para "Consejo n4:"
+	para "Consejo N4:"
 
-	para "Revisa los movi-"
-	line "mientos #mon."
+	para "Mira los ataques"
+	line "de tus #mon."
 
 	para "Pulsa el Botón A"
 	line "para cambiarlos"

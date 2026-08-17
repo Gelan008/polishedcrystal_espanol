@@ -141,11 +141,11 @@ GenericTrainerSageJeffrey:
 GenericTrainerSagePing:
 	generictrainer SAGE, PING, EVENT_BEAT_SAGE_PING, SagePingSeenText, SagePingBeatenText
 
-	text "Solo usamos #"
-	line "mon tipo Fantasma."
+	text "Solo usamos"
+	line "#mon Fantasma."
 
-	para "¡Ningún ataque ti-"
-	line "po Normal puede"
+	para "¡Ningún ataque de"
+	line "tipo Normal puede"
 	cont "dañarlos!"
 	done
 
@@ -159,10 +159,9 @@ GenericTrainerMediumMartha:
 GenericTrainerMediumGrace:
 	generictrainer MEDIUM, GRACE, EVENT_BEAT_MEDIUM_GRACE, MediumGraceSeenText, MediumGraceBeatenText
 
-	text "Bien. Te contaré"
-	line "el secreto del"
-
-	para "suelo invisible."
+	text "Bien. Te diré el"
+	line "secreto del suelo"
+	cont "invisible."
 
 	para "¡El camino está"
 	line "justo delante de"
@@ -175,14 +174,12 @@ EcruteakGymGuyScript:
 	jumpthistextfaceplayer
 
 	text "Los entrenadores"
-	line "de aquí tienen mo-"
-	cont "tivos secretos."
+	line "de aquí tienen sus"
+	cont "propios motivos."
 
-	para "Si ganas, puede"
-	line "que te cuenten a-"
-	cont "lgún profundo se-"
-
-	para "creto sobre Iris."
+	para "Si ganas, quizá te"
+	line "cuenten un gran"
+	cont "secreto de Iris."
 	done
 
 EcruteakGymStatue:
@@ -207,53 +204,36 @@ MortyIntroText:
 	text "Me alegro de que"
 	line "hayas venido."
 
-	para "Aquí, en Iris, los"
+	para "Aquí en Iris los"
 	line "#mon han sido"
-	cont "venerados."
+	cont "muy venerados."
 
-	para "Se dice que un"
-	line "#mon de colores"
+	para "Dicen que un"
+	line "#mon del iris"
+	cont "descenderá ante"
+	cont "un entrenador"
+	cont "muy poderoso."
 
-	para "del arcoíris ba-"
-	line "jará para apare-"
-	cont "cerse"
+	para "Creí esa leyenda"
+	line "y he entrenado en"
+	cont "secreto aquí toda"
+	cont "mi vida."
 
-	para "ante un entrenador"
-	line "verdaderamente"
-	cont "poderoso."
+	para "Ahora puedo ver lo"
+	line "que otros no ven."
 
-	para "Me creí esa"
-	line "historia, así que"
+	para "¡Solo un poco más"
+	line "y podré ver el"
+	cont "futuro donde me"
+	cont "encuentro con él!"
 
-	para "he entrenado en"
-	line "secreto aquí to-"
-	cont "da mi vida."
-
-	para "Como resultado,"
-	line "ahora puedo ver lo"
-	cont "que otros no pue-"
-	cont "den."
-
-	para "Solo un poco"
-	line "más…"
-
-	para "Con un poco"
-	line "más, podría ver"
-
-	para "un futuro en el"
-	line "que me encuentro"
-	cont "con el #mon de"
-	cont "colores del"
-	cont "arcoíris."
-
-	para "¡Tú me vas a ayu-"
-	line "dar a alcanzar ese"
-	cont "nivel!"
+	para "¡Tú me ayudarás a"
+	line "alcanzarlo!"
 	done
 
 MortyWinLossText:
-	text "Aún no soy lo bas-"
-	line "tante bueno…"
+	text "Aún no soy lo"
+	line "bastante bueno…"
 
 	para "De acuerdo. Esta"
 	line "Medalla es tuya."
@@ -262,21 +242,15 @@ MortyWinLossText:
 MortyText_FogBadgeSpeech:
 	text "Con la Medalla"
 	line "Niebla, los"
-	cont "#mon de"
+	cont "#mon hasta <LV>50"
+	cont "te obedecerán."
 
-	para "hasta <LV>50 te"
-	line "obedecerán."
+	para "Además, podrás"
+	line "usar Surf fuera"
+	cont "de combate."
 
-	para "Además, los"
-	line "#mon que"
-	cont "sepan Surf"
-
-	para "podrán usarlo en"
-	line "cualquier momento."
-
-	para "Toma, también"
-	line "quiero que"
-	cont "tengas esto."
+	para "Toma, quiero que"
+	line "tengas esto."
 	done
 
 
@@ -287,33 +261,26 @@ MortyFightDoneText:
 	line "llevado a lugares"
 	cont "muy lejanos."
 
-	para "Y has sido testi-"
-	line "go de mucho más"
-	cont "que yo."
+	para "Has presenciado"
+	line "mucho más que yo."
 
 	para "Te envidio por"
 	line "eso…"
 	done
 
 SageJeffreySeenText:
-	text "Pasé la primavera"
-	line "con mis #mon."
+	text "Pasé primavera,"
+	line "verano, otoño e"
+	cont "invierno con mis"
+	cont "#mon."
 
-	para "Luego el verano,"
-	line "otoño e in-"
-	cont "vierno…"
-
-	para "Y volvió la"
-	line "primavera. Hemos"
-
-	para "vivido juntos"
+	para "Llevamos juntos"
 	line "mucho tiempo."
 	done
 
 SageJeffreyBeatenText:
-	text "Victorias y de-"
-	line "rrotas, experimen-"
-	cont "té ambas."
+	text "He vivido triunfos"
+	line "y derrotas."
 	done
 
 SagePingSeenText:
@@ -349,14 +316,12 @@ MediumGraceBeatenText:
 
 
 EcruteakGymGuyWinText:
-	text "Uff, <PLAYER>."
-	line "¡Lo hiciste"
-	cont "genial!"
+	text "¡Uff, <PLAYER>!"
+	line "¡Estuviste genial!"
 
-	para "¡Yo estaba enco-"
-	line "gido en la esqui-"
-	cont "na por puro"
-	cont "terror!"
+	para "¡Yo temblaba de"
+	line "miedo en una"
+	cont "esquina!"
 	done
 
 EcruteakGymClosedText:

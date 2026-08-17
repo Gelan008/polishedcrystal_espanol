@@ -35,32 +35,27 @@ GoldenrodDeptStore4FCooltrainerMText:
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "Hay cuatro #mon"
-	line "que evolucionan"
+	text "Hay 4 #mon que"
+	line "evolucionan con el"
+	cont "Cable Link:"
 
-	para "al exponerlos a un"
-	line "Cable Link:"
-
-	para "¡Machoke,"
-	line "Graveler, Kadabra"
-	cont "y Haunter!"
+	para "¡Machoke, Kadabra,"
+	line "Graveler y"
+	cont "Haunter!"
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Algunos #mon"
-	line "solo evolucionan"
-
-	para "cuando llevan"
-	line "cierto objeto."
+	text "Ciertos #mon solo"
+	line "evolucionan si"
+	cont "llevan un objeto."
 
 	para "Conozco a cuatro:"
 	line "Poliwhirl, Onix,"
-
-	para "Slowpoke y, esto,"
-	line "Scyther."
+	cont "Slowpoke y… esto,"
+	cont "¡Scyther!"
 
 	para "Oí que también hay"
-	line "otros."
+	line "otros más."
 	done
 
 GoldenrodDeptStore4FDirectoryText:

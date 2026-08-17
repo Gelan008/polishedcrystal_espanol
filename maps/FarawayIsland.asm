@@ -155,29 +155,25 @@ SeagallopFerryFarawayIslandRefusedText:
 	done
 
 FarawayIslandLawrenceText1:
-	text "Lawrence: Bueno,"
-	line "es sin duda un"
+	text "Lawrence: Es un"
+	line "placer, aunque muy"
+	cont "inesperado."
 
-	para "placer, aunque"
-	line "inesperado."
+	para "He venido a"
+	line "recordar cómo"
+	cont "empezó mi"
+	cont "colección…"
 
-	para "He venido a re-"
-	line "cordar cómo empe-"
-	cont "zó mi colección…"
-
-	para "con un grabado de"
+	para "Con un grabado de"
 	line "Mew hallado en"
 	cont "esta misma isla."
 
-	para "…He estado"
-	line "pensando en nues-"
-	cont "tro último duelo."
+	para "Pensaba en nuestro"
+	line "último combate."
 
-	para "Quiero entender"
-	line "el vínculo que"
-
-	para "tienes con tu"
-	line "colección."
+	para "Quiero entender el"
+	line "vínculo con tu"
+	cont "colección."
 
 	para "¿Lucharás contra"
 	line "mí otra vez?"
@@ -197,32 +193,28 @@ FarawayIslandLawrenceBeatenText:
 	done
 
 FarawayIslandLawrenceText2:
-	text "Lawrence: ...Ya."
-	line "Aún me queda mu-"
-	cont "cho camino para"
-
-	para "poder crear una"
-	line "colección mejor."
+	text "Lawrence: …Ya."
+	line "Aún me queda un"
+	cont "largo camino para"
+	cont "mejorar mi"
+	cont "colección."
 
 	para "Adiós."
 	done
 
 FarawayIslandSignText:
-	text "La escritura se"
-	line "desvanece como si"
-
-	para "se hubiese escri-"
-	line "to hace mucho…"
+	text "La escritura casi"
+	line "se ha borrado…"
 
 	para "…bre, día 6"
 
 	para "Si algún humano…"
-	line "pone un pie aquí"
-	cont "de nuevo… ue sea"
-	cont "una pers. bonda…"
+	line "pisa de nuevo este"
+	cont "lugar… que sea de"
+	cont "corazón noble…"
 
-	para "…n esa esperan-"
-	line "za, me mar…"
+	para "…con esa ilu…,"
+	line "me march…"
 
 	para "…ji"
 	done

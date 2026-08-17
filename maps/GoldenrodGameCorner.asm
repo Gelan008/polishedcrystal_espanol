@@ -187,8 +187,8 @@ GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript:
 GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript:
 	jumpthisopenedtext
 
-	text "¡Perdona! Nece-"
-	line "-sitas más fichas."
+	text "¡Perdón! Te hacen"
+	line "falta más fichas."
 	done
 
 GoldenrodGameCornerTMVendorMenuData:
@@ -316,8 +316,8 @@ GoldenrodGameCornerGentlemanScript:
 GoldenrodGameCornerLeftTheirDrinkScript:
 	jumpthistext
 
-	text "Alguien se ha de-"
-	line "jado su bebida."
+	text "Alguien olvidó su"
+	line "bebida aquí."
 
 	para "Huele dulce."
 	done
@@ -344,10 +344,9 @@ GoldenrodGameCornerCardFlipMachineScript:
 GoldenrodGameCornerPrizeVendorIntroText:
 	text "¡Hola!"
 
-	para "¡Te cambiamos tus"
-	line "fichas de juego"
-	cont "por grandes pre-"
-	cont "mios!"
+	para "¡Canjea tus fichas"
+	line "de juego por"
+	cont "grandes premios!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
@@ -392,21 +391,20 @@ GoldenrodGameCornerPrizeVendorNoCoinCaseText:
 	done
 
 GoldenrodGameCornerFisherText:
-	text "¡Hoy me pagan!"
-	line "¡A celebrarlo a"
-	cont "las tragaperras!"
+	text "¡Hoy cobro! ¡Voy a"
+	line "las tragaperras!"
 
-	para "…Sabes, los #"
-	line "mon también tienen"
-	cont "Día de Pago."
+	para "…¿Sabías que los"
+	line "#mon también"
+	cont "tienen Día de"
+	cont "Pago?"
 	done
 
 Text_GoldenrodGameCornerTutorPayDayQuestion:
 	text "Si me das una Hoja"
-	line "Plata, le enseñaré"
-
-	para "Día de Pago a tus"
-	line "#mon."
+	line "Plata, enseñaré"
+	cont "Día de Pago a tu"
+	cont "#mon."
 	done
 
 
@@ -414,37 +412,35 @@ Text_GoldenrodGameCornerTutorPayDayQuestion:
 
 GoldenrodGameCornerPharmacistText:
 	text "Siempre juego en"
-	line "esta máquina tra-"
-	cont "gaperras."
+	line "esta tragaperras."
 
 	para "Creo que da más"
-	line "que las otras."
+	line "que las demás."
 	done
 
 GoldenrodGameCornerPokefanM1Text:
 	text "Me encanta esta"
 	line "máquina nueva."
 
-	para "Es mucho más desa-"
-	line "fiante que las de"
+	para "Es un gran reto,"
+	line "no como las de"
 	cont "Azulona."
 	done
 
 GoldenrodGameCornerCooltrainerMText:
 	text "La vida es una"
-	line "apuesta. ¡Levanta-"
-	cont "ré cartas hasta"
+	line "apuesta. ¡Jugaré a"
+	cont "las cartas hasta"
 	cont "caer rendido!"
 	done
 
 GoldenrodGameCornerPokefanFText:
-	text "Levantar cartas…"
+	text "Las cartas…"
 
-	para "Lo prefiero a las"
+	para "Las prefiero a las"
 	line "tragaperras, es"
-
-	para "más fácil ver las"
-	line "probabilidades."
+	cont "más fácil calcular"
+	cont "probabilidades."
 
 	para "Pero el premio es"
 	line "mucho más bajo."
@@ -457,32 +453,25 @@ GoldenrodGameCornerCooltrainerFText:
 
 GoldenrodGameCornerGentlemanText:
 	text "Le enseñé Rayo"
-	line "Hielo a mi"
-	cont "#mon."
+	line "Hielo a mi #mon"
 
-	para "Costó conseguir"
-	line "las fichas"
-	cont "necesarias,"
-
-	para "pero mereció la"
-	line "pena."
+	para "Costó juntar todas"
+	line "las fichas, pero"
+	cont "valió la pena."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
-	text "No conseguí ganar"
-	line "a las tragaperras,"
+	text "No gané nada en"
+	line "las tragaperras,"
+	cont "ni en las cartas…"
 
-	para "y lo fastidié a"
-	line "las cartas…"
-
-	para "Me enfadé tanto"
-	line "que tiré mi Mone-"
-	cont "dero en el Subte-"
-	cont "rráneo."
+	para "¡Me dio tal rabia"
+	line "que tiré mi"
+	cont "Monedero en el"
+	cont "Subterráneo!"
 	done
 
 GoldenrodGameCornerPokefanM3Text:
-	text "¡Jajaja! ¡Las fi-"
-	line "chas no paran de"
-	cont "llover!"
+	text "¡Jajaja! ¡No paran"
+	line "de llover fichas!"
 	done

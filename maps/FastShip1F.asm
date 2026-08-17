@@ -120,12 +120,12 @@ FastShip1FSailor2Script:
 	iftrue_jumptextfaceplayer FastShip1FSailor2Text
 	jumpthistextfaceplayer
 
-	text "Este es tu cama-"
-	line "rote."
+	text "Éste es tu"
+	line "camarote."
 
 	para "Si tus #mon"
 	line "están heridos,"
-	cont "échate una siesta."
+	cont "echa una siesta."
 
 	para "Eso los curará."
 	done
@@ -213,12 +213,12 @@ FastShip1FSailor1Text_ToOlivine:
 
 
 FastShip1FSailor2Text:
-	text "Este es tu cama-"
-	line "rote."
+	text "Éste es tu"
+	line "camarote."
 
 	para "Si tus #mon"
 	line "están heridos,"
-	cont "échate una siesta."
+	cont "echa una siesta."
 
 	para "El barco llegará"
 	line "mientras duermes."
@@ -235,16 +235,14 @@ FastShip1FSailor3Text:
 
 FastShip1FGrandpaText:
 	text "¡Uaa! Perdona."
-	line "¡Tenía prisa!"
+	line "¡Llevo prisa!"
 
 	para "¡Mi nieta ha"
 	line "desaparecido!"
 
-	para "Es sólo una niña"
-	line "pequeña. Si la"
-
-	para "ves, ¡por favor"
-	line "dímelo!"
+	para "Es muy pequeña."
+	line "Si la ves, ¡por"
+	cont "favor avísame!"
 	done
 
 FastShip1FSailor1Text_InOlivine:

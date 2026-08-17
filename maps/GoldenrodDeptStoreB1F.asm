@@ -57,11 +57,9 @@ GoldenrodDeptStoreB1FBlackBelt1Text:
 	line "¡Nos estás"
 	cont "retrasando!"
 
-	para "¡Nuestra norma es"
-	line "trabajar entre"
-
-	para "bastidores, donde"
-	line "nadie nos vea!"
+	para "¡Trabajamos entre"
+	line "bastidores para"
+	cont "que nadie nos vea!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt2Text:
@@ -77,10 +75,10 @@ GoldenrodDeptStoreB1FBlackBelt3Text:
 	text "¡Uuuh-aaah!"
 	line "¡Uuuh-aaah!"
 
-	para "Las cosas del"
-	line "suelo son basura."
+	para "Lo que hay en el"
+	line "suelo es basura."
 
-	para "¡Cógelas si las"
+	para "¡Llévatelo si lo"
 	line "quieres!"
 	done
 

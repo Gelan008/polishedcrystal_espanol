@@ -34,32 +34,25 @@ GoldenrodHoneyHousePokefanFScript:
 	text "Mi hermanito"
 if DEF(FAITHFUL)
 	line "coge Miel y la"
-
-	para "esparce por ahí"
+	cont "esparce por la"
 else
 	line "coge Miel Dulce y"
-
-	para "la esparce en la"
+	cont "la echa por la"
 endc
-	line "hierba alta."
+	cont "hierba alta."
 
-	para "Atrae a los #-"
-	line "mon."
-
-	para "¡Suele atraer"
-	line "a #mon del"
-
-	para "mismo nivel que"
-	line "los tuyos!"
+	para "Atrae #mon que"
+	line "suelen tener tu"
+	cont "mismo nivel."
 	done
 
 .IntroText:
-	text "Mi #mon es"
-	line "experto en reco-"
+	text "Mi #mon sabe"
+	line "recoger mucha"
 if DEF(FAITHFUL)
-	cont "lectar Miel."
+	cont "Miel."
 else
-	cont "lectar Miel Dulce."
+	cont "Miel Dulce."
 endc
 
 	para "Compartiré un"
@@ -115,19 +108,15 @@ endc
 	done
 
 .SellText:
-	text "¿Te gustaría com-"
+	text "¿Quieres comprar"
 if DEF(FAITHFUL)
-	line "prar Miel para"
-
-	para "atraer a los"
-	line "#mon?"
+	line "Miel para atraer"
+	cont "a los #mon?"
 else
-	line "prar Miel Dulce"
-
-	para "para atraer a los"
-	line "#mon?"
+	line "Miel Dulce para"
+	cont "atraer #mon?"
 endc
-	cont "¡Por solo ¥1000!"
+	cont "¡Por solo 1000¥!"
 	done
 
 .GoodbyeText:
@@ -150,8 +139,8 @@ endc
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1   ¥1000@"
-	db "×10  ¥10000@"
+	db "× 1   1000¥@"
+	db "×10  10000¥@"
 	db "Salir@"
 
 GoldenrodHoneyHouseButterfreeText:

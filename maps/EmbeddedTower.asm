@@ -83,150 +83,118 @@ EmbeddedTowerSteven1IntroText:
 	line "Me apasionan las"
 	cont "piedras raras."
 
-	para "Soy de la región"
-	line "de Hoenn. Es un"
-
-	para "lugar precioso,"
-	line "con el océano más"
-
-	para "claro que puedas"
-	line "imaginar."
+	para "Vengo de Hoenn, un"
+	line "lugar precioso con"
+	cont "un océano claro."
 
 	para "Deberías visitarlo"
 	line "alguna vez."
 	done
 
 EmbeddedTowerSteven1TowerText:
-	text "Máximo: Busco pie-"
-	line "dras para mi co-"
-	cont "lección."
+	text "Máximo: Busco más"
+	line "piedras para mi"
+	cont "colección."
 
-	para "Ésta es la Torre"
+	para "Esta es la Torre"
 	line "Oculta."
 
-	para "La construyó gen-"
-	line "te de Hoenn para"
-
-	para "unir el mar, la"
-	line "tierra y el cielo."
+	para "La construyó la"
+	line "gente de Hoenn"
+	cont "para unir tierra,"
+	cont "mar y cielo."
 	done
 
 EmbeddedTowerSteven1NotNowText:
-	text "Máximo: Tus #"
-	line "mon tienen muy"
+	text "Máximo: Tus"
+	line "#mon tienen muy"
 	cont "buena pinta."
 
-	para "Si puedes vencer"
-	line "al Alto Mando,"
-
-	para "vuelve aquí para"
-	line "luchar conmigo."
+	para "Si vences al Alto"
+	line "Mando, ¡vuelve a"
+	cont "luchar conmigo!"
 	done
 
 EmbeddedTowerSteven1ChallengeText:
-	text "Máximo: Tus #"
-	line "mon tienen muy"
+	text "Máximo: Tus"
+	line "#mon tienen muy"
 	cont "buena pinta."
 
 	para "Ya que estamos"
-	line "los dos aquí, ¿por"
+	line "aquí los dos, ¿por"
 	cont "qué no luchamos?"
 	done
 
 EmbeddedTowerSteven1NoText:
 EmbeddedTowerSteven2NoText:
 	text "Máximo: Hmm."
-	line "Si cambias de"
-
-	para "opinión, estaré"
-	line "justo aquí."
+	line "Si cambias de idea"
+	cont "estaré por aquí."
 	done
 
 EmbeddedTowerSteven1YesText:
 EmbeddedTowerSteven2YesText:
-	text "Máximo: ¡Quiero"
-	line "que me des"
-
-	para "con todo!"
-	line "¡Venga, dale!"
+	text "Máximo: ¡Dalo todo"
+	line "en este combate!"
+	cont "¡Vamos allá!"
 	done
 
 EmbeddedTowerSteven1WinText:
 EmbeddedTowerSteven2WinText:
-	text "¡Eres un entrena-"
-	line "dor #mon muy"
-	cont "noble!"
+	text "¡Eres un"
+	line "entrenador #mon"
+	cont "muy noble!"
 	done
 
 EmbeddedTowerSteven1ItemText:
-	text "Máximo: ¡Felicida-"
-	line "des!"
+	text "Máximo: ¡Bravo!"
 
-	para "Los sentimientos"
-	line "que tienes por"
-	cont "tus #mon…"
+	para "El cariño hacia"
+	line "tus #mon…"
+	cont "y su respuesta con"
+	cont "todas sus fuerzas…"
 
-	para "Y los #mon que"
-	line "respondieron a"
+	para "¡Se unieron para"
+	line "crear un poder aún"
+	cont "mucho más grande!"
 
-	para "esos sentimientos"
-	line "con todas sus"
-	cont "fuerzas…"
+	para "¡Así alcanzasteis"
+	line "la victoria!"
 
-	para "Se unieron como"
-	line "uno solo y crea-"
-
-	para "ron un poder aún"
-	line "mayor."
-
-	para "Y así, ¡pudisteis"
-	line "alcanzar la vic-"
-	cont "toria!"
-
-	para "Seguro que puedes"
-	line "sacarle partido a"
-	cont "este objeto."
+	para "Seguro que sabes"
+	line "aprovechar esto."
 	done
 
 EmbeddedTowerSteven1AfterText:
-	text "Máximo: Que nues-"
-	line "tros caminos vuel-"
-	cont "van a cruzarse."
+	text "Máximo: ¡Ojalá nos"
+	line "volvamos a ver!"
 	done
 
 EmbeddedTowerSteven2ChallengeText:
-	text "Máximo: ¡Nos vol-"
-	line "vemos a ver,"
-	cont "<PLAYER>!"
+	text "Máximo: ¡Nos vemos"
+	line "de nuevo, <PLAYER>!"
 
-	para "He encontrado muy"
-	line "buenas piedras pa-"
-	cont "ra mi colección."
+	para "Hallé muy buenas"
+	line "piedras para mi"
+	cont "colección."
 
-	para "¿Y tú, qué has"
-	line "estado haciendo?"
+	para "¿Y qué hay de ti?"
+	line "¿Has vencido otra"
+	cont "vez al Alto Mando?"
 
-	para "¿Luchaste contra"
-	line "el Alto Mando y"
-	cont "volviste a ganar?"
-	cont "¡Buen trabajo!"
-
-	para "¿Por qué no echa-"
-	line "mos otro combate?"
+	para "¡Buen trabajo!"
+	line "¿Echamos otro"
+	cont "combate tú y yo?"
 	done
 
 EmbeddedTowerSteven2AfterText:
-	text "Máximo: Al final,"
-	line "sigues siendo más"
-	cont "fuerte."
+	text "Máximo: Sigues"
+	line "siendo muy fuerte."
 
-	para "Pero no me arre-"
-	line "piento de haber"
-	cont "luchado."
+	para "Pero no lamento"
+	line "haber luchado."
 
-	para "¡Porque cada vez"
-	line "que peleo contra"
-
-	para "ti, aprendo más"
-	line "sobre los #mon!"
+	para "¡Al luchar contra"
+	line "ti, aprendo más de"
+	cont "los #mon!"
 	done
