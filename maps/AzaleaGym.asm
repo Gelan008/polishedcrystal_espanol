@@ -78,11 +78,10 @@ AzaleaGymBugsyScript:
 		line "conseguiste por"
 		cont "trueque."
 
-		para "#mon que sepan"
-		line "Corte podrán usar"
-
-		para "el ataque fuera"
-		line "del combate."
+		para "Los #mon que"
+		line "sepan Corte podrán"
+		cont "usar el ataque"
+		cont "fuera del combate."
 
 		para "También quiero"
 		line "que tengas esto."
@@ -97,9 +96,8 @@ AzaleaGymBugsyScript:
 
 	para "Tu #mon ataca"
 	line "y luego se"
-
-	para "intercambia de"
-	line "inmediato."
+	cont "intercambia de"
+	cont "inmediato."
 
 	para "¿A que mola?"
 	line "¡La descubrí yo!"
@@ -108,15 +106,13 @@ AzaleaGymBugsyScript:
 .SeenText:
 	text "¡Soy Antón!"
 	line "¡Nunca pierdo en"
-
-	para "lo que respecta a"
-	line "#mon bicho!"
+	cont "lo que respecta a"
+	cont "#mon bicho!"
 
 	para "¡Mis investiga-"
 	line "ciones me conver-"
-
-	para "tirán en la"
-	line "máxima autoridad"
+	cont "tirán en la"
+	cont "máxima autoridad"
 	cont "en #mon bicho!"
 
 	para "Déjame enseñarte"
@@ -140,12 +136,11 @@ AzaleaGymBugsyScript:
 .AfterText:
 	text "Los #mon bicho"
 	line "son complejos. Hay"
+	cont "muchos misterios"
+	cont "por explorar."
 
-	para "muchos misterios"
-	line "por explorar."
-
-	para "Estudia a tus fa-"
-	line "voritos a fondo."
+	para "Estudia a tus"
+	line "favoritos a fondo."
 	done
 
 AzaleaGymGuyScript:
@@ -157,20 +152,19 @@ AzaleaGymGuyScript:
 
 	para "Antón es un joven"
 	line "con un gran"
-
-	para "conocimiento de"
-	line "los #mon bicho."
+	cont "conocimiento de"
+	cont "los #mon bicho."
 
 	para "Será duro sin mis"
 	line "consejos."
 
-	para "A ver… los #"
-	line "mon bicho no les"
+	para "A ver… A los"
+	line "#mon bicho no les"
 	cont "gusta el fuego."
 
-	para "Los ataques vola-"
-	line "dores también son"
-	cont "súper eficaces."
+	para "Los ataques"
+	line "voladores también"
+	cont "son súper eficaces."
 	done
 
 .WinText:
@@ -188,17 +182,16 @@ AzaleaGymGuyScript:
 GenericTrainerBug_catcherBenny:
 	generictrainer BUG_CATCHER, BENNY, EVENT_BEAT_BUG_CATCHER_BENNY, .SeenText, .BeatenText
 
-	text "Los #mon se ha-"
-	line "cen más fuertes si"
-	cont "evolucionan."
+	text "Los #mon se"
+	line "hacen más fuertes"
+	cont "si evolucionan."
 	done
 
 .SeenText:
 	text "Los #mon bicho"
 	line "evolucionan muy"
-
-	para "rápido y se hacen"
-	line "fuertes pronto."
+	cont "rápido y se hacen"
+	cont "fuertes pronto."
 	done
 
 .BeatenText:
@@ -209,11 +202,10 @@ GenericTrainerBug_catcherBenny:
 GenericTrainerBug_catcherAl:
 	generictrainer BUG_CATCHER, AL, EVENT_BEAT_BUG_CATCHER_AL, .SeenText, .BeatenText
 
-	text "Molan mucho,"
-	line "pero a la mayoría"
-
-	para "de chicas no les"
-	line "gustan."
+	text "Molan mucho, pero"
+	line "a la mayoría de"
+	cont "chicas no les"
+	cont "gustan."
 
 	para "Y no sé por qué…"
 	done
@@ -222,8 +214,8 @@ GenericTrainerBug_catcherAl:
 	text "¡Los #mon bicho"
 	line "molan y son duros!"
 
-	para "¡Voy a demostrár-"
-	line "telo!"
+	para "¡Voy a"
+	line "demostrártelo!"
 	done
 
 .BeatenText:
@@ -234,8 +226,8 @@ GenericTrainerBug_catcherAl:
 GenericTrainerBug_catcherJosh:
 	generictrainer BUG_CATCHER, JOSH, EVENT_BEAT_BUG_CATCHER_JOSH, .SeenText, .BeatenText
 
-	text "Supongo que de-"
-	line "bería enseñarles"
+	text "Supongo que"
+	line "debería enseñarles"
 	cont "mejores ataques…"
 	done
 
