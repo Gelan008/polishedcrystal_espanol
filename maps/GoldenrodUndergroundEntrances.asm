@@ -46,21 +46,18 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 	done
 
 .Text1:
-	text "Intenté usar este"
-	line "objeto en el Rin-"
-	cont "cón de Juegos, pe-"
-	cont "ro me pillaron."
+	text "Intenté usar esto"
+	line "en el Casino, pero"
+	cont "me pillaron."
 
-	para "Será mejor que"
-	line "te lo lleves tú."
+	para "¡Mejor quédatelo"
+	line "tú!"
 	done
 
 GoldenrodUndergroundEntrances_TeacherText:
-	text "Hay algunas"
-	line "tiendas abajo…"
-
-	para "Pero también hay"
-	line "entrenadores."
+	text "Hay tiendas abajo,"
+	line "pero también hay"
+	cont "entrenadores."
 
 	para "Me da miedo bajar"
 	line "allí."
@@ -68,34 +65,28 @@ GoldenrodUndergroundEntrances_TeacherText:
 
 GoldenrodUndergroundEntrances_SuperNerd1Text:
 	text "Este túnel se hizo"
-	line "originalmente para"
-	cont "los repartos al"
+	line "para el reparto al"
+	cont "Centro Comercial."
 
-	para "Centro Comercial."
-
-	para "Además, es un buen"
+	para "¡Y es un buen"
 	line "atajo para cruzar"
-	cont "la ciudad."
+	cont "la ciudad!"
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd2Text:
-	text "Me desafiaron a"
-	line "un combate allí"
-	cont "abajo."
+	text "Me retaron a un"
+	line "combate abajo."
 
-	para "La cosa está peli-"
-	line "aguda ahí abajo."
-	cont "Ten cuidado."
+	para "La cosa está muy"
+	line "tensa ahí abajo."
+	cont "¡Ten cuidado!"
 	done
 
 GoldenrodUndergroundEntrances_BeautyText:
-	text "Fui a hacer un"
-	line "tour por la Torre"
-	cont "Radio."
+	text "Hice un tour por"
+	line "la Torre Radio."
 
-	para "Vi los tres es-"
-	line "tudios e incluso"
-
-	para "comí en la"
-	line "cafetería."
+	para "Vi los estudios e"
+	line "incluso comí en la"
+	cont "cafetería."
 	done

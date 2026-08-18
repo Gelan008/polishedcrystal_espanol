@@ -15,14 +15,11 @@ GuideGentsHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GuideGentsHouseGuideGentText, EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
 
 GuideGentsHouseGuideGentText:
-	text "¡De joven fui"
-	line "un entrenador"
-	cont "de primera!"
+	text "¡De joven fui un"
+	line "gran entrenador!"
 
-	para "Este es mi"
-	line "consejo: ¡Atrapa"
-	cont "muchos #mon!"
-
-	para "¡Y trátalos a to-"
-	line "dos con cariño!"
+	para "Mi consejo es:"
+	line "¡atrapa a muchos"
+	cont "#mon y trátalos"
+	cont "con cariño!"
 	done

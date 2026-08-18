@@ -1205,7 +1205,7 @@ ElmAfterTheftText7:
 	done
 
 ElmStudyingEggText:
-	text "Elm: ¡Ánimo! ¡Te"
+	text "Elm: ¡Animo! ¡Te"
 	line "llamaré si sé algo"
 	cont "sobre el Huevo!"
 	done

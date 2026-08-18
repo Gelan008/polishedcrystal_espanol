@@ -379,7 +379,7 @@ CinnabarLabRoom4SignText:
 	line "del Proyecto Ambar"
 
 	para "PROHIBIDO EL PASO"
-	line "SIN AUTORIZACIÓN"
+	line "SIN AUTORIZACION"
 	cont "DE NIVEL 5"
 	done
 

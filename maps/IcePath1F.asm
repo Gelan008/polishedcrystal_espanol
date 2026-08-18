@@ -23,9 +23,9 @@ IcePath1F_MapScriptHeader:
 GenericTrainerSkierMaria:
 	generictrainer SKIER, MARIA, EVENT_BEAT_SKIER_MARIA, SkierMariaSeenText, SkierMariaBeatenText
 
-	text "Me costó un tiem-"
-	line "po acostumbrarme"
-	cont "a los esquís."
+	text "Me costó bastante"
+	line "acostumbrarme a"
+	cont "los esquís."
 	done
 
 GenericTrainerBoarderStefan:
@@ -41,9 +41,8 @@ SkierMariaSeenText:
 	done
 
 SkierMariaBeatenText:
-	text "¡Tu técnica de"
-	line "combate es ad-"
-	cont "mirable!"
+	text "¡Tu técnica en el"
+	line "combate es genial!"
 	done
 
 BoarderStefanSeenText:
@@ -57,6 +56,6 @@ BoarderStefanSeenText:
 
 BoarderStefanBeatenText:
 	text "Este frío es la"
-	line "vergüenza de per-"
-	cont "der…"
+	line "vergüenza de haber"
+	cont "perdido…"
 	done

@@ -104,22 +104,16 @@ LoreleiGiveIcyRock:
 
 LoreleiRematchAfterText:
 	text "Tu viaje no ha"
-	line "terminado."
+	line "terminado aún."
 
 	para "Puedes ganar más"
 	line "Medallas en Kanto,"
-
-	para "atrapar nuevas"
-	line "especies de"
-	cont "#mon,"
-
-	para "mejorar tú y tu"
-	line "equipo."
+	cont "atrapar nuevos"
+	cont "#mon y mejorar."
 
 	para "Convertirse en un"
 	line "Maestro #mon"
-	cont "lleva toda una"
-	cont "vida."
+	cont "lleva una vida."
 	done
 
 LoreleiReintroductionScript:
@@ -143,43 +137,38 @@ LoreleiIntroText:
 	line "hielo de ahí?"
 
 	para "Emite una energía"
-	line "que nunca he vis-"
-	cont "to en Kanto."
+	line "que nunca he visto"
+	cont "en Kanto."
 
-	para "Como experta en"
-	line "#mon de tipo"
-	cont "Hielo, tenía que"
-	cont "investigarlo."
+	para "Como experta en el"
+	line "tipo Hielo, vine"
+	cont "a investigarla."
 
 	para "¿Y tú qué haces"
-	line "aquí?"
+	line "por aquí?"
 	done
 
 LoreleiAfterIntroText:
 	text "Lorelei: Así que"
-	line "participas en el"
-
-	para "desafío de la Li-"
-	line "ga #mon. Ya"
-	cont "veo. Qué irónico."
+	line "vas a desafiar a"
+	cont "la Liga #mon."
+	cont "Qué irónico."
 
 	para "¿Por qué no pongo"
-	line "a prueba tu"
-	cont "habilidad?"
+	line "a prueba tu valor?"
 	done
 
 LoreleiNoBattleText:
 	text "Si no puedes"
-	line "enfrentarte a mí,"
+	line "luchar contra mí,"
 
-	para "nunca podrás ven-"
-	line "cer al Campeón."
+	para "¡nunca vencerás al"
+	line "Campeón!"
 	done
 
 LoreleiSeenText:
-	text "¡Jajaja! ¡Prepára-"
-	line "te para quedarte"
-	cont "helado!"
+	text "¡Jajaja! ¡Vas a"
+	line "quedarte helado!"
 	done
 
 LoreleiBeatenText:
@@ -188,11 +177,11 @@ LoreleiBeatenText:
 	done
 
 LoreleiRewardText:
-	text "Sabes cómo mane-"
-	line "jar a los #mon"
-	cont "de tipo Hielo."
+	text "Sabes controlar a"
+	line "los #mon de"
+	cont "tipo Hielo."
 
-	para "Entonces podrás"
+	para "Seguro que podrás"
 	line "usar este objeto."
 	done
 
@@ -210,13 +199,11 @@ LoreleiRematchSeenText:
 	cont "Karen."
 
 	para "…Eres el nuevo"
-	line "Campeón."
-	cont "Estoy impresio-"
-	cont "nada."
+	line "Campeón. ¡Me has"
+	cont "impresionado!"
 
-	para "¡Entonces no ten-"
-	line "dré que conte-"
-	cont "nerme!"
+	para "¡Pues ahora no me"
+	line "contendré nada!"
 	done
 
 LoreleiRematchBeatenText:
@@ -226,18 +213,14 @@ LoreleiRematchBeatenText:
 
 LoreleiOneMoreBadgeText:
 	text "Sigue adelante."
-	line "Puedes desafiar a"
-
-	para "la Liga #mon"
-	line "con una Medalla"
-	cont "más."
+	line "Podrás desafiar la"
+	cont "Liga #mon con"
+	cont "una Medalla más."
 	done
 
 LoreleiAllBadgesText:
 	text "Sigue adelante."
-	line "Tienes suficientes"
-
-	para "Medallas para de-"
-	line "safiar a la Liga"
-	cont "#mon."
+	line "Ya tienes todas"
+	cont "las Medallas para"
+	cont "retar a la Liga."
 	done

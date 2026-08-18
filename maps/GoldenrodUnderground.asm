@@ -135,9 +135,8 @@ GoldenrodUndergroundCheckDayOfWeek:
 GenericTrainerSupernerdEric:
 	generictrainer SUPER_NERD, ERIC, EVENT_BEAT_SUPER_NERD_ERIC, SupernerdEricSeenText, SupernerdEricBeatenText
 
-	text "Supongo que ten-"
-	line "dré que hacer"
-	cont "las cosas bien…"
+	text "Tendré que hacer"
+	line "las cosas bien…"
 	done
 
 GenericTrainerSupernerdTeru:
@@ -154,11 +153,10 @@ GenericTrainerSupernerdTeru:
 GenericTrainerPokemaniacIssac:
 	generictrainer POKEMANIAC, ISSAC, EVENT_BEAT_POKEMANIAC_ISSAC, PokemaniacIssacSeenText, PokemaniacIssacBeatenText
 
-	text "A tus #mon"
-	line "les gustarás más"
-
-	para "si les haces unos"
-	line "cortes de pelo."
+	text "A tus #mon les"
+	line "gustarás más si"
+	cont "les cortas el"
+	cont "pelo."
 	done
 
 GenericTrainerPokemaniacDonald:
@@ -288,9 +286,9 @@ OlderHaircutBrotherScript:
 .AlreadyGotHaircut:
 	jumpthisopenedtext
 
-	text "Sólo hago un corte"
-	line "al día. Ya he aca-"
-	cont "bado por hoy."
+	text "Solo hago un corte"
+	line "al día. Por hoy ya"
+	cont "he terminado."
 	done
 
 YoungerHaircutBrotherScript:
@@ -374,12 +372,9 @@ YoungerHaircutBrotherScript:
 .AlreadyGotHaircut:
 	jumpthisopenedtext
 
-	text "Sólo puedo hacer"
-	line "un corte al día."
-
-	para "Lo siento, pero"
-	line "he acabado por"
-	cont "hoy."
+	text "Solo hago un corte"
+	line "al día. Por hoy ya"
+	cont "he terminado."
 	done
 
 EitherHaircutBrotherScript_SlightlyHappier:
@@ -445,18 +440,15 @@ GoldenrodUndergroundCandyManScript:
 	text "Es un Tarro"
 	line "Caramelos."
 
-	para "Lo necesitarás"
-	line "para guardar mis,"
-	cont "eh, caramelos"
+	para "Lo usarás para"
+	line "mis, eh, caramelos"
 	cont "especiales."
 
-	para "¡El primero in-"
-	line "vita la casa!"
-	cont "Pruébalo."
+	para "¡El primero va por"
+	line "la casa! Pruébalo."
 
-	para "…Para tu"
-	line "#mon,"
-	cont "por supuesto."
+	para "…Para tu #mon,"
+	line "por supuesto."
 	done
 
 PiersScript:
@@ -495,13 +487,10 @@ PiersScript:
 PiersAfterText:
 	text "Si quieres ser el"
 	line "nuevo Campeón,"
+	cont "¡ponte en marcha!"
 
-	para "¡mejor que te pon-"
-	line "gas en marcha!"
-
-	para "¡Te mandaré algo"
-	line "de apoyo con"
-	cont "un grito!"
+	para "¡Te mandaré apoyo"
+	line "con un grito!"
 	done
 
 PiersRematchScript:
@@ -542,60 +531,43 @@ PiersRematchScript:
 	jumpthisopenedtext
 
 PiersRematchAfterText:
-	text "Tengo una herma-"
-	line "nita."
-	cont "Se llama Roxy."
+	text "Mi hermana pequeña"
+	line "se llama Roxy."
 
-	para "Es tan mona como"
-	line "parece."
+	para "Es la mar de mona."
 
-	para "Cuando sea mayor,"
-	line "no sé si"
+	para "De mayor, no sé si"
+	line "cantará, tocará,"
+	cont "luchará con"
+	cont "#mon o algo"
+	cont "distinto."
 
-	para "querrá cantar,"
-	line "tocar música,"
-
-	para "luchar con #-"
-	line "mon, o algo to-"
-	cont "talmente nuevo."
-
-	para "Pero elija lo"
-	line "que elija, espe-"
-	cont "ro"
-
-	para "¡que tenga tanta"
-	line "pasión como"
+	para "¡Pero elija lo que"
+	line "elija, ojalá tenga"
+	cont "tanta pasión como"
 	cont "tú, <PLAYER>!"
 	done
 
 PiersIntroText:
-	text "Nerio: Lo único"
-	line "que puede hacer un"
-	cont "humilde cantante"
-	cont "es cantar una hu-"
-	cont "milde canción… ♪"
+	text "Nerio: Solo soy un"
+	line "humilde cantante"
+	cont "con su humilde"
+	cont "canción… ♪"
 
 	para "Me llamo Nerio."
 	line "No soy de Johto,"
-
-	para "pero vine aquí"
-	line "para cantar en la"
-
-	para "radio y hacer"
-	line "sonreír a todos"
-	cont "en mi ciudad."
+	cont "pero vine a cantar"
+	cont "en la radio y dar"
+	cont "alegría en casa."
 	done
 
 PiersAfterIntroText:
-	text "Algunos de mis me-"
-	line "jores riffs han"
+	text "Mis mejores riffs"
+	line "surgen tras ganar"
+	cont "un buen combate."
 
-	para "salido de ganar un"
-	line "buen combate."
-
-	para "¿Qué te parece si"
-	line "tenemos uno aquí"
-	cont "y ahora?"
+	para "¿Luchamos aquí y"
+	line "ahora?"
 	done
 
 PiersNoBattleText:
@@ -604,33 +576,28 @@ PiersNoBattleText:
 	done
 
 PiersSeenText:
-	text "¡Hago música os-"
-	line "cura y uso #mon"
-	cont "de tipo Siniestro!"
+	text "¡Hago música dark"
+	line "y uso #mon de"
+	cont "tipo Siniestro!"
 
-	para "¡Hora de rockear!"
+	para "¡A rockanrolear!"
 	done
 
 PiersBeatenText:
-	text "Mi equipo y yo in-"
-	line "tentamos darlo"
-	cont "todo."
+	text "¡Dimos todo lo que"
+	line "teníamos!"
 	done
 
 PiersRewardText:
 	text "Me alegro de que"
-	line "pudiéramos luchar."
+	line "lucháramos."
 
-	para "Parece que mis"
-	line "#mon sienten"
-	cont "lo mismo."
+	para "Mis #mon"
+	line "sienten lo mismo."
 
-	para "¡Aquí tienes algo"
-	line "para ayudarte a"
-
-	para "rockear aún más"
-	line "fuerte la próxima"
-	cont "vez!"
+	para "¡Toma esto para"
+	line "rockanrolear con"
+	cont "más fuerza!"
 	done
 
 PiersRematchIntroAgainText:
@@ -639,22 +606,19 @@ PiersRematchIntroAgainText:
 	done
 
 PiersRematchSeenText:
-	text "¡Ja! Así que eres"
-	line "el nuevo Campeón."
+	text "¡Ja! ¡El nuevo"
+	line "Campeón en persona!"
 
-	para "¡Eres alguien"
-	line "importante ahora!"
+	para "¡Qué importante"
+	line "eres ahora!"
 
-	para "Y yo sigo cantando"
-	line "mis humildes can-"
-	cont "ciones…"
+	para "Y yo aquí sigo con"
+	line "mis cancioncillas…"
 
-	para "¿Así que quieres"
-	line "un bis?"
+	para "¿Quieres un bis?"
 
-	para "¡Haré una excep-"
-	line "ción por ti, solo"
-	cont "por esta vez!"
+	para "¡Haré un hueco por"
+	line "ti solo esta vez!"
 	done
 
 PiersRematchBeatenText:
@@ -677,14 +641,12 @@ SupernerdEricBeatenText:
 
 SupernerdTeruSeenText:
 	text "¿Tienes en cuenta"
-	line "los tipos en un"
-	cont "combate?"
+	line "los tipos al"
+	cont "luchar?"
 
-	para "Si conoces las"
-	line "ventajas de tipo,"
-
-	para "te irá mejor en"
-	line "combate."
+	para "Si sabes de tipos,"
+	line "¡te irá mucho"
+	cont "mejor!"
 	done
 
 SupernerdTeruBeatenText:
@@ -692,9 +654,9 @@ SupernerdTeruBeatenText:
 	done
 
 PokemaniacIssacSeenText:
-	text "¡Le acaban de cor-"
-	line "tar el pelo a mi"
-	cont "#mon!"
+	text "¡Le acaban de"
+	line "cortar el pelo a"
+	cont "mi #mon!"
 
 	para "¡Te mostraré lo"
 	line "fuerte que es!"
@@ -731,8 +693,8 @@ CosplayerClaraBeatenText:
 	done
 
 GoldenrodUndergroundTheDoorsLockedText:
-	text "La puerta está ce-"
-	line "rrada…"
+	text "La puerta está"
+	line "cerrada…"
 	done
 
 GoldenrodUndergroundTheDoorIsOpenText:
@@ -746,22 +708,19 @@ GoldenrodUndergroundBasementKeyOpenedDoorText:
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
-	text "¡Hola!"
-
-	para "¡Llevo la Pelu-"
-	line "quería #mon!"
+	text "¡Bienvenido a la"
+	line "Peluquería"
+	cont "#mon!"
 
 	para "Soy el mayor y el"
-	line "mejor de los"
-	cont "Hermanos Peluque-"
-	cont "ros."
+	line "mejor de los Her-"
+	cont "-manos Peluqueros."
 
-	para "Puedo poner pre-"
-	line "cioso a tu #mon"
-	cont "por sólo 500¥."
+	para "Puedo peinar a tu"
+	line "#mon por 500¥."
 
-	para "¿Quieres que"
-	line "se lo corte?"
+	para "¿Quieres un corte"
+	line "para él?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
@@ -779,25 +738,25 @@ GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
-	text "¡Te damos la bien-"
-	line "venida a la Pelu-"
-	cont "quería #mon!"
+	text "¡Bienvenido a la"
+	line "Peluquería"
+	cont "#mon!"
 
 	para "Soy el menor de"
-	line "los Hermanos Pe-"
-	cont "luqueros y el más"
-	cont "barato."
+	line "los Hermanos"
+	cont "Peluqueros y el"
+	cont "más barato."
 
-	para "Pondré a tu"
+	para "¡Dejaré a tu"
 	line "#mon guapísimo"
-	cont "por sólo ¥300."
+	cont "por solo 300¥!"
 
 	para "¿Qué te parece?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "Vale, ¿a qué #-"
-	line "mon se lo corto?"
+	text "¿A qué #mon se"
+	line "lo corto?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:

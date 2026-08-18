@@ -195,19 +195,16 @@ PlateauRivalBattleTrigger2:
 	end
 
 PlateauRivalText1:
-	text "Espera."
+	text "¡Espera!"
 
-	para "¿Vas a partici-"
-	line "par en la Liga"
-
-	para "#mon ahora?"
+	para "¿Vas a retar a la"
+	line "Liga #mon ya?"
 
 	para "De eso nada."
 
-	para "Mis #mon super-"
+	para "¡Mis #mon bien"
 	line "entrenados van a"
-
-	para "darte una paliza."
+	cont "darte una paliza!"
 
 	para "¡<PLAYER>!"
 	line "¡Te desafío!"
@@ -235,44 +232,39 @@ PlateauRivalText2:
 PlateauRivalLoseText:
 	text "…"
 
-	para "Fiu…"
-	line "¡Con mis compa-"
-	cont "ñeros,"
-
-	para "seré el nuevo"
-	line "Campeón!"
+	para "¡Fiu! Con mis"
+	line "compañeros, ¡seré"
+	cont "el nuevo Campeón!"
 	done
 
 PlateauLyraText1:
 	text "¡<PLAYER>!"
 
-	para "He estado viajan-"
-	line "do por Johto,"
+	para "He viajado por"
+	line "todo Johto,"
+	cont "ganando Medallas"
+	cont "y más fuerza."
 
-	para "ganando Medallas"
-	line "y haciéndome más"
-	cont "fuerte."
-
-	para "Sabes cómo es eso,"
-	line "<PLAYER>."
+	para "Tú ya sabes lo"
+	line "que es eso,"
+	cont "<PLAYER>."
 
 	para "Y ahora…"
 
 	para "Aquí estoy, en la"
 	line "Meseta Añil."
 
-	para "¿Sabes qué"
-	line "significa esto?"
+	para "¿Sabes lo que"
+	line "significa?"
 
-	para "Que puedo desa-"
-	line "fiarte, no solo"
-	cont "como amiga, sino"
+	para "¡Puedo retarte"
+	line "no solo como mi"
+	cont "amigo, sino"
 	done
 
 PlateauLyraText2:
-	text "¡como el Campeón"
-	line "de la Liga #-"
-	cont "mon!"
+	text "¡como la Campeona"
+	line "de la Liga #mon!"
 	done
 
 PlateauLyraWinText:
@@ -286,27 +278,24 @@ PlateauLyraLoseText:
 	done
 
 PlateauLyraText3:
-	text "No estoy enfadada"
-	line "por perder."
+	text "No me enfada haber"
+	line "perdido."
 
 	para "Pude explorar"
 	line "Johto, conocer a"
-	cont "gente nueva,"
+	cont "mucha gente,"
 
 	para "criar a mis"
-	line "#mon para"
-	cont "que fueran más"
+	line "#mon para que"
+	cont "fuesen más"
+	cont "fuertes…"
 
-	para "fuertes de lo que"
-	line "creía posible…"
+	para "Y luchar contigo"
+	line "dándolo todo."
 
-	para "Y pude combatir"
-	line "contigo dando"
-	cont "lo mejor de mí."
-
-	para "Me ganaste."
-	line "¡Ahora ve a ganar"
-	cont "a la Liga #mon!"
+	para "¡Me venciste!"
+	line "¡Ahora a por la"
+	cont "Liga #mon!"
 	done
 
 PlateauRivalApproachesMovement:
@@ -331,21 +320,18 @@ PokemonJournalGiovanniScript:
 
 	text "Diario #mon"
 
-	para "Edición:"
+	para "Edición Especial:"
 	line "¡Jefe Giovanni!"
 
-	para "Cuando la policía"
-	line "registró el Gimna-"
-	cont "sio abandonado de"
+	para "Al registrar el"
+	line "Gimnasio que"
+	cont "abandonó en"
+	cont "Ciudad Verde,"
 
-	para "Ciudad Verde, des-"
-	line "cubrieron que su"
-
-	para "Líder, Giovanni,"
-	line "también había sido"
-
-	para "el Jefe del Team"
-	line "Rocket."
+	para "la policía halló"
+	line "que su Líder,"
+	cont "Giovanni, era el"
+	cont "Jefe Team Rocket."
 	done
 
 IndigoPlateauYellowScript:
@@ -399,14 +385,10 @@ IndigoPlateauYellowScript:
 	end
 
 .PartyAndBoxFullText:
-	text "Amarillo: Oh…"
-	line "Tampoco puedes"
-
-	para "llevar otro"
-	line "#mon…"
-
-	para "Y tu Caja también"
-	line "está llena…"
+	text "Amarillo: ¡Oh…!"
+	line "No puedes llevar"
+	cont "más #mon y tu"
+	cont "Caja está llena…"
 	done
 
 .GreetingText:
@@ -417,14 +399,13 @@ IndigoPlateauYellowScript:
 	line "luchar al Alto"
 	cont "Mando."
 
-	para "Son intensos…"
-	line "Y tienen unos"
+	para "¡Son increíbles!"
+	line "Tienen unos lazos"
+	cont "muy fuertes con"
+	cont "sus #mon…"
 
-	para "lazos tan fuertes"
-	line "con sus #mon…"
-
-	para "Algún día alcan-"
-	line "zaré su nivel."
+	para "¡Algún día estaré"
+	line "a su nivel!"
 	done
 
 .QuestionText:
@@ -444,8 +425,8 @@ IndigoPlateauYellowScript:
 	done
 
 .GiveStarterText:
-	text "Amarillo: ¡Gra-"
-	line "cias, <PLAYER>!"
+	text "Amarillo: ¡Muchas"
+	line "gracias, <PLAYER>!"
 	cont "¡Aquí tienes!"
 	done
 
@@ -457,16 +438,13 @@ IndigoPlateauYellowScript:
 
 .GoodbyeText:
 	text "Amarillo: ¡Cuida"
-	line "bien de ese"
-
-	para ""
+	line "bien de ese "
 	text_ram wStringBuffer3
-	text ","
-	line "<PLAYER>!"
+	text "!"
 
-	para "Espero que nos"
-	line "volvamos a ver."
-	cont "¡Adiós!"
+	para "¡Espero que nos"
+	line "volvamos a ver!"
+	cont "¡Adiós, <PLAYER>!"
 	done
 
 .DownMovement:
@@ -492,35 +470,30 @@ IndigoPlateauTeleportGuyScript:
 	end
 
 .Text:
-	text "¡Ah! ¿Vas a desa-"
-	line "fiar al Alto Man-"
-	cont "do? ¿Seguro que"
-	cont "estás a punto?"
+	text "¡Ah! ¿Vas a retar"
+	line "al Alto Mando?"
+	cont "¿Estás a punto?"
 
-	para "Si necesitas en-"
-	line "trenar un poco"
-	cont "más,"
+	para "Si te hace falta"
+	line "entrenar más, mi"
+	cont "Abra te ayudará."
 
-	para "mi Abra puede"
-	line "ayudarte."
+	para "Con Teletransporte"
+	line "te llevará a casa."
 
-	para "Puede usar Tele-"
-	line "transporte para"
-	cont "llevarte a casa."
-
-	para "¿Quieres irte a"
+	para "¿Quieres volver a"
 	line "casa ahora?"
 	done
 
 .YesText:
-	text "Vale, vale. Ima-"
-	line "gina tu casa en tu"
-	cont "mente…"
+	text "Vale, vale. Piensa"
+	line "en tu casa con"
+	cont "fuerza…"
 	done
 
 .NoText:
-	text "Vale, vale. ¡Mu-"
-	line "cha suerte!"
+	text "Vale, ¡mucha"
+	line "suerte!"
 	done
 
 IndigoPlateauAbraText:
@@ -528,16 +501,13 @@ IndigoPlateauAbraText:
 	done
 
 IndigoPlateauCooltrainermText:
-	text "En la Liga #-"
-	line "mon, te pondrá"
+	text "En la Liga #mon"
+	line "te pondrá a prueba"
+	cont "el Alto Mando."
 
-	para "a prueba el Alto"
-	line "Mando."
+	para "¡Tienes que ganar"
+	line "a todos seguidos!"
 
-	para "Tienes que vencer-"
-	line "los a todos. ¡Si"
-
-	para "pierdes, tendrás"
-	line "que empezar de"
-	cont "cero!"
+	para "¡Si pierdes, a"
+	line "empezar de cero!"
 	done

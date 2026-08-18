@@ -111,57 +111,46 @@ HallOfFameEnterScene:
 	cont "la última vez que"
 	cont "estuve aquí."
 
-	para "Aquí es donde hon-"
-	line "ramos a los Cam-"
-	cont "peones de la Liga"
-	cont "para siempre."
+	para "Aquí honramos a"
+	line "los Campeones de"
+	cont "la Liga."
 
-	para "Sus valientes"
-	line "#mon también"
-	cont "son inmortaliza-"
-	cont "dos."
+	para "¡Y sus #mon"
+	line "también son"
+	cont "inmortalizados!"
 	done
 
 .LanceTrophyText:
-	text "Toma esto como re-"
-	line "cuerdo de lo que"
-
-	para "has logrado aquí"
-	line "hoy."
+	text "Toma esto como"
+	line "recuerdo de tu"
+	cont "gran hazaña de"
+	cont "hoy."
 	done
 
 .LanceText2:
 	text "Hoy aquí hemos"
-	line "presenciado el as-"
-	cont "censo de un nuevo"
+	line "visto el ascenso"
+	cont "de un nuevo"
+	cont "Campeón de Liga:"
 
-	para "Campeón de la"
-	line "Liga: un entre-"
-	cont "nador que siente"
+	para "un entrenador con"
+	line "gran compasión y"
+	cont "confianza hacia"
+	cont "sus #mon."
 
-	para "compasión y con-"
-	line "fianza hacia todos"
-	cont "los #mon."
-
-	para "Un entrenador que"
-	line "ha triunfado gra-"
-	cont "cias a la perse-"
-
-	para "verancia y a la"
-	line "determinación."
+	para "Alguien que ha"
+	line "triunfado gracias"
+	cont "al esfuerzo y la"
+	cont "determinación."
 
 	para "¡El nuevo Campeón"
-	line "de la Liga que"
+	line "con madera de"
+	cont "grandeza!"
 
-	para "tiene madera de"
-	line "grandeza!"
-
-	para "<PLAYER>, permi-"
-	line "te que te regis-"
-	cont "tre a ti y a tus"
-
-	para "compañeros como"
-	line "Campeones."
+	para "<PLAYER>, permite"
+	line "que te registre a"
+	cont "ti y a tu equipo"
+	cont "como Campeones."
 	done
 
 .GoldTrophyText:

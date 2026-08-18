@@ -182,43 +182,29 @@ UndergroundRivalBattleScript2:
 	playmusic MUSIC_RIVAL_AFTER
 	jumpthistext
 
-	text "…No lo en-"
-	line "tiendo…"
+	text "…No lo entiendo…"
 
-	para "¿Es cierto lo que"
-	line "dijo ese tal"
-	cont "Lance?"
+	para "¿Será verdad lo"
+	line "que dijo Lance?"
 
-	para "¿Que no trato a"
-	line "los #mon de"
-	cont "forma adecuada?"
+	para "¿Que no trato bien"
+	line "a mis #mon?"
 
-	para "Amor…"
+	para "Amor… Confianza…"
 
-	para "Confianza…"
+	para "¿Eso me falta?"
+	line "¿Por eso pierdo?"
 
-	para "¿De verdad es eso"
-	line "lo que me falta?"
+	para "Yo… sigo sin"
+	line "comprenderlo."
 
-	para "¿Son los que"
-	line "me impiden"
-	cont "ganar?"
+	para "Pero esto no se"
+	line "acaba aquí."
+	cont "¡No ahora!"
 
-	para "Yo… Yo sigo sin"
-	line "entenderlo."
-
-	para "Pero esto no va"
-	line "a acabar aquí."
-
-	para "No ahora. Y no"
-	line "por esto."
-
-	para "¡No renunciaré a"
-	line "mi sueño de con-"
-	cont "vertirme en el"
-
-	para "mejor entrenador"
-	line "#mon de todos!"
+	para "¡Seré el mejor"
+	line "entrenador #mon"
+	cont "del mundo!"
 	done
 
 GenericTrainerGruntM11:
@@ -226,10 +212,10 @@ GenericTrainerGruntM11:
 
 	text "Yo también estoy"
 	line "confundido…"
-	cont "El interruptor"
 
-	para "verde se debe"
-	line "pulsar el último,"
+	para "El interruptor"
+	line "verde se debe"
+	cont "pulsar el último,"
 	cont "pero…"
 	done
 
@@ -241,12 +227,11 @@ GenericTrainerGruntM25:
 
 	para "Pulsas un inter-"
 	line "ruptor de un color"
-	cont "y las persianas"
+	cont "y las puertas"
 
 	para "de ese color se"
 	line "abrirán o"
 	cont "cerrarán."
-	done
 	done
 
 GenericTrainerBurglarDuncan:
@@ -260,8 +245,8 @@ GenericTrainerBurglarDuncan:
 GenericTrainerBurglarOrson:
 	generictrainer BURGLAR, ORSON, EVENT_BEAT_BURGLAR_ORSON, BurglarOrsonSeenText, BurglarOrsonBeatenText
 
-	text "¿El Almacén Sub-"
-	line "terráneo?"
+	text "¿El Almacén"
+	line "Subterráneo?"
 
 	para "¿Para qué quieres"
 	line "ir allí?"
@@ -273,19 +258,17 @@ GenericTrainerBurglarOrson:
 GenericTrainerGruntM13:
 	generictrainer GRUNTM, 13, EVENT_BEAT_ROCKET_GRUNTM_13, GruntM13SeenText, GruntM13BeatenText
 
-	text "Hay que tener san-"
-	line "gre fría para dis-"
-	cont "cutir al Team"
-	cont "Rocket."
+	text "¡Hay que ser muy"
+	line "valiente para"
+	cont "desafiar al Team"
+	cont "Rocket!"
 	done
 
 GenericTrainerGruntF3:
 	generictrainer GRUNTF, 3, EVENT_BEAT_ROCKET_GRUNTF_3, GruntF3SeenText, GruntF3BeatenText
 
-	text "¡Ve a donde"
-	line "quieras! ¡Piérde-"
-	cont "te! ¡Qué me"
-	cont "importa!"
+	text "¡Vete donde sea!"
+	line "¡Qué me importa!"
 	done
 
 RedSwitchScript:
@@ -347,61 +330,51 @@ UndergroundRivalRetreatMovement:
 	step_end
 
 UndergroundRivalBeforeText:
-	text "¡Quieto ahí!"
+	text "¡Alto ahí!"
 
 	para "Te vi y decidí"
 	line "seguirte."
 
-	para "No te necesito es-"
-	line "torbando mientras"
-
-	para "me encargo del"
-	line "Team Rocket."
+	para "No quiero que me"
+	line "estorbes con el"
+	cont "Team Rocket."
 
 	para "…Un momento."
-	line "Tú ya me has"
-	cont "ganado antes,"
-	cont "¿verdad?"
+	line "Tú ya me venciste,"
+	cont "¿no es así?"
 
-	para "Fue mera suer-"
-	line "te."
-
-	para "¡Pero yo siempre"
-	line "pago mis deudas!"
+	para "¡Fue pura suerte!"
+	line "¡Y yo siempre me"
+	cont "tomo la revancha!"
 	done
 
 UndergroundRivalWinText:
-	text "…Por qué…"
+	text "…¿Por qué…?"
 	line "¿Por qué pierdo?"
 
-	para "He reunido a los"
-	line "#mon más peli-"
-	cont "grosos."
+	para "Tengo a los"
+	line "#mon más fuertes"
+	cont "y no me he"
+	cont "contenido."
 
-	para "No he pisado"
-	line "el freno."
-
-	para "¿Por qué pierdo?"
+	para "¿Por qué no puedo"
+	line "ganar?"
 	done
 
 UndergroundRivalLossText:
-	text "Bah. Este es mi"
-	line "auténtico poder,"
-	cont "renacuajo."
+	text "Bah. ¡Este es mi"
+	line "auténtico poder!"
 
-	para "Convertiré al Team"
-	line "Rocket en histo-"
-	cont "ria."
+	para "Acabaré con el"
+	line "Team Rocket,"
 
-	para "Y voy a aplastar"
-	line "a ese Lance bajo"
-	cont "mis pies."
+	para "¡y luego aplastaré"
+	line "a ese tal Lance!"
 	done
 
 GruntM11SeenText:
-	text "Abres una persia-"
-	line "na, se cierra o-"
-	cont "tra."
+	text "Abres una puerta"
+	line "y se cierra otra."
 
 	para "¡A que no puedes"
 	line "ir a donde"
@@ -416,13 +389,11 @@ GruntM11BeatenText:
 GruntM25SeenText:
 	text "¡Jajaja!"
 
-	para "Confundido por las"
-	line "persianas,"
-	cont "¿verdad?"
+	para "¿Liado con las"
+	line "puertas, verdad?"
 
-	para "¡Te contaré un se-"
-	line "creto si consi-"
-	cont "gues vencerme!"
+	para "¡Te daré la pista"
+	line "si me ganas!"
 	done
 
 GruntM25BeatenText:
@@ -439,13 +410,11 @@ BurglarDuncanBeatenText:
 	done
 
 BurglarOrsonSeenText:
-	text "Abandonaron este"
-	line "proyecto antes de"
-	cont "terminar."
+	text "Dejaron la obra"
+	line "a medio terminar."
 
-	para "Estoy buscando al-"
-	line "gún botín sobra-"
-	cont "nte."
+	para "Busco algún botín"
+	line "que quedara aquí."
 	done
 
 BurglarOrsonBeatenText:
@@ -453,12 +422,11 @@ BurglarOrsonBeatenText:
 	done
 
 GruntM13SeenText:
-	text "Me da igual si es-"
-	line "tás perdido."
+	text "Me da igual si te"
+	line "has perdido."
 
-	para "Si apareces por a-"
-	line "quí, ¡no eres más"
-	cont "que una víctima!"
+	para "¡Aquí eres solo"
+	line "otra víctima!"
 	done
 
 GruntM13BeatenText:
@@ -467,15 +435,14 @@ GruntM13BeatenText:
 	done
 
 GruntF3SeenText:
-	text "¿Te has perdido?"
-	line "No, no puede ser."
+	text "¿Te perdiste? Nah,"
+	line "no lo parece."
 
-	para "No tienes esa ca-"
-	line "ra de susto."
+	para "No tienes cara de"
+	line "estar asustado."
 
-	para "¡Te daré un moti-"
-	line "vo para estar"
-	cont "asustado!"
+	para "¡Pues te daré un"
+	line "buen motivo!"
 	done
 
 GruntF3BeatenText:
@@ -483,22 +450,21 @@ GruntF3BeatenText:
 	done
 
 SwitchRoomText_RedSwitch:
-	text "¿Pulsar el inte-"
-	line "rruptor rojo?"
+	text "¿Pulsar el botón"
+	line "rojo?"
 	done
 
 SwitchRoomText_GreenSwitch:
-	text "¿Pulsar el inte-"
-	line "rruptor verde?"
+	text "¿Pulsar el botón"
+	line "verde?"
 	done
 
 SwitchRoomText_BlueSwitch:
-	text "¿Pulsar el inte-"
-	line "rruptor azul?"
+	text "¿Pulsar el botón"
+	line "azul?"
 	done
 
 SwitchRoomText_EmergencySwitch:
-	text "¿Pulsar el inte-"
-	line "rruptor de emer-"
-	cont "gencia?"
+	text "¿Pulsar el botón"
+	line "de emergencia?"
 	done

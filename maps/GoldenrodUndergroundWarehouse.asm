@@ -25,13 +25,13 @@ GoldenrodUndergroundWarehouse_MapScriptHeader:
 GenericTrainerGruntM24:
 	generictrainer GRUNTM, 24, EVENT_BEAT_ROCKET_GRUNTM_24, GruntM24SeenText, GruntM24BeatenText
 
-	text "El Team Rocket se-"
-	line "guirá adelante,"
-	cont "esperando el re-"
-	cont "greso de Giovanni."
+	text "El Team Rocket"
+	line "seguirá adelante"
+	cont "hasta el regreso"
+	cont "de Giovanni."
 
-	para "Haremos lo que"
-	line "haga falta."
+	para "¡Haremos lo que"
+	line "haga falta!"
 	done
 
 GenericTrainerGruntM14:
@@ -39,8 +39,8 @@ GenericTrainerGruntM14:
 
 	text "He perdido…"
 
-	para "¡Por favor, per-"
-	line "dóname, Giovanni!"
+	para "¡Perdóname,"
+	line "Giovanni!"
 	done
 
 GenericTrainerGruntM15:
@@ -70,11 +70,10 @@ GoldenrodUndergroundWarehouseDirectorScript:
 
 GruntM24SeenText:
 	text "¿Cómo has llegado"
-	line "tan lejos?"
+	line "hasta aquí?"
 
-	para "Supongo que no hay"
-	line "remedio. Me desha-"
-	cont "ré de ti."
+	para "No hay remedio."
+	line "¡Me desharé de ti!"
 	done
 
 GruntM24BeatenText:
@@ -100,9 +99,8 @@ GruntM15SeenText:
 	text "¡Je, je, je!"
 	line "¡Me acuerdo de ti!"
 
-	para "¡Me diste una bue-"
-	line "na en nuestra"
-	cont "guarida!"
+	para "¡Me zurraste en"
+	line "nuestra guarida!"
 	done
 
 GruntM15BeatenText:
@@ -111,22 +109,20 @@ GruntM15BeatenText:
 	done
 
 DirectorIntroText:
-	text "Director: ¿Quién?"
-	line "¿Qué? ¿Has venido"
-	cont "a rescatarme?"
+	text "Director: ¿Eh?"
+	line "¿Has venido a"
+	cont "rescatarme?"
 
-	para "¡Gracias!"
+	para "¡Muchas gracias!"
 
-	para "¡La Torre Radio!"
+	para "¿La Torre Radio?"
+	line "¿Qué ocurre allí?"
 
-	para "¿Qué está pasando"
-	line "allí?"
-
-	para "¿Tomada por el"
+	para "¿La tomó el"
 	line "Team Rocket?"
 
-	para "Toma. Llévate esta"
-	line "Llave Magné."
+	para "Toma. ¡Llévate"
+	line "esta Llave Magné.!"
 	done
 
 DirectorCardKeyText:
@@ -140,26 +136,19 @@ DirectorAfterText:
 	text "Te ruego que nos"
 	line "ayudes."
 
-	para "No se sabe qué po-"
-	line "drían hacer si"
+	para "No se sabe qué"
+	line "harán si dominan"
+	cont "el transmisor."
 
-	para "controlan el"
-	line "transmisor."
+	para "¡Podrían llegar a"
+	line "controlar a los"
+	cont "#mon con una"
+	cont "señal especial!"
 
-	para "¡Puede que sean"
-	line "capaces de contro-"
+	para "Solo puedo pedirte"
+	line "ayuda a ti."
 
-	para "lar a los #mon"
-	line "con una señal"
-	cont "especial!"
-
-	para "Eres a la única"
-	line "persona a la que"
-	cont "puedo pedir ayuda."
-
-	para "Por favor, salva"
-	line "la Torre Radio…"
-
-	para "¡Y a todos los"
-	line "#mon del país!"
+	para "Por favor, ¡salva"
+	line "la Torre Radio y a"
+	cont "todos los #mon!"
 	done

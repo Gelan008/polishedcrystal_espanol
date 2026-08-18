@@ -134,22 +134,20 @@ IlexForestCharcoalApprenticeScript:
 	jumpthistextfaceplayer
 
 	text "Jo, tío… Mi jefe"
-	line "se va a poner de"
-	cont "los nervios…"
+	line "se va a enfadar…"
 
 	para "El Farfetch'd que"
-	line "usa Corte"
+	line "usa Corte para"
+	cont "hacer carbón se me"
+	cont "ha escapado."
 
-	para "para hacer carbón"
-	line "se me escapó."
-
-	para "No puedo ir a bus-"
-	line "carlo por aquí en"
+	para "No puedo ir a"
+	line "buscarlo por"
 	cont "el Encinar."
 
-	para "Es demasiado gran-"
-	line "de, oscuro y a mí"
-	cont "me da miedo…"
+	para "Es muy grande y"
+	line "oscuro, ¡y me da"
+	cont "mucho miedo!"
 	done
 
 IlexForestFarfetchdScript:
@@ -420,16 +418,13 @@ IlexForestTutorHeadbuttScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Ah, pero no"
-	line "tienes ninguna"
-	cont "Hoja Plata."
+	text "Ah, pero no tienes"
+	line "ninguna Hoja"
+	cont "Plata."
 
-	para "A veces puedes"
-	line "encontrarlas en"
-
-	para "Oddish salvajes,"
-	line "o tiradas por"
-	cont "el suelo."
+	para "A veces las llevan"
+	line "Oddish salvajes, o"
+	cont "están en el suelo."
 	done
 
 .TeachMove
@@ -452,10 +447,8 @@ GenericTrainerBugCatcherWayne:
 	line "cuando usé Golpe"
 	cont "Cabeza."
 
-	para "Debería usar"
-	line "Golpe Cabeza en"
-	cont "otros sitios"
-	cont "también."
+	para "Debería probar en"
+	line "otros árboles."
 	done
 
 IlexForestShrineScript:
@@ -857,14 +850,13 @@ MovementData_IlexForestLyraLeaves:
 	slow_step_left
 	step_end
 
-
 IlexForestApprenticeAfterText:
 	text "¡Guau! ¡Muchísimas"
 	line "gracias!"
 
 	para "El #mon de mi"
-	line "jefe no me obe-"
-	cont "dece porque no"
+	line "jefe no me hace"
+	cont "caso porque no"
 	cont "tengo Medallas."
 	done
 
@@ -884,56 +876,42 @@ Text_CharcoalMasterIntro:
 	para "¿Lo encontraste"
 	line "tú, joven?"
 
-	para "Sin él, no"
-	line "podríamos usar"
+	para "Sin él, no podemos"
+	line "usar Corte para"
+	cont "hacer carbón."
 
-	para "Corte para hacer"
-	line "carbón."
+	para "¡Muchas gracias!"
 
-	para "¡Gracias, joven!"
+	para "¿Cómo podría darte"
+	line "las gracias…?"
 
-	para "Ahora, ¿cómo"
-	line "puedo darte las"
-	cont "gracias...?"
-
-	para "¡Ya sé! Toma"
-	line "esto."
+	para "¡Ya sé! Toma esto."
 	done
 
 Text_CharcoalMasterOutro:
 	text "Es la MO Corte."
 	line "Cualquier #mon"
+	cont "compatible puede"
+	cont "cortar arbustos."
 
-	para "tuyo que sea com-"
-	line "patible puede usar"
+	para "No hace falta que"
+	line "se la enseñes si"
+	cont "no vas a usarla"
+	cont "en combate."
 
-	para "Corte para quitar"
-	line "arbustos."
-
-	para "No tienes que"
-	line "enseñárselo a"
-
-	para "menos que quieras"
-	line "usar Corte en"
-	cont "combate."
-
-	para "Pero claro,"
-	line "necesitas tener la"
-
-	para "Medalla de Pueblo"
-	line "Azalea para usarla"
-	cont "fuera del combate."
+	para "Eso sí, necesitas"
+	line "la Medalla de"
+	cont "Pueblo Azalea para"
+	cont "usarla fuera."
 	done
 
 Text_CharcoalMasterTalkAfter:
 	text "¿Quieres ser mi"
-	line "aprendiz de"
+	line "aprendiz para"
+	cont "hacer carbón?"
 
-	para "fabricante de"
-	line "carbón?"
-
-	para "¡En diez años se-"
-	line "rás de primera!"
+	para "¡En diez años te"
+	line "harás un experto!"
 	done
 
 Text_HeadbuttIntro:
@@ -983,14 +961,11 @@ Text_IlexForestTutorHeadbutt:
 	cont "Hoja Plata."
 	done
 
-
 Text_IlexForestTutorQuestion:
-	text "¿Debería enseñar"
-	line "a tu #mon Gol-"
-	cont "pe Cabeza?"
+	text "¿Enseño a tu"
+	line "#mon Golpe"
+	cont "Cabeza?"
 	done
-
-
 
 Text_IlexForestLass:
 	text "¿Le ha pasado algo"
@@ -999,20 +974,18 @@ Text_IlexForestLass:
 	done
 
 Text_IlexForestMossRock:
-	text "La roca está cu-"
-	line "bierta de musgo."
+	text "La roca está"
+	line "cubierta de musgo."
 
-	para "Se siente agrada-"
-	line "blemente fresca."
+	para "Se siente muy"
+	line "fresca al tacto."
 	done
 
 IlexForestSignpost:
 	text "El Encinar está"
 	line "tan cubierto de"
-
-	para "árboles que no se"
-	line "puede ver el cie-"
-	cont "lo."
+	cont "árboles que no se"
+	cont "ve el cielo."
 
 	para "Cuidado con los"
 	line "objetos que hayan"
@@ -1022,22 +995,15 @@ IlexForestSignpost:
 IlexForestTrainerTips:
 	text "Pistas Entrenador"
 
-	para "Siempre que ten-"
-	line "gas una MO en la"
-	cont "Mochila,"
+	para "Con una MO en la"
+	line "Mochila y un"
+	cont "#mon compatible"
 
-	para "y un #mon en"
-	line "tu equipo que sea"
+	para "¡podrás usarla"
+	line "fuera del combate!"
 
-	para "compatible, po-"
-	line "drás usar el"
-
-	para "ataque fuera del"
-	line "combate."
-
-	para "¡Ni siquiera tie-"
-	line "nes que enseñár-"
-	cont "selo!"
+	para "¡Ni siquiera hace"
+	line "falta enseñarla!"
 	done
 
 Text_IlexForestShrine:
@@ -1050,20 +1016,16 @@ Text_IlexForestShrine:
 	done
 
 Text_ShrineCelebiEvent:
-	text "El Encinar"
-	line "Santuario…"
+	text "Santuario del"
+	line "Encinar…"
 
-	para "Es en honor al"
+	para "En honor al"
 	line "protector del"
 	cont "bosque…"
 
-	para "¿Oh? ¿Qué es esto?"
-
-	para "Es un agujero."
+	para "¿Eh? Hay un hueco."
 	line "Parece que la GS"
-
-	para "Ball podría encaj-"
-	line "ar dentro."
+	cont "Ball encajaría."
 
 	para "¿Quieres poner la"
 	line "GS Ball aquí?"
@@ -1076,28 +1038,26 @@ Text_InsertGSBall:
 
 Text_KurtCaughtCelebi:
 	text "¡Uf, eso sí que"
-	line "fue algo!"
+	line "fue increíble!"
 
-	para "<PLAYER>, fue fan-"
-	line "tástico. ¡Gracias!"
+	para "¡Fue fantástico,"
+	line "<PLAYER>! ¡Gracias!"
 
-	para "Las leyendas de"
-	line "ese Santuario"
-	cont "eran reales."
+	para "Las historias del"
+	line "Santuario eran"
+	cont "ciertas."
 
 	para "Quizás la leyenda"
-	line "de que la gente"
-	cont "que lo toca"
+	line "de que quien lo"
+	cont "toca desaparece"
+	cont "sea real también…"
 
-	para "desaparece tam-"
-	line "bién sea verdad…"
+	para "¡Me siento muy"
+	line "inspirado tras ver"
+	cont "esto!"
 
-	para "Me siento inspi-"
-	line "rado por lo que"
-	cont "acabo de ver."
-
-	para "¡Me motiva a ha-"
-	line "cer mejores Balls!"
+	para "¡Haré unas Balls"
+	line "aún mejores!"
 
 	para "¡Me voy!"
 	done
@@ -1127,36 +1087,34 @@ Text_IlexForestLyraWhatWasThat:
 	done
 
 Text_IlexForestLyraWorried:
-	text "Lira: ..¿<PLAYER>?"
+	text "Lira: …¿<PLAYER>?"
 	line "¿Has vuelto?"
 
 	para "¡Te eché mucho de"
-	line "menos! Celebi me"
+	line "menos!"
 
-	para "envió aquí y tú"
-	line "no estabas…"
+	para "Celebi me envió aquí"
+	line "y tú no estabas…"
 
-	para "¡Pensé que te que-"
-	line "darías en el pasa-"
-	cont "do para siempre!"
+	para "¡Pensé que te"
+	line "quedarías en el"
+	cont "pasado siempre!"
 
 	para "…"
 
-	para "Al menos ahora am-"
-	line "bos estamos a sal-"
-	cont "vo en nuestra"
-	cont "época."
+	para "Menos mal que"
+	line "estamos a salvo en"
+	cont "nuestra época."
 	done
 
 Text_IlexForestLyraArmorSuit:
 	text "Lira: ¿Qué extraña"
-	line "aventura has teni-"
-	cont "do tú solo?"
+	line "aventura has"
+	cont "vivido verdad?"
 
-	para "Se te cayó esto…"
-	line "esta cosa cuando"
-	cont "Celebi te trajo"
-	cont "de vuelta…"
+	para "Se te cayó esta"
+	line "cosa cuando Celebi"
+	cont "te devolvió…"
 	done
 
 Text_IlexForestLyraGoodbye:
@@ -1164,12 +1122,12 @@ Text_IlexForestLyraGoodbye:
 	line "día de lo más"
 	cont "raro."
 
-	para "Estoy exhausta, me"
-	line "jor me voy yendo."
+	para "Estoy exhausta,"
+	line "¡mejor me marcho!"
 
-	para "Tú también deberí-"
-	line "as descansar,"
-	cont "<PLAYER>."
+	para "Deberías descansar"
+	line "tú también,"
+	cont "<PLAYER>!"
 
 	para "¡Nos vemos!"
 	done
@@ -1193,17 +1151,15 @@ if DEF(FAITHFUL)
 	line "Miel por el"
 	cont "suelo."
 else
-	line "Miel Dulce"
-	cont "por el suelo."
+	line "Miel Dulce por"
+	cont "el suelo."
 endc
 
 	para "Los #mon de mi"
 	line "hermana la cogen."
 
-	para "Ayuda a atraer"
-	line "#mon del"
-
-	para "mismo nivel que el"
-	line "mío, para que sea"
-	cont "un combate justo."
+	para "Atrae a #mon de"
+	line "mi mismo nivel,"
+	cont "para que sea un"
+	cont "combate justo."
 	done

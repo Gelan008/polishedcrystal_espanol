@@ -41,14 +41,12 @@ ProfOaksAide1Script:
 	jumpthisopenedtext
 
 	text "El Repartir Exp."
-	line "ayuda a un #mon"
+	line "da experiencia a"
+	cont "un #mon sin que"
+	cont "tenga que luchar."
 
-	para "a ganar experien-"
-	line "cia sin necesidad"
-	cont "de luchar."
-
-	para "¡Úsalo para com-"
-	line "pletar la #dex!"
+	para "¡Úsalo para llenar"
+	line "tu #dex!"
 	done
 
 .NoRoom
@@ -75,50 +73,37 @@ IlexForestAzaleaGateGrannyText:
 	done
 
 ProfOaksAide1HiText:
-	text "¡Hola! Soy un ayu-"
-	line "dante del Prof."
-	cont "Oak."
+	text "¡Hola! Ayudo al"
+	line "Prof. Oak."
 
-	para "Si has atrapado 15"
-	line "especies de #-"
-	cont "mon,"
+	para "Si atrapaste 15"
+	line "especies #mon,"
+	cont "te daré un regalo."
 
-	para "se supone que debo"
-	line "darte un objeto."
-
-	para "Así que, <PLAYER>,"
-	line "¿has atrapado"
-
-	para "al menos 15"
-	line "especies de #-"
-	cont "mon?"
+	para "Dime, <PLAYER>,"
+	line "¿llevas ya 15"
+	cont "especies #mon?"
 	done
 
 ProfOaksAide1UhOhText:
-	text "A ver…"
-	line "¡Vaya! Solo has"
-
-	para "atrapado "
+	text "A ver… ¡Vaya!"
+	line "Solo has atrapado"
+	cont ""
 	text_decimal wTempDexOwn, 2, 3
-	text ""
-	line "especies de"
-	cont "#mon."
+	text " especies #mon."
 
-	para "Vuelve a verme"
-	line "cuando atrapes 15"
+	para "Vuelve cuando"
+	line "tengas al menos 15"
 	cont "especies."
 	done
 
 ProfOaksAide1HereYouGoText:
-	text "A ver…"
-	line "¡Buen trabajo! Has"
-
-	para "atrapado "
+	text "A ver… ¡Genial!"
+	line "Has atrapado "
 	text_decimal wTempDexOwn, 2, 3
 	text ""
-	line "especies de"
-	cont "#mon."
+	line "especies #mon."
 
-	para "¡Felicidades!"
+	para "¡Enhorabuena!"
 	line "¡Aquí tienes!"
 	done
