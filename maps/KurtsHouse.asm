@@ -363,9 +363,8 @@ KurtsGranddaughter1:
 
 	text "Los Slowpoke no"
 	line "están… ¿Se los"
-
-	para "habrá llevado"
-	line "gente mala?"
+	cont "habrá llevado la"
+	cont "gente mala?"
 	done
 
 KurtsGranddaughter2:
@@ -394,18 +393,16 @@ PokemonJournalProfWestwoodScript:
 	text "Diario #mon"
 
 	para "Edición especial:"
-	line "¡Prof.Westwood!"
+	line "¡Prof. Westwood!"
 
-	para "El Prof.Westwood V"
-	line "da clases en la"
-	cont "Univ. de Azulona."
+	para "El Prof. Westwood"
+	line "V da clase en la"
+	cont "Univ. Azulona."
 
 	para "El trabajo de sus"
 	line "ancestros en 1925"
-
-	para "llevó al desarro-"
-	line "llo de las #"
-	cont "Balls modernas."
+	cont "creó las # Balls"
+	cont "modernas."
 	done
 
 KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
@@ -444,47 +441,39 @@ KurtsHouseStepAwayFromKurt_MovementData:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "¿Eh? ¿Tú quién"
-	line "eres?"
+	text "¿Eh? ¿Quién eres?"
 
 	para "¿<PLAYER>? ¿Y"
-	line "quieres que haga"
-	cont "algunas Balls?"
+	line "quieres Balls?"
 
 	para "Pues lo siento,"
 	line "tendrás que"
 	cont "esperar."
 
 	para "¿Conoces al Team"
-	line "Rocket? Bueno,"
+	line "Rocket? Bueno, te"
+	cont "lo contaré igual."
 
-	para "da igual, te lo"
-	line "contaré."
-
-	para "El Team Rocket es"
-	line "una banda malvada"
-
-	para "que usa #mon"
-	line "para cosas malas."
+	para "Son una banda"
+	line "malvada que usa"
+	cont "#mon para cosas"
+	cont "malas."
 
 	para "Se suponía que se"
 	line "habían disuelto"
 	cont "hace tres años."
 
-	para "¡El caso es que"
-	line "están en el pozo,"
+	para "¡Y ahora están en"
+	line "el pozo cortando"
+	cont "Colas Slowpoke"
+	cont "para venderlas!"
 
-	para "cortando Colas"
-	line "Slowpoke para"
-	cont "venderlas!"
+	para "¡Iré allí y les"
+	line "daré su merecido!"
 
-	para "¡Así que voy a ir"
-	line "allí y darles una"
-	cont "buena lección!"
-
-	para "¡Aguantad, Slowpo-"
-	line "ke! ¡El viejo Cé-"
-	cont "sar va en camino!"
+	para "¡Aguantad, amigos!"
+	line "¡El viejo César"
+	cont "va en camino!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
@@ -492,20 +481,16 @@ KurtsHouseKurtHonoredToMakeBallsText:
 	line "<PLAYER>!"
 
 	para "Te portaste como"
-	line "un verdadero"
-	cont "héroe en el pozo."
+	line "un héroe en el"
+	cont "pozo. ¡Me gusta!"
 
-	para "¡Me gusta tu"
-	line "estilo!"
-
-	para "Sería un honor"
+	para "Será un honor"
 	line "hacer Balls para"
+	cont "alguien como tú."
 
-	para "un entrenador"
-	line "como tú."
-
-	para "Pero primero nece-"
-	line "sitas Bonguris."
+	para "Pero antes te"
+	line "harán falta unos"
+	cont "Bonguris."
 
 	para "¡Toma esta Caja"
 	line "Bonguri!"
@@ -528,21 +513,21 @@ KurtsHouseKurtAskYouHaveAnApricornText:
 	text "César: ¿Me traes"
 	line "un Bonguri?"
 
-	para "¡Bien! Te lo con-"
-	line "vertiré en Ball."
+	para "¡Bien! Te haré una"
+	line "Ball con él."
 	done
 
 KurtsHouseKurtGetStartedText:
-	text "César: ¡Voy a po-"
-	line "nerme ahora mismo!"
+	text "César: ¡Me pongo"
+	line "a ello ahora!"
 	done
 
 KurtsHouseKurtItWillTakeADayText:
 	text "César: Tardaré un"
-	line "poco en hacerte la"
+	line "poco con la Ball."
 
-	para "Ball. Pásate por"
-	line "aquí más tarde."
+	para "Pásate por aquí"
+	line "más tarde."
 	done
 
 KurtsHouseKurtThatsALetdownText:
@@ -572,33 +557,30 @@ KurtsHouseKurtTurnedOutGreatText:
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
-	text "César: Ahora que"
-	line "me ayuda mi"
-
-	para "nieta, puedo tra-"
-	line "bajar más rápido."
+	text "César: Con la"
+	line "ayuda de mi nieta,"
+	cont "¡trabajo mucho más"
+	cont "rápido!"
 	done
 
 KurtsHouseKurtWhatIsThatText:
 	text "¿Q-qué es eso?"
 
-	para "Nunca antes"
-	line "había visto algo"
-	cont "así."
+	para "Nunca antes había"
+	line "visto algo así."
 
-	para "Se parece mucho"
-	line "a una # Ball,"
+	para "Se parece mucho a"
+	line "una # Ball,"
+	cont "pero es algo"
+	cont "distinto."
 
-	para "pero parece ser"
-	line "algo distinto."
-
-	para "Déjame que le"
-	line "eche un vistazo."
+	para "Déjame que le eche"
+	line "un vistazo."
 	done
 
 KurtsHouseKurtImCheckingItNowText:
-	text "Estoy comprobán-"
-	line "dola ahora."
+	text "La estoy"
+	line "examinando ahora."
 	done
 
 KurtsHouseKurtAhHaISeeText:
@@ -634,21 +616,20 @@ KurtsGranddaughterSlowpokeBackText:
 
 KurtsGranddaughterDadText:
 	text "Mi padre estudia"
-	line "las # Balls"
-	cont "en Silph S.A."
+	line "las # Balls en"
+	cont "Silph S.A."
 
-	para "Me toca quedarme"
-	line "en casa con Slow-"
-	cont "poke y el abuelo."
+	para "Me quedo en casa"
+	line "con Slowpoke y el"
+	cont "abuelo."
 	done
 
 KurtsGranddaughterHelpText:
-	text "¡Ahora puedo ayu-"
-	line "dar al abuelo!"
+	text "¡Ya puedo ayudar"
+	line "a mi abuelo!"
 
-	para "Haremos buenas"
-	line "Balls para ti,"
-	cont "¡así que espera!"
+	para "¡Haremos grandes"
+	line "Balls para ti!"
 	done
 
 KurtsGranddaughterFunText:

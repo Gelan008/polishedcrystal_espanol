@@ -84,27 +84,23 @@ KogaScript:
 	para "Soy Koga, del"
 	line "Alto Mando."
 
-	para "¡Vivo en las som-"
-	line "bras como ninja!"
+	para "¡Como buen ninja,"
+	line "vivo en las"
+	cont "sombras!"
 
-	para "¡Mi estilo te"
-	line "confundirá y des-"
-	cont "truirá!"
+	para "¡Mi estilo te va"
+	line "a confundir y"
+	cont "destruir!"
 
 	para "Confusión, sueño,"
 	line "veneno…"
 
-	para "¡Prepárate para"
-	line "ser víctima de mi"
-	cont "siniestra técnica!"
+	para "¡Caerás ante mis"
+	line "técnicas ninja!"
 
-	para "¡Fwahahahaha!"
-
-	para "Los #mon no se"
-	line "basan en la"
-
-	para "fuerza bruta…"
-	line "¡Pronto lo verás!"
+	para "Los #mon no son"
+	line "solo fuerza bruta"
+	cont "¡Ya lo verás!"
 	done
 
 .BeatenText:
@@ -114,34 +110,30 @@ KogaScript:
 	done
 
 .AfterText:
-	text "Te he sometido a"
-	line "todo lo que he"
-	cont "podido."
+	text "Lo he intentado"
+	line "todo contigo."
 
-	para "Pero fallé. Debo"
+	para "He fallado. Debo"
 	line "perfeccionar mis"
-	cont "habilidades."
+	cont "técnicas."
 
-	para "¡Ve a la siguien-"
-	line "te sala y pon a"
+	para "¡Pasa a la otra"
+	line "sala y pon a"
 	cont "prueba tu poder!"
 	done
 
 .SeenRematchText:
-	text "Tu llegada es"
-	line "realmente impre-"
-	cont "sionante, al igual"
-	cont "que tu resolución."
+	text "Tu llegada y tu"
+	line "resolución son"
+	cont "impresionantes."
 
 	para "¡Fwahahahaha!"
 
-	para "¡Mi habilidad será"
-	line "difícil de"
-	cont "superar!"
+	para "¡No superarás mis"
+	line "habilidades!"
 
-	para "¡Déjame mostrarte"
-	line "lo que quiero"
-	cont "decir!"
+	para "¡Déjame que te lo"
+	line "demuestre!"
 	done
 
 .AfterRematchText:

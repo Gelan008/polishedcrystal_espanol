@@ -48,9 +48,8 @@ Script_ChangeLuckyIslandMap:
 GenericTrainerFisherHall:
 	generictrainer FISHER, HALL, EVENT_BEAT_FISHER_HALL, .SeenText, .BeatenText
 
-	text "Simplemente no"
-	line "aprecias mi sen-"
-	cont "tido del humor."
+	text "No aprecias mi"
+	line "sentido del humor."
 	done
 
 .SeenText:
@@ -106,15 +105,15 @@ GenericTrainerBakerOlga:
 GenericTrainerArtistReina:
 	generictrainer ARTIST, REINA, EVENT_BEAT_ARTIST_REINA, .SeenText, .BeatenText
 
-	text "Pondré un arboli-"
-	line "to feliz para"
-	cont "tapar eso."
+	text "Pondré un árbol"
+	line "feliz para tapar"
+	cont "eso."
 	done
 
 .SeenText:
-	text "¡Este soleado pra-"
-	line "do será un pre-"
-	cont "cioso cuadro!"
+	text "¡Este bonito prado"
+	line "será un cuadro"
+	cont "hermoso!"
 	done
 
 .BeatenText:
@@ -133,8 +132,8 @@ GenericTrainerArtistAlina:
 	text "Esta isla casi"
 	line "nunca aparece."
 
-	para "¡Tuve mucha suer-"
-	line "te al encontrarla!"
+	para "¡Qué suerte haber"
+	line "dado con ella!"
 	done
 
 .BeatenText:
@@ -144,9 +143,9 @@ GenericTrainerArtistAlina:
 GenericTrainerSightseersLiandsu1:
 	generictrainer SIGHTSEERS, LIANDSU1, EVENT_BEAT_SIGHTSEERS_LI_AND_SU, .SeenText, .BeatenText
 
-	text "Li: Su y yo segui-"
-	line "mos discutiendo"
-	cont "sobre esto."
+	text "Li: Su y yo aún"
+	line "discutimos sobre"
+	cont "este tema."
 	done
 
 .SeenText:

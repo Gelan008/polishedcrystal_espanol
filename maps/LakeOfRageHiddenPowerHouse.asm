@@ -63,21 +63,18 @@ HiddenPowerGuy:
 	done
 
 .Text1:
-	text "…Has viajado"
+	text "…Vienes desde muy"
 	line "lejos…"
 
-	para "He meditado"
-	line "aquí. Dentro de"
+	para "He meditado aquí y"
+	line "un nuevo poder ha"
+	cont "despertado en mí."
 
-	para "mí, un nuevo"
-	line "poder ha"
-	cont "despertado."
+	para "Compartiré este"
+	line "poder con tus"
+	cont "#mon."
 
-	para "Déjame compartir"
-	line "mi poder con"
-	cont "tus #mon."
-
-	para "Toma esto, joven."
+	para "¡Toma esto, joven!"
 	done
 
 .Text2:
@@ -95,8 +92,8 @@ HiddenPowerGuy:
 	done
 
 .Text3:
-	text "¿Adivino el Po-"
-	line "der Oculto de"
+	text "¿Quieres saber el"
+	line "Poder Oculto de"
 	cont "tu #mon?"
 	done
 
@@ -106,7 +103,7 @@ HiddenPowerGuy:
 
 .Text5:
 	text "¿De qué #mon"
-	line "adivino su"
+	line "quieres saber su"
 	cont "Poder Oculto?"
 	done
 

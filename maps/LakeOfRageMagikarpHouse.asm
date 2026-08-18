@@ -72,102 +72,85 @@ MagikarpLengthRaterScript:
 	line "impresionante!"
 
 	para "…Ojalá pudiera"
-	line "decir eso, pero"
-
-	para "he visto uno más"
-	line "grande antes."
+	line "decir eso, pero vi"
+	cont "otro más grande."
 	done
 
 .Refused:
 	jumpthisopenedtext
 
-	text "Oh… ¿Así que no"
-	line "conseguiste uno"
+	text "Oh… ¿No tienes uno"
+	line "bueno que puedas"
+	cont "mostrarme?"
 
-	para "bueno para ense-"
-	line "ñarme?"
-	cont "A la próxima."
+	para "Otra vez será."
 	done
 
 MagikarpLengthRaterText_LakeOfRageHistory:
-	text "El Lago de la Fu-"
-	line "ria es un cráter"
+	text "El Lago de la"
+	line "Furia es un cráter"
+	cont "de Gyarados."
 
-	para "hecho por Gyarados"
-	line "furiosos."
+	para "Se llenó de agua,"
+	line "de lluvia y así"
+	cont "se formó el lago."
 
-	para "El cráter se llenó"
-	line "de agua de lluvia"
+	para "Eso me lo contó"
+	line "el tatarabuelo de"
+	cont "mi propio abuelo."
 
-	para "y se formó el"
-	line "lago."
-
-	para "Esa historia me"
-	line "la contó el tara-"
-	cont "rabuelo de mi"
-	cont "abuelo."
-
-	para "Antes, se podían"
-	line "pescar Magikarp"
-
-	para "muy vivaces,"
-	line "pero…"
+	para "Antes se pescaban"
+	line "Magikarp muy"
+	cont "vivaces, pero…"
 
 	para "No entiendo qué"
 	line "está pasando."
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "El lago no ha"
-	line "sido normal desde"
-
-	para "que llegaron esos"
-	line "hombres de negro."
+	text "El lago no está"
+	line "normal desde que"
+	cont "llegó esa gente"
+	cont "vestida de negro."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "El lago ha vuelto"
-	line "a la normalidad."
+	text "El lago vuelve a"
+	line "la normalidad y"
+	cont "han regresado los"
+	cont "Magikarp."
 
-	para "Los Magikarp han"
-	line "regresado."
-
-	para "Quizá pueda cum-"
-	line "plir mi sueño de"
-	cont "ver el Magikarp"
-	cont "más grande."
+	para "Quizá pueda lograr"
+	line "mi sueño de ver el"
+	cont "Magikarp más"
+	cont "grande."
 
 	para "¿Tienes Caña?"
-	line "Si es así, ayúda-"
-	cont "me."
+	line "¡Ayúdame si es"
+	cont "así!"
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "¡Ah, tienes un"
-	line "Magikarp! Veamos"
-
-	para "qué tan grande es"
-	line "ese pequeñín."
+	text "¡Ah, un Magikarp!"
+	line "Veamos cómo es de"
+	cont "grande."
 	done
 
 MagikarpLengthRaterText_Memento:
 	text "¡Guau! ¡Este es"
 	line "impresionante!"
 
-	para "¡Me quito el som-"
-	line "brero ante ti!"
-
-	para "¡Toma esto de re-"
-	line "cuerdo!"
+	para "¡Me quito el"
+	line "sombrero ante ti!"
+	cont "¡Toma un recuerdo!"
 	done
 
 MagikarpLengthRaterText_Bonus:
 	text "El récord es lo"
 	line "más importante."
 
-	para "¡Piensa en eso co-"
-	line "mo un premio ex-"
-	cont "tra!"
+	para "¡Tómalo como un"
+	line "premio extra!"
 	done
 
 MagikarpLengthRaterText_NotMagikarp:

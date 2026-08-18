@@ -29,10 +29,10 @@ LyrasDadScript:
 	jumpthisopenedtext
 
 	text "¡Hola, <PLAYER>!"
-	line "Lira no está aquí."
+	line "Lira no está."
 
-	para "Ha estado ocupa-"
-	line "da ayudando al"
+	para "Ha estado ocupada"
+	line "ayudando al"
 	cont "Profesor."
 	done
 
@@ -72,8 +72,8 @@ LyrasFridgeScript:
 	done
 
 LyrasSinkText:
-	text "El fregadero es-"
-	line "tá impecable."
+	text "El fregadero está"
+	line "impecable."
 	done
 
 LyrasStoveText:
@@ -84,14 +84,11 @@ LyrasStoveText:
 LyrasTVScript:
 	jumpthistext
 
-	text "Hay una peli en"
-	line "la tele: Una ni-"
+	text "En la tele: Un"
+	line "pirata con su"
+	cont "tripulación busca"
+	cont "el One Piece…"
 
-	para "ña con coletas"
-	line "camina por un ca-"
-	cont "mino de baldosas."
-
-	para "¡Yo también debe-"
-	line "ría ponerme en"
-	cont "marcha!"
+	para "¡Yo también me voy"
+	line "a poner en marcha!"
 	done

@@ -48,9 +48,7 @@ LavRadioTower1FGentlemanScript:
 .GotExpnCardText:
 	text "Con ese trasto"
 	line "podrás sintonizar"
-
-	para "los programas de"
-	line "radio de Kanto."
+	cont "la radio de Kanto."
 
 	para "¡Gahahahaha!"
 	done
@@ -58,40 +56,30 @@ LavRadioTower1FGentlemanScript:
 .OffTheAirText:
 	text "¡Oh, no, no, no!"
 
-	para "No hemos emitido"
-	line "nada desde que la"
+	para "No emitimos nada"
+	line "desde que cerró la"
+	cont "Central Energía."
 
-	para "Central Energía"
-	line "cerró."
-
-	para "Todos mis esfuer-"
-	line "zos para abrir es-"
-
-	para "ta emisora serán"
-	line "en vano si no"
-	cont "puedo emitir."
+	para "¡Todo mi trabajo"
+	line "no valdrá nada si"
+	cont "no puedo emitir!"
 
 	para "¡Será mi ruina!"
 	done
 
 .ReturnedMachinePartText:
 	text "¡Ah! ¿Tú eres"
-	line "<PLAYER>, quien"
+	line "<PLAYER>?"
 
-	para "resolvió el pro-"
-	line "blema de la Cen-"
-	cont "tral Energía?"
+	para "¡Salvaste la"
+	line "Central Energía!"
 
-	para "Gracias a ti no"
-	line "he perdido mi"
-	cont "empleo."
+	para "Gracias a ti no he"
+	line "perdido mi empleo."
+	cont "¡Me has salvado!"
 
-	para "¡Me has salvado"
-	line "la vida!"
-
-	para "Por favor, acepta"
-	line "esto en agrade-"
-	cont "cimiento."
+	para "Acepta esto como"
+	line "agradecimiento."
 	done
 
 LavRadioTower1FSuperNerd2Script:
@@ -99,78 +87,56 @@ LavRadioTower1FSuperNerd2Script:
 	iftrue_jumptextfaceplayer LavRadioTower1FSuperNerd2Text_GotExpnCard
 	jumpthistextfaceplayer
 
-	text "¡Hola!"
+	text "¡Hola! ¡Soy el"
+	line "Director Musical!"
 
-	para "¡Soy el genial Di-"
-	line "rector de Música!"
-
-	para "¿Eh? Tu #gear"
-	line "no puede sintoni-"
-
-	para "zar mis programas"
-	line "musicales."
-	cont "¡Qué mala pata!"
+	para "¿? Tu #gear no"
+	line "puede sintonizar"
+	cont "mi música. ¡Vaya!"
 
 	para "Si consigues una"
-	line "Tarj. Expansión"
-
-	para "podrás sintonizar"
-	line "los programas."
+	line "Tarj. Expansión,"
+	cont "podrás oírla."
 	cont "¡A qué esperas!"
 	done
 
 LavRadioTower1FReceptionistText:
 	text "¡Bienvenido!"
-	line "Puedes echar un"
-
-	para "vistazo a toda"
-	line "esta planta."
+	line "Puedes mirar por"
+	cont "toda esta planta."
 	done
 
 LavRadioTower1FOfficerText:
-	text "Lo siento, pero"
-	line "sólo puedes visi-"
-	cont "tar la planta"
-	cont "baja."
+	text "Lo siento, solo"
+	line "puedes visitar la"
+	cont "planta baja."
 
-	para "Desde que la Torre"
-	line "Radio de Johto"
-
-	para "fue tomada por u-"
-	line "na banda criminal,"
-
-	para "hemos tenido que"
-	line "aumentar la se-"
-	cont "guridad."
+	para "Desde que tomaron"
+	line "la Torre Radio en"
+	cont "Johto, aumentamos"
+	cont "la seguridad."
 	done
 
 LavRadioTower1FSuperNerd1Text:
 	text "Hay mucha gente"
 	line "trabajando duro en"
+	cont "la Torre Radio."
 
-	para "la Torre Radio."
-
-	para "Deben de estar ha-"
-	line "ciendo todo lo po-"
-	cont "sible para ofrecer"
-	cont "buenos programas."
+	para "Lo dan todo para"
+	line "emitir muy buenos"
+	cont "programas."
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
-	text "¡Hola!"
+	text "¡Hola! ¡Soy el"
+	line "Director Musical!"
 
-	para "¡Soy el genial Di-"
-	line "rector de Música!"
+	para "¡Creo todas las"
+	line "bellas melodías"
+	cont "que emitimos!"
 
-	para "Soy el responsa-"
-	line "ble de las maravi-"
-
-	para "llosas melodías"
-	line "que se emiten."
-
-	para "¡No seas soso!"
-	line "¡Sintoniza tu"
-	cont "música favorita!"
+	para "¡No seas soso y"
+	line "escucha la radio!"
 	done
 
 LavRadioTower1FDirectoryText:
@@ -194,11 +160,10 @@ LavRadioTower1FPokeFluteSignText:
 
 ; TODO: use this text
 LavRadioTower1FReferenceLibraryText:
-	text "¡Guau! Una estante"
-	line "ría entera de CD y"
-	cont "vídeos de #mon."
+	text "¡Guau! ¡Toda una"
+	line "estantería de CD y"
+	cont "vídeos #mon!"
 
-	para "Esta debe ser la"
-	line "biblioteca de con-"
-	cont "sulta."
+	para "¡Debe de ser la"
+	line "fonoteca!"
 	done

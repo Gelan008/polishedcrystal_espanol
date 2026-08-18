@@ -22,12 +22,13 @@ LyrasHouseLyraText:
 	text "Lira: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "Mmm… Puede que"
-	line "últimamente mi"
+	para "Mmm… Puede que mi"
+	line "#mon esté más"
+	cont "gordito…"
 
-	para "#mon esté co-"
-	line "giendo algo de"
-	cont "peso…"
+	para "Tendré que ponerlo"
+	cont "a dieta."
+
 	done
 
 LyrasHousePidgeotText:
@@ -36,7 +37,7 @@ LyrasHousePidgeotText:
 
 LyrasHousePCText:
 	text "¡No deberías"
-	line "urgar en el PC"
+	line "hurgar en el PC"
 	cont "de los demás!"
 	done
 

@@ -98,11 +98,11 @@ ProfIvyScript:
 	jumpthisopenedtext
 
 .NoBerryText:
-	text "Ivy: Lo en-"
-	line "tiendo…"
+	text "Ivy: Lo entiendo…"
 
-	para "No te sobran tres"
-	line "Bayas Lichi."
+	para "No tienes tres"
+	line "Bayas Lichi de"
+	cont "sobra."
 	done
 
 .RequestText:
@@ -112,15 +112,13 @@ ProfIvyScript:
 	para "¿Puedo pedirte un"
 	line "favor?"
 
-	para "Este Nidorino"
-	line "está enfermo y"
+	para "Este Nidorino está"
+	line "enfermo y las"
+	cont "Bayas Ziuela no"
+	cont "le ayudan."
 
-	para "mis Bayas Ziuela"
-	line "no le ayudan."
-
-	para "¿Puedes encontrar"
-	line "tres Bayas Lichi"
-	cont "para él?"
+	para "¿Podrías traerle"
+	line "tres Bayas Lichi?"
 	done
 
 .OkayText:
@@ -141,17 +139,17 @@ ProfIvyScript:
 	line "mucho más sano!"
 
 	para "Por favor, toma"
-	line "esto por las mo-"
-	cont "lestias."
+	line "esto como muestra"
+	cont "de gratitud."
 	done
 
 .ChallengeText:
 	text "Ivy: Me vendría"
-	line "bien un descanso"
-	cont "del trabajo."
+	line "bien descansar del"
+	cont "trabajo."
 
-	para "¿Qué tal un com-"
-	line "bate rápido?"
+	para "¿Qué tal un"
+	line "combate rápido?"
 	done
 
 .NoText:
@@ -166,14 +164,13 @@ ProfIvyScript:
 	done
 
 .BeatenText:
-	text "¡No me sorpren-"
-	line "des!"
+	text "¡No dejas de"
+	line "sorprenderme!"
 	done
 
 .AfterText:
-	text "Ivy: ¡Fue un"
-	line "combate apasio-"
-	cont "nante!"
+	text "Ivy: ¡Ha sido un"
+	line "gran combate!"
 	done
 
 IvysLabHopeScript:
@@ -182,8 +179,8 @@ IvysLabHopeScript:
 	jumpthistextfaceplayer
 
 	text "Hope: La Prof. Ivy"
-	line "cuida de los #-"
-	cont "mon de esta isla."
+	line "cuida de los"
+	cont "#mon de la isla"
 
 	para "Ahora mismo está"
 	line "atendiendo a un"
@@ -258,12 +255,12 @@ PokemonJournalProfIvyScript:
 
 	text "Diario #mon"
 
-	para "Edición: ¡Profe-"
-	line "sora #mon Ivy!"
+	para "Edición: ¡Prof."
+	line "#mon Ivy!"
 
 	para "Philena Ivy"
-	line "trabajó con Brock"
-	cont "de Ciudad Plateada"
+	line "trabajó junto a"
+	cont "Brock de Plateada"
 
 	para "para estudiar el"
 	line "cuerpo cristalino"

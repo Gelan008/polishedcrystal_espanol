@@ -86,16 +86,15 @@ LakeOfRageSignText:
 LakeOfRageAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "Poder Oculto pue-"
-	line "de ser de cual-"
+	para "Poder Oculto puede"
+	line "ser de cualquier"
 if DEF(FAITHFUL)
-	cont "quier tipo, menos"
+	cont "tipo, menos del"
+	cont "tipo Hada!"
 else
-	cont "quier tipo, in-"
-	cont "cluso del nuevo"
+	cont "tipo, ¡incluido el"
+	cont "tipo Hada!"
 endc
-
-	para "tipo Hada!"
 	done
 
 LakeOfRageFishingGuruSign:
@@ -141,9 +140,8 @@ LakeOfRageLanceScript:
 	setevent EVENT_REFUSED_TO_HELP_LANCE_AT_LAKE_OF_RAGE
 	jumpthisopenedtext
 
-	text "Oh… Bueno, si"
-	line "cambias de opi-"
-	cont "nión, ayúdame."
+	text "Oh… Si cambias de"
+	line "opinión, ayúdame."
 	done
 
 .AskForHelpAgain:
@@ -170,47 +168,36 @@ LakeOfRageLanceScript:
 	line "los rumores?"
 
 	para "¿Eres <PLAYER>?"
-	line "Soy Lance, un En-"
-	cont "trenador, como tú."
+	line "Soy Lance, otro"
+	cont "Entrenador."
 
-	para "He oído rumores,"
-	line "así que vine a in-"
-	cont "vestigar…"
+	para "Oí esos rumores y"
+	line "vine a investigar…"
 
-	para "Antes te vi"
-	line "combatir,"
-	cont "<PLAYER>."
+	para "Te vi combatir,"
+	line "<PLAYER>."
 
-	para "Puedo asegurar que"
-	line "eres un Entrena-"
+	para "Se nota que tienes"
+	line "gran habilidad."
 
-	para "dor con suma ha-"
-	line "bilidad."
-
-	para "Si no te importa,"
-	line "¿podrías ayudarme"
-	cont "a investigar?"
+	para "¿Podrías ayudarme"
+	line "a investigar?"
 	done
 
 .YesText:
 	text "Lance: ¡Excelente!"
 
-	para "Parece que a los"
-	line "Magikarp del lago"
+	para "A los Magikarp del"
+	line "lago los fuerzan a"
+	cont "evolucionar."
 
-	para "se los fuerza a"
-	line "evolucionar."
+	para "La causa es una"
+	line "extraña emisión de"
+	cont "radio desde Caoba."
 
-	para "El origen es una"
-	line "misteriosa trans-"
-
-	para "misión de radio"
-	line "de Pueblo Caoba."
-
-	para "Te estaré espe-"
-	line "rando, <PLAYER>."
+	para "Te espero allí,"
+	line "<PLAYER>."
 	done
-
 
 .QuestionText:
 	text "Lance: ¿Mmm?"
@@ -222,11 +209,10 @@ LakeOfRageEngineerText:
 
 	para "Tengo grandes"
 	line "ideas para este"
-	cont "lugar, ¡ya verás!"
+	cont "sitio, ¡ya verás!"
 
-	para "Es el lugar per-"
-	line "fecto para mi"
-	cont "próximo proyecto."
+	para "¡Es el sitio ideal"
+	line "para mi proyecto!"
 	done
 
 LakeOfRageRedGyaradosScript:
@@ -283,9 +269,9 @@ WesleyScript:
 	setevent EVENT_GOT_BLACK_BELT_FROM_WESLEY
 	jumpthisopenedtext
 
-	text "Merlín: El Cin-"
-	line "turón Negro aumen-"
-	cont "ta el poder de los"
+	text "Merlín: Ese"
+	line "Cinturón Negro da"
+	cont "más poder a los"
 	cont "ataques de Lucha."
 	done
 
@@ -309,21 +295,18 @@ WesleyScript:
 	done
 
 .GivesGiftText:
-	text "Encantada de cono-"
-	line "certe. Ten este"
-	cont "souvenir."
+	text "Un placer verte."
+	line "Ten este recuerdo."
 	done
 
 .WednesdayText:
-	text "Merlín: Puesto"
-	line "que me has encon-"
-	cont "trado, debes de"
+	text "Merlín: Ya que me"
+	line "has encontrado,"
+	cont "habrás visto ya a"
+	cont "mis hermanos."
 
-	para "haberte topado"
-	line "con mis hermanos."
-
-	para "¿O fue pura"
-	line "suerte?"
+	para "¿O ha sido pura"
+	line "casualidad?"
 	done
 
 GenericTrainerCooltrainermAaron:
@@ -366,11 +349,9 @@ GenericTrainerCooltrainerfLois:
 
 	para "¿Ya no está?"
 
-	para "Maldición, ¿he ve-"
-	line "nido para nada?"
-
-	para "¡Ya sé! ¡Vamos"
-	line "a luchar!"
+	para "¿He venido para"
+	line "nada? ¡Pues vamos"
+	cont "a luchar!"
 	done
 
 .BeatenText:
@@ -393,12 +374,10 @@ FisherAndreSeenText:
 	done
 
 FisherAndreBeatenText:
-	text "Puedo ser un pes-"
-	line "cador experto, pe-"
-
-	para "ro apesto como"
-	line "entrenador #-"
-	cont "mon…"
+	text "Seré un experto"
+	line "pescando, pero"
+	cont "combatiendo soy un"
+	cont "desastre…"
 	done
 
 GenericTrainerFisherRaymond:
@@ -418,8 +397,8 @@ FisherRaymondSeenText:
 	done
 
 FisherRaymondBeatenText:
-	text "Mi sedal está to-"
-	line "do enredado…"
+	text "Mi sedal está muy"
+	line "enredado…"
 	done
 
 LakeOfRageGrampsScript:
@@ -427,39 +406,32 @@ LakeOfRageGrampsScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "¡Los Gyarados es-"
-	line "tán furiosos!"
+	text "¡Los Gyarados"
+	line "están furiosos!"
 
-	para "¡Es un mal au-"
-	line "gurio!"
+	para "¡Qué mal augurio!"
 	done
 
 .Text2:
-	text "¡Jaja! ¡Los Magi-"
-	line "karp están pi-"
-	cont "cando!"
+	text "¡Jaja! ¡Pican los"
+	line "Magikarp!"
 	done
 
 LakeOfRageSuperNerdText:
-	text "Dicen que este la-"
-	line "go fue creado por"
+	text "Dicen que el lago"
+	line "lo crearon unos"
 	cont "Gyarados furiosos."
 
-	para "¿Habrá alguna"
-	line "conexión"
-
-	para "con su aparición"
-	line "masiva de ahora?"
+	para "¿Tendrá que ver"
+	line "con que aparezcan"
+	cont "tantos ahora?"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "¿Me han engañado"
-	line "los ojos? Vi un"
+	text "¿Me fallan los"
+	line "ojos? ¡He visto un"
+	cont "Gyarados rojo!"
 
-	para "Gyarados rojo en"
-	line "el lago…"
-
-	para "¿Pero no se supo-"
-	line "ne que los Gyara-"
-	cont "dos son azules?"
+	para "¿Pero los Gyarados"
+	line "no son azules?"
 	done

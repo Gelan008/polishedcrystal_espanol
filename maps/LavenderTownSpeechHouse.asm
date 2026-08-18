@@ -15,15 +15,11 @@ LavenderTownSpeechHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderSpeechHousePokefanFText, -1
 
 LavenderSpeechHousePokefanFText:
-	text "Lavanda es un pue-"
-	line "blecito tranquilo"
+	text "Pueblo Lavanda es"
+	line "muy tranquilo, al"
+	cont "pie del monte."
 
-	para "al pie de las mon-"
-	line "tañas."
-
-	para "Hay más movimien-"
-	line "to desde que se"
-
-	para "construyó la Torre"
-	line "Radio."
+	para "Hay más ajetreo"
+	line "desde que hicieron"
+	cont "la Torre Radio."
 	done

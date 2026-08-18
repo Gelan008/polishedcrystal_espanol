@@ -89,17 +89,13 @@ KarenScript:
 	line "#mon de tipo"
 	cont "Siniestro."
 
-	para "Me atrae mucho su"
-	line "imagen salvaje y"
-	cont "dura."
+	para "Me atrae su imagen"
+	line "salvaje y dura."
+	cont "¡Y son tan fuertes!"
 
-	para "Y son muy fuertes."
-
-	para "¿Crees que puedes"
-	line "con ellos? Intenta"
-	cont "entretenerme."
-
-	para "¡Vamos!"
+	para "¿Podrás con ellos?"
+	line "¡Entretenme un"
+	cont "poco! ¡Vamos!"
 	done
 
 .BeatenText:
@@ -115,22 +111,20 @@ KarenScript:
 	para "#mon débiles."
 
 	para "Esa es la visión"
-	line "egoísta que tiene"
-	cont "la gente."
+	line "egoísta de la"
+	cont "gente."
 
-	para "Si un Entrenador"
-	line "es bueno, debería"
+	para "Un buen Entrenador"
+	line "debería intentar"
+	cont "ganar con sus"
+	cont "favoritos."
 
-	para "intentar ganar con"
-	line "sus favoritos."
+	para "Me gusta cómo lo"
+	line "haces. Sabes lo"
+	cont "que importa."
 
-	para "Me gusta tu es-"
-	line "tilo. Tú sabes lo"
-	cont "que es importan-"
-	cont "te."
-
-	para "Adelante, el Cam-"
-	line "peón te espera."
+	para "Adelante, el"
+	line "Campeón te espera."
 	done
 
 .SeenRematchText:
@@ -152,7 +146,7 @@ KarenScript:
 	line "del camino que he"
 	cont "elegido."
 
-	para "Lance está de-"
-	line "seando volver a"
-	cont "verte."
+	para "Lance arde en"
+	line "deseos de volver"
+	cont "a verte."
 	done

@@ -155,88 +155,69 @@ LanceScript:
 
 .SeenText:
 	text "Lance: Te estaba"
-	line "esperando."
+	line "esperando,"
+	cont "¡<PLAYER>!"
 
-	para "¡<PLAYER>!"
+	para "Sabía que con tu"
+	line "gran talento"
+	cont "llegarías a mí."
 
-	para "Sabía que tú,"
-	line "con tus dotes,"
+	para "Sobran ya las"
+	line "palabras."
 
-	para "llegarías hasta"
-	line "mí algún día."
+	para "¡Lucharemos para"
+	line "ver quién es el"
+	cont "más fuerte!"
 
-	para "No hay necesidad"
-	line "de hablar más."
+	para "Como Campeón de la"
+	line "Liga #mon…"
 
-	para "Lucharemos para"
-	line "determinar quién"
-
-	para "es el más fuerte"
-	line "de los dos."
-
-	para "Como el Entrena-"
-	line "dor más fuerte"
-	cont "y Campeón de la"
-
-	para "Liga #mon…"
-
-	para "Yo, Lance, el ma-"
-	line "estro dragón,"
-	cont "¡acepto tu reto!"
+	para "¡Yo, Lance, el"
+	line "maestro dragón,"
+	cont "acepto tu reto!"
 	done
 
 .BeatenText:
 	text "…Se acabó."
 
-	para "Pero es una sen-"
-	line "sación extraña."
+	para "Qué sensación más"
+	line "extraña."
 
-	para "No me enfada ha-"
-	line "ber perdido."
-	cont "De hecho, estoy"
-	cont "contento."
+	para "No me duele haber"
+	line "perdido. De hecho,"
+	cont "¡estoy contento!"
 
-	para "¡Contento de"
-	line "presenciar el as-"
-
-	para "censo de un gran"
-	line "y nuevo Campeón!"
+	para "¡Feliz de ver el"
+	line "nacimiento de un"
+	cont "nuevo Campeón!"
 	done
 
 .AfterText:
 	text "…Uf."
 
-	para "Te has vuelto"
-	line "realmente fuerte,"
-	cont "<PLAYER>."
+	para "Te has hecho muy"
+	line "fuerte, <PLAYER>."
 
 	para "Tus #mon han"
 	line "respondido a tu"
-
-	para "naturaleza fuerte"
-	line "y honesta."
+	cont "noble corazón."
 
 	para "Como Entrenador,"
-	line "seguirás"
-
-	para "haciéndote fuerte"
-	line "con tus #mon."
+	line "seguirás creciendo"
+	cont "junto a ellos."
 	done
 
 .SeenRematchText:
-	text "Lance: No hay ne-"
-	line "cesidad de ha-"
-	cont "blar más."
+	text "Lance: No hace"
+	line "falta hablar más."
 
-	para "Lucharemos para"
-	line "determinar quién"
+	para "¡Lucharemos para"
+	line "ver quién es el"
+	cont "más fuerte!"
 
-	para "es el más fuerte"
-	line "de los dos."
-
-	para "Yo, Lance, el ma-"
-	line "estro dragón,"
-	cont "¡acepto tu reto!"
+	para "¡Yo, Lance, el"
+	line "maestro dragón,"
+	cont "acepto tu reto!"
 	done
 
 .AfterRematchText:
@@ -248,10 +229,8 @@ LanceScript:
 	cont "equipo."
 
 	para "Como Entrenador,"
-	line "seguirás"
-
-	para "haciéndote fuerte"
-	line "con tus #mon."
+	line "seguirás creciendo"
+	cont "junto a ellos."
 	done
 
 .MaryText1:
@@ -266,31 +245,22 @@ LanceScript:
 	text "Prof. Oak: ¡Ah,"
 	line "<PLAYER>!"
 
-	para "Ha pasado un"
-	line "tiempo."
+	para "¡Cuánto tiempo!"
+	line "Te ves genial."
 
-	para "Desde luego, te"
-	line "ves impresionante."
+	para "¡Tu victoria en la"
+	line "Liga es soberbia!"
 
-	para "¡Tu victoria en"
-	line "la Liga es sen-"
-	cont "cillamente genial!"
+	para "Tu dedicación y"
+	line "cariño hacia los"
+	cont "#mon lo han"
+	cont "hecho posible."
 
-	para "Tu dedicación,"
-	line "confianza y amor"
+	para "Y tus #mon han"
+	line "estado sublimes."
 
-	para "por los #mon"
-	line "lo hicieron posi-"
-	cont "ble."
-
-	para "Tus #mon tam-"
-	line "bién estuvieron"
-	cont "espectaculares."
-
-	para "Como creían en ti"
-	line "como Entrenador,"
-
-	para "perseveraron."
+	para "Confiaban en ti"
+	line "y lo dieron todo."
 
 	para "¡Felicidades,"
 	line "<PLAYER>!"
@@ -300,37 +270,28 @@ LanceScript:
 	text "Prof. Oak: ¡Ah,"
 	line "<PLAYER>!"
 
-	para "¡Tu revancha con"
-	line "la Liga fue"
-	cont "fabulosa!"
+	para "¡Tu revancha en la"
+	line "Liga fue genial!"
 
-	para "Me queda claro"
-	line "que comprendes,"
+	para "Se nota que amas"
+	line "y confías en tus"
+	cont "#mon con locura"
 
-	para "confías y amas a"
-	line "los #mon pro-"
-	cont "fundamente."
+	para "El poder de tu"
+	line "equipo lo muestra."
 
-	para "Las grandiosas ha-"
-	line "bilidades de tu"
-	cont "equipo lo mues-"
-	cont "tran."
+	para "Creo que ya eres"
+	line "capaz de afrontar"
+	cont "un gran desafío."
 
-	para "Creo que podrías"
-	line "ser capaz de"
-
-	para "enfrentarte a un"
-	line "desafío peligroso."
-
-	para "¡Ven a verme al"
-	line "Laboratorio lue-"
-	cont "go!"
+	para "¡Ven a verme luego"
+	line "al Laboratorio!"
 	done
 
 .MaryText2:
-	text "Rosa: ¡Entrevis-"
-	line "temos al flamante"
-	cont "nuevo Campeón!"
+	text "Rosa: ¡Hagamos una"
+	line "entrevista al gran"
+	cont "Campeón!"
 	done
 
 .LanceLeavingText:
@@ -343,10 +304,9 @@ LanceScript:
 	done
 
 .MaryText3:
-	text "Rosa: ¡Oh, espe-"
-	line "rad! ¡No hemos"
-	cont "hecho la entre-"
-	cont "vista!"
+	text "Rosa: ¡Esperad!"
+	line "¡Falta hacer la"
+	cont "entrevista!"
 	done
 
 .RushInMovement:

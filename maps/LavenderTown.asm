@@ -180,8 +180,8 @@ KantoRadioStationSignText:
 	line "de Kanto"
 
 	para "¡Tus programas"
-	line "favoritos en ante-"
-	cont "na a todas horas!"
+	line "favoritos en el"
+	cont "aire a toda hora!"
 	done
 
 VolunteerPokemonHouseSignText:
@@ -214,22 +214,19 @@ LavenderTownTeacherText:
 
 LavenderTownGrampsText:
 	text "Viene gente de"
-	line "todas partes pa-"
-
-	para "ra presentar sus"
-	line "respetos a las al-"
-	cont "mas de los #mon"
-	cont "fallecidos."
+	line "todas partes para"
+	cont "honrar a los"
+	cont "#mon difuntos."
 	done
 
 LavenderTownYoungsterText:
-	text "Necesitas una #"
-	line "Flauta para de-"
-	cont "spertar a un #-"
-	cont "mon dormido."
+	text "¡Hace falta una"
+	line "# Flauta para"
+	cont "despertar a un"
+	cont "#mon dormido!"
 
 	para "¡Todo Entrenador"
-	line "debe saber eso!"
+	line "debe saberlo!"
 	done
 
 LavenderTownSuperNerdText:
@@ -250,13 +247,12 @@ LavenderTownCooltrainerFText:
 	done
 
 LavenderTownRockerText:
-	text "Pensé que un tra-"
-	line "bajo en la Torre"
+	text "Creí que trabajar"
+	line "en la Torre Radio"
+	cont "sería una gran"
+	cont "oportunidad…"
 
-	para "Radio sería mi"
-	line "gran oportunid-"
-	cont "dad, pero no"
-
-	para "volveré hasta"
-	line "que sea seguro."
+	para "¡Pero no pienso"
+	line "volver hasta que"
+	cont "sea seguro!"
 	done
