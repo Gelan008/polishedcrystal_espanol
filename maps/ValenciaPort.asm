@@ -66,8 +66,6 @@ ValenciaPortFisherText:
 	line "el mar?"
 
 	para "Estas aguas son"
-	line "diferentes a las"
-
-	para "que se encuentran"
-	line "en Kanto y Johto."
+	line "distintas a las"
+	cont "de Kanto y Johto."
 	done

@@ -39,13 +39,10 @@ GenericTrainerBreederTheresa:
 
 	text "Llevo a peinar a"
 	line "mis #mon en"
+	cont "Ciudad Trigal y a"
+	cont "bendecir en Iris."
 
-	para "Ciudad Trigal y a"
-	line "recibir bendicio-"
-	cont "nes en Ciudad"
-	cont "Iris."
-
-	para "¡Son tan felices!"
+	para "¡Son muy felices!"
 	done
 
 TrainerJugglerIrwin:
@@ -100,9 +97,8 @@ GenericTrainerCamperIvan:
 
 	text "La música de la"
 	line "radio influye en"
-
-	para "el ánimo de los"
-	line "#mon salvajes."
+	cont "el ánimo de los"
+	cont "#mon salvajes."
 	done
 
 GenericTrainerCoupleGailandeli1:
@@ -126,9 +122,8 @@ GenericTrainerPicnickerKim:
 
 	text "Las Medallas de"
 	line "Gimnasio son muy"
-
-	para "bonitas. ¡Me gusta"
-	line "coleccionarlas!"
+	cont "bonitas. ¡Me gusta"
+	cont "coleccionarlas!"
 	done
 
 TrainerBug_catcherArnie1:
@@ -274,21 +269,20 @@ TrainerOfficerDirk:
 .NotNight:
 	jumpthisopenedtext
 
-	text "Tus #mon pare-"
-	line "cen bastante fuer-"
-	cont "tes."
+	text "Tus #mon se ven"
+	line "bastante fuertes."
 
-	para "Podrías ir a cual-"
-	line "quier parte sin"
-	cont "peligro."
+	para "Podrías ir a donde"
+	line "sea sin peligro."
 	done
 
 CamperIvanSeenText:
-	text "Saco datos de"
-	line "#mon de la ra-"
+	text "Saco datos sobre"
+	line "los #mon de la"
+	cont "radio."
 
-	para "dio. ¡Creo que lo"
-	line "tengo dominado!"
+	para "¡Creo que lo tengo"
+	line "todo dominado!"
 	done
 
 CamperIvanBeatenText:
@@ -302,9 +296,9 @@ CoupleGailandeli1SeenText:
 	done
 
 CoupleGailandeli1BeatenText:
-	text "Eli: Ojalá te hu-"
-	line "bieras dejado ga-"
-	cont "nar por mí…"
+	text "Eli: Ojalá te"
+	line "hubieses dejado"
+	cont "ganar por mí…"
 	done
 
 CoupleGailandeli2SeenText:
@@ -339,19 +333,19 @@ BreederTheresaBeatenText:
 	done
 
 JugglerIrwin1SeenText:
-	text "¡Contempla mi gra-"
-	line "cia y destreza con"
-	cont "las Balls!"
+	text "¡Mira mi gracia y"
+	line "destreza con las"
+	cont "Balls!"
 	done
 
 JugglerIrwin1BeatenText:
-	text "¡Uf! ¡Menuda des-"
-	line "carga!"
+	text "¡Uf! ¡Qué gran"
+	line "descarga!"
 	done
 
 JugglerIrwinAfterBattleText:
-	text "Iba a deslumbrar-"
-	line "te con mis #mon"
+	text "Iba a sorprenderte"
+	line "con mis #mon"
 	cont "estrella."
 
 	para "¡Tu talento me ha"
@@ -372,9 +366,8 @@ Bug_catcherArnie1BeatenText:
 BugCatcherArnieAfterBattleText:
 	text "Gané el Concurso"
 	line "de Bichos del"
-
-	para "Parque Nacional"
-	line "con mi Venonat."
+	cont "Parque Nacional"
+	cont "con mi Venonat."
 	done
 
 FirebreatherWaltSeenText:
@@ -405,8 +398,6 @@ Route35AdvancedTipsSignText:
 
 	para "¡Puedes registrar"
 	line "hasta cuatro"
-
-	para "Objetos Clave para"
-	line "su uso rápido con"
-	cont "el botón Select!"
+	cont "Objetos Clave para"
+	cont "usar con Select!"
 	done

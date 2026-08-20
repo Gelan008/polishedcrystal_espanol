@@ -30,26 +30,24 @@ Route49LadyText:
 	cont "aquí!"
 
 	para "Isla Valencia está"
-	line "llena de una flo-"
-	cont "ra única."
+	line "llena de una flora"
+	cont "única."
 	done
 
 Route49YoungsterText:
 	text "¡Este paisaje me"
 	line "hace sentir como"
-
-	para "un aventurero en"
-	line "plena jungla!"
+	cont "un aventurero en"
+	cont "plena jungla!"
 	done
 
 GenericTrainerSightseermHari:
 	generictrainer SIGHTSEERM, HARI, EVENT_BEAT_SIGHTSEERM_HARI, .SeenText, .BeatenText
 
 	text "He viajado mucho"
-	line "solo para conocer"
-
-	para "a todos los Prof."
-	line "#mon."
+	line "para conocer a"
+	cont "los Profesores"
+	cont "#mon."
 
 	para "¿Quieres ver las"
 	line "fotos que saqué?"
@@ -70,12 +68,12 @@ GenericTrainerTamerJordan:
 	generictrainer TAMER, JORDAN, EVENT_BEAT_TAMER_JORDAN, .SeenText, .BeatenText
 
 	text "¿Cómo domaste tan"
-	line "bien a tus #-"
-	cont "mon?"
+	line "bien a tus"
+	cont "#mon?"
 
 	para "Son fuertes, pero"
-	line "tranquilos al mis-"
-	cont "mo tiempo."
+	line "muy tranquilos a"
+	cont "la vez."
 	done
 
 .SeenText:
@@ -96,9 +94,8 @@ GenericTrainerAromaLadyPeony:
 
 	text "A mi Bellossom le"
 	line "encanta vivir en"
-
-	para "esta pequeña isla"
-	line "tan pacífica."
+	cont "esta pequeña isla"
+	cont "tan pacífica."
 	done
 
 .SeenText:
@@ -124,10 +121,9 @@ GenericTrainerGuitaristmGeddy:
 
 .SeenText:
 	text "Creo que podría"
-	line "vivir la vida mu-"
-
-	para "cho mejor de lo"
-	line "que lo hago…"
+	line "vivir la vida"
+	cont "mucho mejor de lo"
+	cont "que lo hago…"
 
 	para "Por eso me llaman…"
 

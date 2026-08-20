@@ -33,21 +33,17 @@ GenericTrainerPokemaniacLarry:
 
 	text "Los viernes se oye"
 	line "el rugido de un"
-
-	para "#mon en lo más"
-	line "profundo de la"
-	cont "cueva."
+	cont "#mon en lo más"
+	cont "hondo de la cueva."
 	done
 
 GenericTrainerHikerRussell:
 	generictrainer HIKER, RUSSELL, EVENT_BEAT_HIKER_RUSSELL, HikerRussellSeenText, HikerRussellBeatenText
 
-	text "¡Está bien!"
-	line "He decidido que no"
-
-	para "me iré hasta que"
-	line "mis #mon sean"
-	cont "más fuertes."
+	text "¡Está bien! No me"
+	line "iré hasta que mis"
+	cont "#mon sean más"
+	cont "fuertes."
 	done
 
 GenericTrainerHikerDaniel:
@@ -64,11 +60,10 @@ GenericTrainerHikerDaniel:
 GenericTrainerFirebreatherBill:
 	generictrainer FIREBREATHER, BILL, EVENT_BEAT_FIREBREATHER_BILL, FirebreatherBillSeenText, FirebreatherBillBeatenText
 
-	text "Los fines de sema-"
-	line "na se oyen extra-"
-
-	para "ños rugidos en el"
-	line "fondo de la cueva."
+	text "El fin de semana"
+	line "se oyen extraños"
+	cont "rugidos al fondo"
+	cont "de la cueva."
 	done
 
 GenericTrainerFirebreatherRay:
@@ -90,9 +85,9 @@ HikerRussellSeenText:
 	text "¿Vas hacia Pueblo"
 	line "Azalea?"
 
-	para "¡Comprobemos con"
-	line "mis #mon si va-"
-	cont "les para luchar!"
+	para "¡Veamos con mis"
+	line "#mon si vales"
+	cont "para luchar!"
 	done
 
 HikerRussellBeatenText:
@@ -107,9 +102,9 @@ PokemaniacLarrySeenText:
 	para "¿Tú también buscas"
 	line "#mon?"
 
-	para "¡Pues eres mi ri-"
-	line "val como coleccio-"
-	cont "nista!"
+	para "¡Pues eres mi gran"
+	line "rival como"
+	cont "coleccionista!"
 	done
 
 PokemaniacLarryBeatenText:
@@ -126,8 +121,8 @@ HikerDanielSeenText:
 	done
 
 HikerDanielBeatenText:
-	text "¡Hala! ¡Me has da-"
-	line "do una paliza!"
+	text "¡Hala! ¡Me has"
+	line "dado una paliza!"
 	done
 
 FirebreatherBillSeenText:
@@ -135,8 +130,8 @@ FirebreatherBillSeenText:
 	line "Zubat confunde a"
 	cont "mis #mon."
 
-	para "¡Y eso me fasti-"
-	line "dia un montón!"
+	para "¡Y eso me fastidia"
+	line "un montón!"
 	done
 
 FirebreatherBillBeatenText:

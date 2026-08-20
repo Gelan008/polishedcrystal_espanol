@@ -22,12 +22,10 @@ Route40BattleTowerGateOfficer:
 	text "¿Vas a la Torre"
 	line "Batalla?"
 
-	para "Si ganas un montón"
-	line "de veces, ganarás"
-
-	para "Puntos de Batalla"
-	line "y podrás canjear-"
-	cont "los por objetos."
+	para "Si ganas muchas"
+	line "veces, ganarás"
+	cont "Puntos de Batalla"
+	cont "para canjearlos."
 	done
 
 Route40BattleTowerGateRockerScript:
@@ -48,11 +46,10 @@ Route40BattleTowerGateRockerScript:
 	text "¡Ya han abierto la"
 	line "Torre Batalla!"
 
-	para "Quiero ir, pero"
-	line "aún no he pensado"
-
-	para "una frase chula"
-	line "para cuando gane."
+	para "Quiero ir, pero no"
+	line "he pensado una"
+	cont "frase chula para"
+	cont "cuando gane."
 	done
 
 Route40BattleTowerGateTwinScript:
@@ -62,17 +59,15 @@ Route40BattleTowerGateTwinScript:
 
 	text "Voy a entrenar a"
 	line "mis #mon para"
-
-	para "estar a punto para"
-	line "la Torre Batalla."
+	cont "estar a punto para"
+	cont "la Torre Batalla."
 	done
 
 .OpenText:
 	text "Los niveles de los"
 	line "#mon que quiero"
-
-	para "usar son todos"
-	line "distintos."
+	cont "usar son todos"
+	cont "muy distintos."
 
 	para "¡Tengo que ir a"
 	line "entrenarlos ya!"

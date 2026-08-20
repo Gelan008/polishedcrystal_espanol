@@ -54,23 +54,18 @@ ViridianGymBlueScript:
 
 	text "Contiene Roca"
 	line "Afilada. No solo"
-
-	para "sirve para #mon"
-	line "de tipo Roca, ¿eh?"
+	cont "sirve para #mon"
+	cont "de tipo Roca, ¿eh?"
 
 	para "…"
 
-	para "Vale, me he equi-"
-	line "vocado. Eres de"
-
-	para "lo mejor de todo."
-	line "Un gran rival."
+	para "Vale, me confundí."
+	line "Eres muy fuerte."
+	cont "Un gran rival."
 
 	para "Con ocho Medallas"
 	line "de Kanto, puedes"
-
-	para "volver a desafiar"
-	line "al Alto Mando."
+	cont "ir al Alto Mando."
 
 	para "No tendrán piedad"
 	line "con quien venció"
@@ -78,16 +73,15 @@ ViridianGymBlueScript:
 
 	para "Puedes practicar"
 	line "conmigo en el Dojo"
-
-	para "Kárate de Ciudad"
-	line "Azafrán los lunes."
+	cont "Kárate de Azafrán"
+	cont "los lunes."
 
 	para "Todos los Líderes"
 	line "de Gimnasio van"
 	cont "allí a entrenar."
 
-	para "Pienso ganarte al-"
-	line "gún día."
+	para "Pienso ganarte"
+	line "algún día."
 
 	para "¡Que no se te"
 	line "olvide!"
@@ -109,8 +103,8 @@ ViridianGymGuyScript:
 	line "contra el Campeón"
 	cont "hace tres años."
 
-	para "No es ningún hue-"
-	line "so fácil."
+	para "¡No es un rival"
+	line "nada fácil!"
 
 	para "¡Da todo lo que"
 	line "tengas!"
@@ -119,9 +113,9 @@ ViridianGymGuyScript:
 GenericTrainerAceDuoAraandbela1:
 	generictrainer ACE_DUO, ARAANDBELA1, EVENT_BEAT_ACE_DUO_ARA_AND_BELA, AceDuoAraandbela1SeenText, AceDuoAraandbela1BeatenText
 
-	text "Ara: Yo debería"
-	line "ser una buena pa-"
-	cont "reja de práctica…"
+	text "Ara: Debería ser"
+	line "buena compañera de"
+	cont "práctica…"
 	done
 
 GenericTrainerAceDuoAraandbela2:
@@ -135,11 +129,10 @@ GenericTrainerAceDuoAraandbela2:
 GenericTrainerCooltrainerfSalma:
 	generictrainer COOLTRAINERF, SALMA, EVENT_BEAT_COOLTRAINERF_SALMA, CooltrainerfSalmaSeenText, CooltrainerfSalmaBeatenText
 
-	text "¡Hay muchos Gimna-"
-	line "sios en el mundo,"
-
-	para "pero este es mi"
-	line "favorito!"
+	text "¡Hay muchos"
+	line "Gimnasios por el"
+	cont "mundo, este es"
+	cont "mi favorito!"
 	done
 
 GenericTrainerCooltrainerfBonita:
@@ -161,9 +154,9 @@ GenericTrainerAceDuoElanandida1:
 GenericTrainerAceDuoElanandida2:
 	generictrainer ACE_DUO, ELANANDIDA2, EVENT_BEAT_ACE_DUO_ELAN_AND_IDA, AceDuoElanandida2SeenText, AceDuoElanandida2BeatenText
 
-	text "Ida: Si solo tie-"
-	line "nes fuerza bruta,"
-	cont "no llegarás lejos."
+	text "Ida: Si solo usas"
+	line "fuerza bruta, no"
+	cont "llegarás lejos."
 
 	para "¡La estrategia"
 	line "también cuenta!"
@@ -184,25 +177,24 @@ LeaderBlueBeforeText:
 	para "En Isla Canela no"
 	line "estaba de humor,"
 
-	para "pero ya estoy lis-"
-	line "to para luchar."
+	para "pero ya estoy"
+	line "listo para luchar."
 
 	para "…"
 
-	para "¿Me estás diciendo"
-	line "que conquistaste"
-
-	para "todos los Gimna-"
-	line "sios de Johto?"
+	para "¿Dices que has"
+	line "vencido en todos"
+	cont "los Gimnasios de"
+	cont "Johto?"
 
 	para "¡Ja! Vaya birria"
 	line "de Gimnasios deben"
 	cont "de ser entonces."
 
-	para "Oye, no te preocu-"
-	line "pes por eso."
+	para "No te preocupes"
+	line "por eso."
 
-	para "Ahora mismo sabré"
+	para "Ahora mismo veré"
 	line "si eres bueno o no"
 	cont "al combatir."
 
@@ -226,8 +218,8 @@ LeaderBlueWinText:
 	done
 
 LeaderBlueAfterText:
-	text "Azul: ¡Toma! ¡Qué-"
-	line "date esto también!"
+	text "Azul: ¡Toma esto"
+	line "también!"
 	done
 
 LeaderBlueEpilogueText:
@@ -239,12 +231,11 @@ LeaderBlueEpilogueText:
 	done
 
 ViridianGymGuyWinText:
-	text "¡Vaya, qué comba-"
-	line "te más fiero!"
+	text "¡Vaya, qué batalla"
+	line "más fiera!"
 
-	para "Ha sido un comba-"
-	line "te de lo más ins-"
-	cont "pirador."
+	para "Ha sido algo de lo"
+	line "más inspirador."
 
 	para "Casi se me saltan"
 	line "las lágrimas."
@@ -257,19 +248,19 @@ AceDuoAraandbela1SeenText:
 	done
 
 AceDuoAraandbela1BeatenText:
-	text "Ara: ¡Nos han en-"
-	line "gañado!"
+	text "Ara: ¡Nos han"
+	line "engañado!"
 	done
 
 AceDuoAraandbela2SeenText:
-	text "Bela: ¡Vamos, lu-"
-	line "cha y mira lo bue-"
-	cont "nos que somos!"
+	text "Bela: ¡Pelea y ve"
+	line "lo buenos que"
+	cont "somos!"
 	done
 
 AceDuoAraandbela2BeatenText:
-	text "Bela: ¡Nos han en-"
-	line "gañado!"
+	text "Bela: ¡Nos han"
+	line "engañado!"
 	done
 
 CooltrainerfSalmaSeenText:

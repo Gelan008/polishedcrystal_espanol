@@ -62,21 +62,21 @@ Route39RuggedRoadGateSwimmerScript:
 	line "nadé cerca de él."
 
 	para "¡Y encima perdí"
-	line "mis Gafas Aislan-"
-	cont "tes…!"
+	line "mis Gafas"
+	cont "Aislantes…!"
 
 	para "¡Vaya, hoy no es"
 	line "mi día!"
 	prompt
 
 .FoundGoggles:
-	text "¡Oh, las has"
-	line "encontrado!"
+	text "¡Oh, pero si las"
+	line "has encontrado!"
 
-	para "Aunque ya me com-"
-	line "pré unas nuevas…"
+	para "Aunque ya me he"
+	line "comprado otras…"
 
-	para "¡Toma esto como"
+	para "¡Toma esto en"
 	line "agradecimiento!"
 	prompt
 
@@ -128,17 +128,16 @@ Route39RuggedRoadGateCannotPassMovement:
 	step_end
 
 Route39RuggedRoadGateOfficerCannotPassText:
-	text "¡Alto! ¿A dónde"
+	text "¡Alto! ¿Adónde"
 	line "crees que vas?"
 
-	para "¡El Camino Pedre-"
-	line "-goso a Cumbre Ne-"
-	cont "-vada es durísimo!"
+	para "¡La ruta hacia"
+	line "Cumbre Nevada es"
+	cont "muy dura!"
 
 	para "No puedo dejarte"
-	line "arriesgarte sin"
-	cont "unas Gafas"
-	cont "Aislantes."
+	line "pasar sin llevar"
+	cont "Gafas Aislantes."
 	done
 
 Route39RuggedRoadGateOfficerText:
@@ -146,7 +145,7 @@ Route39RuggedRoadGateOfficerText:
 	line "Cumbre Nevada"
 	cont "es peligroso!"
 
-	para "Por eso se cons-"
-	line "truyó allí un"
+	para "Por eso abrieron"
+	line "allí un gran"
 	cont "Centro #mon."
 	done

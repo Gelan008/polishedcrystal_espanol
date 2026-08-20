@@ -74,17 +74,15 @@ TrainerElderGaku:
 	jumpthistextfaceplayer
 
 	text "¡Ah, conque tú"
-	line "afirmas haber"
-
-	para "visto a Suicune,"
-	line "Entei y Raikou"
-	cont "mientras dormían!"
+	line "dices haber visto"
+	cont "a Suicune, Entei y"
+	cont "Raikou durmiendo!"
 
 	para "¡Increíble!"
 
 	para "La leyenda dice"
-	line "que no se les pue-"
-	cont "de ver mientras"
+	line "que nadie puede"
+	cont "verlos mientras"
 	cont "duermen…"
 	done
 
@@ -100,52 +98,51 @@ TrainerElderMasa:
 	cont "de nueve pisos."
 
 if DEF(FAITHFUL)
-	para "La Torre Hojalata,"
+	para "La Torre Latón,"
 else
-	para "La Torre Hojalata,"
+	para "La Torre Latón,"
 endc
 	line "donde se decía que"
+	cont "despertaban los"
+	cont "#mon, y la"
 
-	para "despertaban los"
-	line "#mon, y la"
-
+if DEF(FAITHFUL)
 	para "Torre Hojalata,"
+else
+	para "Torre Hojalata,"
+endc
 	line "donde decían que"
 	cont "descansaban."
 
 	para "La vista desde lo"
 	line "alto de las torres"
-
-	para "debía de ser"
-	line "magnífica."
+	cont "debía de ser"
+	cont "magnífica."
 
 	para "En aquel tiempo,"
 	line "un inmenso #mon"
+	cont "de color plateado"
+	cont "anidaba en la cima"
 
-	para "de color plateado"
-	line "anidaba en la cima"
-
-	para "de la"
 if DEF(FAITHFUL)
-	line "Torre Hojalata."
+	para "de la Torre Latón."
 else
-	line "Torre Hojalata."
+	para "de la Torre Latón."
 endc
 
 	para "Sin embargo…"
 
 	para "Hace unos 150"
-	line "años, un rayo al-"
-
-	para "canzó una de las"
-	line "torres."
+	line "años, un rayo cayó"
+	cont "en una de las"
+	cont "torres."
 
 	para "El fuego ardió"
 	line "durante tres días."
 
-	para "Un repentino cha-"
-	line "parrón apagó por"
-	cont "fin el fuego."
+	para "Un repentino"
+	line "chaparrón apagó"
+	cont "por fin el fuego."
 
 	para "Y así nació la"
 	line "Torre Quemada."
@@ -189,93 +186,75 @@ WiseTriosRoomSageAllowsPassageMovement:
 WiseTriosRoomSage1Text:
 	text "Asombroso…"
 
-	para "Suicune, Entei y"
-	line "Raikou han desper-"
-	cont "tado de su sueño…"
+	para "¡Suicune, Entei y"
+	line "Raikou despertaron"
+	cont "de su largo sueño!"
 
-	para "¿Se estará cum-"
-	line "pliendo la leyen-"
-	cont "da?"
+	para "¿Se cumplirá al"
+	line "fin la leyenda?"
 	done
 
 WiseTriosRoomSage2Text:
 	text "Entrenamos en la"
 	line "Torre Quemada,"
+	cont "pero nunca antes"
+	cont "hubo un boquete."
 
-	para "pero nunca hemos"
-	line "oído que antes se"
-
-	para "abriera un agujero"
-	line "allí."
-
-	para "Alguien debe de"
+	para "Alguien debió de"
 	line "haberlo hecho a"
 	cont "propósito."
 	done
 
 WiseTriosRoomSage3BlocksExitText:
 	text "Solo pueden entrar"
-	line "en Torre Hojalata"
+	line "a Torre Hojalata"
+	cont "quienes porten la"
+	cont "Medalla Niebla."
 
-	para "quienes lleven la"
-	line "Medalla Niebla de"
-	cont "Ciudad Iris."
-
-	para "Pero ahora que"
-	line "Suicune, Raikou y"
-
-	para "Entei han desper-"
-	line "tado, ¡te pido que"
-	cont "no entres!"
+	para "Mas ahora que los"
+	line "tres legendarios"
+	cont "han despertado,"
+	cont "¡no debes pasar!"
 	done
 
 WiseTriosRoomSage3Text:
 	text "Nosotros, los Tres"
 	line "Sabios, somos los"
-
-	para "protectores de los"
-	line "#mon legenda-"
-	cont "rios."
+	cont "custodios de los"
+	cont "#mon"
+	cont "legendarios."
 	done
 
 ElderGakuSeenText:
-	text "La leyenda cuenta"
-	line "que al surgir un"
+	text "La leyenda dice"
+	line "que si surge un"
+	cont "entrenador con"
+	cont "un alma pura,"
 
-	para "entrenador capaz"
-	line "de tocar el alma"
-	cont "de los #mon,"
-
-	para "un #mon apare-"
-	line "cerá para poner a"
-
-	para "prueba a dicho en-"
-	line "trenador en la"
-	cont "Torre Hojalata."
+	para "un #mon vendrá"
+	line "para probarlo en"
+	cont "la Torre Hojalata."
 
 	para "¡La leyenda se ha"
 	line "hecho realidad!"
 
-	para "¡El #mon legen-"
-	line "dario Suicune ha"
-	cont "llegado!"
+	para "¡El legendario"
+	line "Suicune ya está"
+	cont "aquí!"
 
-	para "¡Nosotros, los"
-	line "Tres Sabios, pon-"
-
-	para "dremos a prueba tu"
-	line "valía para pasar!"
+	para "¡Los Tres Sabios"
+	line "probaremos tu"
+	cont "valía!"
 	done
 
 ElderGakuBeatenText:
 	text "¿Más fuerte de lo"
-	line "que creíamos? Qui-"
-	cont "zá…"
+	line "pensado? Quizá…"
 	done
 
 ElderMasaSeenText:
-	text "¿Se te puede con-"
-	line "fiar la verdad?"
+	text "¿Podemos confiarte"
+	line "la verdad?"
 
 	para "Debo comprobar"
 	line "tu valía."
@@ -297,36 +276,28 @@ ElderKojiBeatenText:
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "Tú… ¿Eres el en-"
-	line "trenador al que"
-
-	para "esperan los #-"
-	line "mon legendarios?"
+	text "Tú… ¿Eres quien"
+	line "esperan los"
+	cont "#mon"
+	cont "legendarios?"
 	done
 
 SageKojiAfterBattleSpeechText:
 	text "Ya veo…"
 
-	para "A nosotros, los"
-	line "Tres Sabios, se"
+	para "A los Tres Sabios"
+	line "se nos encomendó"
+	cont "proteger a los"
+	cont "#mon"
+	cont "legendarios."
 
-	para "nos ha encomen-"
-	line "dado proteger a"
+	para "Solo abrimos el"
+	line "paso a quienes"
+	cont "posean poder y un"
+	cont "alma sincera."
 
-	para "los #mon legen-"
-	line "darios. Solo de-"
-
-	para "bemos permitir el"
-	line "paso a quienes po-"
-
-	para "sean el poder y el"
-	line "alma de la verdad."
-
-	para "Por favor, sigue"
-	line "adelante y entra"
-
-	para "en la Torre Hoja-"
-	line "lata."
+	para "Por favor, entra"
+	line "a Torre Hojalata."
 
 	para "Suicune te pondrá"
 	line "a prueba."

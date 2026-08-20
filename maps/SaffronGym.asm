@@ -118,38 +118,34 @@ GenericTrainerPsychicJared:
 	generictrainer PSYCHIC_T, JARED, EVENT_BEAT_PSYCHIC_JARED, PsychicJaredSeenText, PsychicJaredBeatenText
 
 	text "El Rey del Kárate,"
-	line "el maestro del"
-
-	para "Dojo Kárate, fue"
-	line "arrollado por"
+	line "maestro del Dojo,"
+	cont "fue arrollado por"
 	cont "Sabrina."
 	done
 
 GenericTrainerHexManiacLuna:
 	generictrainer HEX_MANIAC, LUNA, EVENT_BEAT_HEX_MANIAC_LUNA, HexManiacLunaSeenText, HexManiacLunaBeatenText
 
-	text "Alakazam es un"
-	line "#mon podero-"
-	cont "so, así que las"
-
-	para "Brujas usamos su"
-	line "nombre en grandes"
-	cont "hechizos."
+	text "Alakazam es muy"
+	line "poderoso, así que"
+	cont "las Brujas usamos"
+	cont "su nombre al hacer"
+	cont "grandes hechizos."
 	done
 
 GenericTrainerHexManiacNatalie:
 	generictrainer HEX_MANIAC, NATALIE, EVENT_BEAT_HEX_MANIAC_NATALIE, HexManiacNatalieSeenText, HexManiacNatalieBeatenText
 
-	text "Quizá no valga pa-"
-	line "ra ser Bruja…"
+	text "Quizá no sirva"
+	line "para ser Bruja…"
 	done
 
 GenericTrainerPsychicFranklin:
 	generictrainer PSYCHIC_T, FRANKLIN, EVENT_BEAT_PSYCHIC_FRANKLIN, PsychicFranklinSeenText, PsychicFranklinBeatenText
 
-	text "No solo has mejo-"
-	line "rado tu técnica,"
-	cont "sino tu alma."
+	text "No solo mejoraste"
+	line "tu técnica, sino"
+	cont "también tu alma."
 	done
 
 GenericTrainerMediumRebecca:
@@ -167,15 +163,13 @@ SaffronGymGuyScript:
 	text "¡Hola, futuro"
 	line "Campeón!"
 
-	para "A un entrenador"
-	line "tan hábil como tú"
+	para "A alguien tan"
+	line "hábil como tú no"
+	cont "hace falta decirle"
+	cont "cómo luchar"
 
-	para "no hace falta de-"
-	line "cirle cómo luchar"
-
-	para "contra los #mon"
-	line "de tipo Psíquico,"
-	cont "¿verdad?"
+	para "contra el tipo"
+	line "Psíquico, ¿no?"
 
 	para "¡Espero grandes"
 	line "cosas de ti!"
@@ -202,12 +196,11 @@ SabrinaIntroText:
 	para "Vienes a por mi"
 	line "Medalla."
 
-	para "No me gusta la"
-	line "lucha, mas como"
-
-	para "Líder otorgaré la"
-	line "Medalla a quien"
-	cont "sea digno."
+	para "No me agrada"
+	line "combatir, pero"
+	cont "como Líder te daré"
+	cont "la Medalla si eres"
+	cont "digno."
 
 	para "¡Ya que lo deseas,"
 	line "te mostraré mis"
@@ -220,11 +213,9 @@ SabrinaWinLossText:
 	para "Supera con creces"
 	line "lo que preví…"
 
-	para "Quizá no sea po-"
-	line "sible predecir el"
-
-	para "futuro con exacti-"
-	line "tud…"
+	para "Quizá no se pueda"
+	line "predecir el futuro"
+	cont "con exactitud…"
 
 	para "Bien, tú ganas."
 	line "Te has ganado la"
@@ -237,13 +228,12 @@ endc
 
 SabrinaMarshBadgeText:
 	text "Sabrina: No logré"
-	line "predecir con exac-"
+	line "predecir del todo"
+	cont "tu gran fuerza."
 
-	para "titud tu fuerza."
-	line "Eso significa que"
-
-	para "tu poder supera mi"
-	line "poder psíquico."
+	para "Eso significa que"
+	line "tu poder supera mi"
+	cont "poder psíquico."
 
 	para "¡También mereces"
 	line "esta MT!"
@@ -252,15 +242,13 @@ SabrinaMarshBadgeText:
 SabrinaFightDoneText:
 	text "Sabrina: El amor"
 	line "por tus #mon"
-
-	para "ha superado mi po-"
-	line "der psíquico…"
+	cont "ha superado a mi"
+	cont "poder psíquico…"
 
 	para "Creo que el poder"
 	line "del amor también"
-
-	para "es una clase de"
-	line "poder psíquico…"
+	cont "es una forma de"
+	cont "poder psíquico…"
 	done
 
 MediumDorisSeenText:
@@ -274,13 +262,13 @@ MediumDorisSeenText:
 
 MediumDorisBeatenText:
 	text "Aunque te leí la"
-	line "mente, he perdi-"
-	cont "do…"
+	line "mente, caí en la"
+	cont "derrota…"
 	done
 
 PsychicLeonSeenText:
-	text "¡No podrás resis-"
-	line "tirte a mi poder"
+	text "¡No podrás hacer"
+	line "frente a mi poder"
 	cont "psíquico!"
 	done
 
@@ -332,11 +320,9 @@ PsychicFranklinBeatenText:
 	done
 
 MediumRebeccaSeenText:
-	text "¡La fuerza de to-"
-	line "dos a los que has"
-
-	para "vencido pasa aho-"
-	line "ra a mí!"
+	text "¡La fuerza de los"
+	line "que has vencido"
+	cont "pasa ahora a mí!"
 	done
 
 MediumRebeccaBeatenText:
@@ -345,6 +331,6 @@ MediumRebeccaBeatenText:
 	done
 
 SaffronGymGuyWinText:
-	text "¡Ha sido otro com-"
-	line "bate fantástico!"
+	text "¡Ha sido un gran"
+	line "combate!"
 	done

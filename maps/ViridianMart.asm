@@ -17,13 +17,12 @@ ViridianMart_MapScriptHeader:
 	object_event  1,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianMartCooltrainerMText, -1
 
 ViridianMartLassText:
-	text "El Líder de Gimna-"
-	line "sio de aquí mola"
-	cont "un montón."
+	text "El Líder local"
+	line "mola un montón."
 
 	para "Es el único que"
-	line "no se especializa"
-	cont "en un solo tipo."
+	line "no se centra en un"
+	cont "solo tipo."
 
 	para "Le gusta despistar"
 	line "a la gente."

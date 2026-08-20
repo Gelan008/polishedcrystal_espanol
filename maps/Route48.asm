@@ -115,12 +115,12 @@ Route48JessieJamesSeenText:
 	line "mocoso!"
 
 	para "¿Sabes qué #mon"
-	line "vive en ese bos-"
-	cont "que? ¡Pikachu!"
+	line "vive en el bosque?"
+	cont "¡Pikachu!"
 
-	para "¡Al jefe le encan-"
-	line "tará si atrapamos"
-	cont "uno poderoso!"
+	para "¡Al jefe le va a"
+	line "encantar si nos"
+	cont "llevamos uno!"
 
 	para "¡Ríndete ahora o"
 	line "prepárate para"
@@ -139,22 +139,17 @@ Route48JessieJamesAfterText:
 
 Archer2SeenText:
 	text "Así que quieres"
-	line "volver a entrome-"
+	line "meterte en los"
+	cont "planes del"
+	cont "Team Rocket."
 
-	para "terte en los pla-"
-	line "nes del Team"
-	cont "Rocket."
+	para "Siempre metes las"
+	line "narices donde no"
+	cont "te llaman."
 
-	para "Siempre metiendo"
-	line "las narices donde"
-	cont "no te llaman."
-
-	para "¡Vamos a vender"
-	line "esos #mon,"
-
-	para "y no hay nada que"
-	line "puedas hacer para"
-	cont "evitarlo!"
+	para "¡Venderemos a esos"
+	line "#mon y no"
+	cont "podrás evitarlo!"
 	done
 
 Archer2BeatenText:
@@ -166,39 +161,34 @@ Archer2AfterText:
 	text "… Como quieras."
 
 	para "El Team Rocket se"
-	line "retirará por aho-"
-	cont "ra."
+	line "retira por ahora."
 
 	para "De todos modos,"
-	line "nuestro otro plan"
-
-	para "va viento en"
-	line "popa…"
+	line "el otro plan va"
+	cont "viento en popa…"
 	done
 
 Route48NurseText1:
-	text "¡He visto tu com-"
-	line "bate desde la ven-"
-	cont "tana!"
+	text "¡He visto cómo has"
+	line "luchado desde la"
+	cont "ventana!"
 
-	para "¡Ahuyentaste al"
-	line "Team Rocket y sal-"
-	cont "vaste al Pikachu!"
+	para "¡Echaste al Team"
+	line "Rocket y salvaste"
+	cont "al Pikachu!"
 
 	para "¡Muchísimas"
 	line "gracias!"
 
-	para "Tus #mon se me-"
-	line "recen descansar"
-	cont "tras todo esto."
+	para "Tus #mon deben"
+	line "descansar tras"
+	cont "todo esto."
 	done
 
 Route48NurseText2:
-	text "Me gusta relajarme"
-	line "aquí junto al bos-"
-
-	para "que y ver jugar a"
-	line "los #mon."
+	text "Me gusta descansar"
+	line "junto al bosque y"
+	cont "ver a los #mon."
 
 	para "¡Curaré a tus"
 	line "#mon siempre"

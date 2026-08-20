@@ -31,16 +31,15 @@ StormyBeach_MapScriptHeader:
 GenericTrainerSwimmerfBarbara:
 	generictrainer SWIMMERF, BARBARA, EVENT_BEAT_SWIMMERF_BARBARA, .SeenText, .BeatenText
 
-	text "Me está arrastran-"
-	line "do la marea…"
+	text "¡La marea me está"
+	line "arrastrando…"
 	done
 
 .SeenText:
-	text "Estaba descansan-"
-	line "do un rato, ¡pero"
-
-	para "siempre estoy lis-"
-	line "ta para luchar!"
+	text "Estaba descansando"
+	line "un rato, ¡pero"
+	cont "siempre estoy"
+	cont "lista para luchar!"
 	done
 
 .BeatenText:
@@ -52,9 +51,9 @@ GenericTrainerSwimmerfBarbara:
 GenericTrainerBird_keeperJulian:
 	generictrainer BIRD_KEEPER, JULIAN, EVENT_BEAT_BIRD_KEEPER_JULIAN, .SeenText, .BeatenText
 
-	text "Cuesta más volar"
-	line "en sitios tormen-"
-	cont "tosos como este."
+	text "Cuesta volar en"
+	line "lugares con tanta"
+	cont "tormenta."
 	done
 
 .SeenText:
@@ -96,9 +95,9 @@ GenericTrainerCamperFelix:
 GenericTrainerPicnickerLily:
 	generictrainer PICNICKER, LILY, EVENT_BEAT_PICNICKER_LILY, .SeenText, .BeatenText
 
-	text "¡Vine a hacer un"
-	line "pícnic, pero olvi-"
-	cont "dé la comida!"
+	text "¡Vine a merendar,"
+	line "pero olvidé toda"
+	cont "la comida!"
 
 	para "¡Qué vergüenza!"
 	done
@@ -115,19 +114,17 @@ GenericTrainerPicnickerLily:
 StormyBeachSwimmermText:
 	text "Hemos venido de"
 	line "acampada, pero el"
-
-	para "tiempo no tiene"
-	line "buena pinta…"
+	cont "tiempo no tiene"
+	cont "buena pinta…"
 	done
 
 StormyBeachGrampsText:
 	text "¿Lo notas en el"
-	line "ambiente? Se ave-"
-	cont "cina una tormenta."
+	line "ambiente? Llega"
+	cont "una tormenta."
 
 	para "Un presagio ideal"
-	line "para quienes bus-"
-
-	para "can explorar el"
-	line "pantano."
+	line "para los que van a"
+	cont "explorar el"
+	cont "pantano."
 	done

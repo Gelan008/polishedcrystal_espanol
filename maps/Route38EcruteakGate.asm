@@ -40,16 +40,13 @@ ProfOaksAide2Script:
 	jumpthisopenedtext
 
 	text "Ese Cable Link"
-	line "da a ciertos #-"
+	line "les da los #mon"
+	cont "una sensación de"
+	cont "conexión que los"
+	cont "hace evolucionar."
 
-	para "mon una sensación"
-	line "de conexión que"
-
-	para "puede ayudarles a"
-	line "evolucionar."
-
-	para "¡Úsalo para com-"
-	line "pletar la #dex!"
+	para "¡Úsalo para llenar"
+	line "toda la #dex!"
 	done
 
 .NoRoom
@@ -76,43 +73,33 @@ Route38EcruteakGateOfficerText:
 	done
 
 ProfOaksAide2HiText:
-	text "¡Hola! Soy el ayu-"
-	line "dante del Prof."
-	cont "Oak."
+	text "¡Hola! Ayudo al"
+	line "Profesor Oak."
 
 	para "Si has atrapado 30"
-	line "clases de #mon,"
+	line "tipos de #mon,"
+	cont "te daré un regalo."
 
-	para "debo entregarte un"
-	line "objeto."
-
-	para "Así que, <PLAYER>,"
-	line "¿has atrapado al"
-
-	para "menos 30 clases de"
-	line "#mon?"
+	para "Dime, <PLAYER>,"
+	line "¿has atrapado ya"
+	cont "30 o más #mon?"
 	done
 
 ProfOaksAide2UhOhText:
-	text "A ver…"
-	line "¡Vaya! Solo has"
-
-	para "atrapado "
+	text "A ver… ¡Vaya!"
+	line "Solo llevas "
 	text_decimal wTempDexOwn, 2, 3
-	line "clases de #mon."
+	cont "tipos de #mon."
 
-	para "Vuelve a verme"
-	line "cuando hayas atra-"
-	cont "pado 30 clases."
+	para "¡Vuelve a verme"
+	line "cuando tengas 30!"
 	done
 
 ProfOaksAide2HereYouGoText:
-	text "A ver…"
-	line "¡Genial! Has atra-"
-
-	para "pado "
+	text "A ver… ¡Genial!"
+	line "¡Ya tienes "
 	text_decimal wTempDexOwn, 2, 3
-	line "clases de #mon."
+	cont "tipos de #mon!"
 
 	para "¡Enhorabuena!"
 	line "¡Aquí lo tienes!"

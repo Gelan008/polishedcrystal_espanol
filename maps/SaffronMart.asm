@@ -25,9 +25,8 @@ SaffronMartCooltrainerMText:
 SaffronMartCooltrainerFText:
 	text "Quiero hacerme más"
 	line "fuerte, pero aún"
-	cont "no soy buena…"
+	cont "no soy muy buena…"
 
 	para "¿Podrías enseñarme"
-	line "alguna vez cómo"
-	cont "hacerlo?"
+	line "cómo hacerlo?"
 	done

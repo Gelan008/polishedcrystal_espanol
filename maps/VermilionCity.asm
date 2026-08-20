@@ -140,8 +140,8 @@ VermilionSnorlax:
 	iftruefwd .Awake
 	jumpthisopenedtext
 
-	text "Snorlax está ron-"
-	line "-cando relajado…"
+	text "Snorlax está"
+	line "roncando plácido…"
 	done
 
 .Awake:
@@ -166,13 +166,13 @@ VermilionGymBadgeGuy:
 	ifgreater 9, .SomeBadges
 	jumpthistextfaceplayer
 
-	text "En Kanto se reúnen"
-	line "los entrenadores"
-	cont "más expertos."
+	text "En Kanto están los"
+	line "Entrenadores más"
+	cont "expertos."
 
 	para "Los Líderes de"
-	line "Gimnasio son espe-"
-	cont "cialmente fuertes."
+	line "Gimnasio son muy"
+	cont "fuertes."
 
 	para "No serán fáciles"
 	line "de vencer."
@@ -194,16 +194,13 @@ VermilionGymBadgeGuy:
 .MostBadges:
 	jumpthistextfaceplayer
 
-	text "Supongo que pronto"
-	line "completarás tu"
+	text "Pronto habrás"
+	line "vencido en todos"
+	cont "los Gimnasios."
 
-	para "conquista de los"
-	line "Gimnasios de"
-	cont "Kanto."
-
-	para "Avísame si consi-"
-	line "gues las ocho"
-	cont "Medallas."
+	para "¡Avísame cuando"
+	line "tengas las ocho"
+	cont "Medallas!"
 	done
 
 .AllBadges:
@@ -243,31 +240,30 @@ VermilionCitySuperNerd2Script:
 	text "¡La Fábrica es"
 	line "nuevecita!"
 
-	para "Pero consume mu-"
-	line "chísima energía…"
+	para "Pero consume gran"
+	line "cantidad de luz…"
 
-	para "¡Con la Central de"
-	line "Energía parada, no"
-	cont "sirve para nada!"
+	para "¡Y con la Central"
+	line "parada, no sirve"
+	cont "para nada!"
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
 	text "Tener #mon de"
-	line "diferentes tipos"
-
-	para "te dará ventaja en el"
-	line "combate."
+	line "diversos tipos te"
+	cont "dará ventaja en el"
+	cont "combate."
 
 	para "Las Medallas de"
-	line "Gimnasio de Kanto"
-	cont "te ayudarán."
+	line "Kanto te serán de"
+	cont "gran ayuda."
 	done
 
 LawrenceOverheardText:
 	text "…Así que"
 	line "el #mon"
-	cont "legendario no es-"
-	cont "taba en esa isla…"
+	cont "legendario no"
+	cont "estaba allí…"
 
 	para "Debo seguir"
 	line "buscando en otra"
@@ -279,8 +275,8 @@ LawrenceIntroText:
 	line "por el choque."
 
 	para "Tengo prisa por"
-	line "completar mi co-"
-	cont "lección."
+	line "completar toda mi"
+	cont "colección."
 
 	para "Mi nombre es"
 	line "Lawrence III."
@@ -289,61 +285,47 @@ LawrenceIntroText:
 	line "título de Campeón"
 	cont "de la Liga?"
 
-	para "…Vaya, las apa-"
-	line "riencias engañan."
+	para "…Vaya, qué engaño"
+	line "de apariencias."
 
 	para "Los #mon"
-	line "legendarios"
-	cont "siempre han sido"
-	cont "mi pasión."
+	line "legendarios son mi"
+	cont "gran pasión."
 
-	para "Tomé el ferri"
-	line "Gaviota hasta Isla"
-
-	para "Shamouti, pero no"
-	line "encontré al que"
-	cont "buscaba."
+	para "Fui en ferri hasta"
+	line "Isla Shamouti, mas"
+	cont "no hallé nada."
 
 	para "¡Vaya! ¿Has visto"
 	line "a los #mon de"
-	cont "las leyendas de"
-	cont "Johto?"
+	cont "las leyendas?"
 
-	para "Entonces puede que"
-	line "nos volvamos a ver"
+	para "Entonces nos"
+	line "volveremos a ver"
+	cont "como colegas."
 
-	para "como colegas co-"
-	line "leccionistas."
-
-	para "Pero debo conti-"
-	line "nuar mi camino."
-	cont "¡Hasta la vista!"
+	para "Debo seguir mi"
+	line "camino. ¡Adiós!"
 	done
 
 VermilionCityTeacherText:
-	text "El Puerto Carmín"
-	line "es la puerta ma-"
-	cont "rítima de Kanto."
+	text "El puerto de"
+	line "Carmín es la vía"
+	cont "marítima de Kanto."
 
-	para "Aquí atracan cru-"
-	line "ceros de lujo de"
-	cont "todo el mundo."
+	para "Aquí llegan los"
+	line "cruceros de lujo"
+	cont "de todo el mundo."
 	done
 
 VermilionMachokeOwnerText:
 	text "¡Mis #mon"
-	line "allanaron el"
-	cont "terreno"
+	line "allanaron el suelo"
+	cont "para ese edificio!"
 
-	para "para construir ese"
-	line "edificio tan gran-"
-	cont "de!"
-
-	para "Hace tres años era"
-	line "un Machop, ¡pero"
-
-	para "evolucionó por el"
-	line "esfuerzo!"
+	para "Era un Machop hace"
+	line "tres años, pero"
+	cont "ya evolucionó!"
 	done
 
 VermilionMachokeText:
@@ -363,23 +345,16 @@ VermilionCitySuperNerdText:
 VermilionCitySuperNerd2Text:
 	text "La Fábrica Batalla"
 	line "es nueva, ¡pero ya"
-
-	para "llegan entrenado-"
-	line "res de lejanas re-"
-
-	para "giones para acep-"
-	line "tar su desafío!"
+	cont "vienen personas de"
+	cont "sitios lejanos"
+	cont "a combatir!"
 	done
 
 VermilionCityOfficerFText:
-	text "Lo siento, la Fá-"
-	line "brica Batalla está"
-
-	para "cerrada hasta que"
-	line "la Central de Ener"
-
-	para "gía vuelva a fun-"
-	line "cionar."
+	text "La Fábrica Batalla"
+	line "está cerrada hasta"
+	cont "que la Central"
+	cont "vuelva a operar."
 	done
 
 VermilionCitySailorText:
@@ -402,12 +377,10 @@ VermilionCityBadgeGuyAllBadgesText:
 	text "¡Enhorabuena!"
 
 	para "Tienes todas las"
-	line "Medallas de Gimna-"
-	cont "sio de Kanto."
+	line "Medallas de Kanto."
 
-	para "Tengo una recom-"
-	line "pensa por tu es-"
-	cont "fuerzo."
+	para "Toma este premio"
+	line "por tu esfuerzo."
 	done
 
 VermilionCitySignText:
@@ -448,8 +421,7 @@ VermilionCityAdvancedTipsSignText:
 
 	para "¡En tu Ficha de"
 	line "Entrenador caben"
-	cont "dieciséis Meda-"
-	cont "llas!"
+	cont "16 Medallas!"
 	done
 
 VermilionCityBattleFactorySignText:

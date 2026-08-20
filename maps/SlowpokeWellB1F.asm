@@ -32,22 +32,16 @@ SlowpokeWellB1F_MapScriptHeader:
 GenericTrainerGruntM29:
 	generictrainer GRUNTM, 29, EVENT_BEAT_ROCKET_GRUNTM_29, GruntM29SeenText, GruntM29BeatenText
 
-	text "Claro, hemos es-"
-	line "tado cortando las"
+	text "Cortamos colas a"
+	line "los Slowpoke para"
+	cont "luego venderlas."
 
-	para "colas a Slowpoke"
-	line "y vendiéndolas."
+	para "¡Todo lo hacemos"
+	line "por ganar dinero!"
 
-	para "Todo lo que hace-"
-	line "mos es por ganar"
-	cont "dinero."
-
-	para "¡Así es!"
-	line "Somos el Team"
-
-	para "Rocket, ¡y hare-"
-	line "mos lo que sea"
-	cont "por dinero!"
+	para "¡Somos el Team"
+	line "Rocket y todo vale"
+	cont "por la pasta!"
 	done
 
 TrainerProton2:
@@ -89,9 +83,9 @@ Proton2Script:
 GenericTrainerGruntM2:
 	generictrainer GRUNTM, 2, EVENT_BEAT_ROCKET_GRUNTM_2, GruntM2SeenText, GruntM2BeatenText
 
-	text "Necesitamos pasta,"
-	line "pero, ¿vender Co-"
-	cont "las Slowpoke?"
+	text "Hace falta pasta,"
+	line "pero ¿vender Colas"
+	cont "de Slowpoke?"
 
 	para "¡Es duro ser un"
 	line "Recluta Rocket!"
@@ -140,32 +134,29 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 KurtLeaveSlowpokeWellText:
-	text "César: ¡Bien he-"
-	line "cho, <PLAYER>!"
+	text "César: ¡Muy bien"
+	line "hecho, <PLAYER>!"
 
 	para "El Team Rocket ha"
-	line "desaparecido."
+	line "huido de aquí."
 
-	para "Mi espalda tam-"
-	line "bién está mejor."
-	cont "Vámonos de aquí."
+	para "Mi espalda ya está"
+	line "mucho mejor."
+	cont "¡Vámonos a casa!"
 	done
 
 GruntM29SeenText:
-	text "¡Maldición! Esta-"
-	line "ba haciendo guar-"
+	text "¡Maldita sea!"
+	line "Montaba guardia"
+	cont "arriba cuando un"
+	cont "loco me gritó."
 
-	para "dia arriba cuando"
-	line "un viejo loco"
-	cont "me gritó."
-
-	para "Me asustó tanto"
+	para "¡Me asustó tanto"
 	line "que me caí hasta"
-	cont "aquí abajo."
+	cont "aquí abajo!"
 
-	para "¡Creo que desaho-"
-	line "garé mi ira"
-	cont "contigo!"
+	para "¡Pagarás por ello"
+	line "en este combate!"
 	done
 
 GruntM29BeatenText:
@@ -176,16 +167,14 @@ GruntM29BeatenText:
 Proton2SeenText:
 	text "¿Qué quieres?"
 
-	para "Soy conocido como"
-	line "el tío más duro"
+	para "Dicen que soy el"
+	line "tipo más duro y"
+	cont "cruel del Team"
+	cont "Rocket…"
 
-	para "y cruel del"
-	line "Team Rocket…"
-
-	para "Si interrumpes"
-	line "nuestro trabajo,"
-	cont "¡no esperes pie-"
-	cont "dad!"
+	para "¡Si interrumpes el"
+	line "trabajo, no tendré"
+	cont "piedad!"
 	done
 
 Proton2BeatenText:
@@ -199,14 +188,13 @@ TrainerProton2WhenTalkText:
 	line "se disolvió hace"
 	cont "tres años."
 
-	para "Pero continuamos"
-	line "nuestras activida-"
-	cont "des en la sombra."
+	para "¡Pero seguimos con"
+	line "nuestro trabajo"
+	cont "en las sombras!"
 
-	para "¡Ahora puedes di-"
-	line "vertirte viéndo-"
-	cont "nos causar pro-"
-	cont "blemas!"
+	para "¡Prepárate para"
+	line "ver cómo causamos"
+	cont "más problemas!"
 	done
 
 GruntM2SeenText:
@@ -214,9 +202,9 @@ GruntM2SeenText:
 	line "Colas Slowpoke?"
 
 	para "¡Si te hiciéramos"
-	line "caso, arruinaría-"
-	cont "mos la reputación"
-	cont "del Team Rocket!"
+	line "caso, arruinamos"
+	cont "la reputación del"
+	cont "Team Rocket!"
 	done
 
 GruntM2BeatenText:
@@ -226,10 +214,10 @@ GruntM2BeatenText:
 
 GruntF1SeenText:
 	text "¿Dejar de robar"
-	line "Colas?"
+	line "Colas Slowpoke?"
 
-	para "¡Sí, intenta derro"
-	line "tarnos a todos!"
+	para "¡Intenta vencer a"
+	line "todos nosotros!"
 	done
 
 GruntF1BeatenText:
@@ -250,11 +238,11 @@ SlowpokeWellB1FSlowpokeMailText:
 	line "Carta."
 
 	para "Sé buena y cuida"
-	line "de la casa con el"
+	line "de la casa junto"
+	cont "al abuelo y a"
+	cont "Slowpoke."
 
-	para "abuelo y Slowpoke."
-
-	para "Te quiere, Papá"
+	para "Con cariño, Papá"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:

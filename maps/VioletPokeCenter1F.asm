@@ -35,10 +35,8 @@ PokemonJournalFalknerScript:
 
 	para "Dicen que Pegaso"
 	line "venera a su padre,"
-	cont "quien lideró el"
-
-	para "Gimnasio de Malva"
-	line "antes que él."
+	cont "quien lideraba el"
+	cont "Gimnasio de Malva."
 	done
 
 VioletPokeCenter1FElmsAideScript:
@@ -80,10 +78,10 @@ VioletPokeCenter1FElmsAideScript:
 .PartyAndBoxFull:
 	text "¡Oh, no! No puedes"
 	line "llevar más #mon"
-	cont "contigo."
+	cont "en tu equipo."
 
-	para "Tampoco tienes es-"
-	line "pacio en tu Caja."
+	para "Tampoco te queda"
+	line "sitio en tu Caja."
 
 	para "Esperaré a que"
 	line "hagas sitio para"
@@ -110,30 +108,28 @@ VioletPokeCenter1FElmsAideScript:
 	line "pasatiempo!"
 
 	para "En fin, el Prof."
-	line "Elm tiene otro fa-"
-	cont "vor que pedirte."
+	line "Elm quiere pedirte"
+	cont "otro favor."
 
 	para "¿Te quedarías el"
 	line "Huevo #mon?"
 	done
 
 .QuestionText:
-	text "<PLAYER>, ¿te que-"
-	line "darás el Huevo?"
+	text "<PLAYER>, ¿te vas a"
+	line "quedar el Huevo?"
 	done
 
 .GoodbyeText:
 	text "Descubrimos que un"
 	line "#mon no nace"
-
-	para "hasta que no crece"
-	line "dentro del Huevo."
+	cont "hasta que no crece"
+	cont "dentro del Huevo."
 
 	para "También necesita"
 	line "estar con otros"
-
-	para "#mon activos"
-	line "para abrirse."
+	cont "#mon activos"
+	cont "para eclosionar."
 
 	para "¡<PLAYER>, eres la"
 	line "única persona de"
@@ -176,8 +172,8 @@ VioletPokeCenter1FGentlemanText:
 	text "Ocurrió hace unos"
 	line "tres años."
 
-	para "El Team Rocket ha-"
-	line "cía fechorías con"
+	para "El Team Rocket"
+	line "hacía el mal con"
 	cont "los #mon."
 
 	para "Pero triunfó la"
@@ -204,12 +200,10 @@ VioletPokeCenter1FYoungsterText:
 	line "muy listos."
 
 	para "No obedecerán a un"
-	line "entrenador al que"
-	cont "no respeten."
+	line "entrenador si no"
+	cont "lo respetan."
 
 	para "Sin las Medallas"
-	line "de Gimnasio ade-"
-
-	para "cuadas, harán solo"
-	line "lo que quieran."
+	line "adecuadas, harán"
+	cont "lo que quieran."
 	done

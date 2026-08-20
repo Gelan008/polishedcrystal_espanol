@@ -21,24 +21,21 @@ VioletMartGrannyText:
 	line "#mon, puede"
 	cont "que sea débil."
 
-	para "Pero con el tiem-"
-	line "po se volverá muy"
+	para "Pero con paciencia"
+	line "se volverá muy"
 	cont "fuerte."
 
-	para "Es importante tra-"
-	line "tar a los #mon"
-	cont "con cariño."
+	para "Es importante dar"
+	line "cariño a tus"
+	cont "#mon."
 	done
 
 VioletMartCooltrainerMText:
 	text "Los #mon pueden"
-	line "llevar objetos co-"
-	cont "mo Poción y Anti-"
-	cont "doto."
+	line "llevar Poción o"
+	cont "Antídoto."
 
 	para "Pero parece que no"
 	line "saben cómo usar"
-
-	para "objetos hechos"
-	line "por el hombre."
+	cont "objetos humanos."
 	done

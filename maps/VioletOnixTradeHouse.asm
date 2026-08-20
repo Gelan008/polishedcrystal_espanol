@@ -16,14 +16,11 @@ VioletOnixTradeHouse_MapScriptHeader:
 	object_event  6,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, trade, NPC_TRADE_KYLE, -1
 
 VioletKylesHousePokefanMText:
-	text "Un #mon"
-	line "obtenido por"
-	cont "intercambio crece"
+	text "Un #mon por"
+	line "intercambio crece"
 	cont "muy rápido."
 
 	para "Pero si no tienes"
-	line "la Medalla de Gim-"
-
-	para "nasio adecuada, te"
-	line "desobedecerá."
+	line "la Medalla debida,"
+	cont "te desobedecerá."
 	done

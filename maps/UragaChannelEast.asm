@@ -26,12 +26,11 @@ UragaChannelEast_MapScriptHeader:
 GenericTrainerSwimmerfWoda:
 	generictrainer SWIMMERF, WODA, EVENT_BEAT_SWIMMERF_WODA, .SeenText, .BeatenText
 
-	text "Las fuertes co-"
-	line "rrientes de aquí"
+	text "La corriente es"
+	line "muy fuerte aquí."
 
-	para "hacen que sea un"
-	line "buen sitio para"
-	cont "entrenar."
+	para "¡Es ideal para"
+	line "entrenar bien!"
 	done
 
 .SeenText:
@@ -68,14 +67,11 @@ GenericTrainerBikerTyrone:
 	generictrainer BIKER, TYRONE, EVENT_BEAT_BIKER_TYRONE, .SeenText, .BeatenText
 
 	text "Me caí al agua"
-	line "mientras fardaba"
+	line "fardando en el"
+	cont "Camino de Bicis."
 
-	para "en el Camino de"
-	line "Bicis."
-
-	para "Luego las fuertes"
-	line "corrientes me"
-	cont "arrastraron aquí."
+	para "¡Y la corriente me"
+	line "arrastró aquí!"
 	done
 
 .SeenText:

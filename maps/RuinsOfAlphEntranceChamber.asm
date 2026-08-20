@@ -17,6 +17,6 @@ RuinsOfAlphEntranceChamber_MapScriptHeader:
 
 RuinsofAlphStatueText:
 	text "Es una réplica de"
-	line "un #mon anti-"
-	cont "guo."
+	line "un antiguo"
+	cont "#mon."
 	done

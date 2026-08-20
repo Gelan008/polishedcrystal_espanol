@@ -28,9 +28,7 @@ GenericTrainerCowgirlApril:
 
 	text "¡A veces ves 10"
 	line "#mon iguales,"
-
-	para "uno detrás de"
-	line "otro!"
+	cont "uno tras otro!"
 	done
 
 CowgirlAprilSeenText:
@@ -55,7 +53,7 @@ SafariZoneEastRestHouseSignText:
 SafariZoneEastTrainerTipsSignText:
 	text "Pistas Entrenador"
 
-	para "¡Busca #mon ra-"
-	line "ros por la noche o"
+	para "¡Busca #mon"
+	line "raros de noche o"
 	cont "por la mañana!"
 	done

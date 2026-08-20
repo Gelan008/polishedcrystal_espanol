@@ -19,16 +19,12 @@ ViridianNicknameSpeechHouse_MapScriptHeader:
 
 ViridianNicknameSpeechHousePokefanMText:
 	text "¿Te piensas mucho"
-	line "el nombre que les"
+	line "el nombre de tus"
+	cont "#mon?"
 
-	para "pones a tus"
-	line "#mon?"
-
-	para "Ponerles buenos"
-	line "motes hace que in-"
-
-	para "tercambiarlos con"
-	line "otros sea más"
+	para "Poner buenos motes"
+	line "hace que pasarlos"
+	cont "a otros sea más"
 	cont "divertido."
 	done
 

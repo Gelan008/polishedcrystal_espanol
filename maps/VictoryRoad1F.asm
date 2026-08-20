@@ -31,6 +31,6 @@ VeteranmMattSeenText:
 	done
 
 VeteranmMattBeatenText:
-	text "Tuve mi oportu-"
-	line "nidad…"
+	text "Tuve mi gran"
+	line "oportunidad…"
 	done

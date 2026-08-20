@@ -18,8 +18,6 @@ ViridianForestViridianGate_MapScriptHeader:
 
 ViridianForestViridianGateOfficerText:
 	text "¡Ten cuidado! El"
-	line "Bosque Verde es"
-
-	para "un laberinto"
-	line "natural."
+	line "Bosque Verde es un"
+	cont "laberinto natural."
 	done

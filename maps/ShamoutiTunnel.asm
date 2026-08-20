@@ -47,9 +47,8 @@ OreManiacScript:
 
 	text "¡Trato hecho!"
 	line "¡He conseguido un"
-
-	para "mineral que me"
-	line "enamora de verdad!"
+	cont "mineral que me"
+	cont "gusta de verdad!"
 	done
 
 .GreetingText:
@@ -63,9 +62,7 @@ OreManiacScript:
 
 	para "¿No tienes algún"
 	line "mineral colosal"
-
-	para "que me haga aluci-"
-	line "nar de verdad?"
+	cont "que me impresione?"
 	done
 
 .OfferText:
@@ -97,23 +94,19 @@ OreManiacScript:
 GenericTrainerTamerOswald:
 	generictrainer TAMER, OSWALD, EVENT_BEAT_TAMER_OSWALD, .SeenText, .BeatenText
 
-	text "Ahora soy Domador,"
-	line "pero cuando empe-"
-
-	para "cé en el circo"
-	line "hacía el número"
-
-	para "del trapecio con"
-	line "#mon."
+	text "Soy Domador, pero"
+	line "cuando empecé en"
+	cont "el circo hacía el"
+	cont "trapecio con"
+	cont "#mon."
 	done
 
 .SeenText:
 	text "Nací siendo un"
 	line "hombre de circo."
 
-	para "¡Y ahora también"
-	line "soy un fiero lu-"
-	cont "chador!"
+	para "¡Y ahora soy un"
+	line "fiero luchador!"
 	done
 
 .BeatenText:
@@ -124,23 +117,18 @@ GenericTrainerTamerOswald:
 GenericTrainerFirebreatherTala:
 	generictrainer FIREBREATHER, TALA, EVENT_BEAT_FIREBREATHER_TALA, .SeenText, .BeatenText
 
-	text "Mi número de tra-"
-	line "gafuegos es muy"
-
-	para "popular entre los"
-	line "turistas."
+	text "Ser tragafuegos es"
+	line "muy popular entre"
+	cont "los turistas."
 
 	para "¡Algunos incluso"
 	line "me dejan propina!"
 	done
 
 .SeenText:
-	text "¡Pasen y vean, pa-"
-	line "sen y vean mi gran"
-
-	para "y espectacular ex-"
-	line "travagancia de"
-	cont "fuego!"
+	text "¡Pasen y vean mi"
+	line "gran espectáculo"
+	cont "lleno de fuego!"
 	done
 
 .BeatenText:
@@ -151,18 +139,18 @@ GenericTrainerFirebreatherTala:
 GenericTrainerSightseerfNoelle:
 	generictrainer SIGHTSEERF, NOELLE, EVENT_BEAT_SIGHTSEERF_NOELLE, .SeenText, .BeatenText
 
-	text "Estoy haciendo un"
-	line "álbum de fotos pa-"
-	cont "ra mis padres."
+	text "Hago un álbum de"
+	line "fotos para mis"
+	cont "padres."
 
 	para "¡Eh, no mires!"
 	line "¡Es privado!"
 	done
 
 .SeenText:
-	text "¡Madre mía! ¡Tie-"
-	line "nes #mon que no"
-	cont "había visto nunca!"
+	text "¡Madre mía! ¡Esos"
+	line "#mon nunca los"
+	cont "había visto!"
 
 	para "¿Puedo sacar una"
 	line "foto?"
@@ -192,11 +180,11 @@ GenericTrainerSightseermChester:
 	text "Estoy viajando por"
 	line "todo el mundo."
 
-	para "¿Qué región debe-"
-	line "ría visitar ahora?"
+	para "¿Qué región me"
+	line "recomiendas ver?"
 	done
 
 .BeatenText:
-	text "¡Qué gran expe-"
-	line "riencia!"
+	text "¡Qué experiencia"
+	line "tan genial!"
 	done

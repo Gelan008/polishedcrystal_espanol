@@ -41,19 +41,15 @@ SilphCoOfficerScript:
 	line "tienen permiso"
 	cont "para subir."
 
-	para "El suministro"
-	line "principal de ener-"
-	cont "gía no funciona,"
-
-	para "y el presidente ha"
-	line "ordenado máxima"
-
-	para "seguridad en caso"
-	line "de emergencia."
+	para "La red principal"
+	line "de energía falló,"
+	cont "y el presidente"
+	cont "ordenó máxima"
+	cont "seguridad."
 
 	para "Ya aprendimos la"
-	line "lección sobre eso"
-	cont "hace tres años."
+	line "lección hace"
+	cont "tres años."
 	done
 
 .OfficerScriptAfterPowerRestored
@@ -73,26 +69,23 @@ SilphCoOfficerScript:
 	done
 
 SilphCoReceptionistText:
-	text "Te damos la bien-"
-	line "venida a la sede"
-	cont "central de Silph."
+	text "¡Bienvenido a la"
+	line "sede central de"
+	cont "Silph S.A.!"
 	done
 
 SilphCo1FGentlemanText:
 	text "Tengo una cita con"
 	line "el ingeniero jefe"
-
-	para "aquí, en Silph"
-	line "S.A."
+	cont "aquí, en Silph"
+	cont "S.A."
 	done
 
 SilphCo1FCooltrainerfText:
 	text "Reúno el valor"
-	line "necesario para"
-
-	para "pedirle una cita"
-	line "a la recepcio-"
-	cont "nista."
+	line "para pedirle una"
+	cont "cita a la"
+	cont "recepcionista."
 
 	para "En cuanto cuelgue"
 	line "el teléfono…"

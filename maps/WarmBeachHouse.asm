@@ -73,13 +73,13 @@ WarmBeachHouseBookScript:
 
 	para "Aunque el gran"
 	line "guardián del agua"
-	cont "surgirá para sofo-"
-	cont "car la lucha,"
+	cont "se alce a calmar"
+	cont "la lucha,"
 
-	para "su canto en soli-"
-	line "tario fallará, y"
-	cont "la tierra en ceni-"
-	cont "zas se tornará."
+	para "su canto a solas"
+	line "fallará, y la"
+	cont "tierra en cenizas"
+	cont "se tornará."
 
 	para "¿Seguir leyendo?"
 	done
@@ -89,8 +89,8 @@ WarmBeachHouseBookScript:
 	line "tus manos reúne"
 	cont "a los tres."
 
-	para "Sus tesoros uni-"
-	line "dos amansarán a la"
+	para "Sus tres tesoros"
+	line "amansarán a la"
 	cont "bestia del mar."
 
 	para "¿Seguir leyendo?"

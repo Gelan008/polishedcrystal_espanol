@@ -183,38 +183,28 @@ Route39CowgirlAnnieScript:
 	text "¡Eh! ¡No asustes a"
 	line "las Miltank!"
 
-	para "… ¿Ah, que quieres"
-	line "un combate?"
-
-	para "Ahora estoy con la"
-	line "faena del campo…"
+	para "… ¿Quieres luchar?"
+	line "Estoy con la faena"
+	cont "del campo…"
 
 	para "Hagamos un trato:"
 	line "vence a los demás"
-
-	para "entre Ciudad Iris"
-	line "y Ciudad Olivo y"
-	cont "lucharé contigo."
+	cont "entre Iris y Olivo"
+	cont "y lucharé contigo."
 
 	para "Puede que algunos"
-	line "solo quieran lu-"
-
-	para "char cuando sea de"
-	line "noche."
+	line "solo luchen si es"
+	cont "de noche."
 	done
 
 .QuestionText:
-	text "Terminé mis"
-	line "tareas, y tú has"
+	text "Terminé mis tareas"
+	line "y tú despejaste"
+	cont "estas rutas."
 
-	para "despejado todas"
-	line "estas rutas."
-
-	para "Bien, mi equipo"
-	line "venció a Morti, ¡y"
-
-	para "creo que también"
-	line "podemos contigo!"
+	para "Mi equipo venció a"
+	line "Morti, ¡y podemos"
+	cont "ganarte también!"
 
 	para "¿Qué me dices?"
 	done
@@ -243,20 +233,20 @@ Route39CowgirlAnnieScript:
 	para "Gracias por este"
 	line "rato, camarada."
 
-	para "¡Llévate esto con-"
-	line "tigo!"
+	para "¡Lleva esto como"
+	line "recuerdo!"
 	done
 
 GenericTrainerSailorEugene:
 	generictrainer SAILOR, EUGENE, EVENT_BEAT_SAILOR_EUGENE, SailorEugeneSeenText, SailorEugeneBeatenText
 
 	text "Mis #mon fueron"
-	line "atrapados y cria-"
-	cont "dos en ultramar."
+	line "criados fuera,"
+	cont "en ultramar."
 
 	para "Son mis compañeros"
-	line "en esos viajes tan"
-	cont "largos."
+	line "en mis largos"
+	cont "viajes."
 	done
 
 GenericTrainerPsychicNorman:
@@ -267,10 +257,9 @@ GenericTrainerPsychicNorman:
 	cont "más habilidades?"
 
 	para "A la gente le pasa"
-	line "igual. Cada uno"
-
-	para "tiene un potencial"
-	line "diferente."
+	line "igual: cada uno"
+	cont "tiene un potencial"
+	cont "diferente."
 	done
 
 TrainerPokefanfJaime:
@@ -297,17 +286,13 @@ TrainerPokefanfJaime:
 	line "de noche, aquí"
 	cont "mismo, en Ruta 39."
 
-	para "No sé por qué, pe-"
-	line "ro parece que le"
+	para "No sé por qué,"
+	line "pero le encanta"
+	cont "entrenar aquí."
 
-	para "gusta que entrene-"
-	line "mos por aquí."
-
-	para "Se vuelve más ca-"
-	line "riñoso entrenando"
-
-	para "aquí que en cual-"
-	line "quier otra parte."
+	para "Se vuelve más"
+	line "cariñoso que en"
+	cont "cualquier sitio."
 	done
 
 .NotNight:
@@ -326,8 +311,8 @@ SailorEugeneSeenText:
 	text "Acabo de volver a"
 	line "Ciudad Olivo."
 
-	para "¿Qué tal un com-"
-	line "bate #mon?"
+	para "¿Qué tal una"
+	line "batalla #mon?"
 	done
 
 SailorEugeneBeatenText:
@@ -342,28 +327,25 @@ PokefanmDerek1SeenText:
 
 PokefanmDerek1BeatenText:
 	text "No me dio tiempo"
-	line "a fardar de Pika-"
-	cont "chu…"
+	line "a fardar de mi"
+	cont "Pikachu…"
 	done
 
 PokefanMDerekText_NotBragging:
-	text "¡No voy a escuchar"
-	line "tus fanfarronadas!"
+	text "¡No voy a oír tus"
+	line "fanfarronadas!"
 
-	para "¡Los Pokéfan tene-"
-	line "mos la norma de no"
-
-	para "escuchar a otros"
-	line "presumir!"
+	para "¡Los Pokéfan jamás"
+	line "escuchamos a otros"
+	cont "presumir!"
 	done
 
 PokefanfRuthSeenText:
 	text "¡Qué #mon tan"
 	line "encantadores!"
 
-	para "¡Enseñemos a nues-"
-	line "tros #mon a la"
-	cont "vez!"
+	para "¡Mostremos los"
+	line "#mon a la vez!"
 	done
 
 PokefanfRuthBeatenText:
@@ -385,15 +367,15 @@ PsychicNormanBeatenText:
 
 
 PokefanfJaimeSeenText:
-	text "Llegas en el mo-"
-	line "mento justo."
+	text "Llegas justo a"
+	line "tiempo."
 
 	para "¡Combatamos!"
 	done
 
 PokefanfJaimeBeatenText:
-	text "Vaya, qué decep-"
-	line "ción…"
+	text "Vaya, qué gran"
+	line "decepción…"
 	done
 
 
@@ -402,11 +384,11 @@ Route39BeautyText:
 	line "la Torre Hojalata"
 	cont "de Ciudad Iris,"
 
-	para "¿o el Faro de Ciu-"
-	line "dad Olivo?"
+	para "¿o el Faro de"
+	line "Ciudad Olivo?"
 
-	para "¡La Torre,"
-	line "Hojalata sin duda!"
+	para "¡La Torre Hojalata"
+	line "sin duda alguna!"
 	done
 
 Route39HikerText:
@@ -416,22 +398,19 @@ Route39HikerText:
 
 	para "Una ruta dura por"
 	line "terreno escarpado,"
+	cont "y luego una"
+	cont "montaña helada…"
 
-	para "y luego escalar un"
-	line "pico helado…"
-
-	para "He oído que algu-"
-	line "nos #mon se han"
-
-	para "adaptado para so-"
-	line "brevivir al clima."
+	para "Dicen que algunos"
+	line "#mon se adaptan"
+	cont "para sobrevivir."
 
 	para "… Pero sin unas"
 	line "Gafas Aislantes"
-	cont "por seguridad,"
+	cont "de seguridad,"
 
-	para "no puedo ni empe-"
-	line "zar la marcha…"
+	para "no puedo iniciar"
+	line "la marcha…"
 	done
 
 Route39SignText:
@@ -458,12 +437,11 @@ Route39AdvancedTips2Text:
 
 	para "¡Un #mon con"
 	line "Ojo Compuesto o"
+	cont "Moneda Amuleto"
+	cont "equipada"
 
-	para "con una Moneda"
-	line "Amuleto equipada"
-
-	para "facilitará encon-"
-	line "trar salvajes con"
+	para "ayudará a hallar"
+	line "#mon salvajes con"
 	cont "un objeto!"
 	done
 
@@ -478,9 +456,9 @@ RuggedRoadAheadSignText:
 MoomooFarmSignText:
 	text "Granja Mu-mu"
 
-	para "Disfruta de nues-"
-	line "tra leche fresca y"
-	cont "deliciosa"
+	para "Disfruta de rica"
+	line "leche muy fresca"
+	cont "y deliciosa."
 	done
 
 Route39TrainerTipsText:

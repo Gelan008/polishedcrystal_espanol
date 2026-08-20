@@ -28,14 +28,12 @@ PokemonJournalKogaScript:
 	cont "Mando!"
 
 	para "Se dice que Koga"
-	line "tiene grandes"
+	line "posee grandes"
+	cont "conocimientos de"
+	cont "medicina."
 
-	para "conocimientos de"
-	line "medicina."
-
-	para "Incluso prepara su"
-	line "propia medicina"
-
-	para "para curar a sus"
-	line "#mon."
+	para "Incluso elabora"
+	line "sus remedios para"
+	cont "curar a sus"
+	cont "#mon."
 	done

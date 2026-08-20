@@ -25,25 +25,23 @@ ViridianSchoolHouse_MapScriptHeader:
 ViridianSchoolHouseTeacherText:
 	text "Sé que es mucha"
 	line "materia, ¡pero por"
-
-	para "favor, prestad"
-	line "atención!"
+	cont "favor, prestad"
+	cont "atención!"
 	done
 
 ViridianSchoolHouseNotesText:
 	text "La página está"
-	line "con garabatos."
+	line "llena de dibujos."
 
-	para "Un laberinto, flo-"
-	line "res, la letra S…"
+	para "Un laberinto, la"
+	line "letra S, flores…"
 	done
 
 ViridianSchoolHouseLass1Text:
 	text "¡Un momento! ¿No"
-	line "eran especiales,"
-
-	para "en plan, todos los"
-	line "ataques de Fuego?"
+	line "eran especiales"
+	cont "todos los ataques"
+	cont "de tipo Fuego?"
 	done
 
 ViridianSchoolHouseYoungsterScript:
@@ -59,21 +57,19 @@ ViridianSchoolHouseYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "“Lo que no debili-"
-	line "ta a un #mon lo"
+	text "“Lo que no vence"
+	line "a un #mon lo"
 	cont "hace más fuerte”."
 
 	para "Ese es el efecto"
-	line "del Seguro De-"
-	cont "bilidad."
+	line "del Seguro"
+	cont "Debilidad."
 	done
 
 .Text1:
 	text "La profe me dio"
-	line "copias de sobra"
-
-	para "de esto. ¡Toma,"
-	line "quédate una!"
+	line "copias de sobra de"
+	cont "esto. ¡Toma una!"
 	done
 
 ViridianSchoolHouseGameBoyKidScript:
@@ -82,17 +78,16 @@ ViridianSchoolHouseGameBoyKidScript:
 	end
 
 ViridianSchoolHouseGameBoyKidText:
-	text "¡Estoy tomando no-"
-	line "tas en el móvil!"
+	text "¡Tomo apuntes con"
+	line "el móvil!"
 
 	para "¡No estoy jugando!"
 	line "¡De verdad!"
 	done
 
 ViridianSchoolHouseLass2Text:
-	text "¡Estoy sentada en"
-	line "el sitio del pro-"
-	cont "tagonista!"
+	text "¡Estoy donde se"
+	line "sienta el prota!"
 
 	para "Entonces, ¿por qué"
 	line "mi vida es tan"
@@ -102,8 +97,7 @@ ViridianSchoolHouseLass2Text:
 ViridianSchoolHouseBlackboardText:
 	text "Los movimientos"
 	line "físicos usan el"
-	cont "Ataque y la De-"
-	cont "fensa."
+	cont "Ataque y Defensa."
 
 	para "Los especiales"
 	line "usan el At. Esp."
@@ -123,13 +117,12 @@ PokemonJournalKiyoScript:
 	para "Edición especial:"
 	line "¡Rey Kárate Kiyo!"
 
-	para "Dicen que Kiyo es-"
-	line "tudió con Aníbal,"
+	para "Cuentan que Kiyo"
+	line "fue alumno de"
+	cont "Aníbal, en Ciudad"
+	cont "Orquídea."
 
-	para "de Ciudad Orquí-"
-	line "dea. Se rumorea"
-
-	para "que sigue entre-"
-	line "nando en algún lu-"
-	cont "gar de Johto."
+	para "Se dice que aún"
+	line "entrena en algún"
+	cont "rincón de Johto."
 	done

@@ -20,8 +20,6 @@ SaffronRichSpeechHouseRichBoyText:
 
 	para "Si quieres vivir"
 	line "aquí, necesitas"
-
-	para "mucho dinero o"
-	line "buscar a un com-"
-	cont "pañero de piso."
+	cont "mucho dinero o"
+	cont "compartir piso."
 	done

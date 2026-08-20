@@ -200,22 +200,19 @@ VioletCityLassText:
 	line "fantasmas en la"
 	cont "Torre Bellsprout."
 
-	para "Dicen que movi-"
-	line "mientos de tipo"
-
-	para "Normal no afectan"
-	line "a los fantasmas."
+	para "Dicen que los"
+	line "ataques de tipo"
+	cont "Normal no afectan"
+	cont "a los fantasmas."
 	done
 
 VioletCityCooltrainerM1Text:
-	text "Oye, ¿eres entre-"
-	line "nador #mon?"
+	text "Oye, ¿eres un buen"
+	line "entrenador?"
 
-	para "Si vences al Líder"
-	line "de Gimnasio local,"
-
-	para "¡estarás listo pa-"
-	line "ra el estrellato!"
+	para "¡Si vences al"
+	line "Líder del lugar,"
+	cont "irás a la fama!"
 	done
 
 VioletCityCooltrainerFText:
@@ -223,24 +220,19 @@ VioletCityCooltrainerFText:
 	line "popular en esta"
 	cont "ciudad."
 
-	para "Pero no lo hace"
-	line "bien contra el Lí-"
-	cont "der de Gimnasio…"
+	para "Pero no le va bien"
+	line "contra el Líder de"
+	cont "Gimnasio…"
 	done
 
 VioletCityGrampsText:
-	text "¡Pegaso, el del"
-	line "Gimnasio #mon"
-	cont "de Ciudad Malva,"
-
-	para "es un gran"
-	line "entrenador!"
+	text "¡Pegaso, del"
+	line "Gimnasio de Malva,"
+	cont "es un gran tipo!"
 
 	para "Heredó el Gimnasio"
-	line "de su padre y ha"
-
-	para "hecho un trabajo"
-	line "excelente."
+	line "de su padre y hace"
+	cont "un gran trabajo."
 	done
 
 VioletCityYoungsterText:
@@ -254,23 +246,25 @@ VioletCityYoungsterText:
 
 VioletCityFisherText:
 	text "¿Cómo aguanta un"
-	line "edificio tan ines-"
+	line "edificio inestable"
+	cont "un terremoto?"
 
-	para "table un terremo-"
-	line "to? Algo se me"
-	cont "debe escapar."
+	para "Algo se me debe de"
+	line "escapar…"
 	done
 
 VioletCityCooltrainerM2Text:
-	text "Nos importan los"
-	line "edificios tradi-"
-	cont "cionales de aquí."
+	text "Aquí cuidamos los"
+	line "edificios"
+	cont "tradicionales."
 
-	para "Hasta la Tienda y"
-	line "el Centro #mon"
+	para "Tanto la Tienda"
+	line "como el Centro"
+	cont "#mon"
 
-	para "están pintados"
-	line "para no destacar."
+	para "usan tonos sobrios"
+	line "para no desentonar"
+	cont "con el entorno."
 	done
 
 VioletCitySignText:

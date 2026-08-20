@@ -28,19 +28,16 @@ WarmBeach_MapScriptHeader:
 GenericTrainerSightseermGareth:
 	generictrainer SIGHTSEERM, GARETH, EVENT_BEAT_SIGHTSEERM_GARETH, .SeenText, .BeatenText
 
-	text "Incluso fuera del"
-	line "combate, estos ob-"
-
-	para "jetos son grandes"
-	line "recuerdos."
+	text "Fuera del combate,"
+	line "estos objetos son"
+	cont "grandes recuerdos."
 	done
 
 .SeenText:
-	text "¡Acabo de comprar"
-	line "objetos muy útiles"
-
-	para "en el mercadillo"
-	line "al aire libre!"
+	text "¡Compré objetos"
+	line "muy útiles en el"
+	cont "mercadillo al aire"
+	cont "libre!"
 	done
 
 .BeatenText:
@@ -52,8 +49,8 @@ GenericTrainerAromaLadyHolly:
 	generictrainer AROMA_LADY, HOLLY, EVENT_BEAT_AROMA_LADY_HOLLY, .SeenText, .BeatenText
 
 	text "El olfato es vital"
-	line "para vivir en ple-"
-	cont "na naturaleza."
+	line "para vivir en la"
+	cont "naturaleza."
 	done
 
 .SeenText:
@@ -72,25 +69,23 @@ WarmBeachCooltrainermText:
 	line "por aquí que"
 	cont "habla!"
 
-	para "¡No me lo creería"
-	line "si no lo hubiera"
-
-	para "visto con mis pro-"
-	line "pios ojos!"
+	para "¡No lo creería de"
+	line "no haberlo visto"
+	cont "con mis ojos!"
 	done
 
 WarmBeachCooltrainerfText:
-	text "Me han elegido do-"
-	line "ncella del festi-"
-	cont "val este año,"
+	text "Soy la doncella"
+	line "del festival de"
+	cont "este año,"
 
 	para "así que tengo que"
 	line "tocar la melodía"
 	cont "del Elegido."
 
-	para "Estoy de los ner-"
-	line "vios, así que vine"
-	cont "aquí a practicar."
+	para "Estoy nerviosa, y"
+	line "vine hasta aquí a"
+	cont "practicar."
 	done
 
 WarmBeachSlowkingScript:
@@ -127,28 +122,26 @@ WarmBeachLassScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "No tienes sufi-"
-	line "ciente dinero…"
+	text "No te llega el"
+	line "dinero…"
 	done
 
 .Text1:
 	text "Recojo conchas de"
 	line "la playa y hago"
+	cont "Campanas Concha."
 
-	para "Campan. Alivio con"
-	line "ellas."
+	para "Dicen que curan"
+	line "con su tintineo."
 
-	para "Dicen que su soni-"
-	line "do es curativo."
-
-	para "Cuestan ¥4000 cada"
+	para "Cuestan 4000¥ cada"
 	line "una. ¿Quieres una?"
 	done
 
 .Text3:
 	text "Hoy solo he podido"
 	line "hacer una Campana"
-	cont "Alivio…"
+	cont "Concha…"
 	done
 
 .Text4:
@@ -156,24 +149,20 @@ WarmBeachLassScript:
 	done
 
 .Text6:
-	text "No tienes sufi-"
-	line "ciente espacio…"
+	text "No te queda más"
+	line "espacio libre…"
 	done
 
 WarmBeachLadyText:
 	text "Esas islas que se"
-	line "ven a lo lejos"
+	line "ven a lo lejos son"
+	cont "los templos del"
+	cont "Fuego, Hielo y"
+	cont "el Rayo."
 
-	para "se conocen como"
-	line "los templos del"
-
-	para "Fuego, el Hielo"
-	line "y el Rayo."
-
-	para "Eso dice este fo-"
-	line "lleto, pero ¿para"
-
-	para "qué servirán?"
+	para "Eso dice la guía,"
+	line "pero ¿para qué"
+	cont "servirán?"
 	done
 
 WarmBeachShackSignText:
@@ -182,6 +171,7 @@ WarmBeachShackSignText:
 
 WarmBeachShrineText:
 	text "Es un santuario"
-	line "dedicado al Guardi"
-	cont "án de los Mares."
+	line "dedicado al"
+	cont "Guardián de los"
+	cont "Mares."
 	done

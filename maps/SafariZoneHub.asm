@@ -29,8 +29,7 @@ GenericTrainerBug_maniacKai:
 	generictrainer BUG_MANIAC, KAI, EVENT_BEAT_BUG_MANIAC_KAI, Bug_maniacKaiSeenText, Bug_maniacKaiBeatenText
 
 	text "¡Venonat se parece"
-	line "mucho a"
-	cont "Butterfree!"
+	line "a Butterfree!"
 
 	para "El peso, los ojos,"
 	line "las habilidades…"
@@ -42,13 +41,12 @@ GenericTrainerBug_maniacKai:
 Bug_maniacKaiSeenText:
 	text "¿Mi Venonat ha"
 	line "evolucionado a"
-	cont "Venomoth?!"
+	cont "un Venomoth?!"
 	done
 
 Bug_maniacKaiBeatenText:
-	text "¡Pensaba de verdad"
-	line "que iba a evolu-"
-	cont "cionar a"
+	text "¡De verdad pensé"
+	line "que evolucionaba a"
 	cont "Butterfree!"
 	done
 

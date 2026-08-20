@@ -106,31 +106,25 @@ GenericTrainerSchoolgirlSarah:
 GenericTrainerSchoolgirlIsabel:
 	generictrainer SCHOOLGIRL, ISABEL, EVENT_BEAT_SCHOOLGIRL_ISABEL, SchoolgirlIsabelSeenText, SchoolgirlIsabelBeatenText
 
-	text "Estamos aprendien-"
-	line "do cómo viven jun-"
-	cont "tos los #mon"
-
-	para "en estado salvaje."
+	text "Aprendemos cómo"
+	line "viven juntos los"
+	cont "#mon salvajes."
 	done
 
 GenericTrainerTeacherKathryn:
 	generictrainer TEACHER_F, KATHRYN, EVENT_BEAT_TEACHER_KATHRYN, TeacherKathrynSeenText, TeacherKathrynBeatenText
 
-	text "Estar pendiente de"
-	line "todos en una ex-"
-
-	para "cursión da mucho"
-	line "trabajo."
+	text "Cuidar de todos"
+	line "en una excursión"
+	cont "es mucho trabajo."
 	done
 
 GenericTrainerBreederSophie:
 	generictrainer BREEDER, SOPHIE, EVENT_BEAT_BREEDER_SOPHIE, BreederSophieSeenText, BreederSophieBeatenText
 
-	text "A veces los Pika-"
-	line "chu usan descar-"
-
-	para "gas para reanimar"
-	line "a los debilitados."
+	text "A veces Pikachu"
+	line "usa descargas para"
+	cont "reanimar a otros."
 
 	para "¡Es de lo más"
 	line "tierno!"
@@ -236,8 +230,8 @@ YellowForestTutorSeedBombScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "¡Hablamos si cam-"
-	line "bias de opinión!"
+	text "¡Hablamos si te"
+	line "lo piensas!"
 	done
 
 .NoSilverLeaf
@@ -268,14 +262,13 @@ YellowForestSurfPikachuDoll:
 	jumpthisopenedtext
 
 	text "¡El Muñeco Pikachu"
-	line "Surfista fue en-"
-	cont "viado a tu casa!"
+	line "Surfista llegó a"
+	cont "tu casa!"
 	done
 
 SchoolgirlSarahSeenText:
-	text "¡Hala, un entre-"
-	line "nador! ¡Quiero lu-"
-	cont "char!"
+	text "¡Hala, alguien con"
+	line "quien combatir!"
 	done
 
 SchoolgirlSarahBeatenText:
@@ -310,8 +303,8 @@ TeacherKathrynBeatenText:
 	done
 
 BreederSophieSeenText:
-	text "¿Sabías que Pika-"
-	line "chu es un #mon"
+	text "¿Sabías que"
+	line "Pikachu ya está"
 	cont "evolucionado?"
 	done
 
@@ -323,48 +316,44 @@ YellowForestWalkerSeenText:
 	text "¡Hola! Me llamo"
 	line "Wayne."
 
-	para "Fui Líder de Gim-"
-	line "nasio de Ciudad"
+	para "Fui Líder en"
+	line "Ciudad Malva,"
 
-	para "Malva, pero le ce-"
-	line "dí el puesto a mi"
-	cont "hijo."
+	para "le cedí el puesto"
+	line "a mi hijo."
 
 	para "Ahora viajo por"
-	line "Johto contemplando"
-	cont "los paisajes."
+	line "Johto mirando los"
+	cont "paisajes."
 
-	para "Wayne: ¿Estás reu-"
-	line "niendo Medallas de"
+	para "Wayne: ¿Reúnes"
+	line "las Medallas de"
 	cont "Gimnasio?"
 
 	para "¡Así que mi hijo"
 	line "perdió contra ti!"
 
-	para "Pues ahora quiero"
-	line "poner a prueba tu"
-	cont "habilidad."
+	para "¡Pues quiero poner"
+	line "a prueba tu gran"
+	cont "habilidad!"
 
-	para "No tengo ninguna"
-	line "Medalla, ¡pero te"
-
-	para "daré algo bonito"
-	line "si ganas!"
+	para "No tengo Medallas,"
+	line "¡pero te daré un"
+	cont "regalo si ganas!"
 	done
 
 YellowForestWalkerBeatenText:
-	text "¡Mis #mon pája-"
-	line "ro… derrotados!"
+	text "¡Mis aves #mon…"
+	line "derrotadas!"
 	done
 
 YellowForestWalkerAfterText:
-	text "Wayne: Vaya, ya"
-	line "veo por qué le ga-"
-	cont "naste a Pegaso."
+	text "Wayne: Ya veo por"
+	line "qué le ganaste a"
+	cont "Pegaso."
 
-	para "¡Conoces a tus"
-	line "#mon a la per-"
-	cont "fección!"
+	para "¡Conoces a fondo"
+	line "a tus #mon!"
 
 	para "¡Te has ganado"
 	line "esta MO!"
@@ -372,17 +361,13 @@ YellowForestWalkerAfterText:
 
 YellowForestWalkerFinalText:
 	text "Wayne: Los #mon"
-	line "pájaro surcan el"
-
-	para "cielo porque lo"
-	line "desean con todo"
-	cont "su corazón."
+	line "pájaro vuelan alto"
+	cont "porque lo desean"
+	cont "de corazón."
 
 	para "Si deseas algo con"
 	line "tanta fuerza, sé"
-
-	para "que podrás alcan-"
-	line "zarlo."
+	cont "que lo lograrás."
 
 	para "Lo que yo quiero"
 	line "es viajar más."
@@ -403,30 +388,23 @@ YellowForestYellowGreetingText:
 	line "de Pikachu…"
 
 	para "Me recuerda a mi"
-	line "hogar en Kanto."
+	line "hogar en Kanto,"
+	cont "donde atrapé a mi"
+	cont "primer #mon."
 
-	para "Donde atrapé a mi"
-	line "primer #mon."
+	para "El Entrenador que"
+	line "me ayudó a cazarlo"
+	cont "me dijo algo:"
 
-	para "El entrenador que"
-	line "me ayudó a atra-"
-	cont "parlo me dijo"
-	cont "algo:"
+	para "¡si los cuidas con"
+	line "todo tu corazón,"
+	cont "serán tus amigos!"
 
-	para "que si cuidas de"
-	line "los #mon con"
+	para "Noto que cuidas"
+	line "bien a tus #mon"
 
-	para "todo tu corazón,"
-	line "¡siempre serán tus"
-	cont "amigos!"
-
-	para "Puedo notar que te"
-	line "preocupas por tus"
-	cont "#mon."
-
-	para "¡Así que déjame"
-	line "ver de qué son ca-"
-	cont "paces tus amigos!"
+	para "¡Veamos qué pueden"
+	line "hacer tus amigos!"
 	done
 
 YellowForestYellowWinLossText:
@@ -456,22 +434,20 @@ YellowForestCooltrainerMText:
 	cont "poderosas."
 
 	para "Con los años, una"
-	line "pequeña semilla"
-
-	para "puede convertirse"
-	line "en un gran árbol."
+	line "pequeña semilla se"
+	cont "vuelve un gran"
+	cont "árbol."
 
 	para "¡Y una semilla"
-	line "grande puede ca-"
-	cont "erte y golpearte!"
+	line "grande puede"
+	cont "caer y golpearte!"
 	done
 
 Text_YellowForestTutorSeedBomb:
-	text "Puedo enseñarle a"
-	line "tu #mon Bomba"
-
-	para "Germen por una"
-	line "Hoja Plata."
+	text "Puedo enseñarle"
+	line "Bomba Germen a tu"
+	cont "#mon por una"
+	cont "Hoja Plata."
 	done
 
 Text_YellowForestTutorQuestion:
@@ -481,15 +457,15 @@ Text_YellowForestTutorQuestion:
 	done
 
 YellowForestSuperNerdText:
-	text "Hay una proteína"
-	line "en tu cuerpo lla-"
-	cont "mada pikachurina."
+	text "El cuerpo tiene"
+	line "una proteína dicha"
+	cont "pikachurina."
 
 	para "¿Qué inspiró ese"
 	line "nombre?"
 
-	para "¡Pikachu, por su-"
-	line "puesto!"
+	para "¡Pues Pikachu, sin"
+	line "duda alguna!"
 	done
 
 YellowForestSurfPikachuDollText:

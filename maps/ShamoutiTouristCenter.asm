@@ -68,23 +68,20 @@ LarryScript:
 
 .RewardText:
 	text "Para mí, lo mejor"
-	line "de viajar es pro-"
-	cont "bar los platos"
-	cont "locales."
+	line "es probar platos"
+	cont "locales al viajar."
 
 	para "El restaurante de"
-	line "aquí cerca prepara"
-
-	para "un postre de lo"
-	line "más exquisito"
+	line "aquí sirve un"
+	cont "postre exquisito"
 if DEF(FAITHFUL)
-	line "con Miel."
+	cont "con Miel."
 else
-	line "con Miel Dulce."
+	cont "con Miel Dulce."
 endc
 
-	para "Permíteme compar-"
-	line "tir algo contigo."
+	para "Permíteme darte un"
+	line "poco."
 	done
 
 .IntroText:
@@ -92,22 +89,20 @@ endc
 	line "Soy Larry."
 
 	para "Mi jefa me envió"
-	line "aquí por negocios,"
-
-	para "pero bien puedo"
-	line "aprovechar para"
+	line "por negocios, pero"
+	cont "aprovecharé para"
 	cont "disfrutar un poco."
 
 	para "Acabo de comer en"
 	line "el Restaurante"
 	cont "Oasis del hotel."
 
-	para "Eso me ha abierto"
-	line "el apetito para un"
-	cont "combate más duro."
+	para "Eso me abrió el"
+	line "apetito para un"
+	cont "buen combate."
 
-	para "¿Te apetece acom-"
-	line "pañarme?"
+	para "¿Te apetece un"
+	line "combate conmigo?"
 	done
 
 .RematchText:
@@ -116,28 +111,25 @@ endc
 
 	para "Ya luchamos antes,"
 	line "así que dudo que"
-
-	para "esto te cause una"
-	line "gran impresión."
+	cont "te impresione."
 
 	para "En cualquier caso,"
 	line "¿empezamos?"
 	done
 
 .SeenText:
-	text "Un servidor, Lau-"
-	line "rel, queda a tu"
+	text "Un servidor,"
+	line "Laurel, queda a tu"
 	cont "disposición."
 	done
 
 .BeatenText:
-	text "En fin, ya he te-"
-	line "nido bastante…"
+	text "En fin, ya tuve"
+	line "bastante…"
 	done
 
 .RefusedText:
-	text "Quizá en otra oca-"
-	line "sión, cuando nos"
-	cont "cuadren las agen-"
-	cont "das."
+	text "Quizás en otra"
+	line "ocasión, si nos"
+	cont "cuadra la agenda."
 	done

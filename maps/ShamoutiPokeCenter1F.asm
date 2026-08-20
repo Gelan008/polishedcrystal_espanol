@@ -31,11 +31,10 @@ PokemonJournalLoreleiScript:
 	cont "miembro del Alto"
 	cont "Mando!"
 
-	para "Se dice que Lore-"
-	line "lei tiene una co-"
-
-	para "lección completa"
-	line "de muñecos #mon"
+	para "Dicen que Lorelei"
+	line "tiene una enorme"
+	cont "colección de"
+	cont "muñecos #mon."
 	done
 
 ShamoutiPokeCenter1FIvyScript:
@@ -129,42 +128,34 @@ ShamoutiPokeCenter1FIvyScript:
 	para "Soy Ivy, una"
 	line "profesora #mon."
 
-	para "Estudio la varia-"
-	line "ción local en los"
+	para "Estudio la"
+	line "variación local de"
 	cont "fenotipos #mon."
 
-	para "¿Sabías que algu-"
-	line "nos #mon"
-	cont "salvajes"
-
-	para "conocen ataques"
-	line "únicos de su hábi-"
-	cont "tat?"
+	para "¿Sabías que hay"
+	line "#mon salvajes"
+	cont "con ataques únicos"
+	cont "de su hábitat?"
 
 	para "¡E incluso dos"
 	line "#mon de la"
-	cont "misma"
+	cont "misma especie"
+	cont "pueden tener otro"
+	cont "color…!"
 
-	para "especie en una zo-"
-	line "na pueden tener"
-	cont "distinto color…!"
-
-	para "¡Ah, perdón! A ve-"
-	line "ces me dejo llevar"
-	cont "por la emoción."
+	para "¡Perdón! A veces"
+	line "me dejo llevar por"
+	cont "la emoción."
 	done
 
 .OfferText:
 	text "Ivy: ¿Conque vas a"
 	line "afrontar un nuevo"
+	cont "reto de Gimnasios"
+	cont "en otra región…?"
 
-	para "desafío de Gimna-"
-	line "sios en otra re-"
-	cont "gión…?"
-
-	para "¡Ajá! ¿Por qué no"
-	line "te doy a ti tam-"
-	cont "bién un nuevo"
+	para "¡Ajá! ¿No querrías"
+	line "tener un nuevo"
 	cont "#mon?"
 
 	para "¿Cuál de ellos te"
@@ -191,12 +182,10 @@ ShamoutiPokeCenter1FIvyScript:
 	text_ram wStringBuffer3
 	text "."
 
-	para "En fin, tengo que"
-	line "coger un ferry de"
-
-	para "vuelta a mi labo-"
-	line "ratorio en Isla"
-	cont "Valencia."
+	para "En fin, tomaré el"
+	line "ferry de vuelta a"
+	cont "mi laboratorio en"
+	cont "Isla Valencia."
 
 	para "¡Saluda al Prof."
 	line "Oak de mi parte!"

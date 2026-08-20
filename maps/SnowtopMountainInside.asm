@@ -81,43 +81,36 @@ KimonoGirlAmiScript:
 
 .OutroText:
 	text "Mis primas y yo"
-	line "bailamos en Ciudad"
-	cont "Iris, pero tam-"
-
-	para "bién se nos conoce"
-	line "por viajar."
+	line "bailamos en Iris,"
+	cont "pero también nos"
+	cont "gusta viajar."
 	done
 
 .IntroText:
 	text "Soy una Chica"
 	line "Kimono."
 
-	para "¿No has conocido a"
+	para "¿Has conocido a"
 	line "mis cinco primas"
-
-	para "bailarinas en Ciu-"
-	line "dad Iris?"
+	cont "en Ciudad Iris?"
 
 	para "Avísame si logras"
-	line "verlas."
+	line "verlas a todas."
 	done
 
 .SeenText:
-	text "Si me pusiera a"
-	line "bailar aquí, mis"
-
-	para "sandalias resba-"
-	line "larían o se que-"
-	cont "darían pegadas al"
-	cont "hielo."
+	text "Si bailara aquí,"
+	line "mis sandalias se"
+	cont "resbalarían o se"
+	cont "pegarían al hielo."
 
 	para "¡Por tanto, mejor"
 	line "luchemos!"
 	done
 
 .BeatenText:
-	text "Oh, eres temi-"
-	line "ble…"
+	text "Oh, ¡eres muy"
+	line "temible…!"
 	done
 
 .AfterText:
@@ -171,10 +164,8 @@ text "¡Vaya! Pero no"
 SnowtopMountainInsideSkierText:
 	text "El viento y el"
 	line "granizo del cañón"
-
-	para "hacen daño si no"
-	line "vas preparado pal"
-	cont "frío glacial."
+	cont "hacen daño si no"
+	cont "vas bien abrigado."
 
 	para "¡Sería una gran"
 	line "técnica para un"
@@ -182,18 +173,17 @@ SnowtopMountainInsideSkierText:
 	done
 
 Text_SnowtopMountainInsideTutorIcyWind:
-	text "Enseñaré a uno de"
-	line "tus #mon a usar"
-
-	para "Viento Hielo si"
-	line "me das una Hoja"
-	cont "Plata."
+	text "Puedo enseñar"
+	line "Viento Hielo a tus"
+	cont "#mon a cambio"
+	cont "de una Hoja Plata."
 	done
 
 Text_SnowtopMountainInsideTutorQuestion:
 	text "¿Quieres que le"
-	line "enseñe a tu #-"
-	cont "mon Viento Hielo?"
+	line "enseñe a tu"
+	cont "#mon Viento"
+	cont "Hielo?"
 	done
 
 Text_SnowtopMountainInsideTutorRefused: ; text > text

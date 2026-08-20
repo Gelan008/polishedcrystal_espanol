@@ -44,8 +44,8 @@ AgathaScript:
 AgathaAfterScript:
 	jumpthisopenedtext
 
-	text "Espero grandes co-"
-	line "sas de ti, si te"
+	text "Espero grandes"
+	line "cosas de ti si te"
 	cont "lo propones."
 	done
 
@@ -69,18 +69,14 @@ MrFujiText:
 	line "la bienvenida."
 
 	para "Mmm… Se nota que"
-	line "estás criando a"
-
-	para "tus #mon con"
-	line "mucho cariño y"
-	cont "dedicación."
+	line "crias a tus"
+	cont "#mon con mucho"
+	cont "amor y dedicación."
 
 	para "Los amantes de los"
-	line "#mon vienen"
-
-	para "aquí a rendir"
-	line "homenaje a los"
-	cont "#mon difuntos."
+	line "#mon vienen a"
+	cont "honrar la memoria"
+	cont "de los difuntos."
 
 	para "Por favor, reza"
 	line "por las almas de"
@@ -92,20 +88,19 @@ MrFujiText:
 	done
 
 MrFujiGiveSilphScopeText:
-	text "Toma, tengo un re-"
-	line "galo para ti."
+	text "Toma, tengo un"
+	line "regalo para ti."
 
-	para "Por favor, acép-"
-	line "talo."
+	para "Por favor,"
+	line "acéptalo."
 	done
 
 MrFujiUseThisText:
 	text "Puedes usarlo para"
-	line "ayudar a apaciguar"
-
-	para "las almas de los"
-	line "#mon que no"
-	cont "descansan en paz."
+	line "calmar las almas"
+	cont "de los #mon que"
+	cont "no descansan en"
+	cont "paz."
 	done
 
 SoulHouseTeacherText:
@@ -113,18 +108,17 @@ SoulHouseTeacherText:
 	line "más tumbas de"
 	cont "#mon."
 
-	para "Hay muchas cáma-"
-	line "ras a las que solo"
-	cont "el Sr. Fuji puede"
+	para "Hay muchas salas a"
+	line "las que solo el"
+	cont "Sr. Fuji puede"
 	cont "entrar."
 	done
 
 SoulHouseLassText:
 	text "He venido con mi"
 	line "madre a visitar"
-
-	para "las tumbas de los"
-	line "#mon…"
+	cont "las tumbas de los"
+	cont "#mon…"
 	done
 
 SoulHouseGrannyText:
@@ -132,8 +126,8 @@ SoulHouseGrannyText:
 	line "vivían conmigo…"
 
 	para "Los quería como a"
-	line "mis propios nie-"
-	cont "tos…"
+	line "mis propios"
+	cont "nietos…"
 	done
 
 AgathaSeenText:
@@ -148,47 +142,42 @@ AgathaSeenText:
 
 	para "…………"
 
-	para "¿Has venido a llo-"
-	line "rar a un #mon?"
+	para "¿Has venido a"
+	line "llorar a un"
+	cont "#mon?"
 
 	para "Puede que ya no"
 	line "esté aquí."
 
-	para "El Sr. Fuji tras-"
-	line "ladó muchas de las"
-
-	para "tumbas a otra par-"
-	line "te cuando la com-"
-
-	para "pañía de radio to-"
-	line "mó el control."
+	para "El Sr. Fuji movió"
+	line "muchas tumbas a"
+	cont "otra parte cuando"
+	cont "la radio tomó el"
+	cont "control."
 
 	para "…………"
 
-	para "¡Podría haber lu-"
-	line "chado por conser-"
-	cont "var la torre!"
+	para "¡Podría haber"
+	line "luchado por salvar"
+	cont "la torre!"
 
-	para "Pero no quiso in-"
-	line "miscuirse. Tenía"
-
-	para "demasiado miedo de"
-	line "abusar de su in-"
-	cont "fluencia."
+	para "Pero no quiso"
+	line "actuar por temor a"
+	cont "abusar de su gran"
+	cont "influencia."
 
 	para "Ese viejo necio…"
 
-	para "¡El poder está pa-"
-	line "ra usarse!"
+	para "¡El poder está"
+	line "para usarse!"
 
 	para "Está claro que tú"
 	line "me comprendes."
 
 	para "¡Te mostraré lo"
 	line "que puede hacer un"
-
-	para "Entrenador podero-"
-	line "so de verdad!"
+	cont "Entrenador fuerte"
+	cont "de verdad!"
 	done
 
 AgathaBeatenText:
@@ -196,14 +185,13 @@ AgathaBeatenText:
 	done
 
 AgathaRewardText:
-	text "Vales mucho, cria-"
-	line "tura."
+	text "Vales mucho, mi"
+	line "buena criatura."
 
-	para "Eres un Entrena-"
-	line "dor fuerte con un"
-
-	para "vínculo profundo"
-	line "con tus #mon."
+	para "Eres un Entrenador"
+	line "fuerte con un gran"
+	cont "vínculo con tus"
+	cont "#mon."
 
 	para "¡Toma, quédate con"
 	line "esta MT!"

@@ -21,12 +21,9 @@ SaffronBookSpeechHouseLassText:
 	text "¡Me apasiona leer!"
 
 	para "Tomé prestados"
-	line "un montón de li-"
-	cont "bros de la bi-"
-	cont "blioteca de la"
-
-	para "universidad de"
-	line "Azulona."
+	line "muchos libros en"
+	cont "la biblioteca de"
+	cont "Ciudad Azulona."
 	done
 
 SaffronBookSpeechHouseBookText:
@@ -34,9 +31,8 @@ SaffronBookSpeechHouseBookText:
 	line "libros de cuentos."
 
 	para "La Princesa y el"
-	line "#mon,"
-
-	para "Eduardo Manos-"
-	line "Scizor, El Dr."
-	cont "Jekyll & Mr.Mime…"
+	line "#mon, Eduardo"
+	cont "Manos-Scizor,"
+	cont "El Dr. Jekyll y"
+	cont "Mr. Mime…"
 	done

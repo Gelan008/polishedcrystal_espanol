@@ -87,20 +87,16 @@ Route44VeteranmScript:
 	text "Mis #mon llevan"
 	line "Cascos Dentados."
 
-	para "¿Quieres retar-"
-	line "les?"
+	para "¿Quieres retarme?"
 
-	para "Vale, pues antes"
-	line "tienes que vencer"
-
-	para "a todos los entre-"
-	line "nadores de esta"
-	cont "ruta."
+	para "Vale, pero antes"
+	line "debes vencer a los"
+	cont "demás de la ruta."
 	done
 
 .QuestionText:
-	text "He visto tus com-"
-	line "bates."
+	text "He visto cómo has"
+	line "luchado."
 
 	para "Tus #mon son de"
 	line "lo más duros."
@@ -117,9 +113,9 @@ Route44VeteranmScript:
 	done
 
 .SeenText:
-	text "¡Te mostraré el"
-	line "poder de mis Cas-"
-	cont "cos Dentados!"
+	text "¡Verás el poder de"
+	line "mis Cascos"
+	cont "Dentados!"
 	done
 
 .BeatenText:
@@ -128,12 +124,12 @@ Route44VeteranmScript:
 	done
 
 .AfterText1:
-	text "Eres muy fuerte"
-	line "para ser tan jo-"
-	cont "ven. ¡Sigue así!"
+	text "Eres muy fuerte a"
+	line "pesar de tu edad."
+	cont "¡Sigue así!"
 
-	para "Toma uno de estos"
-	line "Cascos Dentados."
+	para "Toma un Casco"
+	line "Dentado para ti."
 
 	para "Seguro que le das"
 	line "tan buen uso como"
@@ -263,9 +259,9 @@ Route44RematchGiftM:
 GenericTrainerPsychicPhil:
 	generictrainer PSYCHIC_T, PHIL, EVENT_BEAT_PSYCHIC_PHIL, PsychicPhilSeenText, PsychicPhilBeatenText
 
-	text "It's important to"
-	line "have conviction"
-	cont "on your side."
+	text "Es importante"
+	line "tener convicción"
+	cont "de tu lado."
 	done
 
 TrainerFisherWilton1:
@@ -371,12 +367,11 @@ FisherWilton1Script:
 GenericTrainerFisherEdgar:
 	generictrainer FISHER, EDGAR, EVENT_BEAT_FISHER_EDGAR, FisherEdgarSeenText, FisherEdgarBeatenText
 
-	text "Eso hace 100 vic-"
-	line "torias y 101 de-"
-	cont "rrotas."
+	text "Son 100 victorias"
+	line "y 101 derrotas."
 
-	para "No volveré a lu-"
-	line "char en un tiempo."
+	para "No voy a luchar en"
+	line "un buen tiempo."
 	done
 
 GenericTrainerCooltrainerfCybil:
@@ -388,9 +383,8 @@ GenericTrainerCooltrainerfCybil:
 
 	para "He luchado mucho"
 	line "para ser lo que"
-
-	para "hoy soy: una en-"
-	line "trenadora de lujo."
+	cont "hoy soy: ¡una gran"
+	cont "entrenadora!"
 	done
 
 GenericTrainerPokemaniacZach:
@@ -409,15 +403,14 @@ GenericTrainerPokemaniacZach:
 GenericTrainerCooltrainermAllen:
 	generictrainer COOLTRAINERM, ALLEN, EVENT_BEAT_COOLTRAINERM_ALLEN, CooltrainermAllenSeenText, CooltrainermAllenBeatenText
 
-	text "¡Hala! Tienes mu-"
-	line "chas Medallas."
+	text "¡Hala! Tienes"
+	line "muchas Medallas."
 
 	para "Con razón eres tan"
 	line "fuerte."
 
-	para "¿Seguirá entrenan-"
-	line "do Morti, del Gim-"
-	cont "nasio de Iris?"
+	para "¿Entrenará Morti,"
+	line "del Gimnasio Iris?"
 
 	para "La verdad es que"
 	line "me dio una buena"
@@ -481,46 +474,43 @@ Bird_keeperVance1SeenText:
 	done
 
 Bird_keeperVance1BeatenText:
-	text "¡Uf! Eres una má-"
-	line "quina."
+	text "¡Uf! Eres una gran"
+	line "máquina."
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
 	text "Articuno, Zapdos y"
 	line "Moltres son las"
-
-	para "tres aves legen-"
-	line "darias #mon."
+	cont "tres aves #mon"
+	cont "legendarias."
 
 	para "Aunque he oído que"
-	line "hay otras aves le-"
-	cont "gendarias más."
+	line "hay más aves"
+	cont "legendarias."
 	done
 
 BirdKeeperVance2BeatenText:
-	text "¿Por qué nunca lo-"
-	line "gro vencerte?"
+	text "¿Por qué nunca"
+	line "puedo vencerte?"
 
 	para "Ah, sí, toma. Es"
 	line "el regalo que no"
-
-	para "pude darte la úl-"
-	line "tima vez."
+	cont "te di la otra vez."
 	done
 
 PsychicPhilSeenText:
-	text "¡Voy a ganar, se-"
-	line "gurísimo!"
+	text "¡Voy a ganar, de"
+	line "forma segura!"
 	done
 
 PsychicPhilBeatenText:
-	text "¡Arg…! Qué derro-"
-	line "ta tan impactante…"
+	text "¡Arg…! Una derrota"
+	line "muy impactante…"
 	done
 
 PokemaniacZachSeenText:
-	text "¡Haría lo que fue-"
-	line "ra por hacerme con"
+	text "¡Haría lo que sea"
+	line "por conseguir"
 	cont "#mon raros!"
 	done
 
@@ -547,11 +537,9 @@ CooltrainermAllenBeatenText:
 CooltrainerfCybilSeenText:
 	text "Se te ve fuerte."
 
-	para "Los buenos entre-"
-	line "nadores buscan ri-"
-
-	para "vales duros por"
-	line "puro instinto."
+	para "Buenos rivales se"
+	line "buscan entre sí"
+	cont "por instinto."
 	done
 
 CooltrainerfCybilBeatenText:
@@ -561,8 +549,8 @@ CooltrainerfCybilBeatenText:
 
 Route44Sign1Text:
 	text "Ruta 44"
-	line "Ruta Helada más"
-	cont "adelante"
+	line "Ruta Helada"
+	cont "Más adelante"
 	done
 
 Route44Sign2Text:

@@ -29,7 +29,7 @@ GhostAppearedText:
 	prompt
 
 SilphScopeRevealText:
-	text "¡Scope Silph 2"
+	text "¡Visor Silph2"
 	line "reveló al"
 	cont "fantasma!"
 	prompt

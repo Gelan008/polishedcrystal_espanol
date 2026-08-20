@@ -238,11 +238,11 @@ GenericTrainerAceDuoThomandkae1:
 GenericTrainerAceDuoThomandkae2:
 	generictrainer ACE_DUO, THOMANDKAE2, EVENT_BEAT_ACE_DUO_THOM_AND_KAE, AceDuoThomandkae2SeenText, AceDuoThomandkae2BeatenText
 
-	text "Kae: Creía que"
+	text "Kae: ¡Creía que"
 	line "eras un simple"
+	cont "entrenador más!"
 
-	para "entrenador solita-"
-	line "rio. ¡Qué error!"
+	para "¡Qué gran error!"
 	done
 
 GenericTrainerCoupleDuffandeda1:
@@ -256,9 +256,9 @@ GenericTrainerCoupleDuffandeda1:
 GenericTrainerCoupleDuffandeda2:
 	generictrainer COUPLE, DUFFANDEDA2, EVENT_BEAT_COUPLE_DUFF_AND_EDA, CoupleDuffandeda2SeenText, CoupleDuffandeda2BeatenText
 
-	text "Eda: Deberías bus-"
-	line "carte una pareja"
-	cont "maravillosa."
+	text "Eda: ¡Búscate una"
+	line "pareja que sea"
+	cont "maravillosa!"
 	done
 
 GenericTrainerCowgirlDaniela:
@@ -282,9 +282,9 @@ GenericTrainerGruntF6:
 GenericTrainerGruntM23:
 	generictrainer GRUNTM, 23, EVENT_BEAT_ROCKET_GRUNTM_23, GruntM23SeenText, GruntM23BeatenText
 
-	text "Da igual. ¡No po-"
-	line "drás vencernos a"
-	cont "todos!"
+	text "Da igual. ¡No vas"
+	line "a poder vencernos"
+	cont "a todos!"
 	done
 
 GenericTrainerGruntM26:
@@ -306,11 +306,10 @@ HikerDevinBeatenText:
 	done
 
 CamperGrantSeenText:
-	text "No me van las mul-"
-	line "titudes, ¡así que"
-
-	para "acampo aquí con"
-	line "mis #mon!"
+	text "No me gusta la"
+	line "multitud, ¡así que"
+	cont "acampo aquí con"
+	cont "mis #mon!"
 	done
 
 CamperGrantBeatenText:
@@ -321,22 +320,19 @@ CamperGrantBeatenText:
 
 AceDuoThomandkae1SeenText:
 	text "Thom: Uno más uno"
-	line "son dos. ¡Pero"
-
-	para "nosotros dos jun-"
-	line "tos somos mucho"
-	cont "más fuertes!"
+	line "son dos. ¡Pero los"
+	cont "dos juntos somos"
+	cont "mucho más fuertes!"
 	done
 
 AceDuoThomandkae1BeatenText:
-	text "Thom: No me espe-"
-	line "raba esto…"
+	text "Thom: ¡No esperaba"
+	line "esto para nada…!"
 	done
 
 AceDuoThomandkae2SeenText:
-	text "Kae: ¡Nosotros dos"
-	line "no somos una pare-"
-	cont "ja cualquiera!"
+	text "Kae: ¡No somos"
+	line "una pareja común!"
 	done
 
 AceDuoThomandkae2BeatenText:
@@ -360,9 +356,8 @@ CoupleDuffandeda1BeatenText:
 CoupleDuffandeda2SeenText:
 	text "Eda: Lo que siento"
 	line "por mi novio es"
-
-	para "tan grande y pro-"
-	line "fundo como el mar."
+	cont "tan inmenso y"
+	cont "hondo como el mar."
 	done
 
 CoupleDuffandeda2BeatenText:
@@ -406,8 +401,8 @@ GruntM23BeatenText:
 	done
 
 GruntM26SeenText:
-	text "¡Deja de entrome-"
-	line "terte en nuestros"
+	text "¡Deja de meterte"
+	line "en nuestros"
 	cont "planes!"
 	done
 
@@ -416,9 +411,8 @@ GruntM26BeatenText:
 	done
 
 Route47RocketGirlText:
-	text "¿A dónde crees"
-	line "que vas, renacua-"
-	cont "jo?"
+	text "¿Adónde crees que"
+	line "vas, renacuajo?"
 	done
 
 Route47SealedCaveSign:
@@ -426,8 +420,8 @@ Route47SealedCaveSign:
 	jumpthistext
 
 	text "Hay una hendidura"
-	line "con forma de puer-"
-	cont "ta en la roca."
+	line "en la roca con"
+	cont "forma de puerta."
 	done
 
 Route47QuietCaveSignText:
@@ -447,8 +441,7 @@ Route47AdvancedTipsSignText:
 	cont "de ese lugar!"
 
 	para "¡Pero estos"
-	line "movimientos no se"
-
-	para "recuerdan ni se"
-	line "heredan al criar!"
+	line "ataques no se"
+	cont "recuerdan ni se"
+	cont "heredan al criar!"
 	done

@@ -64,9 +64,8 @@ Route46TutorRoute46Script:
 	jumpthisopenedtext
 
 	text "¡Listo! ¡Tu"
-	line "#mon ha"
-	cont "aprendido a usar"
-	cont "Desenrrollar!"
+	line "#mon ya sabe"
+	cont "Desenrollar!"
 	done
 
 GenericTrainerCamperTed:
@@ -197,8 +196,8 @@ GenericTrainerHikerBailey:
 	generictrainer HIKER, BAILEY, EVENT_BEAT_HIKER_BAILEY, HikerBaileySeenText, HikerBaileyBeatenText
 
 	text "Se acabó. No me"
-	line "importa. Los Mon-"
-	cont "tañeros somos así."
+	line "importa. Así somos"
+	cont "los Montañeros."
 	done
 
 Route46HikerText:
@@ -207,8 +206,8 @@ Route46HikerText:
 	cont "rodando hasta"
 	cont "aquí abajo!"
 
-	para "Aun así, he apren-"
-	line "dido la lección…"
+	para "Aprendí"
+	line "la lección…"
 
 	para "¡Mucho cuidado con"
 	line "los #mon que"
@@ -216,11 +215,10 @@ Route46HikerText:
 	done
 
 Text_Route46TutorRollout:
-	text "Le enseñaré Desro-"
-	line "llar a tu #mon"
-
-	para "a cambio de una"
-	line "Hoja Plata."
+	text "Enseñaré"
+	line "Desenrollar a tu"
+	cont "#mon por una"
+	cont "Hoja Plata."
 	done
 
 
@@ -233,11 +231,10 @@ Text_Route46TutorQuestion:
 
 
 HikerBaileySeenText:
-	text "¡Muy bien! ¡Te"
-	line "mostraré el poder"
-
-	para "de los #mon de"
-	line "montaña!"
+	text "¡Muy bien! ¡Verás"
+	line "el poder de los"
+	cont "#mon de"
+	cont "montaña!"
 	done
 
 HikerBaileyBeatenText:
@@ -271,31 +268,25 @@ PicnickerErin1BeatenText:
 	done
 
 PicnickerErinAfterBattleText:
-	text "He ido a muchos"
+	text "He visitado muchos"
 	line "Gimnasios, pero el"
-
-	para "de Ciudad Trigal"
-	line "es mi favorito."
+	cont "de Trigal es mi"
+	cont "favorito."
 
 	para "¡Está lleno de"
 	line "flores preciosas!"
 	done
 
 PicnickerErin2BeatenText:
-	text "¡Uf…! ¡No paro de"
-	line "perder siempre!"
+	text "¡Uf…! ¡Siempre"
+	line "pierdo contigo!"
 
-	para "¡Tendré que esfor-"
-	line "zarme mucho más!"
+	para "¡Me esforzaré"
+	line "mucho más!"
 
-	para "De todos modos,"
-	line "gracias por luchar"
-
-	para "conmigo tantas ve-"
-	line "ces. Toma el rega-"
-
-	para "lo de la otra"
-	line "vez."
+	para "Gracias por luchar"
+	line "tantas veces. Toma"
+	cont "tu regalo."
 	done
 
 Route46SignText:

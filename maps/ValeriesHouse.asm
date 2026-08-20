@@ -72,31 +72,22 @@ SetupFairyBookScript:
 ValeriesHouseValerieText:
 	text "Valeria: Dicen"
 	line "que mis diseños"
-
-	para "de moda son bas-"
-	line "tante enigmáticos."
+	cont "son enigmáticos."
 	cont "¿Estás de acuerdo?"
 
 	para "La verdad es que"
 	line "siempre he querido"
 	cont "ser un #mon."
 
-	para "Ese deseo me sirve"
-	line "de inspiración y"
+	para "Ese anhelo me"
+	line "sirve de guía y es"
+	cont "lo que plasmo en"
+	cont "mi trabajo."
 
-	para "es lo que intento"
-	line "plasmar en mis"
-	cont "diseños."
-
-	para "Y aun así… solo me"
-	line "siento en perfecta"
-
-	para "comunión con los"
-	line "#mon cuando nos"
-
-	para "envolvemos en un"
-	line "combate a deses-"
-	cont "perar."
+	para "Aun así… solo me"
+	line "siento unida a los"
+	cont "#mon al librar"
+	cont "un combate reñido."
 
 	para "¿Por qué será?…"
 	done
@@ -124,30 +115,28 @@ ValeriesHouseFairyBookScript:
 .Monday
 	jumpthisopenedtext
 
-	text "La choza de un la-"
-	line "brador se ha con-"
-
-	para "vertido en palacio"
-	line "de la noche a la"
-	cont "mañana…"
+	text "La choza de un"
+	line "campesino se tornó"
+	cont "en palacio de la"
+	cont "noche al día…"
 	done
 
 .Tuesday
 	jumpthisopenedtext
 
-	text "Una joven de lar-"
-	line "ga cabellera está"
-
-	para "encerrada en una"
-	line "torre…"
+	text "Una chica de pelo"
+	line "muy largo está"
+	cont "encerrada en una"
+	cont "torre…"
 	done
 
 .Wednesday
 	jumpthisopenedtext
 
-	text "Una hermosa joven"
-	line "habla con la cabe-"
-	cont "za de un caballo…"
+	text "Una bella doncella"
+	line "habla con la"
+	cont "cabeza de un"
+	cont "caballo…"
 	done
 
 .Thursday
@@ -155,8 +144,7 @@ ValeriesHouseFairyBookScript:
 
 	text "Un pez parlante"
 	line "afirma que puede"
-
-	para "conceder deseos…"
+	cont "conceder deseos…"
 	done
 
 .Friday
@@ -164,19 +152,17 @@ ValeriesHouseFairyBookScript:
 
 	text "Un manzano de oro"
 	line "se alza en la cima"
-
-	para "de una montaña de"
-	line "cristal…"
+	cont "de una montaña de"
+	cont "cristal…"
 	done
 
 .Saturday
 	jumpthisopenedtext
 
 	text "Un perro escarba"
-	line "en el jardín y ha-"
-
-	para "lla un tesoro de"
-	line "oro…"
+	line "en el jardín y"
+	cont "halla un tesoro"
+	cont "de oro…"
 	done
 
 ValeriesHouseFairyBookText:

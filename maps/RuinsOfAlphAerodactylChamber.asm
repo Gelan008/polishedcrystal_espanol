@@ -123,14 +123,13 @@ RuinsOfAlphChambersItsUnownText:
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:
-	text "¡Hay un gran agu-"
-	line "jero en la pared!"
+	text "¡Hay un gran hueco"
+	line "en la pared!"
 	done
 
 RuinsOfAlphAerodactylChamberDescriptionText:
-	text "Este #mon vola-"
-	line "dor atacaba a sus"
-
-	para "presas con colmi-"
-	line "llos de sierra."
+	text "Este #mon"
+	line "volador atacaba a"
+	cont "sus presas con"
+	cont "dientes de sierra."
 	done

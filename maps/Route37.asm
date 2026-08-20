@@ -49,18 +49,17 @@ GenericTrainerTwinsToriandtil2:
 	generictrainer TWINS, ANNANDANNE2, EVENT_BEAT_TWINS_ANN_AND_ANNE, TwinsToriandtil2SeenText, TwinsToriandtil2BeatenText
 
 	text "Tori: Sentimos lo"
-	line "mismo que nues-"
-	cont "tros #mon."
+	line "mismo que sienten"
+	cont "nuestros #mon."
 	done
 
 GenericTrainerPsychicGreg:
 	generictrainer PSYCHIC_T, GREG, EVENT_BEAT_PSYCHIC_GREG, PsychicGregSeenText, PsychicGregBeatenText
 
-	text "Dormir o parali-"
-	line "zar a los #mon"
-
-	para "son buenas tácti-"
-	line "cas de combate."
+	text "Dormir o paralizar"
+	line "a un #mon son"
+	cont "buenas tácticas"
+	cont "de combate."
 	done
 
 SunnyScript:
@@ -87,24 +86,21 @@ SunnyScript:
 
 	para "Mmm…"
 
-	para "… ¿Cómo era…?…"
+	para "… ¿Cómo era…?"
 
 	para "…"
 
-	para "¡Ah! ¡Ya me acuer-"
-	line "do!"
+	para "¡Ah! ¡Ya me he"
+	line "acordado!"
 
 	para "Debe llevarlo un"
-	line "#mon que conoz-"
-
-	para "ca movimientos de"
-	line "tipo Eléctrico."
+	line "#mon con ataque"
+	cont "de tipo Eléctrico."
 
 	para "¡Mi hermana Lune"
 	line "dice que potencia"
-
-	para "los movimientos"
-	line "Eléctricos!"
+	cont "los ataques de"
+	cont "tipo Eléctrico!"
 	done
 
 SunnySundayScript:
@@ -135,10 +131,9 @@ TrainerBeautyCassandra:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Hay gente que tie-"
-	line "ne talento aunque"
-
-	para "sea joven…"
+	text "Hay gente con gran"
+	line "talento aunque sea"
+	cont "muy joven…"
 	done
 
 TwinsToriandtil1SeenText:
@@ -189,11 +184,11 @@ SunnyGivesGiftText:
 
 
 SunnySundayText:
-	text "Dominga: Mis"
-	line "hermanos y herma-"
-	cont "nas son Lune, Mar-"
-	cont "ta, Merlín, Juan,"
-	cont "Vero y Sabino."
+	text "Dominga: Mis seis"
+	line "hermanos son Lune,"
+	cont "Marta, Merlín,"
+	cont "Juan, Vero y"
+	cont "Sabino."
 
 	para "Todos ellos son"
 	line "mayores que yo."
@@ -201,11 +196,11 @@ SunnySundayText:
 
 
 BeautyCallieSeenText:
-	text "¡Oh, pero qué en-"
-	line "trenador tan mono!"
+	text "¡Oh! ¡Qué chico"
+	line "tan mono!"
 
-	para "¿Por qué no com-"
-	line "bates conmigo?"
+	para "¿Por qué no"
+	line "luchas conmigo?"
 	done
 
 BeautyCallieBeatenText:
@@ -213,8 +208,8 @@ BeautyCallieBeatenText:
 	done
 
 BeautyCassandraSeenText:
-	text "¡Eh, tú! ¡Jovencí-"
-	line "simo entrenador!"
+	text "¡Eh, tú! ¡Joven"
+	line "entrenador!"
 
 	para "¿No quieres luchar"
 	line "conmigo?"

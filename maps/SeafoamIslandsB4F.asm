@@ -131,48 +131,42 @@ SeafoamIslandsB4FLawrenceSpeechText:
 	line "nuevo, <PLAYER>."
 
 	para "Así que tú también"
-	line "coleccionas leyen-"
-	cont "das. ¿Te inspiré?"
+	line "coleccionas"
+	cont "legendarios."
+
+	para "¿Te inspiré?"
 
 	para "… ¡¿Qué?! ¿Que has"
-	line "atrapado a las"
-	cont "tres aves?"
-	cont "Imposible."
+	line "atrapado a los"
+	cont "tres pájaros?"
+	cont "¡Es imposible!"
 
-	para "Ni yo, con mis co-"
-	line "nocimientos y"
+	para "Ni yo, con mis"
+	line "medios y recursos,"
+	cont "he podido hallar"
+	cont "a Moltres…"
 
-	para "recursos, he lo-"
-	line "grado encontrar a"
-	cont "Moltres…"
-
-	para "¿Por qué has teni-"
-	line "do éxito donde yo"
+	para "¿Por qué tuviste"
+	line "éxito donde yo"
 	cont "he fracasado?"
 
-	para "¿Acaso sabes apre-"
-	line "ciar la majestad"
-
-	para "de los espejismos"
-	line "alados?"
+	para "¿Acaso sabes"
+	line "apreciar el arte"
+	cont "de estas aves?"
 
 	para "¿Has oído hablar"
-	line "siquiera del gran"
+	line "del gran guardián"
+	cont "de los océanos?"
 
-	para "guardián de los"
-	line "océanos?"
+	para "¡Esto es del todo"
+	line "inadmisible!"
 
-	para "Esto es inadmisi-"
-	line "ble."
-
-	para "Reúnete conmigo en"
-	line "el santuario en"
-
-	para "ruinas de Isla"
-	line "Shamouti."
+	para "Ven a verme a las"
+	line "ruinas de Isla"
+	cont "Shamouti."
 
 	para "¡Te demostraré que"
-	line "merezco poseer a"
+	line "merezco tener a"
 	cont "esos #mon!"
 	done
 

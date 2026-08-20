@@ -24,47 +24,41 @@ UnionCaveB1FNorth_MapScriptHeader:
 GenericTrainerRuin_maniacLeland:
 	generictrainer RUIN_MANIAC, LELAND, EVENT_BEAT_RUIN_MANIAC_LELAND, .SeenText, .BeatenText
 
-	text "Algún día descu-"
-	line "briré unas ruinas"
-
-	para "nuevas y me haré"
-	line "famoso."
+	text "¡Algún día voy a"
+	line "hallar ruinas"
+	cont "nuevas y seré"
+	cont "famoso!"
 	done
 
 .SeenText:
 	text "¡Voy tras la pista"
-	line "de un antiguo ya-"
-	cont "cimiento!"
+	line "de un yacimiento"
+	cont "muy antiguo!"
 	done
 
 .BeatenText:
 	text "Me despistaron las"
-	line "pistas de los an-"
-	cont "tiguos."
+	line "pistas de aquella"
+	cont "antigua era."
 	done
 
 GenericTrainerRuin_maniacPetry:
 	generictrainer RUIN_MANIAC, PETRY, EVENT_BEAT_RUIN_MANIAC_PETRY, .SeenText, .BeatenText
 
-	text "La historia anti-"
-	line "gua es mi pasión,"
-
-	para "pero para investi-"
-	line "garla bien usamos"
-
-	para "tecnología moder-"
-	line "na."
+	text "La historia es mi"
+	line "pasión, pero para"
+	cont "indagar usamos"
+	cont "alta tecnología."
 	done
 
 .SeenText:
-	text "Iré adonde sea pa-"
-	line "ra investigar vie-"
-
-	para "jos secretos y le-"
-	line "yendas."
+	text "Iré adonde sea a"
+	line "investigar viejos"
+	cont "secretos y mitos."
 	done
 
 .BeatenText:
-	text "¿Cuál es el secre-"
-	line "to de tu poder?"
+	text "¿Cuál es el gran"
+	line "secreto de tu"
+	cont "poder?"
 	done

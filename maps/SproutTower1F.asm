@@ -32,12 +32,12 @@ SproutTower1FGrannyScript:
 	checkunits
 	iftrue_jumptextfaceplayer .MetricText
 	jumpthistextfaceplayer
-text "Un Bellsprout de"
+	text "Un Bellsprout de"
 	line "más de 30 metros"
 	cont "de altura…"
 
-	para "Dicen que se con-"
-	line "virtió en el pilar"
+	para "Dicen que pasó a"
+	line "ser el pilar"
 	cont "central de aquí."
 	done
 
@@ -46,8 +46,8 @@ text "Un Bellsprout de"
 	line "más de 30 metros"
 	cont "de altura…"
 
-	para "Dicen que se con-"
-	line "virtió en el pilar"
+	para "Dicen que pasó a"
+	line "ser el pilar"
 	cont "central de aquí."
 	done
 
@@ -56,11 +56,11 @@ GenericTrainerSageChow:
 
 	text "Todos los seres"
 	line "vivos conviven en"
-	cont "cooperación."
+	cont "armonía."
 
-	para "Debemos estarles"
-	line "siempre agradeci-"
-	cont "dos por ello."
+	para "Debemos estar"
+	line "siempre muy"
+	cont "agradecidos."
 	done
 
 SageChowSeenText:
@@ -79,25 +79,23 @@ SageChowBeatenText:
 
 SproutTower1FSage1Text:
 	text "Solo si llegas"
-	line "hasta arriba con-"
-	cont "seguirás una MT."
+	line "arriba obtendrás"
+	cont "una MT."
 	done
 
 SproutTower1FSage2Text:
 	text "Torre Bellsprout"
-	line "se construyó hace"
-
-	para "mucho como lugar"
-	line "de entrenamiento"
-	cont "#mon."
+	line "se construyó para"
+	cont "el entrenamiento"
+	cont "de los #mon."
 	done
 
 SproutTower1FTeacherText:
 	text "¿Ves cómo tiembla"
 	line "el pilar?"
 
-	para "Arriba están en-"
-	line "trenando."
+	para "¡Arriba se están"
+	line "entrenando!"
 	done
 
 SproutTower1FStatueText:
@@ -141,10 +139,9 @@ KimonoGirlMakoScript:
 	jumpthisopenedtext
 
 .OutroText:
-	text "Las Chicas del Ki-"
-	line "mono bailamos,"
-	cont "pero también com-"
-	cont "batimos."
+	text "Las Chicas Kimono"
+	line "bailamos, pero"
+	cont "también luchamos."
 	done
 
 .IntroText:
@@ -153,36 +150,27 @@ KimonoGirlMakoScript:
 	para "Soy una Chica"
 	line "Kimono."
 
-	para "He viajado aquí"
-	line "desde Ciudad"
-
-	para "Iris, por bosques"
-	line "y cuevas, para"
-
-	para "entrenar en esta"
-	line "torre."
+	para "Viajé desde Ciudad"
+	line "Iris, por bosques"
+	cont "y cuevas, para"
+	cont "entrenar aquí."
 
 	para "¿Has conocido a"
 	line "mis cinco primas"
+	cont "en Ciudad Iris?"
 
-	para "bailarinas en Ciu-"
-	line "dad Iris?"
-
-	para "¡Vuelve a contár-"
-	line "melo si las ves!"
+	para "¡Dímelo si logras"
+	line "verlas a todas!"
 	done
 
 .SeenText:
 	text "¡Madre mía!…"
-	line "¿Has vencido a mis"
+	line "¿Venciste a mis"
+	cont "cinco primas?"
 
-	para "cinco primas bai-"
-	line "larinas?"
-
-	para "¡Entonces permi-"
-	line "te que os desafíe"
-	cont "a ti y a tus"
-	cont "#mon!"
+	para "¡Pues déjame que"
+	line "os desafíe a ti y"
+	cont "a tus #mon!"
 	done
 
 .BeatenText:
@@ -191,8 +179,8 @@ KimonoGirlMakoScript:
 	done
 
 .AfterText:
-	text "¡Excelente espíri-"
-	line "tu de combate!"
+	text "¡Un gran espíritu"
+	line "de combate tienes!"
 
 	para "¡Sabrás qué hacer"
 	line "con esto!"

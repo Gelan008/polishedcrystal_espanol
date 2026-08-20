@@ -35,8 +35,8 @@ ValenciaIslandCooltrainermText:
 	line "hija… ¿O tal vez"
 	cont "su hijo?"
 
-	para "En fin, ahora es-"
-	line "tán de vacaciones."
+	para "En fin, ahora"
+	line "están de viaje."
 	done
 
 ValenciaIslandYoungsterScript:
@@ -50,11 +50,9 @@ ValenciaIslandYoungsterScript:
 	done
 
 .Text2:
-	text "Tú tienes tu gra-"
-	line "cia, ¡pero la Pro-"
-
-	para "fesora Ivy es un"
-	line "bombón!"
+	text "Tendrás tu encanto"
+	line "¡pero la Profesora"
+	cont "Ivy es un bombón!"
 	done
 
 ValenciaIslandSignText:

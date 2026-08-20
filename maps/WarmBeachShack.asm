@@ -53,11 +53,9 @@ WarmBeachShackBodySlamFisherText:
 	text "¿Listo?"
 	line "¡Boing!"
 
-	para "¡Hacemos un com-"
-	line "bate de sumo para"
-
-	para "ver quién se raja"
-	line "primero!"
+	para "¡Hacemos combate"
+	line "de sumo para ver"
+	cont "quién se raja!"
 
 	para "¡Yo uso Golpe"
 	line "Cuerpo y él usa"
@@ -65,11 +63,10 @@ WarmBeachShackBodySlamFisherText:
 	done
 
 Text_WarmBeachShackBodySlamTutorBodySlamQuestion:
-	text "¿Qué tal si le en-"
-	line "seño Golpe Cuerpo"
-
-	para "a un #mon tuyo"
-	line "por una Hoja Plata"
+	text "¿Le enseño a un"
+	line "#mon Golpe"
+	cont "Cuerpo a cambio"
+	cont "de una Hoja Plata?"
 	done
 
 WarmBeachShackEndureFisherScript:
@@ -110,11 +107,9 @@ WarmBeachShackEndureFisherText:
 	text "¿Listo?"
 	line "¡Uuuf!"
 
-	para "¡Hacemos un com-"
-	line "bate de sumo para"
-
-	para "ver quién se rinde"
-	line "primero!"
+	para "¡Hacemos combate"
+	line "de sumo para ver"
+	cont "quién se rinde!"
 
 	para "¡Él usa Golpe"
 	line "Cuerpo y yo uso"
@@ -122,11 +117,10 @@ WarmBeachShackEndureFisherText:
 	done
 
 Text_WarmBeachShackEndureTutorEndureQuestion:
-	text "¿Qué tal si le en-"
-	line "seño Aguante a uno"
-
-	para "de tus #mon por"
-	line "una Hoja Plata?"
+	text "¿Le enseño Aguante"
+	line "a tu #mon a"
+	cont "cambio de una"
+	cont "Hoja Plata?"
 	done
 
 Text_WarmBeachShackTutorsNoSilverLeaf:

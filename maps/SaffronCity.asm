@@ -64,17 +64,15 @@ SaffronCityLass1Script:
 	iftrue_jumptextfaceplayer SaffronCityLass1Text_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "Aquí vive una ni-"
-	line "ña muy diestra en"
-
-	para "imitar a los de-"
-	line "más."
+	text "Aquí vive una niña"
+	line "muy diestra en"
+	cont "imitar al resto."
 
 	para "Incluso imita a la"
-	line "gente con la que"
+	line "persona con la"
+	cont "que está hablando."
 
-	para "está hablando."
-	line "Es un lío."
+	para "¡Es todo un lío!"
 	done
 
 SaffronCityPokefanMScript:
@@ -86,9 +84,8 @@ SaffronCityPokefanMScript:
 
 	para "Podrás volver en"
 	line "un periquete si el"
-
-	para "Magnetotrén está"
-	line "en marcha."
+	cont "Magnetotrén está"
+	cont "en marcha."
 	done
 
 SaffronCityFisherScript:
@@ -111,25 +108,22 @@ SaffronCityLass1Text_ReturnedMachinePart:
 
 	para "Dijo que había"
 	line "perdido su Muñeco"
-
-	para "# favorito:"
-	line "un Clefairy."
+	cont "# favorito:"
+	cont "un Clefairy."
 	done
 
 SaffronCityPokefanMText_ReturnedMachinePart:
 	text "¿Vienes de Johto?"
 
-	para "Podrás volver en"
-	line "un periquete si te"
-
-	para "subes al Magneto-"
-	line "trén."
+	para "Volverás en un"
+	line "periquete con el"
+	cont "Magnetotrén."
 	done
 
 SaffronCityCooltrainerMText:
 	text "Fui al Gimnasio"
-	line "con ganas de com-"
-	cont "batir…"
+	line "con ganas de un"
+	cont "buen combate…"
 
 	para "¡Pero me metí sin"
 	line "querer en el Dojo"
@@ -140,14 +134,13 @@ SaffronCityCooltrainerMText:
 
 SaffronCityCooltrainerFText:
 	text "Es Silph S.A.,"
-	line "famosa por sus ar-"
-	cont "tículos #mon."
+	line "famosa por sus"
+	cont "productos #mon."
 
 	para "Por eso el Team"
-	line "Rocket quiso apo-"
-
-	para "derarse de ella en"
-	line "el pasado."
+	line "Rocket quiso tomar"
+	cont "el control en el"
+	cont "pasado."
 	done
 
 SaffronCityFisherText_ReturnedMachinePart:
@@ -155,20 +148,17 @@ SaffronCityFisherText_ReturnedMachinePart:
 
 	para "He oído que hubo"
 	line "un grave problema"
-
-	para "en la Central"
-	line "Energía."
+	cont "en la Central"
+	cont "de Energía."
 
 	para "Ñam… Ñam…"
-	line "¡Uff, qué lleno!"
+	line "¡Uff, estoy lleno!"
 	done
 
 SaffronCityYoungster1Text:
-	text "Entrar por prime-"
-	line "ra vez en un ca-"
-
-	para "llejón me da bas-"
-	line "tante reparo."
+	text "Entrar en un"
+	line "callejón me da"
+	cont "bastante reparo."
 	done
 
 SaffronCityYoungster2Text:
@@ -181,32 +171,28 @@ SaffronCityYoungster2Text:
 	done
 
 SaffronCityLass2Text:
-	text "Hablaron de nues-"
-	line "tra ciudad en un"
+	text "Hablaron de la"
+	line "ciudad en un"
 	cont "programa de radio."
 
-	para "Da gusto oír elo-"
-	line "gios hacia tu ciu-"
-
-	para "dad, pero también"
-	line "da un poco de ver-"
-	cont "güenza."
+	para "Da gusto oír los"
+	line "elogios, pero da"
+	cont "algo de vergüenza."
 	done
 
 SaffronCityBlackBelt1Text:
 	text "Cada mañana, al"
 	line "levantarme, doy"
-
-	para "dos vueltas a la"
-	line "ciudad."
+	cont "dos vueltas a la"
+	cont "ciudad."
 
 	para "¡Es genial para"
 	line "empezar el día!"
 	done
 
 SaffronCityBlackBelt2Text:
-	text "Si yo fuera un ob-"
-	line "jeto, sería un"
+	text "Si yo fuese un"
+	line "objeto, sería un"
 	cont "Ataque X."
 
 	para "¡Reboso energía, y"
@@ -233,26 +219,23 @@ SaffronCitySuperNerdText:
 	done
 
 SaffronCityScientistText:
-	text "El visor Silph"
-	line "Scope original te-"
-	cont "nía fallos, así"
+	text "El Visor Silph"
+	line "antiguo tenía"
+	cont "fallos, así que"
 
-	para "que trabajamos sin"
-	line "descanso en su su-"
-	cont "cesor: ¡el Silph"
-	cont "Scope 2!"
+	para "trabajamos en su"
+	line "sucesor: ¡el Visor"
+	cont "Silph 2!"
 	done
 
 SaffronCitySilphEmployeeText:
-	text "Silph debe su nom-"
-	line "bre a un espíritu"
+	text "El nombre Silph"
+	line "viene de un ser"
 	cont "mítico del aire."
 
 	para "Qué tiene que ver"
-	line "eso con el negocio"
-
-	para "de la empresa, no"
-	line "tengo ni idea."
+	line "eso y la empresa,"
+	cont "no tengo ni idea."
 	done
 
 SaffronCitySignText:
@@ -288,42 +271,38 @@ MrPsychicsHouseSignText:
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "Estación del Mag-"
-	line "netotrén de Ciudad"
-	cont "Azafrán"
+	text "Estación del"
+	line "Magnetotrén de"
+	cont "Ciudad Azafrán"
 	done
 
 PokemonTrainerFanClubSignText:
 	text "Club de Fans de"
 	line "Entrenadores #"
 
-	para "Muchos entrenado-"
-	line "res han garabatea-"
-	cont "do su nombre aquí…"
+	para "Muchos dejaron"
+	line "sus nombres aquí"
+	cont "garabateados…"
 	done
 
 SaffronTrainerTips1Text:
 	text "Pistas Entrenador"
 
-	para "¡El nuevo visor"
-	line "Silph Scope 2 per-"
-
-	para "mite identificar"
-	line "hasta al #mon"
-	cont "mejor camuflado!"
+	para "¡El nuevo Visor"
+	line "Silph 2 permite"
+	cont "identificar hasta"
+	cont "al #mon oculto!"
 	done
 
 SaffronTrainerTips2Text:
 	text "Pistas Entrenador"
 
 	para "Usa Veloz Balls al"
-	line "inicio del comba-"
-	cont "te, y Turno Balls"
-	cont "más adelante."
+	line "inicio y Turno"
+	cont "Balls más tarde."
 
 	para "Cuestan más que"
 	line "las Poké Balls,"
-
-	para "pero son mucho más"
-	line "prácticas."
+	cont "pero son mucho más"
+	cont "prácticas."
 	done

@@ -212,9 +212,8 @@ VermilionPortDepartingText:
 	done
 
 VermilionPortAskBoardingText:
-	text "Te damos la bien-"
-	line "venida al ferri"
-	cont "S.S. Aqua."
+	text "¡Bienvenido al"
+	line "ferri S.S. Aqua!"
 
 	para "¿Vas a embarcar"
 	line "hoy?"
@@ -239,28 +238,26 @@ VermilionPortSSTicketText:
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> intentó"
-	line "mostrar el Ticket"
-	cont "Barco…"
+	text "<PLAYER> buscó el"
+	line "S.S.Ticket…"
 
-	para "…¡Pero no tiene"
-	line "ningún Ticket!"
+	para "…¡Pero no lo"
+	line "encuentra!"
 
 	para "¡Lo siento!"
-	line "Solo puedes embar-"
-
-	para "car si tienes un"
-	line "S.S.Ticket."
+	line "Solo se permite"
+	cont "subir con un"
+	cont "S.S.Ticket."
 	done
 
 VermilionPortSailMondayText:
-	text "El ferri zar-"
-	line "pará el miércoles."
+	text "El ferri saldrá"
+	line "el miércoles."
 	done
 
 VermilionPortSailSundayText:
-	text "El ferri zar-"
-	line "pará el domingo."
+	text "El ferri saldrá"
+	line "el domingo."
 	done
 
 VermilionPortSuperNerdText:

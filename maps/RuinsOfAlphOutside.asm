@@ -136,9 +136,8 @@ RuinsOfAlphOutsideFisherScript:
 	jumpthisopenedtext
 
 RuinsOfAlphOutsideFisherText2:
-	text "¡Las ruinas ocul-"
-	line "tan un gran se-"
-	cont "creto!"
+	text "¡Las ruinas tienen"
+	line "un gran secreto!"
 
 	para "… O eso creo…"
 	done
@@ -147,10 +146,9 @@ RuinsOfAlphOutsideYoungster1Script:
 	jumpthistextfaceplayer
 
 	text "Hay muchas formas"
-	line "de Unown, así que"
-
-	para "las usamos para"
-	line "mensajes secretos."
+	line "de Unown, y las"
+	cont "usamos para crear"
+	cont "mensajes secretos."
 	done
 
 RuinsOfAlphOutsideYoungster2Script:
@@ -175,11 +173,9 @@ GenericTrainerSuperNerdStan:
 	para "Nadie sabe quién"
 	line "las construyó."
 
-	para "Tampoco se sabe si"
-	line "las estatuas de"
-
-	para "#mon tienen al-"
-	line "gún significado."
+	para "Ni si sus estatuas"
+	line "tienen algún tipo"
+	cont "de significado."
 
 	para "Todo esto es un"
 	line "gran misterio…"
@@ -216,51 +212,48 @@ endr
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? That's a #-"
-	line "dex, isn't it?"
-	cont "May I see it?"
+	text "¿Mmm? Eso es una"
+	line "#dex, ¿no?"
+	cont "¿Puedo verla?"
 
-	para "There are so many"
-	line "kinds of #mon."
+	para "Hay muchísimas"
+	line "clases de #mon."
 
-	para "Hm? What's this?"
+	para "¿Eh? ¿Y esto qué"
+	line "es?"
 
-	para "What is this"
-	line "#mon?"
+	para "¿Qué #mon es"
+	line "este?"
 
-	para "It looks like the"
-	line "strange writing on"
+	para "Se parece a las"
+	line "extrañas letras de"
+	cont "las ruinas."
 
-	para "the walls of the"
-	line "ruins."
+	para "Si esos dibujos"
+	line "son #mon, debe"
+	cont "de haber muchos"
+	cont "más."
 
-	para "If those drawings"
-	line "are really #-"
-	cont "mon, there should"
-	cont "be many more."
-
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "dex. Follow me."
+	para "¡Ya sé! Déjame que"
+	line "actualice tu"
+	cont "#dex. ¡Sígueme!"
 	done
 
 SuperNerdStanSeenText:
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	text "¿Qué quieres? ¡No"
+	line "me molestes, estoy"
+	cont "estudiando!"
 	done
 
 SuperNerdStanBeatenText:
-	text "Sorry…"
-	line "I'm frustrated by"
-
-	para "our lack of real"
-	line "understanding…"
+	text "Perdón… Me frustra"
+	line "no entender bien"
+	cont "todo esto…"
 	done
 
 PsychicNathanSeenText:
-	text "Hmmm… This is a"
-	line "strange place."
+	text "Mmm… Este lugar es"
+	line "muy extraño."
 	done
 
 PsychicNathanBeatenText: ; text > text
@@ -268,105 +261,98 @@ PsychicNathanBeatenText: ; text > text
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "Mystery Stone"
-	line "Panel Chamber"
+	text "Cámara de paneles"
+	line "de piedra"
 	done
 
 RuinsOfAlphOutsideMysteriousHallSignText:
-	text "Mysterious Hall"
+	text "Sala Misteriosa"
 
-	para "Please watch"
-	line "your step."
+	para "Tengan cuidado con"
+	line "los agujeros."
 	done
 
 RuinsOfAlphSignText:
-	text "Ruins of Alph"
-	line "Visitors Welcome"
+	text "Ruinas Alfa"
+	line "Bienvenidos todos"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "Ruins of Alph"
-	line "Research Center"
+	text "Ruinas Alfa"
+	line "Centro de Inv."
 
-	para "The Authority On"
-	line "The Ruins of Alph"
+	para "Especialistas en"
+	line "las Ruinas Alfa"
 	done
 
 RuinsOfAlphAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "The #dex is a"
-	line "powerful tool!"
+	para "¡La #dex es una"
+	line "gran herramienta!"
 
-	para "Its Area map shows"
-	line "a yellow icon if a"
-
-	para "#mon can be"
-	line "found right where"
-	cont "you are!"
+	para "El mapa muestra un"
+	line "icono amarillo si"
+	cont "hay un #mon"
+	cont "justo donde estás!"
 	done
 
 MapRuinsofAlphOutsideSealedCaveSign:
 	dw EVENT_DOOR_OPENED_IN_RUINS_OF_ALPH
 	jumpthistext
 
-	text "There's a door-"
-	line "shaped groove in"
-	cont "the rock."
+	text "Hay una hendidura"
+	line "en la roca con"
+	cont "forma de puerta."
 	done
 
 RuinsOfAlphOutsideFisherText1:
-	text "While exploring"
-	line "the ruins, we"
+	text "Al explorar las"
+	line "ruinas, sentimos"
+	cont "algo muy extraño."
 
-	para "suddenly noticed"
-	line "an odd presence."
+	para "¡Nos asustamos y"
+	line "salimos huyendo!"
 
-	para "We all got scared"
-	line "and ran away."
-
-	para "You should be"
-	line "careful too."
+	para "Ten mucho cuidado"
+	line "tú también."
 	done
 
 
 RuinsOfAlphOutsideYoungster2Text:
-	text "A… H… E… A… D…"
-	line "Hmm…"
+	text "D… E… L… A… N… T…"
+	line "E… Mmm…"
 
-	para "What?"
+	para "¿Qué?"
 
-	para "I'm decoding this"
-	line "message!"
+	para "¡Estoy descifrando"
+	line "este mensaje!"
 	done
 
 RuinsofAlphScientistClimax1Text:
-	text "That sounded like"
-	line "it came from over"
-	cont "here…"
+	text "Parece que ese"
+	line "ruido vino de por"
+	cont "aquí…"
 	done
 
 RuinsofAlphScientistClimax2Text:
-	text "Incredible!"
+	text "¡Increíble!"
 
-	para "Another chamber"
-	line "was hidden here"
-	cont "all this time!"
+	para "¡Había otra cámara"
+	line "oculta aquí todo"
+	cont "este tiempo!"
 
-	para "We could spend"
-	line "years studying it!"
+	para "¡Podríamos pasar"
+	line "años estudiándola!"
 
-	para "…Although, that"
-	line "was quite a loud"
-	cont "earthquake."
+	para "… Aunque ese sismo"
+	line "fue muy fuerte."
 
-	para "Could another"
-	line "chamber have"
+	para "¿Se habrá abierto"
+	line "otra cámara muy"
+	cont "lejos de aquí?"
 
-	para "opened up far"
-	line "away from here?"
-
-	para "I must go tell"
-	line "my colleagues"
-	cont "about this!"
+	para "¡Tengo que ir a"
+	line "contárselo a mis"
+	cont "compañeros!"
 	done

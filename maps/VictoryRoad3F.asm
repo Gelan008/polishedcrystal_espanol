@@ -20,18 +20,14 @@ GenericTrainerVeteranmRemy:
 	generictrainer VETERANM, REMY, EVENT_BEAT_VETERANM_REMY, VeteranmRemySeenText, VeteranmRemyBeatenText
 
 	text "¡Te gano de sobra"
-	line "si hablamos de"
-
-	para "conocimientos"
-	line "sobre los #mon!"
+	line "en cuanto a saber"
+	cont "sobre #mon!"
 	done
 
 VeteranmRemySeenText:
-	text "¡Si logras pasar"
-	line "por aquí, podrás"
-
-	para "desafiar al Alto"
-	line "Mando!"
+	text "¡Si logras pasar,"
+	line "podrás desafiar"
+	cont "al Alto Mando!"
 	done
 
 VeteranmRemyBeatenText:

@@ -251,9 +251,9 @@ BugCatchingContestant1BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant1BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Don: ¡Hala, me has"
-	line "ganado! No lo ha-"
-	cont "ces nada mal."
+	text "Don: ¡Me ganaste!"
+	line "¡No lo haces nada"
+	cont "mal!"
 	done
 
 BugCatchingContestant2BScript:
@@ -281,8 +281,8 @@ BugCatchingContestant4BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant4BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "William: ¿Has ga-"
-	line "nado tú? ¿Qué has"
+	text "William: ¿Ganaste"
+	line "tú? ¿Qué has"
 	cont "atrapado?"
 	done
 
@@ -291,9 +291,9 @@ BugCatchingContestant5BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant5BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Benny: ¡Felicida-"
-	line "des! ¡Te has gana-"
-	cont "do mi respeto!"
+	text "Benny: ¡Bravo!"
+	line "¡Te has ganado mi"
+	cont "respeto!"
 	done
 
 BugCatchingContestant6BScript:
@@ -314,9 +314,9 @@ BugCatchingContestant7BScript:
 	text "Cindy: ¿Ganaste?"
 	line "¡Qué bien!"
 
-	para "¿Te apetece bus-"
-	line "car #mon bicho"
-	cont "conmigo?"
+	para "¿Te apetece ir a"
+	line "cazar #mon"
+	cont "bicho conmigo?"
 	done
 
 BugCatchingContestant8BScript:
@@ -325,8 +325,8 @@ BugCatchingContestant8BScript:
 	jumpthistextfaceplayer
 
 	text "Josh: ¡No me creo"
-	line "haber perdido ca-"
-	cont "zando bichos…!"
+	line "haber perdido al"
+	cont "cazar bichos…!"
 	done
 
 BugCatchingContestant9BScript:
@@ -334,8 +334,8 @@ BugCatchingContestant9BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant9BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Johnny: La próxi-"
-	line "ma vez ganaré yo."
+	text "Johnny: La próxima"
+	line "vez ganaré yo."
 	done
 
 BugCatchingContestant10BScript:
@@ -371,12 +371,11 @@ Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
 
 
 BugCatchingContestant1BStillCompetingText:
-	text "Don: La suerte in-"
-	line "fluye mucho aquí."
+	text "Don: La suerte"
+	line "cuenta mucho aquí."
 
 	para "Nunca sabes qué"
-	line "#mon va a apa-"
-	cont "recer."
+	line "#mon te saldrá."
 	done
 
 
@@ -414,24 +413,19 @@ BugCatchingContestant5BStillCompetingText:
 
 
 BugCatchingContestant6BStillCompetingText:
-	text "Barry: Es más fá-"
-	line "cil ganar con un"
+	text "Barry: Es fácil"
+	line "ganar con #mon"
+	cont "de nivel alto."
 
-	para "#mon bicho de"
-	line "mucho nivel."
-
-	para "Pero creo que tam-"
-	line "bién tienen en"
-
-	para "cuenta otras"
-	line "cosas."
+	para "Aunque también"
+	line "tienen en cuenta"
+	cont "otras cosas."
 	done
 
 
 BugCatchingContestant7BStillCompetingText:
-	text "Cindy: ¡Me encan-"
-	line "tan los #mon"
-	cont "bicho!"
+	text "Cindy: ¡Adoro los"
+	line "#mon bicho!"
 	done
 
 
@@ -443,16 +437,16 @@ BugCatchingContestant8BStillCompetingText:
 
 
 BugCatchingContestant9BStillCompetingText:
-	text "Johnny: Vaya. Pen-"
-	line "saba que sacaría"
-	cont "más puntuación…"
+	text "Johnny: Creía que"
+	line "sacaría una mejor"
+	cont "puntuación…"
 	done
 
 
 BugCatchingContestant10BStillCompetingText:
-	text "Kipp: Estudio mu-"
-	line "cho, pero no bas-"
-	cont "ta para ganar."
+	text "Kipp: Estudio un"
+	line "montón, pero no"
+	cont "basta para ganar."
 	done
 
 Route36NationalParkGateOfficer1WellHoldPrizeText:
@@ -472,6 +466,5 @@ Route36NationalParkGateOfficer1HeresThePrizeText:
 
 	para "Aquí tienes el"
 	line "premio que te"
-	cont "estábamos guar-"
-	cont "dando."
+	cont "hemos guardado."
 	done

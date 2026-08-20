@@ -62,17 +62,14 @@ SafariZoneWestRestHouse2FlanneryScript:
 	text "¡Hola!"
 
 	para "¡Qué bien ver a"
-	line "alguien más explo-"
-	cont "rando este lugar!"
+	line "alguien más por"
+	cont "este lugar!"
 
 	para "Soy Candela."
 
-	para "Vengo de la región"
-	line "de Hoenn, así que"
-
-	para "me encantan la hu-"
-	line "medad y las aguas"
-	cont "termales."
+	para "Vengo de Hoenn,"
+	line "adoro el calor y"
+	cont "las aguas termales"
 
 	para "¡La Zona Safari me"
 	line "hace sentir como"
@@ -84,32 +81,24 @@ SafariZoneWestRestHouse2FlanneryScript:
 	done
 
 .RematchText:
-	text "¡Hola,"
-	line "¡<PLAYER>!"
+	text "¡Hola, <PLAYER>!"
 
 	para "¡Qué bien volver a"
 	line "verte!"
 
-	para "Perder un combate"
-	line "no va a desani-"
-	cont "marme."
+	para "Perder una batalla"
+	line "no me desanima."
 
-	para "¡Intercambiemos"
-	line "movimientos abra-"
-
-	para "sadores en otro"
-	line "combate!"
+	para "¡Tengamos otro"
+	line "combate ardiente y"
+	cont "abrasador!"
 	done
 
 .SeenText:
-	text "¡Voy a hacerte una"
-	line "demostración de"
-
-	para "los movimientos"
-	line "ardientes que per-"
-
-	para "feccioné junto a"
-	line "un volcán!"
+	text "¡Te mostraré los"
+	line "ataques ardientes"
+	cont "que perfeccioné en"
+	cont "un volcán!"
 	done
 
 .BeatenText:
@@ -118,25 +107,22 @@ SafariZoneWestRestHouse2FlanneryScript:
 	done
 
 .AfterText:
-	text "He perdido el com-"
-	line "bate, pero estoy"
-	cont "muy satisfecha."
+	text "He perdido, pero"
+	line "estoy satisfecha."
 
-	para "No suelo disfrutar"
-	line "a menudo de com-"
+	para "No suelo tener"
+	line "combates tan"
+	cont "apasionantes."
 
-	para "bates tan apasio-"
-	line "nantes."
-
-	para "¡Tenemos que repe-"
-	line "tir otro igual al-"
-	cont "guna vez!"
+	para "¡Hay que repetir"
+	line "otro combate algún"
+	cont "día!"
 	done
 
 .RefusedText:
 	text "Vale… Eh…"
-	line "¡No tengas corte"
 
-	para "en pedirlo si"
-	line "vuelves!"
+	para "¡No tengas corte"
+	line "en pedirmelo si"
+	cont "te apetece!"
 	done

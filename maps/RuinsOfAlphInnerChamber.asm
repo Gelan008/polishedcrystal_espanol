@@ -92,9 +92,8 @@ RuinsOfAlphInnerChamberGrampsText:
 
 	para "Algo aquí dentro"
 	line "debe de incitar a"
-
-	para "la gente a querer"
-	line "preservarlas."
+	cont "la gente a querer"
+	cont "preservarlas."
 	done
 
 RuinsOfAlphInnerChamberScientistText:
@@ -103,15 +102,12 @@ RuinsOfAlphInnerChamberScientistText:
 	cont "palabras!"
 
 	para "Y esos paneles de"
-	line "piedra que se des-"
-
-	para "lizan parecen ser"
-	line "señales de algún"
-	cont "tipo."
+	line "piedra corredizos"
+	cont "parecen ser algún"
+	cont "tipo de señal."
 
 	para "Creo que hacen que"
 	line "aparezcan #mon,"
-
-	para "pero todavía no"
-	line "está muy claro…"
+	cont "pero todavía no"
+	cont "está muy claro…"
 	done

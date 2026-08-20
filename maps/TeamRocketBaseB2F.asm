@@ -199,26 +199,23 @@ GenericTrainerGruntM17:
 	text "Je, solo soy un"
 	line "Soldado."
 
-	para "No sé la contrase-"
-	line "ña. ¡Mala suerte!"
+	para "No sé cuál es la"
+	line "contraseña."
+	cont "¡Mala suerte!"
 	done
 
 GenericTrainerGruntM18:
 	generictrainer GRUNTM, 18, EVENT_BEAT_ROCKET_GRUNTM_18, GruntM18SeenText, GruntM18BeatenText
 
-	text "En la última mi-"
-	line "sión también me"
-	cont "barrió un crío."
+	text "En la otra misión"
+	line "también me barrió"
+	cont "un crío."
 
 	para "Cuando estábamos"
-	line "secuestrando"
-	cont "#mon,"
-
-	para "un chaval con me-"
-	line "lena pelirroja y"
-
-	para "ojos de malas pul-"
-	line "gas me machacó…"
+	line "robando #mon,"
+	cont "un pelirrojo con"
+	cont "ojos de pocas"
+	cont "pulgas me venció…"
 	done
 
 GenericTrainerGruntM19:
@@ -228,8 +225,8 @@ GenericTrainerGruntM19:
 	line "sabe la contraseña"
 	cont "de esa puerta."
 
-	para "¿Dónde está el je-"
-	line "fe? ¡Quién sabe!"
+	para "¿Que dónde está el"
+	line "jefe? ¡Quién sabe!"
 	cont "Búscalo tú mismo."
 	done
 
@@ -345,9 +342,7 @@ TeamRocketBaseB2FTransmitterScript:
 
 	text "Es el transmisor"
 	line "de radio que emite"
-
-	para "la señal sinies-"
-	line "tra."
+	cont "esa señal nefasta."
 
 	para "Está funcionando"
 	line "a plena potencia."
@@ -547,7 +542,7 @@ RocketBaseExecutiveFHoldItText:
 
 RocketBaseBossFThrashText:
 	text "No podemos dejar a"
-	line "un renacuajo como"
+	line "un niñato como"
 	cont "tú suelto."
 
 	para "Daña el orgullo"
@@ -555,10 +550,9 @@ RocketBaseBossFThrashText:
 	cont "¿sabes?"
 
 	para "Por muy fuerte que"
-	line "seas, no puedes"
-
-	para "con los dos a la"
-	line "vez."
+	line "seas, no podrás"
+	cont "con los dos a la"
+	cont "vez."
 
 	para "Lo siento, cielo."
 	line "¡Prepárate para"
@@ -566,9 +560,9 @@ RocketBaseBossFThrashText:
 	done
 
 RocketBaseLanceShareFunText:
-	text "¡Oye! No seas ego-"
-	line "ísta. Comparte la"
-	cont "diversión."
+	text "¡Oye! No seas tan"
+	line "egoísta. Comparte"
+	cont "la diversión."
 	done
 
 RocketBaseBossDontMeddleText:
@@ -578,14 +572,11 @@ RocketBaseBossDontMeddleText:
 	para "¿Dónde está tu"
 	line "sentido del honor?"
 
-	para "Como líder en fun-"
-	line "ciones en lugar de"
-
-	para "Giovanni, ¡te mos-"
-	line "traré lo malo que"
-
-	para "es meterse con el"
-	line "Team Rocket!"
+	para "Como líder en"
+	line "ausencia de"
+	cont "Giovanni, ¡verás"
+	cont "lo que es meterse"
+	cont "con Team Rocket!"
 	done
 
 RocketBaseBossWinText:
@@ -596,9 +587,8 @@ RocketBaseBossWinText:
 
 	para "Si te unieras al"
 	line "Team Rocket,"
-
-	para "podrías llegar a"
-	line "ser un Ejecutivo."
+	cont "podrías llegar a"
+	cont "ser un Ejecutivo."
 	done
 
 RocketBaseBossRetreatText:
@@ -607,23 +597,18 @@ RocketBaseBossRetreatText:
 
 	para "Pero no importa."
 	line "El experimento de"
-
-	para "las ondas de radio"
-	line "ha sido un éxito"
-	cont "total."
+	cont "las ondas de radio"
+	cont "fue un gran éxito."
 
 	para "Da igual lo que le"
-	line "pase ahora a esta"
-	cont "guarida."
+	line "pase a esta base."
 
-	para "Tenemos planes mu-"
-	line "cho más grandes."
+	para "Tenemos planes"
+	line "mucho mayores."
 
-	para "Pronto compren-"
-	line "derás el auténtico"
-
-	para "poder del Team"
-	line "Rocket."
+	para "¡Pronto verás el"
+	line "auténtico poder"
+	cont "del Team Rocket!"
 
 	para "Disfruta mientras"
 	line "puedas…"
@@ -634,60 +619,49 @@ RocketBaseBossRetreatText:
 RocketBaseLancePostBattleText:
 	text "Lance: Listo."
 	line "Hemos derrotado a"
-
-	para "todos los Rocket"
-	line "de aquí."
+	cont "todos los Rocket"
+	cont "de aquí."
 
 	para "Pero me preocupa"
 	line "el chico con el"
-
-	para "que he luchado an-"
-	line "tes…"
+	cont "he luchado antes…"
 	done
 
 RocketBaseLancePowerOffText:
 	text "Perdona, <PLAYER>."
 	line "Vi lo bien que lo"
-
-	para "hacías y decidí no"
-	line "intervenir."
+	cont "hacías y decidí no"
+	cont "intervenir."
 
 	para "Ahora solo nos"
 	line "queda apagar esa"
-
-	para "extraña señal de"
-	line "radio."
+	cont "extraña señal de"
+	cont "radio."
 	done
 
 RockerBaseLanceElectrodeFaintText:
 	text "Esta máquina es la"
-	line "causante de todos"
-	cont "los problemas."
+	line "causa de todos los"
+	cont "problemas."
 
 	para "No veo ningún"
 	line "interruptor…"
 
-	para "No hay opción. Te-"
-	line "nemos que debili-"
+	para "No hay opción:"
+	line "debemos debilitar"
+	cont "a los Electrode."
 
-	para "tar a todos los"
-	line "Electrode."
-
-	para "Eso debería impe-"
-	line "dir que la máquina"
-
-	para "siga emitiendo esa"
-	line "extraña señal."
+	para "Eso evitará que la"
+	line "máquina siga con"
+	cont "la extraña señal."
 
 	para "Los #mon no"
-	line "tienen la culpa,"
+	line "tienen culpa, me"
+	cont "da pena por ellos."
 
-	para "me siento mal"
-	line "por ellos."
-
-	para "¡<PLAYER>, repar-"
-	line "támonos el tra-"
-	cont "bajo!"
+	para "¡<PLAYER>, vamos a"
+	line "repartirnos el"
+	cont "trabajo!"
 	done
 
 RocketBaseLancesSideText:
@@ -701,30 +675,25 @@ RocketBaseLanceElectrodeDoneText:
 	cont "señal."
 
 	para "El lago debería"
-	line "volver a la nor-"
-	cont "malidad."
+	line "volver a la calma."
 
 	para "¡Eres un héroe!"
-	line "Permíteme agrade-"
-
-	para "cértelo en nombre"
-	line "de todos los #-"
-	cont "mon."
+	line "Te lo agradezco en"
+	cont "nombre de todos"
+	cont "los #mon."
 
 	para "Ah, sí. Deberías"
 	line "quedarte esto."
 
-	para "Lo encontré aquí,"
-	line "pero yo no lo ne-"
-	cont "cesito para nada."
+	para "Lo encontré aquí y"
+	line "yo no lo necesito."
 	done
 
 RocketBaseLanceWhirlpoolText:
 	text "Es Ladrón."
 	line "Confío en que no"
-
-	para "abuses de él como"
-	line "el Team Rocket."
+	cont "abuses de él como"
+	cont "el Team Rocket."
 	done
 
 RocketBaseLanceMonMasterText:
@@ -732,12 +701,10 @@ RocketBaseLanceMonMasterText:
 
 	para "El camino para ser"
 	line "un Maestro #mon"
+	cont "es largo y duro."
 
-	para "es largo y difí-"
-	line "cil."
-
-	para "Sabiendo eso, ¿se-"
-	line "guirás adelante?"
+	para "Sabiendo eso,"
+	line "¿seguirás firme?"
 
 	para "…"
 
@@ -746,10 +713,8 @@ RocketBaseLanceMonMasterText:
 
 	para "Si te rindieras"
 	line "tan fácilmente,"
-
-	para "nunca habrías bus-"
-	line "cado ese sueño al"
-	cont "principio."
+	cont "no perseguirías"
+	cont "este sueño."
 
 	para "¡Espero que nos"
 	line "volvamos a ver!"
@@ -760,48 +725,43 @@ LanceHealsText1:
 	line "bien?"
 
 	para "Tus #mon están"
-	line "heridos y cansa-"
-	cont "dos."
+	line "muy agotados."
 
-	para "Toma, dales un po-"
-	line "co de mi medicina."
+	para "Toma, dales algo"
+	line "de mi medicina."
 	done
 
 LanceHealsText2:
 	text "Lance: ¡<PLAYER>,"
 	line "demos lo mejor de"
-
-	para "nosotros por los"
-	line "#mon!"
+	cont "nosotros por los"
+	cont "#mon!"
 	done
 
 GruntM17SeenText:
 	text "¿Que la puerta no"
 	line "se abre?"
 
-	para "Pues claro. Se ne-"
-	line "cesita una contra-"
-
-	para "seña que solo sabe"
-	line "el Team Rocket."
+	para "Pues claro. Hace"
+	line "falta una clave"
+	cont "que solo sabe el"
+	cont "Team Rocket."
 	done
 
 GruntM17BeatenText:
-	text "¿Qué? ¿He perdi-"
-	line "do?"
+	text "¿Qué? ¿He"
+	line "perdido?"
 	done
 
 GruntM18SeenText:
 	text "¿Eh? ¿Un crío? No"
-	line "me gusta mucho es-"
-
-	para "to, pero debo eli-"
-	line "minarte."
+	line "me gusta esto,"
+	cont "pero te venceré."
 	done
 
 GruntM18BeatenText:
-	text "Sabía que perde-"
-	line "ría…"
+	text "Sabía que iba a"
+	line "perder…"
 	done
 
 GruntM19SeenText:

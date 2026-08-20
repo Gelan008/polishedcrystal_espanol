@@ -28,13 +28,11 @@ PokemonJournalSabrinaScript:
 	para "Edición especial:"
 	line "¡Líder Sabrina!"
 
-	para "Se dice que Sabri-"
-	line "na puede comuni-"
-	cont "carse con sus"
-
-	para "#mon durante"
-	line "el combate sin"
-	cont "decir palabra."
+	para "Dicen que Sabrina"
+	line "se comunica con"
+	cont "sus #mon en"
+	cont "combate sin decir"
+	cont "una sola palabra."
 	done
 
 SaffronPokeCenter1FFisherScript:
@@ -45,52 +43,45 @@ SaffronPokeCenter1FFisherScript:
 	text "Acabo de cruzar"
 	line "el Túnel Roca."
 
-	para "Había cierto re-"
-	line "vuelo cerca de la"
+	para "Había revuelo"
+	line "cerca de la"
 	cont "Central Energía."
 	done
 
 .Text2:
-	text "Las cuevas se de-"
-	line "rrumban fácilmen-"
-	cont "te."
+	text "Las cuevas suelen"
+	line "derrumbarse con"
+	cont "facilidad."
 
-	para "En estos últimos"
-	line "años han desapa-"
-	cont "recido varias,"
+	para "En estos años"
+	line "han desaparecido"
+	cont "varias cuevas,"
 
 	para "como la que había"
 	line "a las afueras de"
 	cont "Ciudad Celeste."
 
-	para "Cualquier Monta-"
-	line "ñero experto sa-"
-	cont "bría eso."
+	para "Un buen Montañero"
+	line "lo sabe bien."
 	done
 
 SaffronPokeCenter1FTeacherText:
-	text "¿Cómo son los Cen-"
-	line "tros #mon de"
-	cont "Johto?"
+	text "¿Cómo son los"
+	line "Centros #mon"
+	cont "de Johto?"
 
-	para "… Ah, ya veo. Así"
-	line "que no son muy"
+	para "… Ah, ya veo. No"
+	line "son muy distintos"
+	cont "de los de Kanto."
 
-	para "distintos de los"
-	line "de Kanto."
-
-	para "¡Entonces podré ir"
-	line "a Johto sin preo-"
-	cont "cuparme!"
+	para "¡Podré viajar a"
+	line "Johto sin temor!"
 	done
 
 SaffronPokeCenter1FYoungsterText:
 	text "La sede central de"
 	line "Silph S.A. y la"
-
-	para "estación del Mag-"
-	line "netotrén son los"
-
-	para "lugares más famo-"
-	line "sos de Azafrán."
+	cont "estación del tren"
+	cont "son lo más famoso"
+	cont "de Azafrán."
 	done

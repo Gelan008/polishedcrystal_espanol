@@ -68,9 +68,9 @@ GenericTrainerSwimmermSimon:
 GenericTrainerSwimmermRandall:
 	generictrainer SWIMMERM, RANDALL, EVENT_BEAT_SWIMMERM_RANDALL, SwimmermRandallSeenText, SwimmermRandallBeatenText
 
-	text "La natación ejer-"
-	line "cita todo el cuer-"
-	cont "po. Es sana."
+	text "Nadar ejercita"
+	line "todo el cuerpo."
+	cont "¡Es muy sano!"
 	done
 
 Route40PokefanMScript:
@@ -78,9 +78,8 @@ Route40PokefanMScript:
 	iftrue_jumptextfaceplayer Route40PokefanMText2
 	jumpthistextfaceplayer
 
-	text "¡Mmm! ¡Hay un gran"
-	line "edificio ahí de-"
-	cont "lante!"
+	text "¡Mmm! Hay un gran"
+	line "edificio delante."
 
 	para "¿Qué será?"
 	done
@@ -93,11 +92,9 @@ Route40BeachGuyScript:
 	text "¡La Torre Batalla"
 	line "está casi lista!"
 
-	para "Vienen entrenado-"
-	line "res a Olivo desde"
-
-	para "todo el mundo para"
-	line "probar su fuerza."
+	para "Vendrá gente de"
+	line "todo el mundo a"
+	cont "probar su fuerza."
 	done
 
 Route40FisherScript:
@@ -141,9 +138,9 @@ Route40FisherScript:
 
 .QuestionText:
 	text "Dame una Hoja"
-	line "Plata y le en-"
-	cont "señaré Desarme"
-	cont "a tu #mon."
+	line "Plata y enseñaré"
+	cont "Desarme a tu"
+	cont "#mon."
 
 	para "¿Qué te parece?"
 	done
@@ -163,9 +160,8 @@ Route40FisherScript:
 
 	text "Desarme tira el"
 	line "objeto equipado"
-
-	para "para que no pueda"
-	line "usarse en combate."
+	cont "para inutilizarlo"
+	cont "en el combate."
 
 	para "¡Es de lo más"
 	line "frustrante!"
@@ -191,15 +187,12 @@ MonicaScript:
 	setevent EVENT_GOT_SHARP_BEAK_FROM_MONICA
 	jumpthisopenedtext
 
-	text "Lune: Es un ob-"
-	line "jeto que potencia"
+	text "Lune: Este objeto"
+	line "potencia ataques"
+	cont "de tipo Volador."
 
-	para "los movimientos de"
-	line "tipo Volador."
-
-	para "Deberías equipar"
-	line "con él a un #-"
-	cont "mon pájaro."
+	para "¡Dáselo a un"
+	line "#mon pájaro!"
 	done
 
 MonicaNotMondayScript:
@@ -234,16 +227,15 @@ SwimmermRandallSeenText:
 	done
 
 SwimmermRandallBeatenText:
-	text "¡Vaya! He perdi-"
-	line "do…"
+	text "¡Vaya derrota…!"
 	done
 
 SwimmerfElaineSeenText:
 	text "¿Vas hacia Ciudad"
 	line "Orquídea?"
 
-	para "¿Qué tal un com-"
-	line "bate rápido antes?"
+	para "¿Luchamos antes"
+	line "un combate rápido?"
 	done
 
 SwimmerfElaineBeatenText:
@@ -258,8 +250,7 @@ SwimmerfPaulaSeenText:
 	done
 
 SwimmerfPaulaBeatenText:
-	text "¡Uf, me he ma-"
-	line "reado!"
+	text "¡Uf, qué mareo!"
 	done
 
 Route40BeachGirlText:
@@ -273,27 +264,20 @@ Route40BeachGirlText:
 
 Route40PokefanMText2:
 	text "¡Mmm! Mira cuántos"
-	line "entrenadores con"
-
-	para "cara de serios es-"
-	line "tán entrando."
+	line "entrenadores tan"
+	cont "serios entran."
 
 	para "¿Qué pasará?"
 	done
 
 Route40PicnickerText:
-	text "Vine a Ciudad Oli-"
-	line "vo en barco para"
-
-	para "hacer turismo y"
-	line "disfrutar del am-"
-	cont "biente."
+	text "Vine a Olivo en"
+	line "barco para hacer"
+	cont "turismo."
 
 	para "Al ser un puerto,"
-	line "se siente muy dis-"
-
-	para "tinto a una gran"
-	line "ciudad."
+	line "el ambiente es muy"
+	cont "diferente."
 	done
 
 
@@ -301,24 +285,18 @@ Route40BeachGuyText2:
 	text "¿Has ido a la"
 	line "Torre Batalla?"
 
-	para "Creo que ya se han"
-	line "reunido allí mu-"
+	para "Hay muchos rivales"
+	line "fuertes reunidos."
 
-	para "chos entrenadores"
-	line "fuertes."
-
-	para "Pero como tienes"
-	line "tantas Medallas,"
-
-	para "¡seguro que no lo"
-	line "haces nada mal!"
+	para "Pero con tantas"
+	line "Medallas, ¡seguro"
+	cont "que lo bordas!"
 	done
 
 MeetMonicaText:
 	text "Lune: Encantada."
 	line "Soy Lune, la del"
-
-	para "lunes."
+	cont "lunes."
 	done
 
 MonicaGivesGiftText:
@@ -330,10 +308,8 @@ MonicaGivesGiftText:
 
 MonicaMondayText:
 	text "Lune: Mis hermanos"
-	line "y hermanas están"
-
-	para "repartidos por to-"
-	line "das partes."
+	line "están repartidos"
+	cont "por todas partes."
 
 	para "¡A ver si puedes"
 	line "encontrarlos a"

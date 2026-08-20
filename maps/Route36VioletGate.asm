@@ -26,30 +26,25 @@ Route36VioletGateOfficerScript:
 
 	text "Últimamente no"
 	line "veo a gente venir"
-
-	para "desde Ciudad"
-	line "Trigal."
+	cont "de Ciudad Trigal."
 	done
 
 .ClearedSudowoodo
 	jumpthisopenedtext
 
 	text "Hay mucho ajetreo"
-	line "últimamente, por-"
-
-	para "que viene mucha"
-	line "gente desde Trigal"
-	cont "y desde Iris."
+	line "últimamente porque"
+	cont "viene mucha gente"
+	cont "de Trigal e Iris."
 	done
 
 
 
 Route36VioletGateYoungsterText:
-	text "¡Las plantas tam-"
-	line "bién son seres vi-"
-	cont "vos!"
+	text "¡Las plantas son"
+	line "seres vivos!"
 
-	para "¡Es normal que"
-	line "quieran moverse de"
-	cont "vez en cuando!"
+	para "¡Es normal que se"
+	line "muevan de vez en"
+	cont "cuando!"
 	done

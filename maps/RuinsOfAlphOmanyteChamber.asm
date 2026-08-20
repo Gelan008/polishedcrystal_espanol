@@ -115,7 +115,6 @@ MapRuinsofAlphOmanyteChamberSignpost4Script:
 RuinsOfAlphOmanyteChamberDescriptionText:
 	text "Este #mon iba a"
 	line "la deriva en el"
-
-	para "mar moviendo sus"
-	line "diez tentáculos."
+	cont "mar agitando sus"
+	cont "diez tentáculos."
 	done

@@ -17,16 +17,15 @@ VermilionMagnetTrainSpeechHouse_MapScriptHeader:
 
 VermilionMagnetTrainSpeechHousePokefanFText:
 	text "¿Sabes lo del"
-	line "Magnetotren?"
+	line "Magnetotrén?"
 
-	para "Es un ferrocarril"
-	line "que va a Ciudad"
-
-	para "Trigal, en Johto."
+	para "Es un tren que va"
+	line "a Ciudad Trigal,"
+	cont "en Johto."
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
-	text "Iré a Azafrán para"
-	line "ver el Magneto-"
-	cont "trén."
+	text "Iré a Azafrán"
+	line "para poder ver el"
+	cont "Magnetotrén."
 	done

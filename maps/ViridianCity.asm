@@ -59,13 +59,12 @@ ViridianCityGrampsNearGym:
 
 	text "Este Gimnasio no"
 	line "tuvo Líder hasta"
-	cont "hace poco."
+	cont "hace bien poco."
 
 	para "Un joven de Pueblo"
-	line "Paleta se convir-"
-
-	para "tió en Líder, pero"
-	line "suele estar fuera."
+	line "Paleta asumió el"
+	cont "mando, pero suele"
+	cont "estar ausente."
 	done
 
 ViridianCityDreamEaterFisher:
@@ -110,34 +109,29 @@ ViridianCityTutorDreamEaterScript:
 	done
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "¡Eh, chaval! Me he"
-	line "tomado un café"
-
-	para "doble ¡y estoy a"
-	line "tope de energía!"
+	text "¡Eh! Me he tomado"
+	line "un café doble y"
+	cont "¡estoy a tope!"
 
 	para "¡Tengo que hablar"
 	line "con alguien, así"
 	cont "que te ha tocado!"
 
-	para "Puede que no lo"
-	line "parezca ahora,"
-
-	para "pero era un hacha"
-	line "atrapando #mon."
+	para "Aunque no lo creas"
+	line "era todo un hacha"
+	cont "atrapando #mon."
 
 	para "¿Me crees?"
 	done
 
 ViridianCityCoffeeGrampsDoubtedText:
-	text "¿Qué? ¡Mocoso in-"
-	line "solente!"
+	text "¿Qué? ¡Mocoso"
+	line "insolente!"
 
-	para "¡Si fuera un poco"
-	line "más joven, te iba"
-
-	para "a enseñar un par"
-	line "de cosas! ¡Humph!"
+	para "¡Si fuera más"
+	line "joven, te iba a"
+	cont "enseñar un par de"
+	cont "cosas! ¡Humph!"
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
@@ -176,10 +170,9 @@ Text_ViridianCityTutorDreamEater:
 	done
 
 Text_ViridianCityTutorQuestion:
-	text "¿Le enseño a tu"
-	line "#mon el movi-"
-	cont "miento Come"
-	cont "Sueños?"
+	text "¿Quieres que le"
+	line "enseñe Come Sueños"
+	cont "a tu #mon?"
 	done
 
 Text_ViridianCityTutorRefused: ; text > text
@@ -187,11 +180,10 @@ Text_ViridianCityTutorRefused: ; text > text
 	done
 
 ViridianCityYoungsterText:
-	text "Dicen que hay mu-"
-	line "chos objetos por"
-
-	para "el suelo del Bos-"
-	line "que Verde."
+	text "Dicen que hay"
+	line "muchos objetos por"
+	cont "el suelo del"
+	cont "Bosque Verde."
 	done
 
 ViridianCityYoungster2Text:
@@ -228,12 +220,12 @@ ViridianCityTrainerTips1Text:
 	text "Pistas Entrenador"
 
 	para "¡Atrapa #mon"
-	line "y amplía tu colec-"
-	cont "ción!"
+	line "para ampliar tu"
+	cont "colección!"
 
-	para "¡Cuantos más ten-"
-	line "gas, más fácil te"
-	cont "será luchar!"
+	para "¡Tener más #mon"
+	line "te facilitará los"
+	cont "combates!"
 	done
 
 ViridianCityTrainerTips2Text:
@@ -243,20 +235,18 @@ ViridianCityTrainerTips2Text:
 	line "grande!"
 
 	para "No te limites a"
-	line "correr o usar Vue-"
-	cont "lo: ¡mira a tu al-"
-	cont "rededor!"
+	line "correr o volar;"
+	cont "¡explora bien!"
 
 	para "¡Descubrirás cosas"
-	line "nuevas y emocio-"
-	cont "nantes!"
+	line "muy emocionantes!"
 	done
 
 TrainerHouseSignText:
 	text "Casa del"
 	line "Entrenador"
 
-	para "El club de comba-"
-	line "tes entre los me-"
-	cont "jores entrenadores"
+	para "El club donde se"
+	line "baten los mejores"
+	cont "entrenadores."
 	done

@@ -35,10 +35,8 @@ GenericTrainerLassDuplica:
 	line "imitar a otros!"
 
 	para "¡Algún día seré"
-	line "Entrenadora del"
-
-	para "Gimnasio Fucsia e"
-	line "imitaré a Sachiko!"
+	line "Líder en Fucsia e"
+	cont "imitaré a Sachiko!"
 	done
 
 GenericTrainerCamperAmos:
@@ -62,9 +60,9 @@ GenericTrainerTamerBrett:
 
 LassDuplicaSeenText:
 	text "¡Para dominar a"
-	line "Ditto, debes cono-"
-	cont "cer a todo"
-	cont "#mon!"
+	line "Ditto, hay que"
+	cont "conocer bien a"
+	cont "todo #mon!"
 	done
 
 LassDuplicaBeatenText:
@@ -73,18 +71,17 @@ LassDuplicaBeatenText:
 	done
 
 CamperAmosSeenText:
-	text "Muchos #mon vi-"
-	line "ven en la Zona"
-	cont "Safari."
+	text "¡En la Zona Safari"
+	line "viven muchísimos"
+	cont "#mon!"
 
-	para "¡He venido a ha-"
-	line "cerme con todos!"
+	para "¡He venido a por"
+	line "todos ellos!"
 	done
 
 CamperAmosBeatenText:
-	text "¡He perdido porque"
-	line "tengo que entre-"
-	cont "narlos!"
+	text "¡Perdí porque aún"
+	line "debo entrenarlos!"
 	done
 
 TamerBrettSeenText:
@@ -110,15 +107,16 @@ SafariZoneWestTrainerTips1SignText:
 	text "Pistas Entrenador"
 
 	para "Los #mon de"
-	line "tipo Fuego no se"
-	cont "pueden quemar,"
+	line "Fuego no pueden"
+	cont "quemarse,"
 
-	para "los de tipo Eléc-"
-	line "trico no sufren"
-	cont "parálisis"
+	para "los de tipo"
+	line "Eléctrico no se"
+	cont "paralizan"
 
-	para "y los de tipo Hie-"
-	line "lo no se congelan."
+	para "y los de tipo"
+	line "Hielo no sufren"
+	cont "congelación."
 	done
 
 SafariZoneWestTrainerTips2SignText:
@@ -126,7 +124,6 @@ SafariZoneWestTrainerTips2SignText:
 
 	para "Bajo tormenta de"
 	line "arena, los #mon"
-
-	para "de tipo Roca mejo-"
-	line "ran su Def. Esp."
+	cont "de tipo Roca suben"
+	cont "su Def. Esp."
 	done

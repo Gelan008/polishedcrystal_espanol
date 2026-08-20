@@ -70,19 +70,15 @@ ShamoutiShrineRuinsLawrenceScript:
 	end
 
 .SeenText:
-	text "Lawrence: He via-"
-	line "jado por muchas"
-
-	para "regiones para ca-"
-	line "zar a Articuno,"
-	cont "Zapdos y Moltres."
+	text "Lawrence: Viajé"
+	line "por el mundo para"
+	cont "capturar las tres"
+	cont "aves legendarias."
 
 	para "Sin la colección"
-	line "completa, no pue-"
-
-	para "do despertar al"
-	line "guardián de los"
-	cont "océanos…"
+	line "completa, no podré"
+	cont "despertar al gran"
+	cont "dios oceánico…"
 
 	para "¡Vas a ayudarme"
 	line "a completar mi"
@@ -90,28 +86,23 @@ ShamoutiShrineRuinsLawrenceScript:
 	done
 
 .BeatenText:
-	text "Increíble."
-	line "Has vencido a mi"
-
-	para "colección de le-"
-	line "yenda…"
+	text "Increíble. Has"
+	line "vencido a todos"
+	cont "mis legendarios…"
 	done
 
 .AfterText:
 	text "Lawrence: Para ti,"
 	line "tus #mon no son"
-
-	para "solo una colec-"
-	line "ción, ¿verdad?"
+	cont "solo una simple"
+	cont "colección, ¿no?"
 
 	para "Los tratas casi"
 	line "como a amigos."
 
-	para "¿Será por eso por"
-	line "lo que has vencido"
-
-	para "a mis #mon"
-	line "legendarios?"
+	para "¿Será por eso que"
+	line "has derrotado a"
+	cont "mis legendarios?"
 
 	para "Bueno, creo que te"
 	line "has ganado esto."
@@ -120,36 +111,29 @@ ShamoutiShrineRuinsLawrenceScript:
 .SilverWingText:
 	text "Esa pluma, el Ala"
 	line "Plateada, procede"
-
-	para "del guardián de"
-	line "los océanos."
+	cont "del guardián de"
+	cont "los océanos."
 
 	para "Su esencia debería"
-	line "atraerlo, pero"
+	line "atraerlo, mas solo"
+	cont "si has dominado a"
+	cont "las tres aves:"
 
-	para "solo si has domi-"
-	line "nado los tres es-"
-
-	para "pejismos alados:"
-	line "las aves de fuego,"
-
-	para "hielo y rayo."
+	para "fuego, hielo y"
+	line "rayo."
 
 	para "O eso dicen las"
 	line "leyendas."
 	done
 
 .GoodbyeText:
-	text "Mi sueño era po-"
-	line "seer a ese"
-	cont "#mon,"
+	text "Mi sueño era tener"
+	line "a ese #mon,"
+	cont "pero has probado"
+	cont "ser más digno."
 
-	para "pero has demos-"
-	line "trado ser digno."
-	cont "Tómalo."
-
-	para "Empezaré mi colec-"
-	line "ción de nuevo."
+	para "Empezaré de nuevo"
+	line "mi colección."
 
 	para "Adiós."
 	done
@@ -159,34 +143,27 @@ ShamoutiShrineRuinsGrampsText:
 	line "magnífico cuando"
 	cont "yo era un niño."
 
-	para "Pero, por desgra-"
-	line "cia, una tormenta"
+	para "Por desgracia, una"
+	line "tormenta enorme lo"
+	cont "destrozó hace ya"
+	cont "muchos años."
 
-	para "lo destrozó hace"
-	line "muchos años."
-
-	para "La tormenta amena-"
-	line "zaba a toda la is-"
-	cont "la, pero fuimos"
-
-	para "protegidos por el"
-	line "Guardián de los"
-	cont "Océanos."
+	para "La tormenta iba a"
+	line "destruir la isla,"
+	cont "pero nos protegió"
+	cont "el gran Guardián."
 
 	para "Cada año doy las"
 	line "gracias en honor"
-
-	para "al gran #mon"
-	line "que nos mantuvo a"
-	cont "salvo."
+	cont "al gran #mon"
+	cont "que nos salvó."
 	done
 
 ShamoutiShrineRuinsLadyText:
 	text "Tenía que parar en"
 	line "Isla Shamouti en"
-
-	para "mi vuelta al"
-	line "mundo."
+	cont "mi viaje por todo"
+	cont "el mundo."
 
 	para "Por lo visto hay"
 	line "un #mon que"

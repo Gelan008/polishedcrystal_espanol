@@ -21,14 +21,10 @@ SafariZoneFuchsiaGateOfficerText:
 
 	para "El Guarda está de"
 	line "viaje, así que no"
+	cont "hay Juego Safari."
 
-	para "celebramos el Jue-"
-	line "go del Safari."
-
-	para "Tendrás que traer"
-	line "tus propias Poké"
-
-	para "Balls si quieres"
-	line "atrapar algún"
-	cont "#mon."
+	para "Trae tus propias"
+	line "Poké Balls si"
+	cont "quieres atrapar"
+	cont "algún #mon."
 	done

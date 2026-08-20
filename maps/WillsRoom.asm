@@ -78,20 +78,18 @@ WillScript:
 	end
 
 .SeenText:
-	text "¡Te doy la bienve-"
-	line "nida a la Liga"
-	cont "#mon, <PLAYER>!"
+	text "¡Bienvenido a la"
+	line "Liga #mon,"
+	cont "<PLAYER>!"
 
 	para "Permíteme que me"
-	line "presente. Soy"
-	cont "Mento."
+	line "presente: ¡soy"
+	cont "Mento!"
 
 	para "He entrenado por"
 	line "todo el mundo para"
-
-	para "hacer muy fuertes"
-	line "a mis #mon de"
-	cont "tipo Psíquico."
+	cont "fortalecer a mis"
+	cont "#mon Psíquicos."
 
 	para "Y, al fin, he sido"
 	line "admitido en el"
@@ -116,25 +114,22 @@ WillScript:
 
 	para "¡Seguiré luchando"
 	line "hasta estar por"
-
-	para "encima de todos"
-	line "los entrenadores!"
+	cont "encima de todos"
+	cont "los entrenadores!"
 
 	para "Ahora, <PLAYER>,"
-	line "avanza y conoce"
-
-	para "la auténtica fero-"
-	line "cidad del Alto"
-	cont "Mando."
+	line "avanza y conoce la"
+	cont "fuerza real del"
+	cont "Alto Mando."
 	done
 
 .SeenRematchText:
 	text "Al fin has"
 	line "aparecido."
 
-	para "He estado obser-"
-	line "vando tu técnica"
-	cont "de combate."
+	para "He observado bien"
+	line "tu técnica de"
+	cont "combate."
 
 	para "¡Estoy listo para"
 	line "ti!"

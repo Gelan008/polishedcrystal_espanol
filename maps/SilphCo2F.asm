@@ -43,11 +43,10 @@ SilphCo2FEmployee1Script:
 	text "¿Has viajado aquí"
 	line "desde Johto?"
 
-	para "Ya que has venido"
+	para "Ya que has viajado"
 	line "desde tan lejos,"
-
-	para "quédate con este"
-	line "bonito recuerdo."
+	cont "quédate con este"
+	cont "bonito recuerdo."
 	done
 
 .Text2:
@@ -60,16 +59,14 @@ SilphCo2FEmployee1Script:
 	done
 
 SilphCo2FSilphEmployee2Text:
-	text "Antes usábamos te-"
-	line "letransportadores"
+	text "Antes usábamos los"
+	line "teletransportes"
+	cont "para movernos,"
+	cont "pero los apagaron."
 
-	para "para movernos,"
-	line "pero los desconec-"
-	cont "taron."
-
-	para "¡Menos mal que es-"
-	line "toy en el primer"
-	cont "piso!"
+	para "¡Menos mal que"
+	line "estoy en la"
+	cont "primera planta!"
 	done
 
 SilphCo2FScientist1Text:
@@ -78,18 +75,17 @@ SilphCo2FScientist1Text:
 
 	para "Algunas han sido"
 	line "descatalogadas,"
+	cont "¡pero otras son"
+	cont "tan populares"
 
-	para "¡pero otras son"
-	line "tan populares que"
-
-	para "no han cambiado en"
-	line "más de 30 años!"
+	para "que no cambiaron"
+	line "en más de 30 años!"
 	done
 
 SilphCo2FScientist2Text:
-	text "¡Estoy programan-"
-	line "do! ¡No me descon-"
-	cont "centres!"
+	text "¡Estoy en mitad de"
+	line "un trabajo!"
+	cont "¡No me distraigas!"
 	done
 
 SilphCo2FDeptSignText:

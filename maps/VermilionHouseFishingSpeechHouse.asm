@@ -25,25 +25,23 @@ FishingDudeText:
 	cont "de la Furia?"
 
 	para "Sueña con ver al"
-	line "Magikarp más gran-"
-	cont "de del mundo."
+	line "Magikarp más"
+	cont "grande del mundo."
 
 	para "Si no te importa,"
-	line "¿podrías enseñarle"
-
-	para "cualquier Magikarp"
-	line "que captures?"
+	line "¿podrías mostrarle"
+	cont "los Magikarp que"
+	cont "captures?"
 
 	para "Quién sabe, ¡igual"
-	line "atrapas el Magi-"
-	cont "karp de sus sue-"
-	cont "ños!"
+	line "atrapas el de"
+	cont "sus sueños!"
 	done
 
 FishingDudesHousePhotoText:
 	text "Es una foto de"
 	line "gente pescando…"
 
-	para "Se lo están pa-"
-	line "sando en grande…"
+	para "¡Se lo pasan en"
+	line "grande!"
 	done

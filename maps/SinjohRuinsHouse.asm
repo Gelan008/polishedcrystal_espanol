@@ -57,54 +57,43 @@ SinjohRuinsHouseCynthiaScript:
 	jumpthistext
 
 SinjohRuinsHouseCynthiaAfterText:
-	text "Cintia: ¡Qué com-"
-	line "bate tan fantás-"
-	cont "tico!"
+	text "Cintia: ¡Qué gran"
+	line "combate!"
 
-	para "Eres un Entrena-"
-	line "dor magnífico, y"
-
-	para "me encantaría que"
-	line "volviésemos a ver-"
-	cont "nos algún día."
+	para "Eres un Entrenador"
+	line "magnífico, y me"
+	cont "encantaría volver"
+	cont "a verte algún día."
 	done
 
 SinjohRuinsHousePokefanmText:
 	text "Hace mucho tiempo,"
 	line "la gente tenía"
+	cont "lazos más fuertes"
+	cont "con los #mon."
 
-	para "unos lazos más"
-	line "estrechos con los"
-	cont "#mon."
+	para "Surgieron mitos y"
+	line "leyendas sobre"
+	cont "#mon poderosos,"
+	cont "por todos lados."
 
-	para "Surgieron mitos"
-	line "y leyendas sobre"
-
-	para "poderosos #mon,"
-	line "que se extendie-"
-	cont "ron por regiones."
-
-	para "Estas ruinas han"
-	line "recibido influen-"
-	cont "cias del antiguo"
-
-	para "pueblo de Alfa, en"
-	line "Johto, y de la Co-"
-
-	para "lumna Lanza, en"
-	line "Sinnoh."
+	para "Estas ruinas unen"
+	line "las culturas del"
+	cont "pueblo de Alfa, en"
+	cont "Johto, y de la"
+	cont "Columna Lanza, en"
+	cont "Sinnoh."
 	done
 
 SinjohRuinsHouseGrampsText:
 	text "Pareces fuera de"
 	line "lugar, sin saber"
-
-	para "siquiera por qué"
-	line "has venido aquí."
+	cont "siquiera por qué"
+	cont "has venido aquí."
 
 	para "¿Quieres que mi"
-	line "Abra use Telepor-"
-	cont "transporte a casa?"
+	line "Abra te lleve de"
+	cont "vuelta a casa?"
 	done
 
 SinjohRuinsHouseGrampsYesText:
@@ -130,15 +119,14 @@ SinjohRuinsHouseCynthiaChallengeText:
 	para "¿Te ha ido todo"
 	line "bien?"
 
-	para "¡Has vuelto a ven-"
-	line "cer al Alto Mando!"
+	para "¡Venciste de nuevo"
+	line "al Alto Mando!"
 	cont "¡Enhorabuena!"
 
 	para "Tengo curiosidad"
 	line "por ver lo que has"
-
-	para "aprendido desde"
-	line "nuestro encuentro."
+	cont "aprendido desde"
+	cont "nuestro combate."
 
 	para "¿Luchamos de"
 	line "nuevo, <PLAYER>?"
@@ -152,8 +140,8 @@ SinjohRuinsHouseCynthiaNoText:
 
 SinjohRuinsHouseCynthiaYesText:
 	text "Cintia: Antes de"
-	line "sacar a mis #-"
-	cont "mon al combate,"
+	line "sacar mis #mon"
+	cont "al combate,"
 
 	para "mi corazón siempre"
 	line "late con fuerza…"
@@ -162,7 +150,6 @@ SinjohRuinsHouseCynthiaYesText:
 SinjohRuinsHouseCynthiaWinText:
 	text "¡Ni me acuerdo de"
 	line "la última vez que"
-
-	para "me superaron de"
-	line "esta manera!"
+	cont "me superaron de"
+	cont "esta manera!"
 	done

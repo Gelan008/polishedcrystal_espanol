@@ -37,17 +37,17 @@ GenericTrainerSwimmermWalter:
 GenericTrainerSwimmerfLisa:
 	generictrainer SWIMMERF, LISA, EVENT_BEAT_SWIMMERF_LISA, SwimmerfLisaSeenText, SwimmerfLisaBeatenText
 
-	text "En el mar hay si-"
-	line "tio para pescar y"
-	cont "para luchar."
+	text "En el mar hay"
+	line "sitio para pescar"
+	cont "y combatir."
 	done
 
 GenericTrainerSwimmerfJill:
 	generictrainer SWIMMERF, JILL, EVENT_BEAT_SWIMMERF_JILL, SwimmerfJillSeenText, SwimmerfJillBeatenText
 
-	text "Olvidaré mi derro-"
-	line "ta con un buen"
-	cont "baño."
+	text "Olvidaré esta"
+	line "derrota con un"
+	cont "buen baño."
 	done
 
 GenericTrainerBird_keeperBryan:
@@ -56,17 +56,14 @@ GenericTrainerBird_keeperBryan:
 	text "Hay #mon que"
 	line "huyen al instante."
 
-	para "Prueba a atrapar-"
-	line "los con la Rapid"
-	cont "Ball de César."
+	para "Prueba a cazarlos"
+	line "con la Rapid Ball"
+	cont "de César."
 
-	para "Cada vez que en-"
-	line "cuentro un Bon-"
-	cont "guri Blanco,"
-
-	para "se lo llevo para"
-	line "que me fabrique"
-	cont "una Ball a medida."
+	para "Si hallo algún"
+	line "Bonguri Blanco,"
+	cont "se lo llevo para"
+	cont "que haga una Ball."
 	done
 
 GenericTrainerSrandjrBeaandmay1:
@@ -99,13 +96,11 @@ GenericTrainerSailorHarvey:
 GenericTrainerLassRose:
 	generictrainer LASS, ROSE, EVENT_BEAT_LASS_ROSE, LassRoseSeenText, LassRoseBeatenText
 
-	text "¡Has herido a mis"
-	line "#mon cosmopoli-"
-	cont "tas!"
+	text "¡Heriste a mis"
+	line "#mon con mundo!"
 
-	para "¡Exijo que vayas a"
-	line "curarlos a un Cen-"
-	cont "tro #mon!"
+	para "¡Llévalos a un"
+	line "Centro #mon ya!"
 	done
 
 SwimmermWalterSeenText:
@@ -153,9 +148,9 @@ SrandjrBeaandmay1SeenText:
 	line "#mon fuertes a"
 	cont "los adorables."
 
-	para "¡Pero juntas tene-"
-	line "mos #mon monos"
-	cont "y fuertes!"
+	para "¡Pero juntas"
+	line "tenemos #mon"
+	cont "monos y fuertes!"
 	done
 
 SrandjrBeaandmay1BeatenText:
@@ -167,12 +162,11 @@ SrandjrBeaandmay1BeatenText:
 SrandjrBeaandmay2SeenText:
 	text "May: Prefiero los"
 	line "#mon monos a"
-	cont "los #mon"
-	cont "fuertes."
+	cont "los fuertes."
 
-	para "¡Pero juntas tene-"
-	line "mos #mon fuer-"
-	cont "tes y adorables!"
+	para "¡Pero juntas"
+	line "tenemos #mon"
+	cont "fuertes y monos!"
 	done
 
 SrandjrBeaandmay2BeatenText:
@@ -189,20 +183,18 @@ SailorHarveySeenText:
 
 SailorHarveyBeatenText:
 	text "¡Menuda fuerza!"
-	line "¿Te gustaría sur-"
-
-	para "car los mares con-"
-	line "migo?"
+	line "¿Querrías surcar"
+	cont "los mares conmigo?"
 	done
 
 LassRoseSeenText:
-	text "¡He atrapado a es-"
-	line "tos #mon por"
-	cont "todo el mundo!"
+	text "¡Atrapé a estos"
+	line "#mon por todo"
+	cont "el mundo!"
 	done
 
 LassRoseBeatenText:
-	text "¡No! ¡Si he viaja-"
-	line "do por todo el"
+	text "¡Oh, no!"
+	line "¡Di la vuelta al"
 	cont "mundo por ellos!"
 	done

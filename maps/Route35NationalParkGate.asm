@@ -176,9 +176,8 @@ Route35NationalParkGateOfficerScript:
 Route35NationalParkGate_NoContestToday:
 	jumpthistextfaceplayer
 
-	text "Celebramos con-"
-	line "cursos periódica-"
-	cont "mente en el"
+	text "Hacemos concursos"
+	line "a menudo en el"
 	cont "parque."
 
 	para "Deberías probar"
@@ -323,8 +322,8 @@ Route35NationalParkGateOfficer1AskToUseFirstMonText:
 
 Route35NationalParkGateOfficer1WellHoldYourMonText:
 	text "Bien, cuidaremos"
-	line "de tus otros #-"
-	cont "mon mientras estés"
+	line "de tus otros #"
+	cont "mientras estés"
 	cont "compitiendo."
 	done
 
@@ -344,55 +343,46 @@ Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
 	done
 
 Route35NationalParkGateOfficer1TakePartInFutureText:
-	text "Entendido. ¡Espe-"
-	line "ramos que partici-"
-	cont "pes en el futuro!"
+	text "Entendido."
+	line "¡Esperamos verte"
+	cont "en el futuro!"
 	done
 
 Route35NationalParkGateOfficer1FirstMonCantBattleText:
 	text "¡Vaya…!"
 	line "El primer #mon"
-
-	para "de tu equipo no"
-	line "puede luchar."
+	cont "de tu equipo no"
+	cont "puede luchar."
 
 	para "Cámbialo por el"
-	line "#mon que quie-"
-
-	para "ras usar y vuelve"
-	line "a verme."
+	line "#mon que vayas"
+	cont "usar y regresa."
 	done
 
 Route35NationalParkGateOfficer1MakeRoomText:
 	text "¡Vaya…!"
 	line "Tanto tu equipo"
-
-	para "como tu Caja del"
-	line "PC están llenos."
+	cont "como tu Caja del"
+	cont "PC están llenos."
 
 	para "No tienes sitio"
-	line "para el #mon"
-	cont "bicho que captures"
+	line "para el # que"
+	cont "vayas a capturar."
 
 	para "Haz sitio en tu"
-	line "equipo o en tu Ca-"
-
-	para "ja del PC y vuelve"
-	line "a verme."
+	line "equipo o Caja PC"
+	cont "y vuelve a verme."
 	done
 
 Route35NationalParkGateOfficer1EggAsFirstMonText:
 	text "¡Vaya…!"
-	line "Tienes un Huevo en"
-
-	para "primer lugar en"
-	line "tu equipo."
+	line "Llevas un Huevo en"
+	cont "primer lugar de"
+	cont "tu equipo."
 
 	para "Cámbialo por el"
-	line "#mon que quie-"
-
-	para "ras usar y vuelve"
-	line "a verme."
+	line "# que vayas a"
+	cont "usar y regresa."
 	done
 
 Route35NationalParkGateOfficer1WantToFinishText:
@@ -418,45 +408,36 @@ Route35NationalParkGateOfficer1WaitAtNorthGateText:
 
 Route35NationalParkGateOfficer1OkGoFinishText:
 	text "Vale. Vuelve fuera"
-	line "y continúa parti-"
-	cont "cipando."
+	line "y sigue jugando en"
+	cont "el Concurso."
 	done
 
 Route35NationalParkGateOfficer1ContestIsOverText:
 	text "El Concurso de hoy"
-	line "ha acabado. ¡Espe-"
+	line "ha acabado."
 
-	para "ramos que partici-"
-	line "pes en otra oca-"
-	cont "sión!"
+	para "¡Esperamos que"
+	line "vengas a la"
+	cont "próxima ocasión!"
 	done
 
 Route35NationalParkGateYoungsterText:
-	text "¿Cuándo es el pró-"
-	line "ximo Concurso de"
-
-	para "la Caza del"
-	line "Bicho?"
+	text "¿Cuándo será el"
+	line "próximo Concurso"
+	cont "de la Caza del"
+	cont "Bicho?"
 	done
 
 BugCatchingContestExplanationText:
 	text "El Concurso de la"
 	line "Caza del Bicho se"
+	cont "celebra martes,"
+	cont "jueves y sábados."
 
-	para "celebra martes,"
-	line "jueves y sábados."
-
-	para "No solo recibes"
-	line "un premio solo por"
-
-	para "participar, sino"
-	line "que también te"
-
-	para "quedas con el"
-	line "#mon bicho que"
-
-	para "tengas al final"
-	line "del concurso."
+	para "Te darán un premio"
+	line "por participar,"
+	cont "y te quedarás con"
+	cont "el #mon."
 	done
 
 Route35NationalParkGatePokefanFText:
@@ -477,11 +458,9 @@ Text_Route35NationalParkGateTutorCharm:
 	line "#mon más mono"
 	cont "con Encanto."
 
-	para "¡Hasta a los #-"
-	line "mon rivales les"
-
-	para "costará atacarle"
-	line "con fuerza luego!"
+	para "¡A los rivales"
+	line "les costará mucho"
+	cont "atacarle luego!"
 	done
 
 Text_Route35NationalParkGateTutorQuestion:

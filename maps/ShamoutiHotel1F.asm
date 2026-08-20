@@ -27,16 +27,16 @@ ShamoutiHotel1FRestaurantTrigger:
 	endcallback
 
 ShamoutiHotel1FReceptionistText:
-	text "¡Te damos la bien-"
-	line "venida al Hotel"
-	cont "Shamouti!"
+	text "¡Te damos la"
+	line "bienvenida al"
+	cont "Hotel Shamouti!"
 
 	para "Me temo que todas"
 	line "las habitaciones"
 	cont "están ocupadas,"
 
-	para "pero puedes visi-"
-	line "tar el exclusivo"
+	para "pero puedes ir al"
+	line "exclusivo"
 	cont "Restaurante Oasis."
 	done
 
@@ -63,9 +63,8 @@ ShamoutiHotel1FArtistScript:
 .Text1:
 	text "Vayas donde vayas,"
 	line "¡<TRENDY> es"
-
-	para "lo más guay que"
-	line "hay! ¿A que sí?"
+	cont "lo más guay que"
+	cont "hay! ¿A que sí?"
 	done
 
 .Text2:
@@ -95,9 +94,8 @@ ShamoutiHotel1FArtistScript:
 
 .Text5:
 	text "¡Ya te digo!"
-	line "¡Es que no me can-"
-	cont "so para nada de"
-	cont "<TRENDY>!"
+	line "¡Nunca me canso"
+	cont "de <TRENDY>!"
 	done
 
 ShamoutiHotel1FCooltrainermText:
@@ -113,17 +111,14 @@ ShamoutiHotel1FLadyText:
 	cont "Plateada?"
 
 	para "En Alola, de donde"
-	line "vengo, hay un"
+	line "vengo, un hombre"
+	cont "hace Entrenamiento"
+	cont "Extremo a tus"
+	cont "#mon"
 
-	para "hombre que hace"
-	line "“Entrenamiento"
-
-	para "Extremo” a tus"
-	line "#mon para sacar"
-
-	para "su potencial a"
-	line "cambio de una"
-	cont "Chapa Plata."
+	para "para liberar su"
+	line "potencial si le"
+	cont "das una Chapa."
 	done
 
 ShamoutiHotel1FYoungsterText:

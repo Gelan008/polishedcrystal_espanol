@@ -61,14 +61,10 @@ SaffronMagnetTrainStationGymGuideScript:
 	jumpthistextfaceplayer
 
 	text "El Magnetotrén es"
-	line "un tren ultramo-"
-	cont "derno que usa"
-
-	para "electricidad e"
-	line "imanes para alcan-"
-
-	para "zar una velocidad"
-	line "increíble."
+	line "un tren moderno"
+	cont "que usa imanes y"
+	cont "electricidad para"
+	cont "ir muy rápido."
 
 	para "Sin embargo, si"
 	line "no hay nada de"
@@ -110,75 +106,70 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
-	text "I'm sorry, but the"
-	line "Magnet Train isn't"
-	cont "operating now."
+	text "Lo siento, pero el"
+	line "Magnetotrén no"
+	cont "funciona ahora."
 	done
 
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
-	text "We'll soon depart"
-	line "for Goldenrod."
+	text "Saldremos pronto"
+	line "hacia Trigal."
 
-	para "Are you coming on"
-	line "board?"
+	para "¿Vas a subir"
+	line "a bordo?"
 	done
 
 SaffronMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail pass, please?"
+	text "¿Me dejas ver el"
+	line "Pase, por favor?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "Vale. Por aquí,"
+	line "por favor."
 	done
 
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
-	text "Sorry, but you"
-	line "don't have a pass."
+	text "Perdona, pero no"
+	line "tienes el Pase."
 	done
 
 SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again."
+	text "¡Esperamos volver"
+	line "a verte pronto!"
 	done
 
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
-	text "We have arrived in"
-	line "Saffron."
+	text "Hemos llegado a"
+	line "Ciudad Azafrán."
 
-	para "We hope to see you"
-	line "again."
+	para "Esperamos volver"
+	line "a verte."
 	done
 
 
 SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
-	text "Whew…"
-
-	para "How many times"
-	line "have I gone back"
-
-	para "and forth between"
-	line "Kanto and Johto?"
+	text "¡Uf! ¿Cuántas"
+	line "veces habré ido y"
+	cont "vuelto entre"
+	cont "Kanto y Johto?"
 	done
 
 SaffronMagnetTrainStationTeacherText:
-	text "Before the Magnet"
-	line "Train Station was"
+	text "Antes de que se"
+	line "construyera la"
+	cont "estación, había"
+	cont "aquí una casa."
 
-	para "built, there was a"
-	line "house there."
-
-	para "A little girl"
-	line "named Copiona used"
-	cont "to live there."
+	para "Allí vivía una"
+	line "niña a la que"
+	cont "llamaban Copiona."
 	done
 
 SaffronMagnetTrainStationLassText:
-	text "Hi. Do you have a"
-	line "rail pass? I have"
+	text "Hola. ¿Tienes un"
+	line "Pase? ¡Yo sí!"
 
-	para "one. All the peo-"
-	line "ple in Saffron who"
-
-	para "ride the Magnet"
-	line "Train have passes."
+	para "Todos los que usan"
+	line "el Magnetotrén en"
+	cont "Azafrán tienen"
+	cont "su propio Pase."
 	done

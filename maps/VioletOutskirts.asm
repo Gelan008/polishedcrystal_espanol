@@ -47,6 +47,7 @@ VioletOutskirtsCemeterySignText:
 	done
 
 VioletOutskirtsHeadstoneText:
-	text "Está muy desgasta-"
-	line "do para leerlo…"
+	text "Está demasiado"
+	line "desgastado para"
+	cont "leerlo…"
 	done

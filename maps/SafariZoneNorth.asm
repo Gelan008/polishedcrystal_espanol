@@ -35,10 +35,9 @@ SafariZoneNorth_MapScriptHeader:
 GenericTrainerBattleGirlPadma:
 	generictrainer BATTLE_GIRL, PADMA, EVENT_BEAT_BATTLE_GIRL_PADMA, BattleGirlPadmaSeenText, BattleGirlPadmaBeatenText
 
-	text "¡Si pones tus sen-"
-	line "timientos al en-"
-	cont "trenar, te harás"
-	cont "fuerte!"
+	text "¡Entrena con ganas"
+	line "y pasión, y te"
+	cont "harás más fuerte!"
 	done
 
 GenericTrainerYoungsterTyler:
@@ -97,11 +96,9 @@ SafariZoneNorthTutorDoubleEdgeScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "¡Listo!"
-	line "¡Tu #mon ha"
-
-	para "aprendido a usar"
-	line "Doble Filo!"
+	text "¡Listo! ¡Tu"
+	line "#mon ya sabe"
+	cont "Doble Filo!"
 	done
 
 BattleGirlPadmaSeenText:
@@ -146,21 +143,20 @@ SafariZoneNorthCooltrainerFText:
 	line "un Chansey!"
 
 	para "¡Qué suerte tengo!"
-	line "Le enseñaré a dar"
 
-	para "un placaje súper"
-	line "potente."
+	para "Le enseñaré a dar"
+	line "un placaje muy"
+	cont "potente."
 
 	para "¡Compartiré mi"
 	line "suerte contigo!"
 	done
 
 Text_SafariZoneNorthTutorDoubleEdge:
-	text "Le enseñaré a tu"
-	line "#mon a usar"
-
-	para "Doble Filo por"
-	line "una Hoja Plata."
+	text "Enseñaré Doble"
+	line "Filo a tu #mon"
+	cont "por una"
+	cont "Hoja Plata."
 	done
 
 Text_SafariZoneNorthTutorQuestion:

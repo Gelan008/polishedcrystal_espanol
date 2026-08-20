@@ -27,9 +27,8 @@ GenericTrainerScientistLowell:
 	generictrainer SCIENTIST, LOWELL, EVENT_BEAT_SCIENTIST_LOWELL, ScientistLowellSeenText, ScientistLowellBeatenText
 
 	text "Estaremos en una"
-	line "cueva, pero siem-"
-	cont "pre hacemos la"
-	cont "colada."
+	line "cueva, pero aquí"
+	cont "lavamos la ropa."
 	done
 
 GenericTrainerScientistDennett:
@@ -54,9 +53,8 @@ TrainerScientistLinden:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "No todos los cien-"
-	line "tíficos ayudan a"
-	cont "los malos."
+	text "No todo científico"
+	line "ayuda a los malos."
 	done
 
 GenericTrainerSupernerdWaldo:
@@ -111,20 +109,18 @@ SeafoamGymBlaineScript:
 	text "¡Se llama Fuego"
 	line "Fatuo!"
 
-	para "Debilita a tu ri-"
-	line "val causándole"
+	para "Debilita al rival"
+	line "causándole graves"
 	cont "quemaduras."
 
-	para "He perdido esta"
-	line "vez, pero ganaré"
-	cont "la próxima."
+	para "He perdido hoy,"
+	line "pero ganaré la"
+	cont "próxima vez."
 
-	para "Cuando reconstruya"
-	line "el Gimnasio de"
-
-	para "Isla Canela, ten-"
-	line "dremos la revan-"
-	cont "cha."
+	para "Cuando rehaga el"
+	line "Gimnasio en Isla"
+	cont "Canela, tendremos"
+	cont "la revancha."
 	done
 
 SeafoamGymGuyScript:
@@ -136,22 +132,21 @@ SeafoamGymGuyScript:
 	text "¡Hola!"
 
 	para "… ¿Eh? ¿Ya se ha"
-	line "acabado?"
+	line "acabado el duelo?"
 
 	para "¡Perdón, perdón!"
 
 	para "Como el Gimnasio"
-	line "de Isla Canela no"
+	line "de Isla Canela fue"
+	cont "destruido, no supe"
+	cont "dónde buscarte."
 
-	para "estaba, no sabía"
-	line "dónde encontrarte."
+	para "¡Pero veo que eres"
+	line "muy fuerte aun sin"
+	cont "mis consejos!"
 
-	para "Pero bueno, ¡eres"
-	line "muy fuerte incluso"
-
-	para "sin mis consejos!"
-	line "¡Sabía que ibas a"
-	cont "ganar!"
+	para "¡Sabía que ibas a"
+	line "ganar!"
 	done
 
 ScientistLowellSeenText:
@@ -167,15 +162,15 @@ ScientistLowellBeatenText:
 	done
 
 ScientistDennettSeenText:
-	text "Blaine habrá per-"
-	line "dido su Gimnasio,"
-	cont "¡pero no se rinde!"
+	text "Blaine perdió su"
+	line "Gimnasio, ¡pero no"
+	cont "se rendirá!"
 	done
 
 ScientistDennettBeatenText:
-	text "¡La perseverancia"
-	line "de Blaine me mo-"
-	cont "tiva mucho!"
+	text "¡La fuerza de"
+	line "Blaine me motiva"
+	cont "mucho!"
 	done
 
 SupernerdCarySeenText:
@@ -192,16 +187,15 @@ SupernerdCaryBeatenText:
 	done
 
 ScientistLindenSeenText:
-	text "Perdimos el Gimna-"
-	line "sio en Isla Cane-"
-	cont "la, pero vinimos"
-	cont "aquí."
+	text "Nos quedamos sin"
+	line "Gimnasio en Isla"
+	cont "Canela, y vinimos"
+	cont "a esta cueva."
 	done
 
 ScientistLindenBeatenText:
-	text "Aceptamos la de-"
-	line "rrota con digni-"
-	cont "dad…"
+	text "Acepto la derrota"
+	line "con dignidad…"
 	done
 
 SupernerdWaldoSeenText:
@@ -234,21 +228,19 @@ BlaineIntroText:
 	line "Isla Canela ardió"
 	cont "por completo."
 
-	para "Mis #mon y yo"
-	line "nos hemos quedado"
-	cont "sin hogar por"
-	cont "culpa del volcán"
+	para "¡Mis #mon y yo"
+	line "nos quedamos sin"
+	cont "hogar por culpa"
+	cont "del volcán!"
 
 	para "¡Uaaah!"
 
-	para "¡Pero he vuelto al"
-	line "negocio como Líder"
+	para "¡Pero he vuelto"
+	line "como Líder aquí,"
+	cont "en esta cueva!"
 
-	para "de Gimnasio aquí,"
-	line "en esta cueva!"
-
-	para "Si puedes vencer-"
-	line "me, te daré una"
+	para "Si logras vencer,"
+	line "te daré una"
 	cont "Medalla."
 
 	para "¡Ja! ¡Lleva algún"
@@ -278,14 +270,11 @@ BlaineFightDoneText:
 	done
 
 SeafoamGymGuyWinText2:
-	text "Un Gimnasio"
-	line "#mon puede"
-	cont "estar en cualquier"
+	text "Un Gimnasio puede"
+	line "estar en cualquier"
+	cont "lugar si su Líder"
+	cont "está ahí."
 
-	para "parte si el"
-	line "Líder de Gimnasio"
-	cont "está allí."
-
-	para "No hace falta un"
-	line "edificio."
+	para "¡No hace falta un"
+	line "edificio!"
 	done

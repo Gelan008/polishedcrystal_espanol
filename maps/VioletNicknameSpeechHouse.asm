@@ -23,9 +23,8 @@ VioletNicknameSpeechHouseBirdScript:
 	end
 
 VioletNicknameSpeechHouseTeacherText:
-	text "Usa los nombres"
-	line "de sus comidas fa-"
-	cont "voritas."
+	text "Usa nombres de sus"
+	line "comidas favoritas."
 
 	para "Para los motes"
 	line "que les pone a sus"
@@ -40,13 +39,11 @@ VioletNicknameSpeechHouseLassText:
 VioletNicknameSpeechHouseGrampsText:
 	text "La Medalla Céfiro"
 	line "debe su nombre a"
+	cont "un dios antiguo"
+	cont "del viento oeste."
 
-	para "un antiguo dios"
-	line "del viento oeste."
-
-	para "Muy apropiado para"
-	line "un Gimnasio Vola-"
-	cont "dor."
+	para "Muy propio de un"
+	line "Gimnasio Volador."
 	done
 
 VioletNicknameSpeechHouseBirdText:

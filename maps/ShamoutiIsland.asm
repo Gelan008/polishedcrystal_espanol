@@ -45,8 +45,8 @@ ShamoutiIslandAlolanExeggutorScript:
 	showemote EMOTE_SLEEP, SHAMOUTIISLAND_ALOLAN_EXEGGUTOR_HEAD, 15
 	jumpthistext
 
-	text "El árbol raro es-"
-	line "tá… ¿profundamente"
+	text "El árbol raro"
+	line "está… ¿totalmente"
 	cont "dormido?"
 
 	para "¿Acaso será un"
@@ -101,13 +101,13 @@ ShamoutiIslandWilhomenaScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Un Pikachu va-"
-	line "riocolor sería un"
-	cont "auténtico Pikablu."
+	text "Un Pikachu que sea"
+	line "variocolor sería"
+	cont "un gran Pikablu."
 
-	para "Nunca he visto"
-	line "uno, pero soy fe-"
-	cont "liz con mi Marill."
+	para "Nunca vi uno, pero"
+	line "soy muy feliz con"
+	cont "mi Marill."
 	done
 
 .Text1:
@@ -124,12 +124,12 @@ ShamoutiIslandFisherText:
 	text "Hoy bailamos sin"
 	line "motivo alguno. ♪"
 
-	para "Algún día desapa-"
-	line "receremos sin ra-"
-	cont "zón alguna."
+	para "Algún día nos"
+	line "iremos sin razón"
+	cont "alguna."
 
-	para "… ¿Creías que íba-"
-	line "mos a bloquear el"
+	para "… ¿Creías que te"
+	line "íbamos a tapar el"
 	cont "camino?"
 
 	para "¡Eso sería de muy"

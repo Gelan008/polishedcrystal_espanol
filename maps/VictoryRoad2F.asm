@@ -116,19 +116,15 @@ VictoryRoadRivalBeforeText:
 	line "a la Liga #mon?"
 
 	para "…No me hagas reír."
-
-	para "Eres mucho más dé-"
-	line "bil que yo."
+	line "Eres mucho más"
+	cont "débil que yo."
 
 	para "Ya no soy el de"
-	line "antes."
+	line "antes. Tengo a los"
+	cont "#mon más"
+	cont "fuertes."
 
-	para "Ahora llevo conmi-"
-	line "go a los mejores"
-
-	para "y más fuertes"
-	line "#mon. ¡Soy in-"
-	cont "vencible!"
+	para "¡Soy invencible!"
 
 	para "¡<PLAYER>!"
 	line "¡Te desafío!"
@@ -142,11 +138,9 @@ VictoryRoadRivalDefeatText:
 	para "Lo que tú tienes"
 	line "y a mí me falta…"
 
-	para "Empiezo a enten-"
-	line "der lo que me dijo"
-
-	para "aquel maestro de"
-	line "dragones…"
+	para "Empiezo a entender"
+	line "lo que me dijo el"
+	cont "maestro dragón…"
 	done
 
 VictoryRoadRivalAfterText:
@@ -154,17 +148,14 @@ VictoryRoadRivalAfterText:
 	line "hasta ser el mejor"
 	cont "entrenador…"
 
-	para "Averiguaré por qué"
-	line "no puedo ganar y"
-
-	para "me haré mucho más"
-	line "fuerte…"
+	para "Descubriré por qué"
+	line "no gano y me haré"
+	cont "mucho más fuerte…"
 
 	para "Cuando lo haga, te"
-	line "desafiaré."
-
-	para "Y te aplastaré con"
-	line "todo mi poder."
+	line "desafiaré y te"
+	cont "aplastaré con todo"
+	cont "mi poder."
 
 	para "…¡Humph! Mejora"
 	line "hasta entonces."

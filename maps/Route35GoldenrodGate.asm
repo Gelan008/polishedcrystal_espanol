@@ -45,15 +45,15 @@ RandyScript:
 	jumpthisopenedtext
 
 	text "¡Puedes leerla,"
-	line "pero no la pier-"
-	cont "das! ¡Ruta 31!"
+	line "pero no la pierdas!"
+	cont "¡Es en la Ruta 31!"
 
 	para "Ah, sí. Había un"
 	line "árbol muy raro"
 	cont "cortando el paso."
 
-	para "¿Lo habrán quita-"
-	line "do ya?"
+	para "¿Lo habrán quitado"
+	line "ya de ahí?"
 	done
 
 .partyfull
@@ -85,8 +85,8 @@ RandyScript:
 GiftSpearowMail:
 	db   FLOWER_MAIL
 	setcharmap no_ngrams
-	db   "Dark Cave leads"
-	next "to another road@"
+	db   "¡Cueva Oscura da"
+	next "a otro camino!@@"
 	setcharmap default
 
 GiftSpearowName:
@@ -102,17 +102,16 @@ Route35GoldenrodGatePokefanFScript:
 	iftruefwd .aftersudowoodo
 	jumpthisopenedtext
 
-	text "A strange tree is"
-	line "blocking the road."
+	text "Un árbol muy raro"
+	line "bloquea el camino."
 
-	para "It wriggles around"
-	line "if you talk to it."
+	para "Se menea si te"
+	line "acercas a él."
 
-	para "I heard it became"
-	line "wild when someone"
-
-	para "watered it with a"
-	line "SquirtBottle."
+	para "Dicen que se puso"
+	line "furioso cuando le"
+	cont "echaron agua con"
+	cont "la Regadera."
 	done
 
 .aftersudowoodo
@@ -139,11 +138,10 @@ Route35GoldenrodGateRandyThanksText:
 	text "¿Sí? ¡Genial!"
 	line "¡Gracias, chaval!"
 
-	para "Mi colega es un"
+	para "Mi amigo es un"
 	line "gordinflón que se"
-
-	para "pasa el día dur-"
-	line "miendo."
+	cont "pasa el día"
+	cont "durmiendo."
 
 	para "¡Lo reconocerás al"
 	line "instante!"
@@ -172,15 +170,11 @@ Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 
 
 Route35GoldenrodGateFisherText:
-	text "Me pregunto cuán-"
-	line "tas clases de"
-
-	para "#mon habrá en"
-	line "el mundo."
+	text "¿Cuántas clases de"
+	line "#mon habrá en"
+	cont "el mundo?"
 
 	para "Hace tres años, el"
 	line "Prof. Oak dijo que"
-
-	para "había 150 tipos"
-	line "diferentes."
+	cont "había 150 tipos."
 	done

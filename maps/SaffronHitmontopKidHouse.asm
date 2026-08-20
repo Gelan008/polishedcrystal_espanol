@@ -84,9 +84,8 @@ SaffronHitmontopKidHouseTeacherScript:
 .Text3:
 	text "Mi hijo por fin ha"
 	line "podido conocer a"
-
-	para "su #mon"
-	line "favorito."
+	cont "su #mon"
+	cont "favorito."
 	done
 
 .Text1:
@@ -98,10 +97,8 @@ SaffronHitmontopKidHouseTeacherScript:
 	line "poco vergonzoso."
 
 	para "Quizá si viera a"
-	line "un Hitmontop de"
-
-	para "verdad se tran-"
-	line "quilizaría…"
+	line "un Hitmontop real,"
+	cont "se calmaría…"
 	done
 
 .Text2:
@@ -109,10 +106,7 @@ SaffronHitmontopKidHouseTeacherScript:
 	line "hecho muy feliz a"
 	cont "mi hijo!"
 
-	para "No es gran cosa"
-	line "como agradeci-"
-
-	para "miento, pero me"
-	line "gustaría que te"
-	cont "quedaras esto."
+	para "No es gran cosa,"
+	line "pero me gustaría"
+	cont "que te lo quedes."
 	done

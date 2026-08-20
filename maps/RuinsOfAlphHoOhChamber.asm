@@ -113,9 +113,8 @@ MapRuinsofAlphHoOhChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "Un #mon que vo-"
-	line "laba con gracia"
-
-	para "con alas de color"
-	line "arcoíris."
+	text "Un #mon que"
+	line "volaba con gracia"
+	cont "y alas de color"
+	cont "arcoíris."
 	done

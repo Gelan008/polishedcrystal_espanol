@@ -26,21 +26,19 @@ SlowpokeWellEntranceKurtText:
 	para "Pero luego me caí"
 	line "por el pozo."
 
-	para "Me di un buen gol-"
-	line "pe en la espalda y"
-	cont "no me puedo mover."
+	para "Me lastimé la"
+	line "espalda y no me"
+	cont "puedo mover."
 
 	para "¡Maldición! Si no"
 	line "estuviera herido,"
-
-	para "mis #mon les"
-	line "habrían dado un"
-	cont "buen escarmiento…"
+	cont "mis #mon les"
+	cont "darían su castigo…"
 
 	para "En fin, no hay más"
 	line "remedio."
 
-	para "¡<PLAYER>, demués-"
-	line "trales tus agallas"
-	cont "en mi lugar!"
+	para "¡<PLAYER>, lucha"
+	line "con agallas en mi"
+	cont "lugar!"
 	done

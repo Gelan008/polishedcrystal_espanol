@@ -165,15 +165,12 @@ Movement_TrainerHouseTurnBack:
 	step_end
 
 TrainerHouseB1FIntroText:
-	text "Hola. Te damos la"
-	line "bienvenida a la"
+	text "¡Bienvenido a la"
+	line "Sala de Combates!"
 
-	para "Sala de Entrena-"
-	line "miento."
-
-	para "Puedes luchar con-"
-	line "tra un entrenador"
-	cont "una vez al día."
+	para "Puedes luchar con"
+	line "un Entrenador una"
+	cont "vez al día."
 	done
 
 TrainerHouseB1FYourOpponentIsText:
@@ -197,20 +194,17 @@ TrainerHouseB1FGoRightInText:
 
 TrainerHouseB1FPleaseComeAgainText:
 	text "Lo siento. Solo"
-	line "los entrenadores"
-
-	para "que vayan a com-"
-	line "batir tienen per-"
-	cont "mitido entrar."
+	line "los Entrenadores"
+	cont "que luchen tienen"
+	cont "acceso permitido."
 	done
 
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "Lo siento. Esta"
-	line "sería tu segunda"
+	text "Lo siento, ya has"
+	line "luchado hoy."
 
-	para "vez hoy. Solo se"
-	line "permite entrar una"
-	cont "vez al día."
+	para "Solo se permite un"
+	line "combate al día."
 	done
 
 TrainerHouseB1FOpponentBeatenText:
@@ -219,10 +213,9 @@ TrainerHouseB1FOpponentBeatenText:
 	done
 
 TrainerHouseB1FOpponentBeforeText:
-	text "He venido hasta"
-	line "aquí solo para po-"
-	cont "der luchar contra"
-	cont "ti."
+	text "¡He venido hasta"
+	line "aquí solo para"
+	cont "luchar contra ti!"
 	done
 
 TrainerHouseB1FEarnedBattlePointText:

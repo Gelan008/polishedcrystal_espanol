@@ -56,19 +56,18 @@ PokemaniacAndrewBeatenText:
 GenericTrainerPokemaniacCalvin:
 	generictrainer POKEMANIAC, CALVIN, EVENT_BEAT_POKEMANIAC_CALVIN, PokemaniacCalvinSeenText, PokemaniacCalvinBeatenText
 
-	text "Debería recopilar"
-	line "y publicar mis in-"
-	cont "vestigaciones."
+	text "Debería publicar"
+	line "mis estudios."
 
-	para "Igual hasta me ha-"
-	line "go famoso como el"
-	cont "Prof. Elm."
+	para "¡Igual hasta me"
+	line "hago famoso como"
+	cont "el Prof. Elm!"
 	done
 
 PokemaniacCalvinSeenText:
 	text "He venido hasta"
-	line "aquí para investi-"
-	cont "gar a los #mon."
+	line "aquí a estudiar a"
+	cont "los #mon."
 
 	para "¡Demostraré mis"
 	line "hallazgos en un"
@@ -86,11 +85,9 @@ GenericTrainerHikerPhillip:
 	text "Llevo mucho tiempo"
 	line "perdido…"
 
-	para "No me disgusta es-"
-	line "tar aquí, ¡pero"
-
-	para "tengo muuucha"
-	line "hambre!"
+	para "No me disgusta"
+	line "este lugar, ¡pero"
+	cont "muero de hambre!"
 	done
 
 HikerPhillipSeenText:
@@ -154,9 +151,8 @@ GenericTrainerSuper_nerdRory:
 
 	text "Un santiamén es el"
 	line "término científico"
-
-	para "para 1/100 de se-"
-	line "gundo."
+	cont "para 1/100 de un"
+	cont "segundo."
 	done
 
 .SeenText:
@@ -165,25 +161,23 @@ GenericTrainerSuper_nerdRory:
 	done
 
 .BeatenText:
-	text "Puede que haya fa-"
-	line "llado el cálculo…"
+	text "Puede que haya"
+	line "errado el cálculo…"
 	done
 
 GenericTrainerRuin_maniacGlyn:
 	generictrainer RUIN_MANIAC, GLYN, EVENT_BEAT_RUIN_MANIAC_GLYN, .SeenText, .BeatenText
 
 	text "Las rocas esconden"
-	line "todo tipo de obje-"
-	cont "tos curiosos."
+	line "muchos objetos"
+	cont "muy curiosos."
 	done
 
 .SeenText:
 	text "¡Mis #mon"
-	line "nacieron de"
-	cont "fósiles que"
-
-	para "encontré en esta"
-	line "misma cueva!"
+	line "vienen de fósiles"
+	cont "que hallé en esta"
+	cont "misma cueva!"
 	done
 
 .BeatenText:

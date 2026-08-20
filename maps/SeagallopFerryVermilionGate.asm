@@ -232,9 +232,8 @@ SeagallopFerryWelcomeText:
 SeagallopFerryGiveOrangeTicketText:
 	text "El hombre que se"
 	line "acaba de ir dijo"
-
-	para "que no necesitaba"
-	line "este ticket."
+	cont "que no necesitaba"
+	cont "este ticket."
 
 	para "Toma, puedes"
 	line "quedártelo."
@@ -256,20 +255,19 @@ SeagallopFerryMysticTicketQuestionText:
 	cont "¡Qué rareza!"
 
 	para "Te llevaremos a"
-	line "Roca Ombligo cuan-"
-	cont "do tú quieras."
+	line "Roca Ombligo"
+	cont "cuando quieras."
 	done
 
 SeagallopFerryOldSeaMapQuestionText:
-	text "¡Oh! Ese Mapa Vie-"
-	line "jo que tienes…"
+	text "¡Oh! Ese Mapa"
+	line "Viejo que tienes…"
 
-	para "Parece una isla"
-	line "muy lejana."
+	para "Parece indicar una"
+	line "isla muy lejana."
 
-	para "Te llevaremos con"
-	line "mucho gusto cuando"
-	cont "quieras."
+	para "¡Te llevaremos"
+	line "cuando quieras!"
 	done
 
 SeagallopFerryWhichTicketText:

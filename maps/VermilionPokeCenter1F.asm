@@ -30,16 +30,12 @@ PokemonJournalLtSurgeScript:
 
 	para "Dicen que el Lt."
 	line "Surge fue piloto"
+	cont "en América."
 
-	para "cuando vivía en"
-	line "América."
-
-	para "Utilizaba la elec-"
-	line "tricidad creada"
-
-	para "por sus #mon"
-	line "para mover su"
-	cont "avión."
+	para "Utilizaba la"
+	line "energía de sus"
+	cont "#mon para mover"
+	cont "su avión."
 	done
 
 VermilionPokeCenter1FSightseerMScript:
@@ -51,9 +47,8 @@ VermilionPokeCenter1FSightseerMScript:
 	line "dormido delante de"
 	cont "la Cueva Diglett."
 
-	para "¡Es una gran opor-"
-	line "tunidad de atra-"
-	cont "parlo!"
+	para "¡Buena ocasión"
+	line "para atraparlo!"
 
 	para "Pero ¿cómo se le"
 	line "puede despertar?"
@@ -71,16 +66,14 @@ VermilionPokeCenter1FSightseerMScript:
 VermilionPokeCenter1FSailorText:
 	text "El Magnetotrén y"
 	line "el S.S. Aqua son"
-
-	para "ideales para lu-"
-	line "char con otros"
-	cont "entrenadores."
+	cont "ideales para"
+	cont "luchar con otros."
 	done
 
 VermilionPokeCenter1FBugCatcherText:
-	text "¿Eh? Tienes algu-"
-	line "nas Medallas que"
-	cont "no había visto."
+	text "¿Eh? Tienes unas"
+	line "Medallas que no"
+	cont "había visto."
 
 	para "Ah, ya entiendo."
 	line "Las conseguiste en"

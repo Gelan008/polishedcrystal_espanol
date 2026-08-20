@@ -83,18 +83,15 @@ Route41MarlonScript:
 .IntroText:
 	text "Ciprián: ¡Uijaaa!"
 
-	para "¿Qué pasa? ¡Así"
-	line "que tú eres"
-	cont "<PLAYER>!"
+	para "¿Qué tal? ¡Así que"
+	line "tú eres <PLAYER>!"
 
 	para "¡Me llamo Ciprián,"
 	line "un hombre del mar!"
 
 	para "¡Mis #mon y yo"
 	line "vinimos a nado"
-
-	para "desde la región"
-	line "de Teselia!"
+	cont "desde Teselia!"
 	done
 
 .ChallengeText:
@@ -141,9 +138,9 @@ Route41MarlonScript:
 	para "¡es que lo eres de"
 	line "verdad!"
 
-	para "¡Caray, a mí tam-"
-	line "bién me arrastró"
-	cont "la corriente!"
+	para "¡Caray, a mí la"
+	line "corriente también"
+	cont "me ha arrastrado!"
 	done
 
 GenericTrainerSwimmerfKaylee:
@@ -151,9 +148,8 @@ GenericTrainerSwimmerfKaylee:
 
 	text "Dicen que hay un"
 	line "gran #mon en el"
-
-	para "fondo de las Islas"
-	line "Remolino."
+	cont "fondo de las"
+	cont "Islas Remolino."
 
 	para "¿Cuál podrá ser?"
 	done
@@ -161,25 +157,22 @@ GenericTrainerSwimmerfKaylee:
 GenericTrainerSwimmerfSusie:
 	generictrainer SWIMMERF, SUSIE, EVENT_BEAT_SWIMMERF_SUSIE, SwimmerfSusieSeenText, SwimmerfSusieBeatenText
 
-	text "¿No había una can-"
-	line "ción famosa sobre"
-
-	para "un chico a lomos"
-	line "de un Lapras?"
+	text "¿Había una famosa"
+	line "canción sobre un"
+	cont "chico a lomos"
+	cont "de un Lapras?"
 	done
 
 GenericTrainerSwimmerfDenise:
 	generictrainer SWIMMERF, DENISE, EVENT_BEAT_SWIMMERF_DENISE, SwimmerfDeniseSeenText, SwimmerfDeniseBeatenText
 
 	text "Quemarse con el"
-	line "sol es pésimo para"
-	cont "la piel."
+	line "sol es muy malo"
+	cont "para la piel."
 
-	para "Pero no uso pro-"
-	line "tector solar."
-
-	para "No quiero conta-"
-	line "minar el agua."
+	para "Pero no uso crema"
+	line "solar para no"
+	cont "ensuciar el agua."
 	done
 
 GenericTrainerSwimmerfKara:
@@ -193,9 +186,8 @@ GenericTrainerSwimmerfKara:
 GenericTrainerSwimmerfWendy:
 	generictrainer SWIMMERF, WENDY, EVENT_BEAT_SWIMMERF_WENDY, SwimmerfWendySeenText, SwimmerfWendyBeatenText
 
-	text "Los grupos de Sta-"
-	line "ryu brillan a la"
-	cont "vez."
+	text "Bandadas de Staryu"
+	line "brillan a la vez."
 
 	para "Es tan hermoso que"
 	line "hasta da miedo."
@@ -204,9 +196,9 @@ GenericTrainerSwimmerfWendy:
 GenericTrainerSwimmermCharlie:
 	generictrainer SWIMMERM, CHARLIE, EVENT_BEAT_SWIMMERM_CHARLIE, SwimmermCharlieSeenText, SwimmermCharlieBeatenText
 
-	text "¿Verdad que es re-"
-	line "lajante flotar así"
-	cont "en el agua?"
+	text "¿A que relaja"
+	line "flotar así en"
+	cont "el agua?"
 	done
 
 GenericTrainerSwimmermGeorge:
@@ -215,28 +207,25 @@ GenericTrainerSwimmermGeorge:
 	text "Ciudad Orquídea"
 	line "está lejísimos."
 
-	para "Pero volver a Ciu-"
-	line "dad Olivo tampoco"
-	cont "es fácil."
+	para "Volver a Olivo"
+	line "tampoco es fácil."
 
-	para "¿Qué debería ha-"
-	line "cer?"
+	para "¿Qué debería"
+	line "hacer?"
 	done
 
 GenericTrainerSwimmermBerke:
 	generictrainer SWIMMERM, BERKE, EVENT_BEAT_SWIMMERM_BERKE, SwimmermBerkeSeenText, SwimmermBerkeBeatenText
 
-	text "Era una noche os-"
-	line "cura y de tormen-"
-	cont "ta…"
+	text "En una oscura"
+	line "noche de tormenta…"
 
-	para "Vi un #mon gi-"
-	line "gante volando des-"
-	cont "de las islas."
+	para "vi un gran #mon"
+	line "volar desde las"
+	cont "islas."
 
-	para "Desprendía plumas"
-	line "de sus alas de"
-	cont "plata."
+	para "Soltaba plumas de"
+	line "sus alas de plata."
 	done
 
 GenericTrainerSwimmermKirk:
@@ -268,8 +257,8 @@ GenericTrainerSwimmermLewis:
 	done
 
 SwimmermCharlieSeenText:
-	text "El agua está tem-"
-	line "plada. Tengo el"
+	text "El agua no está"
+	line "fría. Tengo el"
 	cont "cuerpo a punto."
 
 	para "¡Claro que acepto"
@@ -282,11 +271,9 @@ SwimmermCharlieBeatenText:
 	done
 
 SwimmermGeorgeSeenText:
-	text "Estoy algo cansa-"
-	line "do. Si gano, me"
-
-	para "dejas a tu #-"
-	line "mon."
+	text "Estoy agotado. Si"
+	line "gano, ¡me dejas a"
+	cont "tu #mon!"
 	done
 
 SwimmermGeorgeBeatenText:
@@ -295,24 +282,24 @@ SwimmermGeorgeBeatenText:
 
 SwimmermBerkeSeenText:
 	text "¿Ves esas islas"
-	line "bloqueadas por re-"
-	cont "molinos?"
+	line "rodeadas por"
+	cont "remolinos?"
 
 	para "¡Tiene que haber"
 	line "algún secreto!"
 	done
 
 SwimmermBerkeBeatenText:
-	text "¿Cuál es el secre-"
-	line "to de tu fuerza?"
+	text "¿Cuál es el gran"
+	line "secreto que usas?"
 	done
 
 SwimmermKirkSeenText:
 	text "Aquí las olas son"
 	line "muy bravas."
 
-	para "Te agotan mien-"
-	line "tras nadas."
+	para "Te cansan mucho al"
+	line "nadar."
 	done
 
 SwimmermKirkBeatenText:
@@ -320,15 +307,14 @@ SwimmermKirkBeatenText:
 	done
 
 SwimmermMathewSeenText:
-	text "¿Buscas los secre-"
-	line "tos de las Islas"
-	cont "Remolino?"
+	text "¿Buscas los"
+	line "secretos de las"
+	cont "Islas Remolino?"
 	done
 
 SwimmermMathewBeatenText:
-	text "¡Vaya, qué buena"
-	line "resistencia tie-"
-	cont "nes!"
+	text "¡Vaya, cuánta"
+	line "resistencia!"
 	done
 
 SwimmermLewisSeenText:
@@ -343,8 +329,7 @@ SwimmermLewisBeatenText:
 
 SwimmerfKayleeSeenText:
 	text "Voy de camino a"
-	line "las Islas Remoli-"
-	cont "no."
+	line "Islas Remolino."
 
 	para "Iré a explorar con"
 	line "mis amigos."
@@ -380,9 +365,9 @@ SwimmerfKaraSeenText:
 	line "la bicicleta en el"
 	cont "agua."
 
-	para "Recuperarás el"
-	line "aliento para con-"
-	cont "tinuar con fuerza."
+	para "Así tomarás aire"
+	line "para seguir con"
+	cont "fuerza."
 	done
 
 SwimmerfKaraBeatenText:
@@ -391,8 +376,8 @@ SwimmerfKaraBeatenText:
 	done
 
 SwimmerfWendySeenText:
-	text "De noche, los Sta-"
-	line "ryu se juntan en"
+	text "De noche, varios"
+	line "Staryu flotan en"
 	cont "la superficie."
 	done
 

@@ -25,13 +25,11 @@ Route36RuinsOfAlphGateOfficerText:
 	done
 
 Route36RuinsOfAlphGateGrampsText:
-	text "¿Viste ese árbol"
-	line "tan raro en el ca-"
-	cont "mino?"
+	text "¿Viste el árbol"
+	line "tan raro de ahí?"
 
-	para "Eso explicaría"
-	line "por qué viene me-"
-
-	para "nos gente a las"
-	line "Ruinas Alfa."
+	para "Eso explica por"
+	line "qué viene menos"
+	cont "gente a las"
+	cont "Ruinas Alfa."
 	done

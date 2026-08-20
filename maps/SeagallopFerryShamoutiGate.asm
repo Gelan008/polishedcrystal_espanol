@@ -143,8 +143,8 @@ SeagallopFerryShamoutiIslandRefusedText:
 
 SeagallopFerryShamoutiGateTwinText:
 	text "Estoy aquí para"
-	line "recibir a los tu-"
-	cont "ristas."
+	line "atender a los"
+	cont "turistas."
 
 	para "¡Que tengas una"
 	line "buena estancia!"

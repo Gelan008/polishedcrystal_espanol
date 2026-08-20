@@ -61,23 +61,20 @@ ShamoutiHotelRestaurantChallengeScript:
 	sjump ShamoutiHotelRestaurantLeaveScript
 
 .GreetingText:
-	text "¡Te damos la bien-"
-	line "venida al Restau-"
-	cont "rante Oasis!"
+	text "¡Te damos la"
+	line "bienvenida al"
+	cont "Restaurante Oasis!"
 
-	para "Aquí podrás dis-"
-	line "frutar no solo de"
-
-	para "la comida, sino"
-	line "también de comba-"
-	cont "tes #mon."
+	para "Aquí disfrutarás"
+	line "de la comida y de"
+	cont "combates #mon."
 
 	para "Cada día ofrecemos"
 	line "un menú nuevo."
 
 	para "El precio es de"
-	line "¥5000. ¿Te gusta-"
-	cont "ría entrar?"
+	line "5000¥. ¿Quieres"
+	cont "entrar ahora?"
 	done
 
 .AlreadyAteText:

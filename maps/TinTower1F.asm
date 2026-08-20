@@ -185,26 +185,23 @@ TinTower1FSage4Script:
 	jumpthistextfaceplayer
 
 	text "¡Parece que Ho-Oh"
-	line "ha descendido"
-
-	para "sobre esta, la"
-	line "Torre Hojalata!"
+	line "ha descendido en"
+	cont "esta misma torre!"
 	done
 
 .FoughtHoOh:
 	jumpthistextfaceplayer
 
-	text "Dicen que los #"
-	line "-mon legendarios"
-
-	para "encarnan tres po-"
-	line "deres…"
+	text "Dicen que los"
+	line "#mon legen-"
+	cont "darios encarnan"
+	cont "tres poderes…"
 
 	para "El rayo que cayó"
 	line "sobre la torre."
 
-	para "El fuego que que-"
-	line "mó la torre."
+	para "El fuego que ardió"
+	line "en la torre."
 
 	para "Y la lluvia que"
 	line "apagó el fuego…"
@@ -239,27 +236,21 @@ TinTower1FSage5Script:
 .FoughtHoOh:
 	jumpthisopenedtext
 
-	text "Al aparecer los"
-	line "#mon legenda-"
-	cont "rios…"
+	text "Cuando surgieron"
+	line "los tres #mon,"
+	cont "sembraron terror"
+	cont "entre la gente."
 
-	para "sembraron el te-"
-	line "rror entre quienes"
-	cont "los contemplaban."
+	para "Y algunos los"
+	line "atacaron en vano."
 
-	para "Y…"
+	para "Los #mon"
+	line "legendarios,"
+	cont "conscientes de su"
+	cont "enorme poder,"
 
-	para "hubo quienes ata-"
-	line "caron en vano."
-
-	para "Los #mon legen-"
-	line "darios, sabiendo"
-
-	para "el poder que po-"
-	line "seían, huyeron sin"
-
-	para "hacer daño a la"
-	line "gente asustada."
+	para "huyeron sin dañar"
+	line "a las personas."
 	done
 
 TinTower1FSage6Script:
@@ -278,24 +269,21 @@ TinTower1FSage6Script:
 .FoughtHoOh:
 	jumpthistextfaceplayer
 
-	text "De los #mon le-"
-	line "gendarios, dicen"
+	text "De los #mon"
+	line "legendarios, dicen"
 
 	para "que Suicune es el"
 	line "más cercano a"
 	cont "Ho-Oh."
 
-	para "He oído que tam-"
-	line "bién podría tener"
+	para "Dicen que también"
+	line "podría tener un"
+	cont "vínculo con los"
+	cont "#mon Unown."
 
-	para "un vínculo con los"
-	line "#mon Unown."
-
-	para "Los #mon Unown"
-	line "deben de compartir"
-
-	para "un lazo de coope-"
-	line "ración con"
+	para "Los Unown deben"
+	line "de colaborar muy"
+	cont "estrechamente con"
 	cont "Suicune."
 	done
 
@@ -401,42 +389,34 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTowerEusineSuicuneText:
-	text "Eusine: ¡Increí-"
-	line "ble! ¡Ha sido de-"
-	cont "masiado increíble!"
+	text "Eusine: ¡Vaya!"
+	line "¡Ha sido algo"
+	cont "impresionante!"
 
 	para "Jamás había visto"
 	line "un combate igual."
+	cont "¡Qué emoción!"
 
-	para "Ha sido muy emo-"
-	line "cionante de ver."
+	para "Suicune era muy"
+	line "fuerte, pero tú"
+	cont "estuviste aún más"
+	cont "increíble, <PLAYER>."
 
-	para "Suicune era fuer-"
-	line "te, pero tú has"
+	para "Dicen que el poder"
+	line "de Suicune invoca"
+	cont "a un #mon del"
+	cont "arcoíris."
 
-	para "estado aún más in-"
-	line "creíble, <PLAYER>."
-
-	para "He oído que el po-"
-	line "der místico de"
-	cont "Suicune"
-
-	para "invoca a un"
-	line "#mon del color"
-	cont "del arcoíris."
-
-	para "Puede que lo que"
-	line "ha pasado hoy"
-
-	para "haga que ese #-"
-	line "mon aparezca."
+	para "Tal vez lo de hoy"
+	line "haga que ese"
+	cont "#mon aparezca."
 
 	para "Voy a estudiar más"
 	line "las leyendas."
 
-	para "Gracias por mos-"
-	line "trarme este com-"
-	cont "bate tan genial."
+	para "¡Gracias por darme"
+	line "este combate tan"
+	cont "espectacular!"
 
 	para "¡Hasta luego,"
 	line "<PLAYER>!"
@@ -447,18 +427,16 @@ TinTower1FSage1Text:
 	line "leyenda…"
 
 	para "Cuando las almas"
-	line "de humanos y #-"
-	cont "mon se unen,"
+	line "de personas y de"
+	cont "#mon se unen,"
 
 	para "baja del cielo un"
-	line "#mon del color"
-	cont "del arcoíris…"
+	line "#mon de color"
+	cont "arcoíris…"
 
 	para "¿Querrá decir que"
-	line "los #mon legen-"
-
-	para "darios nos están"
-	line "poniendo a prueba?"
+	line "las leyendas nos"
+	cont "ponen a prueba?"
 	done
 
 TinTower1FSage2Text:
@@ -470,87 +448,75 @@ else
 	line "Torre Latón,"
 endc
 
-	para "se dice que tres"
-	line "#mon sin nombre"
+	para "tres #mon sin"
+	line "nombre perecieron"
+	cont "en el fuego."
 
-	para "perecieron allí."
-	line "Fue una tragedia."
+	para "Fue una tragedia."
 
-	para "Sin embargo…"
+	para "Sin embargo, un"
+	line "#mon de color"
+	cont "arcoíris…"
 
-	para "Un #mon del co-"
-	line "lor del arcoíris…"
+	para "O sea, el propio"
+	line "Ho-Oh, bajó del"
+	cont "cielo y los"
+	cont "revivió."
 
-	para "En otras pala-"
-	line "bras…"
-
-	para "Ho-Oh descendió"
-	line "del cielo y dio"
-
-	para "nueva vida a esos"
-	line "tres #mon."
-
-	para "Ellos son…"
-
-	para "Suicune, Entei y"
-	line "Raikou."
+	para "Ellos son Suicune,"
+	line "Entei y Raikou."
 
 	para "Eso es lo que se"
 	line "cuenta."
 	done
 
 TinTower1FSage3Text:
-	text "Dicen que las dos"
-	line "torres fueron eri-"
+	text "Dicen que ambas"
+	line "torres se alzaron"
+	cont "para fomentar la"
+	cont "amistad sincera"
 
-	para "gidas para fomen-"
-	line "tar la amistad y"
+	para "y la esperanza"
+	line "entre humanos y"
+	cont "los #mon."
 
-	para "la esperanza entre"
-	line "humanos y #mon."
-
-	para "Eso fue hace 700"
-	line "años, pero ese"
-
-	para "ideal sigue siendo"
-	line "importante hoy."
+	para "Fue hace 700 años,"
+	line "pero ese ideal"
+	cont "sigue vivo hoy."
 	done
 
 TinTower1FSage5Text1:
-	text "Esto te protege-"
-	line "rá. Tómalo."
+	text "Esto te dará"
+	line "protección. Toma."
 	done
 
 TinTowerEusineHoOhText:
 	text "Lo sabía."
 
-	para "Sabía que verías"
-	line "al #mon del co-"
-	cont "lor del arcoíris,"
+	para "Sabía que tú"
+	line "verías al #mon"
+	cont "arcoíris,"
 	cont "<PLAYER>."
 
-	para "Ha pasado justo"
-	line "como imaginaba."
+	para "¡Ha pasado tal"
+	line "como imaginaba!"
 
-	para "Mis investigacio-"
-	line "nes no van mal,"
+	para "Mis estudios no"
+	line "iban nada mal,"
 	cont "que digamos."
 
-	para "Seguiré estudian-"
-	line "do a los #mon"
-
-	para "para ser un Poké-"
-	line "maníaco famoso."
+	para "Seguiré mi labor"
+	line "con los #mon"
+	cont "para ser un gran"
+	cont "Pokémaníaco."
 
 	para "Si alguna vez vas"
 	line "a Ciudad Azulona,"
+	cont "¿podrías visitar"
+	cont "a mi abuelo?"
 
-	para "¿podrías saludar"
-	line "a mi abuelo?"
-
-	para "Seguro que le"
-	line "gusta tener com-"
-	cont "pañía en mi"
+	para "Le agradará tener"
+	line "compañía en mi"
 	cont "ausencia."
 
 	para "¡Hasta luego,"

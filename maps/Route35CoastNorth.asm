@@ -22,10 +22,8 @@ Route35CoastNorth_MapScriptHeader:
 Route35CoastNorthAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "¡Puedes lanzar la"
-	line "caña incluso sobre"
-
-	para "el lomo de un"
-	line "#mon haciendo"
-	cont "Surf!"
+	para "¡Puedes usar la"
+	line "Caña aunque vayas"
+	cont "haciendo Surf en"
+	cont "un #mon!"
 	done

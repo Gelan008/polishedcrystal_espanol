@@ -45,17 +45,16 @@ SilphCo3FSilphEmployeeScript:
 	done
 
 .Text1:
-	text "Vengo de una fa-"
-	line "milia de creado-"
-	cont "res de # Balls."
+	text "Vengo de una"
+	line "familia de"
+	cont "artesanos de"
+	cont "# Balls."
 
 	para "Mi padre, César,"
-	line "le enseña a mi hi-"
-	cont "ja cómo fabricar"
-
-	para "Balls con Bonguri"
-	line "mientras yo traba-"
-	cont "jo duro aquí."
+	line "enseña a mi hija a"
+	cont "crear Balls con"
+	cont "Bonguri mientras"
+	cont "yo trabajo aquí."
 
 	para "¿Les ayudaste en"
 	line "Pueblo Azalea?"
@@ -75,34 +74,28 @@ SilphCo3FScientist1Text:
 	cont "Devon S.A."
 
 	para "Nos hemos cedido"
-	line "licencias de algu-"
-	cont "nos productos."
+	line "las licencias de"
+	cont "varios productos."
 	done
 
 SilphCo3FScientist2Text:
 	text "Las # Balls"
-	line "funcionan con el"
-	cont "mismo principio"
-
-	para "que el Sistema de"
-	line "Almacenamiento del"
-	cont "PC."
+	line "funcionan como el"
+	cont "Almacenamiento del"
+	cont "Sistema del PC."
 
 	para "Los #mon se"
 	line "convierten en"
 	cont "datos digitales y"
-
-	para "se recomponen en"
-	line "otra ubicación."
+	cont "se recomponen en"
+	cont "otro lugar."
 	done
 
 SilphCo3FOfficerText:
 	text "No puedo dejarte"
-	line "subir a las plan-"
-	cont "tas superiores,"
-
-	para "aunque parezcas de"
-	line "fiar."
+	line "subir a los pisos"
+	cont "superiores, aunque"
+	cont "seas de fiar."
 
 	para "Lo siento, pero"
 	line "son las normas."
@@ -112,13 +105,10 @@ SilphCo3FGentlemanText:
 	text "Vengo de visita de"
 	line "Corporación Devon."
 
-	para "¡Estamos colabo-"
-	line "rando para hacer"
-
-	para "avanzar la"
-	line "tecnología de las"
-	cont "# Balls aún"
-	cont "más!"
+	para "¡Colaboramos para"
+	line "hacer avanzar aún"
+	cont "más la tecnología"
+	cont "de las # Balls!"
 	done
 
 SilphCo3FDeptSignText:

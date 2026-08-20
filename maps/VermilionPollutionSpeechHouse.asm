@@ -16,14 +16,11 @@ VermilionPollutionSpeechHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionPollutionSpeechHouseCooltrainerMText, -1
 
 VermilionPollutionSpeechHouseBreederText:
-	text "Carmín es un lu-"
-	line "gar maravilloso,"
-
-	para "pero en un puerto"
-	line "así ¡hay que tener"
-
-	para "cuidado con la"
-	line "contaminación!"
+	text "Carmín es un gran"
+	line "lugar, ¡pero en un"
+	cont "puerto así hay que"
+	cont "tener cuidado con"
+	cont "la contaminación!"
 	done
 
 VermilionPollutionSpeechHouseCooltrainerMText:
@@ -31,7 +28,6 @@ VermilionPollutionSpeechHouseCooltrainerMText:
 	line "los cruceros que"
 	cont "van y vienen,"
 
-	para "¡recibimos visi-"
-	line "tantes de todas"
-	cont "partes!"
+	para "¡recibimos visitas"
+	line "de todas partes!"
 	done

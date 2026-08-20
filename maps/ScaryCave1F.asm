@@ -70,16 +70,14 @@ ScaryCave1FMiraScript:
 	end
 
 .ChallengeText:
-	text "Soy Maiza…"
-	line "Estaba atrapando"
-
-	para "#mon, pero esta"
-	line "cueva da mucho"
-	cont "miedo…"
+	text "Soy Maiza… Estaba"
+	line "atrapando #mon,"
+	cont "pero esta cueva da"
+	cont "mucho miedo…"
 
 	para "Quiero ser más"
 	line "fuerte para no ser"
-	cont "tan miedica."
+	cont "tan miedosa."
 
 	para "¡Por favor! ¡Lucha"
 	line "conmigo!"
@@ -104,10 +102,8 @@ ScaryCave1FMiraScript:
 .ItemText:
 	text "<PLAYER>, ¿te has"
 	line "hecho tan fuerte"
-
-	para "por estar siempre"
-	line "junto a tus"
-	cont "#mon?"
+	cont "por estar junto a"
+	cont "tus #mon?"
 
 	para "¡Sí! ¡Tiene que"
 	line "ser por eso!"
@@ -123,8 +119,8 @@ ScaryCave1FMiraScript:
 	done
 
 .GoodbyeText:
-	text "¡Maiza se esforza-"
-	line "rá como tú,"
+	text "¡Maiza dará lo"
+	line "mejor de sí,"
 	cont "<PLAYER>!"
 
 	para "¡Me haré fuerte en"
@@ -173,10 +169,8 @@ ScaryCave1FPharmacistScript:
 
 .QuestionText:
 	text "Te enseñaré Golpe"
-	line "Bajo, pero quiero"
-
-	para "una Hoja Plateada"
-	line "a cambio."
+	line "Bajo a cambio de"
+	cont "una Hoja Plata."
 	done
 
 .NoSilverLeaf
@@ -184,7 +178,7 @@ ScaryCave1FPharmacistScript:
 	jumpthisopenedtext
 
 	text "¿No tienes Hoja"
-	line "Plateada? Pues"
+	line "Plata? Pues"
 	cont "olvídalo entonces."
 	done
 
@@ -204,8 +198,8 @@ GenericTrainerRuin_maniacSmilte:
 	generictrainer RUIN_MANIAC, SMILTE, EVENT_BEAT_RUIN_MANIAC_SMILTE, .SeenText, .BeatenText
 
 	text "Oigo un eco. ¡Hay"
-	line "una cueva más pro-"
-	cont "funda cerca!"
+	line "otra cueva más"
+	cont "honda por aquí!"
 
 	para "¿Será allí donde"
 	line "haré mi gran"
@@ -214,8 +208,8 @@ GenericTrainerRuin_maniacSmilte:
 
 .SeenText:
 	text "¡Estoy a punto de"
-	line "hacer un gran des-"
-	cont "cubrimiento!"
+	line "hacer un gran"
+	cont "descubrimiento!"
 
 	para "¡Puedo sentirlo!"
 	done
@@ -242,8 +236,8 @@ GenericTrainerSuper_nerdKouta:
 .BeatenText:
 	text "¡¿Falló mi plan?!"
 
-	para "Toca volver a em-"
-	line "pezar de cero…"
+	para "Toca empezar de"
+	line "nuevo desde cero…"
 	done
 
 TrainerCoupleJoeandjo1:
@@ -253,10 +247,9 @@ TrainerCoupleJoeandjo1:
 	jumpthistextfaceplayer
 
 	text "Joe: Cazamos"
-	line "fantasmas, pero no"
-
-	para "temo nada si tengo"
-	line "a mi Jo al lado."
+	line "fantasmas, pero"
+	cont "nada temo si tengo"
+	cont "a mi Jo al lado."
 	done
 
 .SeenText:
@@ -276,19 +269,17 @@ TrainerCoupleJoeandjo2:
 .Script:
 	endifjustbattled
 	jumpthistextfaceplayer
-text "Jo: ¡Qué suerte"
-	line "tengo de contar"
-
-	para "con mi maravilloso"
-	line "Joe para ahuyentar"
-
-	para "a cualquier fan-"
-	line "tasma siniestro!"
+	text "Jo: ¡Qué suerte"
+	line "tengo con mi dulce"
+	cont "Joe, que espanta a"
+	cont "cualquier fantasma"
+	cont "siniestro!"
 	done
 
 .SeenText:
-	text "Jo: ¡Aaah! ¡Abrá-"
-	line "zame fuerte, Joe!"
+	text "Jo: ¡Aaah!"
+	line "¡Abrázame fuerte,"
+	cont "Joe!"
 	done
 
 .BeatenText:
@@ -329,11 +320,10 @@ GenericTrainerScientistPiotr:
 
 .SeenText:
 	text "¿Sabes por qué el"
-	line "agua está tan os-"
-	cont "cura por aquí?"
+	line "agua es tan oscura"
+	cont "por aquí?"
 	done
 
 .BeatenText:
-	text "¡Vale, te lo con-"
-	line "taré!"
+	text "¡Vale, te lo diré!"
 	done

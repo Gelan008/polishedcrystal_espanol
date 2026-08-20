@@ -73,9 +73,9 @@ GenericTrainerCooltrainerfEmma:
 	generictrainer COOLTRAINERF, EMMA, EVENT_BEAT_COOLTRAINERF_EMMA, CooltrainerfEmmaSeenText, CooltrainerfEmmaBeatenText
 
 	text "Solo una vez por"
-	line "semana va un #-"
-	cont "mon a la orilla"
-	cont "del agua."
+	line "semana, aparece"
+	cont "un #mon en el"
+	cont "agua."
 
 	para "Quería ver a ese"
 	line "#mon…"
@@ -83,13 +83,14 @@ GenericTrainerCooltrainerfEmma:
 
 CooltrainermNickSeenText:
 	text "Hay dos tipos de"
-	line "personas."
+	line "personas:"
 
-	para "Las que tienen es-"
-	line "tilo y las que no."
+	para "Las que tienen"
+	line "estilo y las que"
+	cont "no lo tienen."
 
-	para "¿Qué clase de per-"
-	line "sona eres tú?"
+	para "¿Qué clase de"
+	line "persona eres tú?"
 	done
 
 CooltrainermNickBeatenText:
@@ -99,29 +100,28 @@ CooltrainermNickBeatenText:
 
 CooltrainerfGwenSeenText:
 	text "Estoy entrenando."
-	line "¿Te hace un asal-"
-	cont "to?"
+	line "¿Te apetece un"
+	cont "combate?"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "¡Oh, no! Eres de-"
-	line "masiado para mí."
+	text "¡Oh, no! Eres"
+	line "demasiado fuerte."
 	done
 
 CooltrainerfEmmaSeenText:
 	text "Si el #mon que"
 	line "me gusta estuviera"
+	cont "aquí, lo buscaría"
+	cont "por todos lados."
 
-	para "aquí, lo buscaría"
-	line "por todas partes."
-
-	para "Eso es lo que hace"
-	line "un auténtico "
-	cont "entrenador."
+	para "¡Eso es lo que"
+	line "hace un auténtico"
+	cont "Entrenador!"
 	done
 
 CooltrainerfEmmaBeatenText:
-	text "¡Preferiría estar"
-	line "mimando a mis pe-"
-	cont "ques que esto!"
+	text "¡Preferiría mimar"
+	line "a mis #mon que"
+	cont "hacer esto!"
 	done

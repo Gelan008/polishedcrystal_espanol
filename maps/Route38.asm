@@ -26,12 +26,10 @@ Route38_MapScriptHeader:
 GenericTrainerBird_keeperToby:
 	generictrainer BIRD_KEEPER, TOBY, EVENT_BEAT_BIRD_KEEPER_TOBY, Bird_keeperTobySeenText, Bird_keeperTobyBeatenText
 
-	text "Pienso entrenar en"
+	text "Voy a entrenar en"
 	line "el Bosq. Amarillo"
-
-	para "para enseñar a mi"
-	line "#mon a usar"
-	cont "Vuelo."
+	cont "para enseñar Vuelo"
+	cont "a mi #mon."
 	done
 
 TrainerSailorHarry:
@@ -43,9 +41,8 @@ TrainerSailorHarry:
 
 	text "Gente de todo el"
 	line "mundo vive feliz"
-
-	para "en armonía con los"
-	line "#mon."
+	cont "en armonía con los"
+	cont "#mon."
 	done
 
 TrainerLassDana1:
@@ -267,18 +264,18 @@ GenericTrainerBeautyOlivia:
 	generictrainer BEAUTY, OLIVIA, EVENT_BEAT_BEAUTY_OLIVIA, BeautyOliviaSeenText, BeautyOliviaBeatenText
 
 	text "La Leche Mu-mu es"
-	line "buena para la sa-"
-	cont "lud y la belleza."
+	line "sana y buena para"
+	cont "la belleza."
 
-	para "¡Me gusta comprar"
-	line "una docena de bo-"
-	cont "tellas de golpe!"
+	para "¡Compro una docena"
+	line "de botellas de"
+	cont "golpe!"
 	done
 
 Bird_keeperTobySeenText:
 	text "¡Volad bien alto,"
-	line "mis queridos #-"
-	cont "mon pájaro!"
+	line "mis queridos"
+	cont "#mon pájaro!"
 	done
 
 Bird_keeperTobyBeatenText:
@@ -294,16 +291,15 @@ SchoolboyChad1SeenText:
 
 SchoolboyChad1BeatenText:
 	text "Supongo que no he"
-	line "estudiado lo bas-"
-	cont "tante."
+	line "estudiado lo"
+	cont "suficiente."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "Tengo tantos exá-"
-	line "menes que apenas"
-
-	para "tengo tiempo para"
-	line "los #mon."
+	text "Tengo tantos tests"
+	line "que apenas tengo"
+	cont "tiempo para mis"
+	cont "#mon."
 
 	para "Por eso, cuando me"
 	line "pongo a jugar, me"
@@ -315,9 +311,8 @@ LassDana1SeenText:
 	line "dan bien los"
 	cont "#mon."
 
-	para "Si es así, ¿por"
-	line "qué no me das al-"
-	cont "gún consejo?"
+	para "¿Por qué no me das"
+	line "algún consejo?"
 	done
 
 LassDana1BeatenText:
@@ -336,26 +331,23 @@ LassDanaMoomooMilkText:
 	done
 
 BeautyValenciaSeenText:
-	text "¡Hola! ¡Qué entre-"
-	line "nador más mono!"
+	text "¡Hola! ¡Qué porte"
+	line "tan elegante!"
 
 	para "¿Puedo ver a tus"
 	line "#mon?"
 	done
 
 BeautyValenciaBeatenText:
-	text "¡Me alegro de ha-"
-	line "ber visto a tus"
-	cont "#mon!"
+	text "¡Me encantó ver"
+	line "a tus #mon!"
 	done
 
 SailorHarrySeenText:
-	text "He navegado por el"
-	line "extranjero, ¡así"
-
-	para "que conozco mu-"
-	line "chos tipos de"
-	cont "#mon!"
+	text "He navegado mucho"
+	line "por el extranjero,"
+	cont "¡y conozco muchos"
+	cont "tipos de #mon!"
 	done
 
 SailorHarryBeatenText:
@@ -370,8 +362,8 @@ BeautyOliviaSeenText:
 	done
 
 BeautyOliviaBeatenText:
-	text "Bebemos Leche Mu-"
-	line "mu todos los días."
+	text "Tomamos Leche"
+	line "Mu-mu cada día."
 	done
 
 Route38SignText:
@@ -384,17 +376,15 @@ Route38SignText:
 Route38TrainerTipsText:
 	text "Pistas Entrenador"
 
-	para "Si un #mon in-"
-	line "tenta evolucionar,"
+	para "Si un #mon va a"
+	line "evolucionar,"
 	cont "puedes evitarlo."
 
 	para "Pulsa el Botón B"
-	line "durante la evolu-"
-	cont "ción."
+	line "al evolucionar."
 
 	para "Eso asustará al"
-	line "#mon e"
-	cont "interrumpirá"
+	line "#mon y frenará"
 	cont "su evolución."
 	done
 
@@ -402,11 +392,8 @@ Route38AdvancedTipsText:
 	text "¡Consejo Avanzado!"
 
 	para "¡Pulsa Start en el"
-	line "Sistema de Alma-"
-
-	para "cenamiento del PC"
-	line "para ir rápido al"
-	cont "nombre de la Caja!"
+	line "PC para ir rápido"
+	cont "al nombre de Caja!"
 
 	para "¡Puedes cambiar el"
 	line "nombre y el tema"
@@ -414,7 +401,5 @@ Route38AdvancedTipsText:
 
 	para "¡Pulsa Select para"
 	line "cambiar la función"
-
-	para "del Botón A con"
-	line "los #mon!"
+	cont "del Botón A!"
 	done

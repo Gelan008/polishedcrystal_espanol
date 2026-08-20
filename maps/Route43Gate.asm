@@ -186,8 +186,9 @@ RocketText_TollFee:
 	text "¡Alto ahí,"
 	line "mocoso!"
 
-	para "El peaje para pa-"
-	line "sar es ¥{d:ROUTE43GATE_TOLL}."
+	para "El peaje para"
+	line "pasar es de"
+	cont "{d:ROUTE43GATE_TOLL}¥."
 	done
 
 RocketText_ThankYou:
@@ -200,14 +201,12 @@ RocketText_AllYouGot:
 	done
 
 RocketText_MakingABundle:
-	text "Je, je, je. Nos"
-	line "estamos forrando."
+	text "Je, je, je. ¡Nos"
+	line "estamos forrando!"
 
-	para "Todo el mundo"
-	line "quiere ver qué"
-
-	para "pasa en el Lago de"
-	line "la Furia."
+	para "Todos quieren ver"
+	line "qué pasa en el"
+	cont "Lago de la Furia."
 	done
 
 OfficerText_FoundTM:
@@ -217,10 +216,10 @@ OfficerText_FoundTM:
 
 	para "Se dejaron esto"
 	line "olvidado."
+	cont "Me da mal rollo."
 
-	para "Me da mal rollo."
-	line "¿Te lo puedes"
-	cont "llevar?"
+	para "¿Te lo puedes"
+	line "llevar?"
 	done
 
 OfficerText_AvoidGrass:

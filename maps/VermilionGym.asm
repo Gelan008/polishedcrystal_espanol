@@ -98,22 +98,19 @@ VermilionGymSurgeScript:
 GenericTrainerGentlemanGregory:
 	generictrainer GENTLEMAN, GREGORY, EVENT_BEAT_GENTLEMAN_GREGORY, GentlemanGregorySeenText, GentlemanGregoryBeatenText
 
-	text "Cuando todavía es-"
-	line "taba en el ejérci-"
-	cont "to, el Lt. Surge"
-
-	para "me salvó la vida."
+	text "Cuando estaba en"
+	line "el ejército, el"
+	cont "Lt. Surge me"
+	cont "salvó la vida."
 	done
 
 GenericTrainerGuitaristmVincent:
 	generictrainer GUITARISTM, VINCENT, EVENT_BEAT_GUITARISTM_VINCENT, GuitaristmVincentSeenText, GuitaristmVincentBeatenText
 
-	text "El Lt. Surge se"
-	line "protege con barre-"
-	cont "ras eléctricas"
-
-	para "¡para que no sub-"
-	line "estimes su poder!"
+	text "El Lt. Surge usa"
+	line "barreras con rayo"
+	cont "¡para no ser"
+	cont "subestimado!"
 	done
 
 GenericTrainerJugglerHorton:
@@ -129,12 +126,10 @@ GenericTrainerJugglerHorton:
 GenericTrainerGuitaristfJanet:
 	generictrainer GUITARISTF, JANET, EVENT_BEAT_GUITARISTF_JANET, GuitaristfJanetSeenText, GuitaristfJanetBeatenText
 
-	text "El Lt. Surge es-"
-	line "condió los dos in-"
-
-	para "terruptores de las"
-	line "barreras en las"
-	cont "papeleras."
+	text "El Lt. Surge"
+	line "ocultó los dos"
+	cont "interruptores en"
+	cont "las papeleras."
 	done
 
 VermilionGymGuyScript:
@@ -142,22 +137,21 @@ VermilionGymGuyScript:
 	iftrue_jumptextfaceplayer VermilionGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "¡Hola, futuro Cam-"
-	line "peón!"
+	text "¡Hola, futuro"
+	line "Campeón!"
 
 	para "El Lt. Surge es"
-	line "muy precavido. Ha"
+	line "muy precavido."
+	cont "Puso trampas por"
+	cont "todo el lugar."
 
-	para "puesto trampas por"
-	line "todo el Gimnasio."
-
-	para "Pero ya se te dan"
-	line "bien los puzles de"
+	para "Pero ya dominas"
+	line "los puzles de"
 	cont "Gimnasio, ¿no?"
 
-	para "No tendrás ningún"
-	line "problema para lle-"
-	cont "gar hasta él."
+	para "¡No tendrás ningún"
+	line "problema para"
+	cont "llegar hasta él!"
 	done
 
 VermilionGymTrashCanScript:
@@ -213,26 +207,24 @@ VermilionGymStatue:
 
 LtSurgeIntroText:
 	text "Surge: ¡Eh, tú,"
-	line "renacuajo!"
+	line "criajo!"
 
-	para "Hay que admitir-"
-	line "lo. Retarme puede"
+	para "Hay que admitirlo:"
+	line "retarme no es muy"
+	cont "inteligente, ¡pero"
+	cont "tienes agallas!"
 
-	para "no ser muy inte-"
-	line "ligente, ¡pero hay"
-	cont "que tener agallas!"
+	para "¡Con los #mon"
+	line "eléctricos soy el"
+	cont "número uno!"
 
-	para "Si se trata de"
-	line "#mon eléctri-"
-	cont "cos, ¡soy el uno!"
-
-	para "¡Nunca he perdido"
+	para "¡Jamás he perdido"
 	line "en el campo de"
 	cont "batalla!"
 
-	para "¡Te fulminaré co-"
-	line "mo a mis enemigos"
-	cont "en la guerra!"
+	para "¡Te fulminaré como"
+	line "a mis enemigos en"
+	cont "la guerra!"
 	done
 
 LtSurgeWinLossText:
@@ -249,11 +241,11 @@ LtSurgeThunderBadgeText:
 	cont "tu victoria."
 
 	para "Queda muy bien en"
-	line "tu Ficha de Entre-"
-	cont "nador, ¿a que sí?"
+	line "tu estuche,"
+	cont "¿verdad?"
 
-	para "¡Llévala con orgu-"
-	line "llo, ¿me oyes?!"
+	para "¡Llévala con todo"
+	line "orgullo, ¿oyes?!"
 
 	para "¡Y toma una gran"
 	line "MT para ti!"
@@ -273,8 +265,8 @@ GentlemanGregorySeenText:
 	text "¿Vienes a derrotar"
 	line "al Lt. Surge?"
 
-	para "¡No si puedo evi-"
-	line "tarlo!"
+	para "¡No mientras yo"
+	line "pueda evitarlo!"
 	done
 
 GentlemanGregoryBeatenText:
@@ -286,9 +278,7 @@ GentlemanGregoryBeatenText:
 GuitaristmVincentSeenText:
 	text "El Lt. Surge vio"
 	line "mi potencial con"
-
-	para "los #mon eléc-"
-	line "tricos."
+	cont "el tipo eléctrico."
 
 	para "¿Crees que puedes"
 	line "vencerme?"
@@ -300,15 +290,14 @@ GuitaristmVincentBeatenText:
 
 JugglerHortonSeenText:
 	text "¡Pienso acabar"
-	line "contigo! ¡Prepara-"
-	cont "te a recibir una"
+	line "contigo! ¡Vas a"
+	cont "recibir una gran"
 	cont "descarga!"
 	done
 
 JugglerHortonBeatenText:
 	text "¡Gwaaah! Me has"
-	line "superado por com-"
-	cont "pleto…"
+	line "superado del todo…"
 	done
 
 GuitaristfJanetSeenText:
@@ -338,25 +327,21 @@ VermilionGymFoundSwitchText:
 	done
 
 VermilionGymFoundFirstSwitchText:
-	text "¡La primera barre-"
-	line "ra eléctrica se ha"
-	cont "desbloqueado!"
+	text "¡La primera valla"
+	line "eléctrica se ha"
+	cont "desactivado!"
 	done
 
 VermilionGymFoundSecondSwitchText:
-	text "¡La segunda barre-"
-	line "ra eléctrica se ha"
-
-	para "desbloqueado! ¡El"
-	line "camino está libre!"
+	text "¡La segunda valla"
+	line "se ha desactivado!"
+	cont "¡Camino libre!"
 	done
 
 VermilionGymResetSwitchesText:
-	text "¡Oh, no! ¡La ba-"
-	line "rrera eléctrica se"
-
-	para "ha bloqueado de"
-	line "nuevo!"
+	text "¡Oh, no! ¡La valla"
+	line "eléctrica volvió a"
+	cont "activarse!"
 	done
 
 VermilionGymTrashCanText:
@@ -365,9 +350,9 @@ VermilionGymTrashCanText:
 	done
 
 VermilionGymElectricFenceText:
-	text "¡Una barrera eléc-"
-	line "trica! ¡No la to-"
-	cont "ques!"
+	text "¡Una barrera con"
+	line "electricidad! ¡No"
+	cont "la toques!"
 	done
 
 SampleVermilionGymTrashCans:

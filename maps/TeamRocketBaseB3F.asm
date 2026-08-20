@@ -154,26 +154,21 @@ GenericTrainerRocketScientistRoss:
 	cont "los #mon…"
 
 	para "Mi experimento ha"
-	line "sido un éxito"
-	cont "rotundo."
+	line "sido un gran"
+	cont "éxito."
 
 	para "Mi ascenso está"
-	line "asegurado. Esta"
-
-	para "derrota no signi-"
-	line "fica absolutamente"
-	cont "nada."
+	line "asegurado. ¡Esta"
+	cont "derrota no cuenta!"
 	done
 
 GenericTrainerRocketScientistMitch:
 	generictrainer ROCKET_SCIENTIST, MITCH, EVENT_BEAT_ROCKET_SCIENTIST_MITCH, RocketScientistMitchSeenText, RocketScientistMitchBeatenText
 
 	text "Si aumentamos la"
-	line "potencia de la se-"
-	cont "ñal de radio para"
-
-	para "emitir a todo el"
-	line "país…"
+	line "potencia para"
+	cont "emitir a todo el"
+	cont "país…"
 
 	para "¡La sola idea ya"
 	line "me emociona!"
@@ -302,28 +297,26 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "Lance: Hacen fal-"
-	line "ta dos contraseñas"
-
-	para "para entrar en el"
-	line "despacho del jefe."
+	text "Lance: Hacen falta"
+	line "dos contraseñas"
+	cont "para el despacho"
+	cont "del jefe."
 
 	para "Solo unos pocos"
 	line "Rocket las saben."
 
 	para "Aquel de ahí me lo"
-	line "ha dicho muy ama-"
-	cont "blemente."
+	line "dicho con mucha"
+	cont "amabilidad."
 
 	para "¡<PLAYER>, vamos a"
-	line "por las contrase-"
-	cont "ñas!"
+	line "por las claves!"
 	done
 
 TeamRocketBaseB3FRocketText:
-	text "Urrggh… El de la"
-	line "capa es increíble-"
-	cont "mente fuerte…"
+	text "Urrggh… ¡El de la"
+	line "capa es demasiado"
+	cont "fuerte…"
 	done
 
 RocketBaseRivalText:
@@ -334,61 +327,54 @@ RocketBaseRivalText:
 	cont "Team Rocket?"
 
 	para "…Dime, ¿quién era"
-	line "ese tío de la capa"
+	line "ese de la capa con"
+	cont "#mon dragón?"
 
-	para "que usaba #mon"
-	line "dragón?"
+	para "Mis #mon no"
+	line "pudieron hacer"
+	cont "nada contra él."
 
-	para "Mis #mon no pu-"
-	line "dieron hacer nada."
+	para "No me importa"
+	line "haber perdido."
 
-	para "No me importa ha-"
-	line "ber perdido. Pue-"
-
-	para "do vencerle consi-"
-	line "guiendo #mon"
-	cont "más fuertes."
+	para "Le ganaré con"
+	line "#mon más"
+	cont "fuertes."
 
 	para "Lo que me fastidia"
 	line "es lo que me ha"
 	cont "dicho…"
 
-	para "Me ha dicho que no"
-	line "quiero ni confío"
-
-	para "lo suficiente en"
-	line "mis #mon."
+	para "Dice que no quiero"
+	line "ni confío bastante"
+	cont "en mis #mon."
 
 	para "¡Me da rabia haber"
 	line "perdido ante un"
 	cont "blandengue!"
 
 	para "…¡Bah! ¡No tengo"
-	line "tiempo para perder"
+	line "tiempo que perder"
 	cont "con gente como tú!"
 	done
 
 ExecutiveM4BeforeText:
 	text "¿Qué? ¿Quién eres?"
-	line "Este es el despa-"
-
-	para "cho de nuestro lí-"
-	line "der, Giovanni."
+	line "¡Este despacho es"
+	cont "de nuestro líder"
+	cont "Giovanni!
 
 	para "Desde que disolvió"
-	line "el Team Rocket ha-"
+	line "el Team Rocket"
+	cont "hace tres años,"
+	cont "ha estado fuera."
 
-	para "ce tres años, ha"
-	line "estado entrenando."
-
-	para "Pero estamos segu-"
-	line "ros de que volverá"
-
-	para "algún día a tomar"
-	line "el mando de nuevo."
+	para "¡Pero sabemos que"
+	line "volverá a tomar el"
+	cont "mando algún día!"
 
 	para "Por eso montamos"
-	line "guardia."
+	line "guardia aquí."
 
 	para "¡No permitiré que"
 	line "nadie altere este"
@@ -399,34 +385,33 @@ ExecutiveM4BeatenText:
 	text "No… No he podido"
 	line "hacer nada…"
 
-	para "Giovanni, por fa-"
-	line "vor, perdóname…"
+	para "Giovanni, por"
+	line "favor, perdóname…"
 	done
 
 ExecutiveM4AfterText:
-	text "No, no puedo dejar"
-	line "que esto me afec-"
-	cont "te."
+	text "No puedo dejar que"
+	line "esto me afecte."
 
 	para "Tengo que avisar a"
 	line "los demás…"
 	done
 
 RocketBaseMurkrowText:
-	text "Murkrow: La con-"
-	line "traseña es…"
+	text "Murkrow: La clave"
+	line "es…"
 
 	para "¡Viva Giovanni!"
 	done
 
 GruntF5SeenText:
-	text "¿Que si sé la con-"
-	line "traseña?"
+	text "¿Que si sé la"
+	line "contraseña?"
 
 	para "Tal vez."
 
-	para "¡Pero ningún ende-"
-	line "ble la conseguirá!"
+	para "¡Pero un enclenque"
+	line "no la conseguirá!"
 	done
 
 GruntF5BeatenText:
@@ -451,17 +436,14 @@ GruntM28SeenText:
 	para "¿Me desafías a un"
 	line "combate?"
 
-	para "¡Ja! Estás chifla-"
-	line "do, ¡pero tienes"
-	cont "agallas!"
+	para "¡Ja! Estás loco,"
+	line "¡pero con agallas!"
 
 	para "¡Eso me gusta!"
 
-	para "Si puedes vencer-"
-	line "me, ¡te diré una"
-
-	para "contraseña para el"
-	line "despacho del jefe!"
+	para "¡Si me ganas, te"
+	line "diré una clave del"
+	cont "despacho del jefe!"
 	done
 
 GruntM28BeatenText:
@@ -480,30 +462,26 @@ GruntM28AfterBattleText:
 	done
 
 RocketScientistRossSeenText:
-	text "Trabajaba para"
-	line "Silph, pero ahora"
+	text "Estuve en Silph,"
+	line "pero ahora dirijo"
+	cont "el proyecto del"
+	cont "Team Rocket."
 
-	para "dirijo la investi-"
-	line "gación del Team"
-	cont "Rocket."
-
-	para "Un crío entrometi-"
-	line "do como tú merece"
-	cont "un castigo."
+	para "Un entrometido"
+	line "como tú merece un"
+	cont "buen castigo."
 	done
 
 RocketScientistRossBeatenText:
-	text "Un mero fallo tác-"
-	line "tico me ha costa-"
-	cont "do caro…"
+	text "Un mero error me"
+	line "ha costado caro…"
 	done
 
 RocketScientistMitchSeenText:
 	text "Me da igual que"
 	line "los #mon sufran"
-
-	para "por culpa del ex-"
-	line "perimento."
+	cont "por culpa del"
+	cont "experimento."
 	done
 
 RocketScientistMitchBeatenText:
@@ -516,8 +494,7 @@ TeamRocketBaseB3FLockedDoorOpenSesameText:
 	line "cerrada…"
 
 	para "<PLAYER> introdujo"
-	line "las dos contrase-"
-	cont "ñas."
+	line "las dos claves."
 
 	para "¡La puerta se ha"
 	line "abierto!"

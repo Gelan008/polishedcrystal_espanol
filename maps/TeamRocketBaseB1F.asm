@@ -547,32 +547,28 @@ NoExplodingTrap:
 GenericTrainerRocketScientistJed:
 	generictrainer ROCKET_SCIENTIST, JED, EVENT_BEAT_ROCKET_SCIENTIST_JED, RocketScientistJedSeenText, RocketScientistJedBeatenText
 
-	text "Está bien. Te re-"
-	line "velaré un secreto"
-	cont "de la guarida."
+	text "Vale. Te revelaré"
+	line "un secreto de la"
+	cont "guarida."
 
-	para "Eso que hay en el"
-	line "suelo de ahí de-"
-	cont "lante es un panel"
-	cont "teletransportador."
+	para "Ese panel del"
+	line "suelo es un panel"
+	cont "transportador."
 
 	para "Si lo pisas, te"
-	line "teletransportará"
-
-	para "de vuelta a la en-"
-	line "trada."
+	line "llevará de vuelta"
+	cont "a la entrada."
 	done
 
 GenericTrainerGruntM16:
 	generictrainer GRUNTM, 16, EVENT_BEAT_ROCKET_GRUNTM_16, GruntM16SeenText, GruntM16BeatenText
 
-	text "Ni siquiera yo sé"
-	line "dónde están pues-"
-	cont "tas las trampas."
+	text "Ni yo mismo sé"
+	line "dónde están las"
+	cont "trampas."
 
-	para "Tendrás que armar-"
-	line "te de valor y se-"
-	cont "guir andando."
+	para "¡Ármate de valor"
+	line "y sigue andando!"
 	done
 
 TeamRocketBaseB1FSecurityCamera:
@@ -702,26 +698,23 @@ CameraGrunt1SeenText:
 	done
 
 CameraGrunt1BeatenText:
-	text "Maldición… He fa-"
-	line "llado…"
+	text "Maldición… He"
+	line "fallado…"
 	done
 
 CameraGrunt2SeenText:
 	text "¡Es mi turno!"
-	line "¡No hay escapa-"
-	cont "toria!"
+	line "¡No escaparás!"
 	done
 
 CameraGrunt2BeatenText:
-	text "Las cámaras de se-"
-	line "guridad están en"
-	cont "las estatuas #-"
-	cont "mon."
+	text "Las cámaras están"
+	line "en las estatuas"
+	cont "#mon."
 
-	para "Seguiremos salien-"
-	line "do hasta que acti-"
-	cont "ves un interrup-"
-	cont "tor secreto."
+	para "Saldremos hasta"
+	line "que apagues el"
+	cont "interruptor."
 	done
 
 RocketScientistJedSeenText:
@@ -738,16 +731,14 @@ RocketScientistJedBeatenText:
 	done
 
 GruntM16SeenText:
-	text "Je, je. ¿Te sien-"
-	line "tes con suerte,"
-	cont "renacuajo?"
+	text "Je, je ¿Te sientes"
+	line "con suerte?"
 
 	para "Adelante, da otro"
 	line "paso."
 
-	para "¡Tenemos trampas"
-	line "puestas por el"
-	cont "suelo!"
+	para "¡Hay trampas por"
+	line "todo el suelo!"
 	done
 
 GruntM16BeatenText:

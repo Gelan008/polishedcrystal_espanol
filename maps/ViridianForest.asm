@@ -50,10 +50,9 @@ GenericTrainerBug_maniacDion:
 	cont "todo tipo de"
 	cont "sonidos."
 
-	para "Para los fans de"
-	line "los #mon bicho,"
-	cont "¡saber distinguir-"
-	cont "los es la clave!"
+	para "Para sus fans,"
+	line "¡distinguirlos es"
+	cont "la clave!"
 	done
 
 GenericTrainerBug_maniacStacey:
@@ -76,18 +75,18 @@ GenericTrainerBug_maniacEllis:
 GenericTrainerBug_maniacAbner:
 	generictrainer BUG_MANIAC, ABNER, EVENT_BEAT_BUG_MANIAC_ABNER, BugManiacAbnerSeenText, BugManiacAbnerBeatenText
 
-	text "Da igual qué clase"
-	line "de #mon sea…"
+	text "Da igual la clase"
+	line "de #mon que"
+	cont "tengas."
 
-	para "Mientras te gus-"
-	line "ten, todos te pa-"
-	cont "recerán monos."
+	para "Si te gustan,"
+	line "todos te parecerán"
+	cont "adorables."
 	done
 
 BugManiacDaneSeenText:
-	text "Te doy la bienve-"
-	line "nida al Bosque"
-	cont "Verde."
+	text "¡Bienvenido al"
+	line "Bosque Verde!"
 
 	para "¡Disfruta de mis"
 	line "#mon tipo"
@@ -119,16 +118,15 @@ BugManiacStaceySeenText:
 	done
 
 BugManiacStaceyBeatenText:
-	text "¡No pude atrapar-"
-	line "lo!"
+	text "¡No lo he podido"
+	line "atrapar!"
 	done
 
 BugManiacEllisSeenText:
 	text "No hay nada más"
 	line "eficiente y bello"
-
-	para "que un #mon de"
-	line "tipo Bicho."
+	cont "que un #mon de"
+	cont "tipo Bicho."
 	done
 
 BugManiacEllisBeatenText:
@@ -139,16 +137,14 @@ BugManiacEllisBeatenText:
 BugManiacAbnerSeenText:
 	text "Muchos prefieren"
 	line "#mon bicho"
-	cont "duros"
-
-	para "antes que blandos"
-	line "y viscosos."
+	cont "duros antes que"
+	cont "blandos y viscosos"
 	done
 
 BugManiacAbnerBeatenText:
-	text "Gracias por esfor-"
-	line "zaros, mis que-"
-	cont "ridos #mon…"
+	text "Gracias por darlo"
+	line "todo, mis queridos"
+	cont "#mon…"
 	done
 
 ViridianForestSignText1:
@@ -165,21 +161,19 @@ ViridianForestSignText2:
 	para "¡Guarda bien esa"
 	line "Seta Grande!"
 
-	para "¡Hay coleccionis-"
-	line "tas que pagan mu-"
-	cont "cho por objetos"
-	cont "aparentemente inú-"
-	cont "tiles!"
+	para "¡Hay quien paga"
+	line "mucho por objetos"
+	cont "que parecen sin"
+	cont "utilidad alguna!"
 	done
 
 ViridianForestSignText3:
 	text "Pistas Entrenador"
 
-	para "¡Los #mon de"
-	line "tipo Planta no se"
-
-	para "ven afectados por"
-	line "polvos ni esporas!"
+	para "¡A los #mon de"
+	line "tipo Planta no les"
+	cont "afectan polvos ni"
+	cont "esporas!"
 	done
 
 ViridianForestSignText4:
@@ -195,8 +189,8 @@ ViridianForestSignText5:
 
 	para "¡Los #mon de"
 	line "tipo Veneno no"
-	cont "pueden ser enve-"
-	cont "nenados!"
+	cont "pueden sufrir"
+	cont "envenenamiento!"
 	done
 
 ViridianForestSignText6:
@@ -204,8 +198,7 @@ ViridianForestSignText6:
 
 	para "¡Debilita a los"
 	line "#mon antes de"
-	cont "intentar atrapar-"
-	cont "los!"
+	cont "atraparlos!"
 
 	para "¡Si están sanos,"
 	line "podrían escapar!"

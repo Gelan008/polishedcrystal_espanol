@@ -87,20 +87,13 @@ ElderLiScript:
 
 	para "No hace falta que"
 	line "se lo enseñes a"
-	cont "tus #mon"
+	cont "tus #mon, salvo"
+	cont "para el combate."
 
-	para "a menos que quie-"
-	line "ras usar Destello"
-	cont "en combate."
-
-	para "Solo pulsa A en la"
+	para "Pulsa A en la"
 	line "oscuridad y, si"
-
-	para "alguno de tus"
-	line "#mon puede usar"
-
-	para "Destello, lo"
-	line "usará."
+	cont "un #mon puede"
+	cont "usarlo, lo hará."
 	done
 
 GenericTrainerSageJin:
@@ -110,18 +103,18 @@ GenericTrainerSageJin:
 	line "hace fuerte, su"
 	cont "dueño también."
 
-	para "No, espera. Si el"
-	line "Entrenador se hace"
-
-	para "fuerte, ¡los #-"
-	line "mon también!"
+	para "No, espera… ¡Si el"
+	line "Entrenador es"
+	cont "fuerte, sus"
+	cont "#mon también"
+	cont "lo serán!"
 	done
 
 GenericTrainerSageTroy:
 	generictrainer SAGE, TROY, EVENT_BEAT_SAGE_TROY, SageTroySeenText, SageTroyBeatenText
 
-	text "No queda mucho pa-"
-	line "ra ver al Anciano."
+	text "No estamos lejos"
+	line "del Anciano."
 	done
 
 GenericTrainerSageNeal:
@@ -144,25 +137,23 @@ SproutTower3FRivalLeavesElderMovement:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "Anciano: Es cier-"
-	line "to que tienes ta-"
-	cont "lento entrenando."
+	text "Anciano: Es verdad"
+	line "que tienes mucho"
+	cont "talento."
 
 	para "Como prometí, aquí"
 	line "tienes tu MT."
 
-	para "Pero déjame decir-"
-	line "te algo: deberías"
+	para "Pero déjame decir"
+	line "algo: deberías"
+	cont "tratar mejor a"
+	cont "tus #mon."
 
-	para "tratar mejor a tus"
-	line "#mon."
-
-	para "Tu forma de comba-"
-	line "tir es demasiado"
-	cont "dura."
+	para "Tu forma de luchar"
+	line "es muy severa."
 
 	para "Los #mon no son"
-	line "instrumentos de"
+	line "herramientas de"
 	cont "guerra…"
 	done
 
@@ -170,25 +161,24 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	text "…"
 	line "…¡Bah!"
 
-	para "Dice ser el Ancia-"
-	line "no, pero es débil."
+	para "Que Anciano"
+	line "tan débil."
 
 	para "Es lógico."
 
-	para "Jamás perdería an-"
-	line "te bobos que no"
-
-	para "paran de hablar de"
-	line "ser buenos con los"
+	para "Nunca perdería"
+	line "ante tontos que"
+	cont "hablan de ser"
+	cont "buenos con los"
 	cont "#mon."
 
 	para "Solo me interesan"
-	line "los #mon fuer-"
-	cont "tes que ganan."
+	line "los #mon"
+	cont "fuertes que ganan."
 
-	para "Los #mon débi-"
-	line "les me importan un"
-	cont "pimiento."
+	para "¡Los #mon débiles"
+	line "no me importan en"
+	cont "absoluto!"
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
@@ -197,29 +187,25 @@ SproutTowerRivalUsedEscapeRopeText:
 	done
 
 SageLiSeenText:
-	text "¡Qué bien que ha-"
-	line "yas venido hasta"
+	text "¡Me alegra que"
+	line "llegaras hasta"
 	cont "aquí!"
 
 	para "Torre Bellsprout"
-	line "es un lugar de en-"
-	cont "trenamiento."
+	line "es un templo de"
+	cont "entrenamiento."
 
 	para "Humanos y #mon"
-	line "ponen a prueba sus"
-
-	para "lazos para forjar"
-	line "juntos un futuro"
-	cont "brillante."
+	line "prueban sus lazos"
+	cont "para forjar un"
+	cont "futuro brillante."
 
 	para "Yo soy la prueba"
 	line "final."
 
-	para "¡Permíteme compro-"
-	line "bar el vínculo en-"
-
-	para "tre tus #mon y"
-	line "tú!"
+	para "¡Comprobaré el"
+	line "vínculo que tienes"
+	cont "con tus #mon!"
 	done
 
 SageLiBeatenText:
@@ -228,38 +214,37 @@ SageLiBeatenText:
 
 SageLiTakeThisFlashText:
 	text "Tú y tus #mon"
-	line "no deberíais te-"
-
-	para "ner problemas para"
-	line "usar este movi-"
-	cont "miento."
+	line "no tendréis"
+	cont "problemas para"
+	cont "usar este"
+	cont "movimiento."
 
 	para "Toma esta MT de"
 	line "Destello."
 	done
 
 SageLiAfterBattleText:
-	text "Espero que apren-"
-	line "das y crezcas en"
-	cont "tu viaje."
+	text "Espero que logres"
+	line "aprender y crecer"
+	cont "en tu viaje."
 	done
 
 SageJinSeenText:
-	text "¡Entreno para al-"
-	line "canzar la ilumi-"
-	cont "nación #mon!"
+	text "¡Entreno para"
+	line "lograr la pura"
+	cont "iluminación!"
 	done
 
 SageJinBeatenText:
 	text "Mi entrenamiento"
-	line "aún no ha termina-"
-	cont "do…"
+	line "aún no ha"
+	cont "terminado…"
 	done
 
 SageTroySeenText:
-	text "A ver cuánto con-"
-	line "fías en tus #-"
-	cont "mon."
+	text "A ver cuánta"
+	line "confianza tienes"
+	cont "en tus #mon."
 	done
 
 SageTroyBeatenText:

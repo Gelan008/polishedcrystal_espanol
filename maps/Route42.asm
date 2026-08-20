@@ -276,11 +276,9 @@ FisherTully1Script:
 GenericTrainerHikerBenjamin:
 	generictrainer HIKER, BENJAMIN, EVENT_BEAT_HIKER_BENJAMIN, HikerBenjaminSeenText, HikerBenjaminBeatenText
 
-	text "¡Perder parece in-"
-	line "significante al"
-
-	para "mirar hacia el"
-	line "cielo inmenso!"
+	text "¡Perder da igual"
+	line "al contemplar el"
+	cont "cielo inmenso!"
 	done
 
 GenericTrainerPokemaniacShane:
@@ -289,12 +287,12 @@ GenericTrainerPokemaniacShane:
 	text "¿Estás completando"
 	line "la #dex?"
 
-	para "¡Guau, debes de"
+	para "¡Guau! ¡Debes de"
 	line "conocer #mon"
 	cont "muy raros!"
 
-	para "¿Podrías enseñár-"
-	line "mela? ¿Por favor?"
+	para "¿Me la enseñas?"
+	line "¿Por favor?"
 	done
 
 MovementData_Route42LyraApproach4:
@@ -336,25 +334,19 @@ Route42LyraGreetingText:
 	text "Lira: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "¡Qué coincidencia!"
-	line "Estaba estudiando"
+	para "¡Qué sorpresa!"
+	line "Estudiaba cómo la"
+	cont "avalancha afectó a"
+	cont "los #mon."
 
-	para "el efecto que la"
-	line "reciente avalancha"
+	para "¿Vas a Caoba a"
+	line "por otra Medalla?"
 
-	para "ha tenido en los"
-	line "#mon salvajes."
+	para "¡Tengo un regalo"
+	line "para ti!"
 
-	para "¿Vas hacia Pueblo"
-	line "Caoba a por otra"
-	cont "Medalla?"
-
-	para "¡Pues tengo un"
-	line "regalo para ti!"
-
-	para "¡Pero antes ten-"
-	line "drás que vencer-"
-	cont "me!"
+	para "¡Pero primero"
+	line "debes vencerme!"
 	done
 
 Route42LyraWinText:
@@ -370,9 +362,8 @@ Route42LyraLossText:
 Route42LyraPresentText:
 	text "Lira: ¡Hala, te"
 	line "estás volviendo"
-
-	para "muy fuerte,"
-	line "<PLAYER>!"
+	cont "muy fuerte,"
+	cont "<PLAYER>!"
 
 	para "Seguro que puedes"
 	line "vencer al Líder de"
@@ -387,25 +378,20 @@ Route42LyraWhirlpoolText:
 	line "Torbellino."
 
 	para "Enséñasela a un"
-	line "#mon para cru-"
-
-	para "zar aguas con re-"
-	line "molinos bravos."
+	line "#mon para pasar"
+	cont "por remolinos."
 
 	para "Debería irme ya."
-	line "¡Me ha alegrado"
-
-	para "verte, <PLAYER>!"
+	line "¡Me alegró verte,"
+	cont "<PLAYER>!"
 
 	para "¡Hasta luego!"
 	done
 
 FisherTully1SeenText:
-	text "¡Deja que te mues-"
-	line "tre el poder de"
-
-	para "los #mon que"
-	line "pesqué!"
+	text "Te mostraré el"
+	line "poder de los"
+	cont "#mon que pesqué"
 	done
 
 FisherTully1BeatenText:
@@ -413,20 +399,18 @@ FisherTully1BeatenText:
 	done
 
 FisherTullyAfterBattleText:
-	text "Quiero ser el"
-	line "Campeón usando los"
-
-	para "#mon que he"
-	line "pescado yo mismo."
+	text "Quiero ser campeón"
+	line "usando los #mon"
+	cont "que he pescado."
 
 	para "¡Es lo mejor de"
 	line "la pesca!"
 	done
 
 HikerBenjaminSeenText:
-	text "¡Ah, da gusto es-"
-	line "tar al aire libre!"
-	cont "¡Qué libertad!"
+	text "¡Da gusto estar al"
+	line "aire libre! ¡Qué"
+	cont "gran libertad!"
 	done
 
 HikerBenjaminBeatenText:
@@ -447,16 +431,14 @@ PokemaniacShaneBeatenText:
 	done
 
 Route42OfficerText:
-	text "Lo siento, no pue-"
-	line "des pasar."
+	text "Lo siento, no"
+	line "puedes pasar."
 
-	para "Ha habido una ava-"
-	line "lancha en el Monte"
-	cont "Mortero."
+	para "Hubo una avalancha"
+	line "en Monte Mortero."
 
-	para "Aún estamos reti-"
-	line "rando los escom-"
-	cont "bros."
+	para "Estamos retirando"
+	line "los escombros."
 	done
 
 Route42Sign1Text:

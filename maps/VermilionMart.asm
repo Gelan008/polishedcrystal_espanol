@@ -20,8 +20,8 @@ VermilionMartSuperNerdText:
 	text "El Team Rocket ya"
 	line "no está en Kanto."
 
-	para "Solo eso ya me ha-"
-	line "ce feliz."
+	para "¡Solo con eso ya"
+	line "soy feliz!"
 	done
 
 VermilionMartBeautyText:

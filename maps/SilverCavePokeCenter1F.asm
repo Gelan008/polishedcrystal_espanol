@@ -29,10 +29,8 @@ PokemonJournalLanceScript:
 	cont "de la Liga!"
 
 	para "Han visto a Lance"
-	line "comprando sus ca-"
-
-	para "pas en el C. C."
-	line "de Azulona."
+	line "comprando capas en"
+	cont "Ciudad Azulona."
 	done
 
 SilverCavePokeCenterGrampsScript:
@@ -54,26 +52,23 @@ SilverCavePokeCenterGrampsScript:
 
 	para "No está nada mal,"
 	line "¡pero yo he leído"
-
-	para "los {d:NUM_POKEMON_JOURNALS} que"
-	line "se han publicado!"
+	cont "los {d:NUM_POKEMON_JOURNALS} que hay!"
 	done
 
 .ReadNone:
 	jumpthisopenedtext
 
-	text "¿No has leído nin-"
-	line "guno? Qué pena."
+	text "¿No has leído"
+	line "ninguno? Qué pena."
 
 	para "La mayoría están"
-	line "en las estanterías"
+	line "en estanterías de"
+	cont "los Centros"
+	cont "#mon,"
 
-	para "de los Centros"
-	line "#mon, pero los"
-
-	para "auténticos fans"
-	line "buscamos las edi-"
-	cont "ciones raras."
+	para "pero los grandes"
+	line "fans buscamos las"
+	cont "ediciones raras."
 	done
 
 .ReadThemAll:
@@ -94,12 +89,11 @@ SilverCavePokeCenterGrampsScript:
 	done
 
 .GreetingText:
-	text "En mi juventud yo"
-	line "también tenía ta-"
-	cont "lento entrenando."
+	text "De joven yo era un"
+	line "gran entrenador."
 
-	para "Ahora solo leo so-"
-	line "bre otros en la"
+	para "Ahora solo leo"
+	line "sobre otros en la"
 	cont "Revista #mon."
 
 	para "¿Tú también lees"
@@ -107,11 +101,10 @@ SilverCavePokeCenterGrampsScript:
 	done
 
 .ReadAllText:
-	text "¿Te los has leído"
-	line "todos? ¡Pues eres"
-
-	para "un experto de la"
-	line "revista como yo!"
+	text "¿Te has leído"
+	line "todos los números?"
+	cont "¡Eres un experto"
+	cont "igual que yo!"
 
 	para "¡Toma esto para"
 	line "demostrar lo fan"
@@ -119,17 +112,13 @@ SilverCavePokeCenterGrampsScript:
 	done
 
 SilverCavePokeCenter1FGrannyText:
-	text "Los Entrenadores"
-	line "que buscan poder"
+	text "Los que buscan más"
+	line "poder suben al"
+	cont "Monte Plateado a"
+	cont "pesar de todo…"
 
-	para "suben a Monte Pla-"
-	line "teado pese a sus"
-	cont "muchos peligros…"
-
-	para "Junto a sus que-"
-	line "ridos #mon, de-"
-
-	para "ben de sentir que"
-	line "pueden ir a cual-"
-	cont "quier parte…"
+	para "Con sus #mon"
+	line "más queridos,"
+	cont "sienten que pueden"
+	cont "ir donde sea…"
 	done

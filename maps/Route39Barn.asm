@@ -193,18 +193,18 @@ Text_GaveSitrusBerry:
 	done
 
 Text_LittleHealthier:
-	text "¡Miltank ha mejo-"
-	line "rado un poco!"
+	text "¡Miltank mejoró"
+	line "un poco!"
 	done
 
 Text_QuiteHealthy:
-	text "¡Miltank ha mejo-"
-	line "rado bastante!"
+	text "¡Miltank mejoró"
+	line "bastante!"
 	done
 
 Text_TotallyHealthy:
-	text "¡Miltank se ha re-"
-	line "cuperado del todo!"
+	text "¡Miltank se curó"
+	line "del todo!"
 	done
 
 Text_NoBerries:

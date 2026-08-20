@@ -23,104 +23,82 @@ TrainerHouse1F_MapScriptHeader:
 	object_event  2,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TrainerHouse1FGentlemanText, -1
 
 TrainerHouse1FReceptionistText:
-	text "Te damos la bien-"
-	line "venida a la Casa"
+	text "¡Te damos la"
+	line "bienvenida a la"
+	cont "Casa Entrenadores!"
 
-	para "de Entrenadores,"
-	line "el sitio más mo-"
+	para "Es el sitio más"
+	line "animado de Ciudad"
+	cont "Verde."
 
-	para "derno y animado"
-	line "de Ciudad Verde."
+	para "Solo abrimos para"
+	line "los Entrenadores."
 
-	para "Solo abrimos a"
-	line "los entrenadores."
-
-	para "Abajo puedes com-"
-	line "batir contra los"
-
-	para "mejores entre los"
-	line "mejores."
+	para "Abajo podrás"
+	line "luchar contra los"
+	cont "mejores."
 	done
 
 TrainerHouse1FCooltrainerMText:
-	text "Ciudad Verde es el"
-	line "pueblo más cerca-"
-	cont "no al Meseta Añil."
+	text "Ciudad Verde es la"
+	line "más cercana a la"
+	cont "Meseta Añil."
 
-	para "¡Se le conoce co-"
-	line "mo la puerta de"
+	para "¡Se le conoce como"
+	line "la puerta a la"
+	cont "Meseta Añil!"
 
-	para "acceso a la Mese-"
-	line "ta Añil!"
-
-	para "Construyeron este"
-	line "lugar porque por"
-
-	para "aquí pasan muchos"
-	line "entrenadores de"
-
-	para "camino a la Liga"
-	line "#mon."
-    done
+	para "Hicieron esto por"
+	line "los muchos que van"
+	cont "a la Liga #mon."
+	done
 
 TrainerHouse1FCooltrainerFText:
-	text "Aquí abajo se ce-"
-	line "lebran combates"
-	cont "de práctica."
+	text "Abajo se celebran"
+	line "combates de"
+	cont "práctica."
 
-	para "Me encantaría ver"
-	line "cómo combate un"
-
-	para "entrenador de"
-	line "Johto."
-    done
+	para "Me gustaría ver a"
+	line "un Entrenador de"
+	cont "Johto en acción."
+	done
 
 TrainerHouse1FYoungsterText:
-	text "Supongo que no se"
-	line "puede ser el Cam-"
-
-	para "peón a menos que"
-	line "viajes por todas"
-
-	para "partes y luches"
-	line "contra todo tipo"
-	cont "de gente."
+	text "No se puede ser"
+	line "Campeón si no"
+	cont "viajas por todos"
+	cont "lados a luchar."
 
 	para "El Campeón de"
-	line "Pueblo Paleta via-"
-
-	para "jó por todas las"
-	line "ciudades de Kanto."
-    done
+	line "Pueblo Paleta"
+	cont "viajó por todo"
+	cont "Kanto."
+	done
 
 TrainerHouse1FGentlemanText:
-	text "Uf… Estoy descan-"
-	line "sando de los com-"
-	cont "bates #mon."
-    done
+	text "Uf… Me tomo un"
+	line "descanso de las"
+	cont "luchas #mon."
+	done
 
 TrainerHouseSign1Text:
 	text "Los combates de"
-	line "práctica se cele-"
+	line "práctica se hacen"
+	cont "en la Sala de"
+	cont "abajo."
 
-	para "bran en la Sala"
-	line "de Entrenamiento"
-	cont "de abajo."
-
-	para "Se invita a par-"
-	line "ticipar a los ex-"
-	cont "pertos."
-    done
+	para "¡Se invita a los"
+	line "expertos a entrar!"
+	done
 
 TrainerHouseSign2Text:
-	text "No hay reglas ni"
-	line "normas en los com-"
+	text "No hay reglas en"
+	line "los combates de"
+	cont "práctica."
 
-	para "bates de práctica."
-	line "¡Como en el cam-"
-
-	para "po, todo vale!"
-    done
+	para "¡Como en el campo,"
+	line "todo vale!"
+	done
 
 TrainerHouseIllegibleText:
 	text "…¿Qué es esto?"
@@ -133,4 +111,4 @@ TrainerHouseIllegibleText:
 
 	para "Es totalmente"
 	line "ilegible…"
-    done
+	done

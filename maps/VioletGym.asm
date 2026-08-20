@@ -68,10 +68,9 @@ VioletGymFalknerScript:
 	jumpthisopenedtext
 
 	text "Al usar una MT, el"
-	line "#mon aprende"
-
-	para "un movimiento al"
-	line "instante."
+	line "#mon aprende un"
+	cont "movimiento al"
+	cont "instante."
 
 	para "¡Puedes usar las"
 	line "MT tantas veces"
@@ -80,11 +79,9 @@ VioletGymFalknerScript:
 	para "La MT51 contiene"
 	line "Respiro."
 
-	para "Aterriza en el"
-	line "suelo para recu-"
-
-	para "perar la mitad de"
-	line "los PS máximos."
+	para "Aterriza para"
+	line "recuperar la mitad"
+	cont "de los PS máx."
 	done
 
 GenericTrainerBird_keeperRod:
@@ -103,9 +100,7 @@ GenericTrainerBird_keeperAbe:
 
 	text "Qué patético,"
 	line "perder contra un"
-
-	para "entrenador nova-"
-	line "to…"
+	cont "novato…"
 	done
 
 VioletGymGuyScript:
@@ -113,25 +108,21 @@ VioletGymGuyScript:
 	iftrue_jumptextfaceplayer VioletGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "¡Hola! No soy en-"
-	line "trenador, ¡pero sé"
-	cont "dar buenos conse-"
-	cont "jos!"
+	text "¡Hola! No soy un"
+	line "entrenador, ¡pero"
+	cont "sé dar consejos!"
 
-	para "¡Créeme! Si crees"
-	line "en ti, el sueño"
+	para "¡Si confías en ti,"
+	line "tu sueño de ser"
+	cont "Campeón llegará!"
 
-	para "de ser Campeón se"
-	line "puede cumplir."
-
-	para "¿Tú crees en ti?"
-	line "Pues escucha."
+	para "¿Confías en ti?"
+	line "Pues atiende:"
 
 	para "El tipo Planta es"
-	line "débil contra el"
-
-	para "tipo Volador."
-	line "Recuérdalo bien."
+	line "muy débil contra"
+	cont "el tipo Volador."
+	cont "¡Recuérdalo bien!"
 	done
 
 VioletGymStatue:
@@ -151,22 +142,20 @@ FalknerIntroText:
 	line "del Gimnasio"
 	cont "#mon de Malva!"
 
-	para "Dicen que se pue-"
-	line "den cortar las"
+	para "La gente dice que"
+	line "basta una descarga"
 
-	para "alas a los #mon"
-	line "tipo Volador con"
-	cont "un ataq electrico…"
+	para "eléctrica para"
+	line "cortarle las alas"
+	cont "al tipo Volador…"
 
 	para "¡No toleraré tales"
 	line "insultos a los"
 	cont "#mon pájaro!"
 
 	para "¡Te mostraré el"
-	line "auténtico poder de"
-
-	para "los magníficos"
-	line "#mon pájaro!"
+	line "gran poder de los"
+	cont "#mon pájaro!"
 	done
 
 FalknerWinLossText:
@@ -184,12 +173,12 @@ FalknerWinLossText:
 
 FalknerZephyrBadgeText:
 	text "La Medalla Céfiro"
-	line "te permite"
+	line "hace que los"
+	cont "#mon"
 
-	para "dar órdenes a los"
-	line "#mon, intercam-"
-	cont "biados inclusive,"
-	cont "hasta el <LV>20."
+	para "intercambiados de"
+	line "hasta nivel 20"
+	cont "te obedezcan."
 
 	para "Oye, ¡toma esto"
 	line "también!"
@@ -204,22 +193,20 @@ FalknerFightDoneText:
 	line "prueba tu talento"
 	cont "en ellos."
 
-	para "¡Entrenaré más du-"
-	line "ro para ser el me-"
-
-	para "jor maestro de"
-	line "#mon pájaro!"
+	para "¡Entrenaré mucho"
+	line "más para ser el"
+	cont "mejor maestro de"
+	cont "#mon pájaro!"
 	done
 
 Bird_keeperRodSeenText:
 	text "¡La clave son las"
 	line "agallas!"
 
-	para "¡Los de aquí en-"
-	line "trenan noche y día"
-
-	para "para ser maestros"
-	line "de #mon pájaro!"
+	para "¡Aquí entrenamos"
+	line "noche y día para"
+	cont "ser maestros de"
+	cont "#mon pájaro!"
 
 	para "¡Vamos allá!"
 	done
@@ -242,9 +229,8 @@ Bird_keeperAbeBeatenText:
 VioletGymGuyWinText:
 	text "¡Buen combate!"
 	line "¡Sigue así y serás"
-
-	para "Campeón en un san-"
-	line "tiamén!"
+	cont "Campeón en un"
+	cont "santiamén!"
 	done
 
 VioletGymGuyFalknerAwayText:
@@ -252,12 +238,9 @@ VioletGymGuyFalknerAwayText:
 	line "retar a Pegaso"
 	cont "ahora mismo."
 
-	para "Está en Cueva Os-"
-	line "cura amansando a"
-
-	para "un Ursaring que"
-	line "atacó a un joven"
-	cont "entrenador."
+	para "Está en la Cueva"
+	line "Oscura amansando a"
+	cont "un Ursaring fiero."
 
 	para "Vuelve más tarde."
 	done

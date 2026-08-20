@@ -81,32 +81,25 @@ Route45Dragon_tamerScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "El arte de entre-"
-	line "nar #mon de"
-	cont "tipo Dragón es"
-	cont "algo maravilloso."
+	text "Criar #mon de"
+	line "tipo Dragón es"
+	cont "maravilloso."
 
-	para "Tú también debe-"
-	line "rías hacerte"
-	cont "Domadragón."
+	para "¡Deberías hacerte"
+	line "Domadragón!"
 	done
 
 .IntroText:
-	text "Estoy entrenando a"
-	line "mis dragones aquí."
+	text "Entreno aquí a"
+	line "mis dragones."
 
-	para "¿Eh? ¿Un combate?"
-	line "Quiero un combate"
-	cont "de verdad,"
+	para "¿Un combate? ¡Solo"
+	line "si es de verdad!"
 
-	para "así que demuéstra-"
-	line "me tu fuerza."
-
-	para "Vence a todos los"
-	line "entrenadores de"
-
-	para "esta ruta y lucha-"
-	line "ré contigo."
+	para "Demuestra tu valía"
+	line "venciendo a todos"
+	cont "en esta ruta y"
+	cont "lucharé contigo."
 	done
 
 .QuestionText:
@@ -121,15 +114,14 @@ Route45Dragon_tamerScript:
 
 .RefusedText:
 	text "Sin problema."
-	line "Seguiré entrenan-"
-	cont "do por aquí."
+	line "Seguiré con mi"
+	cont "entrenamiento."
 	done
 
 .SeenText:
 	text "¡A ver si aguantas"
-	line "la férrea concen-"
-	cont "tración de mis"
-	cont "dragones!"
+	line "el gran poder de"
+	cont "mis dragones!"
 
 	para "¡Adelante,"
 	line "Dragonite!"
@@ -143,8 +135,8 @@ Route45Dragon_tamerScript:
 	done
 
 .AfterText1:
-	text "¡Tu fuerza rivali-"
-	line "za con la mía!"
+	text "¡Tu fuerza iguala"
+	line "a la mía!"
 
 	para "Toma esto. Te lo"
 	line "has merecido."
@@ -153,8 +145,9 @@ Route45Dragon_tamerScript:
 GenericTrainerBattleGirlNozomi:
 	generictrainer BATTLE_GIRL, NOZOMI, EVENT_BEAT_BATTLE_GIRL_NOZOMI, BattleGirlNozomiSeenText, BattleGirlNozomiBeatenText
 
-	text "Thanks for the"
-	line "workout, <PLAYER>!"
+	text "¡Gracias por este"
+	line "entrenamiento,"
+	cont "<PLAYER>!"
 	done
 
 TrainerBlackbeltKenji:
@@ -276,9 +269,8 @@ GenericTrainerHikerMichael:
 	line "me gusta Más PS!"
 	cont "¡Mmm, qué rico!"
 
-	para "¡No paro de beber-"
-	line "me el de mis"
-	cont "#mon!"
+	para "¡Me bebo todo el"
+	line "de mis #mon!"
 
 	para "¡Es que no puedo"
 	line "evitarlo!"
@@ -386,11 +378,9 @@ GenericTrainerCooltrainermRyan:
 	line "tus #mon con"
 	cont "mucho esmero."
 
-	para "El vínculo que"
-	line "creas te salvará"
-
-	para "en situaciones"
-	line "difíciles."
+	para "Ese gran vínculo"
+	line "te salvará en"
+	cont "apuros difíciles."
 	done
 
 GenericTrainerCooltrainerfKelly:
@@ -417,9 +407,8 @@ GenericTrainerCamperQuentin:
 	done
 
 BattleGirlNozomiSeenText:
-	text "¡Este no es lugar"
-	line "para #mon débi-"
-	cont "les!"
+	text "¡Aquí no caben los"
+	line "#mon débiles!"
 	done
 
 BattleGirlNozomiBeatenText:
@@ -441,8 +430,8 @@ HikerErikBeatenText:
 	done
 
 HikerMichaelSeenText:
-	text "¡Epa! ¡Tienes mu-"
-	line "chas agallas!"
+	text "¡Epa! ¡Tienes"
+	line "muchas agallas!"
 
 	para "¡Pero en agallas"
 	line "el amo soy yo!"
@@ -492,14 +481,11 @@ HikerTimothyBeatenText:
 HikerParryGivesIronText:
 	text "¡No encuentro la"
 	line "forma de ganar!"
-
-	para "¡Sigue así!"
+	cont "¡Sigue así!"
 
 	para "Ah, toma esto:"
-	line "es el regalo que"
-
-	para "no pudiste llevar-"
-	line "te la otra vez."
+	line "el regalo que no"
+	cont "te pudiste llevar."
 	done
 
 BlackbeltKenji1SeenText:
@@ -515,14 +501,12 @@ BlackbeltKenji1BeatenText:
 	done
 
 BlackbeltKenjiAfterBattleText:
-	text "Esto requiere me-"
-	line "didas extremas."
+	text "Esto pide medidas"
+	line "extremas."
 
-	para "Debo adentrarme"
-	line "en los montes y"
-
-	para "entrenar en sole-"
-	line "dad."
+	para "Debo internarme"
+	line "en los montes a"
+	cont "entrenar a solas."
 	done
 
 CooltrainermRyanSeenText:
@@ -537,17 +521,17 @@ CooltrainermRyanBeatenText:
 	done
 
 CooltrainerfKellySeenText:
-	text "¿Cuál es tu estra-"
-	line "tegia de combate?"
+	text "¿Cuál es tu plan"
+	line "de combate?"
 
-	para "Es una insensatez"
-	line "usar ataques fuer-"
-	cont "tes a lo loco."
+	para "Es insensato usar"
+	line "ataques fuertes a"
+	cont "lo loco."
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Está bien. He per-"
-	line "dido."
+	text "Está bien. ¡He"
+	line "perdido!"
 	done
 
 CamperQuentinSeenText:
@@ -560,8 +544,8 @@ CamperQuentinSeenText:
 	done
 
 CamperQuentinBeatenText:
-	text "En la Torre Bata-"
-	line "lla era fuerte…"
+	text "¡En Torre Batalla"
+	line "yo era fuerte…!"
 	done
 
 Route45SignText:

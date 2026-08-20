@@ -115,24 +115,19 @@ Route43SightseerfScript:
 	done
 
 .IntroText:
-	text "Busco a entrena-"
-	line "dores fuertes en"
+	text "Busco rivales"
+	line "fuertes en Johto,"
+	cont "pero no hay nadie."
 
-	para "Johto, pero no he"
-	line "hallado a ninguno."
-
-	para "Mmm… Pareces pro-"
-	line "meter."
+	para "Mmm… Pareces ser"
+	line "alguien capaz."
 
 	para "Puedo verlo en"
 	line "tus ojos."
 
 	para "Luchemos, pero"
-	line "primero quiero ver"
-
-	para "cómo dominas esta"
-	line "ruta venciendo a"
-	cont "todos los demás."
+	line "antes vence a los"
+	cont "demás de la ruta."
 	done
 
 .QuestionText:
@@ -145,8 +140,8 @@ Route43SightseerfScript:
 	done
 
 .RefusedText:
-	text "Vaya… ¡Con las ga-"
-	line "nas que tenía!"
+	text "Vaya… ¡Qué pena!"
+	line "¡Tenía ganas!"
 
 	para "¡No me hagas"
 	line "esperar!"
@@ -169,28 +164,24 @@ Route43SightseerfScript:
 .AfterText1:
 	text "¡Guau! ¡Por fin he"
 	line "hallado lo que"
-	cont "estaba buscando!"
+	cont "buscaba!"
 
-	para "Te daré una Llana-"
-	line "sfera, pero ten"
-
-	para "cuidado al equi-"
-	line "pársela a un"
-	cont "#mon."
+	para "Te daré una"
+	line "Llamasfera, pero"
+	cont "ten cuidado al"
+	cont "equiparla."
 	done
 
 GenericTrainerBreederJody:
 	generictrainer BREEDER, JODY, EVENT_BEAT_BREEDER_JODY, BreederJodySeenText, BreederJodyBeatenText
 
 	text "A veces un #mon"
-	line "bebé puede heredar"
-
-	para "un movimiento de"
-	line "su padre,"
+	line "bebé hereda un"
+	cont "ataque del padre,"
 
 	para "incluso uno que no"
-	line "aprendería de for-"
-	cont "ma normal."
+	line "aprendería de modo"
+	cont "habitual."
 	done
 
 GenericTrainerSrandjrIvyandamy1:
@@ -198,9 +189,8 @@ GenericTrainerSrandjrIvyandamy1:
 
 	text "Irene: No quiero"
 	line "que mi alumna crea"
-
-	para "que no puedo ayu-"
-	line "darla."
+	cont "que no puedo"
+	cont "ayudarla."
 	done
 
 GenericTrainerSrandjrIvyandamy2:
@@ -208,17 +198,15 @@ GenericTrainerSrandjrIvyandamy2:
 
 	text "Amy: Espero que mi"
 	line "tutora haya visto"
-
-	para "lo mucho que me he"
-	line "esforzado."
+	cont "lo mucho que me he"
+	cont "esforzado."
 	done
 
 GenericTrainerCamperSpencer:
 	generictrainer CAMPER, SPENCER, EVENT_BEAT_CAMPER_SPENCER, CamperSpencerSeenText, CamperSpencerBeatenText
 
-	text "¿Qué estará pasan-"
-	line "do en el Lago de"
-	cont "la Furia?"
+	text "¿Qué pasará en el"
+	line "Lago de la Furia?"
 
 	para "Teníamos planeado"
 	line "acampar allí."
@@ -354,13 +342,11 @@ GenericTrainerFisherMarvin:
 
 	text "La Cebo Ball de"
 	line "César es la mejor"
+	cont "para atrapar a los"
+	cont "#mon pescados."
 
-	para "para atrapar #-"
-	line "mon pescados."
-
-	para "¡Es mucho más efi-"
-	line "caz que una Ultra"
-	cont "Ball!"
+	para "¡Es mucho mejor"
+	line "que la Ultra Ball!"
 	done
 
 TrainerPicnickerTiffany1:
@@ -506,8 +492,8 @@ PokemaniacBenBeatenText:
 	done
 
 PokemaniacBrent1SeenText:
-	text "¡Oye! ¿Tienes al-"
-	line "gún #mon raro?"
+	text "¡Oye! ¿Tienes un"
+	line "#mon raro?"
 	done
 
 PokemaniacBrent1BeatenText:
@@ -517,8 +503,8 @@ PokemaniacBrent1BeatenText:
 
 PokemaniacBrentAfterBattleText:
 	text "Sería feliz solo"
-	line "con tener un #-"
-	cont "mon raro."
+	line "con tener algún"
+	cont "#mon raro."
 	done
 
 PokemaniacRonSeenText:
@@ -529,9 +515,9 @@ PokemaniacRonSeenText:
 	line "burló de mis"
 	cont "#mon!"
 
-	para "¡Maldita sea! ¡Mis"
-	line "#mon son genia-"
-	cont "les!"
+	para "¡Maldición! ¡Mis"
+	line "#mon son"
+	cont "geniales!"
 	done
 
 PokemaniacRonBeatenText:
@@ -543,9 +529,8 @@ FisherMarvinSeenText:
 	text "Estoy en mala"
 	line "racha."
 
-	para "Quizá sea el equi-"
-	line "po que estoy usan-"
-	cont "do."
+	para "Quizá sea por el"
+	line "equipo que uso."
 
 	para "¡Luchemos para"
 	line "cambiar de aires!"
@@ -583,8 +568,8 @@ PicnickerTiffanyWantsPicnicText:
 	text "Hago un picnic con"
 	line "mis #mon."
 
-	para "¿No te unes a no-"
-	line "sotros?"
+	para "¿Por qué no te"
+	line "unes a nosotros?"
 	done
 
 
@@ -597,21 +582,21 @@ BreederJodySeenText:
 	done
 
 BreederJodyBeatenText:
-	text "¡He perdido de to-"
-	line "das formas!"
+	text "¡He perdido de"
+	line "todas formas!"
 	done
 
 SrandjrIvyandamy1SeenText:
-	text "Irene: ¡Le mostra-"
-	line "ré a mi alumna"
-	cont "cómo se hace!"
+	text "Irene: ¡Enseñaré a"
+	line "mi alumna cómo"
+	cont "se hace!"
 	done
 
 SrandjrIvyandamy1BeatenText:
-	text "Irene: Me has de-"
-	line "jado en evidencia"
+	text "Irene: ¡Qué gran"
+	line "vergüenza…!"
 
-	para "delante de mi"
+	para "Delante de mi"
 	line "alumna…"
 	done
 
@@ -622,8 +607,8 @@ SrandjrIvyandamy2SeenText:
 	done
 
 SrandjrIvyandamy2BeatenText:
-	text "Amy: No hemos po-"
-	line "dido…"
+	text "Amy: ¡No hemos"
+	line "podido…!"
 	done
 
 Route43Sign1Text:
@@ -644,22 +629,17 @@ Route43TrainerTipsText:
 	text "Pistas Entrenador"
 
 	para "Los #mon tienen"
-	line "ventajas y desven-"
-	cont "tajas según su"
-	cont "tipo."
+	line "ventajas según"
+	cont "su tipo."
 
-	para "Por los tipos, un"
-	line "#mon de mayor"
-
-	para "nivel puede perder"
-	line "un combate."
+	para "Por las ventajas,"
+	line "un #mon con más"
+	cont "nivel puede perder"
+	cont "un combate."
 
 	para "Aprende qué tipos"
-	line "son fuertes y dé-"
-
-	para "biles contra el"
-	line "tipo de tu"
-	cont "#mon."
+	line "son fuertes o no"
+	cont "contra los tuyos."
 	done
 
 Route43AdvancedTipsText:

@@ -28,15 +28,15 @@ SeafoamIslandsB2F_MapScriptHeader:
 GenericTrainerSkierCady:
 	generictrainer SKIER, CADY, EVENT_BEAT_SKIER_CADY, SkierCadySeenText, SkierCadyBeatenText
 
-	text "¡Ha sido un com-"
-	line "bate ardiente!"
+	text "¡Ha sido un duelo"
+	line "muy ardiente!"
 	done
 
 GenericTrainerBoarderShaun:
 	generictrainer BOARDER, SHAUN, EVENT_BEAT_BOARDER_SHAUN, BoarderShaunSeenText, BoarderShaunBeatenText
 
-	text "¡De acuerdo, pue-"
-	line "des pasar!"
+	text "¡De acuerdo, pasa"
+	line "si quieres!"
 	done
 
 GenericTrainerBoarderBryce:
@@ -47,9 +47,9 @@ GenericTrainerBoarderBryce:
 	done
 
 SkierCadySeenText:
-	text "¡Para el frío, ro-"
-	line "pa de abrigo y una"
-	cont "bebida caliente!"
+	text "¡Para el frío,"
+	line "abrigo y bebida"
+	cont "muy caliente!"
 	done
 
 SkierCadyBeatenText:

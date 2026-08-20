@@ -87,9 +87,8 @@ FarmerMScript_SellMilk:
 .BagFull:
 	jumpthisopenedtext
 
-	text "Me parece que lle-"
-	line "vas la Mochila"
-	cont "llena."
+	text "Parece que tienes"
+	line "la Mochila llena."
 	done
 
 .MenuDataHeader:
@@ -121,14 +120,12 @@ PokefanF_AcrobaticsFarmer:
 	iftruefwd .GiveAcrobatics
 	jumpthisopenedtext
 
-	text "Nuestra leche lle-"
-	line "ga hasta Kanto."
+	text "Nuestra leche"
+	line "llega a Kanto."
 
-	para "Si nuestras Mil-"
-	line "tank no nos dan"
-
-	para "leche, tenemos un"
-	line "gran problema."
+	para "Si las Miltank no"
+	line "dan leche, hay un"
+	cont "gran problema."
 	done
 
 .GiveAcrobatics:
@@ -143,8 +140,9 @@ PokefanF_AcrobaticsFarmer:
 	line "Acróbata!"
 
 	para "Hace más daño si"
-	line "tu #mon no tie-"
-	cont "ne ningún objeto."
+	line "tu #mon no"
+	cont "lleva ningún"
+	cont "objeto."
 
 	para "Será mejor que"
 	line "pienses bien cómo"
@@ -156,29 +154,24 @@ FarmerMText_SickCow:
 	line "me da más leche."
 
 	para "La leche de esta"
-	line "Granja es famosa."
+	line "Granja es famosa,"
+	cont "todos la quieren."
 
-	para "Casi todo el mundo"
-	line "quiere probarla."
-
-	para "Dará un montón de"
-	line "leche si le doy"
-
-	para "muchas Bayas, me"
-	line "parece a mí."
+	para "Dará más leche si"
+	line "le doy bastantes"
+	cont "Bayas, creo yo."
 	done
 
 FarmerMText_BuyMilk:
-	text "¿Qué tal te ven-"
-	line "dría mi Leche"
-	cont "Mu-mu?"
+	text "¿Te apetece una"
+	line "rica Leche Mu-mu?"
 
-	para "Es mi mayor orgu-"
-	line "llo y alegría."
+	para "Es mi gran orgullo"
+	line "y alegría."
 
 	para "¡Dásela a tus"
-	line "#mon para"
-	cont "recuperar PS!"
+	line "#mon para que"
+	cont "recuperen PS!"
 
 	para "Te la dejaré por"
 	line "solo ¥500."

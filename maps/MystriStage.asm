@@ -178,8 +178,9 @@ MystriStageCynthiaSpeechText:
 
 	para "Estamos en el"
 	line "Estrado Mistrío."
-	cont "Antaño celebraban"
-	cont "aquí con música."
+
+	para "Antaño celebraban"
+	line "aquí con música."
 
 	para "Cintia: Estudio"
 	line "los mitos sobre"
@@ -190,8 +191,8 @@ MystriStageCynthiaSpeechText:
 	cont "poder del creador."
 
 	para "Habla de cuando"
-	line "“el líder suba al"
-	cont "Estrado Mistrío…”"
+	line "el elegido suba al"
+	cont "Estrado Mistrío…"
 	done
 
 MystriStageCynthiaLeadText2:
@@ -202,8 +203,8 @@ MystriStageCynthiaLeadText2:
 	para "Es de lo más"
 	line "intrigante."
 
-	para "¿Podría ser ese"
-	line "líder un #mon?"
+	para "Ese elegido será"
+	line "un #mon?"
 	cont "¿O una persona?"
 	done
 

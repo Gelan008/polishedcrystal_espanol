@@ -25,16 +25,13 @@ PokemonJournalProfWillowScript:
 	para "Edición especial:"
 	line "¡Prof. Willow!"
 
-	para "Se dice que el"
-	line "sueño del Prof."
+	para "El gran sueño del"
+	line "Profesor Willow es"
+	cont "viajar a tierras"
+	cont "inexploradas y"
 
-	para "Willow es explo-"
-	line "rar tierras inex-"
-
-	para "ploradas y docu-"
-	line "mentar especies de"
-
-	para "#mon descono-"
-	line "cidas en su hábi-"
-	cont "tat natural."
+	para "documentar a los"
+	line "#mon en su"
+	cont "propio hábitat"
+	cont "natural."
 	done

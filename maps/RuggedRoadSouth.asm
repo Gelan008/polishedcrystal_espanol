@@ -71,17 +71,13 @@ RuggedRoadSouth_FinishBridge:
 RuggedRoadSouthAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "Si tu #mon de-"
-	line "bilita al rival"
-
-	para "y lleva un objeto"
-	line "Recio que aumenta"
-	cont "el esfuerzo,"
+	para "Si tu #mon"
+	line "vence a un rival"
+	cont "y lleva un objeto"
+	cont "Recio de esfuerzo,"
 
 	para "¡todo #mon que"
 	line "haya participado"
-
-	para "o que lleve"
-	line "Repartir Exp."
-	cont "también lo ganará!"
+	cont "o con Repartir"
+	cont "Exp. lo ganará!"
 	done

@@ -181,9 +181,8 @@ SnowtopMountainOutsideStopPanningMovement:
 	step_end
 
 SnowtopMountainOutsideOutlookText:
-	text "¡Se puede ver Ciu-"
-	line "dad Olivo desde"
-	cont "aquí!"
+	text "¡Se ve Ciudad"
+	line "Olivo desde aquí!"
 
 	para "¿Quieres echar un"
 	line "vistazo?"

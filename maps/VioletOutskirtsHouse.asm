@@ -90,18 +90,16 @@ VioletOutskirtsHouseCaretakerScript:
 	para "Guiaba a las almas"
 	line "al más allá…"
 
-	para "Mientras yo cui-"
-	line "daba de sus tum-"
-	cont "bas…"
+	para "Y yo cuidaba de"
+	line "sus tumbas…"
 
 	para "…… ……"
 
 	para "Hace tanto tiempo"
 	line "de aquello…"
 
-	para "Ya nadie viene a"
-	line "visitar este lu-"
-	cont "gar…"
+	para "Ya nadie visita"
+	line "este lugar…"
 
 	para "Las tumbas están"
 	line "abandonadas…"
@@ -163,7 +161,6 @@ VioletOutskirtsHouseDustText:
 	done
 
 VioletOutskirtsHouseNotAloneText:
-	text "Sientes que algo"
-	line "te está observan-"
-	cont "do…"
+	text "Sientes que te"
+	line "están observando…"
 	done

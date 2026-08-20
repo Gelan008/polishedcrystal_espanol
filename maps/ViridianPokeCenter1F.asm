@@ -25,15 +25,14 @@ PokemonJournalBlueScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Líder Azul!"
 
 	para "Cuentan que Azul"
-	line "visita a sus que-"
-	cont "ridos #mon"
-
-	para "cada año en la"
-	line "Casa de las Almas."
+	line "visita a sus"
+	cont "#mon queridos"
+	cont "cada año en la"
+	cont "Casa de las Almas."
 	done
 
 ViridianPokeCenter1FCooltrainermScript:
@@ -43,20 +42,17 @@ ViridianPokeCenter1FCooltrainermScript:
 
 	text "¿Dónde narices se"
 	line "ha metido el Líder"
-
-	para "de Ciudad Verde?"
-	line "Quería retarle."
+	cont "de Ciudad Verde?"
+	cont "Quería retarle."
 	done
 
 .BlueText:
 	text "Hay entrenadores"
 	line "muy fuertes en el"
+	cont "Gimnasio Verde."
 
-	para "Gimnasio de Ciudad"
-	line "Verde."
-
-	para "¡Algún día me uni-"
-	line "ré a ellos!"
+	para "¡Algún día me"
+	line "uniré a ellos!"
 	done
 
 ViridianPokeCenter1FCooltrainerfText:

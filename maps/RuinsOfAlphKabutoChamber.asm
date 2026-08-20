@@ -136,15 +136,14 @@ MapRuinsofAlphKabutoChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Te damos la bien-"
-	line "venida a esta"
-	cont "cámara."
+	text "¡Te damos la"
+	line "bienvenida a esta"
+	cont "cámara!"
 
-	para "Hay paneles desli-"
-	line "zantes con un"
+	para "Hay paneles que se"
+	line "mueven con un"
 	cont "#mon dibujado"
 	cont "por antepasados."
-
 
 	para "Mueve los paneles"
 	line "para recomponer la"
@@ -155,10 +154,9 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	cont "del #mon."
 
 	para "Los científicos"
-	line "del fondo examinan"
-
-	para "nuevos dibujos re-"
-	line "cién descubiertos."
+	line "del fondo estudian"
+	cont "nuevos dibujos ya"
+	cont "descubiertos."
 	done
 
 RuinsOfAlphKabutoChamberScientistCrypticText:
@@ -177,8 +175,7 @@ RuinsOfAlphKabutoChamberScientistCrypticText:
 
 RuinsOfAlphKabutoChamberScientistHoleText:
 	text "¡Ah! ¡Aquí hay"
-	line "otro enorme agu-"
-	cont "jero!"
+	line "otro gran agujero!"
 
 	para "¡Es tan grande que"
 	line "se puede pasar!"

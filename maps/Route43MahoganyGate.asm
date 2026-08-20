@@ -23,10 +23,8 @@ Route43MahoganyGateOfficer:
 
 	text "Últimamente solo"
 	line "pasa por aquí"
-
-	para "gente que va hacia"
-	line "el Lago de la"
-	cont "Furia."
+	cont "gente hacia el"
+	cont "Lago de la Furia."
 	done
 
 Route43MahoganyGateOfficerRocketsClearedText:

@@ -252,12 +252,12 @@ RocketScientistMarcBeatenText:
 
 RadioTower3FCardKeySlotText:
 	text "Es la ranura para"
-	line "la Tarjeta Llave."
+	line "la Llave Magnét."
 	done
 
 InsertedTheCardKeyText:
 	text "<PLAYER> insertó"
-	line "la Tarjeta Llave."
+	line "la Llave Magnét."
 	done
 
 RadioTower3FPersonnelSignText:

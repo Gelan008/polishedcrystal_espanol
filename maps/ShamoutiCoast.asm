@@ -80,9 +80,8 @@ GenericTrainerFisherDallas:
 
 	text "Da igual dónde"
 	line "pesque, no paro de"
-
-	para "sacar Chapas"
-	line "Plateadas."
+	cont "sacar Chapas"
+	cont "Plateadas."
 
 	para "¡Me saca de"
 	line "quicio!"
@@ -103,11 +102,10 @@ GenericTrainerSightseerfPilar:
 	text "¡Qué fuertes son"
 	line "tus #mon!"
 
-	para "Debes de haber"
+	para "Has de haber"
 	line "viajado un montón"
-
-	para "para tener tanta"
-	line "experiencia."
+	cont "para tener tanta"
+	cont "experiencia."
 	done
 
 .SeenText:
@@ -165,10 +163,9 @@ TrainerSwimmermAshe:
 	line "nadar en absoluto."
 
 	para "¡Ahora nado tanto"
-	line "que casi ni me"
-
-	para "acuerdo de lo que"
-	line "hacía antes! ¡Ja!"
+	line "que ni me acuerdo"
+	cont "de lo que hacía"
+	cont "antes! ¡Ja!"
 	done
 
 .SeenText:

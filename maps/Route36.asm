@@ -137,28 +137,21 @@ Route36FloriaScript:
 	text "¡Soy Floria, de la"
 	line "Floristería!"
 
-	para "¡Oye, oye!"
+	para "¡Oye, escucha!"
+	line "Al regar ese árbol"
+	cont "que se menea,"
+	cont "¡se retorció!"
 
-	para "Cuando le eché"
-	line "agua a ese árbol"
+	para "¡Tiene que ser un"
+	line "#mon seguro!"
 
-	para "que se menea,"
-	line "¡dio un respingo!"
+	para "¡Si lo empapas,"
+	line "seguro que saldrá"
+	cont "de su escondite!"
 
-	para "Tiene que ser un"
-	line "#mon seguro."
-
-	para "¡Seguro que si lo"
-	line "empapas bien,"
-
-	para "saldrá de su"
-	line "escondite!"
-
-	para "¡Ya sé! ¡Se lo di-"
-	line "ré a mi hermana y"
-
-	para "le pediré la"
-	line "Regadera!"
+	para "¡Le pediré la"
+	line "Regadera a mi"
+	cont "hermana!"
 	done
 
 Route36RockSmashGuyScript:
@@ -176,9 +169,8 @@ Route36RockSmashGuyScript:
 	line "árbol con mi golpe"
 	cont "directo!"
 
-	para "¡Pero no he podi-"
-	line "do! ¡Soy un fraca-"
-	cont "sado!"
+	para "¡Pero no pude!"
+	line "¡Qué fracaso!"
 	done
 
 .ClearedSudowoodo:
@@ -196,11 +188,9 @@ else
 	line "Demolición."
 endc
 
-	para "Puedes hacer pe-"
-	line "dazos las rocas"
-
-	para "de un solo golpe"
-	line "bien dado."
+	para "Podrás hacer"
+	line "pedazos las rocas"
+	cont "de un solo golpe."
 
 	para "Si hay rocas en"
 	line "tu camino,"
@@ -216,15 +206,13 @@ Route36LassScript:
 	iftrue_jumptextfaceplayer Route36LassText_ClearedSudowoodo
 	jumpthistextfaceplayer
 
-	text "Un árbol raro cor-"
-	line "ta el paso hacia"
+	text "Un árbol raro"
+	line "corta el paso a"
 	cont "Ciudad Trigal."
 
 	para "Quería ir a ver el"
-	line "enorme Centro"
-
-	para "#mon que acaban"
-	line "de inaugurar…"
+	line "gran Centro#mon"
+	cont "recién abierto…"
 	done
 
 TrainerSchoolboyAlan1:
@@ -381,45 +369,35 @@ Route36CooltrainerfChiaraScript:
 
 .AfterText2:
 	text "Con tu nivel, no"
-	line "seré el único en-"
-
-	para "trenador de élite"
-	line "que quiera poner-"
-	cont "te a prueba."
+	line "seré la única que"
+	cont "quiera ponerte a"
+	cont "prueba."
 	done
 
 .IntroText:
-	text "Vi cómo desper-"
-	line "taste a Sudowoodo."
+	text "¡Vi cómo lograste"
+	line "despertar a"
+	cont "Sudowoodo! ¡Mola!"
 
-	para "¡Fue genial!"
+	para "Y tienes Medalla"
+	line "Planicie, ¡igual"
+	cont "que yo!"
 
-	para "Y tienes una Me-"
-	line "dalla Planicie."
-	cont "¡Yo también!"
-
-	para "¿Qué te parece"
-	line "esto? Vence a los"
-
-	para "entrenadores de"
-	line "las Rutas 36 y 37."
-
-	para "¡Y luego lucharé"
-	line "contigo!"
+	para "Vence a los demás"
+	line "en Rutas 36 y 37,"
+	cont "¡y lucharemos!"
 	done
 
 .QuestionText:
-	text "Así que has ven-"
-	line "cido a todos los"
-	cont "demás de la zona."
+	text "Así que venciste a"
+	line "todos por aquí."
 
-	para "¡Ha llegado la ho-"
-	line "ra de nuestro due-"
-	cont "lo decisivo!"
+	para "¡Llegó la hora de"
+	line "nuestro duelo!"
 
-	para "Uso una Banda Ata-"
-	line "dura para aumen-"
-	cont "tar mi ventaja."
+	para "Uso Banda Atadura"
+	line "para tener más"
+	cont "ventaja."
 
 	para "¿Crees que estás a"
 	line "la altura?"
@@ -432,8 +410,8 @@ Route36CooltrainerfChiaraScript:
 	done
 
 .SeenText:
-	text "¡No aguantarás mu-"
-	line "cho contra mi"
+	text "¡No resistirás"
+	line "contra mi gran"
 	cont "técnica!"
 	done
 
@@ -466,8 +444,8 @@ GenericTrainerPsychicMark:
 GenericTrainerSchoolgirlMolly:
 	generictrainer SCHOOLGIRL, MOLLY, EVENT_BEAT_SCHOOLGIRL_MOLLY, SchoolgirlMollySeenText, SchoolgirlMollyBeatenText
 
-	text "Aún me queda mu-"
-	line "cho por aprender."
+	text "Aún me queda tanto"
+	line "por aprender…"
 	done
 
 ArthurScript:
@@ -492,13 +470,12 @@ ArthurScript:
 
 	text "Juan: Si un"
 	line "#mon usa"
-	cont "movimientos de"
+	cont "ataques de tipo"
+	cont "Roca, dale este"
+	cont "objeto."
 
-	para "tipo Roca,"
-	line "debería llevarla."
-
-	para "¡Potencia los ata-"
-	line "ques de tipo Roca!"
+	para "¡Aumenta el poder"
+	line "del tipo Roca!"
 	done
 
 .AlreadyGotStone:
@@ -511,8 +488,7 @@ ArthurNotThursdayScript:
 	jumpthisopenedtext
 
 	text "Juan: Hoy no es"
-	line "jueves. Qué lásti-"
-	cont "ma."
+	line "jueves. ¡Qué pena!"
 	done
 
 WeirdTreeMovement_Flee:
@@ -578,53 +554,47 @@ FloriaTextAfterSquirtBottle:
 	text "¡Soy Floria, de la"
 	line "Floristería!"
 
-	para "Cuando le hablé a"
-	line "mi hermana del ár-"
+	para "Le hablé a mi"
+	line "hermana del árbol"
+	cont "y dijo que era"
+	cont "muy peligroso."
 
-	para "bol que se menea,"
-	line "me dijo que era"
-	cont "peligroso."
-
-	para "¡Anda, te ha pres-"
-	line "tado la Regadera!"
+	para "¡Anda, te prestó"
+	line "la Regadera!"
 
 	para "¡Debes de ser muy"
 	line "buen entrenador!"
 
-	para "Te dejo a ti lo"
+	para "Te encargo a ti lo"
 	line "del árbol raro."
 
 	para "¡Chao!"
 	done
 
 FloriaTextAfterSudowoodo:
-	text "¡Sabía que ese ár-"
-	line "bol que se menea"
-	cont "era un #mon!"
+	text "¡Ese árbol que se"
+	line "menea sí que era"
+	cont "un #mon!"
 
 	para "¡Iba a sacarlo de"
 	line "su escondite, pero"
-
-	para "te me has adelan-"
-	line "tado!"
+	cont "te me adelantaste!"
 
 	para "En fin, vuelvo a"
 	line "la Floristería."
 
 	para "Por cierto, soy"
-	line "Floria."
-
-	para "¡Chao!"
+	line "Floria. ¡Chao!"
 	done
 
 
 RockSmashGuyText2:
-	text "¿Quitaste ese ár-"
-	line "bol tan dichoso?"
+	text "¿Quitaste ese"
+	line "árbol tan dichoso?"
 
-	para "¡Me has dejado im-"
-	line "presionado! Quiero"
-	cont "que tengas esto."
+	para "¡Estoy asombrado!"
+	line "Quiero que tengas"
+	cont "este regalo."
 	done
 
 
@@ -659,8 +629,8 @@ SchoolgirlMollyBeatenText:
 	done
 
 SchoolboyAlan1SeenText:
-	text "¡Gracias a mis es-"
-	line "tudios, puedo con"
+	text "¡Mis estudios me"
+	line "permiten ganar a"
 	cont "cualquier #mon!"
 	done
 
@@ -714,47 +684,34 @@ RuinsOfAlphNorthSignText:
 Route36TrainerTips1Text:
 	text "Pistas Entrenador"
 
-	para "Las característi-"
-	line "cas de los #mon"
+	para "Los rasgos de los"
+	line "#mon varían aun"
+	cont "en la misma clase."
 
-	para "varían, incluso"
-	line "dentro de la misma"
-	cont "especie."
-
-	para "Al principio pue-"
-	line "den ser parecidas,"
-
-	para "pero las diferen-"
-	line "cias se notarán a"
-
-	para "medida que los"
-	line "#mon crezcan."
+	para "Aunque parezcan"
+	line "iguales, se verá"
+	cont "su diferencia al"
+	cont "ir creciendo."
 	done
 
 Route36TrainerTips2Text:
 	text "Pistas Entrenador"
 
 	para "Usa Excavar para"
-	line "volver a la entra-"
-	cont "da de cualquier"
-	cont "lugar."
+	line "volver a la boca"
+	cont "de una cueva."
 
 	para "Es muy útil para"
-	line "explorar cuevas y"
-
-	para "otros lugares de"
-	line "interés."
+	line "explorar zonas."
 	done
 
 Route36AdvancedTips1Text:
 	text "¡Consejo Avanzado!"
 
-	para "¡Puedes elegir en-"
-	line "tre veinte marcos"
-
-	para "de diálogo y ocho"
-	line "tipografías en las"
-	cont "Opciones!"
+	para "¡Elige entre 20"
+	line "marcos de diálogo"
+	cont "y 8 tipografías"
+	cont "en Opciones!"
 	done
 
 Route36AdvancedTips2Text:
@@ -762,11 +719,9 @@ Route36AdvancedTips2Text:
 
 	para "¡Si mimas a tus"
 	line "#mon con cortes"
-
-	para "de pelo, bendicio-"
-	line "nes o masajes,"
+	cont "de pelo o masajes,"
 
 	para "¡te ayudarán en el"
 	line "combate gracias a"
-	cont "su afecto!"
+	cont "su gran afecto!"
 	done

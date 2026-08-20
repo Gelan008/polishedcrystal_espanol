@@ -34,12 +34,9 @@ WardensGranddaughter:
 
 	text "Mucha gente se"
 	line "decepcionó por el"
-
-	para "cierre de la Zona"
-	line "Safari, pero mi"
-
-	para "abuelo es muy ca-"
-	line "bezota…"
+	cont "cierre del Safari,"
+	cont "pero mi abuelo es"
+	cont "muy cabezota…"
 	done
 
 WardensGranddaughterText1:
@@ -51,35 +48,31 @@ WardensGranddaughterText1:
 
 	para "Decidió irse de"
 	line "vacaciones y se"
-
-	para "marchó al extran-"
-	line "jero él solo."
+	cont "fue al extranjero"
+	cont "él solo."
 
 	para "Dejó de dirigir la"
-	line "Zona Safari así"
-	cont "como si nada."
+	line "Zona Safari como"
+	cont "si nada."
 	done
 
 WardenPhotoText:
 	text "Es la foto de un"
 	line "anciano sonriente"
-
-	para "rodeado de"
-	line "#mon."
+	cont "rodeado de"
+	cont "#mon."
 	done
 
 SafariZonePhotoText:
 	text "Es la foto de una"
 	line "enorme llanura de"
-
-	para "hierba con #mon"
-	line "raros retozando."
+	cont "hierba con #mon"
+	cont "raros retozando."
 	done
 
 WardensHouseCuriosText:
-	text "Es una vitrina"
-	line "llena de fósiles"
-
-	para "y artículos anti-"
-	line "guos de #mon."
+	text "Es una vitrina con"
+	line "fósiles y objetos"
+	cont "antiguos de"
+	cont "#mon."
 	done

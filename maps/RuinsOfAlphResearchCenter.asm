@@ -82,13 +82,12 @@ RuinsOfAlphResearchCenterScientist3Script:
 
 	text "Iremos estudiando"
 	line "poco a poco la"
+	cont "cámara que se ha"
+	cont "abierto."
 
-	para "cámara que se ha"
-	line "abierto."
-
-	para "Hay que tener cui-"
-	line "dado de no dañar"
-	cont "el yacimiento."
+	para "¡Hay que cuidar"
+	line "de no dañar el"
+	cont "yacimiento!"
 	done
 
 .PrinterAvailable:
@@ -167,9 +166,9 @@ RuinsOfAlphResearchCenterScientist1Script:
 	line "de hace unos"
 	cont "1500 años."
 
-	para "Pero no se sabe"
-	line "por qué se hicie-"
-	cont "ron ni por quién."
+	para "Nadie sabe el por"
+	line "qué ni quién las"
+	cont "construyó."
 	done
 
 .UnownAppeared:
@@ -182,8 +181,8 @@ RuinsOfAlphResearchCenterScientist1Script:
 	para "¡Es una noticia"
 	line "increíble!"
 
-	para "Tendremos que in-"
-	line "vestigarlo."
+	para "¡Habrá que ir a"
+	line "investigarlo!"
 	done
 
 .GotUnownDex:
@@ -211,15 +210,12 @@ RuinsOfAlphResearchCenterScientist2Script:
 	jumpthisopenedtext
 
 	text "Hay unos dibujos"
-	line "muy raros en las"
-
-	para "paredes de las"
-	line "ruinas."
+	line "muy raros en los"
+	cont "muros de aquí."
 
 	para "Deben de ser la"
-	line "clave para desve-"
-	cont "lar el misterio"
-	cont "de las ruinas."
+	line "clave para aclarar"
+	cont "todo este enigma."
 	done
 
 .UnownAppeared:
@@ -229,17 +225,13 @@ RuinsOfAlphResearchCenterScientist2Script:
 	line "#mon que viste"
 	cont "en las ruinas?"
 
-	para "Parece que se pa-"
-	line "recen mucho a los"
+	para "¡Son idénticos a"
+	line "los grabados de"
+	cont "las paredes!"
 
-	para "dibujos que hay en"
-	line "las paredes."
-
-	para "Mmm…"
-
-	para "Eso debe signifi-"
-	line "car que hay muchas"
-	cont "clases de ellos…"
+	para "Mmm… Eso indica"
+	line "que debe de haber"
+	cont "muchos tipos…"
 	done
 
 .GotAllUnown:
@@ -251,9 +243,8 @@ RuinsOfAlphResearchCenterScientist2Script:
 
 	text "¿Por qué habrán"
 	line "aparecido ahora"
-
-	para "esos dibujos anti-"
-	line "guos en la pared?"
+	cont "esos antiguos"
+	cont "grabados murales?"
 
 	para "El misterio se"
 	line "vuelve más oscuro…"
@@ -311,12 +302,10 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	para "He modificado tu"
 	line "#dex."
 
-	para "He añadido un"
-	line "modo opcional a la"
-
-	para "#dex para guar-"
-	line "dar los datos de"
-	cont "los Unown."
+	para "Le añadí un modo"
+	line "opcional para"
+	cont "guardar los datos"
+	cont "de los Unown."
 
 	para "Los registrará en"
 	line "orden alfabético."
@@ -329,32 +318,30 @@ RuinsOfAlphResearchCenterDexUpgradedText:
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "Todos los Unown"
-	line "que captures que-"
-	cont "darán registrados."
+	text "Los Unown que"
+	line "atrapes quedarán"
+	cont "registrados."
 
 	para "Comprueba cuántas"
 	line "formas existen."
 
-	para "Nos estás haciendo"
-	line "un gran favor, así"
-
-	para "que te daré algo"
-	line "bueno si logras"
-	cont "encontrarlos todos"
+	para "Nos haces un gran"
+	line "favor, así que te"
+	cont "premiaré si das"
+	cont "con todos."
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "¿Has atrapado to-"
-	line "das las formas de"
-	cont "los Unown?"
+	text "¿Has atrapado ya a"
+	line "todas las formas"
+	cont "de los Unown?"
 
-	para "¡Es un logro fan-"
-	line "tástico!"
+	para "¡Es un logro"
+	line "fantástico!"
 
 	para "Nos has ayudado"
-	line "muchísimo en nues-"
-	cont "tra investigación."
+	line "mucho en nuestro"
+	cont "estudio."
 
 	para "Déjame darte esto."
 	done
@@ -384,35 +371,27 @@ RuinsofAlphResearchCenterScientistShockedText:
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
 	text "Gracias a tu gran"
-	line "ayuda, avanzamos"
+	line "ayuda avanzamos en"
+	cont "nuestra labor."
 
-	para "en el estudio de"
-	line "las ruinas."
-
-	para "Parece ser que las"
-	line "ruinas se cons-"
-
-	para "truyeron como un"
-	line "hábitat para los"
-	cont "#mon."
+	para "Parece que las"
+	line "ruinas se crearon"
+	cont "como hábitat para"
+	cont "los #mon."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
-	text "Según mis investi-"
-	line "gaciones…"
+	text "Según mis estudios"
+	line "recientes…"
 
-	para "Esos extraños di-"
-	line "bujos aparecieron"
+	para "Los dibujos raros"
+	line "aparecieron al"
+	cont "abrir el Centro"
+	cont "#com."
 
-	para "cuando se constru-"
-	line "yó el Centro #-"
-	cont "Com."
-
-	para "Esto debe signifi-"
-	line "car que las ondas"
-
-	para "de radio guardan"
-	line "alguna relación…"
+	para "¡Las ondas de"
+	line "radio deben de"
+	cont "guardar relación!"
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
@@ -436,9 +415,7 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	text "Es una foto del"
 	line "fundador de este"
-
-	para "Centro de Investi-"
-	line "gación: el Prof."
+	cont "Centro: el Prof."
 	cont "Silktree."
 	done
 

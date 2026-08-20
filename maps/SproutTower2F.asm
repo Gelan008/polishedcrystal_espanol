@@ -24,9 +24,8 @@ GenericTrainerSageNico:
 
 	text "El pilar flexible"
 	line "protege la torre,"
-
-	para "incluso de los"
-	line "terremotos."
+	cont "incluso de los"
+	cont "terremotos."
 	done
 
 GenericTrainerSageEdmond:
@@ -34,9 +33,8 @@ GenericTrainerSageEdmond:
 
 	text "Intenté copiar los"
 	line "suaves movimientos"
-
-	para "de Bellsprout pal"
-	line "combate…"
+	cont "de Bellsprout para"
+	cont "el combate…"
 
 	para "Pero no entrené lo"
 	line "suficiente."
@@ -44,8 +42,8 @@ GenericTrainerSageEdmond:
 
 SageNicoSeenText:
 	text "Por duro que sea"
-	line "el combate, la to-"
-	cont "rre resistirá."
+	line "el combate, la"
+	cont "torre resistirá."
 	done
 
 SageNicoBeatenText:
