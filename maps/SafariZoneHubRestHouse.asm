@@ -23,7 +23,7 @@ PokemonJournalKogaScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Koga, del Alto"
 	cont "Mando!"
 

@@ -1414,7 +1414,8 @@ LyraAnnouncesGymChallengeText:
 	para "¡Vi tu combate en"
 	line "la tele contra el"
 	cont "Campeón!"
-	cont "¡Estuviste genial!"
+
+	para "¡Estuviste genial!"
 
 	para "¡Me has inspirado,"
 	line "<PLAYER>!"

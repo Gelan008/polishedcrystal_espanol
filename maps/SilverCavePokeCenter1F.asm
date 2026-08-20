@@ -24,7 +24,7 @@ PokemonJournalLanceScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Lance, Campeón"
 	cont "de la Liga!"
 

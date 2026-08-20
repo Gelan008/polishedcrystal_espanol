@@ -372,7 +372,7 @@ CeruleanGymGuyWinText:
 
 CeruleanGymFoundMachinePartText:
 	text "¡<PLAYER> halló"
-	line "la Maquinaria!"
+	line "la PiezaMaquina!"
 	done
 
 CeruleanGymSomethingUnderwaterText:

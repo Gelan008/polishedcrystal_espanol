@@ -274,7 +274,7 @@ OlivinePortAskBoardText:
 
 OlivinePortAskTicketText:
 	text "¿Me permites ver"
-	line "tu Ticket Barco?"
+	line "tu S.S.Ticket?"
 	done
 
 OlivinePortComeAgainText:
@@ -284,7 +284,7 @@ OlivinePortComeAgainText:
 
 OlivinePortFlashTicketText:
 	text "<PLAYER> enseñó el"
-	line "Ticket Barco."
+	line "S.S.Ticket."
 
 	para "Es correcto."
 	line "¡Muchas gracias!"

@@ -286,7 +286,7 @@ PokemonJournalThortonScript:
 
 	text "Diario #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Jefe Fábrica"
 	cont "Espinal!"
 

@@ -397,7 +397,7 @@ PokemonJournalPalmerScript:
 
 	text "Diario #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Amo Torre"
 	cont "Jericor!"
 

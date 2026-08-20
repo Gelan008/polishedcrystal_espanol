@@ -25,7 +25,7 @@ PokemonJournalLtSurgeScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Líder Lt. Surge!"
 
 	para "Dicen que el Lt."

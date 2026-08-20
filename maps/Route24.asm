@@ -156,7 +156,7 @@ Route24RocketAfterBattleText:
 	text "Vale. Decirte mi"
 	line "secreto voy yo."
 
-	para "Parte Maquinaria"
+	para "Pieza Maquina"
 	line "robada por mí, en"
 	cont "Gimnasio Celeste"
 	cont "esconderla yo."

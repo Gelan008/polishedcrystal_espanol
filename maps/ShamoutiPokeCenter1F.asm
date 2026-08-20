@@ -26,7 +26,7 @@ PokemonJournalLoreleiScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Lorelei, excuarto"
 	cont "miembro del Alto"
 	cont "Mando!"

@@ -22,7 +22,7 @@ PokemonJournalProfWillowScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Prof. Willow!"
 
 	para "El gran sueño del"

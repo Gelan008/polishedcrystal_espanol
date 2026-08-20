@@ -28,7 +28,7 @@ PokemonJournalJanineScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Líder Sachiko!"
 
 	para "Dicen que Sachiko"

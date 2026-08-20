@@ -23,7 +23,7 @@ PokemonJournalBillScript:
 
 	text "Diario #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Pokémaníaco Bill!"
 
 	para "Bill inventó el"

@@ -392,7 +392,7 @@ PokemonJournalProfWestwoodScript:
 
 	text "Diario #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Prof. Westwood!"
 
 	para "El Prof. Westwood"

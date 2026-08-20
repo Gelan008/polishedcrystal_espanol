@@ -25,7 +25,7 @@ PokemonJournalSabrinaScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Líder Sabrina!"
 
 	para "Dicen que Sabrina"

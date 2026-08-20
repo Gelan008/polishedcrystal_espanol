@@ -114,7 +114,7 @@ PokemonJournalKiyoScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Rey Kárate Kiyo!"
 
 	para "Cuentan que Kiyo"

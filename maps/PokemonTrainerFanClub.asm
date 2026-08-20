@@ -21,7 +21,7 @@ PokemonJournalBrunoScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Bruno del"
 	cont "Alto Mando!"
 

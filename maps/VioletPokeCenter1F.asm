@@ -30,7 +30,7 @@ PokemonJournalFalknerScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Líder Pegaso!"
 
 	para "Dicen que Pegaso"
