@@ -29,21 +29,19 @@ GenericTrainerCamperDean:
 
 	text "Mis #mon se"
 	line "debilitaron antes"
+	cont "de entrar al"
+	cont "Túnel Roca."
 
-	para "de entrar al"
-	line "Túnel Roca."
-
-	para "Será mejor que los"
-	line "lleve al Centro"
-	cont "#mon ya mismo."
+	para "Iré a curarlos al"
+	line "Centro #mon."
 	done
 
 GenericTrainerPicnickerHeidi:
 	generictrainer PICNICKER, HEIDI, EVENT_BEAT_PICNICKER_HEIDI, PicnickerHeidiSeenText, PicnickerHeidiBeatenText
 
 	text "Horneamos muchos"
-	line "dulces y los com-"
-	cont "partimos."
+	line "dulces para"
+	cont "compartirlos."
 
 	para "¡Están riquísimos!"
 	done
@@ -82,8 +80,8 @@ GenericTrainerHikerSidney:
 	done
 
 CamperDeanSeenText:
-	text "He venido a explo-"
-	line "rar el Túnel Roca."
+	text "¡Vine a explorar"
+	line "el Túnel Roca!"
 	done
 
 CamperDeanBeatenText:
@@ -92,11 +90,10 @@ CamperDeanBeatenText:
 	done
 
 PicnickerHeidiSeenText:
-	text "¿Alguna vez has"
-	line "ido de pícnic?"
+	text "¿Has ido alguna"
+	line "vez de pícnic?"
 
-	para "¡Es superdiver-"
-	line "tido!"
+	para "¡Es muy divertido!"
 	done
 
 PicnickerHeidiBeatenText:
@@ -109,13 +106,13 @@ CamperSidSeenText:
 	done
 
 CamperSidBeatenText:
-	text "Solo lo estaba se-"
-	line "ñalando…"
+	text "Solo te lo estaba"
+	line "diciendo…"
 	done
 
 PicnickerEdnaSeenText:
-	text "La gente no debe-"
-	line "ría dejar basura."
+	text "Nadie debería"
+	line "tirar basura."
 	done
 
 PicnickerEdnaBeatenText:
@@ -160,16 +157,12 @@ Route9SignText:
 Route9AdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "Un #mon con una"
-	line "Toxisfera se enve-"
-	cont "nenará, y uno con"
-
-	para "una Llamasfera"
-	line "acabará quemado."
+	para "Toxisfera envenena"
+	line "al #mon y la"
+	cont "Llamasfera quema."
 
 	para "¡Pero la habilidad"
-	line "Agallas lo aprove-"
-
-	para "cha para subir"
-	line "su Ataque!"
+	line "Agallas aprovecha"
+	cont "eso para subir su"
+	cont "Ataque!"
 	done

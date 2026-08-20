@@ -18,8 +18,8 @@ PewterSnoozeSpeechHouse_MapScriptHeader:
 
 PewterSnoozeSpeechHouseGrampsText:
 	text "Me gusta dormirme"
-	line "con la radio pues-"
-	cont "ta… …Zzzz…"
+	line "con la radio"
+	cont "puesta… …Zzzz…"
 	done
 
 PewterSnoozeSpeechHouseGrannyText:

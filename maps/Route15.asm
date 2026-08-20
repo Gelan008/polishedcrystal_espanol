@@ -31,9 +31,8 @@ GenericTrainerTeacherColette:
 
 	text "Antes de hacerme"
 	line "profesora, solía"
-
-	para "olvidarme de mu-"
-	line "chas cosas."
+	cont "olvidar muchas"
+	cont "cosas."
 	done
 
 TrainerTeacherHillary:
@@ -43,28 +42,25 @@ TrainerTeacherHillary:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Estudiar es impor-"
-	line "tante, pero hacer"
-
-	para "ejercicio es igual"
-	line "de vital."
+	text "Estudiar importa,"
+	line "pero hacer deporte"
+	cont "es igual de vital."
 	done
 
 GenericTrainerSchoolboyKipp:
 	generictrainer SCHOOLBOY, KIPP, EVENT_BEAT_SCHOOLBOY_KIP, SchoolboyKippSeenText, SchoolboyKippBeatenText
 
-	text "Mi madre se preo-"
-	line "cupa tanto por mí"
-
-	para "que tengo que lla-"
-	line "marla a cada rato."
+	text "Mi madre sufre"
+	line "tanto por mí que"
+	cont "debo llamarla a"
+	cont "cada rato."
 	done
 
 GenericTrainerSchoolboyTommy:
 	generictrainer SCHOOLBOY, TOMMY, EVENT_BEAT_SCHOOLBOY_TOMMY, SchoolboyTommySeenText, SchoolboyTommyBeatenText
 
-	text "¡Sayonara! Lo aca-"
-	line "bo de aprender en"
+	text "¡Sayonara! Lo he"
+	line "aprendido hoy en"
 	cont "clase de japonés."
 	done
 
@@ -72,9 +68,9 @@ GenericTrainerSchoolboyBilly:
 	generictrainer SCHOOLBOY, BILLY, EVENT_BEAT_SCHOOLBOY_BILLY, SchoolboyBillySeenText, SchoolboyBillyBeatenText
 
 	text "¡Si los #mon"
-	line "fueran una asigna-"
-	cont "tura, sacaría un"
-	cont "sobresaliente!"
+	line "fuesen materia de"
+	cont "estudio, sacaría"
+	cont "un sobresaliente!"
 	done
 
 GenericTrainerSchoolgirlFaith:
@@ -130,11 +126,9 @@ TeacherColetteBeatenText:
 
 TeacherHillarySeenText:
 	text "En días soleados,"
-	line "creo que los niños"
-
-	para "preferirían jugar"
-	line "en el patio a es-"
-	cont "tudiar en clase."
+	line "los niños quieren"
+	cont "jugar fuera antes"
+	cont "que estudiar."
 	done
 
 TeacherHillaryBeatenText:
@@ -157,16 +151,15 @@ SchoolboyTommySeenText:
 	done
 
 SchoolboyTommyBeatenText:
-	text "¡Me olvidé de ha-"
-	line "cer los deberes!"
+	text "¡No me acordé de"
+	line "hacer la tarea!"
 	done
 
 SchoolgirlFaithSeenText:
 	text "Vamos de excursión"
 	line "a la Torre Radio"
-
-	para "de Lavanda para la"
-	line "clase de sociales."
+	cont "de Lavanda en la"
+	cont "clase de sociales."
 	done
 
 SchoolgirlFaithBeatenText:

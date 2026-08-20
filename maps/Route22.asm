@@ -60,15 +60,13 @@ KukuiScript:
 	para "¡Con razón eres el"
 	line "Campeón!"
 
-	para "Tengo que entre-"
-	line "nar más duro an-"
-	cont "tes de estar listo"
+	para "Tengo que entrenar"
+	line "más duro antes de"
+	cont "estar listo para"
+	cont "la Liga."
 
-	para "para la Liga."
-
-	para "Y en cuanto lo"
-	line "esté, ¡volveremos"
-	cont "a luchar! ¡Ujuuu!"
+	para "¡Y luego volveré"
+	line "a retarte! ¡Ujuuu!"
 	done
 
 .IntroText:
@@ -79,12 +77,11 @@ KukuiScript:
 	line "<PLAYER>?"
 	cont "¡Recibido, amigo!"
 
-	para "¡Vengo de la leja-"
-	line "na región de"
-	cont "Alola!"
+	para "¡Vengo de la"
+	line "región de Alola!"
 
-	para "Pero allí no tene-"
-	line "mos Liga #mon,"
+	para "Allí no tenemos"
+	line "una Liga #mon,"
 
 	para "así que vine a"
 	line "Kanto a luchar"
@@ -98,40 +95,38 @@ KukuiScript:
 	line "te ves con tanto"
 	cont "estilo!"
 
-	para "Mi equipo y yo nos"
-	line "vemos listos. ¿Qué"
-
-	para "tal si pasamos de"
-	line "la Liga y te desa-"
-	cont "fío directamente?"
+	para "¡Mi equipo y yo"
+	line "estamos listos!"
+	cont "¿Qué tal si te"
+	cont "reto a ti antes?"
 	done
 
 .RematchText:
 	text "¡Hola de nuevo,"
 	line "<PLAYER>!"
 
-	para "He estado entre-"
-	line "nando duro desde"
-	cont "el último combate,"
+	para "¡He entrenado muy"
+	line "duro desde nuestro"
+	cont "último combate,"
 	cont "¡sí señor!"
 
-	para "¡Tú también pare-"
-	line "ces más fuerte!"
+	para "¡Tú también te"
+	line "ves más fuerte!"
 
 	para "Dime, ¿qué tal una"
 	line "revancha?"
 	done
 
 .SeenText:
-	text "¡Tengamos un com-"
-	line "bate digno de este"
-	cont "momento!"
+	text "¡Tengamos un gran"
+	line "combate digno de"
+	cont "este momento!"
 	done
 
 .BeatenText:
-	text "No pude ganar aun-"
-	line "que di todo lo que"
-	cont "tenía…"
+	text "No pude ganar,"
+	line "aunque di todo lo"
+	cont "que tenía…"
 	done
 
 .RefusedText:
@@ -167,9 +162,7 @@ Route22AdvancedTipsSignText:
 	cont "conservará el"
 	cont "dinero anterior,"
 
-	para "los Puntos de Ba-"
-	line "talla y cualquier"
-
-	para "#mon guardado"
-	line "en el PC!"
+	para "los Puntos Batalla"
+	line "y los #mon del"
+	cont "PC!"
 	done

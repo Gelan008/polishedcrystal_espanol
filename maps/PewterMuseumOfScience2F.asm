@@ -85,42 +85,34 @@ Museum2FMoonStoneSignpostScript:
 
 Museum2FScientistText:
 	text "Unos meteoritos"
-	line "cayeron cerca del"
+	line "cayeron junto al"
+	cont "Mt. Moon."
 
-	para "Mt. Moon, junto a"
-	line "Ciudad Plateada."
+	para "Tenemos uno aquí"
+	line "en exposición."
 
-	para "Tenemos uno ex-"
-	line "puesto."
-
-	para "Parece emitir una"
-	line "extraña energía…"
+	para "¡Parece emitir una"
+	line "extraña energía!"
 	done
 
 Museum2FLassText:
-	text "Los #mon revi-"
-	line "vidos de fósiles"
+	text "Los #mon que"
+	line "vienen de fósiles"
+	cont "son tipo Roca."
 
-	para "son todos en par-"
-	line "te de tipo Roca."
-
-	para "¿Fueron siempre"
-	line "así, o se debe al"
-
-	para "proceso de fosili-"
-	line "zación?"
+	para "¿Eran ya así, o es"
+	line "por la propia"
+	cont "fosilización?"
 	done
 
 Museum2FPokefanMImperialText:
-	text "¡Este transborda-"
-	line "dor espacial vola-"
-
-	para "ba a 250 km de la"
-	line "Tierra desafiando"
+	text "¡Esta nave volaba"
+	line "a 250 km de la"
+	cont "Tierra desafiando"
 	cont "la gravedad!"
 
-	para "¿Sabes qué más de-"
-	line "safía la gravedad?"
+	para "¿Sabes qué más la"
+	line "desafía?"
 
 	para "¡Mov. Sísmico,"
 	line "por supuesto!"
@@ -136,26 +128,20 @@ Museum2FChildText:
 
 Museum2FTeacherText:
 	text "Uf… A mi hijo no"
-	line "le gusta el museo"
+	line "le gusta tanto el"
+	cont "museo como a mí."
 
-	para "tanto como a mí me"
-	line "habría gustado."
-
-	para "Cosas de niños,"
-	line "¿eh?"
+	para "¡Cosas de niños!"
 	done
 
 Museum2FPokefanMMetricText:
-	text "¡Este transborda-"
-	line "dor espacial vola-"
-
-	para "ba a 250 kilóme-"
-	line "tros de la Tierra,"
+	text "¡Esta nave volaba"
+	line "a 250 kilómetros"
 	cont "desafiando la"
 	cont "gravedad!"
 
-	para "¿Sabes qué más de-"
-	line "safía la gravedad?"
+	para "¿Sabes qué más la"
+	line "desafía?"
 
 	para "¡Mov. Sísmico,"
 	line "por supuesto!"
@@ -164,14 +150,13 @@ Museum2FPokefanMMetricText:
 Text_Museum2FTutorSeismicToss:
 	text "Puedo enseñar a"
 	line "tu #mon a usar"
-
-	para "Mov. Sísmico por"
-	line "una Hoja Plata."
+	cont "Mov. Sísmico por"
+	cont "una Hoja Plata."
 	done
 
 Text_Museum2FTutorQuestion:
-	text "¿Quieres que ense-"
-	line "-ñe a tu #mon"
+	text "¿Quieres que le"
+	line "enseñe a alguíen"
 	cont "Mov. Sísmico?"
 	done
 
@@ -186,20 +171,15 @@ PokemonJournalStevenScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Campeón Máximo!"
 
 	para "Dicen que Máximo"
-	line "Peñas ayuda a"
+	line "ayuda a su padre"
+	cont "en Devon S.A.,"
 
-	para "Devon S.A., la em-"
-	line "presa que dirige"
-	cont "su padre, el Sr."
-	cont "Peñas,"
-
-	para "buscando minera-"
-	line "les raros e inclu-"
-	cont "so fósiles."
+	para "buscando fósiles"
+	line "y minerales raros."
 	done
 
 PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
@@ -208,14 +188,12 @@ PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Investigadora"
 	cont "Cintia!"
 
 	para "Dicen que Cintia"
-	line "aprendió muchos"
-
-	para "mitos y leyendas"
-	line "de su abuela en"
-	cont "Sinnoh."
+	line "aprendió mitos y"
+	cont "leyendas de su"
+	cont "abuela en Sinnoh."
 	done

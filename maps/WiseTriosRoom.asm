@@ -100,9 +100,9 @@ TrainerElderMasa:
 	cont "de nueve pisos."
 
 if DEF(FAITHFUL)
-	para "La Torre Latón,"
+	para "La Torre Hojalata,"
 else
-	para "La Torre Campana,"
+	para "La Torre Hojalata,"
 endc
 	line "donde se decía que"
 

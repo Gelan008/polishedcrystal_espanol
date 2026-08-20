@@ -77,8 +77,8 @@ GenericTrainerSupernerdTom:
 	generictrainer SUPER_NERD, TOM, EVENT_BEAT_SUPER_NERD_TOM, SupernerdTomSeenText, SupernerdTomBeatenText
 
 	text "Las Medallas de"
-	line "Gimnasio demues-"
-	cont "tran tu destreza."
+	line "Gimnasio prueban"
+	cont "tu gran destreza."
 	done
 
 GenericTrainerGentlemanMilton:
@@ -107,8 +107,8 @@ GenericTrainerCoupleMoeandlulu2:
 	text "Lulu: No es que"
 	line "Moe sea débil,"
 
-	para "¡es que tienes de-"
-	line "masiada fuerza!"
+	para "¡es que tienes"
+	line "mucha fuerza!"
 	done
 
 GenericTrainerLassMeadow:
@@ -124,19 +124,18 @@ Route8BikerDwayneProtestText:
 	line "la Federación"
 	cont "#mon de Kanto!"
 
-	para "¡Estamos de mani-"
-	line "festación!"
+	para "¡Estamos en plena"
+	line "manifestación!"
 	done
 
 Route8BikerZekeProtestText:
-	text "¡Somos la Federa-"
-	line "ción #mon"
+	text "¡Somos la"
+	line "Federación #mon"
 	cont "de Kanto!"
 
 	para "¡La pasma no nos"
 	line "impedirá usar la"
-
-	para "Vía Subterránea!"
+	cont "Vía Subterránea!"
 	done
 
 BikerDwayneSeenText:
@@ -166,8 +165,8 @@ BikerHarrisBeatenText:
 	done
 
 BikerZekeSeenText:
-	text "¡Somos la Federa-"
-	line "ción #mon"
+	text "¡Somos la"
+	line "Federación #mon"
 	cont "de Kanto!"
 	cont "¡A tope!"
 	done
@@ -188,8 +187,8 @@ SupernerdSamBeatenText:
 
 SupernerdTomSeenText:
 	text "Hum… Tienes muchas"
-	line "Medallas de Gimna-"
-	cont "sio."
+	line "Medallas de"
+	cont "Gimnasio."
 	done
 
 SupernerdTomBeatenText:
@@ -204,17 +203,17 @@ GentlemanMiltonSeenText:
 	done
 
 GentlemanMiltonBeatenText:
-	text "Demostró usted mu-"
-	line "cha destreza."
+	text "Demostró usted"
+	line "mucha destreza."
 	done
 
 CoupleMoeandlulu1SeenText:
-	text "Moe: ¿Parezco dé-"
-	line "bil? ¡No me hagas"
-	cont "reír!"
+	text "Moe: ¿Me ves muy"
+	line "débil? ¡No me"
+	cont "hagas reír!"
 
-	para "Con Lulu, ¡mi va-"
-	line "lor se multiplica"
+	para "¡Junto a Lulu, mi"
+	line "fuerza se eleva"
 	cont "por cien!"
 	done
 
@@ -249,9 +248,9 @@ Route8LockedDoorText:
 	done
 
 Route8UndergroundPathSignText:
-	text "El cartel está ro-"
-	line "to."
+	text "El cartel está"
+	line "roto."
 
-	para "Es imposible leer-"
-	line "lo…"
+	para "No se puede leer"
+	line "nada…"
 	done

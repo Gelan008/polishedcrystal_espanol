@@ -72,8 +72,8 @@ RageCandyBarMerchantScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "No tienes sufi-"
-	line "ciente dinero."
+	text "No tienes bastante"
+	line "dinero."
 	done
 
 MahoganyTownGrampsScript:
@@ -82,8 +82,8 @@ MahoganyTownGrampsScript:
 	jumpthistextfaceplayer
 
 	text "¿Vas a ver a los"
-	line "Gyarados albo-"
-	cont "rotar el lago?"
+	line "Gyarados que están"
+	cont "agitando el lago?"
 	done
 
 MahoganyTownSouvenirShopSign:
@@ -109,23 +109,18 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 RageCandyBarMerchantTryOneText:
 	text "¡Hola, chaval!"
 
-	para "Veo que eres"
-	line "nuevo en Caoba."
+	para "Veo que es tu"
+	line "primera vez aquí."
 
-	para "Como eres nuevo,"
-	line "¡deberías probar"
-
+	para "¡Deberías probar"
 if DEF(FAITHFUL)
-	para "un rico"
-	line "Caramelofuria!"
+	line "un Caramelofuria!"
 else
-	para "un rico"
-	line "Pastel Furia!"
+	line "un Pastel Furia!"
 endc
 
-	para "Ahora mismo, ¡es"
-	line "tuyo por sólo"
-	cont "300¥! ¿Quieres?"
+	para "¡Por solo 300¥!"
+	line "¿Quieres uno?"
 	done
 
 RageCandyBarMerchantRefusedText:
@@ -156,32 +151,25 @@ MahoganyTownGrampsText_ClearedRocketHideout:
 	line "vuelto al Lago de"
 	cont "la Furia."
 
-	para "Deberían ser bue-"
-	line "nas noticias para"
-	cont "los pescadores."
+	para "¡Buenas noticias"
+	line "para los que van"
+	cont "a pescar allí!"
 	done
 
 MahoganyTownFisherText:
-	text "Ya que has llega-"
-	line "do tan lejos, to-"
+	text "Ya que has venido"
+	line "desde tan lejos,"
+	cont "tómate un descanso"
 
-	para "ma algo de tiem-"
-	line "po para hacer"
-	cont "turismo."
-
-	para "Deberías ir al"
-	line "norte y ver el"
-
-	para "Lago de la Furia"
-	line "ahora mismo."
+	para "Deberías subir al"
+	line "norte a conocer el"
+	cont "Lago de la Furia."
 	done
 
 MahoganyTownLassText:
-	text "Visita la tienda"
-	line "de la Abuela. Ven-"
-
-	para "de cosas que na-"
-	line "die más tiene."
+	text "Ve a la tienda de"
+	line "la Abuela. Vende"
+	cont "cosas muy únicas."
 	done
 
 MahoganyTownSignText:
@@ -207,6 +195,6 @@ MahoganyGymSignText:
 	line "de Pueblo Caoba"
 	cont "Líder: Fredo"
 
-	para "Maestro del ru-"
-	line "do invierno"
+	para "Maestro de las"
+	line "montañas nevadas."
 	done

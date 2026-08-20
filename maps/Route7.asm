@@ -42,8 +42,8 @@ GenericTrainerBreederCarlene:
 	done
 
 .BeatenText:
-	text "¡No pudimos con-"
-	line "tigo!"
+	text "¡No hemos podido"
+	line "contigo!"
 	done
 
 Route7Snorlax:
@@ -84,18 +84,16 @@ Route7UndergroundPathSignText:
 	text "¿Qué es este"
 	line "folleto?"
 
-	para "Entrenadores ru-"
-	line "dos han estado lu-"
-	cont "chando en la Vía"
-	cont "Subterránea."
+	para "Muchos rivales"
+	line "rudos han estado"
+	cont "luchando en la"
+	cont "Vía Subterránea."
 
-	para "Debido al aumento"
-	line "de quejas de los"
-	cont "vecinos, la Vía"
-	cont "Subterránea queda"
-	cont "clausurada por"
-	cont "tiempo indefini-"
-	cont "do."
+	para "Por las continuas"
+	line "quejas vecinales,"
+	cont "la Vía queda"
+	cont "clausurada por un"
+	cont "tiempo indefinido."
 
 	para "-- Policía Azulona"
 	done

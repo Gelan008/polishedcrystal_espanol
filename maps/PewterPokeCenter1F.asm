@@ -26,15 +26,13 @@ PokemonJournalBrockScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Líder Brock!"
 
 	para "Brock casi nunca"
-	line "se ríe, pero di-"
-
-	para "cen que si empie-"
-	line "za, no puede pa-"
-	cont "rar."
+	line "se ríe, pero dicen"
+	cont "que si empieza,"
+	cont "¡no puede parar!"
 	done
 
 PewterJigglypuffText:
@@ -43,27 +41,23 @@ PewterJigglypuffText:
 	done
 
 PewterPokeCenter1FTeacherText:
-	text "…Sí, y el Gimna-"
-	line "sio de Canela ha"
+	text "…Sí, y el Gimnasio"
+	line "de Isla Canela"
+	cont "ha desaparecido."
 
-	para "desaparecido. Me"
-	line "sorprendió mucho."
+	para "¡Me sorprendió"
+	line "muchísimo!"
 
-	para "… ¿Qué? Estoy ha-"
-	line "blando por teléfo-"
-	cont "no. ¡Largo!"
+	para "…¿Qué? ¡Estoy al"
+	line "teléfono! ¡Largo!"
 	done
 
 PewterPokeCenter1FChildText:
-	text "A la mayoría de"
-	line "#mon les entra"
+	text "Casi todo #mon"
+	line "se duerme al oír"
+	cont "a Jigglypuff."
 
-	para "sueño al oír can-"
-	line "tar a Jigglypuff."
-
-	para "Hay varios movi-"
-	line "mientos que solo"
-
-	para "se pueden usar si"
-	line "el #mon duerme."
+	para "Hay movimientos"
+	line "que solo se usan"
+	cont "mientras duermen."
 	done

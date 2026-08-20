@@ -32,37 +32,29 @@ GenericTrainerPokemaniacMiller:
 	generictrainer POKEMANIAC, MILLER, EVENT_BEAT_POKEMANIAC_MILLER, PokemaniacMillerSeenText, PokemaniacMillerBeatenText
 
 	text "Hace un tiempo,"
-	line "un karateka quiso"
+	line "un karateka me"
+	cont "retó a luchar."
 
-	para "luchar. Era"
-	line "increíblemente"
-	cont "bueno."
+	para "¡Era muy fuerte y"
+	line "me dio una paliza!"
 
-	para "Nos dio una buena"
-	line "paliza."
-
-	para "Se adentró más"
-	line "diciendo que era"
-
-	para "para su entrena-"
-	line "miento. ¿Cómo le"
-	cont "irá?"
+	para "Se adentró más en"
+	line "la cueva para su"
+	cont "entrenamiento."
+	cont "¿Cómo le irá?"
 	done
 
 GenericTrainerSupernerdMarkus:
 	generictrainer SUPER_NERD, MARKUS, EVENT_BEAT_SUPER_NERD_MARKUS, SupernerdMarkusSeenText, SupernerdMarkusBeatenText
 
 	text "Vine a explorar el"
-	line "Monte Mortero"
+	line "Monte Mortero,"
+	cont "pero me separé de"
+	cont "mi compañero…"
 
-	para "pero me separé"
-	line "de mi compañero…"
-
-	para "¿Te has cruzado"
-	line "con un entrenador"
-
-	para "que usa un Seadra"
-	line "que sabe Cascada?"
+	para "¿Viste a alguien"
+	line "con un Seadra que"
+	cont "sabe Cascada?"
 	done
 
 PokemaniacMillerSeenText:
@@ -72,7 +64,7 @@ PokemaniacMillerSeenText:
 
 PokemaniacMillerBeatenText:
 	text "¿He perdido contra"
-	line "un renacuajo…?"
+	line "un niñato…?"
 	done
 
 SupernerdMarkusSeenText:

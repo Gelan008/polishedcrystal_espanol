@@ -39,20 +39,17 @@ Route7SaffronGuardSeriousText:
 	para "¡Eh! Si tienes una"
 	line "#dex."
 
-	para "De acuerdo. Puedes"
+	para "De acuerdo, puedes"
 	line "pasar."
 	done
 
 Route7SaffronGateSilphEmployeeText:
 	text "Bruno, del Alto"
 	line "Mando, solía pulir"
-
-	para "su técnica en"
-	line "Ciudad Azafrán."
+	cont "su técnica en"
+	cont "Ciudad Azafrán."
 
 	para "Entrenó con un"
-	line "tal Marcial en"
-
-	para "sus primeros"
-	line "tiempos."
+	line "tal Marcial en sus"
+	cont "primeros tiempos."
 	done

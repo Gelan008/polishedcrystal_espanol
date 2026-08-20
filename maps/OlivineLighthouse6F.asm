@@ -34,9 +34,9 @@ OlivineLighthouseJasmine:
 .ExplainedSickness:
 	jumpthisopenedtext
 
-	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "…¿Podrías traerme"
+	line "esa medicina?"
+	cont "¡Por favor!…"
 	done
 
 .BroughtSecretpotion:
@@ -108,8 +108,8 @@ OlivineLighthouseAmphy:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Its breathing is"
-	line "terribly labored…"
+	text "Le cuesta mucho"
+	line "respirar…"
 	done
 
 .HealthyNow:
@@ -156,19 +156,16 @@ OlivineLighthouseJasmineLeavesRightMovement:
 JasmineCianwoodPharmacyText:
 	text "Yasmina: …Este"
 	line "#mon siempre"
-
-	para "iluminaba el mar"
-	line "por la noche."
+	cont "iluminaba el mar"
+	cont "por la noche."
 
 	para "…Pero enfermó de"
 	line "repente… Apenas"
 	cont "puede respirar…"
 
-	para "…Tengo entendido"
-	line "que hay una gran"
-
-	para "Farmacia en Ciu-"
-	line "dad Orquídea…"
+	para "…Oí que hay una"
+	line "buena Farmacia en"
+	cont "Ciudad Orquídea…"
 
 	para "Pero está al otro"
 	line "lado del mar…"
@@ -210,11 +207,10 @@ JasmineThankYouText:
 	text "Yasmina: …¡Uf, qué"
 	line "alivio!…"
 
-	para "Esto es tan ma-"
-	line "ravilloso…"
+	para "¡Es maravilloso…!"
 
 	para "Muchísimas gracias"
-	line "de todo corazón."
+	line "de corazón."
 
 	para "…Volveré al"
 	line "Gimnasio…"

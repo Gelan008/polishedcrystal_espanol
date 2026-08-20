@@ -50,12 +50,11 @@ Route19BeachHouseVictorScript:
 	line "hacerlo!"
 
 	para "¡Sal ahí fuera y"
-	line "encuentra a un Pi-"
-	cont "kachu Surfista!"
+	line "busca a un Pikachu"
+	cont "Surfista!"
 
-	para "¡Demuéstrame que a"
-	line "ti también te gus-"
-	cont "ta hacer Surf!"
+	para "¡Demuéstrame que"
+	line "amas el Surf!"
 	done
 
 .NoBattle:
@@ -79,20 +78,18 @@ Route19BeachHouseVictorScript:
 	line "hacer Surf! Así"
 	cont "que no estoy solo…"
 
-	para "¡Genial! ¡Te has"
-	line "ganado el derecho"
-
-	para "a un combate de"
-	line "Surf contra Puka"
-	cont "y contra mí!"
+	para "¡Te has ganado el"
+	line "derecho a combatir"
+	cont "contra Puka y"
+	cont "contra mí!"
 
 	para "¿Aceptas el reto?"
 	done
 
 .SeenText:
 	text "¡El mar nos une a"
-	line "todos los surfis-"
-	cont "tas! ¡Vamos allá!"
+	line "los surfistas!"
+	cont "¡Vamos allá!"
 	done
 
 .BeatenText:
@@ -101,22 +98,18 @@ Route19BeachHouseVictorScript:
 	done
 
 .AfterText:
-	text "He oído que algu-"
-	line "nos Pikachu apren-"
-	cont "dieron a hacer"
-
-	para "Surf por su cuenta"
-	line "en Johto."
+	text "Oí que en Johto"
+	line "algunos Pikachu"
+	cont "aprendieron a"
+	cont "surfear solos."
 
 	para "Tal vez el mío"
 	line "venga de allí."
 
-	para "Hallé a Puka en"
-	line "la orilla hace ya"
-	cont "años, y desde en-"
-
-	para "tonces hemos sido"
-	line "inseparables."
+	para "Hallé a Puka en la"
+	line "orilla hace años y"
+	cont "desde entonces"
+	cont "estamos muy unidos"
 	done
 
 .NoBattleText:

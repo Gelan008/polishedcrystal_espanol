@@ -121,16 +121,14 @@ Route27VeteranfScript:
 .IntroText:
 	text "¡Mmm! Si estás"
 	line "aquí, debes de ir"
-
-	para "hacia la Liga"
-	line "#mon."
+	cont "a la Liga #mon."
 
 	para "¿Quieres entrenar"
 	line "conmigo?"
 
-	para "Pues derrota a to-"
-	line "dos los demás en"
-	cont "las Rutas 26 y 27."
+	para "¡Pues derrota a"
+	line "todos en las"
+	cont "Rutas 26 y 27!"
 
 	para "Te esperaré aquí."
 	done
@@ -154,8 +152,8 @@ Route27VeteranfScript:
 	cont "Elegidas."
 
 	para "Parecerán raras,"
-	line "pero son muy po-"
-	cont "derosas."
+	line "pero aportan gran"
+	cont "poder."
 	done
 
 .BeatenText:
@@ -165,13 +163,13 @@ Route27VeteranfScript:
 	done
 
 .AfterText1:
-	text "Las Gafas Elegi-"
-	line "das potencian el"
-	cont "Ataque Especial"
+	text "Las Gafas Elegidas"
+	line "suben el Ataque"
+	cont "Especial al"
+	cont "#mon,"
 
-	para "de un #mon,"
-	line "pero solo puede"
-	cont "usar un mismo"
+	para "pero solo le dejan"
+	line "usar un mismo"
 	cont "movimiento."
 
 	para "¡Quédate con un"
@@ -309,22 +307,18 @@ GenericTrainerCooltrainermBlake:
 GenericTrainerAceDuoJakeandbri1:
 	generictrainer ACE_DUO, JAKEANDBRI1, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri1SeenText, AceDuoJakeandbri1BeatenText
 
-	text "Jake: Un buen en-"
-	line "trenador sabe re-"
-
-	para "conocer a otros"
-	line "buenos entrenado-"
-	cont "res."
+	text "Jake: Un buen"
+	line "entrenador sabe"
+	cont "reconocer a otros"
+	cont "grandes rivales."
 	done
 
 GenericTrainerAceDuoJakeandbri2:
 	generictrainer ACE_DUO, JAKEANDBRI2, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri2SeenText, AceDuoJakeandbri2BeatenText
 
-	text "Bri: Y los buenos"
-	line "entrenadores tam-"
-
-	para "bién saben luchar"
-	line "codo con codo."
+	text "Bri: Quien es buen"
+	line "entrenador sabe"
+	cont "luchar en equipo."
 	done
 
 TrainerCooltrainerfReena:
@@ -439,8 +433,8 @@ Route27FisherHeyText:
 	done
 
 Route27FisherText:
-	text "¿Sabes lo que aca-"
-	line "bas de hacer?"
+	text "¿Sabes qué acabas"
+	line "de hacer ahora?"
 
 	para "Has dado tu primer"
 	line "paso en Kanto."
@@ -469,9 +463,8 @@ AceDuoJakeandbri1BeatenText:
 	done
 
 AceDuoJakeandbri2SeenText:
-	text "Bri: ¡Los dos jun-"
-	line "tos somos impara-"
-	cont "bles!"
+	text "Bri: ¡Juntos somos"
+	line "imparables!"
 	done
 
 AceDuoJakeandbri2BeatenText:
@@ -480,15 +473,14 @@ AceDuoJakeandbri2BeatenText:
 	done
 
 CooltrainerfReena1SeenText:
-	text "No deberías subes-"
-	line "timar a los #-"
-	cont "mon salvajes de"
-	cont "por aquí."
+	text "No subestimes a"
+	line "los #mon de"
+	cont "esta zona."
 	done
 
 CooltrainerfReena1BeatenText:
-	text "¡Oh! ¡Eres dema-"
-	line "siado fuerte!"
+	text "¡Oh! ¡Tienes una"
+	line "fuerza increíble!"
 	done
 
 CooltrainerfReenaAfterBattleText:
@@ -539,11 +531,9 @@ Bird_keeperJose1BeatenText:
 
 BirdKeeperJose2AfterBattleText:
 	text "Los Ornitólogos"
-	line "como yo imitamos"
-
-	para "los silbidos de"
-	line "aves para dar"
-	cont "órdenes a los"
+	line "imitamos el cantar"
+	cont "de las aves para"
+	cont "guiar a los"
 	cont "#mon."
 	done
 

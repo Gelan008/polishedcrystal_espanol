@@ -59,11 +59,10 @@ PewterCityYoungsterScript:
 	jumpthisopenedtext
 
 	text "¿Venciste en el"
-	line "Gimnasio? ¡Pues tú"
+	line "Gimnasio?"
 
-	para "también eres tan"
-	line "fuerte como una"
-	cont "roca!"
+	para "¡Eres tan fuerte"
+	line "como una roca!"
 	done
 
 PewterCityPokefanMScript:
@@ -122,15 +121,12 @@ PewterCityPokefanMScript:
 
 PewterCityCooltrainerFText:
 	text "Los #mon solo"
-	line "pueden tener dos"
-	cont "tipos a la vez,"
-
-	para "pero si fuera po-"
-	line "sible que tuviesen"
-	cont "todos los tipos,"
+	line "tienen dos tipos,"
+	cont "pero si tuvieran"
+	cont "todos a la vez,"
 
 	para "solo tendrían una"
-	line "debilidad."
+	line "sola debilidad."
 
 	para "¿Que cuál es?"
 
@@ -139,18 +135,13 @@ PewterCityCooltrainerFText:
 	done
 
 PewterCityCooltrainermText:
-	text "Esta chica cree"
-	line "que los #mon"
-	cont "Roca lo son todo,"
+	text "Ella cree que los"
+	line "#mon Roca lo"
+	cont "son todo, pero son"
+	cont "los más débiles."
 
-	para "pero están empata-"
-	line "dos con los que"
-
-	para "tienen más debili-"
-	line "dades de todos."
-
-	para "Pero no me atrevo"
-	line "a decírselo."
+	para "¡Pero no me atrevo"
+	line "a decírselo!"
 	done
 
 PewterCityBugCatcherText:
@@ -163,19 +154,15 @@ PewterCityBugCatcherText:
 	done
 
 PewterCityGrampsText:
-	text "¿Ah, has venido"
-	line "desde Johto hasta"
-	cont "aquí?"
+	text "¿Has venido desde"
+	line "Johto hasta aquí?"
 
-	para "Qué recuerdos…"
-	line "Cuando era joven,"
+	para "Qué recuerdos… De"
+	line "joven fui a Johto"
+	cont "a entrenarme."
 
-	para "fui a Johto a en-"
-	line "trenar."
-
-	para "Me recuerdas mu-"
-	line "cho a cómo era yo"
-	cont "de joven."
+	para "Te pareces mucho"
+	line "a mi de joven."
 
 	para "Toma. Quiero darte"
 	line "este objeto que"
@@ -183,24 +170,22 @@ PewterCityGrampsText:
 	done
 
 PewterCityGrampsText_GotSilverWing:
-	text "Ir a lugares nue-"
-	line "vos y desconoci-"
-	cont "dos, y conocer"
-	cont "gente nueva…"
+	text "Ir a sitios nuevos"
+	line "y conocer a gente"
+	cont "nueva…"
 
-	para "Esa es la gran"
-	line "alegría de viajar."
+	para "¡Esa es la gran"
+	line "alegría de viajar!"
 	done
 
 PewterCityYoungsterText1:
 	text "El Gimnasio de"
 	line "Plateada es tan"
+	cont "duro como una"
+	cont "roca."
 
-	para "duro y resistente"
-	line "como una roca."
-
-	para "Ten cuidado ahí"
-	line "dentro."
+	para "¡Ten cuidado ahí"
+	line "dentro!"
 	done
 
 PewterCitySignText:
@@ -220,8 +205,8 @@ PewterGymSignText:
 	done
 
 PewterMuseumOfScienceSignText:
-	text "Museo de la Cien-"
-	line "cia de Plateada"
+	text "Museo de Ciencia"
+	line "de Ciudad Plateada"
 	done
 
 PewterCityMtMoonGiftShopSignText:
@@ -235,11 +220,10 @@ PewterCityMtMoonGiftShopSignText:
 PewterCityTrainerTipsText:
 	text "Pistas Entrenador"
 
-	para "Un #mon que"
-	line "lleve una Cápsula"
-	cont "Habilidad tendrá más"
-
-	para "posibilidades de"
-	line "criar una cría con"
+	para "Con una Cápsula"
+	line "Habilidad habrá"
+	cont "tendrás más"
+	cont "opciones de criar"
+	cont "un #mon con una"
 	cont "habilidad rara."
 	done

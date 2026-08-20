@@ -28,7 +28,7 @@ Route11GateOfficerText:
 	cont "evalúa motes de"
 	cont "los #mon."
 
-	para "¡Y también puede"
-	line "ayudarte a cam-"
-	cont "biarles el nombre!"
+	para "¡Y hasta puede"
+	line "ayudarte a cambiar"
+	cont "sus nombres!"
 	done

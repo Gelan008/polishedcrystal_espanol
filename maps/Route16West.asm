@@ -69,9 +69,9 @@ GenericTrainerLassAlice:
 GenericTrainerCosplayerKuroko:
 	generictrainer COSPLAYER, KUROKO, EVENT_BEAT_COSPLAYER_KUROKO, .SeenText, .BeatenText
 
-	text "¡Una vez un entre-"
-	line "nador me tiró una"
-	cont "# Ball!"
+	text "¡Una vez me lanzó"
+	line "una # Ball un"
+	cont "entrenador!"
 	done
 
 .SeenText:
@@ -80,19 +80,17 @@ GenericTrainerCosplayerKuroko:
 	done
 
 .BeatenText:
-	text "¡Es que no apre-"
-	line "cias el arte!"
+	text "¡No sabes apreciar"
+	line "el buen arte!"
 	done
 
 GenericTrainerCooltrainerfSera:
 	generictrainer COOLTRAINERF, SERA, EVENT_BEAT_COOLTRAINERF_SERA, .SeenText, .BeatenText
 
-	text "He salido vestida"
-	line "de Cosplayer, pero"
-
-	para "la ropa de una En-"
-	line "trenadora Guay im-"
-	cont "pone mucho más."
+	text "Iba vestida de"
+	line "Cosplayer, pero"
+	cont "la ropa de Chica"
+	cont "Guay impone más."
 	done
 
 .SeenText:

@@ -24,7 +24,7 @@ Route31VioletGateOfficerText:
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "Me he alejado de-"
-	line "masiado. ¡Será me-"
-	cont "jor llamar a casa!"
+	text "¡Me he alejado"
+	line "mucho! Será mejor"
+	cont "llamar a casa."
 	done

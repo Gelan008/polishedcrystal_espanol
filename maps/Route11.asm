@@ -30,8 +30,8 @@ Route11_MapScriptHeader:
 GenericTrainerYoungsterOwen:
 	generictrainer YOUNGSTER, OWEN, EVENT_BEAT_YOUNGSTER_OWEN, YoungsterOwenSeenText, YoungsterOwenBeatenText
 
-	text "He luchado de for-"
-	line "ma limpia y con"
+	text "Luché de forma"
+	line "limpia y con"
 	cont "honor."
 
 	para "No me arrepiento"
@@ -60,13 +60,12 @@ GenericTrainerYoungsterJason:
 	done
 
 YoungsterJasonSeenText:
-	text "Pica y hace cos-"
-	line "quillas ir en"
-
-	para "pantalón corto"
-	line "por la hierba."
+	text "Ir en pantalones"
+	line "cortos por la"
+	cont "hierba pica y hace"
+	cont "cosquillas."
 	done
-
+	
 YoungsterJasonBeatenText:
 	text "¡Aaaay!"
 	line "¡Me han machacado!"
@@ -75,9 +74,9 @@ YoungsterJasonBeatenText:
 GenericTrainerYoungsterAlfie:
 	generictrainer YOUNGSTER, ALFIE, EVENT_BEAT_YOUNGSTER_ALFIE, .SeenText, .BeatenText
 
-	text "Todo es más diver-"
-	line "tido si es una"
-	cont "competición."
+	text "Todo es más"
+	line "divertido si es"
+	cont "una competición."
 	done
 
 .SeenText:
@@ -95,9 +94,8 @@ GenericTrainerPsychicHerman:
 
 	text "…"
 
-	para "Perdí mientras te-"
-	line "nía los ojos ce-"
-	cont "rrados…"
+	para "Perdí al tener los"
+	line "ojos cerrados…"
 	done
 
 PsychicHermanSeenText: ; text > text
@@ -111,8 +109,8 @@ GenericTrainerPsychicFidel:
 	text "La fuerza de la"
 	line "convicción…"
 
-	para "Tienes poder por-"
-	line "que crees en tus"
+	para "Tienes poder pues"
+	line "crees en tus"
 	cont "#mon."
 	done
 
@@ -137,13 +135,12 @@ GenericTrainerPsychicUri:
 	done
 
 .SeenText:
-	text "Ocurrió una maña-"
-	line "na: un niño con"
-	cont "poderes psíquicos"
+	text "Un buen día, un"
+	line "niño con poderes"
+	cont "psíquicos despertó"
 
-	para "despertó en su ca-"
-	line "ma convertido en"
-	cont "un Kadabra."
+	para "en su cama siendo"
+	line "un Kadabra."
 	done
 
 .BeatenText:
@@ -180,9 +177,9 @@ GenericTrainerEngineerCamden:
 	done
 
 .SeenText:
-	text "¡Estudié ingenie-"
-	line "ría en la Univer-"
-	cont "sidad Azulona!"
+	text "¡Hice Ingeniería"
+	line "en la Universidad"
+	cont "de Azulona!"
 	done
 
 .BeatenText:
@@ -197,11 +194,10 @@ GenericTrainerGuitaristmRoger:
 	done
 
 .SeenText:
-	text "Dos extraños cru-"
-	line "zan por la calle,"
-
-	para "¡y por azar cruzan"
-	line "sus miradas!"
+	text "Dos extraños van"
+	line "por la calle y por"
+	cont "azar cruzan sus"
+	cont "miradas…"
 	done
 
 .BeatenText:

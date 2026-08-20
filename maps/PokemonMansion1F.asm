@@ -32,19 +32,18 @@ PokemonMansion1F_MapScriptHeader:
 GenericTrainerBurglarPete:
 	generictrainer BURGLAR, PETE, EVENT_BEAT_BURGLAR_PETE, BurglarPeteSeenText, BurglarPeteBeatenText
 
-	text "Probablemente al-"
-	line "gún objeto de va-"
-
-	para "lor sobrevivió a"
-	line "la erupción."
+	text "Seguro que algún"
+	line "objeto valioso"
+	cont "sobrevivió a la"
+	cont "erupción."
 	done
 
 GenericTrainerBurglarLouis:
 	generictrainer BURGLAR, LOUIS, EVENT_BEAT_BURGLAR_LOUIS, BurglarLouisSeenText, BurglarLouisBeatenText
 
-	text "Solo quiero encon-"
-	line "trar algo de botín"
-	cont "y largarme."
+	text "Solo quiero hallar"
+	line "algo de botín e"
+	cont "irme de aquí."
 	done
 
 BurglarPeteSeenText:

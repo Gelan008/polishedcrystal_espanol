@@ -83,18 +83,14 @@ Route1617Gate2FBinoculars2:
 	done
 
 Route1617Gate2FPsychicText:
-	text "Hay un Médium cer-"
-	line "ca de aquí capaz"
+	text "Hay un Médium por"
+	line "aquí que altera"
+	cont "el entorno en los"
+	cont "combates #mon."
 
-	para "de alterar el"
-	line "entorno en comba-"
-	cont "tes #mon."
-
-	para "Es mi gran inspi-"
-	line "ración, así que"
-
-	para "he creado mi pro-"
-	line "pia técnica."
+	para "¡Me inspiró para"
+	line "crear mi propia"
+	cont "técnica secreta!"
 	done
 
 Text_Route1617Gate2FTutorTrickRoom:
@@ -102,11 +98,10 @@ Text_Route1617Gate2FTutorTrickRoom:
 	line "tu #mon Espacio"
 	cont "Raro."
 
-	para "Hace que los #-"
-	line "mon lentos ataquen"
-
-	para "antes durante un"
-	line "tiempo."
+	para "Hace que los"
+	line "#mon más lentos"
+	cont "ataquen antes por"
+	cont "un tiempo."
 	done
 
 Text_Route1617Gate2FTutorQuestion:

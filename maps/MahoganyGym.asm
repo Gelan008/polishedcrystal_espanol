@@ -65,12 +65,11 @@ MahoganyGymPryceScript:
 	line "Alud."
 
 	para "Hace más daño si"
-	line "el usuario es he-"
-	cont "rido primero."
+	line "recibes un ataque"
+	cont "primero."
 
-	para "Demuestra la"
-	line "dureza del invier-"
-	cont "no."
+	para "¡Muestra el poder"
+	line "del invierno!"
 	done
 
 GenericTrainerSkierRoxanne:
@@ -96,11 +95,8 @@ GenericTrainerBoarderRonald:
 
 	text "Creo que hay un"
 	line "ataque que un"
-	cont "#mon"
-
-	para "puede usar mien-"
-	line "tras está"
-	cont "congelado."
+	cont "#mon puede usar"
+	cont "estando congelado."
 	done
 
 GenericTrainerBoarderBrad:
@@ -119,9 +115,8 @@ GenericTrainerBoarderDouglas:
 
 	para "Medita a diario"
 	line "bajo una cascada"
-
-	para "para fortalecer"
-	line "cuerpo y mente."
+	cont "para fortalecer"
+	cont "cuerpo y mente."
 	done
 
 MahoganyGymGuyScript:
@@ -129,23 +124,16 @@ MahoganyGymGuyScript:
 	iftrue_jumptextfaceplayer MahoganyGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Fredo es un vete-"
-	line "rano que ha en-"
+	text "Fredo es todo un"
+	line "veterano. Lleva 50"
+	cont "años entrenando."
 
-	para "trenado #mon"
-	line "durante 50 años."
+	para "Dicen que congela"
+	line "a sus rivales con"
+	cont "ataques de Hielo."
 
-	para "Dicen que es muy"
-	line "bueno congelando"
-
-	para "a sus rivales con"
-	line "ataques de Hielo."
-
-	para "¡Eso significa"
-	line "que debes fun-"
-
-	para "dirlo con tu ar-"
-	line "diente ambición!"
+	para "¡Derrítelo con tu"
+	line "ardiente pasión!"
 	done
 
 MahoganyGymStatue:
@@ -161,74 +149,58 @@ MahoganyGymStatue:
 	jumpstd gymstatue3
 
 PryceText_Intro:
-	text "Los #mon tienen"
-	line "muchas experien-"
+	text "Los #mon viven"
+	line "muchas cosas, como"
+	cont "nosotros."
 
-	para "cias en la vida,"
-	line "igual que no-"
-	cont "sotros."
+	para "Yo he visto y he"
+	line "sufrido mucho."
 
-	para "Yo también he"
-	line "visto y sufrido"
-	cont "mucho."
+	para "Yo ya soy viejo,"
+	line "te enseñaré lo"
+	cont "que quiero decir."
 
-	para "Como soy mayor,"
-	line "deja que te ense-"
-	cont "ñe a qué me refie-"
-	cont "ro."
+	para "Llevo con #mon"
+	line "desde antes de que"
+	cont "tú nacieras."
 
-	para "Llevo con los"
-	line "#mon desde"
+	para "¡No perderé fácil!"
 
-	para "antes de que tú"
-	line "nacieras."
-
-	para "No pierdo tan fá-"
-	line "cilmente."
-
-	para "¡Yo, Fredo, el En-"
-	line "trenador del In-"
-
-	para "vierno, te mos-"
-	line "traré mi poder!"
+	para "¡Yo, Fredo, señor"
+	line "del Invierno, te"
+	cont "mostraré mi poder!"
 	done
 
 PryceText_Impressed:
 	text "Ah, me impresiona"
-	line "tu destreza."
+	line "tu gran destreza."
 
 	para "Con esa voluntad,"
-	line "sé que superarás"
+	line "superarás cada"
+	cont "obstáculo vital."
 
-	para "todos los obstácu-"
-	line "los de la vida."
-
-	para "¡Eres digno de es-"
-	line "ta Medalla!"
+	para "¡Eres digno de"
+	line "esta Medalla!"
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "Esa Medalla permi-"
-	line "tirá a tus #mon"
+	text "Esa Medalla deja"
+	line "a tus #mon usar"
+	cont "Torbellino para"
+	cont "cruzar remolinos."
 
-	para "usar Torbellino"
-	line "para cruzar los"
-	cont "remolinos."
-
-	para "Y esto… ¡Es un"
-	line "regalo de mi par-"
-	cont "te!"
+	para "¡Y esto es un"
+	line "regalo para ti!"
 	done
 
 PryceText_CherishYourPokemon:
-	text "Al fundirse hielo"
-	line "y nieve, llega la"
-	cont "primavera."
+	text "Al fundirse el"
+	line "hielo y la nieve,"
+	cont "llega primavera."
 
 	para "Tú y tus #mon"
 	line "estaréis juntos"
-
-	para "por muchos años."
+	cont "por muchos años."
 
 	para "¡Atesora vuestro"
 	line "tiempo juntos!"
@@ -236,26 +208,24 @@ PryceText_CherishYourPokemon:
 
 BoarderRonaldSeenText:
 	text "¡Congelaré a tus"
-	line "#mon, no po-"
-	cont "drás hacer nada!"
+	line "#mon! ¡No podrás"
+	cont "hacer nada!"
 	done
 
 BoarderRonaldBeatenText:
-	text "Maldición. No pu-"
-	line "de hacer nada."
+	text "¡Maldición! No he"
+	line "podido hacer nada."
 	done
 
 BoarderBradSeenText:
-	text "Este Gimnasio tie-"
-	line "ne el suelo"
-	cont "resbaladizo."
+	text "Este Gimnasio"
+	line "resbala mucho."
 
 	para "Es divertido, ¿a"
 	line "que sí?"
 
-	para "Pero oye, ¡aquí"
-	line "no estamos para"
-	cont "jugar!"
+	para "¡Pero no estamos"
+	line "aquí para jugar!"
 	done
 
 BoarderBradBeatenText:
@@ -264,8 +234,8 @@ BoarderBradBeatenText:
 	done
 
 BoarderDouglasSeenText:
-	text "Conozco el secre-"
-	line "to de Fredo."
+	text "Sé el secreto"
+	line "de Fredo."
 	done
 
 BoarderDouglasBeatenText:
@@ -275,16 +245,15 @@ BoarderDouglasBeatenText:
 
 SkierRoxanneSeenText:
 	text "Para llegar hasta"
-	line "Fredo, nuestro Lí-"
-	cont "der,"
+	line "nuestro Líder,"
 
-	para "debes pensar"
+	para "debes pensar bien"
 	line "antes de patinar."
 	done
 
 SkierRoxanneBeatenText:
-	text "¡No perdería con-"
-	line "tra ti esquiando!"
+	text "¡Esquiando no me"
+	line "ganarías jamás!"
 	done
 
 SkierClarissaSeenText:
@@ -299,13 +268,12 @@ SkierClarissaBeatenText:
 
 
 MahoganyGymGuyWinText:
-	text "Fredo es increí-"
-	line "ble, ¡pero tú eres"
-	cont "de otro nivel!"
+	text "¡Fredo es genial,"
+	line "pero tú eres de"
+	cont "otro nivel!"
 
 	para "¡Fue un combate"
 	line "tan ardiente que"
-
-	para "cerró la brecha"
-	line "generacional!"
+	cont "cerró la brecha"
+	cont "generacional!"
 	done

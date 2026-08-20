@@ -29,11 +29,9 @@ GenericTrainerPokefanmTrevor:
 	generictrainer POKEFANM, TREVOR, EVENT_BEAT_POKEFANM_TREVOR, PokefanmTrevorSeenText, PokefanmTrevorBeatenText
 
 	text "Ojalá hubiera una"
-	line "forma fácil de"
-
-	para "saber dónde"
-	line "conseguí a mis"
-	cont "#mon…"
+	line "forma fácil de ver"
+	cont "dónde conseguí a"
+	cont "mis #mon…"
 
 	para "¡Ah! ¡Si solo debo"
 	line "mirar sus datos!"
@@ -44,11 +42,9 @@ PokefanmTrevorSeenText:
 
 	para "Los #mon se"
 	line "vuelven más"
-	cont "afectuosos"
-
-	para "si los entrenas"
-	line "en un lugar que"
-	cont "recuerden."
+	cont "afectuosos si los"
+	cont "entrenas en un"
+	cont "lugar familiar."
 	done
 
 PokefanmTrevorBeatenText:
@@ -59,19 +55,19 @@ PokefanmTrevorBeatenText:
 GenericTrainerPokefanmCarter:
 	generictrainer POKEFANM, CARTER, EVENT_BEAT_POKEFANM_CARTER, PokefanmCarterSeenText, PokefanmCarterBeatenText
 
-	text "Squirtle, Charman-"
-	line "der y Bulbasaur…"
+	text "Bulbasaur,"
+	line "Charmander y"
+	cont "Squirtle…"
 
 	para "Forman un equipo"
 	line "muy equilibrado."
 	done
 
 PokefanmCarterSeenText:
-	text "Déjame decirte"
-	line "que me costó mucho"
-
-	para "atrapar a mis pre-"
-	line "ciados #mon."
+	text "Déjame decirte que"
+	line "me costó mucho"
+	cont "atrapar a mis"
+	cont "amados #mon."
 	done
 
 PokefanmCarterBeatenText:
@@ -82,10 +78,9 @@ GenericTrainerBird_keeperRoy:
 	generictrainer BIRD_KEEPER, ROY, EVENT_BEAT_BIRD_KEEPER_ROY, Bird_keeperRoySeenText, Bird_keeperRoyBeatenText
 
 	text "Tienes #mon que"
-	line "sepan la MO Vuelo,"
-
-	para "¿a que sí? Qué"
-	line "envidia me das."
+	line "saben la MO Vuelo,"
+	cont "¿a que sí? ¡Qué"
+	cont "envidia me das!"
 	done
 
 Bird_keeperRoySeenText:
@@ -119,9 +114,9 @@ GenericTrainerBird_keeperJosh:
 	done
 
 .BeatenText:
-	text "¡He caído tan li-"
-	line "gero como una plu-"
-	cont "ma al viento!"
+	text "¡He caído como"
+	line "una pluma flotando"
+	cont "en el viento!"
 	done
 
 GenericTrainerSchoolboyConnor:
@@ -148,16 +143,16 @@ GenericTrainerSchoolboyConnor:
 GenericTrainerSchoolboyTorin:
 	generictrainer SCHOOLBOY, TORIN, EVENT_BEAT_SCHOOLBOY_TORIN, .SeenText, .BeatenText
 
-	text "¡Vale! ¡La próxi-"
-	line "ma vez no cometeré"
+	text "¡Vale! ¡La próxima"
+	line "vez no cometeré"
 	cont "ningún error!"
 	done
 
 .SeenText:
 	text "¡Viene bien poner"
 	line "en práctica lo"
-	cont "aprendido al mo-"
-	cont "mento!"
+	cont "aprendido en el"
+	cont "momento!"
 	done
 
 .BeatenText:
@@ -195,14 +190,14 @@ GenericTrainerTeacherClarice:
 
 .SeenText:
 	text "¡Muy bien, que dé"
-	line "comienzo el com-"
-	cont "bate #mon!"
+	line "comienzo el duelo"
+	cont "#mon!"
 	done
 
 .BeatenText:
 	text "¡Bien! Con esto"
-	line "termina la lec-"
-	cont "ción de hoy."
+	line "termina la clase"
+	cont "de hoy."
 	done
 
 Route14SignText:

@@ -77,10 +77,7 @@ Route17Route18GateCannotPassText:
 	line "llevas Bicicleta?"
 
 	para "Más adelante está"
-	line "el Camino de"
-	cont "Bicis."
-
-	para "¡Necesitas una"
-	line "Bicicleta para"
-	cont "poder pasar!"
+	line "el Camino de Bicis"
+	cont "y necesitas una"
+	cont "para poder pasar!"
 	done

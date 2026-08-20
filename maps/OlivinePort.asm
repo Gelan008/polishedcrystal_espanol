@@ -85,8 +85,8 @@ OlivinePortAlreadyRodeScript:
 	jumpthisopenedtext
 
 	text "Lo siento. Ahora"
-	line "no puedes embar-"
-	cont "car."
+	line "no puedes subir a"
+	cont "bordo."
 	done
 
 OlivinePortWalkUpToShipScript:
@@ -265,9 +265,8 @@ OlivinePortSailorGetOnBoardText:
 	done
 
 OlivinePortAskBoardText:
-	text "Te damos la bien-"
-	line "venida al Expreso"
-	cont "S.S. Aqua."
+	text "¡Bienvenido al"
+	line "Expreso S.S. Aqua!"
 
 	para "¿Vas a embarcar"
 	line "hoy?"
@@ -296,35 +295,30 @@ OlivinePortNoTicketText:
 	line "mostrar el Ticket"
 	cont "Barco…"
 
-	para "… ¡Pero no lo"
+	para "…¡Pero no lo"
 	line "tiene!"
 
-	para "¡Lo siento!"
-	line "Solo puedes subir"
-
-	para "a bordo si tienes"
-	line "un Ticket Barco."
+	para "¡Lo siento! Solo"
+	line "puedes subir si"
+	cont "tienes el ticket."
 	done
 
 OlivinePortMondayShipText:
-	text "El barco rápido"
-	line "zarpará el próxi-"
-	cont "mo lunes."
+	text "El Barco Rápido"
+	line "zarpará el lunes."
 	done
 
 OlivinePortFridayShipText:
-	text "El barco rápido"
-	line "zarpará el próxi-"
-	cont "mo viernes."
+	text "El Barco Rápido"
+	line "zarpa el viernes."
 	done
 
 OlivinePortFishingGuru1Text:
-	text "Aquí es fácil pes-"
-	line "car a Shellder."
+	text "Aquí es fácil"
+	line "pescar Shellder."
 
 	para "En otros sitios"
-	line "son bastante ra-"
-	cont "ros."
+	line "son muy escasos."
 	done
 
 OlivinePortFishingGuru2Text:
@@ -352,8 +346,6 @@ OlivinePortCooltrainerFText:
 
 OlivinePortSailorBeforeHOFText:
 	text "No queremos que te"
-	line "caigas al mar,"
-
-	para "así que no tienes"
-	line "permitido el paso."
+	line "caigas al mar, por"
+	cont "lo que no pasarás."
 	done

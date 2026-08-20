@@ -129,16 +129,13 @@ PlayersHouse1FStoveText:
 PlayersHouse1FTVScript:
 	jumpthistext
 
-	text "Echan una peli en"
-	line "la tele: Dos niños"
+	text "En la tele: Un"
+	line "pirata con su"
+	cont "tripulación busca"
+	cont "un tesoro…"
 
-	para "viajan en tren"
-	line "bajo las estre-"
-	cont "llas…"
-
-	para "¡Será mejor que yo"
-	line "también me ponga"
-	cont "en marcha!"
+	para "¡Yo también me voy"
+	line "a poner en marcha!"
 	done
 
 MomScript:
@@ -156,10 +153,10 @@ MomScript:
 	iftrue_jumpopenedtext MomErrandText
 	jumpthisopenedtext
 
-	text "Prof.Elm is wait-"
-	line "ing for you."
+	text "El Prof. Elm te"
+	line "está esperando."
 
-	para "Hurry up, baby!"
+	para "¡Date prisa!"
 	done
 
 .FirstTimeBanking:
@@ -186,20 +183,16 @@ else
 	line "estuvo aquí hace"
 	cont "un momento."
 
-	para "Dijo que nuestro"
-	line "vecino, el Prof."
-
-	para "Elm, te estaba"
-	line "buscando."
+	para "Dijo que el Prof."
+	line "Elm te buscaba."
 
 	para "¡Ah! ¡Casi se me"
-	line "olvida! Tu #mon"
+	line "olvida!"
 
-	para "Gear ya volvió del"
-	line "taller de repara-"
-	cont "ciones."
+	para "Tu #gear ya"
+	line "está arreglado."
 
-	para "¡Aquí tienes!"
+	para "¡Aquí lo tienes!"
 	done
 endc
 
@@ -234,26 +227,22 @@ MomRunningShoesText:
 
 	para "Por cierto, ¿sabes"
 	line "cómo usar tus"
-
-	para "nuevas Deporti-"
-	line "vas?"
+	cont "Deportivas nuevas?"
 	done
 
 MomInstructionsText:
-	text "Leeré las instruc-"
-	line "ciones."
+	text "Leeré las"
+	line "instrucciones."
 
 	para "Mantén pulsado el"
 	line "Botón B para"
+	cont "correr en todas"
+	cont "partes."
 
-	para "correr, dentro o"
-	line "fuera."
-
-	para "O usa la opción de"
-	line "correr siempre y"
-
-	para "mantén B para"
-	line "caminar."
+	para "O activa la opción"
+	line "de Auto-Correr y"
+	cont "mantén B para ir"
+	cont "caminando."
 	done
 
 MomOutroText:
@@ -268,14 +257,11 @@ MomErrandText:
 
 	para "…"
 
-	para "Parece un reto di-"
-	line "fícil."
+	para "Parece un encargo"
+	line "difícil."
 
-	para "Pero debes enorgu-"
-	line "llecerte de que la"
-
-	para "gente confíe en"
-	line "ti."
+	para "¡Enorgullécete de"
+	line "que confíen en ti!"
 	done
 
 MomDoItText:
@@ -340,11 +326,10 @@ NeighborScript:
 	text "<PLAYER>, ¿te has"
 	line "enterado?"
 
-	para "Mi hija está empe-"
-	line "ñada en ser la"
-
-	para "ayudante del"
-	line "Prof. Elm."
+	para "Mi hija está"
+	line "empeñada en ser"
+	cont "la ayudante del"
+	cont "Profesor Elm."
 
 	para "¡Le encantan los"
 	line "#mon!"

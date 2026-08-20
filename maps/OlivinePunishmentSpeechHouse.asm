@@ -16,11 +16,9 @@ OlivinePunishmentSpeechHouse_MapScriptHeader:
 	object_event  5,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivinePunishmentSpeechHouseDaughterText, -1
 
 OlivinePunishmentSpeechHouseDadText:
-	text "De camino hacia"
-	line "Ciudad Orquídea"
-
-	para "hay cuatro islas"
-	line "desiertas."
+	text "De camino a Ciudad"
+	line "Orquídea hay"
+	cont "cuatro islotes."
 
 	para "¡Llevan allí a los"
 	line "niños malos como"
@@ -28,7 +26,7 @@ OlivinePunishmentSpeechHouseDadText:
 	done
 
 OlivinePunishmentSpeechHouseDaughterText:
-	text "Cuando hago algo"
-	line "malo, papá siem-"
-	cont "pre me asusta."
+	text "Cuando soy mala,"
+	line "papá siempre me"
+	cont "asusta con eso."
 	done

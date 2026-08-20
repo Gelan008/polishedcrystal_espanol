@@ -27,8 +27,6 @@ Route2GateScientistText:
 	cont "por aquí."
 
 	para "El laboratorio del"
-	line "Prof. Oak está"
-
-	para "cerca, en Pueblo"
-	line "Paleta."
+	line "Prof. Oak está en"
+	cont "Pueblo Paleta."
 	done

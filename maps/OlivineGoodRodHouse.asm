@@ -31,18 +31,16 @@ GoodRodGuru:
 	setevent EVENT_GOT_GOOD_ROD
 	end
 OfferGoodRodText:
-	text "¡Olivo da al"
-	line "mar!"
-
-	para "Y si da al mar,"
-	line "¡seguro que hay"
+	text "¡Olivo da al mar!"
+	line "Y si da al mar,"
+	cont "¡seguro que hay"
 	cont "peces!"
 
-	para "He pescado aquí"
-	line "durante 30 años."
+	para "¡Llevo 30 años"
+	line "pescando aquí!"
 
-	para "¿Te gustaría mirar"
-	line "al mar y pescar?"
+	para "¿Te gustaría"
+	line "pescar en el mar?"
 	done
 
 GiveGoodRodText:
@@ -53,10 +51,8 @@ GiveGoodRodText:
 
 GaveGoodRodText:
 	text "No solo hay peces"
-	line "en el mar."
-
-	para "Están dondequiera"
-	line "que haya agua."
+	line "en el mar, ¡están"
+	cont "donde haya agua!"
 	done
 
 DontWantGoodRodText:

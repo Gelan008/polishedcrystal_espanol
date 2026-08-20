@@ -41,8 +41,8 @@ RocketHideoutB1FBlackBeltRylan:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "En el Equipo Va-"
-	line "lor, superamos"
+	text "En el Equipo"
+	line "Valor superamos"
 	cont "nuestros límites."
 
 	para "¡La fuerza es lo"
@@ -87,9 +87,9 @@ RocketHideoutB1FScientistSanders:
 	done
 
 .SeenText:
-	text "El Equipo Sabidu-"
-	line "ría valora la es-"
-	cont "trategia."
+	text "El Equipo"
+	line "Sabiduría prefiere"
+	cont "la estrategia."
 
 	para "Solo una mente"
 	line "fuerte ganaría"
@@ -112,9 +112,9 @@ RocketHideoutB1FPicnickerZane:
 	done
 
 .SeenText:
-	text "En el Equipo Ins-"
-	line "tinto confiamos en"
-	cont "la intuición."
+	text "En el Equipo"
+	line "Instinto confiamos"
+	cont "en la intuición."
 
 	para "¡Sin pensar, solo"
 	line "actúa!"
@@ -131,11 +131,10 @@ RocketHideoutB1FBattleGirlSasha:
 	generictrainer BATTLE_GIRL, SASHA, EVENT_BEAT_BATTLE_GIRL_SASHA, .SeenText, .BeatenText
 
 	text "La llama de Valor"
-	line "arde en tu inte-"
-	cont "rior."
+	line "arde en ti."
 
-	para "La prueba de Can-"
-	line "dela medirá tus"
+	para "La prueba que pone"
+	line "Candela medirá tus"
 	cont "límites."
 	done
 
@@ -144,9 +143,8 @@ RocketHideoutB1FBattleGirlSasha:
 	line "pura pasión y"
 	cont "riesgo."
 
-	para "¿Crees que puedes"
-	line "igualar mi inten-"
-	cont "sidad?"
+	para "¿Podrás igualar mi"
+	line "gran intensidad?"
 	done
 
 .BeatenText:
@@ -157,9 +155,9 @@ RocketHideoutB1FBattleGirlSasha:
 RocketHideoutB1FLassMavis:
 	generictrainer LASS, MAVIS, EVENT_BEAT_LASS_MAVIS, .SeenText, .BeatenText
 
-	text "Los combates de"
-	line "Spark son imprede-"
-	cont "cibles."
+	text "Las batallas de"
+	line "Spark son tan"
+	cont "impredecibles…"
 
 	para "¡Por eso varío"
 	line "mis tácticas!"

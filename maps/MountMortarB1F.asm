@@ -93,11 +93,11 @@ MountMortarB1FKiyoGotTyrogueText:
 	line "Lucha."
 
 	para "Evoluciona a un"
-	line "#mon más fuerte"
+	line "#mon más fuerte."
 
-	para "Sigue trabajando"
-	line "duro. Yo también"
-	cont "seguiré entrenando"
+	para "¡Sigue trabajando"
+	line "duro! Yo también"
+	cont "entrenaré más."
 
 	para "¡Hasta la vista!"
 	done
@@ -109,9 +109,8 @@ if DEF(FAITHFUL)
 else
 	line "Demolición en una"
 endc
-
-	para "roca, pero no le"
-	line "hizo nada."
+	cont "roca, pero no le"
+	cont "hizo nada."
 
 	para "¡Resultó ser un"
 	line "Geodude que usó"
@@ -121,18 +120,15 @@ endc
 Text_MountMortarB1FTutorDefenseCurl:
 	text "Puedo enseñar a"
 	line "tu #mon a usar"
-
-	para "Rizo Defensa a"
-	line "cambio de una"
-	cont "Hoja Plata."
+	cont "Rizo Defensa por"
+	cont "una Hoja Plata."
 	done
 
 Text_MountMortarB1FTutorQuestion:
 	text "¿Quieres que le"
 	line "enseñe Rizo"
-
-	para "Defensa a tu"
-	line "#mon?"
+	cont "Defensa a tu"
+	cont "#mon?"
 	done
 
 MountMortarB1FKiyoIntroText:
@@ -159,22 +155,20 @@ MountMortarB1FTyrogueRewardText:
 	text "Estoy… destrozado…"
 
 	para "Mi entrenamiento"
-	line "aún no es sufi-"
-	cont "ciente…"
+	line "aún no es"
+	cont "suficiente…"
 
 	para "Pero una derrota"
 	line "es una derrota."
 	cont "Lo admito."
 
-	para "Como prueba de que"
-	line "me has vencido,"
-
-	para "te daré un raro"
-	line "#mon de lucha."
+	para "Como prueba de tu"
+	line "victoria, te daré"
+	cont "un raro #mon."
 	done
 
 MountMortarB1FKiyoFullPartyAndBoxText:
 	text "¡No tienes sitio"
 	line "ni en tu equipo"
-	line "ni en la Caja!"
+	cont "ni en la Caja!"
 	done

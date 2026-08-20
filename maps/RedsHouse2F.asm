@@ -22,21 +22,17 @@ PokemonJournalProfOakScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Prof. Samuel Oak!"
 
 	para "Azul y Dalia, los"
-	line "nietos de Samuel"
-
-	para "Oak, viven cerca"
-	line "de su laboratorio"
-	cont "en Pueblo Paleta."
+	line "nietos de Oak,"
+	cont "viven cerca de su"
+	cont "laboratorio."
 
 	para "Se rumorea que su"
 	line "primo Gabriel vive"
-
-	para "en la lejana"
-	line "región de Alola."
+	cont "en Alola."
 	done
 
 RedsHouse2FPCText:

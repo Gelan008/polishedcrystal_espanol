@@ -66,21 +66,18 @@ TrainerSwimmermLucas:
 	jumpthistextfaceplayer
 
 	text "El arcoíris que"
-	line "forma la luz solar"
-
-	para "aparece en el lado"
-	line "opuesto al sol."
+	line "causa el sol se ve"
+	cont "en el lado opuesto"
+	cont "al sol."
 
 	para "Curioso, ¿verdad?"
 	done
 
 .SeenText:
 	text "La luz se refleja"
-	line "y se refracta en"
-
-	para "las gotas de agua"
-	line "creando un arco-"
-	cont "íris."
+	line "y refracta en las"
+	cont "gotas de agua,"
+	cont "creando arcoíris."
 	done
 
 .BeatenText:
@@ -137,10 +134,10 @@ TrainerBird_keeperPowell:
 
 	text "Mi #mon puede"
 	line "usar Vuelo aunque"
+	cont "esté debilitado."
 
-	para "esté debilitado,"
-	line "así que podré vol-"
-	cont "ver a casa."
+	para "¡Así podré volver"
+	line "a casa volando!"
 
 	para "Práctico, ¿eh?"
 	done
@@ -159,18 +156,16 @@ TrainerBird_keeperPowell:
 GenericTrainerCosplayerChloe:
 	generictrainer COSPLAYER, CHLOE, EVENT_BEAT_COSPLAYER_CHLOE, .SeenText, .BeatenText
 
-	text "Cuando voy vesti-"
-	line "da así, todo el"
-
-	para "mundo dice que soy"
-	line "la más mona vaya"
-	cont "donde vaya."
+	text "Cuando voy con"
+	line "este disfraz, todo"
+	cont "el mundo me dice"
+	cont "que soy muy mona."
 	done
 
 .SeenText:
-	text "¿Te gusta mi cos-"
-	line "tume? ¡Es muy efi-"
-	cont "caz!"
+	text "¿Ves mi cosplay?"
+	line "¡Es de lo más"
+	cont "eficaz!"
 	done
 
 .BeatenText:
@@ -181,11 +176,9 @@ GenericTrainerCosplayerChloe:
 GenericTrainerFisherKiley:
 	generictrainer FISHER, KILEY, EVENT_BEAT_FISHER_KILEY, .SeenText, .BeatenText
 
-	text "Necesitas una bue-"
-	line "na Caña si quieres"
-
-	para "pescar buenos"
-	line "#mon."
+	text "Te hace falta una"
+	line "buena Caña para"
+	cont "pescar #mon."
 	done
 
 .SeenText:
@@ -254,17 +247,16 @@ GenericTrainerCoupleFoxandrae1:
 	done
 
 .BeatenText:
-	text "Fox: Nos has ven-"
-	line "cido a Rae y a mí…"
+	text "Fox: ¡Nos ganaste"
+	line "a Rae y a mí!"
 	done
 
 GenericTrainerCoupleFoxandrae2:
 	generictrainer COUPLE, FOXANDRAE2, EVENT_BEAT_COUPLE_FOX_AND_RAE, .SeenText, .BeatenText
 
-	text "Rae: Hemos perdi-"
-	line "do, pero seguimos"
-	cont "siendo una Pareja"
-	cont "feliz."
+	text "Rae: Aunque hemos"
+	line "perdido, seguimos"
+	cont "siendo felices."
 	done
 
 .SeenText:
@@ -289,9 +281,8 @@ Route32CoastLassText:
 	line "grande de lo que"
 	cont "me esperaba."
 
-	para "Me cansé de explo-"
-	line "rarla entera y me"
-	cont "salí."
+	para "Me cansé de mirar"
+	line "todo y me salí."
 	done
 
 Route32CoastTrainerTipsText:
@@ -300,7 +291,7 @@ Route32CoastTrainerTipsText:
 	para "¡Un #mon con la"
 	line "habilidad Recogida"
 
-	para "puede llevar un"
+	para "puede recoger un"
 	line "objeto tras un"
 	cont "combate!"
 	done

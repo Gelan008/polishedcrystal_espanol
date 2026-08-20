@@ -33,17 +33,16 @@ RockyBeachSign1Text:
 
 RockyBeachSign2Text:
 	text "Bosque Murmullos"
-	line "adelante"
+	line "Más adelante"
 
-	para "Hacia Templo"
-	line "Olvidado"
+	para "Templo Olvidado"
 	done
 
 GenericTrainerSightseermBlaise:
 	generictrainer SIGHTSEERM, BLAISE, EVENT_BEAT_SIGHTSEERM_BLAISE, .SeenText, .BeatenText
 
 	text "Je fais le tour"
-	line "du monde avec mon"
+	line "du monde con mi"
 	cont "#mon."
 	done
 
@@ -79,9 +78,9 @@ GenericTrainerBeautyIoana:
 GenericTrainerSightseerfKamila:
 	generictrainer SIGHTSEERF, KAMILA, EVENT_BEAT_SIGHTSEERF_KAMILA, .SeenText, .BeatenText
 
-	text "Alola es un archi-"
-	line "piélago situado"
-	cont "muy lejos de aquí."
+	text "Alola es un gran"
+	line "archipiélago muy"
+	cont "lejos de aquí."
 
 	para "¡Deberías ir allí"
 	line "algún día!"
@@ -95,7 +94,7 @@ GenericTrainerSightseerfKamila:
 	done
 
 .BeatenText:
-	text "Tch! ¡Eres"
+	text "¡Tch! ¡Eres"
 	line "bastante fuerte!"
 	done
 
@@ -104,9 +103,8 @@ GenericTrainerAromaLadyHeather:
 
 	text "Estudié arreglos"
 	line "florales con Erika"
-
-	para "en la Universidad"
-	line "de Azulona."
+	cont "en la Universidad"
+	cont "de Azulona."
 
 	para "Ella elogió esta"
 	line "isla por su fauna"
@@ -114,9 +112,9 @@ GenericTrainerAromaLadyHeather:
 	done
 
 .SeenText:
-	text "Una flor roja cre-"
-	line "ce por toda esta"
-	cont "isla."
+	text "Hay una flor roja"
+	line "que crece por toda"
+	cont "la isla."
 
 	para "¿Te has fijado?"
 	done
@@ -141,13 +139,11 @@ GenericTrainerBreederBrenda:
 .SeenText:
 	text "La clave para una"
 	line "buena crianza"
-	cont "#mon"
+	cont "#mon es un buen"
+	cont "entorno."
 
-	para "es un buen entor-"
-	line "no."
-
-	para "¡No hay mejor si-"
-	line "tio que este!"
+	para "¡No hay mejor"
+	line "sitio que este!"
 	done
 
 .BeatenText:
@@ -161,17 +157,16 @@ GenericTrainerSwimmermEzra:
 	text "Me encanta bucear"
 	line "por aquí."
 
-	para "¡Es alucinante po-"
-	line "der respirar bajo"
-	cont "el agua!"
+	para "¡Es una pasada"
+	line "poder respirar"
+	cont "bajo el agua!"
 	done
 
 .SeenText:
-	text "¿Alguna vez te has"
-	line "preguntado qué se"
-
-	para "siente al respirar"
-	line "bajo el agua?"
+	text "¿Te has preguntado"
+	line "qué se siente al"
+	cont "respirar bajo el"
+	cont "agua?"
 	done
 
 .BeatenText:
@@ -189,13 +184,12 @@ RockyBeachWilhomenaScript:
 	line "ha desaparecido."
 
 	para "No… No puede haber"
-	line "ido al Bosque"
-	cont "Ruidoso."
+	line "ido hacia el"
+	cont "Bosque Murmullos."
 
-	para "Nunca lo encontra-"
-	line "ré entre los árbo-"
-	cont "les…"
+	para "¡Jamás podré dar"
+	line "con él entre los"
+	cont "árboles…"
 
-	para "Oh, ¿qué debería"
-	line "hacer…?"
+	para "¿Qué voy a hacer?"
 	done

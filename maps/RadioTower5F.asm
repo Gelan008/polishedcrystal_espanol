@@ -72,10 +72,9 @@ GenericTrainerAriana1:
 	line "¿verdad?"
 
 	para "Un mocoso como tú"
-	line "no apreciará la"
-
-	para "grandeza del"
-	line "Team Rocket."
+	line "no entenderá la"
+	cont "grandeza del"
+	cont "Team Rocket."
 
 	para "Es una pena."
 	line "Admiro mucho tu"
@@ -206,10 +205,8 @@ FakeDirectorTextBefore2:
 
 FakeDirectorTextBefore3:
 	text "Me hice pasar por"
-	line "el auténtico para"
-
-	para "preparar la toma"
-	line "del edificio."
+	line "el real y así"
+	cont "tomar la torre."
 
 	para "¿Quieres saber"
 	line "dónde está el"
@@ -221,22 +218,20 @@ FakeDirectorTextBefore3:
 	done
 
 FakeDirectorWinText:
-	text "Vale, vale. Te di-"
-	line "ré dónde está."
+	text "Vale, vale. Te"
+	line "diré dónde está."
 	done
 
 FakeDirectorTextAfter:
-	text "Encerramos al Di-"
-	line "rector real en el"
-
-	para "Almacén Subterrá-"
-	line "neo."
+	text "El Director real"
+	line "está en el Almacén"
+	cont "Subterráneo."
 
 	para "Está al final del"
 	line "Subterráneo."
 
-	para "Pero dudo que lle-"
-	line "gues tan lejos."
+	para "¡Pero dudo que"
+	line "llegues tan lejos!"
 	done
 
 Ariana1SeenText:
@@ -257,32 +252,27 @@ Ariana1BeatenText:
 	done
 
 RadioTower5FRocketBossBeforeText:
-	text "¿Eh? ¿Has logrado"
+	text "¿Has logrado"
 	line "llegar hasta aquí?"
 
 	para "Debes de ser un"
 	line "gran entrenador."
 
-	para "Pensamos tomar es-"
-	line "ta emisora de ra-"
+	para "Tomaremos esta"
+	line "emisora de radio"
+	cont "para anunciar"
+	cont "nuestro regreso."
 
-	para "dio y anunciar"
-	line "nuestro regreso."
-
-	para "Eso hará volver a"
-	line "nuestro jefe Gio-"
-
-	para "vanni de su entre-"
-	line "namiento en soli-"
-	cont "tario."
+	para "Así volverá el"
+	line "jefe Giovanni de"
+	cont "su entrenamiento"
+	cont "en solitario."
 
 	para "¡Recuperaremos"
-	line "nuestra antigua"
-	cont "gloria!"
+	line "nuestra gloria!"
 
-	para "¡No permitiré que"
-	line "te metas en nues-"
-	cont "tros planes!"
+	para "¡No te metas en"
+	line "nuestros planes!"
 	done
 
 RadioTower5FRocketBossWinText:
@@ -294,18 +284,14 @@ RadioTower5FRocketBossAfterText:
 	text "¿Cómo ha podido"
 	line "pasar esto?"
 
-	para "Nuestros sueños"
-	line "se han esfumado."
+	para "Nuestros sueños se"
+	line "han esfumado."
+	cont "No di la talla."
 
-	para "Al final no estuve"
-	line "a la altura."
-
-	para "Igual que hizo"
-	line "Giovanni antes que"
-
-	para "yo, disolveré el"
-	line "Team Rocket hoy"
-	cont "mismo."
+	para "Como hizo Giovanni"
+	line "antes que yo,"
+	cont "disuelvo el Team"
+	cont "Rocket hoy mismo."
 
 	para "Adiós."
 	done
@@ -314,15 +300,11 @@ RadioTower5FDirectorThankYouText:
 	text "Director: ¡Muchas"
 	line "gracias, <PLAYER>!"
 
-	para "Tu valerosa acción"
-	line "ha salvado a los"
+	para "¡Has salvado a los"
+	line "#mon del país!"
 
-	para "#mon de todo el"
-	line "país."
-
-	para "Sé que no es mu-"
-	line "cho, pero toma"
-	cont "esto, por favor."
+	para "No es gran cosa,"
+	line "¡pero toma esto!"
 	done
 
 RadioTower5FDirectorDescribeClearBellText:
@@ -330,71 +312,55 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "torre justo aquí,"
 	cont "en Ciudad Trigal."
 
-	para "Pero era vieja y"
-	line "estaba en ruinas."
-
-	para "Así que pusimos"
-	line "la Torre Radio en"
-	cont "su lugar."
+	para "Como era vieja y"
+	line "estaba en ruinas,"
+	cont "pusimos la Torre"
+	cont "Radio en su lugar."
 
 	para "Desenterramos esa"
 	line "campana durante"
 	cont "las obras."
 
-	para "Oí que en el pasa-"
-	line "do vivían muchos"
+	para "Oí que antaño"
+	line "vivían muchos"
+	cont "#mon en Trigal."
 
-	para "#mon en Ciudad"
-	line "Trigal."
+	para "Quizá esa campana"
+	line "guarde relación"
+	cont "con la Torre"
+	cont "Hojalata de Iris…"
 
-	para "Tal vez…"
-
-	para "Esa campana guarde"
-	line "alguna relación"
-
-	para "con la Torre Hoja-"
-	line "-lata de Ciudad"
-	cont "Iris…"
-
-	para "¡Ah!"
-
-	para "Eso me recuerda…"
+	para "¡Ah! Eso me hace"
+	line "recordar algo…"
 
 	para "Oí susurrar al"
-	line "Team Rocket."
+	line "Team Rocket que"
+	cont "algo pasa en la"
+	cont "Torre Hojalata."
 
-	para "Al parecer, algo"
-	line "pasa en la Torre"
-	cont "Campana."
+	para "No sé qué ocurre,"
+	line "pero deberías"
+	cont "investigarlo."
 
-	para "No tengo ni idea"
-	line "de qué ocurre,"
-
-	para "pero deberías in-"
-	line "vestigarlo."
-
-	para "Bueno, será mejor"
-	line "que vaya a mi des-"
-	cont "pacho."
+	para "En fin, ¡iré a mi"
+	line "despacho!"
 	done
 
 RadioTower5FDirectorText:
 	text "Director: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "Sabes, me encan-"
-	line "tan los #mon."
+	para "Sabes, me encantan"
+	line "los #mon."
 
-	para "Construí esta To-"
-	line "rre Radio para"
+	para "Construí esta"
+	line "Torre Radio para"
+	cont "expresar mi amor"
+	cont "hacia ellos."
 
-	para "expresar mi amor"
-	line "por los #mon."
-
-	para "Sería genial que"
-	line "la gente disfru-"
-	cont "tara de los pro-"
-	cont "gramas."
+	para "¡Espero que todos"
+	line "disfruten de los"
+	cont "programas!"
 	done
 
 BenText:

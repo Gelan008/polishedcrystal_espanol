@@ -34,7 +34,7 @@ OptionNames:
 .Nicknames:
 	db "Motes@"
 .RunningShoes:
-	db "Deportivas@"
+	db "Auto-Correr@"
 .TurningSpeed:
 	db "Velocidad Giro@"
 .ClockFormat:

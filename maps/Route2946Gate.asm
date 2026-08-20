@@ -32,8 +32,6 @@ Route29Route46GateYoungsterText:
 	cont "clases de #mon."
 
 	para "Si quieres hacerte"
-	line "con todos,"
-
-	para "tendrás que buscar"
-	line "por todas partes."
+	line "con todos, busca"
+	cont "por todas partes."
 	done

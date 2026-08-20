@@ -80,23 +80,21 @@ MurkySwampCherylScript:
 	para "Vale, conque te"
 	line "llamas <PLAYER>."
 
-	para "Me alegro mucho de"
-	line "conocerte."
+	para "¡Me alegro de"
+	line "conocerte!"
 
 	para "Me dan miedo los"
 	line "fantasmas de este"
+	cont "pantano…"
 
-	para "pantano, ¿qué tal"
-	line "un combate para"
-	cont "ahuyentarlos?"
+	para "¿Un combate para"
+	line "ahuyentarlos?"
 	done
 
 .YesText:
 	text "Debo advertirte"
 	line "de que mis #mon"
-
-	para "son bastante"
-	line "alborotadores."
+	cont "son alborotadores."
 	done
 
 .NoText:
@@ -107,41 +105,37 @@ MurkySwampCherylScript:
 	done
 
 .BeatenText:
-	text "Hallar el equili-"
-	line "brio entre ataque"
-	cont "y defensa…"
+	text "Lograr equilibrio"
+	line "entre el ataque y"
+	cont "la defensa…"
 
-	para "no es nada fácil."
+	para "No es nada fácil."
 	done
 
 .ItemText:
 	text "¡Muchas gracias,"
 	line "<PLAYER>!"
 
-	para "Ahora podré cruzar"
-	line "este pantano con"
-	cont "seguridad."
+	para "Ahora cruzaré este"
+	line "pantano con calma."
 
 	para "Me recuerda a un"
 	line "bosque muy lejano…"
 
-	para "¡Ah! Esto es una"
-	line "muestra de mi"
-	cont "agradecimiento."
-
-	para "¡Acéptalo, por"
-	line "favor!"
+	para "¡Toma esto como"
+	line "agradecimiento!"
+	cont "¡Acéptalo!"
 	done
 
 .GoodbyeText:
-	text "Me dirijo a la"
-	line "Torre Batalla,"
-	cont "en Ciudad Olivo"
+	text "Voy a la Torre"
+	line "Batalla, en Ciudad"
+	cont "Olivo."
 
 	para "¿Has oído hablar"
 	line "de ella?"
 
-	para "¡Quizá volvamos a"
+	para "¡Ojalá volvamos a"
 	line "vernos allí!"
 
 	para "¡Hasta luego!"
@@ -188,10 +182,10 @@ MurkySwampNurseBeatriceScript:
 .AfterText:
 	text "Hacer que los"
 	line "#mon se sientan"
-	cont "mejor…"
-
-	para "¡por eso vine"
-	line "aquí!"
+	cont "mejor…" 
+	
+	para "¡Por eso vine"
+	line "hasta aquí!"
 	done
 
 MurkySwampBloodmoonUrsaluna:
@@ -224,8 +218,8 @@ BloodmoonUrsalunaText:
 GenericTrainerBug_catcherOscar:
 	generictrainer BUG_CATCHER, OSCAR, EVENT_BEAT_BUG_CATCHER_OSCAR, .SeenText, .BeatenText
 
-	text "¡Vine aquí a bus-"
-	line "car bichos!"
+	text "¡Vine a buscar"
+	line "bichos!"
 
 	para "¡Nadie me avisó de"
 	line "los fantasmas!"
@@ -246,7 +240,7 @@ GenericTrainerHex_maniacMatilda:
 	line "vagaré sin fin,"
 
 	para "perder el juicio"
-	line "y mi alma abrir."
+	line "y mi alma al fin."
 	done
 
 .SeenText:
@@ -271,12 +265,11 @@ GenericTrainerFirebreatherOleg:
 .SeenText:
 	text "Quiero encender un"
 	line "fuego… pero ¿y si"
+	cont "arde el gas del"
+	cont "pantano y explota?"
 
-	para "prende el gas del"
-	line "pantano y explota?"
-
-	para "¡Es muy arriesga-"
-	line "do!"
+	para "¡Es demasiado"
+	line "arriesgado!"
 	done
 
 .BeatenText:
@@ -287,14 +280,12 @@ GenericTrainerFirebreatherOleg:
 GenericTrainerLassAbigail:
 	generictrainer LASS, ABIGAIL, EVENT_BEAT_LASS_ABIGAIL, .SeenText, .BeatenText
 
-	text "Se rumorea que se"
-	line "ve un extraño orbe"
-	cont "rojo,"
+	text "Dicen que se ve un"
+	line "extraño orbe rojo,"
+	cont "brillante como una"
+	cont "luna carmesí."
 
-	para "que brilla como"
-	line "una luna carmesí."
-
-	para "Suena terrorífico."
+	para "¡Suena aterrador!"
 	done
 
 .SeenText:
@@ -311,21 +302,17 @@ GenericTrainerPokemaniacEnzo:
 	generictrainer POKEMANIAC, ENZO, EVENT_BEAT_POKEMANIAC_ENZO, .SeenText, .BeatenText
 
 	text "No creo que Gastly"
-	line "pueda emitir una"
-
-	para "luz roja como la"
-	line "que yo vi."
+	line "emita esa luz roja"
+	cont "que yo vi."
 
 	para "¿Qué podrá ser?"
 	done
 
 .SeenText
-	text "¡Vi una extraña"
-	line "luz roja entre los"
-
-	para "árboles mientras"
-	line "buscaba #mon"
-	cont "raros!"
+	text "¡Vi una rara luz"
+	line "roja entre árboles"
+	cont "mientras buscaba"
+	cont "#mon raros!"
 	done
 
 .BeatenText
@@ -334,14 +321,11 @@ GenericTrainerPokemaniacEnzo:
 	done
 
 MurkySwampPokemaniacText:
-	text "Tan cerca de la"
-	line "costa, la tierra"
-
-	para "se empapa de agua."
+	text "Cerca de la costa,"
+	line "la tierra siempre"
+	cont "está empapada."
 
 	para "¡Pero los #mon"
-	line "raros que hay aquí"
-
-	para "hacen que valga la"
-	line "pena explorar!"
+	line "raros hacen que"
+	cont "valga la pena!"
 	done

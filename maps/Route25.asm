@@ -148,8 +148,8 @@ SchoolboyJoeSeenText:
 	done
 
 SchoolboyJoeBeatenText:
-	text "¡Ay! ¡Me has he-"
-	line "cho papilla!"
+	text "¡Ay! ¡Me hiciste"
+	line "papilla!"
 	done
 
 LassLauraSeenText:
@@ -162,9 +162,9 @@ LassLauraBeatenText:
 	done
 
 CamperLloydSeenText:
-	text "¡Vale! Soy el nú-"
-	line "mero 5. ¡Te voy a"
-	cont "aplastar!"
+	text "¡Vale! Soy el"
+	line "número 5. ¡Te voy"
+	cont "a aplastar!"
 	done
 
 CamperLloydBeatenText:
@@ -188,11 +188,10 @@ SupernerdPatSeenText:
 	line "ver con los seis"
 	cont "entrenadores."
 
-	para "He esperado aquí"
-	line "a que estuvieras"
-
-	para "sin fuerzas tras"
-	line "tantos combates."
+	para "He esperado a que"
+	line "te quedaras sin"
+	cont "fuerzas tras los"
+	cont "seis combates."
 	done
 
 SupernerdPatBeatenText:
@@ -220,22 +219,18 @@ Route25SlowpokeText2:
 	done
 
 CooltrainermKevinNuggetText:
-	text "Luchaste un comba-"
-	line "te más de lo que"
-
-	para "esperabas, pero"
-	line "ganaste igual."
+	text "Luchaste un duelo"
+	line "más de la cuenta,"
+	cont "pero ganaste."
 
 	para "Como prometí, aquí"
 	line "tienes tu premio."
 	done
 
 CooltrainermKevinSeenText:
-	text "Pero viendo cómo"
-	line "luchas, quiero ver"
-
-	para "cómo me desenvuel-"
-	line "vo yo."
+	text "Al ver cómo peleas"
+	line "quiero probar mi"
+	cont "propia fuerza."
 
 	para "¿Qué me dices?"
 	line "Permíteme luchar."
@@ -258,14 +253,12 @@ NuggetBridgeNotClearedText:
 
 	para "Seis entrenadores"
 	line "y yo organizamos"
-
-	para "un desafío en"
-	line "esta ruta."
+	cont "un desafío aquí."
 
 	para "¡No te los puedes"
 	line "saltar!"
 
-	para "Abajo hay un ata-"
-	line "jo para volver a"
-	cont "la Ruta 24."
+	para "Abajo tienes un"
+	line "atajo para volver"
+	cont "a la Ruta 24."
 	done

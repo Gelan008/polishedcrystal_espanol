@@ -61,13 +61,13 @@ GenericTrainerBikerJoel:
 	para "La verdad es que"
 	line "no molo nada."
 
-	para "Tengo que entre-"
-	line "nar más duro…"
+	para "¡Debo entrenar"
+	line "mucho más duro!"
 	done
 
 BikerJoelSeenText:
-	text "¡Hala! ¡Qué Bici-"
-	line "cleta más chula!"
+	text "¡Hala! ¡Qué Bici"
+	line "tan chula llevas!"
 	done
 
 BikerJoelBeatenText:
@@ -105,13 +105,13 @@ GenericTrainerBikerDale:
 
 BikerDaleSeenText:
 	text "¡Vas a perder!"
-	line "¡Tengo una cora-"
-	cont "zonada!"
+	line "¡Tengo un buen"
+	cont "presentimiento!"
 	done
 
 BikerDaleBeatenText:
-	text "Quizá me haya fa-"
-	line "llado el ojo…"
+	text "Quizá me falló el"
+	line "ojo…"
 	done
 
 GenericTrainerBikerJacob:
@@ -125,8 +125,8 @@ BikerJacobSeenText:
 	text "¡Trucar mi moto me"
 	line "cuesta una pasta!"
 
-	para "¡Necesito un tra-"
-	line "bajo ya!"
+	para "¡Necesito un buen"
+	line "empleo ya!"
 	done
 
 BikerJacobBeatenText:
@@ -140,9 +140,9 @@ GenericTrainerBikerAiden:
 	text "¡Brum, brrruuum!"
 	line "¡Ratatatatata…!"
 
-	para "¡Toma, mi imita-"
-	line "ción de motor ha"
-	cont "evolucionado!"
+	para "¡Mi imitación de"
+	line "motor ha ganado"
+	cont "en realismo!"
 	done
 
 BikerAidenSeenText:
@@ -150,8 +150,8 @@ BikerAidenSeenText:
 	line "¡Brrr, brrr, brrr!"
 
 	para "¿Qué te parece mi"
-	line "imitación del mo-"
-	cont "tor?"
+	line "imitación de un"
+	cont "gran motor?"
 	done
 
 BikerAidenBeatenText:
@@ -243,8 +243,8 @@ GenericTrainerRoughneckMarkey:
 
 	text "¡Genial!"
 
-	para "¡Ese grito de gue-"
-	line "rra ha sido total!"
+	para "¡Ese gran grito"
+	line "ha sido genial!"
 	done
 
 RoughneckMarkeySeenText:
@@ -271,12 +271,10 @@ Route17SouthTrainerTips1Text:
 	para "Cada #mon es"
 	line "único."
 
-	para "Dos #mon de"
-	line "la misma especie"
-	cont "y nivel pueden"
-
-	para "crecer y actuar"
-	line "de forma distinta."
+	para "Dos #mon de la"
+	line "misma especie y"
+	cont "nivel crecen de"
+	cont "forma distinta."
 	done
 
 Route17SouthTrainerTips2Text:
@@ -290,7 +288,6 @@ Route17SouthTrainerTips2Text:
 Route17SouthNotice2Text:
 	text "Es un aviso."
 
-	para "¡No tires la to-"
-	line "alla, tira #"
-	cont "Balls!"
+	para "¡No te rindas y"
+	line "tira # Balls!"
 	done

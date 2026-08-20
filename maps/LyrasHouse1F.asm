@@ -87,7 +87,7 @@ LyrasTVScript:
 	text "En la tele: Un"
 	line "pirata con su"
 	cont "tripulación busca"
-	cont "el One Piece…"
+	cont "un tesoro…"
 
 	para "¡Yo también me voy"
 	line "a poner en marcha!"

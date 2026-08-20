@@ -141,9 +141,8 @@ TrainerSchoolgirlImogen:
 HikerAnthony1SeenText:
 	text "He cruzado todo"
 	line "el túnel, pero"
-
-	para "aún me queda un"
-	line "montón de energía."
+	cont "aún me queda un"
+	cont "montón de energía."
 	done
 
 HikerAnthony1BeatenText:
@@ -177,8 +176,8 @@ SchoolgirlImogenSeenText:
 	done
 
 SchoolgirlImogenBeatenText:
-	text "Así que hay entre-"
-	line "nadores mejores…"
+	text "Hay entrenadores"
+	line "mejores que yo…"
 	done
 
 Route33SignText:

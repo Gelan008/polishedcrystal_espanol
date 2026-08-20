@@ -30,12 +30,10 @@ Route4_MapScriptHeader:
 GenericTrainerYoungsterOliver:
 	generictrainer YOUNGSTER, OLIVER, EVENT_BEAT_YOUNGSTER_OLIVER, YoungsterOliverSeenText, YoungsterOliverBeatenText
 
-	text "Dicen que hago"
-	line "demasiadas pregun-"
-	cont "tas, pero"
-
-	para "eso hacen los ni-"
-	line "ños, ¿no?"
+	text "Dicen que pregunto"
+	line "demasiado, pero"
+	cont "es lo que hacen"
+	cont "los niños, ¿no?"
 	done
 
 GenericTrainerLassJennifer:
@@ -49,15 +47,15 @@ GenericTrainerLassJennifer:
 GenericTrainerBird_keeperHank:
 	generictrainer BIRD_KEEPER, HANK, EVENT_BEAT_BIRD_KEEPER_HANK, Bird_keeperHankSeenText, Bird_keeperHankBeatenText
 
-	text "Si quieres entre-"
-	line "nar a un #mon"
-	cont "en concreto,"
+	text "Para entrenar a un"
+	line "#mon en"
+	cont "concreto,"
 
 	para "sácalo primero y"
 	line "cámbialo luego."
 
-	para "Así es como se"
-	line "hace."
+	para "¡Así es como se"
+	line "hace!"
 	done
 
 GenericTrainerPicnickerHope:
@@ -67,8 +65,8 @@ GenericTrainerPicnickerHope:
 	line "aparece en el"
 	cont "Monte Moon."
 
-	para "Pero ¿dónde po-"
-	line "drán estar?"
+	para "Pero ¿dónde"
+	line "estarán?"
 	done
 
 GenericTrainerPicnickerSharon:
@@ -169,16 +167,15 @@ YoungsterOliverSeenText:
 	done
 
 YoungsterOliverBeatenText:
-	text "Solo estaba pre-"
-	line "guntando…"
+	text "Solo era una"
+	line "pregunta…"
 	done
 
 LassJenniferSeenText:
-	text "Lucho cada vez que"
-	line "puedo, solo por"
-
-	para "pasar tiempo con"
-	line "mis #mon."
+	text "Lucho siempre que"
+	line "puedo solo por"
+	cont "estar con mis"
+	cont "#mon."
 	done
 
 LassJenniferBeatenText:
@@ -197,17 +194,16 @@ Bird_keeperHankBeatenText:
 	done
 
 PicnickerHopeSeenText:
-	text "Tengo el presenti-"
-	line "miento de que pue-"
-	cont "do ganar."
+	text "Presiento que hoy"
+	line "puedo ganar."
 
 	para "¡A ver si tengo"
 	line "razón!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Vaya, eres dema-"
-	line "siado fuerte."
+	text "Vaya, tienes mucha"
+	line "fuerza."
 	done
 
 PicnickerSharonSeenText: ; text > text
@@ -243,18 +239,16 @@ Route4SuperNerd2Text:
 
 Text_Route4TutorIronHead:
 	text "Si me das una Hoja"
-	line "Plata ¡le enseñaré"
-
-	para "a tu #mon"
-	line "Cabeza de Hierro!"
+	line "Plata, ¡enseñaré a"
+	cont "tu #mon Cabeza"
+	cont "de Hierro!"
 	done
 
 Text_Route4TutorAquaTail:
 	text "Si me das una Hoja"
-	line "Plata ¡le enseñaré"
-
-	para "a tu #mon"
-	line "Acua Cola!"
+	line "Plata, ¡enseñaré a"
+	cont "tu #mon Acua"
+	cont "Cola!"
 	done
 
 Text_Route4TutorsNoSilverLeaf:
@@ -283,12 +277,11 @@ Route4EngineerText2:
 	text "El teleférico no"
 	line "funciona ahora."
 
-	para "Hasta que no aca-"
-	line "bemos de arreglar-"
-	cont "lo, la Plaza del"
-
-	para "Monte Moon estará"
-	line "cerrada."
+	para "Hasta que no lo"
+	line "arreglemos, la"
+	cont "Plaza del Monte"
+	cont "Moon continuará"
+	cont "cerrada."
 	done
 
 MtMoonSignText:

@@ -30,10 +30,9 @@ Route2NuggetSpeechHouseFisherScript:
 	text "Es una Pepita."
 
 	para "No puedo darte"
-	line "perlas de sabi-"
-
-	para "duría, ¡así que"
-	line "eso servirá!"
+	line "sabios consejos,"
+	cont "¡así que eso"
+	cont "servirá!"
 	done
 
 .Text1:
@@ -44,7 +43,7 @@ Route2NuggetSpeechHouseFisherScript:
 	line "visita que tengo"
 	cont "en mucho tiempo."
 
-	para "¡Estoy superfe-"
-	line "liz! Déjame darte"
-	cont "un detallito."
+	para "¡Qué gran alegría!"
+	line "Toma este bonito"
+	cont "detalle."
 	done

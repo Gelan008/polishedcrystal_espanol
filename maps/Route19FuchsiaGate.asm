@@ -37,10 +37,9 @@ Route19FuchsiaGateOfficerScript:
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	
 	text "Ningún habitante"
-	line "de Isla Canela re-"
-	cont "sultó herido por"
+	line "de Isla Canela"
+	cont "sufrió daños por"
 	cont "la erupción."
 
 	para "¡Menos mal!"

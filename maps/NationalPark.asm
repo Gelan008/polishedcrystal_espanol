@@ -76,9 +76,9 @@ GenericTrainerBugManiacLou:
 	text "Antes solo era"
 	line "un Cazabichos,"
 
-	para "¡pero he evolu-"
-	line "cionado a un"
-	cont "Pokémaníaco bicho!"
+	para "¡pero he pasado a"
+	line "ser Pokémaníaco"
+	cont "de bichos!"
 	done
 
 GenericTrainerSchoolgirlEliza:
@@ -214,12 +214,9 @@ SchoolboyJack1Script:
 GenericTrainerPokefanmWilliam:
 	generictrainer POKEFANM, WILLIAM, EVENT_BEAT_POKEFANM_WILLIAM, PokefanmWilliamSeenText, PokefanmWilliamBeatenText
 
-	text "He perdido el"
-	line "combate, pero mis"
-
-	para "#mon se llevan"
-	line "el premio a los"
-	cont "más adorables."
+	text "Perdí el combate,"
+	line "¡pero mis #mon"
+	cont "son los más monos!"
 	done
 
 TrainerPokefanfBeverly1:
@@ -325,21 +322,16 @@ NationalParkTeacher1Text:
 	text "¡Prestad atención,"
 	line "por favor!"
 
-	para "…Uy, tengo que"
-	line "dejar de pensar"
-
-	para "como una maestra a"
-	line "todas horas."
+	para "…Uy, debo dejar"
+	line "de pensar como una"
+	cont "maestra siempre."
 
 	para "Debes de ser un"
-	line "entrenador"
-	cont "#mon."
+	line "entrenador #mon"
 
-	para "Como te estás es-"
-	line "forzando tanto,"
-
-	para "quiero que te que-"
-	line "des con esto."
+	para "¡Por esforzarte"
+	line "tanto, quiero que"
+	cont "te quedes esto!"
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
@@ -347,9 +339,9 @@ NationalParkTeacher1Text_GotQuickClaw:
 	line "Rápida a un"
 	cont "#mon."
 
-	para "A veces le permi-"
-	line "tirá atacar prime-"
-	cont "ro en combate."
+	para "A veces le dejará"
+	line "atacar primero en"
+	cont "el combate."
 	done
 
 SchoolgirlElizaSeenText:
@@ -375,8 +367,8 @@ SchoolboyJohnnyBeatenText:
 	done
 
 NationalParkTeacher2Text:
-	text "Esos críos debe-"
-	line "rían luchar en la"
+	text "Los críos deberían"
+	line "luchar en la"
 	cont "hierba."
 
 	para "Están molestando"
@@ -394,18 +386,16 @@ NationalParkGameboyKidText:
 
 	para "Quiero completar"
 	line "una #dex viva"
-
-	para "con un ejemplar de"
-	line "cada #mon."
+	cont "con cada #mon."
 	done
 
 SchoolboyJack1SeenText:
 	text "El mundo #mon"
 	line "es muy profundo."
 
-	para "Aún quedan muchas"
-	line "cosas que descono-"
-	cont "cemos."
+	para "Aún hay muchas"
+	line "cosas que no"
+	cont "conocemos."
 
 	para "¡Pero yo sé más"
 	line "que tú!"
@@ -420,13 +410,13 @@ SchoolboyJackTradeMonText:
 	line "aprender."
 
 	para "Por ejemplo…"
+	line "Hay {d:NUM_TMS} tipos"
+	cont "de MT."
 
-	para "Hay {d:NUM_TMS} tipos"
-	line "de MT."
-
-	para "Los #mon inter-"
-	line "cambiados suben de"
-	cont "nivel más rápido."
+	para "Los #mon que"
+	line "son intercambiados"
+	cont "suben más rápido"
+	cont "de nivel."
 	done
 
 PokefanfBeverly1SeenText:
@@ -498,10 +488,8 @@ OfficermKeithWinText:
 OfficermKeithAfterText:
 	text "¡El parque sigue"
 	line "abierto de noche"
-
-	para "porque los agentes"
-	line "como yo lo man-"
-	cont "tienen seguro!"
+	cont "porque los agentes"
+	cont "lo protegemos!"
 	done
 
 OfficermKeithDaytimeText:
@@ -509,10 +497,9 @@ OfficermKeithDaytimeText:
 	line "parque, eh?"
 
 	para "¡Lleva siempre un"
-	line "#mon contigo"
-
-	para "si vas a entrar"
-	line "en la hierba alta!"
+	line "#mon contigo si"
+	cont "entras en la"
+	cont "hierba alta!"
 	done
 
 NationalParkRelaxationSquareText:
@@ -532,13 +519,10 @@ NationalParkBattleNoticeText:
 	done
 
 NationalParkTrainerTipsText:
-	text "Consejos para"
-	line "entrenadores"
+	text "Pistas Entrenador"
 
 	para "Los #mon son"
 	line "más felices con"
-
-	para "cortes de pelo,"
-	line "atenciones, fotos"
-	cont "y otros mimos."
+	cont "cortes de pelo,"
+	cont "fotos, etc…"
 	done

@@ -32,15 +32,13 @@ GenericTrainerDragonTamerKazu:
 	text "Va a ser duro"
 	line "ganar en la Liga."
 
-	para "Tengo que entre-"
-	line "nar un poco más."
+	para "Tengo que entrenar"
+	line "un poco más."
 
-	para "He oído que el"
-	line "Alto Mando de la"
-
-	para "Liga es más duro"
-	line "que los Líderes de"
-	cont "Gimnasio."
+	para "Oí que el Alto"
+	line "Mando de la Liga"
+	cont "es más duro que"
+	cont "los Líderes."
 	done
 
 TrainerCooltrainermGaven1:
@@ -131,16 +129,13 @@ TrainerCooltrainermGaven1:
 GenericTrainerCooltrainerfJoyce:
 	generictrainer COOLTRAINERF, JOYCE, EVENT_BEAT_COOLTRAINERF_JOYCE, CooltrainerfJoyceSeenText, CooltrainerfJoyceBeatenText
 
-	text "He vencido a ocho"
-	line "Líderes de Gimna-"
-	cont "sio, así que me"
-
-	para "sentía con mucha"
-	line "confianza."
+	text "Vencí a ocho"
+	line "Líderes, así que"
+	cont "tenía confianza."
 
 	para "La próxima vez"
-	line "tendré que esfor-"
-	cont "zarme más."
+	line "tendré que darlo"
+	cont "todo de mí."
 	done
 
 TrainerCooltrainerfBeth1:
@@ -244,10 +239,8 @@ GenericTrainerBattleGirlRonda:
 	generictrainer BATTLE_GIRL, RONDA, EVENT_BEAT_BATTLE_GIRL_RONDA, BattleGirlRondaSeenText, BattleGirlRondaBeatenText
 
 	text "Por aquí pasan"
-	line "algunos de los en-"
-
-	para "trenadores más"
-	line "fuertes del mundo."
+	line "los entrenadores"
+	cont "más fuertes."
 
 	para "¡Y yo puedo luchar"
 	line "contra todos!"
@@ -275,8 +268,7 @@ GenericTrainerDragonTamerErick:
 DragonTamerKazuSeenText:
 	text "Hago mis últimos"
 	line "preparativos para"
-
-	para "la Liga #mon."
+	cont "la Liga #mon."
 	done
 
 DragonTamerKazuBeatenText:
@@ -296,16 +288,13 @@ CooltrainermGaven1BeatenText:
 
 CooltrainermGavenAfterText:
 	text "Para llegar a la"
-	line "Liga #mon, tie-"
+	line "Liga #mon debes"
+	cont "cruzar por la"
+	cont "Calle Victoria."
 
-	para "nes que cruzar la"
-	line "Calle Victoria."
-
-	para "Pero la Calle Vic-"
-	line "toria es durísima."
-
-	para "¡Casi nadie se"
-	line "atreve a ir!"
+	para "¡Pero esa cueva"
+	line "es tan dura que"
+	cont "casi nadie va!"
 	done
 
 CooltrainerfJoyceSeenText:
@@ -370,8 +359,7 @@ BattleGirlRondaSeenText:
 	done
 
 BattleGirlRondaBeatenText:
-	text "¡Tuya es la victo-"
-	line "ria!"
+	text "¡Has ganado tú!"
 	done
 
 FisherScottSeenText:
@@ -384,8 +372,8 @@ FisherScottSeenText:
 	done
 
 FisherScottBeatenText:
-	text "¡No! ¡En este com-"
-	line "bate no!"
+	text "¡No! ¡En este"
+	line "combate no!"
 	done
 
 DragonTamerErickSeenText:

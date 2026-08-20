@@ -42,9 +42,9 @@ GenericTrainerBikerCharles:
 	done
 
 BikerCharlesSeenText:
-	text "¡Somos las estre-"
-	line "llas sin miedo de"
-	cont "la carretera!"
+	text "¡Somos los amos"
+	line "sin miedo de la"
+	cont "carretera!"
 	done
 
 BikerCharlesBeatenText:
@@ -53,7 +53,7 @@ BikerCharlesBeatenText:
 	done
 
 Route18WestBikeWarningText:
-	text "¡Debes ir en Bici-"
-	line "cleta para entrar"
-	cont "al Camino Bicis!"
+	text "¡Debes ir en Bici"
+	line "para entrar en el"
+	cont "Camino de Bicis!"
 	done

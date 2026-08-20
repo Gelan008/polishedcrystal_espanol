@@ -27,32 +27,27 @@ RedsMom:
 	para "Rojo lleva fuera"
 	line "mucho tiempo."
 
-	para "Tampoco ha llama-"
-	line "do, así que no sé"
+	para "Tampoco ha llamado"
+	line "y no sé dónde está"
+	cont "ni qué hace."
 
-	para "dónde está ni lo"
-	line "que está haciendo."
+	para "Dicen que no saber"
+	line "de alguien son"
+	cont "buenas noticias,"
 
-	para "Dicen que el no"
-	line "saber nada de al-"
-
-	para "guien significa"
-	line "que le va bien,"
-
-	para "pero me preocupo"
-	line "por él."
+	para "¡pero me preocupo"
+	line "mucho por él!"
 	done
 
 .Text2:
 	text "Me preocupa que"
 	line "Rojo se haga daño"
+	cont "o enferme…"
 
-	para "o enferme, pero es"
-	line "un chico. Me sien-"
-
-	para "to orgullosa de"
-	line "que haga lo que"
-	cont "quiera hacer."
+	para "Pero es un chico"
+	line "que hace lo que"
+	cont "desea hacer y eso"
+	cont "me enorgullece."
 	done
 
 RedsHouse1FTVScript:

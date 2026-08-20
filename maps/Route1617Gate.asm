@@ -76,9 +76,8 @@ Route1617GateOfficerText:
 
 	para "Es una sensación"
 	line "estupenda que no"
-
-	para "se tiene ni en un"
-	line "barco ni en tren."
+	cont "se tiene en barco"
+	cont "ni en tren."
 	done
 
 Route16GateCannotPassText:
@@ -86,8 +85,6 @@ Route16GateCannotPassText:
 	line "carro!"
 
 	para "No puedes entrar"
-	line "en el Camino de"
-
-	para "Bicis sin una"
-	line "Bicicleta."
+	line "al Camino de Bicis"
+	cont "sin una Bicicleta."
 	done

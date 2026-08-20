@@ -26,21 +26,18 @@ MahoganyRedGyaradosSpeechHouseTeacherScript:
 	done
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "Oí que un Gyara-"
-	line "dos rojo apare-"
-	cont "ció en el lago."
+	text "Oí que se vio un"
+	line "Gyarados rojo en"
+	cont "el lago."
 
-	para "Es raro, ya que"
-	line "incluso los ordi-"
-
-	para "narios son raros"
-	line "en ese lago…"
+	para "Es raro, pues los"
+	line "normales ya son"
+	cont "raros de ver allí…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
 	text "He estado oyendo"
-	line "risas por la"
+	line "risas en la radio…"
 
-	para "radio…"
-	line "Es espeluznante."
+	para "Es espeluznante."
 	done

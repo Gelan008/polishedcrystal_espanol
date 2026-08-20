@@ -53,23 +53,25 @@ QuietCaveB1FNurseKeikoScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "See how energetic"
-	line "your #mon are!"
+	text "¡Mira qué llenos"
+	line "de energía están"
+	cont "tus #mon!"
 	done
 
 .SeenText:
-	text "¿Necesitas la ayu-"
-	line "da de una Enfer-"
-	cont "mera?"
+	text "¿Necesitas que te"
+	line "ayude una"
+	cont "Enfermera?"
 
-	para "¡Claro! ¡Si puedes"
-	line "ganarme, curaré a"
+	para "¡Si me ganas en un"
+	line "combate, curaré a"
 	cont "tus #mon!"
 	done
 
 .BeatenText:
-	text "¿De verdad necesi-"
-	line "tabas curarlos?"
+	text "¿De verdad te"
+	line "hacía falta que"
+	cont "los curara?"
 	done
 
 .AfterText:
@@ -81,19 +83,17 @@ QuietCaveB1FNurseKeikoScript:
 GenericTrainerBattleGirlKagami:
 	generictrainer BATTLE_GIRL, KAGAMI, EVENT_BEAT_BATTLE_GIRL_KAGAMI, BattleGirlKagamiSeenText, BattleGirlKagamiBeatenText
 
-	text "Vengo aquí a en-"
-	line "trenar en paz y"
-	cont "soledad."
+	text "Vengo aquí para"
+	line "entrenar en paz y"
+	cont "en soledad."
 	done
 
 GenericTrainerPokemaniacAidan:
 	generictrainer POKEMANIAC, AIDAN, EVENT_BEAT_POKEMANIAC_AIDAN, PokemaniacAidanSeenText, PokemaniacAidanBeatenText
 
 	text "A veces un #mon"
-	line "de cierta zona"
-
-	para "conoce un movi-"
-	line "miento raro."
+	line "de una zona sabe"
+	cont "un ataque raro."
 	done
 
 GenericTrainerHikerSteve:
@@ -102,9 +102,9 @@ GenericTrainerHikerSteve:
 	text "La espeleología es"
 	line "explorar cuevas."
 
-	para "¡Significa aden-"
-	line "trarse en caver-"
-	cont "nas!"
+	para "¡Significa"
+	line "adentrarse en las"
+	cont "cavernas!"
 	done
 
 GenericTrainerPsychicVirgil:
@@ -126,9 +126,8 @@ BattleGirlKagamiBeatenText:
 
 PokemaniacAidanSeenText:
 	text "¡Mis #mon!"
-
-	para "¡Déjame que te"
-	line "los enseñe!"
+	line "¡Déjame que te"
+	cont "los enseñe!"
 	done
 
 PokemaniacAidanBeatenText: ; text > text
@@ -136,9 +135,9 @@ PokemaniacAidanBeatenText: ; text > text
 	done
 
 HikerSteveSeenText:
-	text "Me llaman Montañe-"
-	line "ro, ¡pero ahora"
-	cont "soy espeleólogo!"
+	text "Soy un Montañero,"
+	line "¡pero hoy seré"
+	cont "espeleólogo!"
 	done
 
 HikerSteveBeatenText:
@@ -151,7 +150,7 @@ PsychicVirgilSeenText:
 	done
 
 PsychicVirgilBeatenText:
-	text "¿Por qué los com-"
-	line "bates son tan rui-"
-	cont "dosos?"
+	text "¿Por qué hay tanto"
+	line "ruido durante los"
+	cont "combates?"
 	done

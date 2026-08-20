@@ -126,10 +126,9 @@ Oak:
 .NoShinyCharm
 	jumpthisopenedtext
 
-	text "Si te pásas por la"
-	line "zona, espero que"
-	cont "vuelvas a visitar-"
-	cont "me."
+	text "Si pasas por la"
+	line "zona, ¡espero que"
+	cont "vengas a verme!"
 	done
 
 .BattleOak:
@@ -201,15 +200,12 @@ EeveeDollScript:
 OakWelcomeKantoText:
 	text "Oak: ¡<PLAYER>!"
 	line "Me alegra que"
-
-	para "hayas venido desde"
-	line "tan lejos a Kanto."
+	cont "hayas venido hasta"
+	cont "Kanto."
 
 	para "¿Qué te parecen"
 	line "los entrenadores"
-
-	para "de aquí?"
-	line "Son duros, ¿eh?"
+	cont "de aquí? ¿Duros?"
 	done
 
 OakLabGiveStarterText:
@@ -217,20 +213,21 @@ OakLabGiveStarterText:
 	line "la Prof. Ivy me"
 	cont "manda recuerdos!"
 
-	para "Gracias por trans-"
-	line "mitir su mensaje,"
+	para "Gracias por darme"
+	line "su mensaje,"
 	cont "<PLAYER>."
 
 	para "Es una muy buena"
 	line "amiga mía."
 
 	para "Si ella te dio un"
-	line "#mon, ¡deja que"
-	cont "haga lo mismo!"
+	line "#mon, ¡yo también"
+	cont "te daré otro!"
 
 	para "No se suele ver a"
-	line "este #mon por"
-	cont "Kanto ni Johto."
+	line "este #mon ni"
+	cont "por Kanto ni"
+	cont "por Johto."
 	done
 
 OakLabPartyAndBoxFullText:
@@ -249,38 +246,29 @@ OakLabDexCheckText:
 
 OakLabCatchMoreText:
 	text "Quiero darte las"
-	line "gracias por tu"
+	line "gracias por ayudar"
+	cont "con la #dex."
 
-	para "gran ayuda al com-"
-	line "pletar la #dex."
-
-	para "¡Toma esto como"
-	line "recompensa por tu"
-	cont "esfuerzo!"
+	para "¡Toma esto por tu"
+	line "gran esfuerzo!"
 	done
 
 OakLabCatchCharmText:
 	text "Llevar el Amuleto"
 	line "Captura aumentará"
+	cont "las opciones de"
+	cont "captura crítica"
 
-	para "tus opciones de"
-	line "lograr una captura"
-	cont "crítica."
-
-	para "¡Es cuando lanzas"
-	line "la # Ball justo"
-
-	para "en el punto exacto"
-	line "y es más fácil que"
-	cont "tenga éxito!"
+	para "¡Lanzas la #"
+	line "Ball al punto"
+	cont "exacto y es más"
+	cont "eficaz!"
 	done
 
 OakLabSeenAllText:
 	text "Has estado viendo"
 	line "nuevos #mon a"
-
-	para "buen ritmo, ¿a que"
-	line "sí?"
+	cont "buen ritmo, ¿eh?"
 
 	para "¡Toma esto como"
 	line "recompensa por tu"
@@ -290,41 +278,33 @@ OakLabSeenAllText:
 OakLabOvalCharmText:
 	text "Llevar el Amuleto"
 	line "Oval aumentará tus"
-
-	para "opciones de hallar"
-	line "un Huevo en la"
+	cont "opciones de hallar"
+	cont "un Huevo en la"
 	cont "Guardería."
 	done
 
 OakLabCaughtAllText:
-	text "No me equivoqué"
-	line "al confiar en ti"
-	cont "y darte esa"
-	cont "#dex."
+	text "No me equivoqué al"
+	line "confiar en ti y en"
+	cont "darte la #dex."
 
-	para "Es una prueba de"
-	line "tu esfuerzo…"
+	para "Es prueba de tu"
+	line "gran esfuerzo…"
+	cont "y de tus amigos…"
 
-	para "Y del apoyo de"
-	line "todos los que te"
-	cont "han ayudado…"
-
-	para "¡Así como de los"
-	line "lazos que has for-"
-	cont "jado con tus"
+	para "¡Y del gran lazo"
+	line "que tienes con tus"
 	cont "#mon!"
 
-	para "¡Toma esto como"
-	line "recompensa por tu"
-	cont "esfuerzo!"
+	para "¡Toma esto por tu"
+	line "gran esfuerzo!"
 	done
 
 OakLabShinyCharmText:
 	text "Llevar el Amuleto"
 	line "Iris aumentará tus"
-
-	para "probabilidades de"
-	line "hallar un #mon"
+	cont "probabilidades de"
+	cont "hallar un #mon"
 	cont "variocolor."
 	done
 
@@ -345,23 +325,18 @@ OakMightBeReadyText:
 OakChallengeText:
 	text "Oak: El Monte"
 	line "Plateado es una"
-
-	para "gran montaña donde"
-	line "viven multitud de"
+	cont "gran montaña donde"
+	cont "viven muchos"
 	cont "#mon salvajes."
 
-	para "Es un lugar dema-"
-	line "siado peligroso"
+	para "Es muy peligroso y"
+	line "está restringido a"
+	cont "la mayoría."
 
-	para "para cualquier en-"
-	line "trenador común, y"
-	cont "está restringido."
+	para "Tendré que medir"
+	line "tu nivel yo mismo."
 
-	para "Tendré que com-"
-	line "probar tu nivel"
-	cont "yo mismo."
-
-	para "¿Todo a punto para"
+	para "¿A punto para"
 	line "un combate?"
 	done
 
@@ -387,31 +362,23 @@ OakOpenMtSilverText:
 	line "<PLAYER>!"
 
 	para "Haré los trámites"
-	line "necesarios para"
+	line "para que vayas al"
+	cont "Monte Plateado."
 
-	para "que puedas ir al"
-	line "Mnt. Plateado."
+	para "Haremos una gran"
+	line "excepción contigo,"
+	cont "<PLAYER>."
 
-	para "Es insólito, pero"
-	line "haremos una excep-"
-
-	para "ción contigo,"
-	line "<PLAYER>."
-
-	para "Sube a la Meseta"
-	line "Añil. Podrás lle-"
-
-	para "gar al Mnt. Pla-"
-	line "teado desde allí."
+	para "Desde la Meseta"
+	line "Añil podrás llegar"
+	cont "al Monte Plateado."
 
 	para "…"
 
-	para "Dejé que Rojo en-"
-	line "trenara en el Mnt."
-
-	para "Plateado tras su"
-	line "primera derrota"
-	cont "como Campeón."
+	para "Dejé que Rojo"
+	line "fuera allí tras su"
+	cont "derrota como"
+	cont "Campeón."
 
 	para "Pero aún no ha"
 	line "regresado…"
@@ -419,40 +386,32 @@ OakOpenMtSilverText:
 
 OakNoKantoBadgesText:
 	text "Oak: ¿Mmm? ¿No"
-	line "estás reuniendo"
-
-	para "Medallas de Gimna-"
-	line "sio de Kanto?"
+	line "buscas Medallas de"
+	cont "Gimnasio en Kanto?"
 
 	para "Los Líderes de"
-	line "Gimnasio de Kanto"
+	line "aquí son tan duros"
+	cont "como los de Johto."
 
-	para "son tan duros como"
-	line "los que combatiste"
-	cont "en Johto."
-
-	para "Te recomiendo que"
-	line "los desafíes."
+	para "¡Te recomiendo que"
+	line "los desafíes!"
 	done
 
 OakNoEliteFourRematchText:
 	text "Oak: ¡Vaya! ¡Eso"
 	line "es excelente!"
 
-	para "Has conseguido las"
-	line "Medallas de los"
+	para "Has ganado todas"
+	line "las Medallas de"
+	cont "Kanto. ¡Muy bien!"
 
-	para "Gimnasios de Kan-"
-	line "to. ¡Bien hecho!"
+	para "Ahora puedes retar"
+	line "al Alto Mando con"
+	cont "sus mejores"
+	cont "#mon."
 
-	para "Ahora puedes desa-"
-	line "fiar al Alto Mando"
-
-	para "con sus mejores"
-	line "#mon."
-
-	para "¡Sigue esforzán-"
-	line "dote, <PLAYER>!"
+	para "¡Mucho ánimo,"
+	line "<PLAYER>!"
 	done
 
 OakYesKantoBadgesText:
@@ -460,49 +419,40 @@ OakYesKantoBadgesText:
 	line "reuniendo Medallas"
 	cont "de Gimnasio."
 
-	para "Imagino que será"
-	line "duro, pero esa ex-"
+	para "Será duro, pero te"
+	line "servirá de mucha"
+	cont "experiencia."
 
-	para "periencia te ser-"
-	line "virá de ayuda."
+	para "Con las ocho,"
+	line "podrás desafíar al"
+	cont "Alto Mando de"
+	cont "nuevo."
 
-	para "Cuando reúnas las"
-	line "ocho, podrás desa-"
-
-	para "fiar al Alto Mando"
-	line "en su máximo"
-	cont "esplendor."
-
-	para "¡Sigue esforzán-"
-	line "dote, <PLAYER>!"
+	para "¡Mucho ánimo,"
+	line "<PLAYER>!"
 	done
 
 OaksAssistant1Text:
-	text "El programa de ra-"
-	line "dio La Hora"
+	text "La Hora Oak no"
+	line "se emite en la"
+	cont "radio de Kanto."
 
-	para "Oak no se emite"
-	line "aquí en Kanto."
-
-	para "Es una pena… me"
+	para "Es una pena… Me"
 	line "gustaría oírlo."
 	done
 
 OaksAssistant2Text:
-	text "Gracias a tu tra-"
-	line "bajo con la #-"
-
-	para "dex, la investiga-"
-	line "ción del Profesor"
-	cont "va viento en popa."
+	text "Gracias a tu labor"
+	line "con la #dex,"
+	cont "los estudios de"
+	cont "Oak viento en popa"
 	done
 
 OaksAssistant3Text:
 	text "No se lo digas a"
 	line "nadie, pero La"
-
-	para "Hora de Oak no se"
-	line "emite en directo."
+	cont "Hora Oak no se"
+	cont "emite en directo."
 	done
 
 OaksLabPoster1Text:
@@ -514,8 +464,7 @@ OaksLabPoster2Text:
 	text "La opción Guardar"
 	line "está en el Menú."
 
-	para "Úsala con frecuen-"
-	line "cia."
+	para "¡Úsala a menudo!"
 	done
 
 OaksLabPCText:
@@ -524,18 +473,16 @@ OaksLabPCText:
 
 	para "…"
 
-	para "Prof. Oak: ¿Cómo"
-	line "va su investiga-"
-	cont "ción?"
+	para "Prof. Oak"
+	line "¿Cómo van sus"
+	cont "investigaciones?"
 
 	para "Yo sigo trabajando"
 	line "duro."
 
-	para "Se rumorea que"
-	line "<PLAYER> se está"
-
-	para "labrando una gran"
-	line "reputación."
+	para "Dicen que <PLAYER>"
+	line "se está labrando"
+	cont "gran reputación."
 
 	para "Me alegra mucho"
 	line "saberlo."
@@ -545,13 +492,11 @@ OaksLabPCText:
 	done
 
 ProfOakEeveeDollTradeText:
-	text "Oak: ¡Oh! ¿Estás"
-	line "admirando mi Muñe-"
-	cont "co de Eevee?"
+	text "Oak: ¿Admiras mi"
+	line "Peluche de Eevee?"
 
-	para "Te lo cambiaré"
-	line "por una Piedra-"
-	cont "eterna."
+	para "Te lo cambio por"
+	line "una Piedra Eterna."
 	done
 
 NoEverstoneText:
@@ -566,8 +511,7 @@ WantToTradeText:
 
 NoTradeText:
 	text "Seguirá aquí si"
-	line "cambias de opi-"
-	cont "nión."
+	line "cambias de idea."
 	done
 
 EeveeDollText:

@@ -110,8 +110,8 @@ Museum1FFossilScientistScript:
 .maybe_later:
 	jumpthisopenedtext
 
-	text "Háblame si cam-"
-	line "bias de opinión."
+	text "Avísame si cambias"
+	line "de opinión."
 	done
 
 HelixDomeMenuDataHeader:
@@ -218,14 +218,12 @@ Museum1FReceptionistScript:
 	ifequalfwd LEFT, .Sneak
 	jumpthistextfaceplayer
 
-	text "¡Te damos la bien-"
-	line "venida!"
+	text "¡Te damos la"
+	line "bienvenida!"
 
-	para "¡Gracias al apoyo"
-	line "de Silph S.A.,"
-
-	para "la entrada es to-"
-	line "talmente gratis!"
+	para "¡Gracias a Silph,"
+	line "la entrada es"
+	cont "gratuita!"
 
 	para "Pasa, por favor."
 	done
@@ -247,8 +245,8 @@ KabutopsFossilSignpostScript:
 	text "Fósil Kabutops"
 	line "(Domo)"
 
-	para "Un #mon primi-"
-	line "tivo y raro."
+	para "Un raro #mon"
+	line "prehistórico."
 	done
 
 OmastarFossilSignpostScript:
@@ -261,8 +259,8 @@ OmastarFossilSignpostScript:
 	text "Fósil Omastar"
 	line "(Hélix)"
 
-	para "Un #mon primi-"
-	line "tivo y raro."
+	para "Un raro #mon"
+	line "prehistórico."
 	done
 
 AerodactylFossilSignpostScript:
@@ -274,29 +272,26 @@ AerodactylFossilSignpostScript:
 
 	text "Fósil Aerodactyl"
 
-	para "Un #mon primi-"
-	line "tivo y raro."
+	para "Un raro #mon"
+	line "prehistórico."
 	done
 
 Museum1FScientistText:
 	text "Estamos orgullosos"
 	line "de estos 3 fósiles"
+	cont "prehistóricos."
 
-	para "de #mon prehis-"
-	line "tóricos y raros."
-
-	para "¡Yo ayudé a mon-"
-	line "tarlos!"
+	para "¡Yo mismo ayudé a"
+	line "montarlos!"
 	done
 
 Museum1FFossilScientistText:
 	text "¿Sabías que puedes"
-	line "extraer #mon"
-	cont "de los fósiles?"
+	line "revivir #mon de"
+	cont "los fósiles?"
 
-	para "Si alguna vez lo"
-	line "necesitas, ¡déja-"
-	cont "melo a mí!"
+	para "¡Si me traes uno,"
+	line "lo haré por ti!"
 	done
 
 Museum1FGrampsText:
@@ -311,20 +306,20 @@ Museum1FYoungsterText:
 	para "Uno son las Ruinas"
 	line "Alfa de Johto."
 
-	para "¡El otro es el Mu-"
-	line "seo de Plateada!"
+	para "¡Y el otro es este"
+	line "Museo de Plateada!"
 
-	para "En ambos se respi-"
-	line "ra mucha historia."
+	para "¡En ambos se nota"
+	line "mucha historia!"
 	done
 
 Museum1FBookshelfSignpostText:
 	text "¡Libros gruesos y"
 	line "muy leídos!"
 
-	para "Manual arqueológi-"
-	line "co, #mon perdi-"
-	cont "dos, Ancestros…"
+	para "Arqueología,"
+	line "#mon extintos,"
+	cont "Ancestros…"
 
 	para "Tratado sobre el"
 	line "suelo de Kanto…"

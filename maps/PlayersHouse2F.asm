@@ -364,7 +364,7 @@ PokemonJournalProfElmScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Prof. Elm!"
 
 	para "El Prof. Elm fue"
@@ -372,7 +372,7 @@ PokemonJournalProfElmScript:
 	cont "del Prof. Oak."
 
 	para "Dicen que suelen"
-	line "discutir sobre sus"
+	line "debatir sobre sus"
 	cont "investigaciones."
 	done
 

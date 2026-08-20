@@ -54,18 +54,17 @@ GenericTrainerSwimmerfLori:
 
 	text "Surf ya no es el"
 	line "único movimiento"
-
-	para "MO que se usa en"
-	line "el agua."
+	cont "MO que se usa en"
+	cont "el agua."
 	done
 
 SwimmerfLoriSeenText:
-	text "Impresionante co-"
-	line "lección de Meda-"
-	cont "llas de Gimnasio."
+	text "¡Qué gran lista"
+	line "de Medallas tienes"
+	cont "de Gimnasio!"
 
-	para "¡Deberíamos com-"
-	line "batir!"
+	para "¡Echemos un buen"
+	line "combate!"
 	done
 
 SwimmerfLoriBeatenText: ; text > text
@@ -77,9 +76,8 @@ GenericTrainerSwimmerfMayu:
 
 	text "¡Estaba intentando"
 	line "ver cuánto tiempo"
-
-	para "aguantaba la res-"
-	line "piración!"
+	cont "aguantaba bajo el"
+	cont "agua sin aire!"
 	done
 
 .SeenText:
@@ -97,19 +95,18 @@ GenericTrainerSwimmerfMayu:
 GenericTrainerSwimmerfLeona:
 	generictrainer SWIMMERF, LEONA, EVENT_BEAT_SWIMMERF_LEONA, .SeenText, .BeatenText
 
-	text "Tus #mon… ¿si-"
-	line "gues las últimas"
+	text "Tus #mon…"
 
-	para "tendencias en"
-	line "equipos?"
+	para "¿sigues la moda"
+	line "al formar tus"
+	cont "equipos?"
 	done
 
 .SeenText:
 	text "¡Mira! ¡Llevo mi"
 	line "mejor bañador y a"
-
-	para "mis mejores"
-	line "#mon!"
+	cont "mis mejores"
+	cont "#mon!"
 	done
 
 .BeatenText:
@@ -120,15 +117,14 @@ GenericTrainerSwimmermCameron:
 	generictrainer SWIMMERM, CAMERON, EVENT_BEAT_SWIMMERM_CAMERON, SwimmermCameronSeenText, SwimmermCameronBeatenText
 
 	text "Aparte del mar,"
-	line "también puedo na-"
-	cont "dar en lagos y"
-	cont "ríos."
+	line "también nado en"
+	cont "lagos y ríos."
 	done
 
 SwimmermCameronSeenText:
-	text "Supongo que es im-"
-	line "posible llegar na-"
-	cont "dando a Johto."
+	text "Supongo que no se"
+	line "puede ir a nado"
+	cont "hasta Johto."
 	done
 
 SwimmermCameronBeatenText:
@@ -162,8 +158,8 @@ GenericTrainerSwimmermElmo:
 	done
 
 .SeenText:
-	text "Antes era un Pes-"
-	line "cador."
+	text "Antes me dedicaba"
+	line "a la pesca."
 
 	para "¡Pero me gusta"
 	line "tanto nadar que"
@@ -178,9 +174,9 @@ GenericTrainerSwimmermElmo:
 GenericTrainerPicnickerCheyenne:
 	generictrainer PICNICKER, CHEYENNE, EVENT_BEAT_PICNICKER_CHEYENNE, .SeenText, .BeatenText
 
-	text "¡Junto a mis #-"
-	line "mon, no me impor-"
-	cont "ta tanto perder!"
+	text "¡Junto a mis"
+	line "#mon no me"
+	cont "duele perder!"
 	done
 
 .SeenText:
@@ -200,8 +196,8 @@ GenericTrainerPicnickerCheyenne:
 GenericTrainerPicnickerAdrian:
 	generictrainer PICNICKER, ADRIAN, EVENT_BEAT_PICNICKER_ADRIAN, .SeenText, .BeatenText
 
-	text "¡Aunque he perdi-"
-	line "do, me lo pasé en"
+	text "¡Aunque perdí,"
+	line "me lo pasé en"
 	cont "grande!"
 	done
 
@@ -238,8 +234,8 @@ GenericTrainerCamperPedro:
 GenericTrainerBird_keeperBert:
 	generictrainer BIRD_KEEPER, BERT, EVENT_BEAT_BIRD_KEEPER_BERT, .SeenText, .BeatenText
 
-	text "¡Ha sido un comba-"
-	line "te increíble!"
+	text "¡Ha sido un duelo"
+	line "increíble!"
 
 	para "¡Tengo la piel de"
 	line "gallina!"
@@ -259,13 +255,13 @@ GenericTrainerBird_keeperBert:
 GenericTrainerBird_keeperErnie:
 	generictrainer BIRD_KEEPER, ERNIE, EVENT_BEAT_BIRD_KEEPER_ERNIE, .SeenText, .BeatenText
 
-	text "¡Tienes algo es-"
-	line "pecial!"
+	text "¡Tienes un brillo"
+	line "muy especial!"
 	done
 
 .SeenText:
-	text "¡Oye, oye! ¿Lucha-"
-	line "rías contra mí?"
+	text "¡Oye! ¿Lucharías"
+	line "contra mí?"
 	done
 
 .BeatenText:

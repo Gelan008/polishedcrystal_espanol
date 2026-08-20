@@ -31,11 +31,9 @@ PokemonJournalAgathaScript:
 
 	para "De jóvenes, Agatha"
 	line "y el Prof. Oak"
-	cont "fueron rivales que"
-
-	para "competían por el"
-	line "título de mejor"
-	cont "entrenador."
+	cont "rivalizaban por el"
+	cont "título al mejor"
+	cont "entrenador"
 	done
 
 Route10PokeCenter1FGymGuyScript:
@@ -45,16 +43,13 @@ Route10PokeCenter1FGymGuyScript:
 
 	text "El Director de la"
 	line "Central Energía"
-
-	para "busca a alguien"
-	line "fuerte con los"
-	cont "#mon."
+	cont "busca a alguien"
+	cont "fuerte."
 
 	para "Necesita ayuda"
 	line "para recuperar"
-
-	para "algo que le han"
-	line "robado."
+	cont "algo que le han"
+	cont "robado."
 	done
 
 .Text2:
@@ -73,15 +68,13 @@ Route10PokeCenter1FGentlemanText:
 	text "¿Un Centro #mon"
 	line "junto a una cueva?"
 
-	para "¡Qué gran como-"
-	line "didad!"
+	para "¡Qué gran idea!"
 	done
 
 Route10PokeCenter1FCooltrainerfText:
 	text "Al salir fuera,"
-	line "puedes ver el te-"
-	cont "cho de un gran"
-	cont "edificio."
+	line "verás el techo de"
+	cont "un gran edificio."
 
 	para "Es la Central"
 	line "Energía."

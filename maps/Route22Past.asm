@@ -212,8 +212,8 @@ Route22Past_CelebiFloatsMovementData:
 	step_end
 
 Route22PastLyraWhereAreWeText:
-	text "Lira: ¿Dónde es-"
-	line "tamos…?"
+	text "Lira: ¿Dónde"
+	line "estamos…?"
 	done
 
 Route22PastLyraIlexForestDisappearedText:
@@ -228,10 +228,9 @@ Route22PastLyraIlexForestDisappearedText:
 
 Route22PastLyraPokeGearText:
 	text "Lira: <PLAYER>,"
-	line "¡el #gear dice"
-
-	para "que la fecha es"
-	line "de hace 3 años!"
+	line "¡el #gear marca"
+	cont "una fecha de"
+	cont "hace 3 años!"
 	done
 
 Route22PastLyraExplainsTimeTravelText:
@@ -239,9 +238,8 @@ Route22PastLyraExplainsTimeTravelText:
 	line "es… Celebi?"
 
 	para "¡Eso lo explica!"
-	line "¡Celebi debe de"
-	cont "haber usado su po-"
-	cont "der para viajar"
+	line "¡Celebi usó su"
+	cont "poder para viajar"
 	cont "en el tiempo!"
 	done
 
@@ -267,28 +265,25 @@ Route22PastRivalQuestionsGiovanniText:
 Route22PastGiovanniRivalArgumentText:
 	text "…… …… ……"
 
-	para "Uno debe reconocer"
+	para "Uno debe aceptar"
 	line "la derrota antes"
-
-	para "de poder seguir"
-	line "adelante…"
+	cont "de poder seguir"
+	cont "adelante…"
 
 	para "Iré por mi cuenta…"
 	line "por ahora…"
 
-	para "¡Para crear algún"
-	line "día una organiza-"
-	cont "ción más fuerte!"
+	para "¡Para crear un"
+	line "día una banda"
+	cont "mucho más fuerte!"
 
 	para "<RIVAL>: ¿En qué"
 	line "se supone que eras"
 	cont "el número uno?"
 
 	para "¡Reunir a tantos"
-	line "solo para ser"
-
-	para "derrotado por un"
-	line "simple crío!"
+	line "solo para caer"
+	cont "ante un crío!"
 
 	para "…… …… ……"
 
@@ -299,12 +294,10 @@ Route22PastGiovanniRivalArgumentText:
 	para "¡En eso consiste"
 	line "una organización!"
 
-	para "He fracasado… a la"
-	line "hora de sacar pro-"
-
-	para "vecho del poten-"
-	line "cial de mis su-"
-	cont "bordinados…"
+	para "He fracasado al"
+	line "no aprovechar el"
+	cont "gran potencial de"
+	cont "mis subordinados…"
 
 	para "¡Algún día verás"
 	line "mi regreso y el"
@@ -316,31 +309,29 @@ Route22PastRivalProtestsText:
 	line "entiendo!"
 
 	para "¡Nada de lo que"
-	line "dices tiene senti-"
-	cont "do!"
+	line "dices tiene algún"
+	cont "sentido!"
 	done
 
 Route22PastGiovanniGoodbyeText:
 	text "…… …… ……"
 
-	para "Algún día lo com-"
-	line "prenderás."
+	para "Algún día lo vas a"
+	line "comprender."
 	done
 
 Route22PastRivalRantText:
 	text "<RIVAL>: ¡No"
 	line "quiero entenderte!"
 
-	para "Jamás me converti-"
-	line "ré en alguien como"
-	cont "tú."
+	para "¡Jamás seré como"
+	line "tú!"
 
 	para "¡Un cobarde cuando"
 	line "estás solo y un"
-
-	para "tirano cuando es-"
-	line "tás rodeado de"
-	cont "otros cobardes!"
+	cont "tirano al estar"
+	cont "rodeado de otros"
+	cont "cobardes!"
 
 	para "¡Me haré fuerte!"
 
@@ -360,18 +351,17 @@ Route22PastLyraConclusionText:
 	text "Lira: ¿Quién se ha"
 	line "creído que es?"
 
-	para "¡No venía a cuen-"
-	line "to!"
+	para "¡Ha sido de lo"
+	line "más borde!"
 
-	para "Pero estaban ha-"
-	line "blando del regreso"
-	cont "del Team Rocket…"
+	para "Pero hablaban del"
+	line "regreso del Team"
+	cont "Rocket…"
 
-	para "Un niño expulsó al"
-	line "Team Rocket de"
-
-	para "Kanto hace tres"
-	line "años."
+	para "Un niño venció al"
+	line "Team Rocket en"
+	cont "Kanto hace tres"
+	cont "años."
 
 	para "¡O sea que estamos"
 	line "en el pasado de"

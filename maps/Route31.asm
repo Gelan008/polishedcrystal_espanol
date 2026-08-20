@@ -81,13 +81,11 @@ TrainerCooltrainermFinch:
 
 .AfterText2:
 	text "Has comprobado el"
-	line "efecto de un Globo"
-	cont "Helio al luchar."
+	line "poder de un Globo"
+	cont "Helio en combate."
 
-	para "Podrías encontrar"
-	line "a otros entrenado-"
-	cont "res por Johto,"
-	cont "En busca de fuerza"
+	para "Hay más personas"
+	line "como yo en Johto."
 
 	para "¡Harías bien en"
 	line "desafiarlos!"
@@ -102,16 +100,15 @@ TrainerCooltrainermFinch:
 	line "llevar por tu"
 	cont "fuerza…"
 
-	para "Si logras vencer a"
-	line "todos los entrena-"
-	cont "dores de las Rutas"
-	cont "30 y 31, ven a mí."
+	para "Vence a todos los"
+	line "entrenadores de"
+	cont "las Rutas 30 y 31"
+	cont "y vuelve a verme."
 	done
 
 .QuestionText:
-	text "¡Así que has ven-"
-	line "cido a todos los"
-	cont "entrenadores!"
+	text "¡Has vencido a"
+	line "todos los demás!"
 
 	para "¡Pues estás a la"
 	line "altura de retarme!"
@@ -297,9 +294,8 @@ Route31MailRecipientScript:
 
 	text "… Uaaah… ¿Eh?"
 
-	para "Hoy he andado de-"
-	line "masiado buscando"
-	cont "#mon."
+	para "He caminado mucho"
+	line "buscando #mon."
 
 	para "Me duelen los pies"
 	line "y tengo sueño…"
@@ -308,7 +304,7 @@ Route31MailRecipientScript:
 	line "mon salvaje, sería"
 	cont "fácil atraparme…"
 
-	para "… Zzzz…"
+	para "…Zzzz…"
 	done
 
 .TryGiveKenya:
@@ -412,10 +408,8 @@ Bug_catcherWade1BeatenText:
 
 Bug_catcherWade1AfterText:
 	text "Puedes atrapar"
-	line "#mon aunque"
-
-	para "ya lleves seis"
-	line "contigo."
+	line "#mon aunque ya"
+	cont "lleves seis."
 
 	para "Si atrapas uno,"
 	line "irá a tu Caja"
@@ -440,17 +434,17 @@ Text_Route31HandOverMailMon:
 Text_Route31ReadingMail:
 	text "A ver…"
 
-	para "…Cueva Oscura lle-"
-	line "va a otro camino…"
+	para "…Cueva Oscura da"
+	line "a otro camino…"
 
 	para "Es bueno saberlo."
 
-	para "Gracias por traér-"
-	line "mela hasta aquí."
+	para "Gracias por traer"
+	line "la Carta aquí."
 
-	para "Mi amigo es genial"
-	line "¡y tú también lo"
-	cont "eres!"
+	para "¡Mi amigo es un"
+	line "gran tipo y tú"
+	cont "también lo eres!"
 
 	para "¡Me gustaría darte"
 	line "algo a cambio!"
@@ -460,9 +454,10 @@ Text_Route31TutorSleepTalk:
 	text "¡Por solo una"
 	line "Hoja Plata,"
 
-	para "puedo enseñar a tu"
-	line "#mon a hablar"
-	cont "mientras duerme!"
+	para "¡puedo enseñar a"
+	line "tu #mon a"
+	cont "hablar en sueños!"
+	
 	done
 
 
@@ -501,6 +496,6 @@ Route31AdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
 	para "¡Pulsa Start en la"
-	line "Mochila para or-"
-	cont "denar un bolsillo!"
+	line "Mochila para poder"
+	cont "ordenar bolsillos!"
 	done

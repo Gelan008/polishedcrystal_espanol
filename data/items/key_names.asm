@@ -11,7 +11,7 @@ KeyItemNames::
 	li "Estuche Alar"
 	li "Tarro Caram."
 	li "Tabla Tipos"
-	li "Música GBC"
+	li "Reprod. GBC"
 	li "Tarj. Azul"
 	li "Squirgadera"
 	li "SilphScope2"

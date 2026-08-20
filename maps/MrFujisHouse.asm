@@ -30,14 +30,12 @@ MrFujisHouseSuperNerdText:
 
 MrFujisHouseLassText:
 	text "Hay gente cruel"
-	line "que deja de cuidar"
-	cont "a sus #mon."
+	line "que abandona a"
+	cont "sus #mon."
 
-	para "El abuelo acoge"
-	line "a los pobres"
-
-	para "#mon sin hogar"
-	line "y cuida de ellos."
+	para "El abuelo cuida a"
+	line "los #mon que no"
+	cont "tienen hogar."
 	done
 
 MrFujisPsyduckText:

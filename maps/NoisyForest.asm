@@ -68,9 +68,8 @@ GenericTrainerBug_maniacDylan:
 
 	text "El zumbido de este"
 	line "bosque tiene algo"
-
-	para "que vuelve locos a"
-	line "los bichos."
+	cont "que apasiona a"
+	cont "los bichos."
 	done
 
 .SeenText:
@@ -80,8 +79,8 @@ GenericTrainerBug_maniacDylan:
 	done
 
 .BeatenText:
-	text "¡Vaya, con lo fe-"
-	line "lices que estaban!"
+	text "¡Vaya! ¡Con lo"
+	line "felices que eran!"
 	done
 
 GenericTrainerGuitaristfJaclyn:
@@ -107,10 +106,8 @@ GenericTrainerGuitaristmEzekiel:
 	generictrainer GUITARISTM, EZEKIEL, EVENT_BEAT_GUITARISTM_EZEKIEL, .SeenText, .BeatenText
 
 	text "Si escuchas con"
-	line "atención, oirás"
-
-	para "el ritmo del"
-	line "murmullo del"
+	line "atención, oirás el"
+	cont "ritmo que tiene el"
 	cont "bosque."
 	done
 
@@ -129,11 +126,8 @@ GenericTrainerHikerLester:
 
 	text "¿Qué pasa? ¿Un"
 	line "Montañero no puede"
-
-	para "explorar un bosque"
-	line "en vez de una mon-"
-	cont "taña de vez en"
-	cont "cuando?"
+	cont "ir por el bosque"
+	cont "de vez en cuando?"
 	done
 
 .SeenText:
@@ -154,9 +148,9 @@ GenericTrainerBird_keeperTrent:
 	line "para entrenar a"
 	cont "mis pájaros aquí."
 
-	para "El estruendo es"
+	para "¡El estruendo es"
 	line "parte de nuestro"
-	cont "entrenamiento."
+	cont "entrenamiento!"
 	done
 
 .SeenText:
@@ -237,8 +231,8 @@ NoisyForestPikabluScript:
 	done
 
 .OwnerText4:
-	text "Oh, no puedes lle-"
-	line "var más cosas."
+	text "Oh, no puedes"
+	line "llevar más cosas."
 
 	para "Búscame junto al"
 	line "Centro #mon"
@@ -268,5 +262,5 @@ NoisyForestPikabluScript:
 	step_end
 
 NoisyForestSignpostText:
-	text "Noisy Forest"
+	text "Bosque Ruidoso"
 	done

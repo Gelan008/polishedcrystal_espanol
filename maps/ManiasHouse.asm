@@ -78,9 +78,8 @@ ManiaScript:
 .wrong
 	jumpthisopenedtext
 
-	text "Oye, no tienes"
-	line "mi #mon con-"
-	cont "tigo."
+	text "Oye, no llevas a"
+	line "mi #mon contigo"
 	done
 
 .superhappy
@@ -124,28 +123,22 @@ ShuckieOTName:
 	rawchar "Kirk@"
 
 ManiaText_AskLookAfterShuckie:
-	text "¡Yo… yo estoy en"
-	line "shock!"
+	text "¡Estoy en shock!"
 
 	para "Entró un chico de"
-	line "tu edad con una"
-
-	para "mirada penetrante"
-	line "y pelo largo."
+	line "tu edad, de mirada"
+	cont "dura y pelo largo."
 
 	para "¡Me asustó tanto"
-	line "que le di mi pre-"
-	cont "ciado #mon!"
+	line "que le di a mi"
+	cont "querido #mon!"
 
-	para "Aún me queda uno,"
-	line "pero ¿y si regre-"
-	cont "sa?"
+	para "Me queda otro,"
+	line "¿y si vuelve?"
 
-	para "Tú pareces fuer-"
-	line "te. ¿Cuidarías de"
-
-	para "mi #mon por un"
-	line "tiempo?"
+	para "Pareces fuerte."
+	line "¿Cuidarías de mi"
+	cont "#mon un tiempo?"
 	done
 
 ManiaText_TakeCareOfShuckie:
@@ -189,13 +182,12 @@ ManiaText_ThankYou:
 
 
 ManiaText_ShuckieLikesYou:
-	text "Mi #mon le has"
-	line "caído bien."
+	text "¡A mi #mon le"
+	line "has caído bien!"
 
-	para "De acuerdo, de-"
-	line "berías quedárte-"
-	cont "lo."
+	para "De acuerdo, te lo"
+	line "puedes quedar."
 
-	para "¡Pero promete que"
-	line "le cuidarás bien!"
+	para "¡Prométeme que lo"
+	line "cuidarás bien!"
 	done

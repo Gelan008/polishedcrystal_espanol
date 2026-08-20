@@ -141,10 +141,8 @@ OlivineCityYoungster1Script:
 	jumpthistextfaceplayer
 
 	text "Eso que tienes…"
-	line "¿es un #gear,"
-
-	para "¿a que sí? ¡Hala,"
-	line "cómo mola!"
+	line "¿es un #gear?"
+	cont "¡Hala, cómo mola!"
 	done
 
 OlivineCityPokefanMScript:
@@ -152,11 +150,9 @@ OlivineCityPokefanMScript:
 	iffalse_jumptextfaceplayer OlivineCityPokefanMText
 	jumpthistextfaceplayer
 
-	text "Barco S.S. Aqua"
-	line "viaja a Kanto los"
-
-	para "lunes y los"
-	line "viernes."
+	text "El S.S. Aqua viaja"
+	line "a Kanto los lunes"
+	cont "y los viernes."
 	done
 
 OlivineCityPanUpMovementData:
@@ -201,23 +197,17 @@ OlivineCityRivalGymText:
 
 	para "¿Tú otra vez?"
 
-	para "No te asustes. No"
-	line "pierdo el tiempo"
+	para "Tranquilo. No voy"
+	line "a perder el tiempo"
+	cont "con debiluchos."
 
-	para "con cobardes como"
-	line "tú."
+	para "Hablando de eso,"
+	line "la Líder de este"
+	cont "Gimnasio no está."
 
-	para "Hablando de débi-"
-	line "les, la Líder de"
-
-	para "este Gimnasio no"
-	line "está."
-
-	para "Dicen que está"
-	line "cuidando de un"
-
-	para "#mon enfermo en"
-	line "el Faro."
+	para "Dicen que cuida a"
+	line "un #mon enfermo"
+	cont "en el Faro."
 
 	para "¡Bah! ¡Menuda"
 	line "bobada! ¡Debería"
@@ -227,13 +217,12 @@ OlivineCityRivalGymText:
 	line "puede luchar no"
 	cont "sirve para nada!"
 
-	para "¿Por qué no vas"
-	line "a entrenar al"
-	cont "Faro?"
+	para "¿Por qué no vas a"
+	line "entrenar al Faro?"
 
-	para "Quién sabe… ¡A lo"
-	line "mejor te vuelves"
-	cont "menos endeble!"
+	para "Quién sabe…"
+	line "¡A lo mejor te"
+	cont "haces más fuerte!"
 	done
 
 OlivineCityRivalLighthouseText:
@@ -241,18 +230,14 @@ OlivineCityRivalLighthouseText:
 
 	para "¿Tú otra vez?"
 
-	para "No te asustes. No"
-	line "pierdo el tiempo"
+	para "Tranquilo. No voy"
+	line "a perder el tiempo"
+	cont "con debiluchos."
 
-	para "con cobardes como"
-	line "tú."
-
-	para "Hablando de débi-"
-	line "les, la Líder"
-
-	para "está cuidando a un"
-	line "#mon enfermo en"
-	cont "el Faro."
+	para "Hablando de eso,"
+	line "la Líder cuida a"
+	cont "un #mon enfermo"
+	cont "en el Faro."
 
 	para "¡Bah! ¡Menuda"
 	line "bobada! ¡Debería"
@@ -263,11 +248,11 @@ OlivineCityRivalLighthouseText:
 	cont "sirve para nada!"
 
 	para "¿Por qué no vas"
-	line "a entrenar dentro?"
+	line "dentro a entrenar?"
 
-	para "Quién sabe… ¡A lo"
-	line "mejor te vuelves"
-	cont "menos endeble!"
+	para "Quién sabe…"
+	line "¡A lo mejor te"
+	cont "haces más fuerte!"
 	done
 
 OlivineCityStandingYoungsterPokedexText:
@@ -279,21 +264,17 @@ OlivineCityStandingYoungsterPokedexText:
 	done
 
 OlivineCitySailor1Text:
-	text "Los caminos oscu-"
-	line "ros son peligro-"
-	cont "sos de noche."
+	text "Caminar a oscuras"
+	line "es peligroso de"
+	cont "noche."
 
-	para "¡Pero en la más"
-	line "absoluta oscuri-"
+	para "¡Pero en plena"
+	line "oscuridad, el mar"
+	cont "es aún peor!"
 
-	para "dad, el mar es aú-"
-	line "n más traicionero!"
-
-	para "Sin la luz guía"
-	line "del Faro, ningún"
-
-	para "barco podría"
-	line "navegar."
+	para "Sin la luz del"
+	line "Faro, ningún barco"
+	cont "podría navegar."
 	done
 
 OlivineCitySailor2Text:
@@ -315,18 +296,14 @@ OlivineCityFisherText:
 
 	para "Su familia se mudó"
 	line "cuando su padre se"
-
-	para "convirtió en Líder"
-	line "de Gimnasio en"
-	cont "Hoenn."
+	cont "hizo Líder de"
+	cont "Gimnasio en Hoenn."
 	done
 
 OlivineCitySailor3Text:
-	text "Ver el Faro ilumi-"
-	line "nando el mar por"
-
-	para "la noche… ¡es de"
-	line "lo más bello!"
+	text "Ver el Faro en el"
+	line "mar de noche…"
+	cont "¡es muy hermoso!"
 	done
 
 OlivineCityPokefanFText:
@@ -338,15 +315,13 @@ OlivineCityPokefanFText:
 	done
 
 OlivineCityPokefanMText:
-	text "Muchos entrenado-"
-	line "res que vienen a"
+	text "Mucha gente que"
+	line "llega a Olivo va"
+	cont "directa a la Torre"
+	cont "Batalla."
 
-	para "Ciudad Olivo van"
-	line "directos a la"
-	cont "Torre Batalla."
-
-	para "Allí solo compiten"
-	line "los mejores."
+	para "¡Allí solo luchan"
+	line "los mejores!"
 	done
 
 OlivineCitySailor4Text:
@@ -378,31 +353,25 @@ OlivineCitySailor5Text:
 OlivineCityLass1Text:
 	text "Los marineros de"
 	line "aquí parecen"
-
-	para "escandalosos, pero"
-	line "son inofensivos."
+	cont "escandalosos, pero"
+	cont "son inofensivos."
 	done
 
 OlivineCityYoungster2Text:
-	text "Marineros y cam-"
-	line "pistas tenemos"
-	cont "algo en común:"
+	text "Tanto marineros"
+	line "como campistas"
+	cont "amamos cantar."
 
-	para "¡a ambos nos gusta"
-	line "cantar!"
-
-	para "Aunque los cantos"
-	line "marineros son…"
-	cont "muy distintos."
+	para "¡Aunque sus cantos"
+	line "son muy distintos!"
 	done
 
 OlivineCityLass2Text:
 	text "Yasmina, nuestra"
-	line "Líder de Gimnasio,"
+	line "Líder, es tímida."
 
-	para "es una chica tími-"
-	line "da. ¡Pero ojo, no"
-	cont "es nada débil!"
+	para "¡Pero ten cuidado,"
+	line "que no es débil!"
 	done
 
 OlivineCitySignText:

@@ -43,9 +43,8 @@ BugCatchingContestant2AScript:
 
 	text "Lou: Mi Parasect"
 	line "duerme a los"
-
-	para "#mon usando"
-	line "Espora."
+	cont "#mon con"
+	cont "Espora."
 	done
 
 BugCatchingContestant3AScript:
@@ -78,12 +77,10 @@ BugCatchingContestant5AScript:
 BugCatchingContestant6AScript:
 	jumpthistextfaceplayer
 
-	text "Barry: Deberías"
-	line "debilitar a los"
-
-	para "#mon Bicho"
-	line "antes de lanzar"
-	cont "una Ball."
+	text "Barry: Debilita a"
+	line "los #mon bicho"
+	cont "antes de lanzar"
+	cont "la # Ball."
 	done
 
 BugCatchingContestant7AScript:
@@ -100,10 +97,8 @@ BugCatchingContestant8AScript:
 	jumpthistextfaceplayer
 
 	text "Josh: Colecciono"
-	line "#mon Bicho"
-
-	para "desde que era un"
-	line "bebé."
+	line "#mon bicho"
+	cont "desde bebé."
 
 	para "¡Es imposible que"
 	line "vaya a perder!"
@@ -112,11 +107,9 @@ BugCatchingContestant8AScript:
 BugCatchingContestant9AScript:
 	jumpthistextfaceplayer
 
-	text "Johnny: Si tienes"
-	line "tiempo para char-"
-
-	para "lar, ve a buscar"
-	line "#mon Bicho."
+	text "Johnny: Si te da"
+	line "tiempo a charlar,"
+	cont "¡busca bichos!"
 	done
 
 BugCatchingContestant10AScript:

@@ -21,19 +21,16 @@ Route1_MapScriptHeader:
 GenericTrainerSchoolboyDanny:
 	generictrainer SCHOOLBOY, DANNY, EVENT_BEAT_SCHOOLBOY_DANNY, SchoolboyDannySeenText, SchoolboyDannyBeatenText
 
-	text "Para los entrena-"
-	line "dores, es normal"
-
-	para "luchar cada vez"
-	line "que nos vemos."
+	text "Para nosotros es"
+	line "muy normal luchar"
+	cont "al cruzarnos."
 	done
 
 GenericTrainerSchoolboySherman:
 	generictrainer SCHOOLBOY, SHERMAN, EVENT_BEAT_SCHOOLBOY_SHERMAN, SchoolboyShermanSeenText, SchoolboyShermanBeatenText
 
-	text "Debería anotar to-"
-	line "dos los fallos"
-	cont "de hoy."
+	text "Anotaré todos los"
+	line "fallos de hoy."
 	done
 
 GenericTrainerCooltrainermFrench:
@@ -54,11 +51,9 @@ GenericTrainerCooltrainerfQuinn:
 	done
 
 SchoolboyDannySeenText:
-	text "Si los entrenado-"
-	line "res se cruzan, lo"
-
-	para "primero que hacen"
-	line "es combatir."
+	text "Cuando las miradas"
+	line "se cruzan hay que"
+	cont "combatir!"
 	done
 
 SchoolboyDannyBeatenText:
@@ -67,9 +62,9 @@ SchoolboyDannyBeatenText:
 	done
 
 SchoolboyShermanSeenText:
-	text "¡Al salir de cla-"
-	line "se, voy directo"
-	cont "a practicar!"
+	text "¡Tras las clases,"
+	line "voy directo a"
+	cont "practicar!"
 	done
 
 SchoolboyShermanBeatenText:
@@ -78,10 +73,9 @@ SchoolboyShermanBeatenText:
 	done
 
 CooltrainermFrenchSeenText:
-	text "¡Tú!"
-
-	para "¡Estaba esperando"
-	line "a alguien como tú!"
+	text "¡Tú! ¡Estaba"
+	line "esperando a"
+	cont "alguien como tú!"
 	done
 
 CooltrainermFrenchBeatenText:

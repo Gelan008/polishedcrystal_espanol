@@ -28,8 +28,6 @@ MountMoonB1FPokefanmText:
 	cont "bajo el Mt. Moon."
 
 	para "A veces, Brock,"
-	line "del Gimnasio de"
-
-	para "Ciudad Plateada,"
-	line "me echa una mano."
+	line "Líder de Plateada,"
+	cont "me echa una mano."
 	done

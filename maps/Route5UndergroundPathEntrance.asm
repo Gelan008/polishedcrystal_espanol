@@ -17,8 +17,8 @@ Route5UndergroundPathEntrance_MapScriptHeader:
 
 Route5UndergroundPathEntranceTeacherText:
 	text "Muchas ciudades de"
-	line "Johto tienen una"
+	line "Johto tienen gran"
+	cont "historia."
 
-	para "gran historia. ¡Me"
-	line "encantaría ir!"
+	para "¡Me encantaría ir!"
 	done

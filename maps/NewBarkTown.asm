@@ -265,11 +265,9 @@ Text_ItsDangerousToGoAlone:
 	text "¡Es peligroso"
 	line "salir sin #mon!"
 
-	para "Los #mon salva-"
-	line "jes saltan de la"
-
-	para "hierba camino del"
-	line "siguiente pueblo."
+	para "¡Los #mon"
+	line "salvajes saltan de"
+	cont "la hierba!"
 	done
 
 Text_YourMonIsAdorable:
@@ -291,26 +289,23 @@ Text_TellMomIfLeaving:
 
 Text_CallMomOnGear:
 	text "Llama a tu madre"
-	line "por el #gear"
-
-	para "para contarle cómo"
-	line "te va."
+	line "por el #gear y"
+	cont "dile qué tal te va"
 	done
 
 Text_ElmDiscoveredNewMon:
 	text "¡Ey, <PLAYER>!"
 
-	para "He oído que el"
-	line "Prof.Elm descubrió"
-
-	para "nuevos #mon."
+	para "Oí que el Prof."
+	line "Elm descubrió más"
+	cont "especies #mon."
 	done
 
 NewBarkTownRivalText1:
 	text "……"
 
 	para "Así que este es"
-	line "el famoso Lab."
+	line "el famoso Lab"
 	cont "#mon de Elm…"
 	done
 
@@ -323,22 +318,17 @@ Text_LyraIntro:
 	text "Lira: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "Me pasé por tu"
-	line "casa antes, pero"
-
-	para "aún estabas"
-	line "durmiendo."
+	para "Fui a tu casa, pero"
+	line "estabas durmiendo."
 
 	para "¿Sabes que a veces"
-	line "ayudo al Prof."
-	cont "Elm, verdad?"
+	line "ayudo al Prof. Elm,"
+	cont "¿verdad?"
 
-	para "Va a empezar una"
-	line "nueva investiga-"
-
-	para "ción #mon y le"
-	line "gustaría que los"
-	cont "dos le ayudemos."
+	para "Empezará un nuevo"
+	line "estudio #mon y"
+	cont "quiere que los dos"
+	cont "le echemos un ojo."
 
 	para "¡Vamos a ver qué"
 	line "quiere!"
@@ -347,38 +337,30 @@ Text_LyraIntro:
 Text_LyraGoodbye1:
 	text "Lira: ¡<PLAYER>!"
 
-	para "Me he enterado de"
-	line "que tienes todas"
-	cont "las Medallas de"
-	cont "Gimnasio de Johto."
+	para "¡Me enteré de que"
+	line "tienes todas las"
+	cont "Medallas de Johto!"
 
-	para "…Eres un as,"
+	para "…Eres genial,"
 	line "<PLAYER>."
 
-	para "Pensar que ambos"
+	para "¡Pensar que ambos"
 	line "empezamos nuestros"
+	cont "viajes aquí…!"
 
-	para "viajes en este"
-	line "pueblo…"
-
-	para "Yo hago lo que"
-	line "puedo para ayudar"
-	cont "al Profesor, pero"
-
-	para "jamás podría con"
-	line "el Campeón de la"
-	cont "Liga."
+	para "Ayudo al Profesor,"
+	line "¡pero jamás podría"
+	cont "con el Campeón!"
 
 	para "…Antes de que te"
-	line "vayas…"
+	line "marches…"
 
 	para "¿Qué tal un último"
 	line "combate?"
 
 	para "¡Quiero ver en qué"
-	line "clase de entrena-"
-	cont "dor te has conver-"
-	cont "tido!"
+	line "gran entrenador te"
+	cont "has convertido!"
 	done
 
 Text_LyraGoodbyeWin:
@@ -398,13 +380,12 @@ Text_LyraGoodbye2:
 	line "<PLAYER>."
 
 	para "Se nota cuánto"
-	line "trabajo y amor"
+	line "amor pones al"
+	cont "criar a tus"
+	cont "#mon."
 
-	para "pones al criar a"
-	line "tus #mon."
-
-	para "…Así que esto"
-	line "es un adiós."
+	para "…Así que esto es"
+	line "un adiós."
 
 	para "¡Sé que puedes"
 	line "ganar la Liga"

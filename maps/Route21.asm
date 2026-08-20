@@ -57,11 +57,10 @@ GenericTrainerSwimmerfChelan:
 .SeenText:
 	text "¡Amo los bikinis!"
 
-	para "¡Si tuviera un bi-"
-	line "kini térmico, po-"
-
-	para "dría ponérmelo in-"
-	line "cluso en invierno!"
+	para "¡Con un bikini"
+	line "térmico, podría"
+	cont "llevarlo incluso"
+	cont "en invierno!"
 	done
 
 .BeatenText:
@@ -78,8 +77,8 @@ GenericTrainerSwimmerfKendra:
 
 .SeenText:
 	text "¡Hola! ¿Por qué no"
-	line "te pones tú un ba-"
-	cont "ñador también?"
+	line "te pones también"
+	cont "un bañador?"
 	done
 
 .BeatenText:
@@ -89,15 +88,15 @@ GenericTrainerSwimmerfKendra:
 GenericTrainerSwimmermEsteban:
 	generictrainer SWIMMERM, ESTEBAN, EVENT_BEAT_SWIMMERM_ESTEBAN, .SeenText, .BeatenText
 
-	text "¡Al profe le decí-"
-	line "amos Profesor"
+	text "¡Al profe le"
+	line "decíamos Profesor"
 	cont "Poliwhirl!"
 	done
 
 .SeenText:
-	text "Mi profe de nata-"
-	line "ción tenía la cara"
-	cont "igual que un"
+	text "Mi entrenador de"
+	line "natación tenía la"
+	cont "cara igual que un"
 	cont "Poliwhirl."
 	done
 
@@ -114,8 +113,8 @@ GenericTrainerSwimmermDuane:
 	done
 
 .SeenText:
-	text "Nadar ejercita to-"
-	line "do el cuerpo."
+	text "Nadar entrena todo"
+	line "el cuerpo."
 
 	para "¡Te pone fuerte de"
 	line "verdad!"
@@ -185,9 +184,8 @@ GenericTrainerFisherLiam:
 
 	text "Debí pedirte que"
 	line "esperaras a que"
-
-	para "recogiese ese"
-	line "#mon…"
+	cont "recogiese ese"
+	cont "#mon…"
 	done
 
 .SeenText:
@@ -199,8 +197,8 @@ GenericTrainerFisherLiam:
 	done
 
 .BeatenText:
-	text "El que mucho abar-"
-	line "ca, poco aprieta."
+	text "Quien mucho abarca"
+	line "poco aprieta…"
 	done
 
 GenericTrainerFisherGideon:
@@ -213,10 +211,9 @@ GenericTrainerFisherGideon:
 
 .SeenText:
 	text "¿Soy Pescador por"
-	line "ser paciente, o me"
-
-	para "volví paciente por"
-	line "ser Pescador?"
+	line "ser paciente o me"
+	cont "hice paciente por"
+	cont "ser Pescador?"
 	done
 
 .BeatenText:
@@ -247,10 +244,10 @@ GenericTrainerBird_keeperEaston:
 	text "Creemos que usamos"
 	line "a los #mon."
 
-	para "Pero en algún mo-"
-	line "mento, empezaron"
-	cont "a usarnos a noso-"
-	cont "tros…"
+	para "Pero quizá ellos"
+	line "empezaron a"
+	cont "usarnos a nosotros"
+	cont "hace tiempo…"
 	done
 
 .SeenText:

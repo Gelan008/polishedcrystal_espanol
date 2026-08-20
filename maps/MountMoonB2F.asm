@@ -32,11 +32,10 @@ MountMoonB2F_MapScriptHeader:
 GenericTrainerYoungsterJosh:
 	generictrainer YOUNGSTER, YOUNGSTER_JOSH, EVENT_BEAT_YOUNGSTER_JOSH, YoungsterJoshSeenText, YoungsterJoshBeatenText
 
-	text "Con ese equipo"
-	line "seguro que"
-
-	para "has explorado un"
-	line "montón de sitios."
+	text "Con ese equipo,"
+	line "seguro que has"
+	cont "explorado un"
+	cont "montón de sitios."
 
 	para "Perderte debe de"
 	line "ser tu pan de cada"
@@ -51,9 +50,7 @@ GenericTrainerBird_keeperMick:
 
 	para "Debería irme con"
 	line "otros Ornitólogos"
-
-	para "a un sitio con más"
-	line "sentido."
+	cont "a un lugar mejor."
 	done
 
 GenericTrainerHexManiacEsther:
@@ -73,8 +70,8 @@ GenericTrainerCooltrainermConnor:
 	line "encanto van de la"
 	cont "mano."
 
-	para "¡Son la combina-"
-	line "ción más genial!"
+	para "¡Son la mejor de"
+	line "las mezclas!"
 	done
 
 GenericTrainerSuperNerdMiguel:
@@ -85,12 +82,12 @@ GenericTrainerSuperNerdMiguel:
 	done
 
 YoungsterJoshSeenText:
-	text "¿Has venido a ex-"
-	line "plorar la cueva,"
+	text "¿Has venido a"
+	line "explorar la cueva,"
 	cont "¿verdad?"
 
-	para "Ten cuidado, podrí"
-	line "as perderte."
+	para "Ten cuidado, no te"
+	line "vayas a perder."
 	done
 
 YoungsterJoshBeatenText:
@@ -113,12 +110,11 @@ Bird_keeperMickBeatenText:
 	done
 
 HexManiacEstherSeenText:
-	text "Espejito, espejito"
-	line "en la pared…"
+	text "Espejo, dime ante"
+	line "el que veo aquí,"
 
-	para "¿quién lanzará su"
-	line "# Ball esta"
-	cont "vez?"
+	para "¿quién su # Ball"
+	line "lanzará ante ti?"
 	done
 
 HexManiacEstherBeatenText:

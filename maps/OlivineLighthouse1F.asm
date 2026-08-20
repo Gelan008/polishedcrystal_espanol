@@ -32,8 +32,8 @@ OlivineLighthouse1FSailorScript:
 
 .Text2:
 	text "Los entrenadores"
-	line "de aquí están de-"
-	cont "seosos de luchar."
+	line "de aquí quieren"
+	cont "luchar a tope."
 
 	para "¡Prepárate!"
 	done
@@ -48,13 +48,11 @@ OlivineLighthouse1FSailorScript:
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "Antaño, los #-"
-	line "mon iluminaban el"
+	text "Antaño, los"
+	line "#mon iluminaban"
+	cont "el mar de noche en"
+	cont "Olivo."
 
-	para "mar de Olivo du-"
-	line "rante la noche."
-
-	para "El Faro se cons-"
-	line "truyó en honor a"
-	cont "esos #mon."
+	para "El Faro se erigió"
+	line "en su honor."
 	done

@@ -21,22 +21,18 @@ Route6SaffronGuardScript:
 	iftrue_jumptextfaceplayer Route6SaffronGuardMagnetTrainText
 	jumpthistextfaceplayer
 
-	text "¡Te damos la bien-"
-	line "venida a Ciudad"
-	cont "Azafrán, sede del"
+	text "¡Bienvenido a"
+	line "Ciudad Azafrán,"
+	cont "la sede del"
 	cont "Magnetotrén!"
 
 	para "…O eso te diría"
 	line "normalmente, pero"
+	cont "ahora no marcha."
 
-	para "el Magnetotrén no"
-	line "funciona ahora."
-
-	para "No recibe nada de"
-	line "electricidad"
-
-	para "porque pasa algo"
-	line "raro en la Central"
+	para "No tiene corriente"
+	line "por un problema en"
+	cont "la Central"
 	cont "Energía."
 	done
 

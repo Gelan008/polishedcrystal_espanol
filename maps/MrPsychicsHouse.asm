@@ -38,8 +38,8 @@ MrPsychicsHouseTutorZenHeadbuttScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "…¿Me he equi-"
-	line "vocado?"
+	text "…¿Me habré"
+	line "equivocado?"
 	done
 
 .NoSilverLeaf
@@ -74,16 +74,12 @@ MrPsychicText:
 Text_MrPsychicsHouseTutorZenHeadbutt:
 	text "Puedo enseñar a"
 	line "tu #mon a usar"
-
-	para "Cabezazo Zen a"
-	line "cambio de una"
-	cont "Hoja Plata."
+	cont "Cabezazo Zen por"
+	cont "una Hoja Plata."
 	done
 
 Text_MrPsychicsHouseTutorQuestion:
 	text "¿Quieres que le"
 	line "enseñe Cabezazo"
-
-	para "Zen a tu"
-	line "#mon?"
+	cont "Zen a tu #mon?"
 	done

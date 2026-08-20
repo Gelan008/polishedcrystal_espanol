@@ -122,14 +122,10 @@ MystriStageBeatCynthiaScript:
 	text "Cintia: ¿Podría"
 	line "ser… un Huevo?"
 
-	para "¿Acabamos de"
-	line "presenciar el"
-
-	para "preciso instante"
-	line "en que un Huevo ha"
-
-	para "llegado a este"
-	line "mundo?"
+	para "¿Presenciamos el"
+	line "mismo instante en"
+	cont "que un Huevo vino"
+	cont "a este mundo?"
 
 	para "¿Un momento que"
 	line "nadie ha visto"
@@ -156,8 +152,8 @@ MystriStageEggScript:
 
 MystriStageCynthiaIntroText:
 	text "Me llamo Cintia."
-	line "Soy una entrena-"
-	cont "dora #mon."
+	line "Soy entrenadora"
+	cont "#mon."
 
 	para "¿Y tú quién eres?"
 
@@ -170,50 +166,38 @@ MystriStageCynthiaSpeechText:
 	text "Cintia: Estas son"
 	line "las Ruinas Sinjoh."
 
-	para "Hace mucho tiempo…"
+	para "Hace mucho tiempo,"
 	line "la gente vino a"
+	cont "vivir aquí desde"
+	cont "Sinnoh, mi tierra."
 
-	para "vivir aquí desde"
-	line "Sinnoh, mi tierra"
-	cont "natal."
-
-	para "Debieron de sentir"
-	line "nostalgia de su"
-
-	para "hogar y alzaron"
-	line "este templo en ho-"
-	cont "nor a sus raíces."
+	para "Por nostalgia a"
+	line "su hogar, alzaron"
+	cont "este templo en"
+	cont "su honor."
 
 	para "Estamos en el"
 	line "Estrado Mistrío."
-
-	para "Antaño se celebra-"
-	line "ba aquí con música"
-	cont "y bailes."
+	cont "Antaño celebraban"
+	cont "aquí con música."
 
 	para "Cintia: Estudio"
 	line "los mitos sobre"
-
-	para "lugares antiguos"
-	line "como estas ruinas."
+	cont "lugares antiguos."
 
 	para "Uno dice que este"
 	line "estrado alberga el"
 	cont "poder del creador."
 
 	para "Habla de cuando"
-	line "“el líder suba"
-
-	para "al fin al Estrado"
-	line "Mistrío…”"
+	line "“el líder suba al"
+	cont "Estrado Mistrío…”"
 	done
 
 MystriStageCynthiaLeadText2:
 	text "Cintia: ¿Qué?"
 	line "¿Leíste esa frase"
-
-	para "en las Ruinas"
-	line "Alfa?"
+	cont "en Ruinas Alfa?"
 
 	para "Es de lo más"
 	line "intrigante."
@@ -224,17 +208,14 @@ MystriStageCynthiaLeadText2:
 	done
 
 MystriStageCynthiaIdeaText:
-	text "Cintia: … Tengo"
+	text "Cintia: …Tengo"
 	line "una idea. Llámalo"
-
-	para "intuición de"
-	line "entrenadora."
+	cont "intuición mía."
 
 	para "Si combatimos tú"
 	line "y yo en este"
-
-	para "estrado, ocurrirá"
-	line "algo."
+	cont "estrado, ocurrirá"
+	cont "algo."
 	done
 
 MystriStageCynthiaNotNowText:
@@ -279,26 +260,22 @@ MystriStageCynthiaWinText:
 	done
 
 MystriStageCynthiaItemText:
-	text "Cintia: ¡Has supe-"
-	line "rado mis expec-"
-	cont "tativas!"
+	text "Cintia: ¡Superaste"
+	line "mis expectativas!"
 
 	para "¡Qué combate tan"
 	line "excepcional!"
 
-	para "Por favor, toma"
-	line "este objeto. Sé"
-
-	para "que sabrás usarlo"
-	line "bien."
+	para "Toma este objeto."
+	line "Sé que sabrás"
+	cont "usarlo bien."
 	done
 
 MystriStageCynthiaAfterText:
 	text "Cintia: ¿Habrá"
-	line "afectado el"
-
-	para "combate al"
-	line "Estrado Mistrío?"
+	line "afectado la lucha"
+	cont "al Estrado"
+	cont "Mistrío?"
 	done
 
 MystriStageCynthiaFinalText:
@@ -306,15 +283,14 @@ MystriStageCynthiaFinalText:
 	line "es la cuna de"
 	cont "todo ser."
 
-	para "El propio planeta"
-	line "es un Huevo en"
-	cont "cierto sentido…"
+	para "El planeta es un"
+	line "Huevo en cierto"
+	cont "sentido…"
 
 	para "La vida que nace"
-	line "de un Huevo llega"
-
-	para "a su fin a su"
-	line "debido tiempo…"
+	line "de un Huevo tiene"
+	cont "su fin a su debido"
+	cont "tiempo…"
 
 	para "para renacer de"
 	line "nuevo…"

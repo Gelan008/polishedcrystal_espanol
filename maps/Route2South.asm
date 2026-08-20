@@ -33,18 +33,17 @@ GenericTrainerBug_maniacDoug:
 
 	text "Los #mon bicho"
 	line "se aplastan como"
+	cont "peluches si les"
+	cont "estrujas la tripa."
 
-	para "peluches si les"
-	line "estrujas la tripa."
-
-	para "¡Me encanta lo que"
+	para "¡Me encanta como"
 	line "se siente!"
 	done
 
 Bug_maniacRobSeenText:
 	text "Mis #mon bicho"
-	line "son duros. ¡Pre-"
-	cont "párate a perder!"
+	line "son muy duros."
+	cont "¡Vas a perder!"
 	done
 
 Bug_maniacRobBeatenText:
@@ -53,9 +52,9 @@ Bug_maniacRobBeatenText:
 
 Bug_maniacDougSeenText:
 	text "¿Por qué a las"
-	line "chicas no les gus-"
-	cont "tan los #mon"
-	cont "bicho?"
+	line "chicas no les"
+	cont "agradan los"
+	cont "#mon bicho?"
 	done
 
 Bug_maniacDougBeatenText:

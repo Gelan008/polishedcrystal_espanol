@@ -41,8 +41,8 @@ Route3FlyPoint:
 GenericTrainerYoungsterRegis:
 	generictrainer YOUNGSTER, REGIS, EVENT_BEAT_YOUNGSTER_REGIS, .SeenText, .BeatenText
 
-	text "¡Parece que nece-"
-	line "sito entrenar más!"
+	text "¡Parece que debo"
+	line "entrenar más!"
 	done
 
 .SeenText:
@@ -82,8 +82,8 @@ GenericTrainerYoungsterWarren:
 
 	text "Parecías fuerte."
 
-	para "Me daba miedo en-"
-	line "frentarme a ti…"
+	para "Me daba miedo"
+	line "luchar contra ti…"
 	done
 
 .SeenText:
@@ -105,14 +105,14 @@ GenericTrainerFirebreatherOtis:
 	done
 
 .SeenText:
-	text "¡Ah! Hace un tiem-"
-	line "po tan bueno como"
+	text "¡Ah! Hace un clima"
+	line "tan bueno como"
 	cont "siempre."
 	done
 
 .BeatenText:
-	text "Hace sol, pero es-"
-	line "toy empapado…"
+	text "Hace sol, pero"
+	line "estoy empapado…"
 	done
 
 GenericTrainerFirebreatherBurt:
@@ -127,8 +127,8 @@ GenericTrainerFirebreatherBurt:
 	done
 
 .SeenText:
-	text "¡Acérquense y ve-"
-	line "an el espectáculo!"
+	text "¡Acérquense a ver"
+	line "el espectáculo!"
 	done
 
 .BeatenText:
@@ -145,8 +145,8 @@ GenericTrainerBlackbeltManford:
 
 .SeenText:
 	text "¡Para un momento y"
-	line "dame la oportuni-"
-	cont "dad de vencerte!"
+	line "lucha para ver si"
+	cont "puedo vencerte!"
 	done
 
 .BeatenText:
@@ -160,8 +160,8 @@ GenericTrainerBlackbeltAnder:
 	text "¿Has venido desde"
 	line "Johto?"
 
-	para "¡Debes de ser al-"
-	line "guien muy tenaz!"
+	para "¡Debes de ser muy"
+	line "tenaz!"
 	done
 
 .SeenText:
@@ -184,8 +184,8 @@ GenericTrainerHikerBruce:
 
 .SeenText:
 	text "¡La Mochila se me"
-	line "clava en los hom-"
-	cont "bros!"
+	line "clava mucho en los"
+	cont "hombros!"
 
 	para "¡Descansaré con un"
 	line "buen combate!"
@@ -198,9 +198,8 @@ GenericTrainerHikerBruce:
 GenericTrainerHikerDwight:
 	generictrainer HIKER, DWIGHT, EVENT_BEAT_HIKER_DWIGHT, .SeenText, .BeatenText
 
-	text "Saludar a alguien"
-	line "a quien no cono-"
-	cont "ces…"
+	text "Saludar a quien no"
+	line "conoces de nada…"
 
 	para "¡Es lo mejor de la"
 	line "montaña!"
@@ -209,12 +208,12 @@ GenericTrainerHikerDwight:
 .SeenText:
 	text "¡Paz!"
 
-	para "Cuando te encuen-"
-	line "tras a un descono-"
-	cont "cido en un camino"
+	para "Si te topas con un"
+	line "desconocido en el"
+	cont "camino de montaña,"
 
-	para "de montaña, buscas"
-	line "paz, ¿verdad?"
+	para "buscas paz,"
+	line "¿verdad?"
 	done
 
 .BeatenText:
@@ -248,9 +247,8 @@ GenericTrainerAceDuoZacandjen2:
 
 	text "Jen: Tengo ganas"
 	line "de ver qué clase"
-
-	para "de entrenador"
-	line "llegarás a ser."
+	cont "de entrenador"
+	cont "llegarás a ser."
 	done
 
 .SeenText:

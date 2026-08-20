@@ -54,8 +54,8 @@ Route13GrampsScript:
 GenericTrainerCamperClark:
 	generictrainer CAMPER, CLARK, EVENT_BEAT_CAMPER_CLARK, .SeenText, .BeatenText
 
-	text "Da igual qué cla-"
-	line "se de preparativos"
+	text "Da igual qué tipo"
+	line "de preparativos"
 	cont "hayas hecho."
 
 	para "Si pierdes, has"
@@ -168,11 +168,10 @@ GenericTrainerPicnickerPiper:
 	done
 
 .SeenText:
-	text "¿Qué tal si saca-"
-	line "mos a tus #mon"
-
-	para "y a los míos para"
-	line "un combate?"
+	text "¿Qué tal si sacas"
+	line "a tus #mon y yo"
+	cont "a los míos para un"
+	cont "buen combate?"
 	done
 
 .BeatenText:
@@ -183,9 +182,10 @@ GenericTrainerPicnickerPiper:
 GenericTrainerCoupleTimandsue1:
 	generictrainer COUPLE, TIMANDSUE1, EVENT_BEAT_COUPLE_TIM_AND_SUE, .SeenText, .BeatenText
 
-	text "Tim: Si le has ga-"
-	line "nado a ella, ¡de-"
-	cont "bes de ser fuerte!"
+	text "Tim: Si la has"
+	line "vencido a ella,"
+	cont "¡debes de ser muy"
+	cont "fuerte!"
 	done
 
 .SeenText:
@@ -208,16 +208,15 @@ GenericTrainerCoupleTimandsue2:
 	line "que tienes…"
 	cont "¡Ya caigo!"
 
-	para "¿Estás enamo-"
-	line "rado?"
+	para "¿Acaso sientes"
+	line "amor por alguien?"
 	done
 
 .SeenText:
-	text "Sue: Las mujeres"
-	line "que no se toman el"
-
-	para "amor en serio pue-"
-	line "den salir heridas."
+	text "Sue: Quien no se"
+	line "toma el amor en"
+	cont "serio puede salir"
+	cont "con heridas."
 	done
 
 .BeatenText:
@@ -228,8 +227,8 @@ GenericTrainerPokefanmAlex:
 	generictrainer POKEFANM, ALEX, EVENT_BEAT_POKEFANM_ALEX, PokefanmAlexSeenText, PokefanmAlexBeatenText
 
 	text "¿Acaso no desea"
-	line "todo el mundo lle-"
-	cont "gar a ser rey?"
+	line "todo el mundo ser"
+	cont "el rey?"
 	done
 
 PokefanmAlexSeenText:
@@ -248,9 +247,8 @@ GenericTrainerPokefanmJoshua:
 
 	text "Se nota que tienes"
 	line "muchos #mon,"
-
-	para "pero Pikachu sigue"
-	line "siendo el mejor."
+	cont "pero Pikachu sigue"
+	cont "siendo el mejor."
 	done
 
 PokefanmJoshuaSeenText:
@@ -268,8 +266,8 @@ GenericTrainerHikerKenny:
 	generictrainer HIKER, KENNY, EVENT_BEAT_HIKER_KENNY, HikerKennySeenText, HikerKennyBeatenText
 
 	text "Las formaciones"
-	line "geológicas no pa-"
-	cont "recen cambiar."
+	line "geológicas parecen"
+	cont "inmutables."
 
 	para "Pero en realidad"
 	line "cambian poco a"
@@ -277,9 +275,9 @@ GenericTrainerHikerKenny:
 	done
 
 HikerKennySeenText:
-	text "Debería ir al Tú-"
-	line "nel Roca a por un"
-	cont "Onix."
+	text "Debería ir hasta"
+	line "el Túnel Roca a"
+	cont "por un Onix."
 	done
 
 HikerKennyBeatenText:
@@ -301,11 +299,10 @@ Route13TrainerTips2Text:
 	line "requieren objetos"
 	cont "para evolucionar."
 
-	para "¡Si tienes suerte,"
-	line "un #mon salvaje"
-
-	para "podría llevar su"
-	line "objeto evolutivo!"
+	para "¡Con suerte, un"
+	line "#mon salvaje"
+	cont "llevará su objeto"
+	cont "evolutivo!"
 	done
 
 Route13SignText:

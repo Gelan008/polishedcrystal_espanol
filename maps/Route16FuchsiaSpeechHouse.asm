@@ -25,11 +25,10 @@ Route16FuchsiaSpeechHouseSuperNerdText:
 	done
 
 Route16FuchsiaSpeechHouseLadyText:
-	text "La persona que vi-"
-	line "vía aquí se mudó"
+	text "Quien vivía aquí"
+	line "se mudó hace tres"
+	cont "años."
 
-	para "hace tres años."
-
-	para "¿A dónde habrá"
+	para "¿Adónde habrá"
 	line "ido?"
 	done

@@ -425,11 +425,9 @@ GenericTrainerBreederJulie:
 	generictrainer BREEDER, JULIE, EVENT_BEAT_BREEDER_JULIE, BreederJulieSeenText, BreederJulieBeatenText
 
 	text "Uno de mis #mon"
-	line "tiene naturaleza"
-
-	para "Firme y otro tie-"
-	line "ne naturaleza"
-	cont "Floja."
+	line "es de naturaleza"
+	cont "Firme y otro de"
+	cont "naturaleza Floja."
 
 	para "Parece que marca"
 	line "la diferencia al"
@@ -481,29 +479,24 @@ Route34RichBoyIrvingScript:
 	done
 
 .IntroText:
-	text "No necesito apos-"
-	line "tar por Fichas."
+	text "No me hace falta"
+	line "apostar Fichas."
 
 	para "¡Soy rico, así que"
-	line "compré mis #mon"
-	cont "al contado!"
+	line "compré #mon al"
+	cont "contado!"
 
-	para "¡Son tan fuertes"
-	line "que vencimos en el"
-	cont "Gim. de Azalea!"
+	para "¡Vencimos en el"
+	line "Gim. de Azalea!"
 
-	para "¿Quieres luchar"
-	line "con ellos? Vale,"
+	para "¿Quieres luchar?"
+	line "¡Pues vence antes"
+	cont "a los demás!"
 
-	para "¡pero vence antes"
-	line "a todos los demás!"
-
-	para "Incluso a la Agi-"
-	line "lente, aunque qui-"
-
-	para "zá no luche con-"
-	line "tigo hasta que se"
-	cont "haga de noche."
+	para "Incluso a la"
+	line "policía, aunque no"
+	cont "luchará hasta la"
+	cont "noche."
 	done
 
 .QuestionText:
@@ -523,9 +516,9 @@ Route34RichBoyIrvingScript:
 	done
 
 .SeenText:
-	text "¡Estoy muy por en-"
-	line "cima de la plebe a"
-	cont "la que has ganado!"
+	text "¡Estoy por encima"
+	line "de la plebe a la"
+	cont "que has ganado!"
 	done
 
 .BeatenText:
@@ -538,22 +531,20 @@ Route34RichBoyIrvingScript:
 	line "objeto sin duda."
 
 	para "Véndelo y date un"
-	line "buen capricho,"
-
-	para "o guárdalo como"
-	line "recuerdo de nues-"
-	cont "tro combate."
+	line "buen capricho, o"
+	cont "guárdalo como un"
+	cont "recuerdo nuestro."
 	done
 
 GenericTrainerPokefanmBrandon:
 	generictrainer POKEFANM, BRANDON, EVENT_BEAT_POKEFANM_BRANDON, PokefanmBrandonSeenText, PokefanmBrandonBeatenText
 
-	text "Mi #mon usó mo-"
-	line "vimientos que no"
+	text "Mi #mon usó"
+	line "ataques que no"
 	cont "sabía que tenía."
 
-	para "¡Eso me ha descon-"
-	line "certado del todo!"
+	para "¡Eso me dejó muy"
+	line "desconcertado!"
 	done
 
 TrainerCooltrainerfIrene:
@@ -579,9 +570,9 @@ TrainerCooltrainerfJenn:
 	iftrue_jumptext CooltrainerfJennAfterText2
 	jumpthistext
 
-	text "Jenn: ¡No te con-"
-	line "fíes! ¡Mi hermana"
-	cont "Kate es muy dura!"
+	text "Jenn: ¡No te fíes!"
+	line "¡Mi hermana Kate"
+	cont "es muy dura!"
 	done
 
 TrainerCooltrainerfKate:
@@ -601,12 +592,11 @@ TrainerCooltrainerfKate:
 
 CooltrainerfKateAfterText:
 	text "Kate: Siento que"
-	line "te abordáramos"
-	cont "así."
+	line "te atacáramos así."
 
-	para "No esperábamos"
-	line "que nadie nos en-"
-	cont "contrara aquí."
+	para "No creíamos que"
+	line "nadie nos fuera a"
+	cont "encontrar aquí."
 
 	para "Menudo susto nos"
 	line "has dado."
@@ -634,8 +624,8 @@ Route34LyraText_Grandpa:
 	done
 
 Route34LyraGoodWorkText:
-	text "Lira: ¡Buen traba-"
-	line "jo, abuelito!"
+	text "Lira: ¡Abuelito,"
+	line "buen trabajo!"
 
 	para "¡El #mon que"
 	line "has cuidado está"
@@ -651,15 +641,16 @@ Route34LyraGreetingText:
 	done
 
 Route34LyraIntroductionText:
-	text "¡Abuelito, te pre-"
-	line "sento a mi compi!"
+	text "¡Abuelito, mira,"
+	line "te presento a"
+	cont "mi compi!"
 
-	para "<PLAYER> cria"
+	para "<PLAYER> cría"
 	line "genial a los"
 	cont "#mon."
 
 	para "Bueno, ¡no tanto"
-	line "como a tu, claro!"
+	line "como tú, claro!"
 	done
 
 Route34LyraChallengeText:
@@ -671,9 +662,8 @@ Route34LyraChallengeText:
 	done
 
 Route34LyraWinText:
-	text "¡Eres incluso me-"
-	line "jor de lo que pen-"
-	cont "saba!"
+	text "¡Luchas aún mejor"
+	line "de lo que creía!"
 	done
 
 Route34LyraLossText:
@@ -688,8 +678,8 @@ Route34LyraFollowMeText:
 	done
 
 BreederJulieSeenText:
-	text "¡Aquí es donde en-"
-	line "treno a mis"
+	text "¡Aquí es donde"
+	line "entreno a mis"
 	cont "#mon bebé!"
 	done
 
@@ -713,10 +703,8 @@ CamperTodd1BeatenText:
 
 CamperTodd1AfterText:
 	text "Quizá deba llevar"
-	line "uno a la Guarde-"
-
-	para "ría. O usar algún"
-	line "objeto…"
+	line "uno a la Guardería"
+	cont "o usar objetos…"
 	done
 
 CamperToddSaleText:
@@ -730,8 +718,8 @@ CamperToddSaleText:
 PicnickerGina1SeenText:
 	text "¿Eres entrenador?"
 
-	para "¡Hagamos un com-"
-	line "bate de prueba!"
+	para "¡Hagamos un duelo"
+	line "de prueba!"
 	done
 
 PicnickerGina1BeatenText:
@@ -746,19 +734,19 @@ PicnickerGina1AfterText:
 	done
 
 OfficerfMaraSeenText:
-	text "¿Quién va ahí?"
-	line "¿Qué estás traman-"
-	cont "do?"
+	text "¿Quién está ahí?"
+	line "¿Qué estás"
+	cont "tramando?"
 	done
 
 OfficerfMaraWinText:
-	text "Eres un mico muy"
+	text "Eres un niño muy"
 	line "duro de pelar."
 	done
 
 OfficerfMaraAfterText:
-	text "Sí, hoy no veo na-"
-	line "da raro por aquí."
+	text "Sí, no veo nada"
+	line "raro por aquí."
 
 	para "Pórtate bien y no"
 	line "te metas en líos."
@@ -827,17 +815,17 @@ CooltrainerfKateSeenText:
 
 CooltrainerfKateBeatenText:
 	text "Kate: ¡No! No me"
-	line "creo que haya per-"
-	cont "dido."
+	line "creo que haya"
+	cont "perdido."
 	done
 
 CooltrainerfKateOfferPowerHerbText:
-	text "Kate: Eres dema-"
-	line "siado fuerte. No"
-	cont "tuve opción."
+	text "Kate: Qué fuerza"
+	line "tienes. No tuve"
+	cont "opción."
 
-	para "Toma. Te has gana-"
-	line "do esto."
+	para "Toma. Has ganado"
+	line "este objeto."
 	done
 
 Route34SignText:
@@ -866,16 +854,12 @@ Route34AdvancedTipsSignText:
 
 	para "¡Algunos #mon"
 	line "tienen potencial"
+	cont "para ser mejores!"
 
-	para "innato para ser"
-	line "más fuertes!"
-
-	para "¡Pero todos pueden"
-	line "esforzarse al com-"
-	cont "batir o tomar vi-"
-
-	para "taminas para ganar"
-	line "más fuerza!"
+	para "¡Y todos pueden"
+	line "esforzarse al"
+	cont "luchar o tomar"
+	cont "vitaminas!"
 	done
 
 DayCareSignText:

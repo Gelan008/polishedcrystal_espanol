@@ -93,17 +93,16 @@ OlivineLighthouse3FBattleGirlEmy:
 	line "gran intensidad."
 
 	para "¿Podrás vencer a"
-	line "todos los entrena-"
-	cont "dores del Faro?"
+	line "todos aquí?"
 
-	para "Si lo logras, com-"
-	line "batiré contigo."
+	para "Si lo logras,"
+	line "¡lucharé contigo!"
 	done
 
 .QuestionText:
-	text "¿Así que has ven-"
-	line "cido en toda la"
-	cont "torre?"
+	text "¿Así que venciste"
+	line "a todos los de"
+	cont "la torre?"
 
 	para "¡Pues te queda una"
 	line "rival: la alumna"
@@ -114,8 +113,8 @@ OlivineLighthouse3FBattleGirlEmy:
 	done
 
 .RefusedText:
-	text "Mejor sigo entre-"
-	line "nando sola…"
+	text "Mejor seguiré"
+	line "entrenando sola…"
 	done
 
 .SeenText:
@@ -130,18 +129,15 @@ OlivineLighthouse3FBattleGirlEmy:
 	done
 
 .AfterText1:
-	text "¡Tu equipo es for-"
-	line "midable!"
+	text "¡Tienes un equipo"
+	line "formidable!"
 
 	para "Pero aún puedes"
 	line "ser más fuerte."
 
-	para "Esta Paracontacto"
-	line "te deja entrar en"
-
-	para "contacto con el"
-	line "rival sin sufrir"
-	cont "daño."
+	para "El Paracontacto te"
+	line "permite tocar al"
+	cont "rival sin dañarte."
 	done
 
 TrainerBird_keeperTheo:
@@ -156,11 +152,10 @@ Bird_keeperTheoScript:
 	text "¿Cómo demonios se"
 	line "sube?"
 
-	para "Quiero visitar al"
+	para "Quiero ver al"
 	line "#mon enfermo,"
-
-	para "pero no puedo lle-"
-	line "gar ahí arriba…"
+	cont "¡pero no logro"
+	cont "llegar arriba!"
 	done
 
 GenericTrainerGentlemanPreston:
@@ -174,23 +169,21 @@ GenericTrainerGentlemanPreston:
 GenericTrainerSailorTerrell:
 	generictrainer SAILOR, TERRELL, EVENT_BEAT_SAILOR_TERRELL, SailorTerrellSeenText, SailorTerrellBeatenText
 
-	text "Cada vez que vuel-"
-	line "vo a Olivo, visito"
-	cont "el Gimnasio."
+	text "Siempre que vuelvo"
+	line "a Olivo, visito el"
+	cont "Gimnasio."
 
-	para "El tipo de los"
-	line "#mon de la"
-
-	para "Líder ha cambiado"
-	line "sin que me diese"
+	para "Los #mon de la"
+	line "Líder cambiaron de"
+	cont "tipo sin darme ni"
 	cont "cuenta."
 	done
 
 Bird_keeperTheoSeenText:
 	text "¿Qué haces aquí?"
-	line "¿Solo vienes a mi-"
+	line "¿Vienes a mirar?"
 
-	para "rar? ¡Te sugiero"
+	para "¡Pues te sugiero"
 	line "que te marches!"
 	done
 
@@ -203,12 +196,10 @@ Bird_keeperTheoFinalText:
 	text "¿Cómo demonios se"
 	line "sube?"
 
-	para "He oído que el"
-	line "#mon enfermo ya"
-
-	para "está mejor, pero"
-	line "no consigo llegar"
-	cont "ahí arriba…"
+	para "Oí que el #mon"
+	line "enfermo ya mejoró,"
+	cont "¡pero no logro"
+	cont "llegar arriba!"
 	done
 
 SailorTerrellSeenText:
@@ -225,13 +216,13 @@ SailorTerrellBeatenText:
 GentlemanPrestonSeenText:
 	text "Viajo por el mundo"
 	line "para entrenar a"
+	cont "mis #mon."
 
-	para "mis #mon."
-	line "Deseo luchar"
-	cont "contra ti."
+	para "¡Deseo luchar"
+	line "contra ti!"
 	done
 
 GentlemanPrestonBeatenText:
-	text "…Ay… Debo entre-"
-	line "nar un poco más…"
+	text "…Ay… Necesito más"
+	line "entrenamiento…"
 	done

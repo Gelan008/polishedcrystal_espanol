@@ -46,22 +46,21 @@ PewterGymBrockScript:
 	setevent EVENT_GOT_TM48_ROCK_SLIDE
 	jumpthisopenedtext
 
-	text "It can sometimes"
-	line "cause your foe to"
-	cont "flinch."
+	text "A veces puede"
+	line "hacer retroceder"
+	cont "al rival."
 	done
 
 GenericTrainerCamperJerry:
 	generictrainer CAMPER, JERRY, EVENT_BEAT_CAMPER_JERRY, CamperJerrySeenText, CamperJerryBeatenText
 
-	text "¡Oye, tú! ¡Entre-"
-	line "nador de Johto!"
+	text "¡Oye, entrenador"
+	line "de Johto!"
 
-	para "Brock es duro."
-	line "Te dará una lec-"
-
-	para "ción si no te lo"
-	line "tomas en serio."
+	para "Brock es muy duro."
+	line "¡Aprenderás a las"
+	cont "malas si no te lo"
+	cont "tomas en serio!"
 	done
 
 GenericTrainerHikerEdwin:
@@ -79,18 +78,13 @@ PewterGymGuyScript:
 	text "¡Hola, futuro"
 	line "campeón!"
 
-	para "¡Estás que te sa-"
-	line "les! ¿Estás com-"
+	para "¡Vas con todo!"
+	line "¿Vas a retar a los"
+	cont "Líderes de Kanto?"
 
-	para "batiendo contra"
-	line "los Líderes de"
-	cont "Gimnasio de Kanto?"
-
-	para "Son fuertes y de-"
-	line "dicados, igual que"
-
-	para "los Líderes de"
-	line "Johto."
+	para "Son fuertes y muy"
+	line "dedicados, como en"
+	cont "Johto."
 	done
 
 PewterGymStatue:
@@ -104,8 +98,7 @@ PewterGymStatue:
 BrockIntroText:
 	text "Brock: ¡No suelo"
 	line "recibir aspirantes"
-
-	para "de Johto!"
+	cont "de Johto!"
 
 	para "Soy Brock, Líder"
 	line "de Gimnasio de"
@@ -114,71 +107,63 @@ BrockIntroText:
 	para "Soy un experto en"
 	line "#mon tipo Roca."
 
-	para "Mis #mon son"
-	line "resistentes a los"
+	para "Resisten muy bien"
+	line "los ataques"
+	cont "físicos."
 
-	para "ataques físicos."
-	line "Te costará mucho"
-	cont "hacerles daño."
+	para "¡Te costará mucho"
+	line "hacerles daño!"
 
 	para "¡Adelante!"
 	done
 
 BrockWinLossText:
-	text "Brock: Los fuertes"
-	line "ataques de tus"
-
-	para "#mon superaron"
-	line "mi dura defensa de"
-	cont "roca…"
+	text "Brock: Los ataques"
+	line "de tus #mon"
+	cont "superaron mi gran"
+	cont "defensa de roca…"
 
 	para "Eres más fuerte de"
 	line "lo que esperaba…"
 
-	para "Adelante, llévate"
+	para "Adelante, toma"
 	line "esta Medalla."
 	done
 
 BrockBoulderBadgeText:
 	text "Brock: Gracias,"
-	line "<PLAYER>. He dis-"
+	line "<PLAYER>."
 
-	para "frutado combatien-"
-	line "do contigo, aunque"
-	cont "esté algo picado."
+	para "Me ha encantado"
+	line "este combate."
 
-	para "También te daré la"
-	line "MT de Avalancha."
+	para "¡Toma también la"
+	line "MT de Avalancha!"
 	done
 
 BrockFightDoneText:
 	text "Brock: El mundo es"
 	line "enorme. Aún hay"
+	cont "rivales fuertes"
+	cont "como tú."
 
-	para "muchos entrenado-"
-	line "res fuertes como"
-	cont "tú."
-
-	para "Ya lo verás: yo"
-	line "también me volveré"
-	cont "mucho más fuerte."
+	para "Ya lo verás ¡Yo"
+	line "también me haré"
+	cont "mucho más fuerte!"
 	done
 
 CamperJerrySeenText:
-	text "Los entrenadores"
-	line "de este Gimnasio"
+	text "Aquí usamos"
+	line "#mon de tipo"
+	cont "Roca."
 
-	para "usan #mon de"
-	line "tipo Roca."
+	para "Tienen una gran"
+	line "Defensa física."
 
-	para "El tipo Roca tiene"
-	line "mucha Defensa."
+	para "Los combates se"
+	line "hacen muy largos."
 
-	para "Los combates pue-"
-	line "den alargarse mu-"
-
-	para "cho. ¿Estás a pun-"
-	line "to para esto?"
+	para "¿Podrás con ello?"
 	done
 
 CamperJerryBeatenText:
@@ -196,15 +181,12 @@ HikerEdwinBeatenText: ; text > text
 
 PewterGymGuyWinText:
 	text "¡Hola, futuro"
-	line "campeón! Este Gim-"
+	line "campeón!"
 
-	para "nasio no te ha da-"
-	line "do muchos proble-"
-	cont "mas."
+	para "¡Este Gimnasio no"
+	line "te dio problemas!"
 
-	para "Tu forma de llevar"
-	line "el combate fue muy"
-
-	para "inspiradora. Lo"
-	line "digo en serio."
+	para "¡Tu combate fue"
+	line "muy inspirador!"
+	cont "¡Lo digo en serio!"
 	done

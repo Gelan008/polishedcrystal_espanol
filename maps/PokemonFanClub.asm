@@ -49,12 +49,10 @@ PokemonFanClubChairmanScript:
 	line "Raro que hace más"
 	cont "fuerte al #mon."
 
-	para "Prefiero fortale-"
-	line "cer a mis #mon"
-
-	para "combatiendo, así"
-	line "que puedes quedár-"
-	cont "telo."
+	para "Prefiero entrenar"
+	line "a mis #mon"
+	cont "luchando, ¡así que"
+	cont "te lo regalo!"
 	done
 
 PokemonFanClubClefairyGuyScript:
@@ -84,16 +82,13 @@ PokemonJournalGreenScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Entrenadora Hoja!"
 
 	para "Además de ser una"
 	line "gran entrenadora,"
-
-	para "dicen que a Hoja"
-	line "le fascinan los"
-	cont "#mon"
-	cont "legendarios."
+	cont "a Hoja le fascinan"
+	cont "los legendarios."
 	done
 
 ClefairyDollScript:
@@ -151,9 +146,9 @@ PokemonFanClubChairmanRapidashText:
 	done
 
 PokemonFanClubChairmanIWantYouToHaveThisText:
-	text "Gracias por escu-"
-	line "charme. ¡Quiero"
-	cont "que tengas esto!"
+	text "¡Gracias por"
+	line "escucharme! ¡Toma"
+	cont "esto para ti!"
 	done
 
 PokemonFanClubChairmanMoreTalesToTellText:
@@ -163,8 +158,8 @@ PokemonFanClubChairmanMoreTalesToTellText:
 	line "oír más sobre mis"
 	cont "#mon?"
 
-	para "¿No? Vaya… Aún te-"
-	line "nía más historias…"
+	para "¿No? Vaya… ¡Aún me"
+	line "quedan historias!"
 	done
 
 PokemonFanClubChairmanHowDisappointingText:
@@ -174,18 +169,15 @@ PokemonFanClubChairmanHowDisappointingText:
 	line "escucharme."
 	done
 PokemonFanClubReceptionistText:
-	text "Nuestro presidente"
-	line "habla mucho cuan-"
-	cont "do se trata de"
-	cont "#mon…"
+	text "El presidente"
+	line "habla muchísimo de"
+	cont "sus #mon…"
 	done
 
 PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
-	text "¡Me encanta cómo"
-	line "mueve el dedo"
-
-	para "Clefairy cuando"
-	line "intenta usar"
+	text "¡Me encanta ver a"
+	line "Clefairy mover el"
+	cont "dedo con"
 	cont "Metrónomo!"
 
 	para "¡Es una monada!"
@@ -196,39 +188,29 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	line "pero nunca pude"
 	cont "atrapar uno."
 
-	para "Así que me confor-"
-	line "mo con este"
-
-	para "# Muñeco que me"
-	line "encontré."
+	para "Me conformo con"
+	line "este # Muñeco"
+	cont "que encontré."
 	done
 
 PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
-	text "Ah, ya veo. La ni-"
-	line "ña que perdió este"
+	text "Ah, ya veo. La"
+	line "niña que perdió el"
+	cont "# Muñeco está"
+	cont "muy triste…"
 
-	para "# Muñeco está"
-	line "muy triste…"
-
-	para "De acuerdo. ¿Po-"
-	line "drías devolverle"
-
-	para "este # Muñeco"
-	line "a esa pobre niña?"
+	para "¿Podrías llevarle"
+	line "este # Muñeco?"
 
 	para "Algún día me haré"
-	line "amigo de un Cle-"
-	cont "fairy de verdad."
-
-	para "¡No te preocupes!"
+	line "amigo de uno de"
+	cont "verdad. ¡Tranqui!"
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
-	text "¡Ya lo verás!"
-	line "Me haré amigo de"
-
-	para "un Clefairy de"
-	line "verdad."
+	text "¡Ya lo verás! Me"
+	line "haré amigo de un"
+	cont "Clefairy real."
 	done
 
 PokemonFanClubTeacherText:
@@ -245,14 +227,12 @@ FanClubOddishText:
 	done
 
 PokemonFanClubListenSignText:
-	text "Escuchemos todos"
-	line "con educación a"
-	cont "otros entrenado-"
-	cont "res."
+	text "Escuchemos a otros"
+	line "entrenadores con"
+	cont "mucha educación."
 	done
 
 PokemonFanClubBraggingSignText:
-	text "¡Si alguien presu-"
-	line "me, presume tú"
-	cont "también!"
+	text "¡Si alguien farda,"
+	line "farda tú también!"
 	done

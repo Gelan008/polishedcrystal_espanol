@@ -140,18 +140,14 @@ Route32CooltrainerMTrigger:
 	text "Tienes unos buenos"
 	line "#mon ahí."
 
-	para "Debe de ser por el"
-	line "entrenamiento que"
-
-	para "les diste en Ciu-"
-	line "dad Malva."
+	para "Se nota que los"
+	line "has entrenado por"
+	cont "Ciudad Malva."
 
 	para "No deberías tener"
 	line "problemas para"
-
-	para "vencer a los en-"
-	line "trenadores de esta"
-	cont "ruta."
+	cont "vencer a los de"
+	cont "esta ruta."
 
 	para "Si lo consigues,"
 	line "me enfrentaré a"
@@ -182,9 +178,9 @@ Route32CooltrainerMTrigger:
 
 .SeenText:
 	text "Mi entrenamiento"
-	line "en la Torre Bells-"
-	cont "prout superó in-"
-	cont "cluso a Pegaso."
+	line "en la Torre"
+	cont "Bellsprout superó"
+	cont "incluso a Pegaso."
 
 	para "¡Veamos cómo te"
 	line "desenvuelves!"
@@ -199,13 +195,13 @@ Route32CooltrainerMTrigger:
 	text "Tu entrenamiento"
 	line "ha sido superior."
 
-	para "Toma esto como re-"
-	line "cuerdo de nuestro"
+	para "Toma esto como un"
+	line "recuerdo de este"
 	cont "combate."
 
-	para "Aumenta la poten-"
-	line "cia de los ataques"
-	cont "de tipo Planta."
+	para "Aumenta la fuerza"
+	line "de los ataques de"
+	cont "tipo Planta."
 	done
 
 Route32CooltrainerMStopsYou:
@@ -311,19 +307,17 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	line "que su ayudante te"
 	cont "traería un Huevo."
 
-	para "Asegúrate de lle-"
-	line "varlo encima. ¡Qué"
-
-	para "curiosidad por ver"
-	line "qué #mon será!"
+	para "¡Llévalo siempre"
+	line "encima! Qué ganas"
+	cont "de ver qué #mon"
+	cont "nacerá!"
 	done
 
 .HaveEggText:
 	text "¡Qué bien! Llevas"
 	line "el Huevo encima,"
-
-	para "justo como te pi-"
-	line "dió el Prof. Elm."
+	cont "como te pidió el"
+	cont "Prof. Elm."
 
 	para "¡Qué curiosidad"
 	line "por ver qué"
@@ -383,20 +377,16 @@ Route32LyraIntroducesHiddenGrottoesOutroScript:
 
 	para "Los Claros Ocultos"
 	line "se hallan entre"
-
-	para "árboles o en los"
-	line "acantilados."
+	cont "árboles o en los"
+	cont "acantilados."
 
 	para "¡Podría haber"
 	line "#mon increíbles"
 	cont "escondidos dentro!"
 
 	para "Ojalá tuviera"
-	line "tiempo para echar"
-	cont "un vistazo,"
-
-	para "pero tengo cosas"
-	line "que hacer."
+	line "tiempo para mirar,"
+	cont "pero tengo prisa."
 
 	para "¡<PLAYER>! ¡No"
 	line "pierdas de vista"
@@ -460,8 +450,8 @@ Route32RoarTMGuyScript:
 GenericTrainerCamperRoland:
 	generictrainer CAMPER, ROLAND, EVENT_BEAT_CAMPER_ROLAND, CamperRolandSeenText, CamperRolandBeatenText
 
-	text "Si no quieres com-"
-	line "batir, evita el"
+	text "Si no quieres un"
+	line "combate, evita el"
 	cont "contacto visual."
 	done
 
@@ -569,14 +559,12 @@ TrainerFisherRalph1:
 	jumpthisopenedtext
 
 	text "Uno, dos, tres…"
-	line "¡Ja, ja, ja! ¡Vaya"
+	line "¡Ja, ja, ja! ¡Qué"
+	cont "buena pesca!"
 
-	para "buena pesca!"
-	line "¡Yo ya he acabado!"
-
-	para "¡Adelante, atrapa"
-	line "todos los que pue-"
-	cont "das, chaval!"
+	para "¡Yo ya he acabado!"
+	line "¡Atrapa todos los"
+	cont "que puedas, chico!"
 	done
 
 .NumberAccepted:
@@ -592,10 +580,9 @@ GenericTrainerFisherHenry:
 	generictrainer FISHER, HENRY, EVENT_BEAT_FISHER_HENRY, FisherHenrySeenText, FisherHenryBeatenText
 
 	text "Un #mon recién"
-	line "atrapado no pue-"
-
-	para "de competir con"
-	line "uno bien criado."
+	line "atrapado no puede"
+	cont "competir con uno"
+	cont "bien entrenado."
 	done
 
 TrainerPicnickerLiz1:
@@ -744,15 +731,13 @@ FriedaScript:
 	jumpthisopenedtext
 
 	text "Vero: Dáselo a un"
-	line "#mon con movi-"
-	cont "mientos Veneno."
+	line "#mon con ataque"
+	cont "de tipo Veneno."
 
-	para "¡Ah!"
-
-	para "¡Es brutal!"
+	para "¡Ah, es genial!"
 
 	para "¡Alucinarás con lo"
-	line "buenos que hace"
+	line "fuertes que hace"
 	cont "los ataques de"
 	cont "tipo Veneno!"
 	done
@@ -795,12 +780,12 @@ Route32CooltrainerMText_AideIsWaiting:
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "¿Has ido al Gimna-"
-	line "sio #mon?"
+	text "¿Has visitado el"
+	line "Gimnasio #mon?"
 
-	para "Allí puedes poner-"
-	line "te a prueba a ti y"
-	cont "a tus #mon."
+	para "Allí te pondrás a"
+	line "prueba junto a tus"
+	cont "#mon."
 
 	para "¡Es una prueba"
 	line "de fuego para"
@@ -808,14 +793,13 @@ Route32CooltrainerMText_VioletGym:
 	done
 
 Text_MillionDollarSlowpokeTail:
-	text "¿Te gustaría tener"
-	line "esta sabrosa y nu-"
-	cont "tritiva Colaslow-"
-	cont "poke?"
+	text "¿Quieres una rica"
+	line "y nutritiva"
+	cont "Colaslowpoke?"
 
 	para "¡Para ti ahora,"
 	line "por tan solo"
-	cont "¥10.000.000!"
+	cont "10.000.000¥!"
 
 	para "¡Seguro que la"
 	line "quieres!"
@@ -842,8 +826,8 @@ FisherRalph1SeenText:
 	done
 
 FisherRalph1BeatenText:
-	text "¡Tch! Quise ir de-"
-	line "masiado deprisa…"
+	text "¡Tch! Quise ir muy"
+	line "deprisa…"
 	done
 
 FisherRalphAfterText:
@@ -852,8 +836,7 @@ FisherRalphAfterText:
 	cont "la vida."
 
 	para "¡Y los #mon son"
-	line "amigos para siem-"
-	cont "pre!"
+	line "amigos eternos!"
 	done
 
 FisherHenrySeenText:
@@ -902,12 +885,12 @@ CamperRolandBeatenText:
 	done
 
 PicnickerLiz1SeenText:
-	text "Ajá. Sí, y ya sa-"
-	line "bes…"
+	text "Ajá. Sí, y ya te"
+	line "lo imaginas…"
 
-	para "¿Perdón? ¿Un com-"
-	line "bate? Estoy al te-"
-	cont "léfono."
+	para "¿Eh? ¿Un combate?"
+	line "Estoy hablando por"
+	cont "teléfono."
 
 	para "En fin. Que sea"
 	line "rápido."
@@ -963,8 +946,8 @@ MeetFriedaText:
 	para "¡Soy Vero, la del"
 	line "viernes!"
 
-	para "¡Encantada de co-"
-	line "nocerte!"
+	para "¡Mucho gusto en"
+	line "conocerte!"
 	done
 
 FriedaGivesGiftText:
@@ -973,14 +956,14 @@ FriedaGivesGiftText:
 	done
 
 FriedaFridayText:
-	text "Vero: Hola, ¿Qué"
+	text "Vero: Hola, ¿qué"
 	line "día te gusta más?"
 
 	para "A mí me encanta"
 	line "el viernes."
 
-	para "¿A que a ti tam-"
-	line "bién te encanta?"
+	para "¿A ti también"
+	line "te gusta mucho?"
 	done
 
 Route32SignText:
@@ -1011,11 +994,11 @@ Route32AdvancedTips1Text:
 Route32AdvancedTips2Text:
 	text "¡Consejo Avanzado!"
 
-	para "Si pierdes un com-"
-	line "bate contra otro"
+	para "Si pierdes un"
+	line "duelo contra otro"
 	cont "entrenador,"
 
-	para "¡le pagarás dine-"
-	line "ro según las Me-"
-	cont "dallas que tengas!"
+	para "¡pagarás dinero"
+	line "según cuántas"
+	cont "Medallas tengas!"
 	done

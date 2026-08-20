@@ -220,8 +220,8 @@ Text_UseTackle:
 	done
 
 Text_ThisIsABigBattle:
-	text "¿Qué? ¡Es un com-"
-	line "bate crucial!"
+	text "¿Qué? ¡Este duelo"
+	line "es crucial!"
 	cont "¡Déjame en paz!"
 	done
 
@@ -230,8 +230,8 @@ YoungsterJoey1SeenText:
 	line "así que busco más"
 	cont "#mon."
 
-	para "¡Espera! ¡Tú pare-"
-	line "ces débil! ¡Vamos,"
+	para "¡Espera! ¡Te veo"
+	line "débil! ¡Vamos,"
 	cont "luchemos!"
 	done
 
@@ -242,9 +242,9 @@ YoungsterJoey1BeatenText:
 	done
 
 YoungsterJoey1AfterText:
-	text "¿Necesito más"
-	line "#mon para lu-"
-	cont "char mejor?"
+	text "¿Debo tener más"
+	line "#mon para"
+	cont "luchar mejor?"
 
 	para "¡No! ¡Me quedaré"
 	line "con este pase lo"
@@ -272,8 +272,8 @@ Bug_catcherDonSeenText:
 	done
 
 Bug_catcherDonBeatenText:
-	text "¡Argh! ¡Eres dema-"
-	line "siado fuerte!"
+	text "¡Argh! ¡Tienes"
+	line "mucha fuerza!"
 	done
 
 Route30YoungsterText:
@@ -303,8 +303,8 @@ Route30SignText:
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "¡Casa del Sr.#-"
-	line "mon, todo recto!"
+	text "¡Casa de Sr.#mon"
+	line "todo recto!"
 	done
 
 MrPokemonsHouseSignText:
@@ -332,35 +332,30 @@ Route30TrainerTipsText:
 Route30AdvancedTipsText:
 	text "¡Consejo Avanzado!"
 
-	para "En combate, ¡pulsa"
-	line "Select para cam-"
-	cont "biar de #mon!"
+	para "En combate, pulsa"
+	line "Select para elegir"
+	cont "a otro #mon!"
 
 	para "¡Pulsa Start para"
-	line "reutilizar un ob-"
-	cont "jeto!"
+	line "repetir objeto!"
 
 	para "¡O pulsa B para"
 	line "huir o rendirte!"
 
-	para "Cuando elijas un"
-	line "movimiento,"
-
-	para "¡pulsa Select para"
-	line "cambiarlo por"
-	cont "otro,"
+	para "Al elegir ataques,"
+	line "¡pulsa Select para"
+	cont "cambiar su orden,"
 
 	para "o pulsa Start para"
-	line "ver su descrip-"
-	cont "ción!"
+	line "ver detalles!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
 	text "Volví a perder…"
 	line "¡Oye, eres fuerte!"
 
-	para "¡Ah, sí! Casi ol-"
-	line "vido que tenía que"
+	para "¡Ah, sí! Por poco"
+	line "olvido que debía"
 	cont "darte esto."
 
 	para "Úsalo para hacerte"

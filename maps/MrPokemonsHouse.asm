@@ -204,16 +204,15 @@ MrPokemonIntroText2:
 MrPokemonIntroText3:
 	text "Conozco a una"
 	line "pareja que lleva"
-
-	para "una Guardería"
-	line "#mon."
+	cont "una Guardería"
+	cont "#mon."
 
 	para "Ellos me dieron"
 	line "ese Huevo."
 
 	para "Me intrigó tanto"
-	line "que le envié un"
-	cont "correo al Prof.Elm"
+	line "que escribí al"
+	cont "Prof. Elm."
 
 	para "En evolución"
 	line "#mon, el Prof."
@@ -244,7 +243,7 @@ MrPokemonText_OddSouvenir:
 	text "¡Oh! ¡Esa"
 	line "Estatua Rara!"
 
-	para "Conseguí uno igual"
+	para "Conseguí una igual"
 	line "en mi viaje a las"
 	cont "Islas Naranja."
 
@@ -252,14 +251,10 @@ MrPokemonText_OddSouvenir:
 	line "#mon con formas"
 	cont "muy raras!"
 
-	para "Mmm… Me pregunto…"
-
-	para "¿Habrá alguna"
-	line "relación entre"
-
-	para "esa estatua rara y"
-	line "esas formas tan"
-	cont "raras de #mon?"
+	para "Mmm… ¿Habrá alguna"
+	line "relación entre esa"
+	cont "estatua y sus"
+	cont "formas #mon?"
 	done
 
 MrPokemonText_ImDependingOnYou:
@@ -267,12 +262,12 @@ MrPokemonText_ImDependingOnYou:
 	done
 
 MrPokemonText_AlwaysNewDiscoveries:
-	text "¡La vida es mara-"
-	line "villosa! ¡Siempre"
+	text "¡La vida es una"
+	line "gran maravilla!"
 
-	para "hay nuevos descu-"
-	line "brimientos que"
-	cont "hacer!"
+	para "¡Siempre hay cosas"
+	line "nuevas que poder"
+	cont "descubrir!"
 	done
 
 MrPokemonsHouse_OakText1:
@@ -280,77 +275,65 @@ MrPokemonsHouse_OakText1:
 	line "tú eres <PLAYER>!"
 
 if !DEF(DEBUG)
-	para "¡Soy Oak! Investi-"
-	line "gador #mon."
+	para "¡Soy Oak! Experto"
+	line "en #mon."
 
-	para "Estaba visitando a"
-	line "mi viejo amigo el"
+	para "Vine a visitar a"
+	line "mi buen amigo, el"
 	cont "Sr. #mon."
 
-	para "Oí que venías a"
-	line "hacerle un recado"
-
-	para "al Prof. Elm, así"
-	line "que esperé aquí."
+	para "Oí que venías de"
+	line "parte del Prof."
+	cont "Elm y te esperé."
 
 	para "¡Oh! ¿Qué es esto?"
 	line "¡Un #mon raro!"
 
-	para "A ver…"
-
-	para "¡Mmm, ya veo!"
+	para "A ver… ¡Ya veo!"
 
 	para "Entiendo por qué"
 	line "el Prof. Elm te"
+	cont "dio un #mon."
 
-	para "dio un #mon"
-	line "para este recado."
+	para "Para nosotros los"
+	line "#mon son como"
+	cont "amigos."
 
-	para "Para estudiosos"
-	line "como Elm y yo,"
-
-	para "los #mon son"
-	line "nuestros amigos."
-
-	para "Él vio que tú los"
-	line "tratarías con mu-"
-	cont "cho cariño."
+	para "Él vio que tú lo"
+	line "tratarías con gran"
+	cont "cariño."
 
 	para "…¡Ah!"
 
-	para "Pareces de fiar."
-
-	para "¿Te gustaría"
-	line "echarme una mano?"
+	para "¡Pareces de fiar!"
+	line "¿Me echarías una"
+	cont "mano con algo?"
 
 	para "¿Ves esto? Es la"
 	line "última versión de"
 	cont "la #dex."
 
 	para "Registra datos"
-	line "automáticamente"
+	line "al instante de los"
+	cont "#mon que veas o"
+	cont "atrapes."
 
-	para "de los #mon"
-	line "que ves o atrapas."
-
-	para "¡Es una enciclo-"
-	line "pedia de alta"
-	cont "tecnología!"
+	para "¡Una enciclopedia"
+	line "de lo más moderna!"
 endc
 	done
 
 MrPokemonsHouse_OakText2:
-	text "¡Ve a conocer mu-"
-	line "chos #mon y"
-
-	para "completa esa"
-	line "#dex!"
+	text "¡Ve a conocer a"
+	line "muchos #mon y"
+	cont "completa la"
+	cont "#dex!"
 
 if !DEF(DEBUG)
-	para "Pero ya me he que-"
-	line "dado demasiado."
+	para "Pero ya me he"
+	line "demorado mucho."
 
-	para "Tengo que ir a"
+	para "Debo ir a Ciudad"
 	line "Trigal para mi"
 	cont "programa de radio."
 
@@ -419,8 +402,8 @@ MrPokemonsHouse_BrokenComputerText:
 	done
 
 MrPokemonsHouse_StrangeCoinsText:
-	text "¡Un montón de mo-"
-	line "nedas extrañas!"
+	text "¡Muchas monedas"
+	line "extrañas!"
 
 	para "Quizás sean de"
 	line "otro país…"

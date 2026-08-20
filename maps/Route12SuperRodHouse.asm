@@ -34,11 +34,9 @@ Route12SuperRodHouseFishingGuruScript:
 	line "en cualquier lugar"
 	cont "donde haya agua."
 
-	para "Recuerda: puedes"
-	line "pescar diferentes"
-
-	para "#mon con dis-"
-	line "tintas Cañas."
+	para "Recuerda: sacas"
+	line "#mon distintos"
+	cont "con cada Caña."
 	done
 
 .Refused:
@@ -48,15 +46,13 @@ Route12SuperRodHouseFishingGuruScript:
 	endtext
 
 OfferSuperRodText:
-	text "Soy el hermano pe-"
-	line "queño del Gurú"
+	text "Soy el hermano"
+	line "menor del Gurú"
 	cont "Pescador."
 
 	para "Se nota que te"
 	line "gusta la pesca."
-
-	para "¡No me cabe la"
-	line "menor duda!"
+	cont "¡Sin duda alguna!"
 
 	para "¿A que sí? ¡Sé que"
 	line "tengo razón!"
@@ -72,7 +68,6 @@ GiveSuperRodText:
 	done
 
 DontWantSuperRodText:
-	text "¿Cómo? ¿Me han"
-	line "engañado mis pro-"
-	cont "pios ojos?"
+	text "¿Cómo? ¿Me fallan"
+	line "mis propios ojos?"
 	done

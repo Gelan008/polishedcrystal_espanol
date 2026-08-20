@@ -25,50 +25,44 @@ PokemonJournalPryceScript:
 
 	text "Revista #mon"
 
-	para "Edición sobre"
-	line "el Líder Fredo."
+	para "Edición Especial:"
+	line "¡Líder Fredo!"
 
-	para "El segundo nombre"
-	line "de Fredo es Sauce."
+	para "Su segundo nombre"
+	line "es Sauce."
 
-	para "Su estilo de lu-"
-	line "cha dicen que es"
-
-	para "flexible como un"
-	line "sauce en invier-"
-	cont "no, lo que le"
-
-	para "ha valido el"
-	line "apodo “Entrenador"
-	cont "del Invierno”."
+	para "Dicen que lucha"
+	line "como un sauce en"
+	cont "invierno, por eso"
+	cont "le llaman el"
+	cont "“Entrenador de"
+	cont "Invierno”."
 	done
 
 MahoganyPokeCenter1FPokefanmText:
-	text "¿Cómo? ¿El Team"
-	line "Rocket ha regre-"
-	cont "sado?"
+	text "¿Cómo? ¿Ha vuelto"
+	line "el Team Rocket?"
 
-	para "Vi hombres de ne-"
-	line "gro en el Lago"
+	para "Vi a hombres de"
+	line "negro en el Lago"
 	cont "de la Furia…"
 	done
 
 MahoganyPokeCenter1FYoungsterText:
-	text "Evito que mis"
-	line "#mon evolucio-"
-	cont "nen muy pronto."
+	text "No dejo que"
+	line "mis #mon"
+	cont "evolucionen"
+	cont "demasiado pronto."
 
-	para "Hago que apren-"
-	line "dan ataques antes"
-	cont "de dejar que"
-	cont "evolucionen."
+	para "Así aprenden más"
+	line "ataques antes de"
+	cont "evolucionar."
 	done
 
 MahoganyPokeCenter1FCooltrainerfText:
-	text "Los #mon se ha-"
-	line "cen fuertes si"
-
-	para "evolucionan, pero"
-	line "aprenden ataques"
+	text "Los #mon ganan"
+	line "fuerza al"
+	cont "evolucionar, pero"
+	cont "aprenden ataques"
 	cont "más despacio."
 	done

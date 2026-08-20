@@ -31,11 +31,10 @@ PokemonJournalKurtScript:
 
 	para "César no deja que"
 	line "nadie se acerque"
+	cont "mientras fabrica"
+	cont "# Balls,"
 
-	para "mientras fabrica"
-	line "# Balls, salvo"
-
-	para "su nieta"
+	para "salvo su nieta"
 	line "Millie."
 	done
 
@@ -82,9 +81,8 @@ Route32Pokecenter1FFishingGuruScript:
 
 	para "Si hay agua, ya"
 	line "sea el mar o un"
-
-	para "riachuelo, prueba"
-	line "tu Caña."
+	cont "riachuelo, prueba"
+	cont "tu Caña."
 	done
 
 .NoText:
@@ -117,9 +115,8 @@ Route32PokeCenter1FPokefanMScript:
 
 	text "¡Esta Ball atrapa"
 	line "fácilmente a los"
-
-	para "#mon que pican"
-	line "en una Caña!"
+	cont "#mon que pican"
+	cont "en una Caña!"
 
 	para "César, de Pueblo"
 	line "Azalea, la fabricó"
@@ -134,30 +131,28 @@ Route32PokeCenter1FPokefanMScript:
 
 .Text1:
 	text "Bonjour! ¿Qué tal?"
-	line "¿Conoces los Bon-"
-	cont "guris?"
+	line "¿Sabes qué son los"
+	cont "Bonguris?"
 	done
 
 .Text2:
 	text "¿Non? ¡Lástima!"
 	line "¡Te enseñaré lo"
-
-	para "fantásticos que"
-	line "son los Bonguris!"
+	cont "fantásticos que"
+	cont "son los Bonguris!"
 	done
 
 .Text3:
 	text "¡Youpi! ¡Así se"
-	line "hace! Estoy tan"
-
-	para "contento que quie-"
-	line "ro darte esto!"
+	line "hace! Me alegro"
+	cont "tanto que voy a"
+	cont "darte esto!"
 	done
 
 .Text5:
 	text "César es el héroe"
-	line "de todo coleccio-"
-	cont "nista de Bonguris."
+	line "de los amantes de"
+	cont "los Bonguris."
 
 	para "¡Vivan los"
 	line "Bonguris!"
@@ -167,6 +162,6 @@ Route32Pokecenter1FCooltrainerFText:
 	text "¿Qué objeto le"
 	line "doy a mi #mon?"
 
-	para "Quizá uno que au-"
-	line "mente su Ataque…"
+	para "Quizá uno que suba"
+	line "su Ataque…"
 	done

@@ -41,23 +41,19 @@ MoveReminderScript:
 	jumpopenedtext MoveReminderCancelText
 
 MoveReminderIntroText::
-	text "¿Yo? Soy el"
-	line "Recuerda-movs."
+	text "¿Yo? ¡Soy el"
+	line "Recuerda-movs!"
 
 	para "Haré que tu"
 	line "#mon recuerde"
-
-	para "un movimiento si"
-	line "me das una"
-	cont "Hoja Oro."
+	cont "un ataque si me"
+	cont "das una Hoja Oro."
 	done
 
 MoveReminderPromptText::
-	text "¿Quieres que le"
-	line "enseñe un movi-"
-
-	para "miento a uno de"
-	line "tus #mon?"
+	text "¿Quieres recordar"
+	line "un movimiento a un"
+	cont "#mon tuyo?"
 	done
 
 MoveReminderWhichMonText::
@@ -77,18 +73,16 @@ MoveReminderNoGoldLeafText::
 
 MoveReminderNoMovesText::
 	text "Lo siento… No hay"
-	line "ningún movimiento"
-
-	para "que pueda hacerle"
-	line "recordar a ese"
-	cont "#mon."
+	line "ataques que ese"
+	cont "#mon pueda"
+	cont "recordar."
 	prompt
 
 MoveReminderCancelText::
 	text "Si tu #mon"
 	line "necesita recordar"
+	cont "un movimiento,"
 
-	para "un movimiento,"
-	line "¡vuelve con una"
-	cont "Hoja Oro!"
+	para "¡vuelve con una"
+	line "Hoja Oro!"
 	done

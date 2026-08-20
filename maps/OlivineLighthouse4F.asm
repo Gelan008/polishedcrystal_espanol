@@ -26,17 +26,15 @@ OlivineLighthouse4F_MapScriptHeader:
 GenericTrainerLassConnie:
 	generictrainer LASS, CONNIE, EVENT_BEAT_LASS_CONNIE, LassConnieSeenText, LassConnieBeatenText
 
-	text "Claro. Cualquiera"
-	line "se preocuparía si"
+	text "Es comprensible."
 
-	para "su propio #mon"
-	line "estuviera herido."
+	para "Cualquiera se"
+	line "preocupa si su"
+	cont "#mon enferma."
 
-	para "Rezaré por el"
-	line "#mon de aquí"
-
-	para "para que Yasmina"
-	line "pueda volver al"
+	para "Rezaré por este"
+	line "#mon para que"
+	cont "Yasmina vuelva al"
 	cont "Gimnasio."
 	done
 
@@ -49,23 +47,19 @@ SailorKentScript:
 	iftrue_jumptextfaceplayer SailorKentFinalText
 	jumpthistextfaceplayer
 
-	text "Hablando de enfer-"
-	line "medades, he oído"
-
-	para "que hay una buena"
-	line "Farmacia en Ciu-"
-	cont "dad Orquídea."
+	text "Hablando de males,"
+	line "oí que hay una"
+	cont "gran Farmacia en"
+	cont "Ciudad Orquídea."
 	done
 
 SailorKentSeenText:
 	text "Yasmina debe de"
-	line "estar sumamente"
+	line "estar preocupada"
+	cont "por este #mon."
 
-	para "preocupada por el"
-	line "#mon de aquí."
-
-	para "Últimamente ni"
-	line "siquiera sonríe."
+	para "¡Últimamente ni"
+	line "siquiera sonríe!"
 	done
 
 SailorKentBeatenText:
@@ -78,10 +72,8 @@ SailorKentFinalText:
 	line "ya está bien."
 
 	para "¡La Farmacia de"
-	line "Ciudad Orquídea ha"
-
-	para "hecho honor a su"
-	line "fama!"
+	line "Orquídea honró"
+	cont "a su gran fama!"
 	done
 
 LassConnieSeenText:
@@ -89,12 +81,12 @@ LassConnieSeenText:
 	line "Líder de Gimnasio"
 	cont "de esta ciudad."
 
-	para "Pienso hacer que"
-	line "vuelva conmigo."
+	para "¡Haré que vuelva"
+	line "conmigo!"
 
-	para "¡Será mejor que"
-	line "nadie se interpón-"
-	cont "ga en mi camino!"
+	para "¡Que nadie ose"
+	line "interponerse en"
+	cont "mi camino!"
 	done
 
 LassConnieBeatenText:

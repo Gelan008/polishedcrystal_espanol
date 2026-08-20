@@ -32,7 +32,7 @@ RadioTower1FReceptionistScript:
 	iftrue_jumptextfaceplayer RadioTower1FReceptionistNoToursText
 	jumpthistextfaceplayer
 
-	text "Welcome!"
+	text "¡Bienvenido!"
 	done
 
 RadioTower1FLuckyNumberManScript:
@@ -238,9 +238,8 @@ RadioTower1FWhitneyLeaves2MovementData:
 
 RadioTower1FReceptionistNoToursText:
 	text "Hola. Lo siento,"
-	line "pero hoy no reali-"
-	cont "zamos visitas"
-	cont "guiadas."
+	line "pero hoy no hay"
+	cont "visitas guiadas."
 	done
 
 RadioTower1FLuckyNumberManAskToPlayText:
@@ -255,18 +254,17 @@ IntroduceFelicityText:
 	done
 
 ExplainLuckyNumberShowText:
-	text "¿Quieres que com-"
-	line "pruebe los números"
-	cont "ID de tus #mon?"
+	text "¿Quieres ver los"
+	line "números ID de tus"
+	cont "#mon?"
 
-	para "Si tienes suerte,"
-	line "te llevarás un"
-	cont "premio."
+	para "¡Si tienes suerte,"
+	line "ganarás un premio!"
 	done
 
 RadioTower1FLuckyNumberManTodayIdIsText:
-	text "El Nu de la Suerte"
-	line "de hoy es "
+	text "El N. premiado de"
+	line "hoy es "
 	text_ram wStringBuffer3
 	text "."
 	done
@@ -283,45 +281,37 @@ RadioTower1FLuckyNumberManDotDotDotText: ; text > text
 
 WonFirstPlaceText:
 	text "¡Hala! ¡Coinciden"
-	line "los cinco números"
-	cont "a la perfección!"
+	line "los cinco números!"
 
-	para "¡Tenemos al gana-"
-	line "dor del premio"
-	cont "gordo!"
+	para "¡Tenemos ganador"
+	line "del premio gordo!"
 
 	para "¡Has ganado una"
 	line "Master Ball!"
 	done
 
 WonSecondPlaceText:
-	text "¡Oye! ¡Coinciden"
-	line "los cuatro últimos"
-	cont "números!"
+	text "¡Coinciden los"
+	line "4 últimos números!"
 
-	para "¡Has ganado el se-"
-	line "gundo premio: una"
-	cont "rara Chapa Plata!"
+	para "¡Segundo premio:"
+	line "una Chapa Plata!"
 	done
 
 WonThirdPlaceText:
-	text "¡Oye! ¡Coinciden"
-	line "los tres últimos"
-	cont "números!"
+	text "¡Coinciden los"
+	line "3 últimos números!"
 
-	para "¡Has ganado el"
-	line "tercer premio: un"
-	cont "Máx. PP!"
+	para "¡Tercer premio:"
+	line "un Máx. PP!"
 	done
 
 WonFourthPlaceText:
-	text "¡Oh! ¡Coinciden"
-	line "los dos últimos"
-	cont "números!"
+	text "¡Coinciden los"
+	line "2 últimos números!"
 
-	para "¡Ganaste el"
-	line "cuarto premio: un"
-	cont "Más PP!"
+	para "¡Cuarto premio:"
+	line "un Más PP!"
 	done
 
 WonFifthPlaceText:
@@ -342,25 +332,22 @@ RadioTower1FLuckyNumberManNoRoomForYourPrizeText:
 	done
 
 RadioTower1FRadioCardWomanOfferQuizText:
-	text "Tenemos una promo-"
-	line "ción especial con"
-	cont "un concurso."
+	text "¡Tenemos una gran"
+	line "promoción con un"
+	cont "concurso!"
 
-	para "Si respondes bien"
-	line "a cinco preguntas,"
-	cont "ganarás una Tarje-"
-	cont "ta Radio."
+	para "¡Si aciertas cinco"
+	line "preguntas, ganas"
+	cont "una Tarjeta Radio!"
 
-	para "Insértala en tu"
-	line "#gear para es-"
-
-	para "cuchar la radio"
-	line "donde y cuando"
+	para "Úsala en tu"
+	line "#gear para oír"
+	cont "la radio cuando"
 	cont "quieras."
 
-	para "¿Te gustaría par-"
-	line "ticipar en el con-"
-	cont "curso?"
+	para "¿Te gustaría"
+	line "participar en el"
+	cont "concurso?"
 	done
 
 RadioTower1FRadioCardWomanQuestion1Text:
@@ -375,9 +362,8 @@ RadioTower1FRadioCardWomanQuestion2Text:
 	text "¡Correcto!"
 	line "2a pregunta:"
 
-	para "Nidorina solo pue-"
-	line "de ser hembra."
-	cont "¿Verdad?"
+	para "Nidorina solo es"
+	line "hembra, ¿verdad?"
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
@@ -392,34 +378,28 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	text "¡Vas muy bien!"
 	line "4a pregunta:"
 
-	para "¿César, creador de"
-	line "# Balls, usa"
-
-	para "albaricoques como"
-	line "ingredientes?"
+	para "¿César hace sus"
+	line "# Balls con"
+	cont "albaricoques?"
 	done
 
 RadioTower1FRadioCardWomanQuestion5Text:
-	text "¡Genial! ¡Has acer"
-	line "tado otra vez!"
+	text "¡Genial! ¡Has"
+	line "acertado otra vez!"
 
-	para "Aquí va la última"
-	line "pregunta:"
+	para "La última es:"
 
-	para "¿Tienen los rodil-"
-	line "los de las traga-"
-
-	para "perras de Trigal"
-	line "a Charmander?"
+	para "¿En el Casino se"
+	line "ve a Charmander en"
+	cont "las tragaperras?"
 	done
 
 RadioTower1FRadioCardWomanYouWinText:
-	text "¡Bingo!¡Acertaste!"
+	text "¡Acertaste todas!"
 	line "¡Enhorabuena!"
 
 	para "¡Aquí tienes tu"
-	line "premio: una Tarje-"
-	cont "ta Radio!"
+	line "Tarjeta Radio!"
 	done
 RadioTower1FPokegearIsARadioText:
 	text "¡El #gear de"
@@ -435,10 +415,8 @@ RadioTower1FRadioCardWomanTuneInText:
 
 RadioTower1FRadioCardWomanNotTakingQuizText:
 	text "Ah, ya veo. Si"
-	line "cambias de opi-"
-
-	para "nión, ven a verme,"
-	line "por favor."
+	line "cambias de idea,"
+	cont "¡ven a verme!"
 	done
 
 RadioTower1FLassText:
@@ -453,47 +431,37 @@ RadioTower1FYoungsterText:
 	text "Me encanta Rosa,"
 	line "de La Hora Oak."
 
-	para "Aunque solo conoz-"
-	line "co el sonido de su"
-	cont "voz."
+	para "Aunque solo le"
+	line "conozco la voz."
 	done
 
 GruntM3SeenText:
-	text "¡Por fin nos hemos"
-	line "apoderado de la"
-	cont "Torre Radio!"
+	text "¡Tomamos la Torre"
+	line "Radio por fin!"
 
-	para "¡Ahora todos van a"
-	line "experimentar el"
+	para "¡Conocerán el gran"
+	line "terror del"
+	cont "Team Rocket!"
 
-	para "auténtico terror"
-	line "del Team Rocket!"
-
-	para "¡Te demostraremos"
-	line "lo temibles que"
-	cont "somos!"
+	para "¡Verás lo temibles"
+	line "que somos!"
 	done
 
 GruntM3BeatenText:
-	text "¡Demasiado fuerte!"
-	line "No debemos perder-"
-	cont "te de vista…"
+	text "¡Eres muy fuerte!"
+	line "¡No te perderemos"
+	cont "de vista…!"
 	done
 
 RadioTower1FWhitney1Text:
 	text "¡Hola! Soy Blanca."
 
-	para "Oí hablar del con-"
-	line "curso para ganar"
-	cont "una Tarjeta Radio,"
+	para "Vine a ganar una"
+	line "Tarjeta Radio en"
+	cont "este concurso…"
 
-	para "así que vine aquí"
-	line "para conseguir"
-	cont "una…"
-
-	para "¡Pero este concur-"
-	line "so es dificilí-"
-	cont "simo!"
+	para "¡Pero esto es"
+	line "dificilísimo!"
 	done
 
 RadioTower1FWhitney2Text:
@@ -504,8 +472,8 @@ RadioTower1FWhitney2Text:
 	line "cuarta respuesta"
 	cont "era albaricoques…"
 
-	para "¡Uy! ¡Debería vol-"
-	line "ver al Gimnasio!"
+	para "¡Uy! ¡Debo volver"
+	line "al Gimnasio!"
 	done
 
 RadioTower1FDirectoryText:
@@ -522,12 +490,10 @@ RadioTower1FDirectoryText:
 RadioTower1FLuckyChannelSignText:
 	text "¡Canal Suerte!"
 
-	para "¡Gana con los nú-"
-	line "meros ID #mon!"
+	para "¡Gana premios con"
+	line "los ID #mon!"
 
-	para "¡Intercambia tus"
-	line "#mon para obte-"
-
-	para "ner diferentes nú-"
-	line "meros ID!"
+	para "¡Haz intercambios"
+	line "para conseguir más"
+	cont "números ID!"
 	done

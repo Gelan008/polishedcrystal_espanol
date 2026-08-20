@@ -19,43 +19,37 @@ PlayersNeighborsHouse_MapScriptHeader:
 
 PlayersNeighborsDaughterText:
 	text "Pikachu es un"
-	line "#mon evolucio-"
-	cont "nado."
+	line "#mon ya"
+	cont "evolucionado."
 
 	para "Me asombraron los"
 	line "hallazgos del"
 	cont "Prof. Elm."
 
-	para "Es muy famoso por"
-	line "sus estudios so-"
-	cont "bre evolución"
-	cont "#mon."
+	para "Es famoso por sus"
+	line "estudios sobre la"
+	cont "evolución #mon."
 
-	para "… Uf…"
-
-	para "Ojalá pudiera ser"
-	line "una investigadora"
+	para "…Uf… Ojalá pudiera"
+	line "ser investigadora"
 	cont "como él…"
 	done
 
 PlayersNeighborsHusbandText:
 	text "Este pueblo es el"
-	line "que está más al"
-
-	para "sureste de todo"
-	line "Johto."
+	line "más al sureste de"
+	cont "todo Johto."
 	done
 
 PlayersNeighborText:
-	text "Mi hija está empe-"
-	line "ñada en ser la"
-
-	para "ayudante del"
-	line "Prof. Elm."
+	text "Mi hija está"
+	line "empeñada en ser"
+	cont "la ayudante del"
+	cont "Profesor Elm."
 
 	para "¡Le encantan los"
 	line "#mon!"
 
-	para "¡Aunque a mí tam-"
-	line "bién me encantan!"
+	para "¡Aunque a mí"
+	line "también me gustan!"
 	done

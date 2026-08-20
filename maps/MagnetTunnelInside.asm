@@ -271,9 +271,8 @@ MagnetTunnelInsideMachineText2:
 	done
 
 MagnetTunnelInsideMachineText3:
-	text "La máquina fun-"
-	line "ciona sin prob-"
-	cont "lemas."
+	text "La máquina va"
+	line "a la perfección."
 	done
 
 MagnetTunnelInsideMachineText4:
@@ -285,18 +284,13 @@ MagnetTunnelInsideMachineText5:
 	text "¡Esta máquina no"
 	line "funciona bien!"
 
-	para "Varios mensajes"
-	line "de ADVERTENCIA"
+	para "Hay avisos de"
+	line "ADVERTENCIA en la"
+	cont "pantalla y huele"
+	cont "a quemado."
 
-	para "parpadean rápido"
-	line "en la pantalla,"
-
-	para "y huele a quema-"
-	line "do en el aire."
-
-	para "¿Pulsar botón de"
-	line "apagado de emer-"
-	cont "gencia?"
+	para "¿Pulsar el botón"
+	line "de emergencia?"
 	done
 
 MagnetTunnelInsideMachineText6:
@@ -305,12 +299,8 @@ MagnetTunnelInsideMachineText6:
 	done
 
 MagnetTunnelInsideMachineText7:
-	text "La máquina está"
-	line "rodeada por un"
-
-	para "ligero hedor a"
-	line "plástico fundi-"
-	cont "do…"
+	text "La máquina huele a"
+	line "plástico quemado…"
 
 	para "Parece que está"
 	line "totalmente frita."
@@ -329,31 +319,21 @@ MagnetTunnelInsideEngineerText1:
 	line "emite un fuerte"
 	cont "campo magnético."
 
-	para "Tuvimos que traer"
-	line "equipo especiali-"
+	para "Usamos maquinaria"
+	line "especial para"
+	cont "acabar el túnel a"
+	cont "tiempo."
 
-	para "zado para acabar"
-	line "el túnel en el"
-	cont "plazo fijado."
-
-	para "Nuestro equipo"
-	line "estaba bajo mu-"
-	cont "cha presión para"
-	cont "cumplir a tiempo."
+	para "Tuvimos mucha"
+	line "presión para"
+	cont "cumplir el plazo."
 	done
 
 MagnetTunnelInsideEngineerText2:
-	text "Desde que empeza-"
-	line "mos la construc-"
-	cont "ción del túnel,"
-
-	para "el número de"
-	line "#mon de tipo"
-
-	para "Eléctrico salva-"
-	line "jes aquí se ha"
-	cont "multiplicado por"
-	cont "más de dos."
+	text "Al construir el"
+	line "túnel, los #mon"
+	cont "de tipo Eléctrico"
+	cont "se duplicaron."
 	done
 
 MagnetTunnelInsideScientistText:
@@ -362,15 +342,11 @@ MagnetTunnelInsideScientistText:
 	cont "causar problemas."
 
 	para "El capataz cree"
-	line "que son atraídos"
+	line "que los atrae el"
+	cont "poder magnético de"
+	cont "la piedra imán."
 
-	para "por las singula-"
-	line "res propiedades"
-	cont "magnéticas de la"
-	cont "piedra imán."
-
-	para "Me pregunto por"
-	line "qué."
+	para "¿Por qué será?"
 	done
 
 GenericTrainerEngineerGraden:
@@ -379,19 +355,14 @@ GenericTrainerEngineerGraden:
 	text "Soy el capataz de"
 	line "esta obra."
 
-	para "Excavamos este"
-	line "túnel para hacer"
+	para "Excavamos el túnel"
+	line "para la vía del"
+	cont "Magnetotrén, pero…"
 
-	para "un camino para la"
-	line "nueva vía del"
-	cont "Magnetotrén, pe-"
-	cont "ro…"
-
-	para "¡Quién iba a de-"
-	line "cirme que toda la"
-	cont "piedra imán cau-"
-	cont "saría tanto do-"
-	cont "lor de cabeza!"
+	para "¡Quién diría que"
+	line "la piedra imán"
+	cont "daría tal dolor de"
+	cont "cabeza!"
 	done
 
 .SeenText:
@@ -411,21 +382,16 @@ GenericTrainerEngineerGraden:
 GenericTrainerEngineerGustav:
 	generictrainer ENGINEER, GUSTAV, EVENT_BEAT_ENGINEER_GUSTAV, .SeenText, .BeatenText
 
-	text "Intenté arreglar-"
-	line "lo, pero no sir-"
-	cont "vió de nada…"
+	text "Quise arreglarlo,"
+	line "pero no sirvió de"
+	cont "nada…"
 
-	para "¡No consigo"
-	line "averiguar qué"
-	cont "pasa!"
+	para "¡No sé qué pasa!"
 
-	para "Me preocupa que"
-	line "si la vuelvo a"
-	cont "encender,"
-
-	para "la máquina tenga"
-	line "un cortocircuito"
-	cont "y se estropee…"
+	para "Si la enciendo de"
+	line "nuevo, temo que"
+	cont "haya un corto y"
+	cont "se rompa del todo."
 	done
 
 .SeenText:
@@ -443,17 +409,17 @@ GenericTrainerEngineerGustav:
 GenericTrainerEngineerNicolas:
 	generictrainer ENGINEER, NICOLAS, EVENT_BEAT_ENGINEER_NICOLAS, .SeenText, .BeatenText
 
-	text "¡Estas cosas pue-"
-	line "den generar"
-	cont "mucho voltaje!"
+	text "¡Estas máquinas"
+	line "generan un alto"
+	cont "voltaje!"
 
 	para "Al encenderlas,"
 	line "crean un campo"
 	cont "magnético muy"
 	cont "fuerte."
 
-	para "Así que ten cuida-"
-	line "do aquí, ¿vale?"
+	para "¡Ve con mucho"
+	line "cuidado por aquí!"
 	done
 
 .SeenText:

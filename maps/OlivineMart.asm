@@ -18,11 +18,8 @@ OlivineMart_MapScriptHeader:
 
 OlivineMartCooltrainerFText:
 	text "¿Tus #mon ya"
-	line "conocen el movi-"
-	cont "miento para llevar"
-
-	para "a gente por el"
-	line "agua?"
+	line "saben cómo llevar"
+	cont "gente por el agua?"
 	done
 
 OlivineMartLassText:
@@ -30,8 +27,8 @@ OlivineMartLassText:
 	line "lo dio mi novio"
 	cont "de ultramar."
 
-	para "Traía una Carta"
-	line "suya."
+	para "¡Llevaba una Carta"
+	line "suya!"
 
 	para "¿Quieres saber qué"
 	line "dice?"

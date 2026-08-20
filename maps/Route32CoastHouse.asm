@@ -39,18 +39,17 @@ GourmetManiacScript:
 
 	text "¡Merci! ¡Gracias!"
 
-	para "Con esto podré"
-	line "crear algo fabu-"
-	cont "loso."
+	para "Con esto crearé"
+	line "algo fabuloso."
 	done
 
 .GreetingText:
 	text "¡Hola! ¡Soy un"
 	line "Pastelero gourmet!"
 
-	para "¡Cocino platos ma-"
-	line "ravillosos solo"
-	cont "con los mejores"
+	para "¡Preparo platos"
+	line "maravillosos con"
+	cont "los mejores"
 	cont "ingredientes!"
 
 	para "¿Tienes algún"

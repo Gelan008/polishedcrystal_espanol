@@ -45,11 +45,12 @@ OlivineCafeStrengthSailorScript:
 	jumpthisopenedtext
 
 BakerChelsieAfterText:
-	text "I always add vita-"
-	line "mins to my bread."
+	text "Siempre le añado"
+	line "vitaminas al pan."
 
-	para "They make my #-"
-	line "mon stronger."
+	para "¡Hacen que mis"
+	line "#mon sean más"
+	cont "fuertes!"
 	done
 
 OlivineCafeLyraScript:
@@ -81,25 +82,19 @@ OlivineCafeMovementData_LyraLeaves:
 
 OlivineCafeFishingGuruText:
 	text "¡La carta del Café"
-	line "Olivo está repleta"
-
-	para "de comida copiosa"
-	line "para marineros"
-	cont "fuertes!"
+	line "Olivo rebosa de"
+	cont "comida para los"
+	cont "marineros fuertes!"
 	done
 
 OlivineCafeSailorText:
 	text "Siempre que atraco"
-	line "en este pueblo, me"
+	line "en la ciudad, me"
+	cont "paso por el Café."
 
-	para "paso por el Café"
-	line "Olivo."
-
-	para "Todo lo de la car-"
-	line "ta me llena de"
-
-	para "fuerza. ¡No puedo"
-	line "parar de comer!"
+	para "¡Su comida me da"
+	line "tanta fuerza que"
+	cont "no puedo parar!"
 	done
 
 BakerChelsieGreetingText:
@@ -126,9 +121,9 @@ BakerChelsieBeatenText:
 	done
 
 BakerChelsieNoBattleText:
-	text "¡Mis #mon cria-"
-	line "dos con pan no"
-	cont "tienen rival!"
+	text "¡Criados con mi"
+	line "pan, mis #mon"
+	cont "no tienen rival!"
 	done
 
 OlivineCafeLyraText1:
@@ -142,11 +137,9 @@ OlivineCafeLyraText1:
 	para "Aunque no quiero"
 	line "comer demasiado…"
 
-	para "¡Ah, es verdad!"
-	line "He encontrado un"
-
-	para "objeto que podría"
-	line "gustarte. ¡Toma!"
+	para "¡Ah, encontré un"
+	line "objeto que podría"
+	cont "gustarte! ¡Toma!"
 	done
 
 OlivineCafeLyraText2:
@@ -157,24 +150,21 @@ OlivineCafeLyraText2:
 	line "tirando."
 
 	para "Quiero ver el"
-	line "Bosque Amarillo"
-
-	para "en Orquídea antes"
-	line "de volver a casa."
+	line "Bosque Amarillo en"
+	cont "Orquídea antes de"
+	cont "volver a casa."
 
 	para "¡Nos vemos,"
 	line "<PLAYER>!"
 	done
 
 OlivineCafeOfficerText:
-	text "Sé que es un tópi-"
-	line "co, pero siempre"
+	text "Será un tópico,"
+	line "pero siempre vengo"
+	cont "a por donuts."
 
-	para "vengo a este lugar"
-	line "a por donuts."
-
-	para "¡No me canso de"
-	line "ellos!"
+	para "¡Nunca me canso"
+	line "de ellos!"
 	done
 
 OlivineCafeYoungsterText:
@@ -192,7 +182,6 @@ OlivineCafeYoungsterText:
 OlivineCafeFisherText:
 	text "Saldría a correr,"
 	line "pero no querría"
-
-	para "arruinar mi gran"
-	line "figura."
+	cont "arruinar mi gran"
+	cont "figura."
 	done

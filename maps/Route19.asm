@@ -64,9 +64,9 @@ GenericTrainerSwimmerfDawn:
 	line "entre Fucsia e"
 	cont "Islas Espuma…"
 
-	para "¡Menudo hombretón"
-	line "está hecho mi no-"
-	cont "vio! ¡Qué quejica!"
+	para "¡Vaya hombretón"
+	line "es mi novio!"
+	cont "¡Es un quejica!"
 	done
 
 GenericTrainerSwimmermTucker:
@@ -135,16 +135,15 @@ SwimmerfDawnSeenText:
 	done
 
 SwimmerfDawnBeatenText:
-	text "Seguro que a na-"
-	line "dar te ganaba…"
+	text "Seguro que nadando"
+	line "te ganaba…"
 	done
 
 SwimmermTuckerSeenText:
 	text "Uf, uf… Ya solo…"
-	line "un poco más…"
-
-	para "para llegar… a…"
-	line "Fucsia…"
+	line "un poco más para"
+	cont "llegar… a…"
+	cont "Fucsia…"
 	done
 
 SwimmermTuckerBeatenText:
@@ -192,11 +191,9 @@ Route19Fisher1Text:
 	cont "obras."
 
 	para "Si quieres llegar"
-	line "a Isla Canela,"
-
-	para "es mejor que vayas"
-	line "al sur de Pueblo"
-	cont "Paleta."
+	line "a Isla Canela, ve"
+	cont "por el sur de"
+	cont "Pueblo Paleta."
 	done
 
 Route19EngineerText1:

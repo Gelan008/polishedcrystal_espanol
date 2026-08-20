@@ -21,8 +21,8 @@ Route32RuinsOfAlphGate_MapScriptHeader:
 Route32RuinsOfAlphGateOfficerText:
 	text "Ruinas Alfa"
 
-	para "Atracción turís-"
-	line "tica interactiva"
+	para "Atracción para"
+	line "los turistas."
 
 	para "¡Prueba a mover"
 	line "los paneles de"
@@ -41,7 +41,7 @@ Route32RuinsOfAlphGateYoungsterText:
 	text "Hay dibujos en los"
 	line "paneles de piedra."
 
-	para "He probado a mo-"
-	line "verlos. Me pregun-"
-	cont "to qué serán."
+	para "Probé a moverlos."
+	line "Me pregunto para"
+	cont "qué servirán."
 	done

@@ -26,15 +26,12 @@ GenericTrainerSupernerdHugh:
 
 	text "Estoy explorando"
 	line "el Monte Mortero,"
+	cont "pero mi colega se"
+	cont "ha esfumado."
 
-	para "pero mi colega se"
-	line "ha esfumado."
-
-	para "¿Has visto a un"
-	line "entrenador que"
-
-	para "tenga un Slowpoke"
-	line "capaz de usar"
+	para "¿Viste a alguien"
+	line "con un Slowpoke"
+	cont "capaz de usar"
 	cont "Fuerza?"
 	done
 

@@ -27,9 +27,8 @@ Route2North_MapScriptHeader:
 GenericTrainerBug_maniacEd:
 	generictrainer BUG_MANIAC, ED, EVENT_BEAT_BUG_MANIAC_ED, Bug_maniacEdSeenText, Bug_maniacEdBeatenText
 
-	text "¡Escuecen un mon-"
-	line "tón cuando te ba-"
-	cont "ñas!"
+	text "¡Escuecen mucho"
+	line "al bañarte!"
 	done
 
 Bug_maniacEdSeenText:
@@ -52,9 +51,8 @@ Route2NorthCooltrainermText:
 
 	para "La salida hacia"
 	line "Ciudad Carmín está"
-
-	para "bloqueada por un"
-	line "Snorlax dormido."
+	cont "bloqueada por un"
+	cont "Snorlax dormido."
 	done
 
 Route2DiglettsCaveSignText:

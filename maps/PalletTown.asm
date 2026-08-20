@@ -31,31 +31,27 @@ PalletTownTeacherText:
 	text "Yo también crío"
 	line "#mon."
 
-	para "Me sirven de guar-"
-	line "daespaldas."
+	para "Me sirven de"
+	line "guardaespaldas."
 	done
 
 PalletTownFisherText:
 	text "¡La tecnología es"
 	line "increíble!"
 
-	para "¡Ahora puedes ha-"
-	line "cer juegos solo"
-
-	para "escribiendo código"
-	line "en vez de editar"
-	cont "datos binarios!"
+	para "¡Ahora creas los"
+	line "juegos con código"
+	cont "sin tener que usar"
+	cont "código binario!"
 	done
 
 PalletTownYoungsterText:
-	text "¡Ahí te quedas!"
+	text "¡COMER NIÑOS!"
 
-	para "… La gente empezó"
-	line "a decir eso por"
-
-	para "aquí, pero es algo"
-	line "raro si lo piensas"
-	cont "bien."
+	para "…Se puso de moda"
+	line "decir eso por"
+	cont "aquí, pero es raro"
+	cont "si lo piensas."
 	done
 
 PalletTownSignText:

@@ -41,7 +41,7 @@ Route23North_MapScriptHeader:
 	const ROUTE23NORTH_OFFICER8
 
 VictoryRoadSignText:
-	text "Victory Road"
+	text "Calle Victoria"
 	done
 
 Route23NorthHealOfficerScript:
@@ -65,13 +65,11 @@ Route23NorthHealOfficerScript:
 .IntroText:
 	text "Debes prepararte"
 	line "para afrontar"
+	cont "cualquier reto en"
+	cont "Calle Victoria."
 
-	para "cualquier cosa en"
-	line "la Calle Victoria."
-
-	para "¡Déjame que te dé"
-	line "un empujón de"
-	cont "ánimo!"
+	para "¡Déjame darte un"
+	line "empujón de ánimo!"
 	done
 
 Route23NorthMineralBadgeOfficerScript:

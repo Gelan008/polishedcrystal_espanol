@@ -89,15 +89,14 @@ MahoganyMart1FBlackBeltScript:
 	iftrue_jumptextfaceplayer MahoganyMart1FBlackBeltText_LanceEntered
 	jumpthistextfaceplayer
 
-	text "¡Jeje! El experi-"
-	line "mento funcionó a"
-	cont "la perfección."
+	text "¡Jeje! El plan"
+	line "ha funcionado a la"
+	cont "perfección."
 
 	para "Los Magikarp no"
-	line "valen para nada,"
-
-	para "pero los Gyarados"
-	line "dan mucho dinero."
+	line "valen nada, pero"
+	cont "los Gyarados dan"
+	cont "mucho dinero."
 	done
 
 MahoganyMart1FVeteranFScript:
@@ -131,8 +130,8 @@ MahoganyMart1FTutorAgilityScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Dame una Hoja Pla-"
-	line "ta si quieres que"
+	text "Dame una Hoja"
+	line "Plata para que"
 	cont "se lo enseñe."
 	done
 
@@ -188,8 +187,8 @@ MahoganyMart1FLanceApproachHiddenStairsMovement:
 	step_end
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "¡Aaarg! Encontras-"
-	line "te la escalera"
+	text "¡Aaarg! ¡Hallaste"
+	line "la escalera"
 	cont "secreta…"
 	done
 
@@ -197,9 +196,9 @@ MahoganyMart1FPharmacistText_LanceEntered:
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
 
-	para "Los #mon dra-"
-	line "gón de ese tipo"
-	cont "son muy duros…"
+	para "Los #mon dragón"
+	line "ese tipo son muy"
+	cont "duros…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
@@ -211,47 +210,40 @@ MahoganyMart1FLanceRadioText:
 	text "¿A qué esperabas,"
 	line "<PLAYER>?"
 
-	para "Tal como pensé, "
+	para "Tal como pensé,"
 	line "esa extraña señal"
-
-	para "de radio proviene"
-	line "de aquí."
+	cont "de radio proviene"
+	cont "de aquí."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "Las escaleras es-"
-	line "tán justo aquí."
+	text "Las escaleras"
+	line "están justo aquí."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "Lance: <PLAYER>, "
-	line "debemos separar-"
+	text "Lance: <PLAYER>,"
+	line "nos separaremos"
+	cont "para investigar."
 
-	para "nos para explorar"
-	line "esto. Yo iré pri-"
-	cont "mero."
+	para "Yo iré primero."
 	done
 
 MahoganyMart1FVeteranFText:
-	text "Nuestro sótano"
-	line "fue un escondite"
-	cont "ninja."
+	text "Nuestro sótano fue"
+	line "un refugio ninja."
 
-	para "Varias de sus"
-	line "artes sobrevivie-"
-	cont "ron hasta hoy."
+	para "Sus técnicas han"
+	line "durado hasta hoy."
 
-	para "Una de ellas in-"
-	line "crementa mucho tu"
-	cont "velocidad."
+	para "Una de ellas sube"
+	line "mucho la rapidez."
 	done
 
 Text_MahoganyMart1FTutorAgility:
-	text "Si quieres, puedo"
-	line "enseñar a tu"
-
-	para "#mon el movi-"
-	line "miento Agilidad."
+	text "Puedo enseñar a"
+	line "tu #mon el"
+	cont "ataque Agilidad."
 	done
 
 Text_MahoganyMart1FTutorQuestion:
@@ -265,21 +257,16 @@ PokemonJournalWillScript:
 
 	text "Revista #mon"
 
-	para "Edición sobre"
-	line "Mento, del"
-	cont "Alto Mando."
+	para "Edición Especial:"
+	line "¡Alto Mando Mento!"
 
-	para "Mento no habla"
-	line "sobre su pasado"
+	para "Mento no habla de"
+	line "su pasado antes de"
+	cont "entrar en la Liga."
 
-	para "antes de unirse"
-	line "al Alto Mando."
+	para "Dicen que era del"
+	line "Team Rocket."
 
-	para "Dicen que trabajó"
-	line "para el Team"
-	cont "Rocket."
-
-	para "La Revista #mon"
-	line "se niega a espe-"
-	cont "cular."
+	para "La revista no va"
+	line "a especular."
 	done

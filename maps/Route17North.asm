@@ -51,17 +51,15 @@ OfficerfJamieBeatenText:
 OfficerfJamieAfterText:
 	text "Andar en bici a"
 	line "estas horas de la"
-	cont "noche es sospecho-"
-	cont "so."
+	cont "noche resulta muy"
+	cont "sospechoso."
 	done
 
 OfficerfJamieDaytimeText:
 	text "A los Motoristas"
 	line "y a los Calaveras"
-
-	para "les gusta causar"
-	line "problemas por"
-	cont "esta zona."
+	cont "les gusta causar"
+	cont "líos por la zona."
 
 	para "¡No busques líos,"
 	line "¿entendido?!"
@@ -70,6 +68,7 @@ OfficerfJamieDaytimeText:
 CyclingRoadSignText:
 	text "Camino de Bicis"
 
-	para "¡Cuesta abajo to-"
-	line "do el recorrido!"
+	para "¡Cuesta abajo"
+	line "durante todo el"
+	cont "recorrido!"
 	done

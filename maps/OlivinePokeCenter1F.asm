@@ -29,14 +29,12 @@ PokemonJournalJasmineScript:
 
 	text "Revista #mon"
 
-	para "Edición especial:"
+	para "Edición Especial:"
 	line "¡Líder Yasmina!"
 
-	para "Dicen que Yasmina"
-	line "y Érika, Líder de"
-
-	para "Azulona, hablan"
-	line "sobre moda juntas."
+	para "Dicen que habla de"
+	line "moda con Érika, la"
+	cont "Líder de Azulona."
 	done
 
 BeautyCharlotteScript:
@@ -68,18 +66,15 @@ BeautyCharlotteScript:
 	text "¡Anda! ¿Eres un"
 	line "entrenador?"
 
-	para "¡Llegas en el mo-"
-	line "mento justo!"
+	para "¡Llegas en el"
+	line "momento justo!"
 
 	para "Mi #mon tan"
 	line "único y hermoso ya"
 	cont "está curado."
 
 	para "¿Quieres luchar y"
-	line "quedarte asombrado"
-
-	para "con mi gran"
-	line "#mon?"
+	line "asombrarte con él?"
 	done
 
 .NoBattleText:
@@ -94,8 +89,8 @@ BeautyCharlotteScript:
 	done
 
 .BeatenText:
-	text "¡Un combate incre-"
-	line "íble!"
+	text "¡Qué combate tan"
+	line "increíble!"
 	done
 
 OlivinePokeCenter1FFisherText:

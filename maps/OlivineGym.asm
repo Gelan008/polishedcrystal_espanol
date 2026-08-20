@@ -45,9 +45,9 @@ OlivineGymJasmineScript:
 	setevent EVENT_GOT_TM23_IRON_TAIL
 	jumpthisopenedtext
 
-	text "…Podrías usar"
-	line "esa MT para ense-"
-	cont "ñar Cola Férrea."
+	text "…Podrías usar esa"
+	line "MT para enseñar"
+	cont "Cola Férrea."
 	done
 
 OlivineGymGuyScript:
@@ -77,9 +77,7 @@ OlivineGymLassConnie:
 .SeenText:
 	text "Je, je… Ya sé de"
 	line "lo que eres capaz"
-
-	para "por lo que hiciste"
-	line "en el Faro."
+	cont "por lo del Faro."
 
 	para "¡Es hora de que se"
 	line "lo demuestres a"
@@ -91,9 +89,8 @@ OlivineGymLassConnie:
 .AfterText:
 	text "Eres increíble…"
 	line "Deberías apuntar"
-
-	para "aún más alto con"
-	line "ese potencial."
+	cont "más alto con ese"
+	cont "gran potencial."
 
 	para "¿Has estado en"
 	line "Pueblo Caoba?"
@@ -109,25 +106,22 @@ OlivineGymGentlemanPreston:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "Sabía que ven-"
-	line "drías aquí."
+	text "Sabía que ibas a"
+	line "venir aquí."
 
 	para "Gracias por ayudar"
-	line "a la Líder de"
-	cont "Gimnasio,"
-
-	para "pero un combate es"
-	line "asunto aparte."
+	line "a la Líder, pero"
+	cont "un combate es un"
+	cont "asunto aparte."
 
 	para "¡A por todas!"
 	done
 
 .AfterText:
 	text "¡Impresionante!"
-	line "Deberías ganar más"
-
-	para "Medallas con tanta"
-	line "habilidad."
+	line "¡Ganarás más"
+	cont "Medallas con tanta"
+	cont "habilidad!"
 	done
 
 OlivineGymStatue:
@@ -150,8 +144,8 @@ Jasmine_SteelTypeIntro:
 	text "…Gracias por tu"
 	line "ayuda en el Faro…"
 
-	para "Pero esto es dis-"
-	line "tinto. Permíteme"
+	para "Pero esto es otro"
+	line "asunto. Permíteme"
 	cont "presentarme."
 
 	para "Soy Yasmina, Líder"
@@ -172,22 +166,19 @@ Jasmine_SteelTypeIntro:
 Jasmine_BetterTrainer:
 	text "…Eres mejor"
 	line "entrenador que yo,"
+	cont "en habilidad y"
+	cont "en bondad."
 
-	para "tanto en habilidad"
-	line "como en bondad."
-
-	para "Siguiendo las nor-"
-	line "mas de la Liga, te"
-	cont "hago entrega de"
+	para "Según las normas"
+	line "de la Liga, te doy"
 	cont "esta Medalla."
 	done
 
 Jasmine_BadgeSpeech:
 	text "Con esa Medalla,"
 	line "los #mon hasta"
-
-	para "el <LV>70, incluso"
-	line "intercambiados,"
+	cont "el <LV>70, incluso"
+	cont "intercambiados,"
 
 	para "te obedecerán sin"
 	line "protestar."
@@ -203,27 +194,26 @@ Jasmine_GoodLuck:
 	done
 
 OlivineGymGuyWinText:
-	text "¡Ha sido aluci-"
-	line "nante!"
+	text "¡Ha sido una gran"
+	line "batalla!"
 
 	para "El tipo Acero,"
 	line "¿eh?"
 
-	para "¡Ha sido un en-"
-	line "cuentro en la ter-"
-	cont "cera fase!"
+	para "¡Un tipo de"
+	line "otra dimensión!"
 	done
 
 OlivineGymGuyPreText:
 	text "Yasmina, la Líder"
-	line "de Gimnasio, está"
+	line "del Gimnasio, está"
 	cont "en el Faro."
 
 	para "Ha estado cuidando"
-	line "a un #mon"
-	cont "enfermo."
+	line "a un #mon que"
+	cont "está enfermo."
 
-	para "Un buen entrenador"
-	line "también debe tener"
+	para "Un gran entrenador"
+	line "debe tener también"
 	cont "compasión."
 	done

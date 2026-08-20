@@ -31,12 +31,12 @@ CelebrityText1:
 	line "Me has encontrado."
 
 	para "Por favor, no le"
-	line "hables a nadie"
+	line "cuentes a nadie"
 	cont "sobre mí."
 
 	para "Te daré esto si"
-	line "guardas el secre-"
-	cont "to. ¿Por favor?"
+	line "guardas el"
+	cont "secreto. ¿Trato?"
 	done
 
 CelebrityText2:
@@ -44,8 +44,8 @@ CelebrityText2:
 	line "gran celebridad."
 
 	para "Vaya donde vaya,"
-	line "la gente me per-"
-	cont "sigue."
+	line "la gente me sigue"
+	cont "a todos lados."
 
 	para "Solo quiero que me"
 	line "dejen en paz…"

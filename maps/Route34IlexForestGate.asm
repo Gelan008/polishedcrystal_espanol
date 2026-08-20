@@ -67,14 +67,12 @@ Route34IlexForestGateTeacherScript:
 	jumpthisopenedtext
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "Es Falsootazo."
+	text "Es Falsotortazo."
 
-	para "No debilitará a"
-	line "los #mon salva-"
-	cont "jes,"
-
-	para "así que será más"
-	line "fácil atraparlos."
+	para "Nunca debilita a"
+	line "los #mon, por"
+	cont "lo que facilita"
+	cont "su captura."
 	done
 
 Route34IlexForestGateTeacherBlocksPlayerMovement:
@@ -88,9 +86,8 @@ Route34IlexForestGateTeacherReturnsMovement:
 	step_end
 
 Route34IlexForestGateTeacherText:
-	text "¡Hola! ¿Estás com-"
-	line "pletando una"
-	cont "#dex?"
+	text "¡Hola! ¿Completas"
+	line "una #dex?"
 
 	para "Debe ser difícil"
 	line "atrapar a tantos"
@@ -113,9 +110,9 @@ Route34IlexForestGateHeracrossText:
 	done
 
 Route34IlexForestGateLassText:
-	text "¿Viste el santua-"
-	line "rio en honor al"
-	cont "protector?"
+	text "¿Has visto el"
+	line "santuario del"
+	cont "gran protector?"
 
 	para "Vigila el bosque a"
 	line "través del tiempo."

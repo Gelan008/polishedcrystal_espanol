@@ -57,12 +57,12 @@ QuietCaveB3FMarleyScript:
 	end
 	
 .ChallengeText:
-	text "… Me llamo Sémola."
-	line "… ¿Y tú?"
+	text "…Me llamo Sémola."
+	line "…¿Y tú?"
 
 	para "Ah… <PLAYER>,"
-	line "¿lucharías conmi-"
-	cont "go, por favor?"
+	line "¿lucharías contra"
+	cont "mí, por favor?"
 	done
 
 .YesText:
@@ -84,20 +84,18 @@ QuietCaveB3FMarleyScript:
 
 	para "Elijo mis palabras"
 	line "con cuidado, pero"
+	cont "aún así pueden"
+	cont "herir a alguien…"
 
-	para "aún así pueden he-"
-	line "rir a alguien sin"
-	cont "querer…"
-
-	para "Por eso, debo dar-"
-	line "te las gracias de"
-	cont "otra manera…"
+	para "Por eso, te daré"
+	line "las gracias de"
+	cont "otra forma…"
 	done
 
 .GoodbyeText:
-	text "… Te agradezco que"
+	text "…Te agradezco que"
 	line "lucharas conmigo…"
-	cont "… Un poquito…"
+	cont "…Un poquito…"
 
 	para "Me voy a la"
 	line "Torre Batalla…"

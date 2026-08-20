@@ -28,27 +28,21 @@ GenericTrainerBird_keeperDenis:
 	generictrainer BIRD_KEEPER, DENIS, EVENT_BEAT_BIRD_KEEPER_DENIS, Bird_keeperDenisSeenText, Bird_keeperDenisBeatenText
 
 	text "Mi #mon"
-	line "aprendió"
-	cont "a usar Vuelo en el"
-	cont "Bosque Amarillo."
+	line "aprendió Vuelo en"
+	cont "el Bosque Amarillo."
 
-	para "Bueno, como he"
-	line "perdido, me iré"
-
-	para "Volando cruzando"
-	line "el mar"
+	para "Como he perdido,"
+	line "¡cruzaré el mar"
+	cont "volando!"
 	done
 
 GenericTrainerSailorErnest:
 	generictrainer SAILOR, ERNEST, EVENT_BEAT_SAILOR_ERNEST, SailorErnestSeenText, SailorErnestBeatenText
 
-	text "Un Líder de Gimna-"
-	line "sio no solo debe"
-	cont "ser fuerte."
-
-	para "Un Líder también"
-	line "debe tener compa-"
-	cont "sión."
+	text "Un Líder no solo"
+	line "debe ser fuerte,"
+	cont "también debe tener"
+	cont "compasión."
 	done
 
 SailorErnestSeenText:
@@ -68,9 +62,8 @@ SailorErnestBeatenText:
 Bird_keeperDenisSeenText:
 	text "¡Qué alto estamos!"
 	line "Mis #mon pájaro"
-
-	para "están en plena"
-	line "forma."
+	cont "están en plena"
+	cont "forma."
 	done
 
 Bird_keeperDenisBeatenText:

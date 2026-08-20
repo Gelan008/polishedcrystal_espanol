@@ -25,21 +25,19 @@ GenericTrainerSwimmermFrank:
 	text "¡Mar, arena, sol"
 	line "y #mon!"
 
-	para "¿Qué más puede pe-"
-	line "dir un hombre?"
+	para "¿Qué más puede"
+	line "pedir un hombre?"
 	done
 
 .SeenText:
-	text "Estoy de vacacio-"
-	line "nes con mi mujer,"
-	cont "pero vale: ¡luche-"
-	cont "mos!"
+	text "Estoy de viaje con"
+	line "mi mujer, pero"
+	cont "¡vamos a luchar!"
 	done
 
 .BeatenText:
-	text "¡Me da igual,"
-	line "estoy de vacacio-"
-	cont "nes!"
+	text "¡Me da igual! ¡Son"
+	line "mis vacaciones!"
 	done
 
 TrainerSwimmermNadar:
@@ -49,16 +47,15 @@ TrainerSwimmermNadar:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "¿Practicar nata-"
-	line "ción o entrenar a"
-	cont "mis #mon?"
+	text "¿Nadar un rato o"
+	line "entrenar a mis"
+	cont "#mon?"
 
 	para "Menudo dilema."
 	done
 
 .SeenText:
-	text "¡Nadar es mi espe-"
-	line "cialidad!"
+	text "¡Nadar es lo mío!"
 
 	para "¡Y los combates"
 	line "#mon también!"
@@ -66,8 +63,7 @@ TrainerSwimmermNadar:
 
 .BeatenText:
 	text "¿He perdido en mi"
-	line "propia especiali-"
-	cont "dad?"
+	line "propio terreno?"
 	done
 
 GenericTrainerSwimmermConrad:
@@ -76,14 +72,14 @@ GenericTrainerSwimmermConrad:
 	text "Las olas reflejan"
 	line "los rayos UV."
 
-	para "Ponte siempre cre-"
-	line "ma solar."
+	para "Ponte crema solar"
+	line "siempre."
 	done
 
 .SeenText:
-	text "Crema y gafas lis-"
-	line "tas… ¡A tope para"
-	cont "las olas!"
+	text "Crema y gafas a"
+	line "punto… ¡A por las"
+	cont "olas!"
 	done
 
 .BeatenText:
@@ -96,15 +92,14 @@ GenericTrainerSwimmerfCaroline:
 
 	text "Nos alojamos en"
 	line "Trigal, pero esta"
-
-	para "Ruta es ideal para"
-	line "una excursión."
+	cont "Ruta es ideal para"
+	cont "una excursión."
 	done
 
 .SeenText:
-	text "Mi marido y yo es-"
-	line "tamos aquí de va-"
-	cont "caciones."
+	text "Mi marido y yo"
+	line "estamos aquí de"
+	cont "vacaciones."
 	done
 
 .BeatenText:
@@ -125,8 +120,7 @@ GenericTrainerSwimmerfNatalia:
 	text "Me he comprado un"
 	line "bikini nuevo."
 
-	para "Va a la última"
-	line "moda."
+	para "¡Es lo último!"
 	done
 
 .BeatenText:
@@ -139,9 +133,8 @@ GenericTrainerFisherFrancis:
 	text "Me da igual ganar"
 	line "o perder."
 
-	para "Solo quiero pasar-"
-	line "lo bien y seguir"
-	cont "pescando."
+	para "Solo quiero estar"
+	line "a gusto y pescar."
 	done
 
 .SeenText:

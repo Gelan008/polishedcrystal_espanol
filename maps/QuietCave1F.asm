@@ -37,10 +37,9 @@ GenericTrainerCooltrainermHenri:
 	generictrainer COOLTRAINERM, HENRI, EVENT_BEAT_COOLTRAINERM_HENRI, CooltrainermHenriSeenText, CooltrainermHenriBeatenText
 
 	text "Tener un equipo"
-	line "variado para com-"
-
-	para "pensar debilida-"
-	line "des es la clave."
+	line "variado que cubra"
+	cont "tus debilidades es"
+	cont "la clave."
 	done
 
 GenericTrainerHikerGrady:
@@ -54,12 +53,10 @@ GenericTrainerHikerGrady:
 GenericTrainerScientistCarl:
 	generictrainer SCIENTIST, CARL, EVENT_BEAT_SCIENTIST_CARL, ScientistCarlSeenText, ScientistCarlBeatenText
 
-	text "Es curioso cómo"
-	line "un entorno tan"
-
-	para "tranquilo existe"
-	line "junto a un torren-"
-	cont "te de agua."
+	text "Es curioso cómo un"
+	line "lugar tan calmado"
+	cont "está junto a este"
+	cont "torrente de agua."
 	done
 
 HexManiacAshleySeenText:
@@ -69,15 +66,15 @@ HexManiacAshleySeenText:
 	done
 
 HexManiacAshleyBeatenText:
-	text "¡No! ¡Los espíri-"
-	line "tus no se equivo-"
-	cont "can jamás!"
+	text "¡No! Los espíritus"
+	line "¡nunca fallan!"
+	cont "¡Jamás!"
 	done
 
 CooltrainermHenriSeenText:
 	text "¿Podrás con mi"
-	line "equilibrado equi-"
-	cont "po de #mon?"
+	line "equipo tan bien"
+	cont "equilibrado?"
 	done
 
 CooltrainermHenriBeatenText: ; text > text
@@ -94,9 +91,9 @@ HikerGradyBeatenText:
 	done
 
 ScientistCarlSeenText:
-	text "Estudio la acús-"
-	line "tica de esta red"
-	cont "de cuevas."
+	text "Investigo la"
+	line "acústica de esta"
+	cont "red de cuevas."
 	done
 
 ScientistCarlBeatenText:

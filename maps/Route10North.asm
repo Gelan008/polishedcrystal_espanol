@@ -246,40 +246,35 @@ Route10NorthElectrode:
 	end
 
 Route10NorthLawrenceGreetingText:
-	text "Lawrence: Nos vol-"
-	line "vemos a ver,"
+	text "Lawrence: Nos"
+	line "vemos de nuevo,"
 	cont "<PLAYER>."
 
-	para "Vine en busca del"
-	line "ave legendaria de"
+	para "Buscaba al ave"
+	line "legendaria de"
+	cont "fuego, pero di con"
+	cont "la equivocada."
 
-	para "fuego, pero encon-"
-	line "tré la equivocada."
-
-	para "¿Puedes ver ahí"
-	line "arriba?"
+	para "¿Ves allí arriba?"
 	done
 
 Route10NorthLawrenceZapdosText:
 	text "Lawrence: Es un"
 	line "Zapdos."
 
-	para "Debe de haber sido"
-	line "atraído por el"
-	cont "generador."
+	para "Le habrá atraído"
+	line "el generador."
 
 	para "… ¿Así que fue"
 	line "obra tuya?"
 
 	para "En tal caso, te"
-	line "dejaré capturar a"
+	line "dejaré atrapar a"
+	cont "este #mon"
+	cont "legendario."
 
-	para "este #mon"
-	line "legendario."
-
-	para "Como ves, no tengo"
-	line "interés en los"
-	cont "duplicados."
+	para "No tengo interés"
+	line "en duplicados."
 	done
 
 Route10NorthLawrenceFlyText:
@@ -294,39 +289,30 @@ Route10NorthLawrenceSpeechText:
 	para "Conque al final sí"
 	line "querías a Zapdos."
 
-	para "Empezaba a pensar"
-	line "que no te impor-"
+	para "Creía que no te"
+	line "interesaban las"
+	cont "leyendas."
 
-	para "taban las leyen-"
-	line "das."
+	para "… ¡¿Cómo?! ¿Tienes"
+	line "las tres aves?"
+	cont "¡Es imposible!"
 
-	para "… ¡¿Qué?! ¿Atra-"
-	line "paste a las tres"
-	cont "aves? Imposible."
+	para "Ni yo con mis"
+	line "medios pude dar"
+	cont "con Moltres…"
 
-	para "Ni siquiera yo,"
-	line "con mis conoci-"
+	para "¿Por qué lograste"
+	line "lo que yo no pude?"
 
-	para "mientos y medios,"
-	line "encontré a"
-	cont "Moltres…"
-
-	para "¿Por qué tuviste"
-	line "éxito donde yo"
-	cont "fracasé?"
-
-	para "¿Acaso aprecias la"
-	line "preciosidad de las"
-	cont "aves espejismo?"
+	para "¿Aprecias el valor"
+	line "de estas aves?"
 
 	para "¿Has oído hablar"
-	line "siquiera del"
+	line "del guardián de"
+	cont "los mares?"
 
-	para "guardián de los"
-	line "mares?"
-
-	para "Esto es inacep-"
-	line "table."
+	para "¡Esto es del todo"
+	line "inaceptable!"
 
 	para "Ven al santuario"
 	line "en ruinas de la"

@@ -39,22 +39,20 @@ Route5SaffronCityGateBlackBeltScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "¡Toma mucha Pro-"
-	line "teína y verás cómo"
-	cont "crece tu fuerza!"
+	text "¡Toma Proteína y"
+	line "verás cómo crece"
+	cont "tu fuerza!"
 	done
 
 .Text1:
-	text "¡Mira qué múscu-"
-	line "los tengo!"
+	text "¡Mira los músculos"
+	line "que tengo!"
 
 	para "¡Impresionantes,"
 	line "lo sé!"
 
-	para "Eres algo enclen-"
-	line "que, así que si"
-	cont "quieres ponerte"
-
-	para "fuerte como yo,"
-	line "necesitarás esto."
+	para "Te veo enclenque."
+	line "Si quieres estar"
+	cont "fuerte como yo,"
+	cont "necesitas esto."
 	done

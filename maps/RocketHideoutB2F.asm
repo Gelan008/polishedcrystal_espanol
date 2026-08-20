@@ -24,11 +24,10 @@ RocketHideoutB2F_MapScriptHeader:
 RocketHideoutB2FHexManiacCoryn:
 	generictrainer HEX_MANIAC, CORYN, EVENT_BEAT_HEX_MANIAC_CORYN, .SeenText, .BeatenText
 
-	text "Al Equipo Sabi-"
-	line "duría le vendría"
-
-	para "bien más talento"
-	line "como el tuyo."
+	text "Al Equipo"
+	line "Sabiduría le"
+	cont "vendría bien un"
+	cont "talento como tú."
 	done
 
 .SeenText:

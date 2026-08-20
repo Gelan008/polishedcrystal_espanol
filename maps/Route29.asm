@@ -111,11 +111,9 @@ Route29CooltrainerMScript:
 	iftrue_jumptextfaceplayer Text_WaitingForMorning
 	jumpthistextfaceplayer
 
-	text "Estoy esperando a"
-	line "un #mon que"
-
-	para "solo aparecen al"
-	line "atardecer o"
+	text "Espero un #mon"
+	line "que solo sale"
+	cont "por la tarde o"
 	cont "por la noche."
 	done
 
@@ -143,9 +141,8 @@ TuscanyScript:
 	line "que es de lo más"
 	cont "elegante?"
 
-	para "Potencia los ata-"
-	line "ques de tipo"
-	cont "Normal."
+	para "Mejora ataques de"
+	line "tipo Normal."
 
 	para "Seguro que te"
 	line "será muy útil."
@@ -246,10 +243,8 @@ Route29TeacherText:
 	cont "saltar por ahí."
 
 	para "Pero puedes volver"
-	line "a Pueblo Primavera"
-
-	para "sin pisar nada"
-	line "de hierba."
+	line "a Primavera sin"
+	cont "pisar la hierba."
 	done
 
 Route29FisherText:
@@ -260,19 +255,17 @@ Route29FisherText:
 
 
 Text_WaitingForMorning:
-	text "Estoy esperando a"
+	text "Estoy esperando un"
 	line "#mon que solo"
-
-	para "aparecen por la"
-	line "mañana."
+	cont "aparecen por la"
+	cont "mañana."
 	done
 
 MeetTuscanyText:
 	text "Marta: Si no me"
 	line "equivoco, ¿es la"
-
-	para "primera vez que"
-	line "nos vemos?"
+	cont "primera vez que"
+	cont "nos vemos?"
 
 	para "Permíteme que me"
 	line "presente."
@@ -282,12 +275,9 @@ MeetTuscanyText:
 	done
 
 TuscanyGivesGiftText:
-	text "A modo de presen-"
-	line "tación, por favor,"
-
-	para "acepta este rega-"
-	line "lo: un Pañuelo"
-	cont "Seda."
+	text "Para darme a"
+	line "conocer, acepta"
+	cont "este Pañuelo Seda."
 	done
 
 
@@ -323,12 +313,10 @@ Route29AdvancedTipsSignText:
 
 	para "¡Pulsa Abajo+B en"
 	line "la pantalla del"
-	cont "título para cam-"
-	cont "biar la hora!"
+	cont "título para"
+	cont "cambiar la hora!"
 
-	para "¡Pulsa Izquierda+B"
-	line "para reiniciar las"
-
-	para "opciones inicia-"
-	line "les del juego!"
+	para "¡Pulsa Izq.+B para"
+	line "reiniciar todas"
+	cont "las opciones!"
 	done

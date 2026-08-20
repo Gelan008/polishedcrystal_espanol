@@ -20,9 +20,8 @@ Route15FuchsiaGate_MapScriptHeader:
 Route15FuchsiaGateOfficerText:
 	text "¿Estás intentando"
 	line "completar la"
-	line "#dex?"
+	cont "#dex?"
 
-	para "¡Tiene mucho mé-"
-	line "rito! ¡No te"
-	cont "rindas!"
+	para "¡Tiene mérito!"
+	line "¡No te rindas!"
 	done

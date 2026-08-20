@@ -74,22 +74,20 @@ FisherStephenBeatenText:
 GenericTrainerFisherBarney:
 	generictrainer FISHER, BARNEY, EVENT_BEAT_FISHER_BARNEY, FisherBarneySeenText, FisherBarneyBeatenText
 
-	text "La electricidad"
-	line "es vital en nues-"
-	cont "tra vida diaria."
+	text "La energía es muy"
+	line "vital en nuestro"
+	cont "día a día."
 
-	para "Si no, la gente no"
-	line "habría armado tan-"
-
-	para "to jaleo cuando se"
-	line "averió la Central"
-	cont "Energía."
+	para "Por eso la gente"
+	line "armó tanto jaleo"
+	cont "cuando falló la"
+	cont "Central Energía."
 	done
 
 FisherBarneySeenText:
-	text "¿Qué es lo más im-"
-	line "portante en nues-"
-	cont "tra vida diaria?"
+	text "¿Qué es lo más"
+	line "importante para"
+	cont "nuestro día a día?"
 	done
 
 FisherBarneyBeatenText:
@@ -100,18 +98,18 @@ FisherBarneyBeatenText:
 GenericTrainerFisherKyler:
 	generictrainer FISHER, KYLER, EVENT_BEAT_FISHER_KYLER, .SeenText, .BeatenText
 
-	text "¿En serio? ¿En vez"
-	line "de atrapar #mon"
-	cont "nuevos sin parar,"
+	text "¿Como? ¿En vez de"
+	line "capturar #mon"
+	cont "nuevos sin cesar,"
 
-	para "¿es mejor entre-"
-	line "narlos?"
+	para "¿es mejor"
+	line "entrenarlos?"
 	done
 
 .SeenText:
 	text "¡Los combates"
-	line "#mon pican el"
-	cont "anzuelo de todos!"
+	line "#mon son el"
+	cont "mejor cebo!"
 	done
 
 .BeatenText:
@@ -176,17 +174,16 @@ GenericTrainerCoupleVicandtara2:
 	generictrainer COUPLE, VICANDTARA2, EVENT_BEAT_COUPLE_VIC_AND_TARA, .SeenText, .BeatenText
 
 	text "Tara: Aunque mi"
-	line "novio haya perdi-"
-	cont "do, ¡sigue siendo"
-	cont "maravilloso!"
+	line "novio haya sido"
+	cont "vencido, ¡sigue"
+	cont "siendo genial!"
 	done
 
 .SeenText:
 	text "Tara: ¡Me encanta"
 	line "mirar la cara de"
-
-	para "mi novio cuando"
-	line "está luchando!"
+	cont "mi novio cuando"
+	cont "está luchando!"
 	done
 
 .BeatenText:

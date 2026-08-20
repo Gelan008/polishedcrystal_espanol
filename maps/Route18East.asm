@@ -29,17 +29,14 @@ GenericTrainerBird_keeperBob:
 
 	text "Si no tienes una"
 	line "Bicicleta, no te"
-
-	para "permiten usar el"
-	line "atajo."
+	cont "dejan pasar por"
+	cont "este atajo."
 	done
 
 Bird_keeperBorisSeenText:
-	text "Si andas buscando"
-	line "#mon, tienes"
-
-	para "que buscar entre"
-	line "la hierba alta."
+	text "Si estás buscando"
+	line "#mon, debes"
+	cont "mirar en la hierba"
 	done
 
 Bird_keeperBorisBeatenText:

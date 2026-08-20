@@ -44,18 +44,16 @@ Route5CleanseTagHouseGrannyText1:
 	done
 
 Route5CleanseTagHouseGrannyText2:
-	text "¡Estabas en peli-"
-	line "gro de muerte, pe-"
-	cont "ro ya no!"
+	text "¡Te rondaba la"
+	line "muerte, pero ya"
+	cont "estás a salvo!"
 	done
 
 Route5CleanseTagHouseTeacherText:
-	text "A mi abuela le ha"
-	line "dado por ahuyentar"
-
-	para "lo que cree que"
-	line "son malos espíri-"
-	cont "tus."
+	text "A mi abuela le dio"
+	line "por ahuyentar lo"
+	cont "que cree que son"
+	cont "malos espíritus."
 
 	para "Siento que te haya"
 	line "asustado."

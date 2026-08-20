@@ -132,9 +132,9 @@ RocketHideoutB4FMeetLeadersScript:
 	line "no sirve de nada"
 	cont "sin estrategia."
 
-	para "Planear con inte-"
-	line "ligencia siempre"
-	cont "da la victoria."
+	para "Pensar con calma"
+	line "siempre da la"
+	cont "victoria."
 	done
 
 .SparkIntro1Text:
@@ -148,10 +148,9 @@ RocketHideoutB4FMeetLeadersScript:
 	done
 
 .CandelaIntro2Text:
-	text "Candela: ¿El ins-"
-	line "tinto? ¡Eso solo"
-	cont "es dar palos"
-	cont "de ciego!"
+	text "Candela: ¿El"
+	line "instinto? ¡Eso es"
+	cont "ir a ciegas!"
 
 	para "¡Los entrenadores"
 	line "de verdad usan la"
@@ -163,9 +162,9 @@ RocketHideoutB4FMeetLeadersScript:
 	line "Spark, ¡no es el"
 	cont "momento!"
 
-	para "¿Qué hay del pro-"
-	line "yecto del Gran"
-	cont "Arbol?"
+	para "¿Qué hay del"
+	line "proyecto del"
+	cont "Gran Arbol?"
 	done
 
 .SparkIntro2Text:
@@ -186,11 +185,9 @@ RocketHideoutB4FMeetLeadersScript:
 	para "¡Ya que estás"
 	line "aquí, a combatir!"
 
-	para "¡Si ganas, te de-"
-	line "jaremos unirte a"
-
-	para "nuestro gran pro-"
-	line "yecto!"
+	para "¡Si ganas, podrás"
+	line "unirte a nuestro"
+	cont "gran proyecto!"
 	done
 
 RocketHideoutB4FMeetLeadersScene:
@@ -231,11 +228,11 @@ RocketHideoutB4FSparkScript:
 	jumpopenedtext .RefusedText
 
 .GreetingText:
-	text "Spark: ¡Ey! ¿Te a-"
-	line "treves a confiar"
-	cont "en tu instinto?"
+	text "Spark: ¿Confías"
+	line "en tu instinto?"
 
-	para "¿En un combate?"
+	para "¿Luchamos en un"
+	line "combate?"
 	done
 
 .SeenText:
@@ -245,8 +242,8 @@ RocketHideoutB4FSparkScript:
 	done
 
 .BeatenText:
-	text "¡Hala, lo has cla-"
-	line "vado por completo!"
+	text "¡Hala, lo hiciste"
+	line "a la perfección!"
 
 	para "¡Tu intuición te"
 	line "ha guiado bien!"
@@ -266,8 +263,8 @@ RocketHideoutB4FSparkScript:
 	line "dar una chispa de"
 	cont "creatividad!"
 
-	para "¡Úsalo con deci-"
-	line "sión!"
+	para "¡Úsalo con mucha"
+	line "decisión!"
 	done
 
 .RefusedText:
@@ -312,14 +309,14 @@ RocketHideoutB4FCandelaScript:
 
 .GreetingText:
 	text "Candela: ¿A punto"
-	line "para poner a prue-"
-	cont "ba tu fuerza?"
+	line "para probar tu"
+	cont "fuerza?"
 	done
 
 .SeenText:
-	text "¡Ese es el espíri-"
-	line "tu! ¡Demuéstrame"
-	cont "tu poder!"
+	text "¡Así me gusta!"
+	line "¡Demuéstrame tu"
+	cont "poder!"
 	done
 
 .BeatenText:
@@ -337,12 +334,11 @@ RocketHideoutB4FCandelaScript:
 
 .AfterText2:
 	text "Candela: El Cebo"
-	line "Cruel atrae un po-"
-	cont "der feroz."
+	line "Cruel atrae gran"
+	cont "poder feroz."
 
-	para "Esta es mi aporta-"
-	line "ción a nuestro"
-	cont "proyecto."
+	para "Es mi aporte a"
+	line "nuestro proyecto."
 
 	para "Úsalo con cabeza."
 	done
@@ -400,24 +396,23 @@ RocketHideoutB4FBlancheScript:
 	done
 
 .BeatenText:
-	text "Un plan bien eje-"
-	line "cutado, sin duda."
+	text "Un plan muy bien"
+	line "ejecutado."
 
 	para "Me has superado."
 	done
 
 .AfterText1:
-	text "Blanche: Aquí tie-"
-	line "nes el Cebo"
-	cont "Potente."
+	text "Blanche: Toma el"
+	line "Cebo Potente."
 	done
 
 .AfterText2:
 	text "El Cebo Potente"
-	line "amplifica su pre-"
-	cont "cisión."
+	line "mejora toda la"
+	cont "precisión."
 
-	para "Es mi contribución"
+	para "Es mi aportación"
 	line "para asegurar"
 	cont "nuestro éxito."
 
@@ -428,9 +423,9 @@ RocketHideoutB4FBlancheScript:
 	text "Hum, ¿no tienes"
 	line "seguridad?"
 
-	para "Vuelve cuando ten-"
-	line "gas una estrate-"
-	cont "gia pensada."
+	para "Vuelve cuando ya"
+	line "tengas un plan"
+	cont "preparado."
 	done
 
 RocketHideoutB4FYoungsterArdenScript:
@@ -463,8 +458,8 @@ RocketHideoutB4FYoungsterArdenScript:
 	done
 
 .BeatenText:
-	text "¿Por dónde que-"
-	line "daba el ascensor?"
+	text "¿Dónde estaba el"
+	line "ascensor?"
 	done
 
 .AfterText:
@@ -476,7 +471,7 @@ RocketHideoutB4FYoungsterArdenScript:
 	done
 
 RocketHideoutB4FTeacherSerena:
-	trainer TEACHER_F, SERENA, EVENT_BEAT_TEACHER_SERENA, .SeenText, .AfterText, 0, .Script
+	trainer TEACHER_F, SERENA, EVENT_BEAT_TEACHER_SERENA, .SeenText, .BeatenText, 0, .Script
 
 .Script
 	checkevent EVENT_BEAT_TEACHER_SERENA
@@ -515,9 +510,8 @@ RocketHideoutB4FTeacherSerena:
 .SeenText:
 	text "¡A ver si tienes"
 	line "la agudeza para"
-
-	para "enfrentarte a los"
-	line "líderes!"
+	cont "enfrentarte a los"
+	cont "líderes!"
 	done
 
 .BeatenText:
@@ -525,7 +519,7 @@ RocketHideoutB4FTeacherSerena:
 	done
 
 RocketHideoutB4FSuperNerdNolan:
-	trainer TEACHER_M, NOLAN, EVENT_BEAT_SUPER_NERD_NOLAN, .SeenText, .AfterText, 0, .Script
+	trainer TEACHER_M, NOLAN, EVENT_BEAT_SUPER_NERD_NOLAN, .SeenText, .BeatenText, 0, .Script
 
 .Script
 	checkevent EVENT_BEAT_SUPER_NERD_NOLAN
@@ -553,17 +547,17 @@ RocketHideoutB4FSuperNerdNolan:
 	end
 
 .AfterText
-	text "Los líderes discu-"
-	line "ten mucho, pero"
-	cont "son buenos amigos."
+	text "Los líderes riñen"
+	line "mucho, pero son"
+	cont "buenos amigos."
 	done
 
 .SeenText:
-	text "¿Vienes a desafiar"
-	line "a los líderes?"
+	text "¿Vienes a retar a"
+	line "los líderes?"
 
-	para "¡Tendrás que ven-"
-	line "cerme primero!"
+	para "¡Derrótame a mí"
+	line "primero!"
 	done
 
 .BeatenText:
@@ -591,11 +585,10 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	cont "lo que parecen."
 
 	para "Blanche: Cada cebo"
-	line "contiene la esen-"
-	cont "cia de un pájaro"
-	cont "legendario."
+	line "guarda el alma de"
+	cont "un ave legendaria."
 
-	para "Se crearon para"
+	para "Se hicieron para"
 	line "atraer a otros de"
 	cont "su misma especie."
 
@@ -603,33 +596,27 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	line "sirven en el lugar"
 	cont "adecuado."
 
-	para "Por eso es impor-"
-	line "tante el Gran"
-	cont "Arbol."
+	para "Por eso es"
+	line "importante el"
+	cont "Gran Arbol."
 
 	para "Candela: El árbol"
-	line "es antiquísimo,"
+	line "es muy antiguo,"
+	cont "un nido sagrado."
 
-	para "un lugar sagrado"
-	line "para anidar."
-
-	para "Está conectado a"
-	line "la energía de la"
-	cont "región."
+	para "Está ligado a la"
+	line "energía natural."
 
 	para "Blanche: Pájaros"
 	line "de gran poder se"
+	cont "reúnen allí desde"
+	cont "hace siglos."
 
-	para "han reunido allí"
-	line "por generaciones."
-
-	para "El árbol amplifi-"
-	line "ca la llamada de"
+	para "El árbol potencia"
+	line "el gran influjo de"
 	cont "los cebos."
 
-	para "Spark: Así que, si"
-	line "los usas allí…"
-
-	para "¡quién sabe lo que"
-	line "podría aparecer!"
+	para "Spark: Si los usas"
+	line "allí, ¡a saber qué"
+	cont "aparecerá!"
 	done

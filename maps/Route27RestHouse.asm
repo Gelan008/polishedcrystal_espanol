@@ -33,14 +33,12 @@ Route27RestHouseGranny:
 
 	text "Si no confía un"
 	line "poco más en ti,"
-
-	para "el viaje podría"
-	line "hacerse cuesta"
-	cont "arriba."
+	cont "el viaje se hará"
+	cont "cuesta arriba."
 
 	para "La confianza es el"
 	line "lazo que une a los"
-	cont "#mon y a los"
+	cont "#mon con sus"
 	cont "entrenadores."
 	done
 
@@ -71,18 +69,13 @@ Route27RestHouseGranny:
 	jumpthisopenedtext
 
 	text "Intercambio es un"
-	line "ataque que cam-"
-	cont "bia tu habilidad"
+	line "movimiento que"
+	cont "cambia habilidades"
+	cont "con el rival."
 
-	para "por la de tu"
-	line "rival."
-
-	para "Es solo para en-"
-	line "trenadores avan-"
-	cont "zados."
-
-	para "¡Úsalo si te atre-"
-	line "ves! ¡Suerte!"
+	para "Es para expertos."
+	line "¡Pruébalo si te"
+	cont "atreves! ¡Suerte!"
 	done
 
 .IntroText:
@@ -113,10 +106,8 @@ Route27RestHouseGranny:
 	line "buen entrenador."
 
 	para "Puedo enseñarle mi"
-	line "técnica secreta,"
-
-	para "Intercambio, si"
-	line "quieres."
+	line "técnica secreta:"
+	cont "Intercambio."
 	done
 
 .RefusedText:

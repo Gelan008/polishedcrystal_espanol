@@ -28,16 +28,14 @@ GentlemanAlfredScript:
 	iftrue_jumptextfaceplayer GentlemanAlfredFinalText
 	jumpthistextfaceplayer
 
-	text "Arriba hay un"
-	line "#mon que"
-	cont "mantiene el Faro"
+	text "Arriba, un #mon"
+	line "mantiene el Faro"
 	cont "encendido."
 
-	para "Pero he oído que"
-	line "ahora está enfermo"
-
-	para "y no se cura con"
-	line "medicina común."
+	para "Pero oí que está"
+	line "enfermo y no le"
+	cont "sirve cualquier"
+	cont "medicina común."
 	done
 
 TrainerSailorHuey1:
@@ -186,16 +184,13 @@ GentlemanAlfredBeatenText:
 	done
 
 GentlemanAlfredFinalText:
-	text "Arriba hay un"
-	line "#mon que"
-	cont "mantiene el Faro"
+	text "Arriba, un #mon"
+	line "mantiene el Faro"
 	cont "encendido."
 
 	para "¿Has ayudado a"
 	line "curar su mal?"
-
-	para "¡Nos has hecho un"
-	line "gran favor!"
+	cont "¡Menudo favor!"
 	done
 
 SailorHueyGiveProteinText:
@@ -203,7 +198,7 @@ SailorHueyGiveProteinText:
 	line "fuerte como"
 	cont "siempre!"
 
-	para "En fin, ¡aquí tie-"
-	line "nes esa medicina"
-	cont "de antes!"
+	para "En fin, toma esta"
+	line "medicina de la"
+	cont "otra vez"
 	done

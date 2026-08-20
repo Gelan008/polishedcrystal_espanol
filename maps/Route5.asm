@@ -21,9 +21,8 @@ Route5_MapScriptHeader:
 Route5PokefanMText:
 	text "El paso se cerró"
 	line "por el problema"
-
-	para "en la Central"
-	line "de Energía."
+	cont "en la Central"
+	cont "Energía."
 	done
 
 Route5UndergroundPathSignText:
@@ -37,14 +36,12 @@ Route5AdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
 	para "El Gen Loco es un"
-	line "objeto equipado"
+	line "objeto muy potente"
+	cont "que causa"
+	cont "confusión."
 
-	para "muy potente, pero"
-	line "causa confusión."
-
-	para "¡Pero un #mon"
-	line "con la habilidad"
-
-	para "Ritmo Propio no"
-	line "se confundirá!"
+	para "¡Pero con la"
+	line "habilidad Ritmo"
+	cont "Propio tu #mon"
+	cont "se soluciona!"
 	done

@@ -32,17 +32,15 @@ PokemonMansionB1F_MapScriptHeader:
 GenericTrainerScientistBraydon:
 	generictrainer SCIENTIST, BRAYDON, EVENT_BEAT_SCIENTIST_BRAYDON, ScientistBraydonSeenText, ScientistBraydonBeatenText
 
-	text "Este lugar fue"
-	line "en su día la sede"
-
-	para "de serios estudios"
-	line "#mon."
+	text "Este lugar fue la"
+	line "sede de serios"
+	cont "estudios #mon."
 	done
 
 ScientistBraydonSeenText:
 	text "Echo de menos el"
-	line "antiguo Laborato-"
-	cont "rio de Canela…"
+	line "antiguo Lab de"
+	cont "Isla Canela…"
 	done
 
 ScientistBraydonBeatenText:
@@ -53,8 +51,8 @@ ScientistBraydonBeatenText:
 PokemonMansionDiaryText:
 	text "Diario: 5 de julio"
 
-	para "Un nuevo #mon"
-	line "fue descubierto en"
+	para "Descubrimos un"
+	line "nuevo #mon en"
 	cont "la selva virgen."
 
 	para "Diario: 10 julio"
@@ -71,10 +69,9 @@ PokemonMansionDiaryText:
 
 	para "Diario: 1 sept."
 
-	para "Mewtwo es dema-"
-	line "siado poderoso."
+	para "Mewtwo es muy"
+	line "poderoso."
 
-	para "No hemos podido"
-	line "contener sus vio-"
-	cont "lentas tendencias…"
+	para "No pudimos calmar"
+	line "su agresividad…"
 	done

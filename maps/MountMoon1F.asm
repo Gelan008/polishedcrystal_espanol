@@ -97,9 +97,7 @@ GenericTrainerBugManiacKenta:
 
 	para "¿Tendrá algo que"
 	line "ver con ellos ese"
-
-	para "chico de pelo"
-	line "rojo?"
+	cont "chico pelirrojo?"
 	done
 
 GenericTrainerLassMiriam:
@@ -107,17 +105,14 @@ GenericTrainerLassMiriam:
 
 	text "El Mt. Moon es"
 	line "grande, pero te"
-
-	para "acostumbrarás"
-	line "pronto."
+	cont "acostumbrarás."
 	done
 
 GenericTrainerSuperNerdJovan:
 	generictrainer SUPER_NERD, JOVAN, EVENT_BEAT_SUPER_NERD_JOVAN, SuperNerdJovanSeenText, SuperNerdJovanBeatenText
 
-	text "Aún no he encon-"
-	line "trado a #mon"
-	cont "más fuertes."
+	text "Aún no he hallado"
+	line "a #mon fuertes."
 
 	para "¿Dónde podrán"
 	line "estar?"
@@ -126,25 +121,19 @@ GenericTrainerSuperNerdJovan:
 GenericTrainerBugManiacRobby:
 	generictrainer BUG_MANIAC, ROBBY, EVENT_BEAT_BUG_MANIAC_ROBBY, BugManiacRobbySeenText, BugManiacRobbyBeatenText
 
-	text "Antes solo atrapa-"
-	line "ba #mon bicho"
-	cont "por afición,"
-
-	para "pero ahora son mi"
-	line "mayor orgullo."
+	text "Antes solo cazaba"
+	line "#mon bicho por"
+	cont "afición, pero hoy"
+	cont "son mi orgullo."
 	done
 
 GenericTrainerLassIris:
 	generictrainer LASS, IRIS, EVENT_BEAT_LASS_IRIS, LassIrisSeenText, LassIrisBeatenText
 
-	text "Vengo aquí a dia-"
-	line "rio solo para"
-
-	para "atrapar a un"
-	line "Clefairy, pero"
-
-	para "no he visto ni"
-	line "uno solo…"
+	text "Vengo a diario a"
+	line "atrapar algún"
+	cont "Clefairy, pero"
+	cont "no vi ni uno…"
 	done
 
 GenericTrainerHikerMarcos:
@@ -181,31 +170,26 @@ MountMoonRivalTextBefore:
 
 	para "…Desde que perdí"
 	line "contra ti, he"
-
-	para "pensado en qué nos"
-	line "faltaba a mis"
+	cont "pensado qué nos"
+	cont "faltaba a mis"
 	cont "#mon y a mí…"
 
 	para "Y ya hemos dado"
 	line "con la respuesta."
 
 	para "¡<PLAYER>, ahora"
-	line "te lo demostra-"
-	cont "remos!"
+	line "lo verás!"
 	done
 
 MountMoonRivalTextWin:
 	text "…… …… ……"
 
-	para "Creía haber entre-"
-	line "nado a mis #mon"
-
-	para "para ser los"
-	line "mejores…"
+	para "Creí haber hecho a"
+	line "mis #mon los"
+	cont "mejores…"
 
 	para "…Pero aun así no"
-	line "ha sido sufi-"
-	cont "ciente…"
+	line "ha bastado…"
 	done
 
 MountMoonRivalTextAfter:
@@ -218,25 +202,22 @@ MountMoonRivalTextAfter:
 	line "esto no acaba"
 	cont "aquí."
 
-	para "Tras entrenar un"
-	line "poco más en la"
-	cont "Guarida Dragón…"
+	para "Tras entrenar más"
+	line "en la Guarida"
+	cont "Dragón…"
 
 	para "¡Seré el mejor"
 	line "entrenador #mon"
 	cont "de la historia!"
+	cont "Porque ellos están"
+	cont "conmigo."
 
-	para "Porque ellos están"
-	line "conmigo."
-
-	para "…Escucha,"
-	line "<PLAYER>."
+	para "…Escucha, <PLAYER>."
 
 	para "Uno de estos días"
 	line "te venceré para"
-
-	para "demostrar lo bueno"
-	line "que soy."
+	cont "demostrar lo bueno"
+	cont "que soy."
 	done
 
 MountMoonRivalTextLoss:
@@ -267,11 +248,9 @@ BugManiacKentaBeatenText:
 	done
 
 LassMiriamSeenText:
-	text "Cuando era más"
-	line "joven, siempre me"
-
-	para "acababa perdiendo"
-	line "en este lugar."
+	text "De pequeña,"
+	line "siempre me perdía"
+	cont "por este lugar."
 	done
 
 LassMiriamBeatenText:
@@ -311,11 +290,9 @@ LassIrisBeatenText:
 	done
 
 HikerMarcosSeenText:
-	text "Los críos como tú"
-	line "no deberían vagar"
-
-	para "por aquí a oscu-"
-	line "ras."
+	text "Los críos no"
+	line "deberían andar por"
+	cont "aquí a oscuras."
 	done
 
 HikerMarcosBeatenText:

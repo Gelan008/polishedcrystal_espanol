@@ -48,9 +48,8 @@ PokefanmRexBeatenText:
 GenericTrainerPokefanmAllan:
 	generictrainer POKEFANM, ALLAN, EVENT_BEAT_POKEFANM_ALLAN, PokefanmAllanSeenText, PokefanmAllanBeatenText
 
-	text "¡Mira lo adorable"
-	line "que es mi Teddiur-"
-	cont "sa!"
+	text "¡Mira qué adorable"
+	line "es mi Teddiursa!"
 
 	para "¿No es tan mono"
 	line "que te derrite el"
@@ -75,8 +74,8 @@ GenericTrainerTwinsDayanddani1:
 	done
 
 TwinsDayanddani1SeenText:
-	text "Day: ¿Vas a ganar-"
-	line "nos?"
+	text "Day: ¿Podrás"
+	line "vencernos?"
 	done
 
 TwinsDayanddani1BeatenText:
@@ -91,8 +90,8 @@ GenericTrainerTwinsDayanddani2:
 	done
 
 TwinsDayanddani2SeenText:
-	text "Dani: ¡Te dejare-"
-	line "mos K.O.!"
+	text "Dani: ¡Te vamos a"
+	line "dejar K.O.!"
 	done
 
 TwinsDayanddani2BeatenText:
@@ -153,9 +152,9 @@ OfficerfJennyScript:
 	endtext
 
 .DaytimeText:
-	text "Los agentes esta-"
-	line "mos aquí para man-"
-	cont "tener la paz."
+	text "La policía está"
+	line "aquí para mantener"
+	cont "la paz."
 	done
 
 .SeenText:
@@ -167,9 +166,9 @@ OfficerfJennyScript:
 	done
 
 .BeatenText:
-	text "Escuadrón"
-	line "Squirtle, retira-"
-	cont "da…"
+	text "¡Escuadrón"
+	line "Squirtle, toca"
+	cont "retirarse…!"
 	done
 
 .AfterText:
@@ -183,9 +182,8 @@ OfficerfJennyScript:
 Route6PokefanMText:
 	text "El paso se cerró"
 	line "por el problema"
-
-	para "en la Central"
-	line "de Energía."
+	cont "en la Central"
+	cont "Energía."
 	done
 
 Route6UndergroundPathSignText:
@@ -198,19 +196,15 @@ Route6UndergroundPathSignText:
 Route6AdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
-	para "Hay objetos que"
-	line "parecen perjudi-"
-	cont "ciales para quien"
-	cont "los lleva,"
+	para "Hay objetos con"
+	line "efectos molestos"
+	cont "para su portador,"
 
 	para "como la Bola"
 	line "Férrea o el"
 	cont "Pañuelo Elegido."
 
-	para "¡Pero con el movi-"
-	line "miento Truco, el"
-
-	para "usuario puede in-"
-	line "tercambiarlos con"
-	cont "su rival!"
+	para "¡Pero con Truco,"
+	line "el usuario puede"
+	cont "dárselos al rival!"
 	done

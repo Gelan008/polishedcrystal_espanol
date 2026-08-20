@@ -26,21 +26,19 @@ RockTunnelB1F_MapScriptHeader:
 GenericTrainerFirebreatherCyd:
 	generictrainer FIREBREATHER, CYD, EVENT_BEAT_FIREBREATHER_CYD, FirebreatherCydSeenText, FirebreatherCydBeatenText
 
-	text "Un #mon que"
-	line "sepa Destello es"
-
-	para "útil en cuevas os-"
-	line "curas como esta."
+	text "Tener un #mon"
+	line "con Destello es"
+	cont "útil en cuevas tan"
+	cont "oscuras como esta."
 	done
 
 GenericTrainerHexManiacVivian:
 	generictrainer HEX_MANIAC, VIVIAN, EVENT_BEAT_HEX_MANIAC_VIVIAN, HexManiacVivianSeenText, HexManiacVivianBeatenText
 
-	text "Este papel de bru-"
-	line "ja siniestra"
-
-	para "cuesta bastante"
-	line "esfuerzo."
+	text "Hacerse pasar por"
+	line "bruja siniestra"
+	cont "cuesta bastante"
+	cont "esfuerzo."
 	done
 
 FirebreatherCydSeenText:
@@ -49,8 +47,8 @@ FirebreatherCydSeenText:
 	done
 
 FirebreatherCydBeatenText:
-	text "¡Socorro! ¡El fue-"
-	line "go se ha apagado!"
+	text "¡Se ha apagado el"
+	line "fuego! ¡Socorro!"
 	done
 
 HexManiacVivianSeenText:

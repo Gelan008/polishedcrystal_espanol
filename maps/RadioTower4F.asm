@@ -51,12 +51,11 @@ RadioTower4FDJMaryScript:
 	setevent EVENT_GOT_FAIRYFEATHER_FROM_MARY
 	jumpthisopenedtext
 
-	text "Rosa: ¡Le va per-"
-	line "fecto a los"
-	cont "#mon"
-
-	para "con movimientos"
-	line "de tipo Hada!"
+	text "Rosa: ¡Le viene"
+	line "genial a los"
+	cont "#mon con"
+	cont "ataques de tipo"
+	cont "Hada!"
 	done
 
 GenericTrainerGruntM10:
@@ -82,38 +81,36 @@ GenericTrainerProton1:
 GenericTrainerGruntF4:
 	generictrainer GRUNTF, 4, EVENT_BEAT_ROCKET_GRUNTF_4, GruntF4SeenText, GruntF4BeatenText
 
-	text "¡Adoro lo guapísi-"
-	line "ma que soy!"
+	text "¡Adoro lo hermosa"
+	line "que soy!"
 
-	para "¿A quién le impor-"
-	line "tan los #mon?"
+	para "¿A quién le"
+	line "importan los"
+	cont "#mon?"
 	done
 
 GenericTrainerRocketScientistRich:
 	generictrainer ROCKET_SCIENTIST, RICH, EVENT_BEAT_ROCKET_SCIENTIST_RICH, RocketScientistRichSeenText, RocketScientistRichBeatenText
 
 	text "¿De verdad crees"
-	line "que puedes dete-"
-	cont "ner al Team"
-	cont "Rocket?"
+	line "que pararás al"
+	cont "Team Rocket?"
 	done
 
 RadioTower4FFisherText:
-	text "Escuché la radio"
-	line "mientras estaba en"
-	cont "las ruinas."
+	text "Oí la radio cuando"
+	line "fui a las ruinas."
 
-	para "Allí oí una emi-"
-	line "sión muy extraña."
+	para "Había una emisión"
+	line "muy extraña."
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
 	text "Rosa: ¡Oh! ¡Eres"
 	line "mi salvación!"
 
-	para "¿Aceptarías esto"
-	line "en señal de agra-"
-	cont "decimiento?"
+	para "¡Toma esto en"
+	line "agradecimiento!"
 	done
 
 RadioTower4FDJMaryText_After:
@@ -130,9 +127,8 @@ GruntM10SeenText:
 	text "¿Planeas rescatar"
 	line "al Director?"
 
-	para "¡Será imposible,"
-	line "porque pienso ven-"
-	cont "certe!"
+	para "¡Es imposible!"
+	line "¡Pienso vencerte!"
 	done
 
 GruntM10BeatenText:
@@ -157,11 +153,9 @@ GruntF4SeenText:
 	text "¿Que si me parecen"
 	line "monos los #mon?"
 
-	para "Pensaré que mis"
-	line "#mon son monos…"
-
-	para "¡cuando venzan a"
-	line "los tuyos!"
+	para "¡Solo pensaré que"
+	line "lo son cuando"
+	cont "ganen a los tuyos!"
 	done
 
 GruntF4BeatenText:
