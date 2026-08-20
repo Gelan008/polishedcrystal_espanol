@@ -567,7 +567,7 @@ GenericTrainerGruntM16:
 	line "dónde están las"
 	cont "trampas."
 
-	para "¡Ármate de valor"
+	para "¡Ten mucho valor"
 	line "y sigue andando!"
 	done
 

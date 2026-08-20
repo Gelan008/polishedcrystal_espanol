@@ -225,7 +225,7 @@ LavenderTownYoungsterText:
 	cont "despertar a un"
 	cont "#mon dormido!"
 
-	para "¡Todo Entrenador"
+	para "¡Todo entrenador"
 	line "debe saberlo!"
 	done
 

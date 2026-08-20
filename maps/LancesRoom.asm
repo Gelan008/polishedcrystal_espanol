@@ -202,7 +202,7 @@ LanceScript:
 	line "respondido a tu"
 	cont "noble corazón."
 
-	para "Como Entrenador,"
+	para "Como entrenador,"
 	line "seguirás creciendo"
 	cont "junto a ellos."
 	done
@@ -228,7 +228,7 @@ LanceScript:
 	line "hacéis un gran"
 	cont "equipo."
 
-	para "Como Entrenador,"
+	para "Como entrenador,"
 	line "seguirás creciendo"
 	cont "junto a ellos."
 	done

@@ -1,19 +1,14 @@
 AlanAskNumber1Text:
-	text "Leer libros de"
-	line "texto vale la pena"
-	cont "de vez en cuando."
+	text "Leer los libros"
+	line "de texto viene"
+	cont "bien a veces."
 
-	para "Cuando leo"
-	line "y camino, tengo"
-	cont "que mirar abajo."
+	para "Al andar leyendo,"
+	line "miro al suelo y"
+	cont "veo objetos."
 
-	para "Así que veo"
-	line "objetos en el"
-	cont "suelo."
-
-	para "La próxima vez que"
-	line "encuentre algo, te"
-	cont "lo daré."
+	para "Si encuentro algo,"
+	line "¡te lo daré!"
 
 	para "¿Me das tu número"
 	line "de teléfono?"
@@ -21,11 +16,10 @@ AlanAskNumber1Text:
 
 AlanAskNumber2Text:
 	text "Si encuentro algo,"
-	line "será tuyo."
+	line "será para ti."
 
-	para "Así que, ¿me das"
-	line "tu número de"
-	cont "teléfono?"
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 AlanNumberAcceptedText:
@@ -38,13 +32,10 @@ AlanNumberAcceptedText:
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… Pensaba que"
+	text "Vaya… Creí que"
 	line "sería un buen"
-	cont "descanso para"
-
-	para "llamarte cuando"
-	line "estuviera"
-	cont "estudiando…"
+	cont "descanso llamarte"
+	cont "mientras estudio…"
 	done
 
 AlanPhoneFullText:

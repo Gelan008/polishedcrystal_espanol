@@ -167,7 +167,7 @@ VermilionGymBadgeGuy:
 	jumpthistextfaceplayer
 
 	text "En Kanto están los"
-	line "Entrenadores más"
+	line "entrenadores más"
 	cont "expertos."
 
 	para "Los Líderes de"
@@ -420,7 +420,7 @@ VermilionCityAdvancedTipsSignText:
 	text "¡Consejo Avanzado!"
 
 	para "¡En tu Ficha de"
-	line "Entrenador caben"
+	line "entrenador caben"
 	cont "16 Medallas!"
 	done
 

@@ -104,7 +104,7 @@ GenericTrainerSageJin:
 	cont "dueño también."
 
 	para "No, espera… ¡Si el"
-	line "Entrenador es"
+	line "entrenador es"
 	cont "fuerte, sus"
 	cont "#mon también"
 	cont "lo serán!"

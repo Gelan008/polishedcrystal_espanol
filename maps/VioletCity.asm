@@ -164,7 +164,7 @@ VioletCitySpinningEarl_MovementData:
 
 Text_EarlAsksIfYouBeatFalkner:
 	text "¡Hola!"
-	line "¿Entrenador ser?"
+	line "¿entrenador ser?"
 
 	para "¿A Líder Gimnasio,"
 	line "tú ganar hiciste?"

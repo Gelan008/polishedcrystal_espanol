@@ -235,7 +235,7 @@ ViridianCityTrainerTips2Text:
 	line "grande!"
 
 	para "No te limites a"
-	line "correr o volar;"
+	line "correr o volar,"
 	cont "¡explora bien!"
 
 	para "¡Descubrirás cosas"
@@ -244,7 +244,7 @@ ViridianCityTrainerTips2Text:
 
 TrainerHouseSignText:
 	text "Casa del"
-	line "Entrenador"
+	line ""
 
 	para "El club donde se"
 	line "baten los mejores"

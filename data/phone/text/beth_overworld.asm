@@ -2,37 +2,22 @@ BethAskNumber1Text:
 	text "Hacía tiempo que"
 	line "no perdía…"
 
-	para "Se te da muy"
-	line "bien luchar."
+	para "¡Se te da muy"
+	line "bien combatir!"
 
-	para "Deberíamos luchar"
-	line "de nuevo."
+	para "Luchar contra ti"
+	line "me hará mejorar."
 
-	para "Si desafío a"
-	line "alguien fuerte"
-
-	para "como tú, creo que"
-	line "mejoraré."
-
-	para "Así que, ¿qué me"
-	line "dices?"
-
-	para "¿Me podrías dar tu"
-	line "teléfono?"
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 BethAskNumber2Text:
-	text "Si desafío a"
-	line "alguien fuerte"
+	text "Luchar contra ti"
+	line "me hará mejorar."
 
-	para "como tú, creo que"
-	line "mejoraré."
-
-	para "Así que, ¿qué me"
-	line "dices?"
-
-	para "¿Me podrías dar tu"
-	line "teléfono?"
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 BethNumberAcceptedText:

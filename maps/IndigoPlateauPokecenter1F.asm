@@ -318,7 +318,7 @@ PokemonJournalGiovanniScript:
 	setflag ENGINE_READ_GIOVANNI_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición Especial:"
 	line "¡Jefe Giovanni!"

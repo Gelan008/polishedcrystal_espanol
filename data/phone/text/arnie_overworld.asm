@@ -1,33 +1,26 @@
 ArnieAskNumber1Text:
-	text "¿Tienes la"
-	line "sensación de que"
+	text "¿No crees que hay"
+	line "muchos #mon"
+	cont "raros por aquí?"
 
-	para "hay más #mon"
-	line "raros por aquí?"
+	para "¡Por eso siempre"
+	line "estoy buscando!"
 
-	para "Yo creo que sí,"
-	line "por eso siempre"
-	cont "estoy buscando."
+	para "Si veo uno, quiero"
+	line "contárselo a mis"
+	cont "amigos."
 
-	para "Si encuentro uno,"
-	line "quiero compartir"
-
-	para "la buena noticia"
-	line "con mis amigos."
-
-	para "¡Ya sé! Dame tu"
-	line "número de"
-	cont "teléfono."
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 ArnieAskNumber2Text:
 	text "Quiero avisar a"
-	line "la gente si veo"
+	line "todos si veo"
 	cont "#mon raros."
 
-	para "¡Dame tu número de"
-	line "teléfono, por"
-	cont "favor!"
+	para "¡Dame tu número,"
+	line "por favor!"
 	done
 
 ArnieNumberAcceptedText:
@@ -39,10 +32,9 @@ ArnieNumberAcceptedText:
 	done
 
 ArnieNumberDeclinedText:
-	text "¡Jo! ¡Yo que"
-	line "quería hablar a"
-	cont "alguien de mis"
-	cont "descubrimientos!"
+	text "¡Jo! ¡Yo quería"
+	line "contarle a alguien"
+	cont "mis hallazgos!"
 	done
 
 ArniePhoneFullText:

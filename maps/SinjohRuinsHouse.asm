@@ -60,7 +60,7 @@ SinjohRuinsHouseCynthiaAfterText:
 	text "Cintia: ¡Qué gran"
 	line "combate!"
 
-	para "Eres un Entrenador"
+	para "Eres un entrenador"
 	line "magnífico, y me"
 	cont "encantaría volver"
 	cont "a verte algún día."

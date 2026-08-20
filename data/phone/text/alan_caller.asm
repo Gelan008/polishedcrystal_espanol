@@ -3,52 +3,42 @@ AlanGettingStrongerText:
 	text_ram wStringBuffer4
 	text " se está"
 	line "haciendo fuerte,"
-
-	para "justo como yo"
-	line "calculaba!"
+	cont "tal como calculé!"
 	done
 
 AlanDefeatedMonText:
-	text "Por cierto,"
-	line "derrotamos a un"
-
-	para ""
+	text "El otro día vencí"
+	line "a un "
 	text_ram wStringBuffer4
-	text " salvaje"
-	line "el otro día."
+	text " salvaje."
 
-	para "¡Estudiar antes"
-	line "funcionó muy"
-	cont "bien!"
+	para "¡Mis estudios han"
+	line "dado sus frutos!"
 	done
 
 AlanLostAMonText:
-	text "Por cierto, un"
-	line ""
+	text "Por cierto, un "
 	text_ram wStringBuffer4
-	text " salvaje"
-	cont "se nos escapó"
-	cont "ayer."
+	text ""
+	line "salvaje se nos"
+	cont "escapó ayer."
 
-	para "Un error de"
-	line "cálculo por mi"
-	cont "parte…"
+	para "Fue un error de"
+	line "cálculo mío…"
 	done
 
 AlanBattleRematchText:
-	text "He estudiado mucho"
-	line "desde entonces,"
-
-	para "¡y he mejorado un"
-	line "montón!"
+	text "¡He estudiado"
+	line "mucho y he"
+	cont "mejorado bastante!"
 
 	para "Estoy por"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "¿Puedes venir y"
-	line "luchar conmigo?"
+	para "¿Te pasas a echar"
+	line "un combate?"
 	done
 
 AlanHangUpText:
@@ -56,16 +46,14 @@ AlanHangUpText:
 	done
 
 AlanFoundItemText:
-	text "Jejeje, ¡he"
-	line "encontrado algo"
-	cont "muy chulo!"
+	text "¡He encontrado"
+	line "algo muy chulo!"
 
 	para "¡Es para ti!"
-	line "¿Por qué no vienes"
-
-	para "a "
+	line "Ven a por ello a"
+	cont ""
 	text_ram wStringBuffer5
-	line "y lo recoges?"
+	text "."
 	done
 
 AlanHaventPickedUpAnythingText:
@@ -89,11 +77,9 @@ AlanReminderText:
 
 AlanComePickUpGiftText:
 	text "Tengo que hacer"
-	line "los deberes, así"
-
-	para "que, ¿puedes"
-	line "recoger tu regalo"
-	cont "de inmediato?"
+	line "los deberes, ¿te"
+	cont "pasas ya a por tu"
+	cont "regalo?"
 
 	para "¡Estoy en"
 	line ""

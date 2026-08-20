@@ -194,9 +194,9 @@ CopycatWorriedScript:
 
 	text "Copiona: ¿Perdón?"
 
-	para "¿Que yo no de-"
-	line "bería decidir qué"
-	cont "debes hacer?"
+	para "¿Que no debería"
+	line "decidir qué debes"
+	cont "hacer?"
 
 	para "Pero estoy muy"
 	line "preocupada…"
@@ -215,14 +215,13 @@ CopycatFoundLostItemScript:
 
 .FoundDollText:
 	text "Copiona: ¡Yupi!"
-	line "¡Ese es mi"
-	cont "Muñeco Clefairy!"
+	line "¡Es mi Muñeco"
+	cont "Clefairy!"
 
-	para "¿Ves el desgarro"
-	line "donde está cosida"
-
-	para "la pierna derecha?"
-	line "¡Esa es la prueba!"
+	para "¿Ves el remiendo"
+	line "en la pierna"
+	cont "derecha? ¡Esa es"
+	cont "la prueba!"
 	done
 
 CopycatReturnedLostItemScript:
@@ -239,21 +238,18 @@ CopycatGivePassScript:
 	line "el pase del"
 	cont "Magnetotrén."
 
-	para "Me lo dio el hom-"
-	line "bre de la compa-"
-	cont "ñía ferroviaria"
-
-	para "cuando derribaron"
-	line "nuestra antigua"
-	cont "casa por la"
-	cont "estación."
+	para "Me lo dio alguien"
+	line "del ferrocarril"
+	cont "cuando tiraron"
+	cont "nuestra casa para"
+	cont "hacer la estación."
 	done
 
 .GivePassText:
-	text "Vale. ¡Aquí tienes"
-	line "el Pase del Mag-"
-	cont "netotrén como"
-	cont "te prometí!"
+	text "¡Aquí tienes el"
+	line "Pase del"
+	cont "Magnetotrén, tal"
+	cont "como prometí!"
 	done
 
 CopycatFinalScript:
@@ -273,9 +269,9 @@ CopycatGreeting1Text:
 	line "¿Te gustan los"
 	cont "#mon?"
 
-	para "<PLAYER>: Eh, no,"
-	line "solo te pregun-"
-	cont "taba a ti."
+	para "<PLAYER>: No, solo"
+	line "te preguntaba"
+	cont "a ti."
 
 	para "<PLAYER>: ¿Eh?"
 	line "¡Qué rara eres!"
@@ -283,10 +279,9 @@ CopycatGreeting1Text:
 
 CopycatLostDoll1Text:
 	text "<PLAYER>: ¡Hola!"
-	line "He oído que per-"
-
-	para "diste tu Muñeco"
-	line "#mon favorito."
+	line "Oí que perdiste"
+	cont "tu Muñeco #mon"
+	cont "favorito."
 
 	para "<PLAYER>: Si lo en"
 	line "cuentro, ¿me darás"
@@ -318,9 +313,9 @@ CopycatGreeting2Text:
 	line "Te deben gustar"
 	cont "los #mon."
 
-	para "<PLAYER>: No, a mí"
-	line "no. Te he pregun-"
-	cont "tado a ti."
+	para "<PLAYER>: A mí no."
+	line "Te he preguntado"
+	cont "a ti."
 
 	para "<PLAYER>: ¿Perdón?"
 	line "¡Eres rarísima!"
@@ -328,18 +323,17 @@ CopycatGreeting2Text:
 
 CopycatLostDoll2Text:
 	text "<PLAYER>: Hola."
-	line "¿De verdad perdis-"
-	cont "te a tu Muñeco"
+	line "¿De verdad que has"
+	cont "perdido tu Muñeco"
 	cont "#mon?"
 
-	para "<PLAYER>: ¿En se-"
-	line "-rio me darás un"
+	para "<PLAYER>: ¿Seguro"
+	line "que me darás el"
+	cont "pase si lo"
+	cont "encuentro?"
 
-	para "pase de tren si lo"
-	line "encuentro?"
-
-	para "<PLAYER>: ¡Claro,"
-	line "lo buscaré!"
+	para "<PLAYER>: ¡Iré a"
+	line "buscarlo!"
 
 	para "¿Crees que lo per-"
 	line "diste estando en"
@@ -354,11 +348,9 @@ CopycatThanks2Text:
 	para "<PLAYER>: …"
 	line "¿Perdón?"
 
-	para "<PLAYER>: ¿De ver-"
-	line "dad es tan diver-"
-
-	para "tido copiar lo que"
-	line "digo y hago?"
+	para "<PLAYER>: ¿Tanto te"
+	line "divierte copiar lo"
+	cont "que digo y hago?"
 	done
 
 CopycatSpinMovement:
@@ -380,9 +372,7 @@ CopycatsDodrioScript:
 
 	text "Espejito, espejito"
 	line "mágico, ¿quién es"
-
-	para "la más hermosa de"
-	line "todas?"
+	cont "la más hermosa?"
 	done
 
 .Text1:

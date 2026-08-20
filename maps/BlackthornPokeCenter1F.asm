@@ -24,7 +24,7 @@ PokemonJournalClairScript:
 	setflag ENGINE_READ_CLAIR_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición Especial:"
 	line "¡Líder Débora!"

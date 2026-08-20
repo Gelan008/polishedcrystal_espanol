@@ -24,7 +24,7 @@ PokemonJournalChuckScript:
 	setflag ENGINE_READ_CHUCK_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición Especial:"
 	line "¡Líder Aníbal!"

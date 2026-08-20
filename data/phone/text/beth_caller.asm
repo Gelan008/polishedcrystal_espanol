@@ -4,61 +4,48 @@ BethExhilaratingRideText:
 	text_ram wStringBuffer4
 	text "?"
 
-	para ""
-	text_ram wStringBuffer4
-	text " corre"
-	line "muy rápido."
+	para "¡Corre que se las"
+	line "pela!"
 
-	para "Es emocionante"
-	line "montar en su"
-
-	para "espalda cuando"
-	line "empieza a correr."
+	para "Es emocionante ir"
+	line "sobre su lomo al"
+	cont "galopar veloz."
 	done
 
 BethDefeatedMonText:
-	text "Oh, ¿has visto"
-	line "algún "
+	text "¿Has visto antes"
+	line "a algún "
 	text_ram wStringBuffer4
-	cont "antes?"
+	text "?"
 
 	para "Acabo de luchar"
 	line "contra uno…"
 
-	para "Era mucho más"
-	line "rápido de lo que"
-	cont "esperaba."
+	para "Era más veloz de"
+	line "lo que esperaba."
+	cont "¡Me sorprendió!"
 
-	para "Me quedé un poco"
-	line "en shock."
-
-	para "Pero gané,"
-	line "por supuesto."
+	para "Pero gané yo, por"
+	line "supuesto."
 	done
 
 BethLostAMonText:
-	text "Oh, acabo de ver"
-	line "un "
+	text "Acabo de ver a un"
+	line ""
 	text_ram wStringBuffer4
 	text " salvaje."
 
-	para "Intentaba"
-	line "atraparlo cuando"
+	para "Iba a atraparlo y"
+	line "vi que no me"
+	cont "quedaban Balls."
 
-	para "vi que me había"
-	line "quedado sin #"
-	cont "Balls."
+	para "Si no revisas la"
+	line "Mochila, te puedes"
+	cont "quedar sin nada en"
+	cont "el peor momento."
 
-	para "Si no revisas tus"
-	line "objetos, puedes"
-
-	para "quedarte sin ellos"
-	line "en el peor"
-	cont "momento."
-
-	para "Espero que"
-	line "aprendas de mi"
-	cont "error."
+	para "¡Aprende de mi"
+	line "error!"
 	done
 
 BethBattleRematchText:
@@ -66,13 +53,11 @@ BethBattleRematchText:
 	line "¡Esta vez voy a"
 	cont "ganar yo!"
 
-	para "Te estaré"
-	line "esperando en"
-
-	para ""
+	para "Te espero en"
+	line ""
 	text_ram wStringBuffer5
 	text "."
-	line "Búscame, ¿vale?"
+	cont "¡Búscame allí!"
 	done
 
 BethHangUpText:
@@ -89,12 +74,10 @@ BethReminderText:
 	line "¿Qué pasa?"
 
 	para "¿Has olvidado"
-	line "nuestro trato?"
+	line "nuestro combate?"
 
-	para ""
+	para "¡Te espero en"
+	line ""
 	text_ram wStringBuffer5
-	text "."
-
-	para "Ahí es donde te"
-	line "estoy esperando."
+	text "!"
 	done

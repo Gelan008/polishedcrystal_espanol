@@ -392,7 +392,7 @@ YellowForestYellowGreetingText:
 	cont "donde atrapé a mi"
 	cont "primer #mon."
 
-	para "El Entrenador que"
+	para "El entrenador que"
 	line "me ayudó a cazarlo"
 	cont "me dijo algo:"
 

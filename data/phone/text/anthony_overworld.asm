@@ -1,29 +1,24 @@
 AnthonyAskNumber1Text:
-	text "Soy Montañero, así"
-	line "que suelo ir mucho"
-
-	para "a las montañas y a"
-	line "las cuevas."
+	text "Soy Montañero y"
+	line "suelo ir mucho por"
+	cont "montañas y cuevas."
 
 	para "A veces veo"
 	line "#mon muy raros."
 
-	para "Podría llamarte la"
-	line "próxima vez que"
-	cont "vea uno."
+	para "Podría avisarte si"
+	line "vuelvo a ver uno."
 
-	para "¿Te apetece"
-	line "intercambiar"
-	cont "números?"
+	para "¿Nos damos los"
+	line "números?"
 	done
 
 AnthonyAskNumber2Text:
 	text "Te llamaré cuando"
 	line "vea #mon raros."
 
-	para "¿Te apetece"
-	line "intercambiar"
-	cont "números?"
+	para "¿Nos damos los"
+	line "números?"
 	done
 
 AnthonyNumberAcceptedText:

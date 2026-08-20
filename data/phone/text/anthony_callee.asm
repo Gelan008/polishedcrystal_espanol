@@ -63,12 +63,11 @@ AnthonyGenericText:
 
 	para "Mi "
 	text_ram wStringBuffer4
-	text " y"
-	line "yo tenemos energía"
+	text " y yo"
+	line "tenemos energía"
+	cont "de sobra."
 
-	para "de sobra. Subimos"
-	line "montañas todos los"
-
-	para "días para quemar"
-	line "toda esa energía."
+	para "¡Subimos montañas"
+	line "cada día para"
+	cont "gastarla toda!"
 	done

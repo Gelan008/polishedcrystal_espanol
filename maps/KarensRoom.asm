@@ -102,7 +102,7 @@ KarenScript:
 	text "Vaya, qué bien se"
 	line "te da. Me gusta"
 	cont "eso en un"
-	cont "Entrenador."
+	cont "entrenador."
 	done
 
 .AfterText:
@@ -114,7 +114,7 @@ KarenScript:
 	line "egoísta de la"
 	cont "gente."
 
-	para "Un buen Entrenador"
+	para "Un buen entrenador"
 	line "debería intentar"
 	cont "ganar con sus"
 	cont "favoritos."

@@ -1,6 +1,5 @@
 BeverlyAnswerPhoneText:
-	text "Hola, soy"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
 
@@ -9,8 +8,7 @@ BeverlyAnswerPhoneText:
 	done
 
 BeverlyAnswerPhoneDayText:
-	text "Hola, soy"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
 
@@ -19,8 +17,7 @@ BeverlyAnswerPhoneDayText:
 	done
 
 BeverlyAnswerPhoneNiteText:
-	text "Hola, soy"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
 

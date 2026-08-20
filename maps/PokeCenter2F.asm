@@ -169,11 +169,9 @@ LinkReceptionistScript_DoTradeOrBattle:
 
 LinkReceptionistScript_HasMail:
 	writethistext
-		text "Lo siento, pero"
-		line "no es posible"
-
-		para "intercambiar un"
-		line "#mon con Carta"
+		text "Lo siento, pero no"
+		line "puedes cambiar un"
+		cont "#mon con Carta"
 		cont "ahora mismo."
 		done
 	waitbutton
@@ -271,16 +269,15 @@ Text_BattleReceptionistIntro:
 	done
 
 Text_TradeReceptionistIntro:
-	text "Te damos la bien-"
-	line "venida al Centro"
-	cont "de Cambio."
+	text "¡Bienvenido al"
+	line "Centro de Cambio!"
 
-	para "Aquí puedes inter-"
+	para "Aquí puedes"
 	line "cambiar #mon"
 	cont "con un amigo."
 
-	para "¿Te gustaría ha-"
-	line "cer un cambio?"
+	para "¿Te gustaría"
+	line "hacer un cambio?"
 	done
 
 Text_FriendNotReady:
@@ -300,12 +297,12 @@ Text_PleaseWait:
 
 Text_LinkTimedOut:
 	text "Se ha cerrado la"
-	line "conexión por inac-"
-	cont "tividad."
+	line "conexión por no"
+	cont "haber actividad."
 
-	para "Habla con tu ami-"
-	line "go y vuelve a in-"
-	cont "tentarlo."
+	para "Habla con tu"
+	line "amigo y vuelve a"
+	cont "intentarlo."
 	prompt
 
 Text_PleaseComeAgain:
@@ -326,9 +323,8 @@ Text_CantLinkToThePast:
 Text_OldVersionDetected:
 	text "Te has conectado"
 	line "a una versión"
-
-	para "antigua de"
-	line "Polished Crystal."
+	cont "antigua de"
+	cont "Polished Crystal."
 	prompt
 
 Text_WrongGameID:
@@ -341,35 +337,27 @@ Text_WrongVersion:
 	text "La versión del"
 	line "juego no coincide."
 
-	para "Para jugar en el"
-	line "Coliseo de Enla-"
-
-	para "ce, las versiones"
-	line "deben coincidir."
+	para "Ambas versiones"
+	line "deben coincidir"
+	cont "para poder jugar."
 	prompt
 
 Text_WrongMinVersion:
-	text "Tu juego no cum-"
-	line "ple el requisito"
-
-	para "de versión mínima"
-	line "del otro juego."
+	text "Tu juego no cumple"
+	line "la versión mínima"
+	cont "del otro juego."
 	prompt
 
 Text_OtherPlayerWrongMinVersion:
-	text "El otro sistema de"
-	line "juego no cumple el"
-
-	para "requisito de ver-"
-	line "sión mínima."
+	text "El otro juego no"
+	line "cumple el nivel de"
+	cont "versión mínima."
 	prompt
 
 Text_WrongOptions:
-	text "Tus opciones de"
-	line "juego no son com-"
-
-	para "patibles con las"
-	line "del otro jugador."
+	text "Tus opciones no"
+	line "son compatibles"
+	cont "con las del rival."
 	prompt
 
 Text_IncompatibleRooms:
@@ -378,7 +366,7 @@ Text_IncompatibleRooms:
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "Lo siento, la Cáp-"
-	line "sula del Tiempo no"
-	cont "está operativa."
+	text "La Cápsula del"
+	line "Tiempo no está"
+	cont "disponible."
 	done

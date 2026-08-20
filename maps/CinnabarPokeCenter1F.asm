@@ -22,7 +22,7 @@ PokemonJournalBlaineScript:
 	setflag ENGINE_READ_BLAINE_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición Especial:"
 	line "¡Líder Blaine!"

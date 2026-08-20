@@ -24,7 +24,7 @@ PokemonJournalBugsyScript:
 	setflag ENGINE_READ_BUGSY_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición Especial:"
 	line "¡Líder Antón!"

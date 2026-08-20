@@ -117,7 +117,7 @@ CooltrainerfEmmaSeenText:
 
 	para "¡Eso es lo que"
 	line "hace un auténtico"
-	cont "Entrenador!"
+	cont "entrenador!"
 	done
 
 CooltrainerfEmmaBeatenText:

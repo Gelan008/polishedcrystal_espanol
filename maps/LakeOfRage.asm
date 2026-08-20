@@ -169,7 +169,7 @@ LakeOfRageLanceScript:
 
 	para "¿Eres <PLAYER>?"
 	line "Soy Lance, otro"
-	cont "Entrenador."
+	cont "entrenador."
 
 	para "Oí esos rumores y"
 	line "vine a investigar…"
@@ -320,7 +320,7 @@ GenericTrainerCooltrainermAaron:
 	done
 
 .SeenText:
-	text "Si un Entrenador"
+	text "Si un entrenador"
 	line "ve a otro,"
 
 	para "tiene que retarle."

@@ -45,21 +45,20 @@ VictoryRoadGateBadgeCheckScript:
 	end
 	
 VictoryRoadGateOfficerText:
-	text "Solo los entrena-"
-	line "dores que hayan"
+	text "Solo pueden pasar"
+	line "los entrenadores"
+	cont "que hayan probado"
+	cont "su gran valía."
 
-	para "demostrado su va-"
-	line "lía pueden pasar."
-
-	para "¿Aceptaste el de-"
-	line "safío de los Gim-"
-	cont "nasios de Johto?"
+	para "¿Afrontaste el"
+	line "reto de Gimnasios"
+	cont "en Johto?"
 
 	para "Los guardias de"
-	line "adelante comproba-"
-	cont "rán tus Medallas."
+	line "ahí comprobarán"
+	cont "tus Medallas."
 
-	para "Pasa, pues."
+	para "Adelante, pasa."
 	done
 
 VictoryRoadGateLeftBlackBeltText:
@@ -76,8 +75,6 @@ VictoryRoadGateRightBlackBeltText:
 	line "#mon, verdad?"
 
 	para "El Alto Mando es"
-	line "terriblemente"
-
-	para "fuerte, ¡y ya te"
-	line "está esperando!"
+	line "muy fuerte, ¡y ya"
+	cont "te está esperando!"
 	done

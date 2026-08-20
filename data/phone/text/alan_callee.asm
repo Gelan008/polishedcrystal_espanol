@@ -51,9 +51,7 @@ AlanGenericText:
 	cont "tus #mon?"
 
 	para "Leí en un libro"
-	line "que deberías"
-
-	para "criar tus #mon"
-	line "atrapados con"
-	cont "amor y cuidado."
+	line "que debes criar a"
+	cont "todos tus #mon"
+	cont "con mucho cariño."
 	done

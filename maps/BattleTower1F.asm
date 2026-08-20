@@ -395,7 +395,7 @@ PokemonJournalPalmerScript:
 	setflag ENGINE_READ_PALMER_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición Especial:"
 	line "¡Amo Torre"

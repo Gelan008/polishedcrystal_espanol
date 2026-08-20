@@ -43,26 +43,23 @@ AcademyEarl:
 	iffalse_jumpopenedtext AcademyEarlNoMoreToTeachText
 	jumpthisopenedtext
 
-	text "¡Bien! ¡Enseñar-"
-	line "te, yo haré!"
+	text "¡Bien! ¡Yo te"
+	line "enseñaré!"
 
-	para "Si #mon salen"
-	line "en combate aunque"
+	para "Si los #mon"
+	line "luchan aunque sea"
+	cont "un momento, algo"
+	cont "de Exp. reciben."
 
-	para "sea un momento,"
-	line "algo de Exp."
-	cont "reciben."
+	para "Pon un #mon"
+	line "débil primero en"
+	cont "la lista."
 
-	para "Al inicio de la"
-	line "lista pon #mon"
-	cont "débil."
+	para "¡Cámbialo rápido"
+	line "en combate!"
 
-	para "¡En combate cam-"
-	line "biar rápido!"
-
-	para "¡Así, #mon dé-"
-	line "bil, fuerte se"
-	cont "hace!"
+	para "¡Así el débil se"
+	line "hará más fuerte!"
 	done
 
 EarlsPokemonAcademyGameboyKid1Script:
@@ -157,15 +154,13 @@ PokemonJournalWalkerScript:
 
 	text "Revista #mon"
 
-	para "Edición sobre"
-	line "el ExLíder Wayne!"
+	para "Edición Especial:"
+	line "¡El ExLíder Wayne!"
 
-	para "El padre de Pega-"
-	line "so, Wayne, se ru-"
-
-	para "morea que deam-"
-	line "bula por Johto"
-	cont "como vagabundo."
+	para "Se rumorea que el"
+	line "padre de Pegaso,"
+	cont "Wayne, vaga por"
+	cont "todo Johto."
 	done
 
 AcademyEarlSpinMovement:
@@ -192,25 +187,24 @@ AcademyEarlIntroText:
 
 	para "¡Enseñarte yo"
 	line "haré a ser mejor"
-	cont "Entrenador!"
+	cont "entrenador!"
 
-	para "¿Qué saber quie-"
-	line "res? ¿Ganador ser"
-	cont "es lo que quieres?"
+	para "¿Qué quieres"
+	line "saber? ¿Ganador"
+	cont "quieres ser?"
 	done
 
 AcademyEarlTeachHowToWinText:
-	text "¡Bien! ¡Enseñar-"
-	line "te, yo haré!"
+	text "¡Bien! ¡Yo te"
+	line "enseñaré!"
 
-	para "En combate, #-"
-	line "mon primero de la"
-	cont "lista sale antes."
+	para "En combate, el"
+	line "#mon primero"
+	cont "sale antes."
 
-	para "¡Cambiar el orden"
-	line "de la lista, fá-"
-	cont "cil el combate"
-	cont "hace, quizás!"
+	para "¡Cambiar orden"
+	line "de lista fácil el"
+	cont "combate hace!"
 
 	para "¿Más de mí oír"
 	line "quieres?"
@@ -224,8 +218,8 @@ AcademyEarlTeachMoreText:
 
 
 AcademyEarlNoMoreToTeachText:
-	text "¡Oh! ¡Listo alum-"
-	line "no eres! ¡Nada"
+	text "¡Oh! ¡Alumno muy"
+	line "listo eres! ¡Nada"
 	cont "más enseño yo!"
 
 	para "¡Bueno con #mon"
@@ -233,13 +227,12 @@ AcademyEarlNoMoreToTeachText:
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "Estoy tomando no-"
-	line "tas de la clase"
-	cont "del profesor."
+	text "Tomo notas de la"
+	line "clase del"
+	cont "profesor."
 
-	para "Mejor copio tam-"
-	line "bién lo de la"
-	cont "pizarra."
+	para "Copiaré también"
+	line "lo de la pizarra."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
@@ -259,8 +252,8 @@ EarlsPokemonAcademyYoungster2Text:
 	line "Baya se cura solo"
 	cont "en combate."
 
-	para "Otros muchos ob-"
-	line "jetos pueden ser"
+	para "Muchos otros"
+	line "objetos pueden ser"
 	cont "equipados…"
 
 	para "Vaya lío tomar"
@@ -268,32 +261,29 @@ EarlsPokemonAcademyYoungster2Text:
 	done
 
 AcademyBlackboardText:
-	text "La pizarra des-"
-	line "cribe cambios de"
-
-	para "estado #mon en"
-	line "combate."
+	text "La pizarra explica"
+	line "estados #mon en"
+	cont "combate."
 	done
 
 AcademyPoisonText:
 	text "Si es envenenado,"
 	line "el #mon pierde"
-	cont "PS gradualmente."
+	cont "PS poco a poco."
 
-	para "El veneno persis-"
-	line "te tras el comba-"
-	cont "te, y se pierden"
-	cont "PS al caminar."
+	para "El veneno sigue"
+	line "tras el combate y"
+	cont "quita PS al andar."
 
 	para "Para curarlo, usa"
 	line "un Antídoto."
 	done
 
 AcademyParalysisText:
-	text "La parálisis re-"
-	line "duce Velocidad y"
-	cont "puede impedir"
-	cont "moverse."
+	text "La parálisis baja"
+	line "la Velocidad y"
+	cont "puede impedir el"
+	cont "movimiento."
 
 	para "Persiste tras el"
 	line "combate. Usa un"
@@ -305,9 +295,8 @@ AcademySleepText:
 	line "tu #mon no"
 	cont "puede atacar."
 
-	para "Un #mon dormi-"
-	line "do no despierta"
-	cont "tras el combate."
+	para "No despertará al"
+	line "acabar el combate."
 
 	para "Despiértalo con"
 	line "un Despertar."
@@ -316,22 +305,19 @@ AcademySleepText:
 AcademyBurnText:
 	text "Una quemadura"
 	line "consume PS poco"
-	cont "a poco."
-
-	para "También reduce el"
-	line "poder de ataque."
+	cont "a poco y baja el"
+	cont "Ataque."
 
 	para "Persiste tras el"
 	line "combate."
 
-	para "Usa una Antique-"
-	line "madura para"
-	cont "curarlo."
+	para "Usa Antiquemar"
+	line "para curarlo."
 	done
 
 AcademyFreezeText:
-	text "Si tu #mon es-"
-	line "tá congelado, no"
+	text "Si tu #mon está"
+	line "congelado, no"
 	cont "puede hacer nada."
 
 	para "Sigue congelado"
@@ -357,13 +343,12 @@ AcademyNotebookText:
 
 AcademyNotebookText1:
 	text "Antes de lanzar"
-	line "una # Ball, de-"
-	cont "bilita al rival."
+	line "la # Ball, baja"
+	cont "la salud al rival."
 
-	para "Un #mon envene-"
-	line "nado o quemado es"
-	cont "más fácil de"
-	cont "atrapar."
+	para "Envenenado o"
+	line "quemado es más"
+	cont "fácil de atrapar."
 
 	para "¿Seguir leyendo?"
 	done
@@ -372,38 +357,31 @@ AcademyNotebookText2:
 	text "Algunos ataques"
 	line "causan confusión."
 
-	para "La confusión pue-"
-	line "de hacer que un"
-	cont "#mon se ataque"
+	para "La confusión puede"
+	line "hacer que se dañe"
 	cont "a sí mismo."
 
-	para "Salir del combate"
-	line "elimina cualquier"
-	cont "confusión."
+	para "Huir del combate"
+	line "cura la confusión."
 
 	para "¿Seguir leyendo?"
 	done
 
 AcademyNotebookText3:
-	text "La gente que cap-"
-	line "tura y usa #mon"
-
-	para "en combate son"
-	line "Entrenadores"
-	cont "#mon."
+	text "Quien captura y"
+	line "usa #mon en"
+	cont "combate es un"
+	cont "entrenador #mon"
 
 	para "Deben visitar"
 	line "Gimnasios #mon"
+	cont "y vencer a otros."
 
-	para "y derrotar a"
-	line "otros Entrenado-"
-	cont "res."
+	para "La otra página…"
+	line "¡está en blanco!"
 
-	para "La siguiente pá-"
-	line "gina… ¡Blanca!"
-
-	para "Chico: Je-je-je…"
+	para "Chico: Jejeje…"
 
 	para "No he escrito"
-	line "más aún…"
+	line "nada más aún…"
 	done

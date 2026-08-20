@@ -131,11 +131,11 @@ Leaf:
 
 LeafText: ; text > text
 	text "…………"
-	line "…………!"
+	line "¡…………!"
 	done
 
 LeafWinLossText: ; text > text
-	text "…!"
+	text "¡…!"
 	done
 
 LeafAfterText: ; text > text

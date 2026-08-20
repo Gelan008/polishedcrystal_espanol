@@ -30,9 +30,8 @@ GenericTrainerKimono_girlNaoko:
 	generictrainer KIMONO_GIRL, NAOKO, EVENT_BEAT_KIMONO_GIRL_NAOKO, Kimono_girlNaokoSeenText, Kimono_girlNaokoBeatenText
 
 	text "He disfrutado este"
-	line "combate. Me gus-"
-	cont "taría volver a"
-	cont "verte."
+	line "combate. Ojalá"
+	cont "volvamos a vernos."
 	done
 
 GenericTrainerKimono_girlSayo:
@@ -42,11 +41,9 @@ GenericTrainerKimono_girlSayo:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "El ritmo es impor-"
-	line "tante tanto al"
-
-	para "bailar como con"
-	line "los #mon."
+	text "El ritmo importa"
+	line "tanto al bailar"
+	cont "como con #mon."
 	done
 
 GenericTrainerKimono_girlZuki:
@@ -68,12 +65,11 @@ GenericTrainerKimono_girlKuni:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Entrené mucho, así"
-	line "que pensaba que"
+	text "Entrené mucho y"
+	line "creí que era muy"
+	cont "buena entrenadora."
 
-	para "era buena entre-"
-	line "nadora. Supongo"
-	cont "que no."
+	para "Veo que no…"
 	done
 
 GenericTrainerKimono_girlMiki:
@@ -83,15 +79,12 @@ GenericTrainerKimono_girlMiki:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Puedo seguir bai-"
-	line "lando porque hay"
+	text "Sigo bailando"
+	line "porque a la gente"
+	cont "le gusta mi arte."
 
-	para "gente que dis-"
-	line "fruta de lo que"
-	cont "hago."
-
-	para "Mis #mon tam-"
-	line "bién me animan."
+	para "¡Y mis #mon me"
+	line "animan también!"
 	done
 
 DanceTheaterSurfGuy:
@@ -128,26 +121,24 @@ DanceTheaterSurfGuy:
 .KimonoGirlsUndefeated:
 	jumpthisopenedtext
 
-	text "¡Oye! Si puedes"
-	line "derrotar a todas"
-
-	para "las Chicas Kimono,"
-	line "te daré un regalo."
+	text "¡Oye! Si vences a"
+	line "todas las Chicas"
+	cont "Kimono, te daré un"
+	cont "bonito regalo."
 	done
 
 MapDanceTheatreSignpost1Script:
 	jumpthistext
 
-	text "Es un cartel ele-"
-	line "gante decorado"
-	cont "con flores."
+	text "Un cartel muy"
+	line "elegante, lleno"
+	cont "de flores."
 	done
 
 Kimono_girlNaokoSeenText:
-	text "Tienes unos #"
-	line "mon preciosos."
-	cont "¿Puedo verlos en"
-	cont "combate?"
+	text "Tus #mon son"
+	line "preciosos. ¿Puedo"
+	cont "verlos en combate?"
 	done
 
 Kimono_girlNaokoBeatenText:
@@ -159,8 +150,8 @@ Kimono_girlSayoSeenText:
 	text "Siempre bailo con"
 	line "mis #mon."
 
-	para "Por supuesto, tam-"
-	line "bién los entreno."
+	para "Y por supuesto,"
+	line "¡también entrenan!"
 	done
 
 Kimono_girlSayoBeatenText:
@@ -182,9 +173,9 @@ Kimono_girlZukiBeatenText:
 	done
 
 Kimono_girlKuniSeenText:
-	text "Oh, eres un entre-"
-	line "nador muy mono."
-	cont "¿Quieres luchar?"
+	text "Eres un entrenador"
+	line "muy mono. ¿Quieres"
+	cont "luchar?"
 	done
 
 Kimono_girlKuniBeatenText:
@@ -206,31 +197,24 @@ Kimono_girlMikiBeatenText:
 
 SurfGuyNeverLeftAScratchText:
 	text "Las Chicas Kimono"
-	line "no solo son buenas"
+	line "bailan muy bien y"
+	cont "tienen talento con"
+	cont "los #mon."
 
-	para "bailarinas, tam-"
-	line "bién tienen ta-"
-	cont "lento para los"
-	cont "#mon."
-
-	para "Siempre las de-"
-	line "safío, pero ni si-"
-
-	para "quiera les he"
-	line "hecho un rasguño.."
+	para "Siempre las reto,"
+	line "¡pero nunca les he"
+	cont "hecho un rasguño!"
 	done
 
 SurfGuyLikeADanceText:
-	text "Tu forma de com-"
-	line "batir es como ver"
-	cont "un baile."
+	text "Verte combatir es"
+	line "como ver un baile."
 
-	para "¡Fue todo un es-"
-	line "pectáculo de ver!"
+	para "¡Ha sido todo un"
+	line "gran espectáculo!"
 
-	para "Quiero que tengas"
-	line "esto. No te preo-"
-	cont "cupes, ¡tómalo!"
+	para "Toma esto. ¡No te"
+	line "preocupes y úsalo!"
 	done
 
 SurfGuyElegantKimonoGirlsText:
@@ -246,53 +230,45 @@ RhydonText:
 	done
 
 DanceTheatreCooltrainerMText:
-	text "Ese hombre siem-"
-	line "pre está con su"
+	text "Ese hombre va"
+	line "siempre con su"
 	cont "Rhydon."
 
-	para "Dice que quiere un"
+	para "Dice que busca un"
 	line "#mon que sepa"
 	cont "hacer Surf y"
 	cont "bailar."
 
-	para "¿Está intentando"
-	line "crear un #mon"
-	cont "de natación"
-	cont "sincronizada?"
+	para "¿Querrá hacer un"
+	line "baile sincronizado"
+	cont "en el agua?"
 	done
 
 DanceTheatreGrannyText:
 	text "Las Chicas Kimono"
-	line "son muy hermosas.."
+	line "son muy hermosas."
 
-	para "Pero tienen que"
-	line "pasar por un"
-	cont "duro entrenamien-"
-	cont "to."
+	para "Pero pasan por un"
+	line "entrenamiento muy"
+	cont "duro."
 
 	para "Y deben aprender"
-	line "a seguir las"
-
-	para "costumbres antes"
-	line "de aparecer en"
-	cont "público."
+	line "las costumbres al"
+	cont "salir en público."
 
 	para "Pero si amas algo,"
 	line "todo es posible."
 	done
 
 DanceTheatreLadyText:
-	text "Eevee puede evo-"
-	line "lucionar en Lea-"
-	cont "feon, Glaceon o"
-	cont "Sylveon,"
+	text "Eevee evoluciona"
+	line "en Leafeon,"
+	cont "Glaceon o Sylveon,"
 
 	para "pero no veo a"
 	line "ninguno aquí."
 
-	para "Me pregunto si las"
-	line "Chicas Kimono que"
-
-	para "los usan estarán"
-	line "en otra parte."
+	para "¿Estarán en otra"
+	line "parte las Chicas"
+	cont "que los usan?"
 	done

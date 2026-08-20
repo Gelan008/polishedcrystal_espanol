@@ -169,7 +169,7 @@ TrainerHouseB1FIntroText:
 	line "Sala de Combates!"
 
 	para "Puedes luchar con"
-	line "un Entrenador una"
+	line "un entrenador una"
 	cont "vez al día."
 	done
 
@@ -194,7 +194,7 @@ TrainerHouseB1FGoRightInText:
 
 TrainerHouseB1FPleaseComeAgainText:
 	text "Lo siento. Solo"
-	line "los Entrenadores"
+	line "los entrenadores"
 	cont "que luchen tienen"
 	cont "acceso permitido."
 	done

@@ -1,7 +1,6 @@
 ArnieMonIsSoCuteText:
-	text "¡Siempre estoy"
-	line "con mi"
-	cont ""
+	text "¡Siempre estoy con"
+	line "mi "
 	text_ram wStringBuffer4
 	text "!"
 
@@ -10,31 +9,27 @@ ArnieMonIsSoCuteText:
 	done
 
 ArnieDefeatedMonText:
-	text "Cambiando de tema,"
-	line "he visto a este"
-
-	para ""
+	text "Por cierto, vi a"
+	line "un "
 	text_ram wStringBuffer4
 	text " por"
-	line "primera vez."
+	cont "primera vez."
 
-	para "Fue muy fácil"
-	line "ganarle, la"
-	cont "verdad."
+	para "¡La verdad es que"
+	line "fue muy fácil"
+	cont "vencerlo!"
 	done
 
 ArnieLostAMonText:
-	text "Me preguntaba,"
-	line "¿por casualidad"
-	cont "tienes a "
+	text "¿Por casualidad"
+	line "tienes a un"
+	cont ""
 	text_ram wStringBuffer4
 	text "?"
 
 	para "No consigo atrapar"
-	line "uno. Me pregunto"
-
-	para "cuál será su"
-	line "debilidad."
+	line "ninguno. ¿Cuál"
+	cont "será su debilidad?"
 	done
 
 ArnieBattleRematchText:
@@ -42,12 +37,11 @@ ArnieBattleRematchText:
 	line "nuestros #mon!"
 
 	para "¡No perderé contra"
-	line "ti luchando ni en"
+	line "ti ni aquí ni en"
+	cont "el Concurso de"
+	cont "Bichos!"
 
-	para "el Concurso de"
-	line "Captura de Bichos!"
-
-	para "¡Estaré aquí, en"
+	para "¡Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
@@ -59,22 +53,20 @@ ArnieHangUpText:
 	done
 
 ArnieSwarmText:
-	text "¡Chico, cuánto me"
-	line "alegro de haberte"
-	cont "llamado!"
+	text "¡Cuánto me alegro"
+	line "de hablar contigo!"
 
-	para "¡Un buen grupo de"
+	para "¡Una plaga de"
 	line ""
 	text_ram wStringBuffer4
-	text " han"
-
-	para "aparecido por"
-	line ""
+	text " ha"
+	cont "salido en"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
 
-	para "¡Tienes que"
-	line "ver esto!"
+	para "¡Tienes que venir"
+	line "a verlo!"
 	done
 
 ArnieHaventSeenRareMonText:
@@ -91,9 +83,9 @@ ArnieReminderText:
 	text "Oye, ¿dónde estás"
 	line "ahora?"
 
-	para "Luchemos. Te"
-	line "estaré esperando"
-	cont "en "
+	para "¡Luchemos! Te"
+	line "espero en"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
 	done

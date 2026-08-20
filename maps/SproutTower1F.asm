@@ -145,7 +145,7 @@ KimonoGirlMakoScript:
 	done
 
 .IntroText:
-	text "Hola, Entrenador."
+	text "Hola, entrenador."
 
 	para "Soy una Chica"
 	line "Kimono."

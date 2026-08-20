@@ -23,7 +23,7 @@ IndigoPlateauSignText:
 	text "Meseta Añil"
 
 	para "¡La meta final de"
-	line "los Entrenadores!"
+	line "los entrenadores!"
 
 	para "Sede de la"
 	line "Liga #mon"

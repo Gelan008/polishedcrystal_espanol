@@ -32,7 +32,7 @@ TrainerHouse1FReceptionistText:
 	cont "Verde."
 
 	para "Solo abrimos para"
-	line "los Entrenadores."
+	line "los entrenadores."
 
 	para "Abajo podrás"
 	line "luchar contra los"
@@ -59,7 +59,7 @@ TrainerHouse1FCooltrainerFText:
 	cont "práctica."
 
 	para "Me gustaría ver a"
-	line "un Entrenador de"
+	line "un entrenador de"
 	cont "Johto en acción."
 	done
 

@@ -114,7 +114,7 @@ KimonoGirlAmiScript:
 	done
 
 .AfterText:
-	text "Eres un Entrenador"
+	text "Eres un entrenador"
 	line "muy equilibrado."
 
 	para "¡Por favor, haz"

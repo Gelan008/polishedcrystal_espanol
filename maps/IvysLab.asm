@@ -253,7 +253,7 @@ PokemonJournalProfIvyScript:
 	setflag ENGINE_READ_PROF_IVY_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición: ¡Prof."
 	line "#mon Ivy!"

@@ -1730,7 +1730,7 @@ JasmineFinalPkmnText:
 
 PryceFinalPkmnText:
 	text "Humm… Eres un"
-	line "buen Entrenador."
+	line "buen entrenador."
 	prompt
 
 ClairFinalPkmnText:

@@ -21,7 +21,7 @@ PokemonJournalBillScript:
 	setflag ENGINE_READ_BILL_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición Especial:"
 	line "¡Pokémaníaco Bill!"

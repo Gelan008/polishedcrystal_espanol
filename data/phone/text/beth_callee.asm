@@ -1,29 +1,26 @@
 BethAnswerPhoneText:
-	text "Hola, soy"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
-	para "Oh, <PLAYER>."
+
+	para "¡Oh, <PLAYER>!"
 	line "Buenos días."
-	para ""
 	done
 
 BethAnswerPhoneDayText:
-	text "Hola, soy"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh. Hola <PLAYER>."
+	para "¡Hola, <PLAYER>!"
 	done
 
 BethAnswerPhoneNiteText:
-	text "Hola, soy"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh, <PLAYER>."
+	para "¡Oh, <PLAYER>!"
 	line "Buenas noches."
 	done
 
@@ -56,23 +53,17 @@ BethGreetNiteText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Espero que"
-	line "estuvieras"
-	cont "despierto."
+	para "Espero que no"
+	line "estés durmiendo."
 	done
 
 BethGenericText:
-	text "¿Eres de los que"
-	line "van a los Centros"
+	text "¿Vas mucho por los"
+	line "Centros #mon?"
 
-	para "#mon a menudo?"
-
-	para "Yo voy todos los"
-	line "días. Vigilar la"
-
-	para "salud de tus #mon"
-	line "es una parte"
-
-	para "básica de ser un"
-	line "entrenador #mon."
+	para "Yo voy cada día."
+	line "Cuidar la salud de"
+	cont "tus #mon es"
+	cont "fundamental para"
+	cont "un entrenador."
 	done

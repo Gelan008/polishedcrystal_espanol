@@ -80,46 +80,39 @@ PsychicInverScript:
 	sjump .Reward
 
 PsychicInverGreetingText:
-	text "Vaya. No me espe-"
-	line "raba visitas por"
-	cont "aquí. Hum…"
+	text "Vaya. No esperaba"
+	line "visitas. Hum…"
 
-	para "¿Echamos un com-"
-	line "bate un tanto pe-"
-	cont "culiar?"
+	para "¿Echamos un duelo"
+	line "un tanto curioso?"
 
-	para "¡Yo lo llamo Com-"
-	line "bate Inverso!"
+	para "¡Yo lo llamo"
+	line "Combate Inverso!"
 
 	para "¿Qué me dices?"
 	line "¿Te apetece probar"
-	cont "un Combate"
-	cont "Inverso?"
+	cont "un combate así?"
 	done
 
 PsychicInverNoText:
 	text "Ah, ya veo… Qué"
 	line "lástima."
 
-	para "Si cambias de opi-"
-	line "nión, vuelve por"
+	para "Si lo piensas"
+	line "mejor, vuelve por"
 	cont "aquí."
 	done
 
 PsychicInverYesText:
-	text "Los movimientos"
-	line "supereficaces no"
-
-	para "serán muy eficaces"
-	line "y viceversa."
+	text "Lo supereficaz no"
+	line "será muy eficaz,"
+	cont "¡y viceversa!"
 	done
 
 PsychicInverBeatenText:
 	text "Este combate me"
-	line "ha agotado incluso"
-
-	para "más que a mis"
-	line "#mon…"
+	line "ha agotado más"
+	cont "que a mis #mon…"
 	done
 
 InverseBattle0PointRewardText:
@@ -147,19 +140,17 @@ InverseBattle7_9PointRewardText:
 	done
 
 InverseBattle10PointRewardText:
-	text "Dominas los Comba-"
-	line "tes Inversos."
+	text "Dominas bien los"
+	line "Combates Inversos."
 
 	para "No tengo nada que"
 	line "hacer contra ti."
 	done
 
 PsychicInverZeroRewardText:
-	text "Aun así, te daré"
-	line "un detalle, ¡así"
-
-	para "que vuelve a in-"
-	line "tentarlo!"
+	text "Aun así, toma un"
+	line "detalle. ¡Vuelve a"
+	cont "intentarlo!"
 	done
 
 PsychicInverRewardText:
@@ -171,14 +162,10 @@ PsychicInverRewardText:
 	done
 
 PsychicInverTomorrowText:
-	text "Este extraño poder"
-	line "que invierte la"
-
-	para "efectividad de ti-"
-	line "pos…"
-
-	para "No puedo usarlo"
-	line "muy a menudo."
+	text "Este poder que"
+	line "invierte tipos no"
+	cont "puedo usarlo muy a"
+	cont "menudo."
 
 	para "Vuelve mañana, por"
 	line "favor."
@@ -189,11 +176,9 @@ PsychicInversHouseHexManiacText:
 	line "un misterioso"
 	cont "poder!"
 
-	para "¡Puede invertir la"
-	line "efectividad de los"
-
-	para "tipos! ¡Es una pa-"
-	line "sada!"
+	para "¡Invierte las"
+	line "fuerzas de tipos!"
+	cont "¡Es increíble!"
 
 	para "¡Lo supereficaz y"
 	line "lo poco eficaz se"

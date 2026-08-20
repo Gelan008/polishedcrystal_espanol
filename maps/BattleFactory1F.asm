@@ -284,7 +284,7 @@ PokemonJournalThortonScript:
 	setflag ENGINE_READ_THORTON_JOURNAL
 	jumpthistext
 
-	text "Diario #mon"
+	text "Revista #mon"
 
 	para "Edición Especial:"
 	line "¡Jefe Fábrica"

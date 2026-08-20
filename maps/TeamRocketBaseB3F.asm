@@ -362,7 +362,7 @@ ExecutiveM4BeforeText:
 	text "¿Qué? ¿Quién eres?"
 	line "¡Este despacho es"
 	cont "de nuestro líder"
-	cont "Giovanni!
+	cont "Giovanni!"
 
 	para "Desde que disolvió"
 	line "el Team Rocket"

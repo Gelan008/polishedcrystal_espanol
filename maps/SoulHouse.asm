@@ -176,7 +176,7 @@ AgathaSeenText:
 
 	para "¡Te mostraré lo"
 	line "que puede hacer un"
-	cont "Entrenador fuerte"
+	cont "entrenador fuerte"
 	cont "de verdad!"
 	done
 
@@ -188,7 +188,7 @@ AgathaRewardText:
 	text "Vales mucho, mi"
 	line "buena criatura."
 
-	para "Eres un Entrenador"
+	para "Eres un entrenador"
 	line "fuerte con un gran"
 	cont "vínculo con tus"
 	cont "#mon."
