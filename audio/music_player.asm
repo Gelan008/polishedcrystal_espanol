@@ -1470,7 +1470,7 @@ GetSongArtist2:
 	ret
 
 .Arranger:
-	db "Arreglista:@"
+	db "Arreglos:@"
 
 SongSelector:
 	hlcoord 0, 0
