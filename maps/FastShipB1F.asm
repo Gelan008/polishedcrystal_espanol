@@ -224,8 +224,8 @@ FastShipB1FJugglerFritzSeasickTrashScript:
 	dw EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
 	jumpthistext
 
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "¡Puaj! ¡No debería"
+	line "haber mirado!"
 	done
 
 FastShipB1FOnDutySailorRefusedText:
