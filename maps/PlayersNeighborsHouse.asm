@@ -100,17 +100,3 @@ PlayerNeighborRadioText4:
 	text "¡#mon!"
 	line "Canal #mon…"
 	done
-
-PlayerNeighborRadioText2:
-	text "#mon Channel!"
-	done
-
-PlayerNeighborRadioText3:
-	text "This is DJ Mary,"
-	line "your co-host!"
-	done
-
-PlayerNeighborRadioText4:
-	text "#mon!"
-	line "#mon Channel…"
-	done

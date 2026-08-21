@@ -400,17 +400,3 @@ PlayerRadioText4:
 	text "¡#mon!"
 	line "Canal #mon…"
 	done
-
-PlayerRadioText2:
-	text "#mon Channel!"
-	done
-
-PlayerRadioText3:
-	text "This is DJ Mary,"
-	line "your co-host!"
-	done
-
-PlayerRadioText4:
-	text "#mon!"
-	line "#mon Channel…"
-	done
