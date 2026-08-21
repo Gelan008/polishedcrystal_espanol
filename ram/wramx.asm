@@ -1087,7 +1087,8 @@ wTimeOfDayPal:: db
 
 wFollowInSync:: db
 
-	ds 3 ; unused
+wPaletteSwapAddress:: dw
+wPaletteSwapFlag:: db
 
 wTimeOfDayPalFlags:: db
 wTimeOfDayPalset:: db
@@ -1213,7 +1214,7 @@ wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
 wRocketHideoutB4FSceneID:: db
 wElmsLabSceneID:: db
-wFarawayIslandSceneID:: db
+wFarawayIslandSouthSceneID:: db
 wFastShip1FSceneID:: db
 wFastShipB1FSceneID:: db
 wGiovannisCaveSceneID:: db

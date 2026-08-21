@@ -174,10 +174,6 @@ PowerPlantManager:
 	waitbutton
 PowerPlantTutorZapCannonScript:
 	writetext Text_PowerPlantTutorZapCannon
-	waitbutton
-	checkitem SILVER_LEAF
-	iffalsefwd .NoSilverLeaf
-	writetext Text_PowerPlantTutorQuestion
 	yesorno
 	iffalsefwd .TutorRefused
 	setval ZAP_CANNON
@@ -190,18 +186,8 @@ PowerPlantTutorZapCannonScript:
 	text "Como tú quieras."
 	done
 
-.NoSilverLeaf
-	jumpthisopenedtext
-
-	text "¡Lo siento, pero"
-	line "no puedo enseñar"
-
-	para "Electrocañón sin"
-	line "esa Hoja!"
-	done
 
 .TeachMove
-	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
 	text "¡Tu #mon ya"
@@ -329,12 +315,7 @@ Text_PowerPlantTutorZapCannon:
 	line "¡pero pega con una"
 	cont "fuerza tremenda!"
 
-	para "Solo necesitaré"
-	line "una Hoja Plata."
-	done
-
-Text_PowerPlantTutorQuestion:
-	text "¿Quieres que le"
+	para "¿Quieres que le"
 	line "enseñe a tu"
 	cont "#mon"
 	cont "Electrocañón?"

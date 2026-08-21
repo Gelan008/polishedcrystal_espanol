@@ -255,6 +255,10 @@ SECTION "CherrygroveBay_BlockData", ROMX
 CherrygroveBay_BlockData:
 	INCBIN "maps/CherrygroveBay.ablk.lzp"
 
+SECTION "CherrygroveTrainTrackDual_BlockData", ROMX
+CherrygroveTrainTrackDual_BlockData:
+	INCBIN "maps/CherrygroveTrainTrackDual.ablk.lzp"
+
 SECTION "Route32Coast_BlockData", ROMX
 Route32Coast_BlockData:
 	INCBIN "maps/Route32Coast.ablk.lzp"
@@ -1666,9 +1670,13 @@ SECTION "NavelRockRoof_BlockData", ROMX
 NavelRockRoof_BlockData:
 	INCBIN "maps/NavelRockRoof.ablk.lzp"
 
-SECTION "FarawayIsland_BlockData", ROMX
-FarawayIsland_BlockData:
-	INCBIN "maps/FarawayIsland.ablk.lzp"
+SECTION "FarawayIslandNorth_BlockData", ROMX
+FarawayIslandNorth_BlockData:
+	INCBIN "maps/FarawayIslandNorth.ablk.lzp"
+
+SECTION "FarawayIslandSouth_BlockData", ROMX
+FarawayIslandSouth_BlockData:
+	INCBIN "maps/FarawayIslandSouth.ablk.lzp"
 
 SECTION "FarawayJungle_BlockData", ROMX
 FarawayJungle_BlockData:

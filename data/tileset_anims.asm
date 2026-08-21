@@ -63,28 +63,50 @@ TilesetJohtoCoastAnim::
 	tileframe DoneTileAnimation
 
 TilesetKantoAnim::
-TilesetKantoUrbanAnim::
 	tileframe AnimateKantoWaterTile,          $0:14
-	tileframe ScrollFourTilesUpDownLeftRight, $0:10
-	tileframe AnimateFountainTile,            $1:51
+	tileframe AnimateKantoBuoyTiles,          $0:6c
 	tileframe DoNothing
-	tileframe AnimateGameCornerTiles,         $1:64
+	tileframe DoNothing
+	tileframe DoNothing
 	tileframe AnimateKantoFlowerTile,         $0:03
-	tileframe ScrollFourTilesUpDownLeftRight, $0:10
-	tileframe AnimateWaterfallTiles,          $0:6b
+	tileframe DoNothing
+	tileframe DoNothing
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 
 TilesetKantoNorthAnim::
-TilesetIndigoPlateauAnim::
 	tileframe AnimateKantoWaterTile,          $0:14
-	tileframe ScrollFourTilesUpDownLeftRight, $0:10
+	tileframe AnimateKantoBuoyTiles,          $0:6c
 	tileframe DoNothing
 	tileframe DoNothing
 	tileframe DoNothing
 	tileframe AnimateKantoFlowerTile,         $0:03
-	tileframe ScrollFourTilesUpDownLeftRight, $0:10
-	tileframe AnimateWaterfallTiles,          $0:6b
+	tileframe DoNothing
+	tileframe AnimateWaterfallTiles,          $1:0c
+	tileframe StandingTileFrame8
+	tileframe DoneTileAnimation
+
+TilesetKantoUrbanAnim::
+	tileframe AnimateKantoWaterTile,          $0:14
+	tileframe AnimateKantoBuoyTiles,          $0:6c
+	tileframe AnimateFountainTile,            $1:1a
+	tileframe DoNothing
+	tileframe AnimateGameCornerTiles,         $1:16
+	tileframe AnimateKantoFlowerTile,         $0:03
+	tileframe DoNothing
+	tileframe DoNothing
+	tileframe StandingTileFrame8
+	tileframe DoneTileAnimation
+
+TilesetIndigoPlateauAnim::
+	tileframe AnimateKantoWaterTile,          $0:14
+	tileframe AnimateKantoBuoyTiles,          $0:6c
+	tileframe ScrollFourTilesUpDownLeftRight, $1:49
+	tileframe DoNothing
+	tileframe DoNothing
+	tileframe AnimateKantoFlowerTile,         $0:03
+	tileframe DoNothing
+	tileframe ScrollFourTilesUpDownLeftRight, $1:49
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 

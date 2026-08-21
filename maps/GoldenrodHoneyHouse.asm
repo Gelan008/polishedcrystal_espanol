@@ -16,8 +16,6 @@ GoldenrodHoneyHouse_MapScriptHeader:
 	pokemon_event  6,  3, BUTTERFREE, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLUE, GoldenrodHoneyHouseButterfreeText, -1
 
 GoldenrodHoneyHousePokefanFScript:
-	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
-	iftrue_jumptextfaceplayer .AfterText
 	checkevent EVENT_GOT_HONEY_FROM_GOLDENROD
 	iftruefwd .SellHoney
 	faceplayer
@@ -27,10 +25,8 @@ GoldenrodHoneyHousePokefanFScript:
 	verbosegiveitem SWEET_HONEY
 	iffalse_endtext
 	setevent EVENT_GOT_HONEY_FROM_GOLDENROD
-	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	jumpthisopenedtext
 
-.AfterText:
 	text "Mi hermanito"
 if DEF(FAITHFUL)
 	line "coge Miel y la"
@@ -41,9 +37,16 @@ else
 endc
 	cont "hierba alta."
 
-	para "Atrae #mon que"
-	line "suelen tener tu"
+	para "¡Atrae a los"
+	line "#mon!"
+
+	para "Suelen aparecer"
+	line "#mon de tu"
 	cont "mismo nivel."
+
+	para "Si te gusta,"
+	line "¡estaré encantada"
+	cont "de venderte más!"
 	done
 
 .IntroText:

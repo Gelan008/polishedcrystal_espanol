@@ -80,6 +80,7 @@ ENDM
 	map_attributes Route30, ROUTE_30, $5
 	connection north, Route31, ROUTE_31, -9
 	connection south, CherrygroveCity, CHERRYGROVE_CITY, -4
+	connection west, CherrygroveTrainTrackDual, CHERRYGROVE_TRAIN_TRACK_DUAL, 12
 
 	map_attributes Route31, ROUTE_31, $5
 	connection south, Route30, ROUTE_30, 9
@@ -108,7 +109,7 @@ ENDM
 	connection north, Route34Coast, ROUTE_34_COAST, 0
 
 	map_attributes Route35, ROUTE_35, $5
-	connection north, Route36, ROUTE_36, 0
+	connection north, Route36, ROUTE_36, 9
 	connection south, GoldenrodCity, GOLDENROD_CITY, -5
 
 	map_attributes Route35CoastNorth, ROUTE_35_COAST_NORTH, $35
@@ -123,13 +124,13 @@ ENDM
 	connection south, Route35CoastSouth, ROUTE_35_COAST_SOUTH, 0
 
 	map_attributes Route36, ROUTE_36, $5
-	connection north, Route37, ROUTE_37, 12
-	connection south, Route35, ROUTE_35, 0
+	connection north, Route37, ROUTE_37, 3
+	connection south, Route35, ROUTE_35, -9
 	connection east, VioletCity, VIOLET_CITY, 0
 
 	map_attributes Route37, ROUTE_37, $5
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
-	connection south, Route36, ROUTE_36, -12
+	connection south, Route36, ROUTE_36, -3
 
 	map_attributes Route38, ROUTE_38, $5
 	connection west, Route39, ROUTE_39, -8
@@ -291,7 +292,7 @@ ENDM
 	connection west, Route11, ROUTE_11, 17
 
 	map_attributes Route11, ROUTE_11, $f
-	connection west, VermilionCity, VERMILION_CITY, -5
+	connection west, VermilionCity, VERMILION_CITY, -3
 	connection east, Route12South, ROUTE_12_SOUTH, -17
 
 	map_attributes LavenderTown, LAVENDER_TOWN, $2c
@@ -300,16 +301,16 @@ ENDM
 	connection west, Route8, ROUTE_8, 0
 
 	map_attributes VermilionCity, VERMILION_CITY, $43
-	connection north, Route6, ROUTE_6, 3
-	connection east, Route11, ROUTE_11, 5
+	connection north, Route6, ROUTE_6, 2
+	connection east, Route11, ROUTE_11, 3
 
 	map_attributes Route6, ROUTE_6, $f
-	connection north, SaffronCity, SAFFRON_CITY, -3
-	connection south, VermilionCity, VERMILION_CITY, -3
+	connection north, SaffronCity, SAFFRON_CITY, -2
+	connection south, VermilionCity, VERMILION_CITY, -2
 
 	map_attributes SaffronCity, SAFFRON_CITY, $f
 	connection north, Route5, ROUTE_5, 5
-	connection south, Route6, ROUTE_6, 3
+	connection south, Route6, ROUTE_6, 2
 	connection west, Route7, ROUTE_7, 6
 	connection east, Route8, ROUTE_8, 4
 
@@ -320,8 +321,8 @@ ENDM
 	map_attributes CeruleanCity, CERULEAN_CITY, $f
 	connection north, Route24, ROUTE_24, 0
 	connection south, Route5, ROUTE_5, 5
-	connection west, Route4, ROUTE_4, 2
-	connection east, Route9, ROUTE_9, 4
+	connection west, Route4, ROUTE_4, 1
+	connection east, Route9, ROUTE_9, 3
 
 	map_attributes Route24, ROUTE_24, $2c
 	connection south, CeruleanCity, CERULEAN_CITY, 0
@@ -329,23 +330,23 @@ ENDM
 
 	map_attributes Route25, ROUTE_25, $2c
 	connection west, Route24, ROUTE_24, 0
-	connection east, CeruleanCape, CERULEAN_CAPE, 0
+	connection east, CeruleanCape, CERULEAN_CAPE, -1
 
 	map_attributes CeruleanCape, CERULEAN_CAPE, $2c
-	connection west, Route25, ROUTE_25, 0
+	connection west, Route25, ROUTE_25, 1
 
 	map_attributes Route3, ROUTE_3, $2c
 	connection west, PewterCity, PEWTER_CITY, -6
 
 	map_attributes Route4, ROUTE_4, $2c
-	connection east, CeruleanCity, CERULEAN_CITY, -2
+	connection east, CeruleanCity, CERULEAN_CITY, -1
 
 	map_attributes Route8, ROUTE_8, $2c
 	connection west, SaffronCity, SAFFRON_CITY, -4
 	connection east, LavenderTown, LAVENDER_TOWN, 0
 
 	map_attributes Route9, ROUTE_9, $2c
-	connection west, CeruleanCity, CERULEAN_CITY, -4
+	connection west, CeruleanCity, CERULEAN_CITY, -3
 	connection east, Route10North, ROUTE_10_NORTH, -6
 
 	map_attributes Route10North, ROUTE_10_NORTH, $2c
@@ -363,7 +364,11 @@ ENDM
 	map_attributes CherrygroveBay, CHERRYGROVE_BAY, $35
 	connection south, Route32Coast, ROUTE_32_COAST, 0
 	connection west, Route32, ROUTE_32, -12
-	connection east, CherrygroveCity, CHERRYGROVE_CITY, 15
+	connection east, CherrygroveTrainTrackDual, CHERRYGROVE_TRAIN_TRACK_DUAL, 0
+
+	map_attributes CherrygroveTrainTrackDual, CHERRYGROVE_TRAIN_TRACK_DUAL, $35
+	connection west, CherrygroveBay, CHERRYGROVE_BAY, 0
+	connection east, Route30, ROUTE_30, -12
 
 	map_attributes Route32Coast, ROUTE_32_COAST, $35
 	connection north, CherrygroveBay, CHERRYGROVE_BAY, 0
@@ -380,7 +385,7 @@ ENDM
 	DEF MAP_FAKE_ROUTE_36    EQU MAP_ROUTE_36
 	DEF FAKE_ROUTE_36_WIDTH  EQU ROUTE_36_WIDTH
 	DEF FAKE_ROUTE_36_HEIGHT EQU ROUTE_36_HEIGHT - 1
-	connection north, FakeRoute36, FAKE_ROUTE_36, -20
+	connection north, FakeRoute36, FAKE_ROUTE_36, -11
 	PURGE GROUP_FAKE_ROUTE_36, MAP_FAKE_ROUTE_36, FAKE_ROUTE_36_WIDTH, FAKE_ROUTE_36_HEIGHT
 	connection east, Route32, ROUTE_32, 10
 
@@ -435,6 +440,12 @@ ENDM
 	map_attributes NavelRockInside, NAVEL_ROCK_INSIDE, $9
 	connection north, NavelRockInside, NAVEL_ROCK_INSIDE, 11
 	connection south, NavelRockInside, NAVEL_ROCK_INSIDE, -11
+
+	map_attributes FarawayIslandNorth, FARAWAY_ISLAND_NORTH, $6
+	connection south, FarawayIslandSouth, FARAWAY_ISLAND_SOUTH, 0
+
+	map_attributes FarawayIslandSouth, FARAWAY_ISLAND_SOUTH, $6
+	connection north, FarawayIslandNorth, FARAWAY_ISLAND_NORTH, 0
 
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0
@@ -896,7 +907,6 @@ ENDM
 	map_attributes SafariZoneWestRestHouse2, SAFARI_ZONE_WEST_REST_HOUSE_2, $0
 	map_attributes NavelRockOutside, NAVEL_ROCK_OUTSIDE, $35
 	map_attributes NavelRockRoof, NAVEL_ROCK_ROOF, $51
-	map_attributes FarawayIsland, FARAWAY_ISLAND, $6
 	map_attributes FarawayJungle, FARAWAY_JUNGLE, $17
 	map_attributes SeagallopFerryVermilionGate, SEAGALLOP_FERRY_VERMILION_GATE, $0
 	map_attributes SeagallopFerryNavelGate, SEAGALLOP_FERRY_NAVEL_GATE, $0

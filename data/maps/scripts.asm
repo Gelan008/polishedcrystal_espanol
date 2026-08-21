@@ -101,6 +101,7 @@ SECTION "Cherrygrove Bay Scripts", ROMX
 INCLUDE "maps/CherrygroveBay.asm"
 INCLUDE "maps/Route32Coast.asm"
 INCLUDE "maps/Route32CoastHouse.asm"
+INCLUDE "maps/CherrygroveTrainTrackDual.asm"
 
 
 SECTION "Dark Cave Scripts", ROMX
@@ -908,7 +909,8 @@ INCLUDE "maps/NavelRockRoof.asm"
 
 SECTION "Faraway Island Scripts", ROMX
 
-INCLUDE "maps/FarawayIsland.asm"
+INCLUDE "maps/FarawayIslandNorth.asm"
+INCLUDE "maps/FarawayIslandSouth.asm"
 INCLUDE "maps/FarawayJungle.asm"
 
 
