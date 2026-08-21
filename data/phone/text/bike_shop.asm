@@ -1,19 +1,15 @@
 BikeShopPhoneCallerText:
-	text "Hi, <PLAYER>!"
-	line "Our Bicycle sales"
+	text "¡Hola, <PLAYER>!"
+	line "¡Las ventas de"
+	cont "Bicis se han"
+	cont "disparado!"
 
-	para "have gone through"
-	line "the roof!"
+	para "Te lo debemos a"
+	line "ti por pasear"
+	cont "con nuestra Bici."
 
-	para "We owe it all to"
-	line "your advertising"
-
-	para "by riding around"
-	line "on our Bicycle."
-
-	para "As our way of say-"
-	line "ing thanks, please"
-
-	para "keep that Bicycle."
-	line "Thanks again!"
+	para "Como muestra de"
+	line "agradecimiento,"
+	cont "¡quédate la Bici!"
+	cont "¡Muchas gracias!"
 	done

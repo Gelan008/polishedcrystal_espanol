@@ -78,24 +78,23 @@ LakeOfRageFloodScript:
 	endcallback
 
 LakeOfRageSignText:
-	text "Lake of Rage,"
-	line "also known as"
-	cont "Gyarados Lake."
+	text "Lago de la Furia,"
+	line "también conocido"
+	cont "como Lago Gyarados"
 	done
 
 LakeOfRageAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "The Hidden Power"
-	line "move can take on"
+	para "Poder Oculto puede"
+	line "ser de cualquier"
 if DEF(FAITHFUL)
-	cont "any type, except"
+	cont "tipo, menos del"
+	cont "tipo Hada!"
 else
-	cont "any type, even"
+	cont "tipo, ¡incluido el"
+	cont "tipo Hada!"
 endc
-
-	para "the newly disco-"
-	line "vered Fairy type!"
 	done
 
 LakeOfRageFishingGuruSign:
@@ -111,8 +110,8 @@ LakeOfRageFishingGuruSign:
 	endtext
 
 .Text:
-	text "Fishing Guru's"
-	line "House"
+	text "Casa del Gurú"
+	line "Pescador"
 	done
 
 LakeOfRageLanceScript:
@@ -150,60 +149,50 @@ LakeOfRageLanceScript:
 	sjump .Agreed
 
 .OverheardText:
-	text "This lake is full"
-	line "of Gyarados but"
-	cont "nothing else…"
+	text "Este lago está"
+	line "lleno de Gyarados,"
+	cont "pero nada más…"
 
-	para "So the Magikarp"
-	line "are being forced"
-	cont "to evolve…"
+	para "Por lo que se"
+	line "está obligando a"
+	cont "evolucionar a los"
+	cont "Magikarp…"
 	done
 
 .IntroText:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "¿Estás aquí por"
+	line "los rumores?"
 
-	para "You're <PLAYER>?"
-	line "I'm Lance, a"
-	cont "trainer like you."
+	para "¿Eres <PLAYER>?"
+	line "Soy Lance, otro"
+	cont "entrenador."
 
-	para "I heard some ru-"
-	line "mors, so I came to"
-	cont "investigate…"
+	para "Oí esos rumores y"
+	line "vine a investigar…"
 
-	para "I saw the way you"
-	line "battled earlier,"
-	cont "<PLAYER>."
+	para "Te vi combatir,"
+	line "<PLAYER>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "Se nota que tienes"
+	line "gran habilidad."
 
-	para "with considerable"
-	line "skill."
-
-	para "If you don't mind,"
-	line "could you help me"
-	cont "investigate?"
+	para "¿Podrías ayudarme"
+	line "a investigar?"
 	done
 
 .YesText:
-	text "Lance: Excellent!"
+	text "Lance: ¡Excelente!"
 
-	para "It seems that the"
-	line "lake's Magikarp"
+	para "A los Magikarp del"
+	line "lago los fuerzan a"
+	cont "evolucionar."
 
-	para "are being forced"
-	line "to evolve."
+	para "La causa es una"
+	line "extraña emisión de"
+	cont "radio desde Caoba."
 
-	para "A mysterious radio"
-	line "broadcast coming"
-
-	para "from Mahogany is"
-	line "the cause."
-
-	para "I'll be waiting"
-	line "for you, <PLAYER>."
+	para "Te espero allí,"
+	line "<PLAYER>."
 	done
 
 .Notext:
@@ -213,21 +202,19 @@ LakeOfRageLanceScript:
 	done
 
 .QuestionText:
-	text "Lance: Hm? Are you"
-	line "going to help me?"
+	text "Lance: ¿Mmm?"
+	line "¿Vas a ayudarme?"
 	done
 
 LakeOfRageEngineerText:
-	text "I'm an urban"
-	line "planner."
+	text "Soy urbanista."
 
-	para "I've got big ideas"
-	line "for this place,"
-	cont "just you wait!"
+	para "Tengo grandes"
+	line "ideas para este"
+	cont "sitio, ¡ya verás!"
 
-	para "It's the perfect"
-	line "spot for my next"
-	cont "project."
+	para "¡Es el sitio ideal"
+	line "para mi proyecto!"
 	done
 
 LakeOfRageRedGyaradosScript:
@@ -260,8 +247,8 @@ LakeOfRageRedGyaradosScript:
 	done
 
 .RedScaleText:
-	text "<PLAYER> found"
-	line "Red Scale."
+	text "<PLAYER> encontró"
+	line "Escama Roja."
 	done
 
 WesleyScript:
@@ -298,31 +285,29 @@ WesleyScript:
 	done
 
 .MeetText:
-	text "Wesley: Well, how"
-	line "do you do?"
+	text "Merlín: ¿Qué"
+	line "tal?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
+	para "Dado que hoy"
+	line "es miércoles,"
 
-	para "I'm Wesley of"
-	line "Wednesday."
+	para "soy Merlín,"
+	line "la de ese día."
 	done
 
 .GivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Un placer verte."
+	line "Ten este recuerdo."
 	done
 
 .WednesdayText:
-	text "Wesley: Since you"
-	line "found me, you must"
+	text "Merlín: Ya que me"
+	line "has encontrado,"
+	cont "habrás visto ya a"
+	cont "mis hermanos."
 
-	para "have met my broth-"
-	line "ers and sisters."
-
-	para "Or did you just"
-	line "get lucky?"
+	para "¿O ha sido pura"
+	line "casualidad?"
 	done
 
 GenericTrainerCooltrainermAaron:
@@ -360,20 +345,18 @@ GenericTrainerCooltrainerfLois:
 	done
 
 .SeenText:
-	text "What happened to"
-	line "the red Gyarados?"
+	text "¿Qué pasó con el"
+	line "Gyarados rojo?"
 
-	para "It's gone?"
+	para "¿Ya no está?"
 
-	para "Oh, darn. I came"
-	line "here for nothing?"
-
-	para "I know--let's"
-	line "battle!"
+	para "¿He venido para"
+	line "nada? ¡Pues vamos"
+	cont "a luchar!"
 	done
 
 .BeatenText:
-	text "Good going!"
+	text "¡Bien hecho!"
 	done
 
 GenericTrainerFisherAndre:
@@ -385,17 +368,16 @@ GenericTrainerFisherAndre:
 	done
 
 FisherAndreSeenText:
-	text "Let me battle with"
-	line "the #mon I just"
-	cont "caught!"
+	text "¡Déjame luchar con"
+	line "los #mon que"
+	cont "acabo de atrapar!"
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
-
-	para "I stink as a #-"
-	line "mon trainer…"
+	text "Seré un experto"
+	line "pescando, pero"
+	cont "combatiendo soy un"
+	cont "desastre…"
 	done
 
 GenericTrainerFisherRaymond:
@@ -406,16 +388,16 @@ GenericTrainerFisherRaymond:
 	done
 
 FisherRaymondSeenText:
-	text "No matter what I"
-	line "do, all I catch"
+	text "Haga lo que haga,"
+	line "siempre atrapo"
 
-	para "are the same #-"
-	line "mon…"
+	para "a los mismos"
+	line "#mon…"
 	done
 
 FisherRaymondBeatenText:
-	text "My line's all"
-	line "tangled up…"
+	text "Mi sedal está muy"
+	line "enredado…"
 	done
 
 LakeOfRageGrampsScript:
@@ -430,30 +412,25 @@ LakeOfRageGrampsScript:
 	done
 
 .Text2:
-	text "Hahah! The Magi-"
-	line "karp are biting!"
+	text "¡Jaja! ¡Pican los"
+	line "Magikarp!"
 	done
 
 LakeOfRageSuperNerdText:
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging Gyarados."
+	text "Dicen que el lago"
+	line "lo crearon unos"
+	cont "Gyarados furiosos."
 
-	para "I wonder if there"
-	line "is any connection"
-
-	para "to their mass out-"
-	line "break now?"
+	para "¿Tendrá que ver"
+	line "con que aparezcan"
+	cont "tantos ahora?"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
+	text "¿Me fallan los"
+	line "ojos? ¡He visto un"
+	cont "Gyarados rojo!"
 
-	para "red Gyarados in"
-	line "the lake…"
-
-	para "But I thought"
-	line "Gyarados were"
-	cont "usually blue?"
+	para "¿Pero los Gyarados"
+	line "no son azules?"
 	done

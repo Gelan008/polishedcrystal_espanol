@@ -75,18 +75,19 @@ DaisyScript:
 	done
 
 .IntroText:
-	text "Daisy: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "Dalia: ¡Hola!"
+	line "Llegas justo a"
+	cont "tiempo. Iba a"
+	cont "tomar un té."
 
-	para "Would you like to"
-	line "join me?"
+	para "¿Te gustaría"
+	line "acompañarme?"
 
-	para "Oh, your #mon"
-	line "are a bit dirty."
+	para "Oh, tus #mon"
+	line "están algo sucios."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "¿Te gustaría que"
+	line "acicalara a uno?"
 	done
 
 .After:
@@ -102,22 +103,23 @@ DaisyScript:
 .NoMassage:
 	jumpthistext
 
-	text "Daisy: You don't"
-	line "want to have one"
+	text "Dalia: ¿No quieres"
+	line "que acicale a"
+	cont "ninguno?"
 
-	para "groomed? OK, we'll"
-	line "just have tea."
+	para "Vale, solo"
+	line "tomaremos el té."
 	done
 
 .QuestionText:
-	text "Daisy: Which one"
-	line "should I groom?"
+	text "Dalia: ¿A cuál"
+	line "debería acicalar?"
 	done
 
 .OkayText:
-	text "Daisy: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "Dalia: Vale, lo"
+	line "dejaré muy guapo"
+	cont "en un santiamén."
 	done
 
 .LooksContentText:
@@ -129,7 +131,8 @@ DaisyScript:
 .EggMassage:
 	jumpthistext
 
-	text "Daisy: Oh, sorry."
-	line "I honestly can't"
-	cont "groom an Egg."
+	text "Dalia: Oh, lo"
+	line "siento. La verdad"
+	cont "es que no puedo"
+	cont "acicalar un Huevo."
 	done

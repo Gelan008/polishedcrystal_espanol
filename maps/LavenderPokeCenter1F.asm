@@ -55,44 +55,42 @@ LavenderPokeCenter1FYoungsterScript:
 	done
 
 .NoMachinePartText:
-	text "If the Power Plant"
-	line "isn't running, the"
+	text "Si la Central"
+	line "Energía no va,"
+	cont "el Magnetotrén no"
+	cont "podrá funcionar."
 
-	para "Magnet Train won't"
-	line "run either…"
-
-	para "It also means the"
-	line "Radio Tower can't"
-	cont "broadcast…"
+	para "¡Y la Torre Radio"
+	line "tampoco emitirá!"
 	done
 
 .NoExorcismText:
-	text "The Power Plant is"
-	line "running smoothly"
-	cont "again, but the"
+	text "La Central Energía"
+	line "funciona bien,"
+	cont "pero la Torre"
+	cont "Radio no emite."
 
-	para "Radio Tower still"
-	line "isn't broadcasting."
-
-	para "What's going on"
-	line "over there?"
+	para "¿Qué ocurrirá"
+	line "allí dentro?"
 	done
 
 LavenderPokeCenter1FGentlemanText:
-	text "To the north of"
-	line "Lavender is Rock"
+	text "Al norte de Pueblo"
+	line "Lavanda está el"
+	cont "Túnel Roca."
 
-	para "Tunnel. Go through"
-	line "it to get to the"
-	cont "Power Plant."
+	para "Crúzalo para ir a"
+	line "la Central"
+	cont "Energía."
 	done
 
 LavenderPokeCenter1FTeacherText:
-	text "There's a radio"
-	line "program that plays"
-	cont "# Flute music."
+	text "Hay un programa de"
+	line "radio con música"
+	cont "de # Flauta."
 
-	para "Oh? Ah, your radio"
-	line "needs an Expn.Card"
-	cont "to tune into it."
+	para "A tu radio le hace"
+	line "falta una Tarj."
+	cont "Expansión para"
+	cont "sintonizarlo."
 	done

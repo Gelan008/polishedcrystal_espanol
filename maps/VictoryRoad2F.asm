@@ -108,102 +108,88 @@ VictoryRoadRivalBattleExitMovement1:
 	step_end
 
 VictoryRoadRivalBeforeText:
-	text "Hold it."
+	text "¡Un momento!"
 
-	para "…Are you going to"
-	line "take the #mon"
-	cont "League challenge?"
+	para "…¿Vas a desafiar"
+	line "a la Liga #mon?"
 
-	para "…Don't make me"
-	line "laugh."
+	para "…No me hagas reír."
+	line "Eres mucho más"
+	cont "débil que yo."
 
-	para "You're so much"
-	line "weaker than I am."
+	para "Ya no soy el de"
+	line "antes. Tengo a los"
+	cont "#mon más"
+	cont "fuertes."
 
-	para "I'm not like I was"
-	line "before."
+	para "¡Soy invencible!"
 
-	para "I now have the"
-	line "best and strongest"
-
-	para "#mon with me."
-	line "I'm invincible!"
-
-	para "<PLAYER>!"
-	line "I challenge you!"
+	para "¡<PLAYER>!"
+	line "¡Te desafío!"
 	done
 
 VictoryRoadRivalDefeatText:
-	text "…I couldn't win…"
+	text "…No pude ganar…"
 
-	para "I gave it every-"
-	line "thing I had…"
+	para "Lo he dado todo…"
 
-	para "What you possess,"
-	line "and what I lack…"
+	para "Lo que tú tienes"
+	line "y a mí me falta…"
 
-	para "I'm beginning to"
-	line "understand what"
-
-	para "that dragon master"
-	line "said to me…"
+	para "Empiezo a entender"
+	line "lo que me dijo el"
+	cont "maestro dragón…"
 	done
 
 VictoryRoadRivalAfterText:
-	text "…I haven't given up"
-	line "on becoming the"
-	cont "greatest trainer…"
+	text "…No me rendiré"
+	line "hasta ser el mejor"
+	cont "entrenador…"
 
-	para "I'm going to find"
-	line "out why I can't"
+	para "Descubriré por qué"
+	line "no gano y me haré"
+	cont "mucho más fuerte…"
 
-	para "win and become"
-	line "stronger…"
+	para "Cuando lo haga, te"
+	line "desafiaré y te"
+	cont "aplastaré con todo"
+	cont "mi poder."
 
-	para "When I do, I will"
-	line "challenge you."
-
-	para "And I'll beat you"
-	line "down with all my"
-	cont "power."
-
-	para "…Humph! You keep"
-	line "at it until then."
+	para "…¡Humph! Mejora"
+	line "hasta entonces."
 	done
 
 VictoryRoadRivalVictoryText:
-	text "…Humph!"
+	text "…¡Humph!"
 
-	para "When it comes down"
-	line "to it, nothing can"
-	cont "beat power."
+	para "Al fin y al cabo,"
+	line "nada supera al"
+	cont "poder."
 
-	para "I don't need any-"
-	line "thing else."
+	para "No necesito nada"
+	line "más."
 	done
 
 VeteranfJoanneSeenText:
-	text "Victory Road is"
-	line "the final test"
-	cont "for trainers!"
+	text "¡La Calle Victoria"
+	line "es la prueba final"
+	cont "para entrenadores!"
 	done
 
 VeteranfJoanneBeatenText:
-	text "Aiyah!"
+	text "¡Ayayay!"
 	done
 
 VeteranfJonetSeenText:
-	text "There's supposed"
-	line "to be a Moltres"
-	cont "roosting here."
+	text "Se supone que aquí"
+	line "anida un Moltres."
 
-	para "I'm going to catch"
-	line "it!"
+	para "¡Pienso atraparlo!"
 	done
 
 VeteranfJonetBeatenText:
-	text "I'd have won if"
-	line "I had a legendary"
-	cont "#mon…"
+	text "¡Habría ganado si"
+	line "tuviera un #mon"
+	cont "legendario…!"
 	done
 

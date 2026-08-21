@@ -45,43 +45,40 @@ PlayersNeighborsHouseRadio:
 	endtext
 
 PlayersNeighborsDaughterText:
-	text "Pikachu is an"
-	line "evolved #mon."
+	text "Pikachu es un"
+	line "#mon ya"
+	cont "evolucionado."
 
-	para "I was amazed by"
-	line "Prof.Elm's find-"
-	cont "ings."
+	para "Me asombraron los"
+	line "hallazgos del"
+	cont "Prof. Elm."
 
-	para "He's so famous for"
-	line "his research on"
-	cont "#mon evolution."
+	para "Es famoso por sus"
+	line "estudios sobre la"
+	cont "evolución #mon."
 
-	para "…sigh…"
-
-	para "I wish I could be"
-	line "a researcher like"
-	cont "him…"
+	para "…Uf… Ojalá pudiera"
+	line "ser investigadora"
+	cont "como él…"
 	done
 
 PlayersNeighborsHusbandText:
-	text "This town is the"
-	line "farthest south-"
-
-	para "east one in all"
-	line "of Johto."
+	text "Este pueblo es el"
+	line "más al sureste de"
+	cont "todo Johto."
 	done
 
 PlayersNeighborText:
-	text "My daughter is"
-	line "adamant about"
+	text "Mi hija está"
+	line "empeñada en ser"
+	cont "la ayudante del"
+	cont "Profesor Elm."
 
-	para "becoming Prof."
-	line "Elm's assistant."
-
-	para "She really loves"
+	para "¡Le encantan los"
 	line "#mon!"
 
-	para "But then, so do I!"
+	para "¡Aunque a mí"
+	line "también me gustan!"
 	done
 
 PlayerNeighborRadioText1:

@@ -102,29 +102,28 @@ GenericTrainerPicnickerLily:
 	done
 
 .SeenText:
-	text "I'm hungry!"
+	text "¡Tengo hambre!"
 	done
 
 .BeatenText:
-	text "I was battling on"
-	line "an empty stomach!"
+	text "¡Combatía con el"
+	line "estómago vacío!"
 	done
 
 StormyBeachSwimmermText:
-	text "We're here on a"
-	line "camping trip,"
-
-	para "but the weather"
-	line "doesn't look great…"
+	text "Hemos venido de"
+	line "acampada, pero el"
+	cont "tiempo no tiene"
+	cont "buena pinta…"
 	done
 
 StormyBeachGrampsText:
-	text "Can you feel it in"
-	line "the air? A storm"
-	cont "is brewing."
+	text "¿Lo notas en el"
+	line "ambiente? Llega"
+	cont "una tormenta."
 
-	para "A befitting omen"
-	line "for those looking"
-	cont "to explore the"
-	cont "swamp."
+	para "Un presagio ideal"
+	line "para los que van a"
+	cont "explorar el"
+	cont "pantano."
 	done

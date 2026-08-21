@@ -94,14 +94,15 @@ GenericTrainerCooltrainerfFran:
 	done
 
 .SeenText:
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "past me!"
+	text "¡No puedo"
+	line "permitir que pase"
+	cont "un entrenador sin"
+	cont "nombre!"
 
-	para "Clair would be"
-	line "livid if I did!"
+	para "¡Débora se pondría"
+	line "furiosa!"
 	done
 
 .BeatenText:
-	text "Awww… I lost…"
+	text "Ayyy… Perdí…"
 	done

@@ -330,151 +330,140 @@ Route42SuicuneMovement:
 	step_end
 
 Route42LyraGreetingText:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lira: ¡Hola,"
+	line "<PLAYER>!"
 
-	para "What a coinci-"
-	line "dence. I was just"
+	para "¡Qué sorpresa!"
+	line "Estudiaba cómo la"
+	cont "avalancha afectó a"
+	cont "los #mon."
 
-	para "studying the eff-"
-	line "ects of the recent"
+	para "¿Vas a Caoba a"
+	line "por otra Medalla?"
 
-	para "avalanche on wild"
-	line "#mon."
+	para "¡Tengo un regalo"
+	line "para ti!"
 
-	para "So you're heading"
-	line "to Mahogany Town"
-
-	para "for another Gym"
-	line "Badge?"
-
-	para "Then I have a"
-	line "present for you!"
-
-	para "But you'll have to"
-	line "beat me first!"
+	para "¡Pero primero"
+	line "debes vencerme!"
 	done
 
 Route42LyraWinText:
-	text "You've earned this"
-	line "gift!"
+	text "¡Te has ganado"
+	line "este regalo!"
 	done
 
 Route42LyraLossText:
-	text "Better luck next"
-	line "time…"
+	text "Más suerte la"
+	line "próxima vez…"
 	done
 
 Route42LyraPresentText:
-	text "Lyra: Wow, you're"
-	line "getting really"
-	cont "strong, <PLAYER>!"
+	text "Lira: ¡Hala, te"
+	line "estás volviendo"
+	cont "muy fuerte,"
+	cont "<PLAYER>!"
 
-	para "I'm sure you can"
-	line "beat the Mahogany"
-	cont "Gym Leader."
+	para "Seguro que puedes"
+	line "vencer al Líder de"
+	cont "Gimnasio de Caoba."
 
-	para "And then you can"
-	line "use this!"
+	para "¡Y entonces podrás"
+	line "usar esto!"
 	done
 
 Route42LyraWhirlpoolText:
-	text "Lyra: That's"
-	line "Whirlpool."
+	text "Lira: Es la MO"
+	line "Torbellino."
 
-	para "Teach it to a"
-	line "#mon to get"
-	cont "across wild water."
+	para "Enséñasela a un"
+	line "#mon para pasar"
+	cont "por remolinos."
 
-	para "I should get"
-	line "going. It was"
+	para "Debería irme ya."
+	line "¡Me alegró verte,"
+	cont "<PLAYER>!"
 
-	para "nice seeing you,"
-	line "<PLAYER>!"
-
-	para "Bye now!"
+	para "¡Hasta luego!"
 	done
 
 FisherTully1SeenText:
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#mon I caught!"
+	text "Te mostraré el"
+	line "poder de los"
+	cont "#mon que pesqué"
 	done
 
 FisherTully1BeatenText:
-	text "What? That's not"
-	line "right."
+	text "¿Qué? ¡No vale!"
 	done
 
 FisherTullyAfterBattleText:
-	text "I want to become"
-	line "the trainer Champ"
+	text "Quiero ser campeón"
+	line "usando los #mon"
+	cont "que he pescado."
 
-	para "using the #mon"
-	line "I caught."
-
-	para "That's the best"
-	line "part of fishing!"
+	para "¡Es lo mejor de"
+	line "la pesca!"
 	done
 
 HikerBenjaminSeenText:
-	text "Ah, it's good to"
-	line "be outside!"
-	cont "I feel so free!"
+	text "¡Da gusto estar al"
+	line "aire libre! ¡Qué"
+	cont "gran libertad!"
 	done
 
 HikerBenjaminBeatenText:
-	text "Gahahah!"
+	text "¡Ja, ja, ja!"
 	done
 
 PokemaniacShaneSeenText:
-	text "HEY!"
+	text "¡EH!"
 
-	para "This is my secret"
-	line "place! Get lost,"
-	cont "you outsider!"
+	para "¡Este es mi rincón"
+	line "secreto! ¡Lárgate,"
+	cont "intruso!"
 	done
 
 PokemaniacShaneBeatenText:
-	text "I should have used"
-	line "my Moon Stone…"
+	text "Debí usar mi"
+	line "Piedra Lunar…"
 	done
 
 Route42OfficerText:
-	text "Sorry, you can't"
-	line "come this way."
+	text "Lo siento, no"
+	line "puedes pasar."
 
-	para "There's been an"
-	line "avalanche on"
-	cont "Mt.Mortar."
+	para "Hubo una avalancha"
+	line "en Monte Mortero."
 
-	para "We're still clear-"
-	line "ing the rubble."
+	para "Estamos retirando"
+	line "los escombros."
 	done
 
 Route42Sign1Text:
-	text "Route 42"
+	text "Ruta 42"
 
-	para "Ecruteak City -"
-	line "Mahogany Town"
+	para "Ciudad Iris -"
+	line "Pueblo Caoba"
 	done
 
 MtMortarSign1Text:
-	text "Mt.Mortar"
+	text "Monte Mortero"
 
-	para "Waterfall Cave"
-	line "Inside"
+	para "Cueva Cascada"
+	line "en el interior"
 	done
 
 MtMortarSign2Text:
-	text "Mt.Mortar"
+	text "Monte Mortero"
 
-	para "Waterfall Cave"
-	line "Inside"
+	para "Cueva Cascada"
+	line "en el interior"
 	done
 
 Route42Sign2Text:
-	text "Route 42"
+	text "Ruta 42"
 
-	para "Ecruteak City -"
-	line "Mahogany Town"
+	para "Ciudad Iris -"
+	line "Pueblo Caoba"
 	done

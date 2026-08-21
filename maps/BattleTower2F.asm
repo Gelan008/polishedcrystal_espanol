@@ -40,8 +40,8 @@ BattleTower2F_MapScriptHeader:
 BattleTower2FTVScript:
 	jumpthistext
 
-	text "There's an intense"
-	line "battle on the TV."
+	text "Se ve un intenso"
+	line "combate en la TV."
 	done
 
 BattleTower2FCherylScript:
@@ -399,98 +399,96 @@ BattleTower2FAnabelScript:
 	jumpthistext
 
 .AfterText:
-	text "That was fun…"
+	text "Eso fue"
+	line "divertido…"
 
-	para "I have never had"
-	line "a #mon battle"
-
-	para "so enjoyable"
-	line "before…"
+	para "Nunca antes había"
+	line "tenido un combate"
+	cont "#mon tan"
+	cont "agradable…"
 	done
 
 .BeatenText:
-	text "Thank you…"
+	text "Gracias…"
 	done
 
 .RefuseText:
-	text "It's very dis-"
-	line "appointing…"
+	text "Es muy"
+	line "decepcionante…"
 	done
 
 BattleTower2FCooltrainermText:
-	text "I need to go, but"
-	line "I just can't stop"
-
-	para "watching this"
-	line "battle!"
+	text "Me tengo que ir,"
+	line "¡pero no puedo"
+	cont "dejar de mirar"
+	cont "este combate!"
 	done
 
 BattleTower2FLadyText:
-	text "What makes me most"
-	line "happy being a"
-	cont "trainer?"
+	text "¿Qué es lo que más"
+	line "me gusta de ser"
+	cont "entrenadora?"
 
-	para "The fact that"
-	line "#mon will bring"
-
-	para "me lots of"
-	line "friends!"
+	para "¡El hecho de que"
+	line "los #mon me"
+	cont "traerán un montón"
+	cont "de amigos!"
 	done
 
 BattleTower2FTwinText:
-	text "Some people are"
-	line "surprised to see"
+	text "Algunos se"
+	line "sorprenden al ver"
+	cont "a una niña pequeña"
+	cont "como yo en la"
+	cont "Torre Batalla."
 
-	para "a small girl like"
-	line "me at the Battle"
-	cont "Tower."
-
-	para "It's not like I"
-	line "have to battle"
-	cont "myself, you know?"
+	para "Tampoco es que yo"
+	line "tenga que luchar,"
+	cont "¿sabes?"
 	done
 
 BattleTower2FSuperNerdText:
-	text "Hehe! All the"
-	line "trainers around us"
-	cont "look so pathetic!"
+	text "¡Jeje! ¡Todos los"
+	line "entrenadores que"
+	cont "nos rodean"
+	cont "parecen"
+	cont "patéticos!"
 
-	para "…Actually, that"
-	line "mindset makes you"
-	cont "lose with one hit!"
+	para "…En realidad,"
+	line "¡pensar así hace"
+	cont "que pierdas de"
+	cont "un golpe!"
 
-	para "Don't let your"
-	line "guard down,"
-	cont "Pikachu!"
+	para "¡No bajes la"
+	line "guardia, Pikachu!"
 	done
 
 BattleTower2FPikachuText:
-	text "Pikachu: Pichuu!"
+	text "Pikachu: ¡Pichuu!"
 	done
 
 BattleTower2FYoungsterText:
-	text "To be strong is to"
-	line "be weak."
+	text "Ser fuerte es ser"
+	line "débil."
 
-	para "To be weak is to"
-	line "be strong."
+	para "Ser débil es ser"
+	line "fuerte."
 
-	para "Somebody told me"
-	line "that before."
+	para "Alguien me dijo"
+	line "eso antes."
 
-	para "I don't understand"
-	line "it, but it sounds"
-	cont "deep."
+	para "No lo entiendo,"
+	line "pero suena"
+	cont "profundo."
 	done
 
 BattleTower2FBlackbeltText:
-	text "The karate gi is"
-	line "the uniform of"
-	cont "fighters!"
+	text "¡El karategi es"
+	line "el uniforme de"
+	cont "los luchadores!"
 
-	para "There is nothing"
-	line "better suited for"
-
-	para "the Battle Tower"
-	line "than this!"
+	para "¡No hay nada más"
+	line "adecuado para la"
+	cont "Torre Batalla"
+	cont "que esto!"
 	done

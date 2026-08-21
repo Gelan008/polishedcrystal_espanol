@@ -17,29 +17,28 @@ GoldenrodBandHouse_MapScriptHeader:
 	object_event  2,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodBandHouseCooltrainerFText, -1
 
 GoldenrodBandHouseRocker1Text:
-	text "I play guitar in"
-	line "our cover band."
+	text "Toco la guitarra"
+	line "en nuestra banda."
 
-	para "Give us a listen"
-	line "on the Variety"
-	cont "Channel!"
+	para "¡Escúchanos en"
+	line "el Canal"
+	cont "Variedades!"
 	done
 
 GoldenrodBandHouseRocker2Text:
-	text "Music and passion"
-	line "are always in"
+	text "La música y la"
+	line "pasión siempre"
+	cont "están de moda."
 
-	para "fashion. Don't"
-	line "you forget it!"
+	para "¡No lo olvides!"
 	done
 
 GoldenrodBandHouseCooltrainerFText:
-	text "People like diff-"
-	line "erent types of"
-	cont "music, but every-"
+	text "A cada quien le"
+	line "gusta un tipo de"
+	cont "música diferente."
 
-	para "one's entitled to"
-	line "their own opinion."
-
-	para "Don't be a hater!"
+	para "¡Hay que respetar"
+	line "los gustos de los"
+	cont "demás!"
 	done

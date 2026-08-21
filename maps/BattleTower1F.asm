@@ -141,12 +141,12 @@ BattleTower1FRulesScript:
 		done
 
 BattleTower1FStreakText:
-	text "Streak: "
+	text "Racha: "
 	text_decimal wBattleTowerCurStreak, 2, 5
-	text " wins"
-	line "Record: "
+	text " vict."
+	line "Récord: "
 	text_decimal wBattleTowerTopStreak, 2, 5
-	text " wins"
+	text " vict."
 	done
 
 BattleTower1FReceptionistScript:
@@ -295,9 +295,9 @@ MenuDataHeader_BattleInfoCancel:
 MenuData2_BattleInfoCancel:
 	db $a0 ; flags
 	db 3
-	db "Battle@"
+	db "Batalla@"
 	db "Info@"
-	db "Cancel@"
+	db "Salir@"
 
 BattleTowerPharmacistScript:
 	faceplayer
@@ -361,36 +361,32 @@ BattleTowerTutorTrickScript:
 		done
 
 Text_BattleTowerCooltrainerF:
-	text "There are lots of"
-	line "Battle Rooms, but"
-
-	para "I'm going to win"
-	line "them all!"
+	text "Hay muchísimas"
+	line "Salas de combate,"
+	cont "¡pero yo voy a"
+	cont "ganar en todas!"
 	done
 
 Text_BattleTowerGranny:
-	text "It's a grueling"
-	line "task, not being"
+	text "Es una tarea ruda"
+	line "el no poder usar"
+	cont "objetos en"
+	cont "combate."
 
-	para "able to use items"
-	line "in battle."
-
-	para "Making your"
-	line "#mon hold items"
-
-	para "is the key to"
-	line "winning battles."
+	para "Hacer que tus"
+	line "#mon lleven"
+	cont "objetos es la"
+	cont "clave para ganar."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "I'm trying to see"
-	line "how far I can go"
+	text "Intento ver cuánto"
+	line "puedo avanzar"
+	cont "usando solo"
+	cont "#mon bicho."
 
-	para "using just bug"
-	line "#mon."
-
-	para "Don't let there be"
-	line "any fire #mon…"
+	para "Espero que no haya"
+	line "#mon de fuego…"
 	done
 
 PokemonJournalPalmerScript:

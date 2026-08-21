@@ -42,27 +42,29 @@ GenericTrainerBug_maniacDoug:
 	done
 
 Bug_maniacRobSeenText:
-	text "My bug #mon are"
-	line "tough. Prepare to"
-	cont "lose!"
+	text "Mis #mon bicho"
+	line "son muy duros."
+	cont "¡Vas a perder!"
 	done
 
 Bug_maniacRobBeatenText:
-	text "I was whipped…"
+	text "Me han zurrado…"
 	done
 
 Bug_maniacDougSeenText:
-	text "Why don't girls"
-	line "like bug #mon?"
+	text "¿Por qué a las"
+	line "chicas no les"
+	cont "agradan los"
+	cont "#mon bicho?"
 	done
 
 Bug_maniacDougBeatenText:
-	text "No good!"
+	text "¡No puede ser!"
 	done
 
 Route2SignText:
-	text "Route 2"
+	text "Ruta 2"
 
-	para "Viridian City -"
-	line "Pewter City"
+	para "Ciudad Verde -"
+	line "Ciudad Plateada"
 	done

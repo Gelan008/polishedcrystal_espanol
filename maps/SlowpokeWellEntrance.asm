@@ -16,31 +16,29 @@ SlowpokeWellEntrance_MapScriptHeader:
 	object_event  8,  9, SPRITE_KURT, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SlowpokeWellEntranceKurtText, EVENT_SLOWPOKE_WELL_KURT
 
 SlowpokeWellEntranceKurtText:
-	text "Kurt: Hey there,"
+	text "César: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "The guard up top"
-	line "took off when I"
-	cont "shouted at him."
+	para "El guardia de"
+	line "arriba huyó cuando"
+	cont "le grité."
 
-	para "But then I took a"
-	line "tumble down the"
-	cont "well."
+	para "Pero luego me caí"
+	line "por el pozo."
 
-	para "I slammed down"
-	line "hard on my back,"
-	cont "so I can't move."
+	para "Me lastimé la"
+	line "espalda y no me"
+	cont "puedo mover."
 
-	para "Rats! If I were"
-	line "fit, my #mon"
+	para "¡Maldición! Si no"
+	line "estuviera herido,"
+	cont "mis #mon les"
+	cont "darían su castigo…"
 
-	para "would've punished"
-	line "them…"
+	para "En fin, no hay más"
+	line "remedio."
 
-	para "Ah, it can't be"
-	line "helped."
-
-	para "<PLAYER>, show them"
-	line "how gutsy you are"
-	cont "in my place!"
+	para "¡<PLAYER>, lucha"
+	line "con agallas en mi"
+	cont "lugar!"
 	done

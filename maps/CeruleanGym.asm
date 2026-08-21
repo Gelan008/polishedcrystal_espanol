@@ -210,34 +210,33 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Oops! I so sorry!"
-	line "You not hurt,"
-	cont "okay?"
+	text "¡Uy! ¡Yo sentirlo"
+	line "mucho! Tú no"
+	cont "herido, ¿vale?"
 
-	para "I very busy."
-	line "No time for talk-"
-	cont "ing with you. Not"
-	cont "good for me if"
-	cont "seen by somebody."
+	para "Yo estar muy"
+	line "ocupado. No tener"
+	cont "tiempo de hablar."
+	cont "No ser bueno si"
+	cont "alguien verme."
 	done
 
 CeruleanGymGruntBigMistakeText:
-	text "Oh no! You seen"
-	line "me already! I make"
-	cont "big mistake!"
+	text "¡Oh, no! ¡Tú ya me"
+	line "visto! ¡Cometer"
+	cont "gran error!"
 	done
 
 CeruleanGymGruntByeText:
-	text "Hey, you! Forget"
-	line "you see me, okay?"
+	text "¡Eh, tú! Olvidar"
+	line "verme, ¿vale?"
 
-	para "You see, hear,"
-	line "know nothing,"
+	para "Tú no ver, no oír,"
+	line "no saber nada,"
+	cont "¿vale? ¡Adiós,"
+	cont "chico! ¡Nada!"
 
-	para "okay?"
-	line "Bye, kid! Nothing!"
-
-	para "Bye-bye a go-go!"
+	para "¡Bye-bye go-go!"
 	done
 
 CeruleanGymNote1:
@@ -253,38 +252,34 @@ CeruleanGymNote2:
 	done
 
 MistyIntroText:
-	text "Misty: I was ex-"
-	line "pecting you, you"
-	cont "pest!"
+	text "Misty: ¡Te estaba"
+	line "esperando, plasta!"
 
-	para "You may have a"
-	line "lot of Johto Gym"
+	para "Tendrás muchas"
+	line "Medallas de Johto,"
+	cont "pero no deberías"
+	cont "subestimarme."
 
-	para "Badges, but you'd"
-	line "better not take me"
-	cont "too lightly."
-
-	para "My Water-type"
-	line "#mon are tough!"
+	para "¡Mis #mon de"
+	line "tipo Agua son muy"
+	cont "duros!"
 	done
 
 MistyWinLossText:
-	text "Misty: You really"
-	line "are good…"
+	text "Misty: De verdad"
+	line "eres bueno…"
 
-	para "I'll admit that"
-	line "you are skilled…"
+	para "Admitiré que"
+	line "tienes habilidad…"
 
-	para "Here you go. It's"
-	line "the Cascade Badge."
+	para "Toma. Es la"
+	line "Medalla Cascada."
 	done
 
 MistyGiveTMText:
-	text "Misty: Here's"
-	line "another memento"
-
-	para "from this battle."
-	line "Take it!"
+	text "Misty: ¡Toma otro"
+	line "recuerdo de"
+	cont "nuestro combate!"
 	done
 
 MistyOutroText:
@@ -296,72 +291,69 @@ MistyOutroText:
 	done
 
 MistyFightDoneText:
-	text "Misty: Are there"
-	line "many strong train-"
-	cont "ers in Johto? Like"
-	cont "you, I mean."
+	text "Misty: ¿Hay tantos"
+	line "entrenadores"
+	cont "fuertes en Johto?"
+	cont "Como tú, digo."
 
-	para "I'm going to"
-	line "travel one day, so"
-
-	para "I can battle some"
-	line "skilled trainers."
+	para "Algún día viajaré"
+	line "para combatir con"
+	cont "gente experta."
 	done
 
 SwimmerfDianaSeenText:
-	text "Sorry about being"
-	line "away. Let's get on"
-	cont "with it!"
+	text "Perdón por haber"
+	line "estado fuera."
+	cont "¡Vamos allá!"
 	done
 
 SwimmerfDianaBeatenText:
-	text "I give up! You're"
-	line "the winner!"
+	text "¡Me rindo! ¡Tú"
+	line "ganas!"
 	done
 
 SwimmerfViolaSeenText:
-	text "Swimming isn't"
-	line "just about speed!"
+	text "¡Nadar no solo es"
+	line "velocidad!"
 
-	para "It's also about"
-	line "beauty and grace!"
+	para "¡También es pura"
+	line "belleza y gracia!"
 	done
 
 SwimmerfViolaBeatenText:
-	text "I lost"
-	line "beautifully…"
+	text "He perdido con"
+	line "mucha elegancia…"
 	done
 
 SwimmerfBrianaSeenText:
-	text "Don't let my ele-"
-	line "gant swimming un-"
-	cont "nerve you."
+	text "No dejes que mi"
+	line "elegante nado te"
+	cont "ponga nervioso."
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Ooh, you calmly"
-	line "disposed of me…"
+	text "Huy, me venciste"
+	line "tan fácil…"
 	done
 
 SailorParkerSeenText:
-	text "Alright! Come"
-	line "and get me!"
+	text "¡Muy bien! ¡Ven"
+	line "a por mí!"
 	done
 
 SailorParkerBeatenText:
-	text "This can't be…"
+	text "No puede ser…"
 	done
 
 SailorEddieSeenText:
-	text "I've been relaxing"
-	line "poolside, so"
-	cont "I've got enough"
-	cont "strength!"
+	text "¡Me he relajado"
+	line "en la piscina y"
+	cont "estoy a tope!"
 	done
 
 SailorEddieBeatenText:
-	text "You can't win with"
-	line "strength alone."
+	text "No se puede ganar"
+	line "solo con fuerza."
 	done
 
 CeruleanGymGuyText:
@@ -376,26 +368,27 @@ CeruleanGymGuyText:
 	done
 
 CeruleanGymGuyWinText:
-	text "Hoo, you showed me"
-	line "how tough you are."
+	text "¡Hoo! Me has"
+	line "demostrado lo"
+	cont "fuerte que eres."
 
-	para "As always, that"
-	line "was one heck of a"
-	cont "great battle!"
+	para "Como siempre, ¡ha"
+	line "sido un combate"
+	para "increíble!"
 	done
 
 CeruleanGymFoundMachinePartText:
-	text "<PLAYER> found"
-	line "Machine Part!"
+	text "¡<PLAYER> halló"
+	line "la PiezaMaquina!"
 	done
 
 CeruleanGymSomethingUnderwaterText:
-	text "There's something"
-	line "under the water…"
+	text "Hay algo bajo el"
+	line "agua…"
 
-	para "Maybe that Rocket"
-	line "Grunt will talk?"
+	para "¿Hablaba de esto"
+	line "el Soldado Rocket?"
 
-	para "Where did he run"
-	line "off to?"
+	para "¿Adónde habrá"
+	line "escapado?"
 	done

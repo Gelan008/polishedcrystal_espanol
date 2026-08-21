@@ -96,10 +96,10 @@ CeladonHomeDecorStore3FClerk1Script:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Red       ¥45000@"
-	db "Yellow    ¥45000@"
-	db "Green     ¥45000@"
-	db "Cancel@"
+	db "Rojo       45000¥@"
+	db "Amarillo   45000¥@"
+	db "Verde      45000¥@"
+	db "Salir@"
 
 CeladonHomeDecorStore3FClerk2Script:
 	checkevent EVENT_DECO_CARPET_2
@@ -126,25 +126,25 @@ CeladonHomeDecorStore3FClerk2Script:
 	jumpopenedtext CeladonHomeDecorStore3FNoMoneyText
 
 CeladonHomeDecorStore3FClerk1Text:
-	text "Welcome! Would"
-	line "you like a carpet?"
+	text "¡Hola! ¿Te"
+	line "gustaría una"
+	cont "alfombra?"
 	done
 
 CeladonHomeDecorStore3FClerk2Text:
-	text "Doesn't a carpet"
-	line "really tie your"
-	cont "room together?"
+	text "¿Una alfombra no"
+	line "mejora un montón"
+	cont "tu habitación?"
 	done
 
 CeladonHomeDecorStore3FClerk2SaleText:
-	text "Our imported"
-	line "Royal Blue Carpet"
+	text "Nuestra Alfombra"
+	line "Azul importada"
+	cont "está de oferta por"
+	cont "35000¥ ahora."
 
-	para "is on sale right"
-	line "now for ¥35,000."
-
-	para "Would you like to"
-	line "buy one?"
+	para "¿Te gustaría"
+	line "comprar una?"
 	done
 
 CeladonHomeDecorStore3FClerk2YesText:
@@ -153,72 +153,71 @@ CeladonHomeDecorStore3FClerk2YesText:
 	done
 
 CeladonHomeDecorStore3FClerk2NoText:
-	text "Have a nice day!"
+	text "¡Buen día!"
 	done
 
 BoughtRedCarpetText:
-	text "<PLAYER> bought"
-	line "Red Carpet."
+	text "<PLAYER> compró la"
+	line "Alfombra Roja."
 	done
 
 RedCarpetSentText:
-	text "Red Carpet"
-	line "was sent home."
+	text "La Alfombra Roja"
+	line "fue a casa."
 	done
 
 BoughtBlueCarpetText:
-	text "<PLAYER> bought"
-	line "Blue Carpet."
+	text "<PLAYER> compró la"
+	line "Alfombra Azul."
 	done
 
 BlueCarpetSentText:
-	text "Blue Carpet"
-	line "was sent home."
+	text "La Alfombra Azul"
+	line "fue a casa."
 	done
 
 BoughtYellowCarpetText:
-	text "<PLAYER> bought"
-	line "Yellow Carpet."
+	text "<PLAYER> compró la"
+	line "Alfombra Amarilla."
 	done
 
 YellowCarpetSentText:
-	text "Yellow Carpet"
-	line "was sent home."
+	text "Alfombra Amarilla"
+	line "fue a casa."
 	done
 
 BoughtGreenCarpetText:
-	text "<PLAYER> bought"
-	line "Green Carpet."
+	text "<PLAYER> compró la"
+	line "Alfombra Verde."
 	done
 
 GreenCarpetSentText:
-	text "Green Carpet"
-	line "was sent home."
+	text "La Alfombra Verde"
+	line "fue a casa."
 	done
 
 CeladonHomeDecorStore3FNoMoneyText:
-	text "You can't afford"
-	line "that!"
+	text "¡No te lo puedes"
+	line "permitir!"
 	done
 
 CeladonHomeDecorStore3FAlreadyBoughtText:
-	text "You already have"
-	line "that!"
+	text "¡Ya tienes eso!"
 	done
 
 CeladonHomeDecorStore3FYoungsterText:
-	text "This carpet feels"
-	line "so plush!"
+	text "¡Esta alfombra se"
+	line "siente muy suave!"
 	done
 
 CeladonHomeDecorStore3FBeautyText:
-	text "Some of these"
-	line "carpets are im-"
-	cont "ported from Kalos!"
+	text "¡Algunas alfombras"
+	line "son importadas de"
+	cont "Kalos!"
 	done
 
 CeladonHomeDecorStore3FDirectoryText:
-	text "Colorful Elegance"
+	text "Elegancia y color"
 
-	para "3F: Carpets"
+	para "P2: Alfombras"
 	done

@@ -57,64 +57,55 @@ SinjohRuinsHouseCynthiaScript:
 	jumpthistext
 
 SinjohRuinsHouseCynthiaAfterText:
-	text "Cynthia: What an"
-	line "incredible battle!"
+	text "Cintia: ¡Qué gran"
+	line "combate!"
 
-	para "You're a great"
-	line "trainer, and it"
-
-	para "would make me"
-	line "happy to see you"
-	cont "again sometime."
+	para "Eres un entrenador"
+	line "magnífico, y me"
+	cont "encantaría volver"
+	cont "a verte algún día."
 	done
 
 SinjohRuinsHousePokefanmText:
-	text "A long time ago,"
-	line "people used to"
+	text "Hace mucho tiempo,"
+	line "la gente tenía"
+	cont "lazos más fuertes"
+	cont "con los #mon."
 
-	para "have closer bonds"
-	line "with #mon."
+	para "Surgieron mitos y"
+	line "leyendas sobre"
+	cont "#mon poderosos,"
+	cont "por todos lados."
 
-	para "Myths and legends"
-	line "formed about"
-	cont "powerful #mon,"
-
-	para "and those legends"
-	line "were carried to"
-	cont "different regions."
-
-	para "The ruins here"
-	line "have been influ-"
-	cont "enced by the"
-
-	para "ancient peoples of"
-	line "Alph in Johto and"
-
-	para "Spear Pillar in"
-	line "Sinnoh."
+	para "Estas ruinas unen"
+	line "las culturas del"
+	cont "pueblo de Alfa, en"
+	cont "Johto, y de la"
+	cont "Columna Lanza, en"
+	cont "Sinnoh."
 	done
 
 SinjohRuinsHouseGrampsText:
-	text "You seem so out"
-	line "of place, not even"
+	text "Pareces fuera de"
+	line "lugar, sin saber"
+	cont "siquiera por qué"
+	cont "has venido aquí."
 
-	para "knowing why you"
-	line "are here."
-
-	para "Do you want my"
-	line "Abra to Teleport"
-	cont "you back home?"
+	para "¿Quieres que mi"
+	line "Abra te lleve de"
+	cont "vuelta a casa?"
 	done
 
 SinjohRuinsHouseGrampsYesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "Vale, de acuerdo."
+	line "Imagina tu casa en"
+	cont "tu mente…"
 	done
 
 SinjohRuinsHouseGrampsNoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "Vale, de acuerdo."
+	line "¡Mucha suerte en"
+	cont "todo!"
 	done
 
 SinjohRuinsHouseAbraText:
@@ -122,43 +113,43 @@ SinjohRuinsHouseAbraText:
 	done
 
 SinjohRuinsHouseCynthiaChallengeText:
-	text "Cynthia: Hello,"
+	text "Cintia: Hola,"
 	line "<PLAYER>."
 
-	para "Have you been"
-	line "keeping well?"
+	para "¿Te ha ido todo"
+	line "bien?"
 
-	para "You won a rematch"
-	line "against the Elite"
-	cont "Four! Well done!"
+	para "¡Venciste de nuevo"
+	line "al Alto Mando!"
+	cont "¡Enhorabuena!"
 
-	para "I'm curious about"
-	line "what you learned"
-	cont "since we last met."
+	para "Tengo curiosidad"
+	line "por ver lo que has"
+	cont "aprendido desde"
+	cont "nuestro combate."
 
-	para "Shall we battle"
-	line "again, <PLAYER>?"
+	para "¿Luchamos de"
+	line "nuevo, <PLAYER>?"
 	done
 
 SinjohRuinsHouseCynthiaNoText:
-	text "Cynthia: Come back"
-	line "any time if you"
-	cont "change your mind."
+	text "Cintia: Vuelve"
+	line "cuando quieras si"
+	cont "cambias de idea."
 	done
 
 SinjohRuinsHouseCynthiaYesText:
-	text "Cynthia: Before"
-	line "I send out my"
-	cont "#mon,"
+	text "Cintia: Antes de"
+	line "sacar mis #mon"
+	cont "al combate,"
 
-	para "my heart always"
-	line "begins to race…"
+	para "mi corazón siempre"
+	line "late con fuerza…"
 	done
 
 SinjohRuinsHouseCynthiaWinText:
-	text "I can't remember"
-	line "the last time I"
-
-	para "was outclassed"
-	line "like this!"
+	text "¡Ni me acuerdo de"
+	line "la última vez que"
+	cont "me superaron de"
+	cont "esta manera!"
 	done

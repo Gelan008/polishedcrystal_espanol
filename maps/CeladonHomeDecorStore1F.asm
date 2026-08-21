@@ -24,22 +24,24 @@ CeladonHomeDecorStore1F_MapScriptHeader:
 CeladonHomeDecorStore1FBulbasaurDollScript:
 	jumpthistext
 
-	text "It's a cute"
-	line "Bulbasaur doll!"
+	text "¡Es un lindo"
+	line "muñeco de"
+	cont "Bulbasaur!"
 	done
 
 CeladonHomeDecorStore1FCharmanderDollScript:
 	jumpthistext
 
-	text "It's a tough"
-	line "Charmander doll!"
+	text "¡Es un rudo muñeco"
+	line "de Charmander!"
 	done
 
 CeladonHomeDecorStore1FSquirtleDollScript:
 	jumpthistext
 
-	text "It's a cool"
-	line "Squirtle doll!"
+	text "¡Es un muñeco"
+	line "genial de"
+	cont "Squirtle!"
 	done
 
 CeladonHomeDecorStore1FClerkScript:
@@ -120,80 +122,85 @@ CeladonHomeDecorStore1FClerkScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Bulbasaur  ¥16000@"
-	db "Charmander ¥16000@"
-	db "Squirtle   ¥16000@"
-	db "Cancel@"
+	db "Bulbasaur  16000¥@"
+	db "Charmander 16000¥@"
+	db "Squirtle   16000¥@"
+	db "Salir@"
 
 CeladonHomeDecorStore1FReceptionistText:
-	text "Hello! Welcome to"
-	line "Celadon Dept."
-	cont "Store Home Decor!"
+	text "¡Hola! ¡Te damos"
+	line "la bienvenida a la"
+	cont "Tienda de"
+	cont "Decoración de"
+	cont "Azulona!"
 
-	para "The directory is"
-	line "on the wall."
+	para "El directorio está"
+	line "en la pared."
 	done
 
 CeladonHomeDecorStore1FClerkText:
-	text "Welcome! Would you"
-	line "like a doll as a"
-	cont "Celadon souvenir?"
+	text "¡Bienvenido! ¿Te"
+	line "gustaría un muñeco"
+	cont "como recuerdo?"
 	done
 
 BoughtBulbasaurDollText:
-	text "<PLAYER> bought"
-	line "Bulbasaur Doll."
+	text "<PLAYER> compró el"
+	line "Muñeco Bulbasaur."
 	done
 
 BulbasaurDollSentText:
-	text "Bulbasaur Doll"
-	line "was sent home."
+	text "El Muñeco de"
+	line "Bulbasaur fue"
+	cont "a casa."
 	done
 
 BoughtCharmanderDollText:
-	text "<PLAYER> bought"
-	line "Charmander Doll."
+	text "<PLAYER> compró el"
+	line "Muñeco Charmander."
 	done
 
 CharmanderDollSentText:
-	text "Charmander Doll"
-	line "was sent home."
+	text "El Muñeco de"
+	line "Charmander fue"
+	cont "a casa."
 	done
 
 BoughtSquirtleDollText:
-	text "<PLAYER> bought"
-	line "Squirtle Doll."
+	text "<PLAYER> compró el"
+	line "Muñeco Squirtle."
 	done
 
 SquirtleDollSentText:
-	text "Squirtle Doll"
-	line "was sent home."
+	text "El Muñeco de"
+	line "Squirtle fue"
+	cont "a casa."
 	done
 
 CeladonHomeDecorStore1FNoMoneyText:
-	text "You can't afford"
-	line "that!"
+	text "¡No te lo puedes"
+	line "permitir!"
 	done
 
 CeladonHomeDecorStore1FAlreadyBoughtText:
-	text "You already have"
-	line "that!"
+	text "¡Ya tienes eso!"
 	done
 
 CeladonHomeDecorStore1FCooltrainerfText:
-	text "This new wing"
-	line "feels more upscale"
-
-	para "than the main"
-	line "Dept.Store."
+	text "Esta nueva ala"
+	line "se ve más lujosa"
+	cont "que el Centro"
+	cont "Comercial"
+	cont "principal."
 	done
 
 CeladonHomeDecorStore1FDirectoryText:
-	text "1F: Lobby"
+	text "PB: Vestíbulo"
 
-	para "2F: Beds"
+	para "P1: Camas"
 
-	para "3F: Carpets"
+	para "P2: Alfombras"
 
-	para "4F: Jumbo Dolls"
+	para "P3: Muñecos"
+	line "    Gigantes"
 	done

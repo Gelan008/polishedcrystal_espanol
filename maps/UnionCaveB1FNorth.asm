@@ -53,14 +53,14 @@ GenericTrainerRuin_maniacPetry:
 	done
 
 .SeenText:
-	text "I'll go anywhere"
-	line "to investigate"
-	cont "old secrets and"
-	cont "legends."
+	text "Iré adonde sea a"
+	line "investigar viejos"
+	cont "secretos y mitos."
 	done
 
 .BeatenText:
-	text "What is the secret"
-	line "of your power?"
+	text "¿Cuál es el gran"
+	line "secreto de tu"
+	cont "poder?"
 	done
 

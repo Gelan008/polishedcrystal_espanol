@@ -228,106 +228,94 @@ Route10Zapdos:
 	end
 
 ZapdosText:
-	text "Gyaoo!"
+	text "¡Gyaoo!"
 	done
 
 Route10NorthLawrenceGreetingText:
-	text "Lawrence: We meet"
-	line "again, <PLAYER>."
+	text "Lawrence: Nos"
+	line "vemos de nuevo,"
+	cont "<PLAYER>."
 
-	para "I came here in"
-	line "search of the"
+	para "Buscaba al ave"
+	line "legendaria de"
+	cont "fuego, pero di con"
+	cont "la equivocada."
 
-	para "legendary bird of"
-	line "fire, but found"
-	cont "the wrong one."
-
-	para "Can you see up"
-	line "there?"
+	para "¿Ves allí arriba?"
 	done
 
 Route10NorthLawrenceZapdosText:
-	text "Lawrence: That's"
-	line "a Zapdos."
+	text "Lawrence: Es un"
+	line "Zapdos."
 
-	para "It must have been"
-	line "attracted by the"
-	cont "generator."
+	para "Le habrá atraído"
+	line "el generador."
 
-	para "…So that was your"
-	line "doing?"
+	para "… ¿Así que fue"
+	line "obra tuya?"
 
-	para "In that case, I'll"
-	line "leave this legen-"
+	para "En tal caso, te"
+	line "dejaré atrapar a"
+	cont "este #mon"
+	cont "legendario."
 
-	para "dary #mon for"
-	line "you to catch."
-
-	para "You see, I have"
-	line "no interest in"
-	cont "duplicates."
+	para "No tengo interés"
+	line "en duplicados."
 	done
 
 Route10NorthLawrenceFlyText:
-	text "Lawrence: Zapdos,"
-	line "Fly!"
+	text "Lawrence: ¡Zapdos,"
+	line "Vuelo!"
 	done
 
 Route10NorthLawrenceSpeechText:
-	text "Lawrence: Hello"
-	line "again, <PLAYER>."
+	text "Lawrence: Hola de"
+	line "nuevo, <PLAYER>."
 
-	para "So you wanted that"
-	line "Zapdos after all."
+	para "Conque al final sí"
+	line "querías a Zapdos."
 
-	para "I was starting"
-	line "to think you"
+	para "Creía que no te"
+	line "interesaban las"
+	cont "leyendas."
 
-	para "didn't care about"
-	line "the legends."
+	para "… ¡¿Cómo?! ¿Tienes"
+	line "las tres aves?"
+	cont "¡Es imposible!"
 
-	para "…What?! You caught"
-	line "all three birds?"
-	cont "Impossible."
+	para "Ni yo con mis"
+	line "medios pude dar"
+	cont "con Moltres…"
 
-	para "Even I, with my"
-	line "knowledge and"
+	para "¿Por qué lograste"
+	line "lo que yo no pude?"
 
-	para "resources, have"
-	line "not found Moltres…"
+	para "¿Aprecias el valor"
+	line "de estas aves?"
 
-	para "Why have you"
-	line "succeeded where I"
-	cont "failed?"
+	para "¿Has oído hablar"
+	line "del guardián de"
+	cont "los mares?"
 
-	para "Can you appreciate"
-	line "the majesty of the"
-	cont "winged mirages?"
+	para "¡Esto es del todo"
+	line "inaceptable!"
 
-	para "Have you even"
-	line "heard of the"
+	para "Ven al santuario"
+	line "en ruinas de la"
+	cont "Isla Shamouti."
 
-	para "guardian of the"
-	line "sea before?"
-
-	para "This is unaccept-"
-	line "able."
-
-	para "Meet me at the"
-	line "ruined shrine on"
-	cont "Shamouti Island."
-
-	para "I'll show you that"
-	line "I deserve to own"
-	cont "those #mon."
+	para "Te demostraré que"
+	line "merezco poseer a"
+	cont "esos #mon."
 	done
 
 RockTunnelSignText:
-	text "Rock Tunnel"
+	text "Túnel Roca"
 	done
 
 PowerPlantSignText:
-	text "Kanto Power Plant"
+	text "Central Energía"
+	line "de Kanto"
 	done
 
 Route10NorthMovementData_LawrenceApproach1:

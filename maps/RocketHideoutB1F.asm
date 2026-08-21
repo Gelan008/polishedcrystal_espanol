@@ -160,14 +160,13 @@ RocketHideoutB1FLassMavis:
 	done
 
 .SeenText:
-	text "My strategy?"
+	text "¿Mi estrategia?"
 
-	para "Pure instinct and"
-	line "nothing more!"
+	para "¡Puro instinto y"
+	line "nada más!"
 	done
 
 .BeatenText:
-	text "I guess your in-"
-	line "stinct is better"
-	cont "than mine."
+	text "Tu instinto es"
+	line "mejor que el mío."
 	done

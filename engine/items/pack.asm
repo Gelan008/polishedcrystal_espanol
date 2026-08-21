@@ -231,9 +231,9 @@ MenuDataHeader_SortTMs:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "By Number@"
-	db "By Name@"
-	db "Quit@"
+	db "Por Número@"
+	db "Por Nombre@"
+	db "Salir@"
 
 MenuDataHeader_SortItems:
 	db MENU_BACKUP_TILES
@@ -244,9 +244,9 @@ MenuDataHeader_SortItems:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "By Type@"
-	db "By Name@"
-	db "Quit@"
+	db "Por Tipo@"
+	db "Por Nombre@"
+	db "Salir@"
 
 Jumptable_SortItems:
 	dw SortItemsName
@@ -279,17 +279,17 @@ SortItemsName:
 
 MenuDataHeader_UseGiveToss:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 3, 19, 11
+	menu_coords 11, 3, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
 .MenuData2:
 	db $c0 ; flags
 	db 4 ; items
-	db "Use@"
-	db "Give@"
-	db "Toss@"
-	db "Quit@"
+	db "Usar@"
+	db "Dar@"
+	db "Tirar@"
+	db "Salir@"
 
 Jumptable_UseGiveTossQuit:
 	dw UseItem
@@ -299,26 +299,26 @@ Jumptable_UseGiveTossQuit:
 
 MenuDataHeader_Use:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 7, 19, 11
+	menu_coords 11, 7, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
 .MenuData2:
 	db $c0 ; flags
 	db 2 ; items
-	db "Use@"
-	db "Quit@"
+	db "Usar@"
+	db "Salir@"
 
 MenuDataHeader_Quit:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 9, 19, 11
+	menu_coords 11, 9, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
 .MenuData2:
 	db $c0 ; flags
 	db 1 ; items
-	db "Quit@"
+	db "Salir@"
 
 Jumptable_UseQuit:
 	dw UseItem
@@ -330,16 +330,16 @@ Jumptable_KeyItem_UseQuit:
 
 MenuDataHeader_UseSel:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 5, 19, 11
+	menu_coords 11, 5, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "Use@"
-	db "Sel@"
-	db "Quit@"
+	db "Usar@"
+	db "Asig.@"
+	db "Salir@"
 
 Jumptable_KeyItem_UseRegisterQuit:
 	dw UseKeyItem
@@ -348,16 +348,16 @@ Jumptable_KeyItem_UseRegisterQuit:
 
 MenuDataHeader_GiveToss:
 	db MENU_BACKUP_TILES
-	menu_coords 13, 5, 19, 11
+	menu_coords 11, 5, 19, 11
 	dw .MenuData2
 	db 1 ; default option
 
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "Give@"
-	db "Toss@"
-	db "Quit@"
+	db "Dar@"
+	db "Tirar@"
+	db "Salir@"
 
 Jumptable_GiveTossQuit:
 	dw GiveItem

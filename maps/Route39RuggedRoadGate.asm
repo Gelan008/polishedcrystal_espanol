@@ -41,42 +41,44 @@ Route39RuggedRoadGateSwimmerScript:
 	jumpopenedtext .ThanksAgain
 
 .LovelyDay:
-	text "Lovely day today,"
-	line "isn't it?"
+	text "¡Qué buen día hace"
+	line "hoy, ¿verdad?"
 
-	para "I heard that the"
-	line "mountaintop view"
-	cont "is great!"
+	para "He oído que las"
+	line "vistas desde la"
+	cont "cima son geniales!"
 	done
 
 .BadDay:
-	text "Argh! A boat guard"
-	line "chased me off the"
+	text "¡Arg! El guardia"
+	line "del barco me echó"
 
-	para "harbor when I swam"
-	line "near the boat."
+	para "del puerto cuando"
+	line "nadé cerca de él."
 
-	para "And I lost my Go-"
-	line "Goggles too…"
+	para "¡Y encima perdí"
+	line "mis Gafas"
+	cont "Aislantes…!"
 
-	para "Man, this is not"
-	line "my day!"
+	para "¡Vaya, hoy no es"
+	line "mi día!"
 	prompt
 
 .FoundGoggles:
-	text "Oh, you found"
-	line "them!"
+	text "¡Oh, pero si las"
+	line "has encontrado!"
 
-	para "I already bought"
-	line "new ones, though…"
+	para "Aunque ya me he"
+	line "comprado otras…"
 
-	para "Here, take this as"
-	line "thanks!"
+	para "¡Toma esto en"
+	line "agradecimiento!"
 	prompt
 
 .NoRoom:
-	text "Uh-oh, your Bag"
-	line "looks rather full…"
+	text "¡Vaya! Parece que"
+	line "llevas la Mochila"
+	cont "bastante llena…"
 	done
 
 .ThanksAgain:
@@ -125,24 +127,24 @@ Route39RuggedRoadGateCannotPassMovement:
 	step_end
 
 Route39RuggedRoadGateOfficerCannotPassText:
-	text "Whoa, where are"
-	line "you going?"
+	text "¡Alto! ¿Adónde"
+	line "crees que vas?"
 
-	para "The Rugged Road to"
-	line "Snowtop Mountain"
-	cont "is really harsh!"
+	para "¡La ruta hacia"
+	line "Cumbre Nevada es"
+	cont "muy dura!"
 
-	para "I can't let you"
-	line "risk it without"
-	cont "any Go-Goggles."
+	para "No puedo dejarte"
+	line "pasar sin llevar"
+	cont "Gafas Aislantes."
 	done
 
 Route39RuggedRoadGateOfficerText:
-	text "The trek to Snow-"
-	line "top Mountain can"
-	cont "be dangerous!"
+	text "¡El camino a"
+	line "Cumbre Nevada"
+	cont "es peligroso!"
 
-	para "That's why a #-"
-	line "mon Center was"
-	cont "built there."
+	para "Por eso abrieron"
+	line "allí un gran"
+	cont "Centro #mon."
 	done

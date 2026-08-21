@@ -1,58 +1,54 @@
 ToddAskNumber1Text:
-	text "From here, I can"
-	line "see Goldenrod's"
+	text "Desde aquí veo el"
+	line "Centro Comercial"
+	cont "de Ciudad Trigal."
 
-	para "Dept.Store. They"
-	line "have bargain sales"
+	para "Hacen rebajas en"
+	line "la azotea de vez"
+	cont "en cuando."
 
-	para "up on the rooftop"
-	line "every so often."
-
-	para "Could I get your"
-	line "phone number?"
-
-	para "I'll call you when"
-	line "they have a sale."
+	para "¿Me das tu número?"
+	line "¡Te llamaré si hay"
+	cont "buenas rebajas!"
 	done
 
 ToddAskNumber2Text:
-	text "If you give me"
-	line "your number, I'll"
-
-	para "call you when they"
-	line "have a sale."
+	text "¡Dame tu número y"
+	line "te llamaré si hay"
+	cont "rebajas!"
 	done
 
 ToddNumberAcceptedText:
-	text "I check Goldenrod"
-	line "Dept.Store every"
+	text "Miro en el Centro"
+	line "Comercial Trigal"
+	cont "todos los días."
 
-	para "day, so I know"
-	line "when there's a"
-	cont "sale."
+	para "¡Sé cuándo habrá"
+	line "buenas ofertas!"
 	done
 
 ToddNumberDeclinedText:
-	text "Anyway…"
+	text "En fin…"
 
-	para "If you're short on"
-	line "money, take down"
-	cont "my number."
+	para "Si andas corto de"
+	line "dinero, anota mi"
+	cont "número."
 
-	para "I'll call you when"
-	line "there's a sale."
+	para "Te llamaré cuando"
+	line "haya rebajas."
 	done
 
 ToddPhoneFullText:
-	text "Your phone doesn't"
-	line "have enough memory"
-	cont "for more numbers."
+	text "Tu teléfono no"
+	line "tiene suficiente"
+	cont "memoria."
 	done
 
 ToddRematchText:
-	text "I waited for you!"
-	line "I even cut back my"
+	text "¡Te estaba"
+	line "esperando!"
 
-	para "shopping to raise"
-	line "my #mon better!"
+	para "¡He ahorrado para"
+	line "entrenar mejor a"
+	cont "mis #mon!"
 	done

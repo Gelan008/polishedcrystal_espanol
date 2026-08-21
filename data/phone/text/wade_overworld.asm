@@ -1,70 +1,65 @@
 WadeAskNumber1Text:
-	text "You're awesome!"
-	line "I like you!"
+	text "¡Eres genial!"
+	line "¡Me caes bien!"
 
-	para "I look for #mon"
-	line "here every day."
+	para "Busco #mon aquí"
+	line "a diario."
 
-	para "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of Berries."
+	para "En la hierba hay"
+	line "muchas Bayas."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "¡Puedo darte unas"
+	line "pocas si quieres!"
 
-	para "Could I get your"
-	line "phone number?"
+	para "¿Podrías darme"
+	line "tu número?"
 	done
 
 WadeAskNumber2Text:
-	text "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of Berries."
+	text "En la hierba hay"
+	line "muchas Bayas."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "¡Puedo darte unas"
+	line "pocas si quieres!"
 
-	para "Could I get your"
-	line "phone number?"
+	para "¿Podrías darme"
+	line "tu número?"
 	done
 
 WadeNumberAcceptedText:
-	text "You'll hear from"
-	line "me as soon as I"
-
-	para "find anything that"
-	line "you might like."
+	text "¡Te avisaré en"
+	line "cuanto encuentre"
+	cont "algo que te guste!"
 	done
 
 WadeNumberDeclinedText:
-	text "Oh well. Don't be"
-	line "shy if you want to"
-	cont "get my number."
+	text "Vaya. ¡No tengas"
+	line "vergüenza si te"
+	cont "apetece mi número!"
 	done
 
 WadePhoneFullText:
-	text "Your phone list"
-	line "has no room for my"
-	cont "number."
+	text "Tu lista de móvil"
+	line "no tiene hueco"
+	cont "para mi número."
 	done
 
 WadeRematchText:
-	text "I was waiting for"
-	line "you. Let's battle!"
+	text "¡Te estaba"
+	line "esperando para"
+	cont "luchar!"
 	done
 
 WadeGiftText:
-	text "Good to see you!"
-	line "See? This is what"
-
-	para "I found."
-	line "It's for you!"
+	text "¡Me alegro de"
+	line "verte! Mira lo que"
+	cont "tengo. ¡Para ti!"
 	done
 
 WadePackFullText:
-	text "Oops, your Bag's"
-	line "full. Too bad."
+	text "Uy, tu Mochila"
+	line "está llena."
 
-	para "You should come"
-	line "back for it later."
+	para "Vuelve a por ello"
+	line "más tarde."
 	done

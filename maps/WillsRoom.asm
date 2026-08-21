@@ -77,75 +77,73 @@ WillScript:
 	end
 
 .SeenText:
-	text "Welcome to the"
-	line "#mon League,"
-	cont "<PLAYER>."
+	text "¡Bienvenido a la"
+	line "Liga #mon,"
+	cont "<PLAYER>!"
 
-	para "Allow me to intro-"
-	line "duce myself. I am"
-	cont "Will."
+	para "Permíteme que me"
+	line "presente: ¡soy"
+	cont "Mento!"
 
-	para "I have trained all"
-	line "around the world,"
+	para "He entrenado por"
+	line "todo el mundo para"
+	cont "fortalecer a mis"
+	cont "#mon Psíquicos."
 
-	para "making my Psychic"
-	line "#mon powerful."
+	para "Y, al fin, he sido"
+	line "admitido en el"
+	cont "Alto Mando."
 
-	para "And, at last, I've"
-	line "been accepted into"
-	cont "the Elite Four."
+	para "¡A partir de ahora"
+	line "solo iré a mejor!"
 
-	para "I can only keep"
-	line "getting better!"
-
-	para "Losing is not an"
-	line "option!"
+	para "¡Perder no es una"
+	line "opción!"
 	done
 
 .BeatenText:
-	text "I… I can't…"
-	line "believe it…"
+	text "No… No puedo…"
+	line "creérmelo…"
 	done
 
 .AfterText:
-	text "Even though I was"
-	line "defeated, I won't"
-	cont "change my course."
+	text "Aunque haya sido"
+	line "derrotado, no"
+	cont "cambiaré de rumbo."
 
-	para "I will continue"
-	line "battling until I"
+	para "¡Seguiré luchando"
+	line "hasta estar por"
+	cont "encima de todos"
+	cont "los entrenadores!"
 
-	para "stand above all"
-	line "trainers!"
-
-	para "Now, <PLAYER>, move"
-	line "on and experience"
-
-	para "the true ferocity"
-	line "of the Elite Four."
+	para "Ahora, <PLAYER>,"
+	line "avanza y conoce la"
+	cont "fuerza real del"
+	cont "Alto Mando."
 	done
 
 .SeenRematchText:
-	text "So, you have"
-	line "finally appeared."
+	text "Al fin has"
+	line "aparecido."
 
-	para "I have observed"
-	line "your battle"
-	cont "techniques."
+	para "He observado bien"
+	line "tu técnica de"
+	cont "combate."
 
-	para "I'm ready for you!"
+	para "¡Estoy listo para"
+	line "ti!"
 
-	para "All right."
+	para "Muy bien."
 
-	para "Prepare for"
-	line "battle!"
+	para "¡Prepárate para"
+	line "el combate!"
 	done
 
 .AfterRematchText:
-	text "I've expended all"
-	line "my power."
+	text "He agotado todas"
+	line "mis fuerzas."
 
-	para "I have no regrets"
-	line "about losing"
-	cont "this way."
+	para "No me arrepiento"
+	line "de haber perdido"
+	cont "así."
 	done

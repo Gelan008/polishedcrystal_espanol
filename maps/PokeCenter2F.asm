@@ -254,124 +254,116 @@ PokeCenter2FMovementData_ReceptionistStepsRightAndDown:
 	step_end
 
 Text_BattleReceptionistIntro:
-	text "Welcome to Cable"
-	line "Club Colosseum."
+	text "¡Bienvenido al"
+	line "Coliseo del Club"
+	cont "del Cable!"
 
-	para "You may battle a"
-	line "friend here."
+	para "Aquí puedes luchar"
+	line "contra un amigo."
 
-	para "Would you like to"
-	line "battle?"
+	para "¿Te gustaría"
+	line "luchar?"
 	done
 
 Text_TradeReceptionistIntro:
-	text "Welcome to Cable"
-	line "Trade Center."
+	text "¡Bienvenido al"
+	line "Centro de Cambio!"
 
-	para "You may trade your"
-	line "#mon here with"
-	cont "a friend."
+	para "Aquí puedes"
+	line "cambiar #mon"
+	cont "con un amigo."
 
-	para "Would you like to"
-	line "trade?"
+	para "¿Te gustaría"
+	line "hacer un cambio?"
 	done
 
 Text_FriendNotReady:
-	text "Your friend is not"
-	line "ready."
+	text "Tu amigo no está"
+	line "listo."
 	prompt
 
 Text_MustSaveGame:
-	text "Before opening the"
-	line "link, you must"
-	cont "save your game."
+	text "Antes de abrir la"
+	line "conexión debes"
+	cont "guardar partida."
 	done
 
 Text_PleaseWait:
-	text "Please wait."
+	text "Espera, por favor."
 	done
 
 Text_LinkTimedOut:
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Se ha cerrado la"
+	line "conexión por no"
+	cont "haber actividad."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again."
+	para "Habla con tu"
+	line "amigo y vuelve a"
+	cont "intentarlo."
 	prompt
 
 Text_PleaseComeAgain:
-	text "Please come again."
+	text "¡Vuelve cuando"
+	line "quieras!"
 	prompt
 
 Text_PleaseComeIn:
-	text "Please come in."
+	text "Pasa, por favor."
 	prompt
 
 Text_CantLinkToThePast:
-	text "You can't link to"
-	line "the past here."
+	text "Aquí no puedes"
+	line "conectar con el"
+	cont "pasado."
 	prompt
 
 Text_OldVersionDetected:
-	text "You are connected"
-	line "to an old"
-
-	para "version of"
-	line "Polished Crystal."
+	text "Te has conectado"
+	line "a una versión"
+	cont "antigua de"
+	cont "Polished Crystal."
 	prompt
 
 Text_WrongGameID:
-	text "Your game is not"
-	line "compatible with"
-	cont "the other game."
+	text "Tu juego no es"
+	line "compatible con el"
+	cont "otro juego."
 	prompt
 
 Text_WrongVersion:
-	text "Your game versions"
-	line "do not match."
+	text "La versión del"
+	line "juego no coincide."
 
-	para "In order to play"
-	line "Link Colosseum,"
-
-	para "your game versions"
-	line "must match."
+	para "Ambas versiones"
+	line "deben coincidir"
+	cont "para poder jugar."
 	prompt
 
 Text_WrongMinVersion:
-	text "Your game does not"
-	line "meet the minimum"
-	cont "version"
-
-	para "requirement for"
-	line "the other game."
+	text "Tu juego no cumple"
+	line "la versión mínima"
+	cont "del otro juego."
 	prompt
 
 Text_OtherPlayerWrongMinVersion:
-	text "The other game"
-	line "system does not"
-
-	para "meet the"
-	line "minimum version"
-	cont "requirement."
+	text "El otro juego no"
+	line "cumple el nivel de"
+	cont "versión mínima."
 	prompt
 
 Text_WrongOptions:
-	text "Your game options"
-	line "are not compatible"
-
-	para "with the other"
-	line "player."
+	text "Tus opciones no"
+	line "son compatibles"
+	cont "con las del rival."
 	prompt
 
 Text_IncompatibleRooms:
-	text "Incompatible rooms"
-	line "were chosen."
+	text "Se eligieron salas"
+	line "incompatibles."
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "I'm sorry--the"
-	line "Time Capsule is"
-	cont "inoperative."
+	text "La Cápsula del"
+	line "Tiempo no está"
+	cont "disponible."
 	done

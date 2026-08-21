@@ -71,74 +71,73 @@ ProfOaksAide4Script:
 	jumpthisopenedtext
 
 .ExplainText:
-	text "That Lucky Egg"
-	line "helps a #mon"
+	text "Ese Huevo Suerte"
+	line "ayuda a un #mon"
+	cont "a ganar más"
+	cont "experiencia de"
+	cont "lo normal."
 
-	para "gain more exper-"
-	line "ience than usual."
-
-	para "Use it to com-"
-	line "plete the #dex!"
+	para "¡Úsalo para"
+	line "completar la"
+	cont "#dex!"
 	done
 
 .HiText:
-	text "Hello there! I'm"
-	line "Prof.Oak's aide."
+	text "¡Hola! Soy el"
+	line "ayudante del"
+	cont "Profesor Oak."
 
-	para "If you caught 60"
-	line "kinds of #mon,"
+	para "Si atrapas 60"
+	line "tipos de #mon,"
+	cont "debo darte un"
+	cont "objeto."
 
-	para "I'm supposed to"
-	line "give you an item."
-
-	para "So, <PLAYER>,"
-	line "have you caught"
-
-	para "at least 60 kinds"
-	line "of #mon?"
+	para "Así que, <PLAYER>,"
+	line "¿has atrapado al"
+	cont "menos 60 tipos de"
+	cont "#mon?"
 	done
 
 .HereYouGoText:
-	text "Let's see…"
-	line "Great job! You've"
+	text "Veamos…"
+	line "¡Buen trabajo! Has"
 
-	para "caught "
+	para "atrapado "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " tipos"
+	line "de #mon."
 
-	para "Congratulations!"
-	line "Here you go!"
+	para "¡Felicidades!"
+	line "¡Toma!"
 	done
 
 .NoRoomText:
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for this."
+	text "¡Oh! Veo que no"
+	line "tienes espacio"
+	cont "para esto."
 	done
 
 BlackthornPokeCenter1FGentlemanText:
-	text "Deep inside far-"
-	line "off Indigo Plateau"
+	text "En lo más profundo"
+	line "de la lejana"
+	cont "Meseta Añil está"
+	cont "la Liga #mon."
 
-	para "is the #mon"
-	line "League."
-
-	para "I hear the best"
-	line "trainers gather"
-
-	para "there from around"
-	line "the country."
+	para "Dicen que los"
+	line "mejores"
+	cont "entrenadores del"
+	cont "país se reúnen"
+	cont "allí."
 	done
 
 BlackthornPokeCenter1FTwinText:
-	text "There was this"
-	line "move I just had"
+	text "Había un"
+	line "movimiento que"
+	cont "quería enseñarle"
+	cont "a mi #mon."
 
-	para "to teach my #-"
-	line "mon."
-
-	para "So I got the Move"
-	line "Deleter to make it"
-	cont "forget an HM move."
+	para "Así que fui al"
+	line "Quitamovimientos"
+	cont "para que olvidara"
+	cont "un movimiento MO."
 	done

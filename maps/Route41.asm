@@ -81,63 +81,66 @@ Route41MarlonScript:
 	end
 
 .IntroText:
-	text "Marlon: Uihaa!"
+	text "Ciprián: ¡Uijaaa!"
 
-	para "Sup, so you're"
-	line "<PLAYER>!"
+	para "¿Qué tal? ¡Así que"
+	line "tú eres <PLAYER>!"
 
-	para "The name's Marlon,"
-	line "man of the sea!"
+	para "¡Me llamo Ciprián,"
+	line "un hombre del mar!"
 
-	para "Me 'n' my #mon"
-	line "swam here from"
-	cont "the Unova region!"
+	para "¡Mis #mon y yo"
+	line "vinimos a nado"
+	cont "desde Teselia!"
 	done
 
 .ChallengeText:
-	text "You look strong!"
-	line "Shoots!"
+	text "¡Se te ve fuerte!"
+	line "¡Mola!"
 
-	para "We should totally"
-	line "have a battle!"
+	para "¡Deberíamos echar"
+	line "un combate ya!"
 	done
 
 .RematchText:
-	text "Ohoho! 'Sup,"
-	line "<PLAYER>!"
+	text "¡Ajajá! ¿Qué tal,"
+	line "<PLAYER>?"
 
-	para "So I'm facing"
-	line "you again!"
+	para "¡Así que volvemos"
+	line "a enfrentarnos!"
 
-	para "You're gonna get"
-	line "swept away,"
-	cont "fo' sho'!"
+	para "¡Te va a arrastrar"
+	line "la marea, fijo!"
 	done
 
 .RefusedText:
-	text "Aw, man!"
+	text "¡Vaya, qué corte!"
 	done
 
 .SeenText:
-	text "Right on,"
-	line "let's roll!"
+	text "¡Eso es, vamos con"
+	line "todo!"
 	done
 
 .BeatenText:
-	text "You totally rocked"
-	line "that!"
+	text "¡Fue alucinante"
+	line "lo bien que lo has"
+	cont "hecho!"
 
-	para "You got this Trai-"
-	line "ner thing down!"
+	para "¡Dominas esto de"
+	line "ser entrenador!"
 	done
 
 .AfterText:
-	text "You don't just"
-	line "look strong, you're"
-	cont "strong fo' reals!"
+	text "No solo pareces de"
+	line "lo más fuerte,"
 
-	para "Eh, I was swept"
-	line "away, too!"
+	para "¡es que lo eres de"
+	line "verdad!"
+
+	para "¡Caray, a mí la"
+	line "corriente también"
+	cont "me ha arrastrado!"
 	done
 
 GenericTrainerSwimmerfKaylee:
@@ -257,132 +260,130 @@ GenericTrainerSwimmermLewis:
 	done
 
 SwimmermCharlieSeenText:
-	text "The water's warm"
-	line "here. I'm loose"
-	cont "and limber."
+	text "El agua no está"
+	line "fría. Tengo el"
+	cont "cuerpo a punto."
 
-	para "Sure, I'll take"
-	line "you on!"
+	para "¡Claro que acepto"
+	line "tu reto!"
 	done
 
 SwimmermCharlieBeatenText:
-	text "Yikes! I've got"
-	line "prune skin!"
+	text "¡Ay! ¡Se me ha"
+	line "arrugado la piel!"
 	done
 
 SwimmermGeorgeSeenText:
-	text "I'm a bit tired."
-	line "If I win, lend me"
-	cont "your #mon."
+	text "Estoy agotado. Si"
+	line "gano, ¡me dejas a"
+	cont "tu #mon!"
 	done
 
 SwimmermGeorgeBeatenText:
-	text "Pant, pant…"
+	text "Uff, uff…"
 	done
 
 SwimmermBerkeSeenText:
-	text "See those islands"
-	line "that are blocked"
-	cont "by whirlpools?"
+	text "¿Ves esas islas"
+	line "rodeadas por"
+	cont "remolinos?"
 
-	para "There just has to"
-	line "be a secret!"
+	para "¡Tiene que haber"
+	line "algún secreto!"
 	done
 
 SwimmermBerkeBeatenText:
-	text "What's the secret"
-	line "to your strength?"
+	text "¿Cuál es el gran"
+	line "secreto que usas?"
 	done
 
 SwimmermKirkSeenText:
-	text "The waves are wild"
-	line "here."
+	text "Aquí las olas son"
+	line "muy bravas."
 
-	para "They tire you out"
-	line "while you swim."
+	para "Te cansan mucho al"
+	line "nadar."
 	done
 
 SwimmermKirkBeatenText:
-	text "I'm beat!"
+	text "¡Estoy agotado!"
 	done
 
 SwimmermMathewSeenText:
-	text "Are you seeking"
-	line "the secrets of"
-	cont "Whirl Islands?"
+	text "¿Buscas los"
+	line "secretos de las"
+	cont "Islas Remolino?"
 	done
 
 SwimmermMathewBeatenText:
-	text "Ooh, you've got"
-	line "great endurance!"
+	text "¡Vaya, cuánta"
+	line "resistencia!"
 	done
 
 SwimmermLewisSeenText:
-	text "I feel right at"
-	line "home in the sea!"
+	text "¡En el mar estoy"
+	line "como en casa!"
 	done
 
 SwimmermLewisBeatenText:
-	text "Beaten in my own"
-	line "home?"
+	text "¿Derrotado en mi"
+	line "propia casa?"
 	done
 
 SwimmerfKayleeSeenText:
-	text "I'm on my way to"
-	line "Whirl Islands."
+	text "Voy de camino a"
+	line "Islas Remolino."
 
-	para "I'm going explor-"
-	line "ing with friends."
+	para "Iré a explorar con"
+	line "mis amigos."
 	done
 
 SwimmerfKayleeBeatenText:
-	text "Is that how you do"
-	line "it?"
+	text "¿Así es como se"
+	line "hace?"
 	done
 
 SwimmerfSusieSeenText:
-	text "You look so ele-"
-	line "gant, riding your"
-	cont "#mon."
+	text "¡Qué porte tienes"
+	line "al montar a tu"
+	cont "#mon!"
 	done
 
 SwimmerfSusieBeatenText:
-	text "I'm crushed…"
+	text "¡Qué chasco…!"
 	done
 
 SwimmerfDeniseSeenText:
-	text "The weather is so"
-	line "beautiful, I'm in"
-	cont "a daze!"
+	text "¡Hace tan buen"
+	line "tiempo que estoy"
+	cont "en las nubes!"
 	done
 
 SwimmerfDeniseBeatenText:
-	text "Ohhh!"
+	text "¡Ooooh!"
 	done
 
 SwimmerfKaraSeenText:
-	text "If you need to"
-	line "rest, just tread"
-	cont "water."
+	text "Si te cansas, haz"
+	line "la bicicleta en el"
+	cont "agua."
 
-	para "You'll get your"
-	line "wind back, so you"
-
-	para "can keep on going"
-	line "strong."
+	para "Así tomarás aire"
+	line "para seguir con"
+	cont "fuerza."
 	done
 
 SwimmerfKaraBeatenText:
-	text "Oh! You have more"
-	line "energy than I do."
+	text "¡Oh! Tienes más"
+	line "energía que yo."
 	done
 
 SwimmerfWendySeenText:
-	text "At night, Staryu"
-	line "gather near the"
-	cont "water's surface."
+	text "De noche, varios"
+	line "Staryu flotan en"
+	cont "la superficie."
 	done
 
 SwimmerfWendyBeatenText:
-	text "Oh, dear…"
+	text "Vaya, vaya…"
 	done

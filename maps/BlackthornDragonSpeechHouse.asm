@@ -17,20 +17,19 @@ BlackthornDragonSpeechHouse_MapScriptHeader:
 	pokemon_event  5,  5, DRATINI, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BLUE, BlackthornDragonSpeechHouseDratiniText, -1
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "A clan of trainers"
-	line "who can freely"
+	text "Un clan de"
+	line "entrenadores"
+	cont "capaces de domar"
+	cont "dragones vive"
+	cont "justo aquí, en"
+	cont "Ciudad Endrino."
 
-	para "command dragons"
-	line "live right here in"
-	cont "Blackthorn."
-
-	para "As a result, there"
-	line "are many legends"
-
-	para "about dragons in"
-	line "this town."
+	para "Por ello, hay"
+	line "muchas leyendas"
+	cont "sobre dragones en"
+	cont "este pueblo."
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
-	text "Dratini: Draa!"
+	text "Dratini: ¡Draa!"
 	done

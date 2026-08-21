@@ -119,14 +119,13 @@ AzaleaGymBugsyScript:
 	done
 
 .AfterText:
-	text "Bug #mon are"
-	line "deep. There are"
+	text "Los #mon bicho"
+	line "son complejos. Hay"
+	cont "muchos misterios"
+	cont "por explorar."
 
-	para "many mysteries to"
-	line "be explored."
-
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "Estudia a tus"
+	line "favoritos a fondo."
 	done
 
 AzaleaGymGuyScript:
@@ -156,15 +155,15 @@ AzaleaGymGuyScript:
 	done
 
 .WinText:
-	text "Well done! That"
-	line "was a great clash"
+	text "¡Bien hecho! Fue"
+	line "un gran choque"
 
-	para "of talented young"
-	line "trainers."
+	para "entre jóvenes"
+	line "talentos."
 
-	para "With people like"
-	line "you, the future of"
-	cont "#mon is bright!"
+	para "¡Con gente como"
+	line "tú, el futuro"
+	cont "#mon brilla!"
 	done
 
 GenericTrainerBug_catcherBenny:
@@ -232,7 +231,7 @@ GenericTrainerBug_catcherJosh:
 	done
 
 .BeatenText:
-	text "Urrgggh!"
+	text "¡Urrgggh!"
 	done
 
 GenericTrainerTwinsAmyandmimi1:
@@ -259,12 +258,12 @@ GenericTrainerTwinsAmyandmimi2:
 	done
 
 .SeenText:
-	text "Mimi: You want to"
-	line "see the Leader?"
-	cont "We come first!"
+	text "Mimi: ¿Quieres"
+	line "ver al Líder?"
+	cont "¡Nosotras primero!"
 	done
 
 TrainerTwinsAmyandmimiBeatenText:
-	text "Amy & Mimi: Oh,"
-	line "double goodness!"
+	text "Amy y Mimi: ¡Oh,"
+	line "vaya tela doble!"
 	done

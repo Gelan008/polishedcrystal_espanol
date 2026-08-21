@@ -30,17 +30,16 @@ GenericTrainerGruntM22:
 	done
 
 GruntM22SeenText:
-	text "Hey! You got past"
-	line "the guards!"
+	text "¡Eh! ¡Pasaste por"
+	line "los guardias!"
 	done
 
 GruntM22BeatenText:
-	text "Aieee!"
+	text "¡Aaaay!"
 	done
 
 CliffCaveRocketText:
-	text "Don't just wander"
-	line "around during a"
-	cont "Team Rocket"
-	cont "operation!"
+	text "¡No merodees en"
+	line "una misión del"
+	cont "Team Rocket!"
 	done

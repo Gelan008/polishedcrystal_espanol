@@ -142,27 +142,24 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "Jasmine: …This"
-	line "#mon always"
+	text "Yasmina: …Este"
+	line "#mon siempre"
+	cont "iluminaba el mar"
+	cont "por la noche."
 
-	para "kept the sea lit"
-	line "at night."
+	para "…Pero enfermó de"
+	line "repente… Apenas"
+	cont "puede respirar…"
 
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	para "…Oí que hay una"
+	line "buena Farmacia en"
+	cont "Ciudad Orquídea…"
 
-	para "…I understand"
-	line "that there is a"
+	para "Pero está al otro"
+	line "lado del mar…"
 
-	para "wonderful Pharmacy"
-	line "in Cianwood…"
-
-	para "But that's across"
-	line "the sea…"
-
-	para "And I can't leave"
-	line "Amphy unattended…"
+	para "Y no puedo dejar a"
+	line "Amphy sola…"
 	done
 
 JasmineGetSomeMedicineText:
@@ -172,50 +169,49 @@ JasmineGetSomeMedicineText:
 	done
 
 JasmineCureAmphyText:
-	text "Jasmine: …Will"
-	line "that medicine cure"
+	text "Yasmina: …¿Esa"
+	line "medicina curará a"
 	cont "Amphy?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SecretPotion to"
-	cont "Jasmine."
+	text "¡<PLAYER> entregó"
+	line "la PociónSecreta a"
+	cont "Yasmina!"
 	done
 
 JasmineDontBeOffendedText:
-	text "Jasmine: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "Yasmina: …Mmm, no"
+	line "te ofendas, por"
+	cont "favor…"
 
-	para "…Amphy will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "…Amphy no toma"
+	line "nada de nadie que"
+	cont "no sea yo…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "Jasmine: …"
+	text "Yasmina: …"
 
-	para "Amphy, how are you"
-	line "feeling?"
+	para "Amphy, ¿cómo te"
+	line "encuentras?"
 	done
 
 JasmineThankYouText:
-	text "Jasmine: …Oh, I'm"
-	line "so relieved…"
+	text "Yasmina: …¡Uf, qué"
+	line "alivio!…"
 
-	para "This is just so"
-	line "wonderful…"
+	para "¡Es maravilloso…!"
 
-	para "Thank you so very,"
-	line "very much."
+	para "Muchísimas gracias"
+	line "de corazón."
 
-	para "…I will return to"
-	line "the Gym…"
+	para "…Volveré al"
+	line "Gimnasio…"
 	done
 
 JasmineISeeText:
-	text "Jasmine: …I see…"
+	text "Yasmina: …Ya veo…"
 	done
 
 JasmineAmphyHangOnText:

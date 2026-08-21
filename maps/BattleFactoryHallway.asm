@@ -173,8 +173,8 @@ BattleFactoryHallwayFollowReceptionist:
 	step_end
 
 .PleaseStepThisWayText:
-	text "Please step this"
-	line "way."
+	text "Pase por aquí,"
+	line "por favor."
 	prompt
 
 .StepAbovePlayerMovement:

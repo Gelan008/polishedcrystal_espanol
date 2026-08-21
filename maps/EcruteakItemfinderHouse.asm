@@ -31,29 +31,22 @@ EcruteakItemfinderGuy:
 	jumpthisopenedtext
 
 ItemfinderExplanationText:
-	text "There are many"
-	line "items lying about"
+	text "Hay objetos en el"
+	line "suelo que no se"
+	cont "ven a simple vista"
 
-	para "that aren't ob-"
-	line "vious."
+	para "El Buscaobjetos"
+	line "te avisa si hay un"
+	cont "objeto cerca."
 
-	para "Use Itemfinder to"
-	line "check if there is"
+	para "No te da el punto"
+	line "exacto, así que"
+	cont "tendrás que buscar"
+	cont "tú mismo."
 
-	para "an item on the"
-	line "ground near you."
-
-	para "It doesn't show"
-	line "the exact spot,"
-
-	para "so you'll have to"
-	line "look yourself."
-
-	para "Oh yeah--I heard"
-	line "there are items"
-
-	para "in Ecruteak's"
-	line "Burned Tower."
+	para "¡Dicen que hay"
+	line "cosas ocultas en"
+	cont "la Torre Quemada!"
 	done
 
 EcruteakHistoryBook:
@@ -90,56 +83,54 @@ EcruteakHistoryBook:
 	done
 
 EcruteakItemfinderAdventureText:
-	text "Ah. You're on an"
-	line "adventure with"
-	cont "your #mon?"
+	text "Ah, ¿estás de"
+	line "aventura con tus"
+	cont "#mon?"
 
-	para "Well, what's an"
-	line "adventure without"
-	cont "treasure hunting?"
+	para "¿Y qué sería de"
+	line "una aventura sin"
+	cont "buscar tesoros?"
 
-	para "Am I right, or am"
-	line "I right?"
+	para "¿Tengo o no tengo"
+	line "razón?"
 	done
 
 EcruteakItemfinderTrueSpiritText:
-	text "Good! You under-"
-	line "stand the true"
+	text "¡Bien! Conoces el"
+	line "auténtico espíritu"
+	cont "de la aventura."
 
-	para "spirit of adven-"
-	line "ture."
-
-	para "I like that! Take"
-	line "this with you."
+	para "¡Me gusta! ¡Toma"
+	line "esto contigo!"
 	done
 
 EcruteakItemfinderToEachHisOwnText:
-	text "Oh… To each his"
-	line "own, I suppose…"
+	text "Oh… Para gustos"
+	line "colores,"
+	cont "supongo…"
 	done
 
 EcruteakHistoryBookText:
-	text "History of"
-	line "Ecruteak"
+	text "Historia de Iris"
 
-	para "Want to read it?"
+	para "¿Quieres leerla?"
 	done
 
 EcruteakTwoTowersText:
-	text "In Ecruteak, there"
-	line "were two towers."
+	text "En Iris había dos"
+	line "torres."
 
-	para "Each tower was the"
-	line "roost of powerful"
-	cont "flying #mon."
+	para "Cada una era hogar"
+	line "de un gran #mon"
+	cont "volador."
 
-	para "But one of the"
-	line "towers burned to"
-	cont "the ground."
+	para "Pero una de las"
+	line "torres ardió hasta"
+	cont "los cimientos."
 
-	para "The two #mon"
-	line "haven't been seen"
-	cont "since…"
+	para "Desde entonces no"
+	line "se les ha vuelto"
+	cont "a ver…"
 
-	para "Keep reading?"
+	para "¿Seguir leyendo?"
 	done

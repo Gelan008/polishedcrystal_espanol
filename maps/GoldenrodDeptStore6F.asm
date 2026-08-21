@@ -18,31 +18,28 @@ GoldenrodDeptStore6F_MapScriptHeader:
 	object_event  8,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStore6FSuperNerdText, -1
 
 GoldenrodDeptStore6FLassText:
-	text "Do you listen to"
-	line "Lucky Channel?"
+	text "¿Escuchas el Canal"
+	line "Suerte?"
 
-	para "If you want to"
-	line "win, trade #mon"
-
-	para "with as many peo-"
-	line "ple as possible to"
-
-	para "get different ID"
-	line "numbers."
+	para "Para ganar, cambia"
+	line "#mon con mucha"
+	cont "gente y reúne IDs"
+	cont "diferentes."
 	done
 
 GoldenrodDeptStore6FSuperNerdText:
-	text "If you're tired,"
-	line "try the vending"
-	cont "machine's drinks."
+	text "Si estás cansado,"
+	line "prueba las bebidas"
+	cont "de la máquina."
 
-	para "Your #mon will"
-	line "love them too."
+	para "¡A tus #mon"
+	line "les encantarán!"
 	done
 
 GoldenrodDeptStore6FDirectoryText:
-	text "Take a Break from"
-	line "Shopping!"
+	text "¡Descansa de las"
+	line "compras!"
 
-	para "6F Tranquil Square"
+	para "P5 Plaza de la"
+	line "   Tranquilidad"
 	done

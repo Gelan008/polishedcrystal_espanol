@@ -214,125 +214,112 @@ VermilionCitySuperNerd2Script:
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Having a variety"
-	line "of #mon types"
+	text "Tener #mon de"
+	line "diversos tipos te"
+	cont "dará ventaja en el"
+	cont "combate."
 
-	para "should give you an"
-	line "edge in battle."
-
-	para "I'm sure the Kanto"
-	line "Gym Badges will"
-	cont "help you."
+	para "Las Medallas de"
+	line "Kanto te serán de"
+	cont "gran ayuda."
 	done
 
 LawrenceOverheardText:
-	text "…So the legendary"
-	line "#mon was not"
-	cont "on that island…"
+	text "…Así que"
+	line "el #mon"
+	cont "legendario no"
+	cont "estaba allí…"
 
-	para "I must continue my"
-	line "search elsewhere…"
+	para "Debo seguir"
+	line "buscando en otra"
+	cont "parte…"
 	done
 
 LawrenceIntroText:
-	text "Lawrence: Please"
-	line "excuse me for"
-	cont "bumping into you."
+	text "Lawrence: Perdón"
+	line "por el choque."
 
-	para "I'm in a hurry to"
-	line "complete my"
-	cont "collection."
+	para "Tengo prisa por"
+	line "completar toda mi"
+	cont "colección."
 
-	para "My name is"
+	para "Mi nombre es"
 	line "Lawrence III."
 
-	para "And you're the"
-	line "League Champion?"
+	para "¿Y tú ostentas el"
+	line "título de Campeón"
+	cont "de la Liga?"
 
-	para "…Well, appearances"
-	line "can be deceiving."
+	para "…Vaya, qué engaño"
+	line "de apariencias."
 
-	para "Legendary #mon"
-	line "have always been"
-	cont "my passion."
+	para "Los #mon"
+	line "legendarios son mi"
+	cont "gran pasión."
 
-	para "I took the Seagal-"
-	line "lop Ferry here to"
+	para "Fui en ferri hasta"
+	line "Isla Shamouti, mas"
+	cont "no hallé nada."
 
-	para "Shamouti Island,"
-	line "but did not find"
-	cont "the one I sought."
+	para "¡Vaya! ¿Has visto"
+	line "a los #mon de"
+	cont "las leyendas?"
 
-	para "Oh, you've encoun-"
-	line "tered #mon out"
-	cont "of Johto's legends?"
+	para "Entonces nos"
+	line "volveremos a ver"
+	cont "como colegas."
 
-	para "Then our paths may"
-	line "cross again as"
-	cont "fellow collectors."
-
-	para "But I really must"
-	line "be on my way."
-	cont "Farewell!"
+	para "Debo seguir mi"
+	line "camino. ¡Adiós!"
 	done
 
 VermilionCityTeacherText:
-	text "Vermilion Port is"
-	line "Kanto's seaside"
-	cont "gateway."
+	text "El puerto de"
+	line "Carmín es la vía"
+	cont "marítima de Kanto."
 
-	para "Luxury liners from"
-	line "around the world"
-	cont "dock here."
+	para "Aquí llegan los"
+	line "cruceros de lujo"
+	cont "de todo el mundo."
 	done
 
 VermilionMachokeOwnerText:
-	text "My #mon"
-	line "prepared the land"
+	text "¡Mis #mon"
+	line "allanaron el suelo"
+	cont "para ese edificio!"
 
-	para "to construct that"
-	line "huge building!"
-
-	para "It was a Machop"
-	line "three years ago,"
-
-	para "but the effort"
-	line "made it evolve!"
+	para "Era un Machop hace"
+	line "tres años, pero"
+	cont "ya evolucionó!"
 	done
 
 VermilionMachokeText:
-	text "Machoke: Guooh"
+	text "Machoke: ¡Guoh,"
 	line "gogogoh!"
 	done
 
 VermilionCitySuperNerdText:
-	text "There are eight"
-	line "Gyms in Kanto."
+	text "En Kanto hay ocho"
+	line "Gimnasios."
 
-	para "That big building"
-	line "is Vermilion's"
-	cont "#mon Gym."
+	para "Ese gran edificio"
+	line "es el Gimnasio"
+	cont "#mon de Carmín."
 	done
 
 VermilionCitySuperNerd2Text:
-	text "The Battle Factory"
-	line "is brand-new, but"
-
-	para "trainers are al-"
-	line "ready arriving"
-
-	para "from distant"
-	line "regions to take"
-	cont "its challenge!"
+	text "La Fábrica Batalla"
+	line "es nueva, ¡pero ya"
+	cont "vienen personas de"
+	cont "sitios lejanos"
+	cont "a combatir!"
 	done
 
 VermilionCityOfficerFText:
-	text "The Power Plant's"
-	line "generator is shut"
-	cont "down, so it's not"
-
-	para "safe to open the"
-	line "Battle Factory."
+	text "La Fábrica Batalla"
+	line "está cerrada hasta"
+	cont "que la Central"
+	cont "vuelva a operar."
 	done
 
 VermilionCityOfficerText:
@@ -345,8 +332,9 @@ VermilionCityOfficerText:
 	done
 
 VermilionCitySailorText:
-	text "Nothing beats"
-	line "good sea air!"
+	text "¡Nada se compara"
+	line "a la buena brisa"
+	cont "marina!"
 	done
 
 VermilionCitySnorlaxSleepingText:
@@ -355,13 +343,13 @@ VermilionCitySnorlaxSleepingText:
 	done
 
 VermilionCityRadioNearSnorlaxText:
-	text "The #gear was"
-	line "placed near the"
-	cont "sleeping Snorlax…"
+	text "Suena el #gear"
+	line "cerca de Snorlax…"
 
 	para "…"
 
-	para "Snorlax woke up!"
+	para "¡Snorlax se ha"
+	line "despertado!"
 	done
 
 VermilionCityBadgeGuyTrainerText:
@@ -398,58 +386,60 @@ VermilionCityBadgeGuyMostBadgesText:
 	done
 
 VermilionCityBadgeGuyAllBadgesText:
-	text "Congratulations!"
+	text "¡Enhorabuena!"
 
-	para "You got all the"
-	line "Kanto Gym Badges."
+	para "Tienes todas las"
+	line "Medallas de Kanto."
 
-	para "I've got a reward"
-	line "for your efforts."
+	para "Toma este premio"
+	line "por tu esfuerzo."
 	done
 
 VermilionCitySignText:
-	text "Vermilion City"
+	text "Ciudad Carmín"
 
-	para "The Port of"
-	line "Exquisite Sunsets"
+	para "El puerto de los"
+	line "bellos atardeceres"
 	done
 
 VermilionGymSignText:
-	text "Vermilion City"
-	line "#mon Gym"
-	cont "Leader: Lt.Surge"
+	text "Líder del Gimnasio"
+	line "#mon de Ciudad"
+	cont "Carmín: Lt. Surge"
 
-	para "The Lightning"
-	line "American"
+	para "El Rayo Americano"
 	done
 
 PokemonFanClubSignText:
-	text "#mon Fan Club"
+	text "Club de Fans de"
+	line "#mon"
 
-	para "All #mon Fans"
-	line "Welcome!"
+	para "¡Todos los fans de"
+	line "#mon son"
+	cont "bienvenidos!"
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "Diglett's Cave"
+	text "Cueva Diglett"
 	done
 
 VermilionCityPortSignText:
-	text "Vermilion Port"
-	line "Entrance"
+	text "Entrada del"
+	line "Puerto Carmín"
 	done
 
 VermilionCityAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "Your Trainer Card"
-	line "has room to show"
-	cont "sixteen Badges!"
+	para "¡En tu Ficha de"
+	line "entrenador caben"
+	cont "16 Medallas!"
 	done
 
 VermilionCityBattleFactorySignText:
-	text "Battle Factory"
+	text "Fábrica Batalla"
 
-	para "Win it All with"
-	line "Rental #mon!"
+	para "¡Gana todo con los"
+	line "#mon de"
+	cont "alquiler!"
 	done

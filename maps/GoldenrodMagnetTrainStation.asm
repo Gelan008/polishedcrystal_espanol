@@ -110,51 +110,50 @@ GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
 	done
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
-	text "We'll soon depart"
-	line "for Saffron."
+	text "Saldremos pronto"
+	line "hacia Azafrán."
 
-	para "Are you coming"
-	line "aboard?"
+	para "¿Vas a subir"
+	line "a bordo?"
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail pass, please?"
+	text "¿Me dejas ver el"
+	line "Pase, por favor?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "Vale. Por aquí,"
+	line "por favor."
 	done
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
-	text "Sorry. You don't"
-	line "have a rail pass."
+	text "Perdona, no tienes"
+	line "el Pase."
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "¡Esperamos volver"
+	line "a verte pronto!"
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "We have arrived in"
-	line "Goldenrod."
+	text "Hemos llegado a"
+	line "Trigal."
 
-	para "We hope to see you"
-	line "again."
+	para "Esperamos volver"
+	line "a verte."
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "I'm the President."
+	text "Soy el Presidente."
 
-	para "My dream was to"
-	line "build a train that"
+	para "Mi sueño era crear"
+	line "un tren más veloz"
+	cont "que cualquier"
+	cont "#mon."
 
-	para "is faster than any"
-	line "#mon."
-
-	para "It really brings"
-	line "Johto much closer"
-	cont "to Kanto."
+	para "Realmente hace"
+	line "que Johto y Kanto"
+	cont "estén más cerca."
 	done
 
 GoldenrodMagnetTrainStationCooltrainerfText1:

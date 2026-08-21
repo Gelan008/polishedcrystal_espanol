@@ -67,50 +67,47 @@ RuinsOfAlphInnerChamberStrangePresenceScript:
 	end
 
 RuinsOfAlphStrangePresenceText:
-	text "There is a strange"
-	line "presence here…"
+	text "Se siente una"
+	line "extraña presencia…"
 	done
 
 RuinsOfAlphInnerChamberFisherText:
-	text "This is a big"
-	line "room, but there's"
-	cont "nothing here."
+	text "Esta sala es"
+	line "grande, pero aquí"
+	cont "no hay nada."
 	done
 
 RuinsOfAlphInnerChamberTeacherText:
-	text "This place has a"
-	line "mystical quality"
-	cont "to it."
+	text "Este lugar tiene"
+	line "un toque místico."
 
-	para "It feels sort of"
-	line "ethereal even."
+	para "Se siente incluso"
+	line "algo etéreo."
 	done
 
 RuinsOfAlphInnerChamberGrampsText:
-	text "The ruins have not"
-	line "been robbed or"
-	cont "tampered with."
+	text "Nadie ha saqueado"
+	line "ni alterado las"
+	cont "ruinas."
 
-	para "Something here"
-	line "must make people"
-	cont "want to preserve"
-	cont "it."
+	para "Algo aquí dentro"
+	line "debe de incitar a"
+	cont "la gente a querer"
+	cont "preservarlas."
 	done
 
 RuinsOfAlphInnerChamberScientistText:
-	text "The patterns on"
-	line "the wall appear to"
-	cont "be words!"
+	text "¡Los dibujos de la"
+	line "pared parecen ser"
+	cont "palabras!"
 
-	para "And those sliding"
-	line "stone panels seem"
+	para "Y esos paneles de"
+	line "piedra corredizos"
+	cont "parecen ser algún"
+	cont "tipo de señal."
 
-	para "to be signals of"
-	line "some kind."
-
-	para "I think they make"
-	line "#mon appear,"
-
-	para "but it's not clear"
-	line "yet…"
+	para "Creo que hacen que"
+	line "aparezcan #mon,"
+	cont "pero todavía no"
+	cont "está muy claro…"
 	done

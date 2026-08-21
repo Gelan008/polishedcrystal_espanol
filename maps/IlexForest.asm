@@ -835,123 +835,114 @@ IlexForestApprenticeIntroText:
 	done
 
 IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "¡Guau! ¡Muchísimas"
+	line "gracias!"
 
-	para "My boss's #mon"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a Badge."
+	para "El #mon de mi"
+	line "jefe no me hace"
+	cont "caso porque no"
+	cont "tengo Medallas."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#mon!"
+	text "¡Es el #mon"
+	line "desaparecido!"
 	done
 
 Text_Kwaaaa:
-	text "Farfetch'd: Kwaa!"
+	text "Farfetch'd: ¡Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My Farfetch'd!"
+	text "¡Ah! ¡Mi"
+	line "Farfetch'd!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "¿Lo encontraste"
+	line "tú, joven?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Sin él, no podemos"
+	line "usar Corte para"
+	cont "hacer carbón."
 
-	para "to Cut trees for"
-	line "charcoal."
+	para "¡Muchas gracias!"
 
-	para "Thanks, kid!"
+	para "¿Cómo podría darte"
+	line "las gracias…?"
 
-	para "Now, how can I"
-	line "thank you…"
-
-	para "I know! Here, take"
-	line "this."
+	para "¡Ya sé! Toma esto."
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the Cut HM."
-	line "Any #mon you"
+	text "Es la MO Corte."
+	line "Cualquier #mon"
+	cont "compatible puede"
+	cont "cortar arbustos."
 
-	para "have that's compat-"
-	line "ible with it can"
+	para "No hace falta que"
+	line "se la enseñes si"
+	cont "no vas a usarla"
+	cont "en combate."
 
-	para "use Cut to clear"
-	line "small trees."
-
-	para "You don't have to"
-	line "teach it to them"
-
-	para "unless you want"
-	line "them to use Cut"
-	cont "in a battle."
-
-	para "Of course, you"
-	line "have to have the"
-
-	para "Gym Badge from"
-	line "Azalea to use it"
-	cont "outside of battle."
+	para "Eso sí, necesitas"
+	line "la Medalla de"
+	cont "Pueblo Azalea para"
+	cont "usarla fuera."
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "¿Quieres ser mi"
+	line "aprendiz para"
+	cont "hacer carbón?"
 
-	para "charcoal maker"
-	line "with me?"
-
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "¡En diez años te"
+	line "harás un experto!"
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "¿Que qué hago?"
 
-	para "I'm shaking trees"
-	line "using Headbutt."
+	para "Agito los árboles"
+	line "usando Golpe"
+	cont "Cabeza."
 
-	para "Sometimes I flush"
-	line "out a #mon,"
+	para "A veces hago caer"
+	line "a un #mon,"
 
-	para "sometimes just"
-	line "their feathers."
+	para "a veces solo"
+	line "sus plumas."
 
-	para "But even those"
-	line "are useful!"
+	para "¡Pero hasta esas"
+	line "son muy útiles!"
 
-	para "They seem to make"
-	line "my own #mon"
-	cont "a little stronger."
+	para "Parecen hacer a"
+	line "mis #mon algo"
+	cont "más fuertes."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "Es divertido."
+	line "¡Pruébalo tú"
+	cont "también!"
 
-	para "You'll just need a"
-	line "Case to hold any"
-	cont "delicate Wings…"
+	para "Solo necesitas"
+	line "un Estuche para"
+	cont "guardar Plumas"
+	cont "delicadas…"
 	done
 
 Text_HeadbuttIntro2:
-	text "Oh, and if none"
-	line "of your #mon"
-	cont "know Headbutt?"
+	text "Ah, ¿y si ninguno"
+	line "de tus #mon"
+	cont "sabe Golpe Cabeza?"
 
-	para "No problem!"
+	para "¡No hay problema!"
 	done
 
 Text_IlexForestTutorHeadbutt:
-	text "I can teach your"
-	line "#mon to use"
+	text "Puedo enseñar a"
+	line "tus #mon a"
 
-	para "Headbutt in ex-"
-	line "change for a"
-	cont "Silver Leaf."
+	para "usar Golpe Cabeza"
+	line "a cambio de una"
+	cont "Hoja Plata."
 	done
 
 Text_IlexForestTutorNoSilverLeaf:
@@ -967,9 +958,9 @@ Text_IlexForestTutorNoSilverLeaf:
 	done
 
 Text_IlexForestTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Headbutt?"
+	text "¿Enseño a tu"
+	line "#mon Golpe"
+	cont "Cabeza?"
 	done
 
 Text_IlexForestTutorRefused:
@@ -984,211 +975,198 @@ Text_IlexForestTutorTaught:
 	done
 
 Text_IlexForestLass:
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text "¿Le ha pasado algo"
+	line "al guardián del"
+	cont "bosque?"
 	done
 
 Text_IlexForestMossRock:
-	text "The rock is cover-"
-	line "ed in moss."
+	text "La roca está"
+	line "cubierta de musgo."
 
-	para "It feels pleasant-"
-	line "ly cool."
+	para "Se siente muy"
+	line "fresca al tacto."
 	done
 
 IlexForestSignpost:
-	text "Ilex Forest is"
-	line "so overgrown with"
+	text "El Encinar está"
+	line "tan cubierto de"
+	cont "árboles que no se"
+	cont "ve el cielo."
 
-	para "trees that you"
-	line "can't see the sky."
-
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Cuidado con los"
+	line "objetos que hayan"
+	cont "podido caerse."
 	done
 
 IlexForestTrainerTips:
-	text "Trainer Tips!"
+	text "Pistas Entrenador"
 
-	para "As long as you"
-	line "have the HM in"
-	cont "your bag,"
+	para "Con una MO en la"
+	line "Mochila y un"
+	cont "#mon compatible"
 
-	para "and #mon in"
-	line "your party that"
+	para "¡podrás usarla"
+	line "fuera del combate!"
 
-	para "are compatible"
-	line "with that HM can"
-
-	para "use the move out-"
-	line "of battle. You"
-
-	para "don't even have to"
-	line "teach it!"
+	para "¡Ni siquiera hace"
+	line "falta enseñarla!"
 	done
 
 Text_IlexForestShrine:
-	text "Ilex Forest"
-	line "Shrine…"
+	text "El Encinar"
+	line "Santuario…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Es en honor al"
+	line "protector del"
+	cont "bosque…"
 	done
 
 Text_ShrineCelebiEvent:
-	text "Ilex Forest"
-	line "Shrine…"
+	text "Santuario del"
+	line "Encinar…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "En honor al"
+	line "protector del"
+	cont "bosque…"
 
-	para "Oh? What is this?"
+	para "¿Eh? Hay un hueco."
+	line "Parece que la GS"
+	cont "Ball encajaría."
 
-	para "It's a hole."
-	line "It looks like the"
-
-	para "GS Ball would fit"
-	line "inside it."
-
-	para "Want to put the GS"
-	line "Ball here?"
+	para "¿Quieres poner la"
+	line "GS Ball aquí?"
 	done
 
 Text_InsertGSBall:
-	text "<PLAYER> put in the"
+	text "<PLAYER> puso la"
 	line "GS Ball."
 	done
 
 Text_KurtCaughtCelebi:
-	text "Whew, wasn't that"
-	line "something!"
+	text "¡Uf, eso sí que"
+	line "fue increíble!"
 
-	para "<PLAYER>, that was"
-	line "fantastic. Thanks!"
+	para "¡Fue fantástico,"
+	line "<PLAYER>! ¡Gracias!"
 
-	para "The legends about"
-	line "that Shrine were"
-	cont "real after all."
+	para "Las historias del"
+	line "Santuario eran"
+	cont "ciertas."
 
-	para "Maybe the legend"
-	line "that people who"
-	cont "tamper with it"
+	para "Quizás la leyenda"
+	line "de que quien lo"
+	cont "toca desaparece"
+	cont "sea real también…"
 
-	para "disappear is"
-	line "true, too…"
+	para "¡Me siento muy"
+	line "inspirado tras ver"
+	cont "esto!"
 
-	para "I feel inspired by"
-	line "what I just saw."
+	para "¡Haré unas Balls"
+	line "aún mejores!"
 
-	para "It motivates me to"
-	line "make better Balls!"
-
-	para "I'm going!"
+	para "¡Me voy!"
 	done
 
 Text_CelebiDancedBeautifully:
-	text "Celebi danced"
-	line "beautifully!"
+	text "¡Celebi bailó"
+	line "maravillosamente!"
 	done
 
 Text_IlexForestLyraHello:
-	text "Lyra: Hi, <PLAYER>."
-	line "Have you heard of"
+	text "Lira: Hola,"
+	line "<PLAYER>."
+	cont "¿Conoces la"
 
-	para "the legend of the"
-	line "shrine?"
+	para "leyenda del"
+	line "santuario?"
 
-	para "They say that"
-	line "people disappear"
+	para "Dicen que la"
+	line "gente desaparece"
 
-	para "when they tamper"
-	line "with it."
+	para "cuando lo toca."
 	done
 
 Text_IlexForestLyraWhatWasThat:
-	text "Lyra: …"
-	line "What was that?"
+	text "Lira: …"
+	line "¿Qué fue eso?"
 	done
 
 Text_IlexForestLyraWorried:
-	text "Lyra: …<PLAYER>?"
-	line "You're really back?"
+	text "Lira: …¿<PLAYER>?"
+	line "¿Has vuelto?"
 
-	para "I missed you so"
-	line "much! Celebi sent"
+	para "¡Te eché mucho de"
+	line "menos!"
 
-	para "me here and you"
-	line "were missing…"
+	para "Celebi me trajo"
+	line "aquí y no te vi…"
 
-	para "I thought you'd be"
-	line "stuck in the past"
-	cont "forever!"
+	para "¡Pensé que te"
+	line "quedarías en el"
+	cont "pasado siempre!"
 
 	para "…"
 
-	para "At least now we're"
-	line "both safely back"
-	cont "to our time."
+	para "Menos mal que"
+	line "estamos a salvo en"
+	cont "nuestra época."
 	done
 
 Text_IlexForestLyraArmorSuit:
-	text "Lyra: What strange"
-	line "adventure did you"
-	cont "have by yourself?"
+	text "Lira: ¿Qué extraña"
+	line "aventura has"
+	cont "vivido verdad?"
 
-	para "You dropped this…"
-	line "thing when Celebi"
-	cont "brought you back…"
+	para "Se te cayó esta"
+	line "cosa cuando Celebi"
+	cont "te devolvió…"
 	done
 
 Text_IlexForestLyraGoodbye:
-	text "Lyra: This sure"
-	line "was a bizarre day."
+	text "Lira: Ha sido un"
+	line "día de lo más"
+	cont "raro."
 
-	para "I'm exhausted, I"
-	line "had better get"
-	cont "going."
+	para "Estoy exhausta,"
+	line "¡mejor me marcho!"
 
-	para "You should rest"
-	line "too, <PLAYER>."
+	para "Deberías descansar"
+	line "tú también,"
+	cont "<PLAYER>!"
 
-	para "See you!"
+	para "¡Nos vemos!"
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "¡No te acerques"
+	line "así por detrás!"
 
-	para "You frightened a"
-	line "#mon away!"
+	para "¡Asustaste a un"
+	line "#mon y huyó!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#mon before…"
+	text "No había visto a"
+	line "ese #mon…"
 	done
 
 IlexForestHoneyBoyText:
-	text "I'm slathering"
+	text "Estoy untando"
 if DEF(FAITHFUL)
-	line "Honey on the"
-	cont "ground."
+	line "Miel por el"
+	cont "suelo."
 else
-	line "Sweet Honey"
-	cont "on the ground."
+	line "Miel Dulce por"
+	cont "el suelo."
 endc
 
-	para "My sister's #-"
-	line "mon collects it."
+	para "Los #mon de mi"
+	line "hermana la cogen."
 
-	para "It helps attract"
-	line "#mon at the"
-
-	para "same level as my"
-	line "own, so they're"
-	cont "a fair fight."
+	para "Atrae a #mon de"
+	line "mi mismo nivel,"
+	cont "para que sea un"
+	cont "combate justo."
 	done

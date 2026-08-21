@@ -21,77 +21,68 @@ CeladonUniversityWillowsOffice_MapScriptHeader:
 	object_event  4,  3, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityWillowsOfficeScientistText, -1
 
 CeladonUniversityWillowsOfficeWillowText:
-	text "Hello there!"
-	line "I am Prof.Willow."
+	text "¡Hola, hola!"
+	line "Soy el"
+	cont "Prof. Willow."
 
-	para "I supervise"
-	line "Candela, Blanche,"
-	cont "and Spark in their"
+	para "Superviso a"
+	line "Candela, Blanche y"
+	cont "Spark en sus"
+	cont "investigaciones."
 
-	para "teaching and re-"
-	line "search."
+	para "Puede que los veas"
+	line "en sus aulas."
 
-	para "You may run into"
-	line "them in classes."
+	para "También estudio el"
+	line "hábitat de los"
+	cont "#mon."
 
-	para "I also study #-"
-	line "mon habitats and"
-	cont "distribution."
-
-	para "I'm very busy, but"
-	line "my excellent"
-
-	para "assistants help"
-	line "get work done."
+	para "Estoy ocupadísimo,"
+	line "pero mis geniales"
+	cont "ayudantes me echan"
+	cont "una mano."
 	done
 
 CeladonUniversityWillowsOfficeScientistText:
-	text "I get to work as"
-	line "Prof.Willow's"
-	cont "aide!"
+	text "¡Soy ayudante del"
+	line "Prof. Willow!"
 
-	para "I'm cataloguing"
-	line "my observations"
-	cont "of Route 7."
+	para "Catalogó mis"
+	line "observaciones en"
+	cont "la Ruta 7."
 
-	para "Today I saw 42"
-	line "Raticate and"
-	cont "37 Pidgeotto…"
-	cont "and one Vulpix!"
+	para "Hoy vi 42"
+	line "Raticate y 37"
+	cont "Pidgeotto…"
+	cont "¡y un Vulpix!"
 	done
 
 CeladonUniversityWillowsOfficeBlackboardText:
-	text "Someone wrote “DO"
-	line "NOT ERASE” with"
-
-	para "an arrow toward"
-	line "an illegible"
-	cont "scrawl…"
+	text "Pone “NO BORRAR”"
+	line "con una flecha"
+	cont "hacia un garabato"
+	cont "ilegible…"
 	done
 
 CeladonUniversityWillowsOfficeBookshelf1Text:
-	text "It's a book about"
-	line "ecological niches"
-
-	para "and how #mon"
-	line "fit within their"
-	cont "environments."
+	text "Es un libro sobre"
+	line "nichos ecológicos"
+	cont "y el hábitat de"
+	cont "los #mon."
 	done
 
 CeladonUniversityWillowsOfficeBookshelf2Text:
-	text "It's a promotional"
-	line "flyer for the"
-	cont "Safari Zone."
+	text "Es un folleto de"
+	line "la Zona Safari."
 
-	para "Lots of exotic-"
-	line "looking #mon"
-	cont "adorn it."
+	para "Lo adornan muchos"
+	line "#mon exóticos."
 	done
 
 CeladonUniversityWillowsOfficeComputer:
 	jumpthistext
 
-	text "“#mon Transfer"
-	line "System” is on the"
-	cont "screen."
+	text "“Transferencia"
+	line "#mon” se lee en"
+	cont "la pantalla."
 	done

@@ -1,65 +1,53 @@
 TiffanyMonIsAdorableText:
-	text "My "
+	text "Mi "
 	text_ram wStringBuffer4
-	text "'s"
-	line "adorable, don't"
+	text " es"
+	line "adorable, ¿verdad?"
 
-	para "you think so?"
-	line "I always sleep"
-
-	para "with it--it's so"
-	line "fluffy and warm!"
+	para "Siempre duermo con"
+	line "él… ¡Es tan suave"
+	cont "y tan cálido!"
 	done
 
 TiffanyDefeatedMonText:
-	text "Oh, and we had to"
-	line "battle a wild"
-
-	para ""
+	text "Luchamos contra un"
+	line ""
 	text_ram wStringBuffer4
-	text " a while"
-	line "ago…"
+	text " salvaje"
+	cont "hace un rato…"
 
-	para "My Clefairy came"
-	line "close to fainting!"
+	para "¡Mi Clefairy casi"
+	line "se debilita!"
+	cont "¿No es horrible?"
 
-	para "Isn't that awful?"
-
-	para "I hate those nasty"
+	para "¡Odio a esos"
 	line ""
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 TiffanyLostAMonText:
-	text "Oh, and we had to"
-	line "battle a wild"
-
-	para ""
+	text "Luchamos contra un"
+	line ""
 	text_ram wStringBuffer4
-	text " a while"
-	line "ago…"
+	text " salvaje"
+	cont "hace un rato…"
 
-	para "My Clefairy got"
-	line "frightened, so we"
+	para "Clefairy se asustó"
+	line "y huimos a toda"
+	cont "prisa."
 
-	para "ran away as fast"
-	line "as we could!"
-
-	para "I just can't help"
-	line "feeling protective"
-	cont "of my Clefairy."
+	para "¡Debo proteger a"
+	line "mi Clefairy!"
 	done
 
 TiffanyBattleRematchText:
-	text "I know this might"
-	line "surprise you, but"
+	text "A lo mejor te"
+	line "sorprende, ¿pero"
+	cont "quieres luchar?"
 
-	para "would you like to"
-	line "battle?"
-
-	para "I'll be waiting"
-	line "with Clefairy on"
+	para "Te espero junto a"
+	line "Clefairy en"
 	cont ""
 	text_ram wStringBuffer5
 	text "."
@@ -69,69 +57,70 @@ TiffanyItsAwfulText:
 	text_ram wStringBuffer4
 	text "!"
 
-	para "It's awful."
-	line "My Clefairy…"
+	para "Es horrible."
+	line "Mi Clefairy…"
 
-	para "Huh? <PLAYER>?"
+	para "¿Eh? ¿<PLAYER>?"
 
-	para "Oh, sorry! I was"
-	line "in a hurry, and I…"
+	para "¡Ay, perdona!"
+	line "Tengo prisa…"
 
-	para "I have to go!"
-	line "Bye-bye!"
+	para "¡Me tengo que ir!"
+	line "¡Adiós!"
 	done
 
 TiffanyHangUpText:
-	text "Bye-bye!"
+	text "¡Adiós!"
 	done
 
 TiffanyFoundItemText:
-	text "I bought some Pink"
-	line "Bows at Goldenrod"
+	text "Compré Pañuelos"
+	line "Seda en el Centro"
+	cont "Comercial Trigal."
 
-	para "Dept.Store for my"
-	line "Clefairy."
+	para "Tengo demasiados,"
+	line "¡te daré uno!"
 
-	para "I got too many, so"
-	line "I'll give you one!"
-
-	para "Come collect it on"
+	para "Ven a por él a"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TiffanyNoItemText:
-	text "I love dressing up"
-	line "my Clefairy!"
+	text "¡Me encanta vestir"
+	line "a Clefairy!"
 	done
 
 TiffanyAsleepText:
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "¿Qué pasa?"
+	line "¿No puedes venir?"
 
-	para "Clefairy got tired"
-	line "and fell asleep."
+	para "Clefairy se cansó"
+	line "y se quedó"
+	cont "dormido."
 
-	para "I'm not sure if I"
-	line "can wake it up…"
+	para "No sé si podré"
+	line "despertarlo…"
 
-	para "Please hurry to"
-	line ""
+	para "¡Por favor, date"
+	line "prisa y ven a"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 TiffanyHurryText:
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "¿Qué pasa?"
+	line "¿No puedes venir?"
 
-	para "I'm sure this will"
-	line "look good on your"
+	para "Seguro que esto le"
+	line "queda genial a tu"
 	cont "Clefairy."
 
-	para "Please hurry to"
-	line ""
+	para "¡Por favor, date"
+	line "prisa y ven a"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
 	done

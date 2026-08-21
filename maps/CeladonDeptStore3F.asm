@@ -134,20 +134,23 @@ CeladonDeptStore3FWiiScript:
 	jumpopenedtext WiiSentText
 
 CeladonDeptStore3FClerk2Text:
-	text "There's a neat move"
-	line "called Counter."
+	text "Hay un buen"
+	line "movimiento"
+	cont "llamado"
+	cont "Contraataque."
 
-	para "Not the kind of"
-	line "counter I'm leaning"
-	cont "on, mind you!"
+	para "¡No tiene nada"
+	line "que ver con el"
+	cont "mostrador en el"
+	cont "que me apoyo!"
 	done
 
 Text_CeladonDeptStore3FTutorCounter:
-	text "I'll teach your"
-	line "#mon how to use"
-
-	para "Counter if you pay"
-	line "me a Silver Leaf."
+	text "Enseñaré a tu"
+	line "#mon a usar"
+	cont "Contraataque si me"
+	cont "pagas con una Hoja"
+	cont "Plata."
 	done
 
 Text_CeladonDeptStore3FTutorNoSilverLeaf:
@@ -156,9 +159,9 @@ Text_CeladonDeptStore3FTutorNoSilverLeaf:
 	done
 
 Text_CeladonDeptStore3FTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Counter?"
+	text "¿Le enseño a"
+	line "tu #mon"
+	cont "Contraataque?"
 	done
 
 Text_CeladonDeptStore3FTutorRefused:
@@ -171,17 +174,17 @@ Text_CeladonDeptStore3FTutorTaught:
 	done
 
 VideoGameClerkText:
-	text "We sell brand-new"
-	line "and vintage game"
-	cont "systems!"
+	text "¡Vendemos consolas"
+	line "retro y de última"
+	cont "generación!"
 
-	para "Try them out for"
-	line "yourself!"
+	para "¡Pruébalas tú"
+	line "mismo!"
 	done
 
 VideoGameClerkNoSaleText:
-	text "Clerk: Well, if"
-	line "you say so."
+	text "Dep.: Bueno, si"
+	line "tú lo dices."
 	done
 
 VideoGameClerkNoMoneyText:
@@ -190,40 +193,40 @@ VideoGameClerkNoMoneyText:
 	done
 
 VideoGameClerkSellSnesText:
-	text "Clerk: That SNES"
-	line "can be yours for"
+	text "Dep.: ¡Esa SNES"
+	line "puede ser tuya por"
 
-	para "just ¥20,000!"
-	line "Want one?"
+	para "solo 20000¥!"
+	line "¿Quieres una?"
 	done
 
 VideoGameClerkSellN64Text:
-	text "Clerk: That N64"
-	line "can be yours for"
+	text "Dep.: ¡Esa N64"
+	line "puede ser tuya por"
 
-	para "just ¥25,000!"
-	line "Want one?"
+	para "solo 25000¥!"
+	line "¿Quieres una?"
 	done
 
 VideoGameClerkSellGameCubeText:
-	text "Clerk: That Game-"
-	line "Cube can be yours"
+	text "Dep.: ¡Esa"
+	line "GameCube puede ser"
+	cont "tuya por 30000¥!"
 
-	para "for just ¥30,000!"
-	line "Want one?"
+	para "¿Quieres una?"
 	done
 
 VideoGameClerkSellWiiText:
-	text "Clerk: That Wii"
-	line "can be yours for"
+	text "Dep.: ¡Esa Wii"
+	line "puede ser tuya por"
 
-	para "just ¥40,000!"
-	line "Want one?"
+	para "solo 40000¥!"
+	line "¿Quieres una?"
 	done
 
 BoughtSnesText:
-	text "<PLAYER> bought"
-	line "Super NES."
+	text "<PLAYER> compró"
+	line "una Super NES."
 	done
 
 SnesSentText:
@@ -232,8 +235,8 @@ SnesSentText:
 	done
 
 BoughtN64Text:
-	text "<PLAYER> bought"
-	line "Nintendo 64."
+	text "<PLAYER> compró"
+	line "una Nintendo 64."
 	done
 
 N64SentText:
@@ -242,8 +245,8 @@ N64SentText:
 	done
 
 BoughtGameCubeText:
-	text "<PLAYER> bought"
-	line "GameCube."
+	text "<PLAYER> compró"
+	line "una GameCube."
 	done
 
 GameCubeSentText:
@@ -252,8 +255,8 @@ GameCubeSentText:
 	done
 
 BoughtWiiText:
-	text "<PLAYER> bought"
-	line "Wii."
+	text "<PLAYER> compró"
+	line "una Wii."
 	done
 
 WiiSentText:
@@ -262,73 +265,72 @@ WiiSentText:
 	done
 
 CeladonDeptStore3FYoungsterText:
-	text "I can't decide"
-	line "which #mon I"
+	text "No puedo decidir"
+	line "en qué #mon"
+	cont "usar esta MT…"
 
-	para "should use this"
-	line "TM on…"
-
-	para "Good thing it"
-	line "doesn't run out."
+	para "Menos mal que no"
+	line "se gastan."
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "The Tech Shop"
-	line "sells some cool"
-	cont "game systems."
+	text "La Tienda"
+	line "Tecnológica vende"
+	cont "consolas geniales."
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "Make Your #mon"
-	line "Stronger!"
+	text "¡Haz más fuertes a"
+	line "tus #mon!"
 
-	para "3F: Tech Shop"
+	para "P2: Tienda Tecn."
 	done
 
 CeladonDeptStore3FSnesText:
-	text "It's a Super NES!"
+	text "¡Una Super NES!"
 
-	para "I have one of"
-	line "those at home!"
+	para "¡Tengo una de"
+	line "estas en casa!"
 	done
 
 CeladonDeptStore3FN64Text:
-	text "It's an N64!"
+	text "¡Una N64!"
 
-	para "I have one of"
-	line "those at home!"
+	para "¡Tengo una de"
+	line "estas en casa!"
 	done
 
 CeladonDeptStore3FGameCubeText:
-	text "It's a GameCube!"
+	text "¡Una GameCube!"
 
-	para "I have one of"
-	line "those at home!"
+	para "¡Tengo una de"
+	line "estas en casa!"
 	done
 
 CeladonDeptStore3FWiiText:
-	text "It's a Wii!"
+	text "¡Una Wii!"
 
-	para "I have one of"
-	line "those at home!"
+	para "¡Tengo una de"
+	line "estas en casa!"
 	done
 
 CeladonDeptStore3FRPGText:
-	text "An RPG! There's"
-	line "no time for that!"
+	text "¡Un RPG! ¡No hay"
+	line "tiempo para eso!"
 	done
 
 CeladonDeptStore3FSportsGameText:
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "¡Juego de"
+	line "deportes! A papá"
+	cont "le gustará."
 	done
 
 CeladonDeptStore3FPuzzleGameText:
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "¡Juego de puzles!"
+	line "¡Parece adictivo!"
 	done
 
 CeladonDeptStore3FFightingGameText:
-	text "A fighting game!"
-	line "Looks tough!"
+	text "¡Juego de lucha!"
+	line "¡Parece difícil!"
 	done

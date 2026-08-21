@@ -49,25 +49,26 @@ ViridianPokeCenter1FCooltrainermScript:
 	done
 
 .BlueText:
-	text "There are strong"
-	line "Gym Trainers at"
-	cont "the Viridian Gym."
+	text "Hay entrenadores"
+	line "muy fuertes en el"
+	cont "Gimnasio Verde."
 
-	para "Someday I'm going"
-	line "to join them!"
+	para "¡Algún día me"
+	line "uniré a ellos!"
 	done
 
 ViridianPokeCenter1FCooltrainerfText:
-	text "I heard that the"
-	line "Gym in Cinnabar is"
-	cont "gone."
+	text "He oído que el"
+	line "Gimnasio de Isla"
+	cont "Canela ya no está."
 
-	para "I wonder what be-"
-	line "came of Blaine,"
-	cont "the Gym Leader."
+	para "¿Qué habrá sido de"
+	line "Blaine, su Líder"
+	cont "de Gimnasio?"
 	done
 
 ViridianPokeCenter1FBugCatcherText:
-	text "My dream is to be-"
-	line "come a Gym Leader."
+	text "Mi sueño es llegar"
+	line "a ser Líder de"
+	cont "Gimnasio."
 	done

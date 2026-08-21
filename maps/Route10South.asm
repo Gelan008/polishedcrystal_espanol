@@ -45,41 +45,42 @@ GenericTrainerHexManiacAmy:
 	done
 
 HikerJimSeenText:
-	text "Hahahah!"
+	text "¡Jajajaja!"
 	done
 
 HikerJimBeatenText:
-	text "Hahaha-hachoo!"
+	text "¡Jajaja-achís!"
 	done
 
 PokefanmRobertSeenText:
-	text "You like #mon,"
-	line "don't you?"
+	text "¿Te gustan los"
+	line "#mon, verdad?"
 
-	para "Me too!"
+	para "¡A mí también!"
 	done
 
 PokefanmRobertBeatenText:
-	text "I'd have to say"
-	line "that's my loss."
+	text "Tengo que admitir"
+	line "que he perdido."
 	done
 
 HexManiacAmySeenText:
-	text "Lavender Town…"
+	text "Pueblo Lavanda…"
 
-	para "Where the spirits"
-	line "of #mon sleep…"
+	para "Donde descansan"
+	line "los espíritus de"
+	cont "los #mon…"
 	done
 
 HexManiacAmyBeatenText:
-	text "Your #mon are"
-	line "overflowing with"
-	cont "vitality…"
+	text "Tus #mon"
+	line "desbordan"
+	cont "vitalidad…"
 	done
 
 Route10SignText:
-	text "Route 10"
+	text "Ruta 10"
 
-	para "Cerulean City -"
-	line "Lavender Town"
+	para "Ciudad Celeste -"
+	line "Pueblo Lavanda"
 	done

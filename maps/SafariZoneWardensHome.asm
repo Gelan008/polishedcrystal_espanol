@@ -31,21 +31,20 @@ WardensGranddaughter:
 	jumpopenedtext WardensGranddaughterText2
 
 WardensGranddaughterText1:
-	text "My grandpa is the"
-	line "Safari Zone War-"
-	cont "den."
+	text "Mi abuelo es el"
+	line "Guarda de la Zona"
+	cont "Safari."
 
-	para "At least he was…"
+	para "Al menos lo era…"
 
-	para "He decided to go"
-	line "on a vacation and"
+	para "Decidió irse de"
+	line "vacaciones y se"
+	cont "fue al extranjero"
+	cont "él solo."
 
-	para "took off overseas"
-	line "all by himself."
-
-	para "He quit running"
-	line "Safari Zone just"
-	cont "like that."
+	para "Dejó de dirigir la"
+	line "Zona Safari como"
+	cont "si nada."
 	done
 
 WardensGranddaughterText2:
@@ -58,17 +57,15 @@ WardensGranddaughterText2:
 	done
 
 WardenPhotoText:
-	text "It's a photo of a"
-	line "grinning old man"
-
-	para "who's surrounded"
-	line "by #mon."
+	text "Es la foto de un"
+	line "anciano sonriente"
+	cont "rodeado de"
+	cont "#mon."
 	done
 
 SafariZonePhotoText:
-	text "It's a photo of a"
-	line "huge grassy plain"
-
-	para "with rare #mon"
-	line "frolicking in it."
+	text "Es la foto de una"
+	line "enorme llanura de"
+	cont "hierba con #mon"
+	cont "raros retozando."
 	done

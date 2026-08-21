@@ -170,152 +170,148 @@ SaffronGymStatue:
 	jumpstd gymstatue2
 
 SabrinaIntroText:
-	text "Sabrina: I knew"
-	line "you were coming…"
+	text "Sabrina: Sabía que"
+	line "vendrías…"
 
-	para "Three years ago I"
-	line "had a vision of"
-	cont "your arrival."
+	para "Hace tres años"
+	line "tuve una visión de"
+	cont "tu llegada."
 
-	para "You're after my"
-	line "Badge."
+	para "Vienes a por mi"
+	line "Medalla."
 
-	para "I don't enjoy bat-"
-	line "tling, but it's my"
+	para "No me agrada"
+	line "combatir, pero"
+	cont "como Líder te daré"
+	cont "la Medalla si eres"
+	cont "digno."
 
-	para "duty as a Leader"
-	line "to confer Badges"
-
-	para "on anyone who has"
-	line "proven themselves"
-	cont "worthy."
-
-	para "Since you wish it,"
-	line "I will show you my"
-	cont "psychic powers!"
+	para "¡Ya que lo deseas,"
+	line "te mostraré mis"
+	cont "poderes psíquicos!"
 	done
 
 SabrinaWinLossText:
-	text "Sabrina: Your"
-	line "power…"
+	text "Sabrina: Tu poder…"
 
-	para "It far exceeds"
-	line "what I foresaw…"
+	para "Supera con creces"
+	line "lo que preví…"
 
-	para "Maybe it isn't"
-	line "possible to fully"
+	para "Quizá no se pueda"
+	line "predecir el futuro"
+	cont "con exactitud…"
 
-	para "predict what the"
-	line "future holds…"
-
-	para "OK, you win. You"
-	line "earned yourself"
+	para "Bien, tú ganas."
+	line "Te has ganado la"
 if DEF(FAITHFUL)
-	cont "the Marsh Badge."
+	cont "Medalla Pantano."
 else
-	cont "the Soul Badge."
+	cont "Medalla Alma."
 endc
 	done
 
 SabrinaMarshBadgeText:
-	text "Sabrina: I failed"
-	line "to accurately pre-"
+	text "Sabrina: No logré"
+	line "predecir del todo"
+	cont "tu gran fuerza."
 
-	para "dict your power."
-	line "That means your"
+	para "Eso significa que"
+	line "tu poder supera mi"
+	cont "poder psíquico."
 
-	para "power is beyond my"
-	line "psychic ability."
-
-	para "You deserve this"
-	line "TM, too!"
+	para "¡También mereces"
+	line "esta MT!"
 	done
 
 SabrinaFightDoneText:
-	text "Sabrina: Your love"
-	line "for your #mon"
+	text "Sabrina: El amor"
+	line "por tus #mon"
+	cont "ha superado a mi"
+	cont "poder psíquico…"
 
-	para "overwhelmed my"
-	line "psychic power…"
-
-	para "The power of love,"
-	line "I think, is also a"
-
-	para "kind of psychic"
-	line "power…"
+	para "Creo que el poder"
+	line "del amor también"
+	cont "es una forma de"
+	cont "poder psíquico…"
 	done
 
 MediumDorisSeenText:
 	text "Fufufufu…"
-	line "I see it clearly."
+	line "Lo veo con gran"
+	cont "claridad."
 
-	para "I can see into"
-	line "your soul!"
+	para "¡Puedo ver dentro"
+	line "de tu alma!"
 	done
 
 MediumDorisBeatenText:
-	text "Though I read you,"
-	line "I still lost…"
+	text "Aunque te leí la"
+	line "mente, caí en la"
+	cont "derrota…"
 	done
 
 PsychicLeonSeenText:
-	text "You cannot resist"
-	line "my psychic power!"
+	text "¡No podrás hacer"
+	line "frente a mi poder"
+	cont "psíquico!"
 	done
 
 PsychicLeonBeatenText:
-	text "My prediction was"
-	line "inaccurate…"
+	text "Mi predicción no"
+	line "fue acertada…"
 	done
 
 PsychicJaredSeenText:
-	text "The Fighting Dojo"
-	line "next door was once"
-	cont "this city's Gym."
+	text "El Dojo Kárate de"
+	line "al lado fue una"
+
+	para "vez el Gimnasio de"
+	line "esta ciudad."
 	done
 
 PsychicJaredBeatenText:
-	text "I was no match…"
+	text "No fui rival…"
 	done
 
 HexManiacLunaSeenText:
-	text "Abra, Kadabra,"
+	text "¡Abra, Kadabra,"
 	line "Alakazam!"
 	done
 
 HexManiacLunaBeatenText:
-	text "My curse failed?"
+	text "¿Ha fallado mi"
+	line "maldición?"
 	done
 
 HexManiacNatalieSeenText:
-	text "Let us do battle!"
-	line "Mwahaha!"
+	text "¡Vamos a luchar!"
+	line "¡Juajuajua!"
 	done
 
 HexManiacNatalieBeatenText:
-	text "Mwaha--cough!"
+	text "Juajua… ¡Cof!"
 	done
 
 PsychicFranklinSeenText:
-	text "Psychic power is"
-	line "the power of your"
-	cont "soul."
+	text "El poder psíquico"
+	line "es la fuerza de tu"
+	cont "propia alma."
 	done
 
 PsychicFranklinBeatenText:
-	text "Your soul has more"
-	line "power than mine!"
+	text "¡Tu alma tiene más"
+	line "fuerza que la mía!"
 	done
 
 MediumRebeccaSeenText:
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "¡La fuerza de los"
+	line "que has vencido"
+	cont "pasa ahora a mí!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Strong…"
-	line "Far too strong…"
+	text "Fuerte…"
+	line "Demasiado fuerte…"
 	done
 
 SaffronGymGuyText:
@@ -338,6 +334,6 @@ SaffronGymGuyText:
 	done
 
 SaffronGymGuyWinText:
-	text "That was another"
-	line "fantastic battle!"
+	text "¡Ha sido un gran"
+	line "combate!"
 	done

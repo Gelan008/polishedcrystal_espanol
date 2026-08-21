@@ -54,11 +54,10 @@ FirebreatherDickBeatenText:
 	done
 
 HexManiacVivianSeenText:
-	text "Do you hear the"
-	line "voices calling?"
+	text "¿Oyes las voces"
+	line "que llaman?"
 	done
 
 HexManiacVivianBeatenText:
-	text "It was only an"
-	line "echo?!"
+	text "¿Solo era un eco?"
 	done

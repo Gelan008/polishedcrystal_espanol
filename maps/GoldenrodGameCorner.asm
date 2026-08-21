@@ -266,7 +266,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db "Abra        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
 	db "Cubone      {d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
 	db "Clefairy   {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@"
-	db "Cancel@"
+	db "Salir@"
 
 GoldenrodGameCornerPharmacistScript:
 	showtextfaceplayer GoldenrodGameCornerPharmacistText
@@ -316,16 +316,16 @@ GoldenrodGameCornerCardFlipMachineScript:
 	endtext
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "¡Hola!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "¡Canjea tus fichas"
+	line "de juego por"
+	cont "grandes premios!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "¿Qué premio te"
+	line "gustaría?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
@@ -335,12 +335,12 @@ GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "¡Aquí tienes!"
 	done
 
 GoldenrodGameCornerPrizeVendorAlreadyHaveTMText:
-	text "But you already"
-	line "have that TM!"
+	text "¡Pero si ya tienes"
+	line "esa MT!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
@@ -349,40 +349,40 @@ GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
 	done
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Oh, no. You can't"
-	line "carry any more and"
-	cont "your Box is full."
+	text "Oh, no. No puedes"
+	line "llevar más y tu"
+	cont "Caja está llena."
 
-	para "I'll return your"
-	line "coins to you."
+	para "Te devolveré tus"
+	line "fichas."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Vale. ¡Guarda tus"
+	line "fichas y vuelve"
+	cont "cuando quieras!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a Coin Case."
+	text "¿Vaya? No tienes"
+	line "Monedero."
 	done
 
 GoldenrodGameCornerFisherText:
-	text "Today's my pay day!"
-	line "Time to celebrate"
-	cont "with some slots!"
+	text "¡Hoy cobro! ¡Voy a"
+	line "las tragaperras!"
 
-	para "…You know, #mon"
-	line "get a Pay Day too."
+	para "…¿Sabías que los"
+	line "#mon también"
+	cont "tienen Día de"
+	cont "Pago?"
 	done
 
 Text_GoldenrodGameCornerTutorPayDayQuestion:
-	text "If you give me a"
-	line "Silver Leaf, I'll"
-
-	para "teach Pay Day to"
-	line "your #mon."
+	text "Si me das una Hoja"
+	line "Plata, enseñaré"
+	cont "Día de Pago a tu"
+	cont "#mon."
 	done
 
 Text_GoldenrodGameCornerTutorNoSilverLeaf:
@@ -405,74 +405,69 @@ Text_GoldenrodGameCornerTutorTaught:
 	done
 
 GoldenrodGameCornerPharmacistText:
-	text "I always play this"
-	line "slot machine. It"
+	text "Siempre juego en"
+	line "esta tragaperras."
 
-	para "pays out more than"
-	line "others, I think."
+	para "Creo que da más"
+	line "que las demás."
 	done
 
 GoldenrodGameCornerPokefanM1Text:
-	text "I just love this"
-	line "new slot machine."
+	text "Me encanta esta"
+	line "máquina nueva."
 
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in Celadon."
+	para "Es un gran reto,"
+	line "no como las de"
+	cont "Azulona."
 	done
 
 GoldenrodGameCornerCooltrainerMText:
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+	text "La vida es una"
+	line "apuesta. ¡Jugaré a"
+	cont "las cartas hasta"
+	cont "caer rendido!"
 	done
 
 GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
+	text "Las cartas…"
 
-	para "I prefer it over"
-	line "the slots because"
+	para "Las prefiero a las"
+	line "tragaperras, es"
+	cont "más fácil calcular"
+	cont "probabilidades."
 
-	para "it's easier to"
-	line "figure the odds."
-
-	para "But the payout is"
-	line "much lower."
+	para "Pero el premio es"
+	line "mucho más bajo."
 	done
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "¡No pararé hasta"
+	line "que gane!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught Ice Beam"
-	line "to my #mon."
+	text "Le enseñé Rayo"
+	line "Hielo a mi #mon"
 
-	para "It was hard to get"
-	line "enough coins for"
-
-	para "it, but it was"
-	line "worth it."
+	para "Costó juntar todas"
+	line "las fichas, pero"
+	cont "valió la pena."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "No gané nada en"
+	line "las tragaperras,"
+	cont "ni en las cartas…"
 
-	para "blew it on card"
-	line "flipping…"
-
-	para "I got so furious,"
-	line "I tossed out my"
-
-	para "Coin Case in the"
-	line "Underground."
+	para "¡Me dio tal rabia"
+	line "que tiré mi"
+	cont "Monedero en el"
+	cont "Subterráneo!"
 	done
 
 GoldenrodGameCornerPokefanM3Text:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "¡Jajaja! ¡No paran"
+	line "de llover fichas!"
 	done
 
 GoldenrodGameCornerLeftTheirDrinkText:

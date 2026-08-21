@@ -76,21 +76,22 @@ GenericTrainerBikerTyrone:
 	done
 
 .SeenText:
-	text "Cough! Splutter!"
+	text "¡Cof! ¡Cof!"
+	line "¡Glub! ¡Glub!"
 	done
 
 .BeatenText:
-	text "…Gasp!"
+	text "…¡Argh!"
 	done
 
 UragaChannelSignText:
-	text "Uraga Channel"
+	text "Canal Uraga"
 	done
 
 ScaryCaveEastSignText:
-	text "There's graffiti"
-	line "on this sign…"
+	text "Hay un grafiti en"
+	line "este cartel…"
 
-	para "“This cave is"
-	line "scary!”"
+	para "¡Esta cueva da"
+	line "mucho miedo!"
 	done

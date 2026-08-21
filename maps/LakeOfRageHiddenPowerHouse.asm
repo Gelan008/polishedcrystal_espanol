@@ -62,52 +62,50 @@ HiddenPowerGuy:
 	done
 
 .Text1:
-	text "…You have strayed"
-	line "far…"
+	text "…Vienes desde muy"
+	line "lejos…"
 
-	para "Here I have medi-"
-	line "tated. Inside me,"
+	para "He meditado aquí y"
+	line "un nuevo poder ha"
+	cont "despertado en mí."
 
-	para "a new power has"
-	line "been awakened."
-
-	para "Let me share my"
-	line "power with your"
+	para "Compartiré este"
+	line "poder con tus"
 	cont "#mon."
 
-	para "Take this, child."
+	para "¡Toma esto, joven!"
 	done
 
 .Text2:
-	text "Do you see it? It"
-	line "is Hidden Power!"
+	text "¿Lo ves? ¡Es"
+	line "Poder Oculto!"
 
-	para "It draws out the"
-	line "power of #mon"
-	cont "for attacking."
+	para "Saca el poder"
+	line "de los #mon"
+	cont "para atacar."
 
-	para "Remember this: its"
-	line "type depends on"
-	cont "the #mon"
-	cont "using it."
+	para "Recuerda esto: su"
+	line "tipo depende del"
+	cont "#mon que lo"
+	cont "use."
 	done
 
 .Text3:
-	text "Shall I divine"
-	line "the Hidden Power"
-	cont "of your #mon?"
+	text "¿Quieres saber el"
+	line "Poder Oculto de"
+	cont "tu #mon?"
 	done
 
 .Text4:
-	text "I am meditating…"
+	text "Estoy meditando…"
 	done
 
 .Text5:
-	text "Which #mon's"
-	line "Hidden Power"
-	cont "should I find?"
+	text "¿De qué #mon"
+	line "quieres saber su"
+	cont "Poder Oculto?"
 	done
 
 .Text7:
-	text "…Very well…"
+	text "…Muy bien…"
 	done

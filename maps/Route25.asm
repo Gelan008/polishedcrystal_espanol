@@ -120,90 +120,92 @@ Route25CooltrainerMovementData:
 	step_end
 
 SchoolboyDudleySeenText:
-	text "Beat the six of us"
-	line "trainers to win a"
-	cont "fabulous prize!"
+	text "¡Gana a los seis"
+	line "entrenadores para"
+	cont "un gran premio!"
 
-	para "Think you've got"
-	line "what it takes?"
+	para "¿Crees que podrás"
+	line "conseguirlo?"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "¡Uau! Qué pasada."
 	done
 
 LassEllenSeenText:
-	text "I'm second."
-	line "Now it's serious!"
+	text "Soy la segunda."
+	line "¡Esto va en serio!"
 	done
 
 LassEllenBeatenText:
-	text "How could I lose?"
+	text "¿Cómo he podido"
+	line "perder?"
 	done
 
 SchoolboyJoeSeenText:
-	text "Here's No. 3!"
-	line "I won't be easy."
+	text "¡Soy el número 3!"
+	line "No será fácil."
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Stomped flat!"
+	text "¡Ay! ¡Me hiciste"
+	line "papilla!"
 	done
 
 LassLauraSeenText:
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "¡Soy la número 4!"
+	line "¿Te has cansado?"
 	done
 
 LassLauraBeatenText:
-	text "I lost too…"
+	text "Yo también perdí…"
 	done
 
 CamperLloydSeenText:
-	text "OK! I'm No. 5."
-	line "I'll stomp you!"
+	text "¡Vale! Soy el"
+	line "número 5. ¡Te voy"
+	cont "a aplastar!"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Too much."
+	text "¡Uf! Demasiado."
 	done
 
 LassShannonSeenText:
-	text "I'm the last in"
-	line "line, but I tell"
-	cont "you, I'm tough!"
+	text "¡Soy la última!"
+	line "¡Y te aseguro que"
+	cont "soy la más dura!"
 	done
 
 LassShannonBeatenText:
-	text "You're kidding."
+	text "Es una broma…"
 	done
 
 SupernerdPatSeenText:
 	text "Mufufufu…"
 
-	para "I have nothing to"
-	line "do with the six-"
-	cont "pack trainers."
+	para "No tengo nada que"
+	line "ver con los seis"
+	cont "entrenadores."
 
-	para "I waited here to"
-	line "beat you when you"
-
-	para "were tired out by"
-	line "all the battles."
+	para "He esperado a que"
+	line "te quedaras sin"
+	cont "fuerzas tras los"
+	cont "seis combates."
 	done
 
 SupernerdPatBeatenText:
-	text "Aren't you tired"
-	line "at all?"
+	text "¿Es que no estás"
+	line "sin fuerzas?"
 	done
 
 Route25MewYoungsterText:
-	text "One time I saw a"
-	line "Mew around here!"
+	text "¡Una vez vi a un"
+	line "Mew por aquí!"
 
-	para "You don't believe"
-	line "me? Slowpoke saw"
-	cont "it too!"
+	para "¿No me crees?"
+	line "¡Pues Slowpoke"
+	cont "también lo vio!"
 	done
 
 Route25SlowpokeText1:
@@ -213,58 +215,50 @@ Route25SlowpokeText1:
 	done
 
 Route25SlowpokeText2:
-	text "…… ……Yawn?"
+	text "…… …… ¿Bostezo?"
 	done
 
 CooltrainermKevinNuggetText:
-	text "You took on one"
-	line "more battle than"
+	text "Luchaste un duelo"
+	line "más de la cuenta,"
+	cont "pero ganaste."
 
-	para "you expected, but"
-	line "you won anyway."
-
-	para "As promised, you"
-	line "win a prize."
+	para "Como prometí, aquí"
+	line "tienes tu premio."
 	done
 
 CooltrainermKevinSeenText:
-	text "But after seeing"
-	line "how you battle, I"
+	text "Al ver cómo peleas"
+	line "quiero probar mi"
+	cont "propia fuerza."
 
-	para "want to see how"
-	line "I'll fare."
-
-	para "How about it? Let"
-	line "me take you on."
+	para "¿Qué me dices?"
+	line "Permíteme luchar."
 	done
 
 CooltrainermKevinBeatenText:
-	text "I've never had a"
-	line "battle this good!"
+	text "¡Qué gran combate!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "That was a great"
-	line "battle!"
+	text "¡Menudo combate"
+	line "tan genial!"
 
-	para "You and your #-"
-	line "mon are truly out-"
-	cont "standing!"
+	para "¡Tus #mon y tú"
+	line "sois asombrosos!"
 	done
 
 NuggetBridgeNotClearedText:
-	text "Hey there!"
+	text "¡Buenas!"
 
-	para "Six trainers and"
-	line "I are hosting a"
+	para "Seis entrenadores"
+	line "y yo organizamos"
+	cont "un desafío aquí."
 
-	para "battle challenge"
-	line "on this route."
+	para "¡No te los puedes"
+	line "saltar!"
 
-	para "You can't skip"
-	line "ahead of them!"
-
-	para "There's a shortcut"
-	line "just below us back"
-	cont "to Route 24."
+	para "Abajo tienes un"
+	line "atajo para volver"
+	cont "a la Ruta 24."
 	done

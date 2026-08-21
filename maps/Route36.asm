@@ -307,76 +307,67 @@ Route36CooltrainerfChiaraScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "With skill like"
-	line "yours, I'm not the"
-
-	para "only elite trainer"
-	line "who'll want to test"
-	cont "you."
+	text "Con tu nivel, no"
+	line "seré la única que"
+	cont "quiera ponerte a"
+	cont "prueba."
 	done
 
 .IntroText:
-	text "I saw how you woke"
-	line "up that Sudowoodo."
+	text "¡Vi cómo lograste"
+	line "despertar a"
+	cont "Sudowoodo! ¡Mola!"
 
-	para "You did great!"
+	para "Y tienes Medalla"
+	line "Planicie, ¡igual"
+	cont "que yo!"
 
-	para "And you have a"
-	line "Plain Badge."
-	cont "So do I!"
-
-	para "How about this?"
-	line "Take out all the"
-
-	para "trainers on Routes"
-	line "36 and 37."
-
-	para "Then I'll fight"
-	line "you myself!"
+	para "Vence a los demás"
+	line "en Rutas 36 y 37,"
+	cont "¡y lucharemos!"
 	done
 
 .QuestionText:
-	text "So you beat every-"
-	line "one else in the"
-	cont "area."
+	text "Así que venciste a"
+	line "todos por aquí."
 
-	para "Then it's time for"
-	line "our showdown!"
+	para "¡Llegó la hora de"
+	line "nuestro duelo!"
 
-	para "I use a Binding"
-	line "Band to press my"
-	cont "advantage."
+	para "Uso Banda Atadura"
+	line "para tener más"
+	cont "ventaja."
 
-	para "Think you're ready"
-	line "for me?"
+	para "¿Crees que estás a"
+	line "la altura?"
 	done
 
 .RefusedText:
-	text "Well, I'm ready"
-	line "when you are!"
+	text "Bueno, ¡yo estaré"
+	line "listo cuando tú lo"
+	cont "estés!"
 	done
 
 .SeenText:
-	text "You won't last"
-	line "long against my"
-	cont "technique!"
+	text "¡No resistirás"
+	line "contra mi gran"
+	cont "técnica!"
 	done
 
 .BeatenText:
-	text "I'm the one who"
-	line "didn't last?!"
+	text "¡¿Yo he sido quien"
+	line "no ha aguantado?!"
 	done
 
 .AfterText1:
-	text "You observed my"
-	line "technique and"
-	cont "countered it."
+	text "Has analizado mi"
+	line "técnica y la has"
+	cont "contrarrestado."
 
-	para "Why not try it"
-	line "yourself?"
+	para "¿Por qué no la"
+	line "pruebas tú?"
 
-	para "Here, it's for"
-	line "you!"
+	para "¡Toma, para ti!"
 	done
 
 GenericTrainerPsychicMark:
@@ -465,22 +456,22 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "It's a weird tree."
-	line "Use SquirtBottle?"
+	text "Es un árbol raro."
+	line "¿Usar Regadera?"
 	done
 
 UsedSquirtbottleText:
-	text "<PLAYER> used the"
-	line "SquirtBottle."
+	text "¡<PLAYER> usó la"
+	line "Regadera!"
 	done
 
 SudowoodoAttackedText:
-	text "The weird tree"
-	line "doesn't like the"
-	cont "SquirtBottle!"
+	text "¡Al árbol raro no"
+	line "le gusta nada la"
+	cont "Regadera!"
 
-	para "The weird tree"
-	line "attacked!"
+	para "¡El árbol raro"
+	line "atacó!"
 	done
 
 FloriaTextAfterPlainBadge:
@@ -510,46 +501,40 @@ FloriaTextAfterPlainBadge:
 	done
 
 FloriaTextAfterSquirtBottle:
-	text "I'm the Flower"
-	line "Shop's Floria!"
+	text "¡Soy Floria, de la"
+	line "Floristería!"
 
-	para "When I told my sis"
-	line "about the jiggly"
+	para "Le hablé a mi"
+	line "hermana del árbol"
+	cont "y dijo que era"
+	cont "muy peligroso."
 
-	para "tree, she said"
-	line "it's dangerous."
+	para "¡Anda, te prestó"
+	line "la Regadera!"
 
-	para "Oh, she lent you"
-	line "her water bottle?"
+	para "¡Debes de ser muy"
+	line "buen entrenador!"
 
-	para "You must be a good"
-	line "trainer then!"
+	para "Te encargo a ti lo"
+	line "del árbol raro."
 
-	para "I'll leave the"
-	line "weird tree to you."
-
-	para "Ta-ta!"
+	para "¡Chao!"
 	done
 
 FloriaTextAfterSudowoodo:
-	text "I just knew that"
-	line "wiggly tree was a"
-	cont "#mon!"
+	text "¡Ese árbol que se"
+	line "menea sí que era"
+	cont "un #mon!"
 
-	para "I was going to"
-	line "shock it out of"
+	para "¡Iba a sacarlo de"
+	line "su escondite, pero"
+	cont "te me adelantaste!"
 
-	para "its disguise, but"
-	line "you beat me to it!"
+	para "En fin, vuelvo a"
+	line "la Floristería."
 
-	para "Oh well, I'll head"
-	line "back to the Flower"
-	cont "Shop."
-
-	para "I'm Floria, by the"
-	line "way."
-
-	para "Ta-ta!"
+	para "Por cierto, soy"
+	line "Floria. ¡Chao!"
 	done
 
 RockSmashGuyText1:
@@ -566,12 +551,12 @@ RockSmashGuyText1:
 	done
 
 RockSmashGuyText2:
-	text "Did you clear that"
-	line "wretched tree?"
+	text "¿Quitaste ese"
+	line "árbol tan dichoso?"
 
-	para "I'm impressed!"
-	line "I want you to"
-	cont "have this."
+	para "¡Estoy asombrado!"
+	line "Quiero que tengas"
+	cont "este regalo."
 	done
 
 RockSmashGuyText3:
@@ -610,64 +595,66 @@ Route36LassText_OddTree:
 	done
 
 Route36LassText_ClearedSudowoodo:
-	text "That odd tree dis-"
-	line "appeared without a"
-	cont "trace."
+	text "Ese árbol tan raro"
+	line "desapareció sin"
+	cont "dejar rastro."
 
-	para "Oh! That tree was"
-	line "really a #mon?"
+	para "¡Ah! ¿Ese árbol"
+	line "era en realidad un"
+	cont "#mon?"
 	done
 
 PsychicMarkSeenText:
-	text "I'm going to read"
-	line "your thoughts!"
+	text "¡Voy a leer tus"
+	line "pensamientos!"
 	done
 
 PsychicMarkBeatenText:
-	text "I misread you!"
+	text "¡Te he leído mal!"
 	done
 
 SchoolgirlMollySeenText:
-	text "Mr.Earl taught me"
-	line "how to battle with"
-	cont "#mon!"
+	text "¡El Sr. Primo me"
+	line "enseñó a luchar"
+	cont "con #mon!"
 	done
 
 SchoolgirlMollyBeatenText:
-	text "My studying…"
+	text "Tanto estudiar…"
 	done
 
 SchoolboyAlan1SeenText:
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #mon!"
+	text "¡Mis estudios me"
+	line "permiten ganar a"
+	cont "cualquier #mon!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Oops! Computation"
-	line "error?"
+	text "¡Uy! ¿Un error de"
+	line "cálculo?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Vaya. Y eso que"
+	line "estudio 5 horas"
+	cont "al día."
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "Para aprender no"
+	line "basta solo con"
+	cont "leer libros."
 	done
 
 MeetArthurText:
-	text "Arthur: Who are"
-	line "you?"
+	text "Juan: ¿Quién eres"
+	line "tú?"
 
-	para "I'm Arthur of"
-	line "Thursday."
+	para "Yo soy Juan, del"
+	line "jueves."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Toma. Quédate con"
+	line "esto."
 	done
 
 ArthurGaveGiftText:
@@ -682,11 +669,11 @@ ArthurGaveGiftText:
 	done
 
 ArthurThursdayText:
-	text "Arthur: I'm Arthur"
-	line "of Thursday. I'm"
+	text "Juan: Soy Juan,"
+	line "del jueves. Soy el"
 
-	para "the second son out"
-	line "of seven children."
+	para "segundo de siete"
+	line "hermanos."
 	done
 
 ArthurNotThursdayText:
@@ -696,67 +683,58 @@ ArthurNotThursdayText:
 	done
 
 Route36SignText:
-	text "Route 36"
+	text "Ruta 36"
 	done
 
 RuinsOfAlphNorthSignText:
-	text "Ruins of Alph"
-	line "North Entrance"
+	text "Ruinas Alfa"
+	line "Entrada Norte"
 	done
 
 Route36TrainerTips1Text:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "#mon stats"
-	line "vary--even within"
-	cont "the same species."
+	para "Los rasgos de los"
+	line "#mon varían aun"
+	cont "en la misma clase."
 
-	para "Their stats may be"
-	line "similar at first."
-
-	para "However, differ-"
-	line "ences will become"
-
-	para "pronounced as the"
-	line "#mon grow."
+	para "Aunque parezcan"
+	line "iguales, se verá"
+	cont "su diferencia al"
+	cont "ir creciendo."
 	done
 
 Route36TrainerTips2Text:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Use Dig to return"
-	line "to the entrance of"
-	cont "any place."
+	para "Usa Excavar para"
+	line "volver a la boca"
+	cont "de una cueva."
 
-	para "It is convenient"
-	line "for exploring"
-
-	para "caves and other"
-	line "landmarks."
+	para "Es muy útil para"
+	line "explorar zonas."
 	done
 
 Route36AdvancedTips1Text:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "You can pick from"
-	line "twenty different"
-	cont "textbox frames and"
-
-	para "eight different"
-	line "text typefaces in"
-	cont "the Options!"
+	assert NUM_FRAMES == 20
+	para "¡Elige entre 20"
+	line "marcos de diálogo"
+	cont "y"
+	assert NUM_FONTS == 8
+	cont "8 tipografías"
+	cont "en Opciones!"
 	done
 
 Route36AdvancedTips2Text:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "Treating your"
-	line "#mon with hair-"
-	cont "cuts, blessings or"
+	para "¡Si mimas a tus"
+	line "#mon con cortes"
+	cont "de pelo o masajes,"
 
-	para "massages can make"
-	line "them help you out"
-
-	para "in battles due to"
-	line "their affection!"
+	para "¡te ayudarán en el"
+	line "combate gracias a"
+	cont "su gran afecto!"
 	done

@@ -23,106 +23,92 @@ TrainerHouse1F_MapScriptHeader:
 	object_event  2,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TrainerHouse1FGentlemanText, -1
 
 TrainerHouse1FReceptionistText:
-	text "Welcome to Trainer"
-	line "House, the newest"
+	text "¡Te damos la"
+	line "bienvenida a la"
+	cont "Casa Entrenadores!"
 
-	para "and most happening"
-	line "place in Viridian."
+	para "Es el sitio más"
+	line "animado de Ciudad"
+	cont "Verde."
 
-	para "We're open to"
-	line "trainers only."
+	para "Solo abrimos para"
+	line "los entrenadores."
 
-	para "You can battle"
-	line "against the best"
-
-	para "of the best right"
-	line "downstairs."
+	para "Abajo podrás"
+	line "luchar contra los"
+	cont "mejores."
 	done
 
 TrainerHouse1FCooltrainerMText:
-	text "Viridian is the"
-	line "town closest to"
-	cont "Indigo Plateau."
+	text "Ciudad Verde es la"
+	line "más cercana a la"
+	cont "Meseta Añil."
 
-	para "It's known as the"
-	line "gateway to Indigo"
-	cont "Plateau!"
+	para "¡Se le conoce como"
+	line "la puerta a la"
+	cont "Meseta Añil!"
 
-	para "They built this"
-	line "place because so"
-
-	para "many trainers pass"
-	line "through on their"
-
-	para "way up to the"
-	line "#mon League."
+	para "Hicieron esto por"
+	line "los muchos que van"
+	cont "a la Liga #mon."
 	done
 
 TrainerHouse1FCooltrainerFText:
-	text "They hold practice"
-	line "battles downstairs"
-	cont "here."
+	text "Abajo se celebran"
+	line "combates de"
+	cont "práctica."
 
-	para "I would love to"
-	line "see how well a"
-
-	para "trainer from Johto"
-	line "battles."
+	para "Me gustaría ver a"
+	line "un entrenador de"
+	cont "Johto en acción."
 	done
 
 TrainerHouse1FYoungsterText:
-	text "I guess you can't"
-	line "become the Champ"
+	text "No se puede ser"
+	line "Campeón si no"
+	cont "viajas por todos"
+	cont "lados a luchar."
 
-	para "unless you go all"
-	line "over the place and"
-
-	para "battle all kinds"
-	line "of people."
-
-	para "The Champion from"
-	line "Pallet traveled to"
-
-	para "all the cities and"
-	line "towns in Kanto."
+	para "El Campeón de"
+	line "Pueblo Paleta"
+	cont "viajó por todo"
+	cont "Kanto."
 	done
 
 TrainerHouse1FGentlemanText:
-	text "Whew… I'm taking a"
-	line "rest from #mon"
-	cont "battles."
+	text "Uf… Me tomo un"
+	line "descanso de las"
+	cont "luchas #mon."
 	done
 
 TrainerHouseSign1Text:
-	text "Practice battles"
-	line "are held in the"
+	text "Los combates de"
+	line "práctica se hacen"
+	cont "en la Sala de"
+	cont "abajo."
 
-	para "Training Hall"
-	line "downstairs."
-
-	para "Skilled trainers"
-	line "are invited to"
-	cont "participate."
+	para "¡Se invita a los"
+	line "expertos a entrar!"
 	done
 
 TrainerHouseSign2Text:
-	text "There are no rules"
-	line "or regulations for"
+	text "No hay reglas en"
+	line "los combates de"
+	cont "práctica."
 
-	para "practice matches."
-	line "Just like in field"
-
-	para "battles, anything"
-	line "goes!"
+	para "¡Como en el campo,"
+	line "todo vale!"
 	done
 
 TrainerHouseIllegibleText:
-	text "…What's this?"
-	line "A strategy memo?"
+	text "…¿Qué es esto?"
+	line "¿Un memorándum"
+	cont "estratégico?"
 
-	para "This writing looks"
-	line "like Onix tracks…"
+	para "Su letra parece"
+	line "la huella de un"
+	cont "Onix…"
 
-	para "It's completely"
-	line "illegible…"
+	para "Es totalmente"
+	line "ilegible…"
 	done

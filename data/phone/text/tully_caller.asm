@@ -1,103 +1,102 @@
 TullyMonHasGrownText:
-	text "My "
+	text "Mi "
 	text_ram wStringBuffer4
-	text " has"
-	line "grown again."
+	text " ha"
+	line "crecido otra vez."
 
-	para "It was only about"
-	line "so big when I"
-
-	para "caught it, but now"
-	line "it's way bigger."
+	para "Era diminuto al"
+	line "pescarlo, ¡pero"
+	cont "ahora es enorme!"
 	done
 
 TullyDefeatedMonText:
-	text "Oh yeah, I KO'd a"
-	line "wild "
+	text "¡Vencí a un"
+	line ""
 	text_ram wStringBuffer4
-	text "."
+	text ""
+	cont "salvaje!"
 
-	para "It was huge, like"
-	line "this big even."
+	para "Era enorme, ¡así"
+	line "de grande!"
 
-	para "Heh, I guess you"
-	line "can't tell over"
-	cont "the phone…"
+	para "Je, no se aprecia"
+	line "por teléfono…"
 	done
 
 TullyLostAMonText:
-	text "Oh yeah, I lost a"
-	line "wild "
+	text "¡Se me escapó un"
+	line ""
 	text_ram wStringBuffer4
-	text "."
+	text ""
+	cont "salvaje!"
 
-	para "It was huge, like"
-	line "this big even."
+	para "Era enorme, ¡así"
+	line "de grande!"
 
-	para "Heh, I guess you"
-	line "can't tell over"
-	cont "the phone…"
+	para "Je, no se aprecia"
+	line "por teléfono…"
 	done
 
 TullyBattleRematchText:
-	text "We should get a"
-	line "battle going!"
+	text "¡Deberíamos echar"
+	line "un combate!"
 
-	para "I'll be fishing on"
+	para "Estaré pescando en"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Swing by if you"
-	line "have the time."
+	para "Pásate si tienes"
+	line "tiempo."
 	done
 
 TullyHangUpText:
-	text "Well, I'll be"
-	line "seeing you."
+	text "Bueno, nos vemos."
 	done
 
 TullyFoundItemText:
-	text "I picked up a good"
-	line "little thing at"
-	cont "the water's edge."
+	text "Encontré algo en"
+	line "la orilla del mar."
 
-	para "Like I promised,"
-	line "it's yours."
+	para "Como prometí, ¡es"
+	line "todo tuyo!"
 
-	para "I'll be waiting on"
+	para "Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyNoItemText:
-	text "Have I found"
-	line "anything good?"
+	text "¿Que si he hallado"
+	line "algo bueno?"
 
-	para "Nope, not yet."
+	para "Nop, aún nada."
 
-	para "It's like fishing,"
-	line "you need patience."
+	para "Como en la pesca,"
+	line "¡hace falta mucha"
+	cont "paciencia!"
 	done
 
 TullyForwardText:
-	text "Yup, Tully here…"
+	text "Sip, al habla"
+	line "Tully…"
 
-	para "<PLAYER>? What?"
-	line "You're lost?"
+	para "¿<PLAYER>? ¿Qué?"
+	line "¿Te has perdido?"
 
-	para "Our battle will be"
-	line "on "
+	para "Nuestra batalla"
+	line "será en"
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyHurryText:
-	text "I've got something"
-	line "good for you."
+	text "Tengo algo bueno"
+	line "para ti."
 
-	para "Hustle over to"
+	para "Date prisa y ve a"
 	line ""
 	text_ram wStringBuffer5
 	text "."

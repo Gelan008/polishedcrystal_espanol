@@ -30,23 +30,23 @@ CeladonUniversityNursesOfficeNurseScript:
 	done
 
 CeladonUniversityNursesOfficeNurseText:
-	text "Come in, dear."
-	line "Are you feeling"
-	cont "well?"
+	text "Pasa, cariño."
+	line "¿Te encuentras"
+	cont "bien?"
 
-	para "Or are your #-"
-	line "mon tuckered out?"
+	para "¿O tus #mon"
+	line "están agotados?"
 
-	para "Please rest here"
-	line "for a while!"
+	para "¡Por favor, ven a"
+	line "descansar aquí!"
 	done
 
 CeladonUniversityNursesOfficeSignText:
-	text "A healthy #mon"
-	line "is a happy #-"
-	cont "mon!"
+	text "¡Un #mon sano"
+	line "es un #mon"
+	cont "feliz!"
 
-	para "Don't let your"
-	line "friends faint"
-	cont "during battle!"
+	para "¡No dejes que"
+	line "debiliten a tu"
+	cont "#mon!"
 	done

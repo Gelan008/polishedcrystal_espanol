@@ -33,28 +33,29 @@ GenericTrainerBug_maniacEd:
 	done
 
 Bug_maniacEdSeenText:
-	text "If you walk in"
-	line "tall grass wearing"
+	text "Si vas por la"
+	line "hierba alta en"
+	cont "pantalón corto…"
 
-	para "shorts, do you get"
-	line "nicks and cuts?"
+	para "¿te haces rasguños"
+	line "y cortes?"
 	done
 
 Bug_maniacEdBeatenText:
-	text "Ouch, ouch, ouch!"
+	text "¡Ay, ay, ay!"
 	done
 
 Route2NorthCooltrainermText:
-	text "Diglett's Cave is"
-	line "just a dead end."
+	text "La Cueva Diglett"
+	line "es un callejón sin"
+	cont "salida."
 
-	para "The Vermilion City"
-	line "exit is blocked"
-
-	para "by a sleeping"
-	line "Snorlax."
+	para "La salida hacia"
+	line "Ciudad Carmín está"
+	cont "bloqueada por un"
+	cont "Snorlax dormido."
 	done
 
 Route2DiglettsCaveSignText:
-	text "Diglett's Cave"
+	text "Cueva Diglett"
 	done

@@ -41,15 +41,16 @@ GenericTrainerPokemaniacAndrew:
 	done
 
 PokemaniacAndrewSeenText:
-	text "Who's there?"
+	text "¿Quién anda ahí?"
 
-	para "Leave me and my"
-	line "#mon alone!"
+	para "¡Dejadnos a mis"
+	line "#mon y a mí en"
+	cont "paz!"
 	done
 
 PokemaniacAndrewBeatenText:
-	text "Go…"
-	line "Go away!"
+	text "¡Fuera!…"
+	line "¡Largo de aquí!"
 	done
 
 GenericTrainerPokemaniacCalvin:
@@ -65,18 +66,18 @@ GenericTrainerPokemaniacCalvin:
 	done
 
 PokemaniacCalvinSeenText:
-	text "I came all the way"
-	line "here to conduct my"
-	cont "#mon research."
+	text "He venido hasta"
+	line "aquí a estudiar a"
+	cont "los #mon."
 
-	para "Let me demonstrate"
-	line "my findings in a"
-	cont "real battle!"
+	para "¡Demostraré mis"
+	line "hallazgos en un"
+	cont "combate real!"
 	done
 
 PokemaniacCalvinBeatenText:
-	text "You demonstrated"
-	line "on me!"
+	text "¡Vaya demostración"
+	line "me has dado!"
 	done
 
 GenericTrainerHikerPhillip:
@@ -91,12 +92,12 @@ GenericTrainerHikerPhillip:
 	done
 
 HikerPhillipSeenText:
-	text "It's been a while"
-	line "since I last saw"
-	cont "another person."
+	text "Hacía tiempo que"
+	line "no veía a otra"
+	cont "persona."
 
-	para "Don't be shy."
-	line "Let's battle!"
+	para "No te cortes."
+	line "¡A luchar!"
 	done
 
 HikerPhillipBeatenText:
@@ -116,13 +117,13 @@ GenericTrainerHikerLeonard:
 	done
 
 HikerLeonardSeenText:
-	text "What do you know!"
-	line "A visitor!"
+	text "¡Vaya! ¡Una"
+	line "visita!"
 	done
 
 HikerLeonardBeatenText:
-	text "Wahahah! You're a"
-	line "feisty one!"
+	text "¡Jajaja! ¡Tienes"
+	line "mucho genio!"
 	done
 
 GenericTrainerFirebreatherJay:
@@ -178,16 +179,15 @@ GenericTrainerRuin_maniacGlyn:
 	done
 
 .SeenText:
-	text "My #mon were"
-	line "born from fossils"
-
-	para "I found in this"
-	line "very cave!"
+	text "¡Mis #mon"
+	line "vienen de fósiles"
+	cont "que hallé en esta"
+	cont "misma cueva!"
 	done
 
 .BeatenText:
-	text "And they lost in"
-	line "this very cave,"
-	cont "too!"
+	text "¡Y han perdido en"
+	line "esta misma cueva"
+	cont "también!"
 	done
 

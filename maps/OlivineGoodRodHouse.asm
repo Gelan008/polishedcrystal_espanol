@@ -32,42 +32,38 @@ GoodRodGuru:
 	end
 
 OfferGoodRodText:
-	text "Olivine is on the"
-	line "sea!"
+	text "¡Olivo da al mar!"
+	line "Y si da al mar,"
+	cont "¡seguro que hay"
+	cont "peces!"
 
-	para "And if it's on the"
-	line "sea, there are"
-	cont "bound to be fish!"
+	para "¡Llevo 30 años"
+	line "pescando aquí!"
 
-	para "I've fished here"
-	line "for 30 years."
-
-	para "Would you like to"
-	line "face the sea and"
-	cont "fish?"
+	para "¿Te gustaría"
+	line "pescar en el mar?"
 	done
 
 GiveGoodRodText:
-	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	text "¡Ja, ja, ja!"
+	line "¡Tenemos a un"
+	cont "nuevo pescador!"
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
-
-	para "They go wherever"
-	line "there is water."
+	text "No solo hay peces"
+	line "en el mar, ¡están"
+	cont "donde haya agua!"
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish?!"
-	cont "Incomprehensible!"
+	text "¿Cóoomo? ¡¿No te"
+	line "gusta pescar?!"
+	cont "¡Incomprensible!"
 	done
 
 HaveGoodRodText:
-	text "How are things?"
-	line "Land the big one?"
+	text "¿Cómo va eso?"
+	line "¿Pescaste alguno"
+	cont "grande?"
 	done

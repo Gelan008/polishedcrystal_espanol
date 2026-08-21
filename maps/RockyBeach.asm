@@ -28,15 +28,14 @@ RockyBeach_MapScriptHeader:
 	object_event 23, 32, SPRITE_FAT_GUY, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, (1 << DAY), PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ShamoutiIslandFisherText, -1
 
 RockyBeachSign1Text:
-	text "Rocky Beach"
+	text "Playa Rocosa"
 	done
 
 RockyBeachSign2Text:
-	text "Noisy Forest"
-	line "Ahead"
+	text "Bosque Murmullos"
+	line "Más adelante"
 
-	para "Thru to"
-	line "Shrine Ruins"
+	para "Templo Olvidado"
 	done
 
 GenericTrainerSightseermBlaise:
@@ -168,15 +167,15 @@ GenericTrainerSwimmermEzra:
 	done
 
 .SeenText:
-	text "Have you ever won-"
-	line "dered what it's"
-
-	para "like to breathe"
-	line "underwater?"
+	text "¿Te has preguntado"
+	line "qué se siente al"
+	cont "respirar bajo el"
+	cont "agua?"
 	done
 
 .BeatenText:
-	text "Ran out of air!"
+	text "¡Me quedé sin"
+	line "aire!"
 	done
 
 RockyBeachYoungsterScript:

@@ -36,14 +36,14 @@ GenericTrainerSwimmerfNikki:
 	done
 
 SwimmerfNikkiSeenText:
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "¡Si gano, tendrás"
+	line "que ponerme crema"
+	cont "bronceadora!"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "I'm worried about"
-	line "sunburn…"
+	text "Me preocupan las"
+	line "quemaduras de sol…"
 	done
 
 GenericTrainerSwimmerfChelan:
@@ -137,12 +137,12 @@ GenericTrainerSwimmermSeth:
 	done
 
 SwimmermSethSeenText:
-	text "Land ho! Gotta"
-	line "keep going!"
+	text "¡Veo tierra firme!"
+	line "¡Hay que seguir!"
 	done
 
 SwimmermSethBeatenText:
-	text "Glug…"
+	text "Glup…"
 	done
 
 GenericTrainerFisherMurphy:
@@ -174,12 +174,12 @@ GenericTrainerFisherArnold:
 	done
 
 FisherArnoldSeenText:
-	text "I'm bored by fish-"
-	line "ing. Let's battle!"
+	text "Me aburre pescar."
+	line "¡Luchemos!"
 	done
 
 FisherArnoldBeatenText:
-	text "Utter failure…"
+	text "Fracaso absoluto…"
 	done
 
 GenericTrainerFisherLiam:
@@ -261,14 +261,14 @@ GenericTrainerBird_keeperEaston:
 	done
 
 .SeenText:
-	text "Bird Keepers are"
-	line "so wonderful with"
-	cont "their bird #-"
-	cont "mon!"
+	text "¡Los Ornitólogos"
+	line "somos geniales con"
+	cont "los #mon"
+	cont "pájaro!"
 	done
 
 .BeatenText:
-	text "I couldn't handle"
-	line "it…"
+	text "No he estado a la"
+	line "altura…"
 	done
 

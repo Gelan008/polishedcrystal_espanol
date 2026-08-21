@@ -23,11 +23,11 @@ MountMoonB1F_MapScriptHeader:
 	object_event  5, 20, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, MountMoonB1FPokefanmText, -1
 
 MountMoonB1FPokefanmText:
-	text "I'm excavating for"
-	line "fossils here under"
-	cont "Mt.Moon."
+	text "Excavo en busca"
+	line "de fósiles aquí,"
+	cont "bajo el Mt. Moon."
 
-	para "Sometimes Brock of"
-	line "Pewter Gym lends"
-	cont "me a hand."
+	para "A veces, Brock,"
+	line "Líder de Plateada,"
+	cont "me echa una mano."
 	done

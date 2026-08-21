@@ -40,40 +40,40 @@ GenericTrainerScientistBraydon:
 	done
 
 ScientistBraydonSeenText:
-	text "I miss the old"
-	line "Cinnabar Lab…"
+	text "Echo de menos el"
+	line "antiguo Lab de"
+	cont "Isla Canela…"
 	done
 
 ScientistBraydonBeatenText:
-	text "Whew!"
-	line "Overwhelming!"
+	text "¡Uf!"
+	line "¡Abrumador!"
 	done
 
 PokemonMansionDiaryText:
-	text "Diary: July 5"
+	text "Diario: 5 de julio"
 
-	para "A new #mon was"
-	line "discovered deep in"
-	cont "the jungle."
+	para "Descubrimos un"
+	line "nuevo #mon en"
+	cont "la selva virgen."
 
-	para "Diary: July 10"
+	para "Diario: 10 julio"
 
-	para "We christened the"
-	line "newly discovered"
-	cont "#mon, Mew."
+	para "Bautizamos al"
+	line "#mon recién"
+	cont "descubierto: Mew."
 
-	para "Diary: Feb. 6"
+	para "Diario: 6 febrero"
 
-	para "Mew gave birth."
-	line "We named the"
-	cont "newborn Mewtwo."
+	para "Mew dio a luz."
+	line "Llamamos al recién"
+	cont "nacido Mewtwo."
 
-	para "Diary: Sept. 1"
+	para "Diario: 1 sept."
 
-	para "Mewtwo is far"
-	line "too powerful."
+	para "Mewtwo es muy"
+	line "poderoso."
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies…"
+	para "No pudimos calmar"
+	line "su agresividad…"
 	done

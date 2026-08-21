@@ -84,65 +84,65 @@ GenericTrainerSuperNerdMiguel:
 	done
 
 YoungsterJoshSeenText:
-	text "You came to ex-"
-	line "plore the cave,"
-	cont "right?"
+	text "¿Has venido a"
+	line "explorar la cueva,"
+	cont "¿verdad?"
 
-	para "Be careful, you"
-	line "may get lost."
+	para "Ten cuidado, no te"
+	line "vayas a perder."
 	done
 
 YoungsterJoshBeatenText:
-	text "You're not lost"
-	line "at all."
+	text "No estás nada"
+	line "perdido."
 	done
 
 Bird_keeperMickSeenText:
-	text "I'm not sure why"
-	line "I came here."
+	text "No sé bien por qué"
+	line "vine aquí."
 
-	para "My birds can't fly"
-	line "in this cave!"
+	para "¡Mis pájaros no"
+	line "pueden volar en"
+	cont "esta cueva!"
 	done
 
 Bird_keeperMickBeatenText:
-	text "Yeah, this was a"
-	line "bad idea."
+	text "Sí, esto ha sido"
+	line "una mala idea."
 	done
 
 HexManiacEstherSeenText:
-	text "Mirror, mirror,"
-	line "on the wall,"
+	text "Espejo mágico que"
+	line "veo yo aquí,"
 
-	para "who will throw"
-	line "their # Ball?"
+	para "¿quién la Ball"
+	line "lanzará ante ti?"
 	done
 
 HexManiacEstherBeatenText:
-	text "You will!"
+	text "¡Tú la lanzarás!"
 	done
 
 CooltrainermConnorSeenText:
-	text "You've either got"
-	line "it or you don't."
+	text "O se tiene clase o"
+	line "no se tiene."
 	done
 
 CooltrainermConnorBeatenText:
-	text "Whoa!"
-	line "You've got it!"
+	text "¡Uau!"
+	line "¡Tú sí que tienes!"
 	done
 
 SuperNerdMiguelSeenText:
-	text "I found these"
-	line "fossils and re-"
-	cont "vived them!"
+	text "¡Encontré estos"
+	line "fósiles y los he"
+	cont "resucitado!"
 
-	para "Now they're both"
-	line "mine!"
+	para "¡Ahora los dos son"
+	line "míos!"
 	done
 
 SuperNerdMiguelBeatenText:
-	text "My fossils were"
-	line "crushed!"
+	text "¡Mis fósiles han"
+	line "sido aplastados!"
 	done
-

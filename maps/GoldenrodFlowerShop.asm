@@ -97,9 +97,9 @@ FlowerShopTeacherScript:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1    ¥200@"
-	db "×10   ¥2000@"
-	db "Cancel@"
+	db "× 1    200¥@"
+	db "×10   2000¥@"
+	db "Salir@"
 
 FlowerShopFloriaScript:
 	checkflag ENGINE_PLAINBADGE
@@ -116,110 +116,99 @@ FlowerShopFloriaScript:
 	done
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Have you seen that"
-	line "wiggly tree that's"
+	text "¿Has visto el"
+	line "árbol tan raro que"
+	cont "hay en la Ruta 36?"
 
-	para "growing on Route"
-	line "36?"
+	para "Mi hermana pequeña"
+	line "fue a verlo toda"
+	cont "emocionada…"
 
-	para "My little sister"
-	line "got all excited"
-
-	para "and went to see"
-	line "it…"
-
-	para "I'm worried… Isn't"
-	line "it dangerous?"
+	para "Me preocupa que"
+	line "sea peligroso…"
 	done
 
 GoldenrodFlowerShopTeacherStopMySisterText:
-	text "My little sister"
-	line "got all excited"
+	text "Mi hermana pequeña"
+	line "fue a ver ese"
+	cont "árbol tan raro…"
 
-	para "and went to see"
-	line "the wiggly tree…"
-
-	para "I'm worried… Can"
-	line "you please stop"
-
-	para "her from getting"
-	line "hurt by it?"
+	para "Estoy preocupada."
+	line "¿Podrías cuidar de"
+	cont "ella, por favor?"
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Do you want to"
-	line "borrow the water"
+	text "¿También quieres"
+	line "que te preste la"
+	cont "Squirgadera?"
 
-	para "bottle too?"
-	line "I don't want you"
-
-	para "doing anything"
-	line "dangerous with it."
+	para "No quiero que te"
+	line "pongas en peligro"
+	cont "usándola."
 	done
 
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
-	text "Oh, you're better"
-	line "than Whitney."
+	text "Oh, eres mejor que"
+	line "Blanca."
 
-	para "Do you know about"
-	line "that wiggly tree?"
+	para "¿Sabes lo del"
+	line "árbol raro?"
 
-	para "If you wet it with"
-	line "a water bottle, it"
-	cont "attacks."
+	para "Si lo mojas con"
+	line "una Squirgadera,"
+	cont "te atacará."
 
-	para "But since you"
-	line "have some Badges,"
-	cont "you should be OK."
+	para "Pero como tienes"
+	line "Medallas, seguro"
+	cont "que estarás bien."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Oh, you're better"
-	line "than Whitney…"
+	text "Oh, eres mejor"
+	line "que Blanca…"
 
-	para "You'll be OK,"
-	line "then. Here's my"
-	cont "water bottle!"
+	para "Entonces, estarás"
+	line "bien. ¡Aquí tienes"
+	cont "mi Squirgadera!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "Don't do anything"
-	line "too dangerous!"
+	text "¡No hagas ninguna"
+	line "locura con ella!"
 	done
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Le hablé a mi"
+	line "hermana de ese"
+	cont "árbol tan raro y"
+	cont "dijo que es malo."
 
-	para "tree, she told me"
-	line "it's dangerous."
-
-	para "If I beat Whitney,"
-	line "I wonder if she'll"
-
-	para "lend me her water"
-	line "bottle…"
+	para "Si gano a Blanca,"
+	line "quizá me preste la"
+	cont "Squirgadera…"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Wow, you beat"
-	line "Whitney? Cool!"
+	text "Vaya, ¿venciste a"
+	line "Blanca? ¡Qué bien!"
 
-	para "Maybe you can take"
-	line "care of the jiggly"
-	cont "tree."
+	para "A lo mejor puedes"
+	line "con ese árbol tan"
+	cont "raro."
 
-	para "You'll just need a"
-	line "water bottle like"
-	cont "my sis has."
+	para "Solo necesitas la"
+	line "Squirgadera de mi"
+	cont "hermana."
 	done
 
 WoukdYouLikeMulchText:
-	text "Care to buy some"
-	line "Mulch?"
+	text "¿Quieres comprar"
+	line "Abono?"
 
-	para "It makes Berries"
-	line "grow faster!"
+	para "¡Hace crecer las"
+	line "Bayas mucho más"
+	cont "rápido!"
 	done
 
 BoughtMulchText:
@@ -238,26 +227,26 @@ NotEnoughMulchMoneyText:
 	done
 
 NoRoomForMulchText:
-	text "Oh no, your Bag"
-	line "is full!"
+	text "¡Oh no, tu Mochila"
+	line "está llena!"
 	done
 
 DescribeMulchText:
-	text "Our Mulch is a"
-	line "mix of high-qual-"
+	text "Nuestro Abono es"
+	line "mezcla de tierra y"
+	cont "de… esto… ya sabes"
+	cont "de los #mon."
 
-	para "ity soil and #-"
-	line "mon's… er… you"
-
-	para "know. It's full"
-	line "of nutrients!"
+	para "¡Está lleno de"
+	line "nutrientes!"
 	done
 
 FlowerShopGentlemanText:
-	text "I've been working"
-	line "late a lot recent-"
-	cont "ly, so I'm buying"
+	text "Trabajé mucho"
+	line "hasta muy tarde"
+	cont "últimamente,"
 
-	para "some flowers for"
-	line "my wife."
+	para "así que compraré"
+	line "flores para mi"
+	cont "mujer."
 	done

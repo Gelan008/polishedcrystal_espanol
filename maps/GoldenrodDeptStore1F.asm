@@ -21,50 +21,52 @@ GoldenrodDeptStore1F_MapScriptHeader:
 	object_event 11,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStore1FGentlemanText, -1
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Welcome to Golden-"
-	line "rod Dept.Store."
+	text "¡Bienvenido al"
+	line "Centro Comercial"
+	cont "de Ciudad Trigal!"
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "The Dept.Store"
-	line "has a decent se-"
-	cont "lection."
+	text "El Centro"
+	line "Comercial tiene"
+	cont "un gran surtido."
 
-	para "But some items"
-	line "are only available"
-
-	para "as Game Corner"
-	line "prizes."
+	para "Aunque ciertos"
+	line "objetos solo se"
+	cont "consiguen en el"
+	cont "Casino."
 	done
 
 GoldenrodDeptStore1FPokefanFText:
-	text "I'm raring to shop"
-	line "again today!"
+	text "¡Estoy deseando ir"
+	line "de compras hoy!"
 	done
 
 GoldenrodDeptStore1FBugCatcherText:
-	text "Mom's good at"
-	line "bargain hunting."
+	text "A mi madre se le"
+	line "da bien buscar"
+	cont "buenas gangas."
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "¡Siempre compra al"
+	line "precio más bajo!"
 	done
 
 GoldenrodDeptStore1FDirectoryText:
-	text "1F Service Counter"
+	text "PB Mostrador de"
+	line "   Servicio"
 
-	para "2F Trainer's"
-	line "   Market"
+	para "P1 Mercado de"
+	line "   Entrenadores"
 
-	para "3F Battle"
-	line "   Collection"
+	para "P2 Colección"
+	line "   de Combate"
 
-	para "4F Medicine Box"
+	para "P3 Botiquín"
 
-	para "5F TM Corner"
+	para "P4 Rincón MT"
 
-	para "6F Tranquil Square"
+	para "P5 Plaza de la"
+	line "   Tranquilidad"
 
-	para "Rooftop Lookout"
+	para "Azotea Mirador"
 	done

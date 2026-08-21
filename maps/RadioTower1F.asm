@@ -115,9 +115,9 @@ RadioTower1FLuckyNumberManScript:
 	jumpthisopenedtext
 
 RadioTower1FLuckyNumberManComeAgainText:
-	text "Please come back"
-	line "tomorrow for the"
-	cont "next Lucky Number."
+	text "Vuelve mañana"
+	line "para el próximo"
+	cont "Num. de la Suerte."
 	done
 
 RadioTower1FRadioCardWomanScript:
@@ -232,43 +232,41 @@ RadioTower1FReceptionistWelcomeText:
 	done
 
 RadioTower1FReceptionistNoToursText:
-	text "Hello. I'm sorry,"
-	line "but we're not"
-	cont "offering any tours"
-	cont "today."
+	text "Hola. Lo siento,"
+	line "pero hoy no hay"
+	cont "visitas guiadas."
 	done
 
 RadioTower1FLuckyNumberManAskToPlayText:
-	text "Hi, are you here"
-	line "for the Lucky Num-"
-	cont "ber Show?"
+	text "Hola, ¿vienes por"
+	line "el Concurso del"
+	cont "Num. de la Suerte?"
 	done
 
 IntroduceFelicityText:
-	text "I'm Felicity,"
-	line "your attendant"
-	cont "today."
+	text "Soy Felicidad,"
+	line "tu azafata hoy."
 	done
 
 ExplainLuckyNumberShowText:
-	text "Want me to check"
-	line "the ID numbers of"
-	cont "your #mon?"
+	text "¿Quieres ver los"
+	line "números ID de tus"
+	cont "#mon?"
 
-	para "If you get lucky,"
-	line "you win a prize."
+	para "¡Si tienes suerte,"
+	line "ganarás un premio!"
 	done
 
 RadioTower1FLuckyNumberManTodayIdIsText:
-	text "Today's lucky ID"
-	line "number is "
+	text "El N. premiado de"
+	line "hoy es "
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RadioTower1FLuckyNumberManCheckIfMatchText:
-	text "Let's see if you"
-	line "have a match."
+	text "Veamos si coincide"
+	line "con alguno."
 	done
 
 RadioTower1FLuckyNumberManDotDotDotText: ; text > text
@@ -277,54 +275,47 @@ RadioTower1FLuckyNumberManDotDotDotText: ; text > text
 	done
 
 WonFirstPlaceText:
-	text "Wow! You have a"
-	line "perfect match of"
-	cont "all five numbers!"
+	text "¡Hala! ¡Coinciden"
+	line "los cinco números!"
 
-	para "We have a grand"
-	line "prize winner!"
+	para "¡Tenemos ganador"
+	line "del premio gordo!"
 
-	para "You have won a"
+	para "¡Has ganado una"
 	line "Master Ball!"
 	done
 
 WonSecondPlaceText:
-	text "Hey! You've"
-	line "matched the last"
-	cont "four numbers!"
+	text "¡Coinciden los"
+	line "4 últimos números!"
 
-	para "You've won second"
-	line "prize, a rare"
-	cont "Bottle Cap!"
+	para "¡Segundo premio:"
+	line "una Chapa Plata!"
 	done
 
 WonThirdPlaceText:
-	text "Hey! You've"
-	line "matched the last"
-	cont "three numbers!"
+	text "¡Coinciden los"
+	line "3 últimos números!"
 
-	para "You've won third"
-	line "prize, a PP Max!"
+	para "¡Tercer premio:"
+	line "un Máx. PP!"
 	done
 
 WonFourthPlaceText:
-	text "Ooh, you've"
-	line "matched the last"
-	cont "two numbers."
+	text "¡Coinciden los"
+	line "2 últimos números!"
 
-	para "You've won"
-	line "fourth prize,"
-	cont "a PP Up."
+	para "¡Cuarto premio:"
+	line "un Más PP!"
 	done
 
 WonFifthPlaceText:
-	text "Ooh, you've"
-	line "matched the last"
-	cont "number."
+	text "¡Oh! ¡Coincide el"
+	line "último número!"
 
-	para "You've won fifth"
-	line "prize, a"
-	cont "Rare Candy."
+	para "Has ganado el"
+	line "quinto premio: un"
+	cont "Caramelo Raro."
 	done
 
 RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText:
@@ -333,185 +324,177 @@ RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText:
 	done
 
 RadioTower1FLuckyNumberManNoRoomForYourPrizeText:
-	text "You've got no room"
-	line "for your prize."
+	text "No tienes sitio"
+	line "para tu premio."
 
-	para "Make room and come"
-	line "back right away."
+	para "Haz sitio en la"
+	line "Mochila y vuelve."
 	done
 
 RadioTower1FRadioCardWomanOfferQuizText:
-	text "We have a special"
-	line "quiz campaign on"
-	cont "right now."
+	text "¡Tenemos una gran"
+	line "promoción con un"
+	cont "concurso!"
 
-	para "Answer five ques-"
-	line "tions correctly to"
-	cont "win a Radio Card."
+	para "¡Si aciertas cinco"
+	line "preguntas, ganas"
+	cont "una Tarjeta Radio!"
 
-	para "Slide it into your"
-	line "#gear to play"
+	para "Úsala en tu"
+	line "#gear para oír"
+	cont "la radio cuando"
+	cont "quieras."
 
-	para "the radio anytime,"
-	line "anywhere."
-
-	para "Would you like to"
-	line "take the quiz?"
+	para "¿Te gustaría"
+	line "participar en el"
+	cont "concurso?"
 	done
 
 RadioTower1FRadioCardWomanQuestion1Text:
-	text "Question 1:"
+	text "1a pregunta:"
 
-	para "Is there a #mon"
-	line "that appears only"
-	cont "in the morning?"
+	para "¿Hay algún #mon"
+	line "que solo aparezca"
+	cont "por la mañana?"
 	done
 
 RadioTower1FRadioCardWomanQuestion2Text:
-	text "Correct!"
-	line "Question 2:"
+	text "¡Correcto!"
+	line "2a pregunta:"
 
-	para "Nidorina can only"
-	line "be female. True?"
+	para "Nidorina solo es"
+	line "hembra, ¿verdad?"
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
-	text "Bull's-eye!"
-	line "Question 3:"
+	text "¡En el blanco!"
+	line "3a pregunta:"
 
-	para "Can Magikarp learn"
-	line "any moves via TM?"
+	para "¿Puede Magikarp"
+	line "aprender MTs?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:
-	text "So far so good!"
-	line "Question 4:"
+	text "¡Vas muy bien!"
+	line "4a pregunta:"
 
-	para "Does Kurt, the"
-	line "# Ball creator,"
-
-	para "use apricots as"
-	line "ingredients?"
+	para "¿César hace sus"
+	line "# Balls con"
+	cont "albaricoques?"
 	done
 
 RadioTower1FRadioCardWomanQuestion5Text:
-	text "Wow! Right again!"
-	line "Here's the final"
-	cont "question:"
+	text "¡Genial! ¡Has"
+	line "acertado otra vez!"
 
-	para "Do Goldenrod Game"
-	line "Corner's slots"
+	para "La última es:"
 
-	para "have Charmander"
-	line "on their reels?"
+	para "¿En el Casino se"
+	line "ve a Charmander en"
+	cont "las tragaperras?"
 	done
 
 RadioTower1FRadioCardWomanYouWinText:
-	text "Bingo! You got it!"
-	line "Congratulations!"
+	text "¡Acertaste todas!"
+	line "¡Enhorabuena!"
 
-	para "Here's your prize,"
-	line "a Radio Card!"
+	para "¡Aquí tienes tu"
+	line "Tarjeta Radio!"
 	done
 
 RadioTower1FPokegearIsARadioText:
-	text "<PLAYER>'s #gear"
-	line "can now double as"
-	cont "a radio!"
+	text "¡El #gear de"
+	line "<PLAYER> ya puede"
+	cont "usarse como radio!"
 	done
 
 RadioTower1FRadioCardWomanTuneInText:
-	text "Please tune in to"
-	line "our radio shows."
+	text "Sintoniza nuestros"
+	line "programas de"
+	cont "radio, por favor."
 	done
 
 RadioTower1FRadioCardWomanNotTakingQuizText:
-	text "Oh. I see. Please"
-	line "see me if you"
-	cont "change your mind."
+	text "Ah, ya veo. Si"
+	line "cambias de idea,"
+	cont "¡ven a verme!"
 	done
 
 RadioTower1FLassText:
-	text "Ben is a fabulous"
-	line "DJ."
+	text "Nacho es un DJ"
+	line "fabuloso."
 
-	para "His sweet voice"
-	line "makes me melt!"
+	para "¡Su dulce voz me"
+	line "derrite!"
 	done
 
 RadioTower1FYoungsterText:
-	text "I love Mary, from"
-	line "#mon Talk."
+	text "Me encanta Rosa,"
+	line "de La Hora Oak."
 
-	para "I only know what"
-	line "she sounds like,"
-	cont "though."
+	para "Aunque solo le"
+	line "conozco la voz."
 	done
 
 GruntM3SeenText:
-	text "We've finally"
-	line "taken over the"
-	cont "Radio Tower!"
+	text "¡Tomamos la Torre"
+	line "Radio por fin!"
 
-	para "Now everyone will"
-	line "get to experience"
+	para "¡Conocerán el gran"
+	line "terror del"
+	cont "Team Rocket!"
 
-	para "the true terror of"
-	line "Team Rocket!"
-
-	para "We'll show you"
-	line "how scary we are!"
+	para "¡Verás lo temibles"
+	line "que somos!"
 	done
 
 GruntM3BeatenText:
-	text "Too strong! We"
-	line "must watch you…"
+	text "¡Eres muy fuerte!"
+	line "¡No te perderemos"
+	cont "de vista…!"
 	done
 
 RadioTower1FWhitney1Text:
-	text "Hi! I'm Whitney!"
+	text "¡Hola! Soy Blanca."
 
-	para "I heard about the"
-	line "quiz to win a"
-	cont "Radio Card,"
+	para "Vine a ganar una"
+	line "Tarjeta Radio en"
+	cont "este concurso…"
 
-	para "so I came here"
-	line "to get one…"
-
-	para "But this quiz is"
-	line "so hard!"
+	para "¡Pero esto es"
+	line "dificilísimo!"
 	done
 
 RadioTower1FWhitney2Text:
-	text "Whitney: Wow, you"
-	line "did it!"
+	text "Blanca: ¡Hala,"
+	line "lo lograste!"
 
-	para "I thought the"
-	line "fourth answer"
-	cont "was apricots…"
+	para "Pensaba que la"
+	line "cuarta respuesta"
+	cont "era albaricoques…"
 
-	para "Oops! I should get"
-	line "back to the Gym!"
+	para "¡Uy! ¡Debo volver"
+	line "al Gimnasio!"
 	done
 
 RadioTower1FDirectoryText:
-	text "1F Reception"
-	line "2F Sales"
+	text "PB Recepción"
+	line "1P Ventas"
 
-	para "3F Personnel"
-	line "4F Production"
+	para "2P Personal"
+	line "3P Producción"
 
-	para "5F Director's"
-	line "   Office"
+	para "4P Despacho del"
+	line "   Director"
 	done
 
 RadioTower1FLuckyChannelSignText:
-	text "Lucky Channel!"
+	text "¡Canal Suerte!"
 
-	para "Win with #mon"
-	line "ID numbers!"
+	para "¡Gana premios con"
+	line "los ID #mon!"
 
-	para "Trade your #mon"
-	line "to collect differ-"
-	cont "ent ID numbers!"
+	para "¡Haz intercambios"
+	line "para conseguir más"
+	cont "números ID!"
 	done

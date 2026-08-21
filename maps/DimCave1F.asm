@@ -70,12 +70,12 @@ GenericTrainerGuitaristmBiff:
 	done
 
 .SeenText:
-	text "I dig rock and"
-	line "dig rock!"
+	text "¡Me mola el rock"
+	line "y pico rocas!"
 	done
 
 .BeatenText:
-	text "Ground into the"
-	line "ground!"
+	text "¡Me han hecho"
+	line "polvo!"
 	done
 

@@ -97,51 +97,47 @@ ShuckieOTName:
 	rawchar "Kirk@"
 
 ManiaText_AskLookAfterShuckie:
-	text "I, I'm in shock!"
+	text "¡Estoy en shock!"
 
-	para "A guy about your"
-	line "age with piercing"
+	para "Entró un chico de"
+	line "tu edad, de mirada"
+	cont "dura y pelo largo."
 
-	para "eyes and long hair"
-	line "came in."
+	para "¡Me asustó tanto"
+	line "que le di a mi"
+	cont "querido #mon!"
 
-	para "He scared me into"
-	line "giving him my"
-	cont "prized #mon!"
+	para "Me queda otro,"
+	line "¿y si vuelve?"
 
-	para "I still have one"
-	line "left, but what if"
-	cont "he comes back?"
-
-	para "You look strong."
-	line "Could you look"
-
-	para "after my #mon"
-	line "for a while?"
+	para "Pareces fuerte."
+	line "¿Cuidarías de mi"
+	cont "#mon un tiempo?"
 	done
 
 ManiaText_TakeCareOfShuckie:
-	text "Oh, thank you!"
+	text "¡Oh, gracias!"
 
-	para "Take good care of"
-	line "it, please!"
+	para "¡Cuídalo muy bien,"
+	line "por favor!"
 	done
 
 ManiaText_GotShuckie:
-	text "<PLAYER> received a"
-	line "#mon."
+	text "<PLAYER> recibió"
+	line "un #mon."
 	done
 
 ManiaText_ShuckieSentToPC:
-	text "The #mon was"
-	line "sent to "
+	text "El #mon fue"
+	line "enviado a "
 	text_ram wStringBuffer1
 	text "."
 	done
 
 ManiaText_PartyAndBoxFull:
-	text "Your #mon party"
-	line "and Box are full."
+	text "Tu equipo #mon"
+	line "y la Caja están"
+	cont "llenos."
 	done
 
 ManiaText_IfHeComesBack:
@@ -151,16 +147,16 @@ ManiaText_IfHeComesBack:
 	done
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hi! How's my #-"
-	line "mon?"
+	text "¡Hola! ¿Cómo está"
+	line "mi #mon?"
 
-	para "I think I'm safe"
-	line "now, so may I have"
-	cont "it back?"
+	para "Creo que ya estoy"
+	line "a salvo. ¿Me lo"
+	cont "devuelves?"
 	done
 
 ManiaText_ThankYou:
-	text "Thank you!"
+	text "¡Gracias!"
 	done
 
 ManiaText_ShuckieNotThere:
@@ -170,14 +166,14 @@ ManiaText_ShuckieNotThere:
 	done
 
 ManiaText_ShuckieLikesYou:
-	text "My #mon has"
-	line "come to like you."
+	text "¡A mi #mon le"
+	line "has caído bien!"
 
-	para "All right, you"
-	line "should keep it."
+	para "De acuerdo, te lo"
+	line "puedes quedar."
 
-	para "But promise to"
-	line "be good to it!"
+	para "¡Prométeme que lo"
+	line "cuidarás bien!"
 	done
 
 ManiaText_SameAsBeingRobbed:

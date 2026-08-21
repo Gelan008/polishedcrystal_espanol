@@ -48,25 +48,22 @@ CeladonUniversityLibrary2F_MapScriptHeader:
 	itemball_event  0,  1, TIMER_BALL, 1, EVENT_CELADON_UNIVERSITY_LIBRARY_2F_TIMER_BALL
 
 CeladonUniversityLibrary2FCosplayerText:
-	text "It's great being"
-	line "in the city!"
+	text "¡Es genial estar"
+	line "en la ciudad!"
 
-	para "I can wear my cos-"
-	line "tume in public and"
-
-	para "people don't bat"
-	line "an eye!"
+	para "Puedo llevar mi"
+	line "cosplay en público"
+	cont "¡y nadie pestañea!"
 	done
 
 CeladonUniversityLibrary2FLassText:
-	text "Never judge a book"
-	line "by its cover."
+	text "No juzgues a un"
+	line "libro por su"
+	cont "portada."
 
-	para "Sometimes even the"
-	line "dullest exterior"
-
-	para "can hide the best"
-	line "stories."
+	para "A veces la tapa"
+	line "más sosa oculta la"
+	cont "mejor historia."
 	done
 
 CeladonUniversityLibrary2FArtistScript:
@@ -76,291 +73,275 @@ CeladonUniversityLibrary2FArtistScript:
 	end
 
 .Text1:
-	text "“Jasmine gazed"
-	line "into Erika's deep"
-	cont "brown eyes…”"
+	text "“Yasmina miró a"
+	line "los ojos marrones"
+	cont "de Erika…”"
 	done
 
 .Text2:
-	text "Huh? Go away!"
+	text "¿Eh? ¡Vete!"
 
-	para "It's rude to read"
-	line "over someone's"
-	cont "shoulder!"
+	para "¡Es de mala"
+	line "educación mirar lo"
+	cont "que escribo!"
 	done
 
 CeladonUniversityLibrary2FSuper_nerdText:
-	text "The “net send”"
-	line "command will show"
+	text "¡El comando"
+	line "“net send” muestra"
+	cont "un aviso en otros"
+	cont "ordenadores!"
 
-	para "a message on"
-	line "everyone else's"
-	cont "computer screen!"
+	para "Mmm, qué poner…"
 
-	para "Hmm, what to send…"
+	para "“¡Pizza gratis en"
+	line "la oficina del"
+	cont "Prof. Westwood!”"
 
-	para "“Free pizza in"
-	line "Prof.Westwood's"
-	cont "office!”"
-
-	para "Hehehe."
+	para "Jejeje."
 	done
 
 CeladonUniversityLibrary2FCooltrainerfText:
-	text "This is my book."
-	line "And I'm going to"
-	cont "READ IT!"
+	text "Este es mi libro."
+	line "¡Y pienso LEERLO!"
 	done
 
 CeladonUniversityLibrary2FYoungsterText:
-	text "I'm reading about a"
-	line "legendary #mon"
+	text "Leo sobre un"
+	line "#mon legendario"
+	cont "con el poder de"
+	cont "doblar el espacio."
 
-	para "with the power to"
-	line "distort space."
-
-	para "It's pretty scary…"
+	para "¡Da bastante"
+	line "miedo…!"
 	done
 
 CeladonUniversityLibrary2FBookshelf1Text:
-	text "It's a book con-"
-	line "taining #mon"
+	text "Es un libro que"
+	line "contiene #mon"
 
-	para "of an ancient"
-	line "alphabet."
+	para "de un alfabeto"
+	line "antiguo."
 
-	para "With one of each"
-	line "kind, they can"
-	cont "grant wishes."
+	para "Si tienes uno de"
+	line "cada tipo, pueden"
+	cont "conceder deseos."
 	done
 
 CeladonUniversityLibrary2FBookshelf2Text:
-	text "This book is"
-	line "falling apart."
+	text "Este libro se cae"
+	line "a trozos."
 
-	para "The title is no"
-	line "longer readable,"
-
-	para "but there's a pic-"
-	line "ture of a #mon"
-
-	para "wearing heavy"
-	line "armor."
+	para "El título no se"
+	line "puede leer, pero"
+	cont "se ve a un #mon"
+	cont "con una armadura"
+	cont "muy pesada."
 	done
 
 CeladonUniversityLibrary2FBookshelf3Text:
-	text "It's a book with a"
-	line "giant padlock on"
-	cont "the cover."
+	text "Es un libro con un"
+	line "candado gigante en"
+	cont "la portada."
 
-	para "Better leave it"
-	line "alone."
+	para "Mejor lo dejas"
+	line "tranquilo."
 	done
 
 CeladonUniversityLibrary2FBookshelf4Text:
-	text "This book's written"
-	line "in a foreign"
-	cont "language!"
+	text "¡Este libro está"
+	line "escrito en un"
+	cont "idioma extranjero!"
 
-	para "Better put it"
-	line "back…"
+	para "Mejor lo devuelvo"
+	line "a su sitio…"
 	done
 
 CeladonUniversityLibrary2FBookshelf5Text:
-	text "Behind these"
-	line "books…"
+	text "Detrás de estos"
+	line "libros…"
 
-	para "Nope. There's"
-	line "nothing here."
+	para "No. No hay nada"
+	line "aquí."
 	done
 
 CeladonUniversityLibrary2FBookshelf6Text:
-	text "It's a book about"
-	line "#mon that have"
+	text "Es un libro sobre"
+	line "formas regionales"
+	cont "de los #mon."
 
-	para "regional diff-"
-	line "erences."
-
-	para "There's a picture"
-	line "of a Raichu that"
-	cont "looks a little"
-	cont "strange…"
+	para "Sale una imagen"
+	line "de un Raichu algo"
+	cont "extraño…"
 	done
 
 CeladonUniversityLibrary2FBookshelf7Text:
-	text "It's a book about"
-	line "#mon Contests."
+	text "Es un libro sobre"
+	line "los Concursos"
+	cont "#mon."
 
-	para "An impressive-"
-	line "looking building"
-
-	para "is pictured on"
-	line "the cover."
+	para "En la portada sale"
+	line "un edificio"
+	cont "impresionante."
 	done
 
 CeladonUniversityLibrary2FBookshelf8Text:
-	text "A boy is shown"
-	line "riding a #mon"
+	text "Se muestra a un"
+	line "chico montando un"
 
-	para "on the cover"
-	line "of this book."
+	para "#mon en la"
+	line "portada de este"
+	cont "libro."
 
-	para "“How to Train Your"
-	line "Dragonite” is"
-	cont "written in bold."
+	para "“Cómo Entrenar A"
+	line "Tu Dragonite”"
+	cont "pone en negrita."
 	done
 
 CeladonUniversityLibrary2FBookshelf9Text:
-	text "It's a book de-"
-	line "picting a world"
+	text "¡Es un libro sobre"
+	line "un mundo habitado"
 
-	para "inhabited entirely"
-	line "by #mon!"
+	para "exclusivamente por"
+	line "#mon!"
 
-	para "“Pikachu's Adven-"
-	line "tures in #Park”"
+	para "“Las Aventuras de"
+	line "Pikachu en el"
+	cont "#Parque”"
 
-	para "is written on the"
-	line "cover."
+	para "está escrito en la"
+	line "portada."
 	done
 
 CeladonUniversityLibrary2FBookshelf10Text:
-	text "It's a book about"
-	line "an island of giant"
-	cont "#mon robots."
+	text "Es un libro sobre"
+	line "una isla de robots"
+	cont "#mon gigantes."
 
-	para "“#mon Robotics”"
-	line "by Anne Droid…"
+	para "“Robótica #mon”"
+	line "por Anne Droid…"
 	done
 
 CeladonUniversityLibrary2FBookshelf11Text:
-	text "“Forgive and"
-	line "Forget” by Saul"
+	text "“Perdona y"
+	line "Olvida” por Saul"
 	cont "Goode."
 
-	para "There's a picture"
-	line "of a man with a"
-	cont "big grin."
+	para "Hay un dibujo de"
+	line "un hombre con una"
+	cont "gran sonrisa."
 	done
 
 CeladonUniversityLibrary2FBookshelf12Text:
-	text "“Weightlessness”"
-	line "by Andy Gravity."
-	cont "Sounds flighty!"
+	text "“Ingravidez”"
+	line "por Andy Gravity."
+	cont "¡Suena volátil!"
 	done
 
 CeladonUniversityLibrary2FBookshelf13Text:
-	text "It's a book"
-	line "explaining the"
+	text "Es un libro que"
+	line "explica biología"
+	cont "#mon."
 
-	para "biology of"
-	line "#mon."
-
-	para "It's enormous!"
+	para "¡Es enorme!"
 	done
 
 CeladonUniversityLibrary2FBookshelf14Text:
-	text "This book is"
-	line "covered in"
-	cont "cobwebs."
+	text "Este libro está"
+	line "con telarañas."
 
-	para "Guess it hasn't"
-	line "been read in a"
-	cont "while."
+	para "Nadie lo ha leído"
+	line "en mucho tiempo."
 	done
 
 CeladonUniversityLibrary2FBookshelf15Text:
-	text "It's a book de-"
-	line "picting a fearsome"
-	cont "#mon."
+	text "Es un libro sobre"
+	line "un temible #mon"
 
-	para "“Absofusion and"
-	line "the Tao Trio” is"
+	para "El título reza en"
+	line "letras gigantes:"
 
-	para "written in big"
-	line "letters."
+	para "“Absofusión y el"
+	line "Trío Tao”."
 	done
 
 CeladonUniversityLibrary2FBookshelf16Text:
-	text "“Ancient #-"
-	line "mopolis: A History"
+	text "“Antigua"
+	line "#mopolis:"
+	cont "La Historia de los"
+	cont "#mon Extintos”."
 
-	para "of Extinct"
-	line "#mon”"
-
-	para "Sounds"
-	line "interesting!"
+	para "¡Suena muy"
+	line "interesante!"
 	done
 
 CeladonUniversityLibrary2FBookshelf17Text:
-	text "It's a book titled"
-	line "“Typecasting: The"
-
-	para "Mystery of"
-	line "Sudowoodo”."
+	text "Es un libro sobre"
+	line "“El Misterio de"
+	cont "Sudowoodo”."
 	done
 
 CeladonUniversityLibrary2FBookshelf18Text:
-	text "It's a book about"
-	line "an ancient tree"
+	text "Es un libro sobre"
+	line "un antiguo árbol"
+	cont "custodiado por"
+	cont "tres titanes."
 
-	para "guarded by three"
-	line "titans."
-
-	para "It looks almost"
-	line "magical."
+	para "Parece algo"
+	line "mágico."
 	done
 
 CeladonUniversityLibrary2FBookshelf19Text:
-	text "It's a copy of the"
-	line "original route for"
-	cont "the Magnet Train!"
+	text "¡Es una copia de"
+	line "la ruta original"
+	cont "del Magnetotrén!"
 
-	para "It shows a planned"
-	line "stop-off station"
-	cont "in Ecruteak City."
+	para "Muestra una parada"
+	line "planeada en la"
+	cont "Ciudad Iris."
 	done
 
 CeladonUniversityLibrary2FBookshelf20Text:
-	text "Red books,"
-	line "blue books,"
-	cont "yellow books,"
-	cont "green books…"
+	text "Libros rojos,"
+	line "libros azules,"
+	cont "libros amarillos,"
+	cont "libros verdes…"
 
-	para "Books of every"
-	line "color!"
+	para "¡Libros de todos"
+	line "los colores!"
 	done
 
 CeladonUniversityLibrary2FComputer1:
 	jumpthistext
 
-	text "There's a login"
-	line "screen with a"
+	text "Hay una pantalla"
+	line "de inicio con"
 
-	para "background image"
-	line "of a Magikarp."
+	para "una imagen de un"
+	line "Magikarp en el"
+	cont "fondo."
 	done
 
 CeladonUniversityLibrary2FComputer2:
 	jumpthistext
 
-	text "Someone forgot to"
-	line "log out!"
+	text "¡Alguien olvidó"
+	line "cerrar su sesión!"
 	done
 
 CeladonUniversityLibrary2FComputer3:
 	jumpthistext
 
-	text "There's a story"
-	line "full of grammar"
-	cont "and spelling"
-	cont "errors."
+	text "Hay una historia"
+	line "repleta de errores"
+	cont "ortográficos y"
+	cont "gramaticales."
 	done
 
 CeladonUniversityLibrary2FComputer4:
 	jumpthistext
 
-	text "There's a web page"
-	line "about how to be a"
+	text "Hay una web sobre"
+	line "cómo ser un"
 	cont "“l33t h4x0r”."
 	done

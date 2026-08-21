@@ -76,69 +76,64 @@ Route44VeteranmScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "You're a very"
-	line "quiet person."
+	text "Eres una persona"
+	line "muy callada."
 
-	para "Has anybody told"
-	line "you that before?"
+	para "¿Te lo había dicho"
+	line "alguien antes?"
 	done
 
 .IntroText:
-	text "My #mon are"
-	line "wearing Rocky"
-	cont "Helmets."
+	text "Mis #mon llevan"
+	line "Cascos Dentados."
 
-	para "Want to challenge"
-	line "them?"
+	para "¿Quieres retarme?"
 
-	para "OK, then you've"
-	line "got to beat every"
-
-	para "trainer on this"
-	line "route first."
+	para "Vale, pero antes"
+	line "debes vencer a los"
+	cont "demás de la ruta."
 	done
 
 .QuestionText:
-	text "I saw your"
-	line "battles."
+	text "He visto cómo has"
+	line "luchado."
 
-	para "Your #mon are"
-	line "really tough."
+	para "Tus #mon son de"
+	line "lo más duros."
 
-	para "Are you ready?"
+	para "¿Todo a punto?"
 	done
 
 .RefusedText:
-	text "You beat Team"
-	line "Rocket and you're"
-	cont "scared of me?"
+	text "¿Vences al Team"
+	line "Rocket y me tienes"
+	cont "miedo a mí?"
 
-	para "Do I look that"
-	line "scary?"
+	para "¿Tanto asusto?"
 	done
 
 .SeenText:
-	text "I'll show you the"
-	line "power of my Rocky"
-	cont "Helmets!"
+	text "¡Verás el poder de"
+	line "mis Cascos"
+	cont "Dentados!"
 	done
 
 .BeatenText:
-	text "Bah. These Helmets"
-	line "weren't enough."
+	text "Bah. Estos Cascos"
+	line "no han bastado."
 	done
 
 .AfterText1:
-	text "You're really"
-	line "strong for someone"
-	cont "so young."
-	cont "Keep it up!"
+	text "Eres muy fuerte a"
+	line "pesar de tu edad."
+	cont "¡Sigue así!"
 
-	para "Take one of these"
-	line "Rocky Helmets."
+	para "Toma un Casco"
+	line "Dentado para ti."
 
-	para "You can use it as"
-	line "well as me."
+	para "Seguro que le das"
+	line "tan buen uso como"
+	cont "yo."
 	done
 
 TrainerBird_keeperVance1:
@@ -424,145 +419,144 @@ GenericTrainerCooltrainermAllen:
 	done
 
 FisherWilton1SeenText:
-	text "Aack! You made me"
-	line "lose a Poliwag!"
+	text "¡Aj! ¡Me has hecho"
+	line "perder un Poliwag!"
 
-	para "What are you going"
-	line "to do about it?"
+	para "¿Qué piensas hacer"
+	line "al respecto?"
 	done
 
 FisherWilton1BeatenText:
-	text "Just forget about"
-	line "it."
+	text "Olvídalo, da"
+	line "igual."
 	done
 
 FisherWiltonHugePoliwagText_Imperial:
-	text "That Poliwag that"
-	line "got away…"
-	cont "It was huge."
+	text "Aquel Poliwag que"
+	line "se escapó…"
+	cont "Era enorme."
 
-	para "I swear it must've"
-	line "been 16 feet long!"
+	para "¡Juro que medía"
+	line "por lo menos"
+	cont "cinco metros!"
 	done
 
 FisherWiltonHugePoliwagText_Metric:
-	text "That Poliwag that"
-	line "got away…"
-	cont "It was huge."
+	text "Aquel Poliwag que"
+	line "se escapó…"
+	cont "Era enorme."
 
-	para "I swear it must've"
-	line "been five meters"
-	cont "long!"
+	para "¡Juro que medía"
+	line "por lo menos"
+	cont "cinco metros!"
 	done
 
 FisherEdgarSeenText:
-	text "I fish until I"
-	line "can't anymore."
+	text "Pesco hasta que no"
+	line "puedo más."
 
-	para "I also battle"
-	line "until I drop."
+	para "Y lucho hasta"
+	line "caer rendido."
 
-	para "That's my"
-	line "relationship"
-	cont "with my #mon."
+	para "Esa es la relación"
+	line "que tengo con mis"
+	cont "#mon."
 	done
 
 FisherEdgarBeatenText:
-	text "Hmmmm…"
-	line "This isn't right."
+	text "Mmm…"
+	line "Esto no puede ser."
 	done
 
 Bird_keeperVance1SeenText:
-	text "Do you know about"
-	line "the legendary bird"
+	text "¿Conoces a las"
+	line "aves legendarias"
 	cont "#mon?"
 	done
 
 Bird_keeperVance1BeatenText:
-	text "Whew! You're hot"
-	line "stuff."
+	text "¡Uf! Eres una gran"
+	line "máquina."
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "Articuno, Zapdos"
-	line "and Moltres are"
+	text "Articuno, Zapdos y"
+	line "Moltres son las"
+	cont "tres aves #mon"
+	cont "legendarias."
 
-	para "the three legend-"
-	line "ary bird #mon."
-
-	para "I heard there are"
-	line "other legendary"
-	cont "birds, though."
+	para "Aunque he oído que"
+	line "hay más aves"
+	cont "legendarias."
 	done
 
 BirdKeeperVance2BeatenText:
-	text "Why can't I ever"
-	line "beat you?"
+	text "¿Por qué nunca"
+	line "puedo vencerte?"
 
-	para "Oh yeah, here you"
-	line "go. It's that gift"
-
-	para "I couldn't give"
-	line "you last time."
+	para "Ah, sí, toma. Es"
+	line "el regalo que no"
+	cont "te di la otra vez."
 	done
 
 PsychicPhilSeenText:
-	text "I'm gonna win,"
-	line "for sure!"
+	text "¡Voy a ganar, de"
+	line "forma segura!"
 	done
 
 PsychicPhilBeatenText:
-	text "Arrgh… That's a"
-	line "shocking loss…"
+	text "¡Arg…! Una derrota"
+	line "muy impactante…"
 	done
 
 PokemaniacZachSeenText:
-	text "I'll do anything"
-	line "to get my hands on"
-	cont "rare #mon!"
+	text "¡Haría lo que sea"
+	line "por conseguir"
+	cont "#mon raros!"
 	done
 
 PokemaniacZachBeatenText:
-	text "Oooh, your #mon"
-	line "are so appealing."
+	text "¡Oh, tus #mon"
+	line "son fascinantes!"
 	done
 
 CooltrainermAllenSeenText:
-	text "I can tell you're"
-	line "a good trainer by"
-	cont "looking at you."
+	text "Solo con mirarte"
+	line "sé que eres un"
+	cont "gran entrenador."
 
-	para "I'm good at #-"
-	line "mon, and I can see"
-	cont "that you are too."
+	para "Se me dan bien los"
+	line "#mon, y veo que"
+	cont "a ti también."
 	done
 
 CooltrainermAllenBeatenText:
-	text "Tch! It's a total"
-	line "loss on my part."
+	text "¡Tch! He perdido"
+	line "por completo."
 	done
 
 CooltrainerfCybilSeenText:
-	text "You look strong."
+	text "Se te ve fuerte."
 
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	para "Buenos rivales se"
+	line "buscan entre sí"
+	cont "por instinto."
 	done
 
 CooltrainerfCybilBeatenText:
-	text "Nope! This won't"
-	line "do at all."
+	text "¡Vaya! Esto no ha"
+	line "servido de nada."
 	done
 
 Route44Sign1Text:
-	text "Route 44"
-	line "Ice Path Ahead"
+	text "Ruta 44"
+	line "Ruta Helada"
+	cont "Más adelante"
 	done
 
 Route44Sign2Text:
-	text "Route 44"
+	text "Ruta 44"
 
-	para "Mahogany Town -"
-	line "Blackthorn City"
+	para "Pueblo Caoba -"
+	line "Ciudad Endrino"
 	done

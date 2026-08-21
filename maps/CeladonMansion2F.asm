@@ -22,31 +22,28 @@ CeladonMansion2FSign:
 	jumptext CeladonMansion2FSignText
 
 CeladonMansion2FComputerText:
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> encendió"
+	line "el PC."
 
 	para "…"
 
-	para "Someone was in the"
-	line "middle of compos-"
-	cont "ing an e-mail."
+	para "Alguien estaba"
+	line "escribiendo un"
+	cont "e-mail."
 
-	para "…I hope you'll"
-	line "come visit Kanto."
+	para "…Espero que"
+	line "vengas a Kanto."
 
-	para "I think you'll be"
-	line "surprised at how"
+	para "Te sorprenderá lo"
+	line "mucho que han"
+	cont "cambiado las cosas"
+	cont "por aquí."
 
-	para "much things have"
-	line "changed here."
+	para "También verás"
+	line "muchos #mon que"
+	cont "no son de Johto."
 
-	para "You'll also see"
-	line "many #mon that"
-
-	para "aren't native to"
-	line "Johto."
-
-	para "To the Producer"
+	para "Para el Productor"
 
 	para "…"
 	done

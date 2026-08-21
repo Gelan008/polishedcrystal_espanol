@@ -1,133 +1,120 @@
 RalphNeglectingKidsText:
-	text "I've been spending"
-	line "more time with my"
-
-	para ""
+	text "Paso más tiempo"
+	line "con mi "
 	text_ram wStringBuffer4
-	text " than I"
-	line "have with my kids."
+	text ""
+	cont "que con mis hijos."
 
-	para "That's a bit sad,"
-	line "actually."
+	para "La verdad es que"
+	line "es un poco triste."
 	done
 
 RalphDefeatedMonText:
-	text "I just beat a wild"
+	text "¡Derroté a un"
 	line ""
 	text_ram wStringBuffer4
-	text "."
+	text ""
+	cont "salvaje!"
 
-	para "I told my kid, but"
-	line "he scoffed that he"
+	para "Se lo conté a mi"
+	line "hijo y se burló"
+	cont "diciendo que él"
+	cont "también podría."
 
-	para "could do the same"
-	line "thing easily."
-
-	para "Boy, has he gotten"
-	line "cocky…"
+	para "¡Vaya humos se"
+	line "gasta el chaval!"
 	done
 
 RalphLostAMonText:
-	text "Yesterday a wild"
-	line ""
+	text "Ayer se me escapó"
+	line "un "
 	text_ram wStringBuffer4
-	text " slipped"
+	text ""
+	cont "salvaje ante mi"
+	cont "hijo."
 
-	para "away from me, in"
-	line "front of my kid."
+	para "Me dio pena, pero"
+	line "él me dio de sus"
+	cont "# Balls."
 
-	para "I was feeling down"
-	line "about it until he"
-
-	para "shared his #"
-	line "Balls with me."
-
-	para "Hahah, that sure"
-	line "made my day!"
+	para "¡Jaja, eso sí me"
+	line "alegró el día!"
 	done
 
 RalphBattleRematchText:
-	text "What do you say to"
-	line "a battle with me?"
+	text "¿Qué me dices a un"
+	line "combate conmigo?"
 
-	para "Good, you're going"
-	line "to do it!"
+	para "¡Bien, entonces lo"
+	line "harás!"
 
-	para "For a kid, you're"
-	line "quite agreeable."
+	para "Para ser un crio,"
+	line "eres muy majo."
 
-	para ""
-	text_ram wStringBuffer5
-	text " is"
-	line "the spot!"
-	done
-
-RalphHangUpText:
-	text "You call your mom"
-	line "sometimes too!"
-	done
-
-RalphItemText:
-	text "Listen, I… Yowch!"
-
-	para "Uh, sorry! See,"
-	line ""
-	text_ram wStringBuffer4
-	text " are"
-
-	para "biting like there"
-	line "is no tomorrow"
-
-	para "over here on"
+	para "¡El lugar es"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
+	done
 
-	para "Aiyee! Ouch!"
-	line "One jabbed me!"
+RalphHangUpText:
+	text "¡Llama a tu mamá"
+	line "de vez en cuando!"
+	done
 
-	para "Heh, they're some"
-	line "kind of feisty!"
+RalphItemText:
+	text "Oye, yo… ¡Ay!"
 
-	para "<PLAYER>, you have"
-	line "to see this rare"
+	para "¡Ah, perdona!"
+	line "¡Es que los"
+	cont ""
+	text_ram wStringBuffer4
+	text " pican"
+	cont "sin parar en"
+	cont ""
+	text_ram wStringBuffer5
+	text "!"
 
-	para "sight! Get ready"
-	line "to fish!"
+	para "¡Aay! ¡Ay!"
+	line "¡Uno me pinchó!"
+
+	para "¡Je, estos bichos"
+	line "tienen carácter!"
+
+	para "¡<PLAYER>, tienes"
+	line "que verlo! ¡Saca"
+	cont "la Caña y ven ya!"
 	done
 
 RalphNoItemText:
-	text "Yeah, I know."
+	text "Sí, lo sé."
 
-	para "You're looking for"
-	line "rare #mon."
+	para "Estás buscando"
+	line "#mon raros."
 
-	para "Recently, all I've"
-	line "been catching are"
-	cont "Magikarp, though…"
+	para "Últimamente, todo"
+	line "lo que atrapo son"
+	cont "Magikarp…"
 	done
 
 RalphReminderText:
-	text "So where are you?"
-	line "I'm waiting for"
-
-	para "you to show up on"
-	line ""
+	text "¿Dónde estás?"
+	line "Te espero en"
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "You shouldn't make"
-	line "your elders wait!"
+	para "¡No hagas esperar"
+	line "a los mayores!"
 	done
 
 RalphHurryText:
-	text "Hey, what's the"
-	line "matter with you?"
+	text "Eh, ¿qué te pasa?"
 
-	para "Aren't you coming"
-	line "over to fish for"
-	cont "Qwilfish?"
+	para "¿No vas a venir a"
+	line "pescar Qwilfish?"
 
-	para "I'm on Route 32,"
-	line "so hurry up!"
+	para "¡Estoy en la"
+	line "Ruta 32, así"
+	cont "que date prisa!"
 	done

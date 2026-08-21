@@ -178,9 +178,9 @@ MahoganyMart1FLanceApproachHiddenStairsMovement:
 	step_end
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "¡Aaarg! ¡Hallaste"
+	line "la escalera"
+	cont "secreta…"
 	done
 
 MahoganyMart1FBlackBeltText:
@@ -198,64 +198,59 @@ MahoganyMart1FBlackBeltText:
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
 
-	para "That guy's dragon"
-	line "#mon are tough…"
+	para "Los #mon dragón"
+	line "ese tipo son muy"
+	cont "duros…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
 	text "Lance: Dragonite,"
-	line "Hyper Beam."
+	line "Hiperrayo."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
+	text "¿A qué esperabas,"
 	line "<PLAYER>?"
 
-	para "Just as I thought,"
-	line "that strange radio"
-
-	para "signal is coming"
-	line "from here."
+	para "Tal como pensé,"
+	line "esa extraña señal"
+	cont "de radio proviene"
+	cont "de aquí."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "Las escaleras"
+	line "están justo aquí."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "Lance: <PLAYER>, we"
-	line "should split up to"
+	text "Lance: <PLAYER>,"
+	line "nos separaremos"
+	cont "para investigar."
 
-	para "check this place."
-	line "I'll go first."
+	para "Yo iré primero."
 	done
 
 MahoganyMart1FVeteranFText:
-	text "Our basement used"
-	line "to be a ninja"
-	cont "hideout."
+	text "Nuestro sótano fue"
+	line "un refugio ninja."
 
-	para "Some of their arts"
-	line "have survived to"
-	cont "this very day."
+	para "Sus técnicas han"
+	line "durado hasta hoy."
 
-	para "One such art would"
-	line "greatly increase"
-	cont "their footspeed."
+	para "Una de ellas sube"
+	line "mucho la rapidez."
 	done
 
 Text_MahoganyMart1FTutorAgility:
-	text "If you'd like, I"
-	line "can teach your"
-
-	para "#mon the move"
-	line "Agility."
+	text "Puedo enseñar a"
+	line "tu #mon el"
+	cont "ataque Agilidad."
 	done
 
 Text_MahoganyMart1FTutorQuestion:
-	text "I just need a"
-	line "Silver Leaf first."
+	text "Primero necesito"
+	line "una Hoja Plata."
 	done
 
 PokemonJournalWillScript:

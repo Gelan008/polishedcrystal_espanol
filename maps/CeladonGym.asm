@@ -113,51 +113,48 @@ CeladonGymStatue:
 	jumpstd gymstatue2
 
 ErikaBeforeBattleText:
-	text "Erika: Hello…"
-	line "Lovely weather,"
+	text "Erika: Hola… Hace"
+	line "un tiempo tan"
+	cont "precioso…"
 
-	para "isn't it?"
-	line "It's so pleasant…"
+	para "…Me temo que"
+	line "podría dormirme…"
 
-	para "…I'm afraid I may"
-	line "doze off…"
+	para "Me llamo Erika."
+	line "Soy la Líder del"
+	cont "Gimnasio Azulona."
 
-	para "My name is Erika."
-	line "I am the Leader of"
-	cont "Celadon Gym."
+	para "…¿Ah? ¿Vienes de"
+	line "Johto? Qué bien…"
 
-	para "…Oh? All the way"
-	line "from Johto, you"
-	cont "say? How nice…"
+	para "Oh. Lo siento, no"
+	line "me di cuenta de"
+	cont "que querías"
+	cont "desafiarme."
 
-	para "Oh. I'm sorry, I"
-	line "didn't realize"
-
-	para "that you wished to"
-	line "challenge me."
-
-	para "Very well, but I"
-	line "shall not lose."
+	para "Muy bien, pero no"
+	line "pienso perder."
 	done
 
 ErikaBeatenText:
-	text "Erika: Oh!"
-	line "I concede defeat…"
+	text "Erika: ¡Oh!"
+	line "Admito mi derrota…"
 
-	para "You are remarkably"
-	line "strong…"
+	para "Eres realmente"
+	line "fuerte…"
 
-	para "I shall give you"
-	line "the Rainbow Badge…"
+	para "Te daré la Medalla"
+	line "Arcoíris…"
 	done
 
 ErikaExplainTMText:
-	text "Erika: That was a"
-	line "delightful match."
+	text "Erika: Ha sido un"
+	line "combate"
+	cont "encantador."
 
-	para "I felt inspired."
-	line "Please, I wish you"
-	cont "to have this TM."
+	para "Me siento muy"
+	line "inspirada. Toma"
+	cont "esta MT."
 	done
 
 ErikaOutroText:
@@ -175,74 +172,73 @@ ErikaOutroText:
 	done
 
 ErikaAfterBattleText:
-	text "Erika: Losing"
-	line "leaves a bitter"
-	cont "aftertaste…"
+	text "Erika: Perder deja"
+	line "un sabor amargo…"
 
-	para "But knowing that"
-	line "there are strong"
-
-	para "trainers spurs me"
-	line "to do better…"
+	para "Pero saber que hay"
+	line "entrenadores tan"
+	cont "fuertes me anima"
+	cont "a mejorar…"
 	done
 
 LassMichelleSeenText:
-	text "Do you think a"
-	line "girls-only Gym"
-	cont "is rare?"
+	text "¿Crees que un"
+	line "Gimnasio solo de"
+	cont "chicas es raro?"
 	done
 
 LassMichelleBeatenText:
-	text "Oh, bleah!"
+	text "¡Oh, puf!"
 	done
 
 PicnickerTanyaSeenText:
-	text "Oh, a battle?"
-	line "That's kind of"
-	cont "scary, but OK!"
+	text "¿Oh, un combate?"
+	line "Da un poco de"
+	cont "miedo, ¡pero vale!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Oh, that's it?"
+	text "¿Oh, eso es todo?"
 	done
 
 BeautyJuliaSeenText:
-	text "Were you looking"
-	line "at these flowers"
-	cont "or at me?"
+	text "¿Mirabas a estas"
+	line "flores o a mí?"
 	done
 
 BeautyJuliaBeatenText:
-	text "How annoying!"
+	text "¡Qué molesto!"
 	done
 
 Aroma_ladyDahliaSeenText:
-	text "There is an in-"
-	line "triguing scent"
-	cont "around you…"
+	text "Hay un olor"
+	line "intrigante a tu"
+	cont "alrededor…"
 	done
 
 Aroma_ladyDahliaBeatenText:
-	text "The foul scent"
-	line "of defeat…"
+	text "El fétido olor de"
+	line "la derrota…"
 	done
 
 TwinsJoandzoe1SeenText:
-	text "We'll show you"
-	line "#mon moves that"
-	cont "Erika taught us!"
+	text "¡Te enseñaremos"
+	line "movimientos"
+	cont "#mon que Erika"
+	cont "nos enseñó."
 	done
 
 TwinsJoandzoe1BeatenText:
-	text "Oh… We lost…"
+	text "Oh… Perdimos…"
 	done
 
 TwinsJoandzoe2SeenText:
-	text "We're going to"
-	line "protect Erika!"
+	text "¡Vamos a proteger"
+	line "a Erika!"
 	done
 
 TwinsJoandzoe2BeatenText:
-	text "We couldn't win…"
+	text "No pudimos"
+	line "ganar…"
 	done
 

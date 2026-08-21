@@ -82,32 +82,31 @@ SaffronHitmontopKidHouseTeacherScript:
 	jumpthisopenedtext
 
 .Text3:
-	text "My son finally got"
-	line "to meet his favor-"
-	cont "ite #mon."
+	text "Mi hijo por fin ha"
+	line "podido conocer a"
+	cont "su #mon"
+	cont "favorito."
 	done
 
 .Text1:
-	text "My son likes to"
-	line "pretend he's a"
-	cont "#mon."
+	text "A mi hijo le gusta"
+	line "hacerse pasar por"
+	cont "un #mon."
 
-	para "It gets a little"
-	line "embarrassing some-"
-	cont "times."
+	para "A veces resulta un"
+	line "poco vergonzoso."
 
-	para "Maybe if he saw a"
-	line "real Hitmontop he"
-	cont "would calm down…"
+	para "Quizá si viera a"
+	line "un Hitmontop real,"
+	cont "se calmaría…"
 	done
 
 .Text2:
-	text "Oh my! You made my"
-	line "son so happy!"
+	text "¡Madre mía! ¡Has"
+	line "hecho muy feliz a"
+	cont "mi hijo!"
 
-	para "It's not much of a"
-	line "thank-you, but I'd"
-
-	para "like you to have"
-	line "this."
+	para "No es gran cosa,"
+	line "pero me gustaría"
+	cont "que te lo quedes."
 	done

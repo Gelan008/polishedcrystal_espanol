@@ -1,77 +1,69 @@
 BethAnswerPhoneText:
-	text "Hello, this is"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
-	para "Oh, <PLAYER>."
-	line "Good morning."
-	para ""
+
+	para "¡Oh, <PLAYER>!"
+	line "Buenos días."
 	done
 
 BethAnswerPhoneDayText:
-	text "Hello, this is"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh. Hi, <PLAYER>."
+	para "¡Hola, <PLAYER>!"
 	done
 
 BethAnswerPhoneNiteText:
-	text "Hello, this is"
-	line ""
+	text "Hola, soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh, <PLAYER>."
-	line "Good evening."
+	para "¡Oh, <PLAYER>!"
+	line "Buenas noches."
 	done
 
 BethGreetText:
-	text "Good morning,"
+	text "¡Buenos días,"
 	line "<PLAYER>!"
 
-	para "This is "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Were you sleeping?"
+	line "¿Estabas"
+	cont "durmiendo?"
 	done
 
 BethGreetDayText:
-	text "<PLAYER>, hi!"
-	line "This is "
+	text "¡Hola, <PLAYER>!"
+	line "Soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Do you have some"
-	line "time?"
+	para "¿Tienes un"
+	line "momento?"
 	done
 
 BethGreetNiteText:
-	text "Hi, <PLAYER>."
-	line "Good evening."
+	text "Hola, <PLAYER>."
+	line "Buenas noches."
 
-	para "This is "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "I hope you were"
-	line "awake."
+	para "Espero que no"
+	line "estés durmiendo."
 	done
 
 BethGenericText:
-	text "Are you the kind"
-	line "of person who goes"
+	text "¿Vas mucho por los"
+	line "Centros #mon?"
 
-	para "to #mon Centers"
-	line "often?"
-
-	para "I go every day."
-	line "Watching out for"
-
-	para "the health of your"
-	line "#mon is a basic"
-
-	para "part of being a"
-	line "#mon trainer."
+	para "Yo voy cada día."
+	line "Cuidar la salud de"
+	cont "tus #mon es"
+	cont "fundamental para"
+	cont "un entrenador."
 	done

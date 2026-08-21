@@ -97,7 +97,7 @@ SummaryScreen_GreenPage:
 	RGB 00, 00, 00
 
 .NoHeldItemString:
-	db "No held item@"
+	db "Sin objeto equip.@"
 
 .PrintMoves
 	; Clear move names

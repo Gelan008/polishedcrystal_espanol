@@ -53,13 +53,13 @@ JanineImpersonatorScript:
 	end
 
 .Text1:
-	text "I'm Janine! Hocus-"
-	line "pocus… Poof!"
+	text "¡Soy Sachiko!"
+	line "¡Abracadabra… Puf!"
 	done
 
 .Text2:
-	text "See? I look just"
-	line "like her now!"
+	text "¿Ves? ¡Ahora soy"
+	line "igualita que ella!"
 	done
 
 .SpinMovement:
@@ -73,19 +73,18 @@ endr
 	step_end
 
 FuchsiaPokeCenter1FCooltrainerMText:
-	text "Hey! You have a"
-	line "brand new kind of"
-	cont "#dex."
+	text "¡Eh! Tienes una"
+	line "#dex que parece"
+	cont "muy nueva."
 
-	para "Did Prof.Oak give"
-	line "that to you?"
+	para "¿Te la dio el"
+	line "Prof. Oak?"
 	done
 
 FuchsiaPokeCenter1FCooltrainerFText:
-	text "I got quite a"
-	line "shock at the Gym."
+	text "¡Vaya sorpresa en"
+	line "el Gimnasio!"
 
-	para "There were all"
-	line "these girls who"
-	cont "looked identical."
+	para "Había muchas"
+	line "chicas idénticas."
 	done

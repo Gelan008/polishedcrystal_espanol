@@ -60,138 +60,137 @@ MrFujiScript:
 	endtext
 
 MrFujiText:
-	text "Mr.Fuji: Welcome."
+	text "Sr. Fuji: Te doy"
+	line "la bienvenida."
 
-	para "Hmm… You appear to"
-	line "be raising your"
+	para "Mmm… Se nota que"
+	line "crias a tus"
+	cont "#mon con mucho"
+	cont "amor y dedicación."
 
-	para "#mon in a kind"
-	line "and loving manner."
+	para "Los amantes de los"
+	line "#mon vienen a"
+	cont "honrar la memoria"
+	cont "de los difuntos."
 
-	para "#mon lovers"
-	line "come here to pay"
+	para "Por favor, reza"
+	line "por las almas de"
+	cont "los #mon que ya"
+	cont "no están."
 
-	para "their respects to"
-	line "departed #mon."
-
-	para "Please offer con-"
-	line "dolences for the"
-
-	para "souls of the de-"
-	line "parted #mon."
-
-	para "I'm sure that will"
-	line "make them happy."
+	para "Seguro que eso les"
+	line "hará felices."
 	done
 
 MrFujiGiveSilphScopeText:
-	text "Here, I have"
-	line "a gift for you."
+	text "Toma, tengo un"
+	line "regalo para ti."
 
-	para "Please, take it."
+	para "Por favor,"
+	line "acéptalo."
 	done
 
 MrFujiUseThisText:
-	text "You may use that"
-	line "to help ease the"
-
-	para "souls of any"
-	line "restless #mon."
+	text "Puedes usarlo para"
+	line "calmar las almas"
+	cont "de los #mon que"
+	cont "no descansan en"
+	cont "paz."
 	done
 
 SoulHouseTeacherText:
-	text "There are other"
-	line "graves of #mon"
-	cont "here, I think."
+	text "Creo que aquí hay"
+	line "más tumbas de"
+	cont "#mon."
 
-	para "There are many"
-	line "chambers that only"
-	cont "Mr.Fuji may enter."
+	para "Hay muchas salas a"
+	line "las que solo el"
+	cont "Sr. Fuji puede"
+	cont "entrar."
 	done
 
 SoulHouseLassText:
-	text "I came with my mom"
-	line "to visit #mon"
-	cont "graves…"
+	text "He venido con mi"
+	line "madre a visitar"
+	cont "las tumbas de los"
+	cont "#mon…"
 	done
 
 SoulHouseGrannyText:
-	text "The #mon that"
-	line "lived with me…"
+	text "Los #mon que"
+	line "vivían conmigo…"
 
-	para "I loved them like"
-	line "my grandchildren…"
+	para "Los quería como a"
+	line "mis propios"
+	cont "nietos…"
 	done
 
 AgathaSeenText:
-	text "Agatha: Hello,"
-	line "child."
+	text "Agatha: Hola,"
+	line "criatura."
 
-	para "My name is"
-	line "Agatha."
+	para "Me llamo Agatha."
 
-	para "I fought for years"
-	line "as a member of"
-	cont "the Elite Four."
-
-	para "…………"
-
-	para "Have you come to"
-	line "mourn a #mon?"
-
-	para "It might not be"
-	line "here any longer."
-
-	para "Mr.Fuji kept many"
-	line "of the graves"
-	cont "elsewhere after"
-
-	para "the radio company"
-	line "took over."
+	para "Luché durante años"
+	line "como miembro del"
+	cont "Alto Mando."
 
 	para "…………"
 
-	para "He could have"
-	line "fought to preserve"
-	cont "the tower! But he"
+	para "¿Has venido a"
+	line "llorar a un"
+	cont "#mon?"
 
-	para "wouldn't get"
-	line "involved. Too"
+	para "Puede que ya no"
+	line "esté aquí."
 
-	para "scared of abusing"
-	line "his influence."
+	para "El Sr. Fuji movió"
+	line "muchas tumbas a"
+	cont "otra parte cuando"
+	cont "la radio tomó el"
+	cont "control."
 
-	para "That old fool…"
+	para "…………"
 
-	para "Power is meant to"
-	line "be used!"
+	para "¡Podría haber"
+	line "luchado por salvar"
+	cont "la torre!"
 
-	para "You clearly"
-	line "understand me."
+	para "Pero no quiso"
+	line "actuar por temor a"
+	cont "abusar de su gran"
+	cont "influencia."
 
-	para "I'll show you"
-	line "what a powerful"
-	cont "trainer can do!"
+	para "Ese viejo necio…"
+
+	para "¡El poder está"
+	line "para usarse!"
+
+	para "Está claro que tú"
+	line "me comprendes."
+
+	para "¡Te mostraré lo"
+	line "que puede hacer un"
+	cont "entrenador fuerte"
+	cont "de verdad!"
 	done
 
 AgathaBeatenText:
-	text "Oh, my!"
+	text "¡Vaya, por Dios!"
 	done
 
 AgathaRewardText:
-	text "You're quite"
-	line "something, child."
+	text "Vales mucho, mi"
+	line "buena criatura."
 
-	para "A strong trainer"
-	line "with a deep"
+	para "Eres un entrenador"
+	line "fuerte con un gran"
+	cont "vínculo con tus"
+	cont "#mon."
 
-	para "connection to"
-	line "your #mon."
-
-	para "Here, take this"
-	line "TM!"
+	para "¡Toma, quédate con"
+	line "esta MT!"
 	done
-
 AgathaAfterText:
 	text "I expect great"
 	line "things from you,"

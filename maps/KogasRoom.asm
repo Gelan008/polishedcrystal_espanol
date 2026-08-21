@@ -78,74 +78,67 @@ KogaScript:
 	end
 
 .SeenText:
-	text "Fwahahahaha!"
+	text "¡Fwahahahaha!"
 
-	para "I am Koga of the"
-	line "Elite Four."
+	para "Soy Koga, del"
+	line "Alto Mando."
 
-	para "I live in shadows,"
-	line "a ninja!"
+	para "¡Como buen ninja,"
+	line "vivo en las"
+	cont "sombras!"
 
-	para "My intricate style"
-	line "will confound and"
-	cont "destroy you!"
+	para "¡Mi estilo te va"
+	line "a confundir y"
+	cont "destruir!"
 
-	para "Confusion, sleep,"
-	line "poison…"
+	para "Confusión, sueño,"
+	line "veneno…"
 
-	para "Prepare to be the"
-	line "victim of my sin-"
-	cont "ister technique!"
+	para "¡Caerás ante mis"
+	line "técnicas ninja!"
 
-	para "Fwahahahaha!"
-
-	para "#mon is not"
-	line "merely about brute"
-
-	para "force--you shall"
-	line "see soon enough!"
+	para "Los #mon no son"
+	line "solo fuerza bruta"
+	cont "¡Ya lo verás!"
 	done
 
 .BeatenText:
-	text "Ah!"
-	line "You have proven"
-	cont "your worth!"
+	text "¡Ah! ¡Has"
+	line "demostrado tu"
+	cont "valía!"
 	done
 
 .AfterText:
-	text "I subjected you to"
-	line "everything I could"
-	cont "muster."
+	text "Lo he intentado"
+	line "todo contigo."
 
-	para "But my efforts"
-	line "failed. I must"
-	cont "hone my skills."
+	para "He fallado. Debo"
+	line "perfeccionar mis"
+	cont "técnicas."
 
-	para "Go on to the next"
-	line "room, and put your"
-	cont "abilities to test!"
+	para "¡Pasa a la otra"
+	line "sala y pon a"
+	cont "prueba tu poder!"
 	done
 
 .SeenRematchText:
-	text "Your arrival is"
-	line "indeed impressive,"
-	cont "as is your look of"
-	cont "resolve."
+	text "Tu llegada y tu"
+	line "resolución son"
+	cont "impresionantes."
 
-	para "Fwahahahaha!"
+	para "¡Fwahahahaha!"
 
-	para "My skill will be"
-	line "hard to overcome!"
+	para "¡No superarás mis"
+	line "habilidades!"
 
-	para "Let me show you"
-	line "what I mean!"
+	para "¡Déjame que te lo"
+	line "demuestre!"
 	done
 
 .AfterRematchText:
-	text "Never have I met"
-	line "the likes of you."
+	text "Nunca he conocido"
+	line "a nadie como tú."
 
-	para "I must devote"
-	line "myself to my"
-	cont "training."
+	para "Debo dedicarme a"
+	line "mi entrenamiento."
 	done

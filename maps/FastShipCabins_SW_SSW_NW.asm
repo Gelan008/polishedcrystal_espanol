@@ -108,62 +108,63 @@ FastShipBed:
 	end
 
 FirebreatherLyleSeenText:
-	text "I'm going to Kanto"
-	line "to put on fire-"
-	cont "breathing shows!"
+	text "¡Voy a Kanto a"
+	line "hacer mis shows"
+	cont "escupefuego!"
 	done
 
 FirebreatherLyleBeatenText:
-	text "Fizzle… The"
-	line "flame's tiny…"
+	text "Puf… La llama"
+	line "es enana…"
 	done
 
 Bug_catcherKenSeenText:
-	text "I'm visiting my"
-	line "grandma to catch"
-	cont "me some bugs!"
+	text "¡Voy a visitar a"
+	line "mi abuela para"
+	cont "atrapar bichos!"
 	done
 
 Bug_catcherKenBeatenText:
-	text "Ooh, wow."
-	line "You're tough!"
+	text "Oh, guau."
+	line "¡Eres duro!"
 	done
 
 RichBoyWinstonSeenText:
-	text "There's no way you"
-	line "could afford a"
-	cont "ticket."
+	text "No creo que hayas"
+	line "pagado tu ticket."
 
-	para "It looks like we've"
-	line "got a stowaway!"
+	para "¡Aquí tenemos a un"
+	line "polizón!"
 	done
 
 RichBoyWinstonBeatenText:
-	text "Wow! Who'd you buy"
-	line "your #mon from?"
+	text "¡Guau! ¿A quién le"
+	line "compraste tus"
+	cont "#mon tan"
+	cont "buenos?"
 	done
 
 BeautyCassieSeenText:
-	text "I'm trying to"
-	line "forget my woes."
-	cont "Let's battle!"
+	text "Intento olvidar"
+	line "mis penas."
+	cont "¡A luchar!"
 	done
 
 BeautyCassieBeatenText:
-	text "My heart weeps…"
+	text "Mi corazón llora…"
 	done
 
 GuitaristmClydeSeenText:
-	text "I'm going to audi-"
-	line "tion my songs at"
-
-	para "Goldenrod's Radio"
-	line "Station."
+	text "Voy a hacer una"
+	line "audición de mis"
+	cont "canciones en la"
+	cont "Torre Radio de"
+	cont "Ciudad Trigal."
 	done
 
 GuitaristmClydeBeatenText:
-	text "Yowza!"
-	line "Total distortion!"
+	text "¡Guau!"
+	line "¡Distorsión total!"
 	done
 
 GuitaristClydeAfterBattleText:
@@ -185,23 +186,23 @@ GuitaristClydeAfterBattleMobileText:
 	done
 
 FastShipBedText1:
-	text "A comfy bed!"
-	line "Time to sleep…"
+	text "¡Una cama cómoda!"
+	line "Hora de dormir…"
 	done
 
 FastShipBedText2:
-	text "Ah, refreshed and"
-	line "restored!"
+	text "¡Ah! ¡Renovado y"
+	line "restaurado!"
 	done
 
 FastShipArrivedOlivineText:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Olivine City."
+	text "El S.S. Aqua ha"
+	line "llegado a C."
+	cont "Olivo."
 	done
 
 FastShipArrivedVermilionText:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Vermilion City."
+	text "El S.S. Aqua ha"
+	line "llegado a Ciudad"
+	cont "Carmín."
 	done

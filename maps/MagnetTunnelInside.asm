@@ -261,110 +261,94 @@ MagnetTunnelAlarmSounds:
 	end
 
 MagnetTunnelInsideMachineText1:
-	text "The machine is"
-	line "powered off."
+	text "La máquina está"
+	line "apagada."
 
-	para "Turn it on?"
+	para "¿Encenderla?"
 	done
 
 MagnetTunnelInsideMachineText2:
-	text "Ping! The machine"
-	line "powered on."
+	text "¡Bip! La máquina"
+	line "se ha encendido."
 	done
 
 MagnetTunnelInsideMachineText3:
-	text "The machine is"
-	line "running smoothly."
+	text "La máquina va"
+	line "a la perfección."
 	done
 
 MagnetTunnelInsideMachineText4:
-	text "Huh?! Something's"
-	line "wrong!"
+	text "¡¿Eh?! ¡Algo"
+	line "va mal!"
 	done
 
 MagnetTunnelInsideMachineText5:
-	text "This machine isn't"
-	line "running properly!"
+	text "¡Esta máquina no"
+	line "funciona bien!"
 
-	para "Multiple WARNING"
-	line "messages rapidly"
+	para "Hay avisos de"
+	line "ADVERTENCIA en la"
+	cont "pantalla y huele"
+	cont "a quemado."
 
-	para "flash across the"
-	line "small screen and"
-
-	para "a burning smell"
-	line "fills the air."
-
-	para "Hit the emergency"
-	line "shutdown button?"
+	para "¿Pulsar el botón"
+	line "de emergencia?"
 	done
 
 MagnetTunnelInsideMachineText6:
-	text "Ding! The machine"
-	line "powered off."
+	text "¡Ding! La máquina"
+	line "se ha apagado."
 	done
 
 MagnetTunnelInsideMachineText7:
-	text "The machine is"
-	line "surrounded by the"
+	text "La máquina huele a"
+	line "plástico quemado…"
 
-	para "faint stench of"
-	line "melted plastic…"
-
-	para "It appears to be"
-	line "totally fried."
+	para "Parece que está"
+	line "totalmente frita."
 	done
 
 MagnetTunnelInsideLodestoneText:
-	text "The lodestone is"
-	line "smooth and warm."
+	text "La piedra imán es"
+	line "suave y cálida."
 
-	para "It has a faint"
-	line "aura of static."
+	para "Tiene una ligera"
+	line "aura estática."
 	done
 
 MagnetTunnelInsideEngineerText1:
-	text "The lodestone here"
-	line "gives off a strong"
-	cont "magnetic field."
+	text "La piedra imán"
+	line "emite un fuerte"
+	cont "campo magnético."
 
-	para "We had to bring in"
-	line "specialized equip-"
+	para "Usamos maquinaria"
+	line "especial para"
+	cont "acabar el túnel a"
+	cont "tiempo."
 
-	para "ment to complete"
-	line "this tunnel by the"
-	cont "foreman's deadline."
-
-	para "Our team was under"
-	line "heavy pressure to"
-	cont "deliver on time."
+	para "Tuvimos mucha"
+	line "presión para"
+	cont "cumplir el plazo."
 	done
 
 MagnetTunnelInsideEngineerText2:
-	text "Since the day we"
-	line "began construction"
-
-	para "on this tunnel,"
-	line "the number of wild"
-
-	para "Electric-type"
-	line "#mon here has"
-	cont "more than doubled."
+	text "Al construir el"
+	line "túnel, los #mon"
+	cont "de tipo Eléctrico"
+	cont "se duplicaron."
 	done
 
 MagnetTunnelInsideScientistText:
-	text "Every day, more"
-	line "Magnemite arrive"
-	cont "and cause issues."
+	text "Cada día llegan"
+	line "más Magnemite a"
+	cont "causar problemas."
 
-	para "The foreman thinks"
-	line "they must be drawn"
+	para "El capataz cree"
+	line "que los atrae el"
+	cont "poder magnético de"
+	cont "la piedra imán."
 
-	para "to the lodestone's"
-	line "unique magnetic"
-	cont "properties."
-
-	para "I wonder why?"
+	para "¿Por qué será?"
 	done
 
 GenericTrainerEngineerGraden:
@@ -449,11 +433,11 @@ GenericTrainerEngineerNicolas:
 	done
 
 .SeenText:
-	text "Hey! Be careful"
-	line "around the equip-"
-	cont "ment kid!"
+	text "¡Eh! ¡Cuidado"
+	line "con el equipo,"
+	cont "chaval!"
 	done
 
 .BeatenText:
-	text "Shutdown!"
+	text "¡Apagando!"
 	done

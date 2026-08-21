@@ -48,17 +48,20 @@ LyrasHouseRadio:
 	endtext
 
 LyrasHouseLyraText:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lira: ¡Hola,"
+	line "<PLAYER>!"
 
-	para "Hmm… My #mon"
-	line "may be putting"
+	para "Mmm… Puede que mi"
+	line "#mon esté más"
+	cont "gordito…"
 
-	para "on some weight"
-	line "lately…"
+	para "Tendré que ponerlo"
+	cont "a dieta."
+
 	done
 
 LyrasHousePidgeotText:
-	text "Pidgeot: Pijiii!"
+	text "Pidgeot: ¡Pijiii!"
 	done
 
 LyrasRadioText1:
@@ -82,13 +85,13 @@ LyrasRadioText4:
 	done
 
 LyrasHousePCText:
-	text "You shouldn't mess"
-	line "with someone"
-	cont "else's PC!"
+	text "¡No deberías"
+	line "hurgar en el PC"
+	cont "de los demás!"
 	done
 
 LyrasHouseN64Text:
-	text "It's a limited-"
-	line "edition Pikachu"
-	cont "N64!"
+	text "¡Es una N64 de"
+	line "Pikachu de"
+	cont "edición limitada!"
 	done

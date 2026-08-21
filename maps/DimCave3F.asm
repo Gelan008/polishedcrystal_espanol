@@ -113,16 +113,16 @@ GenericTrainerHikerFloyd:
 	done
 
 .SeenText:
-	text "This cave makes me"
-	line "so ANGRY!"
+	text "¡Esta cueva me"
+	line "ENFADA muchísimo!"
 
-	para "I'll battle to let"
-	line "off some steam!"
+	para "¡Lucharé para"
+	line "desahogarme!"
 	done
 
 .BeatenText:
-	text "I got beat down by"
-	line "a kid!"
+	text "¡Me ha derrotado"
+	line "un crío!"
 	done
 
 DimCave3FPokefanmScript:
@@ -138,15 +138,14 @@ DimCave3FPokefanmScript:
 	done
 
 .QuestionText:
-	text "Are you lost?"
+	text "¿Estás perdido?"
 	done
 
 .YesText:
-	text "Me too!"
+	text "¡Yo también!"
 
-	para "The Power Plant"
-	line "messes with my"
-
-	para "compass, and I"
-	line "don't have a map."
+	para "La Central de"
+	line "Energía estropea"
+	cont "mi brújula y no"
+	cont "tengo mapa."
 	done

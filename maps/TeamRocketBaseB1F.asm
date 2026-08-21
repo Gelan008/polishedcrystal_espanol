@@ -684,55 +684,56 @@ SecurityCameraMovement9:
 	step_end
 
 CameraGrunt1SeenText:
-	text "Hey!"
-	line "Intruder alert!"
+	text "¡Alto!"
+	line "¡Hay un intruso!"
 	done
 
 CameraGrunt1BeatenText:
-	text "Dang… I failed…"
+	text "Maldición… He"
+	line "fallado…"
 	done
 
 CameraGrunt2SeenText:
-	text "It's my turn!"
-	line "There's no escape!"
+	text "¡Es mi turno!"
+	line "¡No escaparás!"
 	done
 
 CameraGrunt2BeatenText:
-	text "Surveillance cams"
-	line "are in the #mon"
-	cont "statues."
+	text "Las cámaras están"
+	line "en las estatuas"
+	cont "#mon."
 
-	para "We'll keep appear-"
-	line "ing until you trip"
-	cont "a secret switch."
+	para "Saldremos hasta"
+	line "que apagues el"
+	cont "interruptor."
 	done
 
 RocketScientistJedSeenText:
-	text "This was once a"
-	line "ninja hideout."
+	text "Esto fue una vez"
+	line "una guarida ninja."
 
-	para "There are traps to"
-	line "confound intruders"
-	cont "like you."
+	para "Hay trampas para"
+	line "confundir a los"
+	cont "intrusos como tú."
 	done
 
 RocketScientistJedBeatenText:
-	text "I get it…"
+	text "Ya lo pillo…"
 	done
 
 GruntM16SeenText:
-	text "Heheh. Feeling"
-	line "lucky, punk?"
+	text "Je, je ¿Te sientes"
+	line "con suerte?"
 
-	para "Go ahead, take"
-	line "another step."
+	para "Adelante, da otro"
+	line "paso."
 
-	para "We've got traps"
-	line "set in the floor!"
+	para "¡Hay trampas por"
+	line "todo el suelo!"
 	done
 
 GruntM16BeatenText:
-	text "Kaboom!"
+	text "¡Catapúm!"
 	done
 
 SecurityCameraText:
@@ -744,10 +745,10 @@ SecurityCameraText:
 	done
 
 TeamRocketBaseB1FSecretSwitchText:
-	text "A secret switch!"
-	line "Better press it."
+	text "¡Un interruptor"
+	line "secreto! Mejor"
+	cont "pulsarlo."
 	done
-
 TeamRocketBaseB1FSwitchOffText:
 	text "The switch is"
 	line "turned off."

@@ -85,41 +85,42 @@ MapCeladonMansion3FSignpost3Script:
 	jumptext CeladonMansion3FReferenceMaterialText
 
 GameFreakGameDesignerText:
-	text "Is that right?"
+	text "¿En serio?"
 
-	para "I'm the Game"
-	line "Designer!"
+	para "¡Soy el Diseñador"
+	line "del Juego!"
 
-	para "Filling up your"
-	line "#dex is tough,"
-	cont "but don't give up!"
+	para "Completar la"
+	line "#dex es"
+	cont "difícil, ¡Pero no"
+	cont "te rindas!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Excellent!"
-	line "You completed your"
+	text "¡Guau! ¡Excelente!"
+	line "¡Completaste tu"
 	cont "#dex!"
 
-	para "Congratulations!"
+	para "¡Felicidades!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
-	text "To recognize your"
-	line "achievement…"
-	cont "here you go!"
+	text "Para reconocer tu"
+	line "logro…"
+	cont "¡aquí tienes!"
 
-	para "A crisp new"
-	line "Diploma!"
+	para "¡Un reluciente y"
+	line "nuevo Diploma!"
 	done
 
 GameFreakGameDesignerGiveDiplomaText:
-	text "<PLAYER> received"
-	line "Diploma!"
+	text "¡<PLAYER> recibió"
+	line "el Diploma!"
 	done
 
 GameFreakGameDesignerDiplomaSentText:
-	text "Diploma"
-	line "was sent home."
+	text "El Diploma"
+	line "fue a casa."
 	done
 
 GameFreakGameDesignerAfterDiplomaText:
@@ -132,54 +133,56 @@ GameFreakGameDesignerAfterDiplomaText:
 	done
 
 GameFreakDesignerGaveDiplomaText:
-	text "Congratulations"
-	line "for completing"
-	cont "your #dex!"
+	text "¡Felicidades"
+	line "por completar"
+	cont "tu #dex!"
 
-	para "You should show"
-	line "off that Diploma!"
+	para "¡Deberías presumir"
+	line "de ese Diploma!"
 	done
 
 GameFreakGraphicArtistText:
-	text "I'm the Graphic"
-	line "Artist."
+	text "Soy el Artista"
+	line "Gráfico."
 
-	para "I drew you!"
+	para "¡Yo te dibujé!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
-	text "I'm the Graphic"
-	line "Arist."
+	text "Soy el Artista"
+	line "Gráfico."
 
-	para "Oh, you completed"
-	line "your #dex?"
+	para "Oh, ¿completaste"
+	line "tu #dex?"
 
-	para "Want me to print"
-	line "out your Diploma?"
+	para "¿Quieres que te"
+	line "imprima tu"
+	cont "Diploma?"
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Give me a shout if"
-	line "you want your"
-	cont "Diploma printed."
+	text "Avísame si quieres"
+	line "que imprima tu"
+	cont "Diploma."
 	done
 
 GameFreakProgrammerText:
-	text "Who, me? I'm the"
-	line "Programmer."
+	text "¿Quién, yo? Soy"
+	line "el Programador."
 
-	para "Use the Wonder"
-	line "Trade Hub!"
+	para "¡Usa la Red de"
+	line "Intercambio"
+	cont "Prodigioso!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Isn't Lyra"
-	line "adorable?"
+	text "¿No es adorable"
+	line "Lira?"
 
-	para "Jasmine's pretty"
-	line "too."
+	para "Yasmina también"
+	line "es bonita."
 
-	para "Oh, I love them!"
+	para "Oh, ¡me encantan!"
 	done
 
 CeladonMansion3FDevRoomSignText:
@@ -194,11 +197,13 @@ CeladonMansion3FDrawingText:
 	done
 
 CeladonMansion3FGameProgramText:
-	text "It's the game"
-	line "program. Messing"
+	text "Es el código del"
+	line "juego. ¡Tocarlo"
+	cont "podría causar un"
+	cont "error grave!"
 
-	para "with it could put"
-	line "a bug in the game!"
+	para "¿Quieres tocarlo"
+	line "de todos modos?"
 	done
 
 CeladonMansion3FReferenceMaterialText:

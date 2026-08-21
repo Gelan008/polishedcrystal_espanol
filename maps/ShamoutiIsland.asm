@@ -68,14 +68,14 @@ ShamoutiIslandAlolanExeggutorScript:
 	end
 
 .PokeFluteText:
-	text "The #gear was"
-	line "placed near the"
-	cont "weird tree…"
+	text "Se puso el"
+	line "#gear cerca"
+	cont "del árbol raro…"
 	done
 
 .WokeUpText:
-	text "The #mon"
-	line "woke up!"
+	text "¡El #mon"
+	line "se despertó!"
 	done
 
 ShamoutiIslandGrampsScript:
@@ -99,49 +99,50 @@ ShamoutiIslandYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "A shiny Pikachu"
-	line "would be a real"
-	cont "Pikablu."
+	text "Un Pikachu que sea"
+	line "variocolor sería"
+	cont "un gran Pikablu."
 
-	para "I've never found"
-	line "one, but I'm happy"
-	cont "with my Marill."
+	para "Nunca vi uno, pero"
+	line "soy muy feliz con"
+	cont "mi Marill."
 	done
 
 .Text1:
-	text "Hello again! Let"
-	line "me give you that"
-	cont "souvenir."
+	text "¡Hola de nuevo!"
+	line "Deja que te dé ese"
+	cont "recuerdo."
 	done
 
 ShamoutiIslandPikabluText:
-	text "Pikablu: Rill!"
+	text "Pikablu: ¡Rill!"
 	done
 
 ShamoutiIslandFisherText:
-	text "Today we're dancing"
-	line "for no reason. ♪"
+	text "Hoy bailamos sin"
+	line "motivo alguno. ♪"
 
-	para "Someday we'll"
-	line "disappear for no"
-	cont "reason."
+	para "Algún día nos"
+	line "iremos sin razón"
+	cont "alguna."
 
-	para "…You thought we'd"
-	line "block the road?"
+	para "… ¿Creías que te"
+	line "íbamos a tapar el"
+	cont "camino?"
 
-	para "That would be"
-	line "rude!"
+	para "¡Eso sería de muy"
+	line "mala educación!"
 	done
 
 ShamoutiIslandSignText:
-	text "Shamouti Island"
+	text "Isla Shamouti"
 	done
 
 ShamoutiHotelSignText:
-	text "Shamouti Hotel"
+	text "Hotel Shamouti"
 	done
 
 ShamoutiTouristCenterSignText:
-	text "Shamouti Tourist"
-	line "Center"
+	text "Centro Turístico"
+	line "de Shamouti"
 	done

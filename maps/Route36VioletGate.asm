@@ -47,10 +47,10 @@ Route36VioletGateOfficerText2:
 	done
 
 Route36VioletGateYoungsterText:
-	text "Plants are living"
-	line "things too!"
+	text "¡Las plantas son"
+	line "seres vivos!"
 
-	para "They would want to"
-	line "move around from"
-	cont "time to time!"
+	para "¡Es normal que se"
+	line "muevan de vez en"
+	cont "cuando!"
 	done

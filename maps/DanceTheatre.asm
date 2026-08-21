@@ -135,149 +135,141 @@ MapDanceTheatreSignpost1Script:
 	jumptext DanceTheatreFancyPanelText
 
 Kimono_girlNaokoSeenText:
-	text "You have lovely"
-	line "#mon. May I see"
-	cont "them in battle?"
+	text "Tus #mon son"
+	line "preciosos. ¿Puedo"
+	cont "verlos en combate?"
 	done
 
 Kimono_girlNaokoBeatenText:
-	text "Oh, you are very"
-	line "strong."
+	text "Vaya, eres muy"
+	line "fuerte."
 	done
 
 Kimono_girlSayoSeenText:
-	text "I always dance"
-	line "with my #mon."
+	text "Siempre bailo con"
+	line "mis #mon."
 
-	para "Of course, I also"
-	line "train them."
+	para "Y por supuesto,"
+	line "¡también entrenan!"
 	done
 
 Kimono_girlSayoBeatenText:
-	text "Oh, so close!"
-	line "I almost had you."
+	text "¡Oh, tan cerca!"
+	line "Casi te gano."
 	done
 
 Kimono_girlZukiSeenText:
-	text "Isn't my barrette"
-	line "pretty?"
+	text "¿A que mi broche"
+	line "es bonito?"
 
-	para "Oh. A #mon"
-	line "battle?"
+	para "¿Oh, un combate"
+	line "#mon?"
 	done
 
 Kimono_girlZukiBeatenText:
-	text "I don't have any"
-	line "#mon left…"
+	text "No me quedan"
+	line "#mon…"
 	done
 
 Kimono_girlKuniSeenText:
-	text "Oh, you're a cute"
-	line "trainer. Would you"
-	cont "like to battle?"
+	text "Eres un entrenador"
+	line "muy mono. ¿Quieres"
+	cont "luchar?"
 	done
 
 Kimono_girlKuniBeatenText:
-	text "You're stronger"
-	line "than you look."
+	text "Eres más fuerte"
+	line "de lo que pareces."
 	done
 
 Kimono_girlMikiSeenText:
-	text "Do you like my"
-	line "dancing? I'm good"
-	cont "at #mon too."
+	text "¿Te gusta cómo"
+	line "bailo? También se"
+	cont "me dan bien los"
+	cont "#mon."
 	done
 
 Kimono_girlMikiBeatenText:
-	text "Ooh, you're good"
-	line "at #mon too."
+	text "Vaya, también se"
+	line "te dan bien."
 	done
 
 SurfGuyNeverLeftAScratchText:
-	text "Not only are the"
-	line "Kimono Girls great"
+	text "Las Chicas Kimono"
+	line "bailan muy bien y"
+	cont "tienen talento con"
+	cont "los #mon."
 
-	para "dancers, they're"
-	line "also skilled at"
-	cont "#mon."
-
-	para "I always challenge"
-	line "them, but I've"
-
-	para "never even left a"
-	line "scratch…"
+	para "Siempre las reto,"
+	line "¡pero nunca les he"
+	cont "hecho un rasguño!"
 	done
 
 SurfGuyLikeADanceText:
-	text "The way you bat-"
-	line "tled, it was like"
-	cont "watching a dance."
+	text "Verte combatir es"
+	line "como ver un baile."
 
-	para "It was a rare"
-	line "treat to see!"
+	para "¡Ha sido todo un"
+	line "gran espectáculo!"
 
-	para "I want you to have"
-	line "this. Don't worry"
-	cont "--take it!"
+	para "Toma esto. ¡No te"
+	line "preocupes y úsalo!"
 	done
 
 SurfGuyElegantKimonoGirlsText:
-	text "I wish my #mon"
-	line "were as elegant as"
-	cont "the Kimono Girls."
+	text "Ojalá mi #mon"
+	line "fuera tan elegante"
+	cont "como las Chicas"
+	cont "Kimono."
 	done
 
 RhydonText:
-	text "Rhydon: Gugooh"
+	text "Rhydon: ¡Gugooh"
 	line "gugogooh!"
 	done
 
 DanceTheatreCooltrainerMText:
-	text "That man's always"
-	line "with his Rhydon."
+	text "Ese hombre va"
+	line "siempre con su"
+	cont "Rhydon."
 
-	para "Says he wants a"
-	line "#mon that can"
-	cont "Surf and dance."
+	para "Dice que busca un"
+	line "#mon que sepa"
+	cont "hacer Surf y"
+	cont "bailar."
 
-	para "Is he trying to"
-	line "make a synchro-"
-	cont "nized swimming"
-	cont "#mon?"
+	para "¿Querrá hacer un"
+	line "baile sincronizado"
+	cont "en el agua?"
 	done
 
 DanceTheatreGrannyText:
-	text "The Kimono Girls"
-	line "are so beautiful…"
+	text "Las Chicas Kimono"
+	line "son muy hermosas."
 
-	para "But they have to"
-	line "go through rigor-"
-	cont "ous training."
+	para "Pero pasan por un"
+	line "entrenamiento muy"
+	cont "duro."
 
-	para "And they have to"
-	line "learn to follow"
+	para "Y deben aprender"
+	line "las costumbres al"
+	cont "salir en público."
 
-	para "customs before ap-"
-	line "pearing in public."
-
-	para "But if you love"
-	line "something, any-"
-	cont "thing is possible."
+	para "Pero si amas algo,"
+	line "todo es posible."
 	done
 
 DanceTheatreLadyText:
-	text "Eevee can evolve"
-	line "into Leafeon, Gla-"
-	cont "ceon, or Sylveon,"
+	text "Eevee evoluciona"
+	line "en Leafeon,"
+	cont "Glaceon o Sylveon,"
 
-	para "but I don't see"
-	line "any of them here."
+	para "pero no veo a"
+	line "ninguno aquí."
 
-	para "I wonder if the"
-	line "Kimono Girls who"
-
-	para "use them are"
-	line "somewhere else?"
+	para "¿Estarán en otra"
+	line "parte las Chicas"
+	cont "que los usan?"
 	done
 
 DanceTheatreFancyPanelText:

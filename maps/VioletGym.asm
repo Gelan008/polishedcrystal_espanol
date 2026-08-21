@@ -103,51 +103,50 @@ VioletGymStatue:
 	jumpstd gymstatue3
 
 FalknerIntroText:
-	text "I'm Falkner, the"
-	line "Violet #mon Gym"
-	cont "Leader!"
+	text "¡Soy Pegaso, Líder"
+	line "del Gimnasio"
+	cont "#mon de Malva!"
 
-	para "People say you can"
-	line "clip Flying-type"
+	para "La gente dice que"
+	line "basta una descarga"
 
-	para "#mon's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "eléctrica para"
+	line "cortarle las alas"
+	cont "al tipo Volador…"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#mon!"
+	para "¡No toleraré tales"
+	line "insultos a los"
+	cont "#mon pájaro!"
 
-	para "I'll show you the"
-	line "real power of the"
-
-	para "magnificent bird"
-	line "#mon!"
+	para "¡Te mostraré el"
+	line "gran poder de los"
+	cont "#mon pájaro!"
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#mon…"
+	text "…¡Rayos! Los"
+	line "#mon pájaro"
+	cont "de mi padre…"
 
-	para "All right."
-	line "Take this."
+	para "De acuerdo."
+	line "Toma esto."
 
-	para "It's the official"
-	line "#mon League"
-	cont "Zephyr Badge."
+	para "Es la Medalla"
+	line "Céfiro oficial de"
+	cont "la Liga #mon."
 	done
 
 FalknerZephyrBadgeText:
-	text "The Zephyr Badge"
-	line "enables you to"
+	text "La Medalla Céfiro"
+	line "hace que los"
+	cont "#mon"
 
-	para "command #mon,"
-	line "even traded ones,"
-	cont "up to <LV>20."
+	para "intercambiados de"
+	line "hasta nivel 20"
+	cont "te obedezcan."
 
-	para "Here--take this"
-	line "too."
+	para "Oye, ¡toma esto"
+	line "también!"
 	done
 
 FalknerTMMudSlapText:
@@ -170,47 +169,45 @@ FalknerTMMudSlapText:
 	done
 
 FalknerFightDoneText:
-	text "There are #mon"
-	line "Gyms in cities and"
-	cont "towns ahead."
+	text "Hay Gimnasios"
+	line "#mon en otras"
+	cont "ciudades y pueblos"
 
-	para "You should test"
-	line "your skills at"
-	cont "these Gyms."
+	para "Deberías poner a"
+	line "prueba tu talento"
+	cont "en ellos."
 
-	para "I'm going to train"
-	line "harder to become"
-
-	para "the greatest bird"
-	line "master!"
+	para "¡Entrenaré mucho"
+	line "más para ser el"
+	cont "mejor maestro de"
+	cont "#mon pájaro!"
 	done
 
 Bird_keeperRodSeenText:
-	text "The keyword is"
-	line "guts!"
+	text "¡La clave son las"
+	line "agallas!"
 
-	para "Those here are"
-	line "training night and"
+	para "¡Aquí entrenamos"
+	line "noche y día para"
+	cont "ser maestros de"
+	cont "#mon pájaro!"
 
-	para "day to become bird"
-	line "#mon masters."
-
-	para "Come on!"
+	para "¡Vamos allá!"
 	done
 
 Bird_keeperRodBeatenText:
-	text "Gaaah!"
+	text "¡Gaaah!"
 	done
 
 Bird_keeperAbeSeenText:
-	text "Let me see if you"
-	line "are good enough to"
-	cont "face Falkner!"
+	text "¡A ver si tienes"
+	line "nivel para luchar"
+	cont "contra Pegaso!"
 	done
 
 Bird_keeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+	text "¡Esto no puede"
+	line "ser verdad!"
 	done
 
 VioletGymGuyText:
@@ -235,23 +232,20 @@ VioletGymGuyText:
 	done
 
 VioletGymGuyWinText:
-	text "Nice battle! Keep"
-	line "it up, and you'll"
-
-	para "be the Champ in no"
-	line "time at all!"
+	text "¡Buen combate!"
+	line "¡Sigue así y serás"
+	cont "Campeón en un"
+	cont "santiamén!"
 	done
 
 VioletGymGuyFalknerAwayText:
-	text "Hey! You can't"
-	line "challenge Falkner"
-	cont "right now."
+	text "¡Oye! No puedes"
+	line "retar a Pegaso"
+	cont "ahora mismo."
 
-	para "He's in Dark Cave"
-	line "taming an Ursa-"
+	para "Está en la Cueva"
+	line "Oscura amansando a"
+	cont "un Ursaring fiero."
 
-	para "ring that attacked"
-	line "a young trainer."
-
-	para "Come back later."
+	para "Vuelve más tarde."
 	done

@@ -67,87 +67,75 @@ Museum2FMoonStoneSignpostScript:
 	jumptext Museum2FMoonStoneSignpostText
 
 Museum2FScientistText:
-	text "Meteorites struck"
-	line "Mt.Moon near"
-	cont "Pewter City."
+	text "Unos meteoritos"
+	line "cayeron junto al"
+	cont "Mt. Moon."
 
-	para "We have one"
-	line "on display."
+	para "Tenemos uno aquí"
+	line "en exposición."
 
-	para "It seems to emit"
-	line "strange energy…"
+	para "¡Parece emitir una"
+	line "extraña energía!"
 	done
 
 
 Museum2FLassText:
-	text "#mon revived"
-	line "from fossils are"
+	text "Los #mon que"
+	line "vienen de fósiles"
+	cont "son tipo Roca."
 
-	para "all part Rock-"
-	line "type."
-
-	para "Were they always"
-	line "that way, or is it"
-
-	para "a result of the"
-	line "fossilization"
-	cont "process?"
+	para "¿Eran ya así, o es"
+	line "por la propia"
+	cont "fosilización?"
 	done
 
 Museum2FPokefanMImperialText:
-	text "This space shuttle"
-	line "used to fly 160"
+	text "¡Esta nave volaba"
+	line "a 250 km de la"
+	cont "Tierra desafiando"
+	cont "la gravedad!"
 
-	para "miles above the"
-	line "earth, defying"
-	cont "gravity!"
+	para "¿Sabes qué más la"
+	line "desafía?"
 
-	para "You know what else"
-	line "can defy gravity?"
-
-	para "Seismic Toss,"
-	line "of course!"
+	para "¡Mov. Sísmico,"
+	line "por supuesto!"
 	done
 
 Museum2FChildText:
-	text "Stuff and rocks"
-	line "and rocks and"
+	text "Cosas y piedras,"
+	line "y piedras y cosas…"
 
-	para "stuff. Can we go"
-	line "already?"
+	para "¿Nos podemos ir"
+	line "ya?"
 	done
 
 Museum2FTeacherText:
-	text "Sigh… My son isn't"
-	line "enjoying the mu-"
+	text "Uf… A mi hijo no"
+	line "le gusta tanto el"
+	cont "museo como a mí."
 
-	para "seum as much as I"
-	line "hoped he would."
-
-	para "Kids, huh?"
+	para "¡Cosas de niños!"
 	done
 
 Museum2FPokefanMMetricText:
-	text "This space shuttle"
-	line "used to fly 250"
+	text "¡Esta nave volaba"
+	line "a 250 kilómetros"
+	cont "desafiando la"
+	cont "gravedad!"
 
-	para "kilometers above"
-	line "the earth, defy-"
-	cont "ing gravity!"
+	para "¿Sabes qué más la"
+	line "desafía?"
 
-	para "You know what else"
-	line "can defy gravity?"
-
-	para "Seismic Toss,"
-	line "of course!"
+	para "¡Mov. Sísmico,"
+	line "por supuesto!"
 	done
 
 Text_Museum2FTutorSeismicToss:
-	text "I can teach your"
-	line "#mon to use"
-
-	para "Seismic Toss for"
-	line "one Silver Leaf."
+	text "Puedo enseñar a"
+	line "tu #mon a usar"
+	cont "Mov. Sísmico por"
+	cont "una Hoja Plata."
 	done
 
 Text_Museum2FTutorNoSilverLeaf:
@@ -156,9 +144,9 @@ Text_Museum2FTutorNoSilverLeaf:
 	done
 
 Text_Museum2FTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Seismic Toss?"
+	text "¿Quieres que le"
+	line "enseñe a alguíen"
+	cont "Mov. Sísmico?"
 	done
 
 Text_Museum2FTutorRefused:
@@ -178,7 +166,8 @@ Museum2FMoonStoneSignpostText:
 	done
 
 Museum2FSpaceShuttleSignpostText:
-	text "Space Shuttle"
+	text "Transbordador"
+	line "Espacial"
 	done
 
 PokemonJournalStevenScript:

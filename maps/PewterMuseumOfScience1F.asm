@@ -154,10 +154,10 @@ HelixDomeAmberMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Helix Fossil@"
-	db "Dome Fossil@"
-	db "Old Amber@"
-	db "Cancel@"
+	db "Fósil Hélix@"
+	db "Fósil Domo@"
+	db "Ambar Viejo@"
+	db "Cancelar@"
 
 ResurrectHelixFossil:
 	takeitem HELIX_FOSSIL
@@ -267,79 +267,67 @@ AerodactylFossilSignpostScript:
 	done
 
 Museum1FScientistText:
-	text "We are proud of"
-	line "three fossils of"
+	text "Estamos orgullosos"
+	line "de estos 3 fósiles"
+	cont "prehistóricos."
 
-	para "rare, prehistoric"
-	line "#mon."
-
-	para "I helped assemble"
-	line "them!"
+	para "¡Yo mismo ayudé a"
+	line "montarlos!"
 	done
 
 Museum1FFossilScientistText:
-	text "Did you know that"
-	line "you can extract"
+	text "¿Sabías que puedes"
+	line "revivir #mon de"
+	cont "los fósiles?"
 
-	para "#mon from"
-	line "fossils?"
-
-	para "If you ever need"
-	line "to, let me take"
-	cont "care of it!"
+	para "¡Si me traes uno,"
+	line "lo haré por ti!"
 	done
 
 Museum1FGrampsText:
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "¡Es un fósil"
+	line "magnífico!"
 	done
 
 Museum1FYoungsterText:
-	text "There are two"
-	line "places that I"
-	cont "love!"
+	text "¡Hay dos lugares"
+	line "que me encantan!"
 
-	para "One is the Ruins"
-	line "of Alph in Johto."
+	para "Uno son las Ruinas"
+	line "Alfa de Johto."
 
-	para "The other is the"
-	line "Pewter Museum!"
+	para "¡Y el otro es este"
+	line "Museo de Plateada!"
 
-	para "I get a sense of"
-	line "history from both"
-	cont "of them."
+	para "¡En ambos se nota"
+	line "mucha historia!"
 	done
 
 Museum1FBookshelfSignpostText:
-	text "Thick and well-"
-	line "read books!"
+	text "¡Libros gruesos y"
+	line "muy leídos!"
 
-	para "Archaeology Man-"
-	line "ual, Lost #mon,"
-	cont "#mon Ancestors,"
+	para "Arqueología,"
+	line "#mon extintos,"
+	cont "Ancestros…"
 
-	para "Caring at the"
-	line "Loamy Layer of"
-	cont "Kanto…"
+	para "Tratado sobre el"
+	line "suelo de Kanto…"
 	done
 
 AskHelixFossilText:
-	text "Do you want to"
-	line "resurrect the"
-	cont "Helix Fossil?"
+	text "¿Quieres revivir"
+	line "el Fósil Hélix?"
 	done
 
 AskDomeFossilText:
-	text "Do you want to"
-	line "resurrect the"
-	cont "Dome Fossil?"
+	text "¿Quieres revivir"
+	line "el Fósil Domo?"
 	done
 
 AskOldAmberText:
-	text "Do you want to"
-	line "resurrect the"
-	cont "Old Amber?"
+	text "¿Quieres revivir"
+	line "el Ambar Viejo?"
 	done
 
 NoFossilsText:
@@ -354,15 +342,17 @@ MaybeLaterText:
 	done
 
 ResurrectingPokemonText:
-	text "OK! I'll resurrect"
-	line "the #mon!"
+	text "¡Muy bien!"
+	line "¡Reviviré a ese"
+	cont "#mon!"
 	done
 
 NoRoomForFossilPokemonText:
-	text "Hey! You can't"
-	line "carry another"
-	cont "#mon, and your"
-	cont "Box is full, too!"
+	text "¡Oye! No puedes"
+	line "llevar más #mon"
+
+	para "¡y tu Caja también"
+	line "está llena!"
 	done
 
 TakeGoodCareOfItText:

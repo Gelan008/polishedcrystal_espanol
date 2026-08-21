@@ -55,12 +55,13 @@ CeladonUniversity2FCooltrainerfScript:
 	jumpthisopenedtext
 
 .Text5:
-	text "Antidotes cure"
-	line "poison in #-"
-	cont "mon, but a person"
+	text "Los Antídotos"
+	line "curan el veneno en"
+	cont "los #mon."
 
-	para "would get sick"
-	line "by drinking one."
+	para "¡Pero una persona"
+	line "enfermaría si se"
+	cont "toma uno!"
 	done
 
 .NoRoomForAntidote:
@@ -72,118 +73,116 @@ CeladonUniversity2FCooltrainerfScript:
 	done
 
 .Text1:
-	text "Wow, I'm thirsty!"
+	text "Guau, ¡tengo sed!"
 
-	para "But I don't have"
-	line "change for the"
-	cont "vending machines…"
+	para "Pero no llevo"
+	line "suelto para las"
+	cont "máquinas…"
 
-	para "Do you have any"
-	line "Fresh Water?"
+	para "¿Tienes un"
+	line "Agua Fresca?"
 	done
 
 .Text2:
-	text "Give away a"
-	line "Fresh Water?"
+	text "¿Darle un"
+	line "Agua Fresca?"
 	done
 
 .Text3:
-	text "<PLAYER> gave away"
-	line "the Fresh Water."
+	text "<PLAYER> le dió"
+	line "el Agua Fresca."
 	done
 
 .Text4:
-	text "Thank you so much!"
-	line "Here, take this!"
+	text "¡Muchas gracias!"
+	line "¡Toma, para ti!"
 	done
 
 .Text6:
-	text "Oh… But I'm so"
-	line "thirsty…"
+	text "Oh… Pero tengo"
+	line "tanta sed…"
 	done
 
 CeladonUniversity2FCooltrainermText:
-	text "The cafeteria gets"
-	line "pretty crowded,"
+	text "La cafetería se"
+	line "llena bastante,"
 
-	para "so I prefer to eat"
-	line "in the hall."
+	para "así que prefiero"
+	line "comer aquí en el"
+	cont "pasillo."
 	done
 
 CeladonUniversity2FYoungster1Text:
-	text "I failed the"
-	line "Hyper Test again…"
+	text "Suspendí el Test"
+	line "Extremo de nuevo…"
 
-	para "But I won't"
-	line "give up!"
+	para "¡Pero no me voy a"
+	line "rendir!"
 	done
 
 CeladonUniversity2FCowgirlText:
-	text "My class is going"
-	line "on a field trip to"
-	cont "the Safari Zone!"
+	text "¡Mi clase se va de"
+	line "excursión a la"
+	cont "Zona Safari!"
 	done
 
 CeladonUniversity2FBug_catcherText:
-	text "Prof.Willow sends"
-	line "his assistants to"
-
-	para "wander all over"
-	line "the city and study"
-
-	para "the #mon that"
-	line "live here."
+	text "El Prof. Willow"
+	line "manda a sus"
+	cont "ayudantes por la"
+	cont "ciudad a estudiar"
+	cont "los #mon que"
+	cont "viven aquí."
 	done
 
 CeladonUniversity2FLassText:
-	text "In addition to"
-	line "being the Celadon"
-	cont "Gym Leader,"
+	text "Además de ser la"
+	line "Líder del Gim. de"
+	cont "Azulona,"
 
-	para "Erika was top of"
-	line "her class here at"
-	cont "the university."
+	para "Erika era la mejor"
+	line "de su clase en"
+	cont "esta universidad."
 
-	para "I wish I was as"
-	line "cool as her."
+	para "¡Ojalá fuera tan"
+	line "genial como ella!"
 	done
 
 CeladonUniversity2FYoungster2Text:
-	text "Prof.Westwood is a"
-	line "little eccentric."
+	text "El Prof. Westwood"
+	line "es algo excéntrico"
 
-	para "Sometimes he apol-"
-	line "ogizes to his"
-
-	para "ancestors' por-"
-	line "traits."
+	para "A veces pide"
+	line "disculpas a los"
+	cont "retratos de sus"
+	cont "antepasados."
 	done
 
 CeladonUniversity2FCafeteriaSignText:
-	text "Cafeteria"
+	text "Cafetería"
 	done
 
 CeladonUniversity2FHyperTestSignText:
-	text "Hyper Test Room"
+	text "Sala de Test"
+	line "Extremo"
 	done
 
 CeladonUniversity2FPoolSignText:
-	text "Swimming Pool"
+	text "Piscina"
 	done
 
 CeladonUniversity2FWillowsOfficeSignText:
-	text "Prof.Willow's"
-	line "Office"
+	text "Oficina del"
+	line "Prof. Willow"
 	done
 
 CeladonUniversity2FNursesOfficeSignText:
-	text "Nurse's"
-	line "Office"
+	text "Enfermería"
 	done
 
 CeladonUniversity2FWestwoodsOfficeSignText:
-	text "Prof.Westwood's"
-	line "Office"
+	text "Oficina del"
+	line "Prof. Westwood"
 	done
 
 CeladonUniversity2FMagikarpSign:

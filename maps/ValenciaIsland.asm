@@ -27,16 +27,16 @@ ValenciaIslandFlyPoint:
 	endcallback
 
 ValenciaIslandCooltrainermText:
-	text "A couple of strong"
-	line "trainers live in"
-	cont "that house."
+	text "En esa casa viven"
+	line "dos entrenadores"
+	cont "muy fuertes."
 
-	para "They're a mother"
-	line "and her daughter…"
-	cont "Or maybe her son?"
+	para "Son una madre y su"
+	line "hija… ¿O tal vez"
+	cont "su hijo?"
 
-	para "Anyway, they're on"
-	line "vacation now."
+	para "En fin, ahora"
+	line "están de viaje."
 	done
 
 ValenciaIslandYoungsterScript:
@@ -50,34 +50,34 @@ ValenciaIslandYoungsterScript:
 	done
 
 .Text2:
-	text "You may be cute,"
-	line "but Prof.Ivy is"
-	cont "smokin' hot!"
+	text "Tendrás tu encanto"
+	line "¡pero la Profesora"
+	cont "Ivy es un bombón!"
 	done
 
 ValenciaIslandSignText:
-	text "Valencia Island"
+	text "Isla Valencia"
 
-	para "Bitter Oranges"
-	line "and Sweet Breezes"
+	para "Naranjas amargas"
+	line "y brisa dulce"
 	done
 
 ValenciaIslandGoneFishingSignText:
-	text "Gone Fishing"
+	text "De pesca"
 
-	para "(On vacation"
-	line "in Alola!)"
+	para "(¡De vacaciones"
+	line "en Alola!)"
 	done
 
 ValenciaIslandLockedDoorText:
-	text "It's locked…"
+	text "Está cerrado…"
 	done
 
 IvysLabSignText:
-	text "Ivy Research"
-	line "№.2 Bayview"
+	text "Laboratorio Ivy"
+	line "№ 2 Miramar"
 	done
 
 IvysHouseSignText:
-	text "Ivy's House"
+	text "Casa de Ivy"
 	done

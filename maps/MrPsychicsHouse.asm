@@ -52,18 +52,17 @@ MrPsychicText:
 
 	para "…"
 
-	para "…I got it!"
+	para "…¡Ya lo tengo!"
 
-	para "You want to learn"
-	line "Zen Headbutt!"
+	para "¡Quieres aprender"
+	line "Cabezazo Zen!"
 	done
 
 Text_MrPsychicsHouseTutorZenHeadbutt:
-	text "I will teach your"
-	line "#mon to use Zen"
-
-	para "Headbutt for a"
-	line "Silver Leaf."
+	text "Puedo enseñar a"
+	line "tu #mon a usar"
+	cont "Cabezazo Zen por"
+	cont "una Hoja Plata."
 	done
 
 Text_MrPsychicsHouseTutorNoSilverLeaf:
@@ -72,11 +71,10 @@ Text_MrPsychicsHouseTutorNoSilverLeaf:
 	done
 
 Text_MrPsychicsHouseTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Zen Headbutt?"
+	text "¿Quieres que le"
+	line "enseñe Cabezazo"
+	cont "Zen a tu #mon?"
 	done
-
 Text_MrPsychicsHouseTutorRefused:
 	text "…I was wrong?"
 	done

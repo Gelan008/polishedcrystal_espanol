@@ -1,62 +1,62 @@
 ArnieAnswerPhoneText:
-	text "Yeah, hello."
-	line "This is "
+	text "Sí, hola."
+	line "Soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAYER>? Yo!"
+	para "…¿<PLAYER>? ¡Ey!"
 	done
 
 ArnieAnswerPhoneDayText:
-	text "Yeah, hello, you"
-	line "got "
+	text "Sí, hola, habla"
+	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAYER>? Yo!"
+	para "…¿<PLAYER>? ¡Ey!"
 	done
 
 ArnieAnswerPhoneNiteText:
-	text "Yeah, hello, you"
-	line "got "
+	text "Sí, hola, habla"
+	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAYER>? Yo!"
+	para "…¿<PLAYER>? ¡Ey!"
 	done
 
 ArnieGreetText:
-	text "Yeah, hello?"
-	line ""
+	text "¿Sí, hola?"
+	line "Llama "
 	text_ram wStringBuffer3
-	text " calling."
+	text "."
 
-	para "What are you up"
-	line "to, <PLAYER>?"
+	para "¿Qué haces,"
+	line "<PLAYER>?"
 	done
 
 ArnieGreetDayText:
-	text "Yeah, hello?"
-	line ""
+	text "¿Sí, hola?"
+	line "Llama "
 	text_ram wStringBuffer3
-	text " calling."
+	text "."
 
-	para "Where are you now,"
+	para "¿Dónde estás,"
 	line "<PLAYER>?"
 	done
 
 ArnieGreetNiteText:
-	text "Yeah, hello?"
-	line ""
+	text "¿Sí, hola?"
+	line "Llama "
 	text_ram wStringBuffer3
-	text " calling."
+	text "."
 
-	para "Are you awake now,"
+	para "¿Estás despierto,"
 	line "<PLAYER>?"
 	done
 
 ArnieGenericText:
-	text "I bet your #mon"
-	line "are a lot stronger"
-	cont "than before."
+	text "Seguro que tus"
+	line "#mon son mucho"
+	cont "más fuertes."
 	done

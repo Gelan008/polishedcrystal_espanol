@@ -162,17 +162,17 @@ GenericTrainerBird_keeperTrent:
 	done
 
 NoisyForestTeacherText:
-	text "I come here for my"
-	line "morning stroll."
+	text "Vengo aquí a dar"
+	line "mi paseo matutino."
 
-	para "I even have a ped-"
-	line "ometer that counts"
-	cont "my steps!"
+	para "¡Hasta llevo un"
+	line "podómetro para"
+	cont "contar mis pasos!"
 	done
 
 NoisyForestChildText:
-	text "Gah! This place"
-	line "is deafening!"
+	text "¡Uf! ¡Este lugar"
+	line "es ensordecedor!"
 	done
 
 NoisyForestPikabluScript:
@@ -206,35 +206,35 @@ NoisyForestPikabluScript:
 	done
 
 .OwnerText1:
-	text "You found my"
+	text "¡Encontraste a mi"
 	line "Pikablu!"
-	cont "Thank you!"
+	cont "¡Muchas gracias!"
 	done
 
 .OwnerText2:
-	text "Let me give you a"
-	line "little something."
+	text "Deja que te dé"
+	line "un detalle."
 	done
 
 .OwnerText3:
-	text "A souvenir of your"
-	line "time on Shamouti"
-	cont "Island!"
+	text "¡Un recuerdo de tu"
+	line "estancia en Isla"
+	cont "Shamouti!"
 
-	para "Doesn't it look"
-	line "strange?"
+	para "¿A que parece muy"
+	line "extraño?"
 
-	para "Bye, and thanks"
-	line "again!"
+	para "¡Adiós y gracias"
+	line "de nuevo!"
 	done
 
 .OwnerText4:
-	text "Oh, you can't carry"
-	line "it right now."
+	text "Oh, no puedes"
+	line "llevar más cosas."
 
-	para "Come find me by"
-	line "the #mon Center"
-	cont "if you want it."
+	para "Búscame junto al"
+	line "Centro #mon"
+	cont "si lo quieres."
 	done
 
 .WalkToYou:
@@ -374,18 +374,13 @@ KatyScript:
 	done
 
 .SeenText:
-	text "Don't let your"
-	line "guard down unless"
-
-	para "you would like to"
-	line "be knocked off"
-	cont "your feet!"
+	text "¡A quien madruga,"
+	line "Dios le ayuda!"
 	done
 
 .BeatenText:
-	text "My sweet little"
-	line "#mon dropped"
-	cont "like flies!"
+	text "Parece que a mí no"
+	line "me ayudó…"
 	done
 
 .RefusedText:
@@ -397,5 +392,5 @@ KatyScript:
 	done
 
 NoisyForestSignpostText:
-	text "Noisy Forest"
+	text "Bosque Ruidoso"
 	done

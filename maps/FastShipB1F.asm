@@ -212,18 +212,17 @@ FastShipB1FOnDutySailorText:
 	done
 
 FastShipB1FOnDutySailorRefusedText:
-	text "Oh, gee…"
+	text "Oh, vaya…"
 
-	para "The Captain will"
-	line "be furious…"
+	para "El Capitán se va a"
+	line "poner furioso…"
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "Thanks, kid!"
-	line "I chewed him out"
-
-	para "good so he'll quit"
-	line "slacking off!"
+	text "¡Gracias! ¡Le he"
+	line "echado una buena"
+	cont "bronca para que"
+	cont "no holgazanee!"
 	done
 
 FastShipB1FOnDutySailorSawLittleGirlText:
@@ -234,131 +233,132 @@ FastShipB1FOnDutySailorSawLittleGirlText:
 	done
 
 FastShipB1FOnDutySailorDirectionsText:
-	text "The dining room is"
-	line "up ahead."
+	text "El comedor está"
+	line "más adelante."
 
-	para "The stairs at the"
-	line "end lead to the"
-	cont "Captain's cabin."
+	para "Las escaleras al"
+	line "fondo llevan al"
+	cont "camarote del"
+	cont "Capitán."
 	done
 
 SailorJeffSeenText:
-	text "Nothing beats a"
-	line "battle when I'm"
-	cont "on my break."
+	text "No hay nada como"
+	line "luchar durante mi"
+	cont "descanso."
 	done
 
 SailorJeffBeatenText:
-	text "Win or lose, my"
-	line "break's over!"
+	text "Gane o pierda, ¡se"
+	line "acabó mi descanso!"
 	done
 
 PicnickerDebraSeenText:
-	text "I'm so bored."
-	line "Want to battle?"
+	text "Me aburro mucho."
+	line "¿Quieres luchar?"
 	done
 
 PicnickerDebraBeatenText:
-	text "Yow! You're too"
-	line "strong!"
+	text "¡Oye! ¡Eres"
+	line "demasiado fuerte!"
 	done
 
 JugglerFritzSeenText:
 	text "Urrf…"
-	line "I'm seasick!"
+	line "¡Estoy mareado!"
 	done
 
 JugglerFritzBeatenText:
-	text "I can't move any-"
-	line "more…"
+	text "No puedo moverme"
+	line "más…"
 	done
 
 BakerSharynSeenText:
-	text "As I bake bread,"
-	line "I will bake your"
-	cont "#mon, too!"
+	text "Al igual que mi"
+	line "pan, ¡hornearé a"
+	cont "tus #mon!"
 	done
 
 BakerSharynBeatenText:
-	text "At least my bread"
-	line "is a winner."
+	text "Al menos mi pan"
+	line "es ganador."
 	done
 
 SailorGarrettSeenText:
-	text "This is where we"
-	line "sailors work!"
+	text "¡Aquí es donde"
+	line "trabajamos los"
+	cont "marineros!"
 	done
 
 SailorGarrettBeatenText:
-	text "I lost on my home"
-	line "field…"
+	text "He perdido en mi"
+	line "propio terreno…"
 	done
 
 FisherJonahSeenText:
-	text "Even though we're"
-	line "out on the sea, I"
-	cont "can't fish!"
+	text "Aunque estamos en"
+	line "alta mar, ¡no"
+	cont "puedo pescar!"
 
-	para "This is boring!"
-	line "Let's battle!"
+	para "¡Qué aburrimiento!"
+	line "¡Luchemos!"
 	done
 
 FisherJonahBeatenText:
-	text "I… I'm not bored"
-	line "anymore…"
+	text "Ya… Ya no me"
+	line "aburro…"
 	done
 
 BlackbeltWaiSeenText:
-	text "I'm building up my"
-	line "legs by bracing"
-
-	para "against the ship's"
-	line "rocking!"
+	text "¡Entreno piernas"
+	line "con el vaivén de"
+	cont "este barco!"
 	done
 
 BlackbeltWaiBeatenText:
-	text "Rocked and rolled"
-	line "over!"
+	text "¡Me han zarandeado"
+	line "de lo lindo!"
 	done
 
 SailorKennethSeenText:
-	text "I'm a sailor man!"
+	text "¡Soy un marinero!"
 
-	para "But I'm training"
-	line "#mon, so I can"
-	cont "become the Champ!"
+	para "¡Y entreno #mon"
+	line "para ser Campeón!"
 	done
 
 SailorKennethBeatenText:
-	text "My lack of train-"
-	line "ing is obvious…"
+	text "Me falta mucho"
+	line "entrenamiento…"
 	done
 
 TeacherShirleySeenText:
-	text "Don't lay a finger"
-	line "on my students!"
+	text "¡No pongas ni un"
+	line "dedo encima a mis"
+	cont "alumnos!"
 	done
 
 TeacherShirleyBeatenText:
-	text "Aaack!"
+	text "¡Aaaah!"
 	done
 
 SchoolboyNateSeenText:
-	text "Do you know the"
-	line "Ruins of Alph?"
+	text "¿Conoces las"
+	line "Ruinas Alfa?"
 	done
 
 SchoolboyNateBeatenText:
-	text "Yaargh!"
+	text "¡Aaaarg!"
 	done
 
 SchoolboyRickySeenText:
-	text "There are some odd"
-	line "stone panels in"
-	cont "the Ruins of Alph."
+	text "Hay unos raros"
+	line "paneles de piedra"
+	cont "en las Ruinas"
+	cont "Alfa."
 	done
 
 SchoolboyRickyBeatenText:
-	text "I was done in!"
+	text "¡Me han vencido!"
 	done
 

@@ -23,31 +23,29 @@ VioletNicknameSpeechHouseBirdScript:
 	end
 
 VioletNicknameSpeechHouseTeacherText:
-	text "She uses the names"
-	line "of her favorite"
-	cont "things to eat."
+	text "Usa nombres de sus"
+	line "comidas favoritas."
 
-	para "For the nicknames"
-	line "she gives to her"
-	cont "#mon, I mean."
+	para "Para los motes"
+	line "que les pone a sus"
+	cont "#mon, claro."
 	done
 
 VioletNicknameSpeechHouseLassText:
-	text "I call my Eevee"
-	line "Strawberry!"
+	text "¡A mi Eevee lo"
+	line "llamo Fresita!"
 	done
 
 VioletNicknameSpeechHouseGrampsText:
-	text "The Zephyr Badge"
-	line "is named after an"
+	text "La Medalla Céfiro"
+	line "debe su nombre a"
+	cont "un dios antiguo"
+	cont "del viento oeste."
 
-	para "ancient god of the"
-	line "west wind."
-
-	para "Very fitting for a"
-	line "Flying-type Gym."
+	para "Muy propio de un"
+	line "Gimnasio Volador."
 	done
 
 VioletNicknameSpeechHouseBirdText:
-	text "Strawberry: Vui!"
+	text "Fresita: ¡Vui!"
 	done

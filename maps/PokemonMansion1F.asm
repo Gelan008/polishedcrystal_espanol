@@ -48,32 +48,33 @@ GenericTrainerBurglarLouis:
 	done
 
 BurglarPeteSeenText:
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
+	text "¿Quién eres? Aquí"
+	line "no debería haber"
+	cont "nadie."
 	done
 
 BurglarPeteBeatenText:
-	text "Ouch!"
+	text "¡Ay!"
 	done
 
 BurglarLouisSeenText:
-	text "This place is"
-	line "creepy!"
+	text "¡Este lugar da"
+	line "escalofríos!"
 	done
 
 BurglarLouisBeatenText:
-	text "Ayah!"
+	text "¡Ay, ay, ay!"
 	done
 
 PokemonMansion1FMewtwoStatueText:
-	text "A #mon statue…"
+	text "Una estatua"
+	line "#mon…"
 
-	para "It looks very"
-	line "threatening."
+	para "Tiene un aspecto"
+	line "muy amenazador."
 	done
 
 PokemonMansion1FFlowerPotText:
-	text "It's filled with"
-	line "soil and ashes…"
+	text "Está llena de"
+	line "tierra y cenizas…"
 	done

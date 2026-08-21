@@ -201,120 +201,117 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu…"
+	text "Fufufufu… Siento"
+	line "decepcionarte…"
 
-	para "I'm sorry to dis-"
-	line "appoint you…"
+	para "¡Solo bromeaba!"
+	line "¡Yo soy la real!"
 
-	para "I'm only joking!"
-
-	para "I'm the real deal!"
-
-	para "Janine of Fuchsia"
-	line "Gym, that's me!"
+	para "¡Sachiko del"
+	line "Gim. Fucsia, esa"
+	cont "soy yo!"
 	done
 
 JanineText_ToughOne:
-	text "Janine: You're a"
-	line "tough one. You"
-	cont "definitely won…"
+	text "Sachiko: Eres muy"
+	line "fuerte. Has"
+	cont "ganado…"
 
 if DEF(FAITHFUL)
-	para "Here's the Soul"
+	para "Aquí tienes la"
+	line "Medalla Alma."
 else
-	para "Here's the Marsh"
+	para "Aquí tienes la"
+	line "Med. Pantano."
 endc
-	line "Badge. Take it."
+	cont "Quédatela."
 	done
 
 JanineText_ToxicSpeech:
-	text "Janine: You're so"
-	line "tough! I have a"
-	cont "special gift!"
+	text "Sachiko: ¡Eres muy"
+	line "duro! ¡Tengo un"
+	cont "regalo especial!"
 	done
 
 JanineText_ApplyMyself:
-	text "Janine: I'm going"
-	line "to really apply"
+	text "Sachiko: Voy a"
+	line "esforzarme mucho"
+	cont "para mejorar."
 
-	para "myself and improve"
-	line "my skills."
-
-	para "I want to become"
-	line "better than both"
-	cont "Father and you!"
+	para "¡Seré mejor que"
+	line "mi padre y que tú!"
 	done
 
 LassAmandaBeforeText:
-	text "Fufufu!"
+	text "¡Fufufu!"
 
-	para "I'm Janine, the"
-	line "Gym Leader!"
+	para "¡Soy Sachiko, la"
+	line "Líder!"
 
-	para "No, I'm not!"
-	line "Gotcha, sucker!"
+	para "¡Es broma!"
+	line "¡Pringado!"
 	done
 
 LassAmandaBeatenText:
-	text "I had you fooled…"
+	text "Te he engañado…"
 	done
 
 LassAmandaAfterText:
-	text "How will you dis-"
-	line "tinguish our real"
-	cont "Leader?"
+	text "¿Cómo vas a"
+	line "distinguir a la"
+	cont "verdadera?"
 	done
 
 LassLindaBeforeText:
-	text "Fooled you!"
-	line "Hahaha!"
+	text "¡Te engañé!"
+	line "¡Jajaja!"
 	done
 
 LassLindaBeatenText:
-	text "Ooh… I lost…"
-	line "You're not weak…"
+	text "Oh… Perdí…"
+	line "No eres débil…"
 	done
 
 LassLindaAfterText:
-	text "Well? Wasn't my"
-	line "disguise perfect?"
+	text "¿Qué? ¿A que mi"
+	line "disfraz era ideal?"
 	done
 
 PicnickerCindyBeforeText:
-	text "I'm Janine!"
+	text "¡Soy Sachiko!"
 
-	para "How did you know I"
-	line "was real?"
+	para "¿Cómo has sabido"
+	line "que era yo?"
 
-	para "Let's battle!"
+	para "¡A luchar!"
 	done
 
 PicnickerCindyBeatenText:
-	text "Darn it!"
-	line "I wanted to win!"
+	text "¡Maldición!"
+	line "¡Quería ganar!"
 	done
 
 PicnickerCindyAfterText:
-	text "You must be"
-	line "getting tired."
+	text "Debes de estar"
+	line "cansándote."
 	done
 
 CamperBarryBeforeText:
-	text "Wahahaha!"
+	text "¡Jajajaja!"
 
-	para "You betcha!"
-	line "I'm Janine!"
+	para "¡Has acertado!"
+	line "¡Soy Sachiko!"
 	done
 
 CamperBarryBeatenText:
-	text "My disguise was"
-	line "right on! Dang!"
+	text "¡Mi disfraz era"
+	line "perfecto! ¡Jo!"
 	done
 
 CamperBarryAfterText:
-	text "Hey, you. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Eh, tú. Mi"
+	line "disfraz molaba,"
+	cont "¿a que sí?"
 	done
 
 FuchsiaGymGuyText:
@@ -333,7 +330,6 @@ FuchsiaGymGuyText:
 	done
 
 FuchsiaGymGuyWinText:
-	text "That was a great"
-	line "battle, trainer"
-	cont "from Johto!"
+	text "¡Gran combate,"
+	line "campeón de Johto!"
 	done

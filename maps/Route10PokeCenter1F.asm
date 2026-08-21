@@ -55,31 +55,29 @@ Route10PokeCenter1FGymGuyScript:
 	done
 
 .Text2:
-	text "I hear Team Rocket"
-	line "got back together"
+	text "Oí que el Team"
+	line "Rocket se volvió"
+	cont "a reunir en Johto,"
 
-	para "in Johto but fell"
-	line "apart right away."
+	para "pero los vencieron"
+	line "enseguida."
 
-	para "I didn't know any-"
-	line "thing about that."
+	para "No tenía ni idea"
+	line "de todo eso."
 	done
 
 Route10PokeCenter1FGentlemanText:
-	text "A #mon Center"
-	line "near a cave?"
+	text "¿Un Centro #mon"
+	line "junto a una cueva?"
 
-	para "That's mighty"
-	line "convenient."
+	para "¡Qué gran idea!"
 	done
 
 Route10PokeCenter1FCooltrainerfText:
-	text "When you go out-"
-	line "side, you can see"
+	text "Al salir fuera,"
+	line "verás el techo de"
+	cont "un gran edificio."
 
-	para "the roof of a big"
-	line "building."
-
-	para "That's the Power"
-	line "Plant."
+	para "Es la Central"
+	line "Energía."
 	done

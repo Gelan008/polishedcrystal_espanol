@@ -251,26 +251,26 @@ GenericTrainerAceDuoZacandjen2:
 	done
 
 .SeenText:
-	text "Jen: Huh? You'd"
-	line "like to go up"
-	cont "against us? Great!"
+	text "Jen: ¿Eh? ¿Quieres"
+	line "retarnos? ¡Genial!"
 	done
 
 .BeatenText:
-	text "Jen: You're so"
-	line "much stronger than"
-	cont "I thought."
+	text "Jen: Eres mucho"
+	line "más fuerte de lo"
+	cont "que pensaba."
 	done
 
 Route3MeteoriteText:
-	text "Never seen a stone"
-	line "like this before!"
+	text "¡Nunca había visto"
+	line "una piedra así!"
 
-	para "Could it be…"
-	line "a meteorite from"
-	cont "space?"
+	para "¿Podría ser…"
+	line "un meteorito del"
+	cont "espacio?"
 	done
 
 Route3MtMoonSquareSignText:
-	text "Mt.Moon Tunnel"
+	text "Túnel del"
+	line "Monte Moon"
 	done

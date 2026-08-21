@@ -103,37 +103,37 @@ MomEventScript:
 	end
 
 PlayersHouse1FFridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
+	text "A ver qué hay en"
+	line "el frigorífico…"
 
-	para "Fresh Water and"
-	line "tasty Lemonade!"
+	para "¡Agua Fresca y una"
+	line "rica Limonada!"
 	done
 
 PlayersHouse1FSinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "El fregadero está"
+	line "impoluto. A Mamá"
+	cont "le gusta limpio."
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "¡La especialidad"
+	line "de Mamá!"
 
-	para "Cinnabar Volcano"
-	line "Burger!"
+	para "¡Hamburguesa"
+	line "Volcán Canela!"
 	done
 
 PlayersHouse1FTVScript:
 	jumpthistext
 
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "En la tele: Un"
+	line "pirata con su"
+	cont "tripulación busca"
+	cont "un tesoro…"
 
-	para "sky as two boys"
-	line "ride on a train…"
-
-	para "I'd better get"
-	line "rolling too!"
+	para "¡Yo también me voy"
+	line "a poner en marcha!"
 	done
 
 MomScript:
@@ -197,76 +197,77 @@ else
 endc
 
 MomPokegearText:
-	text "#mon Gear, or"
-	line "just #gear."
+	text "#mon Gear, o"
+	line "simplemente"
+	cont "#gear."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "Es esencial si"
+	line "quieres ser un"
+	cont "buen entrenador."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "¡Vaya! No está"
+	line "puesto el día de"
+	cont "la semana."
 
-	para "You mustn't forget"
-	line "that!"
+	para "¡No debes olvidar"
+	line "eso!"
 	done
 
 MomDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "¿Está activo el"
+	line "horario de verano?"
 	done
 
 MomRunningShoesText:
-	text "Come home to"
-	line "adjust your clock"
+	text "Vuelve a casa para"
+	line "ajustar el reloj"
+	cont "al horario de"
+	cont "verano."
 
-	para "for Daylight"
-	line "Saving Time."
-
-	para "By the way, do"
-	line "you know how to"
-
-	para "use your new"
-	line "Running Shoes?"
+	para "Por cierto, ¿sabes"
+	line "cómo usar tus"
+	cont "Deportivas nuevas?"
 	done
 
 MomInstructionsText:
-	text "I'll read the"
-	line "instructions."
+	text "Leeré las"
+	line "instrucciones."
 
-	para "Just hold down the"
-	line "B Button to run,"
-	cont "indoors or out."
+	para "Mantén pulsado el"
+	line "Botón B para"
+	cont "correr en todas"
+	cont "partes."
 
-	para "Or use the Option"
-	line "to always run, and"
-	cont "hold B to walk."
+	para "O activa la opción"
+	line "de Auto-Correr y"
+	cont "mantén B para ir"
+	cont "caminando."
 	done
 
 MomOutroText:
-	text "Gee, aren't they"
-	line "convenient?"
+	text "¡Vaya! ¿A que son"
+	line "muy prácticas?"
 	done
 
 MomErrandText:
-	text "So, what was Prof."
-	line "Elm's errand?"
+	text "Y bien, ¿qué te ha"
+	line "pedido el Prof."
+	cont "Elm?"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Parece un encargo"
+	line "difícil."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "¡Enorgullécete de"
+	line "que confíen en ti!"
 	done
 
 MomDoItText:
-	text "<PLAYER>, do it!"
+	text "¡Animo, <PLAYER>!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "¡Te apoyaré en"
+	line "todo momento!"
 	done
 
 NeighborScript:
@@ -302,34 +303,33 @@ NeighborScript:
 	end
 
 .MornIntroText:
-	text "Good morning,"
+	text "¡Buenos días,"
 	line "<PLAYER>!"
 
-	para "I'm visiting!"
+	para "¡Vengo de visita!"
 	done
 
 .DayIntroText:
-	text "Hello, <PLAYER>!"
-	line "I'm visiting!"
+	text "¡Hola, <PLAYER>!"
+	line "¡Vengo de visita!"
 	done
 
 .NiteIntroText:
-	text "Good evening,"
+	text "¡Buenas noches,"
 	line "<PLAYER>!"
 
-	para "I'm visiting!"
+	para "¡Vengo de visita!"
 	done
 
 .NeighborText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, ¿te has"
+	line "enterado?"
 
-	para "My daughter is"
-	line "adamant about"
+	para "Mi hija está"
+	line "empeñada en ser"
+	cont "la ayudante del"
+	cont "Profesor Elm."
 
-	para "becoming Prof."
-	line "Elm's assistant."
-
-	para "She really loves"
+	para "¡Le encantan los"
 	line "#mon!"
 	done

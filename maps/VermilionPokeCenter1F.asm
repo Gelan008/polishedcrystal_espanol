@@ -58,29 +58,27 @@ VermilionPokeCenter1FSightseerMScript:
 	done
 
 .SnorlaxText:
-	text "There used to be a"
-	line "sleeping #mon"
+	text "Había un #mon"
+	line "dormido delante de"
+	cont "la Cueva Diglett."
 
-	para "lying in front of"
-	line "Diglett's Cave."
-
-	para "But it seems to"
-	line "have disappeared."
+	para "Pero parece que ha"
+	line "desaparecido."
 	done
 
 VermilionPokeCenter1FSailorText:
-	text "The Fast Ship is a"
-	line "great place to"
-
-	para "meet and battle"
-	line "trainers."
+	text "El Magnetotrén y"
+	line "el S.S. Aqua son"
+	cont "ideales para"
+	cont "luchar con otros."
 	done
 
 VermilionPokeCenter1FBugCatcherText:
-	text "Oh? You have some"
-	line "Badges I've never"
-	cont "seen before."
+	text "¿Eh? Tienes unas"
+	line "Medallas que no"
+	cont "había visto."
 
-	para "Oh, I get it. You"
-	line "got them in Johto."
+	para "Ah, ya entiendo."
+	line "Las conseguiste en"
+	cont "Johto."
 	done

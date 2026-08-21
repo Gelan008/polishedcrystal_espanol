@@ -1,66 +1,67 @@
 GinaAnswerPhoneText:
-	text "Hello? This is"
+	text "¿Hola? Al aparato"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAYER>!"
-	line "Good morning!"
+	para "¡Oh, <PLAYER>!"
+	line "¡Buenos días!"
 	done
 
 GinaAnswerPhoneDayText:
-	text "Hello? This is"
+	text "¿Hola? Al aparato"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAYER>!"
-	line "Hi, how are you?"
+	para "¡Oh, <PLAYER>!"
+	line "Hola, ¿qué tal?"
 	done
 
 GinaAnswerPhoneNiteText:
-	text "Hello? This is"
+	text "¿Hola? Al aparato"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAYER>!"
-	line "Good evening!"
+	para "¡Oh, <PLAYER>!"
+	line "¡Buenas noches!"
 	done
 
 GinaGreetText:
-	text "<PLAYER>?"
+	text "¿<PLAYER>?"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Good morning!"
+	line "¡Buenos días!"
 	done
 
 GinaGreetDayText:
-	text "<PLAYER>?"
+	text "¿<PLAYER>?"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
-	text ". Is"
-	line "this a bad time?"
+	text ". ¿Te"
+	line "viene mal ahora?"
 	done
 
 GinaGreetNiteText:
-	text "<PLAYER>?"
+	text "¿<PLAYER>?"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Got time to chat?"
+	line "¿Puedes charlar?"
 	done
 
 GinaGenericText:
-	text "Are your #mon"
-	line "still tough?"
+	text "¿Tus #mon son"
+	line "igual de duros?"
 
-	para "I train every day"
-	line "with "
+	para "Yo entreno cada"
+	line "día con mi"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 	done

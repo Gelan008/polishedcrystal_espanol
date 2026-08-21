@@ -61,91 +61,81 @@ CianwoodGymGuyScript:
 	waitendtext
 
 .Text:
-	text "The #mon Gym"
-	line "trainers here are"
-	cont "macho bullies."
+	text "Los entrenadores"
+	line "del Gimnasio de"
+	cont "aquí son todos"
+	cont "unos machotes."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Si me acerco por"
+	line "allí, ¡podrían ir"
+	cont "a por mí!"
 
-	para "Here's some ad-"
-	line "vice: the Gym"
+	para "Un consejo: el"
+	line "Líder de Gimnasio"
+	cont "usa el tipo Lucha."
 
-	para "Leader uses the"
-	line "Fighting-type."
+	para "Confúndelo con"
+	line "#mon Psíquicos."
 
-	para "So you should"
-	line "confound him with"
-	cont "Psychic #mon."
+	para "Derrótalos antes"
+	line "de que usen su"
+	cont "fuerza física."
+	
+	para "¿Y las rocas del"
+	line "medio del Gim.?"
 
-	para "Wipe out his #-"
-	line "mon before they"
+	para "Si no las mueves"
+	line "bien, no llegarás"
+	cont "hasta el Líder."
 
-	para "can use their"
-	line "physical strength."
-
-	para "And those boulders"
-	line "in the middle of"
-	cont "the Gym?"
-
-	para "If you don't move"
-	line "them correctly,"
-
-	para "you won't reach"
-	line "the Gym Leader."
-
-	para "If you get stuck,"
-	line "go outside."
+	para "Si te atascas,"
+	line "sal un momento."
 	done
 
 .StrengthText1:
-	text "You can't move the"
-	line "boulders aside?"
+	text "¿No puedes"
+	line "apartar las rocas?"
 
-	para "Here, use this"
-	line "and teach your"
-	cont "#mon Strength!"
+	para "¡Toma, usa esto"
+	line "y enseña Fuerza"
+	cont "a tus #mon!"
 	done
 
 .StrengthText2:
-	text "Good luck!"
+	text "¡Buena suerte!"
 	done
 
 .WinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "¡<PLAYER>! ¡Has"
+	line "ganado! ¡Lo supe"
+	cont "con solo mirarte!"
 	done
 
 CianwoodPokeCenter1FLassText:
-	text "Did you meet the"
-	line "#Maniac?"
+	text "¿Conociste al"
+	line "#maníaco?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #mon."
+	para "Siempre presume"
+	line "de sus #mon"
+	cont "raros."
 	done
 
 CianwoodPokeCenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #mon that"
+	text "Me encanta lucir a"
+	line "los #mon que he"
+	cont "criado. ¿Y a ti?"
 
-	para "I've raised."
-	line "Don't you?"
-
-	para "I'm going to get"
-	line "into a bunch of"
-
-	para "battles, and show"
-	line "off my #mon!"
+	para "¡Voy a luchar en"
+	line "muchos combates y"
+	cont "presumir de mis"
+	cont "#mon!"
 	done
 
 CianwoodPokeCenter1FRichBoyText:
-	text "There's no #"
-	line "Mart in this town,"
+	text "No hay Tienda"
+	line "#mon aquí,"
 
-	para "so we have to im-"
-	line "port products from"
-	cont "across the sea."
+	para "así que traemos"
+	line "los productos del"
+	cont "otro lado del mar."
 	done

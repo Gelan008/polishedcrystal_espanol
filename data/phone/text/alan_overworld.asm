@@ -1,71 +1,68 @@
 AlanAskNumber1Text:
-	text "Reading textbooks"
-	line "is worthwhile"
-	cont "every so often."
+	text "Leer los libros"
+	line "de texto viene"
+	cont "bien a veces."
 
-	para "When I'm reading"
-	line "and walking, I"
-	cont "have to look down."
+	para "Al andar leyendo,"
+	line "miro al suelo y"
+	cont "veo objetos."
 
-	para "So I notice items"
-	line "on the ground."
+	para "Si encuentro algo,"
+	line "¡te lo daré!"
 
-	para "Next time I find"
-	line "something, I'll"
-	cont "give it to you."
-
-	para "May I have your"
-	line "phone number?"
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 AlanAskNumber2Text:
-	text "If I find some-"
-	line "thing, it's yours."
+	text "Si encuentro algo,"
+	line "será para ti."
 
-	para "So may I have your"
-	line "phone number?"
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 AlanNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I find"
+	text "Te llamaré en"
+	line "cuanto encuentre"
+	cont "algo."
 
-	para "something. You can"
-	line "count on it!"
+	para "¡Puedes contar con"
+	line "ello!"
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… I thought it"
-	line "would be a good"
-
-	para "break to call you"
-	line "when I'm studying…"
+	text "Vaya… Creí que"
+	line "sería un buen"
+	cont "descanso llamarte"
+	cont "mientras estudio…"
 	done
 
 AlanPhoneFullText:
-	text "There's no room"
-	line "for my number."
+	text "No tienes sitio"
+	line "para mi número."
 	done
 
 AlanRematchText:
-	text "I waited around"
-	line "for you!"
+	text "¡Te estaba"
+	line "esperando!"
 
-	para "I'm thoroughly"
-	line "prepared today!"
+	para "¡Hoy estoy muy"
+	line "bien preparado!"
 	done
 
 AlanGiftText:
-	text "This, this! This"
-	line "is yours! Ta-da!"
+	text "¡Esto, esto!"
+	line "¡Esto es tuyo!"
+	cont "¡Tachán!"
 	done
 
 AlanPackFullText:
-	text "Whoops!"
+	text "¡Ups!"
 
-	para "You can't carry"
-	line "any more items!"
+	para "¡No puedes llevar"
+	line "más objetos!"
 
-	para "I'll hold it until"
-	line "next time."
+	para "Lo guardaré hasta"
+	line "la próxima vez."
 	done

@@ -162,12 +162,12 @@ Movement_TrainerHouseTurnBack:
 	step_end
 
 TrainerHouseB1FIntroText:
-	text "Hi. Welcome to our"
-	line "Training Hall."
+	text "¡Bienvenido a la"
+	line "Sala de Combates!"
 
-	para "You may battle a"
-	line "trainer once per"
-	cont "day."
+	para "Puedes luchar con"
+	line "un entrenador una"
+	cont "vez al día."
 	done
 
 TrainerHouseB1FYourOpponentIsText:
@@ -177,51 +177,46 @@ TrainerHouseB1FYourOpponentIsText:
 	done
 
 TrainerHouseB1FAskWantToBattleText:
-	text "Would you like to"
-	line "battle?"
+	text "¿Quieres luchar?"
 	done
 
 TrainerHouseB1FGoRightInText:
-	text "Please go right"
-	line "through."
+	text "Pasa al fondo,"
+	line "por favor."
 
-	para "You may begin"
-	line "right away."
+	para "Puedes empezar de"
+	line "inmediato."
 	done
 
 TrainerHouseB1FPleaseComeAgainText:
-	text "Sorry. Only those"
-	line "trainers who will"
-
-	para "be battling are"
-	line "allowed to go in."
+	text "Lo siento. Solo"
+	line "los entrenadores"
+	cont "que luchen tienen"
+	cont "acceso permitido."
 	done
 
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "I'm sorry."
-	line "This would be your"
+	text "Lo siento, ya has"
+	line "luchado hoy."
 
-	para "second time today."
-	line "You're permitted"
-
-	para "to enter just once"
-	line "a day."
+	para "Solo se permite un"
+	line "combate al día."
 	done
 
 TrainerHouseB1FOpponentBeatenText:
-	text "I lost…"
-	line "Darn…"
+	text "He perdido…"
+	line "Maldición…"
 	done
 
 TrainerHouseB1FOpponentBeforeText:
-	text "I traveled out"
-	line "here just so I"
-	cont "could battle you."
+	text "¡He venido hasta"
+	line "aquí solo para"
+	cont "luchar contra ti!"
 	done
 
 TrainerHouseB1FEarnedBattlePointText:
-	text "<PLAYER> earned"
-	line "1 BP!"
+	text "¡<PLAYER> ganó"
+	line "1 PB!"
 	done
 
 GetDailyTrainerHouseOpponent:

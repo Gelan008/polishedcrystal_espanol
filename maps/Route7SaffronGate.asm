@@ -32,26 +32,24 @@ Route7SaffronGuardScript:
 	done
 
 Route7SaffronGuardSeriousText:
-	text "I take my guard"
-	line "job seriously."
+	text "Me tomo en serio"
+	line "mi trabajo de"
+	cont "guardia."
 
-	para "Hey! You have a"
+	para "¡Eh! Si tienes una"
 	line "#dex."
 
-	para "OK. You can go"
-	line "through."
+	para "De acuerdo, puedes"
+	line "pasar."
 	done
 
 Route7SaffronGateSilphEmployeeText:
-	text "The Elite Four's"
-	line "Bruno used to hone"
+	text "Bruno, del Alto"
+	line "Mando, solía pulir"
+	cont "su técnica en"
+	cont "Ciudad Azafrán."
 
-	para "his skills in"
-	line "Saffron."
-
-	para "He trained with a"
-	line "guy named Brawly"
-
-	para "back in the early"
-	line "days."
+	para "Entrenó con un"
+	line "tal Marcial en sus"
+	cont "primeros tiempos."
 	done

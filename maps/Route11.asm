@@ -38,16 +38,16 @@ GenericTrainerYoungsterOwen:
 	done
 
 YoungsterOwenSeenText:
-	text "There's no cheat-"
-	line "ing in #mon."
+	text "No hay trampas que"
+	line "valgan con los"
+	cont "#mon."
 
-	para "Let's keep it fair"
-	line "and square!"
+	para "¡Juguemos limpio!"
 	done
 
 YoungsterOwenBeatenText:
-	text "Huh? How did this"
-	line "happen?"
+	text "¿Eh? ¿Cómo ha"
+	line "podido pasar?"
 	done
 
 GenericTrainerYoungsterJason:
@@ -59,16 +59,15 @@ GenericTrainerYoungsterJason:
 	done
 
 YoungsterJasonSeenText:
-	text "It itches and"
-	line "tickles a bit when"
-
-	para "I wear shorts in"
-	line "the grass."
+	text "Ir en pantalones"
+	line "cortos por la"
+	cont "hierba pica y hace"
+	cont "cosquillas."
 	done
 
 YoungsterJasonBeatenText:
-	text "Aiyaaah!"
-	line "I got stomped!"
+	text "¡Aaaay!"
+	line "¡Me han machacado!"
 	done
 
 GenericTrainerYoungsterAlfie:
@@ -114,15 +113,15 @@ GenericTrainerPsychicFidel:
 	done
 
 PsychicFidelSeenText:
-	text "I can see it…"
+	text "Puedo verlo…"
 
-	para "Everything to see"
-	line "about you…"
+	para "Todo lo relativo"
+	line "a ti…"
 	done
 
 PsychicFidelBeatenText:
-	text "I couldn't foresee"
-	line "your power…"
+	text "No pude prever tu"
+	line "gran poder…"
 	done
 
 GenericTrainerPsychicUri:
@@ -215,14 +214,15 @@ GenericTrainerGuitaristfRitsuko:
 	done
 
 .SeenText:
-	text "Hey ho, let's go!"
+	text "¡Hey, ho, let's"
+	line "go!"
 	done
 
 .BeatenText:
-	text "There's no success"
-	line "for me…"
+	text "No hay éxito para"
+	line "mí…"
 	done
 
 Route11SignText:
-	text "Route 11"
+	text "Ruta 11"
 	done

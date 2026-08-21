@@ -352,11 +352,9 @@ TeamRocketBaseB2FTransmitterScript:
 	done
 
 .DeactivateTransmitterText:
-	text "The radio trans-"
-	line "mitter has finally"
-
-	para "stopped its evil"
-	line "broadcast."
+	text "El transmisor"
+	line "por fin detuvo su"
+	cont "maléfica emisión."
 	done
 
 RocketBaseLanceLeavesAfterHealMovement:
@@ -542,265 +540,235 @@ RocketBasePlayerLeavesElectrodesMovement3:
 	step_end
 
 RocketBaseExecutiveFHoldItText:
-	text "Hold it right"
-	line "there!"
+	text "¡Alto ahí!"
 	done
 
 RocketBaseBossFThrashText:
-	text "We can't have a"
-	line "brat like you on"
-	cont "the loose."
+	text "No podemos dejar a"
+	line "un niñato como"
+	cont "tú suelto."
 
-	para "It's harmful to"
-	line "Team Rocket's"
-	cont "pride, you see."
+	para "Daña el orgullo"
+	line "del Team Rocket,"
+	cont "¿sabes?"
 
-	para "However strong you"
-	line "may be, you can't"
+	para "Por muy fuerte que"
+	line "seas, no podrás"
+	cont "con los dos a la"
+	cont "vez."
 
-	para "take both of us at"
-	line "the same time."
-
-	para "Sorry, baby. Now"
-	line "get ready to be"
-	cont "thrashed."
+	para "Lo siento, cielo."
+	line "¡Prepárate para"
+	cont "una paliza!"
 	done
 
 RocketBaseLanceShareFunText:
-	text "Hey! Don't be so"
-	line "selfish. Spread"
-	cont "the fun around."
+	text "¡Oye! No seas tan"
+	line "egoísta. Comparte"
+	cont "la diversión."
 	done
 
 RocketBaseBossDontMeddleText:
-	text "What? You had an"
-	line "accomplice?"
+	text "¿Qué? ¿Tenías un"
+	line "cómplice?"
 
-	para "Where is your"
-	line "sense of honor?"
+	para "¿Dónde está tu"
+	line "sentido del honor?"
 
-	para "As the interim"
-	line "boss in place of"
-
-	para "Giovanni, I'll"
-	line "show you how wrong"
-
-	para "it is to meddle"
-	line "with Team Rocket!"
+	para "Como líder en"
+	line "ausencia de"
+	cont "Giovanni, ¡verás"
+	cont "lo que es meterse"
+	cont "con Team Rocket!"
 	done
 
 RocketBaseBossWinText:
-	text "Tch, you really"
-	line "are strong."
+	text "Tch, realmente"
+	line "eres fuerte."
 
-	para "It's too bad."
+	para "Es una lástima."
 
-	para "If you were to"
-	line "join Team Rocket,"
-
-	para "you could become"
-	line "an Executive."
+	para "Si te unieras al"
+	line "Team Rocket,"
+	cont "podrías llegar a"
+	cont "ser un Ejecutivo."
 	done
 
 RocketBaseBossRetreatText:
-	text "…This hideout is"
-	line "done for…"
+	text "…Esta guarida está"
+	line "acabada…"
 
-	para "But that's fine."
-	line "The broadcast ex-"
-	cont "periment was a"
-	cont "total success."
+	para "Pero no importa."
+	line "El experimento de"
+	cont "las ondas de radio"
+	cont "fue un gran éxito."
 
-	para "It doesn't matter"
-	line "what happens to"
-	cont "this hideout now."
+	para "Da igual lo que le"
+	line "pase a esta base."
 
-	para "We have much big-"
-	line "ger plans."
+	para "Tenemos planes"
+	line "mucho mayores."
 
-	para "You'll come to"
-	line "appreciate Team"
+	para "¡Pronto verás el"
+	line "auténtico poder"
+	cont "del Team Rocket!"
 
-	para "Rocket's true"
-	line "power soon enough."
+	para "Disfruta mientras"
+	line "puedas…"
 
-	para "Enjoy yourself"
-	line "while you can…"
-
-	para "Fufufufu…"
+	para "Ju, ju, ju, ju…"
 	done
 
 RocketBaseLancePostBattleText:
-	text "Lance: That did"
-	line "it. We defeated"
+	text "Lance: Listo."
+	line "Hemos derrotado a"
+	cont "todos los Rocket"
+	cont "de aquí."
 
-	para "all the Rockets"
-	line "here."
-
-	para "But I'm concerned"
-	line "about the young"
-
-	para "guy I battled in"
-	line "the process…"
+	para "Pero me preocupa"
+	line "el chico con el"
+	cont "he luchado antes…"
 	done
 
 RocketBaseLancePowerOffText:
-	text "Sorry, <PLAYER>."
-	line "I saw how well you"
+	text "Perdona, <PLAYER>."
+	line "Vi lo bien que lo"
+	cont "hacías y decidí no"
+	cont "intervenir."
 
-	para "were doing, so I"
-	line "just hung back."
-
-	para "Now all there is"
-	line "left to do is to"
-
-	para "turn off that odd"
-	line "radio signal."
+	para "Ahora solo nos"
+	line "queda apagar esa"
+	cont "extraña señal de"
+	cont "radio."
 	done
 
 RockerBaseLanceElectrodeFaintText:
-	text "It's this machine"
-	line "that's causing all"
-	cont "the problems."
+	text "Esta máquina es la"
+	line "causa de todos los"
+	cont "problemas."
 
-	para "I don't see a"
-	line "switch on it…"
+	para "No veo ningún"
+	line "interruptor…"
 
-	para "We have no choice."
-	line "We have to make"
+	para "No hay opción:"
+	line "debemos debilitar"
+	cont "a los Electrode."
 
-	para "all the Electrode"
-	line "faint."
+	para "Eso evitará que la"
+	line "máquina siga con"
+	cont "la extraña señal."
 
-	para "That should stop"
-	line "this machine from"
+	para "Los #mon no"
+	line "tienen culpa, me"
+	cont "da pena por ellos."
 
-	para "transmitting that"
-	line "strange signal."
-
-	para "It's no fault of"
-	line "the #mon, so it"
-
-	para "makes me feel"
-	line "guilty."
-
-	para "<PLAYER>, let's"
-	line "split the job."
+	para "¡<PLAYER>, vamos a"
+	line "repartirnos el"
+	cont "trabajo!"
 	done
 
 RocketBaseLancesSideText:
-	text "Lance: Leave this"
-	line "side to me."
+	text "Lance: Déjame este"
+	line "lado a mí."
 	done
 
 RocketBaseLanceElectrodeDoneText:
-	text "Lance: That odd"
-	line "signal has finally"
-	cont "stopped."
+	text "Lance: Por fin ha"
+	line "cesado esa extraña"
+	cont "señal."
 
-	para "The lake should be"
-	line "back to normal."
+	para "El lago debería"
+	line "volver a la calma."
 
-	para "You're the hero!"
-	line "Let me thank you"
+	para "¡Eres un héroe!"
+	line "Te lo agradezco en"
+	cont "nombre de todos"
+	cont "los #mon."
 
-	para "on behalf of all"
-	line "the #mon."
+	para "Ah, sí. Deberías"
+	line "quedarte esto."
 
-	para "Oh, yes. You"
-	line "should take this."
-
-	para "I found it here,"
-	line "but I don't have"
-	cont "any need for it."
+	para "Lo encontré aquí y"
+	line "yo no lo necesito."
 	done
 
 RocketBaseLanceWhirlpoolText:
-	text "That's Thief."
-	line "I trust you won't"
-
-	para "abuse it the way"
-	line "Team Rocket does."
+	text "Es Ladrón."
+	line "Confío en que no"
+	cont "abuses de él como"
+	cont "el Team Rocket."
 	done
 
 RocketBaseLanceMonMasterText:
 	text "<PLAYER>…"
 
-	para "The journey to be-"
-	line "coming the #mon"
+	para "El camino para ser"
+	line "un Maestro #mon"
+	cont "es largo y duro."
 
-	para "Master is long and"
-	line "difficult."
-
-	para "Knowing that, will"
-	line "you keep going?"
+	para "Sabiendo eso,"
+	line "¿seguirás firme?"
 
 	para "…"
 
-	para "I see. No, you're"
-	line "right."
+	para "Ya veo. No, tienes"
+	line "razón."
 
-	para "If you would give"
-	line "up that easily,"
+	para "Si te rindieras"
+	line "tan fácilmente,"
+	cont "no perseguirías"
+	cont "este sueño."
 
-	para "you would have"
-	line "never chased that"
-
-	para "dream in the first"
-	line "place."
-
-	para "I look forward to"
-	line "seeing you again!"
+	para "¡Espero que nos"
+	line "volvamos a ver!"
 	done
 
 LanceHealsText1:
-	text "Lance: Are you all"
-	line "right?"
+	text "Lance: ¿Estás"
+	line "bien?"
 
-	para "Your #mon are"
-	line "hurt and tired."
+	para "Tus #mon están"
+	line "muy agotados."
 
-	para "Here, give them"
-	line "some of my medi-"
-	cont "cine."
+	para "Toma, dales algo"
+	line "de mi medicina."
 	done
 
 LanceHealsText2:
-	text "Lance: <PLAYER>,"
-	line "let's give it our"
-	cont "best for #mon."
+	text "Lance: ¡<PLAYER>,"
+	line "demos lo mejor de"
+	cont "nosotros por los"
+	cont "#mon!"
 	done
 
 GruntM17SeenText:
-	text "The door won't"
-	line "open?"
+	text "¿Que la puerta no"
+	line "se abre?"
 
-	para "Well, duh."
-	line "It has to have a"
-
-	para "password that only"
-	line "Team Rocket knows."
+	para "Pues claro. Hace"
+	line "falta una clave"
+	cont "que solo sabe el"
+	cont "Team Rocket."
 	done
 
 GruntM17BeatenText:
-	text "What? I lost?"
+	text "¿Qué? ¿He"
+	line "perdido?"
 	done
 
 GruntM18SeenText:
-	text "Oh, a kid? I don't"
-	line "really like this,"
-
-	para "but eliminate you"
-	line "I must."
+	text "¿Eh? ¿Un crío? No"
+	line "me gusta esto,"
+	cont "pero te venceré."
 	done
 
 GruntM18BeatenText:
-	text "I knew I'd lose…"
+	text "Sabía que iba a"
+	line "perder…"
 	done
 
 GruntM19SeenText:
-	text "You rotten little"
-	line "pest!"
+	text "¡Mocoso asqueroso!"
 	done
 
 GruntM19BeatenText:
@@ -808,17 +776,21 @@ GruntM19BeatenText:
 	done
 
 RocketBaseDoorNoPasswordText:
-	text "The door's closed…"
+	text "La puerta está"
+	line "cerrada…"
 
-	para "It needs a pass-"
-	line "word to open."
+	para "Se necesita una"
+	line "contraseña para"
+	cont "abrirla."
 	done
 
 RocketBaseDoorKnowPasswordText:
-	text "The door's closed…"
+	text "La puerta está"
+	line "cerrada…"
 
-	para "<PLAYER> entered"
-	line "the password."
+	para "<PLAYER> introdujo"
+	line "la contraseña."
 
-	para "The door opened!"
+	para "¡La puerta se ha"
+	line "abierto!"
 	done

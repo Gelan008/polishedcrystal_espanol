@@ -153,24 +153,24 @@ SailorHuey1Script:
 	jumpstd rematchgiftm
 
 SailorHuey1SeenText:
-	text "Men of the sea are"
-	line "always spoiling"
-	cont "for a good fight!"
+	text "¡Los hombres de"
+	line "mar siempre buscan"
+	cont "una buena pelea!"
 	done
 
 SailorHuey1BeatenText:
-	text "Urf!"
-	line "I lose!"
+	text "¡Urrgf!"
+	line "¡He perdido!"
 	done
 
 GentlemanAlfredSeenText:
-	text "Hm? This is no"
-	line "place for playing."
+	text "¿Mmm? Este no es"
+	line "lugar para jugar."
 	done
 
 GentlemanAlfredBeatenText:
-	text "Ah! I can see that"
-	line "you're serious."
+	text "¡Ah! Veo que vas"
+	line "en serio."
 	done
 
 GentlemanAlfredAfterBattleText:
@@ -186,22 +186,21 @@ GentlemanAlfredAfterBattleText:
 	done
 
 GentlemanAlfredFinalText:
-	text "Up top is a #-"
-	line "mon that keeps the"
-	cont "Lighthouse lit."
+	text "Arriba, un #mon"
+	line "mantiene el Faro"
+	cont "encendido."
 
-	para "You helped cure"
-	line "its sickness?"
-
-	para "You've done us a"
-	line "real service!"
+	para "¿Has ayudado a"
+	line "curar su mal?"
+	cont "¡Menudo favor!"
 	done
 
 SailorHueyGiveProteinText:
-	text "Man! You're as"
-	line "tough as ever!"
+	text "¡Tío! ¡Sigues tan"
+	line "fuerte como"
+	cont "siempre!"
 
-	para "Anyway, here's"
-	line "that medicine from"
-	cont "before."
+	para "En fin, toma esta"
+	line "medicina de la"
+	cont "otra vez"
 	done

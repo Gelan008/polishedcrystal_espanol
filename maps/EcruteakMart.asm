@@ -17,26 +17,25 @@ EcruteakMart_MapScriptHeader:
 	object_event  6,  6, SPRITE_RICH_BOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakMartGrannyText, -1
 
 EcruteakMartSuperNerdText:
-	text "My Eevee evolved"
-	line "into an Espeon."
+	text "Mi Eevee ha"
+	line "evolucionado a"
+	cont "un Espeon."
 
-	para "But my friend's"
-	line "Eevee turned into"
-	cont "an Umbreon."
+	para "¡Pero el de mi"
+	line "amigo se convirtió"
+	cont "en un Umbreon!"
 
-	para "I wonder why? We"
-	line "both were raising"
-
-	para "our Eevee in the"
-	line "same way…"
+	para "¿Por qué será?"
+	line "Si ambos cuidamos"
+	cont "a nuestros Eevee"
+	cont "del mismo modo…"
 	done
 
 EcruteakMartGrannyText:
-	text "The Magnet Train"
-	line "in Goldenrod is"
-	cont "great, but there"
+	text "El Magnetotrén de"
+	line "Trigal es genial,"
+	cont "pero al principio"
 
-	para "were also plans to"
-	line "put a station in"
-	cont "Ecruteak at first."
+	para "iban a poner una"
+	line "estación en Iris."
 	done

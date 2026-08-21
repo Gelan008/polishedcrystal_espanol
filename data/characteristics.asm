@@ -33,133 +33,136 @@ Characteristics:
 	assert_table_length NUM_STATS * 5
 
 .Chara_HP0:
-	text  "Loves to"
-	next1 "eat"
+	text  "Le encanta"
+	next1 "comer"
 	done
 .Chara_HP1:
-	text  "Takes"
-	next1 "plenty of"
-	next1 "siestas"
+	text  "Duerme"
+	next1 "mucha"
+	next1 "siesta"
 	done
 .Chara_HP2:
-	text  "Nods off"
-	next1 "a lot"
+	text  "Se duerme"
+	next1 "a menudo"
 	done
 .Chara_HP3:
-	text  "Scatters"
-	next1 "things"
-	next1 "often"
+	text  "A menudo"
+	next1 "lo tira"
+	next1 "todo"
 	done
 .Chara_HP4:
-	text  "Likes to"
-	next1 "relax"
+	text  "Le gusta"
+	next1 "relajarse"
 	done
 
 .Chara_Atk0:
-	text  "Proud of"
-	next1 "its power"
+	text  "Orgulloso"
+	next1 "de su"
+	next1 "fuerza"
 	done
 .Chara_Atk1:
-	text  "Likes to"
-	next1 "thrash"
-	next1 "about"
+	text  "A veces"
+	next1 "se enfada"
 	done
 .Chara_Atk2:
-	text  "A little"
-	next1 "quick"
-	next1 "tempered"
+	text  "Un poco"
+	next1 "cascarrab-"
+	next1 "ias"
 	done
 .Chara_Atk3:
-	text  "Likes to"
-	next1 "fight"
+	text  "Le gusta"
+	next1 "luchar"
 	done
 .Chara_Atk4:
-	text  "Quick"
-	next1 "tempered"
+	text  "Muy casca-"
+	next1 "-rrabias"
 	done
 
 .Chara_Def0:
-	text  "Sturdy"
-	next1 "body"
+	text  "Cuerpo"
+	next1 "robusto"
 	done
 .Chara_Def1:
-	text  "Capable of"
-	next1 "taking"
-	next1 "hits"
+	text  "Buen"
+	next1 "encajador"
 	done
 .Chara_Def2:
-	text  "Highly"
-	next1 "persistent"
+	text  "Muy"
+	next1 "persist-"
+	next1 "ente"
 	done
 .Chara_Def3:
-	text  "Good"
-	next1 "endurance"
+	text  "Buena"
+	next1 "resisten-"
+	next1 "cia"
 	done
 .Chara_Def4:
-	text  "Good"
+	text  "Gran"
 	next1 "persever-"
-	next1 "ance"
+	next1 "ancia"
 	done
 
 .Chara_SAt0:
-	text  "Highly"
-	next1 "curious"
+	text  "Muy"
+	next1 "curioso"
 	done
 .Chara_SAt1:
-	text  "Mischiev-"
-	next1 "ous"
+	text  "Es un"
+	next1 "travieso"
 	done
 .Chara_SAt2:
-	text  "Thoroughly"
-	next1 "cunning"
+	text  "Muy"
+	next1 "astuto"
 	done
 .Chara_SAt3:
-	text  "Often lost"
-	next1 "in thought"
+	text  "Suele"
+	next1 "pensar"
+	next1 "mucho"
 	done
 .Chara_SAt4:
-	text  "Very"
-	next1 "finicky"
+	text  "Muy"
+	next1 "capricho-"
+	next1 "so"
 	done
 
 .Chara_SDf0:
-	text  "Strong"
-	next1 "willed"
+	text  "Fuerte"
+	next1 "voluntad"
 	done
 .Chara_SDf1:
-	text  "Somewhat"
-	next1 "vain"
+	text  "Un poco"
+	next1 "orgulloso"
 	done
 .Chara_SDf2:
-	text  "Strongly"
-	next1 "defiant"
+	text  "Muy"
+	next1 "rebelde"
 	done
 .Chara_SDf3:
-	text  "Hates to"
-	next1 "lose"
+	text  "Odia"
+	next1 "perder"
 	done
 .Chara_SDf4:
-	text  "Somewhat"
-	next1 "stubborn"
+	text  "Un poco"
+	next1 "cabezón"
 	done
 
 .Chara_Spe0:
-	text  "Likes to"
-	next1 "run"
+	text  "Le gusta"
+	next1 "correr"
 	done
 .Chara_Spe1:
-	text  "Alert to"
-	next1 "sounds"
+	text  "Oído"
+	next1 "atento"
 	done
 .Chara_Spe2:
-	text  "Impetuous"
-	next1 "and silly"
+	text  "Atolondra-"
+	next1 "do"
 	done
 .Chara_Spe3:
-	text  "Somewhat"
-	next1 "of a clown"
+	text  "Un poco"
+	next1 "payaso"
 	done
 .Chara_Spe4:
-	text  "Quick to"
-	next1 "flee"
+	text  "Huye"
+	next1 "rápido"
 	done

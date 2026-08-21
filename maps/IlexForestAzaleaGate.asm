@@ -44,62 +44,54 @@ ProfOaksAide1Script:
 	jumpopenedtext ProfOaksAide1NoRoomText
 
 IlexForestAzaleaGateOfficerText:
-	text "Ilex Forest is"
-	line "big. Be careful!"
-	cont "Don't get lost."
+	text "El Encinar es muy"
+	line "grande. ¡Cuidado"
+	cont "con perderte!"
 	done
 
 IlexForestAzaleaGateGrannyText:
-	text "The Forest is"
-	line "watched over by"
-	cont "its protector."
+	text "El Encinar es"
+	line "vigilado por su"
+	cont "protector."
 
-	para "Stay out of"
-	line "mischief!"
+	para "¡No te metas en"
+	line "líos!"
 	done
 
 ProfOaksAide1HiText:
-	text "Hello there! I'm"
-	line "Prof.Oak's aide."
+	text "¡Hola! Ayudo al"
+	line "Prof. Oak."
 
-	para "If you caught 15"
-	line "kinds of #mon,"
+	para "Si atrapaste 15"
+	line "especies #mon,"
+	cont "te daré un regalo."
 
-	para "I'm supposed to"
-	line "give you an item."
-
-	para "So, <PLAYER>,"
-	line "have you caught"
-
-	para "at least 15 kinds"
-	line "of #mon?"
+	para "Dime, <PLAYER>,"
+	line "¿llevas ya 15"
+	cont "especies #mon?"
 	done
 
 ProfOaksAide1UhOhText:
-	text "Let's see…"
-	line "Uh-oh! You've only"
-
-	para "caught "
+	text "A ver… ¡Vaya!"
+	line "Solo has atrapado"
+	cont ""
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " especies #mon."
 
-	para "Come back and see"
-	line "me when you catch"
-	cont "15 kinds."
+	para "Vuelve cuando"
+	line "tengas al menos 15"
+	cont "especies."
 	done
 
 ProfOaksAide1HereYouGoText:
-	text "Let's see…"
-	line "Great job! You've"
-
-	para "caught "
+	text "A ver… ¡Genial!"
+	line "Has atrapado "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text ""
+	line "especies #mon."
 
-	para "Congratulations!"
-	line "Here you go!"
+	para "¡Enhorabuena!"
+	line "¡Aquí tienes!"
 	done
 
 ProfOaksAide1NoRoomText:

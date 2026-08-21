@@ -77,10 +77,11 @@ BattleTowerOutsidePanUpHelperScript:
 	step_end
 
 BattleTowerOutsideSignText:
-	text "Battle Tower"
+	text "Torre Batalla"
 
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	para "¡Acepta el desafío"
+	line "de entrenador"
+	cont "definitivo!"
 	done
 
 BattleTowerOutsideAnabelScript:
@@ -118,51 +119,52 @@ BattleTowerOutsideAnabelScript:
 	end
 
 .ChallengeText:
-	text "Greetings… My name"
-	line "is Anabel."
+	text "Saludos... Mi"
+	line "nombre es Destra."
 
-	para "…You are <PLAYER>?"
-	line "I have heard sev-"
-	cont "eral rumors about"
-	cont "you…"
+	para "¿...Eres <PLAYER>?"
+	line "He oído varios"
+	cont "rumores sobre ti…"
 
-	para "Let me see your"
-	line "talent in its"
-	cont "entirety…"
+	para "Déjame ver tu"
+	line "talento en su"
+	cont "totalidad…"
 	done
 
 .YesText:
-	text "Let's begin,"
-	line "shall we?"
+	text "Empecemos,"
+	line "¿te parece?"
 	done
 
 .NoText:
-	text "It's very dis-"
-	line "appointing…"
+	text "Es muy"
+	line "decepcionante…"
 	done
 
 .BeatenText:
-	text "OK, I understand…"
+	text "Vale, entendido…"
 	done
 
 .ItemText:
-	text "Fufufu, nicely"
-	line "done…"
+	text "Jujuju, muy bien"
+	line "hecho…"
 
-	para "Take this, please…"
+	para "Toma esto,"
+	line "por favor…"
 	done
 
 .GoodbyeText:
-	text "I urge you to keep"
-	line "battling and keep"
-	cont "on winning."
+	text "Te animo a seguir"
+	line "combatiendo y"
+	cont "ganando."
 
-	para "I will be waiting"
-	line "for you in this"
-	cont "Battle Tower."
+	para "Te estaré"
+	line "esperando en la"
+	cont "Torre Batalla."
 
-	para "Until the next"
-	line "time we meet…"
+	para "Hasta la próxima"
+	line "vez que nos"
+	cont "veamos…"
 	done
 
 BattleTowerOutsideYoungsterScript:
@@ -202,28 +204,31 @@ BattleTowerOutsideBeautyScript:
 	done
 
 .OpenText:
-	text "You can use only"
-	line "three #mon."
+	text "Solo puedes usar"
+	line "tres #mon."
 
-	para "It's so hard to"
-	line "decide which three"
-
-	para "should go into"
-	line "battle…"
+	para "Es tan difícil"
+	line "decidir cuáles"
+	cont "irán a luchar en"
+	cont "los combates…"
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "Jejeje, me he"
+	line "escaqueado del"
+	cont "trabajo."
 
-	para "I can't bail out"
-	line "until I've won!"
+	para "¡No puedo"
+	line "rendirme hasta"
+	cont "ganar!"
 
-	para "I have to win it"
-	line "all. That I must!"
+	para "Tengo que ganarlo"
+	line "todo. ¡Claro que"
+	cont "sí!"
 	done
 
 BattleTowerOutsideDoorsClosedText:
-	text "The Battle Tower's"
-	line "doors are closed…"
+	text "Las puertas de la"
+	line "Torre Batalla"
+	cont "están cerradas…"
 	done

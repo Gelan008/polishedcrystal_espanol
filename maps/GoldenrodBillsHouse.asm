@@ -323,172 +323,142 @@ BillsSister:
 	done
 
 BillsGrandpaIntroText:
-	text "Hm? You know Bill?"
-	line "He's my grandson."
+	text "¿Eh? ¿Conoces a"
+	line "Bill? Es mi nieto."
 
-	para "He's in Kanto. He"
-	line "does something"
-
-	para "with PCs, so I'm"
-	line "house-sitting."
+	para "Está en Kanto con"
+	line "sus PCs, y yo me"
+	cont "ocupo de la casa."
 	done
 
 BillsGrandpaAskToSeeMonText:
-	text "If you have that"
-	line "#mon, may I see"
-	cont "it, please?"
+	text "Si tienes a ese"
+	line "#mon, ¿podría"
+	cont "verlo, por favor?"
 	done
 
 BillsGrandpaExcitedToSeeText:
-	text "You will show me?"
-	line "How good of you!"
+	text "¿Me lo enseñarás?"
+	line "¡Qué amable eres!"
 	done
 
 BillsGrandpaYouDontHaveItTextText:
-	text "You don't have it?"
-	line "That's too bad…"
+	text "¿No lo tienes?"
+	line "Qué pena…"
 	done
 
 BillsGrandpaShownPokemonText:
-	text "Ah, so that is"
-	line ""
+	text "Ah, ¿así que ese"
+	line "es "
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Isn't it cute!"
-	line "That's so kind of"
-	cont "you."
+	para "¡Es muy mono!"
+	line "Eres muy amable."
 	done
 
 BillsGrandpaTokenOfAppreciationText:
-	text "Thanks!"
+	text "¡Gracias!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Esto es una"
+	line "muestra de mi"
+	cont "agradecimiento."
 	done
 
 BillsGrandpaComeAgainText:
-	text "Come visit again"
-	line "sometime."
+	text "Ven a visitarme"
+	line "algún otro día."
 	done
 
 BillsGrandpaShownAllThePokemonText:
-	text "Thanks for showing"
-	line "me so many cute"
-	cont "#mon."
+	text "¡Gracias por"
+	line "traerme tantos"
+	cont "#mon tan monos!"
 
-	para "I really enjoyed"
-	line "myself. I'm glad"
-
-	para "I've lived such a"
-	line "long life."
+	para "Me alegra haber"
+	line "vivido una vida"
+	cont "tan larga y feliz."
 	done
 
 BillsGrandpaSnubbullText:
-	text "My grandson Bill"
-	line "told me about a"
-
-	para "short, pink canine"
-	line "#mon with blue"
-	cont "polka dots."
+	text "Bill me habló de"
+	line "un #mon canino,"
+	cont "rosa y con lunares"
+	cont "azules."
 	done
 
 BillsGrandpaTogepiText:
-	text "Do you know of a"
-	line "#mon that has a"
+	text "¿Conoces a un"
+	line "#mon con marcas"
+	cont "rojas y azules en"
+	cont "su cascarón?"
 
-	para "shell covered in"
-	line "red and blue"
-	cont "triangles?"
-
-	para "It's supposed to"
-	line "be a symbol of"
-	cont "good luck."
+	para "Dicen que da muy"
+	line "buena suerte."
 	done
 
 BillsGrandpaMurkrowText:
-	text "Do you know of a"
-	line "bird #mon that"
+	text "¿Conoces a un ave"
+	line "#mon con pico"
+	cont "amarillo y plumas"
+	cont "negras?"
 
-	para "has a crooked"
-	line "yellow beak and"
-	cont "black feathers?"
-
-	para "I heard that it"
-	line "appears at night."
-
-	para "I would quite"
-	line "like to see it."
+	para "Dicen que sale de"
+	line "noche. ¡Me molaría"
+	cont "mucho verlo!"
 	done
 
 BillsGrandpaOddishText:
-	text "Ah, my grandson"
-	line "mentioned a round,"
-
-	para "blue #mon that"
-	line "has leaves growing"
-	cont "on its head."
+	text "Bill me habló de"
+	line "un #mon redondo"
+	cont "y azul con hojas"
+	cont "en la cabeza."
 	done
 
 BillsGrandpaJigglypuffText:
-	text "Bill told me about"
-	line "a pink #mon"
-
-	para "with a hypnotic"
-	line "singing voice."
+	text "Bill me habló de"
+	line "un #mon rosa"
+	cont "que tiene una voz"
+	cont "cantarina e"
+	cont "hipnótica."
 	done
 
 BillsGrandpaBellsproutText:
-	text "My grandson Bill"
-	line "mentioned a green"
-
-	para "#mon that walks"
-	line "on its roots."
+	text "Bill me habló de"
+	line "un #mon verde"
+	cont "que camina sobre"
+	cont "sus raíces."
 	done
 
 BillsGrandpaStaryuText:
-	text "Do you know of a"
-	line "sea #mon that"
+	text "¿Conoces a un"
+	line "#mon marino con"
+	cont "una esfera roja y"
+	cont "forma de estrella?"
 
-	para "has a red sphere"
-	line "in its body?"
-
-	para "You know, the one"
-	line "that's shaped like"
-	cont "a star?"
-
-	para "I heard that it"
-	line "appears at night."
-
-	para "I would surely"
-	line "like to see it."
+	para "Oí que aparece de"
+	line "noche. ¡Me molaría"
+	cont "mucho verlo!"
 	done
 
 BillsGrandpaGrowlitheText:
-	text "Bill told me about"
-	line "a #mon that is"
+	text "Bill me habló de"
+	line "un #mon muy"
+	cont "leal a su"
+	cont "entrenador."
 
-	para "very loyal to its"
-	line "trainer."
-
-	para "It's supposed to"
-	line "Roar well."
+	para "Dicen que sabe"
+	line "Rugir muy bien."
 	done
 
 BillsGrandpaPichuText:
-	text "Do you know that"
-	line "hugely popular"
-	cont "#mon?"
+	text "¿Conoces al famoso"
+	line "#mon amarillo"
+	cont "y mejillas rojas?"
 
-	para "The #mon that"
-	line "has a yellow body"
-	cont "and red cheeks."
-
-	para "I would love to"
-	line "see what it looks"
-
-	para "like before it"
-	line "evolves."
+	para "Me encantaría ver"
+	line "su aspecto antes"
+	cont "de evolucionar."
 	done
 
 BillsMomText_BeforeEcruteak:
@@ -510,38 +480,35 @@ BillsMomText_BeforeEcruteak:
 	done
 
 BillsMomText_AfterEcruteak:
-	text "My husband was"
-	line "once known as a"
+	text "A mi marido"
+	line "le llamaban"
+	cont "#maníaco en"
+	cont "sus tiempos."
 
-	para "#Maniac."
-	line "Bill must have"
+	para "Bill debe haber"
+	line "salido a su padre."
 
-	para "taken after his"
-	line "father."
-
-	para "But now my husband"
-	line "won't work. He"
-
-	para "just goofs off"
-	line "all day long."
+	para "Pero ahora él no"
+	line "trabaja. ¡Solo se"
+	cont "pasa el día vago!"
 	done
 
 BillsSisterUsefulNumberText:
-	text "Are you a trainer?"
+	text "¿Eres entrenador?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "Tengo un número de"
+	line "teléfono útil para"
+	cont "ti."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "Bill's number."
+	text "<PLAYER> guardó el"
+	line "número de Bill."
 	done
 
 BillsSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "No puedes guardar"
+	line "más números."
 	done
 
 BillsSisterStorageSystemText:

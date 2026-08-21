@@ -43,26 +43,23 @@ PewterJigglypuffText:
 	done
 
 PewterPokeCenter1FTeacherText:
-	text "…Yeah, and the"
-	line "Gym in Cinnabar's"
+	text "…Sí, y el Gimnasio"
+	line "de Isla Canela"
+	cont "ha desaparecido."
 
-	para "gone. I was really"
-	line "amazed."
+	para "¡Me sorprendió"
+	line "muchísimo!"
 
-	para "…Yes? I'm on the"
-	line "phone. Go away!"
+	para "…¿Qué? ¡Estoy al"
+	line "teléfono! ¡Largo!"
 	done
 
 PewterPokeCenter1FChildText:
-	text "Most #mon get"
-	line "drowsy if they"
+	text "Casi todo #mon"
+	line "se duerme al oír"
+	cont "a Jigglypuff."
 
-	para "hear a Jigglypuff"
-	line "singing."
-
-	para "There are several"
-	line "moves that can be"
-
-	para "used only while a"
-	line "#mon is asleep."
+	para "Hay movimientos"
+	line "que solo se usan"
+	cont "mientras duermen."
 	done

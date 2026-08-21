@@ -167,88 +167,90 @@ LavenderTownFinishExpositionScript:
 	step_end
 
 LavenderTownSignText:
-	text "Lavender Town"
+	text "Pueblo Lavanda"
 
-	para "The Noble Purple"
-	line "Town"
+	para "El noble pueblo"
+	line "púrpura"
 	done
 
 KantoRadioStationSignText:
-	text "Kanto Radio"
-	line "Station"
+	text "Torre Radio"
+	line "de Kanto"
 
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	para "¡Tus programas"
+	line "favoritos en el"
+	cont "aire a toda hora!"
 	done
 
 VolunteerPokemonHouseSignText:
-	text "Lavender Volunteer"
-	line "#mon House"
+	text "Casa Voluntarios"
+	line "de #mon de"
+	cont "Lavanda"
 	done
 
 SoulHouseSignText:
-	text "House of Souls"
+	text "Casa de las Almas"
 
-	para "May the Souls of"
-	line "#mon Rest Easy"
+	para "Que las almas de"
+	line "los #mon"
+	cont "descansen en paz."
 	done
 
 LavenderTownPokefanMText:
-	text "That's quite some"
-	line "building, eh?"
+	text "Menudo edificio,"
+	line "¿verdad?"
 
-	para "It's Kanto's Radio"
-	line "Tower."
+	para "Es la Torre Radio"
+	line "de Kanto."
 	done
 
 LavenderTownTeacherText:
-	text "Kanto has many"
-	line "good radio shows."
+	text "Kanto tiene muchos"
+	line "programas buenos"
+	cont "de radio."
 	done
 
 LavenderTownGrampsText:
-	text "People come from"
-	line "all over to pay"
-
-	para "their respects to"
-	line "the departed souls"
-	cont "of #mon."
+	text "Viene gente de"
+	line "todas partes para"
+	cont "honrar a los"
+	cont "#mon difuntos."
 	done
 
 LavenderTownYoungsterText:
-	text "You need a #"
-	line "Flute to wake"
-	cont "sleeping #mon."
+	text "¡Hace falta una"
+	line "# Flauta para"
+	cont "despertar a un"
+	cont "#mon dormido!"
 
-	para "Every trainer has"
-	line "to know that!"
+	para "¡Todo entrenador"
+	line "debe saberlo!"
 	done
 
 LavenderTownSuperNerdText:
-	text "Go back inside the"
-	line "Radio Tower?"
+	text "¿Volver a la"
+	line "Torre Radio?"
 
-	para "You must be"
-	line "crazy!"
+	para "¡Debes de estar"
+	line "loco!"
 	done
 
 LavenderTownCooltrainerFText:
-	text "The Tower's"
-	line "haunted, I just"
-	cont "know it!"
+	text "¡La Torre está"
+	line "encantada, lo"
+	cont "sé!"
 
-	para "I'm so freaked"
-	line "out!"
+	para "¡Tengo mucho"
+	line "miedo!"
 	done
 
 LavenderTownRockerText:
-	text "I thought a job at"
-	line "the Radio Tower"
+	text "Creí que trabajar"
+	line "en la Torre Radio"
+	cont "sería una gran"
+	cont "oportunidad…"
 
-	para "would be my big"
-	line "break, but I'm not"
-
-	para "going back there"
-	line "until it's safe."
+	para "¡Pero no pienso"
+	line "volver hasta que"
+	cont "sea seguro!"
 	done

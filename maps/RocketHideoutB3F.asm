@@ -49,15 +49,14 @@ RocketHideoutB3FCoolDudeDaric:
 	done
 
 .SeenText:
-	text "Emotion clouds"
-	line "judgement."
+	text "La emoción nubla"
+	line "el juicio."
 
-	para "Let's see if your"
-	line "focus is good."
-
+	para "A ver qué tal está"
+	line "tu concentración."
 	done
 
 .BeatenText:
-	text "My judgement was"
-	line "flawed…"
+	text "Mi juicio tenía"
+	line "fallos…"
 	done

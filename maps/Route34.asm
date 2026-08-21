@@ -473,73 +473,67 @@ Route34RichBoyIrvingScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "There are some"
-	line "things that money"
-	cont "can't buy."
+	text "Hay cosas que el"
+	line "dinero no puede"
+	cont "comprar."
 	done
 
 .IntroText:
-	text "I don't need to"
-	line "gamble for Coins."
+	text "No me hace falta"
+	line "apostar Fichas."
 
-	para "I'm rich, so I"
-	line "bought my #-"
-	cont "mon with cash!"
+	para "¡Soy rico, así que"
+	line "compré #mon al"
+	cont "contado!"
 
-	para "They're strong"
-	line "enough that we"
-	cont "beat Azalea's Gym!"
+	para "¡Vencimos en el"
+	line "Gim. de Azalea!"
 
-	para "You want to battle"
-	line "them? Fine--just"
+	para "¿Quieres luchar?"
+	line "¡Pues vence antes"
+	cont "a los demás!"
 
-	para "beat everyone else"
-	line "here first!"
-
-	para "Even the Officer,"
-	line "although she may"
-
-	para "not battle you"
-	line "until night."
+	para "Incluso a la"
+	line "policía, aunque no"
+	cont "luchará hasta la"
+	cont "noche."
 	done
 
 .QuestionText:
-	text "You really did it!"
-	line "Well then,"
+	text "¡De verdad lo has"
+	line "hecho! En fin,"
 	cont "noblesse oblige."
 
-	para "Are you ready to"
-	line "fight my top-shelf"
-	cont "team?"
+	para "¿Aceptas el duelo"
+	line "contra mi equipo"
+	cont "de primera?"
 	done
 
 .RefusedText:
-	text "Not so desperate"
-	line "for prize money"
-	cont "after all?"
+	text "¿No tienes tantas"
+	line "ganas del premio"
+	cont "en metálico?"
 	done
 
 .SeenText:
-	text "I'm a cut above"
-	line "the commoners"
-	cont "you beat here!"
+	text "¡Estoy por encima"
+	line "de la plebe a la"
+	cont "que has ganado!"
 	done
 
 .BeatenText:
-	text "No! My money"
-	line "wasn't enough…"
+	text "¡No! Mi dinero no"
+	line "ha sido bastante…"
 	done
 
 .AfterText1:
-	text "You've clearly"
-	line "earned this item."
+	text "Te has ganado este"
+	line "objeto sin duda."
 
-	para "Sell it and go on"
-	line "a shopping spree,"
-
-	para "or keep it as a"
-	line "memento of our"
-	cont "battle."
+	para "Véndelo y date un"
+	line "buen capricho, o"
+	cont "guárdalo como un"
+	cont "recuerdo nuestro."
 	done
 
 GenericTrainerPokefanmBrandon:
@@ -597,14 +591,15 @@ TrainerCooltrainerfKate:
 	jumpthisopenedtext
 
 CooltrainerfKateAfterText:
-	text "Kate: I'm sorry we"
-	line "jumped you."
+	text "Kate: Siento que"
+	line "te atacáramos así."
 
-	para "We never expected"
-	line "anyone to find us"
+	para "No creíamos que"
+	line "nadie nos fuera a"
+	cont "encontrar aquí."
 
-	para "here. You sure"
-	line "startled us."
+	para "Menudo susto nos"
+	line "has dado."
 	done
 
 Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
@@ -625,23 +620,24 @@ Route34MovementData_LyraEntersDayCare:
 	step_end
 
 Route34LyraText_Grandpa:
-	text "Lyra: Grandpa!"
+	text "Lira: ¡Abuelito!"
 	done
 
 Route34LyraGoodWorkText:
-	text "Lyra: Good work,"
-	line "Grandpa!"
+	text "Lira: ¡Abuelito,"
+	line "buen trabajo!"
 
-	para "The #mon you"
-	line "raised for me is"
-	cont "healthy as can be!"
+	para "¡El #mon que"
+	line "has cuidado está"
+	cont "sanísimo!"
 
-	para "You look fit,"
-	line "too!"
+	para "¡Y a ti se te ve"
+	line "en plena forma!"
 	done
 
 Route34LyraGreetingText:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lira: ¡Hola,"
+	line "<PLAYER>!"
 	done
 
 Route34LyraIntroductionTable:
@@ -690,221 +686,217 @@ Route34LyraIntroductionTable:
 	done
 
 Route34LyraChallengeText:
-	text "<PLAYER>, why don't"
-	line "we show Grandpa"
-	cont "how good you are?"
+	text "<PLAYER>, ¿por qué"
+	line "no le enseñamos al"
+
+	para "abuelito lo que"
+	line "sabes hacer?"
 	done
 
 Route34LyraWinText:
-	text "You're even better"
-	line "than I thought!"
+	text "¡Luchas aún mejor"
+	line "de lo que creía!"
 	done
 
 Route34LyraLossText:
-	text "Well, you're still"
-	line "getting better…"
+	text "Bueno, aún tienes"
+	line "que mejorar…"
 	done
 
 Route34LyraFollowMeText:
-	text "Lyra: Let me"
-	line "introduce you to"
-	cont "Grandma, too!"
+	text "Lira: ¡Ven, que te"
+	line "presento a la"
+	cont "abuelita también!"
 	done
 
 BreederJulieSeenText:
-	text "This is where I"
-	line "train my baby"
-	cont "#mon!"
+	text "¡Aquí es donde"
+	line "entreno a mis"
+	cont "#mon bebé!"
 	done
 
 BreederJulieBeatenText:
-	text "Beaten by a"
-	line "passing stranger!"
+	text "¡He perdido con un"
+	line "desconocido!"
 	done
 
 CamperTodd1SeenText:
-	text "I'm confident in"
-	line "my ability to"
-	cont "raise #mon."
+	text "Confío mucho en mi"
+	line "habilidad criando"
+	cont "#mon."
 
-	para "Want to see?"
+	para "¿Quieres verlo?"
 	done
 
 CamperTodd1BeatenText:
-	text "Did I screw up my"
-	line "training?"
+	text "¿Habré fallado en"
+	line "mi entrenamiento?"
 	done
 
 CamperTodd1AfterText:
-	text "Maybe I should"
-	line "take one to a Day-"
-
-	para "Care. Or maybe use"
-	line "some items…"
+	text "Quizá deba llevar"
+	line "uno a la Guardería"
+	cont "o usar objetos…"
 	done
 
 CamperToddSaleText:
-	text "Shopping under the"
-	line "sky!"
+	text "¡De compras bajo"
+	line "el cielo abierto!"
 
-	para "It feels so nice"
-	line "up on a rooftop."
+	para "¡Da gusto estar en"
+	line "la azotea!"
 	done
 
 PicnickerGina1SeenText:
-	text "Are you a trainer?"
+	text "¿Eres entrenador?"
 
-	para "Let's have a"
-	line "practice battle."
+	para "¡Hagamos un duelo"
+	line "de prueba!"
 	done
 
 PicnickerGina1BeatenText:
-	text "Oh, no! I just"
-	line "can't win…"
+	text "¡Oh, no! Es que no"
+	line "puedo ganar…"
 	done
 
 PicnickerGina1AfterText:
-	text "You're too strong"
-	line "to be a practice"
-	cont "partner."
+	text "Eres demasiado"
+	line "fuerte para ser un"
+	cont "rival de prueba."
 	done
 
 OfficerfMaraSeenText:
-	text "Who goes there?"
-	line "What are you up"
-	cont "to?"
+	text "¿Quién está ahí?"
+	line "¿Qué estás"
+	cont "tramando?"
 	done
 
 OfficerfMaraWinText:
-	text "You're a tough"
-	line "little kid."
+	text "Eres un niño muy"
+	line "duro de pelar."
 	done
 
 OfficerfMaraAfterText:
-	text "Yes, I see nothing"
-	line "wrong today. You"
+	text "Sí, no veo nada"
+	line "raro por aquí."
 
-	para "be good and stay"
-	line "out of trouble."
+	para "Pórtate bien y no"
+	line "te metas en líos."
 	done
 
 OfficerfMaraDaytimeText:
-	text "I'm on patrol for"
-	line "suspicious indi-"
-	cont "viduals."
+	text "Estoy patrullando"
+	line "en busca de gente"
+	cont "sospechosa."
 	done
 
 PokefanmBrandonSeenText:
-	text "I just got my"
-	line "#mon back from"
-	cont "Day-Care."
+	text "Acabo de recoger a"
+	line "mi #mon de la"
+	cont "Guardería."
 
-	para "Let's see how much"
-	line "stronger it got!"
+	para "¡A ver cuánto ha"
+	line "mejorado!"
 	done
 
 PokefanmBrandonBeatenText:
-	text "Why does it end"
-	line "this way?"
+	text "¿Por qué siempre"
+	line "acaba así?"
 	done
 
 CooltrainerfIreneSeenText:
-	text "Irene: Kyaaah!"
-	line "Someone found us!"
+	text "Irene: ¡Kyaaah!"
+	line "¡Nos han pillado!"
 	done
 
 CooltrainerfIreneBeatenText:
-	text "Irene: Ohhh!"
-	line "Too strong!"
+	text "Irene: ¡Auuuch!"
+	line "¡Qué fuerza!"
 	done
 
 CooltrainerfIreneAfterText2:
-	text "Irene: Isn't this"
-	line "beach great?"
+	text "Irene: ¿A que esta"
+	line "playa mola mucho?"
 
-	para "It's our secret"
-	line "little getaway!"
+	para "¡Es nuestro rincón"
+	line "secreto!"
 	done
 
 CooltrainerfJennSeenText:
-	text "Jenn: You can't"
-	line "beat Irene and go"
-	cont "unpunished!"
+	text "Jenn: ¡No vencerás"
+	line "a Irene y te irás"
+	cont "de rositas!"
 	done
 
 CooltrainerfJennBeatenText:
-	text "Jenn: So sorry,"
-	line "Irene! Sis!"
+	text "Jenn: ¡Lo siento,"
+	line "Irene! ¡Hermana!"
 	done
 
 CooltrainerfJennAfterText2:
-	text "Jenn: Sunlight"
-	line "makes your body"
-	cont "stronger."
+	text "Jenn: La luz del"
+	line "sol hace que el"
+	cont "cuerpo sea fuerte."
 	done
 
 CooltrainerfKateSeenText:
-	text "Kate: You sure"
-	line "were mean to my"
-	cont "little sisters!"
+	text "Kate: ¡Te pasaste"
+	line "un pelo con mis"
+	cont "hermanitas!"
 	done
 
 CooltrainerfKateBeatenText:
-	text "Kate: No! I can't"
-	line "believe I lost."
+	text "Kate: ¡No! No me"
+	line "creo que haya"
+	cont "perdido."
 	done
 
 CooltrainerfKateOfferPowerHerbText:
-	text "Kate: You're too"
-	line "strong. I didn't"
-	cont "stand a chance."
+	text "Kate: Qué fuerza"
+	line "tienes. No tuve"
+	cont "opción."
 
-	para "Here. You deserve"
-	line "this."
+	para "Toma. Has ganado"
+	line "este objeto."
 	done
 
 Route34SignText:
-	text "Route 34"
+	text "Ruta 34"
 
-	para "Goldenrod City -"
-	line "Azalea Town"
+	para "Ciudad Trigal -"
+	line "Pueblo Azalea"
 
-	para "Ilex Forest"
-	line "Somewhere Between"
+	para "Encinar"
+	line "A medio camino"
 	done
 
 Route34TrainerTipsText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Berry trees grow"
-	line "new Berries"
-	cont "every day."
+	para "Los árboles dan"
+	line "nuevas Bayas cada"
+	cont "día."
 
-	para "Make a note of"
-	line "which trees bear"
-	cont "which Berries."
+	para "Apunta qué frutos"
+	line "da cada árbol."
 	done
 
 Route34AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "Some #mon have"
-	line "inherent potential"
+	para "¡Algunos #mon"
+	line "tienen potencial"
+	cont "para ser mejores!"
 
-	para "to be stronger"
-	line "than others!"
-
-	para "But all #mon"
-	line "can put in effort"
-	cont "during battle, or"
-
-	para "take vitamins,"
-	line "to gain strength!"
+	para "¡Y todos pueden"
+	line "esforzarse al"
+	cont "luchar o tomar"
+	cont "vitaminas!"
 	done
 
 DayCareSignText:
-	text "Day-Care"
+	text "Guardería"
 
-	para "Let Us Raise Your"
-	line "#mon For You!"
+	para "¡Déjanos criar a"
+	line "tus #mon!"
 	done

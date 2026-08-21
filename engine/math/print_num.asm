@@ -117,6 +117,13 @@ endr
 	call PrintHLNum
 	dec c
 	jr nz, .loop3
+	bit PRINTNUM_MONEY_F, b
+	jr z, .no_money
+	ld a, '¥'
+	ld [hli], a
+	bit PRINTNUM_DELAY_F, b
+	call nz, PrintLetterDelay
+.no_money
 	pop de
 	pop bc
 	ret
@@ -158,16 +165,16 @@ PrintHLNum:
 .ok
 	; Now print the number in a
 	pop af
-	jr nz, .check_money
+	jr nz, .got_number
 
 	; just print a zero if we're in zero-mode
 	bit PRINTNUM_LEADINGZEROS_F, b
-	jr nz, .check_money
+	jr nz, .got_number
 
 	; for the last digit, print 0 anyway
 	ld a, c
 	dec a
-	jr z, .check_money
+	jr z, .got_number
 
 	; if we're left-aligning the number, don't print anything
 	bit PRINTNUM_LEFTALIGN_F, b
@@ -176,17 +183,6 @@ PrintHLNum:
 	; print a space
 	ld a, ' '
 	jr .got_value
-
-.check_money
-	bit PRINTNUM_MONEY_F, b
-	jr z, .got_number
-	res PRINTNUM_MONEY_F, b
-	push af
-	ld a, '¥'
-	ld [hli], a
-	bit PRINTNUM_DELAY_F, b
-	call nz, .printnum_delay
-	pop af
 
 .got_number
 	add '0'

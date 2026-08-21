@@ -149,142 +149,142 @@ BurnedTower1FEusineMovement:
 	step_end
 
 BurnedTowerRival_BeforeText:
-	text "…… …… ……"
+	text "…………………"
 
-	para "…Oh, it's you."
+	para "…Oh, eres tú."
 
-	para "I came looking for"
-	line "some legendary"
+	para "Vine buscando a"
+	line "un #mon"
+	cont "legendario que"
+	cont "dicen que anida"
+	cont "aquí."
 
-	para "#mon that they"
-	line "say roosts here."
+	para "¡Pero aquí no hay"
+	line "nada!"
 
-	para "But there's"
-	line "nothing here!"
+	para "¿Nada tras la"
+	line "molestia de venir"
+	cont "a este basurero?"
+	cont "¡Ni hablar!"
 
-	para "Nothing after all"
-	line "the trouble of"
-
-	para "coming to this"
-	line "dump? No way!"
-
-	para "It's all your"
-	line "fault!"
+	para "¡Todo esto es"
+	line "culpa tuya!"
 	done
 
 BurnedTowerRival_WinText:
-	text "…Humph!"
+	text "…¡Humpf!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Por esto odio"
+	line "luchar con"
+	cont "cobardes."
 
-	para "There's no"
-	line "challenge in it."
+	para "No supone ningún"
+	line "desafío."
 	done
 
 BurnedTowerRival_AfterText1:
-	text "…Aw, whatever."
+	text "…Ah, da igual."
 
-	para "You would never be"
-	line "able to catch a"
-
-	para "legendary #mon"
-	line "anyway."
+	para "Tú nunca serías"
+	line "capaz de atrapar"
+	cont "a un #mon"
+	cont "legendario de"
+	cont "todas formas."
 	done
 
 BurnedTowerRival_LossText:
-	text "…Humph!"
+	text "…¡Humpf!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Por esto odio"
+	line "luchar con"
+	cont "cobardes."
 
-	para "It's just a waste"
-	line "of my time."
+	para "Es solo una"
+	line "pérdida de"
+	cont "tiempo."
 	done
 
 BurnedTowerRival_AfterText2:
-	text "Humph!"
+	text "¡Humpf!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "¿Qué haces"
+	line "cayéndote en un"
+	cont "agujero? ¡Menudo"
+	cont "genio eres!"
 
-	para "hole? Some genius"
-	line "you are!"
-
-	para "Serves you right!"
+	para "¡Te lo mereces!"
 	done
 
 BurnedTower1FEusineIntroText:
-	text "Eusine: My name's"
+	text "Eusine: Me llamo"
 	line "Eusine."
 
-	para "I'm on the trail"
-	line "of a #mon named"
+	para "Sigo el rastro de"
+	line "un #mon llamado"
 	cont "Suicune."
 
-	para "And you are…?"
+	para "¿Y tú eres...?"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para "¿<PLAYER>? ¡Mucho"
+	line "gusto en"
+	cont "conocerte!"
 
-	para "I heard rumors"
-	line "that Suicune is in"
+	para "Oí rumores de que"
+	line "Suicune está en"
+	cont "la Torre Quemada,"
+	cont "así que vine aquí."
 
-	para "this Burned Tower,"
-	line "so I came to look."
-
-	para "But where exactly"
-	line "could it be?"
+	para "¿Pero dónde podría"
+	line "estar"
+	cont "exactamente?"
 	done
 
 BurnedTower1FEusineText:
-	text "Eusine: I heard"
-	line "that Suicune is in"
+	text "Eusine: Oí rumores"
+	line "de que Suicune"
+	cont "está en la Torre"
+	cont "Quemada, así que"
+	cont "vine a ver."
 
-	para "this Burned Tower,"
-	line "so I came to look."
-
-	para "But where exactly"
-	line "could it be?"
+	para "¿Pero dónde podría"
+	line "estar"
+	cont "exactamente?"
 	done
 
 BurnedTower1FMortyText:
-	text "Morty: Ecruteak's"
-	line "Gym Leader has to"
+	text "Morti: El Líder"
+	line "del Gimnasio de"
+	cont "Iris tiene que"
+	cont "estudiar a los"
+	cont "#mon"
+	cont "legendarios:"
+	cont "Suicune, Entei"
+	cont "y Raikou."
 
-	para "study what are"
-	line "said to be the"
-
-	para "legendary #mon"
-	line "--Suicune, Entei"
-	cont "and Raikou."
-
-	para "Eusine is here, so"
-	line "I've decided to"
-
-	para "investigate the"
-	line "Tower with him."
+	para "Eusine está aquí,"
+	line "así que decidí"
+	cont "investigar la"
+	cont "Torre con él."
 	done
 
 HexManiacTamaraSeenText:
-	text "A strange power is"
-	line "present here…"
+	text "Siento un extraño"
+	line "poder aquí…"
 	done
 
 HexManiacTamaraBeatenText:
-	text "I have lost…"
+	text "He perdido…"
 	done
 
 FirebreatherNedSeenText:
-	text "My soul is on"
-	line "fire. I'll show"
-
-	para "you how hot it"
-	line "burns!"
+	text "Mi alma está en"
+	line "llamas. ¡Te"
+	cont "mostraré lo mucho"
+	cont "que arde!"
 	done
 
 FirebreatherNedBeatenText:
-	text "Still not hot"
-	line "enough…"
+	text "Aún no hace"
+	line "bastante calor…"
 	done
 

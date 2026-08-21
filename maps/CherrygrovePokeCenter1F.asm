@@ -14,6 +14,7 @@ CherrygrovePokeCenter1F_MapScriptHeader:
 	bg_event 10,  1, BGEVENT_READ, PokemonJournalRedScript
 
 	def_object_events
+	object_event  2,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FSuperNerdText, -1
 	pc_nurse_event  5, 1
 	object_event  1,  6, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygrovePokeCenter1FTeacherScript, -1
 	object_event  8,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FFisherText, -1
@@ -53,39 +54,50 @@ CherrygrovePokeCenter1FTeacherScript:
 	done
 
 .Text2:
-	text "The Communication"
-	line "Center upstairs"
-	cont "was just built."
+	text "El Centro de Unión"
+	line "de arriba acaba de"
+	cont "ser construido."
 
-	para "I traded #mon"
-	line "there already!"
+	para "¡Ya intercambié"
+	line "#mon allí!"
 	done
 
 CherrygrovePokeCenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
-
-	para "of #mon, and"
-	line "it's all free."
+	text "Es genial. Puedo"
+	line "guardar todos los"
+	cont "#mon que quiera"
+	cont "¡y todo gratis!"
 	done
 
 CherrygrovePokeCenter1FGentlemanText:
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "Ese PC es libre y"
+	line "gratuito para todo"
+	cont "el que lo use."
 	done
 
 CherrygrovePokeCenter1FLadyText:
-	text "#mon Journal"
-	line "has such fascin-"
-	cont "ating stories!"
+	text "Las revistas"
+	line "#mon tienen"
+	cont "historias geniales"
 
-	para "I come to #mon"
-	line "Centers for the"
+	para "Vengo aquí a leer"
+	line "las últimas,"
+	cont "pero hay más"
+	cont "sitios suscritos."
+	done
 
-	para "latest issues, but"
-	line "they're not the"
+CherrygrovePokeCenter1FSuperNerdText:
+	text "¡Hola! Soy"
+	line "Gelan008, el"
+	cont "traductor al"
+	cont "español de este"
+	cont "juego."
 
-	para "only place with"
-	line "a subscription."
+	para "Te he dejado un"
+	line "regalito en la"
+	cont "Ruta 29."
+
+	para "¡El objeto que"
+	line "había ya no es"
+	cont "una Poción!"
 	done

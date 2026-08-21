@@ -67,136 +67,133 @@ CeladonUniversityLoungeNeeshaScript:
 	jumpopenedtext .FinalText
 
 .IntroText1:
-	text "Hi! I'm Neesha!"
-	line "I'm one of top four"
+	text "¡Hola! Soy Neesha."
+	line "¡Soy una de los"
+	cont "cuatro mejores de"
+	cont "esta universidad!"
 
-	para "trainers in Cela-"
-	line "don University."
+	para "¡Nos llaman los"
+	line "Cuatro de Azulona!"
 
-	para "We're known as the"
-	line "Celadon Four!"
+	para "¿Quieres ver por"
+	line "qué somos tan"
+	cont "famosos?"
 
-	para "Want me to show"
-	line "you why we're so"
-	cont "famous?"
-
-	para "Then let's battle!"
+	para "¡Pues a luchar!"
 	done
 
 .IntroText2:
-	text "Hi! I'm Neesha!"
-	line "I'm one of the"
-	cont "Celadon Four!"
+	text "¡Hola! Soy Neesha."
+	line "¡Soy de los"
+	cont "Cuatro de Azulona!"
 
-	para "It looks like"
-	line "you've heard of us."
+	para "Parece que ya has"
+	line "oído hablar de"
+	cont "nosotros."
 
-	para "Then let's battle!"
+	para "¡Pues a luchar!"
 	done
 
 .NoBattleText:
-	text "Not interested in"
-	line "a challenge?"
+	text "¿No te interesa"
+	line "un desafío?"
 	done
 
 .SeenText:
-	text "We'll blow you"
-	line "away!"
+	text "¡Te dejaremos sin"
+	line "aliento!"
 	done
 
 .BeatenText:
-	text "A painful loss…"
+	text "Una pérdida"
+	line "dolorosa…"
 	done
 
 .AfterText1:
-	text "You're a worthy"
-	line "opponent!"
+	text "¡Eres un rival"
+	line "muy digno!"
 
-	para "But you haven't"
-	line "seen everything"
+	para "Pero aún no has"
+	line "visto lo que los"
+	cont "Cuatro de Azulona"
+	cont "pueden hacer."
 
-	para "the Celadon Four"
-	line "can do."
-
-	para "Why don't you find"
-	line "the rest of us and"
-	cont "challenge them?"
+	para "¿Por qué no buscas"
+	line "al resto para"
+	cont "desafiarlos?"
 	done
 
 .AfterText2:
-	text "So you beat all of"
-	line "the Celadon Four…"
+	text "Así que venciste a"
+	line "los Cuatro de"
+	cont "Azulona…"
 
-	para "That's so cool!"
+	para "¡Qué guay!"
 
-	para "Take this as a"
-	line "prize!"
+	para "¡Toma esto como"
+	line "premio!"
 	done
 
 .FinalText:
-	text "It's not often that"
-	line "someone gives us"
+	text "Pocos han logrado"
+	line "desafiar así a los"
+	cont "Cuatro de Azulona."
 
-	para "Celadon Four a"
-	line "real challenge."
-
-	para "I won't forget"
-	line "you, trainer!"
+	para "¡No te olvidaré,"
+	line "entrenador!"
 	done
 
 CeladonUniversityLoungeLassText:
-	text "Next month we're"
-	line "going on a trip"
-	cont "to Mt.Moon."
+	text "El mes que viene"
+	line "iremos de viaje"
+	cont "al Mt. Moon."
 
-	para "Maybe I'll see a"
+	para "¡Tal vez vea un"
 	line "Clefairy!"
 	done
 
 CeladonUniversityLoungeRichBoyText:
-	text "Have you ever"
-	line "wondered why"
+	text "¿Te has preguntado"
+	line "por qué las"
+	cont "Ultra Balls llevan"
+	cont "una H amarilla"
+	cont "arriba del todo?"
 
-	para "Ultra Balls have"
-	line "a yellow letter"
-	cont "H on the top?"
-
-	para "It's because they"
-	line "were first called"
+	para "¡Es porque antes"
+	line "se llamaban"
 	cont "Hyper Balls!"
 	done
 
 CeladonUniversityLoungeCooltrainerfText:
-	text "#mon with"
-	line "reduced physical"
-
-	para "strength instinct-"
-	line "ively attempt to"
-	cont "enter a # Ball."
+	text "Los #mon con su"
+	line "fuerza reducida"
+	cont "intentan entrar"
+	cont "por instinto en"
+	cont "una # Ball."
 	done
 
 CeladonUniversityLoungeSuper_nerd1Text:
-	text "What do you get if"
-	line "you cross a joke"
+	text "¿Qué obtienes al"
+	line "cruzar un chiste"
 
-	para "with a rhetorical"
-	line "question?"
+	para "con una pregunta"
+	line "retórica?"
 
-	para "………………………………"
+	para "…………………"
 	done
 
 CeladonUniversityLoungeSuper_nerd2Text:
-	text "I'm writing scripts"
-	line "for a game."
+	text "Escribo scripts"
+	line "para un juego."
 
-	para "Do not said use"
-	line "asm!"
+	para "¡No me digas que"
+	line "use asm!"
 	done
 
 CeladonUniversityLoungeBookshelf1Text:
-	text "It's stuffed full"
-	line "of copies of"
-	cont "#mon manga!"
+	text "¡Está lleno de"
+	line "copias de"
+	cont "mangas #mon!"
 	done
 
 CeladonUniversityLoungeBookshelf2:
@@ -215,24 +212,24 @@ CeladonUniversityLoungeBookshelf2:
 	jumpopenedtext .Text2
 
 .Text1:
-	text "This book has a"
-	line "secret compartment"
-
-	para "where the pages"
-	line "should be!"
+	text "¡Este libro tiene"
+	line "un compartimento"
+	cont "secreto donde"
+	cont "deberían estar"
+	cont "las páginas!"
 	done
 
 .Text2:
-	text "Too bad--it's"
-	line "empty."
+	text "Lástima…"
+	line "Está vacío."
 	done
 
 CeladonUniversityLoungeComputer:
 	jumpthistext
 
-	text "There's a player"
-	line "character running"
+	text "Hay un personaje"
+	line "jugable corriendo"
 
-	para "around a 2D"
-	line "Celadon City."
+	para "por una Ciudad"
+	line "Azulona en 2D."
 	done

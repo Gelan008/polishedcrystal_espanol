@@ -82,94 +82,89 @@ GenericTrainerHikerSidney:
 	done
 
 CamperDeanSeenText:
-	text "I came to explore"
-	line "Rock Tunnel."
+	text "¡Vine a explorar"
+	line "el Túnel Roca!"
 	done
 
 CamperDeanBeatenText:
-	text "Whoa! Danger, man."
+	text "¡Uau! Qué peligro,"
+	line "tío."
 	done
 
 PicnickerHeidiSeenText:
-	text "Have you ever been"
-	line "to a picnic?"
+	text "¿Has ido alguna"
+	line "vez de pícnic?"
 
-	para "They're so much"
-	line "fun!"
+	para "¡Es muy divertido!"
 	done
 
 PicnickerHeidiBeatenText:
-	text "Ohhhh!"
+	text "¡Ooooh!"
 	done
 
 CamperSidSeenText:
-	text "Hey, you!"
-	line "Don't litter!"
+	text "¡Eh, tú! ¡No tires"
+	line "basura!"
 	done
 
 CamperSidBeatenText:
-	text "I was just point-"
-	line "ing out…"
+	text "Solo te lo estaba"
+	line "diciendo…"
 	done
 
 PicnickerEdnaSeenText:
-	text "People shouldn't"
-	line "leave any litter"
-	cont "behind."
+	text "Nadie debería"
+	line "tirar basura."
 	done
 
 PicnickerEdnaBeatenText:
-	text "Ohh… I lost…"
+	text "Oh… He perdido…"
 	done
 
 HikerTimSeenText:
-	text "♪ She'll be coming"
-	line "'round Mt.Silver"
-	cont "when she comes… ♪"
+	text "♪ Bajando por el"
+	line "Monte Plateado la"
+	cont "verás venir… ♪"
 
-	para "Mt.Silver is in"
-	line "Johto, right?"
+	para "El Monte Plateado"
+	line "está en Johto,"
+	cont "¿a que sí?"
 	done
 
 HikerTimBeatenText:
-	text "I was too busy"
-	line "singing…"
+	text "Estaba ocupado"
+	line "cantando…"
 	done
 
 HikerSidneySeenText:
-	text "I'll tell you a"
-	line "secret."
+	text "Te contaré un"
+	line "secreto."
 
-	para "But first, we"
-	line "battle!"
+	para "¡Pero primero,"
+	line "a luchar!"
 	done
 
 HikerSidneyBeatenText:
-	text "Oh, dang!"
-	line "I lost that…"
+	text "¡Maldición! Esta"
+	line "vez he perdido…"
 	done
 
 Route9SignText:
-	text "Route 9"
+	text "Ruta 9"
 
-	para "Cerulean City -"
-	line "Rock Tunnel"
+	para "Ciudad Celeste -"
+	line "Túnel Roca"
 	done
 
 Route9AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "A #mon holding"
-	line "a Toxic Orb will"
-	cont "be poisoned, and"
+	para "Toxisfera envenena"
+	line "al #mon y la"
+	cont "Llamasfera quema."
 
-	para "one holding a"
-	line "Flame Orb will"
-	cont "be burned."
-
-	para "But the Ability"
-	line "Guts makes this"
-
-	para "an advantage by"
-	line "boosting Attack!"
+	para "¡Pero la habilidad"
+	line "Agallas aprovecha"
+	cont "eso para subir su"
+	cont "Ataque!"
 	done

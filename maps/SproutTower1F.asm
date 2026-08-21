@@ -42,12 +42,13 @@ SproutTower1FGrannyScript:
 	done
 
 .MetricText:
-	text "A Bellsprout over"
-	line "30 meters tall…"
+	text "Un Bellsprout de"
+	line "más de 30 metros"
+	cont "de altura…"
 
-	para "People say that it"
-	line "became the center"
-	cont "pillar here."
+	para "Dicen que pasó a"
+	line "ser el pilar"
+	cont "central de aquí."
 	done
 
 GenericTrainerSageChow:
@@ -62,45 +63,46 @@ GenericTrainerSageChow:
 	done
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
+	text "Montamos guardia"
+	line "en esta torre."
 
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #mon."
+	para "Aquí expresamos"
+	line "nuestra gratitud"
+	cont "a todos los"
+	cont "#mon."
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "¡M-muchas gracias!"
 	done
 
 SproutTower1FSage1Text:
-	text "Only if you reach"
-	line "the top will you"
-	cont "obtain a TM."
+	text "Solo si llegas"
+	line "arriba obtendrás"
+	cont "una MT."
 	done
 
 SproutTower1FSage2Text:
-	text "Sprout Tower was"
-	line "built long ago"
-
-	para "as a place for"
-	line "#mon training."
+	text "Torre Bellsprout"
+	line "se construyó para"
+	cont "el entrenamiento"
+	cont "de los #mon."
 	done
 
 SproutTower1FTeacherText:
-	text "See the pillar"
-	line "shaking?"
+	text "¿Ves cómo tiembla"
+	line "el pilar?"
 
-	para "People are train-"
-	line "ing upstairs."
+	para "¡Arriba se están"
+	line "entrenando!"
 	done
 
 SproutTower1FStatueText:
-	text "A #mon statue…"
+	text "Una estatua de un"
+	line "#mon…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Tiene un aspecto"
+	line "muy distinguido."
 	done
 
 KimonoGirlMakoScript:
@@ -136,55 +138,49 @@ KimonoGirlMakoScript:
 	jumpthisopenedtext
 
 .OutroText:
-	text "We Kimono Girls"
-	line "dance, but we also"
-	cont "battle."
+	text "Las Chicas Kimono"
+	line "bailamos, pero"
+	cont "también luchamos."
 	done
 
 .IntroText:
-	text "Hello, trainer."
+	text "Hola, entrenador."
 
-	para "I am a Kimono"
-	line "Girl."
+	para "Soy una Chica"
+	line "Kimono."
 
-	para "I journeyed here"
-	line "from Ecruteak"
+	para "Viajé desde Ciudad"
+	line "Iris, por bosques"
+	cont "y cuevas, para"
+	cont "entrenar aquí."
 
-	para "City, through for-"
-	line "est and cavern,"
+	para "¿Has conocido a"
+	line "mis cinco primas"
+	cont "en Ciudad Iris?"
 
-	para "to train in this"
-	line "tower."
-
-	para "Have you met my"
-	line "five dancing cou-"
-	cont "sins in Ecruteak?"
-
-	para "Come back and"
-	line "tell me if you do!"
+	para "¡Dímelo si logras"
+	line "verlas a todas!"
 	done
 
 .SeenText:
-	text "Me oh my…"
-	line "You defeated my"
+	text "¡Madre mía!…"
+	line "¿Venciste a mis"
+	cont "cinco primas?"
 
-	para "five dancing"
-	line "cousins?"
-
-	para "Then allow me to"
-	line "challenge you and"
-	cont "your #mon!"
+	para "¡Pues déjame que"
+	line "os desafíe a ti y"
+	cont "a tus #mon!"
 	done
 
 .BeatenText:
-	text "Oh, you are"
-	line "truly strong…"
+	text "Oh, eres fuerte de"
+	line "verdad…"
 	done
 
 .AfterText:
-	text "Excellent fighting"
-	line "spirit!"
+	text "¡Un gran espíritu"
+	line "de combate tienes!"
 
-	para "You will know what"
-	line "to do with this!"
+	para "¡Sabrás qué hacer"
+	line "con esto!"
 	done

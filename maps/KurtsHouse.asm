@@ -437,168 +437,162 @@ KurtsHouseStepAwayFromKurt_MovementData:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "Hm? Who are you?"
+	text "¿Eh? ¿Quién eres?"
 
-	para "<PLAYER>, eh? You"
-	line "want me to make"
-	cont "some Balls?"
+	para "¿<PLAYER>? ¿Y"
+	line "quieres Balls?"
 
-	para "Sorry, but that'll"
-	line "have to wait."
+	para "Pues lo siento,"
+	line "tendrás que"
+	cont "esperar."
 
-	para "Do you know Team"
-	line "Rocket? Ah, don't"
+	para "¿Conoces al Team"
+	line "Rocket? Bueno, te"
+	cont "lo contaré igual."
 
-	para "worry. I'll tell"
-	line "you anyhow."
+	para "Son una banda"
+	line "malvada que usa"
+	cont "#mon para cosas"
+	cont "malas."
 
-	para "Team Rocket's an"
-	line "evil gang that"
+	para "Se suponía que se"
+	line "habían disuelto"
+	cont "hace tres años."
 
-	para "uses #mon for"
-	line "their dirty work."
+	para "¡Y ahora están en"
+	line "el pozo cortando"
+	cont "Colas Slowpoke"
+	cont "para venderlas!"
 
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three years ago."
+	para "¡Iré allí y les"
+	line "daré su merecido!"
 
-	para "Anyway, they're at"
-	line "the well, cutting"
-
-	para "off SlowpokeTails"
-	line "for sale!"
-
-	para "So I'm going to"
-	line "go give them a"
-	cont "lesson in pain!"
-
-	para "Hang on, Slowpoke!"
-	line "Old Kurt is on his"
-	cont "way!"
+	para "¡Aguantad, amigos!"
+	line "¡El viejo César"
+	cont "va en camino!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
-	text "Kurt: Hi, <PLAYER>!"
+	text "César: ¡Hola,"
+	line "<PLAYER>!"
 
-	para "You handled your-"
-	line "self like a real"
-	cont "hero at the well."
+	para "Te portaste como"
+	line "un héroe en el"
+	cont "pozo. ¡Me gusta!"
 
-	para "I like your style!"
+	para "Será un honor"
+	line "hacer Balls para"
+	cont "alguien como tú."
 
-	para "I would be honored"
-	line "to make Balls for"
+	para "Pero antes te"
+	line "harán falta unos"
+	cont "Bonguris."
 
-	para "a trainer like"
-	line "you."
-
-	para "But first, you'll"
-	line "need Apricorns."
-
-	para "Here, take this"
-	line "Apricorn Box!"
+	para "¡Toma esta Caja"
+	line "Bonguri!"
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "Kurt: I make Balls"
-	line "from Apricorns."
+	text "César: Hago las"
+	line "Balls a partir de"
+	cont "Bonguris."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Recógelos de los"
+	line "árboles y"
+	cont "tráemelos."
 
-	para "I'll make Balls"
-	line "out of them."
+	para "Y yo te haré"
+	line "Balls con ellos."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "Kurt: You have an"
-	line "Apricorn for me?"
+	text "César: ¿Me traes"
+	line "un Bonguri?"
 
-	para "Fine! I'll turn it"
-	line "into a Ball."
+	para "¡Bien! Te haré una"
+	line "Ball con él."
 	done
 
 KurtsHouseKurtGetStartedText:
-	text "Kurt: I'll get"
-	line "started right now!"
+	text "César: ¡Me pongo"
+	line "a ello ahora!"
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "Kurt: It'll take a"
-	line "while to make you"
+	text "César: Tardaré un"
+	line "poco con la Ball."
 
-	para "a Ball. Come back"
-	line "for it later."
+	para "Pásate por aquí"
+	line "más tarde."
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "Kurt: Oh…"
-	line "That's a letdown."
+	text "César: Oh…"
+	line "Qué decepción."
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "Kurt: I'm working!"
-	line "Don't bother me!"
+	text "César: ¡Estoy"
+	line "trabajando!"
+
+	para "¡No me molestes!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
-	text "Kurt: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your Ball. Here!"
+	text "César: ¡<PLAYER>!"
+	line "Ya terminé tu"
+	cont "Ball. ¡Toma!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "Kurt: That turned"
-	line "out great."
+	text "César: Ha quedado"
+	line "genial."
 
-	para "Try catching"
-	line "#mon with it."
+	para "Prueba a atrapar"
+	line "#mon con ella."
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
-	text "Kurt: Now that my"
-	line "granddaughter is"
-
-	para "helping me, I can"
-	line "work much faster."
+	text "César: Con la"
+	line "ayuda de mi nieta,"
+	cont "¡trabajo mucho más"
+	cont "rápido!"
 	done
 
 KurtsHouseKurtWhatIsThatText:
-	text "Wh-what is that?"
+	text "¿Q-qué es eso?"
 
-	para "I've never seen"
-	line "one before."
+	para "Nunca antes había"
+	line "visto algo así."
 
-	para "It looks a lot"
-	line "like a # Ball,"
+	para "Se parece mucho a"
+	line "una # Ball,"
+	cont "pero es algo"
+	cont "distinto."
 
-	para "but it appears to"
-	line "be something else."
-
-	para "Let me check it"
-	line "for you."
+	para "Déjame que le eche"
+	line "un vistazo."
 	done
 
 KurtsHouseKurtImCheckingItNowText:
-	text "I'm checking it"
-	line "now."
+	text "La estoy"
+	line "examinando ahora."
 	done
 
 KurtsHouseKurtAhHaISeeText:
-	text "Ah-ha! I see!"
-	line "So…"
+	text "¡Ajá! ¡Ya veo!"
+	line "Así que…"
 	done
 
 KurtsHouseKurtThisBallStartedToShakeText:
-	text "<PLAYER>!"
+	text "¡<PLAYER>!"
 
-	para "This Ball started"
-	line "to shake while I"
-	cont "was checking it."
+	para "Esta Ball empezó"
+	line "a agitarse al"
+	cont "revisarla."
 
-	para "There must be"
-	line "something to this!"
+	para "¡Debe de tener"
+	line "algo especial!"
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
@@ -610,62 +604,62 @@ KurtsGranddaughterSlowpokeGoneText:
 	done
 
 KurtsGranddaughterLonelyText:
-	text "Grandpa's gone…"
-	line "I'm so lonely…"
+	text "El abuelo se ha"
+	line "ido… Qué sola"
+	cont "estoy…"
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "The Slowpoke my"
-	line "dad gave me came"
+	text "¡El Slowpoke de mi"
+	line "padre ha vuelto!"
 
-	para "back! Its tail is"
-	line "growing back too!"
+	para "¡Y parece que le"
+	line "crece la cola!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Dad works at Silph"
-	line "where he studies"
-	cont "# Balls."
+	text "Mi padre estudia"
+	line "las # Balls en"
+	cont "Silph S.A."
 
-	para "I have to stay"
-	line "home with Grandpa"
-	cont "and Slowpoke."
+	para "Me quedo en casa"
+	line "con Slowpoke y el"
+	cont "abuelo."
 	done
 
 KurtsGranddaughterHelpText:
-	text "I get to help"
-	line "Grandpa now!"
+	text "¡Ya puedo ayudar"
+	line "a mi abuelo!"
 
-	para "We'll make good"
-	line "Balls for you, so"
-	cont "please wait!"
+	para "¡Haremos grandes"
+	line "Balls para ti!"
 	done
 
 KurtsGranddaughterFunText:
-	text "It's fun to make"
-	line "Balls!"
+	text "¡Hacer Balls"
+	line "es divertido!"
 	done
 
 KurtsGranddaughterGSBallText:
-	text "Grandpa's checking"
-	line "a Ball right now."
+	text "Mi abuelo está"
+	line "mirando una Ball."
 
-	para "So I'm waiting"
-	line "till he's done."
+	para "Así que espero a"
+	line "que termine."
 	done
 
 KurtsHouseSlowpokeText:
 	text "Slowpoke: …"
-	line "Yawn?"
+	line "¿Bostezo?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young Prof."
+	text "…¿Un joven Prof."
 	line "Oak?"
 	done
 
 KurtsHouseCelebiStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Una estatua del"
+	line "protector del"
+	cont "bosque."
 	done

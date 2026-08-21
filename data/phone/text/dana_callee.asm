@@ -1,68 +1,66 @@
 DanaAnswerPhoneText:
-	text "Hi, "
+	text "Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text "."
 
-	para "Hey! It's <PLAYER>!"
+	para "¡Ey! ¡Es <PLAYER>!"
 	done
 
 DanaAnswerPhoneDayText:
-	text "Hi, "
+	text "Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text "."
 
-	para "I know!"
-	line "It's <PLAYER>!"
+	para "¡Lo sé!"
+	line "¡Es <PLAYER>!"
 	done
 
 DanaAnswerPhoneNiteText:
-	text "Hi, "
+	text "Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text "."
 
-	para "<PLAYER>?"
-	line "What's up?"
+	para "¿<PLAYER>?"
+	line "¿Qué tal?"
 	done
 
 DanaGreetText:
-	text "Uh, <PLAYER>?"
+	text "Eh, ¿<PLAYER>?"
 
-	para "It's me!"
-	line "It's me, "
+	para "¡Soy yo!"
+	line "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGreetDayText:
-	text "Uh, <PLAYER>?"
+	text "Eh, ¿<PLAYER>?"
 
-	para "It's me!"
-	line "It's me, "
+	para "¡Soy yo!"
+	line "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGreetNiteText:
-	text "Uh, <PLAYER>?"
+	text "Eh, ¿<PLAYER>?"
 
-	para "It's me!"
-	line "It's me, "
+	para "¡Soy yo!"
+	line "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGenericText:
-	text "My "
+	text "Mi "
 	text_ram wStringBuffer4
-	text " is"
-	line "so full of energy,"
+	text " tiene"
+	line "tanta energía que"
+	cont "da hasta miedo."
 
-	para "it's a little"
-	line "scary."
-
-	para "How are your"
-	line "#mon doing?"
+	para "¿Cómo están"
+	line "tus #mon?"
 	done

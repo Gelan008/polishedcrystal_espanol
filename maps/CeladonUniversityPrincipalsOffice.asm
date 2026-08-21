@@ -31,62 +31,59 @@ CeladonUniversityPrincipalsOfficeMatsumotoScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "I work hard to"
-	line "keep this place"
-	cont "running smoothly,"
+	text "Trabajo duro para"
+	line "que todo funcione"
+	cont "bien aquí,"
 
-	para "so I unwind with"
-	line "candy every now"
-	cont "and then."
+	para "así que me relajo"
+	line "tomando caramelos"
+	cont "de vez en cuando."
 	done
 
 .Text1:
-	text "Hello there,"
-	line "young trainer!"
+	text "¡Hola, joven"
+	line "entrenador!"
 
-	para "I am Professor"
+	para "Soy el Profesor"
 	line "Matsumoto."
 
-	para "I'm the principal"
-	line "of Celadon Uni-"
-	cont "versity."
+	para "Soy el director"
+	line "de la Univ."
+	cont "de Azulona."
 
-	para "But you can call"
-	line "me your pal!"
+	para "¡Pero puedes"
+	line "llamarme amigo!"
 
-	para "Here, have some"
-	line "candy from my"
-	cont "desk stash."
+	para "Toma algo de mi"
+	line "reserva de dulces"
+	cont "del escritorio."
 	done
 
 CeladonUniversityPrincipalsOfficeSignpost1Text:
-	text "It's Prof.Matsu-"
-	line "moto's degree in"
-	cont "Education."
+	text "Es el título del"
+	line "Prof. Matsumoto"
+	cont "en Educación."
 	done
 
 CeladonUniversityPrincipalsOfficeSignpost2Text:
-	text "It's a picture of"
-	line "Prof.Matsumoto in"
-
-	para "front of a grad-"
-	line "uating class."
+	text "Es una foto del"
+	line "Prof. Matsumoto"
+	cont "con una clase"
+	cont "recién graduada."
 	done
 
 CeladonUniversityPrincipalsOfficeComputer:
 	jumpthistext
 
-	text "There's a draft"
-	line "email asking"
-
-	para "alumni for"
-	line "donations."
+	text "Hay un borrador de"
+	line "un e-mail pidiendo"
+	cont "donaciones a los"
+	cont "antiguos alumnos."
 	done
 
 CeladonUniversityPrincipalsOfficeBookshelfText:
-	text "It's a complete set"
-	line "of books of the"
-
-	para "Encyclopedia"
-	line "#monica."
+	text "Es la colección"
+	line "completa de la"
+	cont "Enciclopedia"
+	cont "#mónica."
 	done

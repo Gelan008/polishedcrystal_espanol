@@ -110,49 +110,49 @@ GenericTrainerBeautyCassandra:
 	done
 
 TwinsToriandtil1SeenText:
-	text "Til: Tori and I"
-	line "are in this to-"
-	cont "gether!"
+	text "Til: ¡Tori y yo"
+	line "luchamos juntas!"
 	done
 
 TwinsToriandtil1BeatenText:
 TwinsToriandtil2BeatenText:
-	text "Til & Tori: Nnn… A"
-	line "little too strong."
+	text "Til y Tori: Mmm…"
+	line "Demasiado fuerte."
 	done
 
 TwinsToriandtil2SeenText:
-	text "Tori: Til and I"
-	line "are in this to-"
-	cont "gether!"
+	text "Tori: ¡Til y yo"
+	line "luchamos juntas!"
 	done
 
 PsychicGregSeenText:
-	text "#mon can't do a"
-	line "thing if they are"
-	cont "asleep."
+	text "Los #mon no"
+	line "pueden hacer nada"
+	cont "si están dormidos."
 
-	para "I'll show you how"
-	line "scary that is!"
+	para "¡Te mostraré lo"
+	line "temible que es!"
 	done
 
 PsychicGregBeatenText:
-	text "I lost. That's"
-	line "pretty sad…"
+	text "He perdido. Qué"
+	line "tristeza…"
 	done
 
 MeetSunnyText:
-	text "Sunny: Hi!"
+	text "Dominga: ¡Hola!"
 
-	para "I'm Sunny of Sun-"
-	line "day, meaning it's"
-	cont "Sunday today!"
+	para "¡Soy Dominga, la"
+	line "del domingo!"
+
+	para "¡O sea que hoy es"
+	line "domingo!"
 	done
 
 SunnyGivesGiftText:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "¡Me dijeron que te"
+	line "diera esto si te"
+	cont "veía!"
 	done
 
 SunnyGaveGiftText:
@@ -179,14 +179,14 @@ SunnyGaveGiftText:
 	done
 
 SunnySundayText:
-	text "Sunny: My sisters"
-	line "and brothers are"
-	cont "Monica, Tuscany,"
-	cont "Wesley, Arthur,"
-	cont "Frieda and Santos."
+	text "Dominga: Mis seis"
+	line "hermanos son Lune,"
+	cont "Marta, Merlín,"
+	cont "Juan, Vero y"
+	cont "Sabino."
 
-	para "They're all older"
-	line "than me!"
+	para "Todos ellos son"
+	line "mayores que yo."
 	done
 
 SunnyNotSundayText:
@@ -196,29 +196,29 @@ SunnyNotSundayText:
 	done
 
 BeautyCallieSeenText:
-	text "Oh, you're a cute"
-	line "little trainer!"
+	text "¡Oh! ¡Qué chico"
+	line "tan mono!"
 
-	para "Why don't you"
-	line "battle me?"
+	para "¿Por qué no"
+	line "luchas conmigo?"
 	done
 
 BeautyCallieBeatenText:
-	text "You're good…"
+	text "Qué nivel…"
 	done
 
 BeautyCassandraSeenText:
-	text "Hey hey there,"
-	line "you young trainer!"
+	text "¡Eh, tú! ¡Joven"
+	line "entrenador!"
 
-	para "Won't you battle"
-	line "with me?"
+	para "¿No quieres luchar"
+	line "conmigo?"
 	done
 
 BeautyCassandraBeatenText:
-	text "Wow, you're strong…"
+	text "Vaya, qué fuerza…"
 	done
 
 Route37SignText:
-	text "Route 37"
+	text "Ruta 37"
 	done

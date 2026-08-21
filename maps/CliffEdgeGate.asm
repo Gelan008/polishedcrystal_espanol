@@ -54,55 +54,50 @@ GenericTrainerGruntM12:
 	done
 
 CliffEdgeGateReceptionistText:
-	text "Yellow Forest is"
-	line "this way!"
+	text "¡El Bosq. Amarillo"
+	line "está por aquí!"
 
-	para "It's a popular"
-	line "tourist sight!"
+	para "¡Es una zona muy"
+	line "turística!"
 	done
 
 ProfOaksAide3HiText:
-	text "Hello there! I'm"
-	line "Prof.Oak's aide."
+	text "¡Hola! Soy el"
+	line "ayudante del"
+	cont "Profesor Oak."
 
-	para "If you caught 45"
-	line "kinds of #mon,"
+	para "Si has atrapado"
+	line "45 tipos de"
+	cont "#mon te daré un"
+	cont "regalo."
 
-	para "I'm supposed to"
-	line "give you an item."
-
-	para "So, <PLAYER>,"
-	line "have you caught"
-
-	para "at least 45 kinds"
-	line "of #mon?"
+	para "Así que, <PLAYER>,"
+	line "¿tienes al menos"
+	cont "45 #mon?"
 	done
 
 ProfOaksAide3UhOhText:
-	text "Let's see…"
-	line "Uh-oh! You've only"
-
-	para "caught "
+	text "Veamos… ¡Vaya!"
+	line "Solo has atrapado"
+	cont "a "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " especies"
+	line "de #mon."
 
-	para "Come back and see"
-	line "me when you catch"
-	cont "45 kinds."
+	para "Vuelve a verme"
+	line "cuando tengas al"
+	cont "menos 45 tipos."
 	done
 
 ProfOaksAide3HereYouGoText:
-	text "Let's see…"
-	line "Great job! You've"
-
-	para "caught "
+	text "Veamos… ¡Genial!"
+	line "Has atrapado a "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " especies de"
+	line "#mon."
 
-	para "Congratulations!"
-	line "Here you go!"
+	para "¡Enhorabuena!"
+	line "¡Aquí tienes!"
 	done
 
 ProfOaksAide3NoRoomText:
@@ -121,15 +116,16 @@ ProfOaksAide3ExplainText:
 	done
 
 GruntM12SeenText:
-	text "You're curious"
-	line "about our plans?"
+	text "¿Tienes interés"
+	line "en nuestros"
+	cont "planes?"
 
-	para "Beat me and I'll"
-	line "tell you!"
+	para "¡Vénceme y te los"
+	line "contaré!"
 	done
 
 GruntM12BeatenText:
-	text "You were supposed"
-	line "to lose!"
+	text "¡Se suponía que"
+	line "ibas a perder!"
 	done
 

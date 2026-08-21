@@ -117,8 +117,8 @@ VioletOutskirtsHouseCaretakerScript:
 	done
 
 VioletOutskirtsHouseOldShrineText:
-	text "It's a very old"
-	line "shrine."
+	text "Es un altar muy"
+	line "antiguo."
 	done
 
 VioletOutskirtsHouseAhText:
@@ -126,42 +126,42 @@ VioletOutskirtsHouseAhText:
 
 	para "…… …… ……"
 
-	para "Ah!"
+	para "¡Ah!"
 	done
 
 VioletOutskirtsHouseCaretakerThankYouText:
 	text "…… ……"
 
-	para "Thank you…"
-	line "dear…"
+	para "Gracias… cariño…"
 	done
 
 VioletOutskirtsHouseStillAPresenceText:
-	text "The spirit is"
-	line "gone, but there's"
-	cont "still a presence…"
+	text "El espíritu se ha"
+	line "ido, pero aún se"
+	cont "siente algo…"
 	done
 
 VioletOutskirtsHouseNotSafeHereText:
-	text "There's still a"
-	line "strong presence."
+	text "Todavía se siente"
+	line "una presencia muy"
+	cont "fuerte."
 
-	para "It's not safe here!"
+	para "¡No es un lugar"
+	line "seguro!"
 	done
 
 VioletOutskirtsHouseRadioText:
-	text "It doesn't seem"
-	line "to work."
+	text "Parece que no"
+	line "funciona."
 	done
 
 VioletOutskirtsHouseDustText:
-	text "It's covered in a"
-	line "thick layer of"
-	cont "dust."
+	text "Está cubierto de"
+	line "una gruesa capa de"
+	cont "polvo."
 	done
 
 VioletOutskirtsHouseNotAloneText:
-	text "You have a sense"
-	line "that something"
-	cont "is watching you…"
+	text "Sientes que te"
+	line "están observando…"
 	done

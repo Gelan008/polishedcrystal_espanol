@@ -26,13 +26,14 @@ GenericTrainerFisherKyle:
 	done
 
 FisherKyleSeenText:
-	text "Do you remember?"
+	text "¿Te acuerdas?"
 	done
 
 FisherKyleBeatenText:
-	text "You do remember?"
+	text "¿De verdad te"
+	line "acuerdas?"
 	done
 
 FishingSpotSignText:
-	text "Fishing Spot"
+	text "Zona de Pesca"
 	done

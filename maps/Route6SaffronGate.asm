@@ -42,9 +42,7 @@ Route6SaffronGuardScript:
 	done
 
 Route6SaffronGuardMagnetTrainText:
-	text "The Magnet Train"
-	line "is the most famous"
-
-	para "thing about Saf-"
-	line "fron."
+	text "El Magnetotrén es"
+	line "lo más famoso de"
+	cont "Ciudad Azafrán."
 	done

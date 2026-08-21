@@ -60,44 +60,44 @@ DiglettsCaveFossilManiacScript:
 	done
 
 .GreetingText:
-	text "Hey, check it out."
-	line "I've got a sweet"
-	cont "deal for ya!"
+	text "Oye, escucha esto."
+	line "¡Tengo un trato"
+	cont "muy bueno para ti!"
 
-	para "You know how #-"
-	line "mon fossils turn"
-	cont "up in rocks?"
+	para "¿Sabes cómo"
+	line "aparecen Fósiles"
+	cont "#mon en las"
+	cont "rocas?"
 
-	para "If you find one,"
-	line "bring it to me."
+	para "Si encuentras uno,"
+	line "tráemelo a mí."
 
-	para "I'll make it worth"
-	line "your while."
+	para "Haré que valga la"
+	line "pena."
 	done
 
 .OfferText:
-	text "Hey, nice! Let me"
-	line "check that out."
+	text "¡Oye, genial! Deja"
+	line "que lo vea."
 
-	para "I'll give you"
-	line "¥"
+	para "Te daré "
+	line ""
 	text_decimal hMoneyTemp, 3, 7
-	text " for it."
-	cont "Whaddaya say?"
+	text "¥ por"
+	cont "eso. ¿Qué dices?"
 	done
 
 .WrongItemText:
-	text "Nope, this is no"
-	line "good. Not worth"
-	cont "my while."
+	text "No, esto no sirve."
+	line "No vale la pena."
 	done
 
 .NoItemText:
-	text "…Nope, nothing"
-	line "cool in your Bag."
+	text "…No, nada guay"
+	line "en tu Mochila."
 
-	para "Oh well. Maybe"
-	line "next time!"
+	para "Oh, bueno. ¡Tal"
+	line "vez la próxima!"
 	done
 
 GenericTrainerHikerGerard:
@@ -174,31 +174,31 @@ GenericTrainerEngineerSmith:
 	done
 
 .SeenText:
-	text "How did Diglett"
-	line "create such a long"
-	cont "tunnel?"
+	text "¿Cómo han creado"
+	line "los Diglett un"
+	cont "túnel tan largo?"
 	done
 
 .BeatenText:
-	text "Amazing!"
+	text "¡Increíble!"
 	done
 
 DiglettsCaveCooltrainerfText:
-	text "Look at all these"
-	line "cute Diglett!"
+	text "¡Mira qué monos"
+	line "todos los Diglett!"
 
-	para "I swear I saw one"
-	line "with a blue nose!"
+	para "¡Juro que he visto"
+	line "a uno con la nariz"
+	cont "azul!"
 	done
 
 DiglettsCavePokefanMText:
-	text "A bunch of Diglett"
-	line "popped out of the"
+	text "¡Varios Diglett"
+	line "salieron de golpe!"
+	cont "¡Qué sorpresa!"
 
-	para "ground! That was"
-	line "shocking."
-
-	para "I heard Diglett"
-	line "on Cinnabar Island"
-	cont "look different."
+	para "Dicen que los"
+	line "Diglett de Isla"
+	cont "Canela son"
+	cont "diferentes."
 	done

@@ -120,36 +120,36 @@ CeruleanCityCooltrainerMText1:
 	done
 
 CeruleanCityCooltrainerMText2:
-	text "You're collecting"
-	line "every single kind"
-	cont "of #mon?"
+	text "¿Coleccionas cada"
+	line "tipo de #mon?"
 
-	para "That must be quite"
-	line "a challenge, but"
-	cont "it sounds fun too."
+	para "¡Debe de ser un"
+	line "gran reto, pero"
+	cont "suena divertido!"
 	done
 
 CeruleanCitySuperNerdText:
-	text "The Cape in the"
-	line "north is a good"
+	text "El Cabo del norte"
+	line "es un buen sitio"
 
-	para "place for dates."
-	line "Girls like it!"
+	para "para citas."
+	line "¡A las chicas les"
+	cont "gusta!"
 	done
 
 CeruleanCitySlowbroText:
-	text "Slowbro: Yarah?"
+	text "Slowbro: ¿Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My Slowbro and I"
-	line "make an awesome"
-	cont "combination!"
+	text "¡Slowbro y yo"
+	line "hacemos un gran"
+	cont "equipo!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "Slowbro, show me"
-	line "your Confusion!"
+	text "Slowbro, ¡usa tu"
+	line "Confusión!"
 	done
 
 CeruleanCityCooltrainerFText3: ; text > text
@@ -157,22 +157,21 @@ CeruleanCityCooltrainerFText3: ; text > text
 	done
 
 CeruleanCityFisherText:
-	text "I'm a huge fan of"
-	line "Cerulean Gym's"
-	cont "Misty."
+	text "Soy un gran fan de"
+	line "Misty, del Gim. de"
+	cont "Celeste."
 	done
 
 CeruleanCityFisherRocketTipText:
-	text "I saw this shady"
-	line "guy go off toward"
-	cont "Cerulean Cape."
+	text "Vi a un tipo muy"
+	line "sospechoso ir al"
+	cont "Cabo Celeste."
 	done
 
 CeruleanCityYoungsterText1:
-	text "There's a cave"
-	line "here with scary-"
-	cont "powerful #mon"
-	cont "in it."
+	text "Por aquí hay una"
+	line "cueva con #mon"
+	cont "muy fuertes."
 	done
 
 CeruleanCityYoungsterText2:
@@ -183,86 +182,79 @@ CeruleanCityYoungsterText2:
 	done
 
 CeruleanCityYoungsterText:
-	text "My Itemfinder"
-	line "stopped respond-"
-	cont "ing…"
+	text "El Buscaobjetos ya"
+	line "no reacciona…"
 
-	para "Someone must have"
-	line "beat me to it."
+	para "Alguien se me ha"
+	line "adelantado."
 	done
 
 CeruleanCaveGuardText:
-	text "This is…"
+	text "Esta es…"
 
-	para "The notorious"
-	line "Cerulean Cave!"
+	para "¡La gran Cueva"
+	line "Celeste!"
 
-	para "Horribly powerful"
-	line "#mon live here."
+	para "Aquí viven #mon"
+	line "muy poderosos."
 
-	para "Only those who"
-	line "have defeated all"
-
-	para "eight Kanto Gym"
-	line "Leaders are allow-"
-	cont "ed inside."
+	para "Solo los que hayan"
+	line "vencido a los 8"
+	cont "Líderes de Kanto"
+	cont "pueden entrar."
 	done
 
 CeruleanCitySignText:
-	text "Cerulean City"
+	text "Ciudad Celeste"
 
-	para "A Mysterious Blue"
-	line "Aura Surrounds It"
+	para "Un aura mística y"
+	line "azul la rodea"
 	done
 
 CeruleanGymSignText:
-	text "Cerulean City"
-	line "#mon Gym"
-	cont "Leader: Misty"
+	text "Líder del Gimnasio"
+	line "#mon de Ciudad"
+	cont "Celeste: Misty"
 
-	para "The Tomboyish"
-	line "Mermaid"
+	para "La sirena cabezota"
 	done
 
 CeruleanBikeShopSignText:
-	text "Trendsetter of"
-	line "the Bicycle Boom"
+	text "Los creadores del"
+	line "boom de las Bicis"
 
-	para "Miracle Cycle"
+	para "Bicis Milagro"
 	done
 
 CeruleanPoliceSignText:
-	text "There's a notice"
-	line "here…"
+	text "Hay un aviso"
+	line "aquí…"
 
-	para "Stamp out thievery"
-	line "and make the city"
+	para "¡Erradiquemos los"
+	line "robos y hagamos"
 
-	para "a friendlier, more"
-	line "cheerful place!"
+	para "de la ciudad un"
+	line "lugar amigable!"
 
-	para "Cerulean Police"
+	para "Policía de Celeste"
 	done
 
 CeruleanCapeSignText:
-	text "Cerulean Cape"
-	line "Ahead"
+	text "Cabo Celeste"
+	line "Adelante"
 	done
 
 CeruleanBubblerText:
-	text "The water"
-	line "tastes good!"
+	text "¡El agua"
+	line "sabe bien!"
 	done
 
 CeruleanTrainerTipsText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Even without an"
-	line "Itemfinder, you"
-
-	para "can find useful"
-	line "items in trees,"
-
-	para "beneath rocks,"
-	line "or under water."
+	para "Incluso sin un"
+	line "Buscaobjetos,"
+	cont "puedes encontrar"
+	cont "cosas en árboles,"
+	cont "bajo rocas o agua."
 	done

@@ -44,31 +44,29 @@ PokemonJournalPryceScript:
 	done
 
 MahoganyPokeCenter1FPokefanmText:
-	text "What's this? Team"
-	line "Rocket has come"
-	cont "back?"
+	text "¿Cómo? ¿Ha vuelto"
+	line "el Team Rocket?"
 
-	para "I saw some men in"
-	line "black at Lake of"
-	cont "Rage…"
+	para "Vi a hombres de"
+	line "negro en el Lago"
+	cont "de la Furia…"
 	done
 
 MahoganyPokeCenter1FYoungsterText:
-	text "I stop my #mon"
-	line "from evolving too"
-	cont "early."
+	text "No dejo que"
+	line "mis #mon"
+	cont "evolucionen"
+	cont "demasiado pronto."
 
-	para "I make them learn"
-	line "certain moves be-"
-	cont "fore I let them"
-	cont "evolve."
+	para "Así aprenden más"
+	line "ataques antes de"
+	cont "evolucionar."
 	done
 
 MahoganyPokeCenter1FCooltrainerfText:
-	text "#mon do become"
-	line "stronger when they"
-
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	text "Los #mon ganan"
+	line "fuerza al"
+	cont "evolucionar, pero"
+	cont "aprenden ataques"
+	cont "más despacio."
 	done

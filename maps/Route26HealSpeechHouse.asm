@@ -27,11 +27,12 @@ Route26HealHouseTeacherScript:
 	jumptext Route26HealHouseKeepAtItText
 
 Route26HealHouseRestAWhileText:
-	text "Your #mon look"
-	line "a little tired."
+	text "Tus #mon"
+	line "parecen algo"
+	cont "cansados."
 
-	para "You should rest"
-	line "them a while."
+	para "Deberías dejarlos"
+	line "descansar un rato."
 	done
 
 Route26HealHouseKeepAtItText:

@@ -1,72 +1,70 @@
 ParryAnswerPhoneText:
-	text "Yup, yup!"
-	line "It's "
+	text "¡Sip, sip!"
+	line "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "¡Ja, y aquí está"
 	line "<PLAYER>!"
 	done
 
 ParryAnswerPhoneDayText:
-	text "Yup, yup!"
-	line "It's "
+	text "¡Sip, sip!"
+	line "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "¡Ja, y aquí está"
 	line "<PLAYER>!"
 	done
 
 ParryAnswerPhoneNiteText:
-	text "Yup, yup!"
-	line "It's "
+	text "¡Sip, sip!"
+	line "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "¡Ja, y aquí está"
 	line "<PLAYER>!"
 	done
 
 ParryGreetText:
-	text "<PLAYER>, it's"
+	text "¡<PLAYER>, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper breakfast?"
+	para "¿Has tomado un"
+	line "buen desayuno?"
 	done
 
 ParryGreetDayText:
-	text "<PLAYER>, it's"
+	text "¡<PLAYER>, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper lunch?"
+	para "¿Has comido como"
+	line "es debido?"
 	done
 
 ParryGreetNiteText:
-	text "<PLAYER>, it's"
+	text "¡<PLAYER>, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper dinner?"
+	para "¿Has cenado como"
+	line "es debido?"
 	done
 
 ParryGenericText:
-	text "Are your #mon"
-	line "looking good?"
+	text "¿Se ven bien tus"
+	line "#mon?"
 
-	para "My "
+	para "¡Mi "
 	text_ram wStringBuffer4
-	text " and"
-	line "me--we're looking"
-
-	para "mighty dandy!"
-	line "Hahahah!"
+	text " y"
+	line "yo estamos más que"
+	cont "genial! ¡Jajaja!"
 	done

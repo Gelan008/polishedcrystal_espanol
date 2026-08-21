@@ -87,80 +87,81 @@ GenericTrainerRuin_maniacJones:
 	done
 
 HikerRussellSeenText:
-	text "You're headed to"
-	line "Azalea, are you?"
+	text "¿Vas hacia Pueblo"
+	line "Azalea?"
 
-	para "Let my #mon see"
-	line "if you are good"
-	cont "enough to battle."
+	para "¡Veamos con mis"
+	line "#mon si vales"
+	cont "para luchar!"
 	done
 
 HikerRussellBeatenText:
-	text "Oh, oh, oh!"
+	text "¡Oh, oh, oh!"
 	done
 
 PokemaniacLarrySeenText:
-	text "I roam far and"
-	line "wide in search of"
+	text "Recorro el mundo"
+	line "en busca de más"
 	cont "#mon."
 
-	para "Are you looking"
-	line "for #mon too?"
+	para "¿Tú también buscas"
+	line "#mon?"
 
-	para "Then you're my"
-	line "collecting rival!"
+	para "¡Pues eres mi gran"
+	line "rival como"
+	cont "coleccionista!"
 	done
 
 PokemaniacLarryBeatenText:
-	text "Ugh. My poor #-"
-	line "mon…"
+	text "Ugh. Mis pobres"
+	line "#mon…"
 	done
 
 HikerDanielSeenText:
-	text "Whoa! What a"
-	line "surprise!"
+	text "¡Vaya! ¡Menuda"
+	line "sorpresa!"
 
-	para "I didn't expect to"
-	line "see anyone here!"
+	para "¡No esperaba ver a"
+	line "nadie por aquí!"
 	done
 
 HikerDanielBeatenText:
-	text "Whoa! I'm beaten"
-	line "big time!"
+	text "¡Hala! ¡Me has"
+	line "dado una paliza!"
 	done
 
 FirebreatherBillSeenText:
-	text "Zubat's Supersonic"
-	line "keeps confusing"
-	cont "my #mon."
+	text "El Supersónico de"
+	line "Zubat confunde a"
+	cont "mis #mon."
 
-	para "I'm seriously"
-	line "upset about that!"
+	para "¡Y eso me fastidia"
+	line "un montón!"
 	done
 
 FirebreatherBillBeatenText:
-	text "I flamed out!"
+	text "¡Me he apagado!"
 	done
 
 FirebreatherRaySeenText:
-	text "If it's light, a"
-	line "cave isn't scary."
+	text "Con luz, una cueva"
+	line "no da miedo."
 
-	para "If you're strong,"
-	line "#mon aren't"
-	cont "scary."
+	para "Si eres fuerte, un"
+	line "#mon tampoco da"
+	cont "miedo."
 	done
 
 FirebreatherRayBeatenText:
-	text "Flash!"
+	text "¡Destello!"
 	done
 
 Ruin_maniacJonesSeenText:
-	text "Have you explored"
-	line "the Ruins of Alph?"
+	text "¿Has explorado las"
+	line "Ruinas Alfa?"
 	done
 
 Ruin_maniacJonesBeatenText:
-	text "Gahahah!"
+	text "¡Gahahah!"
 	done
 

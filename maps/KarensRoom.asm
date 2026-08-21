@@ -78,77 +78,74 @@ KarenScript:
 	end
 
 .SeenText:
-	text "I am Karen of the"
-	line "Elite Four."
+	text "Soy Karen, del"
+	line "Alto Mando."
 
-	para "You're <PLAYER>?"
-	line "How amusing."
+	para "¿Eres <PLAYER>?"
+	line "Qué divertido."
 
-	para "I love Dark-type"
-	line "#mon."
+	para "Me encantan los"
+	line "#mon de tipo"
+	cont "Siniestro."
 
-	para "I find their wild,"
-	line "tough image to be"
+	para "Me atrae su imagen"
+	line "salvaje y dura,"
+	cont "¡y su gran fuerza!"
 
-	para "so appealing. And"
-	line "they're so strong."
-
-	para "Think you can take"
-	line "them? Just try to"
-	cont "entertain me."
-
-	para "Let's go."
+	para "¿Podrás con ellos?"
+	line "¡Entretenme un"
+	cont "poco! ¡Vamos!"
 	done
 
 .BeatenText:
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
+	text "Vaya, qué bien se"
+	line "te da. Me gusta"
+	cont "eso en un"
+	cont "entrenador."
 	done
 
 .AfterText:
-	text "Strong #mon."
+	text "#mon fuertes."
 
-	para "Weak #mon."
+	para "#mon débiles."
 
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
+	para "Esa es la visión"
+	line "egoísta de la"
+	cont "gente."
 
-	para "Truly skilled"
-	line "trainers should"
+	para "Un buen entrenador"
+	line "debería intentar"
+	cont "ganar con sus"
+	cont "favoritos."
 
-	para "try to win with"
-	line "their favorites."
+	para "Me gusta cómo lo"
+	line "haces. Sabes lo"
+	cont "que importa."
 
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
-
-	para "Go on--the Cham-"
-	line "pion is waiting."
+	para "Adelante, el"
+	line "Campeón te espera."
 	done
 
 .SeenRematchText:
-	text "You fought through"
-	line "the ranks to reach"
-	cont "me. I'm impressed."
+	text "Has luchado para"
+	line "llegar hasta mí."
+	cont "Me impresionas."
 
-	para "You've assembled a"
-	line "charming team."
+	para "Has reunido a un"
+	line "equipo encantador."
 
-	para "Our battle should"
-	line "be a good one."
+	para "Nuestro combate"
+	line "debería ser bueno."
 
-	para "Let's begin!"
+	para "¡Empecemos!"
 	done
 
 .AfterRematchText:
-	text "I will not stray"
-	line "from my chosen"
-	cont "path."
+	text "No me desviaré"
+	line "del camino que he"
+	cont "elegido."
 
-	para "Lance is looking"
-	line "forward to meeting"
-	cont "you again."
+	para "Lance arde en"
+	line "deseos de volver"
+	cont "a verte."
 	done

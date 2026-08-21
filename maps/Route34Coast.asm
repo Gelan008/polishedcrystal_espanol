@@ -161,12 +161,11 @@ GenericTrainerBird_keeperTony:
 	done
 
 .SeenText:
-	text "Have you heard"
-	line "about the bird?"
+	text "¿Has oído hablar"
+	line "sobre el pájaro?"
 	done
 
 .BeatenText:
-	text "Don't you know"
-	line "about the bird?"
+	text "¿No sabes nada"
+	line "sobre el pájaro?"
 	done
-

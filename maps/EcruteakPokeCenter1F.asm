@@ -96,18 +96,19 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .IntroText:
-	text "Hi, I'm Bill. And"
-	line "who are you?"
+	text "Hola, soy Bill. ¿Y"
+	line "quién eres tú?"
 
-	para "Hmm, <PLAYER>, huh?"
-	line "You've come at the"
-	cont "right time."
+	para "Hmm, ¿<PLAYER>?"
+	line "Llegas en buen"
+	cont "momento."
 
-	para "The Time Capsules"
-	line "are totally fried,"
+	para "Las Cápsulas del"
+	line "Tiempo están"
+	cont "totalmente fritas,"
 
-	para "and I could use"
-	line "your help."
+	para "y me vendría bien"
+	line "tu ayuda."
 	done
 
 .QuestionText:
@@ -129,39 +130,38 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .YesText:
-	text "Bill: I knew you'd"
-	line "come through!"
+	text "Bill: ¡Sabía que"
+	line "aceptarías!"
 
-	para "Way to go! You're"
-	line "the real deal!"
+	para "¡Genial! ¡Eres"
+	line "un crack!"
 
-	para "OK, I'm counting"
-	line "on you."
-
-	para "Take good care of"
-	line "it!"
+	para "Vale, confío en"
+	line "ti. ¡Cuídalo bien!"
 	done
 
 .GoodbyeText:
-	text "Bill: Prof.Elm"
-	line "claims Eevee may"
+	text "Bill: El Prof. Elm"
+	line "afirma que Eevee"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "puede evolucionar"
+	line "de formas nuevas"
+	cont "y desconocidas."
 
-	para "I have to hurry on"
-	line "back to Goldenrod"
-	cont "and see my folks,"
+	para "Tengo que darme"
+	line "prisa en volver a"
+	cont "Trigal a ver a mi"
+	cont "familia,"
 
-	para "and then it's back"
-	line "to Kanto for me."
+	para "y luego volver a"
+	line "Kanto."
 
-	para "Buh-bye!"
+	para "¡Adiós!"
 	done
 
 .NoText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Oh… ¿Y ahora"
+	line "qué hago?"
 	done
 
 .LeaveMovement:
@@ -174,8 +174,8 @@ EcruteakPokeCenter1FBillScript:
 .GiftEeveeMail:
 	db   EON_MAIL
 	setcharmap no_ngrams
-	db   "Please keep this"
-	next "Pokémon safe!@@"
+	db   "¡Cuida bien de"
+	next "este Pokémon!@@"
 	setcharmap default
 
 .SetEeveeMailOT:
@@ -212,18 +212,17 @@ EcruteakPokeCenter1FPokefanMScript:
 	done
 
 .SurfText:
-	text "You must be hoping"
-	line "to battle more"
-	cont "people, right?"
+	text "Seguro que quieres"
+	line "luchar contra más"
+	cont "gente, ¿a que sí?"
 
-	para "There's apparently"
-	line "some place where"
-	cont "trainers gather."
+	para "Dicen que hay un"
+	line "sitio de reunión"
+	cont "de entrenadores."
 
-	para "Where, you ask?"
-
-	para "It's a little past"
-	line "Olivine City."
+	para "¿Que dónde está?"
+	line "Un poco más allá"
+	cont "de Ciudad Olivo."
 	done
 
 EcruteakPokeCenter1FLassScript:
@@ -256,31 +255,33 @@ EcruteakPokeCenter1FLassScript:
 	done
 
 .QuestionText:
-	text "Do you know who"
-	line "Bill is?"
+	text "¿Sabes quién es"
+	line "Bill?"
 	done
 
 .HereText:
-	text "Then go talk to"
-	line "him! He's right"
-	cont "by the counter!"
+	text "¡Pues habla con"
+	line "él! ¡Está junto"
+	cont "al mostrador!"
 	done
 
 EcruteakPokeCenter1FCooltrainerFText:
-	text "Morty, the Gym"
-	line "Leader, is soooo"
-	cont "cool."
+	text "Morti, Líder del"
+	line "Gimnasio, mola un"
+	cont "montón."
 
-	para "His #mon are"
-	line "really tough too."
+	para "¡Y sus #mon son"
+	line "durísimos!"
 	done
 
 EcruteakPokeCenter1FGymGuyText:
-	text "Lake of Rage…"
+	text "El Lago de la"
+	line "Furia…"
 
-	para "The appearance of"
-	line "a Gyarados swarm…"
+	para "La aparición de un"
+	line "enjambre de"
+	cont "Gyarados…"
 
-	para "I smell a conspir-"
-	line "acy. I know it!"
+	para "¡Huelo a una gran"
+	line "conspiración!"
 	done

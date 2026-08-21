@@ -182,29 +182,31 @@ JoWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Hi! I'm Whitney!"
+	text "¡Hola! ¡Soy"
+	line "Blanca!"
 
-	para "Everyone was into"
-	line "#mon, so I got"
-	cont "into it too!"
+	para "A todos les mola"
+	line "los #mon, ¡así"
+	cont "que a mí también!"
 
-	para "#mon are"
-	line "super cute!"
+	para "¡Los #mon son"
+	line "supermonos!"
 
-	para "You want to bat-"
-	line "tle? I'm warning"
-	cont "you--I'm good!"
+	para "¿Quieres luchar?"
+	line "¡Te advierto que"
+	cont "soy muy buena!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
-	text "Sob…"
+	text "Snif…"
 
-	para "…Waaaaaaah!"
-	line "You're mean!"
+	para "¡...Buuuuaaaah!"
+	line "¡Eres malo!"
 
-	para "You shouldn't be"
-	line "so serious! You…"
-	cont "you child, you!"
+	para "¡No deberías"
+	line "habértelo tomado"
+	cont "en serio! ¡Eres"
+	cont "un niñato!"
 	done
 
 WhitneyYouMeanieText:
@@ -217,115 +219,118 @@ WhitneyYouMeanieText:
 	done
 
 WhitneyWhatDoYouWantText:
-	text "…Sniff…"
+	text "…Snif…"
 
-	para "What? What do you"
-	line "want? A Badge?"
+	para "¿Qué quieres?"
+	line "¿Una Medalla?"
 
-	para "Oh, right."
-	line "I forgot. Here's"
-	cont "the Plain Badge."
+	para "Ah, claro."
+	line "Se me olvidaba."
+	cont "Toma la Medalla"
+	cont "Planicie."
 	done
 
 WhitneyPlainBadgeText:
-	text "The Plain Badge"
-	line "lets your #mon"
+	text "La Medalla"
+	line "Planicie te "
+	cont "permite usar"
 
-	para "use Strength out-"
-	line "side of battle."
+	para "Fuerza fuera del"
+	line "combate a tus"
+	cont "#mon."
 
-	para "Oh, you can have"
-	line "this too!"
+	para "¡Ah, toma esto"
+	line "también!"
 	done
 
 WhitneyGoodCryText:
-	text "Ah, that was a"
-	line "good cry!"
+	text "¡Ah, qué a gusto"
+	line "me he quedado"
+	cont "llorando!"
 
-	para "Come for a visit"
-	line "again! Bye-bye!"
+	para "¡Ven a visitarnos"
+	line "otra vez! ¡Chao!"
 	done
 
 LassCathySeenText:
-	text "Don't let my"
-	line "#mon's cute"
+	text "¡Que lo monos que"
+	line "son mis #mon no"
+	cont "te engañe!"
 
-	para "looks fool you."
-	line "They can whip you!"
+	para "¡Te darán una gran"
+	line "paliza!"
 	done
 
 LassCathyBeatenText:
-	text "Darn… I thought"
-	line "you were weak…"
+	text "Jolín… Creí que"
+	line "eras débil…"
 	done
 
 SrandjrJoandcath1SeenText:
-	text "Jo: If you want to"
-	line "face Whitney,"
+	text "Jo: ¡Si quieres"
+	line "enfrentarte a"
+	cont "Blanca,"
 
-	para "you'll have to go"
-	line "through me!"
+	para "tendrás que pasar"
+	line "por encima de mí!"
 
-	para "Cath, did that"
-	line "sound cool?"
+	para "Cath, ¿ha sonado"
+	line "guay?"
 	done
 
 SrandjrJoandcath1BeatenText:
-	text "Jo: Losing isn't"
-	line "cool at all!"
+	text "Jo: ¡Perder no es"
+	line "nada guay!"
 	done
 
 SrandjrJoandcath2SeenText:
-	text "Cath: I'm trying"
-	line "to beat Whitney,"
-	cont "but my senior and"
-
-	para "I can beat you"
-	line "first!"
+	text "Cath: Intento"
+	line "vencer a Blanca,"
+	cont "¡pero podemos"
+	cont "ganarte a ti!"
 	done
 
 SrandjrJoandcath2BeatenText:
-	text "Cath: Oh, no,"
+	text "Cath: ¡Oh, no,"
 	line "no, no!"
 	done
 
 JoWhitneyCriesText:
-	text "Oh, no. You made"
-	line "Whitney cry."
+	text "Oh, no. Has hecho"
+	line "llorar a Blanca."
 
-	para "It's OK. She'll"
-	line "stop soon. She"
-
-	para "always cries when"
-	line "she loses."
+	para "Tranquilo. Parará"
+	line "pronto. Siempre"
+	cont "llora al perder."
 	done
 
 BeautyVictoriaSeenText:
-	text "Oh, you are a cute"
-	line "little trainer! ♥"
+	text "¡Oh, eres un"
+	line "entrenador muy"
+	cont "mono! ♥"
 
-	para "I like you, but I"
-	line "won't hold back!"
+	para "Me gustas, ¡pero"
+	line "no me contendré!"
 	done
 
 BeautyVictoriaBeatenText:
-	text "Let's see… Oops,"
-	line "it's over?"
+	text "Veamos... Uy,"
+	line "¿ya se acabó?"
 	done
 
 BeautySamanthaSeenText:
-	text "Give it your best"
-	line "shot, or I'll take"
-	cont "you down!"
+	text "¡Da lo mejor de ti"
+	line "o te hundiré!"
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, Meowth,"
-	line "I'm so sorry!"
+	text "¡No! ¡Oh, Meowth,"
+	line "lo siento mucho!"
 	done
 
 GoldenrodGymGuyWinText:
-	text "You won? Great! I"
-	line "was busy admiring"
-	cont "the ladies here."
+	text "¿Ganaste? ¡Genial!"
+	line "Yo estaba ocupado"
+	cont "mirando a las"
+	cont "chicas de aquí."
 	done

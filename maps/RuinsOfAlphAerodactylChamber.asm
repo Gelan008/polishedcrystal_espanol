@@ -111,23 +111,24 @@ MapRuinsofAlphAerodactylChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphAerodactylChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "¡Han aparecido"
+	line "dibujos en las"
+	cont "paredes…!"
 	done
 
 RuinsOfAlphChambersItsUnownText:
-	text "It's Unown text!"
+	text "¡Son letras de"
+	line "Unown!"
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text "¡Hay un gran hueco"
+	line "en la pared!"
 	done
 
 RuinsOfAlphAerodactylChamberDescriptionText:
-	text "This flying #-"
-	line "mon attacked its"
-
-	para "prey with saw-like"
-	line "fangs."
+	text "Este #mon"
+	line "volador atacaba a"
+	cont "sus presas con"
+	cont "dientes de sierra."
 	done

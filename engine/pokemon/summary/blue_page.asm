@@ -141,7 +141,7 @@ SummaryScreen_BluePage:
 	RGB 00, 00, 00
 
 .HPString:
-	db "HP@"
+	db "PS@"
 
 .AbilityTiles:
 	db SUMMARY_TILE_HIDDEN_H, "1", "2", SUMMARY_TILE_HIDDEN_H

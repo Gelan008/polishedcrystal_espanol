@@ -43,60 +43,51 @@ ProfOaksAide2Script:
 	jumpopenedtext ProfOaksAide2NoRoomText
 
 Route38EcruteakGateOfficerText:
-	text "Where did you say"
-	line "you're from?"
+	text "¿De dónde dijiste"
+	line "que eras?"
 
-	para "New Bark Town?"
+	para "¿De Pueblo"
+	line "Primavera?"
 
-	para "Prof.Elm lives"
-	line "over there, right?"
+	para "Allí vive el Prof."
+	line "Elm, ¿verdad?"
 
-	para "You've come a long"
-	line "way to get here."
+	para "Has recorrido un"
+	line "buen trecho para"
+	cont "llegar hasta aquí."
 	done
 
 ProfOaksAide2HiText:
-	text "Hello there! I'm"
-	line "Prof.Oak's aide."
+	text "¡Hola! Ayudo al"
+	line "Profesor Oak."
 
-	para "If you caught 30"
-	line "kinds of #mon,"
+	para "Si has atrapado 30"
+	line "tipos de #mon,"
+	cont "te daré un regalo."
 
-	para "I'm supposed to"
-	line "give you an item."
-
-	para "So, <PLAYER>,"
-	line "have you caught"
-
-	para "at least 30 kinds"
-	line "of #mon?"
+	para "Dime, <PLAYER>,"
+	line "¿has atrapado ya"
+	cont "30 o más #mon?"
 	done
 
 ProfOaksAide2UhOhText:
-	text "Let's see…"
-	line "Uh-oh! You've only"
-
-	para "caught "
+	text "A ver… ¡Vaya!"
+	line "Solo llevas "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	cont "tipos de #mon."
 
-	para "Come back and see"
-	line "me when you catch"
-	cont "30 kinds."
+	para "¡Vuelve a verme"
+	line "cuando tengas 30!"
 	done
 
 ProfOaksAide2HereYouGoText:
-	text "Let's see…"
-	line "Great job! You've"
-
-	para "caught "
+	text "A ver… ¡Genial!"
+	line "¡Ya tienes "
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	cont "tipos de #mon!"
 
-	para "Congratulations!"
-	line "Here you go!"
+	para "¡Enhorabuena!"
+	line "¡Aquí lo tienes!"
 	done
 
 ProfOaksAide2NoRoomText:

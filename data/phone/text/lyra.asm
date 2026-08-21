@@ -1,188 +1,159 @@
 LyraPhoneGreetingText_Morn:
-	text "Oh, <PLAYER>!"
-	line "Good morning!"
+	text "¡Oh, <PLAYER>!"
+	line "¡Buenos días!"
 	prompt
 
 LyraPhoneGreetingText_Day:
-	text "Oh, <PLAYER>!"
-	line "How are you?"
+	text "¡Oh, <PLAYER>!"
+	line "¿Cómo estás?"
 	prompt
 
 LyraPhoneGreetingText_Eve:
-	text "Oh, <PLAYER>!"
-	line "Good evening!"
+	text "¡Oh, <PLAYER>!"
+	line "¡Buenas tardes!"
 	prompt
 
 LyraPhoneGreetingText_Nite:
-	text "…<PLAYER>!"
-	line "Good evening!"
-	cont "You're up late."
+	text "¡…<PLAYER>!"
+	line "¡Buenas noches!"
+	cont "Qué tarde es."
 	prompt
 
 LyraPhoneLandmarkText:
-	text "Where are you now?"
-	line ""
+	text "¿Dónde estás?"
+	line "¿"
 	text_ram wStringBuffer4
 	text "?"
 	prompt
 
 LyraPhoneKantoText:
-	text "So you're all the"
-	line "way over in Kanto!"
+	text "¡Así que ya"
+	line "estás en Kanto!"
 	prompt
 
 LyraPhoneIslandsText:
-	text "You're exploring a"
-	line "tropical island…"
+	text "Estás explorando"
+	line "una isla tropical."
 
-	para "I'm jealous,"
+	para "¡Qué envidia,"
 	line "<PLAYER>!"
 	prompt
 
 LyraPhoneJohtoText_Generic:
-	text "Tell me all about"
-	line "it later, OK?"
+	text "Cuéntamelo todo"
+	line "luego, ¿vale?"
 	prompt
 
 LyraPhoneNextMoveQuestionText:
-	text "So, <PLAYER>…"
+	text "Bueno, <PLAYER>…"
 
-	para "Want me to tell"
-	line "you when your"
-
-	para "#mon will learn"
-	line "its next move?"
+	para "¿Quieres saber"
+	line "cuándo aprende un"
+	cont "ataque tu #mon?"
 	done
 
 LyraPhoneNextMoveRefusedText:
-	text "Haha, I won't"
-	line "spoil it, then!"
+	text "¡Jaja, entonces"
+	line "no haré spoilers!"
 	prompt
 
 LyraPhoneNextMoveLevelText:
 	text_ram wStringBuffer3
-	line "learns its next"
-	cont "move at level "
+	line "aprenderá al"
+	cont "nivel "
 	text_decimal hScriptVar, 1, 3
 	text ":"
-	cont ""
+	cont "¡"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 LyraPhoneNoNextMoveText:
 	text_ram wStringBuffer3
-	line "won't learn any"
-
-	para "more moves just"
-	line "by leveling up."
+	line "no aprenderá más"
+	cont "ataques por nivel."
 	prompt
 
 LyraPhoneNoEggMovesText:
-	text "Eggs don't learn"
-	line "moves! …Do they?"
+	text "¡Los Huevos no"
+	line "aprenden ataques!"
+	cont "…¿O sí?"
 	prompt
 
 LyraPhoneEndText:
-	text "Anyway… So nice"
-	line "to catch up with"
-	cont "you, <PLAYER>."
+	text "En fin… Ha sido"
+	line "genial hablar"
+	cont "contigo, <PLAYER>."
 
-	para "Call me again"
-	line "sometime!"
+	para "¡Llámame de nuevo"
+	line "algún día!"
 	done
 
 LyraPhoneSpecialText_YellowForest:
-	text "Hi, <PLAYER>!"
-	line "How are you?"
+	text "¡Hola, <PLAYER>!"
+	line "¿Cómo estás?"
 
-	para "Have you been to"
-	line "see Yellow Forest?"
+	para "¿Has ido a ver el"
+	line "Bosque Amarillo?"
 
-	para "I was going to"
-	line "visit, but I heard"
+	para "Yo iba a ir, pero"
+	line "oí que el Team"
+	cont "Rocket andaba por"
+	cont "allí. ¡Qué miedo!"
 
-	para "Team Rocket was"
-	line "up to something"
-	cont "there."
+	para "Tú ya te has"
+	line "enfrentado a ellos"
+	cont "¿verdad, <PLAYER>?"
 
-	para "I don't want to"
-	line "get mixed up in"
-	cont "that!"
-
-	para "You've faced Team"
-	line "Rocket before,"
-
-	para "haven't you,"
-	line "<PLAYER>?"
-
-	para "That's so brave"
-	line "of you!"
-
-	para "Anyway, good luck"
-	line "on your journey!"
+	para "¡Qué valiente!"
+	line "¡Mucho ánimo con"
+	cont "tu viaje!"
 	done
 
 LyraPhoneSpecialText_FirstBadge:
-	text "<PLAYER>! Hi!"
+	text "¡<PLAYER>! ¡Hola!"
 
-	para "I just got my"
-	line "first Gym Badge!"
+	para "¡Conseguí mi"
+	line "primera Medalla!"
 
-	para "Falkner's Pidgeot"
-	line "is strong, but"
-	cont "mine beat him!"
+	para "El Pidgeot de"
+	line "Pegaso es fuerte,"
+	cont "¡pero le vencí!"
 
-	para "I just had to tell"
-	line "you, <PLAYER>."
+	para "¡Tenía que"
+	line "contártelo!"
 
-	para "Oh, you got your"
-	line "first Badge in"
-	cont "Kanto? Good going!"
+	para "¿Ya tienes tu 1a"
+	line "Medalla de Kanto?"
+	cont "¡Qué pasada!"
 
-	para "Let's both keep on"
-	line "winning Badges."
-
-	para "I'll see you at"
-	line "the League!"
+	para "¡Nos vemos en"
+	line "la Liga #mon!"
 	done
 
 LyraPhoneSpecialText_LyrasEgg:
-	text "<PLAYER>! Hi!"
+	text "¡<PLAYER>! ¡Hola!"
 
-	para "Are you doing well"
-	line "against Kanto's"
-	cont "Gym Leaders?"
+	para "¿Qué tal te va"
+	line "con los Líderes"
+	cont "de Kanto?"
 
-	para "I'm sure you are!"
-
-	para "Listen, listen!"
-
-	para "I left my "
+	para "¡Escucha, escucha!"
+	line "Dejé a mi"
+	cont ""
 	text_ram wStringBuffer4
-	line "at the Day-Care"
+	text " en la"
+	cont "Guardería y han"
+	cont "hallado un Huevo!"
 
-	para "with Grandma and"
-	line "Grandpa, and they"
-	cont "found an Egg!"
+	para "Ya tengo un equipo"
+	line "entero de #mon,"
+	cont "así que te lo doy."
 
-	para "Isn't that neat?"
+	para "¡Lo dejé con los"
+	line "ancianos por si"
+	cont "quieres criarlo!"
 
-	para "I'm raising a full"
-	line "party of #mon,"
-
-	para "so, um, if you'd"
-	line "like to have it…"
-
-	para "That is… Anyway,"
-	line "I left the Egg at"
-
-	para "the Day-Care if"
-	line "you want it!"
-
-	para "I know you'll take"
-	line "good care of it,"
-	cont "<PLAYER>."
-
-	para "Bye-bye!"
+	para "¡Cuídalo muy bien,"
+	line "<PLAYER>! ¡Chao!"
 	done

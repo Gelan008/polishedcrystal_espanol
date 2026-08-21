@@ -74,32 +74,25 @@ GoldenrodHappinessRaterTeacherScript:
 	done
 
 GoldenrodHappinessRaterTeacherText:
-	text "If you treat your"
-	line "#mon nicely,"
-
-	para "they will love you"
-	line "in return."
-
-	para "Oh? Let me see"
-	line "your "
+	text "¿Oh? A ver tu"
+	line ""
 	text_ram wStringBuffer3
 	text "…"
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "I keep losing in"
-	line "battles, and my"
+	text "Siempre pierdo y"
+	line "mis #mon caen"
+	cont "debilitados…"
 
-	para "#mon end up"
-	line "fainting…"
-
-	para "Maybe that's why"
-	line "my #mon don't"
-	cont "like me much…"
+	para "Quizá por eso no"
+	line "les caigo muy"
+	cont "bien…"
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "When I use an item"
-	line "on my #mon, it"
-	cont "acts really glad!"
+	text "¡Cuando uso un"
+	line "objeto en mis"
+	cont "#mon, se ponen"
+	cont "muy contentos!"
 	done

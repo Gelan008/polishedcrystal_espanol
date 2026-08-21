@@ -185,18 +185,18 @@ CeladonGameCornerRichBoyTobin:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "What're you doing"
-	line "snooping around"
-	cont "here?"
+	text "¿Qué haces"
+	line "husmeando por"
+	cont "aquí?"
 
-	para "You better not be"
-	line "messing with Team"
-	cont "Valor!"
+	para "¡Será mejor que no"
+	line "te metas con el"
+	cont "Team Valor!"
 	done
 
 .BeatenText:
-	text "I didn't see that"
-	line "coming…"
+	text "No me vi venir"
+	line "eso…"
 	done
 
 .AfterScript
@@ -246,129 +246,125 @@ endr
 
 
 CeladonGameCornerReceptionistText:
-	text "Welcome!"
+	text "¡Bienvenido!"
 
-	para "You may exchange"
-	line "your coins for"
-
-	para "fabulous prizes"
-	line "next door."
+	para "Puedes cambiar tus"
+	line "monedas por"
+	cont "fabulosos premios"
+	cont "en la puerta de al"
+	cont "lado."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Las tragaperras"
+	line "son de última"
+	cont "generación."
 	done
 
 CeladonGameCornerTeacherText:
-	text "It's this machine"
-	line "I want."
+	text "Esta máquina es la"
+	line "que quiero."
 
-	para "It cleaned me out"
-	line "yesterday, so it"
-
-	para "should pay out"
-	line "today."
+	para "Ayer me desplumó,"
+	line "así que hoy me"
+	cont "dará premios."
 	done
 
 CeladonGameCornerFishingGuruText:
-	text "I think this slot"
-	line "machine will pay"
-	cont "out…"
+	text "Creo que esta"
+	line "máquina va a dar"
+	cont "un buen premio…"
 
-	para "The odds vary"
-	line "among machines."
+	para "Las probabilidades"
+	line "varían entre"
+	cont "máquinas."
 	done
 
 CeladonGameCornerFisherText1:
-	text "Gahahaha!"
+	text "¡Gajajaja!"
 
-	para "The coins just"
-	line "keep popping out!"
+	para "¡Las monedas no"
+	line "paran de salir!"
 
-	para "Hm? What, kid? You"
-	line "want to play?"
+	para "¿Hm? ¿Qué, chico?"
+	line "¿Quieres jugar?"
 
-	para "I'll share my luck"
-	line "with you!"
+	para "¡Compartiré mi"
+	line "suerte contigo!"
 	done
 
 CeladonGameCornerFisherText2:
-	text "Gahahaha!"
+	text "¡Gajajaja!"
 
-	para "It makes me feel"
-	line "good to do nice"
-
-	para "things for other"
-	line "people!"
+	para "¡Me hace sentir"
+	line "bien ayudar a los"
+	cont "demás!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a Coin Case."
+	text "Oye, no tienes"
+	line "Monedero."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "¿Cómo se supone"
+	line "que voy a darte"
+	cont "monedas, chico?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-	text "Hey, your Coin"
-	line "Case is full, kid."
+	text "Oye, tu Monedero"
+	line "está lleno, chico."
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Tú también debes"
+	line "de estar en racha."
 	done
 
 CeladonGameCornerReceived18CoinsText:
-	text "<PLAYER> received"
-	line "18 Coins!"
+	text "¡<PLAYER> recibió"
+	line "18 Monedas!"
 	done
 
 FisherOfferText:
-	text "Hm? What, kid? You"
-	line "still want to"
-	cont "play?"
+	text "¿Hm? ¿Qué, chico?"
+	line "¿Aún quieres"
+	cont "jugar?"
 
-	para "I know! I'll let"
-	line "you play for 50"
-	cont "coins."
+	para "¡Ya sé! Te dejaré"
+	line "jugar por 50"
+	cont "monedas."
 
-	para "How about it?"
+	para "¿Qué te parece?"
 	done
 
 FisherNotEnoughText:
-	text "Hey, your Coin"
-	line "Case is almost"
-	cont "empty, kid."
+	text "Oye, tu Monedero"
+	line "está casi vacío,"
+	cont "chico."
 
-	para "Your luck must"
-	line "be running dry."
+	para "Tu suerte debe"
+	line "estar acabándose."
 	done
 
 CeladonGymGuyText:
-	text "Hey! Champ in"
-	line "making!"
+	text "¡Hola! ¡Futuro"
+	line "campeón!"
 
-	para "Are you playing"
-	line "the slots too?"
+	para "¿Tú también juegas"
+	line "a las tragaperras?"
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #mon."
+	para "Intento conseguir"
+	line "monedas para un"
+	cont "#mon de premio."
 
-	para "But I don't have"
-	line "enough coins yet…"
+	para "Pero aún no tengo"
+	line "suficientes…"
 	done
 
 CeladonGameCornerGrampsText:
-	text "Hmmm… The odds are"
-	line "surely better for"
-
-	para "Pikachu's line,"
-	line "but… What to do?"
+	text "Mmmm… Seguro que"
+	line "hay más opciones"
+	cont "en la fila de"
+	cont "Pikachu, pero…"
+	cont "¿qué hago?"
 	done
 
 CeladonGameCornerPosterScript:
@@ -400,15 +396,16 @@ CeladonGameCornerPosterScript:
 	done
 
 CeladonGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Aquí hay un"
+	line "mechero."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Una lata de"
+	line "refresco…"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Alguien debe de"
+	line "volver pronto…"
 
-	para "Huh? It's empty!"
+	para "¿Eh? ¡Está vacía!"
 	done

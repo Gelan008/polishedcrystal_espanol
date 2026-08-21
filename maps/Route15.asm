@@ -112,125 +112,119 @@ GenericTrainerTwinsKayandtia2:
 	done
 
 TeacherColetteSeenText:
-	text "Have you forgotten"
-	line "anything?"
+	text "¿Te has olvidado"
+	line "de algo?"
 	done
 
 TeacherColetteBeatenText:
-	text "Kyaaah!"
+	text "¡Kyaaaah!"
 	done
 
 TeacherHillarySeenText:
-	text "On sunny days, I"
-	line "think that the"
-
-	para "kids would rather"
-	line "be playing in the"
-
-	para "schoolyard than"
-	line "studying in class."
+	text "En días soleados,"
+	line "los niños quieren"
+	cont "jugar fuera antes"
+	cont "que estudiar."
 	done
 
 TeacherHillaryBeatenText:
-	text "I didn't want to"
-	line "lose…"
+	text "No quería perder…"
 	done
 
 SchoolboyKippSeenText:
-	text "Hang on. I have to"
-	line "phone my mom."
+	text "Espera. Tengo que"
+	line "llamar a mi madre."
 	done
 
 SchoolboyKippBeatenText:
-	text "Sorry, Mom!"
-	line "I was beaten!"
+	text "¡Perdón, mamá!"
+	line "¡Me han ganado!"
 	done
 
 SchoolboyTommySeenText:
-	text "Let's battle."
-	line "I won't lose!"
+	text "¡Luchemos! ¡No voy"
+	line "a perder!"
 	done
 
 SchoolboyTommyBeatenText:
-	text "I forgot to do my"
-	line "homework!"
+	text "¡No me acordé de"
+	line "hacer la tarea!"
 	done
 
 SchoolgirlFaithSeenText:
-	text "We're on a field"
-	line "trip to Lavender"
-
-	para "Radio Tower for"
-	line "social studies."
+	text "Vamos de excursión"
+	line "a la Torre Radio"
+	cont "de Lavanda en la"
+	cont "clase de sociales."
 	done
 
 SchoolgirlFaithBeatenText:
-	text "You're wickedly"
-	line "tough!"
+	text "¡Tienes una fuerza"
+	line "increíble!"
 	done
 
 SchoolboyBillySeenText:
-	text "My favorite class"
-	line "is gym!"
+	text "¡Mi clase favorita"
+	line "es gimnasia!"
 	done
 
 SchoolboyBillyBeatenText:
-	text "Oh, no!"
-	line "How could I lose?"
+	text "¡Oh, no! ¿Cómo he"
+	line "podido perder?"
 	done
 
 PokefanfBooneSeenText:
-	text "Hey, your"
+	text "Oye, tus"
 	line "#mon…"
 
-	para "Show me. Show me."
-	line "Show me!"
+	para "Enséñamelos."
+	line "¡Enséñamelos!"
 	done
 
 PokefanfBooneBeatenText:
-	text "Yay! That was"
-	line "great!"
+	text "¡Bien! ¡Ha sido"
+	line "fantástico!"
 	done
 
 PokefanfEleanorSeenText:
-	text "All right,"
-	line "#mon, time for"
-	cont "a battle!"
+	text "¡Muy bien,"
+	line "#mon, hora de"
+	cont "luchar!"
 	done
 
 PokefanfEleanorBeatenText:
-	text "Oh, well…"
+	text "En fin…"
 	done
 
 TwinsKayandtia1SeenText:
-	text "We're the twins"
-	line "Kay and Tia!"
+	text "¡Somos las gemelas"
+	line "Kay y Tia!"
 
-	para "Do you know which"
-	line "one I am?"
+	para "¿A que no sabes"
+	line "quién soy yo?"
 	done
 
 TwinsKayandtia1BeatenText:
-	text "Tia and Kay both"
-	line "lost…"
+	text "Tia y Kay hemos"
+	line "perdido las dos…"
 	done
 
 TwinsKayandtia2SeenText:
-	text "We're the twins"
-	line "Kay and Tia!"
+	text "¡Somos las gemelas"
+	line "Kay y Tia!"
 
-	para "Do you know which"
-	line "one I am?"
+	para "¿A que no sabes"
+	line "quién soy yo?"
 	done
 
 TwinsKayandtia2BeatenText:
-	text "Tia and Kay both"
-	line "lost…"
+	text "Tia y Kay hemos"
+	line "perdido las dos…"
 	done
 
 Route15SignText:
-	text "Route 15"
+	text "Ruta 15"
 
-	para "Fuchsia City -"
-	line "Lavender Town"
+	para "Ciudad Fucsia -"
+	line "Pueblo Lavanda"
 	done

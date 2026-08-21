@@ -48,27 +48,28 @@ GenericTrainerSailorErnest:
 	done
 
 SailorErnestSeenText:
-	text "I wanted to battle"
-	line "Jasmine, but she's"
+	text "Quería luchar con"
+	line "Yasmina, pero no"
+	cont "está de humor."
 
-	para "not up to it now."
-	line "So, how about you?"
+	para "¿Qué te parece si"
+	line "luchamos tú y yo?"
 	done
 
 SailorErnestBeatenText:
-	text "Whoa, whoa. You're"
-	line "overwhelming!"
+	text "¡Uf, uf! ¡Eres una"
+	line "fiera!"
 	done
 
 Bird_keeperDenisSeenText:
-	text "We're pretty high"
-	line "up here. My bird"
-
-	para "#mon are in"
-	line "prime form."
+	text "¡Qué alto estamos!"
+	line "Mis #mon pájaro"
+	cont "están en plena"
+	cont "forma."
 	done
 
 Bird_keeperDenisBeatenText:
-	text "Oops…They crashed…"
+	text "¡Uy! Cayeron en"
+	line "picado…"
 	done
 

@@ -20,32 +20,29 @@ CeladonDeptStore2F_MapScriptHeader:
 	object_event  6,  2, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore2FYoungsterText, -1
 
 CeladonDeptStore2FPokefanMText:
-	text "I just recently"
-	line "became a trainer."
+	text "Hace poco que soy"
+	line "entrenador."
 
-	para "My son encouraged"
-	line "me to do it."
+	para "Mi hijo me animó a"
+	line "serlo."
 
-	para "I'm impressed by"
-	line "the selection of"
-	cont "convenient items."
+	para "Me impresiona la"
+	line "variedad de"
+	cont "objetos tan útiles"
 	done
 
 CeladonDeptStore2FYoungsterText:
-	text "My dad's having a"
-	line "hard time learning"
-
-	para "the names of items"
-	line "and how they are"
-
-	para "supposed to be"
-	line "used…"
+	text "A mi padre le"
+	line "cuesta aprenderse"
+	cont "los nombres de los"
+	cont "objetos y cómo se"
+	cont "usan…"
 	done
 
 CeladonDeptStore2FDirectoryText:
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "¡Objetos de 1a"
+	line "para Entrenadores!"
 
-	para "2F: Trainer's"
-	line "    Market"
+	para "P1: Mercado de"
+	line "    Entrenadores"
 	done

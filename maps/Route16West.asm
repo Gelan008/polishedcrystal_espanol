@@ -110,11 +110,12 @@ GenericTrainerBeautyNicole:
 	done
 
 .SeenText:
-	text "Aren't my #mon"
-	line "the cutest?"
+	text "¿A que mis #mon"
+	line "son los más monos?"
 	done
 
 .BeatenText:
-	text "They're even cute"
-	line "while fainted…"
+	text "Hasta debilitados"
+	line "siguen siendo muy"
+	cont "monos…"
 	done

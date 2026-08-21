@@ -75,72 +75,69 @@ OlivineLighthouse3FBattleGirlEmy:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "One of the Elite"
-	line "Four, Bruno, is a"
-	cont "fighter like me."
+	text "Bruno, del Alto"
+	line "Mando, lucha como"
+	cont "yo."
 
-	para "To become as"
-	line "strong as him--"
-	cont "that's my aim."
+	para "Ser tan fuerte"
+	line "como él… ¡esa es"
+	cont "mi meta!"
 	done
 
 .IntroText:
-	text "As a Battle Girl,"
-	line "I train intensely"
-	cont "every day."
+	text "Como Luchadora,"
+	line "entreno a tope"
+	cont "cada día."
 
-	para "There's something"
-	line "intense about you."
+	para "Desprendes una"
+	line "gran intensidad."
 
-	para "Can you beat all"
-	line "the trainers in"
-	cont "this Lighthouse?"
+	para "¿Podrás vencer a"
+	line "todos aquí?"
 
-	para "If you can, then"
-	line "I will battle you."
+	para "Si lo logras,"
+	line "¡lucharé contigo!"
 	done
 
 .QuestionText:
-	text "So you've bested"
-	line "this entire tower?"
+	text "¿Así que venciste"
+	line "a todos los de"
+	cont "la torre?"
 
-	para "Then you have one"
-	line "opponent left--"
-	cont "Chuck's own stu-"
-	cont "dent--me!"
+	para "¡Pues te queda una"
+	line "rival: la alumna"
+	cont "de Aníbal… ¡yo!"
 
-	para "Ready to spar?"
+	para "¿A punto para un"
+	line "asalto?"
 	done
 
 .RefusedText:
-	text "Back to training"
-	line "on my own…"
+	text "Mejor seguiré"
+	line "entrenando sola…"
 	done
 
 .SeenText:
-	text "From behind my"
-	line "Protect Pads, I"
-	cont "attack! Ki-yaah!"
+	text "¡A través de mis"
+	line "Paracontacto,"
+	cont "ataco! ¡Kii-yaah!"
 	done
 
 .BeatenText:
-	text "You broke through"
-	line "my defense!"
+	text "¡Has atravesado mi"
+	line "defensa!"
 	done
 
 .AfterText1:
-	text "Your team is"
+	text "¡Tienes un equipo"
 	line "formidable!"
 
-	para "But you can become"
-	line "even stronger."
+	para "Pero aún puedes"
+	line "ser más fuerte."
 
-	para "These Protect Pads"
-	line "will let you make"
-
-	para "contact with your"
-	line "opponent without"
-	cont "being harmed."
+	para "El Paracontacto te"
+	line "permite tocar al"
+	cont "rival sin dañarte."
 	done
 
 TrainerBird_keeperTheo:
@@ -175,16 +172,16 @@ GenericTrainerSailorTerrell:
 	done
 
 Bird_keeperTheoSeenText:
-	text "Why are you here?"
-	line "Are you just going"
+	text "¿Qué haces aquí?"
+	line "¿Vienes a mirar?"
 
-	para "to gawk? I suggest"
-	line "that you leave!"
+	para "¡Pues te sugiero"
+	line "que te marches!"
 	done
 
 Bird_keeperTheoBeatenText:
-	text "You really are"
-	line "concerned…"
+	text "De verdad estás"
+	line "preocupado…"
 	done
 
 BirdKeeperTheoAfterBattleText:
@@ -199,35 +196,37 @@ BirdKeeperTheoAfterBattleText:
 	done
 
 Bird_keeperTheoFinalText:
-	text "How the heck do"
-	line "you go up?"
+	text "¿Cómo demonios se"
+	line "sube?"
 
-	para "I heard the sick"
-	line "#mon is better"
-	cont "now, but I can't"
-	cont "get up there…"
+	para "Oí que el #mon"
+	line "enfermo ya mejoró,"
+	cont "¡pero no logro"
+	cont "llegar arriba!"
 	done
 
 SailorTerrellSeenText:
-	text "Sailors are both"
-	line "kind and strong."
-	cont "How about you?"
+	text "Los marineros son"
+	line "amables y fuertes."
+	cont "¿Y tú qué tal?"
 	done
 
 SailorTerrellBeatenText:
-	text "You are both kind"
-	line "and strong…"
+	text "Eres a la vez"
+	line "amable y fuerte…"
 	done
 
 GentlemanPrestonSeenText:
-	text "I travel the world"
-	line "to train my #-"
-	cont "mon. I wish to"
-	cont "battle with you."
+	text "Viajo por el mundo"
+	line "para entrenar a"
+	cont "mis #mon."
+
+	para "¡Deseo luchar"
+	line "contra ti!"
 	done
 
 GentlemanPrestonBeatenText:
-	text "…sigh… I must"
-	line "train some more…"
+	text "…Ay… Necesito más"
+	line "entrenamiento…"
 	done
 

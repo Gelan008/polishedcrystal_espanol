@@ -17,22 +17,23 @@ ViridianMart_MapScriptHeader:
 	object_event  1,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianMartCooltrainerMText, -1
 
 ViridianMartLassText:
-	text "The Gym Leader"
-	line "here is totally"
-	cont "cool."
+	text "El Líder local"
+	line "mola un montón."
 
-	para "He's the only one"
-	line "without a type"
-	cont "specialty."
+	para "Es el único que"
+	line "no se centra en un"
+	cont "solo tipo."
 
-	para "He likes to keep"
-	line "people guessing."
+	para "Le gusta despistar"
+	line "a la gente."
 	done
 
 ViridianMartCooltrainerMText:
-	text "Have you been to"
-	line "Cinnabar?"
+	text "¿Has estado alguna"
+	line "vez en Isla"
+	cont "Canela?"
 
-	para "It's an island way"
-	line "south of here."
+	para "Es una isla que"
+	line "queda muy al sur"
+	cont "de aquí."
 	done

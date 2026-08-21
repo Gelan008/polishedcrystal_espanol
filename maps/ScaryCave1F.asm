@@ -70,29 +70,27 @@ ScaryCave1FMiraScript:
 	end
 
 .ChallengeText:
-	text "I'm Mira…"
-	line "I was catching"
+	text "Soy Maiza… Estaba"
+	line "atrapando #mon,"
+	cont "pero esta cueva da"
+	cont "mucho miedo…"
 
-	para "#mon, but this"
-	line "cave is too scary…"
+	para "Quiero ser más"
+	line "fuerte para no ser"
+	cont "tan miedosa."
 
-	para "I want to get"
-	line "tougher so I won't"
-	cont "be such a scaredy-"
-	cont "cat."
-
-	para "Please! Please"
-	line "battle with me!"
+	para "¡Por favor! ¡Lucha"
+	line "conmigo!"
 	done
 
 .YesText:
-	text "Yes! Mira will"
-	line "show you her #-"
-	cont "mon!"
+	text "¡Sí! ¡Maiza te"
+	line "enseñará sus"
+	cont "#mon!"
 	done
 
 .NoText:
-	text "Mira is sad…"
+	text "Maiza está triste…"
 	done
 
 .BeatenText:
@@ -102,36 +100,33 @@ ScaryCave1FMiraScript:
 	done
 
 .ItemText:
-	text "<PLAYER>, did you"
-	line "get to be so good"
+	text "<PLAYER>, ¿te has"
+	line "hecho tan fuerte"
+	cont "por estar junto a"
+	cont "tus #mon?"
 
-	para "because you're al-"
-	line "ways with your"
-	cont "#mon?"
+	para "¡Sí! ¡Tiene que"
+	line "ser por eso!"
 
-	para "Yes! That has to"
-	line "be it!"
+	para "¡Maiza empieza a"
+	line "entenderlo!"
 
-	para "Mira is beginning"
-	line "to understand!"
-
-	para "Thank you,"
+	para "¡Muchas gracias,"
 	line "<PLAYER>!"
 
-	para "Mira wants you to"
-	line "have this!"
+	para "¡Maiza quiere que"
+	line "te quedes esto!"
 	done
 
 .GoodbyeText:
-	text "Mira will try like"
-	line "you, <PLAYER>!"
+	text "¡Maiza dará lo"
+	line "mejor de sí,"
+	cont "<PLAYER>!"
 
-	para "I'll get stronger"
-	line "at the Battle"
-	cont "Tower!"
+	para "¡Me haré fuerte en"
+	line "la Torre Batalla!"
 
-	para "<PLAYER>,"
-	line "bye-bye!"
+	para "¡Adiós, <PLAYER>!"
 	done
 
 ScaryCave1FPharmacistScript:
@@ -159,24 +154,23 @@ ScaryCave1FPharmacistScript:
 	done
 
 .IntroText:
-	text "Ghosts are masters"
-	line "of the cheap shot."
+	text "Los Fantasmas son"
+	line "expertos en golpes"
+	cont "bajos."
 
-	para "The way to deal"
-	line "with them is to"
-	cont "hit them first!"
+	para "¡La única forma"
+	line "de vencerlos es"
+	cont "golpear primero!"
 
-	para "Give 'em a good"
-	line "surprise Sucker"
-	cont "Punch!"
+	para "¡Dales una buena"
+	line "sorpresa con un"
+	cont "Golpe Bajo!"
 	done
 
 .QuestionText:
-	text "I'll teach you to"
-	line "Sucker Punch, but"
-
-	para "I want a Silver"
-	line "Leaf."
+	text "Te enseñaré Golpe"
+	line "Bajo a cambio de"
+	cont "una Hoja Plata."
 	done
 
 .NoSilverLeaf
@@ -319,13 +313,12 @@ GenericTrainerScientistPiotr:
 	done
 
 .SeenText:
-	text "Do you know why"
-	line "the water here is"
-	cont "blood-red?"
+	text "¿Sabes por qué el"
+	line "agua es tan oscura"
+	cont "por aquí?"
 	done
 
 .BeatenText:
-	text "Fine, I'll tell"
-	line "you!"
+	text "¡Vale, te lo diré!"
 	done
 

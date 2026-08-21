@@ -1,80 +1,78 @@
 VanceAnswerPhoneText:
-	text "Yes, hello?"
-	line ""
+	text "¿Sí, hola?"
+	line "¡Aquí "
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Morning, <PLAYER>!"
+	para "¡Buenos días,"
+	line "<PLAYER>!"
 
-	para "Are you using bird"
-	line "#mon?"
+	para "¿Estás usando"
+	line "#mon pájaro?"
 	done
 
 VanceAnswerPhoneDayText:
-	text "Yes, hello?"
-	line ""
+	text "¿Sí, hola?"
+	line "¡Aquí "
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Hi, <PLAYER>!"
+	para "¡Hola, <PLAYER>!"
 
-	para "Are your bird"
-	line "#mon flying?"
+	para "¿Vuelan alto tus"
+	line "#mon pájaro?"
 	done
 
 VanceAnswerPhoneNiteText:
-	text "Yes, hello?"
-	line ""
+	text "¿Sí, hola?"
+	line "¡Aquí "
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Evening, <PLAYER>!"
-	line "Are you letting"
+	para "¡Buenas noches,"
+	line "<PLAYER>!"
 
-	para "your bird #mon"
-	line "see some action?"
+	para "¿Haces volar a tus"
+	line "#mon pájaro?"
 	done
 
 VanceGreetText:
-	text "Good morning,"
+	text "¡Buenos días,"
 	line "<PLAYER>!"
 
-	para "It's "
+	para "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
-	line "Good morning!"
+	line "¡Buenos días!"
 	done
 
 VanceGreetDayText:
-	text "Hi, <PLAYER>!"
+	text "¡Hola, <PLAYER>!"
 
-	para "It's "
+	para "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
-	line "Remember me?"
+	line "¿Me recuerdas?"
 	done
 
 VanceGreetNiteText:
-	text "Good evening,"
+	text "¡Buenas noches,"
 	line "<PLAYER>!"
 
-	para "It's "
+	para "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
-	line "Are you free now?"
+	line "¿Estás libre?"
 	done
 
 VanceGenericText:
-	text "Are you and your"
-	line "#mon fine?"
+	text "¿Estáis bien tus"
+	line "#mon y tú?"
 
-	para "My "
+	para "¡Mi "
 	text_ram wStringBuffer4
-	line "looks like it will"
-
-	para "get tough enough"
-	line "to face and beat"
-
-	para "the legendary bird"
-	line "#mon!"
+	text ""
+	line "podría vencer a"
+	cont "las mismas aves"
+	cont "legendarias!"
 	done

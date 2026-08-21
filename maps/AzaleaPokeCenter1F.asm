@@ -58,55 +58,52 @@ AzaleaPokeCenter1FCooltrainermScript:
 	done
 
 .NiteText:
-	text "Kurt and Prof.Oak"
-	line "are old friends."
+	text "César y el Prof."
+	line "Oak son viejos"
+	cont "amigos."
 
-	para "They're also close"
-	line "with Agatha, a"
-
-	para "former member of"
-	line "the Elite Four."
+	para "También se llevan"
+	line "bien con Agatha,"
+	cont "ex miembro del"
+	cont "Alto Mando."
 	done
 
 AzaleaPokeCenter1FGentlemanText:
-	text "Do your #mon"
-	line "know HM moves?"
+	text "¿Tus #mon"
+	line "conocen MO?"
 
-	para "Those moves can"
-	line "be used even if"
-
-	para "your #mon has"
-	line "fainted."
+	para "Se pueden usar"
+	line "incluso si tu"
+	cont "#mon se ha"
+	cont "debilitado."
 	done
 
 AzaleaPokeCenter1FSightseermText:
-	text "This Bill guy"
-	line "created the system"
+	text "Ese tal Bill creó"
+	line "el sistema para"
+	cont "almacenar #mon"
+	cont "en el PC."
 
-	para "for storing"
-	line "#mon in a PC."
-
-	para "Bill's PC can"
-	line "store up to 20"
-	cont "#mon per Box."
+	para "El PC de Bill"
+	line "puede guardar 20"
+	cont "#mon por Caja."
 	done
 
 AzaleaPokeCenter1FPokefanfText:
-	text "Do you know about"
-	line "Apricorns?"
+	text "¿Conoces los"
+	line "Bonguris?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Abre uno, vacíalo"
+	line "y ponle un"
+	cont "mecanismo"
+	cont "especial."
 
-	para "fit it with a"
-	line "special device."
+	para "Entonces podrás"
+	line "atrapar #mon"
+	cont "con él."
 
-	para "Then you can catch"
-	line "#mon with it."
-
-	para "Before # Balls"
-	line "were invented,"
-
-	para "everyone used"
-	line "Apricorns."
+	para "Antes de inventar"
+	line "las # Balls,"
+	cont "todo el mundo"
+	cont "usaba Bonguris."
 	done

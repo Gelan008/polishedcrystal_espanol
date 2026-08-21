@@ -36,26 +36,27 @@ GenericTrainerBoarderStefan:
 	done
 
 SkierMariaSeenText:
-	text "Were you admiring"
-	line "my ski technique?"
+	text "¿Admirabas mi"
+	line "forma de esquiar?"
 	done
 
 SkierMariaBeatenText:
-	text "Your battling"
-	line "technique is"
-	cont "admirable!"
+	text "¡Tu técnica en el"
+	line "combate es genial!"
 	done
 
 BoarderStefanSeenText:
-	text "Brrr… It's so"
-	line "cold!"
+	text "¡Brrr… Hace"
+	line "mucho frío!"
 
-	para "Let's warm up with"
-	line "a #mon battle!"
+	para "¡Entremos en calor"
+	line "con un combate"
+	cont "#mon!"
 	done
 
 BoarderStefanBeatenText:
-	text "This cold is the"
-	line "shame of defeat…"
+	text "Este frío es la"
+	line "vergüenza de haber"
+	cont "perdido…"
 	done
 

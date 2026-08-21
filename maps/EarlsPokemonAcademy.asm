@@ -94,7 +94,7 @@ AcademyBlackboard:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 11, 8
+	menu_coords 0, 0, 13, 8
 	dw .Data
 	db 1 ; default option
 
@@ -106,12 +106,12 @@ AcademyBlackboard:
 	dbw BANK(AcademyBlackboard), 0
 
 .Text:
-	db "Psn@"
+	db "Env@"
 	db "Par@"
-	db "Slp@"
-	db "Brn@"
-	db "Frz@"
-	db "Quit@"
+	db "Dor@"
+	db "Que@"
+	db "Con@"
+	db "Salir@"
 
 AcademyNotebook:
 	opentext
@@ -163,40 +163,40 @@ AcademyEarlSpinMovement:
 	step_end
 
 AcademyEarlIntroText:
-	text "Earl, I am!"
+	text "¡Earl, yo soy!"
 
-	para "Wonderful are"
-	line "#mon, yes!"
+	para "Maravillosos son"
+	line "los #mon, ¡sí!"
 
-	para "Teach you I will"
-	line "to be a better"
-	cont "trainer!"
+	para "¡Enseñarte yo"
+	line "haré a ser mejor"
+	cont "entrenador!"
 
-	para "What you want to"
-	line "know? Want to be"
-	cont "a winner is you?"
+	para "¿Qué quieres"
+	line "saber? ¿Ganador"
+	cont "quieres ser?"
 	done
 
 AcademyEarlTeachHowToWinText:
-	text "Good! Teach you,"
-	line "I will!"
+	text "¡Bien! ¡Yo te"
+	line "enseñaré!"
 
-	para "In battle, #mon"
-	line "top on list jump"
-	cont "out first!"
+	para "En combate, el"
+	line "#mon primero"
+	cont "sale antes."
 
-	para "Change order in"
-	line "list, make battle"
-	cont "easy, maybe!"
+	para "¡Cambiar orden"
+	line "de lista fácil el"
+	cont "combate hace!"
 
-	para "More from me you"
-	line "want to hear?"
+	para "¿Más de mí oír"
+	line "quieres?"
 	done
 
 AcademyEarlTeachMoreText:
-	text "So, want to know"
-	line "how to raise"
-	cont "#mon well?"
+	text "¿Así que quieres"
+	line "saber cómo criar"
+	cont "bien tus #mon?"
 	done
 
 AcademyEarlTeachHowToRaiseWellText:
@@ -221,179 +221,170 @@ AcademyEarlTeachHowToRaiseWellText:
 	done
 
 AcademyEarlNoMoreToTeachText:
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
+	text "¡Oh! ¡Alumno muy"
+	line "listo eres! ¡Nada"
+	cont "más enseño yo!"
 
-	para "Good to #mon"
-	line "you must be!"
+	para "¡Bueno con #mon"
+	line "tú debes ser!"
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "I'm taking notes"
-	line "of the teacher's"
-	cont "lecture."
+	text "Tomo notas de la"
+	line "clase del"
+	cont "profesor."
 
-	para "I'd better copy"
-	line "the stuff on the"
-	cont "blackboard too."
+	para "Copiaré también"
+	line "lo de la pizarra."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "I traded my best"
-	line "#mon to the"
-	cont "guy beside me."
+	text "Cambié mi mejor"
+	line "#mon al chico"
+	cont "de al lado."
 	done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "Huh? The #mon I"
-	line "just got is hold-"
-	cont "ing something!"
+	text "¿Eh? ¡El #mon"
+	line "que me dieron"
+	cont "lleva algo!"
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "A #mon holding"
-	line "a Berry will heal"
-	cont "itself in battle."
+	text "Un #mon con una"
+	line "Baya se cura solo"
+	cont "en combate."
 
-	para "Many other items"
-	line "can be held by"
-	cont "#mon…"
+	para "Muchos otros"
+	line "objetos pueden ser"
+	cont "equipados…"
 
-	para "It sure is tough"
-	line "taking notes…"
+	para "Vaya lío tomar"
+	line "apuntes…"
 	done
 
 AcademyBlackboardText:
-	text "The blackboard"
-	line "describes #mon"
-
-	para "status changes in"
-	line "battle."
+	text "La pizarra explica"
+	line "estados #mon en"
+	cont "combate."
 	done
 
 AcademyPoisonText:
-	text "If poisoned, a"
-	line "#mon steadily"
-	cont "loses HP."
+	text "Si es envenenado,"
+	line "el #mon pierde"
+	cont "PS poco a poco."
 
-	para "Poison lingers"
-	line "after the battle,"
+	para "El veneno sigue"
+	line "tras el combate y"
+	cont "quita PS al andar."
 
-	para "and HP is lost as"
-	line "you walk."
-
-	para "To cure it, use an"
-	line "Antidote."
+	para "Para curarlo, usa"
+	line "un Antídoto."
 	done
 
 AcademyParalysisText:
-	text "Paralysis reduces"
-	line "speed and may"
-	cont "prevent movement."
+	text "La parálisis baja"
+	line "la Velocidad y"
+	cont "puede impedir el"
+	cont "movimiento."
 
-	para "It remains after"
-	line "battle, so use"
-	cont "a ParalyzeHeal."
+	para "Persiste tras el"
+	line "combate. Usa un"
+	cont "Antiparaliz."
 	done
 
 AcademySleepText:
-	text "If asleep, your"
-	line "#mon can't make"
-	cont "a move."
+	text "Si está dormido,"
+	line "tu #mon no"
+	cont "puede atacar."
 
-	para "A sleeping #mon"
-	line "doesn't wake up"
-	cont "after battle."
+	para "No despertará al"
+	line "acabar el combate."
 
-	para "Wake it up with"
-	line "an Awakening."
+	para "Despiértalo con"
+	line "un Despertar."
 	done
 
 AcademyBurnText:
-	text "A burn steadily"
-	line "consumes HP."
+	text "Una quemadura"
+	line "consume PS poco"
+	cont "a poco y baja el"
+	cont "Ataque."
 
-	para "It also reduces"
-	line "attack power."
+	para "Persiste tras el"
+	line "combate."
 
-	para "A burn lingers"
-	line "after battle."
-
-	para "Use a Burn Heal as"
-	line "the cure."
+	para "Usa Antiquemar"
+	line "para curarlo."
 	done
 
 AcademyFreezeText:
-	text "If your #mon is"
-	line "frozen, it can't"
-	cont "do a thing."
+	text "Si tu #mon está"
+	line "congelado, no"
+	cont "puede hacer nada."
 
-	para "It remains frozen"
-	line "after battle."
+	para "Sigue congelado"
+	line "tras el combate."
 
-	para "Thaw it out with"
-	line "an Ice Heal."
+	para "Descóngelalo con"
+	line "un Antihielo."
 	done
 
 AcademyNotebookText:
-	text "It's this kid's"
-	line "notebook…"
+	text "Es el cuaderno"
+	line "del chico…"
 
-	para "Catch #mon"
-	line "using # Balls."
+	para "Captura #mon"
+	line "con # Balls."
 
-	para "Up to six can be"
-	line "in your party."
+	para "Puedes llevar"
+	line "hasta seis en"
+	cont "tu equipo."
 
-	para "Keep reading?"
+	para "¿Seguir leyendo?"
 	done
 
 AcademyNotebookText1:
-	text "Before throwing a"
-	line "# Ball, weaken"
-	cont "the target first."
+	text "Antes de lanzar"
+	line "la # Ball, baja"
+	cont "la salud al rival."
 
-	para "A poisoned or"
-	line "burned #mon is"
-	cont "easier to catch."
+	para "Envenenado o"
+	line "quemado es más"
+	cont "fácil de atrapar."
 
-	para "Keep reading?"
+	para "¿Seguir leyendo?"
 	done
 
 AcademyNotebookText2:
-	text "Some moves may"
-	line "cause confusion."
+	text "Algunos ataques"
+	line "causan confusión."
 
-	para "Confusion may make"
-	line "a #mon attack"
-	cont "itself."
+	para "La confusión puede"
+	line "hacer que se dañe"
+	cont "a sí mismo."
 
-	para "Leaving battle"
-	line "clears up any"
-	cont "confusion."
+	para "Huir del combate"
+	line "cura la confusión."
 
-	para "Keep reading?"
+	para "¿Seguir leyendo?"
 	done
 
 AcademyNotebookText3:
-	text "People who catch"
-	line "and use #mon"
+	text "Quien captura y"
+	line "usa #mon en"
+	cont "combate es un"
+	cont "entrenador #mon"
 
-	para "in battle are"
-	line "#mon trainers."
+	para "Deben visitar"
+	line "Gimnasios #mon"
+	cont "y vencer a otros."
 
-	para "They are expected"
-	line "to visit #mon"
+	para "La otra página…"
+	line "¡está en blanco!"
 
-	para "Gyms and defeat"
-	line "other trainers."
+	para "Chico: Jejeje…"
 
-	para "The next page"
-	line "is… Blank!"
-
-	para "Boy: E-he-he…"
-
-	para "I haven't written"
-	line "any more…"
+	para "No he escrito"
+	line "nada más aún…"
 	done

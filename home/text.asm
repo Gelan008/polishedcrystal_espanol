@@ -369,7 +369,7 @@ _PlaceBattleNickname:
 	jr PlaceCommandCharacter
 
 .EnemyText:
-	db "Foe" ; fallthrough, no " @"
+	db "Enm" ; fallthrough, no " @"
 SpaceText::
 	db " " ; fallthrough, no "@"
 EmptyString::
@@ -734,14 +734,14 @@ PrintDayOfWeek::
 	dr .Fri
 	dr .Satur
 
-.Sun:    db "Sun@"
-.Mon:    db "Mon@"
-.Tues:   db "Tues@"
-.Wednes: db "Wednes@"
-.Thurs:  db "Thurs@"
-.Fri:    db "Fri@"
-.Satur:  db "Satur@"
-.Day:    db "day@"
+.Sun:    db "Dom@"
+.Mon:    db "Lun@"
+.Tues:   db "Mart@"
+.Wednes: db "Miér@"
+.Thurs:  db "Jue@"
+.Fri:    db "Vie@"
+.Satur:  db "Sáb@"
+.Day:    db "@"
 
 DecompressString::
 	; save starting coords

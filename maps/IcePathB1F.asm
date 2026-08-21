@@ -89,19 +89,20 @@ GenericTrainerSkierBecky:
 	done
 
 BoarderMaxSeenText:
-	text "Blackthorn can't be"
-	line "much farther…"
+	text "Endrino no puede"
+	line "estar muy lejos…"
 	done
 
 BoarderMaxBeatenText:
-	text "Wiped out!"
+	text "¡Aniquilado!"
 	done
 
 SkierBeckySeenText:
-	text "I can see my"
-	line "breath freezing!"
+	text "¡Puedo ver cómo"
+	line "se congela mi"
+	cont "aliento!"
 	done
 
 SkierBeckyBeatenText:
-	text "Achoo!"
+	text "¡Achís!"
 	done

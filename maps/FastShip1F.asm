@@ -194,13 +194,12 @@ FastShip1F_PlayerLeavesShipRightMovement:
 	step_end
 
 FastShip1FSailor1Text_ToOlivine:
-	text "Fast Ship S.S.Aqua"
-	line "is en route to"
-	cont "Olivine City."
+	text "El S.S. Aqua está"
+	line "de camino a"
+	cont "C. Olivo."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Haremos un aviso"
+	line "cuando lleguemos."
 	done
 
 FastShip1FSailor2Text_FirstTime:
@@ -215,48 +214,46 @@ FastShip1FSailor2Text_FirstTime:
 	done
 
 FastShip1FSailor2Text:
-	text "Here's your cabin."
+	text "Éste es tu"
+	line "camarote."
 
-	para "You can heal your"
-	line "#mon by taking"
-	cont "a nap in the bed."
+	para "Si tus #mon"
+	line "están heridos,"
+	cont "echa una siesta."
 
-	para "The ship will"
-	line "arrive while"
-	cont "you're sleeping."
+	para "El barco llegará"
+	line "mientras duermes."
 	done
 
 FastShip1FSailor3Text:
-	text "The passengers are"
-	line "all trainers."
+	text "Los pasajeros son"
+	line "entrenadores."
 
-	para "They're all itch-"
-	line "ing to battle in"
-	cont "their cabins."
+	para "Todos se mueren"
+	line "por luchar en sus"
+	cont "camarotes."
 	done
 
 FastShip1FGrandpaText:
-	text "Whoa! Excuse me."
-	line "I was in a hurry!"
+	text "¡Uaa! Perdona."
+	line "¡Llevo prisa!"
 
-	para "My granddaughter"
-	line "is missing!"
+	para "¡Mi nieta ha"
+	line "desaparecido!"
 
-	para "She's just a wee"
-	line "girl. If you see"
-
-	para "her, please let me"
-	line "know!"
+	para "Es muy pequeña."
+	line "Si la ves, ¡por"
+	cont "favor avísame!"
 	done
 
 FastShip1FSailor1Text_InOlivine:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Olivine City."
+	text "El S.S. Aqua ha"
+	line "llegado a C."
+	cont "Olivo."
 	done
 
 FastShip1FSailor1Text_InVermilion:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Vermilion City."
+	text "El S.S. Aqua ha"
+	line "llegado a Ciudad"
+	cont "Carmín."
 	done

@@ -25,18 +25,16 @@ CeruleanGymBadgeSpeechHouseGentlemanScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "You're collecting"
-	line "Kanto Gym Badges?"
-	cont "Good luck!"
+	text "¿Coleccionas las"
+	line "Medallas de Kanto?"
+	cont "¡Buena suerte!"
 	done
 
 .Text1:
-	text "We had a spate of"
-	line "burglaries a few"
+	text "Hubo una ola de"
+	line "robos hace años,"
+	cont "y ahora todos son"
+	cont "muy prudentes."
 
-	para "years back, so now"
-	line "everyone's super"
-	cont "cautious."
-
-	para "Who are you?"
+	para "¿Quién eres tú?"
 	done

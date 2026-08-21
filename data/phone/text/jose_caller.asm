@@ -1,115 +1,93 @@
 JoseMonsStickHasADeliciousAromaText:
-	text "Hey listen, my"
+	text "El puerro de mi"
 	line ""
 	text_ram wStringBuffer4
-	text "'s stick"
+	text " huele"
+	cont "súper bien."
 
-	para "has this really"
-	line "delicious aroma."
-
-	para "That aroma gets my"
-	line "appetite going!"
+	para "¡Ese olor me abre"
+	line "el apetito!"
 	done
 
 JoseDefeatedMonText:
-	text "A while ago, my"
-	line "Farfetch'd KO'd"
-	cont "this "
+	text "Hace nada, mi"
+	line "Farfetch'd venció"
+	cont "a un "
 	text_ram wStringBuffer4
 	text "."
 
-	para "You should have"
-	line "seen Farfetch'd"
-
-	para "wield that stick."
-	line "Amazing stuff!"
+	para "¡Tenías que ver"
+	line "cómo blandía su"
+	cont "puerro! ¡Genial!"
 	done
 
 JoseLostAMonText:
-	text "I ran into a wild"
-	line ""
+	text "Vi a un "
 	text_ram wStringBuffer4
-	text "…"
+	text ""
+	line "salvaje…"
 
-	para "I was trying to"
-	line "catch it, but it"
-
-	para "took off faster"
-	line "than I thought it"
-
-	para "would. It was a"
-	line "bit disappointing."
+	para "Iba a atraparlo,"
+	line "pero huyó más"
+	cont "rápido de lo que"
+	cont "creía. ¡Qué pena!"
 	done
 
 JoseBattleRematchText:
-	text "Want to battle"
-	line "again?"
+	text "¿Quieres luchar"
+	line "otra vez?"
 
-	para "For some reason,"
-	line "my Farfetch'd is"
+	para "Mi Farfetch'd está"
+	line "muy alterado con"
+	cont "ganas de combatir."
 
-	para "all worked up and"
-	line "raring to go."
-
-	para ""
+	para "Estoy en"
+	line ""
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'm at."
-
-	para "Keep an eye out"
-	line "for me, OK?"
+	text "."
+	cont "¡Búscame al venir!"
 	done
 
 JoseHangUpText:
-	text "Be seeing you!"
+	text "¡Nos vemos!"
 	done
 
 JoseFoundItemText:
-	text "My Farfetch'd had"
-	line "something pretty"
-	cont "in its beak."
+	text "¡Mi Farfetch'd"
+	line "llevaba algo muy"
+	cont "bonito en el pico!"
 
-	para "Like I promised,"
-	line "you can have it."
+	para "Te lo prometí, así"
+	line "que es para ti."
 
-	para "Catch up to me on"
+	para "Búscame en"
 	line ""
 	text_ram wStringBuffer5
-	text ","
-
-	para "and I'll let you"
-	line "have it."
+	text ""
+	cont "y te lo daré."
 	done
 
 JoseHaventGottenItemYetText:
-	text "I haven't gotten"
-	line "what I promised"
-	cont "you yet."
+	text "Aún no encontré lo"
+	line "que te prometí."
 
-	para "I'll call you as"
-	line "soon as I get it,"
-
-	para "so could you wait"
-	line "a little longer?"
+	para "Te llamaré en"
+	line "cuanto lo tenga,"
+	cont "¡espera un poco!"
 	done
 
 JoseReminderText:
-	text "<PLAYER>, could you"
-	line "hurry over?"
+	text "<PLAYER>, ¿puedes"
+	line "darte prisa?"
 
-	para "Farfetch'd is"
-	line "agitated."
+	para "Farfetch'd está"
+	line "muy nervioso. ¡Si"
+	cont "no vienes, me dará"
+	cont "con su puerro!"
 
-	para "If you don't come"
-	line "soon, it might"
-
-	para "smack me with its"
-	line "stick!"
-
-	para ""
+	para "¡Estoy en"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
-
-	para "Please come as"
-	line "soon as you can!"
+	cont "¡Ven cuanto antes!"
 	done

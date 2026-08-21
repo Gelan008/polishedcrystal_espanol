@@ -35,30 +35,28 @@ GenericTrainerBird_keeperBob:
 	done
 
 Bird_keeperBorisSeenText:
-	text "If you're looking"
-	line "for #mon, you"
-
-	para "have to look in"
-	line "the tall grass."
+	text "Si estás buscando"
+	line "#mon, debes"
+	cont "mirar en la hierba"
 	done
 
 Bird_keeperBorisBeatenText:
-	text "Ayieee!"
+	text "¡Aaaay!"
 	done
 
 Bird_keeperBobSeenText:
-	text "Cycling Road is a"
-	line "quick shortcut to"
-	cont "Celadon."
+	text "El Camino de Bicis"
+	line "es un buen atajo"
+	cont "para ir a Azulona."
 	done
 
 Bird_keeperBobBeatenText:
-	text "…Whew!"
+	text "… ¡Uf!"
 	done
 
 Route18SignText:
-	text "Route 18"
+	text "Ruta 18"
 
-	para "Celadon City -"
-	line "Fuchsia City"
+	para "Ciudad Azulona -"
+	line "Ciudad Fucsia"
 	done

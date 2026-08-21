@@ -1,69 +1,63 @@
 ParryNothingCanMatchText:
-	text "Nothing can match"
-	line "my "
+	text "Nada igualará a mi"
+	line ""
 	text_ram wStringBuffer4
-	text " now."
+	text " ahora."
 	done
 
 ParryDefeatedMonText:
-	text "Yeah, we KO'd a"
-	line "wild "
+	text "¡Sí! ¡Vencimos a"
+	line "un "
 	text_ram wStringBuffer4
-	text "!"
+	text ""
+	cont "salvaje!"
 
-	para "That was OK, but I"
-	line "wanted to get it…"
+	para "Estuvo bien, pero"
+	line "quería atraparlo…"
 	done
 
 ParryLostAMonText:
-	text "And yesterday, we"
-	line "spotted a wild"
-
-	para ""
+	text "Ayer vimos a un"
+	line ""
 	text_ram wStringBuffer4
-	text "."
-	line "We were debating"
+	text " salvaje"
+	cont "y dudábamos si"
+	cont "cazarlo o no…"
 
-	para "whether to catch"
-	line "it or beat it."
-
-	para "When along came"
-	line "another guy who"
-
-	para "caught it!"
-	line "How about that!"
+	para "¡Y vino otro chico"
+	line "y lo atrapó!"
+	cont "¡Vaya tela!"
 	done
 
 ParryBattleRematchText:
-	text "You're thinking"
-	line "you'd like to"
+	text "Seguro que quieres"
+	line "luchar contra mí."
+	cont "¿Tengo razón o no?"
 
-	para "battle me. Am I"
-	line "right or what?"
-
-	para "Yep! We'll meet on"
-	line ""
+	para "¡Pues nos vemos"
+	line "en "
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ParryHangUpText:
-	text "OK, give me a call"
-	line "again!"
+	text "¡Vale, llámame de"
+	line "nuevo!"
 	done
 
 ParryBattleWithMeText:
-	text "You'll battle with"
-	line "me again, right?"
+	text "Lucharás conmigo"
+	line "de nuevo, ¿no?"
 	done
 
 ParryHaventYouGottenToText:
-	text "Haven't you gotten"
-	line "to "
+	text "¿Aún no has"
+	line "llegado a"
+	cont ""
 	text_ram wStringBuffer5
 	text "?"
 
-	para "Waiting here isn't"
-	line "bad, but I'd sure"
-	cont "like to battle!"
+	para "No me importa"
+	line "esperar, ¡pero"
+	cont "quiero combatir!"
 	done

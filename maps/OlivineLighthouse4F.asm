@@ -49,17 +49,17 @@ SailorKentScript:
 	jumptextfaceplayer SailorKentAfterBattleText
 
 SailorKentSeenText:
-	text "Jasmine must be"
-	line "worried sick about"
-	cont "the #mon here."
+	text "Yasmina debe de"
+	line "estar preocupada"
+	cont "por este #mon."
 
-	para "She won't even"
-	line "smile these days."
+	para "¡Últimamente ni"
+	line "siquiera sonríe!"
 	done
 
 SailorKentBeatenText:
-	text "I can't manage a"
-	line "smile either…"
+	text "A mí tampoco me"
+	line "sale sonreír…"
 	done
 
 SailorKentAfterBattleText:
@@ -71,26 +71,29 @@ SailorKentAfterBattleText:
 	done
 
 SailorKentFinalText:
-	text "The #mon here"
-	line "is well again."
+	text "El #mon de aquí"
+	line "ya está bien."
 
-	para "Cianwood Pharmacy"
-	line "lived up to its"
-	cont "reputation!"
+	para "¡La Farmacia de"
+	line "Orquídea honró"
+	cont "a su gran fama!"
 	done
 
 LassConnieSeenText:
-	text "Jasmine is this"
-	line "city's Gym Leader."
+	text "Yasmina es la"
+	line "Líder de Gimnasio"
+	cont "de esta ciudad."
 
-	para "I mean to bring"
-	line "her back with me."
+	para "¡Haré que vuelva"
+	line "conmigo!"
 
-	para "Nobody had better"
-	line "get in my way!"
+	para "¡Que nadie ose"
+	line "interponerse en"
+	cont "mi camino!"
 	done
 
 LassConnieBeatenText:
-	text "Aaack! My #mon!"
+	text "¡Aaaay! ¡Mis"
+	line "#mon!"
 	done
 

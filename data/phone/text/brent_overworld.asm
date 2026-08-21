@@ -1,62 +1,59 @@
 BrentAskNumber1Text:
-	text "By the way, you're"
-	line "a #Maniac"
+	text "Se nota que eres"
+	line "un #maníaco."
+	cont "¡Sí, lo eres!"
 
-	para "I can tell."
-	line "Yes, you are."
+	para "¡Pero aún te falta"
+	line "mucho por saber!"
 
-	para "But your knowledge"
-	line "is shallow still!"
+	para "¿Conoces a Bill?"
+	line "¡Es un #Maniaco"
+	cont "genial! Le venero."
 
-	para "Do you know Bill?"
-	line "He's an incredible"
-
-	para "#Maniac."
-	line "I revere him."
-
-	para "I'll teach you all"
-	line "I know about Bill,"
-
-	para "so leave me your"
-	line "phone number."
+	para "Te enseñaré todo"
+	line "sobre él si me das"
+	cont "tu número."
 	done
 
 BrentAskNumber2Text:
-	text "I'll teach you all"
-	line "I know about Bill,"
-
-	para "so leave me your"
-	line "phone number."
+	text "Te enseñaré todo"
+	line "sobre Bill si me"
+	cont "das tu número."
 	done
 
 BrentNumberAcceptedText:
-	text "Bill--he's more"
-	line "than amazing!"
+	text "Bill… ¡es más"
+	line "que asombroso!"
 
-	para "To be a #Maniac"
-	line "like him someday…"
+	para "Ser un #Maniaco"
+	line "como él algún"
+	cont "día…"
 
-	para "That's my dream."
+	para "¡Ese es mi sueño!"
 	done
 
 BrentNumberDeclinedText:
-	text "You're going to"
-	line "regret it…"
+	text "Te vas a"
+	line "arrepentir…"
 
-	para "And I won't care…"
+	para "Y no me"
+	line "importará…"
 	done
 
 BrentPhoneFullText:
-	text "Huh? Your phone"
-	line "list's full."
+	text "¿Eh? Tu lista de"
+	line "teléfonos está"
+	cont "llena."
 
-	para "A #Maniac has"
-	line "to be more tidy!"
+	para "¡Un #Maniaco"
+	line "debe ser más"
+	cont "ordenado!"
 	done
 
 BrentRematchText:
-	text "I've been waiting."
+	text "Te estaba"
+	line "esperando."
 
-	para "Look, check out my"
-	line "#mon!"
+	para "¡Mira, fíjate en"
+	line "mis #mon!"
 	done

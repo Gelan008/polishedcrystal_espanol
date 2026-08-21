@@ -109,29 +109,26 @@ Route40FisherScript:
 	done
 
 .IntroText:
-	text "I was fishing when"
-	line "some #mon leap-"
-	cont "ed up and knocked"
+	text "Estaba pescando y"
+	line "un #mon saltó"
+	cont "y me tiró la Caña"
+	cont "al agua."
 
-	para "my Rod into the"
-	line "water!"
+	para "¿Cómo voy a pescar"
+	line "algo ahora?"
 
-	para "How will I catch"
-	line "anything now?"
-
-	para "…Well then, if I"
-	line "can't fish, I'll"
-	cont "just teach."
+	para "… En fin, si no"
+	line "puedo pescar,"
+	cont "¡enseñaré!"
 	done
 
 .QuestionText:
-	text "You give me a"
-	line "Silver Leaf and"
+	text "Dame una Hoja"
+	line "Plata y enseñaré"
+	cont "Desarme a tu"
+	cont "#mon."
 
-	para "I'll teach your"
-	line "#mon Knock Off."
-
-	para "How about that?"
+	para "¿Qué te parece?"
 	done
 
 .NoSilverLeaf
@@ -183,60 +180,58 @@ MonicaDoneScript:
 	end
 
 SwimmermSimonSeenText:
-	text "You have to warm"
-	line "up before going"
-	cont "into the water."
+	text "Hay que calentar"
+	line "antes de entrar"
+	cont "al agua."
 
-	para "That's basic."
+	para "Es lo básico."
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "¡Vale! ¡Me rindo!"
 	done
 
 SwimmermRandallSeenText:
-	text "Hey, you're young"
-	line "and fit!"
+	text "¡Oye, eres joven y"
+	line "estás en forma!"
 
-	para "Don't ride your"
-	line "#mon! Swim!"
+	para "¡No vayas sobre tu"
+	line "#mon! ¡Nada!"
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "¡Vaya derrota…!"
 	done
 
 SwimmerfElaineSeenText:
-	text "Are you going to"
-	line "Cianwood?"
+	text "¿Vas hacia Ciudad"
+	line "Orquídea?"
 
-	para "How about a quick"
-	line "battle first?"
+	para "¿Luchamos antes"
+	line "un combate rápido?"
 	done
 
 SwimmerfElaineBeatenText:
-	text "I lost that one!"
+	text "¡He perdido!"
 	done
 
 SwimmerfPaulaSeenText:
-	text "No inner tube for"
-	line "me."
+	text "Paso del flotador."
 
-	para "I'm hanging on to"
-	line "a sea #mon!"
+	para "¡Yo me agarro a un"
+	line "#mon marino!"
 	done
 
 SwimmerfPaulaBeatenText:
-	text "Ooh, I'm feeling"
-	line "dizzy!"
+	text "¡Uf, qué mareo!"
 	done
 
 Route40BeachGirlText:
-	text "I just ate at the"
-	line "Olivine Café, so"
+	text "Acabo de comer en"
+	line "el Bar de Olivo,"
 
-	para "I'm taking a break"
-	line "before swimming."
+	para "así que descanso"
+	line "antes de nadar."
 	done
 
 Route40PokefanMText:
@@ -247,24 +242,21 @@ Route40PokefanMText:
 	done
 
 Route40PokefanMText2:
-	text "Hm! Look at all"
-	line "those serious-"
-	cont "looking trainers"
-	cont "streaming in."
+	text "¡Mmm! Mira cuántos"
+	line "entrenadores tan"
+	cont "serios entran."
 
-	para "What? What?"
+	para "¿Qué pasará?"
 	done
 
 Route40PicnickerText:
-	text "I came to Olivine"
-	line "by ship to see the"
+	text "Vine a Olivo en"
+	line "barco para hacer"
+	cont "turismo."
 
-	para "sights and soak up"
-	line "the atmosphere."
-
-	para "Being a port, it"
-	line "feels so different"
-	cont "from a big city."
+	para "Al ser un puerto,"
+	line "el ambiente es muy"
+	cont "diferente."
 	done
 
 Route40BeachGuyText:
@@ -280,33 +272,27 @@ Route40BeachGuyText:
 	done
 
 Route40BeachGuyText2:
-	text "Have you gone to"
-	line "the Battle Tower?"
+	text "¿Has ido a la"
+	line "Torre Batalla?"
 
-	para "I think a lot of"
-	line "tough trainers"
+	para "Hay muchos rivales"
+	line "fuertes reunidos."
 
-	para "have gathered"
-	line "there already."
-
-	para "But since you have"
-	line "so many Badges,"
-
-	para "you shouldn't do"
-	line "badly at all."
+	para "Pero con tantas"
+	line "Medallas, ¡seguro"
+	cont "que lo bordas!"
 	done
 
 MeetMonicaText:
-	text "Monica: Glad to"
-	line "meet you. I'm"
-
-	para "Monica of Monday."
+	text "Lune: Encantada."
+	line "Soy Lune, la del"
+	cont "lunes."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "¡Como muestra de"
+	line "nuestra amistad,"
+	cont "tengo un regalo!"
 	done
 
 MonicaGaveGiftText:
@@ -322,14 +308,13 @@ MonicaGaveGiftText:
 	done
 
 MonicaMondayText:
-	text "Monica: My broth-"
-	line "ers and sisters"
+	text "Lune: Mis hermanos"
+	line "están repartidos"
+	cont "por todas partes."
 
-	para "are all over the"
-	line "place."
-
-	para "See if you could"
-	line "find them all!"
+	para "¡A ver si puedes"
+	line "encontrarlos a"
+	cont "todos!"
 	done
 
 MonicaNotMondayText:
@@ -339,8 +324,8 @@ MonicaNotMondayText:
 	done
 
 Route40SignText:
-	text "Route 40"
+	text "Ruta 40"
 
-	para "Cianwood City -"
-	line "Olivine City"
+	para "Ciudad Orquídea -"
+	line "Ciudad Olivo"
 	done

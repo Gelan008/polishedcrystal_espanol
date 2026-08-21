@@ -40,19 +40,19 @@ GenericTrainerBattleGirlDiane:
 	done
 
 BattleGirlSubaruSeenText:
-	text "Kiyaah!"
+	text "¡Kiyaah!"
 	done
 
 BattleGirlSubaruBeatenText:
-	text "Ooof!"
+	text "¡Uuuuf!"
 	done
 
 BattleGirlDianeSeenText:
-	text "Hii-yaah!"
+	text "¡Hii-yaah!"
 	done
 
 BattleGirlDianeBeatenText:
-	text "This round goes"
-	line "to you."
+	text "Esta ronda te la"
+	line "llevas tú."
 	done
 

@@ -28,52 +28,48 @@ PalletTownFlyPoint:
 	endcallback
 
 PalletTownTeacherText:
-	text "I'm raising #-"
-	line "mon too."
+	text "Yo también crío"
+	line "#mon."
 
-	para "They serve as my"
-	line "private guards."
+	para "Me sirven de"
+	line "guardaespaldas."
 	done
 
 PalletTownFisherText:
-	text "Technology is"
-	line "incredible!"
+	text "¡La tecnología es"
+	line "increíble!"
 
-	para "You can now make"
-	line "games just by"
-
-	para "writing code in-"
-	line "stead of editing"
-	cont "binary data."
+	para "¡Ahora creas los"
+	line "juegos con código"
+	cont "sin tener que usar"
+	cont "código binario!"
 	done
 
 PalletTownYoungsterText:
-	text "Smell ya later!"
+	text "¡COMER NIÑOS!"
 
-	para "…People started"
-	line "saying that around"
-	cont "here, but it's"
-
-	para "kinda weird if you"
-	line "think about it."
+	para "…Se puso de moda"
+	line "decir eso por"
+	cont "aquí, pero es raro"
+	cont "si lo piensas."
 	done
 
 PalletTownSignText:
-	text "Pallet Town"
+	text "Pueblo Paleta"
 
-	para "A Tranquil Setting"
-	line "of Peace & Purity"
+	para "Un lugar tranquilo"
+	line "de paz y pureza"
 	done
 
 RedsHouseSignText:
-	text "Red's House"
+	text "Casa de Rojo"
 	done
 
 OaksLabSignText:
-	text "Oak #mon"
-	line "Research Lab"
+	text "Lab. #mon del"
+	line "Prof. Oak"
 	done
 
 BluesHouseSignText:
-	text "Blue's House"
+	text "Casa de Azul"
 	done

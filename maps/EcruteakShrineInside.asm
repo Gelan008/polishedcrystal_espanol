@@ -100,33 +100,33 @@ EcruteakShrineInsideReiScript:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "Blessing@"
-	db "Battle@"
-	db "Cancel@"
+	db "Bendecir@"
+	db "Luchar@"
+	db "Salir@"
 
 EcruteakShrineInsideReiGreetingText:
-	text "Rei: Oh, hello."
-	line "Welcome to our"
-	cont "shrine."
+	text "Rei: ¡Hola! Te doy"
+	line "la bienvenida a"
+	cont "este santuario."
 
-	para "Did you come to"
-	line "have me bless one"
-	cont "of your #mon?"
+	para "¿Vienes a que le"
+	line "dé una bendición"
+	cont "a tus #mon?"
 
-	para "Or would you like"
-	line "to battle?"
+	para "¿O prefieres un"
+	line "combate?"
 	done
 
 EcruteakShrineInsideReiBlessText:
-	text "Rei: OK, which"
-	line "#mon should I"
-	cont "bless?"
+	text "Rei: Vale, ¿qué"
+	line "#mon debería"
+	cont "bendecir?"
 	done
 
 EcruteakShrineInsideReiBlessingText:
-	text "Rei: May you be"
-	line "at ease, and find"
-	cont "peace."
+	text "Rei: Que estés"
+	line "tranquilo y"
+	cont "encuentres la paz."
 	done
 
 EcruteakShrineInsideHappinessText:
@@ -141,13 +141,14 @@ EcruteakShrineInsideReiBlessEggText:
 	done
 
 EcruteakShrineInsideReiBattleText:
-	text "Rei: Very well."
-	line "Evil spirits,"
-	cont "begone!"
+	text "Rei: Muy bien."
+	line "¡Malos espíritus,"
+	cont "desapareced!"
 	done
 
 EcruteakShrineInsideReiBeatenText:
-	text "I admit defeat!"
+	text "¡Admito mi"
+	line "derrota!"
 	done
 
 EcruteakShrineInsideReiComeAgainText:
@@ -162,37 +163,33 @@ EcruteakShrineInsideReiCancelText:
 	done
 
 EcruteakShrineInsideGrampsText:
-	text "The shrine maiden"
-	line "here is my grand-"
-	cont "daughter."
+	text "La sacerdotisa"
+	line "del santuario es"
+	cont "mi nieta."
 	done
 
 EcruteakShrineInsideSageText:
-	text "Most of us here at"
-	line "the shrine train"
+	text "Casi todos aquí"
+	line "entrenamos a"
+	cont "Hoothoot y Sentret"
+	cont "contra fantasmas."
 
-	para "Hoothoot and"
-	line "Sentret to battle"
-	cont "ghosts."
-
-	para "Rei is unique."
-	line "She uses Fire and"
-	cont "Psychic types."
+	para "Rei es única,"
+	line "usa tipo Fuego y"
+	cont "tipo Psíquico."
 	done
 
 EcruteakShrineInsideGrannyText:
-	text "I'm glad they didn't"
-	line "approve a stop in"
-	cont "Ecruteak for the"
-	cont "Magnet Train."
+	text "Menos mal que no"
+	line "pusieron parada"
+	cont "del Magnetotrén."
 
-	para "It would ruin our"
-	line "traditional land-"
-	cont "scape."
+	para "Arruinaría nuestro"
+	line "paisaje clásico."
 	done
 
 EcruteakShrineInsideAltarText:
-	text "Please show honor"
-	line "and respect while"
-	cont "visiting."
+	text "Muestra honor y"
+	line "respeto durante"
+	cont "tu visita."
 	done

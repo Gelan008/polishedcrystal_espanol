@@ -1,78 +1,75 @@
 ChadAnswerPhoneText:
-	text "Hello, this is"
+	text "Hola, habla"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Hi, <PLAYER>!"
-	line "Good morning!"
+	para "¡Hola, <PLAYER>!"
+	line "¡Buenos días!"
 	done
 
 ChadAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hola, habla"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Hi, <PLAYER>, good"
-	line "day!"
+	para "¡Hola, <PLAYER>!"
+	line "¡Buenas!"
 	done
 
 ChadAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hola, habla"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Hi, <PLAYER>, good"
-	line "evening!"
+	para "¡Hola, <PLAYER>!"
+	line "¡Buenas noches!"
 	done
 
 ChadGreetText:
-	text "Hi, <PLAYER>, good"
-	line "morning!"
+	text "¡Hola, <PLAYER>!"
+	line "¡Buenos días!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "How are you?"
+	line "¿Cómo estás?"
 	done
 
 ChadGreetDayText:
-	text "Hi, <PLAYER>, good"
-	line "day!"
+	text "¡Hola, <PLAYER>!"
+	line "¡Buenas!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "How are you?"
+	line "¿Cómo estás?"
 	done
 
 ChadGreetNiteText:
-	text "Hi, <PLAYER>, good"
-	line "evening!"
+	text "¡Hola, <PLAYER>!"
+	line "¡Buenas noches!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "How are you?"
+	line "¿Cómo estás?"
 	done
 
 ChadGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "¿Cómo están"
+	line "tus #mon?"
 
-	para "You know Prof.Oak,"
-	line "so of course your"
-	cont "#mon are fine!"
+	para "Conoces al Prof."
+	line "Oak, ¡así que"
+	cont "estarán genial!"
 
-	para "My #mon are"
-	line "doing well too."
+	para "Los míos también"
+	line "están muy bien."
 
-	para "But then, I am"
-	line "trying to become a"
-
-	para "#mon professor,"
-	line "so that shouldn't"
-	cont "be a big surprise."
+	para "¡Como futuro"
+	line "Profesor #mon,"
+	cont "los cuido genial!"
 	done

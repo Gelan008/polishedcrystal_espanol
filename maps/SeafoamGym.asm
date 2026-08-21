@@ -148,131 +148,131 @@ SeafoamGymGuyScript:
 	done
 
 ScientistLowellSeenText:
-	text "This lab coat"
-	line "makes me feel"
-	cont "smarter for some"
-	cont "reason."
+	text "Por algún motivo,"
+	line "esta bata me hace"
+	cont "sentir más listo."
 	done
 
 ScientistLowellBeatenText:
-	text "A white lab coat"
-	line "is a researcher's"
-	cont "life."
+	text "La bata blanca es"
+	line "la vida de todo"
+	cont "investigador."
 	done
 
 ScientistDennettSeenText:
-	text "Blaine may have"
-	line "lost his Gym, but"
-	cont "he never gives up!"
+	text "Blaine perdió su"
+	line "Gimnasio, ¡pero no"
+	cont "se rendirá!"
 	done
 
 ScientistDennettBeatenText:
-	text "Blaine's persever-"
-	line "ance motivates me!"
+	text "¡La fuerza de"
+	line "Blaine me motiva"
+	cont "mucho!"
 	done
 
 SupernerdCarySeenText:
-	text "Wow, a Gym in a"
-	line "cave like this?"
+	text "Vaya, ¿un Gimnasio"
+	line "en una cueva así?"
 
-	para "I'd love to"
-	line "explore it."
+	para "Me encantaría"
+	line "explorarlo."
 	done
 
 SupernerdCaryBeatenText:
-	text "A bitter"
-	line "defeat…"
+	text "Una amarga"
+	line "derrota…"
 	done
 
 ScientistLindenSeenText:
-	text "We lost the Gym on"
-	line "Cinnabar Island,"
-	cont "but we came here."
+	text "Nos quedamos sin"
+	line "Gimnasio en Isla"
+	cont "Canela, y vinimos"
+	cont "a esta cueva."
 	done
 
 ScientistLindenBeatenText:
-	text "We accept defeat"
-	line "gracefully…"
+	text "Acepto la derrota"
+	line "con dignidad…"
 	done
 
 SupernerdWaldoSeenText:
-	text "I am collecting"
-	line "battle records."
+	text "Estoy recopilando"
+	line "datos de combates."
 
-	para "Can you help me?"
+	para "¿Puedes ayudarme?"
 	done
 
 SupernerdWaldoBeatenText:
-	text "I didn't expect"
-	line "you to be so good!"
+	text "¡No me esperaba"
+	line "que fueras tan"
+	cont "fuerte!"
 	done
 
 SupernerdMerleSeenText:
-	text "Ooh!"
-	line "You look easily"
-	cont "defeated!"
+	text "¡Uf!"
+	line "¡Pareces muy fácil"
+	cont "de vencer!"
 	done
 
 SupernerdMerleBeatenText:
-	text "Pardon me!"
+	text "¡Disculpa!"
 	done
 
 BlaineIntroText:
-	text "Blaine: Waaah!"
+	text "Blaine: ¡Uaaah!"
 
-	para "My Gym in Cinnabar"
-	line "burned down."
+	para "Mi Gimnasio de"
+	line "Isla Canela ardió"
+	cont "por completo."
 
-	para "My fire-breathing"
-	line "#mon and I are"
+	para "¡Mis #mon y yo"
+	line "nos quedamos sin"
+	cont "hogar por culpa"
+	cont "del volcán!"
 
-	para "homeless because"
-	line "of the volcano."
+	para "¡Uaaah!"
 
-	para "Waaah!"
+	para "¡Pero he vuelto"
+	line "como Líder aquí,"
+	cont "en esta cueva!"
 
-	para "But I'm back in"
-	line "business as a Gym"
+	para "Si logras vencer,"
+	line "te daré una"
+	cont "Medalla."
 
-	para "Leader here in"
-	line "this cave."
-
-	para "If you can beat"
-	line "me, I'll give you"
-	cont "a Badge."
-
-	para "Ha! You'd better"
-	line "have Burn Heal!"
+	para "¡Ja! ¡Lleva algún"
+	line "Antiquemaduras!"
 	done
 
 BlaineWinLossText:
-	text "Blaine: Awesome."
-	line "I've burned out…"
+	text "Blaine: Increíble."
+	line "Me he consumido…"
 
-	para "You've earned the"
-	line "Volcano Badge!"
+	para "¡Te has ganado la"
+	line "Medalla Volcán!"
 	done
 
 BlaineAfterBattleText:
-	text "Here, I'll give you"
-	line "this, too."
+	text "Toma, quédate esto"
+	line "también."
 	done
 
 BlaineFightDoneText:
-	text "Blaine: My fire"
-	line "#mon will be"
+	text "Blaine: Mis"
+	line "#mon de fuego"
+	cont "serán aún más"
+	cont "fuertes."
 
-	para "even stronger."
-	line "Just you watch!"
+	para "¡Ya lo verás!"
 	done
 
 SeafoamGymGuyWinText2:
-	text "A #mon Gym can"
-	line "be anywhere as"
+	text "Un Gimnasio puede"
+	line "estar en cualquier"
+	cont "lugar si su Líder"
+	cont "está ahí."
 
-	para "long as the Gym"
-	line "Leader is there."
-
-	para "There's no need"
-	line "for a building."
+	para "¡No hace falta un"
+	line "edificio!"
 	done

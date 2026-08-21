@@ -58,23 +58,25 @@ QuietCaveB1FNurseKeikoScript:
 	done
 
 .SeenText:
-	text "You need a Nurse's"
-	line "help?"
+	text "¿Necesitas que te"
+	line "ayude una"
+	cont "Enfermera?"
 
-	para "Sure, if you can"
-	line "win against me,"
-	cont "I'll heal you!"
+	para "¡Si me ganas en un"
+	line "combate, curaré a"
+	cont "tus #mon!"
 	done
 
 .BeatenText:
-	text "Do you really"
-	line "need healing?"
+	text "¿De verdad te"
+	line "hacía falta que"
+	cont "los curara?"
 	done
 
 .AfterText:
-	text "OK then… Time to"
-	line "give your #mon"
-	cont "some energy!"
+	text "Bueno… ¡Es hora de"
+	line "darle energía a"
+	cont "tus #mon!"
 	done
 
 GenericTrainerBattleGirlKagami:
@@ -113,19 +115,18 @@ GenericTrainerPsychicVirgil:
 	done
 
 BattleGirlKagamiSeenText:
-	text "Don't disturb my"
-	line "training!"
+	text "¡No interrumpas mi"
+	line "entrenamiento!"
 	done
 
 BattleGirlKagamiBeatenText:
-	text "Not good enough…"
+	text "No fue suficiente…"
 	done
 
 PokemaniacAidanSeenText:
-	text "My #mon!"
-
-	para "Let me show"
-	line "you them!"
+	text "¡Mis #mon!"
+	line "¡Déjame que te"
+	cont "los enseñe!"
 	done
 
 PokemaniacAidanBeatenText: ; text > text
@@ -133,21 +134,22 @@ PokemaniacAidanBeatenText: ; text > text
 	done
 
 HikerSteveSeenText:
-	text "They call me a"
-	line "Hiker, but now"
-	cont "I'm a spelunker!"
+	text "Soy un Montañero,"
+	line "¡pero hoy seré"
+	cont "espeleólogo!"
 	done
 
 HikerSteveBeatenText:
-	text "And now I'm a"
-	line "loser…"
+	text "Y ahora soy un"
+	line "perdedor…"
 	done
 
 PsychicVirgilSeenText:
-	text "Shh! Be quiet!"
+	text "¡Chist! ¡Silencio!"
 	done
 
 PsychicVirgilBeatenText:
-	text "Why must battling"
-	line "be so loud?"
+	text "¿Por qué hay tanto"
+	line "ruido durante los"
+	cont "combates?"
 	done

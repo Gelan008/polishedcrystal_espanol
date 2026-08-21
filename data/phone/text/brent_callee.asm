@@ -1,78 +1,76 @@
 BrentAnswerPhoneText:
-	text "Yes? "
+	text "¿Sí? Al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text "…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentAnswerPhoneDayText:
-	text "Yes? "
+	text "¿Sí? Al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text "…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentAnswerPhoneNiteText:
-	text "Yes? "
+	text "¿Sí? Al habla"
+	line ""
 	text_ram wStringBuffer3
-	text " here…"
+	text "…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentGreetText:
-	text "Hiya, <PLAYER>. How"
-	line "are you doing?"
+	text "Hola, <PLAYER>."
+	line "¿Cómo te va?"
 
-	para "Hey! It's me,"
+	para "¡Ey! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetDayText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Hola, <PLAYER>."
+	line "¿Cómo te va?"
 
-	para "Hey, it's me,"
+	para "¡Ey! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetNiteText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Hola, <PLAYER>."
+	line "¿Cómo te va?"
 
-	para "Hey, it's me,"
+	para "¡Ey! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGenericText:
-	text "Oh yeah, I saw you"
-	line "coming out of a"
+	text "El otro día te vi"
+	line "salir del Centro"
+	cont "#mon."
 
-	para "#mon Center the"
-	line "other day."
+	para "Curas mucho a tus"
+	line "#mon, ¿eh?"
+	cont "¡Qué dedicado!"
 
-	para "You heal your"
-	line "#mon regularly,"
-
-	para "don't you?"
-	line "I'm impressed."
-
-	para "Heh, my "
+	para "Je, mi "
 	text_ram wStringBuffer4
-	line "is so tough, it"
-
-	para "doesn't need to go"
-	line "to #mon Centers"
-	cont "often. Heheh!"
+	text ""
+	line "es tan fuerte que"
+	cont "casi ni va por el"
+	cont "Centro. ¡Jejeje!"
 	done

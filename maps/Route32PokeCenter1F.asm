@@ -56,43 +56,42 @@ Route32Pokecenter1FFishingGuruScript:
 	end
 
 .IntroText:
-	text "This is a great"
-	line "fishing spot."
+	text "Este es un gran"
+	line "sitio para pescar."
 
-	para "You saw people"
-	line "fishing? How"
-	cont "about you?"
+	para "¿Has visto a gente"
+	line "pescando? ¿Y a ti"
+	cont "te gustaría?"
 
-	para "Would you like one"
-	line "of my Rods?"
+	para "¿Quieres una de"
+	line "mis Cañas?"
 	done
 
 .YesText:
-	text "Heh, that's good"
-	line "to hear."
+	text "¡Je! Me alegro de"
+	line "oír eso."
 
-	para "Now you're an"
-	line "angler too!"
+	para "¡Ahora tú también"
+	line "eres pescador!"
 	done
 
 .AfterText:
-	text "Fishing is great!"
+	text "¡La pesca es"
+	line "genial!"
 
-	para "If there's water,"
-	line "be it the sea or a"
-
-	para "stream, try out"
-	line "your Rod."
+	para "Si hay agua, ya"
+	line "sea el mar o un"
+	cont "riachuelo, prueba"
+	cont "tu Caña."
 	done
 
 .NoText:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "Vaya. Es una pena…"
 	done
 
 .DoneText:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Hola, chaval."
+	line "¿Pican o no pican?"
 	done
 
 Route32PokeCenter1FPokefanMScript:
@@ -130,41 +129,38 @@ Route32PokeCenter1FPokefanMScript:
 	endtext
 
 .Text1:
-	text "Bonjour. How are"
-	line "you? Do you know"
-	cont "about Apricorns?"
+	text "Bonjour! ¿Qué tal?"
+	line "¿Sabes qué son los"
+	cont "Bonguris?"
 	done
 
 .Text2:
-	text "Non? What a waste!"
-	line "I will show you"
-
-	para "how great Apri-"
-	line "corns are!"
+	text "¿Non? ¡Lástima!"
+	line "¡Te enseñaré lo"
+	cont "fantásticos que"
+	cont "son los Bonguris!"
 	done
 
 .Text3:
-	text "Youpi! Way to go!"
-	line "I feel so great,"
-
-	para "I want to give you"
-	line "this!"
+	text "¡Youpi! ¡Así se"
+	line "hace! Me alegro"
+	cont "tanto que voy a"
+	cont "darte esto!"
 	done
 
 .Text5:
-	text "Kurt is the hero"
-	line "of every Apricorn"
-	cont "collector."
+	text "César es el héroe"
+	line "de los amantes de"
+	cont "los Bonguris."
 
-	para "Apricorns,"
-	line "hourrah!"
+	para "¡Vivan los"
+	line "Bonguris!"
 	done
 
 Route32Pokecenter1FCooltrainerFText:
-	text "What should I make"
-	line "my #mon hold?"
+	text "¿Qué objeto le"
+	line "doy a mi #mon?"
 
-	para "Maybe an item that"
-	line "increases Attack"
-	cont "power…"
+	para "Quizá uno que suba"
+	line "su Ataque…"
 	done

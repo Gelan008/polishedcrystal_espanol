@@ -119,74 +119,70 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 	step_end
 
 DarkCaveVioletEntranceFalknerAttackText:
-	text "Falkner: Use Wing"
-	line "Attack, Pidgeotto!"
+	text "Pegaso: ¡Ataque"
+	line "Ala, Pidgeotto!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
-	text "Good job,"
+	text "Buen trabajo,"
 	line "Pidgeotto."
 	done
 
 DarkCaveVioletEntranceFalknerIntroText:
-	text "Oh! You must be"
-	line "a trainer."
+	text "¡Oh! Debes de ser"
+	line "un entrenador."
 	prompt
 
 DarkCaveVioletEntranceFalknerDarkIntroText:
-	text "You must be brave"
-	line "to come here in"
-	cont "pitch darkness."
+	text "Hay que ser muy"
+	line "valiente para ir"
+	cont "a oscuras."
 	prompt
 
 DarkCaveVioletEntranceFalknerExplanationText:
-	text "I'm Falkner, the"
-	line "Violet #mon"
-	cont "Gym Leader."
+	text "Soy Pegaso, Líder"
+	line "del Gimnasio de"
+	cont "Ciudad Malva."
 
-	para "I don't explore"
-	line "caves for fun,"
+	para "No exploro cuevas"
+	line "por diversión,"
+	cont "pero ese Ursaring"
+	cont "atacaba a novatos"
+	cont "indefensos."
 
-	para "but that Ursaring"
-	line "was attacking"
+	para "Como Líder, es mi"
+	line "deber resolver"
+	cont "estas cosas."
 
-	para "trainers too weak"
-	line "to defend them-"
-	cont "selves."
+	para "Así que, ¿vienes a"
+	line "ganar una Medalla?"
 
-	para "As a Gym Leader,"
-	line "it's my job to"
-
-	para "handle this sort"
-	line "of situation."
-
-	para "So you're here to"
-	line "earn a Badge?"
-
-	para "Then meet me at"
-	line "the Violet Gym."
+	para "¡Pues ven a verme"
+	line "al Gimnasio de"
+	cont "Ciudad Malva!"
 	done
 
 DarkCaveVioletEntranceFalknerDarknessText:
-	text "Falkner: Is"
-	line "someone there?"
+	text "Pegaso: ¿Hay"
+	line "alguien ahí?"
 
-	para "Don't come any"
-	line "closer!"
+	para "¡No te acerques"
+	line "más!"
 
-	para "It's too dark, you"
-	line "could get hurt."
+	para "Está muy oscuro,"
+	line "podrías hacerte"
+	cont "daño."
 	done
 
 DarkCaveVioletEntranceFalknerProgressAnywayText:
-	text "Falkner: Is"
-	line "someone there?"
+	text "Pegaso: ¿Hay"
+	line "alguien ahí?"
 
-	para "It's reckless to"
-	line "explore Dark Cave"
-	cont "without any light!"
+	para "¡Es imprudente"
+	line "explorar la Cueva"
+	cont "Oscura sin luz!"
 
-	para "I'm in the middle"
-	line "of a battle, so"
-	cont "stay back!"
+	para "Estoy en medio de"
+	line "un combate, ¡así"
+	cont "que apártate!"
 	done

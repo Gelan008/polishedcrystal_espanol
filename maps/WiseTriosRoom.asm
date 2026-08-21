@@ -112,88 +112,72 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Astounding…"
+	text "Asombroso…"
 
-	para "Suicune, Entei and"
-	line "Raikou have arisen"
-	cont "from their sleep…"
+	para "¡Suicune, Entei y"
+	line "Raikou despertaron"
+	cont "de su largo sueño!"
 
-	para "Is the legend"
-	line "coming true?"
+	para "¿Se cumplirá al"
+	line "fin la leyenda?"
 	done
 
 WiseTriosRoomSage2Text:
-	text "We train at the"
-	line "Burned Tower, but"
+	text "Entrenamos en la"
+	line "Torre Quemada,"
+	cont "pero nunca antes"
+	cont "hubo un boquete."
 
-	para "we've never heard"
-	line "of a hole opening"
-
-	para "up there before."
-	line "It must have been"
-
-	para "deliberately made"
-	line "by someone."
+	para "Alguien debió de"
+	line "haberlo hecho a"
+	cont "propósito."
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "Bell Tower may be"
-	line "entered by those"
+	text "Solo pueden entrar"
+	line "a Torre Hojalata"
+	cont "quienes porten la"
+	cont "Medalla Niebla."
 
-	para "bearing Ecruteak's"
-	line "Gym Badge."
-
-	para "However, now that"
-	line "Suicune, Raikou"
-
-	para "and Entei have"
-	line "arisen, I ask you"
-
-	para "to refrain from"
-	line "entering!"
+	para "Mas ahora que los"
+	line "tres legendarios"
+	cont "han despertado,"
+	cont "¡no debes pasar!"
 	done
 
 WiseTriosRoomSage3Text:
-	text "We, the Wise Trio,"
-	line "are the protectors"
-
-	para "of the legendary"
-	line "#mon."
+	text "Nosotros, los Tres"
+	line "Sabios, somos los"
+	cont "custodios de los"
+	cont "#mon"
+	cont "legendarios."
 	done
 
 ElderGakuSeenText:
-	text "Legend has it that"
-	line "upon the emergence"
+	text "La leyenda dice"
+	line "que si surge un"
+	cont "entrenador con"
+	cont "un alma pura,"
 
-	para "of a trainer who"
-	line "has the ability to"
+	para "un #mon vendrá"
+	line "para probarlo en"
+	cont "la Torre Hojalata."
 
-	para "touch the souls of"
-	line "#mon, a #mon"
+	para "¡La leyenda se ha"
+	line "hecho realidad!"
 
-	para "will come forth to"
-	line "put that trainer"
+	para "¡El legendario"
+	line "Suicune ya está"
+	cont "aquí!"
 
-	para "to test at the"
-	line "Bell Tower."
-
-	para "The legend has"
-	line "come true!"
-
-	para "The legendary"
-	line "#mon Suicune"
-	cont "has arrived!"
-
-	para "We, the Wise Trio,"
-	line "shall test your"
-
-	para "worthiness to go"
-	line "inside!"
+	para "¡Los Tres Sabios"
+	line "probaremos tu"
+	cont "valía!"
 	done
 
 ElderGakuBeatenText:
-	text "Stronger than we"
-	line "thought? Perhaps…"
+	text "¿Más fuerte de lo"
+	line "pensado? Quizá…"
 	done
 
 SageGakuAfterBattleText:
@@ -212,16 +196,16 @@ SageGakuAfterBattleText:
 	done
 
 ElderMasaSeenText:
-	text "Can you be trusted"
-	line "with the truth?"
+	text "¿Podemos confiarte"
+	line "la verdad?"
 
-	para "I must ascertain"
-	line "your worthiness."
+	para "Debo comprobar"
+	line "tu valía."
 	done
 
 ElderMasaBeatenText:
-	text "…I will tell you"
-	line "the truth…"
+	text "…Te diré la"
+	line "verdad…"
 	done
 
 SageMasaAfterBattleText:
@@ -283,52 +267,47 @@ endc
 	done
 
 ElderKojiSeenText:
-	text "Let me see your"
-	line "power!"
+	text "¡Déjame ver tu"
+	line "fuerza!"
 	done
 
 ElderKojiBeatenText:
-	text "Too strong!"
-	line "Why?"
+	text "¡Demasiado fuerte!"
+	line "¿Por qué?"
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "You… Are you the"
-	line "trainer who is"
-
-	para "awaited by the"
-	line "legendary #mon?"
+	text "Tú… ¿Eres quien"
+	line "esperan los"
+	cont "#mon"
+	cont "legendarios?"
 	done
 
 SageKojiAfterBattleSpeechText:
-	text "I see…"
+	text "Ya veo…"
 
-	para "We, the Wise Trio,"
-	line "have been given"
+	para "A los Tres Sabios"
+	line "se nos encomendó"
+	cont "proteger a los"
+	cont "#mon"
+	cont "legendarios."
 
-	para "the responsibility"
-	line "of protecting the"
+	para "Solo abrimos el"
+	line "paso a quienes"
+	cont "posean poder y un"
+	cont "alma sincera."
 
-	para "legendary #mon."
-	line "We are to allow"
+	para "Por favor, entra"
+	line "a Torre Hojalata."
 
-	para "passage only to"
-	line "those people who"
-
-	para "possess the power"
-	line "and soul of truth."
-
-	para "Please, do go on"
-	line "and enter the"
-	cont "Bell Tower ahead."
-
-	para "Suicune will put"
-	line "you to the test."
+	para "Suicune te pondrá"
+	line "a prueba."
 	done
 
 SageKojiAfterBattleFinalText:
-	text "Please, do go on."
+	text "Por favor, sigue"
+	line "adelante."
 
-	para "Suicune will put"
-	line "you to the test."
+	para "Suicune te pondrá"
+	line "a prueba."
 	done

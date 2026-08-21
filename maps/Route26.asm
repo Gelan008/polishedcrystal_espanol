@@ -272,135 +272,128 @@ GenericTrainerDragonTamerErick:
 	done
 
 DragonTamerKazuSeenText:
-	text "I'm making my"
-	line "final preparations"
-
-	para "for the #mon"
-	line "League."
+	text "Hago mis últimos"
+	line "preparativos para"
+	cont "la Liga #mon."
 	done
 
 DragonTamerKazuBeatenText:
-	text "I blew it!"
+	text "¡La he pifiado!"
 	done
 
 CooltrainermGaven1SeenText:
-	text "By experiencing"
-	line "tough battles, you"
-	cont "gain power."
+	text "Al librar combates"
+	line "difíciles, ganas"
+	cont "más fuerza."
 	done
 
 CooltrainermGaven1BeatenText:
-	text "Gaah! Life is even"
-	line "tougher!"
+	text "¡Aah! ¡La vida es"
+	line "aún más dura!"
 	done
 
 CooltrainermGavenAfterText:
-	text "To get to the"
-	line "#mon League,"
+	text "Para llegar a la"
+	line "Liga #mon debes"
+	cont "cruzar por la"
+	cont "Calle Victoria."
 
-	para "you have to get"
-	line "through Victory"
-	cont "Road."
-
-	para "But Victory Road"
-	line "is tough."
-
-	para "Practically nobody"
-	line "goes there!"
+	para "¡Pero esa cueva"
+	line "es tan dura que"
+	cont "casi nadie va!"
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Since you've come"
-	line "this far, you must"
-	cont "be good."
+	text "Si has llegado tan"
+	line "lejos, debes de"
+	cont "ser muy fuerte."
 
-	para "I'm going to give"
-	line "this battle every-"
-	cont "thing I've got!"
+	para "¡Voy a darlo todo"
+	line "en este combate!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "No! I don't"
-	line "believe this!"
+	text "¡No! ¡No me lo"
+	line "puedo creer!"
 	done
 
 CooltrainerfBeth1SeenText:
-	text "I lost to a train-"
-	line "er named <RIVAL>."
+	text "Perdí contra un"
+	line "entrenador llamado"
+	cont "<RIVAL>."
 
-	para "He was really"
-	line "strong, but…"
+	para "Era muy fuerte,"
+	line "pero…"
 
-	para "It was as if he"
-	line "absolutely had to"
-	cont "win at any cost."
+	para "Parecía que solo"
+	line "le importaba ganar"
+	cont "a toda costa."
 
-	para "I felt sorry for"
-	line "his #mon."
+	para "Me dieron pena sus"
+	line "#mon."
 	done
 
 CooltrainerfBeth1BeatenText:
-	text "#mon aren't"
-	line "tools of war."
+	text "Los #mon no son"
+	line "armas de guerra."
 	done
 
 CooltrainerfBethAfterText:
-	text "#mon are in-"
-	line "valuable, lifelong"
-	cont "partners."
+	text "Los #mon son"
+	line "compañeros"
+	cont "inestimables"
+	cont "para toda la vida."
 	done
 
 PsychicRichardSeenText:
-	text "Wow, look at all"
-	line "those Badges!"
-	cont "I'm impressed."
+	text "¡Uau, mira cuántas"
+	line "Medallas tienes!"
+	cont "¡Qué locura!"
 
-	para "But you're not"
-	line "satisfied by just"
-
-	para "collecting them,"
-	line "right?"
+	para "Pero no te limitas"
+	line "a coleccionarlas,"
+	cont "¿a que no?"
 	done
 
 PsychicRichardBeatenText:
-	text "Good battle!"
+	text "¡Buen combate!"
 	done
 
 BattleGirlRondaSeenText:
-	text "Stop! I challenge"
-	line "you to a duel!"
+	text "¡Alto! ¡Te desafío"
+	line "a un duelo!"
 	done
 
 BattleGirlRondaBeatenText:
-	text "Victory is yours!"
+	text "¡Has ganado tú!"
 	done
 
 FisherScottSeenText:
-	text "I'm feeling great"
-	line "today!"
+	text "¡Hoy me siento con"
+	line "mucha energía!"
 
-	para "I feel like I"
-	line "could boot even"
-	cont "the League Champ!"
+	para "¡Siento que podría"
+	line "vencer al Campeón"
+	cont "de la Liga!"
 	done
 
 FisherScottBeatenText:
-	text "No! Not in this"
-	line "battle!"
+	text "¡No! ¡En este"
+	line "combate no!"
 	done
 
 DragonTamerErickSeenText:
-	text "Here be dragons!"
+	text "¡Hay dragones!"
 	done
 
 DragonTamerErickBeatenText:
-	text "My dragons were"
-	line "conquered…"
+	text "Mis dragones han"
+	line "sido vencidos…"
 	done
 
 Route26SignText:
-	text "Route 26"
+	text "Ruta 26"
 
-	para "#mon League"
-	line "Reception Gate"
+	para "Control de Acceso"
+	line "a la Liga #mon"
 	done

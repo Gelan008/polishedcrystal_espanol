@@ -65,8 +65,8 @@ RandyScript:
 GiftSpearowMail:
 	db   FLOWER_MAIL
 	setcharmap no_ngrams
-	db   "Dark Cave leads"
-	next "to another road@"
+	db   "¡Cueva Oscura da"
+	next "a otro camino!@@"
 	setcharmap default
 
 GiftSpearowName:
@@ -86,32 +86,34 @@ Route35GoldenrodGatePokefanFScript:
 	jumpopenedtext Route35GoldenrodGatePokefanFText_FoughtSudowoodo
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
-	text "Excuse me, kid!"
-	line "Can you do a guy"
-	cont "a favor?"
+	text "¡Oye, chaval! ¿Me"
+	line "haces un favor?"
 
-	para "Can you take this"
-	line "#mon with Mail"
-	cont "to my friend?"
+	para "¿Puedes llevarle"
+	line "este #mon con"
+	cont "Carta a mi amigo?"
 
-	para "He's on Route 31."
+	para "Está en la"
+	line "Ruta 31."
 	done
 
 Route35GoldenrodGateRandyThanksText:
-	text "You will? Perfect!"
-	line "Thanks, kid!"
+	text "¿Sí? ¡Genial!"
+	line "¡Gracias, chaval!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
+	para "Mi amigo es un"
+	line "gordinflón que se"
+	cont "pasa el día"
+	cont "durmiendo."
 
-	para "You'll recognize"
-	line "him right away!"
+	para "¡Lo reconocerás al"
+	line "instante!"
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
-	text "<PLAYER> received a"
-	line "#mon with Mail."
+	text "<PLAYER> recibió"
+	line "un #mon con"
+	cont "Carta."
 	done
 
 Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
@@ -138,18 +140,17 @@ Route35GoldenrodGateRandyOhNeverMindThenText:
 	done
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Thanks, kid! You"
-	line "made the delivery"
-	cont "for me!"
+	text "¡Gracias! ¡Me has"
+	line "hecho la entrega!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "¡Toma esto por las"
+	line "molestias!"
 	done
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "Estaba durmiendo,"
+	line "¿verdad? ¡Je, te"
+	cont "lo dije!"
 	done
 
 Route35GoldenrodGatePokefanFText:
@@ -173,15 +174,11 @@ Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
 	done
 
 Route35GoldenrodGateFisherText:
-	text "I wonder how many"
-	line "kinds of #mon"
+	text "¿Cuántas clases de"
+	line "#mon habrá en"
+	cont "el mundo?"
 
-	para "there are in the"
-	line "world."
-
-	para "Three years ago,"
-	line "Prof.Oak said that"
-
-	para "there were 150"
-	line "different kinds."
+	para "Hace tres años, el"
+	line "Prof. Oak dijo que"
+	cont "había 150 tipos."
 	done

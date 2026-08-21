@@ -169,147 +169,138 @@ MountMoon1FRivalMovementAfter:
 MountMoonRivalTextBefore:
 	text "…… …… ……"
 
-	para "It's been a while,"
+	para "Cuánto tiempo,"
 	line "<PLAYER>."
 
-	para "…Since I lost to"
-	line "you, I thought"
+	para "…Desde que perdí"
+	line "contra ti, he"
+	cont "pensado qué nos"
+	cont "faltaba a mis"
+	cont "#mon y a mí…"
 
-	para "about what I was"
-	line "lacking with my"
-	cont "#mon…"
+	para "Y ya hemos dado"
+	line "con la respuesta."
 
-	para "And we came up"
-	line "with an answer."
-
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "¡<PLAYER>, ahora"
+	line "lo verás!"
 	done
 
 MountMoonRivalTextWin:
 	text "…… …… ……"
 
-	para "I thought I raised"
-	line "my #mon to be"
+	para "Creí haber hecho a"
+	line "mis #mon los"
+	cont "mejores…"
 
-	para "the best they"
-	line "could be…"
-
-	para "…But it still"
-	line "wasn't enough…"
+	para "…Pero aun así no"
+	line "ha bastado…"
 	done
 
 MountMoonRivalTextAfter:
 	text "…… …… ……"
 
-	para "…You won, fair"
-	line "and square."
+	para "…Has ganado de"
+	line "forma justa."
 
-	para "I admit it. But"
-	line "this isn't the"
-	cont "end."
+	para "Lo admito. Pero"
+	line "esto no acaba"
+	cont "aquí."
 
-	para "After some more"
-	line "training in"
-	cont "Dragon's Den…"
+	para "Tras entrenar más"
+	line "en la Guarida"
+	cont "Dragón…"
 
-	para "I'm going to be"
-	line "the greatest #-"
-	cont "mon trainer ever."
+	para "¡Seré el mejor"
+	line "entrenador #mon"
+	cont "de la historia!"
+	cont "Porque ellos están"
+	cont "conmigo."
 
-	para "Because these guys"
-	line "are behind me."
+	para "…Escucha, <PLAYER>."
 
-	para "…Listen, <PLAYER>."
-
-	para "One of these days"
-	line "I'm going to prove"
-
-	para "how good I am by"
-	line "beating you."
+	para "Uno de estos días"
+	line "te venceré para"
+	cont "demostrar lo bueno"
+	cont "que soy."
 	done
 
 MountMoonRivalTextLoss:
 	text "…… …… ……"
 
-	para "I've repaid my"
-	line "debt to you."
+	para "He saldado mi"
+	line "deuda contigo."
 
-	para "With my #mon,"
-	line "I'm going to beat"
+	para "Con mis #mon,"
+	line "venceré al Campeón"
 
-	para "the Champion and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "y seré el mejor"
+	line "entrenador del"
+	cont "mundo."
 	done
 
 BugManiacKentaSeenText:
-	text "I saw a red-haired"
-	line "boy training here."
+	text "He visto a un"
+	line "chico pelirrojo"
+	cont "entrenando aquí."
 
-	para "Have you battled"
-	line "him?"
+	para "¿Has luchado"
+	line "contra él?"
 	done
 
 BugManiacKentaBeatenText:
-	text "You got me!"
+	text "¡Me has pillado!"
 	done
 
 LassMiriamSeenText:
-	text "When I was young-"
-	line "er, I always used"
-
-	para "to get lost in"
-	line "this place."
+	text "De pequeña,"
+	line "siempre me perdía"
+	cont "por este lugar."
 	done
 
 LassMiriamBeatenText:
-	text "Oh! I lost it!"
+	text "¡Oh! ¡He perdido!"
 	done
 
 SuperNerdJovanSeenText:
-	text "What! Don't sneak"
-	line "up on me!"
+	text "¡Qué! ¡No me des"
+	line "esos sustos!"
 	done
 
 SuperNerdJovanBeatenText:
-	text "My #mon"
-	line "won't do!"
+	text "¡Mis #mon no"
+	line "dan la talla!"
 	done
 
 BugManiacRobbySeenText:
-	text "You need to go"
-	line "through this cave"
-
-	para "to get to Cerulean"
-	line "City."
+	text "Debes cruzar esta"
+	line "cueva para llegar"
+	cont "a Ciudad Celeste."
 	done
 
 BugManiacRobbyBeatenText:
-	text "I lost…"
+	text "He perdido…"
 	done
 
 LassIrisSeenText:
-	text "Have you seen a"
+	text "¿Has visto algún"
 	line "Clefairy?"
 
-	para "They're so cute!"
+	para "¡Son tan monos!"
 	done
 
 LassIrisBeatenText:
-	text "That was so fast…"
+	text "Ha sido visto y"
+	line "no visto…"
 	done
 
 HikerMarcosSeenText:
-	text "Kids like you"
-	line "shouldn't be"
-
-	para "wandering around"
-	line "here in the dark."
+	text "Los críos no"
+	line "deberían andar por"
+	cont "aquí a oscuras."
 	done
 
 HikerMarcosBeatenText:
-	text "Woah!"
-	line "You're strong!"
+	text "¡Uau! ¡Qué fuerte"
+	line "eres!"
 	done
 

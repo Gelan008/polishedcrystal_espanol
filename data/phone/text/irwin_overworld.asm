@@ -1,53 +1,44 @@
 IrwinAskNumber1Text:
-	text "You're the best"
-	line "I've ever battled!"
+	text "¡Eres el mejor con"
+	line "el que he luchado!"
 
-	para "Huh? You're the"
-	line "one who saved all"
-	cont "the Slowpoke?"
+	para "¿Tú salvaste a los"
+	line "Slowpoke del pozo?"
 
-	para "Well, no wonder I"
-	line "couldn't beat you!"
+	para "¡Con razón no pude"
+	line "vencerte!"
 
-	para "Would it be OK to"
-	line "get your number?"
-
-	para "I don't want to"
-	line "miss anything you"
-	cont "do from now on!"
+	para "¿Me das tu número?"
+	line "¡No quiero perder"
+	cont "detalle de tus"
+	cont "grandes hazañas!"
 	done
 
 IrwinAskNumber2Text:
-	text "You will tell me"
-	line "your phone number?"
+	text "¿Me darás tu"
+	line "número de móvil?"
 	done
 
 IrwinNumberAcceptedText:
-	text "Wow! Gee, thanks!"
-	line "Now I can call you"
-
-	para "anytime, whether"
-	line "anything's up or"
-
-	para "not. You know,"
-	line "just to chat!"
+	text "¡Guau! ¡Gracias!"
+	line "¡Ahora te llamaré"
+	cont "cuando quiera para"
+	cont "charlar un rato!"
 	done
 
 IrwinNumberDeclinedText:
-	text "Oh, but…"
-	line "I'm not dangerous!"
+	text "Oh, pero…"
+	line "¡No soy peligroso!"
 
-	para "I just want to"
-	line "call and chat"
-
-	para "about everything"
-	line "and nothing!"
+	para "¡Solo quiero"
+	line "llamar y charlar"
+	cont "un poco de todo!"
 	done
 
 IrwinPhoneFullText:
-	text "Your phone list is"
-	line "already full…"
+	text "Tu agenda está"
+	line "llena…"
 
-	para "You must be really"
+	para "Debes de ser muy"
 	line "popular…"
 	done

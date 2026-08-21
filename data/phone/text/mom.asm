@@ -1,165 +1,166 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "¿Hola?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	para "¡Oh, <PLAYER>!"
+	line "¿Trabajando duro?"
 	done
 
 MomPhoneLandmarkText:
-	text "Oh, so you're in"
-	line ""
+	text "Oh, así que estás"
+	line "en "
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Isn't that where"
-	line ""
+	para "¿No es ahí donde"
+	line "está "
 	text_ram wStringBuffer4
+	text "?"
 
-	para "is? Did you go"
-	line "take a look?"
+	para "¿Fuiste a echar"
+	line "un vistazo?"
 	done
 
 MomPhoneGenericAreaText:
-	text "Really, you're in"
-	line ""
+	text "¿De verdad, estás"
+	line "en "
 	text_ram wStringBuffer3
 	text "?"
 
-	para "I've never gone"
-	line "there. That's kind"
-	cont "of neat, <PLAYER>."
+	para "Nunca he ido. Eso"
+	line "está muy bien,"
+	cont "<PLAYER>."
 	done
 
 MomPhoneNewBarkText:
-	text "What? You're in"
+	text "¿Qué? ¿Estás en"
 	line ""
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Come see your Mom"
-	line "sometime!"
+	para "¡Ven a ver a tu"
+	line "Mamá algún día!"
 	done
 
 MomPhoneCherrygroveText:
-	text "You're visiting"
+	text "¿Estás visitando"
 	line ""
 	text_ram wStringBuffer3
 	text "?"
 
-	para "How about coming"
-	line "home for a bit?"
+	para "¿Por qué no vienes"
+	line "a casa un rato?"
 	done
 
 MomOtherAreaText:
-	text "Wow, you're in"
+	text "Guau, ¿estás en"
 	line ""
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Good luck on your"
-	line "#mon quest!"
+	para "¡Mucha suerte con"
+	line "tus #mon!"
 	done
 
 MomDeterminedText:
-	text "That sounds really"
-	line "tough."
+	text "Eso suena muy"
+	line "duro."
 
-	para "But, <PLAYER>, I"
-	line "know you're really"
+	para "Pero, <PLAYER>, sé"
+	line "que tienes mucha"
+	cont "determinación."
 
-	para "determined. You'll"
-	line "be OK, right?"
+	para "¡Seguro que te va"
+	line "a ir genial!"
 	done
 
 MomCheckBalanceText:
-	text "By the way, you've"
-	line "saved up ¥"
+	text "Por cierto, has"
+	line "ahorrado "
 	text_ram wStringBuffer3
-	text "."
+	text "¥."
 
-	para "Do you want to"
-	line "keep on saving?"
+	para "¿Quieres seguir"
+	line "ahorrando?"
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "Es importante"
+	line "ahorrar dinero."
 	done
 
 MomYoureNotSavingText:
 	text "Oh, <PLAYER>,"
-	line "you're not saving"
+	line "no estás guardando"
+	cont "nada de dinero."
 
-	para "any money. Would"
-	line "you like to save?"
+	para "¿Quieres que te"
+	line "ahorre un poco?"
 	done
 
 MomYouveSavedText:
-	text "By the way, you've"
-	line "saved up ¥"
+	text "Por cierto, has"
+	line "ahorrado "
 	text_ram wStringBuffer3
-	text "."
+	text "¥."
 
-	para "Want to start"
-	line "saving again?"
+	para "¿Quieres volver a"
+	line "ahorrar?"
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "Vale. Ahorraré tu"
+	line "dinero."
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "OK. I won't save"
-	line "your money."
+	text "Vale. No ahorraré"
+	line "tu dinero."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "¡<PLAYER>, sigue"
+	line "así! ¡Te apoyo,"
+	cont "cariño!"
 	done
 
 MomPhoneNoPokemonText:
-	text "Hello?"
+	text "¿Hola?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Wasn't Prof.Elm"
-	cont "waiting for you?"
+	para "¡Oh, <PLAYER>!"
+	line "¿No te esperaba el"
+	cont "Prof. Elm?"
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "¿Hola?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
+	para "¡Oh, <PLAYER>!"
+	line "¿Estás de recado"
+	cont "para el Prof. Elm?"
 
-	para "mission for Prof."
-	line "Elm? Be good!"
+	para "¡Mucho ánimo!"
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "¿Hola?"
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
-
-	para "your errand come"
-	line "on home, dear."
+	para "¡Hola, <PLAYER>!"
+	line "Si terminaste tu"
+	cont "recado, ¡ven a"
+	cont "casa, cariño!"
 	done
 
 MomPhoneLectureText:
-	text "Hello?"
+	text "¿Hola?"
 
-	para "……<PLAYER>?"
-	line "I heard from Prof."
+	para "…¿<PLAYER>?"
+	line "¡El Prof. Elm dice"
+	cont "que te vas"
+	cont "de viaje!"
 
-	para "Elm that you went"
-	line "on a long trip."
+	para "¡Ojalá me lo"
+	line "hubieras dicho!"
 
-	para "I wish you would"
-	line "have told me…"
-
-	para "What about money?"
-	line "Should I save it?"
+	para "¿Y qué hay de tu"
+	line "dinero? ¿Ahorro?"
 	done

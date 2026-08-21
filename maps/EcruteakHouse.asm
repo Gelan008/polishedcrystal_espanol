@@ -132,17 +132,13 @@ EcruteakTinTowerEntranceSageText:
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "Bell Tower is off"
-	line "limits to anyone"
+	text "La Torre Hojalata"
+	line "está cerrada si no"
+	cont "tienes la Medalla"
+	cont "del Gim. de Iris."
 
-	para "without Ecruteak"
-	line "Gym's Badge."
-
-	para "Ah!"
-
-	para "Ecruteak's Gym"
-	line "Badge! Please, go"
-	cont "right through."
+	para "¡Ah, la Medalla!"
+	line "Por favor, pasa."
 	done
 
 EcruteakTinTowerEntranceSageText_NoClearBell:
@@ -164,55 +160,51 @@ EcruteakTinTowerEntranceSageText_NoClearBell:
 	done
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Ha ocurrido un"
+	line "suceso muy grave."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Disculpa, pero"
+	line "debo pedirte que"
+	cont "te retires."
 
-	para "………………"
+	para "……"
 
-	para "Ah!"
+	para "¡Ah! ¡El sonido de"
+	line "la Campana Clara!"
+	cont "¡E-es sublime!"
 
-	para "The sound of that"
-	line "Clear Bell!"
+	para "¡Nunca había oído"
+	line "un sonido tan"
+	cont "hermoso!"
 
-	para "It… It's sublime!"
+	para "El sonido refleja"
+	line "el alma pura de su"
+	cont "portador."
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para "Tú… Puede que tú"
+	line "logres atravesar"
+	cont "la Torre Hojalata."
 
-	para "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
-
-	para "You…"
-
-	para "You may be able to"
-	line "make it through"
-	cont "Bell Tower."
-
-	para "Please, do go on."
+	para "Por favor, pasa"
+	line "adelante."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text "Por favor, pasa"
+	line "adelante."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text "El repique refleja"
+	line "el alma pura de su"
+	cont "portador."
 
-	para "You…"
+	para "Tú… Puede que tú"
+	line "logres atravesar"
+	cont "la Torre Hojalata."
 
-	para "You may be able to"
-	line "make it through"
-	cont "Bell Tower."
-
-	para "Please, do go on."
+	para "Por favor, pasa"
+	line "adelante."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
@@ -228,20 +220,18 @@ EcruteakTinTowerEntranceWanderingSageText:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The Bell Tower"
-	line "shook! A #mon"
-
-	para "must have returned"
-	line "to the top!"
+	text "¡La Torre Hojalata"
+	line "tembló! ¡Un"
+	cont "#mon ha vuelto"
+	cont "a la cima!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #mon…"
+	text "Dos torres…"
+	line "Dos #mon…"
 
-	para "But when one"
-	line "burned down, both"
-
-	para "#mon flew away,"
-	line "never to return."
+	para "Al quemarse una,"
+	line "ambos #mon se"
+	cont "fueron volando"
+	cont "para no volver."
 	done

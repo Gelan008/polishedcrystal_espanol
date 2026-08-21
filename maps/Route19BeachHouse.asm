@@ -50,57 +50,55 @@ Route19BeachHouseVictorScript:
 	jumpopenedtext .NoBattleText
 
 .GreetingText:
-	text "Hey there, friend!"
-	line "The name's Victor."
+	text "¡Hola, colega! Mi"
+	line "nombre es Víctor."
 
-	para "I love to Surf,"
-	line "and so does Puka."
-	cont "That's my Pikachu!"
+	para "Me encanta hacer"
+	line "Surf, ¡y a Puka"
+	cont "también!"
+
+	para "¡Es mi Pikachu!"
 	done
 
 .ChallengeText:
-	text "Whoa!"
+	text "¡Uau!"
 
-	para "Your Pikachu knows"
-	line "how to Surf! So,"
-	cont "I'm not alone…"
+	para "¡Tu Pikachu sabe"
+	line "hacer Surf! Así"
+	cont "que no estoy solo…"
 
-	para "Great! You earned"
-	line "the right to a"
+	para "¡Te has ganado el"
+	line "derecho a combatir"
+	cont "contra Puka y"
+	cont "contra mí!"
 
-	para "Surfing battle"
-	line "with me and Puka!"
-
-	para "Give it a go?"
+	para "¿Aceptas el reto?"
 	done
 
 .SeenText:
-	text "The sea unites"
-	line "all in surfdom!"
-	cont "Let's go!"
+	text "¡El mar nos une a"
+	line "los surfistas!"
+	cont "¡Vamos allá!"
 	done
 
 .BeatenText:
-	text "I knew you could"
-	line "do it!"
+	text "¡Sabía que serías"
+	line "capaz!"
 	done
 
 .AfterText:
-	text "I hear some Pika-"
-	line "chu in Johto"
+	text "Oí que en Johto"
+	line "algunos Pikachu"
+	cont "aprendieron a"
+	cont "surfear solos."
 
-	para "taught themselves"
-	line "to Surf."
+	para "Tal vez el mío"
+	line "venga de allí."
 
-	para "Maybe that's where"
-	line "mine came from."
-
-	para "I found Puka wash-"
-	line "ed ashore years"
-	cont "ago, and we've been"
-
-	para "partners ever"
-	line "since then."
+	para "Hallé a Puka en la"
+	line "orilla hace años y"
+	cont "desde entonces"
+	cont "estamos muy unidos"
 	done
 
 .NoPikachuText:
@@ -116,8 +114,9 @@ Route19BeachHouseVictorScript:
 	done
 
 .NoBattleText:
-	text "Shucks. Come Surf"
-	line "anytime, friend!"
+	text "Vaya, hombre. ¡Ven"
+	line "a surfear cuando"
+	cont "quieras, colega!"
 	done
 
 Route19BeachHouseSurfingPikachuScript:
@@ -126,5 +125,5 @@ Route19BeachHouseSurfingPikachuScript:
 	end
 
 .Text:
-	text "Puka: Pi-kaa!"
+	text "Puka: ¡Pi-kaaa!"
 	done

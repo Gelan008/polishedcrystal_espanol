@@ -19,15 +19,13 @@ Route40BattleTowerGate_MapScriptHeader:
 	object_event  7,  5, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route40BattleTowerGateTwinScript, -1
 
 Route40BattleTowerGateOfficer:
-	text "Are you going to"
-	line "the Battle Tower?"
+	text "¿Vas a la Torre"
+	line "Batalla?"
 
-	para "If you win a whole"
-	line "lot, you can earn"
-
-	para "Battle Points and"
-	line "trade them in for"
-	cont "special items."
+	para "Si ganas muchas"
+	line "veces, ganarás"
+	cont "Puntos de Batalla"
+	cont "para canjearlos."
 	done
 
 Route40BattleTowerGateRockerScript:
@@ -67,12 +65,11 @@ Route40BattleTowerGateTwinScript:
 	done
 
 .OpenText:
-	text "The levels of the"
-	line "#mon I want to"
+	text "Los niveles de los"
+	line "#mon que quiero"
+	cont "usar son todos"
+	cont "muy distintos."
 
-	para "use are all"
-	line "different."
-
-	para "I have to go train"
-	line "them now!"
+	para "¡Tengo que ir a"
+	line "entrenarlos ya!"
 	done

@@ -1,90 +1,79 @@
 JoeyMonLookingSharperText:
-	text "My "
+	text "¡Mi "
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking sharper"
-	cont "than before!"
+	text ""
+	line "es más fuerte"
+	cont "que antes!"
 
-	para "I doubt there's a"
-	line "#mon as cool as"
-
-	para "this guy in your"
-	line "party!"
+	para "¡Dudo que tengas"
+	line "un #mon tan"
+	cont "genial como él!"
 	done
 
 JoeyDefeatedMonText:
-	text "Oh yeah, I took"
-	line "down a "
+	text "El otro día vencí"
+	line "a un "
 	text_ram wStringBuffer4
+	text ""
+	cont "salvaje."
 
-	para "in the wild the"
-	line "other day."
-
-	para "It was a cakewalk."
-	line "Well, I guess it"
-
-	para "can't be helped,"
-	line "us being so tough."
+	para "¡Fue pan comido!"
+	line "Normal, ¡somos los"
+	cont "más fuertes!"
 	done
 
 JoeyLostAMonText:
-	text "Oh yeah, I saw a"
-	line "wild "
+	text "¡Ah, sí! Vi un"
+	line ""
 	text_ram wStringBuffer4
-	text "!"
+	text ""
+	cont "salvaje."
 
-	para "I thought about"
-	line "going for it, but"
-
-	para "I decided to work"
-	line "with my one-and-"
-
-	para "only right to the"
-	line "extreme end."
+	para "Iba a atraparlo,"
+	line "pero prefiero"
+	cont "entrenar al mío"
+	cont "al máximo."
 	done
 
 JoeyBattleRematchText:
-	text "Let's get together"
-	line "and battle!"
+	text "¡Reunámonos y"
+	line "luchemos!"
 
-	para "I promise things"
-	line "will be different!"
+	para "¡Prometo que esta"
+	line "vez será distinto!"
 
-	para ""
+	para "Te espero en"
+	line ""
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text "."
 
-	para "Give me a shout"
-	line "when you come."
+	para "Avísame cuando"
+	line "llegues."
 	done
 
 JoeyHangUpText:
-	text "All right. Later!"
+	text "¡Vale. Nos vemos!"
 	done
 
 JoeyDevisingStrategiesText:
-	text "I'm checking out"
-	line ""
+	text "Pienso tácticas"
+	line "para los ataques"
+	cont "de mi "
 	text_ram wStringBuffer4
-	text "'s moves"
+	text "."
 
-	para "and devising some"
-	line "strategies."
-
-	para "When I come up"
-	line "with a good one,"
-	cont "let's battle!"
+	para "Cuando tenga una"
+	line "buena, ¡luchemos!"
 	done
 
 JoeyReminderText:
-	text "What's keeping"
-	line "you, <PLAYER>!"
+	text "¿A qué esperas,"
+	line "<PLAYER>?"
 
-	para "Let's get down and"
-	line "battle already!"
+	para "¡Vamos a luchar"
+	line "de una vez!"
 
-	para "I'm waiting on"
+	para "¡Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

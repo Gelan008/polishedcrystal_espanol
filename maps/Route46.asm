@@ -188,25 +188,24 @@ GenericTrainerHikerBailey:
 	done
 
 Route46HikerText:
-	text "A Donphan charged"
-	line "at me and I roll-"
+	text "¡Un Donphan me"
+	line "embistió y caí"
+	cont "rodando hasta"
+	cont "aquí abajo!"
 
-	para "ed all the way"
-	line "down here!"
+	para "Aprendí"
+	line "la lección…"
 
-	para "Still, it taught"
-	line "me a lesson…"
-
-	para "Be careful around"
-	line "angry #mon!"
+	para "¡Mucho cuidado con"
+	line "los #mon que"
+	cont "estén enfadados!"
 	done
 
 Text_Route46TutorRollout:
-	text "I'll teach your"
-	line "#mon how to"
-
-	para "use Rollout for"
-	line "a Silver Leaf."
+	text "Enseñaré"
+	line "Desenrollar a tu"
+	cont "#mon por una"
+	cont "Hoja Plata."
 	done
 
 Text_Route46TutorNoSilverLeaf:
@@ -216,9 +215,9 @@ Text_Route46TutorNoSilverLeaf:
 	done
 
 Text_Route46TutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Rollout?"
+	text "¿Quieres que le"
+	line "enseñe Desenrollar"
+	cont "a tu #mon?"
 	done
 
 Text_Route46TutorRefused:
@@ -232,22 +231,24 @@ Text_Route46TutorTaught:
 	done
 
 HikerBaileySeenText:
-	text "Awright! I'll show"
-	line "you the power of"
-	cont "mountain #mon!"
+	text "¡Muy bien! ¡Verás"
+	line "el poder de los"
+	cont "#mon de"
+	cont "montaña!"
 	done
 
 HikerBaileyBeatenText:
-	text "Mercy! You showed"
-	line "me your power!"
+	text "¡Piedad! ¡Me has"
+	line "demostrado tu gran"
+	cont "poder!"
 	done
 
 CamperTedSeenText:
-	text "I'm raising #-"
-	line "mon too!"
+	text "¡Yo también crío a"
+	line "mis #mon!"
 
-	para "Will you battle"
-	line "with me?"
+	para "¿Luchas contra"
+	line "mí?"
 	done
 
 CamperTedBeatenText: ; text > text
@@ -255,54 +256,53 @@ CamperTedBeatenText: ; text > text
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #mon"
-	line "too!"
+	text "¡Yo también crío a"
+	line "mis #mon!"
 
-	para "Will you battle"
-	line "with me?"
+	para "¿Luchas contra"
+	line "mí?"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, rats!"
+	text "¡Vaya por Dios!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "I've been to many"
-	line "Gyms, but the Gym"
+	text "He visitado muchos"
+	line "Gimnasios, pero el"
+	cont "de Trigal es mi"
+	cont "favorito."
 
-	para "in Goldenrod is my"
-	line "favorite."
-
-	para "It's filled with"
-	line "pretty flowers!"
+	para "¡Está lleno de"
+	line "flores preciosas!"
 	done
 
 PicnickerErin2BeatenText:
-	text "Aww… I keep losing"
-	line "all the time!"
+	text "¡Uf…! ¡Siempre"
+	line "pierdo contigo!"
 
-	para "I'll just have to"
-	line "try harder!"
+	para "¡Me esforzaré"
+	line "mucho más!"
 
-	para "Anyway, thanks for"
-	line "battling me again"
-
-	para "and again. Here's"
-	line "that present from"
-	cont "the other time."
+	para "Gracias por luchar"
+	line "tantas veces. Toma"
+	cont "tu regalo."
 	done
 
 Route46SignText:
-	text "Route 46"
-	line "Mountain Rd. Ahead"
+	text "Ruta 46"
+	line "Camino de montaña"
+	cont "más adelante"
 	done
 
 Route46LassText:
-	text "A dead end…?"
+	text "¿Un callejón sin"
+	line "salida…?"
 
-	para "Did I take the"
-	line "wrong path?"
+	para "¿Habré tomado el"
+	line "camino equivocado?"
 
-	para "I didn't know this"
-	line "was only one way."
+	para "No sabía que esto"
+	line "era de sentido"
+	cont "único."
 	done

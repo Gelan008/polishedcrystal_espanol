@@ -40,12 +40,13 @@ GenericTrainerSwimmerfNicole:
 	done
 
 SwimmerfNicoleSeenText:
-	text "I feel so much"
-	line "lighter in water."
+	text "Me siento mucho"
+	line "más ligera en el"
+	cont "agua."
 	done
 
 SwimmerfNicoleBeatenText:
-	text "Oh, no!"
+	text "¡Oh, no!"
 	done
 
 GenericTrainerSwimmerfLori:
@@ -57,11 +58,12 @@ GenericTrainerSwimmerfLori:
 	done
 
 SwimmerfLoriSeenText:
-	text "What an impressive"
-	line "collection of Gym"
+	text "¡Qué gran lista"
+	line "de Medallas tienes"
+	cont "de Gimnasio!"
 
-	para "Badges. We should"
-	line "battle!"
+	para "¡Echemos un buen"
+	line "combate!"
 	done
 
 SwimmerfLoriBeatenText: ; text > text
@@ -121,15 +123,13 @@ GenericTrainerSwimmermCameron:
 	done
 
 SwimmermCameronSeenText:
-	text "I guess it's im-"
-	line "possible to swim"
-
-	para "all the way to"
-	line "Johto."
+	text "Supongo que no se"
+	line "puede ir a nado"
+	cont "hasta Johto."
 	done
 
 SwimmermCameronBeatenText:
-	text "Aiyah!"
+	text "¡Aaaay!"
 	done
 
 GenericTrainerSwimmermLuis:
@@ -263,25 +263,26 @@ GenericTrainerBird_keeperErnie:
 	done
 
 .SeenText:
-	text "Hey, hey. Will you"
-	line "battle me?"
+	text "¡Oye! ¿Lucharías"
+	line "contra mí?"
 	done
 
 .BeatenText:
-	text "That was pretty"
-	line "incredible."
+	text "Ha sido bastante"
+	line "impresionante."
 	done
 
 CinnabarGymSignText:
-	text "Seafoam Islands"
+	text "Islas Espuma"
 
-	para "…What does this"
-	line "notice say?"
+	para "¿Qué pone en este"
+	line "aviso…?"
 
-	para "Cinnabar Gym"
-	line "Leader: Blaine"
+	para "Gimnasio de Isla"
+	line "Canela"
+	cont "Líder: Blaine"
 	done
 
 SeafoamIslandsSignText:
-	text "Seafoam Islands"
+	text "Islas Espuma"
 	done

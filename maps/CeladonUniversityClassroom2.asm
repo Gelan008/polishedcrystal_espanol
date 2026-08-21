@@ -25,54 +25,54 @@ CeladonUniversityClassroom2_MapScriptHeader:
 	object_event  3,  9, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonUniversityClassroom2CooltrainermScript, -1
 
 CeladonUniversityClassroom2BlancheText:
-	text "I am Blanche."
-	line "I teach History"
-	cont "here."
+	text "Soy Blanche."
+	line "Enseño historia"
+	cont "aquí."
 
-	para "We must learn from"
-	line "history, or we"
+	para "Debemos aprender"
+	line "de la historia,"
+	cont "o estaremos"
 
-	para "will be doomed to"
-	line "repeat it."
+	para "condenados a"
+	line "repetirla."
 	done
 
 CeladonUniversityClassroom2TeacherText:
-	text "I'm afraid Blanche"
-	line "isn't available."
+	text "Me temo que"
+	line "Blanche no está"
+	cont "disponible."
 
-	para "They only teach"
-	line "during the day."
+	para "Solo da clases"
+	line "por el día."
 	done
 
 CeladonUniversityClassroom2YoungsterText:
-	text "Flipping through"
-	line "my notes at the"
-	cont "speed of--YOW!"
-	cont "Paper cut…"
+	text "¡Hojeando mis"
+	line "apuntes a la"
+	cont "velocidad de…"
+
+	para "¡AY!"
+
+	para "Me he cortado…"
 	done
 
 CeladonUniversityClassroom2ChildText:
-	text "We just had a"
-	line "lecture on Prof."
+	text "El Prof. Westwood"
+	line "nos dio una clase"
+	cont "sobre sus aportes"
+	cont "a la #dex."
 
-	para "Westwood's contri-"
-	line "butions to the"
-	cont "#dex."
-
-	para "I heard that"
-	line "towards the end"
-
-	para "he got lazy and"
-	line "just made some of"
-	cont "it up!"
+	para "¡Dicen que hacia"
+	line "el final le dio"
+	cont "pereza e inventó"
+	cont "la mitad!"
 	done
 
 CeladonUniversityClassroom2LadyText:
-	text "You're from Johto?"
-	line "That region has"
-
-	para "such fascinating"
-	line "history!"
+	text "¿Eres de Johto?"
+	line "¡Esa región tiene"
+	cont "una historia"
+	cont "fascinante!"
 	done
 
 CeladonUniversityClassroom2CooltrainermScript:
@@ -87,63 +87,60 @@ CeladonUniversityClassroom2CooltrainermScript:
 	done
 
 .Text2:
-	text "Ahem."
+	text "Ejem."
 
-	para "Sorry about that--"
-	line "you startled me."
+	para "Perdona…"
+	line "Me asustaste."
 
-	para "I stayed up late"
-	line "to finish an"
-
-	para "assignment, so now"
-	line "I'm exhausted."
+	para "Me quedé despierto"
+	line "hasta tarde para"
+	cont "acabar un trabajo,"
+	cont "y estoy agotado."
 	done
 
 CeladonUniversityClassroom2BlackboardText:
-	text "There's a timeline"
-	line "of recent history."
+	text "Cronología de la"
+	line "historia:"
 
-	para "400 years ago:"
-	line "Toxic move invent-"
-	cont "ed."
+	para "Hace 400 años:"
+	line "Se inventó el"
+	cont "movimiento Tóxico."
 
-	para "71 years ago:"
-	line "modern # Ball"
-	cont "developed."
+	para "Hace 71 años:"
+	line "Se desarrolló la"
+	cont "# Ball moderna."
 
-	para "27 years ago:"
-	line "first Moon land-"
-	cont "ing."
+	para "Hace 27 años:"
+	line "Primer alunizaje"
+	cont "en la Luna."
 
-	para "Three years ago:"
-	line "first virtual"
-	cont "#mon created."
+	para "Hace tres años:"
+	line "Se creó el primer"
+	cont "#mon virtual."
 
-	para "“Hypothesis: tech-"
-	line "nology grows expo-"
-	cont "nentially.”"
+	para "“Hipótesis: la"
+	line "tecnología crece"
+	cont "exponencialmente”"
+
 	done
 
 CeladonUniversityClassroom2Bookshelf1Text:
-	text "It's a book about"
+	text "Es un libro sobre"
 if DEF(FAITHFUL)
-	line "how the Brass"
-	cont "Tower in Ecruteak"
-
-	para "City burned down"
-	line "150 years ago."
+	line "cómo la Torre"
+	cont "Latón de Iris se"
+	cont "quemó hace 150"
+	cont "años."
 else
-	line "how the Gong Tower"
-	cont "in Ecruteak City"
-
-	para "burned down 150"
-	line "years ago."
+	line "cómo la Torre"
+	cont "Latón de Iris se"
+	cont "quemó hace 150"
+	cont "años."
 endc
 	done
 
 CeladonUniversityClassroom2Bookshelf2Text:
-	text "It's a book of"
-	line "slang terms from"
-	cont "the 1980s."
-	cont "Heavy!"
+	text "Es un libro de"
+	line "jerga de los 80."
+	cont "¡Qué fuerte!"
 	done

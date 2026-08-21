@@ -26,7 +26,7 @@ Route29_MapScriptHeader:
 	fruittree_event 12,  2, FRUITTREE_ROUTE_29, ORAN_BERRY, PAL_NPC_BLUE
 	object_event 25,  3, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route29FisherText, -1
 	object_event 13,  4, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route29CooltrainerMScript, -1
-	itemball_event 48,  2, POTION, 1, EVENT_ROUTE_29_POTION
+	itemball_event 48,  2, EXP_SHARE, 1, EVENT_ROUTE_29_POTION
 
 	object_const_def
 	const ROUTE29_LYRA
@@ -168,71 +168,65 @@ LyraMovementData3:
 	step_end
 
 CatchingTutorialIntroText:
-	text "Lyra: <PLAYER>!"
+	text "Lira: ¡<PLAYER>!"
 
-	para "You can catch wild"
-	line "#mon with #"
+	para "¡Puedes atrapar"
+	line "#mon salvajes"
+	cont "con las # Ball!"
 
-	para "Balls. Follow me"
-	line "and I'll show you!"
+	para "¡Sígueme y te"
+	line "enseño cómo!"
 	done
 
 CatchingTutorialDebriefText:
-	text "Lyra: See? Just"
-	line "like that!"
+	text "Lira: ¿Ves? ¡Es"
+	line "así de fácil!"
 
-	para "If you weaken them"
-	line "first, #mon are"
-	cont "easier to catch."
+	para "Si los debilitas"
+	line "antes, será más"
+	cont "fácil atraparlos."
 
-	para "I'll give you"
-	line "these. Good luck!"
+	para "Toma, quédate con"
+	line "esto. ¡Suerte!"
 	done
 
 CatchingTutorialRefusedText:
-	text "Aww… I wanted to"
-	line "show off my cap-"
-	cont "turing skills a"
-	cont "little…"
+	text "Vaya… Quería"
+	line "presumir de cómo"
+	cont "atrapo #mon…"
 
-	para "Anyway, I'll give"
-	line "you these."
-	cont "Good luck!"
+	para "En fin, quédate"
+	line "con esto."
+	cont "¡Mucha suerte!"
 	done
 
 CatchingTutorialGoodbyeText:
-	text "Lyra: See you!"
+	text "Lira: ¡Nos vemos!"
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
+	text "Ey. ¿Cómo van tus"
 	line "#mon?"
 
-	para "If they're weak"
-	line "and not ready for"
-
-	para "battle, keep out"
-	line "of the grass."
+	para "Si están débiles"
+	line "para combatir, no"
+	cont "vayas a la hierba."
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "¿Ves el desnivel?"
+	line "Da algo de miedo"
+	cont "saltar por ahí."
 
-	para "But you can go to"
-	line "New Bark without"
-
-	para "walking through"
-	line "the grass."
+	para "Pero puedes volver"
+	line "a Primavera sin"
+	cont "pisar la hierba."
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
-
-	para "to record my"
-	line "progress."
+	text "Iba a descansar,"
+	line "así que guardé mi"
+	cont "partida."
 	done
 
 Text_WaitingForNight:
@@ -245,33 +239,29 @@ Text_WaitingForNight:
 	done
 
 Text_WaitingForMorning:
-	text "I'm waiting for"
-	line "#mon that"
-
-	para "appear only in the"
-	line "morning."
+	text "Estoy esperando un"
+	line "#mon que solo"
+	cont "aparecen por la"
+	cont "mañana."
 	done
 
 MeetTuscanyText:
-	text "Tuscany: I do be-"
-	line "lieve that this is"
+	text "Marta: Si no me"
+	line "equivoco, ¿es la"
+	cont "primera vez que"
+	cont "nos vemos?"
 
-	para "the first time"
-	line "we've met?"
+	para "Permíteme que me"
+	line "presente."
 
-	para "Please allow me to"
-	line "introduce myself."
-
-	para "I am Tuscany of"
-	line "Tuesday."
+	para "Soy Marta, la del"
+	line "martes."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
-
-	para "accept this gift,"
-	line "a Silk Scarf."
+	text "Para darme a"
+	line "conocer, acepta"
+	cont "este Pañuelo Seda."
 	done
 
 TuscanyGaveGiftText:
@@ -287,15 +277,15 @@ TuscanyGaveGiftText:
 	done
 
 TuscanyTuesdayText:
-	text "Tuscany: Have you"
-	line "met Monica, my"
-	cont "older sister?"
+	text "Marta: ¿Conoces a"
+	line "Lune, mi hermana"
+	cont "mayor?"
 
-	para "Or my younger"
-	line "brother, Wesley?"
+	para "¿O a mi hermano"
+	line "pequeño, Merlín?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Soy la segunda de"
+	line "siete hermanos."
 	done
 
 TuscanyNotTuesdayText:
@@ -305,29 +295,28 @@ TuscanyNotTuesdayText:
 	done
 
 Route29Sign1Text:
-	text "Route 29"
+	text "Ruta 29"
 
-	para "New Bark Town -"
-	line "Cherrygrove City"
+	para "Pueblo Primavera -"
+	line "Ciudad Cerezo"
 	done
 
 Route29Sign2Text:
-	text "Route 29"
+	text "Ruta 29"
 
-	para "Cherrygrove City -"
-	line "New Bark Town"
+	para "Ciudad Cerezo -"
+	line "Pueblo Primavera"
 	done
 
 Route29AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "Press Down+B at"
-	line "the title screen"
+	para "¡Pulsa Abajo+B en"
+	line "la pantalla del"
+	cont "título para"
+	cont "cambiar la hora!"
 
-	para "to reset the"
-	line "clock!"
-
-	para "Press Left+B to"
-	line "reset the initial"
-	cont "game options!"
+	para "¡Pulsa Izq.+B para"
+	line "reiniciar todas"
+	cont "las opciones!"
 	done

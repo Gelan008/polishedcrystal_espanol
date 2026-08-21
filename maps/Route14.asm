@@ -38,19 +38,18 @@ GenericTrainerPokefanmTrevor:
 	done
 
 PokefanmTrevorSeenText:
-	text "Hi. Did you know…?"
+	text "¿Sabías que…?"
 
-	para "#mon get more"
-	line "friendly if you"
-
-	para "train them in a"
-	line "place that they"
-	cont "remember."
+	para "Los #mon se"
+	line "vuelven más"
+	cont "afectuosos si los"
+	cont "entrenas en un"
+	cont "lugar familiar."
 	done
 
 PokefanmTrevorBeatenText:
-	text "Where did I meet"
-	line "this Psyduck?"
+	text "¿Dónde conocí a"
+	line "este Psyduck?"
 	done
 
 GenericTrainerPokefanmCarter:
@@ -64,15 +63,14 @@ GenericTrainerPokefanmCarter:
 	done
 
 PokefanmCarterSeenText:
-	text "Let me tell you,"
-	line "I had a hard time"
-
-	para "catching my prized"
-	line "#mon."
+	text "Déjame decirte que"
+	line "me costó mucho"
+	cont "atrapar a mis"
+	cont "amados #mon."
 	done
 
 PokefanmCarterBeatenText:
-	text "Awaaah!"
+	text "¡Auuuvaaa!"
 	done
 
 GenericTrainerBird_keeperRoy:
@@ -86,14 +84,15 @@ GenericTrainerBird_keeperRoy:
 	done
 
 Bird_keeperRoySeenText:
-	text "My dream is to fly"
-	line "with my beloved"
-	cont "bird #mon."
+	text "Mi sueño es volar"
+	line "junto a mis"
+	cont "queridos #mon"
+	cont "pájaro."
 	done
 
 Bird_keeperRoyBeatenText:
-	text "I can dream, but I"
-	line "can't ever fly…"
+	text "Puedo soñar, pero"
+	line "jamás volaré…"
 	done
 
 GenericTrainerBird_keeperJosh:
@@ -189,14 +188,14 @@ GenericTrainerTeacherClarice:
 	done
 
 .SeenText:
-	text "All right, let's"
-	line "get this #mon"
-	cont "battle started!"
+	text "¡Muy bien, que dé"
+	line "comienzo el duelo"
+	cont "#mon!"
 	done
 
 .BeatenText:
-	text "All right! That"
-	line "concludes today's"
-	cont "battle."
+	text "¡Bien! Con esto"
+	line "termina la clase"
+	cont "de hoy."
 	done
 

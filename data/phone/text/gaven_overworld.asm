@@ -1,63 +1,54 @@
 GavenAskNumber1Text:
-	text "Wow, you're tough."
-	line "I haven't battled"
+	text "Guau, eres fuerte."
+	line "Hacía mucho que no"
+	cont "luchaba tan duro."
 
-	para "that seriously in"
-	line "a long time."
-
-	para "Could I get your"
-	line "phone number?"
-
-	para "I'd like to battle"
-	line "again when I heal"
-
-	para ""
+	para "¿Me das tu número?"
+	line "Luchemos al curar"
+	cont "a "
 	text_ram wStringBuffer4
-	text " and the"
-	line "rest of my team."
+	text " y a"
+	cont "los demás."
 	done
 
 GavenAskNumber2Text:
-	text "Could I get your"
-	line "phone number?"
-
-	para "I'd like to battle"
-	line "again when I heal"
-
-	para ""
+	text "¿Me das tu número?"
+	line "Luchemos al curar"
+	cont "a "
 	text_ram wStringBuffer4
-	text " and the"
-	line "rest of my team."
+	text " y a"
+	cont "los demás."
 	done
 
 GavenNumberAcceptedText:
-	text "How should I beat"
-	line "you? I'm tormented"
+	text "¿Cómo podré"
+	line "ganarte?"
 
-	para "by those thoughts"
-	line "all the time…"
+	para "¡Pienso en ello"
+	line "a todas horas!"
 	done
 
 GavenNumberDeclinedText:
-	text "OK… I understand…"
-	line "But if you change"
+	text "Vale, lo entiendo."
 
-	para "your mind, give me"
-	line "a shout anytime."
+	para "Si cambias de idea"
+	line "avísame cuando"
+	cont "quieras."
 	done
 
 GavenPhoneFullText:
-	text "Your phone's"
-	line "memory is full."
+	text "La memoria de tu"
+	line "teléfono está"
+	cont "llena."
 
-	para "You can't register"
-	line "my number."
+	para "No puedes añadir"
+	line "mi número."
 	done
 
 GavenRematchText:
-	text "Hi! I've been"
-	line "waiting for you!"
+	text "¡Hola! ¡Te he"
+	line "estado esperando!"
 
-	para "This time, I'm"
-	line "going to win!"
+	para "¡Esta vez, voy a"
+	line "ganar!"
 	done

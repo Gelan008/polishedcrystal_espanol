@@ -61,69 +61,71 @@ GenericTrainerTamerBrett:
 	done
 
 LassDuplicaSeenText:
-	text "To truly use"
-	line "Ditto, you must"
-	cont "know all #mon!"
+	text "¡Para dominar a"
+	line "Ditto, hay que"
+	cont "conocer bien a"
+	cont "todo #mon!"
 	done
 
 LassDuplicaBeatenText:
-	text "I've got a lot"
-	line "to learn."
+	text "Aún me queda mucho"
+	line "por aprender."
 	done
 
 CamperAmosSeenText:
-	text "Plenty of #mon"
-	line "live in the Safari"
-	cont "Zone."
+	text "¡En la Zona Safari"
+	line "viven muchísimos"
+	cont "#mon!"
 
-	para "I'm here to catch"
-	line "'em all!"
+	para "¡He venido a por"
+	line "todos ellos!"
 	done
 
 CamperAmosBeatenText:
-	text "I lost 'cause I"
-	line "have to train"
-	cont "them!"
+	text "¡Perdí porque aún"
+	line "debo entrenarlos!"
 	done
 
 TamerBrettSeenText:
-	text "Do you know how to"
-	line "handle aggressive"
-	cont "#mon?"
+	text "¿Sabes cómo lidiar"
+	line "con los #mon"
+	cont "agresivos?"
 	done
 
 TamerBrettBeatenText:
-	text "Yeah, you do!"
+	text "¡Vaya si sabes!"
 	done
 
 SafariZoneWestAreaSignText:
-	text "Safari Zone"
-	line "West Area"
+	text "Zona Safari"
+	line "Zona Oeste"
 	done
 
 SafariZoneWestRestHouseSignText:
-	text "Rest House"
+	text "Casa de Reposo"
 	done
 
 SafariZoneWestTrainerTips1SignText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Fire-type #mon"
-	line "cannot be burnt,"
+	para "Los #mon de"
+	line "Fuego no pueden"
+	cont "quemarse,"
 
-	para "Electric types"
-	line "can't be paralyzed,"
+	para "los de tipo"
+	line "Eléctrico no se"
+	cont "paralizan"
 
-	para "and Ice types can't"
-	line "be frozen solid."
+	para "y los de tipo"
+	line "Hielo no sufren"
+	cont "congelación."
 	done
 
 SafariZoneWestTrainerTips2SignText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "In a sandstorm,"
-	line "Rock-type #mon"
-
-	para "get a boost to"
-	line "their Sp.Def."
+	para "Bajo tormenta de"
+	line "arena, los #mon"
+	cont "de tipo Roca suben"
+	cont "su Def. Esp."
 	done

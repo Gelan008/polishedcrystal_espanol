@@ -164,101 +164,98 @@ PokeDollVendingMachine:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Jigglypuff  ¥2400@"
-	db "Ditto       ¥2400@"
-	db "Meowth      ¥2400@"
-	db "Cancel@"
+	db "Jigglypuff  2400¥@"
+	db "Ditto       2400¥@"
+	db "Meowth      2400¥@"
+	db "Cancelar@"
 
 GoldenrodDeptStoreRoofPokefanFText:
-	text "Whew, I'm tired."
+	text "Uf, qué cansancio."
 
-	para "I sometimes come"
-	line "up to the rooftop"
-
-	para "to take a break"
-	line "from shopping."
+	para "A veces subo a la"
+	line "azotea a descansar"
+	cont "un poco de tantas"
+	cont "compras."
 	done
 
 GoldenrodDeptStoreRoofFisherText:
-	text "Pardon? Who says"
-	line "an adult can't get"
-	cont "into this?"
+	text "¿Perdón? ¿Quién"
+	line "dice que un adulto"
+	cont "no puede coleccio-"
+	cont "nar esto?"
 
-	para "I'm going to be"
-	line "back every day to"
-
-	para "collect all the"
-	line "dolls!"
+	para "¡Vendré cada día"
+	line "para conseguir"
+	cont "todos los muñecos!"
 	done
 
 GoldenrodDeptStoreRoofFisherDuplicateText:
-	text "This one is a"
-	line "duplicate. Here,"
-	cont "you can have it."
+	text "Este lo tengo"
+	line "repi. Toma, puedes"
+	cont "quedártelo tú."
 	done
 
 GotVoltorbDollText:
-	text "<PLAYER> received"
-	line "Voltorb Doll."
+	text "<PLAYER> recibió"
+	line "un Muñeco Voltorb."
 	done
 
 VoltorbDollSentText:
-	text "Voltorb Doll"
-	line "was sent home."
+	text "El Muñeco Voltorb"
+	line "fue enviado a"
+	cont "casa."
 	done
 
 GoldenrodDeptStoreRoofFisherCatchEmAllText:
-	text "I heard there are"
-	line "30 kinds of dolls."
+	text "Oí que hay 30"
+	line "muñecos distintos."
 	done
 
 GoldenrodDeptStoreRoofTwinText:
-	text "They have bargain"
-	line "sales here every"
-	cont "so often."
+	text "A veces hacen aquí"
+	line "ofertas muy"
+	cont "especiales."
 	done
 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
-	text "Oh, wow!"
+	text "¡Oh, vaya!"
 	done
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Will you quit"
-	line "bothering me?"
+	text "¿Vas a dejar de"
+	line "molestarme?"
 	done
 
 GoldenrodDeptStoreRoofPokefanMText:
-	text "There's something"
-	line "I really want, but"
+	text "Hay algo que de"
+	line "verdad quiero,"
+	cont "pero no me llega"
+	cont "el dinero…"
 
-	para "I don't have the"
-	line "necessary cash…"
-
-	para "Maybe I'll sell"
-	line "off the Berries"
-	cont "I've collected…"
+	para "Quizá venda varias"
+	line "Bayas que recogí…"
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
-	text "Oh, everything is"
-	line "so cheap!"
+	text "¡Oh, está todo tan"
+	line "barato!"
 
-	para "I bought so much,"
-	line "my Bag's crammed!"
+	para "Compré tanto,"
+	line "¡que mi Mochila"
+	cont "está llena!"
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "My #mon always"
-	line "get paralyzed or"
+	text "Mis #mon"
+	line "siempre se"
+	cont "envenenan en"
+	cont "mal momento…"
 
-	para "poisoned when the"
-	line "chips are down…"
+	para "Por eso vine a por"
+	line "Curas Totales."
 
-	para "So I came to buy"
-	line "some Full Heal."
-
-	para "I wonder if"
-	line "there's any left?"
+	para "¿Quedará alguna en"
+	line "la tienda?"
 	done
 
 Binoculars1Text:
@@ -297,44 +294,48 @@ Binoculars3Text:
 	done
 
 PokeDollVendingMachineText:
-	text "A vending machine"
-	line "for #mon dolls!"
+	text "¡Una máquina"
+	line "expendedora de"
+	cont "muñecos #mon!"
 	done
 
 PokeDollVendingMachineNoMoneyText:
-	text "It costs too much!"
+	text "¡Cuesta demasiado!"
 	done
 
 PokeDollVendingMachineAlreadyBoughtText:
-	text "It's a duplicate!"
+	text "¡Ya lo tengo!"
 	done
 
 BoughtJigglypuffDollText:
-	text "<PLAYER> bought"
-	line "Jigglypuff Doll."
+	text "<PLAYER> compró un"
+	line "Muñeco Jigglypuff."
 	done
 
 JigglypuffDollSentText:
-	text "Jigglypuff Doll"
-	line "was sent home."
+	text "El Muñeco"
+	line "Jigglypuff fue"
+	cont "enviado a casa."
 	done
 
 BoughtDittoDollText:
-	text "<PLAYER> bought"
-	line "Ditto Doll."
+	text "<PLAYER> compró un"
+	line "Muñeco Ditto."
 	done
 
 DittoDollSentText:
-	text "Ditto Doll"
-	line "was sent home."
+	text "El Muñeco Ditto"
+	line "fue enviado a"
+	cont "casa."
 	done
 
 BoughtMeowthDollText:
-	text "<PLAYER> bought"
-	line "Meowth Doll."
+	text "<PLAYER> compró un"
+	line "Muñeco Meowth."
 	done
 
 MeowthDollSentText:
-	text "Meowth Doll"
-	line "was sent home."
+	text "El Muñeco Meowth"
+	line "fue enviado a"
+	cont "casa."
 	done

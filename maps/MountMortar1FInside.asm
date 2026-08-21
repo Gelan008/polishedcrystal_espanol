@@ -64,21 +64,21 @@ GenericTrainerSupernerdMarkus:
 	done
 
 PokemaniacMillerSeenText:
-	text "I'm not losing"
-	line "this time!"
+	text "¡No voy a perder"
+	line "esta vez!"
 	done
 
 PokemaniacMillerBeatenText:
-	text "I lost to some"
-	line "kid…?"
+	text "¿He perdido contra"
+	line "un niñato…?"
 	done
 
 SupernerdMarkusSeenText:
-	text "Hey! Hugh!"
+	text "¡Eh, Hugh!"
 	done
 
 SupernerdMarkusBeatenText:
-	text "I mistook you for"
-	line "someone else…"
+	text "Te confundí con"
+	line "otra persona…"
 	done
 

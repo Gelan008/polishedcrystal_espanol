@@ -32,69 +32,63 @@ CeladonUniversityWestwoodsOfficeChildScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "I'll just buy some"
-	line "ramen in the cafe-"
-	cont "teria."
+	text "Mejor me compro un"
+	line "ramen en la"
+	cont "cafetería."
 	done
 
 .Text1:
-	text "I was told there"
-	line "would be free"
-	cont "pizza here!"
+	text "¡Me dijeron que"
+	line "había pizza gratis"
 
-	para "Where is it?"
+	para "¿Dónde está?"
 
-	para "I'm so ANGRY!"
+	para "¡Estoy FURIOSO!"
 
-	para "…Maybe I should"
-	line "quit snacking on"
+	para "…Quizás deba dejar"
+	line "de comer"
 if DEF(FAITHFUL)
-	cont "RageCandyBars."
+	cont "Caramelos Furia."
 else
-	cont "Cakes of Rage."
+	cont "Pasteles Furia."
 endc
 
-	para "You can have this"
-	line "one."
+	para "Quédate con esto."
 	done
 
 CeladonUniversityWestwoodsOfficeBookText:
-	text "Dear Diary,"
+	text "Querido diario:"
 
-	para "My work compiling"
-	line "entries for the"
+	para "Mi recopilación de"
+	line "datos de la"
+	cont "#dex sigue"
+	cont "teniendo muy buena"
+	cont "acogida."
 
-	para "#dex continues"
-	line "to be well-recei-"
-	cont "ved."
+	para "¡Demuestra que no"
+	line "hace falta salir"
+	cont "del despacho para"
+	cont "tener gran éxito!"
 
-	para "Proof that one"
-	line "does not always"
-
-	para "need to leave the"
-	line "office to succeed!"
-
-	para "Using reports sub-"
-	line "mitted by others"
-
-	para "gets the job done"
-	line "just fine."
+	para "¡Usar informes de"
+	line "otros funciona"
+	cont "igual de bien!"
 	done
 
 CeladonUniversityWestwoodsOfficeSignpost1Text:
-	text "It's a portrait of"
+	text "Es un retrato de"
 	line "Westwood I."
 	done
 
 CeladonUniversityWestwoodsOfficeSignpost2Text:
-	text "It's a portrait of"
+	text "Es un retrato de"
 	line "Westwood III."
 	done
 
 CeladonUniversityWestwoodsOfficeBookshelfText:
-	text "The Complete Works"
-	line "of Prof.Westwood."
+	text "Obras Completas"
+	line "del Prof.Westwood."
 
-	para "…Might give that"
-	line "one a miss."
+	para "…Mejor me las"
+	line "salto."
 	done

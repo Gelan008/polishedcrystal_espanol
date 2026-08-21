@@ -17,21 +17,23 @@ CeladonHotelRoom1_MapScriptHeader:
 	itemball_event  3,  1, POKE_DOLL, 1, EVENT_CELADON_HOTEL_ROOM_1_POKE_DOLL
 
 CeladonHotelRoom1CooltrainerMText:
-	text "Where I come from,"
-	line "there aren't any"
-	cont "# Balls."
+	text "De donde vengo,"
+	line "no hay ninguna"
+	cont "# Ball."
 
-	para "People use Capture"
-	line "Stylers to be-"
-	cont "friend #mon."
+	para "La gente usa"
+	line "Capturadores para"
+	cont "hacerse amiga de"
+	cont "los #mon."
 	done
 
 CeladonHotelRoom1LassText:
-	text "The staff here"
-	line "fold our towels"
-	cont "into flower shapes"
-	cont "every day."
+	text "El personal de"
+	line "aquí dobla las"
+	cont "toallas en forma"
+	cont "de flor a diario."
 
-	para "I should ask them"
-	line "to teach me how."
+	para "Debería pedirles"
+	line "que me enseñen a"
+	cont "hacerlo."
 	done

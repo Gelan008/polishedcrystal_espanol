@@ -166,69 +166,56 @@ EcruteakGymPlayerSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Good of you to"
-	line "have come."
+	text "Me alegro de que"
+	line "hayas venido."
 
-	para "Here in Ecruteak,"
-	line "#mon have been"
-	cont "revered."
+	para "Aquí en Iris los"
+	line "#mon han sido"
+	cont "muy venerados."
 
-	para "It's said that a"
-	line "rainbow-colored"
+	para "Dicen que un"
+	line "#mon del iris"
+	cont "descenderá ante"
+	cont "un entrenador"
+	cont "muy poderoso."
 
-	para "#mon will come"
-	line "down to appear"
+	para "Creí esa leyenda"
+	line "y he entrenado en"
+	cont "secreto aquí toda"
+	cont "mi vida."
 
-	para "before a truly"
-	line "powerful trainer."
+	para "Ahora puedo ver lo"
+	line "que otros no ven."
 
-	para "I believed that"
-	line "tale, so I have"
+	para "¡Solo un poco más"
+	line "y podré ver el"
+	cont "futuro donde me"
+	cont "encuentro con él!"
 
-	para "secretly trained"
-	line "here all my life."
-
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
-
-	para "Just a bit more…"
-
-	para "With a little"
-	line "more, I could see"
-
-	para "a future in which"
-	line "I meet the #mon"
-	cont "of rainbow colors."
-
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "¡Tú me ayudarás a"
+	line "alcanzarlo!"
 	done
 
 MortyWinLossText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Aún no soy lo"
+	line "bastante bueno…"
 
-	para "All right. This"
-	line "Badge is yours."
+	para "De acuerdo. Esta"
+	line "Medalla es tuya."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having the Fog"
-	line "Badge, #mon up"
+	text "Con la Medalla"
+	line "Niebla, los"
+	cont "#mon hasta <LV>50"
+	cont "te obedecerán."
 
-	para "to <LV>50 will obey"
-	line "you."
+	para "Además, podrás"
+	line "usar Surf fuera"
+	cont "de combate."
 
-	para "Also, #mon that"
-	line "know Surf will be"
-
-	para "able to use that"
-	line "move anytime."
-
-	para "I want you to have"
-	line "this too."
+	para "Toma, quiero que"
+	line "tengas esto."
 	done
 
 MortyText_ShadowBallSpeech:
@@ -243,67 +230,63 @@ MortyText_ShadowBallSpeech:
 	done
 
 MortyFightDoneText:
-	text "I see…"
+	text "Ya veo…"
 
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
+	para "Tu viaje te ha"
+	line "llevado a lugares"
+	cont "muy lejanos."
 
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "Has presenciado"
+	line "mucho más que yo."
 
-	para "I envy you for"
-	line "that…"
+	para "Te envidio por"
+	line "eso…"
 	done
 
 SageJeffreySeenText:
-	text "I spent the spring"
-	line "with my #mon."
+	text "Pasé primavera,"
+	line "verano, otoño e"
+	cont "invierno con mis"
+	cont "#mon."
 
-	para "Then summer, fall"
-	line "and winter…"
-
-	para "Then spring came"
-	line "again. We have"
-
-	para "lived together"
-	line "for a long time."
+	para "Llevamos juntos"
+	line "mucho tiempo."
 	done
 
 SageJeffreyBeatenText:
-	text "Wins and losses, I"
-	line "experienced both."
+	text "He vivido triunfos"
+	line "y derrotas."
 	done
 
 SagePingSeenText:
-	text "Can you inflict"
-	line "any damage on our"
-	cont "#mon?"
+	text "¿Puedes infligir"
+	line "algún daño a"
+	cont "nuestros #mon?"
 	done
 
 SagePingBeatenText:
-	text "Ah! Well done!"
+	text "¡Ah! ¡Bien hecho!"
 	done
 
 MediumMarthaSeenText:
-	text "I shall win!"
+	text "¡Yo ganaré!"
 	done
 
 MediumMarthaBeatenText:
-	text "I, I, I lost!"
+	text "¡Y-yo perdí!"
 	done
 
 MediumGraceSeenText:
-	text "Stumped by our in-"
-	line "visible floor?"
+	text "¿Atrapado por"
+	line "nuestro suelo"
+	cont "invisible?"
 
-	para "Defeat me if you"
-	line "want a hint!"
+	para "¡Derrótame si"
+	line "quieres una pista!"
 	done
 
 MediumGraceBeatenText:
-	text "Wha-what?"
+	text "¿Q-qué?"
 	done
 
 EcruteakGymGuyText:
@@ -319,20 +302,22 @@ EcruteakGymGuyText:
 	done
 
 EcruteakGymGuyWinText:
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "¡Uff, <PLAYER>!"
+	line "¡Estuviste genial!"
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "¡Yo temblaba de"
+	line "miedo en una"
+	cont "esquina!"
 	done
 
 EcruteakGymClosedText:
-	text "Morty, the Gym"
-	line "Leader, is absent."
+	text "Morti, el Líder"
+	line "del Gimnasio,"
+	cont "está ausente."
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Lo siento, pero"
+	line "tendrás que"
+	cont "irte."
 
-	para "Hohohoho."
+	para "Jo, jo, jo, jo."
 	done

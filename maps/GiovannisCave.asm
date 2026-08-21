@@ -105,11 +105,11 @@ GiovannisCaveRadioText:
 	done
 
 GiovannisCaveRadioAfterTimeTravelText:
-	text "You cannot turn on"
-	line "the radio."
+	text "No puedes encender"
+	line "la radio."
 
-	para "Giovanni must have"
-	line "left it here…"
+	para "Giovanni debió de"
+	line "dejarla aquí…"
 	done
 
 GiovannisCave_GiovanniStepsBackMovementData:
@@ -156,163 +156,157 @@ GiovannisCave_CelebiFloatsMovementData:
 GiovannisCaveGiovanniIntroText:
 	text "…"
 
-	para "I don't know why"
-	line "you came here,"
+	para "No sé por qué has"
+	line "venido aquí,"
 
-	para "but I have to warn"
-	line "you that this is"
-	cont "no place for kids"
-	cont "like you."
+	para "pero este no es un"
+	line "lugar para críos"
+	cont "como tú."
 
-	para "Lyra: Huh? That's"
-	line "the guy we just"
-
-	para "saw arguing with"
-	line "that boy!"
+	para "Lira: ¿Eh? ¡Es el"
+	line "hombre que vimos"
+	cont "discutir antes con"
+	cont "aquel chico!"
 	done
 
 GiovannisCaveGiovanniMemoriesText:
-	text "You have a certain"
-	line "look…"
+	text "Me resultas"
+	line "familiar…"
 
-	para "I remember you!"
+	para "¡Me acuerdo de ti!"
 
-	para "That kid three"
-	line "years ago kept"
-	cont "ruining our plans,"
+	para "Hace tres años ese"
+	line "chico arruinaba"
+	cont "nuestros planes,"
 
-	para "but you caused all"
-	line "our problems in"
-	cont "the first place!"
+	para "¡pero tú fuiste"
+	line "la primera plaga!"
 
 	para "…"
 
-	para "I'm on my way to"
-	line "Goldenrod City to"
+	para "Voy hacia Ciudad"
+	line "Trigal a responder"
+	cont "a la llamada y"
+	cont "unirme a mi gente."
 
-	para "answer the call"
-	line "and join my team."
-
-	para "Are you going to"
-	line "get in my way"
-	cont "again?"
+	para "¿Vas a cruzarte en"
+	line "mi camino otra"
+	cont "vez?"
 	done
 
 GiovannisCaveLyraQuestionsText:
-	text "Lyra: Three years"
-	line "ago…? Goldenrod"
-	cont "City…?"
+	text "Lira: ¿Hace tres"
+	line "años…? ¿Ciudad"
+	cont "Trigal…?"
 	done
 
 GiovannisCaveLyraRecognizesGiovanniText:
-	text "This is who Team"
-	line "Rocket was trying"
-	cont "to reach!"
+	text "¡A él es a quien"
+	line "el Team Rocket"
+	cont "intentaba"
+	cont "contactar!"
 
-	para "Their boss,"
+	para "¡Su jefe,"
 	line "Giovanni!"
 
-	para "<PLAYER>, when did"
-	line "you meet Giovanni"
-	cont "before…?"
+	para "<PLAYER>, ¿cuándo"
+	line "te encontraste con"
+	cont "Giovanni antes…?"
 	done
 
 GiovannisCaveBroadcastText:
-	text "“… …Ahem, we are"
-	line "Team Rocket!"
-	cont "After three years"
-	cont "of preparation, we"
-	cont "have risen again"
-	cont "from the ashes!"
-	cont "Giovanni! Can you"
-	cont "hear? We did it!"
-	cont "Where is our boss?"
-	cont "Is he listening?”"
+	text "…Ejem… ¡Somos"
+	line "el Team Rocket!"
+	cont "¡Tras 3 años de"
+	cont "espera, hemos"
+	cont "resurgido de las"
+	cont "cenizas!"
+	cont "¡Giovanni! ¿Nos"
+	cont "oyes? ¡Lo hicimos!"
+	cont "¿Dónde está el"
+	cont "jefe? ¿Nos oye?"
 
-	para "Lyra: Team Rocket"
-	line "has occupied the"
+	para "Lira: ¡El Team"
+	line "Rocket ocupó la"
+	cont "Torre Radio ahora!"
 
-	para "Radio Tower right"
-	line "now…"
-
-	para "You're there, but"
-	line "you're also here…"
+	para "Tú estás allí,"
+	line "pero también estás"
+	cont "aquí…"
 	done
 
 GiovannisCaveGiovanniIMustGoText:
-	text "Giovanni: My old"
-	line "associates need"
-	cont "me…"
+	text "Giovanni: Mis"
+	line "antiguos socios me"
+	cont "necesitan…"
 
-	para "We will not repeat"
-	line "the failure of"
-	cont "three years ago!"
+	para "¡No repetiremos el"
+	line "fracaso de hace"
+	cont "tres años!"
 
-	para "Team Rocket will"
-	line "be born again!"
+	para "¡El Team Rocket"
+	line "renacerá!"
 
-	para "Lyra: Hah!"
-	line "<PLAYER> already"
-	cont "stopped you!"
-	cont "…Will stop you."
+	para "Lira: ¡Ja!"
+	line "¡<PLAYER> ya te ha"
+	cont "detenido!"
+	cont "…Te detendrá."
 
-	para "Will have stopped"
-	line "you…?"
+	para "¿Te habrá"
+	line "detenido…?"
 
-	para "…Traveling through"
-	line "time is confusing!"
+	para "…¡Viajar por el"
+	line "tiempo es un lío!"
 
-	para "Giovanni: Enough"
-	line "chatter! Get out"
-	cont "of my way!"
+	para "Giovanni: ¡Basta"
+	line "de hablar! ¡Fuera"
+	cont "de mi camino!"
 	done
 
 GiovannisCaveGiovanniBeatenText:
-	text "What in the world"
-	line "are you?"
+	text "¿Qué demonios eres"
+	line "tú?"
 	done
 
 GiovannisCaveGiovanniAfterText:
-	text "Giovanni: How is"
-	line "this possible…?"
+	text "Giovanni: ¿Cómo es"
+	line "esto posible…?"
 
-	para "The past three"
-	line "years have been"
-	cont "a waste…?"
+	para "¿Los últimos tres"
+	line "años fueron en"
+	cont "vano…?"
 
-	para "How can a kid like"
-	line "you manage to"
-
-	para "destroy my dream"
-	line "once again?"
+	para "¿Cómo un crío como"
+	line "tú destruye mi"
+	cont "sueño otra vez?"
 	done
 
 GiovannisCaveBroadcastAfterText:
-	text "“… …Hey! Where has"
-	line "Giovanni gone?"
-	cont "I wonder if he is"
-	cont "listening to our"
-	cont "broadcast… …”"
+	text "…¡Eh! ¿A dónde"
+	line "ha ido Giovanni?"
+	cont "¿Estará oyendo la"
+	cont "emisión…?"
 	done
 
 GiovannisCaveLyraFeelsSorryText:
-	text "Lyra: They keep"
-	line "calling for their"
-	cont "boss."
+	text "Lira: No paran de"
+	line "llamar a su jefe."
 
-	para "I feel sorry they"
-	line "don't know he's not"
-	cont "coming."
+	para "Me da pena que no"
+	line "sepan que él no"
+	cont "va a venir."
 
-	para "But right now,"
-	line "<PLAYER>, you must"
-	cont "be defeating them!"
+	para "¡Pero ahora debes"
+	line "vencerlos a todos,"
+	cont "<PLAYER>!"
 	done
 
 GiovannisCaveLyraWantsToLeaveText:
-	text "Lyra: Not again…!"
-	line "I've had enough!"
+	text "Lira: ¡Otra vez"
+	line "no…! ¡Ya fue"
+	cont "suficiente!"
 
-	para "Please let us go"
-	line "back to our time!"
+	para "¡Por favor, haznos"
+	line "volver a nuestra"
+	cont "propia época!"
 	done

@@ -296,64 +296,61 @@ GenericTrainerLassKrise:
 	done
 
 NationalParkLassText:
-	text "Look! Check out my"
-	line "bag!"
+	text "¡Mira! ¡Fíjate en"
+	line "mi mochila!"
 
-	para "I pinned my Badges"
-	line "onto it."
+	para "Le he enganchado"
+	line "mis Medallas."
 	done
 
 NationalParkPokefanFText:
-	text "This is Mail I got"
-	line "from my daughter."
-	cont "It cheers me up."
+	text "Es una Carta de mi"
+	line "hija. Me alegra el"
+	cont "día."
 	done
 
 NationalParkTeacher1Text:
-	text "Pay attention,"
-	line "please!"
+	text "¡Prestad atención,"
+	line "por favor!"
 
-	para "…Oops, I have to"
-	line "quit thinking like"
+	para "…Uy, debo dejar"
+	line "de pensar como una"
+	cont "maestra siempre."
 
-	para "a teacher all the"
-	line "time."
+	para "Debes de ser un"
+	line "entrenador #mon"
 
-	para "You must be a"
-	line "#mon trainer."
-
-	para "Since you're work-"
-	line "ing so hard, I"
-
-	para "want you to have"
-	line "this."
+	para "¡Por esforzarte"
+	line "tanto, quiero que"
+	cont "te quedes esto!"
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Let a #mon hold"
-	line "that Quick Claw."
+	text "Equípale esa Garra"
+	line "Rápida a un"
+	cont "#mon."
 
-	para "Sometimes it will"
-	line "strike first"
-	cont "during battle."
+	para "A veces le dejará"
+	line "atacar primero en"
+	cont "el combate."
 	done
 
 SchoolgirlElizaSeenText:
-	text "Oddish is just"
-	line "the cutest!"
+	text "¡Oddish es lo más"
+	line "mono que hay!"
 
-	para "Don't you agree?"
+	para "¿A que sí?"
 	done
 
 SchoolgirlElizaBeatenText:
-	text "My poor Oddish…"
+	text "Mi pobre Oddish…"
 	done
 
 SchoolboyJohnnySeenText:
-	text "Bellsprout is just"
-	line "the coolest!"
+	text "¡Bellsprout es el"
+	line "más guay de todos!"
 
-	para "Aren't I right?"
+	para "¿A que sí?"
 	done
 
 SchoolboyJohnnyBeatenText:
@@ -361,89 +358,91 @@ SchoolboyJohnnyBeatenText:
 	done
 
 NationalParkTeacher2Text:
-	text "Those kids should"
-	line "battle inside the"
-	cont "grass."
+	text "Los críos deberían"
+	line "luchar en la"
+	cont "hierba."
 
-	para "They're disturbing"
-	line "my quiet walk…"
+	para "Están molestando"
+	line "mi tranquilo"
+	cont "paseo…"
 	done
 
 NationalParkPersianText:
-	text "Persian: Fufushaa!"
+	text "Persian: ¡Fufusha!"
 	done
 
 NationalParkGameboyKidText:
-	text "I'm studying my"
-	line "#dex."
+	text "Estoy estudiando"
+	line "mi #dex."
 
-	para "I want to collect"
-	line "a living #-"
-
-	para "dex with one of"
-	line "each #mon."
+	para "Quiero completar"
+	line "una #dex viva"
+	cont "con cada #mon."
 	done
 
 SchoolboyJack1SeenText:
-	text "The world of"
-	line "#mon is deep."
+	text "El mundo #mon"
+	line "es muy profundo."
 
-	para "There are still"
-	line "lots of things we"
-	cont "don't know."
+	para "Aún hay muchas"
+	line "cosas que no"
+	cont "conocemos."
 
-	para "But I know more"
-	line "than you do!"
+	para "¡Pero yo sé más"
+	line "que tú!"
 	done
 
 SchoolboyJack1BeatenText:
-	text "Wha-wha-what?"
+	text "¿Q-q-quéee?"
 	done
 
 SchoolboyJackTradeMonText:
-	text "There is a lot"
-	line "to learn."
+	text "Hay mucho que"
+	line "aprender."
 
-	para "For example…"
+	para "Por ejemplo…"
+	line "Hay {d:NUM_TMS} tipos"
+	cont "de MT."
 
-	para "There are {d:NUM_TMS} kinds"
-	line "of TMs."
-
-	para "Traded #mon"
-	line "level up faster."
+	para "Los #mon que"
+	line "son intercambiados"
+	cont "suben más rápido"
+	cont "de nivel."
 	done
 
 PokefanfBeverly1SeenText:
-	text "My #mon are"
-	line "simply darling."
+	text "Mis #mon son"
+	line "sencillamente"
+	cont "encantadores."
 
-	para "Let me tell you"
-	line "how proud my"
-	cont "darlings make me."
+	para "Déjame contarte"
+	line "lo orgullosa que"
+	cont "me hacen sentir."
 	done
 
 PokefanfBeverly1BeatenText:
-	text "I can beat you in"
-	line "pride, but…"
+	text "Puedo ganarte en"
+	line "orgullo, pero…"
 	done
 
 PokefanBeverlyCuteMonText:
-	text "I must say, your"
-	line "#mon are quite"
-	cont "cute, too."
+	text "Debo decir que tus"
+	line "#mon también"
+	cont "son muy monos."
 	done
 
 PokefanmWilliamSeenText:
-	text "We adore our #-"
-	line "mon, even if they"
-	cont "dislike us."
+	text "Queremos a los"
+	line "#mon, aunque"
+	cont "no nos quieran."
 
-	para "That's what being"
-	line "a fan is about."
+	para "Eso es lo que"
+	line "significa ser un"
+	cont "fan."
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my #mon!"
+	text "¡M-mis #mon!"
 	done
 
 PokefanFBeverlyMarillFriendText:
@@ -458,10 +457,10 @@ PokefanFBeverlyMarillFriendText:
 	done
 
 LassKriseSeenText:
-	text "Hello? Why are you"
-	line "staring at me?"
+	text "¿Hola? ¿Por qué te"
+	line "me quedas mirando?"
 
-	para "Oh, a battle?"
+	para "¿Ah, un combate?"
 	done
 
 LassKriseBeatenText: ; text > text
@@ -469,69 +468,63 @@ LassKriseBeatenText: ; text > text
 	done
 
 BugManiacLouSeenText:
-	text "Nobody can beat"
-	line "my passion for"
-	cont "bug #mon!"
+	text "¡Nadie supera mi"
+	line "pasión por los"
+	cont "#mon bicho!"
 	done
 
 BugManiacLouBeatenText:
-	text "How can this be?!"
+	text "¡¿Cómo ha sido?!"
 	done
 
 OfficermKeithSeenText:
-	text "Halt! What are"
-	line "you doing out"
-	cont "this late?"
+	text "¡Alto! ¿Qué haces"
+	line "fuera tan tarde?"
 	done
 
 OfficermKeithWinText:
-	text "You know how to"
-	line "defend yourself!"
+	text "¡Sabes cómo"
+	line "defenderte!"
 	done
 
 OfficermKeithAfterText:
-	text "The park stays"
-	line "open at night,"
-
-	para "because Officers"
-	line "like me keep it"
-	cont "safe!"
+	text "¡El parque sigue"
+	line "abierto de noche"
+	cont "porque los agentes"
+	cont "lo protegemos!"
 	done
 
 OfficermKeithDaytimeText:
-	text "Enjoying the"
-	line "park, are you?"
+	text "¿Disfrutando del"
+	line "parque, eh?"
 
-	para "Always take a"
-	line "#mon with you"
-
-	para "if you go in the"
-	line "tall grass!"
+	para "¡Lleva siempre un"
+	line "#mon contigo si"
+	cont "entras en la"
+	cont "hierba alta!"
 	done
 
 NationalParkRelaxationSquareText:
-	text "Relaxation Square"
-	line "National Park"
+	text "Plaza del Sosiego"
+	line "Parque Nacional"
 	done
 
 NationalParkBattleNoticeText:
-	text "What is this"
-	line "notice?"
+	text "¿Qué es este"
+	line "aviso?"
 
-	para "Please battle only"
-	line "in the grass."
+	para "Por favor, luche"
+	line "solo en la hierba."
 
-	para "National Park"
-	line "Warden's Office"
+	para "Parque Nacional"
+	line "Oficina del Guarda"
 	done
 
 NationalParkTrainerTipsText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "#mon become"
-	line "happier from"
-
-	para "haircuts, bless-"
-	line "ings, photographs,"
-	cont "and other treats."
+	para "Los #mon son"
+	line "más felices con"
+	cont "cortes de pelo,"
+	cont "fotos, etc…"
 	done

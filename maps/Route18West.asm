@@ -38,17 +38,18 @@ GenericTrainerBikerCharles:
 	done
 
 BikerCharlesSeenText:
-	text "We're fearless"
-	line "highway stars!"
+	text "¡Somos los amos"
+	line "sin miedo de la"
+	cont "carretera!"
 	done
 
 BikerCharlesBeatenText:
-	text "Arrrgh! Crash and"
-	line "burn!"
+	text "¡Aaaargh! ¡Me he"
+	line "estrellado!"
 	done
 
 Route18WestBikeWarningText:
-	text "You have to be on"
-	line "a Bicycle to go"
-	cont "on Cycling Road!"
+	text "¡Debes ir en Bici"
+	line "para entrar en el"
+	cont "Camino de Bicis!"
 	done

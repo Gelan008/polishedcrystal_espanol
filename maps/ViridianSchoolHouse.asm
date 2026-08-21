@@ -23,26 +23,25 @@ ViridianSchoolHouse_MapScriptHeader:
 	object_event  3,  6, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ViridianSchoolHouseGameBoyKidScript, -1
 
 ViridianSchoolHouseTeacherText:
-	text "I know this is a"
-	line "lot of material,"
-
-	para "but please pay"
-	line "attention!"
+	text "Sé que es mucha"
+	line "materia, ¡pero por"
+	cont "favor, prestad"
+	cont "atención!"
 	done
 
 ViridianSchoolHouseNotesText:
-	text "The page is cover-"
-	line "ed in doodles."
-	para "A maze, flowers,"
-	line "the letter S…"
+	text "La página está"
+	line "llena de dibujos."
+
+	para "Un laberinto, la"
+	line "letra S, flores…"
 	done
 
 ViridianSchoolHouseLass1Text:
-	text "Wait! I thought"
-	line "that, like, all"
-
-	para "Fire-type moves"
-	line "were special?"
+	text "¡Un momento! ¿No"
+	line "eran especiales"
+	cont "todos los ataques"
+	cont "de tipo Fuego?"
 	done
 
 ViridianSchoolHouseYoungsterScript:
@@ -58,20 +57,19 @@ ViridianSchoolHouseYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "“What doesn't KO"
-	line "a #mon makes"
-	cont "it stronger.”"
+	text "“Lo que no vence"
+	line "a un #mon lo"
+	cont "hace más fuerte”."
 
-	para "That's the effect"
-	line "of a Weak Policy."
+	para "Ese es el efecto"
+	line "del Seguro"
+	cont "Debilidad."
 	done
 
 .Text1:
-	text "The teacher gave"
-	line "me extra copies of"
-
-	para "these. Here,"
-	line "take one."
+	text "La profe me dio"
+	line "copias de sobra de"
+	cont "esto. ¡Toma una!"
 	done
 
 ViridianSchoolHouseGameBoyKidScript:
@@ -80,33 +78,34 @@ ViridianSchoolHouseGameBoyKidScript:
 	end
 
 ViridianSchoolHouseGameBoyKidText:
-	text "I'm taking notes"
-	line "on my phone!"
+	text "¡Tomo apuntes con"
+	line "el móvil!"
 
-	para "I'm not goofing"
-	line "off! Really!"
+	para "¡No estoy jugando!"
+	line "¡De verdad!"
 	done
 
 ViridianSchoolHouseLass2Text:
-	text "I'm in the pro-"
-	line "tagonist's seat!"
+	text "¡Estoy donde se"
+	line "sienta el prota!"
 
-	para "So why is my life"
-	line "so boring?"
+	para "Entonces, ¿por qué"
+	line "mi vida es tan"
+	cont "aburrida?"
 	done
 
 ViridianSchoolHouseBlackboardText:
-	text "Physical moves use"
-	line "the Attack and"
-	cont "Defense stats."
+	text "Los movimientos"
+	line "físicos usan el"
+	cont "Ataque y Defensa."
 
-	para "Special moves use"
-	line "the Sp.Atk and"
-	cont "Sp.Def stats."
+	para "Los especiales"
+	line "usan el At. Esp."
+	cont "y la Def. Esp."
 
-	para "Status moves do"
-	line "not cause damage"
-	cont "directly."
+	para "Los de estado no"
+	line "causan daño de"
+	cont "forma directa."
 	done
 
 PokemonJournalKiyoScript:

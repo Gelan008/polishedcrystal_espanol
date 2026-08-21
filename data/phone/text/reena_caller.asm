@@ -1,88 +1,82 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Listen, dear…"
+	text "Escucha, cielo…"
 
-	para "Do you recall my"
-	line ""
+	para "¿Te acuerdas de"
+	line "mi "
 	text_ram wStringBuffer4
 	text "?"
 
-	para "Yes, exactly. That"
-	line "lovely "
+	para "Sí, exacto. Ese"
+	line "lindo "
 	text_ram wStringBuffer4
 	text "."
 
-	para "Wouldn't you agree"
-	line "it's a perfect"
-	cont "match for me?"
+	para "¿A que estás de"
+	line "acuerdo con que es"
+	cont "perfecto para mí?"
 	done
 
 ReenaDefeatedMonText:
-	text "Have I ever faced"
-	line "a wild "
+	text "¿Que si luché con"
+	line ""
 	text_ram wStringBuffer4
-	text "?"
+	text ""
+	cont "salvajes?"
 
-	para "You need to ask?"
+	para "¿Hace falta que lo"
+	line "preguntes?"
 
-	para ""
-	text_ram wStringBuffer4
-	text " I've"
-	line "beaten on numerous"
-	cont "occasions!"
+	para "¡He derrotado ya"
+	line "a muchísimos!"
 	done
 
 ReenaLostAMonText:
-	text "Have I ever failed"
-	line "to catch a wild"
-	cont "#mon?"
+	text "¿Que si fallé al"
+	line "cazar un #mon?"
 
-	para "You need to ask?"
+	para "¿Hace falta que lo"
+	line "preguntes?"
 
-	para "I would never fail"
-	line "to catch a wild"
-
-	para ""
+	para "¡Yo jamás fallo"
+	line "con un "
 	text_ram wStringBuffer4
-	text "…"
-	line "Oh! Never mind!"
+	text "!"
+	cont "…¡Olvídalo!"
 	done
 
 ReenaBattleRematchText:
-	text "We are going to"
-	line "battle!"
+	text "¡Vamos a combatir!"
 
-	para "The place shall be"
+	para "¡El lugar será"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Don't make me"
-	line "wait! Got it?"
+	para "¡No me hagas"
+	line "esperar, ¿vale?"
 	done
 
 ReenaHangUpText:
-	text "Fine, you may go."
+	text "Bien, ya te puedes"
+	line "ir."
 	done
 
 ReenaForwardText:
-	text "Don't be too proud"
-	line "just because you"
+	text "¡No presumas por"
+	line "haberme ganado!"
 
-	para "happened to beat"
-	line "me…"
-
-	para "It was a fluke!"
+	para "¡Fue pura suerte!"
 	done
 
 ReenaHurryText:
-	text "What are you"
-	line "doing?"
+	text "¿Qué estás"
+	line "haciendo?"
 
-	para "I told you that"
-	line "the place was"
-
-	para ""
+	para "¡Te dije que el"
+	line "sitio es"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
-	line "Don't try to run!"
+
+	para "¡No intentes huir!"
 	done

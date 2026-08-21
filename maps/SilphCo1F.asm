@@ -40,9 +40,9 @@ SilphCoOfficerScript:
 	jumpopenedtext SilphCoOfficerText_GotUpgrade
 
 SilphCoReceptionistText:
-	text "Welcome. This is"
-	line "Silph Co.'s Head"
-	cont "Office Building."
+	text "¡Bienvenido a la"
+	line "sede central de"
+	cont "Silph S.A.!"
 	done
 
 SilphCoOfficerText:
@@ -77,22 +77,18 @@ SilphCoOfficerText_GotUpgrade:
 	done
 
 SilphCo1FGentlemanText:
-	text "I have an appoint-"
-	line "ment with the"
-
-	para "chief engineer"
-	line "here at Silph Co."
+	text "Tengo una cita con"
+	line "el ingeniero jefe"
+	cont "aquí, en Silph"
+	cont "S.A."
 	done
 
 SilphCo1FCooltrainerfText:
-	text "I'm trying to"
-	line "pluck up the"
-	cont "courage to ask"
+	text "Reúno el valor"
+	line "para pedirle una"
+	cont "cita a la"
+	cont "recepcionista."
 
-	para "the receptionist"
-	line "out on a date."
-
-	para "Just as soon as"
-	line "she's done on the"
-	cont "phone…"
+	para "En cuanto cuelgue"
+	line "el teléfono…"
 	done

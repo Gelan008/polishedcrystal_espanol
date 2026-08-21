@@ -57,46 +57,45 @@ GenericTrainerAromaLadyHolly:
 	done
 
 .SeenText:
-	text "I am at one with"
-	line "the aromas of"
-	cont "nature."
+	text "Estoy en armonía"
+	line "con los aromas de"
+	cont "la naturaleza."
 	done
 
 .BeatenText:
-	text "Defeat has its"
-	line "own scent…"
+	text "La derrota tiene"
+	line "su propio aroma…"
 	done
 
 WarmBeachCooltrainermText:
-	text "There's a #mon"
-	line "here that talks!"
+	text "¡Hay un #mon"
+	line "por aquí que"
+	cont "habla!"
 
-	para "I would never be-"
-	line "lieve it if I"
-
-	para "hadn't seen it for"
-	line "myself!"
+	para "¡No lo creería de"
+	line "no haberlo visto"
+	cont "con mis ojos!"
 	done
 
 WarmBeachCooltrainerfText:
-	text "I've been selected"
-	line "as the festival"
-	cont "maiden this year,"
+	text "Soy la doncella"
+	line "del festival de"
+	cont "este año,"
 
-	para "so I have to play"
-	line "the melody of the"
-	cont "Chosen One."
+	para "así que tengo que"
+	line "tocar la melodía"
+	cont "del Elegido."
 
-	para "I'm pretty nervous,"
-	line "so I came here to"
-	cont "practice."
+	para "Estoy nerviosa, y"
+	line "vine hasta aquí a"
+	cont "practicar."
 	done
 
 WarmBeachSlowkingScript:
 	jumpthistext
 
-	text "I could use"
-	line "pants…"
+	text "Me vendrían bien"
+	line "unos pantalones…"
 	done
 
 WarmBeachLassScript:
@@ -131,58 +130,51 @@ WarmBeachLassScript:
 	done
 
 .Text1:
-	text "I collect shells"
-	line "off the beach and"
+	text "Recojo conchas de"
+	line "la playa y hago"
+	cont "Campanas Concha."
 
-	para "turn them into"
-	line "Shell Bells."
+	para "Dicen que curan"
+	line "con su tintineo."
 
-	para "People say their"
-	line "chime is healing."
-
-	para "They're ¥4000"
-	line "each. Want one?"
+	para "Cuestan 4000¥ cada"
+	line "una. ¿Quieres una?"
 	done
 
 .Text3:
-	text "I only made one"
-	line "Shell Bell today…"
+	text "Hoy solo he podido"
+	line "hacer una Campana"
+	cont "Concha…"
 	done
 
 .Text4:
-	text "That's OK!"
+	text "¡No pasa nada!"
 	done
 
 .Text6:
-	text "You don't have"
-	line "enough room…"
+	text "No te queda más"
+	line "espacio libre…"
 	done
 
 WarmBeachLadyText:
-	text "Those islands"
-	line "across the water"
+	text "Esas islas que se"
+	line "ven a lo lejos son"
+	cont "los templos del"
+	cont "Fuego, Hielo y"
+	cont "el Rayo."
 
-	para "are known as the"
-	line "temples of Fire,"
-
-	para "Ice, and Light-"
-	line "ning."
-
-	para "That's what this"
-	line "brochure says,"
-
-	para "but what are they"
-	line "for?"
+	para "Eso dice la guía,"
+	line "pero ¿para qué"
+	cont "servirán?"
 	done
 
 WarmBeachShackSignText:
-	text "Beach Shack"
+	text "Cabaña de la Playa"
 	done
 
 WarmBeachShrineText:
-	text "It's a shrine"
-	line "dedicated to the"
-
-	para "Guardian of the"
-	line "Seas."
+	text "Es un santuario"
+	line "dedicado al"
+	cont "Guardián de los"
+	cont "Mares."
 	done

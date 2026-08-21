@@ -27,30 +27,27 @@ SlowpokeWellB2FGymGuideScript:
 	endtext
 
 SlowpokeWellB2FGymGuideText:
-	text "I'm waiting to see"
-	line "Slowpoke's moment"
-	cont "of evolution."
+	text "Espero a ver cómo"
+	line "evoluciona"
+	cont "Slowpoke."
 
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
+	para "De tanto observar,"
+	line "hice un gran"
+	cont "descubrimiento."
 
-	para "A Slowpoke with a"
-	line "King's Rock often"
+	para "A un Slowpoke con"
+	line "Roca del Rey suele"
+	cont "morderle Shellder."
 
-	para "gets bitten by a"
-	line "Shellder."
-
-	para "Here, I'll share a"
-	line "King's Rock with"
-	cont "you."
+	para "¡Toma, te daré una"
+	line "Roca del Rey!"
 	done
 
 SlowpokeWellB2FGymGuideText_GotKingsRock:
-	text "I'm going to be"
-	line "like Slowpoke."
+	text "Voy a ser como un"
+	line "Slowpoke."
 
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	para "Esperaré con mucha"
+	line "paciencia a ver"
+	cont "uno evolucionar."
 	done

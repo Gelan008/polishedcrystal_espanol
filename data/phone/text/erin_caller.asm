@@ -1,64 +1,66 @@
 ErinMonIsMuchStrongerText:
-	text_ram wStringBuffer3
-	text "'s "
+	text "¡El "
 	text_ram wStringBuffer4
-	line "is much stronger"
-	cont "than before!"
+	text " de"
+	line ""
+	text_ram wStringBuffer3
+	text " es más"
+	cont "fuerte que antes!"
 	done
 
 ErinDefeatedMonText:
-	text "And, and…"
-	line "I just battled and"
-	cont "beat "
+	text "¡Y, y… acabo de"
+	line "vencer a un"
+	cont ""
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I've raised my"
-	line "#mon properly!"
+	para "¡He entrenado a mi"
+	line "#mon muy bien!"
 	done
 
 ErinLostAMonText:
-	text "But, but…"
-
-	para "A wild "
+	text "Pero, pero…"
+	line "¡Un "
 	text_ram wStringBuffer4
-	line "got away from me"
+	text ""
+	cont "salvaje se me ha"
+	cont "vuelto a escapar!"
 
-	para "again. It's just"
-	line "not fair!"
+	para "¡No es nada justo!"
 	done
 
 ErinBattleRematchText:
-	text "I'm Erin. Want to"
-	line "battle me again?"
+	text "Soy Erin. ¿Quieres"
+	line "luchar de nuevo?"
 
-	para "I won't lose this"
-	line "time!"
+	para "¡Esta vez no voy"
+	line "a perder!"
 
-	para "I'll be waiting on"
+	para "¡Estaré en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ErinHangUpText:
-	text "See you. Bye-bye!"
+	text "Nos vemos. ¡Chao!"
 	done
 
 ErinWorkingHardText:
-	text "I'm working hard"
-	line "to raise my"
+	text "¡Trabajo duro para"
+	line "criar a mis"
 	cont "#mon!"
 
-	para "Come back for"
-	line "another battle!"
+	para "¡Vuelve a luchar"
+	line "otra vez!"
 	done
 
 ErinComeBattleText:
-	text "Oh, <PLAYER>!"
-	line "Come battle Erin!"
+	text "¡Oh, <PLAYER>!"
+	line "¡Ven a luchar!"
 
-	para "I'll be waiting on"
+	para "¡Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

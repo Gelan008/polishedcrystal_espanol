@@ -25,20 +25,20 @@ Route49_MapScriptHeader:
 	cuttree_event 20, 15, EVENT_ROUTE_49_CUT_TREE_2
 
 Route49LadyText:
-	text "Look at the grass"
-	line "and trees here!"
+	text "¡Mira la hierba y"
+	line "los árboles de"
+	cont "aquí!"
 
-	para "Valencia is full"
-	line "of unique flora."
+	para "Isla Valencia está"
+	line "llena de una flora"
+	cont "única."
 	done
 
 Route49YoungsterText:
-	text "This landscape"
-	line "makes me feel like"
-
-	para "an adventurer in"
-	line "the middle of the"
-	cont "jungle!"
+	text "¡Este paisaje me"
+	line "hace sentir como"
+	cont "un aventurero en"
+	cont "plena jungla!"
 	done
 
 GenericTrainerSightseermHari:
@@ -120,26 +120,24 @@ GenericTrainerGuitaristmGeddy:
 	done
 
 .SeenText:
-	text "It seems to me I"
-	line "could live my life"
+	text "Creo que podría"
+	line "vivir la vida"
+	cont "mucho mejor de lo"
+	cont "que lo hago…"
 
-	para "a lot better than"
-	line "I think I am…"
+	para "Por eso me llaman…"
 
-	para "I guess that's why"
-	line "they call me…"
-
-	para "They call me the"
-	line "working man!"
+	para "¡El currante me"
+	line "llaman!"
 	done
 
 .BeatenText:
-	text "Good battle!"
-	line "I may write a"
-	cont "song about it."
+	text "¡Buen combate!"
+	line "Quizá componga una"
+	cont "canción sobre él."
 	done
 
 Route49SignText:
-	text "Route 49"
-	line "Valencia Island"
+	text "Ruta 49"
+	line "Isla Valencia"
 	done

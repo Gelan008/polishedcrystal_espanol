@@ -87,24 +87,24 @@ DragonsDenB1FClairTrigger:
 	end
 
 .WaitText:
-	text "Wait!"
+	text "¡Espera!"
 	done
 
 .GiveTMText:
-	text "Clair: I'm sorry"
-	line "about this."
+	text "Débora: Siento"
+	line "mucho esto."
 
-	para "Here, take this as"
-	line "my apology."
+	para "Toma, acepta esto"
+	line "como disculpa."
 	done
 
 .DescribeDragonPulseText:
-	text "That contains"
-	line "Dragon Pulse."
+	text "Contiene Pulso"
+	line "Dragón."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Si no lo quieres,"
+	line "no tienes que"
+	cont "cogerlo."
 	done
 
 .WalksToYouMovement:
@@ -122,13 +122,12 @@ DragonsDenB1FClairTrigger:
 	step_end
 
 DragonsDenShrineSignText:
-	text "Dragon Shrine"
+	text "Santuario Dragón"
 
-	para "A shrine honoring"
-	line "the dragon #mon"
-
-	para "said to have lived"
-	line "in Dragon's Den."
+	para "En honor a los"
+	line "#mon dragón que"
+	cont "habitaron en la"
+	cont "Guarida Dragón."
 	done
 
 DragonsDenB1FRivalScript:
@@ -190,58 +189,56 @@ DragonsDenB1FRivalScript:
 	end
 
 .GiveEggText:
-	text "…"
-	line "Listen."
+	text "… Escucha."
 
-	para "The #mon I…"
-	line "took from the Lab…"
+	para "Ese #mon que…"
+	line "robé del Lab…"
 
-	para "It had an Egg."
-	line "I don't need it."
-	cont "Here. Take it."
+	para "Puso un Huevo."
+	line "No lo necesito."
+	cont "Toma. Quédatelo."
 	done
 
 .DescribeEggText:
-	text "Humph. Are you"
-	line "through here?"
+	text "Mpf. ¿Ya has"
+	line "terminado aquí?"
 
-	para "Then stay out of"
-	line "my way."
+	para "Entonces quítate"
+	line "de en medio."
 	done
 
 .PartyAndBoxFullText:
-	text "Humph. You don't"
-	line "have any room…"
-	cont "Even in your Box…"
+	text "Mpf. No tienes"
+	line "espacio…"
+	cont "Ni en tu Caja…"
 	done
 
 .Training1Text:
-	text "…"
-	line "What? <PLAYER>?"
+	text "… ¿Qué?"
+	line "¿<PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "…No lucharé"
+	line "contigo ahora…"
 
-	para "My #mon aren't"
-	line "ready to beat you."
+	para "Mis #mon aún no"
+	line "pueden ganarte."
 
-	para "I can't push them"
-	line "too hard now."
+	para "No debo forzarlos"
+	line "demasiado."
 
-	para "I have to be dis-"
-	line "ciplined to become"
-
-	para "the greatest #-"
-	line "mon trainer…"
+	para "Debo tener más"
+	line "disciplina para"
+	cont "ser el mejor"
+	cont "entrenador…"
 	done
 
 .Training2Text:
 	text "…"
 
-	para "Whew…"
+	para "Uff…"
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Aprende a salir de"
+	line "mi camino…"
 	done
 
 GenericTrainerDragonTamerDarin:
@@ -410,54 +407,52 @@ KimonoGirlMinaScript:
 	jumpthisopenedtext
 
 .OutroText:
-	text "Coming here from"
-	line "Ecruteak City"
+	text "Valió la pena"
+	line "venir aquí desde"
+	cont "Ciudad Iris."
 
-	para "was worth the"
-	line "trouble."
-
-	para "Dragon's Den is an"
-	line "ideal place for me"
-	cont "to train."
+	para "La Guarida Dragón"
+	line "es ideal para"
+	cont "entrenar."
 	done
 
 .BagFullText:
-	text "…That is, once you"
-	line "have freed up some"
-	cont "space in your Bag."
+	text "…Eso es, una"
+	line "vez que hagas"
+	cont "espacio en tu"
+	cont "Mochila."
 	done
 
 .IntroText:
-	text "I am a Kimono"
-	line "Girl."
+	text "Soy una Chica"
+	line "Kimono."
 
-	para "Haven't you met my"
-	line "five dancing cou-"
-	cont "sins in Ecruteak?"
+	para "¿No has conocido a"
+	line "mis cinco primas"
+	cont "bailarinas en"
+	cont "Iris?"
 
-	para "Let me know if"
-	line "you do."
+	para "Avísame si lo"
+	line "haces."
 	done
 
 .SeenText:
-	text "She who knows the"
-	line "most speaks the"
-	cont "least!"
+	text "¡Quien más sabe,"
+	line "menos habla!"
 
-	para "Allow me to cha-"
-	line "llenge you and"
-	cont "your #mon!"
+	para "¡Permíteme retar a"
+	line "todos tus #mon!"
 	done
 
 .BeatenText:
-	text "Oh, you are"
-	line "wonderful…"
+	text "Oh, qué maravilla"
+	line "de entrenador…"
 	done
 
 .AfterText:
-	text "You are quite the"
-	line "Trainer."
+	text "Eres un grandioso"
+	line "entrenador."
 
-	para "You are worthy of"
-	line "this item!"
+	para "¡Eres digno de"
+	line "este objeto!"
 	done

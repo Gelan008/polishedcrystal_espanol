@@ -110,88 +110,84 @@ ShamoutiPokeCenter1FIvyScript:
 	end
 
 .NoRoomText:
-	text "Alas, it seems"
-	line "there's no room in"
-	cont "either your party"
-	cont "or your Box…"
+	text "Vaya, parece que"
+	line "no tienes sitio ni"
+	cont "en tu equipo ni en"
+	cont "tu Caja…"
 	done
 
 .GreetingText:
-	text "Ivy: Oh! You're"
-	line "<PLAYER>, the new"
-	cont "Champion!"
+	text "Ivy: ¡<PLAYER>!"
+	line "¡El flamante"
+	cont "nuevo Campeón!"
 
-	para "Pleased to meet"
-	line "you!"
+	para "¡Encantada de"
+	line "conocerte!"
 
-	para "I'm Ivy, a #mon"
-	line "professor."
+	para "Soy Ivy, una"
+	line "profesora #mon."
 
-	para "I'm studying local"
-	line "variation in #-"
-	cont "mon phenotypes."
+	para "Estudio la"
+	line "variación local de"
+	cont "fenotipos #mon."
 
-	para "Did you know that"
-	line "some wild #mon"
+	para "¿Sabías que hay"
+	line "#mon salvajes"
+	cont "con ataques únicos"
+	cont "de su hábitat?"
 
-	para "know moves unique"
-	line "to their habitat?"
+	para "¡E incluso dos"
+	line "#mon de la"
+	cont "misma especie"
+	cont "pueden tener otro"
+	cont "color…!"
 
-	para "And even two of"
-	line "the same #mon"
-
-	para "in one area can"
-	line "have different"
-	cont "colors…"
-
-	para "Ah, sorry, I get"
-	line "carried away some-"
-	cont "times."
+	para "¡Perdón! A veces"
+	line "me dejo llevar por"
+	cont "la emoción."
 	done
 
 .OfferText:
-	text "Ivy: So you're"
-	line "taking a whole new"
+	text "Ivy: ¿Conque vas a"
+	line "afrontar un nuevo"
+	cont "reto de Gimnasios"
+	cont "en otra región…?"
 
-	para "Gym challenge in"
-	line "a new region…"
+	para "¡Ajá! ¿No querrías"
+	line "tener un nuevo"
+	cont "#mon?"
 
-	para "Aha! Why don't I"
-	line "give you a new"
-	cont "#mon too?"
-
-	para "Which one do you"
-	line "want?"
+	para "¿Cuál de ellos te"
+	line "gustaría tener?"
 	done
 
 .ChoseKantoStarterText:
-	text "Ivy: I think"
-	line "that's a great"
-	cont "#mon too!"
+	text "Ivy: ¡A mí también"
+	line "me parece un gran"
+	cont "#mon!"
 	done
 
 .GoodbyeText:
-	text "Ivy: Prof.Elm"
-	line "trusted you with"
-	cont "a #mon, and"
+	text "Ivy: El Prof. Elm"
+	line "confió en ti"
+	cont "dándote un #mon"
 
-	para "Prof.Oak gave you"
-	line "a #dex, so I"
+	para "y el Prof. Oak te"
+	line "dio una #dex,"
 
-	para "know you'll take"
-	line "good care of that"
-	cont ""
+	para "así que sé que"
+	line "cuidarás muy bien"
+	cont "de este "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Well, I need to"
-	line "take a ferry back"
+	para "En fin, tomaré el"
+	line "ferry de vuelta a"
+	cont "mi laboratorio en"
+	cont "Isla Valencia."
 
-	para "to my lab on"
-	line "Valencia Island."
-
-	para "Say hi to Prof.Oak"
-	line "for me!"
+	para "¡Saluda al Prof."
+	line "Oak de mi parte!"
 	done
 
 .DownMovement:
@@ -213,4 +209,4 @@ ShamoutiPokeCenter1FIvyScript:
 	db "Bulbasaur@"
 	db "Charmander@"
 	db "Squirtle@"
-	db "Cancel@"
+	db "Cancelar@"

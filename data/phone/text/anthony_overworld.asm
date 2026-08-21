@@ -1,52 +1,51 @@
 AnthonyAskNumber1Text:
-	text "By the way, I'm a"
-	line "Hiker, so I often"
+	text "Soy Montañero y"
+	line "suelo ir mucho por"
+	cont "montañas y cuevas."
 
-	para "go to mountains"
-	line "and caves."
+	para "A veces veo"
+	line "#mon muy raros."
 
-	para "I occasionally see"
-	line "rare #mon."
+	para "Podría avisarte si"
+	line "vuelvo a ver uno."
 
-	para "I could call you"
-	line "the next time I"
-	cont "see one."
-
-	para "Feel like swapping"
-	line "phone numbers?"
+	para "¿Nos damos los"
+	line "números?"
 	done
 
 AnthonyAskNumber2Text:
-	text "I could call you"
-	line "when I see some"
-	cont "rare #mon."
+	text "Te llamaré cuando"
+	line "vea #mon raros."
 
-	para "Feel like swapping"
-	line "phone numbers?"
+	para "¿Nos damos los"
+	line "números?"
 	done
 
 AnthonyNumberAcceptedText:
-	text "Be patient. I'll"
-	line "find some rare"
-	cont "#mon for you!"
+	text "Ten paciencia."
+	line "¡Te encontraré"
+	cont "#mon raros!"
 	done
 
 AnthonyNumberDeclinedText:
-	text "You're cold. I may"
-	line "as well head to"
-	cont "the mountains…"
+	text "Qué frío eres."
+	line "Será mejor que me"
+	cont "vaya a la montaña."
 	done
 
 AnthonyPhoneFullText:
-	text "Your phone's full."
+	text "Tu móvil está"
+	line "lleno."
 
-	para "It can't register"
-	line "my phone number."
+	para "No puedes guardar"
+	line "mi número de"
+	cont "teléfono."
 	done
 
 AnthonyRematchText:
-	text "All righty, then!"
+	text "¡Muy bien, pues!"
 
-	para "My #mon and I"
-	line "are raring to go!"
+	para "¡Mis #mon y yo"
+	line "tenemos ganas de"
+	cont "luchar!"
 	done

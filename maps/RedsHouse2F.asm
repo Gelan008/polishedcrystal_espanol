@@ -40,15 +40,16 @@ PokemonJournalProfOakScript:
 	done
 
 RedsHouse2FPCText:
-	text "It looks like it"
-	line "hasn't been used"
-	cont "in a long time…"
+	text "Parece que no se"
+	line "ha usado en mucho"
+	cont "tiempo…"
 	done
 
 RedsHouse2FSNESText:
-	text "<PLAYER> played the"
-	line "SNES."
+	text "¡<PLAYER> jugó a"
+	line "la SNES!"
 
-	para "Better get going--"
-	line "no time to lose!"
+	para "Mejor ponerse en"
+	line "marcha… ¡No hay"
+	cont "tiempo que perder!"
 	done

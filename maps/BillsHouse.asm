@@ -41,9 +41,9 @@ PokemonJournalBillScript:
 	done
 
 BillsHousePCText:
-	text "There's a spinning"
-	line "3D model of a"
-	cont "Porygon."
+	text "Hay un modelo en"
+	line "3D de un Porygon"
+	cont "girando."
 	done
 
 BillsHouseBillScript:
@@ -66,60 +66,59 @@ BillsHouseBillScript:
 	jumpthistext
 
 .AfterText:
-	text "That was one rad"
-	line "battle!"
+	text "¡Fue un combate"
+	line "increíble!"
 
-	para "Any #Maniac"
-	line "would be thrilled"
-
-	para "to see what"
-	line "you've caught."
+	para "Cualquier"
+	line "Pokémaníaco"
+	cont "estaría encantado"
+	cont "de ver lo que has"
+	cont "atrapado."
 	done
 
 .IntroText:
-	text "Bill: Eevee is"
-	line "such a fascinating"
-	cont "#mon."
+	text "Bill: Eevee es un"
+	line "#mon de lo más"
+	cont "fascinante."
 
-	para "Some say that the"
-	line "three legendary"
+	para "Dicen que los tres"
+	line "perros de Johto"
+	cont "solían ser tres"
+	cont "#mon que"
+	cont "evolucionan de"
+	cont "Eevee."
 
-	para "beasts of Johto"
-	line "were once three"
+	para "Pero podría ser"
+	line "solo un rumor."
 
-	para "#mon that"
-	line "evolve from Eevee."
-
-	para "But that might be"
-	line "only a rumor."
-
-	para "Still, I'd sure"
-	line "love to see them…"
+	para "Aun así, me"
+	line "encantaría verlos…"
 	done
 
 .SeenText:
-	text "You caught all"
-	line "three of the"
-	cont "legendary beasts?"
+	text "¿Atrapaste a los"
+	line "tres perros"
+	cont "legendarios?"
 
-	para "That's so cool,"
+	para "¡Qué genial,"
 	line "<PLAYER>!"
 
-	para "Do you think they"
-	line "were once related"
-	cont "to Eevee?"
+	para "¿Crees que alguna"
+	line "vez estuvieron"
+	cont "relacionados con"
+	cont "Eevee?"
 
-	para "Oh man, now I have"
-	line "to show you my"
-	cont "team!"
+	para "¡Vaya, ahora tengo"
+	line "que enseñarte a"
+	cont "mi equipo!"
 
-	para "You can compare"
-	line "the three legends"
-
-	para "you battled to"
-	line "my own #mon!"
+	para "¡Puedes comparar"
+	line "las tres leyendas"
+	cont "con las que has"
+	cont "luchado con mis"
+	cont "propios #mon!"
 	done
 
 .BeatenText:
-	text "Yeehah!"
+	text "¡Yeehaw!"
 	done

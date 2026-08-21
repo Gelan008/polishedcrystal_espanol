@@ -120,45 +120,44 @@ Route19Fisher2Script:
 	jumptextfaceplayer Route19EngineerText2
 
 SwimmerfDawnSeenText:
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "¡No soporto a los"
+	line "hombres quejicas!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "I could beat you"
-	line "at swimming…"
+	text "Seguro que nadando"
+	line "te ganaba…"
 	done
 
 SwimmermTuckerSeenText:
-	text "Pant, pant…"
-	line "Just… a little…"
-
-	para "farther… to…"
-	line "Fuchsia…"
+	text "Uf, uf… Ya solo…"
+	line "un poco más para"
+	cont "llegar… a…"
+	cont "Fucsia…"
 	done
 
 SwimmermTuckerBeatenText:
-	text "I'm drowning!"
+	text "¡Que me ahogo!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Swimming?"
-	line "I'm lousy at it."
+	text "¿Nadar? Se me da"
+	line "fatal."
 
-	para "I'm just splashing"
-	line "around in these"
-	cont "shallow waters."
+	para "Solo estoy aquí"
+	line "chapoteando en la"
+	cont "orilla."
 	done
 
 SwimmermJeromeBeatenText:
-	text "I thought I could"
-	line "win."
+	text "Pensaba que podía"
+	line "ganar."
 	done
 
 SwimmermHaroldSeenText:
-	text "Have you ever gone"
-	line "swimming in the"
-	cont "sea at night?"
+	text "¿Has nadado alguna"
+	line "vez en el mar de"
+	cont "noche?"
 	done
 
 SwimmermHaroldBeatenText: ; text > text
@@ -166,26 +165,25 @@ SwimmermHaroldBeatenText: ; text > text
 	done
 
 CosplayerBrookeSeenText:
-	text "Dressing up is"
-	line "such fun!"
+	text "¡Disfrazarse es"
+	line "súper divertido!"
 	done
 
 CosplayerBrookeBeatenText:
-	text "You'd better not"
-	line "have damaged my"
-	cont "costume!"
+	text "¡Más te vale no"
+	line "haberme roto el"
+	cont "disfraz!"
 	done
 
 Route19Fisher1Text:
-	text "Sorry. This road"
-	line "is closed for"
-	cont "construction."
+	text "Perdón. Esta ruta"
+	line "está cortada por"
+	cont "obras."
 
-	para "If you want to get"
-	line "to Cinnabar, you'd"
-
-	para "better go south"
-	line "from Pallet Town."
+	para "Si quieres llegar"
+	line "a Isla Canela, ve"
+	cont "por el sur de"
+	cont "Pueblo Paleta."
 	done
 
 Route19Fisher1Text_RocksCleared:
@@ -194,9 +192,9 @@ Route19Fisher1Text_RocksCleared:
 	done
 
 Route19EngineerText1:
-	text "Who knows how long"
-	line "it would take to"
-	cont "move this boulder…"
+	text "A saber cuánto nos"
+	line "llevará mover esta"
+	cont "roca gigante…"
 	done
 
 Route19EngineerText2:
@@ -208,17 +206,16 @@ Route19EngineerText2:
 	done
 
 Route19SignText:
-	text "Route 19"
+	text "Ruta 19"
 
-	para "Fuchsia City -"
-	line "Seafoam Islands"
+	para "Ciudad Fucsia -"
+	line "Islas Espuma"
 	done
 
 CarefulSwimmingSignText:
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to Seafoam"
-	cont "Islands."
+	text "Mucha precaución"
+	line "si vas a nado a"
+	cont "Islas Espuma."
 
-	para "Fuchsia Police"
+	para "Policía de Fucsia"
 	done

@@ -48,32 +48,27 @@ GoldenrodMuseum1FRocketScoutScript:
 	end
 
 GoldenrodMuseumReceptionistText:
-	text "Welcome to the"
-	line "Goldenrod City"
-	cont "Museum."
+	text "Te damos la"
+	line "bienvenida al"
+	cont "Museo de Trigal."
 
-	para "In celebration of"
-	line "our grand opening,"
+	para "Por inauguración,"
+	line "la entrada es"
+	cont "gratuita."
 
-	para "admission is free"
-	line "of charge."
-
-	para "Please, feel free"
-	line "to look around,"
-
-	para "and we hope you"
-	line "enjoy your visit."
+	para "¡Pasa y disfruta"
+	line "de la visita!"
 	done
 
 GoldenrodMuseumOfficerText:
-	text "I'm keeping my eye"
-	line "on you kid!"
+	text "¡Te tengo bien"
+	line "vigilado, chaval!"
 
-	para "Hahaha! I'm just"
-	line "messing with ya!"
+	para "¡Jajaja! ¡Es una"
+	line "broma!"
 
-	para "I'm keeping an eye"
-	line "on everyone…"
+	para "Vigilo a todo el"
+	line "mundo…"
 	done
 
 GoldenrodMuseum1FLodestoneSignpostText:
@@ -83,57 +78,48 @@ GoldenrodMuseum1FLodestoneSignpostText:
 	done
 
 GoldenrodMuseum1FDrillText:
-	text "It's a large drill"
-	line "used to tunnel"
-
-	para "through super"
-	line "dense rock."
+	text "Un gran taladro"
+	line "empleado para"
+	cont "perforar roca"
+	cont "muy densa."
 	done
 
 GoldenrodMuseum1FHikerText:
-	text "I heard they had"
-	line "to use equipment"
-
-	para "like this drill"
-	line "to excavate the"
-
-	para "tunnel for the"
-	line "Magnet Train."
+	text "Dicen que usaron"
+	line "taladros como este"
+	cont "para excavar el"
+	cont "Magnetotúnel."
 	done
 
 GoldenrodMuseum1FRadioDishText:
-	text "A metallic dish"
-	line "used for trans-"
-
-	para "mitting radio"
-	line "waves."
+	text "Una antena para"
+	line "emitir ondas de"
+	cont "radio."
 	done
 
 GoldenrodMuseum1FHarborText:
-	text "An aquarium filled"
-	line "with Magikarp!"
+	text "¡Un acuario lleno"
+	line "de Magikarp!"
 	done
 
 GoldenrodMuseum1FBigPearlText:
-	text "It's a huge pearl"
-	line "fished up from"
-	cont "Goldenrod Harbor."
+	text "Una perla gigante"
+	line "hallada en el"
+	cont "Puerto de Trigal."
 	done
 
 GoldenrodMuseum1FRocketScoutText1:
-	text "Hmm… This would"
-	line "fetch quite a"
-	cont "heavy price."
+	text "Mmm… Esto se"
+	line "vendería a muy"
+	cont "buen precio."
 
-	para "Now… how do I get"
-	line "it out of here"
-
-	para "without getting"
-	line "caught?"
+	para "¿Cómo lo saco de"
+	line "aquí sin que nadie"
+	cont "se dé cuenta…?"
 	done
 
 GoldenrodMuseum1FRocketScoutText2:
-	text "Don't you know it's"
-	line "rude to stare?"
-	cont "Beat it kid!"
+	text "¿No sabes que es"
+	line "de mala educación"
+	cont "mirar? ¡Lárgate!"
 	done

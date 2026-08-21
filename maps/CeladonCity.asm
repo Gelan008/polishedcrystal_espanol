@@ -91,27 +91,26 @@ CeladonCityTutorSwaggerScript:
 	jumpopenedtext Text_CeladonCityTutorTaught
 
 CeladonCityRichBoyText:
-	text "Is my suit not"
-	line "bedazzling?"
+	text "¿No es maravilloso"
+	line "mi traje?"
 
-	para "It turns heads"
-	line "when I swagger"
-	cont "down the street!"
+	para "¡Hago girar"
+	line "cabezas cuando me"
+	cont "contoneo por la"
+	cont "calle!"
 
-	para "The people love"
-	line "me!"
+	para "¡La gente me ama!"
 
-	para "I'm in a generous"
-	line "mood today."
+	para "Hoy estoy de humor"
+	line "generoso."
 	done
 
 Text_CeladonCityTutorSwagger:
-	text "I shall teach"
-	line "your #mon to"
-
-	para "Swagger like me"
-	line "for merely a"
-	cont "Silver Leaf."
+	text "Enseñaré a tu"
+	line "#mon a hacer"
+	cont "Contoneo como yo"
+	cont "por solo una Hoja"
+	cont "Plata."
 	done
 
 Text_CeladonCityTutorNoSilverLeaf:
@@ -121,9 +120,9 @@ Text_CeladonCityTutorNoSilverLeaf:
 	done
 
 Text_CeladonCityTutorQuestion:
-	text "You wish me to"
-	line "teach your #-"
-	cont "mon Swagger?"
+	text "¿Deseas que le"
+	line "enseñe Contoneo a"
+	cont "tu #mon?"
 	done
 
 Text_CeladonCityTutorRefused:
@@ -137,220 +136,218 @@ Text_CeladonCityTutorTaught:
 	done
 
 CeladonCityFisherText:
-	text "This Poliwrath is"
-	line "my partner."
+	text "Este Poliwrath es"
+	line "mi compañero."
 
-	para "It used to be"
-	line "Quiet, but the"
-
-	para "manager lady in"
-	line "the condo here"
-
-	para "brewed us some"
-	line "tea with a Mint"
-
-	para "Leaf that made it"
-	line "act more Jolly!"
+	para "Solía ser Manso,"
+	line "pero la dueña del"
+	cont "edificio nos"
+	cont "preparó té con"
+	cont "una Hoja Menta"
+	cont "que lo hizo más"
+	cont "Alegre."
 	done
 
 CeladonCityPoliwrathText:
-	text "Poliwrath: Croak!"
+	text "Poliwrath: ¡Croac!"
 	done
 
 CeladonCityTeacher1Text:
-	text "I lost at the slot"
-	line "machines again…"
+	text "Volví a perder"
+	line "en las"
+	cont "tragaperras…"
 
-	para "We girls also play"
-	line "the slots now."
+	para "Nosotras las"
+	line "chicas también"
+	cont "jugamos ahora."
 
-	para "You should check"
-	line "them out too."
+	para "Tú también"
+	line "deberías echarles"
+	cont "un vistazo."
 	done
 
 CeladonCityGramps1Text:
-	text "Grimer have been"
-	line "appearing lately."
+	text "Últimamente"
+	line "aparecen muchos"
+	cont "Grimer."
 
-	para "See that pond out"
-	line "in front of the"
+	para "¿Ves ese estanque"
+	line "frente a la casa?"
+	cont "¡Los Grimer viven"
+	cont "allí ahora!"
 
-	para "house? Grimer live"
-	line "there now."
-
-	para "Where did they"
-	line "come from? This is"
-	cont "a serious problem…"
+	para "¿De dónde habrán"
+	line "salido? Es un"
+	cont "problema grave…"
 	done
 
 CeladonCityGramps2Text:
-	text "Nihihi! This Gym"
-	line "is great! Only"
+	text "¡Ji, ji! ¡Este"
+	line "Gimnasio es"
+	cont "genial!"
 
-	para "girls are allowed"
-	line "here!"
+	para "¡Aquí solo"
+	line "admiten chicas!"
 	done
 
 CeladonCityYoungster1Text:
-	text "Want to know a"
-	line "secret?"
+	text "¿Quieres saber"
+	line "un secreto?"
 
-	para "Celadon Condo"
-	line "has a hidden back"
-	cont "door."
+	para "La Mansión Azulona"
+	line "tiene una puerta"
+	cont "trasera."
 	done
 
 CeladonCityYoungster2Text:
-	text "The restaurant"
-	line "there is having an"
-	cont "eating contest."
+	text "Ese restaurante"
+	line "celebra hoy un"
+	cont "concurso de"
+	cont "tragones."
 
-	para "There's one con-"
-	line "testant from the"
+	para "Hay una chica de"
+	line "Sinnoh compitiendo"
+	cont "este año."
 
-	para "Sinnoh region this"
-	line "year."
-
-	para "Just watching her"
-	line "go at it makes me"
-	cont "feel bloated…"
+	para "Solo de verla"
+	line "devorar comida me"
+	cont "siento lleno…"
 	done
 
 CeladonCityTeacher2Text:
-	text "Celadon Dept.Store"
-	line "has the biggest"
+	text "El Centro"
+	line "Comercial de"
+	cont "Azulona tiene la"
+	cont "mejor selección de"
+	cont "artículos."
 
-	para "and best selection"
-	line "of merchandise."
+	para "Si no puedes"
+	line "conseguirlo ahí,"
+	cont "no lo hallarás en"
+	cont "ningún sitio."
 
-	para "If you can't get"
-	line "it there, you"
-
-	para "can't get it any-"
-	line "where."
-
-	para "Gee… I sound like"
-	line "a sales clerk."
+	para "Vaya… Parezco"
+	line "una dependienta."
 	done
 
 CeladonCityLassText_PCC:
-	text "I love being"
-	line "surrounded by tall"
-	cont "buildings!"
+	text "¡Me encanta estar"
+	line "rodeada de"
+	cont "edificios altos!"
 
-	para "Isn't it true that"
-	line "Goldenrod #mon"
+	para "¿Es verdad que el"
+	line "Centro #mon de"
+	cont "Trigal es mucho"
+	cont "más grande?"
 
-	para "Center was made"
-	line "much, much bigger?"
-
-	para "That is so neat!"
-	line "I wish we had a"
-
-	para "place like that in"
-	line "Kanto…"
+	para "¡Qué pasada!"
+	line "Ojalá tuviéramos"
+	cont "un sitio así en"
+	cont "Kanto…"
 	done
 
 CeladonCityLassText:
-	text "#mon are offer-"
-	line "ed as prizes at"
-	cont "the Game Corner."
+	text "Ofrecen #mon"
+	line "como premios en el"
+	cont "Casino."
 
-	para "The poor things…"
+	para "Pobrecitos…"
 	done
 
 CeladonCitySignText:
-	text "Celadon City"
+	text "Ciudad Azulona"
 
-	para "The City of"
-	line "Rainbow Dreams"
+	para "La Ciudad de los"
+	line "Sueños Irisados"
 	done
 
 CeladonGymSignText:
-	text "Celadon City"
-	line "#mon Gym"
-	cont "Leader: Erika"
+	text "Gimnasio #mon"
+	line "de Ciudad Azulona"
+	cont "Líder: Erika"
 
-	para "The Nature-Loving"
-	line "Princess"
+	para "La princesa amante"
+	line "de la naturaleza"
 	done
 
 CeladonUniversitySignText:
-	text "Celadon University"
+	text "Universidad"
+	line "Azulona"
 
-	para "“Growth Through"
-	line "Studying”"
+	para "“Crecimiento"
+	line "mediante el"
+	cont "estudio”"
 	done
 
 CeladonCityDeptStoreSignText:
-	text "Find What You"
-	line "Need at Celadon"
-	cont "Dept.Store!"
+	text "¡Encuentra lo que"
+	line "necesitas en el"
+	cont "C. C. Azulona!"
 	done
 
 CeladonCityHomeDecorStoreSignText:
-	text "Celadon Dept.Store"
-	line "Home Decor Wing"
+	text "Ala de Decoración"
+	line "del C.C. Azulona"
 	done
 
 CeladonCityMansionSignText:
-	text "Celadon"
-	line "Condominium"
+	text "Mansión Azulona"
 	done
 
 CeladonCityGameCornerSignText:
-	text "The Playground for"
-	line "Everybody--Celadon"
-	cont "Game Corner"
+	text "¡Diversión para"
+	line "todos!"
+
+	para "Casino de"
+	line "Ciudad Azulona"
 	done
 
 CeladonCityPrizeExchangeSignText:
-	text "Coins exchanged"
-	line "for prizes!"
-	cont "Prize Exchange"
+	text "¡Canjea monedas"
+	line "por premios!"
+	cont "Cambio de Premios"
 	done
 
 CeladonCityCafeSignText:
-	text "Celadon Diner"
+	text "Restaurante"
+	line "Azulona"
 
-	para "Eatathon Contest"
-	line "all day today!"
+	para "¡Hoy Concurso de"
+	line "Tragones todo el"
+	cont "día!"
 	done
 
 CeladonCityHotelSignText:
-	text "Celadon Hotel"
+	text "Hotel Azulona"
 
-	para "Relax in our"
-	line "swimming pool!"
+	para "¡Relájate en"
+	line "nuestra piscina!"
 	done
 
 CeladonCityTrainerTips1Text:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-if DEF(FAITHFUL)
-	para "Guard Spec."
-else
-	para "Guard Stats"
-endc
-	line "protects #mon"
+	para "Protección X"
+	line "protege a tus"
+	cont "#mon de los"
+	cont "cambios de"
+	cont "características."
 
-	para "against stat"
-	line "reductions."
-
-	para "Get your items at"
-	line "Celadon Dept."
-	cont "Store!"
+	para "¡Consigue tus"
+	line "objetos en el C.C."
+	cont "de Azulona!"
 	done
 
 CeladonCityTrainerTips2Text:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Eevee is a #mon"
-	line "full of potential."
+	para "Eevee es un"
+	line "#mon lleno de"
+	cont "potencial."
 
-	para "Try exposing it to"
-	line "many different"
-	cont "locations, times"
-	cont "of day, and"
-	cont "Evolution stones."
+	para "Prueba a llevarlo"
+	line "a varios lugares,"
+	cont "horas del día y"
+	cont "Piedras Evolutivas"
+	cont "para evolucionar."
 	done

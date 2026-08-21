@@ -1,84 +1,76 @@
 GavenMonGreaterThanImaginedText:
-	text "My "
+	text "Mi "
 	text_ram wStringBuffer4
-	line "might be greater"
-	cont "than I imagined."
+	line "podría ser mejor"
+	cont "de lo que pensaba."
 
-	para "I doubt I'll see a"
+	para "Dudo que vea a un"
 	line ""
 	text_ram wStringBuffer4
-	text " that's"
-	cont "better than mine."
+	text " que"
+	cont "sea mejor que el"
+	cont "mío."
 	done
 
 GavenDefeatedMonText:
-	text "Oh, and I managed"
-	line "to barely defeat"
-
-	para ""
+	text "El otro día vencí"
+	line "por los pelos a un"
+	cont ""
 	text_ram wStringBuffer4
-	text " the"
-	line "other day."
+	text "."
 
-	para "I've never seen a"
+	para "¡Nunca vi a un"
 	line ""
 	text_ram wStringBuffer4
-	text " get"
-	cont "that strong…"
+	text ""
+	cont "tan fuerte!"
 
-	para "You shouldn't let"
-	line "your guard down,"
-
-	para "even against a"
-	line "#mon you're"
-	cont "used to seeing."
+	para "Nunca bajes la"
+	line "guardia, ni ante"
+	cont "un #mon común."
 	done
 
 GavenLostAMonText:
-	text "And a while back,"
-	line "I tried to catch a"
-	cont "wild "
+	text "Hace poco quise"
+	line "atrapar a un"
+	cont ""
 	text_ram wStringBuffer4
-	text "."
+	text ""
+	cont "y se me escapó."
 
-	para "But it managed to"
-	line "elude me."
-
-	para "One wrong decision"
-	line "could mean total"
-
-	para "failure… You ought"
-	line "to be careful too."
+	para "Una mala decisión"
+	line "lleva al fracaso."
+	cont "¡Ten cuidado!"
 	done
 
 GavenBattleRematchText:
-	text "Let's battle!"
+	text "¡Luchemos!"
 
-	para "I'll be waiting on"
-	line ""
+	para "Estaré esperando"
+	line "en "
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout"
-	line "when you're close."
+	para "Avísame cuando"
+	line "estés cerca."
 	done
 
 GavenHangUpText:
-	text "OK, I'll talk to"
-	line "you soon!"
+	text "Vale, ¡hablamos"
+	line "pronto!"
 	done
 
 GavenHangUpNotThursdayText:
-	text "I obsess over how"
-	line "to beat you."
+	text "Siempre pienso en"
+	line "cómo ganarte."
 	done
 
 GavenReminderText:
-	text "<PLAYER>, why"
-	line "aren't you here?"
+	text "<PLAYER>, ¿por"
+	line "qué no estás aquí?"
 
-	para "I'll take you down"
-	line "with "
+	para "¡Te derrotaré en"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done

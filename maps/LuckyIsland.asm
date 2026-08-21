@@ -170,16 +170,16 @@ GenericTrainerSightseersLiandsu2:
 	done
 
 .SeenText:
-	text "Su: What came"
-	line "first?"
+	text "Su: ¿Qué fue"
+	line "primero?"
 
-	para "The #mon or"
-	line "the Egg?"
+	para "¿El #mon o"
+	line "el Huevo?"
 	done
 
 .BeatenText:
-	text "Su: I think the"
-	line "Egg came first!"
+	text "Su: ¡Creo que el"
+	line "Huevo fue primero!"
 	done
 
 LuckyIslandLuckyEgg:
@@ -203,6 +203,6 @@ LuckyIslandLuckyEgg:
 	endtext
 
 .Text:
-	text "<PLAYER> found"
-	line "Lucky Egg!"
+	text "¡<PLAYER> encontró"
+	line "Huevo Suerte!"
 	done

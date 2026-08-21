@@ -36,13 +36,13 @@ GenericTrainerPokefanmRex:
 	done
 
 PokefanmRexSeenText:
-	text "My Phanpy is the"
-	line "cutest in the"
-	cont "world."
+	text "Mi Phanpy es el"
+	line "más mono de todo"
+	cont "el mundo."
 	done
 
 PokefanmRexBeatenText:
-	text "My Phanpy!"
+	text "¡Mi Phanpy!"
 	done
 
 GenericTrainerPokefanmAllan:
@@ -57,13 +57,13 @@ GenericTrainerPokefanmAllan:
 	done
 
 PokefanmAllanSeenText:
-	text "My Teddiursa is"
-	line "the cutest in the"
-	cont "world."
+	text "Mi Teddiursa es el"
+	line "más mono de todo"
+	cont "el mundo."
 	done
 
 PokefanmAllanBeatenText:
-	text "My Teddiursa!"
+	text "¡Mi Teddiursa!"
 	done
 
 GenericTrainerTwinsDayanddani1:
@@ -73,12 +73,12 @@ GenericTrainerTwinsDayanddani1:
 	done
 
 TwinsDayanddani1SeenText:
-	text "Day: Are you going"
-	line "to beat us?"
+	text "Day: ¿Podrás"
+	line "vencernos?"
 	done
 
 TwinsDayanddani1BeatenText:
-	text "Day: Waah!"
+	text "Day: ¡Buaaa!"
 	done
 
 GenericTrainerTwinsDayanddani2:
@@ -89,12 +89,12 @@ GenericTrainerTwinsDayanddani2:
 	done
 
 TwinsDayanddani2SeenText:
-	text "Dani: We'll knock"
-	line "you flat!"
+	text "Dani: ¡Te vamos a"
+	line "dejar K.O.!"
 	done
 
 TwinsDayanddani2BeatenText:
-	text "Dani: Eeeeh!"
+	text "Dani: ¡Eeeeh!"
 	done
 
 GenericTrainerYoungsterChaz:
@@ -152,61 +152,59 @@ OfficerfJennyScript:
 	endtext
 
 .DaytimeText:
-	text "Us Officers are"
-	line "here to keep the"
-	cont "peace."
+	text "La policía está"
+	line "aquí para mantener"
+	cont "la paz."
 	done
 
 .SeenText:
-	text "You don't look"
-	line "familiar."
+	text "No me suena tu"
+	line "cara."
 
-	para "Squirtle Squad,"
-	line "attack!"
+	para "¡Escuadrón"
+	line "Squirtle, ataque!"
 	done
 
 .BeatenText:
-	text "Squirtle Squad,"
-	line "retreat…"
+	text "¡Escuadrón"
+	line "Squirtle, toca"
+	cont "retirarse…!"
 	done
 
 .AfterText:
-	text "Sorry to bother"
-	line "you, kid."
+	text "Siento molestarte,"
+	line "chaval."
 
-	para "I get jumpy at"
-	line "night."
+	para "De noche me pongo"
+	line "en alerta."
 	done
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
-
-	para "at the Power Plant"
-	line "is solved."
+	text "El paso se cerró"
+	line "por el problema"
+	cont "en la Central"
+	cont "Energía."
 	done
 
 Route6UndergroundPathSignText:
-	text "Underground Path"
+	text "Vía Subterránea"
 
-	para "Cerulean City -"
-	line "Vermilion City"
+	para "Ciudad Celeste -"
+	line "Ciudad Carmín"
 	done
 
 Route6AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "Some items may"
-	line "seem harmful to"
-	cont "the holder, like"
+	para "Hay objetos con"
+	line "efectos molestos"
+	cont "para su portador,"
 
-	para "an Iron Ball or"
-	line "a Choice Scarf."
+	para "como la Bola"
+	line "Férrea o el"
+	cont "Pañuelo Elegido."
 
-	para "But with the move"
-	line "Trick, the holder"
-
-	para "can swap their"
-	line "item with the"
-	cont "opponent!"
+	para "¡Pero con Truco,"
+	line "el usuario puede"
+	cont "dárselos al rival!"
 	done

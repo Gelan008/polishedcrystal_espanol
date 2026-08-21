@@ -88,36 +88,26 @@ SetupFairyBookScript:
 	endcallback
 
 ValeriesHouseValerieText:
-	text "Valerie: My"
-	line "fashion designs"
+	text "Valeria: Dicen"
+	line "que mis diseños"
+	cont "son enigmáticos."
+	cont "¿Estás de acuerdo?"
 
-	para "are said to be"
-	line "rather mystifying."
-	cont "Do you agree with"
-	cont "that?"
+	para "La verdad es que"
+	line "siempre he querido"
+	cont "ser un #mon."
 
-	para "I've always wanted"
-	line "to be a #mon,"
-	cont "you see."
+	para "Ese anhelo me"
+	line "sirve de guía y es"
+	cont "lo que plasmo en"
+	cont "mi trabajo."
 
-	para "That desire is my"
-	line "inspiration and"
+	para "Aun así… solo me"
+	line "siento unida a los"
+	cont "#mon al librar"
+	cont "un combate reñido."
 
-	para "what I try to"
-	line "achieve by"
-	cont "designing."
-
-	para "And yet… the only"
-	line "time I feel truly"
-
-	para "one with #mon"
-	line "is when we are"
-
-	para "embroiled in"
-	line "desperate battle."
-
-	para "I wonder why that"
-	line "is…"
+	para "¿Por qué será?…"
 	done
 
 ValeriesHouseRedFairyBookText:

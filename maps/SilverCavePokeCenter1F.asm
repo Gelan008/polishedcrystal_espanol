@@ -78,48 +78,45 @@ SilverCavePokeCenterGrampsScript:
 	jumpthisopenedtext
 
 .AfterText:
-	text "That Belt's not"
-	line "just for show."
+	text "Ese Cinturón no"
+	line "es solo de adorno."
 
-	para "It'll power up your"
-	line "#mon if they"
-	cont "hold it."
+	para "Hará más fuertes a"
+	line "tus #mon si lo"
+	cont "llevan equipado."
 	done
 
 .GreetingText:
-	text "In my youth I was"
-	line "a talented trainer"
-	cont "myself."
+	text "De joven yo era un"
+	line "gran entrenador."
 
-	para "Now I just read"
-	line "about others in"
-	cont "#mon Journal."
+	para "Ahora solo leo"
+	line "sobre otros en la"
+	cont "Revista #mon."
 
-	para "Are you a Journal"
-	line "reader too?"
+	para "¿Tú también lees"
+	line "la revista?"
 	done
 
 .ReadAllText:
-	text "You've read them"
-	line "all? Then you're"
+	text "¿Te has leído"
+	line "todos los números?"
+	cont "¡Eres un experto"
+	cont "igual que yo!"
 
-	para "a Journal expert"
-	line "like me!"
-
-	para "Take this to show"
-	line "you're a fan!"
+	para "¡Toma esto para"
+	line "demostrar lo fan"
+	cont "que eres!"
 	done
 
 SilverCavePokeCenter1FGrannyText:
-	text "Trainers who seek"
-	line "power climb Mt."
+	text "Los que buscan más"
+	line "poder suben al"
+	cont "Monte Plateado a"
+	cont "pesar de todo…"
 
-	para "Silver despite its"
-	line "many dangers…"
-
-	para "With their trusted"
-	line "#mon, they must"
-
-	para "feel they can go"
-	line "anywhere…"
+	para "Con sus #mon"
+	line "más queridos,"
+	cont "sienten que pueden"
+	cont "ir donde sea…"
 	done

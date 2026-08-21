@@ -47,35 +47,34 @@ GenericTrainerBoarderBryce:
 	done
 
 SkierCadySeenText:
-	text "To beat the cold,"
-	line "try warm clothes"
-	cont "and a hot drink!"
+	text "¡Para el frío,"
+	line "abrigo y bebida"
+	cont "muy caliente!"
 	done
 
 SkierCadyBeatenText:
-	text "Argh, all the way"
-	line "out here!"
+	text "¡Aj, perder tras"
+	line "llegar hasta aquí!"
 	done
 
 BoarderShaunSeenText:
-	text "Hey, hey, you're"
-	line "in my way! Right!"
+	text "¡Eh, tú, estás en"
+	line "medio! ¡Fuera!"
 	done
 
 BoarderShaunBeatenText:
-	text "I got kicked"
-	line "around…"
+	text "Me han dado para"
+	line "el pelo…"
 	done
 
 BoarderBryceSeenText:
-	text "What did you"
-	line "come all the way"
-	cont "out here for,"
-	cont "I wonder."
+	text "¿A qué has venido"
+	line "hasta aquí, si se"
+	cont "puede saber?"
 	done
 
 BoarderBryceBeatenText:
-	text "I lost all the"
-	line "way out here…"
+	text "He perdido tras"
+	line "venir tan lejos…"
 	done
 

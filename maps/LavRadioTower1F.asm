@@ -46,48 +46,40 @@ LavRadioTower1FGentlemanScript:
 	jumpthisopenedtext
 
 .GotExpnCardText:
-	text "With that thing,"
-	line "you can tune into"
+	text "Con ese trasto"
+	line "podrás sintonizar"
+	cont "la radio de Kanto."
 
-	para "the radio programs"
-	line "here in Kanto."
-
-	para "Gahahahaha!"
+	para "¡Gahahahaha!"
 	done
 
 .OffTheAirText:
-	text "Oh, no, no, no!"
+	text "¡Oh, no, no, no!"
 
-	para "We've been off the"
-	line "air ever since the"
+	para "No emitimos nada"
+	line "desde que cerró la"
+	cont "Central Energía."
 
-	para "Power Plant shut"
-	line "down."
+	para "¡Todo mi trabajo"
+	line "no valdrá nada si"
+	cont "no puedo emitir!"
 
-	para "All my efforts to"
-	line "start this station"
-
-	para "would be wasted if"
-	line "I can't broadcast."
-
-	para "I'll be ruined!"
+	para "¡Será mi ruina!"
 	done
 
 .ReturnedMachinePartText:
-	text "Ah! So you're the"
-	line "<PLAYER> who solved"
+	text "¡Ah! ¿Tú eres"
+	line "<PLAYER>?"
 
-	para "the Power Plant's"
-	line "problem?"
+	para "¡Salvaste la"
+	line "Central Energía!"
 
-	para "Thanks to you, I"
-	line "never lost my job."
+	para "Gracias a ti no he"
+	line "perdido mi empleo."
+	cont "¡Me has salvado!"
 
-	para "I tell you, you're"
-	line "a real lifesaver!"
-
-	para "Please take this"
-	line "as my thanks."
+	para "Acepta esto como"
+	line "agradecimiento."
 	done
 
 LavRadioTower1FSuperNerd2Script:
@@ -114,82 +106,69 @@ LavRadioTower1FSuperNerd2Script:
 	done
 
 LavRadioTower1FReceptionistText:
-	text "Welcome!"
-	line "Feel free to look"
-
-	para "around anywhere on"
-	line "this floor."
+	text "¡Bienvenido!"
+	line "Puedes mirar por"
+	cont "toda esta planta."
 	done
 
 LavRadioTower1FOfficerText:
-	text "Sorry, but you can"
-	line "only tour the"
-	cont "ground floor."
+	text "Lo siento, solo"
+	line "puedes visitar la"
+	cont "planta baja."
 
-	para "Ever since Johto's"
-	line "Radio Tower was"
-
-	para "taken over by a"
-	line "criminal gang, we"
-
-	para "have had to step"
-	line "up our security."
+	para "Desde que tomaron"
+	line "la Torre Radio en"
+	cont "Johto, aumentamos"
+	cont "la seguridad."
 	done
 
 LavRadioTower1FSuperNerd1Text:
-	text "Many people are"
-	line "hard at work here"
+	text "Hay mucha gente"
+	line "trabajando duro en"
+	cont "la Torre Radio."
 
-	para "in the Radio"
-	line "Tower."
-
-	para "They must be doing"
-	line "their best to put"
-	cont "on good shows."
+	para "Lo dan todo para"
+	line "emitir muy buenos"
+	cont "programas."
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
-	text "Hey there!"
+	text "¡Hola! ¡Soy el"
+	line "Director Musical!"
 
-	para "I am the super"
-	line "Music Director!"
+	para "¡Creo todas las"
+	line "bellas melodías"
+	cont "que emitimos!"
 
-	para "I'm responsible"
-	line "for the gorgeous"
-
-	para "melodies that go"
-	line "out over the air."
-
-	para "Don't be square."
-	line "Grab your music"
-	cont "off the air!"
+	para "¡No seas soso y"
+	line "escucha la radio!"
 	done
 
 LavRadioTower1FDirectoryText:
-	text "1F Reception"
-	line "2F Sales"
+	text "PB Recepción"
+	line "P1 Ventas"
 
-	para "3F Personnel"
-	line "4F Production"
+	para "P2 Personal"
+	line "P3 Producción"
 
-	para "5F Director's"
-	line "   Office"
+	para "P4 Oficina"
+	line "   del Director"
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Perk Up #mon"
-	line "with Mellow Sounds"
-
-	para "of the # Flute"
-	line "on Channel 20"
+	text "Anima a tus"
+	line "#mon con los "
+	cont "suaves sonidos de"
+	cont "la # Flauta,"
+	cont "canal 20."
 	done
 
 ; TODO: use this text
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! A full rack"
-	line "of #mon CDs and"
-	cont "videos."
+	text "¡Guau! ¡Toda una"
+	line "estantería de CD y"
+	cont "vídeos #mon!"
 
-	para "This must be the"
-	line "reference library."
+	para "¡Debe de ser la"
+	line "fonoteca!"
 	done

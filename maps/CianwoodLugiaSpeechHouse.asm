@@ -32,61 +32,53 @@ CianwoodHouseBlackBeltScript:
 	jumpopenedtext CianwoodHouseBlackBeltText2
 
 CianwoodHouseBlackBeltText1:
-	text "I went to the Gym"
-	line "wearing this vest,"
-	cont "but was laughed"
+	text "Fui al Gimnasio"
+	line "con este chaleco,"
+	cont "¡pero se rieron de"
+	cont "mí y me echaron!"
 
-	para "out of the build-"
-	line "ing! I can't wear"
-	cont "it there again,"
-
-	para "so you might as"
-	line "well have it."
+	para "No puedo volver a"
+	line "llevarlo allí,"
+	cont "así que quédatelo."
 	done
 
 CianwoodHouseBlackBeltText2:
-	text "Right. I'm gonna"
-	line "train hard and"
-
-	para "earn my spot in"
-	line "the Gym!"
+	text "¡Entrenaré duro y"
+	line "me ganaré mi sitio"
+	cont "en el Gimnasio!"
 	done
 
 CianwoodLugiaSpeechHouseTeacherText:
-	text "You came from"
-	line "Olivine?"
+	text "¿Viniste desde"
+	line "Olivo?"
 
-	para "Do you remember"
-	line "the four islands"
-	cont "along the way?"
+	para "¿Recuerdas las"
+	line "cuatro islas del"
+	cont "camino?"
 
-	para "I heard that a"
-	line "mythical sea crea-"
-	cont "ture is hiding in"
-	cont "them."
+	para "He oído que una"
+	line "mítica criatura"
+	cont "marina se esconde"
+	cont "en ellas."
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "I heard that you"
-	line "can only see it if"
+	text "Dicen que solo se"
+	line "deja ver si tienes"
+	cont "un Ala Plateada."
 
-	para "you have a Silver"
-	line "Wing."
-
-	para "It must have the"
-	line "same scent as the"
-	cont "creature."
+	para "Debe de tener el"
+	line "mismo olor que la"
+	cont "criatura."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "I've heard that"
-	line "the whirlpools"
+	text "Dicen que esa gran"
+	line "criatura marina"
+	cont "crea los remolinos"
+	cont "de las islas."
 
-	para "around the islands"
-	line "are caused by the"
-	cont "sea creature."
-
-	para "You might need a"
-	line "special move to"
-	cont "get past them."
+	para "Necesitarás un"
+	line "mov. especial para"
+	cont "atravesarlos."
 	done

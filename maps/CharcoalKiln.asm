@@ -75,32 +75,33 @@ CharcoalKilnApprentice:
 	endtext
 
 .Text1:
-	text "Where have all the"
-	line "Slowpoke gone?"
+	text "¿Adónde han ido"
+	line "los Slowpoke?"
 
-	para "Are they out play-"
-	line "ing somewhere?"
+	para "¿Estarán jugando"
+	line "por ahí?"
 	done
 
 .Text2:
-	text "I'm sorry--I for-"
-	line "got to thank you."
+	text "Lo siento, olvidé"
+	line "darte las gracias."
 
-	para "This is Charcoal"
-	line "that I made."
+	para "Este Carbón lo"
+	line "hice yo mismo."
 
-	para "Fire-type #mon"
-	line "would be happy to"
-	cont "hold that."
+	para "A los #mon de"
+	line "fuego les vendrá"
+	cont "muy bien."
 	done
 
 .Text3:
-	text "The Slowpoke came"
-	line "back, and you even"
-	cont "found Farfetch'd."
+	text "Los Slowpoke"
+	line "volvieron y tú"
+	cont "encontraste a"
+	cont "Farfetch'd."
 
-	para "You're the cool-"
-	line "est, man!"
+	para "¡Molas mucho,"
+	line "tío!"
 	done
 
 CharcoalKilnFarfetchdScript:
@@ -109,5 +110,6 @@ CharcoalKilnFarfetchdScript:
 	end
 
 .Text:
-	text "Farfetch'd: Kwaa!"
+	text "Farfetch'd:"
+	line "¡Kwaa!"
 	done

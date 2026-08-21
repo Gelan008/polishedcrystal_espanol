@@ -271,138 +271,133 @@ GenericTrainerBeautyOlivia:
 	done
 
 Bird_keeperTobySeenText:
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #mon!"
+	text "¡Volad bien alto,"
+	line "mis queridos"
+	cont "#mon pájaro!"
 	done
 
 Bird_keeperTobyBeatenText:
-	text "I feel like just"
-	line "flying away now."
+	text "Ahora saldría"
+	line "volando de aquí."
 	done
 
 SchoolboyChad1SeenText:
-	text "Let me try some-"
-	line "thing I learned"
-	cont "today."
+	text "¡Voy a probar lo"
+	line "que he aprendido"
+	cont "hoy!"
 	done
 
 SchoolboyChad1BeatenText:
-	text "I didn't study"
-	line "enough, I guess."
+	text "Supongo que no he"
+	line "estudiado lo"
+	cont "suficiente."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "I have to take so"
-	line "many tests, I"
+	text "Tengo tantos tests"
+	line "que apenas tengo"
+	cont "tiempo para mis"
+	cont "#mon."
 
-	para "don't have much"
-	line "time for #mon."
-
-	para "So when I do get"
-	line "to play, I really"
-	cont "concentrate."
+	para "Por eso, cuando me"
+	line "pongo a jugar, me"
+	cont "concentro a tope."
 	done
 
 LassDana1SeenText:
-	text "You seem to be"
-	line "good at #mon."
+	text "Parece que se te"
+	line "dan bien los"
+	cont "#mon."
 
-	para "If you are, how"
-	line "about giving me"
-	cont "some advice?"
+	para "¿Por qué no me das"
+	line "algún consejo?"
 	done
 
 LassDana1BeatenText:
-	text "I see. So you can"
-	line "battle that way."
+	text "Ya veo. Así que se"
+	line "puede luchar de"
+	cont "esa forma."
 	done
 
 LassDanaMoomooMilkText:
-	text "I know something"
-	line "good!"
+	text "¡Sé de una cosa"
+	line "buena!"
 
-	para "Moomoo Farm's milk"
-	line "is famous for its"
-	cont "flavor."
+	para "La leche de Granja"
+	line "Mu-mu es famosa"
+	cont "por su sabor."
 	done
 
 BeautyValenciaSeenText:
-	text "Hi! Aren't you a"
-	line "cute trainer!"
+	text "¡Hola! ¡Qué porte"
+	line "tan elegante!"
 
-	para "May I see your"
+	para "¿Puedo ver a tus"
 	line "#mon?"
 	done
 
 BeautyValenciaBeatenText:
-	text "I'm glad I got to"
-	line "see your #mon!"
+	text "¡Me encantó ver"
+	line "a tus #mon!"
 	done
 
 SailorHarrySeenText:
-	text "I've been over-"
-	line "seas, so I know"
-
-	para "about all sorts of"
-	line "#mon!"
+	text "He navegado mucho"
+	line "por el extranjero,"
+	cont "¡y conozco muchos"
+	cont "tipos de #mon!"
 	done
 
 SailorHarryBeatenText:
-	text "Your skill is"
-	line "world class!"
+	text "¡Tu destreza es de"
+	line "nivel mundial!"
 	done
 
 BeautyOliviaSeenText:
-	text "Don't you think my"
-	line "#mon and I are"
-	cont "beautiful?"
+	text "¿No crees que mis"
+	line "#mon y yo somos"
+	cont "guapísimos?"
 	done
 
 BeautyOliviaBeatenText:
-	text "We drink Moomoo"
-	line "Milk every day."
+	text "Tomamos Leche"
+	line "Mu-mu cada día."
 	done
 
 Route38SignText:
-	text "Route 38"
+	text "Ruta 38"
 
-	para "Olivine City -"
-	line "Ecruteak City"
+	para "Ciudad Olivo -"
+	line "Ciudad Iris"
 	done
 
 Route38TrainerTipsText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "If a #mon is"
-	line "trying to evolve,"
-	cont "you can stop it."
+	para "Si un #mon va a"
+	line "evolucionar,"
+	cont "puedes evitarlo."
 
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
+	para "Pulsa el Botón B"
+	line "al evolucionar."
 
-	para "That startles the"
-	line "#mon and stops"
-	cont "its evolution."
+	para "Eso asustará al"
+	line "#mon y frenará"
+	cont "su evolución."
 	done
 
 Route38AdvancedTipsText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "Press Start in the"
-	line "PC Storage System"
+	para "¡Pulsa Start en el"
+	line "PC para ir rápido"
+	cont "al nombre de Caja!"
 
-	para "to quickly focus"
-	line "on the Box name!"
+	para "¡Puedes cambiar el"
+	line "nombre y el tema"
+	cont "de cada Caja!"
 
-	para "You can change the"
-	line "name and theme of"
-	cont "each Box!"
-
-	para "Press Select to"
-	line "change what the"
-
-	para "A button does"
-	line "for #mon!"
+	para "¡Pulsa Select para"
+	line "cambiar la función"
+	cont "del Botón A!"
 	done

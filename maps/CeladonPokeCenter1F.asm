@@ -38,29 +38,32 @@ PokemonJournalErikaScript:
 	done
 
 CeladonPokeCenter1FPharmacistText:
-	text "Team Rocket's"
-	line "hideout is in the"
+	text "La guarida del"
+	line "Team Rocket está"
+	cont "bajo el Casino."
 
-	para "basement of the"
-	line "Game Corner."
+	para "Oh, espera. Eso"
+	line "fue hace tres"
+	cont "años."
 
-	para "Oh, wait. That was"
-	line "three years ago."
+	para "¿Para qué se"
+	line "usará ahora?"
 	done
 
 CeladonPokeCenter1FCooltrainerfText:
-	text "Erika is a master"
-	line "of grass #mon."
+	text "Erika es una"
+	line "maestra de los"
+	cont "#mon planta."
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Te hará pagar si"
+	line "no tienes mucho"
+	cont "cuidado."
 	done
 
 CeladonPokeCenter1FLassText:
-	text "Erika isn't just"
-	line "a Gym Leader."
+	text "Erika no es solo"
+	line "una Líder."
 
-	para "She also lectures"
-	line "at the university."
+	para "También da clases"
+	line "en la universidad."
 	done

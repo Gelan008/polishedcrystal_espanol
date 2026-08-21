@@ -262,7 +262,7 @@ SummaryScreen_PinkPage:
 	db 31, 128, SUMMARY_TILE_OAM_STATUS + 1, 5
 
 .OTStr:
-	text "OT/"
+	text "EO/"
 	done
 
 .IDStr
@@ -275,13 +275,13 @@ SummaryScreen_PinkPage:
 	done
 
 .ExpPointStr:
-	db "Exp.Points@"
+	db "Puntos Exp@"
 
 .LevelUpStr:
-	db "Level Up@"
+	db "Más Nivel@"
 
 .ToStr:
-	db "to@"
+	db "A@"
 
 CopyNickname:
 	ld de, wStringBuffer1

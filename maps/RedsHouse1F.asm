@@ -43,21 +43,20 @@ RedsMom:
 	done
 
 .Text2:
-	text "I worry about Red"
-	line "getting hurt or"
+	text "Me preocupa que"
+	line "Rojo se haga daño"
+	cont "o enferme…"
 
-	para "sick, but he's a"
-	line "boy. I'm proud"
-
-	para "that he is doing"
-	line "what he wants to"
-	cont "do."
+	para "Pero es un chico"
+	line "que hace lo que"
+	cont "desea hacer y eso"
+	cont "me enorgullece."
 	done
 
 RedsHouse1FTVScript:
 	jumpthistext
 
-	text "They have programs"
-	line "that aren't shown"
-	cont "in Johto…"
+	text "Echan programas"
+	line "que no ponen en"
+	cont "Johto…"
 	done

@@ -62,20 +62,21 @@ GenericTrainerScientistCarl:
 	done
 
 HexManiacAshleySeenText:
-	text "The spirits have"
-	line "shown me your"
-	cont "defeat!"
+	text "¡Los espíritus me"
+	line "han mostrado tu"
+	cont "derrota!"
 	done
 
 HexManiacAshleyBeatenText:
-	text "No! The spirits"
-	line "can't be wrong!"
+	text "¡No! Los espíritus"
+	line "¡nunca fallan!"
+	cont "¡Jamás!"
 	done
 
 CooltrainermHenriSeenText:
-	text "Can you handle my"
-	line "balanced team of"
-	cont "#mon?"
+	text "¿Podrás con mi"
+	line "equipo tan bien"
+	cont "equilibrado?"
 	done
 
 CooltrainermHenriBeatenText: ; text > text
@@ -83,22 +84,23 @@ CooltrainermHenriBeatenText: ; text > text
 	done
 
 HikerGradySeenText:
-	text "I heard you long"
-	line "before I saw you!"
+	text "¡Te he oído mucho"
+	line "antes de verte!"
 	done
 
 HikerGradyBeatenText:
-	text "Ach!"
+	text "¡Aaaah!"
 	done
 
 ScientistCarlSeenText:
-	text "I'm studying the"
-	line "acoustics of this"
-	cont "cave system."
+	text "Investigo la"
+	line "acústica de esta"
+	cont "red de cuevas."
 	done
 
 ScientistCarlBeatenText:
-	text "My studies don't"
-	line "apply to battles!"
+	text "¡Mis estudios no"
+	line "sirven de nada en"
+	cont "el combate!"
 	done
 

@@ -39,87 +39,83 @@ SilphCo3FSilphEmployeeScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "That's a very"
-	line "rare type of"
-	cont "# Ball."
+	text "Es un tipo de"
+	line "# Ball muy"
+	cont "raro."
 
-	para "Don't waste it!"
+	para "¡No la malgastes!"
 	done
 
 .Text1:
-	text "I'm from a family"
-	line "of # Ball"
-	cont "creators."
+	text "Vengo de una"
+	line "familia de"
+	cont "artesanos de"
+	cont "# Balls."
 
-	para "My father Kurt is"
-	line "teaching my daugh-"
-	cont "ter how to make"
+	para "Mi padre, César,"
+	line "enseña a mi hija a"
+	cont "crear Balls con"
+	cont "Bonguri mientras"
+	cont "yo trabajo aquí."
 
-	para "Apricorn Balls"
-	line "while I'm busy"
-	cont "working here."
+	para "¿Les ayudaste en"
+	line "Pueblo Azalea?"
+	cont "¡Fantástico!"
 
-	para "You helped them"
-	line "out in Azalea"
-	cont "Town? Great!"
+	para "Me alegra que a mi"
+	line "hija Millie le"
+	cont "vaya tan bien."
 
-	para "I'm glad my Maizie"
-	line "is doing well."
-
-	para "Take this as a"
-	line "thank-you!"
+	para "¡Toma esto como"
+	line "agradecimiento!"
 	done
 
 SilphCo3FScientist1Text:
-	text "Silph just entered"
-	line "a partnership with"
-	cont "Devon Corp."
+	text "Silph acaba de"
+	line "asociarse con"
+	cont "Devon S.A."
 
-	para "We licensed some"
-	line "of each others'"
-	cont "products."
+	para "Nos hemos cedido"
+	line "las licencias de"
+	cont "varios productos."
 	done
 
 SilphCo3FScientist2Text:
-	text "# Balls work on"
-	line "the same principle"
+	text "Las # Balls"
+	line "funcionan como el"
+	cont "Almacenamiento del"
+	cont "Sistema del PC."
 
-	para "as the PC Storage"
-	line "System."
-
-	para "#mon are con-"
-	line "verted into"
-	cont "digital data and"
-
-	para "reformed in a"
-	line "new location."
+	para "Los #mon se"
+	line "convierten en"
+	cont "datos digitales y"
+	cont "se recomponen en"
+	cont "otro lugar."
 	done
 
 SilphCo3FOfficerText:
-	text "I can't let you on"
-	line "the upper floors,"
+	text "No puedo dejarte"
+	line "subir a los pisos"
+	cont "superiores, aunque"
+	cont "seas de fiar."
 
-	para "even if you are"
-	line "trustworthy."
-
-	para "Sorry, but those"
-	line "are the rules."
+	para "Lo siento, pero"
+	line "son las normas."
 	done
 
 SilphCo3FGentlemanText:
-	text "I'm visiting from"
-	line "Devon Corporation."
+	text "Vengo de visita de"
+	line "Corporación Devon."
 
-	para "We are working to-"
-	line "gether to advance"
-
-	para "# Ball techno-"
-	line "logy even further!"
+	para "¡Colaboramos para"
+	line "hacer avanzar aún"
+	cont "más la tecnología"
+	cont "de las # Balls!"
 	done
 
 SilphCo3FDeptSignText:
-	text "Silph Co. 3F"
-	line "# Ball Tech"
+	text "Silph S.A. P2"
+	line "Tecnol. # Ball"
 	done
 
 SilphCo3FElevatorText:

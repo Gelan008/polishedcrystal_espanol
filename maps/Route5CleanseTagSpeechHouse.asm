@@ -33,29 +33,28 @@ Route5CleanseTagHouseGrannyScript:
 	endtext
 
 Route5CleanseTagHouseGrannyText1:
-	text "Eeyaaaah!"
+	text "¡Aaaayyyy!"
 
-	para "I sense a sinister"
-	line "shadow hovering"
-	cont "over you."
+	para "Siento una sombra"
+	line "siniestra sobre"
+	cont "ti."
 
-	para "Take this to ward"
-	line "it off!"
+	para "¡Toma esto para"
+	line "ahuyentarla!"
 	done
 
 Route5CleanseTagHouseGrannyText2:
-	text "You were in mortal"
-	line "danger, but you"
-	cont "are protected now."
+	text "¡Te rondaba la"
+	line "muerte, pero ya"
+	cont "estás a salvo!"
 	done
 
 Route5CleanseTagHouseTeacherText:
-	text "My grandma is into"
-	line "warding off what"
+	text "A mi abuela le dio"
+	line "por ahuyentar lo"
+	cont "que cree que son"
+	cont "malos espíritus."
 
-	para "she believes to be"
-	line "evil spirits."
-
-	para "I'm sorry that she"
-	line "startled you."
+	para "Siento que te haya"
+	line "asustado."
 	done

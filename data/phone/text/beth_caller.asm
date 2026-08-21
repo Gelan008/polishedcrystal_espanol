@@ -1,97 +1,83 @@
 BethExhilaratingRideText:
-	text "Do you remember my"
-	line "sweet "
+	text "¿Te acuerdas de mi"
+	line "dulce "
 	text_ram wStringBuffer4
 	text "?"
 
-	para ""
-	text_ram wStringBuffer4
-	text " runs"
-	line "very fast."
+	para "¡Corre que se las"
+	line "pela!"
 
-	para "It's exhilarating"
-	line "to ride on its"
-
-	para "back when it"
-	line "really gets going."
+	para "Es emocionante ir"
+	line "sobre su lomo al"
+	cont "galopar veloz."
 	done
 
 BethDefeatedMonText:
-	text "Oh, have you ever"
-	line "seen a "
+	text "¿Has visto antes"
+	line "a algún "
 	text_ram wStringBuffer4
-	cont "before?"
+	text "?"
 
-	para "I just battled"
-	line "one…"
+	para "Acabo de luchar"
+	line "contra uno…"
 
-	para "It was much faster"
-	line "than I expected."
+	para "Era más veloz de"
+	line "lo que esperaba."
+	cont "¡Me sorprendió!"
 
-	para "I was a little"
-	line "shocked."
-
-	para "I still won, of"
-	line "course."
+	para "Pero gané yo, por"
+	line "supuesto."
 	done
 
 BethLostAMonText:
-	text "Oh, I just saw a"
-	line "wild "
+	text "Acabo de ver a un"
+	line ""
 	text_ram wStringBuffer4
-	text "."
+	text " salvaje."
 
-	para "I was trying to"
-	line "catch it when I"
+	para "Iba a atraparlo y"
+	line "vi que no me"
+	cont "quedaban Balls."
 
-	para "noticed that I was"
-	line "all out of #"
-	cont "Balls."
+	para "Si no revisas la"
+	line "Mochila, te puedes"
+	cont "quedar sin nada en"
+	cont "el peor momento."
 
-	para "If you don't check"
-	line "your items, you"
-
-	para "may run out at the"
-	line "worst time."
-
-	para "I hope you learn"
-	line "from my mistake."
+	para "¡Aprende de mi"
+	line "error!"
 	done
 
 BethBattleRematchText:
-	text "Do you want to"
-	line "battle? I'm going"
-	cont "to win this time!"
+	text "¿Quieres luchar?"
+	line "¡Esta vez voy a"
+	cont "ganar yo!"
 
-	para "I'll be waiting"
-	line "for you around"
-
-	para ""
+	para "Te espero en"
+	line ""
 	text_ram wStringBuffer5
 	text "."
-	line "Look for me, OK?"
+	cont "¡Búscame allí!"
 	done
 
 BethHangUpText:
-	text "OK, bye-bye!"
+	text "¡Vale, adiós!"
 	done
 
 BethLetsBattleAgainSometimeText:
-	text "Let's battle again"
-	line "sometime!"
+	text "¡Luchemos de nuevo"
+	line "algún día!"
 	done
 
 BethReminderText:
-	text "Um… <PLAYER>?"
-	line "What's wrong?"
+	text "Mmm… ¿<PLAYER>?"
+	line "¿Qué pasa?"
 
-	para "Did you forget our"
-	line "deal?"
+	para "¿Has olvidado"
+	line "nuestro combate?"
 
-	para ""
+	para "¡Te espero en"
+	line ""
 	text_ram wStringBuffer5
-	text "."
-
-	para "That's where I'm"
-	line "waiting."
+	text "!"
 	done

@@ -27,15 +27,13 @@ GenericTrainerVeteranmRemy:
 	done
 
 VeteranmRemySeenText:
-	text "If you can get"
-	line "through here, you"
-
-	para "can challenge the"
-	line "Elite Four!"
+	text "¡Si logras pasar,"
+	line "podrás desafiar"
+	cont "al Alto Mando!"
 	done
 
 VeteranmRemyBeatenText:
-	text "No!"
-	line "Inconceivable!"
+	text "¡No!"
+	line "¡Inconcebible!"
 	done
 

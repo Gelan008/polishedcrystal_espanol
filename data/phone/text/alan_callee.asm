@@ -1,59 +1,57 @@
 AlanAnswerPhoneText:
-	text "Yup, it's "
+	text "Sí, soy "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Is this <PLAYER>?"
-	line "Good morning!"
+	para "¿Eres <PLAYER>?"
+	line "¡Buenos días!"
 	done
 
 AlanAnswerPhoneDayText:
-	text "Yup, it's "
+	text "Sí, soy "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Is that <PLAYER>?"
+	para "¿Eres <PLAYER>?"
 	done
 
 AlanAnswerPhoneNiteText:
-	text "Yup, it's "
+	text "Sí, soy "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Is that <PLAYER>?"
-	line "Good evening!"
+	para "¿Eres <PLAYER>?"
+	line "¡Buenas noches!"
 	done
 
 AlanGreetText:
-	text "Hello! It's me,"
+	text "¡Hola! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGreetDayText:
-	text "Hello! It's me,"
+	text "¡Hola! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGreetNiteText:
-	text "Hello! It's me,"
+	text "¡Hola! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGenericText:
-	text "<PLAYER>, are you"
-	line "raising your"
-	cont "#mon properly?"
+	text "<PLAYER>, ¿estás"
+	line "criando bien a"
+	cont "tus #mon?"
 
-	para "I read in a book"
-	line "that you should"
-
-	para "raise any #mon"
-	line "you catch with"
-	cont "love and care."
+	para "Leí en un libro"
+	line "que debes criar a"
+	cont "todos tus #mon"
+	cont "con mucho cariño."
 	done

@@ -62,30 +62,28 @@ FuchsiaSafariBallHouseOfficerScript:
 	done
 
 .IntroText:
-	text "I used to manage"
-	line "the Safari Game."
+	text "Yo administraba el"
+	line "Juego Safari."
 
-	para "Now that it's"
-	line "closed I need to"
+	para "Al estar cerrado,"
+	line "debo ganar dinero"
+	cont "de alguna forma."
 
-	para "make money an-"
-	line "other way."
+	para "¿Quieres comprar"
+	line "Safari Balls que"
+	cont "me sobraron?"
 
-	para "Want to buy some"
-	line "leftover Safari"
-	cont "Balls?"
-
-	para "They're a collec-"
-	line "tor's item!"
+	para "¡Son un artículo"
+	line "de coleccionista!"
 	done
 
 .GoodbyeText:
-	text "Thanks, pal!"
+	text "¡Gracias, colega!"
 	done
 
 .BagFullText:
-	text "You can't carry"
-	line "them!"
+	text "¡No puedes llevar"
+	line "tantas!"
 	done
 
 .MenuDataHeader:
@@ -97,6 +95,6 @@ FuchsiaSafariBallHouseOfficerScript:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1   ¥2000@"
-	db "×10  ¥20000@"
-	db "Cancel@"
+	db "× 1   2000¥@"
+	db "×10  20000¥@"
+	db "Salir@"

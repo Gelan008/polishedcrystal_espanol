@@ -43,36 +43,36 @@ GourmetManiacScript:
 	done
 
 .GreetingText:
-	text "Hi there! I am"
-	line "a gourmet Baker!"
+	text "¡Hola! ¡Soy un"
+	line "Pastelero gourmet!"
 
-	para "I cook wonderful"
-	line "dishes with only"
-	cont "the finest of"
-	cont "ingredients!"
+	para "¡Preparo platos"
+	line "maravillosos con"
+	cont "los mejores"
+	cont "ingredientes!"
 
-	para "Do you have any"
-	line "ingredients to"
-	cont "sell me?"
+	para "¿Tienes algún"
+	line "ingrediente para"
+	cont "venderme?"
 	done
 
 .OfferText:
-	text "Oh, it smells so"
-	line "good!"
+	text "¡Huy, qué bien"
+	line "huele!"
 
-	para "Would you accept"
-	line "¥"
+	para "¿Aceptarías "
+	line ""
 	text_decimal hMoneyTemp, 3, 7
-	text " for it?"
+	text "¥ por ello?"
 	done
 
 .WrongItemText:
-	text "Hmmm… This is not"
-	line "quite what I'm"
-	cont "looking for."
+	text "Mmm… Esto no es"
+	line "exactamente lo que"
+	cont "estoy buscando."
 	done
 
 .NoItemText:
-	text "Aww… Well,"
-	line "that's OK."
+	text "Vaya… Bueno, no"
+	line "pasa nada."
 	done

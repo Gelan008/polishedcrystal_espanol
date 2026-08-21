@@ -1,307 +1,249 @@
 LizMonAlwaysWantsToNuzzleText:
-	text "Oh, you have to"
-	line "hear this."
+	text "Oh, tienes que"
+	line "oír esto."
 
-	para "My "
+	para "¡Mi "
 	text_ram wStringBuffer4
-	text " is"
-	line "so adorable!"
+	text " es"
+	line "tan adorable!"
 
-	para "It always wants to"
-	line "nuzzle me!"
+	para "¡Siempre quiere"
+	line "mimitos!"
 	done
 
 LizDefeatedMonText:
-	text "And, and! Um…"
-
-	para "We beat a wild"
-	line ""
+	text "¡Y, y… mmm!"
+	line "Vencimos a un"
+	cont ""
 	text_ram wStringBuffer4
-	text " with"
+	text ""
+	cont "salvaje de un solo"
+	cont "golpe hace nada."
 
-	para "just one hit a"
-	line "little while ago."
-
-	para "We felt sorry for"
-	line "it, though."
+	para "¡Aunque nos dio un"
+	line "poco de pena!"
 	done
 
 LizLostAMonText:
-	text "And, and! Uh…"
-
-	para "We just saw a"
-	line "really gorgeous"
+	text "¡Y, y… eh…!"
+	line "Vimos a un lindo"
 	cont ""
 	text_ram wStringBuffer4
 	text "."
 
-	para "But I was on the"
-	line "phone, so it got"
-
-	para "away. It made us"
-	line "really angry!"
+	para "Pero estaba con el"
+	line "móvil y huyó."
+	cont "¡Qué rabia dio!"
 	done
 
 LizBattleRematchText:
-	text "Hi! Do you have"
-	line "some free time?"
+	text "¡Hola! ¿Tienes"
+	line "tiempo libre?"
 
-	para "I've got all sorts"
-	line "of time. If you're"
+	para "Yo tengo mucho."
+	line "¿Echamos un buen"
+	cont "combate?"
 
-	para "free, would you"
-	line "like to battle?"
-
-	para "I'll be waiting on"
+	para "Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "."
-
-	para "Let me know when"
-	line "you get here!"
+	cont "¡Avísame al venir!"
 	done
 
 LizWrongNumberText:
-	text "Hi, Tania. How are"
-	line "you? This is Liz."
+	text "Hola, Tania. ¿Cómo"
+	line "estás? Soy Liz."
 
-	para "I'm fine, but I'm"
-	line "bored silly!"
+	para "¡Me aburro mucho!"
 
-	para "Huh… Wrong number?"
-	line "Oops! Sorry!"
+	para "Eh… ¿Me he"
+	line "equivocado? ¡Ups!"
 	done
 
 LizHangUpText:
-	text "OK, I'll call you"
-	line "later!"
+	text "¡Vale, te llamaré"
+	line "luego!"
 	done
 
 LizRuinsOfAlphGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "I was listening to"
-	line "the radio in the"
+	para "Oía la radio en"
+	line "las Ruinas Alfa"
+	cont "y una señal rara"
+	cont "cortó el programa."
 
-	para "Ruins of Alph when"
-	line "an odd broadcast"
-
-	para "suddenly cut it on"
-	line "the regular show."
-
-	para "I wonder what it"
-	line "was. So strange!"
+	para "¿Qué sería eso?"
+	line "¡Qué misterio!"
 	done
 
 LizFalknerGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "Don't you think"
-	line "Falkner of Violet"
+	para "¿No crees que"
+	line "Pegaso de Malva es"
+	cont "genial y guapo?"
 
-	para "Gym is cool and"
-	line "handsome?"
+	para "¡Dicen que su"
+	line "padre, que entrena"
+	cont "por ahí, es aún"
+	cont "más guapo que él!"
 
-	para "But they say his"
-	line "dad, who's out"
-
-	para "training on the"
-	line "road, is even more"
-
-	para "cool and handsome"
-	line "than Falkner."
-
-	para "I wish I could"
-	line "meet him!"
+	para "¡Ojalá pudiera"
+	line "conocerlo pronto!"
 	done
 
 LizEarlGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "Do you know Earl,"
-	line "the teacher who"
+	para "¿Conoces a Primo,"
+	line "el profesor de la"
+	cont "Academia #mon"
+	cont "de Ciudad Malva?"
 
-	para "runs the #mon"
-	line "Academy in Violet?"
-
-	para "I saw him doing"
-	line "pirouettes while"
-
-	para "he was running. It"
-	line "was wildly funny!"
+	para "¡Le vi dando giros"
+	line "mientras corría!"
+	cont "¡Fue muy gracioso!"
 	done
 
 LizSurfPikachuGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "I collect #mon"
-	line "plush dolls."
+	para "Colecciono muñecos"
+	line "de #mon."
 
-	para "But I can't seem"
-	line "to get a hold of a"
+	para "¡No doy con el"
+	line "Pikachu Surf!"
+	cont "¡Es súper raro!"
 
-	para "Surf Pikachu Doll."
-	line "None of my friends"
-
-	para "have it. It must"
-	line "be totally rare!"
-
-	para "You could really"
-	line "brag about it if"
-	cont "you had one."
+	para "Podrías presumir"
+	line "mucho si tuvieras"
+	cont "uno en tu cuarto."
 	done
 
 LizMooMooMilkGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "Do you know about"
-	line "Moomoo Milk?"
+	para "¿Conoces la rica"
+	line "Leche Mu-mu de la"
+	cont "Granja Mu-mu?"
 
-	para "You can buy it at"
-	line "Moomoo Farm."
+	para "Dicen que es buena"
+	line "para la salud y"
+	cont "para la belleza."
 
-	para "It's supposed to"
-	line "be good for health"
-
-	para "and beauty."
-	line "I really want to"
-
-	para "try some. I bet"
-	line "it's delicious!"
+	para "¡Tengo ganas de"
+	line "probarla ya!"
 	done
 
 LizSalonGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "There's a #mon"
-	line "Salon in Goldenrod"
+	para "Hay una Peluquería"
+	line "#mon en Trigal"
+	cont "con dos hermanos."
 
-	para "that's run by two"
-	line "brothers."
+	para "El mayor es bueno,"
+	line "pero a veces el"
+	cont "menor lo hace aún"
+	cont "mejor que él."
 
-	para "The older brother"
-	line "is good, but the"
-
-	para "younger one really"
-	line "isn't."
-
-	para "But sometimes the"
-	line "younger one does a"
-
-	para "better job than"
-	line "his brother."
-
-	para "Every time I go, I"
-	line "have a hard time"
-
-	para "trying to decide"
-	line "whom I should use…"
+	para "¡Nunca sé a cuál"
+	line "de los dos elegir!"
 	done
 
 LizWhitneyGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "Goldenrod Gym's"
-	line "Whitney began"
+	para "¡Blanca del"
+	line "Gimnasio de Trigal"
+	cont "empezó hace nada!"
 
-	para "battling only a"
-	line "little while ago!"
+	para "¡Y la Liga #mon"
+	line "la nombró Líder!"
 
-	para "But the #mon"
-	line "League chose her"
-	cont "as a Gym Leader!"
-
-	para "I bet she must be"
-	line "totally talented."
+	para "¡Seguro que tiene"
+	line "muchísimo talento!"
 	done
 
 LizBugCatchingContestGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "Have you ever"
-	line "taken part in a"
+	para "¿Has jugado en el"
+	line "Concurso de Bichos"
+	cont "del Parque?"
 
-	para "Bug-Catching"
-	line "Contest at the"
-	cont "National Park?"
+	para "Yo participé una"
+	line "vez y solo atrapé"
+	cont "un Caterpie…"
 
-	para "I did once, but"
-	line "all I could catch"
-	cont "was a Caterpie."
-
-	para "But guess what!"
-
-	para "I won with that"
-	line "Caterpie. Isn't"
-	cont "that great?"
+	para "¡Pero adivina qué!"
+	line "¡Gané con él!"
+	cont "¿A que es genial?"
 	done
 
 LizBeautifulMonGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "I saw a beautiful"
+	para "¡Vi a un precioso"
 	line ""
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I wish I could"
-	line "become a beautiful"
+	para "Ojalá yo también"
+	line "fuera un hermoso"
 	cont ""
 	text_ram wStringBuffer4
-	text " too."
+	text "."
 	done
 
 LizForgotGossipText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "Uh… Um… Whoops!"
+	para "Eh… Um… ¡Ups!"
 
-	para "I forgot what I"
-	line "was going to say!"
+	para "¡He olvidado lo"
+	line "que iba a decir!"
 	done
 
 LizFawningOverMonText:
-	text "Listen, listen!"
+	text "¡Escucha, escucha!"
 
-	para "My "
+	para "Mi "
 	text_ram wStringBuffer4
 	text "…"
-	line "it… so pretty…"
+	line "es… tan guapo…"
 
-	para "and… giggle… so"
-	line "awesome… yes… but…"
+	para "y… jiji… muy"
+	line "genial… sí…"
 
-	para "very much… eeek!"
-	line "And… lovely…"
+	para "muchísimo… ¡Ay!"
+	line "Y… adorable…"
 
-	para "Just ravishing…"
-	line "Oh, too much!"
+	para "Encantador…"
+	line "¡Ay, demasiado!"
 
-	para "…Hug it… sleeping…"
-	line "That's right…"
+	para "…Abrazarlo…"
+	line "Eso es… Qué mono…"
 
-	para "pretty… sigh… So"
-	line "nice… Cute…"
+	para "¡Ups! ¡Mira qué"
+	line "hora es! ¡Hablé"
+	cont "demasiado!"
 
-	para "…Oops! Look at the"
-	line "time! I chatted"
-	cont "too long!"
-
-	para "I'm sorry I took"
-	line "so much of your"
-
-	para "time!"
-	line "I love chatting!"
+	para "¡Siento haberte"
+	line "robado tiempo!"
+	cont "¡Adoro charlar!"
 	done
 
 LizReminderText:
-	text "I've got too much"
-	line "time on my hands!"
+	text "¡Tengo demasiado"
+	line "tiempo libre!"
 
-	para "Let's battle right"
-	line "away!"
+	para "¡Vamos a luchar"
+	line "ahora mismo!"
 
-	para "I'll be waiting on"
+	para "¡Te esperaré en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

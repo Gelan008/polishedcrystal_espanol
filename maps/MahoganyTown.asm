@@ -100,34 +100,29 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 	step_end
 
 RageCandyBarMerchantTryOneText:
-	text "Hiya, kid!"
+	text "¡Hola, chaval!"
 
-	para "I see you're new"
-	line "in Mahogany Town."
+	para "Veo que es tu"
+	line "primera vez aquí."
 
-	para "Since you're new,"
-	line "you should try a"
-
+	para "¡Deberías probar"
 if DEF(FAITHFUL)
-	para "yummy RageCandy-"
-	line "Bar!"
+	line "un Caramelofuria!"
 else
-	para "yummy Cake of"
-	line "Rage!"
+	line "un Pastel Furia!"
 endc
 
-	para "Right now, it can"
-	line "be yours for just"
-	cont "¥300! Want one?"
+	para "¡Por solo 300¥!"
+	line "¿Quieres uno?"
 	done
 
 RageCandyBarMerchantRefusedText:
-	text "Oh, fine then…"
+	text "Oh, de acuerdo…"
 	done
 
 RageCandyBarMerchantNoRoomText:
-	text "You don't have"
-	line "room for this."
+	text "No tienes hueco"
+	line "para esto."
 	done
 
 RageCandyBarMerchantSoldOutText:
@@ -150,60 +145,54 @@ MahoganyTownGrampsText:
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "Magikarp have"
-	line "returned to Lake"
-	cont "of Rage."
+	text "Los Magikarp han"
+	line "vuelto al Lago de"
+	cont "la Furia."
 
-	para "That should be"
-	line "good news for the"
-	cont "anglers there."
+	para "¡Buenas noticias"
+	line "para los que van"
+	cont "a pescar allí!"
 	done
 
 MahoganyTownFisherText:
-	text "Since you came"
-	line "this far, take the"
+	text "Ya que has venido"
+	line "desde tan lejos,"
+	cont "tómate un descanso"
 
-	para "time to do some"
-	line "sightseeing."
-
-	para "You should head"
-	line "north and check"
-
-	para "out Lake of Rage"
-	line "right now."
+	para "Deberías subir al"
+	line "norte a conocer el"
+	cont "Lago de la Furia."
 	done
 
 MahoganyTownLassText:
-	text "Visit Grandma's"
-	line "shop. She sells"
-
-	para "stuff that nobody"
-	line "else has."
+	text "Ve a la tienda de"
+	line "la Abuela. Vende"
+	cont "cosas muy únicas."
 	done
 
 MahoganyTownSignText:
-	text "Mahogany Town"
+	text "Pueblo Caoba"
 
-	para "Welcome to the"
-	line "Home of the Ninja"
+	para "El hogar de"
+	line "los ninja"
 	done
 
 MahoganyTownSouvenirShopSignText1:
-	text "Just a Souvenir"
-	line "Shop"
+	text "Sólo una tienda"
+	line "de recuerdos"
 
-	para "Nothing Suspicious"
-	line "About It"
+	para "Nada sospechoso"
+	line "al respecto"
 
-	para "No Need to Be"
-	line "Alarmed"
+	para "No hay motivo"
+	line "de alarma"
 	done
 
 MahoganyGymSignText:
-	text "Mahogany Town"
-	line "#mon Gym"
-	cont "Leader: Pryce"
+	text "Gimnasio #mon"
+	line "de Pueblo Caoba"
+	cont "Líder: Fredo"
 
-	para "The Teacher of"
-	line "Winter's Harshness"
+	para "Maestro de las"
+	line "montañas nevadas."
 	done

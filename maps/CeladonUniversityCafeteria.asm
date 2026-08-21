@@ -66,124 +66,121 @@ CeladonUniversityCafeteriaCoreyScript:
 	jumpthisopenedtext
 
 .FinalText:
-	text "You'd be a star"
-	line "student if you"
-	cont "enrolled here."
+	text "Serías un alumno"
+	line "estrella si te"
+	cont "unieras aquí."
 
-	para "But you have other"
-	line "goals, don't you?"
+	para "Pero tienes otras"
+	line "metas, ¿verdad?"
 	done
 
 .IntroText1:
-	text "I'm Corey! I'm one"
-	line "of top four train-"
-	cont "ers at Celadon"
-	cont "University."
+	text "¡Soy Corey! Uno de"
+	line "los cuatro mejores"
+	cont "de la Universidad."
 
-	para "We're known as the"
-	line "Celadon Four!"
+	para "¡Nos llaman los"
+	line "Cuatro de Azulona!"
 
-	para "Let me show you"
-	line "how we earned that"
+	para "¡Déjame mostrarte"
+	line "cómo ganamos ese"
+	cont "título con un"
+	cont "combate rápido!"
 
-	para "title with a quick"
-	line "battle!"
 	done
 
 .IntroText2:
-	text "I'm Corey! I'm one"
-	line "of the Celadon"
-	cont "Four!"
+	text "¡Soy Corey! Uno de"
+	line "los cuatro mejores"
+	cont "de la Universidad."
 
-	para "You're challenging"
-	line "all four of us?"
+	para "¿Nos desafías a"
+	line "los cuatro?"
 
-	para "Sure, I'm finished"
-	line "eating here."
+	para "Claro, ya"
+	line "terminé de comer."
 
-	para "Are you ready to"
-	line "battle?"
+	para "¿Estás a punto"
+	line "para el combate?"
 	done
 
 .NoBattleText:
-	text "Yeah, we can be"
-	line "intimidating."
+	text "Sí, podemos ser"
+	line "intimidantes."
 	done
 
 .SeenText:
-	text "Winning this will"
-	line "be a breeze!"
+	text "¡Ganar esto será"
+	line "pan comido!"
 	done
 
 .BeatenText:
-	text "I underestimated"
-	line "you…"
+	text "Te he subestimado…"
 	done
 
 .AfterText1:
-	text "You're a strong"
-	line "trainer!"
+	text "¡Qué entrenador"
+	line "tan fuerte eres!"
 
-	para "But I'm just one of"
-	line "the Celadon Four."
+	para "Pero solo soy uno"
+	line "de los Cuatro de"
+	cont "Azulona."
 
-	para "You should track"
-	line "down the rest of"
-
-	para "us to really test"
-	line "your strength!"
+	para "¡Busca al resto"
+	line "para poner a"
+	cont "prueba tu fuerza!"
 	done
 
 .AfterText2:
-	text "You beat all of"
-	line "the Celadon Four?"
+	text "¿Venciste a los"
+	line "Cuatro de Azulona?"
 
-	para "Congratulations!"
+	para "¡Felicidades!"
 
-	para "Take this as a"
-	line "memento!"
+	para "¡Toma esto como un"
+	line "recuerdo!"
 	done
 
 CeladonUni_NoRoomText:
-	text "You can't carry it."
+	text "No puedes llevarlo"
 	done
 
 CeladonUniversityCafeteriaCooltrainerfText:
-	text "This place makes"
-	line "the best Cinnabar-"
-	cont "style hamburger"
+	text "¡Aquí hacen los"
+	line "mejores filetes de"
+	cont "hamburguesa al"
+	cont "estilo Canela de"
+	cont "todo Kanto!"
 
-	para "steaks this side"
-	line "of Kanto!"
-
-	para "It's just like"
-	line "being home."
+	para "¡Es como estar"
+	line "en casa!"
 	done
 
 CeladonUniversityCafeteriaBeautyText:
-	text "The cook finally"
-	line "made another batch"
-	cont "of Old Gateau!"
+	text "¡El cocinero por"
+	line "fin hizo otra"
+	cont "tanda de Barritas"
+	cont "Plus!"
 
-	para "I might go back"
-	line "for seconds."
+	para "Puede que vuelva a"
+	line "por más."
 	done
 
 CeladonUniversityCafeteriaYoungster1Text:
-	text "I asked the cafe-"
-	line "teria to stock"
-	cont "Casteliacones."
+	text "Pedí que trajeran"
+	line "Porcehelados a la"
+	cont "cafetería."
 
-	para "They remind me of"
-	line "home, and they're"
-	cont "yummy too!"
+	para "Me recuerdan a mi"
+	line "hogar, ¡y están"
+	cont "buenísimos!"
 	done
 
 CeladonUniversityCafeteriaLadyText:
-	text "I'm on a diet."
-	line "Today it's a"
-	para "nutritious Slip"
-	line "Seed salad for me."
+	text "Estoy a dieta."
+	line "Hoy tomaré una"
+	cont "ensalada de"
+	cont "Sem. Sumerno."
 	done
 
 CeladonUniversityCafeteriaYoungster2Script:
@@ -234,8 +231,8 @@ CeladonUniversityCafeteriaBakerScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Here you go, hon!"
-	line "Enjoy it!"
+	text "¡Aquí tienes,"
+	line "cielo! ¡Disfruta!"
 	done
 
 .NotEnoughMoney:
@@ -246,35 +243,35 @@ CeladonUniversityCafeteriaBakerScript:
 	done
 
 .Text1:
-	text "What's that, hon?"
+	text "¿Qué pasa, cielo?"
 
-	para "Sorry, we're done"
-	line "serving dinner."
+	para "Perdona, ya hemos"
+	line "dejado de servir"
+	cont "la cena."
 
-	para "There are some"
-	line "Leftovers, but"
-
-	para "it'll cost ¥4000."
-	line "Want some?"
+	para "Hay algunos Restos"
+	line "pero costarán"
+	cont "4000¥. ¿Quieres"
+	cont "algunos?"
 	done
 
 .Text3:
-	text "There aren't any"
-	line "more Leftovers"
-	cont "today."
+	text "No quedan más"
+	line "Restos hoy."
 	done
 
 .Text4:
-	text "Have a nice day!"
+	text "¡Que tengas un"
+	line "buen día!"
 	done
 
 .Text6:
-	text "You can't carry"
-	line "it, hon."
+	text "No puedes llevar"
+	line "más, cielo."
 	done
 
 CeladonUniversityCafeteriaSignText:
-	text "Please clean up"
-	line "when you are"
-	cont "finished eating."
+	text "Por favor limpia"
+	line "cuando termines"
+	cont "de comer."
 	done

@@ -36,16 +36,18 @@ PokemonJournalBlaineScript:
 	done
 
 CinnabarPokeCenter1FCooltrainerfText:
-	text "Cinnabar Gym's"
-	line "Blaine apparently"
+	text "Dicen que Blaine,"
+	line "el Líder de Gim."
+	cont "de Isla Canela,"
 
-	para "lives alone in the"
-	line "Seafoam Islands"
-	cont "cave…"
+	para "vive solo en la"
+	line "cueva de las Islas"
+	cont "Espuma…"
 	done
 
 CinnabarPokeCenter1FFisherText:
-	text "It's been a year"
-	line "since the volcano"
-	cont "erupted."
+	text "Ha pasado un año"
+	line "desde que el"
+	cont "volcán entró en"
+	cont "erupción."
 	done

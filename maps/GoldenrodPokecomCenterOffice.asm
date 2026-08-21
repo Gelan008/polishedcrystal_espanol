@@ -28,75 +28,63 @@ GoldenrodPokecomCenterOffice_MapScriptHeader:
 	const GOLDENRODPOKECOMCENTEROFFICE_RANGI
 
 AdminRangiText:
-	text "Rangi: I hope"
-	line "you're enjoying"
+	text "Rangi: ¡Espero que"
+	line "estés disfrutando"
+	cont "del juego!"
 
-	para "your journey"
-	line "through this game!"
+	para "Nos costó meter"
+	line "todos los datos."
 
-	para "We had trouble"
-	line "fitting all the"
-	cont "data in for it."
-
-	para "There was barely"
-	line "even enough room"
-	cont "for my sprite!"
+	para "¡Casi no queda"
+	line "sitio libre para"
+	cont "mi sprite!"
 	done
 
 AdminLunaText:
-	text "Luna: When you"
-	line "Wonder Traded"
+	text "Luna: Al hacer un"
+	line "Intercambio"
+	cont "Prodigioso con"
+	cont "otra región,"
 
-	para "with someone in"
-	line "another region"
+	para "¿no te dio una"
+	line "gran emoción?"
 
-	para "for the first"
-	line "time, weren't you"
-	cont "impressed?"
-
-	para "I built the orig-"
-	line "inal system right"
-	cont "here in Goldenrod!"
+	para "¡Yo creé todo el"
+	line "sistema original"
+	cont "aquí en Trigal!"
 	done
 
 AdminFredrikText:
-	text "Fredrik: Bill's PC"
-	line "Storage System"
-	cont "is open-source,"
-
-	para "so I was able to"
-	line "completely re-"
-
-	para "write and upgrade"
-	line "his database!"
+	text "Fredrik: El PC de"
+	line "Bill es abierto,"
+	cont "así que pude"
+	cont "reescribir y"
+	cont "mejorar su base"
+	cont "de datos."
 	done
 
 AdminAizawaText:
-	text "Aizawa: Dialog,"
-	line "map designs,"
-	cont "character sprites,"
-	cont "trainer parties…"
+	text "Aizawa: Mapas,"
+	line "diálogos, sprites,"
+	cont "entrenadores…"
 
-	para "Game Freak over"
-	line "in Kanto is lucky"
-
-	para "to have a whole"
-	line "team for this!"
+	para "¡Qué suerte tiene"
+	line "Game Freak en"
+	cont "Kanto al tener una"
+	cont "empresa para esto!"
 	done
 
 AdminVulcanText:
-	text "Vulcan: How's the"
-	line "weather?"
+	text "Vulcan: ¿Qué tal"
+	line "el clima?"
 
-	para "That's no small"
-	line "talk… I actually"
-	cont "implemented it!"
+	para "No es por hablar…"
+	line "¡Fui yo quien lo"
+	cont "implementó!"
 
-	para "We thought it"
-	line "couldn't be done…"
-
-	para "I proved myself"
-	line "wrong!"
+	para "Creían que era"
+	line "imposible, ¡y les"
+	cont "demostré que no!"
 	done
 
 VulcanComputerText:

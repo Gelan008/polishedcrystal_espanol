@@ -139,143 +139,142 @@ SproutTower3FRivalLeavesElderMovement:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "Elder: You are in-"
-	line "deed skilled as a"
-	cont "trainer."
+	text "Anciano: Es verdad"
+	line "que tienes mucho"
+	cont "talento."
 
-	para "As promised, here"
-	line "is your TM."
+	para "Como prometí, aquí"
+	line "tienes tu MT."
 
-	para "But let me say"
-	line "this: You should"
+	para "Pero déjame decir"
+	line "algo: deberías"
+	cont "tratar mejor a"
+	cont "tus #mon."
 
-	para "treat your"
-	line "#mon better."
+	para "Tu forma de luchar"
+	line "es muy severa."
 
-	para "The way you battle"
-	line "is far too harsh."
-
-	para "#mon are not"
-	line "tools of war…"
+	para "Los #mon no son"
+	line "herramientas de"
+	cont "guerra…"
 	done
 
 SproutTowerRivalOnlyCareAboutStrongText:
 	text "…"
-	line "…Humph!"
+	line "…¡Bah!"
 
-	para "He claims to be"
-	line "the Elder but"
-	cont "he's weak."
+	para "Que Anciano"
+	line "tan débil."
 
-	para "It stands to"
-	line "reason."
+	para "Es lógico."
 
-	para "I'd never lose to"
-	line "fools who babble"
+	para "Nunca perdería"
+	line "ante tontos que"
+	cont "hablan de ser"
+	cont "buenos con los"
+	cont "#mon."
 
-	para "about being nice"
-	line "to #mon."
+	para "Solo me interesan"
+	line "los #mon"
+	cont "fuertes que ganan."
 
-	para "I only care about"
-	line "strong #mon"
-	cont "that can win."
-
-	para "I really couldn't"
-	line "care less about"
-	cont "weak #mon."
+	para "¡Un #mon débil"
+	line "no me importa en"
+	cont "absoluto!"
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
-	text "<RIVAL> used an"
-	line "Escape Rope!"
+	text "¡<RIVAL> usó"
+	line "Cuerda Huida!"
 	done
 
 SageLiSeenText:
-	text "So good of you to"
-	line "come here!"
+	text "¡Me alegra que"
+	line "llegaras hasta"
+	cont "aquí!"
 
-	para "Sprout Tower is a"
-	line "place of training."
+	para "Torre Bellsprout"
+	line "es un templo de"
+	cont "entrenamiento."
 
-	para "People and #mon"
-	line "test their bonds"
+	para "Humanos y #mon"
+	line "prueban sus lazos"
+	cont "para forjar un"
+	cont "futuro brillante."
 
-	para "to build a bright"
-	line "future together."
+	para "Yo soy la prueba"
+	line "final."
 
-	para "I am the final"
-	line "test."
-
-	para "Allow me to check"
-	line "the ties between"
-
-	para "your #mon and"
-	line "you!"
+	para "¡Comprobaré el"
+	line "vínculo que tienes"
+	cont "con tus #mon!"
 	done
 
 SageLiBeatenText:
-	text "Ah, excellent!"
+	text "¡Ah, excelente!"
 	done
 
 SageLiTakeThisFlashText:
-	text "You and your #-"
-	line "mon should have"
+	text "Tú y tus #mon"
+	line "no tendréis"
+	cont "problemas para"
+	cont "usar este"
+	cont "movimiento."
 
-	para "no problem using"
-	line "this move."
-
-	para "Take this Flash"
-	line "TM."
+	para "Toma esta MT de"
+	line "Destello."
 	done
 
 SageLiAfterBattleText:
-	text "I hope you learn"
-	line "and grow from your"
-	cont "journey."
+	text "Espero que logres"
+	line "aprender y crecer"
+	cont "en tu viaje."
 	done
 
 SageJinSeenText:
-	text "I train to find"
-	line "enlightenment in"
-	cont "#mon!"
+	text "¡Entreno para"
+	line "lograr la pura"
+	cont "iluminación!"
 	done
 
 SageJinBeatenText:
-	text "My training is"
-	line "incomplete…"
+	text "Mi entrenamiento"
+	line "aún no ha"
+	cont "terminado…"
 	done
 
 SageTroySeenText:
-	text "Let me see how"
-	line "much you trust"
-	cont "your #mon."
+	text "A ver cuánta"
+	line "confianza tienes"
+	cont "en tus #mon."
 	done
 
 SageTroyBeatenText:
-	text "Yes, your trust is"
-	line "real!"
+	text "¡Sí, tu confianza"
+	line "es real!"
 	done
 
 SageNealSeenText:
-	text "The Elder's TM"
-	line "lights even pitch-"
-	cont "black darkness."
+	text "La MT del Anciano"
+	line "ilumina hasta la"
+	cont "oscuridad total."
 	done
 
 SageNealBeatenText:
-	text "It is my head that"
-	line "is bright!"
+	text "¡Es mi calva lo"
+	line "que reluce!"
 	done
 
 SproutTower3FPaintingText:
-	text "It's a powerful"
-	line "painting of a"
+	text "Es una imponente"
+	line "pintura de un"
 	cont "Bellsprout."
 	done
 
 SproutTower3FStatueText:
-	text "A #mon statue…"
+	text "Una estatua de un"
+	line "#mon…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Tiene un aspecto"
+	line "muy distinguido."
 	done

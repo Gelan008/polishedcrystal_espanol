@@ -54,16 +54,16 @@ endc
 	done
 
 .IntroText:
-	text "My #mon is an"
-	line "expert at collect-"
+	text "Mi #mon sabe"
+	line "recoger mucha"
 if DEF(FAITHFUL)
-	cont "ing Honey."
+	cont "Miel."
 else
-	cont "ing Sweet Honey."
+	cont "Miel Dulce."
 endc
 
-	para "I'll share some"
-	line "with you."
+	para "Compartiré un"
+	line "poco contigo."
 	done
 
 .SellHoney:
@@ -115,29 +115,25 @@ endc
 	done
 
 .SellText:
-	text "Would you like to"
+	text "¿Quieres comprar"
 if DEF(FAITHFUL)
-	line "buy some Honey"
-
-	para "for attracting"
-	line "#mon?"
+	line "Miel para atraer"
+	cont "a los #mon?"
 else
-	line "buy some Sweet"
-
-	para "Honey for attract-"
-	line "ing #mon?"
+	line "Miel Dulce para"
+	cont "atraer #mon?"
 endc
-	cont "Just ¥1000 each!"
+	cont "¡Por solo 1000¥!"
 	done
 
 .GoodbyeText:
-	text "Here you go,"
-	line "honey!"
+	text "¡Aquí tienes,"
+	line "cielo!"
 	done
 
 .BagFullText:
-	text "Oopsy! You have"
-	line "no room for it."
+	text "¡Uy! No te queda"
+	line "espacio libre."
 	done
 
 .MenuDataHeader:
@@ -150,10 +146,10 @@ endc
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1   ¥1000@"
-	db "×10  ¥10000@"
-	db "Cancel@"
+	db "× 1   1000¥@"
+	db "×10  10000¥@"
+	db "Salir@"
 
 GoldenrodHoneyHouseButterfreeText:
-	text "Butterfree: Freeh!"
+	text "Butterfree: ¡Frii!"
 	done

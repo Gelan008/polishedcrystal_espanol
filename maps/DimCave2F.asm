@@ -74,18 +74,18 @@ GenericTrainerHikerDerrick:
 	done
 
 .SeenText:
-	text "♪ A-hiking we"
-	line "will go, a-hiking"
-	cont "we will go… ♪"
+	text "♪ ¡A la montaña,"
+	line "a la montaña"
+	cont "nos vamos ya! ♪"
 	done
 
 .BeatenText:
-	text "♪ Eee-iiii-ah-"
-	line "dee-oh, a-hiking"
-	cont "we will go! ♪"
+	text "♪ ¡Iari-iari-oh,"
+	line "a la montaña"
+	cont "nos vamos ya! ♪"
 	done
 
 DimCaveFallenBoulderText:
-	text "It's stuck on the"
-	line "button."
+	text "Está atascado en"
+	line "el botón."
 	done

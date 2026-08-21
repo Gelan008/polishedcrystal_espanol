@@ -305,17 +305,16 @@ Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	step_end
 
 Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
-	text "OK. Please wait"
-	line "here for the"
+	text "Bien. Espera aquí"
+	line "a que se anuncien"
 
-	para "announcement of"
-	line "the winners."
+	para "los ganadores."
 	done
 
 Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
-	text "Some #mon can"
-	line "only be seen in"
-	cont "the Park."
+	text "Algunos #mon"
+	line "solo se pueden ver"
+	cont "en el Parque."
 	done
 
 BugCatchingContestant1BText:
@@ -325,12 +324,11 @@ BugCatchingContestant1BText:
 	done
 
 BugCatchingContestant1BStillCompetingText:
-	text "Don: Luck plays a"
-	line "big part in this."
+	text "Don: La suerte"
+	line "cuenta mucho aquí."
 
-	para "You never know"
-	line "what #mon will"
-	cont "appear."
+	para "Nunca sabes qué"
+	line "#mon te saldrá."
 	done
 
 BugCatchingContestant2BText:
@@ -340,8 +338,9 @@ BugCatchingContestant2BText:
 	done
 
 BugCatchingContestant2BStillCompetingText:
-	text "Lou: Maybe you win"
-	line "with big #mon?"
+	text "Lou: ¿Se ganará"
+	line "con un #mon"
+	cont "grande?"
 	done
 
 BugCatchingContestant3BText:
@@ -351,11 +350,11 @@ BugCatchingContestant3BText:
 	done
 
 BugCatchingContestant3BStillCompetingText:
-	text "Nick: Maybe you"
-	line "get a higher score"
+	text "Nick: A lo mejor"
+	line "te dan más puntos"
 
-	para "for a #mon of"
-	line "an unusual color."
+	para "por un #mon de"
+	line "un color raro."
 	done
 
 BugCatchingContestant4BText:
@@ -365,11 +364,12 @@ BugCatchingContestant4BText:
 	done
 
 BugCatchingContestant4BStillCompetingText:
-	text "William: Well, I'm"
-	line "satisfied because"
+	text "William: Bueno,"
+	line "yo me doy por"
+	cont "satisfecho,"
 
-	para "I caught a #mon"
-	line "that I wanted."
+	para "porque atrapé el"
+	line "#mon que quería"
 	done
 
 BugCatchingContestant5BText:
@@ -379,9 +379,9 @@ BugCatchingContestant5BText:
 	done
 
 BugCatchingContestant5BStillCompetingText:
-	text "Benny: I caught a"
-	line "Scyther before,"
-	cont "but I didn't win."
+	text "Benny: Una vez"
+	line "atrapé un Scyther,"
+	cont "pero no gané."
 	done
 
 BugCatchingContestant6BText:
@@ -391,15 +391,13 @@ BugCatchingContestant6BText:
 	done
 
 BugCatchingContestant6BStillCompetingText:
-	text "Barry: It's easier"
-	line "to win if you get"
+	text "Barry: Es fácil"
+	line "ganar con #mon"
+	cont "de nivel alto."
 
-	para "a high-level bug"
-	line "#mon."
-
-	para "But I think they"
-	line "also consider some"
-	cont "other points."
+	para "Aunque también"
+	line "tienen en cuenta"
+	cont "otras cosas."
 	done
 
 BugCatchingContestant7BText:
@@ -412,8 +410,8 @@ BugCatchingContestant7BText:
 	done
 
 BugCatchingContestant7BStillCompetingText:
-	text "Cindy: I really"
-	line "love bug #mon!"
+	text "Cindy: ¡Adoro los"
+	line "#mon bicho!"
 	done
 
 BugCatchingContestant8BText:
@@ -423,9 +421,9 @@ BugCatchingContestant8BText:
 	done
 
 BugCatchingContestant8BStillCompetingText:
-	text "Josh: I heard that"
-	line "somebody won with"
-	cont "a Caterpie!"
+	text "Josh: ¡He oído que"
+	line "alguien ganó con"
+	cont "un Caterpie!"
 	done
 
 BugCatchingContestant9BText:
@@ -434,9 +432,9 @@ BugCatchingContestant9BText:
 	done
 
 BugCatchingContestant9BStillCompetingText:
-	text "Johnny: Darn."
-	line "I thought I would"
-	cont "score higher…"
+	text "Johnny: Creía que"
+	line "sacaría una mejor"
+	cont "puntuación…"
 	done
 
 BugCatchingContestant10BText:
@@ -448,29 +446,27 @@ BugCatchingContestant10BText:
 	done
 
 BugCatchingContestant10BStillCompetingText:
-	text "Kipp: I study a"
-	line "lot, but that's"
-
-	para "not good enough to"
-	line "win."
+	text "Kipp: Estudio un"
+	line "montón, pero no"
+	cont "basta para ganar."
 	done
 
 Route36NationalParkGateOfficer1WellHoldPrizeText:
-	text "Uh-oh… Your Bag"
-	line "is full."
+	text "¡Vaya…! Tienes la"
+	line "Mochila llena."
 
-	para "We'll hold on to"
-	line "your prize, but"
-	cont "only for today."
+	para "Te guardaremos el"
+	line "premio, pero solo"
+	cont "por hoy."
 
-	para "Please make room,"
-	line "then come see me."
+	para "Haz sitio y vuelve"
+	line "a verme."
 	done
 
 Route36NationalParkGateOfficer1HeresThePrizeText:
-	text "<PLAYER>?"
+	text "¿<PLAYER>?"
 
-	para "Here's the prize"
-	line "we were holding"
-	cont "for you."
+	para "Aquí tienes el"
+	line "premio que te"
+	cont "hemos guardado."
 	done

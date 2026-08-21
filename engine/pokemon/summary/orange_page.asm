@@ -52,10 +52,10 @@ SummaryScreen_OrangePage:
 	RGB 00, 00, 00
 
 .NatureString:
-	db "Nature/@"
+	db "Naturaleza/@"
 
 .CharacterString:
-	db "Character/@"
+	db "Carácter/@"
 
 .TN_PrintToD:
 	hlcoord 1, 14
@@ -116,13 +116,13 @@ SummaryScreen_OrangePage:
 	ret
 
 .str_level
-	db "at <LV>@"
+	db "al <LV>@"
 
 .str_hatched
-	db "from Egg@"
+	db "de un huevo@"
 
 .str_traded
-	db "by trade@"
+	db "Por intercambio@"
 
 .TN_PrintCharacteristics:
 	; b = value of best DV, c = index of best DV

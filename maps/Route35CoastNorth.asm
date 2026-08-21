@@ -29,11 +29,10 @@ Route35CoastNorthPokeathlonDomeSignText:
 	done
 
 Route35CoastNorthAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "You can cast a"
-	line "fishing line even"
-
-	para "from a Surfing"
-	line "#mon's back!"
+	para "¡Puedes usar la"
+	line "Caña aunque vayas"
+	cont "haciendo Surf en"
+	cont "un #mon!"
 	done

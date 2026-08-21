@@ -125,32 +125,29 @@ Route32CooltrainerMTrigger:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "Your experiences"
-	line "in Violet City"
+	text "Tu experiencia en"
+	line "Ciudad Malva"
 
-	para "should be useful"
-	line "for your journey."
+	para "te resultará muy"
+	line "útil en tu viaje."
 	done
 
 .IntroText:
-	text "You have some good"
-	line "#mon there."
+	text "Tienes unos buenos"
+	line "#mon ahí."
 
-	para "It must be from"
-	line "the training you"
+	para "Se nota que los"
+	line "has entrenado por"
+	cont "Ciudad Malva."
 
-	para "gave them around"
-	line "Violet City."
+	para "No deberías tener"
+	line "problemas para"
+	cont "vencer a los de"
+	cont "esta ruta."
 
-	para "You should have no"
-	line "trouble beating"
-
-	para "all the trainers"
-	line "on this route."
-
-	para "If you can do"
-	line "that, I'll face you"
-	cont "myself."
+	para "Si lo consigues,"
+	line "me enfrentaré a"
+	cont "ti personalmente."
 	done
 
 .QuestionText:
@@ -172,35 +169,36 @@ Route32CooltrainerMTrigger:
 	done
 
 .RefusedText:
-	text "So you would ra-"
-	line "ther journey on…"
+	text "Así que prefieres"
+	line "seguir tu viaje…"
 	done
 
 .SeenText:
-	text "My training in"
-	line "Sprout Tower over-"
-	cont "came even Falkner."
+	text "Mi entrenamiento"
+	line "en la Torre"
+	cont "Bellsprout superó"
+	cont "incluso a Pegaso."
 
-	para "Let's see how you"
-	line "compare!"
+	para "¡Veamos cómo te"
+	line "desenvuelves!"
 	done
 
 .BeatenText:
-	text "My team was up-"
-	line "rooted!"
+	text "¡Mi equipo ha sido"
+	line "desarraigado!"
 	done
 
 .AfterText1:
-	text "Your training was"
-	line "superior to mine."
+	text "Tu entrenamiento"
+	line "ha sido superior."
 
-	para "As a souvenir of"
-	line "our battle, take"
-	cont "this."
+	para "Toma esto como un"
+	line "recuerdo de este"
+	cont "combate."
 
-	para "It increases the"
-	line "power of Grass-"
-	cont "type moves."
+	para "Aumenta la fuerza"
+	line "de los ataques de"
+	cont "tipo Planta."
 	done
 
 Route32CooltrainerMStopsYou:
@@ -297,40 +295,38 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	end
 
 .GreetingText:
-	text "<PLAYER>!"
-	line "Hi there!"
+	text "¡<PLAYER>!"
+	line "¡Hola!"
 	done
 
 .NoEggText:
-	text "Prof.Elm said his"
-	line "aide was deliver-"
-	cont "ing an Egg to you."
+	text "El Prof. Elm dijo"
+	line "que su ayudante te"
+	cont "traería un Huevo."
 
-	para "Be sure to carry"
-	line "it. I'm curious"
-
-	para "what #mon it"
-	line "could be!"
+	para "¡Llévalo siempre"
+	line "encima! Qué ganas"
+	cont "de ver qué #mon"
+	cont "nacerá!"
 	done
 
 .HaveEggText:
-	text "Oh good! You're"
-	line "carrying that Egg"
+	text "¡Qué bien! Llevas"
+	line "el Huevo encima,"
+	cont "como te pidió el"
+	cont "Prof. Elm."
 
-	para "just like Prof."
-	line "Elm asked."
-
-	para "I'm so curious"
-	line "what #mon it"
-	cont "could be!"
+	para "¡Qué curiosidad"
+	line "por ver qué"
+	cont "#mon será!"
 	done
 
 .QuestionText:
-	text "<PLAYER>, did you"
-	line "hear that?"
+	text "<PLAYER>, ¿has"
+	line "oído eso?"
 
-	para "It came from some-"
-	line "where nearby…"
+	para "Ha venido de por"
+	line "aquí cerca…"
 	done
 
 .LookAroundMovement:
@@ -366,34 +362,33 @@ Route32LyraIntroducesHiddenGrottoesOutroScript:
 	end
 
 .GrottoText:
-	text "Here it is!"
-	line "There's a gap in"
-	cont "the trees!"
+	text "¡Aquí está! ¡Hay"
+	line "un hueco entre"
+	cont "los árboles!"
 
-	para "I've heard of these"
-	line "places before."
+	para "Había oído hablar"
+	line "de estos lugares."
 
-	para "It's a Hidden"
-	line "Grotto!"
+	para "¡Es un Claro"
+	line "Oculto!"
 
-	para "Hidden Grottoes"
-	line "are found among"
-	cont "trees and cliff-"
-	cont "sides."
+	para "Los Claros Ocultos"
+	line "se hallan entre"
+	cont "árboles o en los"
+	cont "acantilados."
 
-	para "Some amazing #-"
-	line "mon might be"
-	cont "hiding in there!"
+	para "¡Podría haber"
+	line "#mon increíbles"
+	cont "escondidos dentro!"
 
-	para "I wish I had time"
-	line "to look around,"
+	para "Ojalá tuviera"
+	line "tiempo para mirar,"
+	cont "pero tengo prisa."
 
-	para "but I have things"
-	line "to do."
-
-	para "<PLAYER>, keep an"
-	line "eye out for more"
-	cont "Hidden Grottoes!"
+	para "¡<PLAYER>! ¡No"
+	line "pierdas de vista"
+	cont "los Claros"
+	cont "Ocultos!"
 	done
 
 .LeaveMovement1:
@@ -727,48 +722,46 @@ Movement_Route32CooltrainerMReset:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Wait up!"
-	line "What's the hurry?"
+	text "¡Espera!"
+	line "¿Cuál es la prisa?"
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, right?"
-	line "Some guy wearing"
+	text "¿Eres <PLAYER>?"
+	line "Un tipo con gafas"
 
-	para "glasses was look-"
-	line "ing for you."
+	para "te está buscando."
+	line "Ve a comprobarlo."
 
-	para "See for yourself."
-	line "He's waiting for"
-
-	para "you at the #mon"
-	line "Center."
+	para "Te está esperando"
+	line "en el Centro"
+	cont "#mon."
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "Have you gone to"
-	line "the #mon Gym?"
+	text "¿Has visitado el"
+	line "Gimnasio #mon?"
 
-	para "You can test your"
-	line "#mon and your-"
-	cont "self there."
+	para "Allí te pondrás a"
+	line "prueba junto a tus"
+	cont "#mon."
 
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
+	para "¡Es una prueba"
+	line "de fuego para"
+	cont "todo entrenador!"
 	done
 
 Text_MillionDollarSlowpokeTail:
-	text "How would you like"
-	line "to have this"
+	text "¿Quieres una rica"
+	line "y nutritiva"
+	cont "Colaslowpoke?"
 
-	para "tasty, nutritious"
-	line "SlowpokeTail?"
+	para "¡Para ti ahora,"
+	line "por tan solo"
+	cont "10.000.000¥!"
 
-	para "For you right now,"
-	line "just ¥10,000,000!"
-
-	para "You'll want this!"
+	para "¡Seguro que la"
+	line "quieres!"
 	done
 
 Text_ThoughtKidsWereLoaded:
@@ -783,36 +776,37 @@ Text_RefusedToBuySlowpokeTail:
 	done
 
 FisherJustinSeenText:
-	text "Whoa!"
+	text "¡Hala!"
 
-	para "You made me lose"
-	line "that fish!"
+	para "¡Has hecho que se"
+	line "me escape el pez!"
 	done
 
 FisherJustinBeatenText:
-	text "Sploosh!"
+	text "¡Chof!"
 	done
 
 FisherRalph1SeenText:
-	text "I'm really good at"
-	line "both fishing and"
+	text "Se me da genial"
+	line "pescar y entrenar"
 	cont "#mon."
 
-	para "I'm not about to"
-	line "lose to any kid!"
+	para "¡No pienso perder"
+	line "ante ningún crío!"
 	done
 
 FisherRalph1BeatenText:
-	text "Tch! I tried to"
-	line "rush things…"
+	text "¡Tch! Quise ir muy"
+	line "deprisa…"
 	done
 
 FisherRalphAfterText:
-	text "Fishing is a life-"
-	line "long passion."
+	text "La pesca es una"
+	line "pasión para toda"
+	cont "la vida."
 
-	para "#mon are life-"
-	line "long friends!"
+	para "¡Y los #mon son"
+	line "amigos eternos!"
 	done
 
 FisherRalphSwarmText:
@@ -827,81 +821,83 @@ FisherRalphSwarmText:
 	done
 
 FisherHenrySeenText:
-	text "My #mon?"
-	line "Freshly caught!"
+	text "¿Mis #mon?"
+	line "¡Recién atrapados!"
 	done
 
 FisherHenryBeatenText:
-	text "Splash?"
+	text "¿Chof?"
 	done
 
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
+	text "No te había visto"
+	line "por aquí antes."
 
-	para "So you think you"
-	line "are pretty tough?"
+	para "¿Te crees muy"
+	line "fuerte?"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "¡Eres fuerte!"
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#mon in the"
-	cont "grass!"
+	text "¡Encontré buenos"
+	line "#mon entre la"
+	cont "hierba!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "¡Creo que bastará"
+	line "con ellos!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "Vaya. Creía que"
+	line "podría ganar."
 	done
 
 CamperRolandSeenText:
-	text "That glance…"
-	line "It's intriguing."
+	text "Esa mirada…"
+	line "Es intrigante."
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Mmm. Esto es una"
+	line "decepción."
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "Ajá. Sí, y ya te"
+	line "lo imaginas…"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "¿Eh? ¿Un combate?"
+	line "Estoy hablando por"
+	cont "teléfono."
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "En fin. Que sea"
+	line "rápido."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "¡Oh! ¡Qué furia"
+	line "tengo encima!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "Con lo a gusto que"
+	line "estaba hablando."
 	done
 
 Bird_keeperPeterSeenText:
-	text "That Badge! It's"
-	line "from Violet City!"
+	text "¡Esa Medalla! ¡Es"
+	line "de Ciudad Malva!"
 
-	para "You beat Falkner?"
+	para "¿Has ganado a"
+	line "Pegaso?"
 	done
 
 Bird_keeperPeterBeatenText:
-	text "I know what my"
-	line "weaknesses are."
+	text "Ya conozco mis"
+	line "puntos débiles."
 	done
 
 Text_RoarIntro: ; text > text
@@ -924,18 +920,19 @@ Text_RoarOutro: ; text > text
 	done
 
 MeetFriedaText:
-	text "Frieda: Yahoo!"
-	line "It's Friday!"
+	text "Vero: ¡Yuuuju!"
+	line "¡Es viernes!"
 
-	para "I'm Frieda of"
-	line "Friday!"
+	para "¡Soy Vero, la del"
+	line "viernes!"
 
-	para "Nice to meet you!"
+	para "¡Mucho gusto en"
+	line "conocerte!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a Poison"
-	line "Barb for you!"
+	text "¡Aquí tienes una"
+	line "Flecha Venenosa!"
 	done
 
 FriedaGaveGiftText:
@@ -953,14 +950,14 @@ FriedaGaveGiftText:
 	done
 
 FriedaFridayText:
-	text "Frieda: Hiya! What"
-	line "day do you like?"
+	text "Vero: Hola, ¿qué"
+	line "día te gusta más?"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "A mí me encanta"
+	line "el viernes."
 
-	para "Don't you think"
-	line "it's great too?"
+	para "¿A ti también"
+	line "te gusta mucho?"
 	done
 
 FriedaNotFridayText:
@@ -972,38 +969,38 @@ FriedaNotFridayText:
 	done
 
 Route32SignText:
-	text "Route 32"
+	text "Ruta 32"
 
-	para "Violet City -"
-	line "Azalea Town"
+	para "Ciudad Malva -"
+	line "Pueblo Azalea"
 	done
 
 Route32RuinsSignText:
-	text "Ruins of Alph"
-	line "East Entrance"
+	text "Ruinas Alfa"
+	line "Entrada este"
 	done
 
 Route32UnionCaveSignText:
-	text "Union Cave"
-	line "Ahead"
+	text "Cueva Unión"
+	line "Más adelante"
 	done
 
 Route32AdvancedTips1Text:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "Items may be found"
-	line "by fishing or by"
-	cont "smashing rocks!"
+	para "¡Puedes encontrar"
+	line "objetos pescando o"
+	cont "rompiendo rocas!"
 	done
 
 Route32AdvancedTips2Text:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "If you lose a bat-"
-	line "tle with another"
-	cont "trainer, you pay"
+	para "Si pierdes un"
+	line "duelo contra otro"
+	cont "entrenador,"
 
-	para "them money based"
-	line "on how many Badges"
-	cont "you own!"
+	para "¡pagarás dinero"
+	line "según cuántas"
+	cont "Medallas tengas!"
 	done

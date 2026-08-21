@@ -30,15 +30,13 @@ Route12SuperRodHouseFishingGuruScript:
 	jumpthisopenedtext
 
 .GaveSuperRodText:
-	text "Try your hand at"
-	line "fishing wherever"
-	cont "there is water."
+	text "Prueba a pescar"
+	line "en cualquier lugar"
+	cont "donde haya agua."
 
-	para "Remember--you can"
-	line "catch different"
-
-	para "#mon using"
-	line "different Rods."
+	para "Recuerda: sacas"
+	line "#mon distintos"
+	cont "con cada Caña."
 	done
 
 .Refused:
@@ -48,30 +46,28 @@ Route12SuperRodHouseFishingGuruScript:
 	endtext
 
 OfferSuperRodText:
-	text "I'm the Fishing"
-	line "Guru's younger"
-	cont "brother."
+	text "Soy el hermano"
+	line "menor del Gurú"
+	cont "Pescador."
 
-	para "I can see that you"
-	line "like fishing."
+	para "Se nota que te"
+	line "gusta la pesca."
+	cont "¡Sin duda alguna!"
 
-	para "There's no doubt"
-	line "in my mind at all!"
-
-	para "So? I know I'm"
-	line "right."
+	para "¿A que sí? ¡Sé que"
+	line "tengo razón!"
 	done
 
 GiveSuperRodText:
-	text "Yes, yes. Just as"
-	line "I thought!"
+	text "¡Sí, sí! ¡Tal como"
+	line "me imaginaba!"
 
-	para "Here, fishing fan!"
-	line "Take this--it's a"
-	cont "Super Rod."
+	para "¡Toma, fan de la"
+	line "pesca! ¡Quédate"
+	cont "con la Supercaña!"
 	done
 
 DontWantSuperRodText:
-	text "Huh? My own eyes"
-	line "deceived me?"
+	text "¿Cómo? ¿Me fallan"
+	line "mis propios ojos?"
 	done

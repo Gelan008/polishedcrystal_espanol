@@ -49,42 +49,43 @@ OreManiacScript:
 	done
 
 .GreetingText:
-	text "Ore, ore, ore…"
-	line "Ores that I adore!"
+	text "Minerales… ¡ay,"
+	line "cuánto me fascinan"
+	cont "los minerales!"
 
-	para "I'll pay you well"
-	line "for rare ores."
+	para "Pagaré muy bien"
+	line "por los minerales"
+	cont "más raros."
 
-	para "Don't you have an"
-	line "adorable ore that"
-	cont "shakes my core?"
+	para "¿No tienes algún"
+	line "mineral colosal"
+	cont "que me impresione?"
 	done
 
 .OfferText:
-	text "That ore, it's"
-	line "shaking me!"
+	text "¡Ese mineral me"
+	line "hace alucinar!"
 
-	para "Will you sell it"
-	line "for ¥"
+	para "¿Me lo venderías"
+	line "por "
 	text_decimal hMoneyTemp, 3, 7
-	text "?"
+	text "¥?"
 	done
 
 .WrongItemText:
-	text "Huh? What on earth"
-	line "is this?"
+	text "¿Eh? ¿Qué diablos"
+	line "es esto?"
 
-	para "You can't shake my"
-	line "core with an ore"
-	cont "so poor!"
+	para "¡Un mineral barato"
+	line "no me fascinará!"
 	done
 
 .NoItemText:
-	text "Hmmm. My core won't"
-	line "change."
+	text "Mmm. Nada me saca"
+	line "de mi asombro."
 
-	para "I hope you sell"
-	line "one to me someday."
+	para "Espero que algún"
+	line "día me vendas uno."
 	done
 
 GenericTrainerTamerOswald:
@@ -181,16 +182,14 @@ GenericTrainerSightseermChester:
 	done
 
 .SeenText:
-	text "I'm traveling"
-	line "around the world."
+	text "Estoy viajando por"
+	line "todo el mundo."
 
-	para "Which region"
-	line "should I visit"
-	cont "next?"
+	para "¿Qué región me"
+	line "recomiendas ver?"
 	done
 
 .BeatenText:
-	text "What a great"
-	line "experience!"
+	text "¡Qué experiencia"
+	line "tan genial!"
 	done
-

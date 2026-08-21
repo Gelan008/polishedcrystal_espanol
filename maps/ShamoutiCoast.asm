@@ -168,12 +168,12 @@ GenericTrainerSwimmermAshe:
 	done
 
 .SeenText:
-	text "Swimming? Me?"
-	line "Yeah, I dig it."
+	text "¿Nadar? ¿Yo?"
+	line "Sí, ¡me flipa!"
 	done
 
 .BeatenText:
-	text "I have that sink-"
-	line "ing feeling…"
+	text "Siento que me voy"
+	line "a pique…"
 	done
 

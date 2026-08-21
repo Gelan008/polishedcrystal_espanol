@@ -64,33 +64,31 @@ LyrasDadTrainingText:
 LyrasFridgeScript:
 	jumpthistext
 
-	text "Let's see what's"
-	line "in the fridge…"
+	text "A ver qué hay"
+	line "en la nevera…"
 
-	para "Fresh Water and"
-	line "rice balls!"
+	para "¡Agua Fresca y"
+	line "bolas de arroz!"
 	done
 
 LyrasSinkText:
-	text "The sink is spot-"
-	line "less."
+	text "El fregadero está"
+	line "impecable."
 	done
 
 LyrasStoveText:
-	text "Curry is simmering"
-	line "on the stove."
+	text "En los fogones"
+	line "se cuece curry."
 	done
 
 LyrasTVScript:
 	jumpthistext
 
-	text "There's a movie on"
-	line "TV: A girl with"
+	text "En la tele: Un"
+	line "pirata con su"
+	cont "tripulación busca"
+	cont "un tesoro…"
 
-	para "her hair in pig-"
-	line "tails is walking"
-	cont "up a brick road."
-
-	para "I'd better get"
-	line "going too!"
+	para "¡Yo también me voy"
+	line "a poner en marcha!"
 	done

@@ -106,28 +106,25 @@ GenericTrainerScientistNigel:
 	done
 
 .SeenText:
-	text "How do we get pow-"
-	line "er out of water?"
+	text "¿Cómo sacamos"
+	line "energía del agua?"
 
-	para "I'll tell you if"
-	line "you can beat me."
+	para "Te lo diré si"
+	line "puedes vencerme."
 	done
 
 .BeatenText:
-	text "Yikes! OK, I'll"
-	line "tell you."
+	text "¡Ay! Vale, te lo"
+	line "diré."
 	done
 
 DimCave4FSuper_nerdText:
-	text "I'm walking along"
-	line "the tracks, just"
+	text "¡Sigo las vías"
+	line "como en esa peli!"
 
-	para "like in that"
-	line "movie!"
+	para "…Pero estoy solo"
+	line "en una cueva…"
 
-	para "…Except I'm in a"
-	line "cave… all alone…"
-
-	para "…This isn't fun"
-	line "anymore."
+	para "…Ya no me parece"
+	line "tan divertido."
 	done

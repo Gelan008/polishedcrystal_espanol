@@ -138,13 +138,13 @@ BattleFactory1FRulesScript:
 		done
 
 BattleFactory1FStreakText:
-	text "Streak: "
+	text "Racha: "
 	text_decimal wBattleFactoryCurStreak, 2, 5
-	text " wins"
-	line "Record: "
+	text " vict."
+	line "Récord: "
 	text_decimal wBattleFactoryTopStreak, 2, 5
-	text " wins"
-	cont "Swaps this run: "
+	text " vict."
+	cont "Cambios actuales: "
 	text_decimal wBattleFactorySwapCount, 1, 2
 	done
 

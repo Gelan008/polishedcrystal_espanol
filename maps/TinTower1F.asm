@@ -325,61 +325,54 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTowerEusineSuicuneText:
-	text "Eusine: Awesome!"
-	line "Too awesome, even!"
+	text "Eusine: ¡Vaya!"
+	line "¡Ha sido algo"
+	cont "impresionante!"
 
-	para "I've never seen a"
-	line "battle that great."
+	para "Jamás había visto"
+	line "un combate igual."
+	cont "¡Qué emoción!"
 
-	para "That was truly"
-	line "inspiring to see."
+	para "Suicune era muy"
+	line "fuerte, pero tú"
+	cont "lo hiciste genial,"
+	cont "<PLAYER>."
 
-	para "Suicune was tough,"
-	line "but you were even"
+	para "Dicen que el poder"
+	line "de Suicune invoca"
+	cont "a un #mon del"
+	cont "arcoíris."
 
-	para "more incredible,"
-	line "<PLAYER>."
+	para "Tal vez lo de hoy"
+	line "haga que ese"
+	cont "#mon aparezca."
 
-	para "I heard Suicune's"
-	line "mystic power"
+	para "Voy a estudiar más"
+	line "las leyendas."
 
-	para "summons a rainbow-"
-	line "colored #mon."
+	para "¡Gracias por darme"
+	line "este combate tan"
+	cont "espectacular!"
 
-	para "Maybe, just maybe,"
-	line "what went on today"
-
-	para "will cause that"
-	line "#mon to appear."
-
-	para "I'm going to study"
-	line "the legends more."
-
-	para "Thanks for showing"
-	line "me that fantastic"
-	cont "battle."
-
-	para "Later, <PLAYER>!"
+	para "¡Hasta luego,"
+	line "<PLAYER>!"
 	done
 
 TinTower1FSage1Text:
-	text "According to"
-	line "legend…"
+	text "Según cuenta la"
+	line "leyenda…"
 
-	para "When the souls of"
-	line "#mon and humans"
+	para "Cuando las almas"
+	line "de personas y de"
+	cont "#mon se unen,"
 
-	para "commune, from the"
-	line "heavens descends a"
+	para "baja del cielo un"
+	line "#mon de color"
+	cont "arcoíris…"
 
-	para "#mon of rainbow"
-	line "colors…"
-
-	para "Could it mean the"
-	line "legendary #mon"
-
-	para "are testing us"
-	line "humans?"
+	para "¿Querrá decir que"
+	line "las leyendas nos"
+	cont "ponen a prueba?"
 	done
 
 TinTower1FSage2Text:
@@ -419,20 +412,18 @@ endc
 	done
 
 TinTower1FSage3Text:
-	text "The two towers are"
-	line "said to have been"
+	text "Dicen que ambas"
+	line "torres se alzaron"
+	cont "para fomentar la"
+	cont "amistad sincera"
 
-	para "built to foster"
-	line "friendship and"
+	para "y la esperanza"
+	line "entre humanos y"
+	cont "los #mon."
 
-	para "hope between #-"
-	line "mon and people."
-
-	para "That was 700 years"
-	line "ago, but the ideal"
-
-	para "still remains"
-	line "important today."
+	para "Fue hace 700 años,"
+	line "pero ese ideal"
+	cont "sigue vivo hoy."
 	done
 
 TinTower1FSage4Text1:
@@ -444,8 +435,8 @@ TinTower1FSage4Text1:
 	done
 
 TinTower1FSage5Text1:
-	text "This will protect"
-	line "you. Take it."
+	text "Esto te dará"
+	line "protección. Toma."
 	done
 
 TinTower1FSage5Text2:
@@ -462,39 +453,37 @@ TinTower1FSage6Text1:
 	done
 
 TinTowerEusineHoOhText:
-	text "I knew it."
+	text "Lo sabía."
 
-	para "I knew you'd get"
-	line "to see the #mon"
+	para "Sabía que tú"
+	line "verías al #mon"
+	cont "arcoíris,"
+	cont "<PLAYER>."
 
-	para "of rainbow colors,"
-	line "<PLAYER>."
+	para "¡Ha pasado tal"
+	line "como imaginaba!"
 
-	para "It happened just"
-	line "as I envisioned."
+	para "Mis estudios no"
+	line "iban nada mal,"
+	cont "que digamos."
 
-	para "My research isn't"
-	line "bad, I might say."
+	para "Seguiré mi labor"
+	line "con los #mon"
+	cont "para ser un gran"
+	cont "Pokémaníaco."
 
-	para "I'm going to keep"
-	line "studying #mon"
+	para "Si alguna vez vas"
+	line "a Ciudad Azulona,"
+	cont "¿podrías visitar"
+	cont "a mi abuelo?"
 
-	para "to become a famous"
-	line "#Maniac!"
+	para "Le agradará tener"
+	line "compañía en mi"
+	cont "ausencia."
 
-	para "If you're ever in"
-	line "Celadon City,"
-
-	para "will you say hi to"
-	line "my grandpa?"
-
-	para "I'm sure he would"
-	line "like the company"
-	cont "while I'm away."
-
-	para "Later, <PLAYER>!"
+	para "¡Hasta luego,"
+	line "<PLAYER>!"
 	done
-
 TinTower1FSage4Text2:
 	text "The legendary"
 	line "#mon are said"

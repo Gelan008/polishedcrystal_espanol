@@ -34,9 +34,10 @@ Route19FuchsiaGateOfficerScript:
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "No Cinnabar citi-"
-	line "zens were injured"
+	text "Ningún habitante"
+	line "de Isla Canela"
+	cont "sufrió daños por"
+	cont "la erupción."
 
-	para "by the eruption."
-	line "That's great!"
+	para "¡Menos mal!"
 	done

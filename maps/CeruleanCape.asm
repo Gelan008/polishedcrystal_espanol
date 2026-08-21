@@ -334,20 +334,20 @@ TrainerLadyJessica:
 	done
 
 .AfterText1:
-	text "I'll have to buy a"
-	line "better #mon…"
-	cont "………………"
-	cont "And a new dress…"
+	text "Tendré que comprar"
+	line "un #mon mejor…"
+	cont "……"
+	cont "Y un vestido"
+	cont "nuevo…"
 	done
 
 .AfterText2:
-	text "Why are you still"
-	line "here?"
+	text "¿Por qué sigues"
+	line "aquí?"
 
-	para "Stop staring at"
-	line "me!"
-	cont "………………"
-	cont "Creep!"
+	para "¡Deja de mirarme!"
+	cont "……"
+	cont "¡Asqueroso!"
 	done
 
 GenericTrainerFisherLeroy:
@@ -361,17 +361,17 @@ GenericTrainerFisherLeroy:
 	done
 
 .SeenText:
-	text "I keep catching"
-	line "the same #mon…"
+	text "No dejo de atrapar"
+	line "al mismo #mon…"
 
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
+	para "Quizás un combate"
+	line "haga que cambie mi"
+	cont "suerte."
 	done
 
 .BeatenText:
-	text "Nothing ever goes"
-	line "right for me now…"
+	text "Nada me sale bien"
+	line "últimamente…"
 	done
 
 Route25MistysDateLeavesMovement2:
@@ -408,45 +408,45 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "Misty: Aww! Why"
-	line "did you have to"
+	text "Misty: ¡Uf! ¿Por"
+	line "qué tienes que"
+	cont "interrumpirnos?"
 
-	para "show up and bug us"
-	line "now?"
+	para "¿Sabes cómo llaman"
+	line "a la gente como"
+	cont "tú?"
 
-	para "Do you know what"
-	line "they call people"
-	cont "like you?"
-
-	para "Pests! You heard"
-	line "me right, pest!"
+	para "¡Plasta! ¡Has oído"
+	line "bien, plasta!"
 
 	para "…"
 
-	para "…Oh? Those Badges"
-	line "you have… Are they"
-	cont "Johto Gym Badges?"
+	para "…¿Oh? Esas"
+	line "Medallas… ¿Son de"
+	cont "los Gimnasios de"
+	cont "Johto?"
 
-	para "If you have eight,"
-	line "you must be good."
+	para "Si tienes ocho,"
+	line "debes de ser muy"
+	cont "bueno."
 
-	para "OK, then. Come to"
-	line "Cerulean Gym."
+	para "Vale. Ven al"
+	line "Gimnasio Celeste."
 
-	para "I'll be happy to"
-	line "take you on."
+	para "¡Estaré encantada"
+	line "de luchar contigo!"
 
-	para "I'm Misty, the"
-	line "Gym Leader in"
-	cont "Cerulean."
+	para "Soy Misty, la"
+	line "Líder del Gimnasio"
+	cont "de Celeste."
 	done
 
 BillsHouseSignText:
-	text "Sea Cottage"
-	line "Bill's House"
+	text "Casa del Mar"
+	line "Casa de Bill"
 	done
 
 CeruleanCapeSailboatText:
-	text "It's a sailboat"
-	line "named FriendShip."
+	text "Es un velero"
+	line "llamado Amistad."
 	done

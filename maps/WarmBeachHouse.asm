@@ -58,44 +58,43 @@ WarmBeachHouseBookScript:
 	done
 
 .Text0:
-	text "The Shamouti"
-	line "Prophecy"
+	text "La Profecía de"
+	line "Shamouti"
 
-	para "Want to read it?"
+	para "¿Quieres leerla?"
 	done
 
 .Text1:
-	text "Disturb not the"
-	line "harmony of fire,"
-	cont "ice, or lightning,"
+	text "No perturbes la"
+	line "armonía del fuego,"
+	cont "hielo o rayo,"
 
-	para "lest these titans"
-	line "wreak destruction"
-	cont "upon the world in"
-	cont "which they clash."
+	para "no sea que estos"
+	line "titanes causen la"
+	cont "destrucción del"
+	cont "mundo en pugna."
 
-	para "Though the water's"
-	line "great guardian sh-"
-	cont "all arise to quell"
-	cont "the fighting,"
+	para "Aunque el gran"
+	line "guardián del agua"
+	cont "se alce a calmar"
+	cont "la lucha,"
 
-	para "alone its song"
-	line "will fail, and"
-	cont "thus the earth"
-	cont "shall turn to ash."
+	para "su canto a solas"
+	line "fallará, y la"
+	cont "tierra en cenizas"
+	cont "se tornará."
 
-	para "Keep reading?"
+	para "¿Seguir leyendo?"
 	done
 
 .Text2:
-	text "O Chosen One,"
-	line "into thine hands"
-	cont "bring together"
-	cont "all three."
+	text "¡Oh, Elegido! En"
+	line "tus manos reúne"
+	cont "a los tres."
 
-	para "Their treasures"
-	line "combined tame the"
-	cont "beast of the sea."
+	para "Sus tres tesoros"
+	line "amansarán a la"
+	cont "bestia del mar."
 
-	para "Keep reading?"
+	para "¿Seguir leyendo?"
 	done

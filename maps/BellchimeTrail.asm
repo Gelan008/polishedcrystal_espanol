@@ -83,11 +83,11 @@ BellchimeTrailPanUpTrigger:
 	step_end
 
 TinTowerSignText:
-	text "Bell Tower"
+	text "Torre Hojalata"
 
-	para "A legendary #-"
-	line "mon is said to"
-	cont "roost here."
+	para "Se dice que aquí"
+	line "anida un #mon"
+	cont "legendario."
 	done
 
 BellchimeTrailWaterText:
@@ -170,147 +170,138 @@ BellchimeTrailValerieScript:
 	sjump .Depart
 
 .IntroText:
-	text "If it isn't the"
-	line "trainer who faced"
-	cont "Suicune…"
+	text "Vaya, si es el"
+	line "entrenador que se"
+	cont "enfrentó a"
+	cont "Suicune."
 
-	para "I am Valerie."
-	line "I come to this"
+	para "Soy Valeria. Vengo"
+	line "a este sendero"
+	cont "para cautivarme"
+	cont "con su belleza."
 
-	para "trail to be"
-	line "captivated by its"
-	cont "beauty."
+	para "Hoy tuve la suerte"
+	line "de presenciar tu"
+	cont "combate contra una"
+	cont "leyenda…"
 
-	para "Today I was for-"
-	line "tunate enough to"
-
-	para "witness your"
-	line "battle with a"
-	cont "legend…"
-
-	para "I would love to"
-	line "contend with one"
-
-	para "who caught the eye"
-	line "of a legendary"
-	cont "#mon."
+	para "Me encantaría"
+	line "luchar contra"
+	cont "alguien que atrajo"
+	cont "a un #mon"
+	cont "legendario."
 	done
 
 .BattleText:
-	text "Valerie: I train"
-	line "the elusive Fairy"
-	cont "type."
+	text "Valeria: Entreno"
+	line "el escurridizo"
+	cont "tipo Hada."
 
-	para "They appear frail"
-	line "and delicate, but"
-	cont "they are strong."
+	para "Parecen frágiles y"
+	line "delicados, pero"
+	cont "son fuertes."
 
-	para "Will you battle"
-	line "with me?"
+	para "¿Lucharás"
+	line "conmigo?"
 	done
 
 .RefusedText:
-	text "Valerie: Alas…"
+	text "Valeria: Qué pena…"
 	done
 
 .AcceptedText:
-	text "Valerie: I hope"
-	line "our battle will"
-
-	para "prove entertaining"
-	line "to you."
+	text "Valeria: Espero"
+	line "que nuestro"
+	cont "combate te resulte"
+	cont "entretenido."
 	done
 
 .BeatenText:
-	text "I hope the sun is"
-	line "shining tomorrow…"
+	text "Espero que mañana"
+	line "brille el sol…"
 
-	para "That would be"
-	line "reason enough to"
-	cont "smile."
+	para "Esa sería razón"
+	line "suficiente para"
+	cont "sonreír."
 	done
 
 .RewardText:
-	text "Valerie: Yes… that"
-	line "was a fine battle."
+	text "Valeria: Sí... fue"
+	line "un buen combate."
 
-	para "I shall reward you"
-	line "for this great"
-	cont "victory."
+	para "Te recompensaré"
+	line "por esta gran"
+	cont "victoria."
 
-	para "Please consider"
-	line "this as a personal"
-	cont "gift from me."
+	para "Por favor, tómalo"
+	line "como un regalo"
+	cont "personal mío."
 	done
 
 .FarewellText:
-	text "Valerie: Oh? My,"
-	line "what a curious"
-	cont "feeling…"
+	text "Valeria: ¿Oh?"
+	line "Vaya, qué"
+	cont "sensación más"
+	cont "curiosa…"
 
-	para "I can't seem to"
-	line "recall which move"
+	para "No consigo"
+	line "recordar qué"
+	cont "movimiento"
+	cont "contiene esa MT."
 
-	para "is contained in"
-	line "that TM."
+	para "Espero que me"
+	line "perdones."
 
-	para "I hope you might"
-	line "forgive me."
+	para "Ese fue de verdad"
+	line "un combate"
+	cont "cautivador."
 
-	para "That was truly a"
-	line "captivating"
-	cont "battle."
+	para "Puede que me hayas"
+	line "cautivado."
 
-	para "I might just be"
-	line "captivated by you."
-
-	para "Until we meet"
-	line "again, farewell."
+	para "Hasta que volvamos"
+	line "a vernos, adiós."
 	done
 
 .RematchText:
-	text "Valerie: Oh, if it"
-	line "isn't my young"
-	cont "trainer…"
+	text "Valeria: Oh, pero"
+	line "si es mi joven"
+	cont "entrenador…"
 
-	para "It is lovely to"
-	line "meet you again"
-	cont "like this."
+	para "Es un placer"
+	line "volver a verte de"
+	cont "esta manera."
 
-	para "Then I suppose you"
-	line "have earned your-"
+	para "Supongo que te has"
+	line "ganado el derecho"
+	cont "a combatir."
 
-	para "self the right to"
-	line "a battle."
-
-	para "The elusive Fairy"
-	line "may appear frail"
-
-	para "as the breeze and"
-	line "delicate as a"
-
-	para "bloom, but it is"
-	line "strong."
+	para "Las escurridizas"
+	line "Hadas pueden"
+	cont "parecer frágiles"
+	cont "como la brisa y"
+	cont "delicadas como una"
+	cont "flor, pero son"
+	cont "fuertes."
 	done
 
 .RematchBeatenText:
-	text "I hope that you"
-	line "will find things"
-
-	para "worth smiling"
-	line "about tomorrow…"
+	text "Espero que"
+	line "encuentres cosas"
+	cont "por las que"
+	cont "sonreír mañana…"
 	done
 
 .RematchFarewellText:
-	text "That was truly a"
-	line "captivating"
-	cont "battle."
+	text "Ese fue de verdad"
+	line "un combate"
+	cont "cautivador."
 
-	para "I might just be"
-	line "captivated by you."
+	para "Puede que me hayas"
+	line "cautivado."
 
-	para "Until we meet"
-	line "again, farewell."
+	para "Hasta que volvamos"
+	line "a vernos, adiós."
 	done
 
 .ValerieGoesAroundMovement:

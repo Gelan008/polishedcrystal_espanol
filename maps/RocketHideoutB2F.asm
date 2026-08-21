@@ -30,14 +30,14 @@ RocketHideoutB2FHexManiacCoryn:
 	done
 
 .SeenText:
-	text "You might have"
-	line "potential for"
-	cont "Team Mystic."
+	text "Podrías tener"
+	line "potencial para el"
+	cont "Equipo Sabiduría."
 
-	para "Let me test your"
-	line "limits."
+	para "Déjame probar tus"
+	line "límites."
 	done
 
 .BeatenText:
-	text "Squared away…"
+	text "Todo en orden…"
 	done

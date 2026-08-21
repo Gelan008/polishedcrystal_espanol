@@ -79,43 +79,47 @@ GenericTrainerCooltrainerfEmma:
 	done
 
 CooltrainermNickSeenText:
-	text "There are two"
-	line "kinds of people."
+	text "Hay dos tipos de"
+	line "personas:"
 
-	para "Those who have"
-	line "style, and those"
-	cont "who don't."
+	para "Las que tienen"
+	line "estilo y las que"
+	cont "no lo tienen."
 
-	para "What kind of"
-	line "person are you?"
+	para "¿Qué clase de"
+	line "persona eres tú?"
 	done
 
 CooltrainermNickBeatenText:
-	text "You've got"
-	line "dazzling style!"
+	text "¡Tienes un estilo"
+	line "deslumbrante!"
 	done
 
 CooltrainerfGwenSeenText:
-	text "I'm in training."
-	line "Care for a round?"
+	text "Estoy entrenando."
+	line "¿Te apetece un"
+	cont "combate?"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "Aww, no! You're"
-	line "too good for me."
+	text "¡Oh, no! Eres"
+	line "demasiado fuerte."
 	done
 
 CooltrainerfEmmaSeenText:
-	text "If the #mon I"
-	line "liked were there,"
-	cont "I'd go anywhere."
+	text "Si el #mon que"
+	line "me gusta estuviera"
+	cont "aquí, lo buscaría"
+	cont "por todos lados."
 
-	para "That's what a real"
-	line "trainer does."
+	para "¡Eso es lo que"
+	line "hace un auténtico"
+	cont "entrenador!"
 	done
 
 CooltrainerfEmmaBeatenText:
-	text "I'd rather pet my"
-	line "babies than this!"
+	text "¡Preferiría mimar"
+	line "a mis #mon que"
+	cont "hacer esto!"
 	done
 

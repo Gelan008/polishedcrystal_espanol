@@ -1,59 +1,59 @@
 HueyAnswerPhoneText:
-	text "Yeah, this is"
+	text "Sí, soy "
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up,"
+	para "¿Eh? ¿Qué pasa,"
 	line "<PLAYER>?"
 	done
 
 HueyAnswerPhoneDayText:
-	text "Yeah, this is"
+	text "Sí, soy "
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up"
+	para "¿Eh? ¿Qué pasa,"
 	line "<PLAYER>?"
 	done
 
 HueyAnswerPhoneNiteText:
-	text "Yeah, this is"
+	text "Sí, soy "
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up"
+	para "¿Eh? ¿Qué pasa,"
 	line "<PLAYER>?"
 	done
 
 HueyGreetText:
-	text "Yo, <PLAYER>!"
-	line "You awake?"
+	text "¡Eh, <PLAYER>!"
+	line "¿Despierto?"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "¿Cómo te va?"
 	done
 
 HueyGreetDayText:
-	text "Yo, <PLAYER>! You"
-	line "free right now?"
+	text "¡Eh, <PLAYER>!"
+	line "¿Estás libre?"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "¿Cómo te va?"
 	done
 
 HueyGreetNiteText:
-	text "Yo, <PLAYER>!"
-	line "Were you asleep?"
+	text "¡Eh, <PLAYER>!"
+	line "¿Estabas dormido?"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "¿Cómo te va?"
 	done

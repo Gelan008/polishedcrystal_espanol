@@ -219,66 +219,66 @@ Route30_MikeysPidgeyAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, Rattata!"
+	text "¡Vamos, Rattata!"
 
-	para "Tackle!"
+	para "¡Placaje!"
 	done
 
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "¿Qué? ¡Este duelo"
+	line "es crucial!"
+	cont "¡Déjame en paz!"
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #mon."
+	text "Acabo de perder,"
+	line "así que busco más"
+	cont "#mon."
 
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	para "¡Espera! ¡Te veo"
+	line "débil! ¡Vamos,"
+	cont "luchemos!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost again!"
-	line "Doggone it!"
+	text "¡Agh! ¡He vuelto a"
+	line "perder! ¡Maldita"
+	cont "sea!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #mon in"
+	text "¿Debo tener más"
+	line "#mon para"
+	cont "luchar mejor?"
 
-	para "order to battle"
-	line "better?"
-
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para "¡No! ¡Me quedaré"
+	line "con este pase lo"
+	cont "que pase!"
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #mon"
-	line "trainer, right?"
+	text "Eres entrenador"
+	line "#mon, ¿verdad?"
 
-	para "Then you have to"
-	line "battle!"
+	para "¡Pues tenemos que"
+	line "luchar!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "Qué raro. Antes"
+	line "había ganado."
 	done
 
 Bug_catcherDonSeenText:
-	text "Instead of a bug"
-	line "#mon, I found"
-	cont "a trainer!"
+	text "¡En vez de un"
+	line "#mon bicho, he"
+	cont "encontrado a un"
+	cont "entrenador!"
 	done
 
 Bug_catcherDonBeatenText:
-	text "Argh! You're too"
-	line "strong!"
+	text "¡Argh! ¡Tienes"
+	line "mucha fuerza!"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
@@ -294,81 +294,81 @@ Route30YoungsterText_EveryoneIsBattling:
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
+	text "No soy entrenadora"
+	line "de #mon."
 
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	para "Pero si miras a"
+	line "uno a los ojos,"
+	cont "habrá combate."
 	done
 
 Route30SignText:
-	text "Route 30"
+	text "Ruta 30"
 
-	para "Cherrygrove City -"
-	line "Violet City"
+	para "Ciudad Cerezo -"
+	line "Ciudad Malva"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "Mr.#mon's House"
-	line "Straight Ahead!"
+	text "Casa del"
+	line "Sr.#mon:"
+	cont "¡Todo recto!"
 	done
 
 MrPokemonsHouseSignText:
-	text "Mr.#mon's House"
+	text "Casa del"
+	line "Sr.#mon"
 	done
 
 BerryMastersHouseSignText:
-	text "Berry Master's"
-	line "House"
+	text "Casa del Maestro"
+	line "de las Bayas"
 	done
 
 Route30TrainerTipsText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "No stealing other"
-	line "people's #mon!"
+	para "¡Prohibido robar"
+	line "los #mon de los"
+	cont "demás!"
 
-	para "# Balls are to"
-	line "be thrown only at"
-	cont "wild #mon!"
+	para "¡Las # Balls"
+	line "solo se lanzan a"
+	cont "#mon salvajes!"
 	done
 
 Route30AdvancedTipsText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "During a battle,"
-	line "press Select to"
-	cont "switch #mon!"
+	para "En combate, pulsa"
+	line "Select para elegir"
+	cont "a otro #mon!"
 
-	para "Press Start to"
-	line "reuse an item!"
+	para "¡Pulsa Start para"
+	line "repetir objeto!"
 
-	para "Or press B to"
-	line "run away or"
-	cont "forfeit!"
+	para "¡O pulsa B para"
+	line "huir o rendirte!"
 
-	para "When you're choos-"
-	line "ing a move to use,"
+	para "Al elegir ataques,"
+	line "¡pulsa Select para"
+	cont "cambiar su orden,"
 
-	para "press Select to"
-	line "swap it with an-"
-	cont "other one, or"
-
-	para "press Start to see"
-	line "its description!"
+	para "o pulsa Start para"
+	line "ver detalles!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "I lost again…"
-	line "Gee, you're tough!"
+	text "Volví a perder…"
+	line "¡Oye, eres fuerte!"
 
-	para "Oh yeah, I almost"
-	line "forgot that I had"
-	cont "to give you this."
+	para "¡Ah, sí! Por poco"
+	line "olvido que debía"
+	cont "darte esto."
 
-	para "Use it to get even"
-	line "tougher, OK?"
+	para "Úsalo para hacerte"
+	line "más fuerte, ¿vale?"
 
-	para "I'm going to get"
-	line "tougher too."
+	para "Yo también me haré"
+	line "más fuerte."
 	done

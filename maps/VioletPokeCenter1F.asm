@@ -78,16 +78,16 @@ VioletPokeCenter1FElmsAideScript:
 	end
 
 .PartyAndBoxFull:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#mon with you."
+	text "¡Oh, no! No puedes"
+	line "llevar más #mon"
+	cont "en tu equipo."
 
-	para "You have no space"
-	line "in your Box, too."
+	para "Tampoco te queda"
+	line "sitio en tu Caja."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the Egg."
+	para "Esperaré a que"
+	line "hagas sitio para"
+	cont "el Huevo."
 	done
 
 .RefusedEgg:
@@ -99,47 +99,47 @@ VioletPokeCenter1FElmsAideScript:
 	done
 
 .IntroText:
-	text "<PLAYER>, long"
-	line "time, no see."
+	text "¡Cuánto tiempo,"
+	line "<PLAYER>!"
 
-	para "I was browsing the"
-	line "#mon Journal"
-	cont "while I waited."
+	para "Ojeaba la Revista"
+	line "#mon mientras"
+	cont "te esperaba."
 
-	para "Its gossip is a"
-	line "good pastime…"
+	para "¡Son un gran"
+	line "pasatiempo!"
 
-	para "Anyway, Prof.Elm"
-	line "has another favor"
-	cont "to ask you."
+	para "En fin, el Prof."
+	line "Elm quiere pedirte"
+	cont "otro favor."
 
-	para "Would you take the"
-	line "#mon Egg?"
+	para "¿Te quedarías el"
+	line "Huevo #mon?"
 	done
 
 .QuestionText:
-	text "<PLAYER>, will you"
-	line "take the Egg?"
+	text "<PLAYER>, ¿te vas a"
+	line "quedar el Huevo?"
 	done
 
 .GoodbyeText:
-	text "We discovered that"
-	line "a #mon will not"
+	text "Descubrimos que un"
+	line "#mon no nace"
+	cont "hasta que no crece"
+	cont "dentro del Huevo."
 
-	para "hatch until it"
-	line "grows in the Egg."
+	para "También necesita"
+	line "estar con otros"
+	cont "#mon activos"
+	cont "para eclosionar."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#mon to hatch."
+	para "¡<PLAYER>, eres la"
+	line "única persona de"
+	cont "confianza!"
 
-	para "<PLAYER>, you're"
-	line "the only person"
-	cont "we can rely on."
-
-	para "Please call Prof."
-	line "Elm when that Egg"
-	cont "hatches!"
+	para "¡Llama al Prof."
+	line "Elm cuando nazca"
+	cont "el Huevo!"
 	done
 
 .WalkAroundMovement:
@@ -164,48 +164,48 @@ VioletPokeCenter1FElmsAideScript:
 	step_end
 
 VioletPokeCenter1FGameboyKidText:
-	text "A guy named Bill"
-	line "made the #mon"
-	cont "PC storage system."
+	text "Un tal Bill creó"
+	line "el Sistema de"
+	cont "Almacenamiento"
+	cont "#mon."
 	done
 
 VioletPokeCenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Ocurrió hace unos"
+	line "tres años."
 
-	para "Team Rocket was up"
-	line "to no good with"
-	cont "#mon."
+	para "El Team Rocket"
+	line "hacía el mal con"
+	cont "los #mon."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Pero triunfó la"
+	line "justicia: un joven"
+	cont "los disolvió."
 	done
 
 VioletPokeCenter1FSageText:
-	text "Some Bellsprout"
-	line "are found with"
-	cont "Gold Leaves."
+	text "Algunos Bellsprout"
+	line "llevan encima"
+	cont "Hojas Doradas."
 
-	para "And some Oddish"
-	line "are found with"
-	cont "Silver Leaves."
+	para "Y algunos Oddish"
+	line "llevan encima"
+	cont "Hojas Plateadas."
 
-	para "These are valued"
-	line "by a certain type"
-	cont "of person."
+	para "Cierto tipo de"
+	line "persona las valora"
+	cont "mucho."
 	done
 
 VioletPokeCenter1FYoungsterText:
-	text "#mon are smart."
-	line "They won't obey a"
+	text "Los #mon son"
+	line "muy listos."
 
-	para "trainer they don't"
-	line "respect."
+	para "No obedecerán a un"
+	line "entrenador si no"
+	cont "lo respetan."
 
-	para "Without the right"
-	line "Gym Badges, they"
-
-	para "will just do as"
-	line "they please."
+	para "Sin las Medallas"
+	line "adecuadas, harán"
+	cont "lo que quieran."
 	done

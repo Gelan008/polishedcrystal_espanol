@@ -54,52 +54,50 @@ GenericTrainerCooltrainerfQuinn:
 	done
 
 SchoolboyDannySeenText:
-	text "If trainers meet,"
-	line "the first thing to"
-	cont "do is battle."
+	text "Cuando las miradas"
+	line "se cruzan hay que"
+	cont "combatir!"
 	done
 
 SchoolboyDannyBeatenText:
-	text "Awww… I've got a"
-	line "losing record…"
+	text "Vaya… Mi historial"
+	line "de derrotas…"
 	done
 
 SchoolboyShermanSeenText:
-	text "Right after class,"
-	line "I head outside to"
-	cont "practice!"
+	text "¡Tras las clases,"
+	line "voy directo a"
+	cont "practicar!"
 	done
 
 SchoolboyShermanBeatenText:
-	text "I need to follow"
-	line "the textbook."
+	text "Tengo que seguir"
+	line "el libro de texto."
 	done
 
 CooltrainermFrenchSeenText:
-	text "You!"
-
-	para "I've been waiting"
-	line "for someone like"
-	cont "you!"
+	text "¡Tú! ¡Estaba"
+	line "esperando a"
+	cont "alguien como tú!"
 	done
 
 CooltrainermFrenchBeatenText:
-	text "Yep, as strong as"
-	line "expected!"
+	text "¡Sí, tan fuerte"
+	line "como esperaba!"
 	done
 
 CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
+	text "¡Eh, tú!"
+	line "¿Quieres luchar?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	text "K.O. total…"
 	done
 
 Route1SignText:
-	text "Route 1"
+	text "Ruta 1"
 
-	para "Pallet Town -"
-	line "Viridian City"
+	para "Pueblo Paleta -"
+	line "Ciudad Verde"
 	done

@@ -140,135 +140,121 @@ MahoganyGymStatue:
 	jumpstd gymstatue3
 
 PryceText_Intro:
-	text "#mon have many"
-	line "experiences in"
+	text "Los #mon viven"
+	line "muchas cosas, como"
+	cont "nosotros."
 
-	para "their lives, just"
-	line "like we do."
+	para "Yo he visto y he"
+	line "sufrido mucho."
 
-	para "I, too, have seen"
-	line "and suffered much"
-	cont "in my life."
+	para "Yo ya soy viejo,"
+	line "te enseñaré lo"
+	cont "que quiero decir."
 
-	para "Since I am your"
-	line "elder, let me show"
-	cont "you what I mean."
+	para "Llevo con #mon"
+	line "desde antes de que"
+	cont "tú nacieras."
 
-	para "I have been with"
-	line "#mon since"
+	para "¡No perderé fácil!"
 
-	para "before you were"
-	line "born."
-
-	para "I do not lose"
-	line "easily."
-
-	para "I, Pryce--the"
-	line "winter trainer--"
-
-	para "shall demonstrate"
-	line "my power!"
+	para "¡Yo, Fredo, señor"
+	line "del Invierno, te"
+	cont "mostraré mi poder!"
 	done
 
 PryceText_Impressed:
-	text "Ah, I am impressed"
-	line "by your prowess."
+	text "Ah, me impresiona"
+	line "tu gran destreza."
 
-	para "With your strong"
-	line "will, I know you"
+	para "Con esa voluntad,"
+	line "superarás cada"
+	cont "obstáculo vital."
 
-	para "will overcome all"
-	line "life's obstacles."
-
-	para "You are worthy of"
-	line "this Badge!"
+	para "¡Eres digno de"
+	line "esta Medalla!"
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That Badge will"
-	line "let your #mon"
+	text "Esa Medalla deja"
+	line "a tus #mon usar"
+	cont "Torbellino para"
+	cont "cruzar remolinos."
 
-	para "use Whirlpool to"
-	line "cross whirlpools."
-
-	para "And this… This is"
-	line "a gift from me!"
+	para "¡Y esto es un"
+	line "regalo para ti!"
 	done
 
 PryceText_CherishYourPokemon:
-	text "When the ice and"
-	line "snow melt, spring"
-	cont "arrives."
+	text "Al fundirse el"
+	line "hielo y la nieve,"
+	cont "llega primavera."
 
-	para "You and your #-"
-	line "mon will be to-"
+	para "Tú y tus #mon"
+	line "estaréis juntos"
+	cont "por muchos años."
 
-	para "gether for many"
-	line "years to come."
-
-	para "Cherish your time"
-	line "together!"
+	para "¡Atesora vuestro"
+	line "tiempo juntos!"
 	done
 
 BoarderRonaldSeenText:
-	text "I'll freeze your"
-	line "#mon, so you"
-	cont "can't do a thing!"
+	text "¡Congelaré a tus"
+	line "#mon! ¡No vas a"
+	cont "poder hacer nada!"
 	done
 
 BoarderRonaldBeatenText:
-	text "Darn. I couldn't"
-	line "do a thing."
+	text "¡Maldición! No he"
+	line "podido hacer nada."
 	done
 
 BoarderBradSeenText:
-	text "This Gym has a"
-	line "slippery floor."
+	text "Este Gimnasio"
+	line "resbala mucho."
 
-	para "It's fun, isn't"
-	line "it?"
+	para "Es divertido, ¿a"
+	line "que sí?"
 
-	para "But hey--we're"
-	line "not playing games"
-	cont "here!"
+	para "¡Pero no estamos"
+	line "aquí para jugar!"
 	done
 
 BoarderBradBeatenText:
-	text "Do you see how"
-	line "serious we are?"
+	text "¿Ves lo en serio"
+	line "que vamos?"
 	done
 
 BoarderDouglasSeenText:
-	text "I know Pryce's"
-	line "secret."
+	text "Sé el secreto"
+	line "de Fredo."
 	done
 
 BoarderDouglasBeatenText:
-	text "OK. I'll tell you"
-	line "Pryce's secret."
+	text "Vale. Te contaré"
+	line "el secreto."
 	done
 
 SkierRoxanneSeenText:
-	text "To get to Pryce,"
-	line "our Gym Leader,"
+	text "Para llegar hasta"
+	line "nuestro Líder,"
 
-	para "you need to think"
-	line "before you skate."
+	para "debes pensar bien"
+	line "antes de patinar."
 	done
 
 SkierRoxanneBeatenText:
-	text "I wouldn't lose to"
-	line "you in skiing!"
+	text "¡Esquiando no me"
+	line "ganarías jamás!"
 	done
 
 SkierClarissaSeenText:
-	text "Check out my"
-	line "parallel turn!"
+	text "¡Mira mis giros"
+	line "en paralelo!"
 	done
 
 SkierClarissaBeatenText:
-	text "No! You made me"
-	line "wipe out!"
+	text "¡No! ¡Me hiciste"
+	line "caer!"
 	done
 
 MahoganyGymGuyText:
@@ -292,13 +278,12 @@ MahoganyGymGuyText:
 	done
 
 MahoganyGymGuyWinText:
-	text "Pryce is some-"
-	line "thing, but you're"
-	cont "something else!"
+	text "¡Fredo es genial,"
+	line "pero tú eres de"
+	cont "otro nivel!"
 
-	para "That was a hot"
-	line "battle that"
-
-	para "bridged the gen-"
-	line "eration gap!"
+	para "¡Fue un combate"
+	line "tan ardiente que"
+	cont "cerró la brecha"
+	cont "generacional!"
 	done

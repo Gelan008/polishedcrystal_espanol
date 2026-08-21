@@ -20,10 +20,11 @@ IndigoPlateauFlyPoint:
 	endcallback
 
 IndigoPlateauSignText:
-	text "Indigo Plateau"
+	text "Meseta Añil"
 
-	para "The Ultimate Goal"
-	line "for Trainers!"
+	para "¡La meta final de"
+	line "los entrenadores!"
 
-	para "#mon League HQ"
+	para "Sede de la"
+	line "Liga #mon"
 	done

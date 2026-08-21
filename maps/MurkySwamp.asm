@@ -73,35 +73,35 @@ MurkySwampCherylScript:
 	end
 
 .ChallengeText:
-	text "Hello, my name's"
-	line "Cheryl."
-	cont "And you are…?"
+	text "Hola, me llamo"
+	line "Malta."
+	cont "¿Y tú eres…?"
 
-	para "OK, so your name"
-	line "is <PLAYER>."
+	para "Vale, conque te"
+	line "llamas <PLAYER>."
 
-	para "I'm sincerely glad"
-	line "to meet you."
+	para "¡Me alegro de"
+	line "conocerte!"
 
-	para "I'm afraid of the"
-	line "ghosts in this"
-	cont "swamp, so how"
+	para "Me dan miedo los"
+	line "fantasmas de este"
+	cont "pantano…"
 
-	para "about a battle to"
-	line "ward them off?"
+	para "¿Un combate para"
+	line "ahuyentarlos?"
 	done
 
 .YesText:
-	text "I should warn you,"
-	line "my #mon can be"
-	cont "quite rambunc-"
-	cont "tious."
+	text "Debo advertirte"
+	line "de que mis #mon"
+	cont "son alborotadores."
 	done
 
 .NoText:
-	text "Oh, but my #mon"
-	line "were itching for"
-	cont "a battle…"
+	text "Vaya, y mis"
+	line "#mon que tenían"
+	cont "tantas ganas de"
+	cont "luchar…"
 	done
 
 .BeatenText:
@@ -114,35 +114,32 @@ MurkySwampCherylScript:
 	done
 
 .ItemText:
-	text "Thank you,"
+	text "¡Muchas gracias,"
 	line "<PLAYER>!"
 
-	para "Now I can confi-"
-	line "dently get through"
-	cont "this swamp."
+	para "Ahora cruzaré este"
+	line "pantano con calma."
 
-	para "It reminds me of a"
-	line "forest far away…"
+	para "Me recuerda a un"
+	line "bosque muy lejano…"
 
-	para "Oh, this is my"
-	line "token of appreci-"
-	cont "ation."
-
-	para "Please accept it!"
+	para "¡Toma esto como"
+	line "agradecimiento!"
+	cont "¡Acéptalo!"
 	done
 
 .GoodbyeText:
-	text "I'm heading to the"
-	line "Battle Tower near"
-	cont "Olivine City."
+	text "Voy a la Torre"
+	line "Batalla, en Ciudad"
+	cont "Olivo."
 
-	para "Have you heard of"
-	line "it?"
+	para "¿Has oído hablar"
+	line "de ella?"
 
-	para "Perhaps we'll meet"
-	line "again there!"
+	para "¡Ojalá volvamos a"
+	line "vernos allí!"
 
-	para "Bye for now!"
+	para "¡Hasta luego!"
 	done
 
 MurkySwampNurseBeatriceScript:
@@ -184,11 +181,12 @@ MurkySwampNurseBeatriceScript:
 	done
 
 .AfterText:
-	text "Making #mon"
-	line "feel better--"
-
-	para "that's why I"
-	line "came here!"
+	text "Hacer que los"
+	line "#mon se sientan"
+	cont "mejor…" 
+	
+	para "¡Por eso vine"
+	line "hasta aquí!"
 	done
 
 MurkySwampBloodmoonUrsaluna:
@@ -215,7 +213,7 @@ MurkySwampBloodmoonUrsaluna:
 	end
 
 BloodmoonUrsalunaText:
-	text "Wa-gaaah!"
+	text "¡Ua-gaaah!"
 	done
 
 GenericTrainerBug_catcherOscar:
@@ -292,13 +290,13 @@ GenericTrainerLassAbigail:
 	done
 
 .SeenText:
-	text "People are scared"
-	line "to go deep into"
-	cont "the swamp."
+	text "A la gente le da"
+	line "miedo adentrarse"
+	cont "en el pantano."
 	done
 
 .BeatenText:
-	text "Eek!"
+	text "¡Iiiik!"
 	done
 
 GenericTrainerPokemaniacEnzo:
@@ -327,15 +325,11 @@ GenericTrainerPokemaniacEnzo:
 	done
 
 MurkySwampPokemaniacText:
-	text "This close to the"
-	line "coast, the land"
+	text "Cerca de la costa,"
+	line "la tierra siempre"
+	cont "está empapada."
 
-	para "becomes soaked"
-	line "with water."
-
-	para "But the rare #-"
-	line "mon here make it"
-
-	para "worth exploring"
-	line "anyway!"
+	para "¡Pero los #mon"
+	line "raros hacen que"
+	cont "valga la pena!"
 	done

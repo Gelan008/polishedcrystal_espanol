@@ -148,105 +148,103 @@ FastShipLazySailorLeavesMovement2:
 	step_end
 
 PILookerSeenText:
-	text "WHAAAT?!"
+	text "¡¿QUÉEE?!"
 
-	para "…How did you know?"
-	line "How did you unmask"
-
-	para "me as a member of"
-	line "the International"
-	cont "Police?!"
+	para "…¿Cómo supiste"
+	line "que soy de la"
+	cont "Policía"
+	cont "Internacional?!"
 	done
 
 PILookerBeatenText:
-	text "Quite admirable,"
-	line "you are!"
+	text "¡Eres bastante"
+	line "admirable!"
 	done
 
 CooltrainermSeanSeenText:
-	text "I'm going to Kanto"
-	line "to test my skills."
+	text "Voy a Kanto a"
+	line "poner a prueba mis"
+	cont "habilidades."
 	done
 
 CooltrainermSeanBeatenText:
-	text "I wanted to win!"
+	text "¡Quería ganar!"
 	done
 
 CooltrainerfCarolSeenText:
-	text "I'm training to"
-	line "become the Champ!"
+	text "¡Entreno para ser"
+	line "la Campeona!"
 	done
 
 CooltrainerfCarolBeatenText:
-	text "What's so differ-"
-	line "ent between us?"
+	text "¿Qué nos hace"
+	line "tan diferentes?"
 	done
 
 PokemaniacEthanSeenText:
-	text "Do you know Lily?"
-	line "She's a hot DJ in"
-	cont "Kanto."
+	text "¿Conoces a Lily?"
+	line "Es una gran DJ"
+	cont "en Kanto."
 	done
 
 PokemaniacEthanBeatenText:
-	text "Gyaaaah!"
+	text "¡Gyaaaah!"
 	done
 
 HikerNolandSeenText:
-	text "Are you alone?"
-	line "Then let's battle!"
+	text "¿Estás solo?"
+	line "¡Entonces vamos a"
+	cont "luchar!"
 	done
 
 HikerNolandBeatenText:
-	text "That's too much to"
-	line "handle!"
+	text "¡Es demasiado para"
+	line "mí!"
 	done
 
 SailorStanlySeenText:
-	text "Yeah, I'm a sail-"
-	line "or, all right."
+	text "Sí, soy marinero."
 
-	para "I wasn't goofing"
-	line "off!"
+	para "¡No holgazaneaba!"
 
-	para "This cabin was"
-	line "vacant, so I just"
-	cont "took a quick nap!"
+	para "Este camarote no"
+	line "estaba ocupado, y"
+	cont "me eché a dormir."
 
-	para "Ah, forget it!"
-	line "Let's battle!"
+	para "¡En fin, olvídalo!"
+	line "¡A luchar!"
 	done
 
 SailorStanlyBeatenText:
-	text "Sorry! It's all my"
-	line "fault!"
+	text "¡Perdón! ¡Es toda"
+	line "mía la culpa!"
 	done
 
 SailorStanlyAfterBattleText:
-	text "Being a sailor, I"
-	line "have to do phys-"
-	cont "ical labor. It's"
-	cont "exhausting!"
+	text "Al ser marinero,"
+	line "tengo que hacer"
+	cont "esfuerzo físico."
+	cont "¡Es agotador!"
 	done
 
 GentlemanEdwardSeenText:
-	text "Oh, no. I've lost"
-	line "something that's"
-	cont "very important."
+	text "¡Oh, no! He"
+	line "perdido algo muy"
+	cont "importante."
 	done
 
 GentlemanEdwardBeatenText:
-	text "I… I can't find"
-	line "it…"
+	text "Y… no logro"
+	line "encontrarlo…"
 	done
 
 BurglarCoreySeenText:
-	text "Yeehaw!"
-	line "Lucky!"
+	text "¡Yeehaw!"
+	line "¡Qué suerte!"
 	done
 
 BurglarCoreyBeatenText:
-	text "How unlucky!"
-	line "I lost!"
+	text "¡Qué mala suerte!"
+	line "¡He perdido!"
 	done
 

@@ -45,25 +45,23 @@ WarmBeachShackTutorBodySlamScript:
 	jumpopenedtext Text_WarmBeachShackBodySlamTutorTaught
 
 WarmBeachShackBodySlamFisherText:
-	text "Ready?"
-	line "Boing!"
+	text "¿Listo?"
+	line "¡Boing!"
 
-	para "We're having a"
-	line "sumo match to see"
+	para "¡Hacemos combate"
+	line "de sumo para ver"
+	cont "quién se raja!"
 
-	para "who wimps out"
-	line "first."
-
-	para "I use Body Slam,"
-	line "and he Endures it!"
+	para "¡Yo uso Golpe"
+	line "Cuerpo y él usa"
+	cont "Aguante!"
 	done
 
 Text_WarmBeachShackBodySlamTutorBodySlamQuestion:
-	text "How about I teach"
-	line "Body Slam to a"
-
-	para "#mon of yours"
-	line "for a Silver Leaf?"
+	text "¿Le enseño a un"
+	line "#mon Golpe"
+	cont "Cuerpo a cambio"
+	cont "de una Hoja Plata?"
 	done
 
 Text_WarmBeachShackBodySlamTutorTaught:
@@ -101,25 +99,23 @@ WarmBeachShackTutorEndureScript:
 	jumpopenedtext Text_WarmBeachShackEndureTutorTaught
 
 WarmBeachShackEndureFisherText:
-	text "Ready?"
-	line "Nnnh!"
+	text "¿Listo?"
+	line "¡Uuuf!"
 
-	para "We're having a"
-	line "sumo match to see"
+	para "¡Hacemos combate"
+	line "de sumo para ver"
+	cont "quién se rinde!"
 
-	para "who gives up"
-	line "first."
-
-	para "He uses Body Slam,"
-	line "and I Endure it!"
+	para "¡Él usa Golpe"
+	line "Cuerpo y yo uso"
+	cont "Aguante!"
 	done
 
 Text_WarmBeachShackEndureTutorEndureQuestion:
-	text "How about I teach"
-	line "Endure to one of"
-
-	para "your #mon for"
-	line "a Silver Leaf?"
+	text "¿Le enseño Aguante"
+	line "a tu #mon a"
+	cont "cambio de una"
+	cont "Hoja Plata?"
 	done
 
 Text_WarmBeachShackEndureTutorTaught:
@@ -128,10 +124,10 @@ Text_WarmBeachShackEndureTutorTaught:
 	done
 
 Text_WarmBeachShackTutorsNoSilverLeaf:
-	text "Huh? You don't"
-	line "have any!"
+	text "¿Eh? ¡No tienes"
+	line "ninguna!"
 	done
 
 Text_WarmBeachShackTutorsRefused:
-	text "Alright then."
+	text "Pues nada."
 	done

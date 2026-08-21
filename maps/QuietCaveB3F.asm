@@ -57,50 +57,48 @@ QuietCaveB3FMarleyScript:
 	end
 
 .ChallengeText:
-	text "…I'm Marley."
-	line "…You are?"
+	text "…Me llamo Sémola."
+	line "…¿Y tú?"
 
-	para "Oh… <PLAYER>,"
-	line "will you battle"
-	cont "me, please?"
+	para "Ah… <PLAYER>,"
+	line "¿lucharías contra"
+	cont "mí, por favor?"
 	done
 
 .YesText:
-	text "…OK. I'll do my"
-	line "best."
+	text "… Vale. Lo haré"
+	line "lo mejor posible."
 	done
 
 .NoText:
-	text "…Too bad…"
+	text "… Qué lástima…"
 	done
 
 .BeatenText:
-	text "…Awww."
+	text "… Ohhh."
 	done
 
 .ItemText:
-	text "I… I don't like to"
-	line "talk…"
+	text "A mí… no me gusta"
+	line "hablar…"
 
-	para "I choose my words"
-	line "carefully, but"
+	para "Elijo mis palabras"
+	line "con cuidado, pero"
+	cont "aún así pueden"
+	cont "herir a alguien…"
 
-	para "they may still"
-	line "hurt someone acci-"
-	cont "dentally…"
-
-	para "So, I'll have to"
-	line "convey thanks an-"
-	cont "other way…"
+	para "Por eso, te daré"
+	line "las gracias de"
+	cont "otra forma…"
 	done
 
 .GoodbyeText:
-	text "…I appreciate your"
-	line "battling with me…"
-	cont "…Just a little…"
+	text "…Te agradezco que"
+	line "lucharas conmigo…"
+	cont "…Un poquito…"
 
-	para "I'm going to"
-	line "Battle Tower…"
+	para "Me voy a la"
+	line "Torre Batalla…"
 
-	para "Bye-bye…"
+	para "Adiós…"
 	done

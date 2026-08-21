@@ -20,14 +20,13 @@ MapCeladonMansionRoofSignpost0Script:
 	jumptext CeladonMansionRoofGraffitiText
 
 CeladonMansionRoofFisherText:
-	text "High places--I do"
-	line "love them so!"
+	text "Lugares altos…"
+	line "¡Me encantan!"
 
-	para "I'd say the only"
-	line "thing that loves"
-
-	para "heights as much as"
-	line "me is smoke!"
+	para "¡Lo único que"
+	line "ama las alturas"
+	cont "tanto como yo es"
+	cont "el humo!"
 	done
 
 CeladonMansionRoofGraffitiText:

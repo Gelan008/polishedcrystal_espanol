@@ -123,56 +123,56 @@ SeafoamIslandsArticuno:
 	end
 
 ArticunoText:
-	text "Gyaoo!"
+	text "¡Gyaoo!"
 	done
 
 SeafoamIslandsB4FLawrenceSpeechText:
-	text "Lawrence: Hello"
-	line "again, <PLAYER>."
+	text "Lawrence: Hola de"
+	line "nuevo, <PLAYER>."
 
-	para "So you are collec-"
-	line "ting legends too."
-	cont "Did I inspire you?"
+	para "Así que tú también"
+	line "coleccionas"
+	cont "legendarios."
 
-	para "…What?! You caught"
-	line "all three birds?"
-	cont "Impossible."
+	para "¿Te inspiré?"
 
-	para "Even I, with my"
-	line "knowledge and"
+	para "… ¡¿Qué?! ¿Que has"
+	line "atrapado a los"
+	cont "tres pájaros?"
+	cont "¡Es imposible!"
 
-	para "resources, have"
-	line "not found Moltres…"
+	para "Ni yo, con mis"
+	line "medios y recursos,"
+	cont "he podido hallar"
+	cont "a Moltres…"
 
-	para "Why have you"
-	line "succeeded where I"
-	cont "failed?"
+	para "¿Por qué tuviste"
+	line "éxito donde yo"
+	cont "he fracasado?"
 
-	para "Can you appreciate"
-	line "the majesty of the"
-	cont "winged mirages?"
+	para "¿Acaso sabes"
+	line "apreciar el arte"
+	cont "de estas aves?"
 
-	para "Have you even"
-	line "heard of the"
+	para "¿Has oído hablar"
+	line "del gran guardián"
+	cont "de los océanos?"
 
-	para "guardian of the"
-	line "sea before?"
+	para "¡Esto es del todo"
+	line "inadmisible!"
 
-	para "This is unaccept-"
-	line "able."
+	para "Ven a verme a las"
+	line "ruinas de Isla"
+	cont "Shamouti."
 
-	para "Meet me at the"
-	line "ruined shrine on"
-	cont "Shamouti Island."
-
-	para "I'll show you that"
-	line "I deserve to own"
-	cont "those #mon."
+	para "¡Te demostraré que"
+	line "merezco tener a"
+	cont "esos #mon!"
 	done
 
 SeafoamIslandsB4FLawrenceEscapeRopeText:
-	text "Lawrence used an"
-	line "Escape Rope!"
+	text "¡Lawrence usó una"
+	line "Cuerda Huida!"
 	done
 
 SeafoamIslandsB4FMovementData_LawrenceSurfApproach1:

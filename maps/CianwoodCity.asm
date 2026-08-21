@@ -152,212 +152,199 @@ ChucksWifeEasierToFlyText:
 	done
 
 ChucksWifeChubbyText:
-	text "That's Cianwood's"
-	line "Gym Badge!"
+	text "¡Esa es la Medalla"
+	line "del Gim. Orquídea!"
 
-	para "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	para "Mi marido perdió"
+	line "contra ti, así que"
+	cont "debe entrenar más."
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "Le vendrá bien, ya"
+	line "que estaba echando"
+	cont "barriga."
 
-	para "The waterfalls on"
-	line "Route 47 north of"
-
-	para "here are a good"
-	line "training spot."
+	para "Las cascadas de la"
+	line "Ruta 47 al norte"
+	cont "son un buen sitio."
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use Fly,"
-	line "you can get back"
-
-	para "to Olivine in-"
-	line "stantly."
+	text "Si usas Vuelo,"
+	line "puedes volver a"
+	cont "Olivo al instante."
 	done
 
 CianwoodCityPokefanMText:
-	text "Boulders to the"
-	line "north of town can"
-	cont "be crushed."
+	text "Las rocas al norte"
+	line "del pueblo pueden"
+	cont "romperse."
 
-	para "They may be hiding"
-	line "something."
+	para "Podrían ocultar"
+	line "algo."
 
-	para "Your #mon could"
+	para "Tus #mon pueden"
 if DEF(FAITHFUL)
-	line "use Rock Smash to"
-	cont "break them."
+	line "usar Golpe Roca en"
+	cont "ellas."
 else
-	line "use Brick Break"
-	cont "to smash them."
+	line "usar Demolición en"
+	cont "ellas."
 endc
 	done
 
 CianwoodCityLassText:
-	text "Chuck, the Gym"
-	line "Leader, spars with"
-
-	para "his fighting #-"
-	line "mon."
+	text "Aníbal, el Líder"
+	line "del Gimnasio, usa"
+	cont "#mon de tipo"
+	cont "Lucha."
 	done
 
 CianwoodCityRocketText:
-	text "This way is off-"
-	line "limits!"
+	text "¡Este camino está"
+	line "prohibido!"
 
-	para "Why? Mind your"
-	line "own business!"
+	para "¿Por qué? ¡No"
+	line "es asunto tuyo!"
 	done
 
 CianwoodCitySailorText:
-	text "That cave is the"
-	line "only way to reach"
-	cont "Route 47."
+	text "Esa cueva es la"
+	line "única forma de"
+	cont "llegar a Ruta 47."
 	done
 
 CianwoodCityFisherText:
-	text "Cianwood Pharmacy"
-	line "has been in busi-"
-	cont "ness for over"
-	cont "500 years."
+	text "La Farmacia de"
+	line "Orquídea lleva"
+	cont "abierta más de"
+	cont "500 años."
 
-	para "That's got to be"
-	line "some kind of"
-	cont "record, right?"
+	para "¡Debe de ser algún"
+	line "récord, verdad?"
 	done
 
 EusineSuicuneText:
-	text "Eusine: Yo,"
-	line "<PLAYER>."
+	text "Eusine: ¡Eh,"
+	line "<PLAYER>!"
 
-	para "Wasn't that"
-	line "Suicune just now?"
+	para "¿Ese de ahí no era"
+	line "Suicune?"
 
-	para "I only caught a"
-	line "quick glimpse, but"
+	para "Solo lo vi un"
+	line "instante, pero me"
+	cont "pareció que corría"
+	cont "sobre las olas."
 
-	para "I thought I saw"
-	line "Suicune running on"
-	cont "the waves."
+	para "Suicune es"
+	line "hermoso y magno."
 
-	para "Suicune is beau-"
-	line "tiful and grand."
+	para "Corre por pueblos"
+	line "y rutas con gran"
+	cont "velocidad."
 
-	para "And it races"
-	line "through towns and"
+	para "Es maravilloso…"
 
-	para "roads at simply"
-	line "awesome speeds."
+	para "Quiero ver a"
+	line "Suicune de cerca…"
 
-	para "It's wonderful…"
+	para "¡Lo he decidido!"
 
-	para "I want to see"
-	line "Suicune up close…"
-
-	para "I've decided."
-
-	para "I'll battle you as"
-	line "a trainer to earn"
-	cont "Suicune's respect!"
-
-	para "Come on, <PLAYER>."
-	line "Let's battle now!"
+	para "¡Lucharé contigo"
+	line "para ganarme su"
+	cont "respeto!"
+	
+	para "¡Vamos, <PLAYER>!"
+	line "¡A luchar!"
 	done
 
 EusineBeatenText:
-	text "I hate to admit"
-	line "it, but you win."
+	text "Odio admitirlo,"
+	line "pero tú ganas."
 	done
 
 EusineLossText:
-	text "Yes!"
+	text "¡Sí!"
 
-	para "Surely Suicune"
-	line "will recognize"
-	cont "my greatness now!"
+	para "¡Seguro que"
+	line "Suicune sabrá ver"
+	cont "mi grandeza ahora!"
 	done
 
 EusineAfterText:
-	text "You're amazing,"
+	text "¡Eres increíble,"
 	line "<PLAYER>!"
 
-	para "No wonder #mon"
-	line "gravitate to you."
+	para "Con razón los"
+	line "#mon van a ti."
 
-	para "I get it now."
+	para "Ahora lo entiendo."
 
-	para "I'm going to keep"
-	line "searching for"
-	cont "Suicune."
+	para "Seguiré buscando"
+	line "a Suicune."
 
-	para "I'm sure we'll see"
-	line "each other again."
+	para "Seguro que nos"
+	line "volveremos a ver."
 
-	para "See you around!"
+	para "¡Hasta luego!"
 	done
 
 CianwoodCitySignText:
-	text "Cianwood City"
+	text "Ciudad Orquídea"
 
-	para "A Port Surrounded"
-	line "by Rough Seas"
+	para "Un puerto rodeado"
+	line "de bravos mares"
 	done
 
 CianwoodGymSignText:
-	text "Cianwood City"
-	line "#mon Gym"
+	text "Líder del Gimnasio"
+	line "#mon de Ciudad"
+	cont "Orquídea: Aníbal"
 
-	para "Leader: Chuck"
-
-	para "His Roaring Fists"
-	line "Do the Talking"
+	para "Sus puños feroces"
+	line "hablan por él"
 	done
 
 CianwoodPharmacySignText:
-	text "500 Years of"
-	line "Tradition"
+	text "500 Años de"
+	line "Tradición"
 
-	para "Cianwood City"
-	line "Pharmacy"
+	para "Farmacia de Ciudad"
+	line "Orquídea"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+	para "Esperamos sus"
+	line "Consultas Médicas"
 	done
 
 CianwoodPhotoStudioSignText:
-	text "Cianwood City"
-	line "Photo Studio"
+	text "Estudio de Fotos"
+	line "de Ciudad Orquídea"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "¡Sácate una foto"
+	line "de recuerdo!"
 	done
 
 CianwoodCliffEdgeGateSignText:
-	text "Cliff Edge Gate"
+	text "Puerta del"
+	line "Acantilado"
 
-	para "Yellow Forest is"
-	line "just ahead!"
+	para "¡El Bosque"
+	line "Amarillo está"
+	cont "justo delante!"
 	done
 
 CianwoodMoveManiacSignText:
-	text "The Move Maniac"
-	line "Ahead"
+	text "El Maniaco de los"
+	line "Mov. delante"
 	done
 
 CianwoodAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "You can use a"
-	line "# Ball on a"
+	para "¡Usa una # Ball"
+	line "en un #mon ya"
+	cont "atrapado para"
+	cont "cambiar su Ball!"
 
-	para "#mon you've"
-	line "caught to change"
-	cont "its Ball!"
-
-	para "But you won't get"
-	line "back the original"
-	cont "# Ball!"
+	para "¡Pero perderás la"
+	line "Ball original!"
 	done

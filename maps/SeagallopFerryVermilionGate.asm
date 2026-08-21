@@ -174,10 +174,10 @@ ThreeTicketsMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "OrangeTicket@"
-	db "MysticTicket@"
-	db "Old Sea Map@"
-	db "Cancel@"
+	db "TicketNaranja@"
+	db "TicketMistico@"
+	db "Viej Map Mar@"
+	db "Cancelar@"
 
 SeagallopFerryDepartureScript:
 	writetext SeagallopFerryDepartureText
@@ -221,16 +221,18 @@ SeagallopFerryVermilionGateSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryWelcomeText:
-	text "Welcome aboard the"
-	line "Seagallop Ferry!"
+	text "¡Bienvenido al"
+	line "Surcamar Veloce!"
 	done
 
 SeagallopFerryGiveOrangeTicketText:
-	text "The man who just"
-	line "left said he didn't"
+	text "El hombre que se"
+	line "acaba de ir dijo"
+	cont "que no necesitaba"
+	cont "este ticket."
 
-	para "need this ticket."
-	line "You can have it."
+	para "Toma, puedes"
+	line "quedártelo."
 	done
 
 SeagallopFerryClosedText:
@@ -239,49 +241,49 @@ SeagallopFerryClosedText:
 	done
 
 SeagallopFerryOrangeTicketQuestionText:
-	text "That OrangeTicket"
-	line "is for a ride to"
-	cont "Shamouti Island."
+	text "Ese Ticket Naranja"
+	line "sirve para viajar"
+	cont "a Isla Shamouti."
 
-	para "We'll be happy to"
-	line "take you there"
-	cont "any time."
+	para "Te llevaremos con"
+	line "mucho gusto cuando"
+	cont "quieras."
 	done
 
 SeagallopFerryMysticTicketQuestionText:
-	text "Oh! That's a"
-	line "MysticTicket!"
-	cont "Now that is rare."
+	text "¡Oh! ¡Es un"
+	line "TicketMístic!"
+	cont "¡Qué rareza!"
 
-	para "We'll be happy to"
-	line "take you to Navel"
-	cont "Rock any time."
+	para "Te llevaremos a"
+	line "Roca Ombligo"
+	cont "cuando quieras."
 	done
 
 SeagallopFerryOldSeaMapQuestionText:
-	text "Oh! That Old Sea"
-	line "Map you have…"
+	text "¡Oh! Ese Mapa"
+	line "Viejo que tienes…"
 
-	para "It looks like a"
-	line "faraway island."
+	para "Parece indicar una"
+	line "isla muy lejana."
 
-	para "We'll be happy to"
-	line "take you there"
-	cont "any time."
+	para "¡Te llevaremos"
+	line "cuando quieras!"
 	done
 
 SeagallopFerryWhichTicketText:
-	text "Do you have a"
+	text "¿Llevas algún"
 	line "ticket?"
 	done
 
 SeagallopFerryDepartureText:
-	text "All right!"
+	text "¡Muy bien!"
 
-	para "All aboard the"
-	line "Seagallop Ferry!"
+	para "¡Todos a bordo del"
+	line "Surcamar Veloce!"
 	done
 
 SeagallopFerryVermilionCityRefusedText:
-	text "Come again!"
+	text "¡Vuelve cuando"
+	line "quieras!"
 	done

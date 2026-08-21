@@ -66,13 +66,12 @@ Route34IlexForestGateTeacherScript:
 	jumpthisopenedtext
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "It's False Swipe."
+	text "Es Falsotortazo."
 
-	para "It won't knock"
-	line "out wild #mon,"
-
-	para "so they'll be"
-	line "easier to catch."
+	para "Nunca debilita a"
+	line "los #mon, por"
+	cont "lo que facilita"
+	cont "su captura."
 	done
 
 Route34IlexForestGateTeacherBlocksPlayerMovement:
@@ -86,39 +85,38 @@ Route34IlexForestGateTeacherReturnsMovement:
 	step_end
 
 Route34IlexForestGateTeacherText:
-	text "Oh, hello. You're"
-	line "making a #dex?"
+	text "¡Hola! ¿Completas"
+	line "una #dex?"
 
-	para "It must be hard to"
-	line "catch all those"
+	para "Debe ser difícil"
+	line "atrapar a tantos"
 	cont "#mon."
 
-	para "Here, take this"
-	line "TM."
+	para "¡Toma, quédate con"
+	line "esta MT!"
 	done
 
 Route34IlexForestGateTeacher_ForestIsRestless:
-	text "Something's wrong"
-	line "in Ilex Forest…"
+	text "Pasa algo raro en"
+	line "el Encinar…"
 
-	para "You should stay"
-	line "away right now."
+	para "Será mejor que no"
+	line "te acerques ahora."
 	done
 
 Route34IlexForestGateHeracrossText:
-	text "Heracross: Cross!"
+	text "Heracross: ¡Cross!"
 	done
 
 Route34IlexForestGateLassText:
-	text "Did you see the"
-	line "shrine honoring"
-	cont "the protector?"
+	text "¿Has visto el"
+	line "santuario del"
+	cont "gran protector?"
 
-	para "It watches over"
-	line "the Forest from"
-	cont "across time."
+	para "Vigila el bosque a"
+	line "través del tiempo."
 
-	para "I think that it"
-	line "must be a Grass-"
-	cont "type #mon."
+	para "Creo que debe de"
+	line "ser un #mon de"
+	cont "tipo Planta."
 	done

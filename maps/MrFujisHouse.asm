@@ -19,24 +19,23 @@ MrFujisHouse_MapScriptHeader:
 	pokemon_event  1,  3, PIDGEY, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BROWN, MrFujisPidgeyText, -1
 
 MrFujisHouseSuperNerdText:
-	text "Mr.Fuji does live"
-	line "here, but he's not"
-	cont "home now."
+	text "El Sr. Fuji vive"
+	line "aquí, pero ahora"
+	cont "no está en casa."
 
-	para "He might be at the"
-	line "House of Souls."
+	para "Puede que esté en"
+	line "la Casa de las"
+	cont "Almas."
 	done
 
 MrFujisHouseLassText:
-	text "Some cold-hearted"
-	line "people stop caring"
-	cont "for their #mon."
+	text "Hay gente cruel"
+	line "que abandona a"
+	cont "sus #mon."
 
-	para "Grandpa takes in"
-	line "the poor homeless"
-
-	para "#mon and takes"
-	line "care of them."
+	para "El abuelo cuida a"
+	line "los #mon que no"
+	cont "tienen hogar."
 	done
 
 MrFujisPsyduckText:

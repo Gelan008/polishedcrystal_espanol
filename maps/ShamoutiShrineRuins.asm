@@ -70,120 +70,102 @@ ShamoutiShrineRuinsLawrenceScript:
 	end
 
 .SeenText:
-	text "Lawrence: I sought"
-	line "across many"
+	text "Lawrence: Viajé"
+	line "por el mundo para"
+	cont "capturar las tres"
+	cont "aves legendarias."
 
-	para "regions to catch"
-	line "Articuno, Zapdos,"
-	cont "and Moltres."
+	para "Sin la colección"
+	line "completa, no podré"
+	cont "despertar al gran"
+	cont "dios oceánico…"
 
-	para "Without the"
-	line "complete set, I"
-
-	para "cannot awaken the"
-	line "guardian of the"
-	cont "sea…"
-
-	para "You're going to"
-	line "help me complete"
-	cont "my collection!"
+	para "¡Vas a ayudarme"
+	line "a completar mi"
+	cont "colección!"
 	done
 
 .BeatenText:
-	text "Unbelievable."
-	line "You beat my legen-"
-	cont "dary collection…"
+	text "Increíble. Has"
+	line "vencido a todos"
+	cont "mis legendarios…"
 	done
 
 .AfterText:
-	text "Lawrence: Your"
-	line "#mon aren't"
+	text "Lawrence: Para ti,"
+	line "tus #mon no son"
+	cont "solo una simple"
+	cont "colección, ¿no?"
 
-	para "just a collection"
-	line "to you, are they?"
+	para "Los tratas casi"
+	line "como a amigos."
 
-	para "You treat them"
-	line "almost like"
-	cont "friends."
+	para "¿Será por eso que"
+	line "has derrotado a"
+	cont "mis legendarios?"
 
-	para "Could that be how"
-	line "you defeated my"
-	cont "legendary #mon?"
-
-	para "Well, I think you"
-	line "earned this."
+	para "Bueno, creo que te"
+	line "has ganado esto."
 	done
 
 .SilverWingText:
-	text "That Silver Wing"
-	line "feather comes from"
+	text "Esa pluma, el Ala"
+	line "Plateada, procede"
+	cont "del guardián de"
+	cont "los océanos."
 
-	para "the guardian of"
-	line "the sea."
+	para "Su esencia debería"
+	line "atraerlo, mas solo"
+	cont "si has dominado a"
+	cont "las tres aves:"
 
-	para "The scent should"
-	line "attract it, but"
+	para "fuego, hielo y"
+	line "rayo."
 
-	para "only if you've"
-	line "mastered the three"
-
-	para "winged mirages--"
-	line "the birds of fire,"
-
-	para "ice, and light-"
-	line "ning."
-
-	para "Or so the legends"
-	line "say."
+	para "O eso dicen las"
+	line "leyendas."
 	done
 
 .GoodbyeText:
-	text "My dream was to"
-	line "own that #mon,"
+	text "Mi sueño era tener"
+	line "a ese #mon,"
+	cont "pero has probado"
+	cont "ser más digno."
 
-	para "but you've proven"
-	line "yourself worthy."
-	cont "Take it."
+	para "Empezaré de nuevo"
+	line "mi colección."
 
-	para "I'll begin my"
-	line "collection anew."
-
-	para "Farewell."
+	para "Adiós."
 	done
 
 ShamoutiShrineRuinsGrampsText:
-	text "This shrine was"
-	line "magnificent when"
-	cont "I was a child."
+	text "Este santuario era"
+	line "magnífico cuando"
+	cont "yo era un niño."
 
-	para "But alas, it was"
-	line "wrecked by a storm"
-	cont "many years ago."
+	para "Por desgracia, una"
+	line "tormenta enorme lo"
+	cont "destrozó hace ya"
+	cont "muchos años."
 
-	para "The storm threat-"
-	line "ened the entire"
-	cont "island, but we"
+	para "La tormenta iba a"
+	line "destruir la isla,"
+	cont "pero nos protegió"
+	cont "el gran Guardián."
 
-	para "were protected by"
-	line "the Guardian of"
-	cont "the Seas."
-
-	para "Every year, I give"
-	line "thanks in honor"
-
-	para "of the great"
-	line "#mon who kept"
-	cont "us safe."
+	para "Cada año doy las"
+	line "gracias en honor"
+	cont "al gran #mon"
+	cont "que nos salvó."
 	done
 
 ShamoutiShrineRuinsLadyText:
-	text "I simply had to"
-	line "stop at Shamouti"
+	text "Tenía que parar en"
+	line "Isla Shamouti en"
+	cont "mi viaje por todo"
+	cont "el mundo."
 
-	para "Island on my"
-	line "world tour."
-
-	para "Apparently there's"
-	line "a talking #mon"
-	cont "here somewhere."
+	para "Por lo visto hay"
+	line "un #mon que"
+	cont "habla por aquí."
 	done

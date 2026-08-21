@@ -84,36 +84,33 @@ DimCave5FRileyScript:
 	end
 
 .ChallengeText:
-	text "…You are?"
+	text "…¿Y tú eres?"
 
-	para "OK, you're"
+	para "Vale, eres"
 	line "<PLAYER>."
 
-	para "I'm Riley. I'm a"
-	line "trainer, yes."
+	para "Soy Quinoa. Sí,"
+	line "soy entrenador."
 
-	para "I own a mine like"
-	line "this one, so it's"
-	cont "a good training"
-	cont "spot for me."
+	para "Tengo una mina"
+	line "como esta, así que"
+	cont "es un buen sitio"
+	cont "para entrenar."
 
-	para "If you'd like, we"
-	line "could have a"
-	cont "battle."
+	para "¿Te apetece un"
+	line "combate conmigo?"
 	done
 
 .YesText:
-	text "We're pulling out"
-	line "all the stops to"
-
-	para "put your #mon"
-	line "down."
+	text "¡Haremos todo lo"
+	line "posible por ganar"
+	cont "a tus #mon!"
 	done
 
 .NoText:
-	text "Oh, all right."
-	line "Then we'll continue"
-	cont "training here."
+	text "De acuerdo."
+	line "Seguiremos con el"
+	cont "entrenamiento."
 	done
 
 .BeatenText:
@@ -127,36 +124,36 @@ DimCave5FRileyScript:
 	done
 
 .ItemText:
-	text "Know your enemy."
+	text "Conoce a tu rival."
 
-	para "If you know your"
-	line "opponent's #mon"
-	cont "and moves, your"
+	para "Si conoces a los"
+	line "#mon y ataques"
+	cont "de tu oponente,"
 
-	para "chances of winning"
-	line "are much improved."
+	para "tus opciones de"
+	line "ganar aumentan."
 
-	para "But strengthening"
-	line "your own team is"
-	cont "also important."
+	para "Pero mejorar tu"
+	line "propio equipo es"
+	cont "igual de vital."
 
-	para "This will help you"
-	line "to do so."
+	para "¡Esto te ayudará"
+	line "a lograrlo!"
 	done
 
 .GoodbyeText:
-	text "Battling with you"
-	line "was very enjoy-"
-	cont "able."
+	text "Ha sido un placer"
+	line "luchar contra ti."
 
-	para "I intend to test"
-	line "my skills in the"
-	cont "Battle Tower now."
+	para "Pondré a prueba mi"
+	line "fuerza en la"
+	cont "Torre Batalla."
 
-	para "Let's meet again!"
+	para "¡Espero que nos"
+	line "volvamos a ver!"
 
-	para "Take care on the"
-	line "way out."
+	para "¡Ten cuidado al"
+	line "salir de la cueva!"
 	done
 
 GenericTrainerSuper_nerdFoote:
@@ -221,15 +218,14 @@ GenericTrainerSuper_nerdDave:
 	done
 
 .SeenText:
-	text "I've maxed out my"
-	line "mining, jeweling,"
-
-	para "smelting, and"
-	line "crafting skills!"
+	text "¡He maximizado mi"
+	line "talento de minero,"
+	cont "joyero, fundidor"
+	cont "y fabricante!"
 	done
 
 .BeatenText:
-	text "But not"
-	line "battling…"
+	text "Pero no las de"
+	line "combate…"
 	done
 

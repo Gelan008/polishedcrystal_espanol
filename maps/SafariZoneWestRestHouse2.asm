@@ -59,76 +59,70 @@ SafariZoneWestRestHouse2FlanneryScript:
 	jumpopenedtext .RefusedText
 
 .IntroText:
-	text "Hi there!"
+	text "¡Hola!"
 
-	para "Good to see some-"
-	line "one else exploring"
-	cont "this place!"
+	para "¡Qué bien ver a"
+	line "alguien más por"
+	cont "este lugar!"
 
-	para "I am Flannery."
+	para "Soy Candela."
 
-	para "I'm from the Hoenn"
-	line "region, so I like"
+	para "Vengo de Hoenn,"
+	line "adoro el calor y"
+	cont "las aguas termales"
 
-	para "humidity and hot"
-	line "springs."
+	para "¡La Zona Safari me"
+	line "hace sentir como"
+	cont "en casa!"
 
-	para "The Safari Zone"
-	line "feels like home!"
-
-	para "Let's exchange"
-	line "superhot moves in"
-	cont "a battle!"
+	para "¡Usemos ataques"
+	line "abrasadores en un"
+	cont "buen combate!"
 	done
 
 .RematchText:
-	text "Hi there,"
-	line "<PLAYER>!"
+	text "¡Hola, <PLAYER>!"
 
-	para "Good to see you"
-	line "again!"
+	para "¡Qué bien volver a"
+	line "verte!"
 
-	para "Losing a match"
-	line "isn't going to"
-	cont "deflate me."
+	para "Perder una batalla"
+	line "no me desanima."
 
-	para "Let's exchange"
-	line "superhot moves in"
-	cont "another battle!"
+	para "¡Tengamos otro"
+	line "combate ardiente y"
+	cont "abrasador!"
 	done
 
 .SeenText:
-	text "I'm going to demo-"
-	line "nstrate the hot"
-
-	para "moves I honed"
-	line "close to a vol-"
-	cont "cano!"
+	text "¡Te mostraré los"
+	line "ataques ardientes"
+	cont "que perfeccioné en"
+	cont "un volcán!"
 	done
 
 .BeatenText:
-	text "Whew! On the verge"
-	line "of eruption!"
+	text "¡Uf! ¡Al borde de"
+	line "la erupción!"
 	done
 
 .AfterText:
-	text "I lost the match,"
-	line "but I'm completely"
-	cont "satisfied."
+	text "He perdido, pero"
+	line "estoy satisfecha."
 
-	para "It's not often I"
-	line "get to enjoy a"
+	para "No suelo tener"
+	line "combates tan"
+	cont "apasionantes."
 
-	para "battle this"
-	line "heated."
-
-	para "Let's have another"
-	line "one like this"
-	cont "sometime!"
+	para "¡Hay que repetir"
+	line "otro combate algún"
+	cont "día!"
 	done
 
 .RefusedText:
-	text "OK then… Uh…"
-	line "Don't be shy about"
-	cont "it if you return!"
+	text "Vale… Eh…"
+
+	para "¡No tengas corte"
+	line "en pedirmelo si"
+	cont "te apetece!"
 	done

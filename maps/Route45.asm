@@ -81,70 +81,65 @@ Route45Dragon_tamerScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "The art of train-"
-	line "ing Dragon-type"
-	cont "#mon is just"
-	cont "amazing."
+	text "Criar #mon de"
+	line "tipo Dragón es"
+	cont "maravilloso."
 
-	para "You should become"
-	line "a Dragon Tamer"
-	cont "too."
+	para "¡Deberías hacerte"
+	line "Domadragón!"
 	done
 
 .IntroText:
-	text "I'm training my"
-	line "dragons here."
+	text "Entreno aquí a"
+	line "mis dragones."
 
-	para "Huh? A battle?"
-	line "I want a good one,"
+	para "¿Un combate? ¡Solo"
+	line "si es de verdad!"
 
-	para "so prove to me"
-	line "that you're strong."
-
-	para "Win against every"
-	line "trainer on this"
-
-	para "route and I'll"
-	line "battle you."
+	para "Demuestra tu valía"
+	line "venciendo a todos"
+	cont "en esta ruta y"
+	cont "lucharé contigo."
 	done
 
 .QuestionText:
-	text "Oh, you're ready."
-	line "It's time for a"
-	cont "duel: your #mon"
-	cont "versus my dragons."
+	text "¡Ah, ya estás a"
+	line "punto! Es hora de"
+	cont "un duelo: tus"
+	cont "#mon contra mis"
+	cont "dragones."
 
-	para "Should we start"
-	line "now?"
+	para "¿Empezamos ya?"
 	done
 
 .RefusedText:
-	text "No problem."
-	line "I'll keep on"
-	cont "training."
+	text "Sin problema."
+	line "Seguiré con mi"
+	cont "entrenamiento."
 	done
 
 .SeenText:
-	text "Let's see if you"
-	line "can handle my"
+	text "¡A ver si aguantas"
+	line "el gran poder de"
+	cont "mis dragones!"
 
-	para "dragons' unyield-"
-	line "ing focus."
-	cont "Go, Dragonite!"
+	para "¡Adelante,"
+	line "Dragonite!"
 	done
 
 .BeatenText:
-	text "How powerful!"
-	line "My #mon were"
-	cont "no match for you."
+	text "¡Qué gran poder!"
+	line "¡Mis #mon no"
+	cont "han sido rivales"
+	cont "para ti!"
 	done
 
 .AfterText1:
-	text "Your strength"
-	line "rivals my own!"
+	text "¡Tu fuerza iguala"
+	line "a la mía!"
 
-	para "Take this. You"
-	line "deserve it."
+	para "Toma esto. Te lo"
+	line "has merecido."
 	done
 
 GenericTrainerBattleGirlNozomi:
@@ -393,110 +388,106 @@ GenericTrainerCamperQuentin:
 	done
 
 BattleGirlNozomiSeenText:
-	text "This is no place"
-	line "for weak #mon!"
+	text "¡Aquí no caben los"
+	line "#mon débiles!"
 	done
 
 BattleGirlNozomiBeatenText:
-	text "What a fight!"
+	text "¡Vaya combate!"
 	done
 
 HikerErikSeenText:
-	text "Be prepared for"
-	line "anything!"
+	text "¡Hay que estar"
+	line "preparado para"
+	cont "todo!"
 
-	para "Let me see if your"
-	line "#mon have been"
-	cont "raised properly!"
+	para "¡Veamos si has"
+	line "criado bien a tus"
+	cont "#mon!"
 	done
 
 HikerErikBeatenText:
-	text "Oh, I lost that!"
+	text "¡Oh, he perdido!"
 	done
 
 HikerMichaelSeenText:
-	text "Yo! You're spunky!"
-	line "But you know what?"
+	text "¡Epa! ¡Tienes"
+	line "muchas agallas!"
 
-	para "When it comes to"
-	line "sheer spunkiness,"
-	cont "I'm the man!"
+	para "¡Pero en agallas"
+	line "el amo soy yo!"
 	done
 
 HikerMichaelBeatenText:
-	text "My #mon weren't"
-	line "spunky enough!"
+	text "¡A mis #mon les"
+	line "faltaban agallas!"
 	done
 
 HikerParry1SeenText:
-	text "My #mon are"
-	line "power packed!"
+	text "¡Mis #mon están"
+	line "llenos de fuerza!"
 	done
 
 HikerParry1BeatenText:
-	text "Wahahah! I'm the"
-	line "big loser!"
+	text "¡Ja, ja, ja! ¡Vaya"
+	line "pique y qué palo!"
 	done
 
 HikerParryAfterBattleText:
-	text "I'm not much good"
-	line "at thinking, see?"
+	text "No se me da bien"
+	line "pensar, ¿sabes?"
 
-	para "So, I just plow"
-	line "ahead with power!"
+	para "¡Así que solo tiro"
+	line "hacia adelante con"
+	cont "fuerza bruta!"
 	done
 
 HikerTimothySeenText:
-	text "Why do I climb"
-	line "mountains?"
+	text "¿Por qué escalo"
+	line "montañas?"
 
-	para "Because they're"
-	line "there."
+	para "Porque están ahí."
 
-	para "Why do I train"
+	para "¿Por qué entreno a"
 	line "#mon?"
 
-	para "Because they're"
-	line "there!"
+	para "¡Porque están ahí!"
 	done
 
 HikerTimothyBeatenText:
-	text "Losses…"
-	line "They're there too!"
+	text "Derrotas…"
+	line "¡También las hay!"
 	done
 
 HikerParryGivesIronText:
-	text "I just can't find"
-	line "a way to win!"
+	text "¡No encuentro la"
+	line "forma de ganar!"
+	cont "¡Sigue así!"
 
-	para "Keep it up!"
-
-	para "Oh, and take this"
-	line "--it's the gift"
-
-	para "you couldn't take"
-	line "when we last met."
+	para "Ah, toma esto:"
+	line "el regalo que no"
+	cont "te pudiste llevar."
 	done
 
 BlackbeltKenji1SeenText:
-	text "I was training"
-	line "here alone."
+	text "Estaba entrenando"
+	line "aquí a solas."
 
-	para "Behold the fruits"
-	line "of my labor!"
+	para "¡He aquí el fruto"
+	line "de mi esfuerzo!"
 	done
 
 BlackbeltKenji1BeatenText:
-	text "Waaaargh!"
+	text "¡Uaaaarrrg!"
 	done
 
 BlackbeltKenjiAfterBattleText:
-	text "This calls for"
-	line "extreme measures."
+	text "Esto pide medidas"
+	line "extremas."
 
-	para "I must take to the"
-	line "hills and train in"
-	cont "solitude."
+	para "Debo internarme"
+	line "en los montes a"
+	cont "entrenar a solas."
 	done
 
 BlackbeltKenjiMorningText:
@@ -517,44 +508,46 @@ BlackbeltKenjiNightText:
 	done
 
 CooltrainermRyanSeenText:
-	text "What are your"
-	line "thoughts on rais-"
-	cont "ing #mon?"
+	text "¿Qué opinas tú de"
+	line "la crianza de los"
+	cont "#mon?"
 	done
 
 CooltrainermRyanBeatenText:
-	text "You've won my"
-	line "respect."
+	text "Te has ganado mi"
+	line "respeto."
 	done
 
 CooltrainerfKellySeenText:
-	text "What is your"
-	line "battle strategy?"
+	text "¿Cuál es tu plan"
+	line "de combate?"
 
-	para "It is foolish to"
-	line "use strong moves"
-	cont "indiscriminately."
+	para "Es insensato usar"
+	line "ataques fuertes a"
+	cont "lo loco."
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Fine. I lost."
+	text "Está bien. ¡He"
+	line "perdido!"
 	done
 
 CamperQuentinSeenText:
-	text "I'm really, really"
-	line "tough!"
+	text "¡Soy muy, pero que"
+	line "muy fuerte!"
 
-	para "Is there anywhere"
-	line "I can prove how"
-	cont "tough I really am?"
+	para "¿Hay algún sitio"
+	line "donde demostrar lo"
+	cont "fuerte que soy?"
 	done
 
 CamperQuentinBeatenText:
-	text "I was tough at the"
-	line "Battle Tower…"
+	text "¡En Torre Batalla"
+	line "yo era fuerte…!"
 	done
 
 Route45SignText:
-	text "Route 45"
-	line "Mountain Rd. Ahead"
+	text "Ruta 45"
+	line "Camino de montaña"
+	cont "más adelante"
 	done

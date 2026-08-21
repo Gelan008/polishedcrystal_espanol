@@ -82,40 +82,38 @@ Route27RestHouseGranny:
 	done
 
 .IntroText:
-	text "Where are you off"
-	line "to with #mon?"
+	text "¿Adónde vas con"
+	line "tus #mon?"
 
-	para "The #mon"
-	line "League?"
+	para "¿A la Liga"
+	line "#mon?"
 
-	para "Are your #mon"
-	line "loyal enough for"
-	cont "you to win?"
+	para "¿Son tus #mon"
+	line "lo bastante leales"
+	cont "para ganar?"
 
-	para "Let me see…"
+	para "Déjame ver…"
 	done
 
 .HeardIntroText:
-	text "Let me see your"
+	text "Déjame ver a tus"
 	line "#mon…"
 	done
 
 .QuestionText:
-	text "Ah! Your #mon"
-	line "trusts you very"
-	cont "much."
+	text "¡Ah! Tu #mon"
+	line "confía muchísimo"
+	cont "en ti."
 
-	para "It's nice to see a"
-	line "good trainer."
+	para "Da gusto ver a un"
+	line "buen entrenador."
 
-	para "I can teach it my"
-	line "secret technique,"
-
-	para "Skill Swap, if"
-	line "you'd like."
+	para "Puedo enseñarle mi"
+	line "técnica secreta:"
+	cont "Intercambio."
 	done
 
 .RefusedText:
-	text "Good luck on your"
-	line "journey."
+	text "¡Buena suerte en"
+	line "tu viaje!"
 	done

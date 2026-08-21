@@ -26,15 +26,16 @@ BeautifulBeach_MapScriptHeader:
 	fruittree_event -2, 13, FRUITTREE_SHAMOUTI_ISLAND, FIGY_BERRY, PAL_NPC_BROWN
 
 BeautifulBeachWelcomeSignText:
-	text "Welcome to"
-	line "Shamouti Island!"
+	text "¡Bienvenido a la"
+	line "Isla Shamouti!"
 
-	para "The main island"
-	line "is just east."
+	para "La isla principal"
+	line "está justo al"
+	cont "oeste."
 	done
 
 BeautifulBeachVillaSignText:
-	text "Island Villa"
+	text "Villa Isleña"
 	done
 
 GenericTrainerAromaLadyBryony:
@@ -161,12 +162,14 @@ GenericTrainerArtistMarlene:
 	done
 
 .SeenText:
-	text "My Smeargle trio"
-	line "can paint any"
-	cont "scene!"
+	text "¡Mi trío de"
+	line "Smeargle puede"
+	cont "pintar cualquier"
+	cont "escena!"
 	done
 
 .BeatenText:
-	text "They couldn't win"
-	line "a battle…"
+	text "No han podido"
+	line "ganar ni un"
+	cont "combate…"
 	done

@@ -79,45 +79,47 @@ Copycat1Script:
 	sjump CopycatFinalScript
 
 CopycatGreeting1Text:
-	text "<PLAYER>: Hi! Do"
-	line "you like #mon?"
+	text "<PLAYER>: ¡Hola!"
+	line "¿Te gustan los"
+	cont "#mon?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: No, solo"
+	line "te preguntaba"
+	cont "a ti."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: ¿Eh?"
+	line "¡Qué rara eres!"
 	done
 
 CopycatLostDoll1Text:
-	text "<PLAYER>: Hi!"
-	line "I heard that you"
+	text "<PLAYER>: ¡Hola!"
+	line "Oí que perdiste"
+	cont "tu Muñeco #mon"
+	cont "favorito."
 
-	para "lost your favorite"
-	line "# Doll."
+	para "<PLAYER>: Si lo en"
+	line "cuentro, ¿me darás"
+	cont "un pase de tren?"
 
-	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail pass?"
+	para "<PLAYER>: Iré a"
+	line "buscarlo por ti."
 
-	para "<PLAYER>: I'll go"
-	line "find it for you."
-
-	para "You think you lost"
-	line "it when you went"
-	cont "to Vermilion City?"
+	para "¿Crees que lo"
+	line "perdiste al ir a"
+	cont "Ciudad Carmín?"
 	done
 
 CopycatThanks1Text:
-	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
-	cont "the rail pass!"
+	text "<PLAYER>: ¡Hola!"
+	line "¡Muchas gracias"
+	cont "por el pase!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: ¿Perdón?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: ¿Es tan"
+	line "divertido imitar"
+	cont "cada cosa que"
+	cont "hago?"
 	done
 
 Copycat2Script:
@@ -155,46 +157,48 @@ Copycat2Script:
 	sjump CopycatFinalScript
 
 CopycatGreeting2Text:
-	text "<PLAYER>: Hi. You"
-	line "must like #mon."
+	text "<PLAYER>: Hola."
+	line "Te deben gustar"
+	cont "los #mon."
 
-	para "<PLAYER>: No, not"
-	line "me. I asked you."
+	para "<PLAYER>: A mí no."
+	line "Te he preguntado"
+	cont "a ti."
 
-	para "<PLAYER>: Pardon?"
-	line "You're weird!"
+	para "<PLAYER>: ¿Perdón?"
+	line "¡Eres rarísima!"
 	done
 
 CopycatLostDoll2Text:
-	text "<PLAYER>: Hi. Did"
-	line "you really lose"
-	cont "your # Doll?"
+	text "<PLAYER>: Hola."
+	line "¿De verdad que has"
+	cont "perdido tu Muñeco"
+	cont "#mon?"
 
-	para "<PLAYER>: You'll"
-	line "really give me a"
+	para "<PLAYER>: ¿Seguro"
+	line "que me darás el"
+	cont "pase si lo"
+	cont "encuentro?"
 
-	para "rail pass if I"
-	line "find it for you?"
+	para "<PLAYER>: ¡Iré a"
+	line "buscarlo!"
 
-	para "<PLAYER>: Sure,"
-	line "I'll look for it!"
-
-	para "You think you lost"
-	line "it when you were"
-	cont "in Vermilion?"
+	para "¿Crees que lo per-"
+	line "diste estando en"
+	cont "Carmín?"
 	done
 
 CopycatThanks2Text:
-	text "<PLAYER>: Thank you"
-	line "for the rail pass!"
+	text "<PLAYER>: ¡Gracias"
+	line "por el pase de"
+	cont "tren!"
 
-	para "<PLAYER>: …Pardon?"
+	para "<PLAYER>: …"
+	line "¿Perdón?"
 
-	para "<PLAYER>: Is it"
-	line "really that fun to"
-
-	para "copy what I say"
-	line "and do?"
+	para "<PLAYER>: ¿Tanto te"
+	line "divierte copiar lo"
+	cont "que digo y hago?"
 	done
 
 Copycat3Script:
@@ -274,15 +278,14 @@ CopycatFoundLostItemScript:
 	sjumpfwd CopycatGivePassScript
 
 .FoundDollText:
-	text "Copycat: Yay!"
-	line "That's my Clefairy"
-	cont "# Doll!"
+	text "Copiona: ¡Yupi!"
+	line "¡Es mi Muñeco"
+	cont "Clefairy!"
 
-	para "See the tear where"
-	line "the right leg is"
-
-	para "sewn on? That's"
-	line "proof!"
+	para "¿Ves el remiendo"
+	line "en la pierna"
+	cont "derecha? ¡Esa es"
+	cont "la prueba!"
 	done
 
 CopycatReturnedLostItemScript:
@@ -308,9 +311,10 @@ CopycatGivePassScript:
 	done
 
 .GivePassText:
-	text "OK. Here's the"
-	line "Magnet Train Pass"
-	cont "like I promised!"
+	text "¡Aquí tienes el"
+	line "Pase del"
+	cont "Magnetotrén, tal"
+	cont "como prometí!"
 	done
 
 CopycatFinalScript:
@@ -349,16 +353,17 @@ CopycatsDodrioScript:
 	done
 
 .Text1:
-	text "Dodrio: Gii giii!"
+	text "Dodrio: ¡Gii giii!"
 	done
 
 CopycatsHouse2FDollScript:
 	jumpthistext
 
-	text "This is a rare"
-	line "#mon! Huh?"
+	text "¡Es un #mon"
+	line "muy raro! ¿Eh?"
 
-	para "It's only a doll…"
+	para "Es solo un"
+	line "muñeco…"
 	done
 
 CopycatsHouse2FDittoText:

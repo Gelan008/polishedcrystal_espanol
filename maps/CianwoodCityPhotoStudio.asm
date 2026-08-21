@@ -60,53 +60,48 @@ CianwoodPhotoStudioFishingGuruScript:
 	jumpopenedtext PhotoStudioEggPictureText
 
 PhotoStudioGreetingText:
-	text "I am Cameron"
-	line "the Photographer."
+	text "Soy Cameron, el"
+	line "Fotógrafo."
 
-	para "You have magnifi-"
-	line "cent #mon with"
-	cont "you."
+	para "Llevas #mon"
+	line "magníficos."
 
-	para "How about a photo"
-	line "for a souvenir?"
+	para "¿Qué tal una foto"
+	line "de recuerdo?"
 	done
 
 PhotoStudioWhichMonText:
-	text "OK! Big smile now!"
+	text "¡Vale! ¡Sonreíd!"
 
-	para "Which #mon"
-	line "should I photo-"
-	cont "graph?"
+	para "¿A qué #mon le"
+	line "hago una foto?"
 	done
 
 PhotoStudioHoldStillText:
-	text "All righty. Hold"
-	line "still for a bit."
+	text "Muy bien. No os"
+	line "mováis un segundo."
 	done
 
 PhotoStudioPrestoText:
-	text "Presto! All done."
+	text "¡Listo! Ya está."
 
-	para "Your "
+	para "¡Tu "
 	text_ram wStringBuffer3
-	line "looks happier!"
+	line "se ve más feliz!"
 	done
 
 PhotoStudioAlreadyDoneText:
-	text "I've already taken"
-	line "a photo for you"
-	cont "today."
+	text "Ya te he sacado"
+	line "una foto hoy."
 
-	para "Come back again"
-	line "tomorrow."
+	para "Vuelve de nuevo"
+	line "mañana."
 	done
 
 PhotoStudioRefusedText:
-	text "Oh, that's too"
-	line "bad. I thought it"
-
-	para "would be a great"
-	line "memento…"
+	text "Qué pena. Pensaba"
+	line "que sería un buen"
+	cont "recuerdo…"
 	done
 
 PhotoStudioNoPictureText:

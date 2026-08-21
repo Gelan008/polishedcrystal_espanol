@@ -67,37 +67,30 @@ Route1617Gate2FBinoculars2:
 	jumptext Route1617Gate2FBinoculars2Text
 
 Route1617Gate2FPsychicText:
-	text "There's a Psychic"
-	line "not far from here"
+	text "Hay un Médium por"
+	line "aquí que altera"
+	cont "el entorno en los"
+	cont "combates #mon."
 
-	para "who has the power"
-	line "to change his"
-
-	para "surroundings in a"
-	line "#mon battle."
-
-	para "He's an inspiration"
-	line "of mine, so I've"
-
-	para "worked on my own"
-	line "technique."
+	para "¡Me inspiró para"
+	line "crear mi propia"
+	cont "técnica secreta!"
 	done
 
 Text_Route1617Gate2FTutorTrickRoom:
-	text "I can teach your"
-	line "#mon the move"
-	cont "Trick Room."
+	text "Puedo enseñarle a"
+	line "tu #mon Espacio"
+	cont "Raro."
 
-	para "This will let"
-	line "slower #mon"
-
-	para "outspeed faster"
-	line "ones for a time."
+	para "Hace que los"
+	line "#mon más lentos"
+	cont "ataquen antes por"
+	cont "un tiempo."
 	done
 
 Text_Route1617Gate2FTutorQuestion:
-	text "Is a Silver Leaf"
-	line "a fair price?"
+	text "¿Me das una Hoja"
+	line "Plata a cambio?"
 	done
 
 Route1617Gate2FBinoculars1Text:

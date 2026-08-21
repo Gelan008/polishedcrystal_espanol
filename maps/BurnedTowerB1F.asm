@@ -180,44 +180,40 @@ BurnedTowerB1FEusineMovement1:
 	step_end
 
 BurnedTowerB1FEusineText:
-	text "Eusine: I dug a"
-	line "hole here, too…"
+	text "Eusine: También"
+	line "cavé un hoyo"
+	cont "aquí…"
 
-	para "I was shocked!"
+	para "¡Me quedé de"
+	line "piedra!"
 
-	para "Suicune raced by"
-	line "like a blur, right"
+	para "Suicune pasó a"
+	line "toda prisa frente"
+	cont "a mis ojos como"
+	cont "una exhalación."
 
-	para "in front of my"
-	line "eyes!"
+	para "Llevo 10 años"
+	line "buscando a"
+	cont "Suicune, y por fin"
+	cont "pude verlo."
 
-	para "For ten years I"
-	line "chased Suicune,"
+	para "¡Estoy que no me"
+	line "lo creo!"
 
-	para "and I finally got"
-	line "to see it."
+	para "<PLAYER>, ¡te lo"
+	line "debo todo a ti!"
+	cont "¡Gracias!"
 
-	para "I'm all choked up!"
+	para "Oí que los #mon"
+	line "legendarios de"
+	cont "Iris prueban a los"
+	cont "humanos elegidos"
+	cont "dejándoles"
+	cont "acercarse."
 
-	para "<PLAYER>, I owe"
-	line "this all to you!"
-
-	para "Thank you!"
-
-	para "I heard that the"
-	line "legendary #mon"
-
-	para "of Ecruteak test"
-	line "chosen humans by"
-
-	para "allowing them to"
-	line "get close."
-
-	para "I'm going to track"
+	para "Voy a rastrear a"
 	line "Suicune."
 
-	para "<PLAYER>, let's"
-	line "meet again!"
-
-	para "Farewell!"
+	para "<PLAYER>, ¡nos"
+	line "vemos! ¡Adiós!"
 	done

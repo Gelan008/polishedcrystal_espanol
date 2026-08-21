@@ -25,12 +25,13 @@ GenericTrainerVeteranmMatt:
 	done
 
 VeteranmMattSeenText:
-	text "I can see you're"
-	line "good! Let me see"
-	cont "exactly how good!"
+	text "¡Se nota que eres"
+	line "bueno! ¡Veamos"
+	cont "hasta qué punto!"
 	done
 
 VeteranmMattBeatenText:
-	text "I had a chance…"
+	text "Tuve mi gran"
+	line "oportunidad…"
 	done
 

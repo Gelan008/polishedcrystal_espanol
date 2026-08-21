@@ -33,11 +33,11 @@ GenericTrainerHikerSeamus:
 	done
 
 HikerSeamusSeenText:
-	text "Almost…"
-	line "there…"
+	text "Casi…"
+	line "he llegado…"
 	done
 
 HikerSeamusBeatenText:
-	text "Where do you get"
-	line "your energy?"
+	text "¿De dónde sacas"
+	line "tanta energía?"
 	done

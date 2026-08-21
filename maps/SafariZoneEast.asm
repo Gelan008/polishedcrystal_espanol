@@ -34,29 +34,28 @@ GenericTrainerCowgirlApril:
 	done
 
 CowgirlAprilSeenText:
-	text "Yeehaw!"
-	line "I just caught a"
-	cont "whole herd of"
-	cont "#mon!"
+	text "¡Yiiija! ¡Acabo de"
+	line "atrapar una manada"
+	cont "entera de #mon!"
 	done
 
 CowgirlAprilBeatenText:
-	text "Well, shoot!"
+	text "¡Maldita sea!"
 	done
 
 SafariZoneEastAreaSignText:
-	text "Safari Zone"
-	line "East Area"
+	text "Zona Safari"
+	line "Zona Este"
 	done
 
 SafariZoneEastRestHouseSignText:
-	text "Rest House"
+	text "Casa de Reposo"
 	done
 
 SafariZoneEastTrainerTipsSignText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "Search for rare"
-	line "#mon at night"
-	cont "or in the morning!"
+	para "¡Busca #mon"
+	line "raros de noche o"
+	cont "por la mañana!"
 	done

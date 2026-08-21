@@ -51,44 +51,39 @@ SaffronPokeCenter1FFisherScript:
 	done
 
 .Text2:
-	text "Caves collapse"
-	line "easily."
+	text "Las cuevas suelen"
+	line "derrumbarse con"
+	cont "facilidad."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "En estos años"
+	line "han desaparecido"
+	cont "varias cuevas,"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side Cerulean."
+	para "como la que había"
+	line "a las afueras de"
+	cont "Ciudad Celeste."
 
-	para "As a pro Hiker,"
-	line "that's common"
-	cont "knowledge."
+	para "Un buen Montañero"
+	line "lo sabe bien."
 	done
 
 SaffronPokeCenter1FTeacherText:
-	text "What are Johto's"
-	line "#mon Centers"
-	cont "like?"
+	text "¿Cómo son los"
+	line "Centros #mon"
+	cont "de Johto?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "… Ah, ya veo. No"
+	line "son muy distintos"
+	cont "de los de Kanto."
 
-	para "different from the"
-	line "ones in Kanto."
-
-	para "I can go to Johto"
-	line "without worrying,"
-	cont "then!"
+	para "¡Podré viajar a"
+	line "Johto sin temor!"
 	done
 
 SaffronPokeCenter1FYoungsterText:
-	text "Silph Co.'s Head"
-	line "Office and the"
-
-	para "Magnet Train Sta-"
-	line "tion--they're the"
-
-	para "places to see in"
-	line "Saffron."
+	text "La sede central de"
+	line "Silph S.A. y la"
+	cont "estación del tren"
+	cont "son lo más famoso"
+	cont "de Azafrán."
 	done

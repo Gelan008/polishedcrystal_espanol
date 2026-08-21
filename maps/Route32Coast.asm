@@ -253,43 +253,43 @@ GenericTrainerCoupleFoxandrae2:
 	done
 
 .SeenText:
-	text "Rae: Hey Fox, why"
-	line "don't we have a"
-	cont "battle?"
+	text "Rae: Oye, Fox,"
+	line "¿y si libramos un"
+	cont "combate?"
 	done
 
 .BeatenText:
-	text "Rae: How could you"
-	line "beat Fox and me?"
+	text "Rae: ¿Cómo nos has"
+	line "ganado a Fox y"
+	cont "a mí?"
 	done
 
 Route32CoastLassText:
-	text "Pant, pant…"
+	text "Buf, buf…"
 
-	para "I finally got"
-	line "through that cave."
+	para "Por fin he cruzado"
+	line "esa cueva."
 
-	para "It was much bigger"
-	line "than I'd expected."
+	para "Era mucho más"
+	line "grande de lo que"
+	cont "me esperaba."
 
-	para "I got too tired to"
-	line "explore the whole"
-
-	para "thing, so I came"
-	line "outside."
+	para "Me cansé de mirar"
+	line "todo y me salí."
 	done
 
 Route32CoastTrainerTipsText:
-	text "Trainer Tips"
+	text "Pistas Entrenador"
 
-	para "A #mon with the"
-	line "Pickup ability"
+	para "¡Un #mon con la"
+	line "habilidad Recogida"
 
-	para "might hold an item"
-	line "after a battle!"
+	para "puede recoger un"
+	line "objeto tras un"
+	cont "combate!"
 	done
 
 Route32CoastUnionCaveSignText:
-	text "Union Cave"
-	line "Ahead"
+	text "Cueva Unión"
+	line "Más adelante"
 	done

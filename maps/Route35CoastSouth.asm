@@ -108,105 +108,97 @@ GenericTrainerLassRose:
 	done
 
 SwimmermWalterSeenText:
-	text "I forgot to wear"
-	line "sunscreen, so I'm"
-
-	para "hiding by these"
-	line "shady rocks."
+	text "Olvidé la crema,"
+	line "así que me escondo"
+	cont "bajo las rocas."
 	done
 
 SwimmermWalterBeatenText:
-	text "Ouch!"
+	text "¡Ay!"
 	done
 
 SwimmerfLisaSeenText:
-	text "The fishermen"
-	line "yelled at me for"
-	cont "bugging them…"
+	text "Los pescadores me"
+	line "han gritado por"
+	cont "molestarles…"
 	done
 
 SwimmerfLisaBeatenText:
-	text "I only wanted"
-	line "to battle…"
+	text "Solo quería un"
+	line "combate…"
 	done
 
 SwimmerfJillSeenText:
-	text "Don't I look good"
-	line "in this bikini?"
+	text "¿A que me queda"
+	line "genial el bikini?"
 	done
 
 SwimmerfJillBeatenText:
-	text "Hmph!"
+	text "¡Mmm!"
 	done
 
 Bird_keeperBryanSeenText:
-	text "What kinds of"
-	line "Balls do you use?"
+	text "¿Qué tipos de"
+	line "Balls utilizas?"
 	done
 
 Bird_keeperBryanBeatenText:
-	text "Yikes! Not fast"
-	line "enough!"
+	text "¡Uf! ¡No he sido"
+	line "lo bastante veloz!"
 	done
 
 SrandjrBeaandmay1SeenText:
-	text "Bea: I like strong"
-	line "#mon better"
+	text "Bea: Prefiero los"
+	line "#mon fuertes a"
+	cont "los adorables."
 
-	para "than cute"
-	line "#mon."
-
-	para "But together, we"
-	line "have cute and"
-	cont "strong #mon!"
+	para "¡Pero juntas"
+	line "tenemos #mon"
+	cont "monos y fuertes!"
 	done
 
 SrandjrBeaandmay1BeatenText:
-	text "Bea: Strength and"
-	line "cuteness weren't"
-	cont "enough!"
+	text "Bea: ¡La fuerza y"
+	line "la belleza no han"
+	cont "bastado!"
 	done
 
 SrandjrBeaandmay2SeenText:
-	text "May: I like cute"
-	line "#mon better"
+	text "May: Prefiero los"
+	line "#mon monos a"
+	cont "los fuertes."
 
-	para "than strong"
-	line "#mon."
-
-	para "But together, we"
-	line "have strong and"
-	cont "cute #mon!"
+	para "¡Pero juntas"
+	line "tenemos #mon"
+	cont "fuertes y monos!"
 	done
 
 SrandjrBeaandmay2BeatenText:
-	text "May: Cuteness and"
-	line "strength weren't"
-	cont "enough!"
+	text "May: ¡Lo adorable"
+	line "y lo fuerte no ha"
+	cont "sido suficiente!"
 	done
 
 SailorHarveySeenText:
-	text "Hah! Your #mon"
-	line "sure look like"
-	cont "lightweights!"
+	text "¡Ja! ¡Tus #mon"
+	line "parecen de peso"
+	cont "pluma!"
 	done
 
 SailorHarveyBeatenText:
-	text "What power!"
-	line "How would you like"
-
-	para "to sail the seas"
-	line "with me?"
+	text "¡Menuda fuerza!"
+	line "¿Querrías surcar"
+	cont "los mares conmigo?"
 	done
 
 LassRoseSeenText:
-	text "I collected these"
-	line "#mon from all"
-	cont "around the world!"
+	text "¡Atrapé a estos"
+	line "#mon por todo"
+	cont "el mundo!"
 	done
 
 LassRoseBeatenText:
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "¡Oh, no!"
+	line "¡Di la vuelta al"
+	cont "mundo por ellos!"
 	done

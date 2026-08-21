@@ -41,21 +41,22 @@ GenericTrainerBug_maniacKai:
 	done
 
 Bug_maniacKaiSeenText:
-	text "My Venonat evolved"
-	line "into a Venomoth?!"
+	text "¿Mi Venonat ha"
+	line "evolucionado a"
+	cont "un Venomoth?!"
 	done
 
 Bug_maniacKaiBeatenText:
-	text "I thought it would"
-	line "for sure evolve"
-	cont "into Butterfree!"
+	text "¡De verdad pensé"
+	line "que evolucionaba a"
+	cont "Butterfree!"
 	done
 
 SafariZoneHubAreaSignText:
-	text "Safari Zone"
-	line "Center Area"
+	text "Zona Safari"
+	line "Zona Centro"
 	done
 
 SafariZoneHubRestHouseSignText:
-	text "Rest House"
+	text "Casa de Reposo"
 	done

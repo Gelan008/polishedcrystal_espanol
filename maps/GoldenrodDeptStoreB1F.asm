@@ -54,33 +54,33 @@ GoldenRodDeptStoreUnblockCallback:
 	endcallback
 
 GoldenrodDeptStoreB1FBlackBelt1Text:
-	text "Hey, kid! You're"
-	line "holding us up!"
+	text "¡Oye, renacuajo!"
+	line "¡Nos estás"
+	cont "retrasando!"
 
-	para "Our policy is to"
-	line "work behind the"
-
-	para "scenes where no"
-	line "one can see us!"
+	para "¡Trabajamos entre"
+	line "bastidores para"
+	cont "que nadie nos vea!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt2Text:
-	text "I lose my passion"
-	line "for work if some-"
-	cont "one's watching."
+	text "Pierdo las ganas"
+	line "de trabajar si me"
+	cont "están mirando."
 
-	para "Come on, kid,"
-	line "scoot!"
+	para "¡Vamos, renacuajo,"
+	line "largo de aquí!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt3Text:
-	text "Oohah! Oohah!"
+	text "¡Uuuh-aaah!"
+	line "¡Uuuh-aaah!"
 
-	para "The stuff on the"
-	line "ground's junk."
+	para "Lo que hay en el"
+	line "suelo es basura."
 
-	para "Take it if you"
-	line "want it!"
+	para "¡Llévatelo si lo"
+	line "quieres!"
 	done
 
 GoldenrodDeptStoreB1FMachokeText:

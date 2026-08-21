@@ -86,9 +86,9 @@ FarmerMScript_SellMilk:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
-	db "×12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
-	db "Cancel@"
+	db "× 1    {d:ROUTE39FARMHOUSE_MILK_PRICE}¥@"
+	db "×12   {d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}¥@"
+	db "Cancelar@"
 
 .Milking:
 	jumpopenedtext FarmerMText_Milking
@@ -111,40 +111,36 @@ PokefanF_AcrobaticsFarmer:
 	jumpopenedtext FarmerFText_AcrobaticsSpeech
 
 FarmerMText_SickCow:
-	text "My Miltank ain't"
-	line "givin' me milk"
-	cont "n'more."
+	text "Mi Miltank ya no"
+	line "me da más leche."
 
-	para "This here Farm's"
-	line "got famous milk."
+	para "La leche de esta"
+	line "Granja es famosa,"
+	cont "todos la quieren."
 
-	para "Most everyone"
-	line "wants a drink."
-
-	para "It'll give me lots"
-	line "o' milk if'n I"
-
-	para "feed it lots o'"
-	line "Berries, I reckon."
+	para "Dará más leche si"
+	line "le doy bastantes"
+	cont "Bayas, creo yo."
 	done
 
 FarmerMText_BuyMilk:
-	text "How'd you like my"
-	line "Moomoo Milk?"
+	text "¿Te apetece una"
+	line "rica Leche Mu-mu?"
 
-	para "It's my pride and"
-	line "joy, there."
+	para "Es mi gran orgullo"
+	line "y alegría."
 
-	para "Give it to #mon"
-	line "to restore HP!"
+	para "¡Dásela a tus"
+	line "#mon para que"
+	cont "recuperen PS!"
 
-	para "I'll give it to ya"
-	line "fer just ¥500."
+	para "Te la dejaré por"
+	line "solo 500¥."
 	done
 
 FarmerMText_GotMilk:
-	text "Here ya go!"
-	line "Drink up'n enjoy!"
+	text "¡Aquí tienes!"
+	line "¡A disfrutarla!"
 	done
 
 FarmerMText_NoMoney:
@@ -179,14 +175,14 @@ FarmerFText_InTrouble:
 	done
 
 FarmerFText_HealedMiltank:
-	text "You fixed our"
-	line "Miltank, hon. Now"
+	text "Has curado a"
+	line "nuestra Miltank."
 
-	para "it gives Moomoo"
-	line "Milk again."
+	para "Ahora vuelve a dar"
+	line "Leche Mu-mu."
 
-	para "Here's somethin'"
-	line "fer your trouble."
+	para "Toma algo por las"
+	line "molestias."
 	done
 
 FarmerFText_AcrobaticsSpeech:

@@ -105,9 +105,9 @@ SSAquaMachoBraceAndDocking:
 	endtext
 
 .NoRoomForMachoBrace:
-	text "But you can't carry"
-	line "it! I'll keep it"
-	cont "for another trip."
+	text "¡No te cabe más!"
+	line "Te lo guardaré"
+	cont "para otro viaje."
 	done
 
 SSAquaFoundGranddaughter:
@@ -202,162 +202,156 @@ SSAquaCaptainExhaustingText:
 	done
 
 SSAquaCaptainHowDoYouLikeText:
-	text "How do you like"
-	line "S.S.Aqua's ride?"
+	text "¿Qué te parece el"
+	line "viaje en el S.S."
+	cont "Aqua?"
 
-	para "She practically"
-	line "skates across the"
-	cont "waves."
+	para "Prácticamente"
+	line "patina sobre las"
+	cont "olas."
 	done
 
 SSAquaCantFindGranddaughterText:
-	text "Oh, hello…"
+	text "Oh, hola… Aún no"
+	line "hallo a mi nieta."
 
-	para "I still can't find"
-	line "my granddaughter."
+	para "Mientras esté a"
+	line "bordo, todo bien,"
+	cont "pero es inquieta."
 
-	para "If she's on the"
-	line "ship, that's OK."
+	para "Es una niña muy"
+	line "enérgica…"
 
-	para "She's an energetic"
-	line "child, so she may"
-
-	para "be bugging some-"
-	line "one. I'm worried…"
+	para "¡Temo que moleste"
+	line "a los demás!"
 	done
 
 SSAquaEntertainedGranddaughterText:
-	text "<PLAYER>, was it?"
-	line "I heard you enter-"
-	cont "tained my grand-"
-	cont "daughter."
+	text "¿Eras <PLAYER>?"
+	line "He oído que has"
+	cont "entretenido a mi"
+	cont "nieta."
 
-	para "I want to thank"
-	line "you for that."
+	para "Quiero darte las"
+	line "gracias por ello."
 	done
 
 SSAquaGrandpaHaveThisText:
-	text "I know! I'd like"
-	line "you to have this!"
+	text "¡Ya sé! ¡Quiero"
+	line "darte esto!"
 	done
 
 SSAquaGrandpaTravellingText:
-	text "We're traveling"
-	line "around the world."
+	text "Estamos viajando"
+	line "por todo el mundo."
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "Captain, play with"
-	line "me, please?"
+	text "Capitán, juegue"
+	line "conmigo, ¿por fa?"
 
-	para "I'm bored! I want"
-	line "to play more!"
+	para "¡Me aburro mucho!"
+	line "¡A jugar más!"
 	done
 
 SSAquaGranddaughterHasToFindGrandpaText:
-	text "Hi! Will you play"
-	line "with me?"
+	text "¡Hola! ¿Jugarás"
+	line "conmigo?"
 
-	para "…Oh!"
+	para "…¡Ah! ¿Mi abuelo"
+	line "está preocupado?"
 
-	para "Grandpa's worried"
-	line "about me?"
-
-	para "I have to go!"
-
-	para "I have to go find"
-	line "Grandpa!"
+	para "¡Tengo que irme!"
+	line "¡Voy a buscarlo!"
 	done
 
 SSAquaGranddaughterWasPlayingText:
-	text "Grandpa, here I"
-	line "am! I was playing"
-
-	para "with the Captain"
-	line "and this big kid!"
+	text "¡Abuelo, ya volví!"
+	line "¡Jugaba con el"
+	cont "Capitán y este"
+	cont "chico tan grande!"
 	done
 
 SSAquaGranddaughterHadFunText:
-	text "I had lots of fun"
-	line "playing!"
+	text "¡Me he divertido"
+	line "mucho jugando!"
 	done
 
 PokefanmColinSeenText:
-	text "Hey, kid! Want to"
-	line "battle with me?"
+	text "¡Eh, tú! ¿Quieres"
+	line "un combate?"
 	done
 
 PokefanmColinBeatenText:
-	text "You're strong!"
+	text "¡Eres fuerte!"
 	done
 
 TwinsMegandpeg1SeenText:
-	text "You think I'm a"
-	line "baby?"
-	cont "That's not fair!"
+	text "¿Te crees que soy"
+	line "un bebé?"
+	cont "¡No es justo!"
 	done
 
 TwinsMegandpeg1BeatenText:
-	text "Oh! We lost!"
+	text "¡Oh! ¡Perdimos!"
 	done
 
 TwinsMegandpeg2SeenText:
-	text "I'm not a baby!"
+	text "¡No soy un bebé!"
 
-	para "That's not nice to"
-	line "say to a lady!"
+	para "¡Eso no se le dice"
+	line "a una dama!"
 	done
 
 TwinsMegandpeg2BeatenText:
-	text "Oh! We lost!"
+	text "¡Oh! ¡Perdimos!"
 	done
 
 PsychicRodneySeenText:
-	text "Ssh! My brain is"
-	line "picking up radio"
-	cont "signals!"
+	text "¡Ssh! ¡Capto"
+	line "ondas de radio en"
+	cont "mi cerebro!"
 	done
 
 PsychicRodneyBeatenText:
-	text "…I hear some-"
-	line "thing!"
+	text "…¡Oigo algo!"
 	done
 
 PokefanmJeremySeenText:
-	text "What do you think?"
-	line "My #mon are"
-	cont "beautiful, yes?"
+	text "¿Qué te parecen?"
+	line "Mis #mon son"
+	cont "preciosos, ¿a que"
+	cont "sí?"
 	done
 
 PokefanmJeremyBeatenText:
-	text "Oh, no! My beauti-"
-	line "ful #mon!"
+	text "¡Oh, no! ¡Mis"
+	line "lindos #mon!"
 	done
 
 PokefanfGeorgiaSeenText:
-	text "I'm going to shop"
-	line "at the Dept.Store"
-	cont "and then…"
+	text "Iré de compras al"
+	line "Centro Comercial"
+	cont "y luego…"
 	done
 
 PokefanfGeorgiaBeatenText:
-	text "What was I going"
-	line "to do?"
+	text "¿Qué iba a hacer?"
 	done
 
 SupernerdShawnSeenText:
-	text "What kinds of #"
-	line "Balls do you have"
-	cont "with you?"
+	text "¿Qué clase de"
+	line "# Balls llevas"
+	cont "contigo?"
 	done
 
 SupernerdShawnBeatenText:
-	text "Wait! Stop! Don't!"
-	line "Please!"
+	text "¡Espera! ¡Para!"
+	line "¡No! ¡Por favor!"
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "Fast Ship S.S.Aqua"
-	line "has arrived in"
-	cont "Vermilion City."
+	text "El S.S. Aqua ha"
+	line "llegado a Ciudad"
+	cont "Carmín."
 	done

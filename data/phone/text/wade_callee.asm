@@ -1,77 +1,78 @@
 WadeAnswerPhoneText:
-	text "Hello? This is"
+	text "¿Hola? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "Oh. Hi, <PLAYER>!"
-	line "Good morning!"
+	para "Ah. ¡Hola,"
+	line "<PLAYER>!"
+	cont "¡Buenos días!"
 	done
 
 WadeAnswerPhoneDayText:
-	text "Hello? This is"
+	text "¿Hola? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "Oh, hi, <PLAYER>!"
+	para "¡Ah, hola,"
+	line "<PLAYER>!"
 	done
 
 WadeAnswerPhoneNiteText:
-	text "Hello? This is"
+	text "¿Hola? Al habla"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text "."
 
-	para "Oh, hi, <PLAYER>!"
-	line "Good evening!"
+	para "Ah. ¡Hola,"
+	line "<PLAYER>!"
+	cont "¡Buenas noches!"
 	done
 
 WadeGreetText:
-	text "<PLAYER>, good"
-	line "morning!"
+	text "¡Buenos días,"
+	line "<PLAYER>!"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
-	text "."
-	line "Isn't it nice out?"
+	text "!"
+	line "¿Hace buen día?"
 	done
 
 WadeGreetDayText:
-	text "<PLAYER>, howdy!"
+	text "¡Hola, <PLAYER>!"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
-	text "."
-	line "Isn't it nice out?"
+	text "!"
+	line "¿Hace buen día?"
 	done
 
 WadeGreetNiteText:
-	text "Good evening,"
+	text "¡Buenas noches,"
 	line "<PLAYER>!"
 
-	para "It's me, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
-	text "."
-	line "Were you awake?"
+	text "!"
+	line "¿Aún despierto?"
 	done
 
 WadeGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "¿Cómo están tus"
+	line "#mon?"
 
-	para "My #mon have"
-	line "too much energy to"
+	para "Los míos tienen"
+	line "tanta energía que"
+	cont "es un problema."
 
-	para "burn. It gets to"
-	line "be a problem."
-
-	para "Of all my #mon,"
+	para "Sobre todo mi"
 	line ""
 	text_ram wStringBuffer4
-	text " is the"
-	cont "hardest to handle."
+	text ", que"
+	cont "es muy rebelde."
 
-	para "Working with it is"
-	line "exhausting."
+	para "¡Entrenarlo es"
+	line "agotador!"
 	done

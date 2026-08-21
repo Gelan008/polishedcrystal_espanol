@@ -17,27 +17,25 @@ EcruteakLugiaSpeechHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakLugiaSpeechHouseYoungsterText, -1
 
 EcruteakLugiaSpeechHouseGrampsText:
-	text "This happened when"
-	line "I was young."
+	text "Esto ocurrió"
+	line "cuando era joven."
 
-	para "The sky suddenly"
-	line "turned black. A"
+	para "El cielo se puso"
+	line "negro de repente."
+	cont "¡Un gran #mon"
+	cont "tapaba el sol!"
 
-	para "giant flying #-"
-	line "mon was blocking"
-	cont "out the sun."
+	para "Me pregunto qué"
+	line "#mon sería."
 
-	para "I wonder what that"
-	line "#mon was?"
-
-	para "It was like a bird"
-	line "and a dragon."
+	para "Parecía mitad ave"
+	line "y mitad dragón."
 	done
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Is there really a"
-	line "#mon that big?"
+	text "¿Existe un #mon"
+	line "tan gigantesco?"
 
-	para "If it exists, it"
-	line "must be powerful."
+	para "Si es así, debe de"
+	line "ser muy poderoso."
 	done

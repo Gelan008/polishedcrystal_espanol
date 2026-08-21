@@ -43,142 +43,130 @@ CeladonUniversity1F_MapScriptHeader:
 	object_event 23, 13, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversity1FCooltrainerfText, -1
 
 CeladonUniversity1FSuperNerdText:
-	text "Some academics be-"
-	line "lieve there are"
+	text "Varios expertos"
+	line "creen que existen"
+	cont "otros universos"
+	cont "paralelos a este."
 
-	para "other universes"
-	line "parallel to this"
-	cont "one."
+	para "¿Significa que hay"
+	line "un universo sin"
+	cont "#mon?"
 
-	para "Does that mean"
-	line "there's a universe"
-
-	para "without any"
-	line "#mon?"
-
-	para "That would be"
-	line "tragic!"
+	para "¡Sería trágico!"
 	done
 
 CeladonUniversity1FLassText:
-	text "This place offers"
-	line "courses of study"
-
-	para "in everything from"
-	line "flower arranging"
-
-	para "to #mon"
-	line "psychology!"
+	text "Aquí dan cursos"
+	line "de todo, ¡desde"
+	cont "arreglos florales"
+	cont "hasta psicología"
+	cont "#mon!"
 	done
 
 CeladonUniversity1FCooltrainermText:
-	text "Everyone at this"
-	line "university is a"
-	cont "#mon trainer."
+	text "Todos en esta"
+	line "universidad son"
+	cont "entrenadores"
+	cont "#mon."
 
-	para "To get offered a"
-	line "place here, you"
-
-	para "have to pass a"
-	line "series of #mon"
-	cont "battling tests."
+	para "Para entrar debes"
+	line "aprobar unos tests"
+	cont "de combates"
+	cont "#mon."
 	done
 
 CeladonUniversity1FYoungsterText:
-	text "Magikarp is the"
-	line "university's mascot"
-	cont "#mon."
+	text "Magikarp es la"
+	line "mascota de la"
+	cont "universidad."
 
-	para "It's a symbol that"
-	line "anybody can aspire"
-	cont "to greatness!"
+	para "¡Es un símbolo de"
+	line "que todos pueden"
+	cont "alcanzar la"
+	cont "grandeza!"
 	done
 
 CeladonUniversity1FChildText:
-	text "Ugh! I can't find"
-	line "my next class…"
+	text "¡Uf! No encuentro"
+	line "mi clase…"
 
-	para "I'm gonna be late!"
+	para "¡Llegaré tarde!"
 	done
 
 CeladonUniversity1FPokefanmText:
-	text "I'm the janitor!"
+	text "¡Soy el conserje!"
 
-	para "Be careful, the"
-	line "floor is wet!"
+	para "¡Cuidado, el suelo"
+	line "está mojado!"
 	done
 
 CeladonUniversity1FReceptionistText:
-	text "Welcome to Celadon"
-	line "University!"
+	text "¡Bienvenido a la"
+	line "Univ. de Azulona!"
 
-	para "Classrooms and the"
-	line "principal's office"
-	cont "are down the hall."
+	para "Las aulas y la"
+	line "Dirección están al"
+	cont "fondo."
 
-	para "The library is to"
-	line "your right, the"
+	para "La biblioteca está"
+	line "a la derecha y la"
+	cont "sala de estar a la"
+	cont "izquierda."
 
-	para "student lounge to"
-	line "your left."
-
-	para "The cafeteria,"
-	line "pool, and nurse's"
-
-	para "office are up-"
-	line "stairs."
+	para "La cafetería,"
+	line "la piscina y la"
+	cont "enfermería están"
+	cont "arriba."
 	done
 
 CeladonUniversity1FCooltrainerfText:
-	text "I'm studying to be"
-	line "a #mon nurse."
+	text "Estudio para ser"
+	line "enfermera #mon."
 
-	para "With so many spe-"
-	line "cies out there,"
-
-	para "it's a steep"
-	line "learning curve!"
+	para "¡Con tantas"
+	line "especies hay mucho"
+	cont "que aprender!"
 	done
 
 CeladonUniversity1FPrincipalsOfficeSignText:
-	text "Principal's Office"
+	text "Dirección"
 	done
 
 CeladonUniversity1FClassroom1SignText:
-	text "W2 Art"
+	text "Arte O2"
 	done
 
 CeladonUniversity1FClassroom2SignText:
-	text "W1 History"
+	text "Historia O1"
 	done
 
 CeladonUniversity1FClassroom3SignText:
-	text "E1 Science"
+	text "Ciencia E1"
 	done
 
 CeladonUniversity1FClassroom4SignText:
-	text "E2 Battling"
+	text "Combate E2"
 	done
 
 CeladonUniversity1FStudentLoungeSignText:
-	text "Student Lounge"
+	text "Sala Estudiantes"
 	done
 
 CeladonUniversity1FLibrarySignText:
-	text "Library"
+	text "Biblioteca"
 	done
 
 CeladonUniversity1FTrophyCaseSignText:
-	text "The case is full"
-	line "of trophies and"
-	cont "medals."
+	text "La vitrina está"
+	line "llena de trofeos"
+	cont "y medallas."
 	done
 
 CeladonUniversity1FBookshelfText:
-	text "There are tons of"
-	line "yearbooks here."
+	text "Hay un montón de"
+	line "anuarios aquí."
 
-	para "Students have"
-	line "scribbled all over"
-	cont "them."
+	para "Los alumnos han"
+	line "garabateado por"
+	cont "todo el libro."
 	done

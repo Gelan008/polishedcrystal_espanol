@@ -39,8 +39,3 @@ RocketHideoutElevatorButton:
 	elevfloor FLOOR_B4F, 3, ROCKET_HIDEOUT_B4F
 	db -1 ; end
 
-.AppearsToNeedKeyText
-	text "It appears to"
-	line "need a key to"
-	cont "operate."
-	done

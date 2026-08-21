@@ -215,79 +215,76 @@ RuinsOfAlphResearchCenterApproachesComputerMovement:
 	step_end
 
 RuinsOfAlphResearchCenterModifiedDexText:
-	text "Done!"
+	text "¡Listo!"
 
-	para "I modified your"
+	para "He modificado tu"
 	line "#dex."
 
-	para "I added an"
-	line "optional #dex"
+	para "Le añadí un modo"
+	line "opcional para"
+	cont "guardar los datos"
+	cont "de los Unown."
 
-	para "to store Unown"
-	line "data."
-
-	para "It records them"
-	line "in alphabetical"
-	cont "order."
+	para "Los registrará en"
+	line "orden alfabético."
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #dex"
-	line "was upgraded."
+	text "¡La #dex de"
+	line "<PLAYER> se ha"
+	cont "actualizado!"
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The Unown you"
-	line "catch will all be"
-	cont "recorded."
+	text "Los Unown que"
+	line "atrapes quedarán"
+	cont "registrados."
 
-	para "Check to see how"
-	line "many kinds exist."
+	para "Comprueba cuántas"
+	line "formas existen."
 
-	para "You're doing a"
-	line "favor for us, so"
-
-	para "I'll give you some-"
-	line "thing nice if you"
-	cont "find all of them."
+	para "Nos haces un gran"
+	line "favor, así que te"
+	cont "premiaré si das"
+	cont "con todos."
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "You caught all the"
-	line "Unown variations?"
+	text "¿Has atrapado ya a"
+	line "todas las formas"
+	cont "de los Unown?"
 
-	para "That's a great"
-	line "achievement!"
+	para "¡Es un logro"
+	line "fantástico!"
 
-	para "You've been very"
-	line "helpful to our"
-	cont "research."
+	para "Nos has ayudado"
+	line "mucho en nuestro"
+	cont "estudio."
 
-	para "Let me give you"
-	line "this."
+	para "Déjame darte esto."
 	done
 
 GotUnownDollText:
-	text "<PLAYER> received"
-	line "Unown Doll."
+	text "¡<PLAYER> recibió"
+	line "el Muñeco Unown!"
 	done
 
 UnownDollSentText:
-	text "Unown Doll"
-	line "was sent home."
+	text "¡El Muñeco Unown"
+	line "se envió a casa!"
 	done
 
 RuinsofAlphResearchCenterScientistRewardText:
-	text "I designed that"
-	line "doll myself!"
+	text "¡Ese muñeco lo he"
+	line "diseñado yo mismo!"
 	done
 
 RuinsofAlphResearchCenterScientistInterruptedText:
-	text "You can--"
+	text "Puedes…"
 	done
 
 RuinsofAlphResearchCenterScientistShockedText:
-	text "What was THAT?!"
+	text "¡¿Qué fue eso?!"
 	done
 
 RuinsofAlphResearchCenterScientistConclusionText:
@@ -330,17 +327,14 @@ RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
-	text "Our investigation,"
-	line "with your help, is"
+	text "Gracias a tu gran"
+	line "ayuda avanzamos en"
+	cont "nuestra labor."
 
-	para "giving us insight"
-	line "into the ruins."
-
-	para "The ruins appear"
-	line "to have been built"
-
-	para "as a habitat for"
-	line "#mon."
+	para "Parece que las"
+	line "ruinas se crearon"
+	cont "como hábitat para"
+	cont "los #mon."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
@@ -386,20 +380,17 @@ RuinsOfAlphResearchCenterScientist2Text_FocusedOurStudies:
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
-	text "According to my"
-	line "research…"
+	text "Según mis estudios"
+	line "recientes…"
 
-	para "Those mysterious"
-	line "patterns appeared"
+	para "Los dibujos raros"
+	line "aparecieron al"
+	cont "abrir el Centro"
+	cont "#com."
 
-	para "when the #Com"
-	line "Center was built."
-
-	para "It must mean that"
-	line "radio waves have"
-
-	para "some sort of a"
-	line "link…"
+	para "¡Las ondas de"
+	line "radio deben de"
+	cont "guardar relación!"
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:
@@ -421,36 +412,35 @@ RuinsOfAlphResearchCenterComputerText:
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mystery #mon"
-	line "Name: Unown"
+	text "#mon misterioso"
+	line "Nombre: Unown"
 
-	para "A total of "
+	para "Un total de "
 	text_decimal hScriptVar, 1, 2
-	line "kinds found."
+	line "formas halladas."
 	done
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
-	text "It's a printer."
-	line "The display says"
+	text "Es una impresora."
+	line "En pantalla pone:"
 	cont "“PC LOAD LETTER”."
 
-	para "…What does that"
-	line "mean?"
+	para "… ¿Qué querrá"
+	line "decir eso?"
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
-	text "It's a photo of"
-	line "the Research"
-
-	para "Center's founder,"
-	line "Prof.Silktree."
+	text "Es una foto del"
+	line "fundador de este"
+	cont "Centro: el Prof."
+	cont "Silktree."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:
-	text "There are many"
-	line "academic books."
+	text "Hay muchos libros"
+	line "académicos."
 
-	para "Ancient Ruins…"
-	line "Mysteries of the"
-	cont "Ancients…"
+	para "Ruinas Antiguas…"
+	line "Misterios de los"
+	cont "Antiguos…"
 	done

@@ -248,54 +248,48 @@ GenericTrainerHikerTony:
 	done
 
 .SeenText:
-	text "I hiked through"
-	line "miles of woods"
-
-	para "just to see the"
-	line "legendary bird"
-	cont "#mon!"
+	text "¡He caminado mucho"
+	line "por el bosque para"
+	cont "ver al ave #mon"
+	cont "legendaria!"
 	done
 
 .BeatenText:
-	text "I'm exhausted…"
+	text "Estoy agotado…"
 	done
 
 CherrygroveBayFisherText:
-	text "I can watch"
-	line "Cherrygrove City"
+	text "Puedo ver Ciudad"
+	line "Cerezo desde lejos"
+	cont "mientras pesco."
 
-	para "from afar while"
-	line "I fish."
+	para "¡Ah! El otro día"
+	line "vi unas aves muy"
+	cont "grandes."
 
-	para "Oh! And I also saw"
-	line "some really big"
-
-	para "birds the other"
-	line "day."
-
-	para "I think they were"
-	line "headed to that big"
-	cont "ol' tree nearby?"
+	para "¿Iban hacia el"
+	line "árbol gigante de"
+	cont "por aquí?"
 	done
 
 CherrygroveBayHikerText:
-	text "I don't believe in"
-	line "legendary #mon"
-	cont "creation myths."
+	text "No creo en los"
+	line "mitos sobre la"
+	cont "creación de los"
+	cont "#mon"
+	cont "legendarios."
 
-	para "Johto was formed"
-	line "over millions of"
-
-	para "years by the power"
-	line "of the earth!"
+	para "¡Johto se formó"
+	line "durante millones"
+	cont "de años gracias a"
+	cont "la tierra viva!"
 	done
 
 Text_CherrygroveBayTutorEarthPower:
-	text "I can teach your"
-	line "#mon how to"
-
-	para "use Earth Power"
-	line "for a Silver Leaf."
+	text "Puedo enseñar a tu"
+	line "#mon a usar"
+	cont "Tierra Viva por"
+	cont "una Hoja Plata."
 	done
 
 Text_CherrygroveBayTutorNoSilverLeaf:
@@ -304,11 +298,10 @@ Text_CherrygroveBayTutorNoSilverLeaf:
 	done
 
 Text_CherrygroveBayTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Earth Power?"
+	text "¿Debería enseñar"
+	line "a tu #mon"
+	cont "Tierra Viva?"
 	done
-
 Text_CherrygroveBayTutorRefused:
 	text "Oh well."
 	done

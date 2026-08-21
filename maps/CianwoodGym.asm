@@ -118,61 +118,66 @@ CianwoodGymMovement_ChuckChucksBoulder:
 	step_end
 
 ChuckIntroText1:
-	text "WAHAHAH!"
+	text "¡WARRGH!"
 
-	para "So you've come"
-	line "this far!"
+	para "El agua caía de"
+	line "lleno sobre mi"
+	cont "cabeza…"
 
-	para "Let me tell you,"
-	line "I'm tough!"
+	para "¿Por qué cortaste"
+	line "la cascada?"
 
-	para "My #mon will"
-	line "crush stones and"
-	cont "shatter bones!"
+	para "¡Has arruinado mi"
+	line "entrenamiento!"
 
-	para "Watch this!"
+	para "¡Te advierto que"
+	line "soy muy duro!"
+
+	para "¡Mis #mon"
+	line "rompen rocas y"
+	cont "quiebran huesos!"
+
+	para "¡Mira esto!"
 	done
 
 ChuckIntroText2:
-	text "Chuck: Urggh!"
+	text "Aníbal: ¡Urggh!"
 	line "…"
 
-	para "Oooarrgh!"
+	para "¡Oooarrgh!"
 	done
 
 ChuckIntroText3:
-	text "There! Scared now,"
-	line "are you?"
+	text "¡Ahí lo tienes!"
+	line "¿Te asusta?"
 
-	para "What?"
-	line "It has nothing to"
+	para "¿Qué? ¿Que no"
+	line "tiene que ver con"
+	cont "los #mon?"
+	cont "¡Es verdad!"
 
-	para "do with #mon?"
-	line "That's true!"
-
-	para "Come on. We shall"
-	line "do battle!"
+	para "¡Venga, a luchar!"
 	done
 
 ChuckLossText:
-	text "Wha? Huh?"
-	line "I lost?"
+	text "¿Qué? ¿Eh?"
+	line "¿He perdido?"
 
-	para "How about that!"
-	line "You're worthy of"
-	cont "the Storm Badge!"
+	para "¡Qué te parece!"
+	line "¡Eres digno de la"
+	cont "Medalla Tormenta!"
 	done
 
 ChuckExplainBadgeText:
-	text "The Storm Badge"
-	line "lets your #mon"
+	text "La Medalla"
+	line "Tormenta permite"
+	cont "a tus #mon"
+	cont "usar Vuelo para"
+	cont "volar a cualquier"
+	cont "sitio visitado."
 
-	para "Fly to any city"
-	line "or town you've"
-	cont "already been to."
-
-	para "Here, take this"
-	line "too!"
+	para "¡Toma, llévate"
+	line "esto también!"
 	done
 
 ChuckExplainTMText:
@@ -187,43 +192,44 @@ ChuckExplainTMText:
 	done
 
 ChuckAfterText:
-	text "WAHAHAH! I enjoyed"
-	line "battling you!"
+	text "¡WAJAJA! ¡Me ha"
+	line "encantado luchar"
+	cont "contigo!"
 
-	para "But a loss is a"
-	line "loss!"
+	para "¡Pero una derrota"
+	line "es una derrota!"
 
-	para "From now on, I'm"
-	line "going to train 24"
-	cont "hours a day!"
+	para "¡A partir de hoy"
+	line "entrenaré las 24"
+	cont "horas del día!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "My #mon and I"
-	line "are bound togeth-"
-	cont "er by friendship."
+	text "Mis #mon y yo"
+	line "estamos unidos"
+	cont "por la amistad."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "¡Nuestro vínculo"
+	line "nunca se romperá!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "This isn't real!"
+	text "¡Esto no es real!"
 	done
 
 BlackbeltLaoSeenText:
-	text "We martial artists"
-	line "fear nothing!"
+	text "¡Los luchadores"
+	line "no tememos a nada!"
 	done
 
 BlackbeltLaoBeatenText:
-	text "That's shocking!"
+	text "¡Qué sorpresa!"
 	done
 
 BlackbeltNobSeenText:
-	text "Words are useless."
-	line "Let your fists do"
-	cont "the talking!"
+	text "Las palabras no"
+	line "sirven. ¡Deja que"
+	cont "tus puños hablen!"
 	done
 
 BlackbeltNobBeatenText: ; text > text
@@ -231,19 +237,21 @@ BlackbeltNobBeatenText: ; text > text
 	done
 
 BlackbeltLungSeenText:
-	text "My raging fists"
-	line "will shatter your"
-	cont "#mon!"
+	text "¡Mis fieros puños"
+	line "destrozarán a"
+	cont "tus #mon!"
 	done
 
 BlackbeltLungBeatenText:
-	text "I got shattered!"
+	text "¡Me destrozaron!"
 	done
 
 CianwoodGymBlackBeltText:
-	text "The Gym guide is"
-	line "too scared of us"
-	cont "to stay here."
+	text "El guía del"
+	line "Gimnasio está"
+	cont "demasiado asustado"
+	cont "de nosotros para"
+	cont "asomarse por aquí."
 
-	para "What a wimp!"
+	para "¡Qué cobarde!"
 	done

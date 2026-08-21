@@ -85,87 +85,79 @@ PewterGymStatue:
 	jumpstd gymstatue2
 
 BrockIntroText:
-	text "Brock: Wow, it's"
-	line "not often that we"
+	text "Brock: ¡No suelo"
+	line "recibir aspirantes"
+	cont "de Johto!"
 
-	para "get a challenger"
-	line "from Johto."
+	para "Soy Brock, Líder"
+	line "de Gimnasio de"
+	cont "Plateada."
 
-	para "I'm Brock, the"
-	line "Pewter Gym Leader."
+	para "Soy un experto en"
+	line "#mon tipo Roca."
 
-	para "I'm an expert on"
-	line "Rock-type #mon."
+	para "Resisten muy bien"
+	line "los ataques"
+	cont "físicos."
 
-	para "My #mon are im-"
-	line "pervious to most"
+	para "¡Te costará mucho"
+	line "hacerles daño!"
 
-	para "physical attacks."
-	line "You'll have a hard"
-
-	para "time inflicting"
-	line "any damage."
-
-	para "Come on!"
+	para "¡Adelante!"
 	done
 
 BrockWinLossText:
-	text "Brock: Your #-"
-	line "mon's powerful at-"
-	cont "tacks overcame my"
-	cont "rock-hard defense…"
+	text "Brock: Los ataques"
+	line "de tus #mon"
+	cont "superaron mi gran"
+	cont "defensa de roca…"
 
-	para "You're stronger"
-	line "than I expected…"
+	para "Eres más fuerte de"
+	line "lo que esperaba…"
 
-	para "Go ahead--take"
-	line "this Badge."
+	para "Adelante, toma"
+	line "esta Medalla."
 	done
 
 BrockBoulderBadgeText:
-	text "Brock: <PLAYER>,"
-	line "thanks. I enjoyed"
+	text "Brock: Gracias,"
+	line "<PLAYER>."
 
-	para "battling you, even"
-	line "though I am a bit"
-	cont "upset."
+	para "Me ha encantado"
+	line "este combate."
 
-	para "I'll give you the"
-	line "TM for Rock Slide,"
-	cont "too."
+	para "¡Toma también la"
+	line "MT de Avalancha!"
 	done
 
 BrockFightDoneText:
-	text "Brock: The world"
-	line "is huge. There are"
+	text "Brock: El mundo es"
+	line "enorme. Aún hay"
+	cont "rivales fuertes"
+	cont "como tú."
 
-	para "still many strong"
-	line "trainers like you."
-
-	para "Just wait and see."
-	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	para "Ya lo verás ¡Yo"
+	line "también me haré"
+	cont "mucho más fuerte!"
 	done
 
 CamperJerrySeenText:
-	text "The trainers of"
-	line "this Gym use Rock-"
-	cont "type #mon."
+	text "Aquí usamos"
+	line "#mon de tipo"
+	cont "Roca."
 
-	para "The Rock-type has"
-	line "high Defense."
+	para "Tienen una gran"
+	line "Defensa física."
 
-	para "Battles could end"
-	line "up going a long"
+	para "Los combates se"
+	line "hacen muy largos."
 
-	para "time. Are you"
-	line "ready for this?"
+	para "¿Podrás con ello?"
 	done
 
 CamperJerryBeatenText:
-	text "I have to win"
-	line "these battles…"
+	text "Tengo que ganar"
+	line "estos combates…"
 	done
 
 HikerEdwinSeenText: ; text > text
@@ -194,15 +186,13 @@ PewterGymGuyText:
 	done
 
 PewterGymGuyWinText:
-	text "Yo! Champ in"
-	line "making! That Gym"
+	text "¡Hola, futuro"
+	line "campeón!"
 
-	para "didn't give you"
-	line "much trouble."
+	para "¡Este Gimnasio no"
+	line "te dio problemas!"
 
-	para "The way you took"
-	line "charge was really"
-
-	para "inspiring. I mean"
-	line "that seriously."
+	para "¡Tu combate fue"
+	line "muy inspirador!"
+	cont "¡Lo digo en serio!"
 	done

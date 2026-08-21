@@ -61,9 +61,9 @@ SilphCo2FScientist1Text2:
 	done
 
 SilphCo2FScientist2Text:
-	text "I'm coding! Don't"
-	line "break my concen-"
-	cont "tration!"
+	text "¡Estoy en mitad de"
+	line "un trabajo!"
+	cont "¡No me distraigas!"
 	done
 
 SilphCo2FSilphEmployee1Text:
@@ -78,22 +78,19 @@ SilphCo2FSilphEmployee1Text:
 	done
 
 SilphCo2FSilphEmployee2Text:
-	text "We're always work-"
-	line "ing on new TMs."
+	text "Antes usábamos los"
+	line "teletransportes"
+	cont "para movernos,"
+	cont "pero los apagaron."
 
-	para "Some have been"
-	line "discontinued, but"
-
-	para "others are so pop-"
-	line "ular that they"
-
-	para "haven't changed in"
-	line "over 20 years!"
+	para "¡Menos mal que"
+	line "estoy en la"
+	cont "primera planta!"
 	done
 
 SilphCo2FDeptSignText:
-	text "Silph Co. 2F"
-	line "Software Dev."
+	text "Silph S.A. P1"
+	line "Desarrollo soft."
 	done
 
 SilphCo2FElevatorText:

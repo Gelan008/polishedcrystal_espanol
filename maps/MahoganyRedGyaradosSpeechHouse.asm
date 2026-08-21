@@ -26,21 +26,18 @@ MahoganyRedGyaradosSpeechHouseTeacherScript:
 	done
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "I heard that a red"
-	line "Gyarados appeared"
-	cont "at the lake."
+	text "Oí que se vio un"
+	line "Gyarados rojo en"
+	cont "el lago."
 
-	para "That's odd, since"
-	line "even ordinary"
-
-	para "Gyarados are rare"
-	line "in that lake…"
+	para "Es raro, pues los"
+	line "normales ya son"
+	cont "raros de ver allí…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "I've been hearing"
-	line "laughter on the"
+	text "He estado oyendo"
+	line "risas en la radio…"
 
-	para "radio…"
-	line "It's creepy."
+	para "Es espeluznante."
 	done

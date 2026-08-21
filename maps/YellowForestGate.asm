@@ -31,23 +31,23 @@ YellowForestGateNurseScript:
 	jumptext YellowForestGateNurseHealedText
 
 YellowForestGateOfficerText:
-	text "There are rare"
-	line "#mon in"
-	cont "Yellow Forest!"
+	text "¡Hay #mon muy"
+	line "raros en el"
+	cont "Bosque Amarillo!"
 
-	para "Don't forget to"
-	line "bring # Balls!"
+	para "¡No olvides traer"
+	line "# Balls!"
 
-	para "That guy is sell-"
-	line "ing some spares."
+	para "Ese chico vende"
+	line "las que le sobran."
 	done
 
 YellowForestGateNurseText:
-	text "Your #mon look"
-	line "worn out."
+	text "Tus #mon"
+	line "parecen agotados."
 
-	para "Let me heal them"
-	line "for you."
+	para "Deja que los cure"
+	line "por ti."
 	done
 
 YellowForestGateNurseHealedText:
@@ -58,5 +58,5 @@ YellowForestGateNurseHealedText:
 	done
 
 YellowForestGateChanseyText:
-	text "Chansey: Sii!"
+	text "Chansey: ¡Sii!"
 	done

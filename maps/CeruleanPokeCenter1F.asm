@@ -53,27 +53,20 @@ CeruleanPokeCenter1FGymGuyScript:
 	done
 
 .MetricText:
-	text "The Magnet Train"
-	line "travels at over"
+	text "El Magnetotrén va"
+	line "a más de 550 km/h."
 
-	para "550 kph. It goes"
-	line "between Kanto and"
+	para "¡Une Kanto y Johto"
+	line "en un santiamén!"
 
-	para "Johto in almost no"
-	line "time at all."
-
-	para "It really makes"
-	line "Johto accessible."
+	para "¡Así Johto queda"
+	line "muy accesible!"
 	done
 
 CeruleanPokeCenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
-
-	para "#mon I've been"
-	line "raising, even if"
-
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #mon."
+	text "Prefiero luchar"
+	line "con mis #mon,"
+	cont "aunque sean más"
+	cont "débiles que otros"
+	cont "recién atrapados."
 	done

@@ -88,91 +88,86 @@ GoldenrodUndergroundWarehouseDirectorScript:
 	jumpopenedtext DirectorAfterText
 
 GruntM24SeenText:
-	text "How did you get"
-	line "this far?"
+	text "¿Cómo has llegado"
+	line "hasta aquí?"
 
-	para "I guess it can't"
-	line "be helped. I'll"
-	cont "dispose of you."
+	para "No hay remedio."
+	line "¡Me desharé de ti!"
 	done
 
 GruntM24BeatenText:
-	text "I got disposed of…"
+	text "Se deshicieron"
+	line "de mí…"
 	done
 
 GruntM14SeenText:
-	text "You're not going"
-	line "any farther!"
+	text "¡No vas a ir más"
+	line "lejos!"
 
-	para "I don't show mercy"
-	line "to my enemies, not"
-	cont "even brats!"
+	para "No tengo piedad"
+	line "con mis enemigos,"
+	cont "¡ni siquiera con"
+	cont "los mocosos!"
 	done
 
 GruntM14BeatenText:
-	text "Blast it!"
+	text "¡Maldición!"
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "I remember you!"
+	text "¡Je, je, je!"
+	line "¡Me acuerdo de ti!"
 
-	para "You got me good"
-	line "at our hideout!"
+	para "¡Me zurraste en"
+	line "nuestra guarida!"
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "So, that's how?"
+	text "¡Je, je, je!"
+	line "Entonces, ¿así?"
 	done
 
 DirectorIntroText:
-	text "Director: Who?"
-	line "What? You came to"
-	cont "rescue me?"
+	text "Director: ¿Eh?"
+	line "¿Has venido a"
+	cont "rescatarme?"
 
-	para "Thank you!"
+	para "¡Muchas gracias!"
 
-	para "The Radio Tower!"
+	para "¿La Torre Radio?"
+	line "¿Qué ocurre allí?"
 
-	para "What's happening"
-	line "there?"
+	para "¿La tomó el"
+	line "Team Rocket?"
 
-	para "Taken over by Team"
-	line "Rocket?"
-
-	para "Here. Take this"
-	line "Card Key."
+	para "Toma. ¡Llévate"
+	line "esta Llave Magné.!"
 	done
 
 DirectorCardKeyText:
-	text "Director: Use that"
-	line "to open the shut-"
-	cont "ters on 3F."
+	text "Director: Úsala"
+	line "para abrir las"
+	cont "persianas de la"
+	cont "P3."
 	done
 
 DirectorAfterText:
-	text "I'm begging you to"
-	line "help."
+	text "Te ruego que nos"
+	line "ayudes."
 
-	para "There's no telling"
-	line "what they'll do if"
+	para "No se sabe qué"
+	line "harán si dominan"
+	cont "el transmisor."
 
-	para "they control the"
-	line "transmitter."
+	para "¡Podrían llegar a"
+	line "controlar a los"
+	cont "#mon con una"
+	cont "señal especial!"
 
-	para "They may even be"
-	line "able to control"
+	para "Solo puedo pedirte"
+	line "ayuda a ti."
 
-	para "#mon using a"
-	line "special signal!"
-
-	para "You're the only"
-	line "one I can call on."
-
-	para "Please save the"
-	line "Radio Tower…"
-
-	para "And all the #-"
-	line "mon nationwide!"
+	para "Por favor, ¡salva"
+	line "la Torre Radio y a"
+	cont "todos los #mon!"
 	done

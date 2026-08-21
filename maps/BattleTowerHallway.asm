@@ -66,8 +66,8 @@ BattleTowerHallwayFollowReceptionist:
 	end
 
 .PleaseStepThisWayText:
-	text "Please step this"
-	line "way."
+	text "Pase por aquí,"
+	line "por favor."
 	done
 
 MovementData_BattleTowerHallwayWalkTo1020Room:

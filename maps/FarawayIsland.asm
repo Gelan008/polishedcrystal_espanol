@@ -139,20 +139,20 @@ FarawayIslandSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryFarawayToVermilionQuestionText:
-	text "Ready to head back"
-	line "to Vermilion City?"
+	text "¿Listo para volver"
+	line "a Ciudad Carmín?"
 	done
 
 SeagallopFerryFarawayToVermilionText:
-	text "All right!"
+	text "¡De acuerdo!"
 
-	para "All aboard the"
-	line "Seagallop Ferry!"
+	para "¡Todos a bordo del"
+	line "Surcamar Veloce!"
 	done
 
 SeagallopFerryFarawayIslandRefusedText:
-	text "I'll be waiting"
-	line "right here."
+	text "Estaré esperando"
+	line "justo aquí."
 	done
 
 FarawayIslandLawrenceText1:

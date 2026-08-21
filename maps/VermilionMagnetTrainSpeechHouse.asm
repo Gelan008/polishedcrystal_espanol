@@ -16,16 +16,16 @@ VermilionMagnetTrainSpeechHouse_MapScriptHeader:
 	object_event  0,  3, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionMagnetTrainSpeechHouseYoungsterText, -1
 
 VermilionMagnetTrainSpeechHousePokefanFText:
-	text "Do you know about"
-	line "the Magnet Train?"
+	text "¿Sabes lo del"
+	line "Magnetotrén?"
 
-	para "It's a railway"
-	line "that goes to Gol-"
-	cont "denrod in Johto."
+	para "Es un tren que va"
+	line "a Ciudad Trigal,"
+	cont "en Johto."
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
-	text "I want to go to"
-	line "Saffron to see"
-	cont "the Magnet Train."
+	text "Iré a Azafrán"
+	line "para poder ver el"
+	cont "Magnetotrén."
 	done

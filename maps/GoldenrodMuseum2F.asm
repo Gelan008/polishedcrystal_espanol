@@ -130,9 +130,10 @@ EmptyDisplayText:
 	done
 
 TowerRelicText:
-	text "An ancient mural"
-	line "depicting a mys-"
-	cont "terious #mon."
+	text "Un antiguo mural"
+	line "que representa a"
+	cont "un misterioso"
+	cont "#mon."
 	done
 
 GoldenrodMuseum2FSightseerMScript:
@@ -172,7 +173,7 @@ GoldenrodMuseum2FSightseerMNoPaintingText:
 	done
 
 GoldenrodMuseum2FSmeargleText:
-	text "Smeargle: Smeer!"
+	text "Smeargle: ¡Smiir!"
 	done
 
 GoldenrodMuseum2FScientistScript:
@@ -243,39 +244,28 @@ GoldenrodMuseum2FTutorBatonPassScript:
 	jumpopenedtext GoldenrodMuseum2FTutorTaught
 
 GoldenrodMuseum2FTutorIntroText:
-	text "Before the con-"
-	line "struction of the"
+	text "Antes de crear la"
+	line "nueva Torre Radio,"
+	cont "había una torre de"
+	cont "madera allí."
 
-	para "new Radio Tower,"
-	line "there once stood"
+	para "Este mural estaba"
+	line "en aquella torre."
 
-	para "an ancient wooden"
-	line "tower."
+	para "Moverlo aquí fue"
+	line "clave para salvar"
+	cont "la historia local."
 
-	para "This mural was"
-	line "originally in"
-	cont "that tower."
-
-	para "Moving it here"
-	line "was necessary"
-
-	para "to preserve a"
-	line "piece of Johto's"
-	cont "history."
-
-	para "Even #mon"
-	line "can understand"
-
-	para "the value of"
-	line "preservation!"
+	para "¡Hasta los #mon"
+	line "entienden el valor"
+	cont "de conservarlo!"
 	done
 
 GoldenrodMuseum2FTutorBatonPassText:
-	text "I can teach your"
-	line "#mon to use"
-
-	para "Baton Pass for one"
-	line "Silver Leaf."
+	text "Puedo enseñar a tu"
+	line "#mon a usar"
+	cont "Relevo por una"
+	cont "Hoja Plata."
 	done
 
 GoldenrodMuseum2FTutorNoSilverLeaf:
@@ -284,9 +274,9 @@ GoldenrodMuseum2FTutorNoSilverLeaf:
 	done
 
 GoldenrodMuseum2FTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Baton Pass?"
+	text "¿Quieres que le"
+	line "enseñe Relevo a"
+	cont "tu #mon?"
 	done
 
 GoldenrodMuseum2FTutorRefused:

@@ -35,14 +35,14 @@ GenericTrainerBreederCarlene:
 	done
 
 .SeenText:
-	text "My team is bred"
-	line "to handle any"
-	cont "situation!"
+	text "¡Crié a mi equipo"
+	line "para toda clase"
+	cont "de situaciones!"
 	done
 
 .BeatenText:
-	text "We couldn't"
-	line "handle you!"
+	text "¡No hemos podido"
+	line "contigo!"
 	done
 
 Route7Snorlax:
@@ -70,34 +70,33 @@ Route7Snorlax:
 	done
 
 .AwakeText:
-	text "The #gear was"
-	line "placed near the"
-	cont "sleeping Snorlax…"
+	text "Suena el #gear"
+	line "cerca de Snorlax…"
 
 	para "…"
 
-	para "Snorlax woke up!"
+	para "¡Snorlax se ha"
+	line "despertado!"
 	done
 
 Route7UndergroundPathSignText:
-	text "What's this flyer?"
+	text "¿Qué es este"
+	line "folleto?"
 
-	para "“Uncouth trainers"
-	line "have been holding"
+	para "Muchos rivales"
+	line "rudos han estado"
+	cont "luchando en la"
+	cont "Vía Subterránea."
 
-	para "battles in the"
-	line "Underground Path."
+	para "Por las continuas"
+	line "quejas vecinales,"
+	cont "la Vía queda"
+	cont "clausurada por un"
+	cont "tiempo indefinido."
 
-	para "Because of rising"
-	line "complaints by lo-"
-	cont "cal residents, the"
-	cont "Underground Path"
-	cont "has been sealed"
-	cont "indefinitely.”"
-
-	para "-- Celadon Police"
+	para "-- Policía Azulona"
 	done
 
 Route7LockedDoorText:
-	text "It's locked…"
+	text "Está cerrado…"
 	done

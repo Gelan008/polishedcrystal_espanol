@@ -38,13 +38,14 @@ GenericTrainerFisherMartin:
 	done
 
 FisherMartinSeenText:
-	text "Patience is the"
-	line "key to both fish-"
-	cont "ing and #mon."
+	text "La paciencia es"
+	line "la clave tanto al"
+	cont "pescar como con"
+	cont "los #mon."
 	done
 
 FisherMartinBeatenText:
-	text "Gwaaah!"
+	text "¡Guaaaaah!"
 	done
 
 GenericTrainerFisherStephen:
@@ -58,15 +59,15 @@ GenericTrainerFisherStephen:
 	done
 
 FisherStephenSeenText:
-	text "I feel so content,"
-	line "fishing while lis-"
-	cont "tening to some"
-	cont "tunes on my radio."
+	text "Me siento en paz"
+	line "pescando mientras"
+	cont "escucho música en"
+	cont "mi radio."
 	done
 
 FisherStephenBeatenText:
-	text "My stupid radio"
-	line "distracted me!"
+	text "¡Esta radio me ha"
+	line "despistado!"
 	done
 
 GenericTrainerFisherBarney:
@@ -89,14 +90,14 @@ GenericTrainerFisherBarney:
 	done
 
 FisherBarneySeenText:
-	text "What's most impor-"
-	line "tant in our every-"
-	cont "day lives?"
+	text "¿Qué es lo más"
+	line "importante para"
+	cont "nuestro día a día?"
 	done
 
 FisherBarneyBeatenText:
-	text "The answer is"
-	line "coming up next!"
+	text "¡La respuesta a"
+	line "continuación!"
 	done
 
 GenericTrainerFisherKyler:
@@ -181,20 +182,20 @@ GenericTrainerCoupleVicandtara2:
 	done
 
 .SeenText:
-	text "Tara: I love to"
-	line "look at my boy-"
-	cont "friend's face while"
-	cont "he's battling!"
+	text "Tara: ¡Me encanta"
+	line "mirar la cara de"
+	cont "mi novio cuando"
+	cont "está luchando!"
 	done
 
 .BeatenText:
-	text "Tara: Oh no,"
-	line "oh no…"
+	text "Tara: ¡Oh, no!"
+	line "¡Oh, no!…"
 	done
 
 Route12SignText:
-	text "Route 12"
+	text "Ruta 12"
 
-	para "North to Lavender"
-	line "Town"
+	para "Al norte:"
+	line "Pueblo Lavanda"
 	done

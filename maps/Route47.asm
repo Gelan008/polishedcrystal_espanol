@@ -291,124 +291,123 @@ GenericTrainerGruntM26:
 	done
 
 HikerDevinSeenText:
-	text "Battles are"
-	line "battles, so"
-	cont "let's go!"
+	text "Un combate es un"
+	line "combate, ¡así que"
+	cont "al lío!"
 	done
 
 HikerDevinBeatenText:
-	text "Wah ha ha!"
+	text "¡Ja, ja, ja!"
 	done
 
 CamperGrantSeenText:
-	text "I'm not good with"
-	line "crowds, so I'm"
-	cont "camping out here"
-	cont "with my #mon!"
+	text "No me gusta la"
+	line "multitud, ¡así que"
+	cont "acampo aquí con"
+	cont "mis #mon!"
 	done
 
 CamperGrantBeatenText:
-	text "I should head"
-	line "deeper into the"
-	cont "mountain…"
+	text "Debería ir más"
+	line "hacia el fondo de"
+	cont "la montaña…"
 	done
 
 AceDuoThomandkae1SeenText:
-	text "Thom: One plus one"
-	line "is two. But the"
-
-	para "two of us together"
-	line "is much stronger!"
+	text "Thom: Uno más uno"
+	line "son dos. ¡Pero los"
+	cont "dos juntos somos"
+	cont "mucho más fuertes!"
 	done
 
 AceDuoThomandkae1BeatenText:
-	text "Thom: That wasn't"
-	line "what I expected…"
+	text "Thom: ¡No esperaba"
+	line "esto para nada…!"
 	done
 
 AceDuoThomandkae2SeenText:
-	text "Kae: The two of us"
-	line "aren't just some"
-	cont "boring pair!"
+	text "Kae: ¡No somos"
+	line "una pareja común!"
 	done
 
 AceDuoThomandkae2BeatenText:
-	text "Kae: You're"
-	line "unusual, too!"
+	text "Kae: ¡Tú tampoco"
+	line "te quedas atrás!"
 	done
 
 CoupleDuffandeda1SeenText:
-	text "Duff: Watching"
-	line "over my girlfriend"
+	text "Duff: Cuidar de"
+	line "mi novia hace que"
 
-	para "makes my heart"
-	line "soar!"
+	para "mi corazón se"
+	line "desboque."
 	done
 
 CoupleDuffandeda1BeatenText:
-	text "Duff: I was no"
-	line "match for you…"
+	text "Duff: No he sido"
+	line "rival para ti…"
 	done
 
 CoupleDuffandeda2SeenText:
-	text "Eda: My feelings"
-	line "for my boyfriend"
-
-	para "are as wide and"
-	line "deep as the ocean."
+	text "Eda: Lo que siento"
+	line "por mi novio es"
+	cont "tan inmenso y"
+	cont "hondo como el mar."
 	done
 
 CoupleDuffandeda2BeatenText:
-	text "Eda: You're really"
-	line "something…"
+	text "Eda: Eres alguien"
+	line "increíble…"
 	done
 
 CowgirlDanielaSeenText:
-	text "Hiya, cutie!"
+	text "¡Hola, encanto!"
 	done
 
 CowgirlDanielaBeatenText:
-	text "Well aren't you a"
-	line "feisty one?"
+	text "¡Menudo genio te"
+	line "gastas!"
 	done
 
 GruntF6SeenText:
-	text "Why should we"
-	line "raise #mon like"
-	cont "ordinary trainers?"
+	text "¿Por qué criar a"
+	line "los #mon como"
 
-	para "We're Team Rocket!"
+	para "entrenadores del"
+	line "montón?"
+
+	para "¡Somos el Team"
+	line "Rocket!"
 	done
 
 GruntF6BeatenText:
-	text "Who are you?!"
+	text "¿Quién eres tú?"
 	done
 
 GruntM23SeenText:
-	text "Aww, are you here"
-	line "to save the cute"
-	cont "little #mon?"
+	text "¿Vienes a salvar"
+	line "a los pobres"
+	cont "#mon?"
 	done
 
 GruntM23BeatenText:
-	text "Ack!"
-	line "You're tough!"
+	text "¡Puaj!"
+	line "¡Eres fuerte!"
 	done
 
 GruntM26SeenText:
-	text "Stop meddling with"
-	line "our plans!"
+	text "¡Deja de meterte"
+	line "en nuestros"
+	cont "planes!"
 	done
 
 GruntM26BeatenText:
-	text "Just leave us"
-	line "alone…"
+	text "Déjanos en paz…"
 	done
 
 Route47RocketGirlText:
-	text "What are you head-"
-	line "ing this way for,"
-	cont "you brat?"
+	text "¿Adónde crees que"
+	line "vas, renacuajo?"
 	done
 
 Route47SealedCaveSign:
@@ -421,25 +420,23 @@ Route47SealedCaveSign:
 	done
 
 Route47QuietCaveSignText:
-	text "Route 47"
+	text "Ruta 47"
 
-	para "West to"
-	line "Quiet Cave"
+	para "Al oeste hacia la"
+	line "Cueva Calma"
 	done
 
 Route47AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo Avanzado!"
 
-	para "Some #mon found"
-	line "in certain areas"
+	para "¡Ciertos #mon"
+	line "de algunas zonas"
+	cont "podrían saber un"
+	cont "movimiento único"
+	cont "de ese lugar!"
 
-	para "may know a move"
-	line "unique to that"
-	cont "area!"
-
-	para "But these moves"
-	line "can't be remembered"
-
-	para "or inherited via"
-	line "breeding!"
+	para "¡Pero estos"
+	line "ataques no se"
+	cont "recuerdan ni se"
+	cont "heredan al criar!"
 	done

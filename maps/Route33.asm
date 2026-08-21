@@ -135,45 +135,47 @@ GenericTrainerSchoolgirlImogen:
 	done
 
 HikerAnthony1SeenText:
-	text "I came through the"
-	line "tunnel, but I"
-
-	para "still have plenty"
-	line "of energy left."
+	text "He cruzado todo"
+	line "el túnel, pero"
+	cont "aún me queda un"
+	cont "montón de energía."
 	done
 
 HikerAnthony1BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "¡Hala! ¡Tienes más"
+	line "chispa que yo!"
 	done
 
 HikerAnthony1AfterText:
-	text "We Hikers are at"
-	line "our best in the"
-	cont "mountains."
+	text "Los Montañeros"
+	line "damos lo mejor de"
+	cont "nosotros en la"
+	cont "montaña."
 	done
 
 HikerAnthonyDunsparceText:
-	text "Hey, did you get a"
+	text "Oye, ¿atrapaste un"
 	line "Dunsparce?"
 
-	para "I caught one too."
+	para "Yo también atrapé"
+	line "uno."
 
-	para "Take a look at it"
-	line "in the light. It's"
-	cont "got a funny face!"
+	para "Míralo bien a la"
+	line "luz. ¡Tiene una"
+	cont "cara muy graciosa!"
 	done
 
 SchoolgirlImogenSeenText:
-	text "I'm the best in my"
-	line "class at #mon."
+	text "Soy la mejor de mi"
+	line "clase con los"
+	cont "#mon."
 	done
 
 SchoolgirlImogenBeatenText:
-	text "So there are bet-"
-	line "ter trainers…"
+	text "Hay entrenadores"
+	line "mejores que yo…"
 	done
 
 Route33SignText:
-	text "Route 33"
+	text "Ruta 33"
 	done
