@@ -21,6 +21,11 @@ La versión oficial anterior fue la [v3.1.1](https://github.com/Rangi42/polished
 
 *Si tienes alguna pregunta sobre cómo jugar o aplicar el parche, ¡[lee las Preguntas Frecuentes (FAQ)](FAQ.md)!*
 
+En español no existe una versión oficial actual, ya que la traducción comenzó con código más actualizado, y de momento no he podido pasar los textos a la v3.2.3, puedes descargar la última versión de la traducción en la pestaña "releases":[v3.2.x](https://github.com/Gelan008/polishedcrystal_espanol/releases/tag/v3.2.x-es-v1.0)
+
+Si encuentras algún fallo en los textos hazmelo saber.
+
+
 ## Novedades de la v3.2.3
 
 A continuación se muestra un breve resumen de los cambios y adiciones importantes. Pronto se publicará un registro de cambios más detallado.
