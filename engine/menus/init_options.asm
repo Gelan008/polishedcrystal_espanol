@@ -422,7 +422,7 @@ InitialOptions_ExpScaling:
 	ret
 
 .Old:
-	db "Viejo@"
+	db "Viej@"
 .New:
 	db "Nuevo@"
 
