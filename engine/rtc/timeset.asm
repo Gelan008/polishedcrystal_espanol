@@ -434,13 +434,13 @@ Special_SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db " Sunday@"
-.Monday:    db " Monday@"
-.Tuesday:   db " Tuesday@"
-.Wednesday: db "Wednesday@"
-.Thursday:  db "Thursday@"
-.Friday:    db " Friday@"
-.Saturday:  db "Saturday@"
+.Sunday:    db " Domingo@"
+.Monday:    db " Lunes@"
+.Tuesday:   db " Martes@"
+.Wednesday: db " Miérco.@"
+.Thursday:  db " Jueves@"
+.Friday:    db " Viernes@"
+.Saturday:  db " Sábado@"
 
 .WhatDayIsItText:
 	; What day is it?
