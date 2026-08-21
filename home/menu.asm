@@ -380,7 +380,7 @@ YesNoMenuDataHeader::
 .MenuData2
 	db $c0 ; flags
 	db 2
-	db "Yes@"
+	db "Sí@"
 	db "No@"
 
 NoYesMenuDataHeader::
@@ -393,7 +393,7 @@ NoYesMenuDataHeader::
 	db $c0 ; flags
 	db 2
 	db "No@"
-	db "Yes@"
+	db "Sí@"
 
 OffsetMenuDataHeader::
 	call _OffsetMenuDataHeader
