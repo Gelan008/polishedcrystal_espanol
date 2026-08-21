@@ -228,12 +228,12 @@ PrintTwoDigitNumberRightAlign:
 	jmp PrintNum
 
 Text_WokeUpOak:
-	; Zzz… Hm? Wha…? You woke me up! Will you check the clock for me?
+	; Zzz… ¿Mmm? ¿Eh…? ¡Me has despertado! ¿Podrías mirar la hora?
 	text_far _OakTimeWokeUpText
 	text_end
 
 Text_WhatTimeIsIt:
-	; What time is it?
+	; ¿Qué hora es?
 	text_far _OakTimeWhatTimeIsItText
 	text_end
 
@@ -241,7 +241,7 @@ String_oclock:
 	db "en punto@"
 
 Text_HowManyMinutes:
-	; How many minutes?
+	; ¿Cuántos minutos?
 	text_far _OakTimeHowManyMinutesText
 	text_end
 
@@ -443,7 +443,7 @@ Special_SetDayOfWeek:
 .Saturday:  db " Sábado@"
 
 .WhatDayIsItText:
-	; What day is it?
+	; ¿Qué día es hoy?
 	text_far _OakTimeWhatDayIsItText
 	text_end
 
@@ -455,7 +455,7 @@ Special_SetDayOfWeek:
 	ret
 
 .IsIt:
-	; , is it?
+	; , ¿verdad?
 	text_far _OakTimeIsItText
 	text_end
 
@@ -480,7 +480,7 @@ Special_InitialSetDSTFlag:
 	ret
 
 .DSTIsThatOK:
-	; DST, is that OK?
+	; HDV, ¿está bien?
 	text_far Text_DSTIsThatOK
 	text_end
 
@@ -505,7 +505,7 @@ Special_InitialClearDSTFlag:
 	ret
 
 .IsThatOK:
-	; , is that OK?
+	; , ¿está bien?
 	text_far _TimeAskOkayText
 	text_end
 
