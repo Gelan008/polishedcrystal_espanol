@@ -170,35 +170,35 @@ INCLUDE "gfx/new_game/init_bg.pal"
 INCBIN "gfx/new_game/init_bg.2bpp.lz"
 
 InitialOptionsString1:
-	text  "Natures"
+	text  "Naturalezas"
 	next1 "            :"
-	next1 "Abilities"
+	next1 "Habilidades"
 	next1 "            :"
-	next1 "Phys/Spcl split"
+	next1 "Div. Fís/Esp"
 	next1 "            :"
-	next1 "EV gain"
+	next1 "Ganancia PE"
 	next1 "            :"
-	next1 "Experience gain"
+	next1 "Ganancia Exp"
 	next1 "            :"
-	next1 "Affection bonus"
+	next1 "Bono Afecto"
 	next1 "            :"
-	next1 "Next"
+	next1 "Siguiente"
 	done
 
 InitialOptionsString2:
-	text  "Real-time clock"
+	text  "Reloj tiempo r."
 	next1 "            :"
-	next1 "Perfect stats"
+	next1 "Estad. perfectas"
 	next1 "            :"
-	next1 "Traded <PK><MN> obey"
+	next1 "<PK><MN> inter. obed."
 	next1 "            :"
-	next1 "Evolve in battle"
+	next1 "Evol. en batalla"
 	next1 "            :"
-	next1 "Color variation"
+	next1 "Variación color"
 	next1 "            :"
 	next1 "            " ; no-optimize trailing string space
 	next1 "            " ; no-optimize trailing string space
-	next1 "Previous"
+	next1 "Anterior"
 	done
 
 InitialOptionsMenu_LoadOptions:
@@ -422,9 +422,9 @@ InitialOptions_ExpScaling:
 	ret
 
 .Old:
-	db "Old@"
+	db "Clásico@"
 .New:
-	db "New@"
+	db "Nuevo@"
 
 InitialOptions_AffectionBonus:
 	ld hl, wInitialOptions
@@ -573,9 +573,9 @@ InitialOptions_RTC:
 NoString:
 	db "No @"
 YesString:
-	db "Yes@"
+	db "Sí @"
 AllString:
-	db "All@"
+	db "Todo@"
 ModernString:
 	db "{-3d:MODERN_EV_LIMIT}@"
 

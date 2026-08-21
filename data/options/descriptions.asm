@@ -1,5 +1,3 @@
-; These are in the same order as GetInitialOptionPointer.Pointers,
-; not the *_OPT bit order!
 InitialOptionDescriptions:
 	table_width 2
 	dw .InitialOptionDesc_Natures
@@ -20,160 +18,101 @@ InitialOptionDescriptions:
 	assert_table_length NUM_INITIAL_OPTIONS_PER_PAGE * 2
 
 .InitialOptionDesc_Natures:
-	text "Natures raise one"
-	line "stat but lower"
-	cont "another by 10%."
+	text "Las naturalezas"
+	line "suben una estadís-"
+	cont "tica y bajan otra"
+	cont "un 10%."
 
-	para "Introduced in"
-	line "Gen 3."
+	para "Añadido en Gen 3."
 	prompt
 
 .InitialOptionDesc_Abilities:
-	text "Abilities may have"
-	line "effects inside"
+	text "Las habilidades"
+	line "tienen efectos"
+	cont "dentro y fuera de"
+	cont "los combates."
 
-	para "and outside of"
-	line "battle."
-
-	para "Introduced in"
-	line "Gen 3."
+	para "Añadido en Gen 3."
 	prompt
 
 .InitialOptionDesc_PSS:
-	text "Moves are physical"
-	line "or special inde-"
-	cont "pendently of type."
+	text "Los movimientos"
+	line "son físicos o"
+	cont "especiales según"
+	cont "su naturaleza."
 
-	para "Introduced in"
-	line "Gen 4."
+	para "Añadido en Gen 4."
 	prompt
 
 .InitialOptionDesc_EVs:
-	text "EVs boost stats by"
-	line STRFMT("up to %d points,", MODERN_MAX_EV / 4)
-	cont "one per 4 EVs."
+	text "Los PE aumentan"
+	line "estadísticas hasta"
+	cont "en 63 puntos,"
+	cont "uno por 4 PE."
 
-	para "You can choose to"
-	line "allow maxing every"
-
-	para "stat to {d:MODERN_MAX_EV} EVs,"
-	line "like stat exp did,"
-
-	para "or limit them to"
-	line "a total of {d:MODERN_EV_LIMIT}."
-
-	para "Replaced stat exp-"
-	line "erience in Gen 3."
+	para "Puedes elegir el"
+	line "máximo en cada"
+	cont "estadística o el"
+	cont "límite moderno."
 	prompt
 
 .InitialOptionDesc_Experience:
-	text "The old experience"
-	line "gain formula, in"
+	text "La experiencia"
+	line "puede ser según la"
+	cont "diferencia de"
+	cont "nivel o fija."
 
-	para "Gen 1 to Gen 4,"
-	line "was unscaled."
-
-	para "The new one, in"
-	line "Gen 5 and reintro-"
-	cont "duced in Gen 7,"
-
-	para "gives more Exp. by"
-	line "defeating higher-"
-	cont "leveled foes,"
-
-	para "and less from low-"
-	line "er leveled ones."
-
-	para "Exp. gain can also"
-	line "be turned off for"
-	cont "a challenge, but"
-
-	para "Exp.Candy and Rare"
-	line "Candy will still"
-	cont "work if you do so."
+	para "La opción 'No' no"
+	line "da experiencia."
 	prompt
 
 .InitialOptionDesc_AffectionBonus:
-	text "Your #mon will"
-	line "gain benefits in"
-	cont "battle when they"
+	text "El afecto alto da"
+	line "ventajas en combate"
+	cont "como curación o"
+	cont "más críticos."
 
-	para "are close friends"
-	line "with you."
-
-	para "Introduced in"
-	line "Gen 6."
-	prompt
-
-.InitialOptionDesc_EvolveInBattle:
-	text "Your #mon can"
-	line "evolve during"
-	cont "trainer battles."
-
-	para "Inspired by anime"
-	line "battles."
-	prompt
-
-.InitialOptionDesc_ColorVariation:
-	text "Individual #-"
-	line "mon, both regular"
-	cont "and shiny, will"
-
-	para "have their colors"
-	line "subtly varied."
-
-	para "The variation is"
-	line "pseudorandom, not"
-
-	para "correlated with"
-	line "stat quality."
-
-	para "Inspired by"
-	line "Stadium's color"
-
-	para "variation based"
-	line "on nicknames."
-	prompt
-
-.InitialOptionDesc_PerfectIVs:
-	text "Stats are calcu-"
-	line "lated as if IVs"
-
-	para "were perfect 15s,"
-	line "for your #mon"
-	cont "and opponents'."
-	prompt
-
-.InitialOptionDesc_TradedMon:
-	text "Traded #mon"
-	line "will obey you and"
-	cont "can be nicknamed,"
-
-	para "but Exp.Points"
-	line "won't be boosted."
+	para "Añadido en Gen 6."
 	prompt
 
 .InitialOptionDesc_RTC:
-	text "Use the Real-Time"
-	line "Clock function to"
-	cont "track the time."
+	text "Puedes cambiar la"
+	line "hora pulsando"
+	cont "Abajo + B en el"
+	cont "menú de inicio."
+	prompt
 
-	para "If your cartridge"
-	line "or emulator does"
-	cont "not support RTC,"
+.InitialOptionDesc_PerfectIVs:
+	text "Todos los #mon"
+	line "tienen IVs perfec-"
+	cont "tos de 31."
+	prompt
 
-	assert NO_RTC_SPEEDUP == 6
-	para "disable this to"
-	line "make each in-game"
-	cont "day last 4 hours."
+.InitialOptionDesc_TradedMon:
+	text "Los #mon inter-"
+	line "cambiados te obe-"
+	cont "decen sin medallas"
+	cont "y no ganan exp. +"
+	prompt
+
+.InitialOptionDesc_EvolveInBattle:
+	text "Los #mon pueden"
+	line "evolucionar nada"
+	cont "más subir de nivel"
+	cont "en combate."
+	prompt
+
+.InitialOptionDesc_ColorVariation:
+	text "Variación sutil"
+	line "de color en cada"
+	cont "#mon según sus"
+	cont "IVs y género."
 	prompt
 
 .InitialOptionDesc_NextPage:
-	text "View the next"
-	line "page of options."
+	text "Página siguiente."
 	prompt
 
 .InitialOptionDesc_PrevPage:
-	text "View the previous"
-	line "page of options."
+	text "Página anterior."
 	prompt

@@ -1425,8 +1425,8 @@ ManageBoxes:
 	jmp .loop
 
 .ContinueBoxUse:
-	text "Continue Box"
-	line "operations?"
+	text "¿Seguir usando"
+	line "el PC?"
 	done
 
 .StorageMonMenu:
@@ -1498,24 +1498,24 @@ ManageBoxes:
 	db -1
 
 BillsPC_MenuStrings:
-	db "Cancel@"
+	db "Salir@"
 	; pokémon management options
-	db "Withdraw@"
-	db "Deposit@"
-	db "Summary@"
-	db "Switch@"
-	db "Item@"
-	db "Release@"
+	db "Sacar@"
+	db "Dejar@"
+	db "Datos@"
+	db "Mover@"
+	db "Objeto@"
+	db "Soltar@"
 	; box options
-	db "Change@"
-	db "Rename@"
-	db "Theme@"
-	db "Release@"
+	db "Cambiar@"
+	db "Nombrar@"
+	db "Tema@"
+	db "Soltar@"
 	; holding a mail
-	db "Take@"
-	db "Read@"
+	db "Quitar@"
+	db "Leer@"
 	; holding an item
-	db "Move@"
+	db "Mover@"
 	db "Bag@"
 	; doesn't hold an item
 	db "Give@"

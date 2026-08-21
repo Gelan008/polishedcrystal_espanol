@@ -115,7 +115,7 @@ NamingScreen:
 	jmp .StoreSpriteIconParams
 
 .PlayerNameString:
-	db "Your name?@"
+	db "¿Tu nombre es?@"
 
 .Rival:
 	ld hl, RivalSpriteGFX
@@ -127,7 +127,7 @@ NamingScreen:
 	jmp .StoreSpriteIconParams
 
 .RivalNameString:
-	db "Rival's name?@"
+	db "¿Nombre Rival?@"
 
 .TrendyPhrase:
 	ld hl, ArtistSpriteGFX
@@ -139,7 +139,7 @@ NamingScreen:
 	jr .StoreSpriteIconParams
 
 .TrendyPhraseString:
-	db "What's trendy?@"
+	db "¿Qué está de moda?@"
 
 .Box:
 	ld de, vTiles0 tile $00
@@ -162,7 +162,7 @@ NamingScreen:
 	jr .StoreBoxIconParams
 
 .BoxNameString:
-	db "Box name?@"
+	db "Nombre Caja@"
 
 .LoadSprite:
 	push bc
@@ -1102,4 +1102,4 @@ NamingScreen_DrawBorders:
 	db NAMINGSCREEN_BORDER + 7
 
 .ShiftDelEnd:
-	db "Shift  Del   End@"
+	db "Mayus  Bor   Fin@"

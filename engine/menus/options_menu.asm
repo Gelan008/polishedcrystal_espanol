@@ -69,39 +69,39 @@ OptionsMenu_LoadOptions:
 	jmp ApplyTilemapInVBlank
 
 StringOptions1:
-	text  "Text Speed"
+	text  "Veloc. Texto"
 	next1 "        :"
-	next1 "Text Autoscroll"
+	next1 "Desplaz. Auto"
 	next1 "        :"
-	next1 "Frame"
-	next1 "        :Type"
-	next1 "Typeface"
+	next1 "Marco"
+	next1 "        :Tipo"
+	next1 "Tipografía"
 	next1 "        :"
-	next1 "Keyboard"
+	next1 "Teclado"
 	next1 "        :"
-	next1 "Sound"
+	next1 "Sonido"
 	next1 "        :"
-	next1 "Next"
+	next1 "Siguiente"
 	next1 "        " ; no-optimize trailing string space
-	next1 "Done"
+	next1 "Salir"
 	done
 
 StringOptions2:
-	text  "Battle Effects"
+	text  "Anim. Combate"
 	next1 "        :"
-	next1 "Battle Style"
+	next1 "Estilo Combate"
 	next1 "        :"
-	next1 "Running Shoes"
+	next1 "Zapatillas"
 	next1 "        :"
-	next1 "Turning Speed"
+	next1 "Veloc. Giro"
 	next1 "        :"
-	next1 "Clock Format"
+	next1 "Formato Reloj"
 	next1 "        :"
-	next1 "#dex Units"
+	next1 "Unidades Dex"
 	next1 "        :"
-	next1 "Previous"
+	next1 "Anterior"
 	next1 "        " ; no-optimize trailing string space
-	next1 "Done"
+	next1 "Salir"
 	done
 
 GetOptionPointer:
@@ -173,11 +173,11 @@ Options_TextSpeed:
 	dw .Instant
 
 .Slow:
-	db "Slow   @"
+	db "Lento  @"
 .Medium:
-	db "Medium @"
+	db "Medio  @"
 .Fast:
-	db "Fast   @"
+	db "Rápido @"
 .Instant:
 	db "Instant@"
 
@@ -251,11 +251,11 @@ Options_BattleStyle:
 	ret
 
 .Set:
-	db "Set    @"
+	db "Mantener@"
 .Switch:
-	db "Switch @"
+	db "Cambio  @"
 .Predict:
-	db "Predict@"
+	db "Predecir@"
 
 Options_RunningShoes:
 	ld hl, wOptions2
@@ -282,9 +282,9 @@ Options_RunningShoes:
 	ret
 
 OffString:
-	db "Off@"
+	db "No@"
 OnString:
-	db "On @"
+	db "Sí@"
 
 Options_Frame:
 	ld hl, wTextboxFrame
@@ -352,9 +352,9 @@ Options_Sound:
 	ret
 
 .Mono:
-	db "Mono  @"
+	db "Mono   @"
 .Stereo:
-	db "Stereo@"
+	db "Estéreo@"
 
 Options_ClockFormat:
 	ld hl, wOptions2
@@ -381,9 +381,9 @@ Options_ClockFormat:
 	ret
 
 .Twelve:
-	db "12-hour@"
+	db "12-horas@"
 .TwentyFour:
-	db "24-hour@"
+	db "24-horas@"
 
 Options_PokedexUnits:
 	ld hl, wOptions2
@@ -412,7 +412,7 @@ Options_PokedexUnits:
 .Imperial:
 	db "Imperial@"
 .Metric:
-	db "Metric  @"
+	db "Métrico @"
 
 Options_TextAutoscroll:
 	ldh a, [hJoyPressed]
@@ -456,13 +456,13 @@ Options_TextAutoscroll:
 	dw .AorB
 
 .None:
-	db "None  @"
+	db "Ninguno@"
 .Start:
-	db "Start @"
+	db "Start  @"
 .B:
-	db "B     @"
+	db "B      @"
 .AorB:
-	db "A or B@"
+	db "A o B  @"
 
 Options_TurningSpeed:
 	ldh a, [hJoyPressed]
@@ -565,21 +565,21 @@ Options_Typeface:
 	dw .Unown
 
 .Normal:
-	db "Normal @"
+	db "Normal  @"
 .Narrow:
-	db "Narrow @"
+	db "Estrecha@"
 .Bold:
-	db "Bold   @"
+	db "Negrita @"
 .Italic:
-	db "Italic @"
+	db "Cursiva @"
 .Serif:
-	db "Serif  @"
+	db "Serif   @"
 .Chicago:
-	db "Chicago@"
+	db "Chicago @"
 .MICR:
-	db "MICR   @"
+	db "MICR    @"
 .Unown:
-	db "Unown  @"
+	db "Unown   @"
 
 Options_Keyboard:
 	ld hl, wOptions3
