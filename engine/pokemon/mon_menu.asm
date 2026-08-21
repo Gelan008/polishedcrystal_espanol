@@ -511,7 +511,7 @@ _UpdateMewtwoForm:
 
 GiveTakeItemMenuData:
 	db MENU_BACKUP_TILES | MENU_SPRITE_ANIMS
-	menu_coords 13, 10, 19, 17
+	menu_coords 11, 10, 19, 17
 	dw .Items
 	db 1 ; default option
 
