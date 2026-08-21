@@ -928,7 +928,7 @@ CudChewDescription:
 
 SharpnessDescription:
 	text "Potencia ataques"
-	next "corte y corteza."
+	next "de corte."
 	done
 
 ArmorTailDescription:
@@ -938,10 +938,10 @@ ArmorTailDescription:
 
 MindsEyeDescription:
 	text "Ignora evasión e"
-	next "inmunidad Fantasma."
+	next "inmunidad Fantasma"
 	done
 
 MegaSolDescription:
 	text "Ataca como si"
-	next "hubiera sol fuerte."
+	next "hubiera sol fuerte"
 	done

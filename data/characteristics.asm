@@ -46,9 +46,8 @@ Characteristics:
 	next1 "a menudo"
 	done
 .Chara_HP3:
-	text  "A menudo"
-	next1 "lo tira"
-	next1 "todo"
+	text  "Suele"
+	next1 "desordenar"
 	done
 .Chara_HP4:
 	text  "Le gusta"
@@ -66,16 +65,15 @@ Characteristics:
 	done
 .Chara_Atk2:
 	text  "Un poco"
-	next1 "cascarrab-"
-	next1 "ias"
+	next1 "irascible"
 	done
 .Chara_Atk3:
 	text  "Le gusta"
 	next1 "luchar"
 	done
 .Chara_Atk4:
-	text  "Muy casca-"
-	next1 "-rrabias"
+	text  "Muy"
+	next1 "irascible"
 	done
 
 .Chara_Def0:
@@ -83,23 +81,20 @@ Characteristics:
 	next1 "robusto"
 	done
 .Chara_Def1:
-	text  "Buen"
-	next1 "encajador"
+	text  "Aguanta"
+	next1 "golpes"
 	done
 .Chara_Def2:
 	text  "Muy"
-	next1 "persist-"
-	next1 "ente"
+	next1 "tenaz"
 	done
 .Chara_Def3:
-	text  "Buena"
-	next1 "resisten-"
-	next1 "cia"
+	text  "Buen"
+	next1 "aguante"
 	done
 .Chara_Def4:
-	text  "Gran"
-	next1 "persever-"
-	next1 "ancia"
+	text  "Muy"
+	next1 "constante"
 	done
 
 .Chara_SAt0:
@@ -107,7 +102,7 @@ Characteristics:
 	next1 "curioso"
 	done
 .Chara_SAt1:
-	text  "Es un"
+	text  "Es muy"
 	next1 "travieso"
 	done
 .Chara_SAt2:
@@ -121,8 +116,7 @@ Characteristics:
 	done
 .Chara_SAt4:
 	text  "Muy"
-	next1 "capricho-"
-	next1 "so"
+	next1 "exigente"
 	done
 
 .Chara_SDf0:
@@ -155,8 +149,8 @@ Characteristics:
 	next1 "atento"
 	done
 .Chara_Spe2:
-	text  "Atolondra-"
-	next1 "do"
+	text  "Algo"
+	next1 "alocado"
 	done
 .Chara_Spe3:
 	text  "Un poco"
