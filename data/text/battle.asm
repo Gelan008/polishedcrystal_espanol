@@ -859,8 +859,8 @@ IsTormentedText:
 	prompt
 
 AttackMissedText:
-	text "¡El ataque de"
-	line "<USER> falló!"
+	text "¡<USER>"
+	line "falló el ataque!"
 	prompt
 
 CrashedText:
@@ -902,16 +902,16 @@ MostlyIneffectiveText:
 	prompt
 
 TookDownWithItText:
-	text "¡El vínculo de"
-	line "<TARGET>"
+	text "¡<TARGET>"
+	line "se llevó a"
 
-	para "se llevó a"
-	line "<USER> con él!"
+	para "<USER>"
+	line "con él!"
 	prompt
 
 RageBuildingText:
-	text "¡La furia de"
-	line "<USER> crece!"
+	text "¡Crece la furia"
+	line "de <USER>!"
 	prompt
 
 GotAnEncoreText:

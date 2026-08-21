@@ -3053,7 +3053,6 @@ _PokemonSwapItemText::
 	para "ahora lleva"
 	line ""
 	text_ram wStringBuffer2
-	text "."
 	prompt
 
 SECTION "_PokemonHoldItemText", ROMX
@@ -3062,7 +3061,6 @@ _PokemonHoldItemText::
 	text_ram wMonOrItemNameBuffer
 	line "lleva "
 	text_ram wStringBuffer2
-	text "."
 	prompt
 
 SECTION "_PokemonRemoveMailText", ROMX

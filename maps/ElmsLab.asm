@@ -1643,7 +1643,8 @@ ElmsLabLyraTheftInnocentText:
 ElmsLabLyraTheftGoodbyeText:
 	text "Lira: <PLAYER>,"
 	line "me alegra que ya"
-	cont "sepa tu inocencia."
+	cont "sepa que eres"
+	cont "inocente."
 
 	para "Ojalá atrapen al"
 	line "ladrón y devuelva"

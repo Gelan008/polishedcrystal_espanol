@@ -308,18 +308,18 @@ ExpCandyDescriptions:
 	assert_table_length NUM_CANDIES
 
 PokeBallDesc:
-	text "Objeto para captu-"
-	next "rar #mon."
+	text "Dispositivo para"
+	next "atrapar #mon."
 	done
 
 GreatBallDesc:
-	text "Ball con ratio de"
-	next "éxito aceptable."
+	text "Ball con buen ratio"
+	next "de captura."
 	done
 
 UltraBallDesc:
-	text "Ball con un alto"
-	next "ratio de éxito."
+	text "Ball con alto ratio"
+	next "de captura."
 	done
 
 MasterBallDesc:
@@ -368,8 +368,8 @@ LoveBallDesc:
 	done
 
 AbilityPatchDesc:
-	text "Cambia a la habi-"
-	next "lidad oculta."
+	text "Otorga la habili-"
+	next "dad oculta."
 	done
 
 RepeatBallDesc:
@@ -408,8 +408,8 @@ HealBallDesc:
 	done
 
 QuickBallDesc:
-	text "Ball para usar al"
-	next "inicio del combate."
+	text "Ball muy eficaz al"
+	next "iniciar combate."
 	done
 
 DuskBallDesc:
@@ -423,13 +423,13 @@ DreamBallDesc:
 	done
 
 PremierBallDesc:
-	text "Rara Ball conme-"
-	next "morativa."
+	text "Rara Ball de con-"
+	next "memoración."
 	done
 
 CherishBallDesc:
-	text "Muy rara Ball con-"
-	next "memorativa."
+	text "Exclusiva Ball de"
+	next "conmemoración."
 	done
 
 PotionDesc:
@@ -491,7 +491,7 @@ FullRestoreDesc:
 
 ReviveDesc:
 	text "Revive un #mon"
-	next "con la mitad de PS."
+	next "la mitad de PS."
 	done
 
 MaxReviveDesc:
@@ -675,8 +675,8 @@ PokeDollDesc:
 	done
 
 AbilityCapDesc:
-	text "Cambia la habi-"
-	next "lidad de un #mon."
+	text "Cambia la habili-"
+	next "dad de un #mon."
 	done
 
 LeafStoneDesc:
@@ -704,53 +704,53 @@ ExpShareDesc:
 	done
 
 CheriBerryDesc:
-	text "Cura autónoma de"
-	next "la parálisis."
+	text "Cura la parálisis"
+	next "al portador."
 	done
 
 ChestoBerryDesc:
-	text "Despierta de forma"
-	next "autónoma. (Equip.)"
+	text "Cura el sueño al"
+	next "portador."
 	done
 
 PechaBerryDesc:
-	text "Cura de forma autó"
-	next "nomaenvenenamiento"
+	text "Cura el veneno al"
+	next "portador."
 	done
 
 RawstBerryDesc:
-	text "Cura de forma autó"
-	next "noma quemaduras."
+	text "Cura quemaduras"
+	next "al portador."
 	done
 
 AspearBerryDesc:
-	text "Cura autónoma de"
-	next "la congelación."
+	text "Cura congelación"
+	next "al portador."
 	done
 
 LeppaBerryDesc:
-	text "Restaura PP de"
-	next "forma autónoma."
+	text "Restaura 10 PP de"
+	next "un mov. (Equipar)"
 	done
 
 OranBerryDesc:
-	text "Restaura 10 PS de"
-	next "forma autónoma."
+	text "Restaura 10 PS al"
+	next "portador."
 	done
 
 PersimBerryDesc:
-	text "Cura autónoma de"
-	next "la confusión."
+	text "Cura la confusión"
+	next "al portador."
 	done
 
 LumBerryDesc:
-	text "Cura todo problema"
-	next "de estado (Equip.)"
+	text "Cura todo estado"
+	next "al portador."
 	done
 
 SitrusBerryDesc:
 	text "Restaura 1/4 PS"
-	next "máx. (Equipar)"
+	next "al portador."
 	done
 
 FigyBerryDesc:
@@ -854,8 +854,8 @@ MarangaBerryDesc:
 	done
 
 BerryJuiceDesc:
-	text "Restaura 20 PS de"
-	next "forma autónoma."
+	text "Restaura 20 PS al"
+	next "portador."
 	done
 
 SilkScarfDesc:
@@ -987,7 +987,7 @@ LuckyEggDesc:
 
 AmuletCoinDesc:
 	text "Duplica ganancias"
-	next "de dinero.(Equipar)"
+	next "de dinero.(Equip)"
 	done
 
 CleanseTagDesc:
@@ -1061,8 +1061,8 @@ BindingBandDesc:
 	done
 
 DestinyKnotDesc:
-	text "Devuelve el enamo-"
-	next "ramiento (Equipar)"
+	text "Transmite enamo-"
+	next "ramiento. (Equip)"
 	done
 
 ExpertBeltDesc:
@@ -1141,8 +1141,8 @@ ZoomLensDesc:
 	done
 
 MentalHerbDesc:
-	text "Cura autónoma para"
-	next "el enamoramiento"
+	text "Cura enamoramiento"
+	next "al portador."
 	done
 
 PowerHerbDesc:
@@ -1151,18 +1151,18 @@ PowerHerbDesc:
 	done
 
 WhiteHerbDesc:
-	text "Cura reducciones"
-	next "de características."
+	text "Restaura stats"
+	next "reducidos.(Equip)"
 	done
 
 DampRockDesc:
-	text "Extiende la dura-"
-	next "ción de la lluvia."
+	text "Alarga la lluvia"
+	next "en combate.(Equip)"
 	done
 
 HeatRockDesc:
-	text "Extiende la dura-"
-	next "ción del sol."
+	text "Alarga el sol en"
+	next "combate. (Equipar)"
 	done
 
 SmoothRockDesc:
@@ -1171,8 +1171,8 @@ SmoothRockDesc:
 	done
 
 IcyRockDesc:
-	text "Extiende la dura-"
-	next "ción del granizo."
+	text "Alarga el granizo"
+	next "en combate.(Equip)"
 	done
 
 ChoiceBandDesc:
@@ -1296,8 +1296,8 @@ MagmarizerDesc:
 	done
 
 OvalStoneDesc:
-	text "Piedra redonda cu-"
-	next "-al Huevo #mon."
+	text "Piedra redonda que"
+	next "parece un Huevo."
 	done
 
 OddSouvenirDesc:
@@ -1342,7 +1342,7 @@ BigPearlDesc:
 
 PearlStringDesc:
 	text "Perlas grandes."
-	next "Se vende muy caras."
+	next "Muy caras."
 	done
 
 StardustDesc:
@@ -1512,8 +1512,8 @@ HeavyBootsDesc:
 	done
 
 LoadedDiceDesc:
-	text "Movimientos multi-"
-	next "golpe danmás veces"
+	text "Movs. multigolpe"
+	next "golpean más veces."
 	done
 
 MintLeafDesc:
@@ -1630,8 +1630,8 @@ GBCSoundsDesc:
 	done
 
 BlueCardDesc:
-	text "Tarjeta para guar-"
-	next "dar puntos."
+	text "Tarjeta para"
+	next "acumular puntos."
 	done
 
 OrangeTicketDesc:
