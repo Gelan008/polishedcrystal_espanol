@@ -1,10 +1,8 @@
-DefaultOptions:
+DefaultOptions3:
 ; wOptions3
-if DEF(DEBUG)
-	db 1 << NICKNAMES_NEVER
-else
-	db 0
-endc
+	db (1 << CLOCK_FORMAT) | (1 << UNITS_OPT)
+
+DefaultOptions:
 ; wOptions1
 	db (1 << BATTLE_EFFECTS) | (1 << STEREO) | FAST_TEXT
 ; wSaveFileExists
@@ -14,7 +12,7 @@ endc
 ; wTextboxFlags
 	db $01 ; ???
 ; wOptions2
-	db (1 << CLOCK_FORMAT) | (1 << POKEDEX_UNITS)
+	db 0
 ; wInitialOptions
 	db (1 << NATURES_OPT) | (1 << ABILITIES_OPT) | (1 << PSS_OPT) | (1 << COLOR_VARY_OPT)
 ; wInitialOptions2

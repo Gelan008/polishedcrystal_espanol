@@ -39,3 +39,9 @@ RocketHideoutElevatorButton:
 	elevfloor FLOOR_B4F, 3, ROCKET_HIDEOUT_B4F
 	db -1 ; end
 
+.AppearsToNeedKeyText:
+	text "Parece que hace"
+	line "falta una llave."
+	done
+
+

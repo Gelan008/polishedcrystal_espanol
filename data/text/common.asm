@@ -96,67 +96,65 @@ _HowManyShouldIMakeText::
 	line "hacer?"
 	done
 
-SECTION "_HowManyDoYouWantToSellText", ROMX
-_HowManyDoYouWantToSellText::
-	text "¿Cuántos quieres"
-	line "vender?"
-	done
-
 SECTION "_RecoveredSomeHPText", ROMX
 _RecoveredSomeHPText::
 	text_ram wStringBuffer1
-	line "recuperó "
+	line "recovered "
 	text_decimal wCurHPAnimDeltaHP, 2, 3
-	text " PS!"
+	text "HP!"
 	done
 
 SECTION "_CuredOfPoisonText", ROMX
 _CuredOfPoisonText::
 	text_ram wStringBuffer1
-	line "curó su veneno."
+	text "'s"
+	line "cured of poison."
 	done
 
 SECTION "_RidOfParalysisText", ROMX
 _RidOfParalysisText::
 	text_ram wStringBuffer1
-	line "curó su parálisis."
+	text "'s"
+	line "rid of paralysis."
 	done
 
 SECTION "_BurnWasHealedText", ROMX
 _BurnWasHealedText::
 	text_ram wStringBuffer1
-	line "curó su quemadura."
+	text "'s"
+	line "burn was healed."
 	done
 
 SECTION "_WasDefrostedText", ROMX
 _WasDefrostedText::
 	text_ram wStringBuffer1
-	line "se descongeló."
+	line "was defrosted."
 	done
 
 SECTION "_WokeUpText", ROMX
 _WokeUpText::
 	text_ram wStringBuffer1
-	line "se despertó."
+	line "woke up."
 	done
 
 SECTION "_HealthReturnedText", ROMX
 _HealthReturnedText::
 	text_ram wStringBuffer1
-	line "recuperó la salud."
+	text "'s"
+	line "health returned."
 	done
 
 SECTION "_RevitalizedText", ROMX
 _RevitalizedText::
 	text_ram wStringBuffer1
-	line "es revitalizado."
+	line "is revitalized."
 	done
 
 SECTION "_GrewToLevelText", ROMX
 _GrewToLevelText::
 	text_ram wStringBuffer1
-	text " subió"
-	line "al nivel "
+	text " grew to"
+	line "level "
 	text_decimal wCurPartyLevel, 1, 3
 	text "!"
 	text_sound SFX_DEX_FANFARE_50_79
@@ -166,8 +164,8 @@ _GrewToLevelText::
 SECTION "_CameToItsSensesText", ROMX
 _CameToItsSensesText::
 	text_ram wStringBuffer1
-	line "recuperó el"
-	cont "conocimiento."
+	text " came"
+	line "to its senses."
 	done
 
 SECTION "_OakTimeWokeUpText", ROMX
@@ -382,8 +380,8 @@ _MomItsInYourRoomText::
 SECTION "_MonWasSentToText", ROMX
 _MonWasSentToText::
 	text_ram wPlayerTrademonSpeciesName
-	text " fue"
-	line "enviado a "
+	text " was"
+	line "sent to "
 	text_ram wOTTrademonSenderName
 	text "."
 	done
@@ -391,8 +389,8 @@ _MonWasSentToText::
 SECTION "_BidsFarewellToMonText", ROMX
 _BidsFarewellToMonText::
 	text_ram wOTTrademonSenderName
-	text " se"
-	line "despide de"
+	text " bids"
+	line "farewell to"
 	done
 
 SECTION "_MonNameBidsFarewellText", ROMX
@@ -422,8 +420,8 @@ _ForYourMonSendsText::
 SECTION "_OTSendsText", ROMX
 _OTSendsText::
 	text_ram wOTTrademonSenderName
-	text " envía"
-	line "a "
+	text " sends"
+	line ""
 	text_ram wOTTrademonSpeciesName
 	text "."
 	done
@@ -431,8 +429,8 @@ _OTSendsText::
 SECTION "_WillTradeText", ROMX
 _WillTradeText::
 	text_ram wOTTrademonSenderName
-	text " va a"
-	line "cambiar a "
+	text " will"
+	line "trade "
 	text_ram wOTTrademonSpeciesName
 	text_end
 
@@ -450,17 +448,17 @@ _ForYourMonWillTradeText::
 
 SECTION "_OPT_IntroText1", ROMX
 _OPT_IntroText1::
-	line "Rosa: ¡La Hora"
+	line "Mary: Prof.Oak's"
 	done
 
 SECTION "_OPT_IntroText2", ROMX
 _OPT_IntroText2::
-	line "Pokémon de Oak!"
+	line "#mon Talk!"
 	done
 
 SECTION "_OPT_IntroText3", ROMX
 _OPT_IntroText3::
-	line "¡Conmigo, Rosa!"
+	line "With me, Mary!"
 	done
 
 SECTION "_OPT_OakText1", ROMX
@@ -471,7 +469,7 @@ _OPT_OakText1::
 
 SECTION "_OPT_OakText2", ROMX
 _OPT_OakText2::
-	line "puede verse por"
+	line "may be seen around"
 	done
 
 SECTION "_OPT_OakText3", ROMX
@@ -483,168 +481,169 @@ _OPT_OakText3::
 
 SECTION "_OPT_MaryText1", ROMX
 _OPT_MaryText1::
-	line "Rosa: "
+	line "Mary: "
 	text_ram wStringBuffer1
+	text "'s"
 	done
 
 SECTION "OPT_SweetAdorably", ROMX
 OPT_SweetAdorably::
-	line "es muy dulce y"
+	line "sweet and adorably"
 	done
 
 SECTION "OPT_WigglySlickly", ROMX
 OPT_WigglySlickly::
-	line "es tan suave y"
+	line "wiggly and slickly"
 	done
 
 SECTION "OPT_AptlyNamed", ROMX
 OPT_AptlyNamed::
-	line "hace honor a ser"
+	line "aptly named and"
 	done
 
 SECTION "OPT_UndeniablyKindOf", ROMX
 OPT_UndeniablyKindOf::
-	line "es sin duda algo"
+	line "undeniably kind of"
 	done
 
 SECTION "OPT_Unbearably", ROMX
 OPT_Unbearably::
-	line "es tan pero tan"
+	line "so, so unbearably"
 	done
 
 SECTION "OPT_WowImpressively", ROMX
 OPT_WowImpressively::
-	line "es de verdad muy"
+	line "wow, impressively"
 	done
 
 SECTION "OPT_AlmostPoisonously", ROMX
 OPT_AlmostPoisonously::
-	line "es casi casi tan"
+	line "almost poisonously"
 	done
 
 SECTION "OPT_Sensually", ROMX
 OPT_Sensually::
-	line "es la mar de"
+	line "ooh, so sensually"
 	done
 
 SECTION "OPT_Mischievously", ROMX
 OPT_Mischievously::
-	line "es tan pícaro y"
+	line "so mischievously"
 	done
 
 SECTION "OPT_Topically", ROMX
 OPT_Topically::
-	line "es de lo más"
+	line "so very topically"
 	done
 
 SECTION "OPT_Addictively", ROMX
 OPT_Addictively::
-	line "es totalmente"
+	line "sure addictively"
 	done
 
 SECTION "OPT_LooksInWater", ROMX
 OPT_LooksInWater::
-	line "en el agua es"
+	line "looks in water is"
 	done
 
 SECTION "OPT_EvolutionMustBe", ROMX
 OPT_EvolutionMustBe::
-	line "evolucionado es"
+	line "evolution must be"
 	done
 
 SECTION "OPT_Provocatively", ROMX
 OPT_Provocatively::
-	line "resulta de lo más"
+	line "provocatively"
 	done
 
 SECTION "OPT_FlippedOut", ROMX
 OPT_FlippedOut::
-	line "es tan alocado y"
+	line "so flipped out and"
 	done
 
 SECTION "OPT_HeartMeltingly", ROMX
 OPT_HeartMeltingly::
-	line "es tiernamente"
+	line "heart-meltingly"
 	done
 
 SECTION "OPT_Cute", ROMX
 OPT_Cute::
-	line "mono."
+	line "cute."
 	done
 
 SECTION "OPT_Weird", ROMX
 OPT_Weird::
-	line "raro."
+	line "weird."
 	done
 
 SECTION "OPT_Pleasant", ROMX
 OPT_Pleasant::
-	line "agradable."
+	line "pleasant."
 	done
 
 SECTION "OPT_BoldSortOf", ROMX
 OPT_BoldSortOf::
-	line "audaz, digamos."
+	line "bold, sort of."
 	done
 
 SECTION "OPT_Frightening", ROMX
 OPT_Frightening::
-	line "aterrador."
+	line "frightening."
 	done
 
 SECTION "OPT_SuaveDebonair", ROMX
 OPT_SuaveDebonair::
-	line "¡elegante!"
+	line "suave & debonair!"
 	done
 
 SECTION "OPT_Powerful", ROMX
 OPT_Powerful::
-	line "poderoso."
+	line "powerful."
 	done
 
 SECTION "OPT_Exciting", ROMX
 OPT_Exciting::
-	line "emocionante."
+	line "exciting."
 	done
 
 SECTION "OPT_Groovy", ROMX
 OPT_Groovy::
-	line "¡genial!"
+	line "groovy!"
 	done
 
 SECTION "OPT_Inspiring", ROMX
 OPT_Inspiring::
-	line "inspirador."
+	line "inspiring."
 	done
 
 SECTION "OPT_Friendly", ROMX
 OPT_Friendly::
-	line "amistoso."
+	line "friendly."
 	done
 
 SECTION "OPT_HotHotHot", ROMX
 OPT_HotHotHot::
-	line "¡ardiente!"
+	line "hot, hot, hot!"
 	done
 
 SECTION "OPT_Stimulating", ROMX
 OPT_Stimulating::
-	line "estimulante."
+	line "stimulating."
 	done
 
 SECTION "OPT_Guarded", ROMX
 OPT_Guarded::
-	line "reservado."
+	line "guarded."
 	done
 
 SECTION "OPT_Lovely", ROMX
 OPT_Lovely::
-	line "encantador."
+	line "lovely."
 	done
 
 SECTION "OPT_Speedy", ROMX
 OPT_Speedy::
-	line "veloz."
+	line "speedy."
 	done
 
 SECTION "_OPT_PokemonChannelText", ROMX
@@ -652,100 +651,106 @@ _OPT_PokemonChannelText::
 	text "#mon"
 	done
 
+SECTION "_PokedexShowText", ROMX
+_PokedexShowText::
+	line ""
+	text_ram wStringBuffer1
+	done
+
 ; Pokémon Music Channel / Pokémusic
 
 SECTION "_BenIntroText1", ROMX
 _BenIntroText1::
-	line "Ben: ¡Canal de"
+	line "Ben: #mon Music"
 	done
 
 SECTION "_BenIntroText2", ROMX
 _BenIntroText2::
-	line "Música #mon! ♪"
+	line "Channel! ♪"
 	done
 
 SECTION "_BenIntroText3", ROMX
 _BenIntroText3::
-	line "¡Soy yo, DJ Ben! ♪"
+	line "It's me, DJ Ben! ♪"
 	done
 
 SECTION "_FernIntroText1", ROMX
 _FernIntroText1::
-	line "Nando: ¡Música! ♪"
+	line "Fern: #music! ♪"
 	done
 
 SECTION "_FernIntroText2", ROMX
 _FernIntroText2::
-	line "¡Con DJ Nando! ♪"
+	line "With DJ Fern! ♪"
 	done
 
 SECTION "_BenFernText1", ROMX
 _BenFernText1::
-	line "Hoy es "
+	line "Today's "
 	text_today
 	text ","
 	done
 
 SECTION "_BenFernText2A", ROMX
 _BenFernText2A::
-	line "así que bailemos"
+	line "so let's jam to"
 	done
 
 SECTION "_BenFernText2B", ROMX
 _BenFernText2B::
-	line "relájate hoy con"
+	line "so chill out to"
 	done
 
 SECTION "_BenFernText3A", ROMX
 _BenFernText3A::
-	line "¡Marcha #mon!"
+	line "#mon March!"
 	done
 
 SECTION "_BenFernText3B", ROMX
 _BenFernText3B::
-	line "¡Nana #mon!"
+	line "#mon Lullaby!"
 	done
 
 ; Lucky Channel
 
 SECTION "_LC_Text1", ROMX
 _LC_Text1::
-	line "Reed: ¡Yeehaw!"
+	line "Reed: Yeehaw! How"
 	done
 
 SECTION "_LC_Text2", ROMX
 _LC_Text2::
-	line "¿Cómo estáis?"
+	line "y'all doin' now?"
 	done
 
 SECTION "_LC_Text3", ROMX
 _LC_Text3::
-	line "Tanto si estás"
+	line "Whether you're up"
 	done
 
 SECTION "_LC_Text4", ROMX
 _LC_Text4::
-	line "arriba o abajo,"
+	line "or way down low,"
 	done
 
 SECTION "_LC_Text5", ROMX
 _LC_Text5::
-	line "¡no te pierdas el"
+	line "don't you miss the"
 	done
 
 SECTION "_LC_Text6", ROMX
 _LC_Text6::
-	line "Número de Suerte!"
+	line "Lucky Number Show!"
 	done
 
 SECTION "_LC_Text7", ROMX
 _LC_Text7::
-	line "El Número de la"
+	line "Today's Lucky"
 	done
 
 SECTION "_LC_Text8", ROMX
 _LC_Text8::
-	line "Suerte de hoy es "
+	line "Number is "
 	text_pause
 	text_ram wStringBuffer1
 	text "!"
@@ -753,44 +758,44 @@ _LC_Text8::
 
 SECTION "_LC_Text9", ROMX
 _LC_Text9::
-	line "¡Lo repetiré!"
+	line "I'll repeat that!"
 	done
 
 SECTION "_LC_Text10", ROMX
 _LC_Text10::
-	line "¡Acertad y venid a"
+	line "Match it and go to"
 	done
 
 SECTION "_LC_Text11", ROMX
 _LC_Text11::
-	line "la Torre Radio!"
+	line "the Radio Tower!"
 	done
 
 SECTION "_LC_DragText1", ROMX
 _LC_DragText1::
-	line "…Repetirme tanto"
+	line "…Repeating myself"
 	done
 
 SECTION "_LC_DragText2", ROMX
 _LC_DragText2::
-	line "es un fastidio…"
+	line "gets to be a drag…"
 	done
 
 ; Places and People
 
 SECTION "_PnP_Text1", ROMX
 _PnP_Text1::
-	line "¡Lugares y Gente!"
+	line "Places and People!"
 	done
 
 SECTION "_PnP_Text2", ROMX
 _PnP_Text2::
-	line "¡Presentado"
+	line "Brought to you by"
 	done
 
 SECTION "_PnP_Text3", ROMX
 _PnP_Text3::
-	line "por mí, DJ Lily!"
+	line "me, DJ Lily!"
 	done
 
 SECTION "_PnP_Text4", ROMX
@@ -803,82 +808,82 @@ _PnP_Text4::
 
 SECTION "_PnP_cute", ROMX
 _PnP_cute::
-	line "es muy mono."
+	line "is cute."
 	done
 
 SECTION "_PnP_lazy", ROMX
 _PnP_lazy::
-	line "es algo vago."
+	line "is sort of lazy."
 	done
 
 SECTION "_PnP_happy", ROMX
 _PnP_happy::
-	line "siempre es feliz."
+	line "is always happy."
 	done
 
 SECTION "_PnP_noisy", ROMX
 _PnP_noisy::
-	line "es muy ruidoso."
+	line "is quite noisy."
 	done
 
 SECTION "_PnP_precocious", ROMX
 _PnP_precocious::
-	line "es muy precoz."
+	line "is precocious."
 	done
 
 SECTION "_PnP_bold", ROMX
 _PnP_bold::
-	line "es muy audaz."
+	line "is somewhat bold."
 	done
 
 SECTION "_PnP_picky", ROMX
 _PnP_picky::
-	line "es quisquilloso."
+	line "is too picky!"
 	done
 
 SECTION "_PnP_sortofok", ROMX
 _PnP_sortofok::
-	line "está bastante bien"
+	line "is sort of OK."
 	done
 
 SECTION "_PnP_soso", ROMX
 _PnP_soso::
-	line "no está nada mal."
+	line "is just so-so."
 	done
 
 SECTION "_PnP_great", ROMX
 _PnP_great::
-	line "es genial."
+	line "is actually great."
 	done
 
 SECTION "_PnP_mytype", ROMX
 _PnP_mytype::
-	line "es justo mi tipo."
+	line "is just my type."
 	done
 
 SECTION "_PnP_cool", ROMX
 _PnP_cool::
-	line "es genial, ¿no?"
+	line "is so cool, no?"
 	done
 
 SECTION "_PnP_inspiring", ROMX
 _PnP_inspiring::
-	line "¡es inspirador!"
+	line "is inspiring!"
 	done
 
 SECTION "_PnP_weird", ROMX
 _PnP_weird::
-	line "es algo raro."
+	line "is kind of weird."
 	done
 
 SECTION "_PnP_rightforme", ROMX
 _PnP_rightforme::
-	line "¿es para mí?"
+	line "is right for me?"
 	done
 
 SECTION "_PnP_odd", ROMX
 _PnP_odd::
-	line "¡es muy extraño!"
+	line "is definitely odd!"
 	done
 
 SECTION "_PnP_Text5", ROMX
@@ -889,7 +894,7 @@ _PnP_Text5::
 
 SECTION "_RocketRadioText1", ROMX
 _RocketRadioText1::
-	line "…Ejem, ¡somos el"
+	line "… …Ahem, we are"
 	done
 
 SECTION "_RocketRadioText2", ROMX
@@ -899,127 +904,127 @@ _RocketRadioText2::
 
 SECTION "_RocketRadioText3", ROMX
 _RocketRadioText3::
-	line "¡Tras tres años de"
+	line "After three years"
 	done
 
 SECTION "_RocketRadioText4", ROMX
 _RocketRadioText4::
-	line "preparación,"
+	line "of preparation, we"
 	done
 
 SECTION "_RocketRadioText5", ROMX
 _RocketRadioText5::
-	line "hemos resurgido"
+	line "have risen again"
 	done
 
 SECTION "_RocketRadioText6", ROMX
 _RocketRadioText6::
-	line "de las cenizas!"
+	line "from the ashes!"
 	done
 
 SECTION "_RocketRadioText7", ROMX
 _RocketRadioText7::
-	line "¡Giovanni! "
+	line "Giovanni! "
 	text_pause
-	text "¿Nos"
+	text "Can you"
 	done
 
 SECTION "_RocketRadioText8", ROMX
 _RocketRadioText8::
-	line "oyes?"
+	line "hear?"
 	text_pause
-	text " ¡Lo hicimos!"
+	text " We did it!"
 	done
 
 SECTION "_RocketRadioText9", ROMX
 _RocketRadioText9::
 	line ""
 	text_pause
-	text "¿Dónde está jefe?"
+	text "Where is our boss?"
 	done
 
 SECTION "_RocketRadioText10", ROMX
 _RocketRadioText10::
 	line ""
 	text_pause
-	text "¿Estará oyendo?"
+	text "Is he listening?"
 	done
 
 SECTION "_BuenaRadioText1", ROMX
 _BuenaRadioText1::
-	line "Buena: ¡Al habla!"
+	line "Buena: Buena here!"
 	done
 
 SECTION "_BuenaRadioText2", ROMX
 _BuenaRadioText2::
-	line "¡La Contraseña!"
+	line "Today's password!"
 	done
 
 SECTION "_BuenaRadioText3", ROMX
 _BuenaRadioText3::
-	line "Déjame pensar…"
+	line "Let me think… It's"
 	done
 
 SECTION "_BuenaRadioText4", ROMX
 _BuenaRadioText4::
-	line "¡"
+	line ""
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 SECTION "_BuenaRadioText5", ROMX
 _BuenaRadioText5::
-	line "¡No lo olvides!"
+	line "Don't forget it!"
 	done
 
 SECTION "_BuenaRadioText6", ROMX
 _BuenaRadioText6::
-	line "¡Estoy en la Torre"
+	line "I'm in Goldenrod's"
 	done
 
 SECTION "_BuenaRadioText7", ROMX
 _BuenaRadioText7::
-	line "Radio de Trigal!"
+	line "Radio Tower!"
 	done
 
 SECTION "_BuenaRadioMidnightText1", ROMX
 _BuenaRadioMidnightText1::
-	line "Buena: Vaya…"
+	line "Buena: Oh my…"
 	done
 
 SECTION "_BuenaRadioMidnightText2", ROMX
 _BuenaRadioMidnightText2::
-	line "¡Medianoche! ¡Me"
+	line "It's midnight! I"
 	done
 
 SECTION "_BuenaRadioMidnightText3", ROMX
 _BuenaRadioMidnightText3::
-	line "tengo que ir ya!"
+	line "have to shut down!"
 	done
 
 SECTION "_BuenaRadioMidnightText4", ROMX
 _BuenaRadioMidnightText4::
-	line "¡Gracias por estar"
+	line "Thanks for tuning"
 	done
 
 SECTION "_BuenaRadioMidnightText5", ROMX
 _BuenaRadioMidnightText5::
-	line "hasta el final!"
+	line "in to the end! But"
 	done
 
 SECTION "_BuenaRadioMidnightText6", ROMX
 _BuenaRadioMidnightText6::
-	line "¡No te quedes"
+	line "don't stay up too"
 	done
 
 SECTION "_BuenaRadioMidnightText7", ROMX
 _BuenaRadioMidnightText7::
-	line "hasta muy tarde!"
+	line "late! Presented to"
 	done
 
 SECTION "_BuenaRadioMidnightText8", ROMX
 _BuenaRadioMidnightText8::
-	line "¡De DJ Buena!"
+	line "you by DJ Buena!"
 	done
 
 SECTION "_BuenaRadioMidnightText9", ROMX
@@ -1246,16 +1251,16 @@ _NPCTradeAfterText2::
 SECTION "_NPCTradeIntroText3", ROMX
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer
-	text " es lindo,"
-	line "pero no lo tengo."
+	text "'s cute,"
+	line "but I don't have"
 
-	para "¿Tienes a"
+	para "it. Do you have"
 	line ""
 	text_ram wStringBuffer1
 	text "?"
 
-	para "¿Lo cambiarías por"
-	line "mi "
+	para "Want to trade it"
+	line "for my "
 	text_ram wStringBuffer2
 	text "?"
 	done
@@ -1783,24 +1788,23 @@ _NameRaterNamedText::
 
 SECTION "Text_Gained", ROMX
 Text_Gained::
-	text "¡"
 	text_ram wStringBuffer1
-	text " ganó@"
+	text " gained@"
 	text_end
 
 SECTION "Text_ABoostedStringBuffer2ExpPoints", ROMX
 Text_ABoostedStringBuffer2ExpPoints::
-	line "un extra de"
+	line "a boosted"
 	cont ""
 	text_decimal wStringBuffer2, 3, 6
-	text " Puntos Exp.!"
+	text " Exp.Points!"
 	prompt
 
 SECTION "Text_StringBuffer2ExpPoints", ROMX
 Text_StringBuffer2ExpPoints::
 	line ""
 	text_decimal wStringBuffer2, 3, 6
-	text " Puntos Exp.!"
+	text " Exp.Points!"
 	prompt
 
 SECTION "Text_GoPkmn", ROMX
@@ -1886,15 +1890,14 @@ _ContainedMoveText::
 SECTION "_TMHMNotCompatibleText", ROMX
 _TMHMNotCompatibleText::
 	text_ram wStringBuffer2
-	text " no"
-	line "es compatible"
-	cont "con "
+	text " is"
+	line "not compatible"
+	cont "with "
 	text_ram wStringBuffer1
 	text "."
 
-	para "No puede"
-	line "aprender"
-	cont ""
+	para "It can't learn"
+	line ""
 	text_ram wStringBuffer2
 	text "."
 	prompt
@@ -1913,10 +1916,9 @@ _CantUseItemText::
 
 SECTION "_UseCutText", ROMX
 _UseCutText::
-	text "¡"
 	text_ram wStringBuffer2
-	text " usó"
-	line "Corte!"
+	text " used"
+	line "Cut!"
 	prompt
 
 SECTION "_CutNothingText", ROMX
@@ -1940,9 +1942,8 @@ _BlindingFlashText::
 
 SECTION "_UsedSurfText", ROMX
 _UsedSurfText::
-	text "¡"
 	text_ram wStringBuffer2
-	text " usó"
+	text " used"
 	line "Surf!"
 	done
 
@@ -1966,10 +1967,9 @@ _AskSurfText::
 
 SECTION "_UseWaterfallText", ROMX
 _UseWaterfallText::
-	text "¡"
 	text_ram wStringBuffer2
-	text " usó"
-	line "Cascada!"
+	text " used"
+	line "Waterfall!"
 	done
 
 SECTION "_HugeWaterfallText", ROMX
@@ -1986,10 +1986,9 @@ _AskWaterfallText::
 
 SECTION "_UseDigText", ROMX
 _UseDigText::
-	text "¡"
 	text_ram wStringBuffer2
-	text " usó"
-	line "Excavar!"
+	text " used"
+	line "Dig!"
 	done
 
 SECTION "_UseEscapeRopeText", ROMX
@@ -2014,18 +2013,16 @@ _CantUseTeleportText::
 
 SECTION "_UseStrengthText", ROMX
 _UseStrengthText::
-	text "¡"
 	text_ram wStringBuffer2
-	text " usó"
-	line "Fuerza!"
+	text " used"
+	line "Strength!"
 	done
 
 SECTION "_MoveBoulderText", ROMX
 _MoveBoulderText::
-	text "¡"
 	text_ram wStringBuffer1
-	text " puede"
-	line "mover rocas!"
+	text " can"
+	line "move boulders."
 	prompt
 
 SECTION "_AskStrengthText", ROMX
@@ -2051,10 +2048,9 @@ _BouldersMayMoveText::
 
 SECTION "_UseWhirlpoolText", ROMX
 _UseWhirlpoolText::
-	text "¡"
 	text_ram wStringBuffer2
-	text " usó"
-	line "Torbellino!"
+	text " used"
+	line "Whirlpool!"
 	prompt
 
 SECTION "_MayPassWhirlpoolText", ROMX
@@ -2077,10 +2073,9 @@ _AskWhirlpoolText::
 
 SECTION "_UseHeadbuttText", ROMX
 _UseHeadbuttText::
-	text "¡"
 	text_ram wStringBuffer2
-	text " usó"
-	line "Golpe Cabeza!"
+	text " did a"
+	line "Headbutt!"
 	prompt
 
 SECTION "_HeadbuttNothingText", ROMX
@@ -2099,13 +2094,12 @@ _AskHeadbuttText::
 
 SECTION "_UseRockSmashText", ROMX
 _UseRockSmashText::
-	text "¡"
 	text_ram wStringBuffer2
-	text " usó"
+	text " used"
 if DEF(FAITHFUL)
-	line "Golpe Roca!"
+	line "Rock Smash!"
 else
-	line "Demolición!"
+	line "Brick Break!"
 endc
 	prompt
 
@@ -2269,8 +2263,8 @@ ForfeitToTrainerText::
 SECTION "_PoisonFaintText", ROMX
 _PoisonFaintText::
 	text_ram wStringBuffer3
-	line "se recuperó del"
-	cont "envenenamiento."
+	line "recovered from"
+	cont "its poisoning!"
 	prompt
 
 SECTION "_UseSweetHoneyText", ROMX
@@ -2394,17 +2388,17 @@ Text_BattleUser::
 
 SECTION "_BattleTookSunlightText", ROMX
 _BattleTookSunlightText::
-	line "absorbió luz!"
+	line "took in sunlight!"
 	prompt
 
 SECTION "_BattleFlewText", ROMX
 _BattleFlewText::
-	line "voló muy alto!"
+	line "flew up high!"
 	prompt
 
 SECTION "_BattleDugText", ROMX
 _BattleDugText::
-	line "cavó un hoyo!"
+	line "dug a hole!"
 	prompt
 
 SECTION "Text_BreedHuh", ROMX
@@ -2416,8 +2410,8 @@ Text_BreedHuh::
 SECTION "_BreedEggHatchText", ROMX
 _BreedEggHatchText::
 	text_ram wStringBuffer1
-	text " salió"
-	line "de su Huevo!"
+	text " came"
+	line "out of its Egg!"
 	text_sound SFX_CAUGHT_MON
 	text_promptbutton
 	text_end
@@ -2586,11 +2580,10 @@ ContestJudging_FirstPlaceText::
 
 SECTION "ContestJudging_FirstPlaceScoreText", ROMX
 ContestJudging_FirstPlaceScoreText::
-	para "¡La puntuación"
-	line "ganadora es de"
-	cont ""
+	para "The winning score"
+	line "was "
 	text_decimal wBugContestFirstPlaceScore, 2, 3
-	text " puntos!"
+	text " points!"
 	prompt
 
 SECTION "ContestJudging_SecondPlaceText", ROMX
@@ -2607,10 +2600,10 @@ ContestJudging_SecondPlaceText::
 
 SECTION "ContestJudging_SecondPlaceScoreText", ROMX
 ContestJudging_SecondPlaceScoreText::
-	para "¡La puntuación"
-	line "es de "
+	para "The score was"
+	line ""
 	text_decimal wBugContestSecondPlaceScore, 2, 3
-	text " puntos!"
+	text " points!"
 	prompt
 
 SECTION "ContestJudging_ThirdPlaceText", ROMX
@@ -2627,10 +2620,10 @@ ContestJudging_ThirdPlaceText::
 
 SECTION "ContestJudging_ThirdPlaceScoreText", ROMX
 ContestJudging_ThirdPlaceScoreText::
-	para "¡La puntuación"
-	line "es de "
+	para "The score was"
+	line ""
 	text_decimal wBugContestThirdPlaceScore, 2, 3
-	text " puntos!"
+	text " points!"
 	prompt
 
 SECTION "_MagikarpGuruMeasureText", ROMX
@@ -2825,13 +2818,13 @@ _OakPCText2::
 SECTION "_OakPCText3", ROMX
 _OakPCText3::
 	text_decimal wTempDexSeen, 2, 3
-	text " #mon vistos"
+	text " #mon seen"
 	line ""
 	text_decimal wTempDexOwn, 2, 3
-	text " #mon atrapados"
+	text " #mon owned"
 
-	para "Evaluación del"
-	line "Prof.Oak:"
+	para "Prof.Oak's"
+	line "Rating:"
 	done
 
 SECTION "_OakRating01", ROMX
@@ -3074,8 +3067,8 @@ _PokemonRemoveMailText::
 SECTION "_PokemonNotHoldingText", ROMX
 _PokemonNotHoldingText::
 	text_ram wMonOrItemNameBuffer
-	text " no"
-	line "lleva nada."
+	text " isn't"
+	line "holding anything."
 	prompt
 
 SECTION "_ItemStorageFullText", ROMX
@@ -3096,13 +3089,13 @@ _PokemonTookItemText::
 SECTION "_PokemonAskSwapItemText", ROMX
 _PokemonAskSwapItemText::
 	text_ram wMonOrItemNameBuffer
-	text " ya"
-	line "lleva un objeto:"
+	text " is"
+	line "already holding"
 
 	para ""
 	text_ram wStringBuffer1
 	text "."
-	line "¿Cambiar objetos?"
+	line "Switch items?"
 	done
 
 SECTION "_ItemCantHeldText", ROMX
@@ -3258,23 +3251,23 @@ endc
 SECTION "_WarnVBAText", ROMX
 _WarnVBAText::
 if !DEF(DEBUG)
-	text "¡Aviso!"
+	text "Warning!"
 
-	para "Este emulador de"
-	line "Game Boy tiene"
+	para "This Game Boy"
+	line "emulator has bugs"
 
-	para "fallos que pueden"
-	line "colgar el juego."
+	para "that may crash"
+	line "Polished Crystal."
 
-	para "Usa un emulador"
-	line "más preciso como"
+	para "Please use a more"
+	line "accurate emulator,"
 
-	para "BGB, mGBA o"
-	line "Gambatte."
+	para "such as BGB, mGBA,"
+	line "or Gambatte."
 	prompt
 else
-	text "Fallo de la prueba"
-	line "del emulador."
+	text "Emulator test"
+	line "failed."
 	prompt
 endc
 
@@ -3368,6 +3361,17 @@ _SaveFileCorruptedText::
 	line "dañada!"
 	prompt
 
+SECTION "_WindowPoppingErrorText", ROMX
+_WindowPoppingErrorText::
+	text "No windows avail-"
+	line "able for popping."
+	done
+
+SECTION "_ObjectEventText", ROMX
+_ObjectEventText::
+	text "Object event"
+	done
+
 SECTION "_GainedItemText", ROMX
 _GainedItemText::
 	text "<PLAYER> obtuvo"
@@ -3421,7 +3425,7 @@ _CongratulationsYourPokemonText::
 
 SECTION "_EvolvedIntoText", ROMX
 _EvolvedIntoText::
-	para "evolucionó a"
+	para "evolved into"
 	line ""
 	text_ram wStringBuffer1
 	text "!"
@@ -3453,9 +3457,9 @@ _MartFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "serán"
+	line "will be ¥"
 	text_decimal hMoneyTemp, 3, 7
-	text "¥."
+	text "."
 	done
 
 SECTION "_HerbShopLadyIntroText", ROMX
@@ -3480,9 +3484,9 @@ _HerbalLadyFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "serán "
+	line "will be ¥"
 	text_decimal hMoneyTemp, 3, 7
-	text "¥."
+	text "."
 	done
 
 SECTION "_HerbalLadyThanksText", ROMX
@@ -3522,10 +3526,10 @@ _BargainShopIntroText::
 SECTION "_BargainShopFinalPriceText", ROMX
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
-	text " cuesta"
-	line ""
+	text " costs"
+	line "¥"
 	text_decimal hMoneyTemp, 3, 7
-	text "¥. ¿Lo quieres?"
+	text ". Want it?"
 	done
 
 SECTION "_BargainShopThanksText", ROMX
@@ -3574,9 +3578,9 @@ _PharmacyFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "serán "
+	line "will cost ¥"
 	text_decimal hMoneyTemp, 3, 7
-	text "¥."
+	text "."
 	done
 
 SECTION "_PharmacyThanksText", ROMX
@@ -3682,9 +3686,9 @@ TMMartCostsThisMuchText::
 	text_ram wStringBuffer2
 	text " "
 	text_ram wStringBuffer1
-	line "será "
+	line "will be ¥"
 	text_decimal hMoneyTemp, 3, 7
-	text "¥."
+	text "."
 	done
 
 SECTION "BTMartHowMayIHelpYouText", ROMX
@@ -3703,9 +3707,9 @@ BTMartCostsThisMuchText::
 	text " "
 	text_ram wStringBuffer1
 	text_plural
-	line "te costarán "
+	line "will cost "
 	text_decimal hMoneyTemp+1, 2, 4
-	text " PB."
+	text " BP."
 	done
 
 SECTION "BTMartInsufficientFundsText", ROMX
@@ -3817,7 +3821,7 @@ ResetInitialOptionsText::
 SECTION "_LearnedMoveText", ROMX
 _LearnedMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " aprendió"
+	text " learned"
 	line ""
 	text_ram wStringBuffer2
 	text "!"
@@ -3842,7 +3846,7 @@ _StopLearningMoveText::
 SECTION "_DidNotLearnMoveText", ROMX
 _DidNotLearnMoveText::
 	text_ram wMonOrItemNameBuffer
-	line "no aprendió"
+	line "did not learn"
 	cont ""
 	text_ram wStringBuffer2
 	text "."
@@ -3851,14 +3855,16 @@ _DidNotLearnMoveText::
 SECTION "_AskForgetMoveText", ROMX
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer
-	line "quiere aprender"
+	line "wants to learn"
 	cont ""
 	text_ram wStringBuffer2
 	text "!"
 
-	para "¿Debe olvidar un"
-	line "mov. antiguo para"
-	cont "aprenderlo?"
+	para "Should it forget"
+	line "an old move for"
+	cont ""
+	text_ram wStringBuffer2
+	text "?"
 	done
 
 SECTION "Text_MoveForgetCount", ROMX
@@ -3979,7 +3985,7 @@ SECTION "_BuenaIsThatRightText", ROMX
 _BuenaIsThatRightText::
 	text_ram wStringBuffer1
 	text "?"
-	line "¿Es eso?"
+	line "Is that right?"
 	done
 
 SECTION "_BuenaHereYouGoText", ROMX
@@ -4045,26 +4051,24 @@ Text_Waitbutton_2::
 SECTION "_CurBoxFullText", ROMX
 _CurBoxFullText::
 	text_ram wStringBuffer1
-	text " está llena."
+	text " is full."
 	prompt
 
 SECTION "_MonSentToPCText", ROMX
 _MonSentToPCText::
 	text_ram wMonOrItemNameBuffer
-	text " fue"
-	line "enviado a"
-	cont ""
+	text " was"
+	line "sent to "
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 SECTION "_NewDexDataText", ROMX
 _NewDexDataText::
-	text "Los datos de"
-	line ""
 	text_ram wEnemyMonNickname
-	cont "han sido añadidos"
-	cont "a la #dex."
+	text "'s data"
+	line "was newly added to"
+	cont "the #dex."
 	text_sound SFX_SLOT_MACHINE_START
 	text_promptbutton
 	text_end
@@ -4081,23 +4085,23 @@ _AskGiveNicknameText::
 SECTION "_ItemHappinessRoseButStatFellText", ROMX
 _ItemHappinessRoseButStatFellText::
 	text_ram wStringBuffer1
-	text " se"
-	line "hizo más amigo."
-
-	para "¡La base "
-	text_ram wStringBuffer2
-	line "de "
+	text " became"
+	line "more friendly."
+	para ""
 	text_ram wStringBuffer1
-	text " bajó!"
+	text "'s base"
+	line ""
+	text_ram wStringBuffer2
+	text " fell!"
 	prompt
 
 SECTION "_ItemStatRoseText", ROMX
 _ItemStatRoseText::
-	text "La "
-	text_ram wStringBuffer2
-	line "de "
 	text_ram wStringBuffer1
-	text " subió."
+	text "'s"
+	line ""
+	text_ram wStringBuffer2
+	text " rose."
 	prompt
 
 SECTION "_ItemCantUseOnMonText", ROMX
@@ -4142,26 +4146,23 @@ Text_RestoreThePPOfWhichMove::
 
 SECTION "Text_PPIsMaxedOut", ROMX
 Text_PPIsMaxedOut::
-	text "Los PP de"
-	line ""
 	text_ram wStringBuffer2
-	text " están al máximo."
+	text "'s PP"
+	line "is maxed out."
 	prompt
 
 SECTION "Text_PPsIncreased", ROMX
 Text_PPsIncreased::
-	text "Los PP de"
-	line ""
 	text_ram wStringBuffer2
-	text " aumentaron."
+	text "'s PP"
+	line "increased."
 	prompt
 
 SECTION "Text_PPsMaximized", ROMX
 Text_PPsMaximized::
-	text "Los PP de"
-	line ""
 	text_ram wStringBuffer2
-	text " se maximizaron."
+	text "'s PP"
+	line "maximized."
 	prompt
 
 SECTION "_PPRestoredText", ROMX
@@ -4242,7 +4243,7 @@ _ItemUsedText::
 SECTION "_KnowsMoveText", ROMX
 _KnowsMoveText::
 	text_ram wStringBuffer1
-	text " conoce"
+	text " knows"
 	line ""
 	text_ram wStringBuffer2
 	text "."

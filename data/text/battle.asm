@@ -20,7 +20,7 @@ WildPokemonAppearedText:
 	stop_compressing_text ; fallthrough
 LegendaryAppearedText:
 	text_ram wEnemyMonNickname
-	line "salvaje apareció!"
+	line "appeared!"
 	prompt
 
 GhostAppearedText:
@@ -41,10 +41,9 @@ HookedPokemonAttackedText:
 	prompt
 
 PokemonFellFromTreeText:
-	text "¡"
 	text_ram wEnemyMonNickname
-	text " cayó"
-	line "del árbol!"
+	text " fell"
+	line "out of the tree!"
 	prompt
 
 WantsToBattleText::
@@ -62,7 +61,7 @@ BattleText_WildFled:
 	stop_compressing_text ; fallthrough
 BattleText_LegendaryFled:
 	text_ram wEnemyMonNickname
-	line "salvaje huyó!"
+	line "fled!"
 	prompt
 
 BattleText_EnemyFled:
@@ -134,11 +133,11 @@ BattleText_UserLostSomeOfItsHP:
 	prompt
 
 BattleText_PickedUpItem:
-	text "¡<USER>"
-	line "recogió"
-	cont ""
+	; assumes player (enemy might overflow text-wise)
+	text "<USER> picked"
+	line "up "
 	text_ram wStringBuffer2
-	text "!"
+	text "."
 	prompt
 
 BattleText_UserRecoveredWithItem:
@@ -263,11 +262,6 @@ BattleText_ItemRaisedCrit:
 	cont "para motivarse!"
 	prompt
 
-BattleText_MegaSolCharged:
-	text "¡<USER>"
-	line "se cargó!"
-	prompt
-
 BattleText_UserChargedWithItem:
 	text "¡<USER>"
 	line "se cargó usando"
@@ -279,10 +273,10 @@ BattleText_UserChargedWithItem:
 BattleText_UsersFutureSightMissed:
 ; used when Future Sight can't hit anything because there was
 ; no target (so <TARGET> is undefined)
-	text "¡Premonición"
-	line "impactó!"
+	text "The Future Sight"
+	line "arrived!"
 
-	para "¡Pero falló!"
+	para "But it failed!"
 	prompt
 
 BattleText_TargetWasHitByFutureSight:
@@ -292,31 +286,27 @@ BattleText_TargetWasHitByFutureSight:
 	prompt
 
 BattleText_MistFaded:
-	text "¡La neblina de"
-	line ""
 	text_ram wStringBuffer1
-	cont "se disipó!"
+	text " #mon's"
+	line "mist faded!"
 	prompt
 
 BattleText_SafeguardFaded:
-	text "¡Velo Sagrado de"
-	line ""
 	text_ram wStringBuffer1
-	cont "se disipó!"
+	text " #mon's"
+	line "Safeguard faded!"
 	prompt
 
 BattleText_LightScreenFell:
-	text "¡Pantalla Luz de"
-	line ""
 	text_ram wStringBuffer1
-	cont "se disipó!"
+	text " #mon's"
+	line "Light Screen fell!"
 	prompt
 
 BattleText_ReflectFaded:
-	text "¡Reflejo de"
-	line ""
 	text_ram wStringBuffer1
-	cont "se disipó!"
+	text " #mon's"
+	line "Reflect faded!"
 	prompt
 
 BattleText_TheRainStopped:
@@ -385,9 +375,8 @@ SentAllToMomText:
 	prompt
 
 BattleText_PkmnFainted:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "se debilitó!"
+	line "fainted!"
 	prompt
 
 BattleText_UseNextMon:
@@ -512,23 +501,21 @@ BattleText_ItemsCantBeUsedHere:
 	prompt
 
 BattleText_PkmnIsAlreadyOut:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "ya está luchando!"
+	line "is already out."
 	prompt
 
 BattleText_PkmnCantBeRecalled:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "no puede volver!"
+	line "can't be recalled!"
 	prompt
 
 BattleText_PkmnCantBeRecalledAbility:
-	text "¡"
-	text_ram wStringBuffer1
-	line "de "
 	text_ram wEnemyMonNickname
-	cont "impide escapar!"
+	text "'s"
+	line ""
+	text_ram wStringBuffer1
+	cont "prevents escape!"
 	prompt
 
 BattleText_TheresNoPPLeftForThisMove:
@@ -537,10 +524,10 @@ BattleText_TheresNoPPLeftForThisMove:
 	prompt
 
 BattleText_ItemOnlyAllowsMove: ; choice items
-	text "¡"
+	text "The "
 	text_ram wStringBuffer1
-	line "solo permite usar"
-	cont ""
+	line "only allows use"
+	cont "of "
 	text_ram wStringBuffer2
 	text "!"
 	prompt
@@ -554,10 +541,10 @@ BattleText_MonCanOnlyUseMove:
 	prompt
 
 BattleText_ItemPreventsStatusMoves: ; assault vest
-	text "¡"
+	text "The "
 	text_ram wStringBuffer1
-	line "impide el uso de"
-	cont "movs. de estado!"
+	line "prevents usage"
+	cont "of status moves!"
 	prompt
 
 BattleText_TheMoveIsDisabled:
@@ -566,9 +553,8 @@ BattleText_TheMoveIsDisabled:
 	prompt
 
 BattleText_PkmnHasNoMovesLeft:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "no tiene ataques!"
+	line "has no moves left!"
 	done
 
 BattleText_UserEncoreEnded:
@@ -577,10 +563,9 @@ BattleText_UserEncoreEnded:
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
-	text "¡"
 	text_ram wStringBuffer1
-	text " subió"
-	line "al nivel "
+	text " grew to"
+	line "level "
 	text_decimal wCurPartyLevel, 1, 3
 	text "!"
 	text_sound SFX_DEX_FANFARE_50_79
@@ -779,44 +764,39 @@ UsedMoveInsteadText:
 	done
 
 LoafingAroundText:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "está"
-	cont "holgazaneando!"
+	text " is"
+	line "loafing around."
 	prompt
 
 BeganToNapText:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "se echó"
-	cont "a dormir!"
+	text " began"
+	line "to nap!"
 	prompt
 
 WontObeyText:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "no obedece!"
+	text " won't"
+	line "obey!"
 	prompt
 
 TurnedAwayText:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "se dio"
-	cont "la vuelta!"
+	text " turned"
+	line "away!"
 	prompt
 
 IgnoredOrdersText:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "ignoró"
-	cont "las órdenes!"
+	text " ignored"
+	line "orders!"
 	prompt
 
 IgnoredSleepingText:
-	text "¡"
 	text_ram wBattleMonNickname
-	line "ignoró las"
-	cont "órdenes…durmiendo!"
+	text " ignored"
+	line "orders…sleeping!"
 	prompt
 
 NoPPLeftText:
@@ -851,11 +831,6 @@ RegainedHealthText:
 IsHurtText:
 	text "¡<USER>"
 	line "está herido!"
-	prompt
-
-IsTormentedText:
-	text "¡<USER>"
-	line "está atormentado!"
 	prompt
 
 AttackMissedText:
@@ -1113,9 +1088,8 @@ ProtectedByMistText:
 
 GettingPumpedText:
 	text_pause
-	text "¡<USER>"
-	line "se está"
-	cont "preparando!"
+	text "<USER> is"
+	line "getting pumped!"
 	prompt
 
 RecoilText:
@@ -1518,11 +1492,11 @@ EnemyAffectionSelfCureText:
 	prompt
 
 AffectionCriticalText: ; same for both player and enemy
-	text "¡<USER>"
-	line "acertó un crítico,"
+	text "<USER>"
+	line "landed a critical"
 
-	para "deseando que"
-	line "lo felicitasen!"
+	para "hit, wishing to be"
+	line "praised!"
 	prompt
 
 NotifyAirBalloonText:
@@ -1624,8 +1598,8 @@ CannotUseText:
 ShudderedText:
 ; since the ability works with the opponent move data,
 ; it is on the opponent turn mostly
-	text "¡<TARGET>"
-	line "se estremeció!"
+	text "<TARGET>"
+	line "shuddered!"
 	prompt
 
 ForewarnText:
@@ -1685,12 +1659,11 @@ GetOutText:
 	line "Vete…"
 	prompt
 
-CalFinalPkmnText:
 CarrieFinalPkmnText:
+CalFinalPkmnText:
 JackyFinalPkmnText:
-EunaFinalPkmnText:
-	text "¡Aún me queda"
-	line "un #mon!"
+	text "I still have one"
+	line "#mon!"
 	prompt
 
 FalknerFinalPkmnText:
@@ -2120,12 +2093,10 @@ PiersFinalPkmnText:
 	cont "¡Ni #mon!"
 	prompt
 
-LarryFinalPkmnText:
-	text "Siempre doy mis"
-	line "mejores resultados"
-
-	para "en el momento"
-	line "decisivo."
+KatyFinalPkmnText:
+	text "Oh? How should I"
+	line "roll things out"
+	cont "from here?"
 	prompt
 
 BillFinalPkmnText:
