@@ -571,8 +571,8 @@ PrimeapePokedexEntry::
 SECTION "GrowlithePokedexEntry", ROMX
 GrowlithePokedexEntry::
 	db "Perrito@"
-	text "Controla gran te-"
-	next "-rritorio. Si nota"
+	text "Vigila su gran"
+	next "territorio. Ante"
 	next "un olor extraño,"
 	page "ruge con fuerza"
 	next "para expulsar al"
@@ -591,22 +591,20 @@ ArcaninePokedexEntry::
 SECTION "PoliwagPokedexEntry", ROMX
 PoliwagPokedexEntry::
 	db "Renacuajo@"
-	text "Su espiral de la"
-	next "tripa es su"
-	next "viscera visible a"
-	page "través de la piel."
-	next "Se ve más clara"
-	next "tras comer.@"
+	text "Su espiral es la"
+	next "víscera visible a"
+	next "través de su piel."
+	page "Se aprecia mejor"
+	next "después de comer.@"
 
 SECTION "PoliwhirlPokedexEntry", ROMX
 PoliwhirlPokedexEntry::
 	db "Renacuajo@"
 	text "Aunque camina"
-	next "con destreza, pre-"
-	next "-fiere vivir bajo"
-	page "el agua, donde"
-	next "sufre menos"
-	next "peligro.@"
+	next "muy bien, prefiere"
+	next "vivir bajo el"
+	page "agua, donde hay"
+	next "menos peligros.@"
 
 SECTION "PoliwrathPokedexEntry", ROMX
 PoliwrathPokedexEntry::
@@ -621,18 +619,18 @@ SECTION "AbraPokedexEntry", ROMX
 AbraPokedexEntry::
 	db "Psi@"
 	text "Se autohipnotiza"
-	next "para transportarse"
-	next "arse si detecta"
-	page "peligro, incluso"
-	next "estando dormido.@"
+	next "para escapar ante"
+	next "cualquier peligro,"
+	page "incluso estando"
+	next "dormido.@"
 
 SECTION "KadabraPokedexEntry", ROMX
 KadabraPokedexEntry::
 	db "Psi@"
-	text "Al cerrar sus"
-	next "ojos, emite el do-"
-	next "-ble de partículas"
-	page "alfa desde la"
+	text "Al cerrar sus ojos"
+	next "emite el doble de"
+	next "partículas alfa"
+	page "desde la"
 	next "superficie de su"
 	next "cuerpo.@"
 
@@ -776,22 +774,22 @@ SlowpokePlainPokedexEntry::
 	db "Atontado@"
 	text "Está siempre tan"
 	next "distraído que no"
-	next "reacciona ni aun-"
-	page "-que le muerdan su"
-	next "sabrosa cola.@"
+	next "se inmuta si le"
+	page "muerden su sabrosa"
+	next "cola.@"
 
 SECTION "SlowbroPlainPokedexEntry", ROMX
 SlowbroPlainPokedexEntry::
 if DEF(FAITHFUL)
-	db "Hermitaño@"
+	db "Ermitaño@"
 else
 	db "Ocupa@"
 endc
-	text "El Shellder engan-"
-	next "-chado no se"
-	next "suelta de la cola"
-	page "por el sabroso"
-	next "sabor que emana.@"
+	text "El Shellder de la"
+	next "cola no se suelta"
+	next "por el delicioso"
+	page "sabor que emana"
+	next "de ella.@"
 
 SECTION "MagnemitePokedexEntry", ROMX
 MagnemitePokedexEntry::
@@ -863,10 +861,10 @@ DewgongPokedexEntry::
 SECTION "GrimerPlainPokedexEntry", ROMX
 GrimerPlainPokedexEntry::
 	db "Lodo@"
-	text "Cuando los cuerpos"
-	next "de dos de estos"
-	next "#mon se fusionan,"
-	page "se generan nuevos"
+	text "Al unirse los"
+	next "cuerpos de dos de"
+	next "estos #mon, se"
+	page "crean nuevos"
 	next "venenos.@"
 
 SECTION "MukPlainPokedexEntry", ROMX
@@ -1023,10 +1021,10 @@ CubonePokedexEntry::
 SECTION "MarowakPlainPokedexEntry", ROMX
 MarowakPlainPokedexEntry::
 	db "Huesudo@"
-	text "Existe un cemen-"
-	next "-terio solo para"
-	next "Marowak. De allí"
-	page "consigue sus"
+	text "Hay un cementerio"
+	next "exclusivo para los"
+	next "Marowak, de donde"
+	page "obtienen todos sus"
 	next "huesos.@"
 
 SECTION "HitmonleePokedexEntry", ROMX
@@ -1106,11 +1104,11 @@ ChanseyPokedexEntry::
 SECTION "TangelaPokedexEntry", ROMX
 TangelaPokedexEntry::
 	db "Enredadera@"
-	text "En combate mueve"
-	next "constantemente las"
-	next "lianas de su"
-	page "cuerpo para moles-"
-	next "-tar al rival.@"
+	text "En combate agita"
+	next "las lianas de su"
+	next "cuerpo para"
+	page "incomodar al rival"
+	next "y distraerlo.@"
 
 SECTION "KangaskhanPokedexEntry", ROMX
 KangaskhanPokedexEntry::
@@ -1133,21 +1131,21 @@ HorseaPokedexEntry::
 SECTION "SeadraPokedexEntry", ROMX
 SeadraPokedexEntry::
 	db "Dragón@"
-	text "El macho cría a"
-	next "los pequeños. Si"
-	next "se le acercan, usa"
-	page "sus púas venenosas"
-	next "para alejar al"
+	text "El macho cuida a"
+	next "las crías. Si se"
+	next "acercan, usa sus"
+	page "púas venenosas y"
+	next "aleja al"
 	next "intruso.@"
 
 SECTION "GoldeenPokedexEntry", ROMX
 GoldeenPokedexEntry::
 	db "Pez Color@"
 	text "En época de freza,"
-	next "nadan con elegan-"
-	next "-cia por el agua"
-	page "buscando a su "
-	next "pareja ideal.@"
+	next "nada con gran"
+	next "elegancia buscando"
+	page "a su pareja"
+	next "ideal.@"
 
 SECTION "SeakingPokedexEntry", ROMX
 SeakingPokedexEntry::
@@ -1234,9 +1232,9 @@ PinsirPokedexEntry::
 SECTION "TaurosPlainPokedexEntry", ROMX
 TaurosPlainPokedexEntry::
 	db "Toro Salv.@"
-	text "Estos violento"
-	next "#mon luchan entre"
-	next "sí dentro de la"
+	text "Estos violentos"
+	next "#mon luchan"
+	next "dentro de la"
 	page "manada para probar"
 	next "su fuerza.@"
 
@@ -1297,11 +1295,10 @@ VaporeonPokedexEntry::
 SECTION "JolteonPokedexEntry", ROMX
 JolteonPokedexEntry::
 	db "Rayo@"
-	text "Los iones negati-"
-	next "-vos de su pelaje"
-	next "generan un"
-	page "chisporroteo"
-	next "constante.@"
+	text "Los iones en su"
+	next "pelaje generan un"
+	next "chisporroteo"
+	page "constante.@"
 
 SECTION "FlareonPokedexEntry", ROMX
 FlareonPokedexEntry::
@@ -1315,12 +1312,12 @@ FlareonPokedexEntry::
 SECTION "PorygonPokedexEntry", ROMX
 PorygonPokedexEntry::
 	db "Virtual@"
-	text "Una criatura"
-	next "artificial creada"
-	next "tras mucha inves-"
-	page "-tigación. Solo"
-	next "hace lo que está"
-	next "en su programa. @"
+	text "Criatura creada"
+	next "tras muchos años"
+	next "de investigación."
+	page "Solo hace lo que"
+	next "está en su"
+	next "programa.@"
 
 SECTION "OmanytePokedexEntry", ROMX
 OmanytePokedexEntry::
@@ -1329,15 +1326,15 @@ OmanytePokedexEntry::
 	next "nadaba por el"
 	next "fondo marino"
 	page "comiendo plancton."
-	next "Se hallan ocasio-"
-	next "-nes sus fósiles.@"
+	next "A veces se hallan"
+	next "sus fósiles.@"
 
 SECTION "OmastarPokedexEntry", ROMX
 OmastarPokedexEntry::
 	db "Espiral@"
 	text "Su pesado"
 	next "caparazón solo le"
-	next "dejaba atracar"
+	next "dejaba atrapar"
 	page "comida cercana."
 	next "Quizás por eso"
 	next "se extinguió.@"
@@ -1346,8 +1343,8 @@ SECTION "KabutoPokedexEntry", ROMX
 KabutoPokedexEntry::
 	db "Marisco@"
 	text "Hace 300 millones"
-	next "de años se oculta-"
-	next "ba en el mar."
+	next "de años vivía en"
+	next "el fondo marino."
 	page "Tiene ojos"
 	next "brillantes en"
 	next "su lomo.@"
@@ -1441,7 +1438,7 @@ MewtwoPlainPokedexEntry::
 
 SECTION "MewPokedexEntry", ROMX
 MewPokedexEntry::
-	db "Nueva Especie@"
+	db "N. Especie@"
 	text "Como aprende todo"
 	next "ataque, investigan"
 	next "si es el ancestro"
@@ -1628,11 +1625,11 @@ PichuPokedexEntry::
 SECTION "CleffaPokedexEntry", ROMX
 CleffaPokedexEntry::
 	db "Estrella@"
-	text "Si cae un meteor-"
-	next "ito, seguro que"
-	next "habrá algún"
-	page "#mon de estos"
-	next "por la zona.@"
+	text "Si cae un meteoro,"
+	next "seguro que habrá"
+	next "algún #mon de"
+	page "estos cerca de"
+	next "la zona.@"
 
 SECTION "IgglybuffPokedexEntry", ROMX
 IgglybuffPokedexEntry::
@@ -1976,10 +1973,11 @@ HeracrossPokedexEntry::
 SECTION "SneaselPokedexEntry", ROMX
 SneaselPokedexEntry::
 	db "GarraAfilad@"
-	text "Este astuto #mon"
-	next "se oculta en la"
-	next "noche para atacar"
-	page "a su presa.@"
+	text "Muy astuto, este"
+	next "#mon acecha en"
+	next "la noche para"
+	page "atacar a su"
+	next "presa.@"
 
 SECTION "TeddiursaPokedexEntry", ROMX
 TeddiursaPokedexEntry::
@@ -2255,9 +2253,9 @@ HoOhPokedexEntry::
 
 SECTION "CelebiPokedexEntry", ROMX
 CelebiPokedexEntry::
-	db "ViajeroTiempo@"
-	text "Guardián del"
-	next "bosque, aparece"
+	db "Viajetiempo@"
+	text "Guardián de los"
+	next "bosques. Aparece"
 	next "en bellos montes.@"
 
 SECTION "AzurillPokedexEntry", ROMX
@@ -2682,9 +2680,9 @@ PersianAlolanPokedexEntry::
 SECTION "GeodudeAlolanPokedexEntry", ROMX
 GeodudeAlolanPokedexEntry::
 	db "Roca@"
-	text "Su cuerpo magné-"
-	next "tico. La arena de"
-	next "hierro se le pega.@"
+	text "Su cuerpo despide"
+	next "magnetismo y atrae"
+	next "arena de hierro.@"
 
 SECTION "GravelerAlolanPokedexEntry", ROMX
 GravelerAlolanPokedexEntry::
@@ -2717,14 +2715,14 @@ RapidashGalarianPokedexEntry::
 SECTION "SlowpokeGalarianPokedexEntry", ROMX
 SlowpokeGalarianPokedexEntry::
 	db "Atontado@"
-	text "Suele estar ido-"
-	next "ado, pero a veces"
-	next "mira fijamente.@"
+	text "Suele estar ido,"
+	next "pero a veces su"
+	next "mirada se afila.@"
 
 SECTION "SlowbroGalarianPokedexEntry", ROMX
 SlowbroGalarianPokedexEntry::
 if DEF(FAITHFUL)
-	db "Hermitaño@"
+	db "Ermitaño@"
 else
 	db "Ocupa@"
 endc
@@ -2762,10 +2760,10 @@ ArticunoGalarianPokedexEntry::
 
 SECTION "ZapdosGalarianPokedexEntry", ROMX
 ZapdosGalarianPokedexEntry::
-	db "PatasFuertes@"
-	text "Sus plumas hacen"
-	next "un chasquido"
-	next "chispas al rozar.@"
+	db "Pata Fuerte@"
+	text "Sus plumas crujen"
+	next "soltando chispas"
+	next "al frotarse.@"
 
 SECTION "MoltresGalarianPokedexEntry", ROMX
 MoltresGalarianPokedexEntry::
@@ -2798,9 +2796,9 @@ GrowlitheHisuianPokedexEntry::
 SECTION "ArcanineHisuianPokedexEntry", ROMX
 ArcanineHisuianPokedexEntry::
 	db "Legendario@"
-	text "Es rápido esquiv-"
-	next "ando ataques y"
-	next "marea al rival.@"
+	text "Es muy veloz al"
+	next "esquivar ataques y"
+	next "marea a su rival.@"
 
 SECTION "VoltorbHisuianPokedexEntry", ROMX
 VoltorbHisuianPokedexEntry::

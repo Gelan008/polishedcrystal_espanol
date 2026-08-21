@@ -58,17 +58,17 @@ WantToBattleText::
 	prompt
 
 BattleText_WildFled:
-	text "Wild "
+	text "¡"
 	stop_compressing_text ; fallthrough
 BattleText_LegendaryFled:
 	text_ram wEnemyMonNickname
-	line "fled!"
+	line "salvaje huyó!"
 	prompt
 
 BattleText_EnemyFled:
-	text "The foe "
+	text "¡"
 	text_ram wEnemyMonNickname
-	line "fled!"
+	line "rival huyó!"
 	prompt
 
 BattleText_EnemyCantEscape:
@@ -175,12 +175,12 @@ BattleText_UserItemLetItMoveFirst::
 
 BattleText_UserRecoveredPPUsing:
 	text "¡<USER>"
-	line "restauró PP de"
+	line "usó "
+	text_ram wStringBuffer1
+	text " y"
+	cont "restauró los PP de"
 	cont ""
 	text_ram wStringBuffer2
-	text " usando"
-	cont ""
-	text_ram wStringBuffer1
 	text "!"
 	prompt
 
@@ -292,29 +292,29 @@ BattleText_TargetWasHitByFutureSight:
 	prompt
 
 BattleText_MistFaded:
-	text "¡La neblina del"
-	line "equipo "
+	text "¡La neblina de"
+	line ""
 	text_ram wStringBuffer1
 	cont "se disipó!"
 	prompt
 
 BattleText_SafeguardFaded:
-	text "¡Velo Sagrado del"
-	line "equipo "
+	text "¡Velo Sagrado de"
+	line ""
 	text_ram wStringBuffer1
 	cont "se disipó!"
 	prompt
 
 BattleText_LightScreenFell:
-	text "¡Pantalla Luz"
-	line "del equipo "
+	text "¡Pantalla Luz de"
+	line ""
 	text_ram wStringBuffer1
 	cont "se disipó!"
 	prompt
 
 BattleText_ReflectFaded:
-	text "Reflejo del"
-	line "equipo "
+	text "¡Reflejo de"
+	line ""
 	text_ram wStringBuffer1
 	cont "se disipó!"
 	prompt
@@ -1162,10 +1162,11 @@ EvadedText:
 	prompt
 
 WasDisabledText:
-	text "¡Anuló "
+	text "¡Anuló"
+	line ""
 	text_ram wStringBuffer2
 	text " de"
-	line "<TARGET>!"
+	cont "<TARGET>!"
 	prompt
 
 CoinsScatteredText:
@@ -1629,7 +1630,8 @@ ShudderedText:
 
 ForewarnText:
 	text "¡<TARGET>"
-	line "tiene "
+	line "conoce"
+	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	prompt
@@ -1734,9 +1736,9 @@ PryceFinalPkmnText:
 	prompt
 
 ClairFinalPkmnText:
-	text "¿Un último #mon?"
-	line "¡Aquí es donde de"
-	cont "verdad empezamos!"
+	text "¿Te queda solo un"
+	line "#mon? ¡Ahora"
+	cont "empieza lo bueno!"
 	prompt
 
 WillFinalPkmnText:
@@ -1836,11 +1838,9 @@ Rival1_2FinalPkmnText:
 	prompt
 
 Rival1_3FinalPkmnText:
-	text "Por pura desespe-"
-	line "ración, los más"
-
-	para "débiles a veces se"
-	line "defienden bien."
+	text "Por desesperación,"
+	line "los más débiles se"
+	cont "defienden bien."
 	prompt
 
 Rival1_4FinalPkmnText:
@@ -1957,11 +1957,9 @@ Giovanni1FinalPkmnText:
 	prompt
 
 Giovanni2FinalPkmnText:
-	text "¡No me digas que"
-	line "un crío sin expe-"
-
-	para "riencia puede ser"
-	line "tan fuerte!"
+	text "¡¿Un novato"
+	line "puede llegar a"
+	cont "ser tan fuerte?!"
 	prompt
 
 ProfOakFinalPkmnText:
@@ -1999,8 +1997,8 @@ ThortonFinalPkmnText:
 
 JessieJamesFinalPkmnText:
 	text "¡Tenemos una gran"
-	line "tradición de fra-"
-	cont "casos a mantener!"
+	line "fama de fracasos"
+	cont "que mantener!"
 	prompt
 
 LoreleiFinalPkmnText:
@@ -2035,8 +2033,9 @@ CherylFinalPkmnText:
 	prompt
 
 RileyFinalPkmnText:
-	text "¡Tu equipo! ¡Sien-"
-	line "-to tu gran aura!"
+	text "¡Puedo sentir la"
+	line "gran aura de"
+	cont "tu equipo!"
 	prompt
 
 BuckFinalPkmnText:

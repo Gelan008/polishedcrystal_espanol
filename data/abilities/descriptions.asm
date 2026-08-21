@@ -168,13 +168,13 @@ NoAbilityDescription:
 	done
 
 StenchDescription:
-	text "Puede hacer que"
-	next "el rival retroceda."
+	text "Puede hacer que el"
+	next "rival retroceda."
 	done
 
 DrizzleDescription:
-	text "Invoca la lluvia"
-	next "al entrar a luchar."
+	text "Hace que llueva al"
+	next "entrar a luchar."
 	done
 
 SpeedBoostDescription:
@@ -189,13 +189,13 @@ ShellArmorDescription:
 	done
 
 SturdyDescription:
-	text "Evita caer debili-"
-	next "-tado de un golpe."
+	text "Evita el KO de"
+	next "un solo golpe."
 	done
 
 DampDescription:
-	text "Evita movimientos"
-	next "de autodestrucción."
+	text "Evita ataques de"
+	next "autodestrucción."
 	done
 
 LimberDescription:
@@ -215,7 +215,7 @@ StaticDescription:
 
 VoltAbsorbDescription:
 	text "Cura PS al recibir"
-	next "ataques Eléctricos."
+	next "daño Eléctrico."
 	done
 
 WaterAbsorbDescription:
@@ -252,7 +252,7 @@ PastelVeilDescription:
 
 FlashFireDescription:
 	text "Potencia el Fuego"
-	next "si recibe ese tipo."
+	next "si recibe Fuego."
 	done
 
 ShieldDustDescription:
@@ -337,13 +337,13 @@ TraceDescription:
 	done
 
 HugePowerDescription:
-	text "Aumenta mucho su"
-	next "característica Ataque."
+	text "Aumenta mucho el"
+	next "Ataque físico."
 	done
 
 PoisonPointDescription:
 	text "El contacto puede"
-	next "envenenar al rival."
+	next "causar veneno."
 	done
 
 InnerFocusDescription:
@@ -362,8 +362,8 @@ WaterVeilDescription:
 	done
 
 MagnetPullDescription:
-	text "Evita la huida de"
-	next "rivales tipo Acero."
+	text "Atrapa a rivales"
+	next "de tipo Acero."
 	done
 
 SoundproofDescription:
@@ -402,8 +402,8 @@ FlameBodyDescription:
 	done
 
 RunAwayDescription:
-	text "Asegura la huida"
-	next "de #mon salvajes."
+	text "Permite huir de"
+	next "#mon salvajes."
 	done
 
 KeenEyeDescription:
@@ -428,7 +428,7 @@ HustleDescription:
 
 CuteCharmDescription:
 	text "El contacto puede"
-	next "causar enamoramiento."
+	next "enamorar al rival."
 	done
 
 StickyHoldDescription:
@@ -437,8 +437,8 @@ StickyHoldDescription:
 	done
 
 ShedSkinDescription:
-	text "Puede curar sus"
-	next "problemas de estado."
+	text "Puede curar los"
+	next "cambios de estado."
 	done
 
 GutsDescription:
@@ -517,13 +517,13 @@ SnowCloakDescription:
 	done
 
 GluttonyDescription:
-	text "Adelanta el uso de"
-	next "las Baya equipadas."
+	text "Come las Bayas"
+	next "antes de tiempo."
 	done
 
 AngerPointDescription:
-	text "Maximiza Ataque al"
-	next "recibir un crítico."
+	text "Maximiza Ataque"
+	next "tras un crítico."
 	done
 
 UnburdenDescription:
@@ -578,7 +578,7 @@ QuickFeetDescription:
 
 SniperDescription:
 	text "Potencia aún más"
-	next "los golpes críticos."
+	next "los críticos."
 	done
 
 MagicGuardDescription:
@@ -617,8 +617,8 @@ AftermathDescription:
 	done
 
 AnticipationDescription:
-	text "Siente los ataques"
-	next "peligrosos rivales."
+	text "Prevé los ataques"
+	next "peligrosos."
 	done
 
 ForewarnDescription:
@@ -638,8 +638,8 @@ TintedLensDescription:
 
 FilterDescription:
 SolidRockDescription:
-	text "Reduce daño de"
-	next "ataques supereficaces."
+	text "Atenúa ataques"
+	next "supereficaces."
 	done
 
 ScrappyDescription:
@@ -653,8 +653,8 @@ IceBodyDescription:
 	done
 
 SnowWarningDescription:
-	text "Invoca granizo"
-	next "al entrar a luchar."
+	text "Hace que nieve al"
+	next "entrar a luchar."
 	done
 
 HoneyGatherDescription:
@@ -673,7 +673,7 @@ FriskDescription:
 
 RecklessDescription:
 	text "Potencia ataques"
-	next "con daño de reculada."
+	next "con retroceso."
 	done
 
 BadDreamsDescription:
@@ -718,12 +718,12 @@ WeakArmorDescription:
 
 LightMetalDescription:
 	text "Reduce a la mitad"
-	next "el peso del #mon."
+	next "el propio peso."
 	done
 
 MultiscaleDescription:
-	text "Reduce el daño si"
-	next "los PS están al máx."
+	text "Reduce el daño"
+	next "con los PS llenos."
 	done
 
 HarvestDescription:
@@ -773,7 +773,7 @@ AnalyticDescription:
 
 ImposterDescription:
 	text "Se transforma en"
-	next "el rival al entrar."
+	next "en el rival."
 	done
 
 InfiltratorDescription:
@@ -787,8 +787,8 @@ MoxieDescription:
 	done
 
 JustifiedDescription:
-	text "Sube At al recibir"
-	next "ataques Siniestros."
+	text "Sube el Ataque con"
+	next "daño Siniestro."
 	done
 
 RattledDescription:
@@ -822,8 +822,8 @@ IronBarbsDescription:
 	done
 
 FurCoatDescription:
-	text "Sube mucho Defensa"
-	next "ante ataques físicos."
+	text "Duplica la Defensa"
+	next "ante daño físico."
 	done
 
 BulletproofDescription:
@@ -877,18 +877,18 @@ CorrosionDescription:
 	done
 
 FluffyDescription:
-	text "Resiste contacto,"
-	next "pero débil a Fuego."
+	text "Resiste contacto"
+	next "y teme al Fuego."
 	done
 
 TanglingHairDescription:
 	text "El contacto puede"
-	next "bajar la Velocidad."
+	next "bajar Velocidad."
 	done
 
 GorillaTacticsDescription:
 	text "Sube Ataque, pero"
-	next "solo permite un mov."
+	next "fija el ataque."
 	done
 
 NeutralizingGasDescription:
@@ -917,8 +917,8 @@ PerishBodyDescription:
 	done
 
 ScreenCleanerDescription:
-	text "Elimina pantallas"
-	next "al entrar a luchar."
+	text "Borra pantallas al"
+	next "entrar a luchar."
 	done
 
 CudChewDescription:
@@ -933,7 +933,7 @@ SharpnessDescription:
 
 ArmorTailDescription:
 	text "Anula los ataques"
-	next "de prioridad rival."
+	next "prioritarios."
 	done
 
 MindsEyeDescription:
