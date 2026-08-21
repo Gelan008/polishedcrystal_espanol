@@ -71,11 +71,11 @@ OptionsMenu_LoadOptions:
 StringOptions1:
 	text  "Veloc. Texto"
 	next1 "        :"
-	next1 "Desplaz. Auto"
+	next1 "Texto Auto."
 	next1 "        :"
 	next1 "Marco"
 	next1 "        :Tipo"
-	next1 "Tipografía"
+	next1 "Fuente"
 	next1 "        :"
 	next1 "Teclado"
 	next1 "        :"
@@ -83,25 +83,25 @@ StringOptions1:
 	next1 "        :"
 	next1 "Siguiente"
 	next1 "        " ; no-optimize trailing string space
-	next1 "Salir"
+	next1 "Listo"
 	done
 
 StringOptions2:
-	text  "Anim. Combate"
+	text  "Efectos Batallas"
 	next1 "        :"
-	next1 "Estilo Combate"
+	next1 "Estilo Batalla"
 	next1 "        :"
-	next1 "Zapatillas"
+	next1 "Auto-Correr"
 	next1 "        :"
-	next1 "Veloc. Giro"
+	next1 "Velocidad Giro"
 	next1 "        :"
 	next1 "Formato Reloj"
 	next1 "        :"
-	next1 "Unidades Dex"
+	next1 "#dex Unidades"
 	next1 "        :"
 	next1 "Anterior"
 	next1 "        " ; no-optimize trailing string space
-	next1 "Salir"
+	next1 "Listo"
 	done
 
 GetOptionPointer:

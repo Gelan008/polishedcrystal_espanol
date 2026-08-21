@@ -1,118 +1,148 @@
 InitialOptionDescriptions:
 	table_width 2
-	dw .InitialOptionDesc_Natures
-	dw .InitialOptionDesc_Abilities
-	dw .InitialOptionDesc_PSS
-	dw .InitialOptionDesc_EVs
-	dw .InitialOptionDesc_Experience
-	dw .InitialOptionDesc_AffectionBonus
-	dw .InitialOptionDesc_NextPage
+	dw .Natures
+	dw .Abilities
+	dw .PSS
+	dw .EVs
+	dw .Experience
+	dw .AffectionBonus
+	dw .NextPage
 
-	dw .InitialOptionDesc_RTC
-	dw .InitialOptionDesc_PerfectIVs
-	dw .InitialOptionDesc_TradedMon
-	dw .InitialOptionDesc_EvolveInBattle
-	dw .InitialOptionDesc_ColorVariation
+	dw .RTC
+	dw .PerfectIVs
+	dw .TradedMon
+	dw .EvolveInBattle
+	dw .ColorVariation
 	dw EmptyString
-	dw .InitialOptionDesc_PrevPage
+	dw .PrevPage
 	assert_table_length NUM_INITIAL_OPTIONS_PER_PAGE * 2
 
-.InitialOptionDesc_Natures:
-	text "Las naturalezas"
-	line "suben una estadís-"
-	cont "tica y bajan otra"
-	cont "un 10%."
+.Natures:
+	text "Naturalezas suben"
+	line "un stat y bajan"
+	cont "otro un 10%."
 
-	para "Añadido en Gen 3."
+	para "Introducidas en"
+	line "3 Generación."
 	prompt
 
-.InitialOptionDesc_Abilities:
-	text "Las habilidades"
+.Abilities:
+	text "Las Habilidades"
 	line "tienen efectos"
-	cont "dentro y fuera de"
-	cont "los combates."
 
-	para "Añadido en Gen 3."
+	para "dentro y fuera"
+	line "del combate."
+
+	para "Introducidas en"
+	line "3 Generación."
 	prompt
 
-.InitialOptionDesc_PSS:
-	text "Los movimientos"
-	line "son físicos o"
-	cont "especiales según"
-	cont "su naturaleza."
+.PSS:
+	text "Ataques Físicos o"
+	line "Especiales según"
+	cont "el movimiento."
 
-	para "Añadido en Gen 4."
+	para "Introducido en"
+	line "4 Generación."
 	prompt
 
-.InitialOptionDesc_EVs:
-	text "Los PE aumentan"
-	line "estadísticas hasta"
-	cont "en 63 puntos,"
-	cont "uno por 4 PE."
+.EVs:
+	text "510: Modo moderno"
+	line "hasta {d:MODERN_MAX_EV} por stat"
+	cont "y {d:MODERN_EV_LIMIT} en total."
 
-	para "Puedes elegir el"
-	line "máximo en cada"
-	cont "estadística o el"
-	cont "límite moderno."
+	para "Todos: Sube todas"
+	line "a {d:MODERN_MAX_EV} sin límite"
+	cont "(como en Gen 1-2)."
+
+	para "No: Sin EVs (stats"
+	line "fijadas por nivel,"
+	cont "IVs y naturaleza)."
 	prompt
 
-.InitialOptionDesc_Experience:
-	text "La experiencia"
-	line "puede ser según la"
-	cont "diferencia de"
-	cont "nivel o fija."
+.Experience:
+	text "Fórmula antigua"
+	line "(Gen 1-4) fija."
 
-	para "La opción 'No' no"
-	line "da experiencia."
+	para "Fórmula nueva"
+	line "(Gen 5 y 7+) da"
+	cont "más Exp. al vencer"
+	cont "rivales de mayor"
+	cont "nivel y viceversa."
+
+	para "Puedes desactivar"
+	line "la Exp. ganada,"
+	cont "pero los Caramelos"
+	cont "siguen funcionando"
 	prompt
 
-.InitialOptionDesc_AffectionBonus:
-	text "El afecto alto da"
-	line "ventajas en combate"
-	cont "como curación o"
-	cont "más críticos."
+.AffectionBonus:
+	text "Tu #mon tendrá"
+	line "ventajas si tu"
+	cont "amistad es alta."
 
-	para "Añadido en Gen 6."
+	para "Introducido en"
+	line "6 Generación."
 	prompt
 
-.InitialOptionDesc_RTC:
-	text "Puedes cambiar la"
-	line "hora pulsando"
-	cont "Abajo + B en el"
-	cont "menú de inicio."
+.RTC:
+	text "Usa el Reloj en"
+	line "Tiempo Real para"
+	cont "seguir la hora."
+
+	para "Si tu emulador o"
+	line "cartucho no usa"
+	cont "RTC, desactívalo"
+
+	assert 24 % NO_RTC_SPEEDUP == 0
+	para "para que cada día"
+	line STRFMT("dure %d horas.", 24 / NO_RTC_SPEEDUP) ; 24 / 6 == 4
 	prompt
 
-.InitialOptionDesc_PerfectIVs:
-	text "Todos los #mon"
-	line "tienen IVs perfec-"
-	cont "tos de 31."
+.PerfectIVs:
+	text "Stats calculados"
+	line "como si los IVs"
+
+	para "fuesen perfectos"
+	line "para todos los"
+	cont "#mon."
 	prompt
 
-.InitialOptionDesc_TradedMon:
-	text "Los #mon inter-"
-	line "cambiados te obe-"
-	cont "decen sin medallas"
-	cont "y no ganan exp. +"
+.TradedMon:
+	text "#mon de trueque"
+	line "te obedecerán y"
+	cont "tendrán mote,"
+	cont "pero no ganarán"
+	cont "Exp. extra."
 	prompt
 
-.InitialOptionDesc_EvolveInBattle:
-	text "Los #mon pueden"
-	line "evolucionar nada"
-	cont "más subir de nivel"
-	cont "en combate."
+.EvolveInBattle:
+	text "Tus #mon pueden"
+	line "evolucionar en"
+	cont "pleno combate."
+
+	para "Inspirado en el"
+	line "anime de #mon."
 	prompt
 
-.InitialOptionDesc_ColorVariation:
-	text "Variación sutil"
-	line "de color en cada"
-	cont "#mon según sus"
-	cont "IVs y género."
+.ColorVariation:
+	text "Da un matiz de"
+	line "color único a cada"
+	cont "espécimen #mon."
+
+	para "Afecta a normales"
+	line "y a variocolor sin"
+	cont "alterar sus stats."
+
+	para "No quita shinies."
+	line "Inspirado en"
+	cont "#mon Stadium."
 	prompt
 
-.InitialOptionDesc_NextPage:
+.NextPage:
 	text "Página siguiente."
 	prompt
 
-.InitialOptionDesc_PrevPage:
+.PrevPage:
 	text "Página anterior."
 	prompt
