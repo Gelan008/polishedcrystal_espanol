@@ -219,8 +219,8 @@ CeladonGameCornerPrizeRoomPharmacistText:
 	cont "calmado…"
 
 	para "No puedo perder"
-	line "la cabeza o perderé"
-	cont "mi dinero…"
+	line "la cabeza o"
+	cont "perderé todo…"
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:

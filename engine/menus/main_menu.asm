@@ -41,9 +41,6 @@ MainMenu:
 	db "Opciones@"
 	db "Reproductor@"
 
-.GelanCredits:
-	db "Traducc. Gelan008@"
-
 .Jumptable:
 	dw MainMenu_Continue
 	dw MainMenu_NewGame
@@ -106,9 +103,6 @@ MainMenu_GetWhichMenu:
 
 MainMenuJoypadLoop:
 	call SetUpMenu
-	hlcoord 1, 13
-	ld de, MainMenu.GelanCredits
-	rst PlaceString
 .loop
 	call MainMenu_PrintCurrentTimeAndDay
 	ld a, [w2DMenuFlags1]

@@ -318,11 +318,12 @@ Text_LyraIntro:
 	text "Lira: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "Fui a tu casa, pero"
-	line "estabas durmiendo."
+	para "Fui a tu casa"
+	line "pero estabas"
+	cont "durmiendo."
 
 	para "¿Sabes que a veces"
-	line "ayudo al Prof. Elm,"
+	line "ayudo al Prof. Elm"
 	cont "¿verdad?"
 
 	para "Empezará un nuevo"

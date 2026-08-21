@@ -197,9 +197,9 @@ PokeDollVendingMachine:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Jigglypuff  ¥2400@"
-	db "Ditto       ¥2400@"
-	db "Meowth      ¥2400@"
+	db "Jigglypuff  2400¥@"
+	db "Ditto       2400¥@"
+	db "Meowth      2400¥@"
 	db "Cancelar@"
 
 GoldenrodDeptStoreRoofPokefanFText:

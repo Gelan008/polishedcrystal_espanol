@@ -175,7 +175,7 @@ IrwinCalledRightAwayText:
 
 IrwinFogBadgeGossipText:
 	text "¡Lo vi, lo oí!"
-	line "¡Venciste a Morty"
+	line "¡Venciste a Morti"
 	cont "en Ciudad Iris!"
 
 	para "¡Eso es increíble!"

@@ -97,7 +97,7 @@ FredrikComputerScript:
 	done
 
 AdminEmiText:
-	text "Emi: ¿Has visto los"
+	text "Emi: ¿Viste los"
 	line "Datos #mon?"
 
 	para "¡Vengo desde la"

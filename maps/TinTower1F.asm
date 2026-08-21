@@ -399,8 +399,8 @@ TinTowerEusineSuicuneText:
 
 	para "Suicune era muy"
 	line "fuerte, pero tú"
-	cont "estuviste aún más"
-	cont "increíble, <PLAYER>."
+	cont "lo hiciste genial,"
+	cont "<PLAYER>."
 
 	para "Dicen que el poder"
 	line "de Suicune invoca"

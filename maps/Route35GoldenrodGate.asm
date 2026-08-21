@@ -45,7 +45,7 @@ RandyScript:
 	jumpthisopenedtext
 
 	text "¡Puedes leerla,"
-	line "pero no la pierdas!"
+	line "pero cuídala bien!"
 	cont "¡Es en la Ruta 31!"
 
 	para "Ah, sí. Había un"

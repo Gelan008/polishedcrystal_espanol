@@ -258,7 +258,7 @@ SECTION "MortyGroup", ROMX
 MortyGroup:
 
 	def_trainer_class MORTY
-	def_trainer 1, "Morty"
+	def_trainer 1, "Morti"
 	tr_mon 24, HAUNTER, MALE
 		tr_extra LEVITATE
 		tr_evs 64 Atk, 64 Spe
@@ -288,7 +288,7 @@ endc
 		tr_moves HYPNOSIS, THUNDERBOLT, SHADOW_BALL, DREAM_EATER
 	end_trainer
 
-	def_trainer 2, "Morty"
+	def_trainer 2, "Morti"
 	tr_mon 70, CURSOLA @ EJECT_BUTTON, MALE
 		tr_extra PERISH_BODY, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf

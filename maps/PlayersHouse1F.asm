@@ -221,9 +221,8 @@ MomDSTText:
 MomRunningShoesText:
 	text "Vuelve a casa para"
 	line "ajustar el reloj"
-
-	para "al horario de"
-	line "verano."
+	cont "al horario de"
+	cont "verano."
 
 	para "Por cierto, ¿sabes"
 	line "cómo usar tus"

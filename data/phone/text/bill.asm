@@ -73,8 +73,8 @@ BillPhoneNewlyFullText:
 	line "mi Sistema de"
 	cont "Almacenamiento."
 
-	para "¡Ese último #mon"
-	line "llenó mi sistema!"
+	para "¡Tu último #mon"
+	line "llenó el sistema!"
 	prompt
 
 BillWholePCFullText:

@@ -515,10 +515,10 @@ GoldenrodCityMoveTutorHmTooBadText:
 	done
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
-	text "Si sabes lo genial"
-	line "que es este ataque,"
-	cont "¡ya serás todo un"
-	cont "gran entrenador!"
+	text "Si entiendes lo"
+	line "bueno que es este"
+	cont "ataque, ¡ya serás"
+	cont "un gran experto!"
 	done
 
 

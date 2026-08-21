@@ -29,7 +29,7 @@ GenericTrainerBird_keeperDenis:
 
 	text "Mi #mon"
 	line "aprendió Vuelo en"
-	cont "el Bosque Amarillo."
+	cont "el Bosque Amarillo"
 
 	para "Como he perdido,"
 	line "¡cruzaré el mar"

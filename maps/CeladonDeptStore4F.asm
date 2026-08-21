@@ -97,9 +97,9 @@ PosterClerkScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Marill      ¥3200@"
-	db "Clefairy    ¥4800@"
-	db "Pikachu     ¥6400@"
+	db "Marill      3200¥@"
+	db "Clefairy    4800¥@"
+	db "Pikachu     6400¥@"
 	db "Salir@"
 
 PosterClerkText:

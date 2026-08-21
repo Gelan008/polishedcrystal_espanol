@@ -158,13 +158,13 @@ AzaleaGymGuyScript:
 	para "Será duro sin mis"
 	line "consejos."
 
-	para "A ver… A los"
-	line "#mon bicho no les"
-	cont "gusta el fuego."
+	para "A ver… Los #mon"
+	line "bicho odian el"
+	cont "fuego."
 
-	para "Los ataques"
-	line "voladores también"
-	cont "son súper eficaces."
+	para "Y los ataques de"
+	line "tipo Volador son"
+	cont "supereficaces."
 	done
 
 .WinText:

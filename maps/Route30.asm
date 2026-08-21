@@ -303,8 +303,9 @@ Route30SignText:
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "¡Casa de Sr.#mon"
-	line "todo recto!"
+	text "Casa del"
+	line "Sr.#mon:"
+	cont "¡Todo recto!"
 	done
 
 MrPokemonsHouseSignText:

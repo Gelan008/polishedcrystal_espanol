@@ -441,8 +441,8 @@ Route39AdvancedTips2Text:
 	cont "equipada"
 
 	para "ayudará a hallar"
-	line "#mon salvajes con"
-	cont "un objeto!"
+	line "#mon salvajes"
+	cont "con objetos!"
 	done
 
 RuggedRoadAheadSignText:

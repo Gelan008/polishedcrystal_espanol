@@ -269,8 +269,8 @@ BuenaPhoneWhenDoYouRelaxText:
 	cont "más tú?"
 
 	para "Yo en el estudio,"
-	line "tras mi programa,"
-	cont "con una taza de té."
+	line "tras el programa,"
+	cont "con un rico té."
 
 	para "Es tan agradable"
 	line "que me da sueño…"
@@ -279,9 +279,9 @@ BuenaPhoneWhenDoYouRelaxText:
 
 	para "… … …Zzz"
 
-	para "¡Uy! ¡Me dormí solo"
-	line "de pensarlo! ¡Qué"
-	cont "vergüenza!"
+	para "¡Uy! ¡Me dio sueño"
+	line "solo de pensarlo!"
+	cont "¡Qué vergüenza!"
 
 	para "¡Olvida esto, por"
 	line "favor! ¡Adiós!"

@@ -45,20 +45,19 @@ InitialOptionDescriptions:
 	prompt
 
 .EVs:
-	assert MODERN_MAX_EV % 4 == 0
-	text "Los EVs suben los"
-	line STRFMT("stats hasta %d pts", MODERN_MAX_EV / 4) ; 252 / 4 == 63
-	cont "1 por cada 4 EVs."
+	text "510: Modo moderno"
+	line "hasta {d:MODERN_MAX_EV} por stat"
+	cont "y {d:MODERN_EV_LIMIT} en total."
 
-	para "Puedes subir cada"
-	line "stat a {d:MODERN_MAX_EV} EVs,"
+	para "Todos: Sube todas"
+	line "a {d:MODERN_MAX_EV} sin límite"
+	cont "(como en Gen 1-2)."
 
-	para "o limitarlos a un"
-	line "total de {d:MODERN_EV_LIMIT}."
-
-	para "Sustituyeron a la"
-	line "Exp.Stat en Gen 3."
+	para "No: Sin EVs (stats"
+	line "fijadas por nivel,"
+	cont "IVs y naturaleza)."
 	prompt
+
 
 .Experience:
 	text "Fórmula antigua"
@@ -66,16 +65,14 @@ InitialOptionDescriptions:
 
 	para "Fórmula nueva"
 	line "(Gen 5 y 7+) da"
-
-	para "más Exp. al vencer"
-	line "rivales de mayor"
+	cont "más Exp. al vencer"
+	cont "rivales de mayor"
 	cont "nivel y viceversa."
 
 	para "Puedes desactivar"
 	line "la Exp. ganada,"
-
-	para "pero los Caramelos"
-	line "seguirán usando."
+	cont "pero los Caramelos"
+	cont "siguen funcionando"
 	prompt
 
 .AffectionBonus:
@@ -114,9 +111,8 @@ InitialOptionDescriptions:
 	text "#mon de trueque"
 	line "te obedecerán y"
 	cont "tendrán mote,"
-
-	para "pero no ganarán"
-	line "Exp. extra."
+	cont "pero no ganarán"
+	cont "Exp. extra."
 	prompt
 
 .EvolveInBattle:
@@ -129,22 +125,19 @@ InitialOptionDescriptions:
 	prompt
 
 .ColorVariation:
-	text "#mon normales"
-	line "y variocolor"
-	cont "tendrán tonos de"
+	text "Da un matiz de"
+	line "color único a cada"
+	cont "espécimen #mon."
 
-	para "color sutilmente"
-	line "distintos."
+	para "Afecta a normales"
+	line "y a variocolor sin"
+	cont "alterar sus stats."
 
-	para "Variación al azar"
-	line "que no afecta a"
-
-	para "sus caracters."
-	line "o calidad."
-
-	para "Inspirado en"
-	line "#mon Stadium."
+	para "No quita shinies."
+	line "Inspirado en"
+	cont "#mon Stadium."
 	prompt
+
 
 InitialOptionsDoneDescription:
 	text "¡Guarda ajustes"

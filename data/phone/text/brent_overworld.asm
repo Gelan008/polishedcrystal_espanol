@@ -1,6 +1,6 @@
 BrentAskNumber1Text:
-	text "Eres un #Maniaco,"
-	line "puedo notarlo."
+	text "Se nota que eres"
+	line "un #maníaco."
 	cont "¡Sí, lo eres!"
 
 	para "¡Pero aún te falta"

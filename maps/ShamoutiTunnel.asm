@@ -70,9 +70,9 @@ OreManiacScript:
 	line "hace alucinar!"
 
 	para "¿Me lo venderías"
-	line "por ¥"
+	line "por "
 	text_decimal hMoneyTemp, 3, 7
-	text "?"
+	text "¥?"
 	done
 
 .WrongItemText:

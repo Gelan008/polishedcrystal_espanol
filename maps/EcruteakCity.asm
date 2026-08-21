@@ -151,8 +151,8 @@ EcruteakCityFisherText_JasmineReturned:
 
 EcruteakCityYoungsterText:
 	text "Dicen que hay"
-	line "#mon furiosos en"
-	cont "el Lago de la"
+	line "#mon enfadados"
+	cont "en el Lago de la"
 	cont "Furia."
 
 	para "¡Me gustaría"

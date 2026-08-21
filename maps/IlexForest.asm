@@ -1093,8 +1093,8 @@ Text_IlexForestLyraWorried:
 	para "¡Te eché mucho de"
 	line "menos!"
 
-	para "Celebi me envió aquí"
-	line "y tú no estabas…"
+	para "Celebi me trajo"
+	line "aquí y no te vi…"
 
 	para "¡Pensé que te"
 	line "quedarías en el"

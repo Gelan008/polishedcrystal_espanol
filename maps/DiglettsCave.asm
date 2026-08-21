@@ -83,10 +83,10 @@ DiglettsCaveFossilManiacScript:
 	text "¡Oye, genial! Deja"
 	line "que lo vea."
 
-	para "Te daré"
-	line "¥"
+	para "Te daré "
+	line ""
 	text_decimal hMoneyTemp, 3, 7
-	text " por"
+	text "¥ por"
 	cont "eso. ¿Qué dices?"
 	done
 

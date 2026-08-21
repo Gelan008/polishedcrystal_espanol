@@ -246,7 +246,9 @@ Text_WhoaHoursMins:
 	; Whoa!@ @
 	text_far _OakTimeWhoaText
 	text_asm
-	decoord 1, 16
+	hlcoord 1, 16
+	ld [hl], '¿'
+	decoord 2, 16
 	call PrintHourColonMinute
 	ld hl, .QuestionMark
 	ret
@@ -256,8 +258,11 @@ Text_WhoaHoursMins:
 	text_farend _OakTimeQuestionMarkText
 OakText_ResponseToSetTime:
 	text_asm
-	decoord 1, 14
+	hlcoord 1, 14
+	ld [hl], '¡'
+	decoord 2, 14
 	call PrintHourColonMinute
+
 	ld a, [wInitHourBuffer]
 	cp MORN_HOUR
 	jr c, .nite

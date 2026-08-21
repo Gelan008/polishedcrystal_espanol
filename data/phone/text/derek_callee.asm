@@ -1,7 +1,7 @@
 DerekAnswerPhoneText:
 	text "¿Hola, <PLAYER>?"
 
-	para "¡Buenos días, pika!"
+	para "¡Buen día, pika!"
 	line "¿Qué pasa, pika?"
 	done
 

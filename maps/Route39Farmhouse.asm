@@ -100,8 +100,8 @@ FarmerMScript_SellMilk:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
-	db "×12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
+	db "× 1    {d:ROUTE39FARMHOUSE_MILK_PRICE}¥@"
+	db "×12   {d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}¥@"
 	db "Cancelar@"
 
 .Milking:
@@ -174,7 +174,7 @@ FarmerMText_BuyMilk:
 	cont "recuperen PS!"
 
 	para "Te la dejaré por"
-	line "solo ¥500."
+	line "solo 500¥."
 	done
 
 FarmerMText_GotMilk:

@@ -450,12 +450,12 @@ _ForYourMonWillTradeText::
 
 SECTION "_OPT_IntroText1", ROMX
 _OPT_IntroText1::
-	line "Rosa: ¡Es"
+	line "Rosa: ¡La Hora"
 	done
 
 SECTION "_OPT_IntroText2", ROMX
 _OPT_IntroText2::
-	line "¡La hora Oak!"
+	line "Pokémon de Oak!"
 	done
 
 SECTION "_OPT_IntroText3", ROMX
@@ -489,87 +489,87 @@ _OPT_MaryText1::
 
 SECTION "OPT_SweetAdorably", ROMX
 OPT_SweetAdorably::
-	line "es dulce y lindo"
+	line "es muy dulce y"
 	done
 
 SECTION "OPT_WigglySlickly", ROMX
 OPT_WigglySlickly::
-	line "es escurridizo"
+	line "es tan suave y"
 	done
 
 SECTION "OPT_AptlyNamed", ROMX
 OPT_AptlyNamed::
-	line "hace honor al nom"
+	line "hace honor a ser"
 	done
 
 SECTION "OPT_UndeniablyKindOf", ROMX
 OPT_UndeniablyKindOf::
-	line "es innegable"
+	line "es sin duda algo"
 	done
 
 SECTION "OPT_Unbearably", ROMX
 OPT_Unbearably::
-	line "es insoportable"
+	line "es tan pero tan"
 	done
 
 SECTION "OPT_WowImpressively", ROMX
 OPT_WowImpressively::
-	line "es impresionante"
+	line "es de verdad muy"
 	done
 
 SECTION "OPT_AlmostPoisonously", ROMX
 OPT_AlmostPoisonously::
-	line "es casi venenoso"
+	line "es casi casi tan"
 	done
 
 SECTION "OPT_Sensually", ROMX
 OPT_Sensually::
-	line "es muy sensual"
+	line "es la mar de"
 	done
 
 SECTION "OPT_Mischievously", ROMX
 OPT_Mischievously::
-	line "es muy travieso"
+	line "es tan pícaro y"
 	done
 
 SECTION "OPT_Topically", ROMX
 OPT_Topically::
-	line "es de actualidad"
+	line "es de lo más"
 	done
 
 SECTION "OPT_Addictively", ROMX
 OPT_Addictively::
-	line "es muy adictivo"
+	line "es totalmente"
 	done
 
 SECTION "OPT_LooksInWater", ROMX
 OPT_LooksInWater::
-	line "mira en el agua"
+	line "en el agua es"
 	done
 
 SECTION "OPT_EvolutionMustBe", ROMX
 OPT_EvolutionMustBe::
-	line "su evolución debe"
+	line "evolucionado es"
 	done
 
 SECTION "OPT_Provocatively", ROMX
 OPT_Provocatively::
-	line "ser provocativa"
+	line "resulta de lo más"
 	done
 
 SECTION "OPT_FlippedOut", ROMX
 OPT_FlippedOut::
-	line "es una locura"
+	line "es tan alocado y"
 	done
 
 SECTION "OPT_HeartMeltingly", ROMX
 OPT_HeartMeltingly::
-	line "te derrite el cor"
+	line "es tiernamente"
 	done
 
 SECTION "OPT_Cute", ROMX
 OPT_Cute::
-	line "lindo."
+	line "mono."
 	done
 
 SECTION "OPT_Weird", ROMX
@@ -594,7 +594,7 @@ OPT_Frightening::
 
 SECTION "OPT_SuaveDebonair", ROMX
 OPT_SuaveDebonair::
-	line "¡suave y apuesto!"
+	line "¡elegante!"
 	done
 
 SECTION "OPT_Powerful", ROMX
@@ -619,12 +619,12 @@ OPT_Inspiring::
 
 SECTION "OPT_Friendly", ROMX
 OPT_Friendly::
-	line "amigable."
+	line "amistoso."
 	done
 
 SECTION "OPT_HotHotHot", ROMX
 OPT_HotHotHot::
-	line "¡muy ardiente!"
+	line "¡ardiente!"
 	done
 
 SECTION "OPT_Stimulating", ROMX
@@ -634,7 +634,7 @@ OPT_Stimulating::
 
 SECTION "OPT_Guarded", ROMX
 OPT_Guarded::
-	line "cauteloso."
+	line "reservado."
 	done
 
 SECTION "OPT_Lovely", ROMX
@@ -693,7 +693,7 @@ _BenFernText2A::
 
 SECTION "_BenFernText2B", ROMX
 _BenFernText2B::
-	line "así que relax con"
+	line "relájate hoy con"
 	done
 
 SECTION "_BenFernText3A", ROMX
@@ -710,12 +710,12 @@ _BenFernText3B::
 
 SECTION "_LC_Text1", ROMX
 _LC_Text1::
-	line "Reed: ¡Yeehaw! ¿"
+	line "Reed: ¡Yeehaw!"
 	done
 
 SECTION "_LC_Text2", ROMX
 _LC_Text2::
-	line "Qué tal estáis?"
+	line "¿Cómo estáis?"
 	done
 
 SECTION "_LC_Text3", ROMX
@@ -785,7 +785,7 @@ _PnP_Text1::
 
 SECTION "_PnP_Text2", ROMX
 _PnP_Text2::
-	line "¡Traído a ustedes"
+	line "¡Presentado"
 	done
 
 SECTION "_PnP_Text3", ROMX
@@ -828,7 +828,7 @@ _PnP_precocious::
 
 SECTION "_PnP_bold", ROMX
 _PnP_bold::
-	line "es un poco audaz."
+	line "es muy audaz."
 	done
 
 SECTION "_PnP_picky", ROMX
@@ -843,7 +843,7 @@ _PnP_sortofok::
 
 SECTION "_PnP_soso", ROMX
 _PnP_soso::
-	line "no está mal."
+	line "no está nada mal."
 	done
 
 SECTION "_PnP_great", ROMX
@@ -853,7 +853,7 @@ _PnP_great::
 
 SECTION "_PnP_mytype", ROMX
 _PnP_mytype::
-	line "es mi tipo."
+	line "es justo mi tipo."
 	done
 
 SECTION "_PnP_cool", ROMX
@@ -1570,9 +1570,9 @@ _YourMonHasGrownText::
 
 	para "Si quieres a tu"
 	line "#mon de vuelta,"
-	cont "costará ¥"
+	cont "costará "
 	text_decimal wStringBuffer2 + 2, 3, 5
-	text "."
+	text "¥."
 	done
 
 SECTION "_PerfectHeresYourMonText", ROMX
@@ -1600,7 +1600,7 @@ _BackAlreadyText::
 
 	para "Si quieres a tu"
 	line "#mon de vuelta,"
-	cont "costará ¥100."
+	cont "costará 100¥."
 	done
 
 SECTION "_HaveNoRoomText", ROMX
@@ -2219,9 +2219,9 @@ WhiteoutToWildText::
 	line "quedan #mon!"
 
 	para "¡<PLAYER> huyó"
-	line "y tiró ¥"
+	line "y tiró "
 	text_decimal hMoneyTemp, 3, 7
-	text "…"
+	text "¥…"
 
 	para "………………"
 	line "………………"
@@ -2236,9 +2236,9 @@ WhiteoutToTrainerText::
 	line "quedan #mon!"
 
 	para "<PLAYER> pagó"
-	line "¥"
+	line ""
 	text_decimal hMoneyTemp, 3, 7
-	text " al"
+	text "¥ al"
 	cont "ganador…"
 
 	para "………………"
@@ -2254,9 +2254,9 @@ ForfeitToTrainerText::
 	line "el combate…"
 
 	para "<PLAYER> pagó"
-	line "¥"
+	line ""
 	text_decimal hMoneyTemp, 3, 7
-	text " al"
+	text "¥ al"
 	cont "ganador…"
 
 	para "………………"
@@ -3008,13 +3008,13 @@ _MemoryGameYeahText::
 
 SECTION "_MemoryGameDarnText", ROMX
 _MemoryGameDarnText::
-	text "Darn…"
+	text "Rayos…"
 	done
 
 SECTION "_StartMenuContestEndText", ROMX
 _StartMenuContestEndText::
-	text "Would you like to"
-	line "end the Contest?"
+	text "¿Quieres terminar"
+	line "el Concurso ya?"
 	done
 
 SECTION "_ItemsTossOutHowManyText", ROMX
@@ -3028,19 +3028,19 @@ _ItemsTossOutHowManyText::
 
 SECTION "_ItemsDiscardedText", ROMX
 _ItemsDiscardedText::
-	text "Discarded"
-	line ""
-	text_ram wStringBuffer1
-	text_plural
-	text "."
-	prompt
+	text "Has tirado"
+    line ""
+    text_ram wStringBuffer1
+    text_plural
+    text "."
+    prompt
 
 SECTION "_ItemsOakWarningText", ROMX
 _ItemsOakWarningText::
-	text "Oak: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
-	done
+	text "Oak: ¡<PLAYER>!"
+    line "¡No es momento de"
+    cont "usar eso!"
+    done
 
 SECTION "_PokemonSwapItemText", ROMX
 _PokemonSwapItemText::
@@ -3480,9 +3480,9 @@ _HerbalLadyFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "serán ¥"
+	line "serán "
 	text_decimal hMoneyTemp, 3, 7
-	text "."
+	text "¥."
 	done
 
 SECTION "_HerbalLadyThanksText", ROMX
@@ -3523,9 +3523,9 @@ SECTION "_BargainShopFinalPriceText", ROMX
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
 	text " cuesta"
-	line "¥"
+	line ""
 	text_decimal hMoneyTemp, 3, 7
-	text ". ¿Lo quieres?"
+	text "¥. ¿Lo quieres?"
 	done
 
 SECTION "_BargainShopThanksText", ROMX
@@ -3574,9 +3574,9 @@ _PharmacyFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "serán ¥"
+	line "serán "
 	text_decimal hMoneyTemp, 3, 7
-	text "."
+	text "¥."
 	done
 
 SECTION "_PharmacyThanksText", ROMX
@@ -3610,9 +3610,9 @@ _MartSellHowManyText::
 SECTION "_MartSellPriceText", ROMX
 _MartSellPriceText::
 	text "Puedo pagarte"
-	line "¥"
+	line ""
 	text_decimal hMoneyTemp, 3, 7
-	text "."
+	text "¥."
 
 	para "¿Te parece bien?"
 	done
@@ -3662,10 +3662,10 @@ _MartAskMoreText::
 
 SECTION "_MartBoughtText", ROMX
 _MartBoughtText::
-	text "Obtuviste ¥"
+	text "Obtuviste "
 	text_decimal hMoneyTemp, 3, 7
-	text " por"
-	line ""
+	text "¥"
+	line "por "
 	text_ram wStringBuffer2
 	text_plural
 	text "."
@@ -3673,8 +3673,8 @@ _MartBoughtText::
 
 SECTION "_SlotsBetHowManyCoinsText", ROMX
 _SlotsBetHowManyCoinsText::
-	text "Bet how many"
-	line "coins?"
+	text "¿Cuantas fichas"
+	line "vas a apostar?"
 	done
 
 SECTION "TMMartCostsThisMuchText", ROMX
@@ -3682,9 +3682,9 @@ TMMartCostsThisMuchText::
 	text_ram wStringBuffer2
 	text " "
 	text_ram wStringBuffer1
-	line "will be ¥"
+	line "será "
 	text_decimal hMoneyTemp, 3, 7
-	text "."
+	text "¥."
 	done
 
 SECTION "BTMartHowMayIHelpYouText", ROMX

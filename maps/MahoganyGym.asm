@@ -208,8 +208,8 @@ PryceText_CherishYourPokemon:
 
 BoarderRonaldSeenText:
 	text "¡Congelaré a tus"
-	line "#mon! ¡No podrás"
-	cont "hacer nada!"
+	line "#mon! ¡No vas a"
+	cont "poder hacer nada!"
 	done
 
 BoarderRonaldBeatenText:

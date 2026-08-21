@@ -75,9 +75,9 @@ MomDeterminedText:
 
 MomCheckBalanceText:
 	text "Por cierto, has"
-	line "ahorrado ¥"
+	line "ahorrado "
 	text_ram wStringBuffer3
-	text "."
+	text "¥."
 
 	para "¿Quieres seguir"
 	line "ahorrando?"
@@ -99,9 +99,9 @@ MomYoureNotSavingText:
 
 MomYouveSavedText:
 	text "Por cierto, has"
-	line "ahorrado ¥"
+	line "ahorrado "
 	text_ram wStringBuffer3
-	text "."
+	text "¥."
 
 	para "¿Quieres volver a"
 	line "ahorrar?"

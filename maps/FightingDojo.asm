@@ -760,12 +760,12 @@ FightingDojoScheduleWednesdayText:
 
 FightingDojoScheduleThursdayText:
 	text "Jueves: Antón,"
-	line "???, Morty"
+	line "???, Morti"
 	done
 
 FightingDojoScheduleThursdayPalmerText:
 	text "Jueves: Antón,"
-	line "Jericor, Morty"
+	line "Jericor, Morti"
 	done
 
 FightingDojoScheduleFridayText:

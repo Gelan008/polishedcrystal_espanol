@@ -357,7 +357,7 @@ CoinVendor_IntroText:
 	text "¿Necesitas fichas"
 	line "de juego?"
 
-	para "Son ¥1000 por"
+	para "Son 1000¥ por"
 	line "50 fichas."
 	cont "¿Quieres?"
 	done

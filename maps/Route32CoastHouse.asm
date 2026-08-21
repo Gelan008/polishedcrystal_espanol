@@ -61,10 +61,10 @@ GourmetManiacScript:
 	text "¡Huy, qué bien"
 	line "huele!"
 
-	para "¿Aceptarías"
-	line "¥"
+	para "¿Aceptarías "
+	line ""
 	text_decimal hMoneyTemp, 3, 7
-	text " por ello?"
+	text "¥ por ello?"
 	done
 
 .WrongItemText:

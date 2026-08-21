@@ -297,7 +297,7 @@ BillsMom:
 	line "Centro #mon de"
 	cont "Ciudad Iris."
 
-	para "Mi marido se fue al"
+	para "Mi marido fue al"
 	line "Casino sin que"
 	cont "nadie le llamara…"
 	done

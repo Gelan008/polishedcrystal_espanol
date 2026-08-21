@@ -729,7 +729,7 @@ ElmsLabLyraScript:
 	iffalse_jumptextfaceplayer ElmsLabLyraWhichPokemonText
 	jumpthistextfaceplayer
 
-	text "!Tu #mon"
+	text "¡Tu #mon"
 	line "también es mono!"
 	done
 
@@ -744,7 +744,7 @@ ElmsLabPC:
 	jumpthistext
 
 	text "Observaciones de"
-	line "Ev. de #mon"
+	line "evolución #mon"
 
 	para "…Pone eso en"
 	line "la pantalla…"
@@ -1273,9 +1273,9 @@ ElmGiveOddSouvenirText2:
 	line "recuerdo de su"
 	cont "viaje a los mares."
 
-	para "Hay ciertos #mon"
-	line "a los que les"
-	cont "gusta llevarla."
+	para "A ciertos #mon"
+	line "les gusta llevarla"
+	cont "puesta."
 	done
 
 ElmText_CallYou:
@@ -1520,9 +1520,9 @@ AideText_TheftTestimony:
 	line "que robaron…"
 	cont "¿Cómo estará?"
 
-	para "Dicen que si a un"
-	line "#mon lo cría una"
-	cont "mala persona, se"
+	para "Dicen que si a"
+	line "un #mon lo cría"
+	cont "alguien malo, se"
 	cont "vuelve malo."
 	done
 
@@ -1568,7 +1568,7 @@ LyraChoosesStarterText:
 	done
 
 LyraReceivedStarterText:
-	text "Lira recibió un"
+	text "¡Lira recibió un"
 	line ""
 	text_ram wStringBuffer3
 	text "!"

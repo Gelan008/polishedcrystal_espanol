@@ -194,9 +194,9 @@ GoldenrodHarborPokefanmScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Magikarp    ¥1400@"
-	db "Marill      ¥5600@"
-	db "Octillery  ¥11200@"
+	db "Magikarp    1400¥@"
+	db "Marill      5600¥@"
+	db "Octillery  11200¥@"
 	db "Salir@"
 
 GoldenrodHarborYoungsterScript:
@@ -277,9 +277,9 @@ GoldenrodHarborYoungsterScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "P. Magna    ¥6400@"
-	db "P. Trópico  ¥9600@"
-	db "P. Gigante ¥12800@"
+	db "P. Magna    6400¥@"
+	db "P. Trópico  9600¥@"
+	db "P. Gigante 12800¥@"
 	db "Salir@"
 
 GoldenrodHarborSailboatScript:

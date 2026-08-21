@@ -92,8 +92,8 @@ MountMortarB1FKiyoGotTyrogueText:
 	text "Tyrogue es de tipo"
 	line "Lucha."
 
-	para "Evoluciona a un"
-	line "#mon más fuerte."
+	para "Se convertirá en"
+	line "un #mon fuerte."
 
 	para "¡Sigue trabajando"
 	line "duro! Yo también"

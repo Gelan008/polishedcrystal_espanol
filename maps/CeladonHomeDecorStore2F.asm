@@ -94,9 +94,9 @@ CeladonHomeDecorStore2FClerkScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Pink      ¥62000@"
-	db "PolkaDot  ¥94000@"
-	db "Pikachu  ¥126000@"
+	db "Pink      62000¥@"
+	db "PolkaDot  94000¥@"
+	db "Pikachu  126000¥@"
 	db "Salir@"
 
 CeladonHomeDecorStore2FClerkText:

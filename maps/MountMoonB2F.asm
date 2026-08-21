@@ -110,10 +110,10 @@ Bird_keeperMickBeatenText:
 	done
 
 HexManiacEstherSeenText:
-	text "Espejo, dime ante"
-	line "el que veo aquí,"
+	text "Espejo mágico que"
+	line "veo yo aquí,"
 
-	para "¿quién su # Ball"
+	para "¿quién la Ball"
 	line "lanzará ante ti?"
 	done
 

@@ -220,9 +220,9 @@ OakLabGiveStarterText:
 	para "Es una muy buena"
 	line "amiga mía."
 
-	para "Si ella te dio un"
-	line "#mon, ¡yo también"
-	cont "te daré otro!"
+	para "Si te regaló un"
+	line "#mon, ¡yo te"
+	cont "daré otro!"
 
 	para "No se suele ver a"
 	line "este #mon ni"

@@ -28,7 +28,7 @@ Route29_MapScriptHeader:
 	fruittree_event 12,  2, FRUITTREE_ROUTE_29, ORAN_BERRY, PAL_NPC_BLUE
 	object_event 25,  3, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route29FisherText, -1
 	object_event 13,  4, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route29CooltrainerMScript, -1
-	itemball_event 48,  2, POTION, 1, EVENT_ROUTE_29_POTION
+	itemball_event 48,  2, EXP_SHARE, 1, EVENT_ROUTE_29_POTION
 
 	object_const_def
 	const ROUTE29_LYRA

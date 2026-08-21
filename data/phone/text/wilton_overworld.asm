@@ -6,8 +6,8 @@ WiltonAskNumber1Text:
 	line "sacar cosas que"
 	cont "caen al agua."
 
-	para "¿Los quieres?"
-	line "¿Cuál es tu número?"
+	para "¿Las quieres?"
+	line "¿Me das tu número?"
 	done
 
 WiltonAskNumber2Text:
@@ -15,7 +15,7 @@ WiltonAskNumber2Text:
 	line "objeto pescando,"
 	cont "te lo daré."
 
-	para "¿Cuál es tu número?"
+	para "¿Me das tu número?"
 	done
 
 WiltonNumberAcceptedText:

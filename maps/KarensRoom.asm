@@ -90,8 +90,8 @@ KarenScript:
 	cont "Siniestro."
 
 	para "Me atrae su imagen"
-	line "salvaje y dura."
-	cont "¡Y son tan fuertes!"
+	line "salvaje y dura,"
+	cont "¡y su gran fuerza!"
 
 	para "¿Podrás con ellos?"
 	line "¡Entretenme un"

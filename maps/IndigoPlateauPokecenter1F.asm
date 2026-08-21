@@ -263,8 +263,8 @@ PlateauLyraText1:
 	done
 
 PlateauLyraText2:
-	text "¡como la Campeona"
-	line "de la Liga #mon!"
+	text "¡como Campeona de"
+	line "la Liga #mon!"
 	done
 
 PlateauLyraWinText:

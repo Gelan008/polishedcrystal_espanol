@@ -176,8 +176,8 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	line "los #mon"
 	cont "fuertes que ganan."
 
-	para "¡Los #mon débiles"
-	line "no me importan en"
+	para "¡Un #mon débil"
+	line "no me importa en"
 	cont "absoluto!"
 	done
 

@@ -96,7 +96,8 @@ CeladonUniversityClassroom1ImakuniScript:
 	line "musical, Imakuni!"
 
 	para "Yo cantaré el"
-	line "#Rap… ¡Tú baila!"
+	line "#Rap…"
+	cont "¡Tú solo baila!"
 
 	para "♪ Y que #mon,"
 	line "eres tú… ♪"

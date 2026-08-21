@@ -347,5 +347,5 @@ CianwoodAdvancedTipsSignText:
 	cont "cambiar su Ball!"
 
 	para "¡Pero perderás la"
-	line "# Ball original!"
+	line "Ball original!"
 	done

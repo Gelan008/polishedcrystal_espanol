@@ -255,7 +255,6 @@ CeruleanTrainerTipsText:
 	para "Incluso sin un"
 	line "Buscaobjetos,"
 	cont "puedes encontrar"
-	cont "objetos en árboles,"
-	cont "debajo de rocas,"
-	cont "o bajo el agua."
+	cont "cosas en árboles,"
+	cont "bajo rocas o agua."
 	done

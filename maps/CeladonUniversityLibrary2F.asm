@@ -167,8 +167,8 @@ CeladonUniversityLibrary2FBookshelf5Text:
 
 CeladonUniversityLibrary2FBookshelf6Text:
 	text "Es un libro sobre"
-	line "variaciones"
-	cont "regionales #mon."
+	line "formas regionales"
+	cont "de los #mon."
 
 	para "Sale una imagen"
 	line "de un Raichu algo"

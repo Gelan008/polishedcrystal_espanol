@@ -2,8 +2,8 @@ BeverlyAskNumber1Text:
 	text "¡Tu Marill es muy"
 	line "mono y adorable!"
 
-	para "¡Amas a los #mon"
-	line "igual que yo!"
+	para "¡Amas tanto a los"
+	line "#mon como yo!"
 
 	para "¿Nos damos los"
 	line "números para poder"

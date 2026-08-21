@@ -352,10 +352,9 @@ UndergroundRivalWinText:
 	text "…¿Por qué…?"
 	line "¿Por qué pierdo?"
 
-	para "Tengo a los"
-	line "#mon más fuertes"
-	cont "y no me he"
-	cont "contenido."
+	para "Tengo los #mon"
+	line "más fuertes y no"
+	cont "me he contenido."
 
 	para "¿Por qué no puedo"
 	line "ganar?"

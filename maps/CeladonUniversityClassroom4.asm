@@ -225,11 +225,11 @@ CeladonUniversityClassroom4Rich_boyScript:
 	cont "conseguir con una"
 	cont "Cáps. Hab."
 
-	para "¡Pero si un #mon"
+	para "Pero si un #mon"
 	line "con Cáps. Hab."
 	cont "pone un Huevo,"
 	cont "la cría podría"
-	cont "tenerla!"
+	cont "tenerla"
 	done
 
 CeladonUniversityClassroom4BlackboardText:

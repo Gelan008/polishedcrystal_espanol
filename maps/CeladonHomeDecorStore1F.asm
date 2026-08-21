@@ -122,9 +122,9 @@ CeladonHomeDecorStore1FClerkScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Bulbasaur  ¥16000@"
-	db "Charmander ¥16000@"
-	db "Squirtle   ¥16000@"
+	db "Bulbasaur  16000¥@"
+	db "Charmander 16000¥@"
+	db "Squirtle   16000¥@"
 	db "Salir@"
 
 CeladonHomeDecorStore1FReceptionistText:

@@ -399,10 +399,9 @@ PokemonJournalProfWestwoodScript:
 	line "V da clase en la"
 	cont "Univ. Azulona."
 
-	para "El trabajo de sus"
-	line "ancestros en 1925"
-	cont "creó las # Balls"
-	cont "modernas."
+	para "En 1925 sus ances-"
+	line "tros crearon las"
+	cont "Balls modernas."
 	done
 
 KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:

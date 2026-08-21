@@ -85,7 +85,7 @@ ChadProfElmGossipText:
 	cont "Prof. Oak!"
 
 	para "¡Qué genial!"
-	line "¡Qué envidia me da!"
+	line "¡Qué envidia!"
 	done
 
 ChadProfOaksDreamGossipText:
@@ -107,8 +107,8 @@ ChadKurtGossipText:
 	line "se conocen desde"
 	cont "hace mucho tiempo."
 
-	para "¡Los grandes sabios"
-	line "siempre se juntan!"
+	para "¡Grandes sabios se"
+	line "juntan siempre!"
 	done
 
 ChadLeagueGossipText:

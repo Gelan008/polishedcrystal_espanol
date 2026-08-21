@@ -7,7 +7,7 @@ PrintBCDNumber::
 ;        if unset, print leading zeroes
 ; bit 6: if set, left-align the string (do not pad empty digits with spaces)
 ;        if unset, right-align the string
-; bit 5: if set, print currency symbol at the beginning of the string
+; bit 5: if set, print currency symbol at the end of the string
 ;        if unset, do not print the currency symbol
 ; bits 0-4: length of BCD number in bytes
 ; Note that bits 5 and 7 are modified during execution. The above reflects
@@ -16,12 +16,6 @@ PrintBCDNumber::
 	res 7, c
 	res 6, c
 	res 5, c ; c now holds the length
-	bit 5, b
-	jr z, .loop
-	bit 7, b
-	jr nz, .loop ; skip currency symbol
-	ld a, '¥'
-	ld [hli], a
 .loop
 	ld a, [de]
 	swap a
@@ -32,34 +26,29 @@ PrintBCDNumber::
 	dec c
 	jr nz, .loop
 	bit 7, b ; were any non-zero digits printed?
-	ret z ; if so, we are done
+	jr nz, .numberEqualsZero
+	bit 5, b
+	ret z
+	ld a, '¥'
+	ld [hli], a
+	ret
 .numberEqualsZero ; if every digit of the BCD number is zero
 	bit 6, b ; left or right alignment?
 	jr nz, .skipRightAlignmentAdjustment
 	dec hl ; if the string is right-aligned, it needs to be moved back one space
 .skipRightAlignmentAdjustment
+	ld a, '0'
+	ld [hli], a
+	call PrintLetterDelay
 	bit 5, b
-	jr z, .skipCurrencySymbol
+	ret z
 	ld a, '¥'
 	ld [hli], a
-.skipCurrencySymbol
-	ld [hl], '0'
-	call PrintLetterDelay
-	inc hl
 	ret
 
 PrintBCDDigit::
 	and $f
 	jr z, .zeroDigit
-	bit 7, b ; have any non-space characters been printed?
-	jr z, .outputDigit
-; if bit 7 is set, then no numbers have been printed yet
-	bit 5, b ; print the currency symbol?
-	jr z, .skipCurrencySymbol
-	ld [hl], '¥' ; no-optimize *hl++|*hl-- = N
-	inc hl
-	res 5, b
-.skipCurrencySymbol
 	res 7, b ; unset 7 to indicate that a nonzero digit has been reached
 .outputDigit
 	add '0'

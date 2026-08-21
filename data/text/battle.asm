@@ -10,9 +10,9 @@ LinkBattleErrorText::
 
 BattleText_PlayerPickedUpPayDayMoney:
 	text "¡<PLAYER> recogió"
-	line "¥"
+	line ""
 	text_decimal wPayDayMoney, 3, 6
-	text "!"
+	text "¥!"
 	prompt
 
 WildPokemonAppearedText:
@@ -346,9 +346,9 @@ BattleText_EnemyPkmnFainted:
 
 GotMoneyForWinningText:
 	text "¡<PLAYER> ganó"
-	line "¥"
+	line ""
 	text_decimal wBattleReward, 3, 6
-	text "!"
+	text "¥!"
 	prompt
 
 BattleText_EnemyWasDefeated:
@@ -368,9 +368,9 @@ TiedAgainstText:
 
 SentSomeToMomText:
 	text "¡<PLAYER> ganó"
-	line "¥"
+	line ""
 	text_decimal wBattleReward, 3, 6
-	text "!"
+	text "¥!"
 	cont "Envió parte a mamá"
 	prompt
 

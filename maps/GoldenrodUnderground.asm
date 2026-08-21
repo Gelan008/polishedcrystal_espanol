@@ -607,7 +607,8 @@ PiersRematchIntroAgainText:
 
 PiersRematchSeenText:
 	text "¡Ja! ¡El nuevo"
-	line "Campeón en persona!"
+	line "Campeón viene"
+	cont "en persona!"
 
 	para "¡Qué importante"
 	line "eres ahora!"

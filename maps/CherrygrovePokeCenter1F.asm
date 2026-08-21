@@ -19,6 +19,9 @@ CherrygrovePokeCenter1F_MapScriptHeader:
 	object_event  8,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FFisherText, -1
 	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FGentlemanText, -1
 	object_event  9,  4, SPRITE_LADY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FLadyText, -1
+	object_event  2,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FSuperNerdText, -1
+
+
 
 PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
@@ -82,3 +85,22 @@ CherrygrovePokeCenter1FLadyText:
 	cont "pero hay más"
 	cont "sitios suscritos."
 	done
+
+CherrygrovePokeCenter1FSuperNerdText:
+	text "¡Hola! Soy"
+	line "Gelan008, el"
+	cont "traductor al"
+	cont "español de este"
+	cont "juego."
+
+	para "Te he dejado un"
+	line "regalito en la"
+	cont "Ruta 29."
+
+	para "¡El objeto que"
+	line "había ya no es"
+	cont "una Poción!"
+	done
+
+
+

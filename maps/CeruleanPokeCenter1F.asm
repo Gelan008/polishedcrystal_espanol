@@ -60,8 +60,8 @@ CeruleanPokeCenter1FGymGuyScript:
 	done
 
 CeruleanPokeCenter1FSuperNerdText:
-	text "Prefiero usar a"
-	line "mis propios #mon,"
+	text "Prefiero luchar"
+	line "con mis #mon,"
 	cont "aunque sean más"
 	cont "débiles que otros"
 	cont "recién atrapados."

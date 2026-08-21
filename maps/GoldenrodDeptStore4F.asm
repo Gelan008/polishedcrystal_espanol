@@ -45,9 +45,9 @@ GoldenrodDeptStore4FBugCatcherText:
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Ciertos #mon solo"
-	line "evolucionan si"
-	cont "llevan un objeto."
+	text "Hay #mon que"
+	line "solo evolucionan"
+	cont "con un objeto."
 
 	para "Conozco a cuatro:"
 	line "Poliwhirl, Onix,"

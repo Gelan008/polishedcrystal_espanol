@@ -16,9 +16,9 @@ CherrygroveGymSpeechHouse_MapScriptHeader:
 	object_event  5,  5, SPRITE_CHILD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveGymSpeechHouseBugCatcherText, -1
 
 CherrygroveGymSpeechHousePokefanMText:
-	text "¿Quieres ver cómo"
-	line "de bueno eres como"
-	cont "entrenador #mon?"
+	text "¿Quieres ver qué"
+	line "tal Entrenador de"
+	cont "#mon eres?"
 
 	para "Deberías visitar"
 	line "los Gimnasios de"
