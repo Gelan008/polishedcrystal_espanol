@@ -2,20 +2,20 @@ VanceAskNumber1Text:
 	text "Sabes, eres muy"
 	line "fuerte."
 
-	para "Pero no quiero es-"
-	line "cabullirme…"
+	para "¡No me voy a echar"
+	line "atrás!"
 
-	para "¡Ya sé! ¿Podrías"
-	line "darme tu número?"
+	para "¡Ya sé! ¿Me das"
+	line "tu número?"
 
 	para "¡Quedemos para"
 	line "más combates!"
 	done
 
 VanceAskNumber2Text:
-	text "¡Quiero luchar con"
-	line "entrenadores fuer-"
-	cont "tes a menudo!"
+	text "¡Quiero luchar"
+	line "con entrenadores"
+	cont "fuertes a menudo!"
 
 	para "¿Podrías darme"
 	line "tu número?"
@@ -31,9 +31,9 @@ VanceNumberAcceptedText:
 	done
 
 VanceNumberDeclinedText:
-	text "Un amigo ornitólo-"
-	line "go nunca viene"
-	cont "mal, creo…"
+	text "Tener un amigo"
+	line "ornitólogo nunca"
+	cont "viene mal, creo…"
 
 	para "¿No lo vas a"
 	line "reconsiderar?"
@@ -46,8 +46,8 @@ VancePhoneFullText:
 	done
 
 VanceRematchText:
-	text "¡Qué alegría ver-"
-	line "te! ¡No perderé!"
+	text "¡Qué bien verte!"
+	line "¡No voy a perder!"
 	done
 
 VancePackFullText:
@@ -63,12 +63,9 @@ VanceRematchGiftText:
 	line "que muy fuerte!"
 
 	para "Gracias por luchar"
-	line "conmigo a menudo."
+	line "conmigo tanto."
+	cont "Aprendí mucho."
 
-	para "He aprendido mucho"
-	line "de ti."
-
-	para "¡Ya sé! ¡Esto te"
-	line "servirá de agrade-"
-	cont "cimiento!"
+	para "¡Toma esto como"
+	line "agradecimiento!"
 	done

@@ -1,24 +1,22 @@
 ErinAskNumber1Text:
-	text "Me ha dado mucha"
-	line "rabia perder."
+	text "¡Me ha dado mucha"
+	line "rabia perder!"
 
-	para "Tendré que entre-"
-	line "nar más duro…"
+	para "¡Debo entrenar"
+	line "mucho más duro!"
 
-	para "Aquí está mi"
-	line "número. Soy Erin,"
-
-	para "¡no lo olvides!"
-	line "¿Quieres luchar"
-	cont "conmigo de nuevo?"
+	para "Soy Erin. ¿Nos"
+	line "damos el número"
+	cont "para volver a"
+	cont "luchar pronto?"
 	done
 
 ErinAskNumber2Text:
 	text "Quiero luchar"
 	line "contigo de nuevo."
 
-	para "¿Quieres intercam-"
-	line "biar los números?"
+	para "¿Nos pasamos los"
+	line "números de móvil?"
 	done
 
 ErinNumberAcceptedText:
@@ -29,16 +27,15 @@ ErinNumberAcceptedText:
 
 ErinNumberDeclinedText:
 	text "Oh… Qué pena…"
-	line "Si al final quie-"
 
-	para "res luchar, ven"
-	line "a ver a Erin."
+	para "Si quieres luchar,"
+	line "¡ven a ver a Erin!"
 	cont "¡Esa soy yo!"
 	done
 
 ErinPhoneFullText:
-	text "Oh no. Tu teléfo-"
-	line "no está lleno."
+	text "Oh, no. Tu móvil"
+	line "no tiene espacio."
 	done
 
 ErinRematchText:

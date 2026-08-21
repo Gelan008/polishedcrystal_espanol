@@ -62,18 +62,14 @@ ChadGenericText:
 	text "¿Cómo están"
 	line "tus #mon?"
 
-	para "Conoces al"
-	line "Prof.Oak, así que"
-	cont "¡deben estar bien!"
+	para "Conoces al Prof."
+	line "Oak, ¡así que"
+	cont "estarán genial!"
 
-	para "Mis #mon también"
-	line "están bien."
+	para "Los míos también"
+	line "están muy bien."
 
-	para "Pero claro, estoy"
-	line "intentando ser un"
-
-	para "profesor #mon,"
-	line "así que eso no"
-	cont "debería"
-	cont "sorprenderte."
+	para "¡Como futuro"
+	line "Profesor #mon,"
+	cont "los cuido genial!"
 	done

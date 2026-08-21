@@ -1,22 +1,22 @@
 DerekAnswerPhoneText:
 	text "¿Hola, <PLAYER>?"
 
-	para "Buenos días pika."
-	line "¿Qué pasa pika?"
+	para "¡Buenos días, pika!"
+	line "¿Qué pasa, pika?"
 	done
 
 DerekAnswerPhoneDayText:
 	text "¿Hola, <PLAYER>?"
 
-	para "Buenas pika,"
-	line "¿qué pasa pika?"
+	para "¡Buenas, pika!"
+	line "¿Qué pasa, pika?"
 	done
 
 DerekAnswerPhoneNiteText:
 	text "¿Hola, <PLAYER>?"
 
-	para "Buenas noches pika"
-	line "¿qué pasa pika?"
+	para "¡Buenas noches,"
+	line "pika! ¿Qué tal?"
 	done
 
 DerekGreetText:
@@ -51,14 +51,12 @@ DerekGreetNiteText:
 
 DerekGenericText:
 	text "¡Tienes que oír"
-	line "esto! ¡Mi amable"
-
-	para ""
+	line "esto! ¡Mi "
 	text_ram wStringBuffer4
-	text " me miró"
-	line "y me sonrió!"
+	text ""
+	cont "me miró y sonrió!"
 
-	para "¡Debe ser porque"
-	line "nuestros corazones"
-	cont "laten unidos!"
+	para "¡Nuestros dos"
+	line "corazones deben de"
+	cont "latir unidos!"
 	done

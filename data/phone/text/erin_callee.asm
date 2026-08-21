@@ -54,19 +54,18 @@ ErinGreetNiteText:
 	para "¡Soy "
 	text_ram wStringBuffer3
 	text "!"
-	line "¿Estabas despier-"
-	cont "to?"
+	line "¿Aún despierto?"
 	done
 
 ErinGenericText:
-	text "¿Estás criando a"
+	text "¿Cómo entrenas a"
 	line "tus #mon?"
 
-	para "Oye, el "
+	para "¡El "
 	text_ram wStringBuffer4
 	text " de"
 	line ""
 	text_ram wStringBuffer3
-	text " se ve"
-	cont "genial."
+	text " está en"
+	cont "plena forma!"
 	done

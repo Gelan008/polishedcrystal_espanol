@@ -1,57 +1,47 @@
 DerekCheekPinchingText:
-	text "Escucha esto."
-	line "Mi "
+	text "¡Oye esto! Mi"
+	line ""
 	text_ram wStringBuffer4
+	text " sonríe"
+	cont "si le pellizco"
+	cont "los mofletes."
 
-	para "sonríe feliz al"
-	line "pellizcar su"
-	cont "moflete."
+	para "¡Pero no le sonríe"
+	line "a nadie más!"
 
-	para "Pero nunca sonríe"
-	line "a nadie más."
-
-	para "Debo ser muy"
-	line "especial."
+	para "¡Debo de ser muy"
+	line "especial para él!"
 	done
 
 DerekDefeatedMonText:
-	text "Ah, y hace poco,"
-	line "¡mi Pikachu venció"
-	cont "a un "
+	text "¡Mi Pikachu venció"
+	line "a un "
 	text_ram wStringBuffer4
 	text ""
-	line "salvaje!"
+	cont "salvaje hace poco!"
 
 	para "¡A un "
 	text_ram wStringBuffer4
 	text ""
 	line "salvaje, lo juro!"
 
-	para "¿No crees que es"
-	line "asombroso?"
-
-	para "¡Mi Pikachu es"
-	line "increíble!"
-
-	para "¡Mi Pikachu es el"
-	line "mejor!"
+	para "¿A que es genial?"
+	line "¡Mi Pikachu es el"
+	cont "mejor de todos!"
 	done
 
 DerekLostAMonText:
-	text "Ah, y vi a un"
-	line ""
+	text "Vi a un "
 	text_ram wStringBuffer4
-	text " salvaje"
-	cont "hace poco."
+	text ""
+	line "salvaje hace poco."
 
-	para "Pero no era muy"
+	para "Pero no era nada"
 	line "mono, así que lo"
+	cont "dejé estar…"
 
-	para "dejé…"
-	line "Los #mon tienen"
-
-	para "que ser monos."
-	line "Si no, no sirven."
+	para "¡Los #mon deben"
+	line "ser adorables!"
 	done
 
 DerekHangUpText:
@@ -61,17 +51,14 @@ DerekHangUpText:
 
 DerekBugCatchingContestText:
 	text "¿Te acordaste?"
-	line "El Concurso de"
-	cont "Bichos es hoy."
+	line "¡Hoy es el torneo"
+	cont "de los Bichos!"
 
 	para "Vas a ir, ¿verdad?"
 
-	para "Creo que"
-	line "participaré con"
-
-	para "Pikachu para"
-	line "lucir lo mono"
-	cont "que es."
+	para "¡Iré con Pikachu"
+	line "para presumir de"
+	cont "lo mono que es!"
 	done
 
 DerekFoundItemText:

@@ -1,22 +1,17 @@
 JoseAskNumber1Text:
 	text "Si mi "
 	text_ram wStringBuffer4
-	line "ve alguna cosa"
-
-	para "bonita, va y la"
-	line "coge."
+	text ""
+	line "ve algo bonito,"
+	cont "va y lo coge."
 
 	para "¿Te gustan las"
 	line "cosas bonitas?"
+	cont "¡Puedo dártelas!"
 
-	para "Podría compartir"
-	line "si coge más."
-
-	para "¿Me das tu núme-"
-	line "ro? Te llamaré."
-
-	para "No esperes gran"
-	line "cosa, ¿vale?"
+	para "¿Me das tu número?"
+	line "No esperes gran"
+	cont "cosa, ¿vale?"
 	done
 
 JoseAskNumber2Text:
@@ -25,10 +20,10 @@ JoseAskNumber2Text:
 
 	para "Te las daré si"
 	line "Farfetch'd"
-	cont "coge más."
+	cont "recoge más."
 
-	para "¿Me das tu núme-"
-	line "ro? Te llamaré."
+	para "¿Me das tu número?"
+	line "¡Te llamaré!"
 	done
 
 JoseNumberAcceptedText:
@@ -39,8 +34,8 @@ JoseNumberAcceptedText:
 
 JoseNumberDeclinedText:
 	text "¿Seguro? Bueno,"
-	line "avísame si cam-"
-	cont "bias de idea."
+	line "avísame si cambias"
+	cont "de idea."
 	done
 
 JosePhoneFullText:
@@ -66,8 +61,9 @@ JoseGiftText:
 
 JosePackFullText:
 	text "¿Eh? No tienes"
-	line "espacio para po-"
+	line "espacio en la"
+	cont "Mochila."
 
-	para "ner esto. Mejor"
-	line "vuelve a por ello."
+	para "Vuelve a por ello"
+	line "más tarde."
 	done

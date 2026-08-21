@@ -47,23 +47,19 @@ KenjiGiftText:
 	line "agradecer,"
 	cont "<PLAYER>!"
 
-	para "He estado entre-"
-	line "nando muy solo…"
-
-	para "Me alegró que te"
-	line "animaras a llamar."
+	para "Entreno muy solo…"
+	line "¡Me alegró mucho"
+	cont "que me llamaras!"
 
 	para "¡Quiero que tengas"
 	line "esto!"
 	done
 
 KenjiPackFullText:
-	text "¡Tu fuerza no te"
-	line "dejará llevar ni"
+	text "¡No puedes llevar"
+	line "ni una cosa más!"
 
-	para "una cosa más!"
-	line "¡Guardaré esto"
-
-	para "hasta que vacíes"
-	line "tu Mochila!"
+	para "¡Te lo guardo"
+	line "hasta que vacíes"
+	cont "tu Mochila!"
 	done

@@ -8,27 +8,23 @@ DerekAskNumber1Text:
 	cont "Pikachu son buena"
 	cont "gente!"
 
-	para "¡Hablemos sobre"
-	line "Pikachu!"
-
 	para "¿Me das tu número"
-	line "de teléfono?"
+	line "para hablar sobre"
+	cont "Pikachu?"
 	done
 
 DerekAskNumber2Text:
-	text "¡Hablemos sobre"
-	line "Pikachu!"
-
-	para "¿Me das tu número"
-	line "de teléfono?"
+	text "¿Me das tu número"
+	line "para hablar sobre"
+	cont "Pikachu?"
 	done
 
 DerekNumberAcceptedText:
 	text "¡Pikachu es el"
-	line "mejor! Si pasa"
+	line "mejor de todos!"
 
-	para "cualquier cosa, te"
-	line "daré un toque."
+	para "¡Si pasa algo te"
+	line "llamaré enseguida!"
 	done
 
 DerekNumberDeclinedText:

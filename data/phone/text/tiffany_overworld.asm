@@ -2,24 +2,18 @@ TiffanyAskNumber1Text:
 	text "¡Eh! ¿A ti también"
 	line "te gusta Clefairy?"
 
-	para "Son tan bonitos,"
-	line "¿verdad que sí?"
+	para "¡Son tan monos!"
+	line "¡Creo que seremos"
+	cont "grandes amigos!"
 
-	para "¡Creo que podemos"
-	line "ser buenos amigos!"
-
-	para "¡Quiero saber tu"
-	line "número de teléfo-"
-	cont "no!"
-
-	para "¡Hablemos sobre"
-	line "Clefairy!"
+	para "¿Me das tu número?"
+	line "¡Hablemos sobre"
+	cont "Clefairy!"
 	done
 
 TiffanyAskNumber2Text:
-	text "¡Quiero saber tu"
-	line "número de teléfo-"
-	cont "no!"
+	text "¿Me das tu número"
+	line "de teléfono?"
 
 	para "¡Hablemos sobre"
 	line "Clefairy!"
@@ -32,10 +26,9 @@ TiffanyNumberAcceptedText:
 
 TiffanyNumberDeclinedText:
 	text "Oh… Vaya."
-	line "Búscame si quie-"
-
-	para "res hablar sobre"
-	line "Clefairy."
+	line "Búscame si te"
+	cont "apetece charlar"
+	cont "sobre Clefairy."
 	done
 
 TiffanyPhoneFullText:

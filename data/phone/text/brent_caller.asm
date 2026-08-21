@@ -1,9 +1,7 @@
 BrentRareTradeText:
-	text "Sí, conseguí un"
+	text "Conseguí un"
 	line "#mon rarísimo"
-
-	para "en un intercambio"
-	line "hace poco."
+	cont "en un intercambio."
 
 	para "¿Quieres saber"
 	line "cuál es?"
@@ -13,30 +11,27 @@ BrentRareTradeText:
 	done
 
 BrentDefeatedMonText:
-	text "Sí, he vencido a"
-	line "este "
+	text "He vencido a un"
+	line ""
 	text_ram wStringBuffer4
 	text "."
 
 	para "No era tan raro"
 	line "como para querer"
-
-	para "atraparlo."
+	cont "atraparlo."
 	done
 
 BrentLostAMonText:
-	text "Sí, vi un #mon"
-	line "raro hace una"
-	cont "hora."
+	text "Vi a un #mon"
+	line "raro hace poco."
 
-	para "Es el primero que"
-	line "veo. Pero no"
-
-	para "tenía ninguna"
-	line "# Ball…"
+	para "¡Era el primero"
+	line "que veía!"
+	cont "Pero no tenía"
+	cont "ninguna Ball…"
 
 	para "¿Se reiría Bill"
-	line "de mis errores?"
+	line "de mis fallos?"
 	done
 
 BrentBattleRematchText:
@@ -48,9 +43,8 @@ BrentBattleRematchText:
 	line "un combate?"
 
 	para "Podrás ver a mi"
-	line "#mon raro. ¡Valdrá"
-
-	para "la pena!"
+	line "#mon raro."
+	cont "¡Valdrá la pena!"
 
 	para "Ya sabes dónde:"
 	line ""
@@ -63,83 +57,65 @@ BrentHangUpText:
 	done
 
 BrentFatherGossipText:
-	text "¿Sabías que…?"
-	line "Se supone que el"
-
-	para "padre de Bill es"
-	line "un #Maniac."
+	text "¿Sabías que el"
+	line "padre de Bill es"
+	cont "un #Maniaco?"
 	done
 
 BrentGrandpaGossipText:
-	text "¿Sabías que…?"
-	line "Al parecer, el"
-
-	para "abuelo de Bill no"
-	line "es un #Maniac."
+	text "¿Sabías que el"
+	line "abuelo de Bill no"
+	cont "es un #Maniaco?"
 	done
 
 BrentGoldenrodGossipText:
-	text "¿Sabías que…?"
-	line "Bill nació en"
-	cont "Ciudad Trigal."
+	text "¿Sabías que Bill"
+	line "nació en Ciudad"
+	cont "Trigal?"
 	done
 
 BrentRoute25GossipText:
-	text "¿Sabías que…?"
-	line "Bill vive en"
-
-	para "la Ruta 25,"
-	line "en Kanto."
+	text "¿Sabías que Bill"
+	line "vive en la Ruta 25"
+	cont "de Kanto?"
 	done
 
 BrentAbraGossipText:
-	text "¿Sabías que…?"
-	line "El primer #mon"
-
-	para "que capturó Bill"
-	line "fue un Abra."
+	text "¿Sabías que el"
+	line "primer #mon que"
+	cont "atrapó Bill fue"
+	cont "un Abra?"
 	done
 
 BrentSisterGossipText:
-	text "¿Sabías que…?"
-	line "La hermana menor"
-
-	para "de Bill no puede"
-	line "guiñar un ojo."
+	text "¿Sabías que la"
+	line "hermana menor de"
+	cont "Bill no puede"
+	cont "guiñar un ojo?"
 	done
 
 BrentMilkGossipText:
-	text "¿Sabías que…?"
-	line "Bill supuesta-"
-
-	para "mente odia la"
-	line "leche y no la"
-	cont "puede beber."
+	text "¿Sabías que Bill"
+	line "odia la leche y no"
+	cont "puede beberla?"
 	done
 
 BrentBattlingGossipText:
-	text "¿Sabías que…?"
-	line "Por lo visto,"
-
-	para "a Bill no se le"
-	line "da bien luchar."
+	text "¿Sabías que a Bill"
+	line "no se le da nada"
+	cont "bien combatir?"
 	done
 
 BrentFlowerShopGossipText:
-	text "¿Sabías que…?"
-	line "Parece que a Bill"
-
-	para "le gusta la chica"
-	line "de la"
-	cont "Floristería."
+	text "¿Sabías que a Bill"
+	line "le gusta la chica"
+	cont "de la Floristería?"
 	done
 
 BrentKimonoGirlGossipText:
-	text "¿Sabías que…?"
-	line "Se dice que la"
-
-	para "madre de Bill fue"
-	line "una Chica Kimono."
+	text "¿Sabías que la"
+	line "madre de Bill fue"
+	cont "una Chica Kimono?"
 	done
 
 BrentSorryImTooBusyText:
@@ -155,11 +131,11 @@ BrentSorryImTooBusyText:
 	done
 
 BrentReminderText:
-	text "Quieres ver a mi"
-	line "#mon raro."
+	text "¿Quieres ver a mi"
+	line "#mon raro?"
 
-	para "Date prisa y ven"
-	line "a "
+	para "¡Pues date prisa y"
+	line "ven a "
 	text_ram wStringBuffer5
-	text "."
+	text "!"
 	done

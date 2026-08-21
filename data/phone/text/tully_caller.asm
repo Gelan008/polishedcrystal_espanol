@@ -4,39 +4,37 @@ TullyMonHasGrownText:
 	text " ha"
 	line "crecido otra vez."
 
-	para "Apenas era así de"
-	line "grande cuando lo"
-
-	para "atrapé, pero ahora"
-	line "es enorme."
+	para "Era diminuto al"
+	line "pescarlo, ¡pero"
+	cont "ahora es enorme!"
 	done
 
 TullyDefeatedMonText:
-	text "Oh, sí, vencí a un"
+	text "¡Vencí a un"
 	line ""
 	text_ram wStringBuffer4
-	text " salvaje."
+	text ""
+	cont "salvaje!"
 
-	para "Era enorme, igual"
-	line "así de grande."
+	para "Era enorme, ¡así"
+	line "de grande!"
 
-	para "Je, supongo que"
-	line "no puedes notarlo"
-	cont "por teléfono…"
+	para "Je, no se aprecia"
+	line "por teléfono…"
 	done
 
 TullyLostAMonText:
-	text "Oh, sí, perdí a un"
+	text "¡Se me escapó un"
 	line ""
 	text_ram wStringBuffer4
-	text " salvaje."
+	text ""
+	cont "salvaje!"
 
-	para "Era enorme, igual"
-	line "así de grande."
+	para "Era enorme, ¡así"
+	line "de grande!"
 
-	para "Je, supongo que"
-	line "no puedes notarlo"
-	cont "por teléfono…"
+	para "Je, no se aprecia"
+	line "por teléfono…"
 	done
 
 TullyBattleRematchText:
@@ -57,29 +55,27 @@ TullyHangUpText:
 	done
 
 TullyFoundItemText:
-	text "He cogido algo"
-	line "bueno por la ori-"
-	cont "lla del agua."
+	text "Encontré algo en"
+	line "la orilla del mar."
 
-	para "Como prometí, es"
-	line "tuyo."
+	para "Como prometí, ¡es"
+	line "todo tuyo!"
 
-	para "Te estaré espe-"
-	line "rando en"
-	cont ""
+	para "Te espero en"
+	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyNoItemText:
-	text "¿Que si he encon-"
-	line "trado algo bueno?"
+	text "¿Que si he hallado"
+	line "algo bueno?"
 
-	para "Nop, aún no."
+	para "Nop, aún nada."
 
 	para "Como en la pesca,"
-	line "hace falta pa-"
-	cont "ciencia."
+	line "¡hace falta mucha"
+	cont "paciencia!"
 	done
 
 TullyForwardText:

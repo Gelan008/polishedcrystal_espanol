@@ -1,50 +1,42 @@
 JackIntelligenceKeepsRisingText:
-	text "La inteligencia"
+	text "¡La inteligencia"
 	line "de mi "
-	cont ""
 	text_ram wStringBuffer4
 	text ""
+	cont "sigue creciendo!"
 
-	para "va en aumento."
-	line "¡Podría ser más"
-	cont "listo que el tuyo!"
+	para "¡Será más listo"
+	line "que el tuyo!"
 	done
 
 JackDefeatedMonText:
-	text "El otro día ven-"
-	line "cí fácil a un"
+	text "El otro día vencí"
+	line "muy fácil a un"
 	cont ""
 	text_ram wStringBuffer4
 	text "."
 
-	para "Creo que intercam-"
-	line "biar consejos con-"
-	cont "tigo está"
-	cont "ayudando."
+	para "¡Compartir trucos"
+	line "contigo me ayuda"
+	cont "un montón!"
 	done
 
 JackLostAMonText:
 	text "Ah, y escucha."
-	line "Fallé al atrapar a"
-
-	para "un "
+	line "Casi atrapo a un"
+	cont ""
 	text_ram wStringBuffer4
-	text " por"
-	line "muy poquito."
+	text ","
+	cont "¡por muy poco!"
 
-	para "Si hubiera estado"
-	line "más informado, se-"
-
-	para "guro que lo habría"
-	line "atrapado…"
+	para "Si supiera más,"
+	line "¡lo habría cazado!"
 	done
 
 JackBattleRematchText:
 	text "¿Quieres luchar?"
-	line "Te enseñaré cómo"
-
-	para "luchar de forma"
-	line "lógica."
+	line "Te enseñaré a"
+	cont "luchar con lógica."
 
 	para "Estaré en"
 	line ""
@@ -70,55 +62,45 @@ JackThunderTriviaText:
 JackRolloutTriviaText:
 	text "¿Sabías que…?"
 
-	para "Si usas Rizo De-"
-	line "fensa, Desenrollar"
-
-	para "será mucho más"
-	line "fuerte de lo"
-	cont "normal."
+	para "Tras Rizo Defensa,"
+	line "¡Desenrollar es"
+	cont "mucho más fuerte"
+	cont "de lo normal!"
 	done
 
 JackSolarbeamTriviaText:
 	text "¿Sabías que…?"
 
-	para "Si el sol brilla"
-	line "fuerte, Rayo Solar"
-
-	para "no necesita ser"
-	line "cargado."
+	para "Si hace sol,"
+	line "Rayo Solar no"
+	cont "necesita cargarse."
 	done
 
 JackStompTriviaText:
 	text "¿Sabías que…?"
 
-	para "Si tu rival usa"
-	line "Reducción,"
-
-	para "tu Pisotón será"
-	line "más poderoso."
+	para "Si el rival usa"
+	line "Reducción, tu"
+	cont "Pisotón será"
+	cont "más poderoso."
 	done
 
 JackGustTriviaText:
 	text "¿Sabías que…?"
 
-	para "Si tu rival usa"
+	para "Si el rival usa"
 	line "Vuelo, tu Tornado"
-
-	para "se volverá mucho"
-	line "más poderoso."
+	cont "será mucho más"
+	cont "poderoso."
 	done
 
 JackKnockOffTriviaText:
 	text "¿Sabías que…?"
 
-	para "Si tu rival lleva"
-	line "un objeto que tu"
-
-	para "Desarme le puede"
-	line "quitar, entonces"
-
-	para "tu Desarme se vol-"
-	line "verá más poderoso."
+	para "Si el rival lleva"
+	line "un objeto y usas"
+	cont "Desarme, ¡hará más"
+	cont "daño!"
 	done
 
 JackEarthquakeTriviaText:
@@ -126,9 +108,8 @@ JackEarthquakeTriviaText:
 
 	para "Si el rival usa"
 	line "Excavar, tu"
-
-	para "Terremoto será"
-	line "más poderoso."
+	cont "Terremoto será"
+	cont "más poderoso."
 	done
 
 JackMagnitudeTriviaText:
@@ -136,65 +117,54 @@ JackMagnitudeTriviaText:
 
 	para "Si el rival usa"
 	line "Excavar, tu"
-
-	para "Magnitud será"
-	line "más poderosa."
+	cont "Magnitud será"
+	cont "más poderosa."
 	done
 
 JackSandstormTriviaText:
 	text "¿Sabías que…?"
 
 	para "A los tipos Roca,"
-	line "Tierra y Acero"
-
-	para "no les hace daño"
-	line "Torm. Arena."
+	line "Tierra y Acero no"
+	cont "les hace daño"
+	cont "la Torm. Arena."
 	done
 
 JackSunnyDayTriviaText:
 	text "¿Sabías que…?"
 
-	para "Si el sol brilla"
-	line "fuerte, los movi-"
-
-	para "mientos tipo Agua"
-	line "son más débiles."
+	para "Si hace sol, los"
+	line "ataques de tipo"
+	cont "Agua se debilitan."
 	done
 
 JackRainDanceTriviaText:
 	text "¿Sabías que…?"
 
-	para "Cuando llueve,"
-	line "los movimientos de"
-
-	para "tipo Fuego son más"
-	line "débiles que de"
-	cont "costumbre."
+	para "Si llueve, los"
+	line "ataques de tipo"
+	cont "Fuego son más"
+	cont "débiles."
 	done
 
 JackHeardSomeGreatTipsText:
-	text "Mi amigo escuchó"
+	text "Mi amigo sabe"
 	line "buenos consejos."
 
-	para "Me va a contar"
-	line "algunos."
-
-	para "Cuando me los di-"
-	line "ga, te llamaré"
-	cont "para contártelos."
+	para "Me dirá algunos."
+	line "¡Te llamaré para"
+	cont "pasártelos!"
 	done
 
 JackReminderText:
 	text "¡Eh, <PLAYER>!"
 
-	para "¿Te acuerdas de tu"
-	line "promesa?"
+	para "¿Te acuerdas de"
+	line "nuestra promesa?"
 
-	para "¡Tenemos que lu-"
-	line "char pronto!"
-
-	para "Estaré en"
-	line ""
+	para "¡Debemos luchar!"
+	line "Te espero en"
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 	done

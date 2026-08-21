@@ -3,17 +3,13 @@ DanaAskNumber1Text:
 	line "con los #mon!"
 
 	para "Los chicos me dan"
-	line "objetos tras"
-	cont "luchar, pero"
-
-	para "a veces me dan"
-	line "demasiados."
+	line "objetos al luchar,"
+	cont "pero me sobran."
 
 	para "La próxima vez"
 	line "puedo compartir"
-
-	para "algunos contigo."
-	line "Dame tu número."
+	cont "alguno contigo."
+	cont "Dame tu número."
 	done
 
 DanaAskNumber2Text:
@@ -26,14 +22,11 @@ DanaAskNumber2Text:
 
 DanaNumberAcceptedText:
 	text "¡La próxima vez"
-	line "que un chico me"
+	line "que me den regalos"
+	cont "te daré algunos!"
 
-	para "dé algo tras una"
-	line "batalla, te daré"
-	cont "un poco!"
-
-	para "¿Eso me hace"
-	line "mala?"
+	para "¿Eso me convierte"
+	line "en una chica mala?"
 	done
 
 DanaNumberDeclinedText:

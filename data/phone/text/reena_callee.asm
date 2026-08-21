@@ -62,11 +62,9 @@ ReenaGenericText:
 	para "¿Qué? ¿Genial?"
 	line "Ya veo…"
 
-	para "¿Qué? ¿Mis #mon?"
+	para "¿Que cómo van los"
+	line "míos? ¡Genial!"
 
-	para "¡Claro que están"
-	line "genial! ¿Qué cla-"
-
-	para "se de pregunta es"
-	line "esa?"
+	para "¿Qué clase de"
+	line "pregunta es esa?"
 	done

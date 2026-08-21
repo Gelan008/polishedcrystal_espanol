@@ -1,51 +1,44 @@
 RalphNeglectingKidsText:
-	text "He estado pasando"
-	line "más tiempo con mi"
-
-	para ""
+	text "Paso más tiempo"
+	line "con mi "
 	text_ram wStringBuffer4
-	text " que el"
-	line "que con mis hijos."
+	text ""
+	cont "que con mis hijos."
 
 	para "La verdad es que"
 	line "es un poco triste."
 	done
 
 RalphDefeatedMonText:
-	text "Vencí a un "
+	text "¡Derroté a un"
 	line ""
 	text_ram wStringBuffer4
-	text " salvaje."
+	text ""
+	cont "salvaje!"
 
-	para "Se lo dije a mi"
-	line "hijo, pero se"
+	para "Se lo conté a mi"
+	line "hijo y se burló"
+	cont "diciendo que él"
+	cont "también podría."
 
-	para "burló diciendo que"
-	line "él podía hacer lo"
-	cont "mismo fácilmente."
-
-	para "Chico, se ha"
-	line "vuelto muy gallito"
+	para "¡Vaya humos se"
+	line "gasta el chaval!"
 	done
 
 RalphLostAMonText:
 	text "Ayer se me escapó"
 	line "un "
 	text_ram wStringBuffer4
-	text " sal-"
+	text ""
+	cont "salvaje ante mi"
+	cont "hijo."
 
-	para "vaje, delante de"
-	line "mi hijo."
+	para "Me dio pena, pero"
+	line "él me dio de sus"
+	cont "# Balls."
 
-	para "Me sentí mal por"
-	line "eso, hasta que él"
-
-	para "compartió sus"
-	line "# Balls conmigo."
-
-	para "Jaja, ¡eso sí"
-	line "que me alegró el"
-	cont "día!"
+	para "¡Jaja, eso sí me"
+	line "alegró el día!"
 	done
 
 RalphBattleRematchText:
@@ -73,29 +66,24 @@ RalphItemText:
 	text "Oye, yo… ¡Ay!"
 
 	para "¡Ah, perdona!"
-	line "¡Mira, están"
-
-	para "picando "
+	line "¡Es que los"
+	cont ""
 	text_ram wStringBuffer4
-	text " "
-	line "como si no"
-
-	para "hubiese un mañana"
-	line "en "
+	text " pican"
+	cont "sin parar en"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
 
 	para "¡Aay! ¡Ay!"
 	line "¡Uno me pinchó!"
 
-	para "¡Je, estos biche-"
-	line "jos tienen garra!"
+	para "¡Je, estos bichos"
+	line "tienen carácter!"
 
 	para "¡<PLAYER>, tienes"
-	line "que ver este raro"
-
-	para "espectáculo! ¡Pre-"
-	line "párate a pescar!"
+	line "que verlo! ¡Saca"
+	cont "la Caña y ven ya!"
 	done
 
 RalphNoItemText:
@@ -110,16 +98,14 @@ RalphNoItemText:
 	done
 
 RalphReminderText:
-	text "¿Pues dónde estás?"
-	line "Te estoy esperando"
-
-	para "en "
+	text "¿Dónde estás?"
+	line "Te espero en"
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "¡No deberías hacer"
-	line "esperar a los ma-"
-	cont "yores!"
+	para "¡No hagas esperar"
+	line "a los mayores!"
 	done
 
 RalphHurryText:

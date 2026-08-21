@@ -41,8 +41,8 @@ ToddGreetDayText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAYER>, ¿qué es-"
-	line "tás haciendo?"
+	para "<PLAYER>, ¿qué"
+	line "haces ahora?"
 	done
 
 ToddGreetNiteText:
@@ -59,11 +59,8 @@ ToddGenericText:
 	text "¿Cómo entrenas a"
 	line "tus #mon?"
 
-	para "Yo hago de todo,"
-	line "como dejarlos en"
-
-	para "la Guardería y"
-	line "fortalecerlos"
-
-	para "con objetos."
+	para "Yo hago de todo:"
+	line "dejarlos en la"
+	cont "Guardería o darles"
+	cont "muchas vitaminas."
 	done

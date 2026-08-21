@@ -21,14 +21,12 @@ BuenaPhoneMidnightAnswerText:
 	line "no puedo ponerme."
 
 	para "Si quieres hablar,"
-	line "sintoniza el"
+	line "pon la radio y"
+	cont "oye Contraseña"
+	cont "Buena."
 
-	para "program Contraseña"
-	line "de Buena en la"
-
-	para "radio y llámame"
-	line "pasada la"
-	cont "medianoche."
+	para "¡Llámame después"
+	line "de medianoche!"
 	done
 
 BuenaPhoneNiteAnswerText:
@@ -79,46 +77,35 @@ BuenaPhoneNiteText:
 	done
 
 BuenaPhoneRocketText:
-	text "Oh ¡Hola <PLAYER>!"
+	text "¡Hola, <PLAYER>!"
+	line "¿Cómo estás?"
 
-	para "¿Cómo estás?"
-
-	para "¡Ay! ¡No es el"
-	line "momento para mis"
-
-	para "saludos raros y"
-	line "tontos!"
+	para "¡Ay! ¡No es hora"
+	line "de mis saludos"
+	cont "tontos!"
 
 	para "¡La Torre Radio"
-	line "está en problemas!"
+	line "está en peligro!"
 
-	para "¡<PLAYER>, será"
-	line "mejor que vayas"
-	cont "con cuidado!"
+	para "¡<PLAYER>, ten"
+	line "mucho cuidado!"
 	done
 
 BuenaPhoneWentOutWithBenText:
-	text "¡El otro día fui"
-	line "a comer con el"
+	text "¡El otro día comí"
+	line "con el DJ Ben!"
+	cont "¿No es genial?"
 
-	para "DJ Ben!"
-	line "¿No es genial?"
+	para "¡Y además dijo que"
+	line "la música de mi"
+	cont "programa mola!"
 
-	para "No solo eso, dijo"
-	line "que la música de"
+	para "Ay, no sé ni qué"
+	line "hacer…"
 
-	para "mi programa"
-	line "molaba."
-
-	para "Oh, vaya. Como,"
-	line "¿qué debería"
-	cont "hacer?"
-
-	para "…Uy, ¡tengo"
-	line "que prepararme"
-
-	para "para el show! ¡Te"
-	line "veo luego!"
+	para "¡Uy! ¡Tengo que"
+	line "prepararme para el"
+	cont "show! ¡Nos vemos!"
 	done
 
 BuenaPhoneReceptionistText:
@@ -127,96 +114,71 @@ BuenaPhoneReceptionistText:
 	cont "la Torre Radio?"
 
 	para "Solo dice:"
-	line "“Bienvenido”."
+	line "“¡Bienvenido!”."
 
-	para "Pero en verdad es"
-	line "la persona más"
+	para "Pero en realidad"
+	line "es la persona más"
+	cont "charlatana aquí."
 
-	para "habladora de la"
-	line "Torre Radio."
+	para "¡Debe de estar"
+	line "aguantándose!"
 
-	para "Así que debe"
-	line "estar"
-	cont "conteniéndose."
-
-	para "¿No es divertido"
-	line "saberlo?"
-
-	para "¡Nos vemos!"
+	para "¿No es curioso?"
+	line "¡Nos vemos!"
 	done
 
 BuenaPhoneLuckyNumberShowText:
 	text "Dime, <PLAYER>."
-	line "¿Alguna vez has"
-
-	para "ganado el"
-	line "Núm de la Suerte?"
+	line "¿Has ganado en el"
+	cont "Núm de la Suerte?"
 
 	para "Reed se queja de"
-	line "que nunca ha"
-	cont "ganado, así que"
-
-	para "jura mantener el"
-	line "programa hasta"
+	line "que nunca gana,"
+	cont "así que seguirá"
+	cont "con el show hasta"
 	cont "que lo consiga."
 
 	para "¡Hablamos luego!"
 	done
 
 BuenaPhoneStressedFromWorkText:
-	text "Oye, ¿sabes? Ayer"
-	line "por la noche…"
-
-	para "¡Me estresé tanto"
-	line "por el trabajo,"
-
-	para "que comí mucha"
-	line "comida basura!"
+	text "Oye, anoche me"
+	line "estresé tanto con"
+	cont "el trabajo y comí"
+	cont "mucha porquería."
 
 	para "Rosa y yo tenemos"
-	line "un trato para"
+	line "un pacto para"
 	cont "perder peso…"
+	cont "¡Qué desastre!"
 
-	para "Esto no puede"
-	line "ser…"
-
-	para "¿Eh? ¿Cuánto"
-	line "pesa?"
-
-	para "¡Esto tiene que"
-	line "ser un secreto!"
+	para "¿Eh? ¿Cuánto pesa?"
+	line "¡Es un secreto!"
 
 	para "Rosa pesa…"
 
 	para "¡Ay! ¡R-Rosa!"
 
-	para "Eh… Emm… Lo"
-	line "siento, ¡número"
+	para "Eh… emm… ¡Lo"
+	line "siento, número"
 	cont "equivocado!"
 	done
 
 BuenaPhoneProfessorOakText:
-	text "Ayer, Prof. Oak"
-	line "estaba en el"
+	text "Ayer vino el"
+	line "Prof. Oak a grabar"
+	cont "su programa."
 
-	para "estudio para"
-	line "grabar su"
-	cont "programa."
+	para "Me presenté y…"
+	line "¡resulta que él"
+	cont "escucha mi show!"
 
-	para "Así que fui y me"
-	line "presenté."
-
-	para "Y flipa, ¡escucha"
-	line "mi programa!"
-
-	para "¡Oh! ¡Aquí viene"
-	line "Prof. Oak de"
-	cont "nuevo!"
+	para "¡Oh! ¡Ahí viene el"
+	line "Prof. Oak otra"
+	cont "vez!"
 
 	para "¡Voy a hablar con"
-	line "él otra vez!"
-
-	para "¡Nos vemos!"
+	line "él! ¡Nos vemos!"
 	done
 
 BuenaPhoneGotAColdText:
@@ -243,21 +205,16 @@ BuenaPhoneGotAColdText:
 
 BuenaPhoneRadioCardQuestionsText:
 	text "Oye, <PLAYER>."
-	line "Ganaste esa Tarj."
-
-	para "Radio resolviendo"
-	line "el cuestionario"
-
-	para "de la recepción,"
-	line "¿verdad?"
+	line "¿Ganaste la Tarj."
+	cont "Radio con el test"
+	cont "de la recepción?"
 
 	para "¿Y sabes qué?"
-	line "¡Yo hice las"
-	cont "preguntas!"
+	line "¡Yo escribí todas"
+	cont "las preguntas!"
 
-	para "…¿Te resultaron"
-	line "demasiado"
-	cont "fáciles?"
+	para "¿Te resultaron"
+	line "demasiado fáciles?"
 
 	para "Bueno, ¡hablamos"
 	line "luego!"
@@ -265,103 +222,66 @@ BuenaPhoneRadioCardQuestionsText:
 
 BuenaPhonePikachuFanClubText:
 	text "Me alegra que más"
-	line "gente participe"
+	line "gente participe en"
+	cont "mi programa."
 
-	para "en mi programa de"
-	line "Password."
+	para "Pero el día que la"
+	line "clave fue Pikachu,"
+	cont "¡fue agobiante!"
 
-	para "Pero cuando la"
-	line "contraseña era"
+	para "¡Los del Club de"
+	line "Fans vinieron en"
+	cont "masa gritando"
+	cont "“¡Pikachu!”!"
 
-	para "Pikachu, fue eh…"
-	line "uf… agobiante."
+	para "Hacían un ruido"
+	line "tremendo."
 
-	para "Los del Club de"
-	line "Fans vinieron"
-
-	para "en masa,"
-	line "gritando"
-
-	para "“¡Pikachu!” una y"
-	line "otra vez. O sea,"
-
-	para "hacían mucho"
-	line "ruido."
-	para "¡Cualquiera que"
-	line "nos escuchara"
-
-	para "debió flipar con"
-	line "el alboroto!"
-
-	para "En fin, ¡de"
-	line "vuelta al curro!"
-
-	para "¡Hablamos luego!"
+	para "En fin, ¡a seguir"
+	line "trabajando!"
+	cont "¡Hablamos luego!"
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "¿A que no sabes"
-	line "qué? ¡El Director"
+	text "¿Sabes qué? ¡El"
+	line "Director es muy"
+	cont "fan de la tele!"
 
-	para "de la Torre Radio"
-	line "es muy fan de la"
-	cont "TV!"
+	para "Vio en un programa"
+	line "que los trajes"
+	cont "negros están de"
+	cont "moda y viste así."
 
-	para "Hace poco, un"
-	line "programa de moda"
+	para "¡Pero es secreto!"
+	line "No le digas nada"
+	cont "si lo ves por ahí."
 
-	para "dijo que los"
-	line "trajes negros"
-	cont "estaban de moda."
+	para "¡Oh! ¡Ya viene el"
+	line "Director!"
 
-	para "Ahora solo lleva"
-	line "trajes negros."
-
-	para "Pero es un"
-	line "secreto que el"
-
-	para "Director es fan"
-	line "de la TV, así que"
-
-	para "si lo ves, ¡no te"
-	line "atrevas a"
-	cont "mencionarlo!"
-
-	para "¡Oh! ¡El Director"
-	line "llegará pronto!"
-
-	para "¡Adiós! ¡Pon mi"
-	line "programa!"
+	para "¡Adiós! ¡Escucha"
+	line "mi programa!"
 	done
 
 BuenaPhoneWhenDoYouRelaxText:
 	text "<PLAYER>, dime."
+	line "¿Cuándo te relajas"
+	cont "más tú?"
 
-	para "¿Cuándo te relajas"
-	line "más?"
+	para "Yo en el estudio,"
+	line "tras mi programa,"
+	cont "con una taza de té."
 
-	para "Para mí, es en el"
-	line "estudio justo"
-
-	para "después de mi"
-	line "show, con una"
-
-	para "taza de té."
-	line "Es tan agradable"
-
-	para "que poco a poco"
-	line "me entra el"
-	cont "sueño…"
+	para "Es tan agradable"
+	line "que me da sueño…"
 
 	para "… … …"
 
 	para "… … …Zzz"
 
-	para "Uy, ¡me he"
-	line "dormido solo de"
-
-	para "pensarlo! ¡Qué,"
-	line "eh… qué corte!"
+	para "¡Uy! ¡Me dormí solo"
+	line "de pensarlo! ¡Qué"
+	cont "vergüenza!"
 
 	para "¡Olvida esto, por"
 	line "favor! ¡Adiós!"
@@ -374,162 +294,104 @@ BuenaPhoneStarterPokemonText:
 
 	para "…Oh, ¿en serio?"
 
-	para "He visto muchos"
-	line "#mon por ahí,"
-
-	para "pero nunca he"
-	line "atrapado ninguno."
-
-	para "Debería probar"
-	line "algún día."
+	para "He visto a muchos,"
+	line "pero nunca atrapé"
+	cont "a ninguno #mon."
 
 	para "¿Sabías que el"
-	line "primer #mon"
+	line "primer #mon que"
+	cont "Rosa atrapó fue un"
+	cont "Drowzee?"
 
-	para "que Rosa atrapó"
-	line "fue un Drowzee?"
-
-	para "¿No le pega nada,"
-	line "verdad?"
-
-	para "Pero el Drowzee"
-	line "de Rosa no paraba"
-
-	para "de dormirla en el"
-	line "trabajo, así que"
-
-	para "lo intercambió"
-	line "con un fan por"
-	cont "un Meowth."
+	para "No le pegaba nada,"
+	line "y como no paraba"
+	cont "de dormirla en el"
+	cont "trabajo, se lo dio"
+	cont "a un fan por un"
+	cont "Meowth."
 
 	para "¡Hablemos de"
 	line "#mon otra vez!"
-
-	para "¡Adiós!"
+	cont "¡Adiós!"
 	done
 
 BuenaPhoneCompanyVacationText:
 	text "¿A que no sabes"
-	line "qué? Todos en la"
+	line "qué? ¡Nos vamos de"
+	cont "viaje de empresa!"
 
-	para "Torre Radio vamos"
-	line "a irnos de"
-	cont "vacaciones"
+	para "Iremos a la Torre"
+	line "Radio de Lavanda."
 
-	para "a la Torre Radio"
-	line "en Lavanda."
-
-	para "¿Desperdiciamos"
-	line "nuestras"
-	cont "vacaciones yendo"
-
-	para "a otra Radio"
-	line "Tower?"
-
-	para "¡Preferiría ir a"
-	line "la playa!"
+	para "¿Gastar las"
+	line "vacaciones yendo a"
+	cont "otra Torre Radio?"
+	cont "¡Preferiría playa!"
 
 	para "<PLAYER>, ¡espero"
-	line "que tú te"
-
-	para "diviertas por las"
-	line "dos en tu viaje!"
-
-	para "¡Adiós!"
+	line "que tú disfrutes"
+	cont "mucho en tu viaje!"
+	cont "¡Adiós!"
 	done
 
 BuenaPhoneBenAndFernText:
-	text "¿Sabías que…?"
+	text "¿Sabías que Ben y"
+	line "Nando hablan horas"
+	cont "sobre qué música"
+	cont "poner cada día?"
 
-	para "Ben y Nando hablan"
-	line "por teléfono"
+	para "Una vez se le pegó"
+	line "a Ben el estilo"
+	cont "rapero de Nando…"
 
-	para "durante horas"
-	line "sobre qué música"
+	para "¡Tuvimos que oír"
+	line "sus rimas raras"
+	cont "un buen rato!"
 
-	para "#mon poner"
-	line "cada día de la"
-	cont "semana."
-
-	para "Una vez, el"
-	line "estilo rapero de"
-
-	para "Nando se le pegó"
-	line "a Ben un poco."
-
-	para "Así que nos tocó"
-	line "aguantar a Ben"
-
-	para "con su tonto,"
-	line "frío, y loco rollo"
-	cont "de juerga un"
-	cont "buen rato."
-
-	para "¡Hablemos luego!"
+	para "¡Hablamos luego!"
 	done
 
 BuenaPhoneGoingShoppingText:
-	text "Voy a ir de"
-	line "compras con Rosa"
-	cont "y Lily pronto."
+	text "Iré de compras con"
+	line "Rosa y Lily."
 
-	para "Estaría genial"
-	line "que el C Comercial"
+	para "Ojalá haya rebajas"
+	line "en el C. Comercial"
+	cont "de Trigal…"
 
-	para "de Trigal"
-	line "tuviera rebajas"
-	cont "cuando vayamos…"
-
-	para "<PLAYER>, ¡quizás"
-	line "podamos quedar"
-	cont "también!"
-
-	para "¡Nos vemos!"
+	para "<PLAYER>, ¡a ver"
+	line "si nos vemos allí!"
+	cont "¡Hasta luego!"
 	done
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
-	text "Estoy pensando en"
-	line "ir al"
+	text "Iré al Casino de"
+	line "Trigal mañana."
+	cont "Hace mucho no voy."
 
-	para "Casino mañana."
-	line "Hace mucho que"
-	cont "no voy."
+	para "Tengo una máquina"
+	line "favorita que da"
+	cont "muchos premios."
 
-	para "Verás, tengo mi"
-	line "máquina"
-	cont "favorita…"
-
-	para "Da muchos premios,"
-	line "¡no bromeo!"
-
-	para "¿Eh? No, no, ¡es"
-	line "mi secreto!"
-
-	para "¡Tienes que"
-	line "encontrarla tú!"
+	para "¿Eh? ¡No, es mi"
+	line "gran secreto!"
+	cont "¡Búscala tú!"
 
 	para "¡Nos vemos!"
 	done
 
 BuenaPhonePokegearAnswerText:
-	text "Oye, <PLAYER>. Tú"
-	line "usas tu #gear"
+	text "Oye, <PLAYER>."
+	line "¿Usas tu #gear"
+	cont "para oír la radio?"
 
-	para "para oír la"
-	line "radio, ¿verdad?"
+	para "Oí que también"
+	line "sirve de mapa."
 
-	para "He oído que"
-	line "puedes ver"
-
-	para "mapas con el"
-	line "#gear."
-
-	para "Tengo un pésimo"
+	para "Tengo fatal el"
 	line "sentido de la"
-	cont "orientación,"
-
-	para "así que el #gear"
-	line "sería útil…"
+	cont "orientación, ¡me"
+	cont "vendría genial!"
 
 	para "En fin, ¡gracias"
 	line "por llamar!"
@@ -537,18 +399,13 @@ BuenaPhonePokegearAnswerText:
 	done
 
 BuenaPhoneCoopedUpInRadioTowerAnswerText:
-	text "¿Hace sol"
-	line "hoy fuera?"
+	text "¿Hace buen sol"
+	line "ahí fuera hoy?"
 
-	para "Cuando estás tan"
-	line "encerrada en la"
+	para "Encerrada en la"
+	line "Torre Radio pierdo"
+	cont "contacto con el"
+	cont "mundo exterior."
 
-	para "Torre Radio"
-	line "como yo, pierdes"
-
-	para "contacto con el"
-	line "exterior. A veces"
-	cont "es aburrido."
-
-	para "¡Llama de nuevo!"
+	para "¡Vuelve a llamar!"
 	done

@@ -2,48 +2,37 @@ IrwinAskNumber1Text:
 	text "¡Eres el mejor con"
 	line "el que he luchado!"
 
-	para "¿Eh? ¿Tú eres el"
-	line "que salvó a todos"
-	cont "los Slowpoke?"
+	para "¿Tú salvaste a los"
+	line "Slowpoke del pozo?"
 
-	para "Bueno, ¡con razón"
-	line "no pude ganarte!"
+	para "¡Con razón no pude"
+	line "vencerte!"
 
-	para "¿Estaría bien si"
-	line "me das tu número?"
-
-	para "¡No me quiero per-"
-	line "der nada de lo que"
-	cont "hagas de ahora en"
-	cont "adelante!"
+	para "¿Me das tu número?"
+	line "¡No quiero perder"
+	cont "detalle de tus"
+	cont "grandes hazañas!"
 	done
 
 IrwinAskNumber2Text:
 	text "¿Me darás tu"
-	line "número de telé-"
-	cont "fono?"
+	line "número de móvil?"
 	done
 
 IrwinNumberAcceptedText:
 	text "¡Guau! ¡Gracias!"
-	line "Ahora podré lla-"
-	cont "mar cuando quiera,"
-
-	para "pase algo o no."
-
-	para "Ya sabes,"
-	line "¡sólo para hablar!"
+	line "¡Ahora te llamaré"
+	cont "cuando quiera para"
+	cont "charlar un rato!"
 	done
 
 IrwinNumberDeclinedText:
 	text "Oh, pero…"
 	line "¡No soy peligroso!"
 
-	para "¡Sólo quiero"
+	para "¡Solo quiero"
 	line "llamar y charlar"
-
-	para "sobre todo y sobre"
-	line "nada en especial!"
+	cont "un poco de todo!"
 	done
 
 IrwinPhoneFullText:

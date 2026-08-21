@@ -59,23 +59,18 @@ BrentGreetNiteText:
 	done
 
 BrentGenericText:
-	text "Ah, sí, te vi"
-	line "salir de un"
+	text "El otro día te vi"
+	line "salir del Centro"
+	cont "#mon."
 
-	para "Centro #mon el"
-	line "otro día."
-
-	para "Curas a tus #mon"
-	line "a menudo, ¿eh?"
-
-	para "Me impresiona."
+	para "Curas mucho a tus"
+	line "#mon, ¿eh?"
+	cont "¡Qué dedicado!"
 
 	para "Je, mi "
 	text_ram wStringBuffer4
-	text " es"
-	line "tan fuerte que no"
-
-	para "necesita ir a"
-	line "Centros #mon a"
-	cont "menudo. ¡Je, je!"
+	text ""
+	line "es tan fuerte que"
+	cont "casi ni va por el"
+	cont "Centro. ¡Jejeje!"
 	done

@@ -1,31 +1,25 @@
 BillPhoneMornGreetingText:
 	text "¡Buenos días!"
 
-	para "Estás llamando al"
-	line "Servicio de"
-
-	para "Administración del"
-	line "Sistema de #mon."
+	para "Servicio de"
+	line "Administración del"
+	cont "Sistema #mon."
 	done
 
 BillPhoneDayGreetingText:
 	text "¡Buen día!"
 
-	para "Estás llamando al"
-	line "Servicio de"
-
-	para "Administración del"
-	line "Sistema de #mon."
+	para "Servicio de"
+	line "Administración del"
+	cont "Sistema #mon."
 	done
 
 BillPhoneNiteGreetingText:
 	text "¡Buenas noches!"
 
-	para "Estás llamando al"
-	line "Servicio de"
-
-	para "Administración del"
-	line "Sistema de #mon."
+	para "Servicio de"
+	line "Administración del"
+	cont "Sistema #mon."
 	done
 
 BillPhoneGenericText:
@@ -125,27 +119,22 @@ BillPhoneSecondBadgeText:
 	line "entrenadores!"
 	cont "¡Soy yo, Bill!"
 
-	para "Solo llamaba para"
-	line "avisar sobre el"
-	cont "Itercm. Prodigioso"
+	para "Llamaba para dar"
+	line "un aviso sobre el"
+	cont "Intercambio"
+	cont "Prodigioso."
 
-	para "La máquina ha"
-	line "estado inestable"
-	cont "últimamente, y no"
+	para "La máquina está"
+	line "inestable y no he"
+	cont "podido arreglarla."
 
-	para "he terminado de"
-	line "arreglarla."
+	para "Si estás en Ciudad"
+	line "Trigal, ¡ten mucho"
+	cont "cuidado con ella!"
 
-	para "Así que, si estás"
-	line "en Ciudad Trigal,"
+	para "Podrías recibir un"
+	line "#mon muy raro."
 
-	para "ten cuidado con"
-	line "el Intercm Prodig."
-
-	para "Podrías recibir"
-	line "un #mon muy"
-	cont "raro a cambio."
-
-	para "Eso es todo."
-	line "¡Adiós!"
+	para "¡Eso es todo!"
+	line "¡Hasta luego!"
 	done

@@ -1,6 +1,6 @@
 KenjiHangUpText:
-	text "Como sea, ¡habla-"
-	line "-remos de nuevo!"
+	text "En fin, ¡hablamos"
+	line "de nuevo pronto!"
 	done
 
 KenjiRemainDedicatedText:
@@ -25,11 +25,9 @@ KenjiCallMeBackAnotherTimeText:
 	done
 
 KenjiIllHaveTimeToChatTomorrowText:
-	text "Lo siento, ¡pero"
-	line "no tengo tiempo"
-
-	para "para hablar mien-"
-	line "tras entreno!"
+	text "Lo siento, ¡no hay"
+	line "tiempo de hablar"
+	cont "mientras entreno!"
 
 	para "¡Tendré tiempo"
 	line "mañana!"

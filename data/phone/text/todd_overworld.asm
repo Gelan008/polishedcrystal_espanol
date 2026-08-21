@@ -1,35 +1,30 @@
 ToddAskNumber1Text:
-	text "Desde aquí puedo"
-	line "ver el C. Comer-"
+	text "Desde aquí veo el"
+	line "Centro Comercial"
+	cont "de Ciudad Trigal."
 
-	para "cial de Trigal."
-	line "Tienen rebajas"
+	para "Hacen rebajas en"
+	line "la azotea de vez"
+	cont "en cuando."
 
-	para "en la azotea de"
-	line "vez en cuando."
-
-	para "¿Me darías tu nú-"
-	line "mero de teléfono?"
-
-	para "Te llamaré cuando"
-	line "tengan rebajas."
+	para "¿Me das tu número?"
+	line "¡Te llamaré si hay"
+	cont "buenas rebajas!"
 	done
 
 ToddAskNumber2Text:
-	text "Si me das tu nú-"
-	line "mero, te llamaré"
-
-	para "cuando tengan re-"
-	line "bajas."
+	text "¡Dame tu número y"
+	line "te llamaré si hay"
+	cont "rebajas!"
 	done
 
 ToddNumberAcceptedText:
-	text "Reviso el C. Co-"
-	line "mercial de Trigal"
+	text "Miro en el Centro"
+	line "Comercial Trigal"
+	cont "todos los días."
 
-	para "todos los días,"
-	line "así que sé cuándo"
-	cont "hay rebajas."
+	para "¡Sé cuándo habrá"
+	line "buenas ofertas!"
 	done
 
 ToddNumberDeclinedText:
@@ -50,10 +45,10 @@ ToddPhoneFullText:
 	done
 
 ToddRematchText:
-	text "¡Te estaba espe-"
-	line "rando! ¡Hasta he"
+	text "¡Te estaba"
+	line "esperando!"
 
-	para "comprado menos pa-"
-	line "ra criar mejor a"
+	para "¡He ahorrado para"
+	line "entrenar mejor a"
 	cont "mis #mon!"
 	done

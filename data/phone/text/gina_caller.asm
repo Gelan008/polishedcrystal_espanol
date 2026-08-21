@@ -1,45 +1,38 @@
 GinaGettingInSyncWithMonText:
-	text "Mi "
+	text "¡Mi "
 	text_ram wStringBuffer4
-	text " y yo"
-	line "nos estamos"
-
-	para "sincronizando el"
-	line "uno con el otro."
+	text ""
+	line "y yo nos llevamos"
+	cont "cada día mejor!"
 	done
 
 GinaDefeatedMonText:
-	text "Peleamos contra"
+	text "¡Luchamos contra"
 	line "un "
 	text_ram wStringBuffer4
 	text ""
-	cont "salvaje y"
-
-	para "lo derrotamos en"
-	line "un duro combate."
+	cont "salvaje y vencimos"
+	cont "tras luchar duro!"
 
 	para "¡Le estamos"
-	line "cogiendo el"
-	cont "tranquillo!"
+	line "cogiendo el truco!"
 	done
 
 GinaLostAMonText:
 	text "Pero, ¿sabes?"
-
-	para "Aún no he atra-"
-	line "pado a "
+	line "Aún no he podido"
+	cont "atrapar a un"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 
-	para "Empieza a ser"
-	line "frustrante…"
+	para "¡Empieza a ser"
+	line "muy frustrante!"
 	done
 
 GinaBattleRematchText:
-	text "¿Querrías ser mi"
-	line "compañero de en-"
-	cont "trenamiento otra"
-	cont "vez?"
+	text "¿Entrenarías"
+	line "conmigo otra vez?"
 
 	para "Estaré esperando"
 	line "en "
@@ -48,7 +41,7 @@ GinaBattleRematchText:
 
 	para "…¿Podrías ser"
 	line "algo más amable"
-	cont "la próxima vez?"
+	cont "esta vez?"
 	done
 
 GinaHangUpText:
@@ -88,32 +81,28 @@ GinaFoundItemText:
 GinaHaventFoundAnythingYetText:
 	text "Lo siento, aún no"
 	line "he encontrado"
+	cont "nada útil…"
 
-	para "nada útil…"
-	line "Lo prometo, si"
-
-	para "encuentro algo,"
-	line "¡te lo daré!"
+	para "Pero si encuentro"
+	line "algo, ¡te prometo"
+	cont "que te lo daré!"
 	done
 
 GinaReminderText:
 	text "¡Oh, <PLAYER>!"
-	line "¿Cuándo te voy a"
+	line "¿Cuándo nos vemos"
+	cont "para el combate?"
 
-	para "ver para nuestro"
-	line "combate?"
-
-	para "No lo olvides, es"
-	line "en "
+	para "¡No lo olvides,"
+	line "estoy en "
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 GinaComePickUpText:
-	text "¡Me estoy impa-"
-	line "cientando, quiero"
-
-	para "darte tu regalo!"
+	text "¡Tengo muchas"
+	line "ganas de darte"
+	cont "tu regalo!"
 
 	para "¡Date prisa y ven"
 	line "a "

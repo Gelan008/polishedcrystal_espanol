@@ -23,34 +23,27 @@ ToddDefeatedMonText:
 
 ToddLostAMonText:
 	text "Y, ¿sabes qué?"
-	line "Casi derrotamos"
-
-	para "a "
+	line "Casi vencemos a"
+	cont "un "
 	text_ram wStringBuffer4
-	text ", por"
-	line "muy poquito."
+	text "…"
 
-	para "Supongo que los"
-	line "niveles de mis"
-
-	para "#mon no son su-"
-	line "ficientes aún…"
+	para "Supongo que el"
+	line "nivel de mis"
+	cont "#mon aún es"
+	cont "bajo…"
 	done
 
 ToddBattleRematchText:
 	text "Debes ser mucho"
 	line "mejor ahora, ¿eh?"
 
-	para "¿Qué tal si me"
-	line "muestras tu téc-"
+	para "¿Qué tal si me lo"
+	line "demuestras en un"
+	cont "combate de verdad?"
 
-	para "nica en un com-"
-	line "bate de verdad"
-	cont "conmigo?"
-
-	para "Te estaré espe-"
-	line "rando en"
-	cont ""
+	para "Te espero en"
+	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
@@ -60,64 +53,56 @@ ToddHangUpText:
 	done
 
 ToddDepartmentStoreBargainSaleText:
-	text "¡Ya está aquí!"
-	line "¡Lo que todos"
-	cont "esperábamos!"
+	text "¡Ya está aquí lo"
+	line "que esperábamos!"
 
 	para "¡Las rebajas del"
-	line "C. Comercial de"
-	cont "Trigal!"
+	line "Centro Comercial"
+	cont "de Trigal!"
 
-	para "¿Lo quieres bue-"
-	line "no, bonito y"
-	cont "barato?"
+	para "¿Buscas algo"
+	line "bueno y barato?"
 
-	para "¡No te pierdas es-"
-	line "ta oportunidad!"
+	para "¡No te pierdas tal"
+	line "oportunidad!"
 
 	para "¿Eh? ¿Parezco un"
-	line "vendedor?"
+	line "vendedor? ¡Jeje,"
+	cont "los imitaba!"
 
-	para "Bueno, sí. Los es-"
-	line "taba imitando…"
-
-	para "El caso es que,"
-	line "¡tienes que ir"
-	cont "cuanto antes!"
+	para "El caso es que…"
+	line "¡ve cuanto antes!"
 	done
 
 ToddSavingUpForBargainSaleText:
 	text "Estoy ahorrando"
-	line "para las próxi-"
+	line "para las próximas"
+	cont "rebajas."
 
-	para "mas rebajas."
-	line "¿Cuándo son las"
-	cont "siguientes?"
+	para "¿Cuándo serán las"
+	line "siguientes?"
 	done
 
 ToddLookingForwardToBattleText:
 	text "¿Dónde estás?"
 
-	para "¡Tengamos nuestro"
-	line "combate pronto!"
+	para "¡Luchemos pronto!"
 
-	para "Te estaré espe-"
-	line "rando en"
-	cont ""
+	para "Te espero en"
+	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 ToddHaveYouGoneToDepartmentStoreText:
 	text "¿Aún no has ido al"
-	line "C. Comercial de"
+	line "Centro Comercial"
+	cont "de Trigal?"
 
-	para "Trigal? ¡Yo ya he"
-	line "echado un ojo!"
+	para "¡Yo ya he echado"
+	line "un ojo y hay muy"
+	cont "buenas rebajas!"
 
-	para "Tienen algunas re-"
-	line "bajas de verdad."
-
-	para "Deberías ir para"
-	line "allí rapidito."
+	para "¡Deberías ir para"
+	line "allí rapidito!"
 	done

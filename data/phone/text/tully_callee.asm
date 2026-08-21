@@ -62,6 +62,6 @@ TullyGenericText:
 	text "¿Cómo va tu"
 	line "viaje?"
 
-	para "¡No me puedo que-"
-	line "jar de mi pesca!"
+	para "¡A mí la pesca me"
+	line "va de maravilla!"
 	done

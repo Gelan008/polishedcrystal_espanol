@@ -2,72 +2,55 @@ WadeAreYourMonGrowingText:
 	text "¿Están creciendo"
 	line "tus #mon?"
 
-	para "Mis #mon están"
-	line "creciendo un po-"
+	para "Los míos crecen"
+	line "demasiado rápido,"
+	cont "¡es abrumador!"
 
-	para "co demasiado rápi-"
-	line "do para mí."
-	cont "¡Es abrumador!"
-
-	para "Especialmente mi"
+	para "Sobre todo mi"
 	line ""
 	text_ram wStringBuffer4
-	text ". Creo"
-
-	para "que se hará muy"
-	line "fuerte."
+	text ". ¡Será"
+	cont "súper fuerte!"
 	done
 
 WadeDefeatedMonText:
-	text "Ah, sí, vencimos a"
-	line "un "
+	text "¡Vencimos a un"
+	line ""
 	text_ram wStringBuffer4
-	text " salvaje"
+	text ""
+	cont "salvaje de un solo"
+	cont "golpe hace nada!"
 
-	para "de un solo golpe"
-	line "hace un rato."
-
-	para "Cayó tan fácilmen-"
-	line "te que me dio un"
-
-	para "poco de pena el"
-	line "pobre."
+	para "Cayó tan fácil que"
+	line "hasta me dio pena"
+	cont "el pobre."
 	done
 
 WadeLostAMonText:
-	text "Ah, sí, se me es-"
-	line "capó un"
-	cont ""
+	text "¡Se me escapó un"
+	line ""
 	text_ram wStringBuffer4
 	text ""
+	cont "salvaje en el"
+	cont "último segundo!"
 
-	para "salvaje en el úl-"
-	line "timo segundo."
-
-	para "Sé que es muy"
-	line "común…"
-
-	para "Pero me fastidia"
-	line "que escapara cuan-"
-
-	para "do casi lo había"
-	line "atrapado."
+	para "Sé que es común,"
+	line "¡pero casi lo"
+	cont "tenía atrapado!"
 	done
 
 WadeBattleRematchText:
 	text "¿Te apetece echar"
-	line "un combate #mon?"
+	line "un combate?"
 
 	para "¡No será como"
 	line "la última vez!"
 
-	para "Estaré en"
+	para "Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "."
-
-	para "Avísame cuando"
-	line "llegues allí."
+	cont "¡Avísame al venir!"
 	done
 
 WadeHangUpText:
@@ -76,28 +59,23 @@ WadeHangUpText:
 
 WadeBugCatchingContestText:
 	text "Hoy es el Concurso"
-	line "de Captura de Bi-"
+	line "de Bichos en el"
+	cont "Parque Nacional."
 
-	para "chos en el Parque"
-	line "Nacional."
-
-	para "¿Vas a ir,"
+	para "¿Vas a ir tú,"
 	line "<PLAYER>?"
 
-	para "Yo estoy inten-"
-	line "tando decidirme."
+	para "¡Yo aún estoy por"
+	line "decidirme!"
 	done
 
 WadeFoundItemText:
-	text "He encontrado de"
-	line "todo tipo de Ba-"
+	text "He encontrado todo"
+	line "tipo de Bayas. Si"
+	cont "quieres, te doy."
 
-	para "yas. Si quieres,"
-	line "te doy algunas."
-
-	para "Te estaré espe-"
-	line "rando en"
-	cont ""
+	para "Te espero en"
+	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
@@ -106,11 +84,11 @@ WadeNoBerriesText:
 	text "¿Eh? ¿Bayas?"
 
 	para "Lo siento, aún no"
-	line "he encontrado."
+	line "he encontrado más."
 
-	para "Te llamaré si en-"
-	line "cuentro. ¿Podrías"
-	cont "esperar, por fa?"
+	para "Te avisaré si veo."
+	line "¿Puedes esperar un"
+	cont "poco, por favor?"
 	done
 
 WadeQuickBattleText:
@@ -121,8 +99,8 @@ WadeQuickBattleText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "¡Ven lo más rapi-"
-	line "do posible!"
+	para "¡Ven tan rápido"
+	line "como puedas!"
 	done
 
 WadeComeQuickText:
@@ -134,6 +112,6 @@ WadeComeQuickText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "¡Ven lo más rapi-"
-	line "do posible!"
+	para "¡Ven tan rápido"
+	line "como puedas!"
 	done

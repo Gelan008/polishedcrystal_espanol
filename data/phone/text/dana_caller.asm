@@ -11,49 +11,38 @@ DanaTakingPhotosText:
 	done
 
 DanaDefeatedMonText:
-	text "Solo he tardado"
-	line "un instante en"
-	cont "vencer a un "
-	cont ""
-	text_ram wStringBuffer4
-	text ""
-
-	para "salvaje. Debe ser"
-	line "porque me diste"
-	cont "unos consejos"
-
-	para "para luchar."
-	done
-
-DanaLostAMonText:
-	text "¿Sabes qué? Un"
+	text "Vencí a un"
 	line ""
 	text_ram wStringBuffer4
 	text " salvaje"
+	cont "en un instante."
 
-	para "se me ha vuelto"
-	line "a escapar."
+	para "¡Debe ser gracias"
+	line "a tus consejos de"
+	cont "combate!"
+	done
 
-	para "¡Ha faltado muy"
-	line "poco! De verdad,"
+DanaLostAMonText:
+	text "¿Sabes qué? ¡Un"
+	line ""
+	text_ram wStringBuffer4
+	text " salvaje"
+	cont "se me escapó!"
 
-	para "un poquito más"
-	line "y lo habría…"
+	para "¡Faltó tan poco!"
+	line "¡Un poquito más y"
+	cont "lo habría cazado!"
 	done
 
 DanaBattleRematchText:
-	text "Ahora mismo"
-	line "estoy en"
-
-	para ""
+	text "Ahora mismo estoy"
+	line "en "
 	text_ram wStringBuffer5
 	text "."
 
 	para "Si andas cerca,"
-	line "¡vamos a luchar!"
-
-	para "¡Te estaré"
-	line "esperando!"
+	line "¡luchemos!"
+	cont "¡Te espero!"
 	done
 
 DanaHangUpText:
@@ -65,16 +54,14 @@ DanaFoundItemText:
 	line "conseguido un"
 	cont "buen regalo!"
 
-	para "Como prometí,"
+	para "Como te prometí,"
 	line "¡es para ti!"
 
-	para "Seguro que te"
-	line "gusta. ¡Ven a por"
-
-	para "él! Te espero en"
-	line ""
+	para "¡Pásate a por él!"
+	line "Te espero en"
+	cont ""
 	text_ram wStringBuffer5
-	text "!"
+	text "."
 	done
 
 DanaCanYouWaitABitLongerText:
@@ -90,13 +77,11 @@ DanaCanYouWaitABitLongerText:
 	done
 
 DanaReminderText:
-	text "¡Hola! ¿No te"
-	line "habrás olvidado"
-	cont "de tu promesa de"
+	text "¡Hola! ¿No habrás"
+	line "olvidado luchar"
+	cont "conmigo?"
 
-	para "luchar conmigo?"
-
-	para "Te espero en"
+	para "¡Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
@@ -105,14 +90,11 @@ DanaReminderText:
 DanaComePickUpText:
 	text "¿Hola?"
 
-	para "Si no vienes"
-	line "pronto a por tu"
+	para "Si no vienes a"
+	line "por tu regalo, se"
+	cont "lo daré a otro."
 
-	para "regalo, se lo"
-	line "daré a otra"
-	cont "persona."
-
-	para "Te espero en"
+	para "¡Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

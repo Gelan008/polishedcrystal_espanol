@@ -2,26 +2,24 @@ ParryAskNumber1Text:
 	text "¡Vaya forma que"
 	line "tienes de atacar!"
 
-	para "¡Ha sido algo bue-"
-	line "no! ¡Debemos"
-	cont "vernos otra vez!"
+	para "¡Ha sido genial!"
+	line "¡Debemos volver a"
+	cont "luchar otra vez!"
 
 	para "¿Qué tal si me"
 	line "das tu número?"
 	done
 
 ParryAskNumber2Text:
-	text "Con que quieres"
-	line "registrar mi núme-"
-
-	para "ro para luchar de"
-	line "nuevo, ¿eh?"
+	text "Conque quieres"
+	line "apuntar mi número"
+	cont "para combatir de"
+	cont "nuevo, ¿eh?"
 	done
 
 ParryNumberAcceptedText:
-	text "¡Te llamaré cuan-"
-	line "do me apetezca"
-	cont "combatir!"
+	text "¡Te llamaré si me"
+	line "apetece combatir!"
 	done
 
 ParryNumberDeclinedText:
@@ -31,9 +29,9 @@ ParryNumberDeclinedText:
 	line "es fácil de"
 	cont "aceptar!"
 
-	para "Aquí estaré cuan-"
-	line "do quieras otra"
-	cont "batalla."
+	para "¡Aquí estaré si"
+	line "quieres volver a"
+	cont "combatir!"
 	done
 
 ParryPhoneFullText:
@@ -43,33 +41,30 @@ ParryPhoneFullText:
 	done
 
 ParryRematchText:
-	text "¡Eh, ya estás a-"
-	line "quí! ¡Vamos allá!"
+	text "¡Eh, ya estás"
+	line "aquí! ¡Vamos allá!"
 
-	para "¿Listo para mi de-"
-	line "safío habitual de"
+	para "¿Listo para mi"
+	line "reto habitual de"
 	cont "ataque total?"
 	done
 
 ParryPackFullText:
-	text "¡Tu Mochila pare-"
-	line "ce muy llena!"
+	text "¡Tu Mochila está"
+	line "demasiado llena!"
 
-	para "No puedes llevar-"
-	line "te esto ahora."
+	para "No te lo puedes"
+	line "llevar ahora."
 	done
 
 ParryRematchGiftText:
 	text "Vaya, sin duda"
 	line "eres especial."
 
-	para "Ojalá hubiese co-"
-	line "menzado con los"
-	cont "#mon de joven…"
+	para "¡Ojalá hubiera"
+	line "empezado con los"
+	cont "#mon de joven!"
 
-	para "Quiero que te es-"
-	line "fuerces por los"
-
-	para "dos. Así que"
-	line "toma esto, ¿vale?"
+	para "¡Lucha por los dos"
+	line "y quédate esto!"
 	done

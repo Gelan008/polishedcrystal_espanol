@@ -1,30 +1,27 @@
 WiltonAskNumber1Text:
-	text "Oye, nuestro com-"
-	line "bate estuvo bien."
+	text "Nuestro combate"
+	line "estuvo muy bien."
 
-	para "Al pescar, a veces"
-	line "atrapo objetos que"
-
-	para "la gente ha"
-	line "dejado caer."
+	para "Al pescar suelo"
+	line "sacar cosas que"
+	cont "caen al agua."
 
 	para "¿Los quieres?"
-	line "¿Cuál es tu núme-"
-	cont "ro?"
+	line "¿Cuál es tu número?"
 	done
 
 WiltonAskNumber2Text:
-	text "Si atrapo un obje-"
-	line "to mientras pesco,"
+	text "Si saco algún"
+	line "objeto pescando,"
+	cont "te lo daré."
 
-	para "es tuyo. ¿Cuál es"
-	line "tu número?"
+	para "¿Cuál es tu número?"
 	done
 
 WiltonNumberAcceptedText:
-	text "Si atrapo algo"
-	line "bueno, me asegu-"
-	cont "raré de avisarte."
+	text "Si pesco algo"
+	line "bueno, ¡te llamo"
+	cont "sin falta!"
 	done
 
 WiltonNumberDeclinedText:
@@ -34,8 +31,8 @@ WiltonNumberDeclinedText:
 	done
 
 WiltonPhoneFullText:
-	text "No puedes regis-"
-	line "trar otro número."
+	text "No puedes guardar"
+	line "más números."
 	done
 
 WiltonRematchText:
@@ -45,14 +42,11 @@ WiltonRematchText:
 	done
 
 WiltonGiftText:
-	text "Así que aquí es-"
-	line "tás."
+	text "¡Por fin llegas!"
 
-	para "¿Ves esto?"
-	line "Lo atrapé hace"
-
-	para "un rato. Es para"
-	line "ti."
+	para "¿Ves esto? Lo"
+	line "pesqué hace poco."
+	cont "¡Es para ti!"
 	done
 
 WiltonPackFullText:

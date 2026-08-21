@@ -12,33 +12,28 @@ LizMonAlwaysWantsToNuzzleText:
 	done
 
 LizDefeatedMonText:
-	text "¡Y, y! Mmm…"
-
-	para "Vencimos a un"
-	line ""
+	text "¡Y, y… mmm!"
+	line "Vencimos a un"
+	cont ""
 	text_ram wStringBuffer4
-	text " salvaje"
+	text ""
+	cont "salvaje de un solo"
+	cont "golpe hace nada."
 
-	para "de un solo golpe"
-	line "hace un rato."
-
-	para "Aunque nos dio"
-	line "un poco de pena."
+	para "¡Aunque nos dio un"
+	line "poco de pena!"
 	done
 
 LizLostAMonText:
-	text "¡Y, y! Eh…"
-
-	para "Vimos a un precio-"
-	line "so "
+	text "¡Y, y… eh…!"
+	line "Vimos a un lindo"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 
-	para "Pero yo estaba al"
-	line "teléfono, y se"
-
-	para "escapó. ¡Nos dio"
-	line "mucha rabia!"
+	para "Pero estaba con el"
+	line "móvil y huyó."
+	cont "¡Qué rabia dio!"
 	done
 
 LizBattleRematchText:
@@ -46,27 +41,21 @@ LizBattleRematchText:
 	line "tiempo libre?"
 
 	para "Yo tengo mucho."
-	line "Si estás libre,"
-
-	para "¿te gustaría"
-	line "echar un combate?"
+	line "¿Echamos un buen"
+	cont "combate?"
 
 	para "Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "."
-
-	para "¡Avísame cuando"
-	line "llegues!"
+	cont "¡Avísame al venir!"
 	done
 
 LizWrongNumberText:
 	text "Hola, Tania. ¿Cómo"
 	line "estás? Soy Liz."
 
-	para "Yo bien, ¡pero me"
-	line "muero de aburri-"
-	cont "miento!"
+	para "¡Me aburro mucho!"
 
 	para "Eh… ¿Me he"
 	line "equivocado? ¡Ups!"
@@ -81,38 +70,28 @@ LizRuinsOfAlphGossipText:
 	text "¡Escucha, escucha!"
 
 	para "Oía la radio en"
-	line "las Ruinas Alfa,"
+	line "las Ruinas Alfa"
+	cont "y una señal rara"
+	cont "cortó el programa."
 
-	para "y de pronto una"
-	line "rara transmisión"
-
-	para "interrumpió el"
-	line "programa normal."
-
-	para "Me pregunto qué"
-	line "sería. ¡Qué raro!"
+	para "¿Qué sería eso?"
+	line "¡Qué misterio!"
 	done
 
 LizFalknerGossipText:
 	text "¡Escucha, escucha!"
 
-	para "¿No crees que Pe-"
-	line "gaso del Gimnasio"
+	para "¿No crees que"
+	line "Pegaso de Malva es"
+	cont "genial y guapo?"
 
-	para "Malva es genial y"
-	line "muy guapo?"
-
-	para "Pero dicen que su"
-	line "padre, que está"
-
-	para "entrenando por"
-	line "ahí, es todavía"
-
-	para "más genial y guapo"
-	line "que Pegaso."
+	para "¡Dicen que su"
+	line "padre, que entrena"
+	cont "por ahí, es aún"
+	cont "más guapo que él!"
 
 	para "¡Ojalá pudiera"
-	line "conocerlo!"
+	line "conocerlo pronto!"
 	done
 
 LizEarlGossipText:
@@ -120,15 +99,12 @@ LizEarlGossipText:
 
 	para "¿Conoces a Primo,"
 	line "el profesor de la"
+	cont "Academia #mon"
+	cont "de Ciudad Malva?"
 
-	para "Academia #mon"
-	line "de Ciudad Malva?"
-
-	para "Le vi haciendo"
-	line "piruetas mien-"
-
-	para "tras corría. ¡Fue"
-	line "muy divertido!"
+	para "¡Le vi dando giros"
+	line "mientras corría!"
+	cont "¡Fue muy gracioso!"
 	done
 
 LizSurfPikachuGossipText:
@@ -137,37 +113,28 @@ LizSurfPikachuGossipText:
 	para "Colecciono muñecos"
 	line "de #mon."
 
-	para "Pero no consigo"
-	line "hacerme con un"
-
-	para "Pikachu Surf."
-	line "Mis amigas tampoco"
-
-	para "lo tienen. ¡Debe"
-	line "de ser rarísimo!"
+	para "¡No doy con el"
+	line "Pikachu Surf!"
+	cont "¡Es súper raro!"
 
 	para "Podrías presumir"
-	line "mucho si tuvie-"
-	cont "ras uno."
+	line "mucho si tuvieras"
+	cont "uno en tu cuarto."
 	done
 
 LizMooMooMilkGossipText:
 	text "¡Escucha, escucha!"
 
-	para "¿Conoces la"
-	line "Leche Mu-mu?"
+	para "¿Conoces la rica"
+	line "Leche Mu-mu de la"
+	cont "Granja Mu-mu?"
 
-	para "Puedes comprarla"
-	line "en Granja Mu-mu."
+	para "Dicen que es buena"
+	line "para la salud y"
+	cont "para la belleza."
 
-	para "Se supone que es"
-	line "buena para la sa-"
-
-	para "lud y la belleza."
-	line "Tengo muchas ga-"
-
-	para "nas de probarla."
-	line "¡Estará riquísima!"
+	para "¡Tengo ganas de"
+	line "probarla ya!"
 	done
 
 LizSalonGossipText:
@@ -175,65 +142,45 @@ LizSalonGossipText:
 
 	para "Hay una Peluquería"
 	line "#mon en Trigal"
+	cont "con dos hermanos."
 
-	para "llevada por dos"
-	line "hermanos."
+	para "El mayor es bueno,"
+	line "pero a veces el"
+	cont "menor lo hace aún"
+	cont "mejor que él."
 
-	para "El hermano mayor"
-	line "es bueno, pero"
-
-	para "el menor no lo"
-	line "es tanto."
-
-	para "Pero a veces el"
-	line "pequeño hace un"
-
-	para "trabajo mejor"
-	line "que el mayor."
-
-	para "Cada vez que voy,"
-	line "me cuesta mucho"
-
-	para "decidir a quién"
-	line "debería elegir…"
+	para "¡Nunca sé a cuál"
+	line "de los dos elegir!"
 	done
 
 LizWhitneyGossipText:
 	text "¡Escucha, escucha!"
 
-	para "¡Blanca del Gimna-"
-	line "sio de Trigal em-"
+	para "¡Blanca del"
+	line "Gimnasio de Trigal"
+	cont "empezó hace nada!"
 
-	para "pezó a luchar ha-"
-	line "ce muy poco!"
+	para "¡Y la Liga #mon"
+	line "la nombró Líder!"
 
-	para "¡Pero la Liga"
-	line "#mon la eligió"
-	cont "Líder de Gimnasio!"
-
-	para "Seguro que tiene"
-	line "mucho talento."
+	para "¡Seguro que tiene"
+	line "muchísimo talento!"
 	done
 
 LizBugCatchingContestGossipText:
 	text "¡Escucha, escucha!"
 
-	para "¿Has participado"
-	line "alguna vez en el"
-
-	para "Concurso de"
-	line "Captura de Bichos"
+	para "¿Has jugado en el"
+	line "Concurso de Bichos"
 	cont "del Parque?"
 
-	para "Yo lo hice una"
-	line "vez, pero solo"
-	cont "atrapé un Caterpie"
+	para "Yo participé una"
+	line "vez y solo atrapé"
+	cont "un Caterpie…"
 
 	para "¡Pero adivina qué!"
-
-	para "Gané con ese"
-	line "Caterpie. ¿No es"
-	cont "genial?"
+	line "¡Gané con él!"
+	cont "¿A que es genial?"
 	done
 
 LizBeautifulMonGossipText:
@@ -278,20 +225,15 @@ LizFawningOverMonText:
 	line "¡Ay, demasiado!"
 
 	para "…Abrazarlo…"
-	line "Eso es…"
-
-	para "guapo… ay… Qué"
-	line "mono… Lindo…"
+	line "Eso es… Qué mono…"
 
 	para "¡Ups! ¡Mira qué"
 	line "hora es! ¡Hablé"
 	cont "demasiado!"
 
 	para "¡Siento haberte"
-	line "quitado tanto"
-
-	para "tiempo!"
-	line "¡Adoro charlar!"
+	line "robado tiempo!"
+	cont "¡Adoro charlar!"
 	done
 
 LizReminderText:

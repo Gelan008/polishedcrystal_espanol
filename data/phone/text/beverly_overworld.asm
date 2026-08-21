@@ -5,22 +5,18 @@ BeverlyAskNumber1Text:
 	para "¡Amas a los #mon"
 	line "igual que yo!"
 
-	para "¿Intercambiamos"
-	line "números?"
-
-	para "¡Hablemos! ¡Será"
-	line "muy divertido!"
+	para "¿Nos damos los"
+	line "números para poder"
+	cont "hablar a menudo?"
 	done
 
 BeverlyAskNumber2Text:
 	text "¡Tu Marill es muy"
 	line "mono y adorable!"
 
-	para "Hablemos, será"
-	line "divertido."
-
-	para "¿Me podrías dar tu"
-	line "teléfono?"
+	para "¿Nos damos los"
+	line "números para poder"
+	cont "hablar a menudo?"
 	done
 
 BeverlyNumberAcceptedText:

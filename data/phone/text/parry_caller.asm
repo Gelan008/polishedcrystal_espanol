@@ -6,42 +6,35 @@ ParryNothingCanMatchText:
 	done
 
 ParryDefeatedMonText:
-	text "¡Sí, vencimos a un"
-	line ""
+	text "¡Sí! ¡Vencimos a"
+	line "un "
 	text_ram wStringBuffer4
-	text " salvaje!"
+	text ""
+	cont "salvaje!"
 
 	para "Estuvo bien, pero"
-	line "quería cogerlo…"
+	line "quería atraparlo…"
 	done
 
 ParryLostAMonText:
-	text "Y ayer, vimos a un"
-	line "ejemplar salvaje"
-
-	para "de "
+	text "Ayer vimos a un"
+	line ""
 	text_ram wStringBuffer4
-	text "."
-	line "Y debatíamos"
+	text " salvaje"
+	cont "y dudábamos si"
+	cont "cazarlo o no…"
 
-	para "sobre atraparlo o"
-	line "derrotarlo."
-
-	para "¡Cuando vino otro"
-	line "chico y lo"
-
-	para "atrapó!"
-	line "¡Qué te parece!"
+	para "¡Y vino otro chico"
+	line "y lo atrapó!"
+	cont "¡Vaya tela!"
 	done
 
 ParryBattleRematchText:
-	text "Estás pensando que"
-	line "te gustaría"
+	text "Seguro que quieres"
+	line "luchar contra mí."
+	cont "¿Tengo razón o no?"
 
-	para "luchar contra mí."
-	line "¿Tengo razón o no?"
-
-	para "¡Sí! Nos veremos"
+	para "¡Pues nos vemos"
 	line "en "
 	text_ram wStringBuffer5
 	text "!"
@@ -58,12 +51,13 @@ ParryBattleWithMeText:
 	done
 
 ParryHaventYouGottenToText:
-	text "¿Aún no has llega-"
-	line "do a "
+	text "¿Aún no has"
+	line "llegado a"
+	cont ""
 	text_ram wStringBuffer5
 	text "?"
 
-	para "Esperar no está"
-	line "mal, ¡pero me gus-"
-	cont "taría luchar!"
+	para "No me importa"
+	line "esperar, ¡pero"
+	cont "quiero combatir!"
 	done

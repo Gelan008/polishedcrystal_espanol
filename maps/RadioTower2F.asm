@@ -389,7 +389,7 @@ RadioTower2FBuenaShowIntroductionText:
 
 	para "¿Conoces mi show"
 	line "de radio llamado"
-	cont "Contraseña?"
+	cont "Contraseña Buena?"
 
 	para "¡Si me dices la"
 	line "clave del show,"
@@ -406,7 +406,7 @@ RadioTower2FBuenaShowIntroductionText:
 RadioTower2FBuenaTuneInToMyShowText:
 	text "Buena: ¡Sintoniza"
 	line "mi programa"
-	cont "Contraseña!"
+	cont "Contraseña Buena!"
 	done
 
 RadioTower2FBuenaDoYouKnowPasswordText:
@@ -508,7 +508,8 @@ RadioTower2FBuenaCardIsFullText:
 
 RadioTower2FBuenaTuneInAfterSixText:
 	text "Buena: Sintoniza"
-	line "Contraseña cada"
+	line "Contraseña Buena"
+	cont "cada"
 
 	assert EVE_HOUR == 12 + 5
 	para "noche de seis a"

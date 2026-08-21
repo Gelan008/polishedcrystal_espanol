@@ -1,17 +1,14 @@
 ReenaAskNumber1Text:
-	text "No está mal…"
-	line "Tiene su mérito"
+	text "No está mal… Ganar"
+	line "tiene su mérito,"
+	cont "aunque fuera por"
+	cont "chiripa…"
 
-	para "ganarme, incluso"
-	line "por un golpe de"
-	cont "suerte…"
+	para "¡Me caes bien!"
+	line "¡Dame tu número!"
 
-	para "¡Me agradas! ¡Dame"
-	line "tu número!"
-
-	para "¡Puedes ser mi"
-	line "compañero de"
-	cont "entrenamiento!"
+	para "¡Serás mi pareja"
+	line "de entrenamiento!"
 	done
 
 ReenaAskNumber2Text:
@@ -24,9 +21,8 @@ ReenaAskNumber2Text:
 	done
 
 ReenaNumberAcceptedText:
-	text "¡No te lo creas"
-	line "por haberme gana-"
-	cont "do!"
+	text "¡No presumas por"
+	line "haberme ganado!"
 
 	para "¡Fue pura suerte!"
 	done

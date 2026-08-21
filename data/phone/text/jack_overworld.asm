@@ -1,28 +1,26 @@
 JackAskNumber1Text:
-	text "¡Tus conocimien-"
-	line "tos son la leche!"
+	text "¡Sabes un montón!"
+	line "¡Me gusta eso!"
 
-	para "¡Me gusta eso!"
+	para "¿Nos damos trucos"
+	line "y consejos?"
 
-	para "¿Quieres intercam-"
-	line "biar consejos?"
+	para "Te llamo si tengo"
+	line "buena información."
 
-	para "Te llamaré si ten-"
-	line "go buena info."
-
-	para "¿Me darías tu nú-"
-	line "mero de teléfono?"
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 JackAskNumber2Text:
-	text "¿Quieres intercam-"
-	line "biar consejos?"
+	text "¿Nos damos trucos"
+	line "y consejos?"
 
-	para "Te llamaré si ten-"
-	line "go buena info."
+	para "Te llamo si tengo"
+	line "buena información."
 
-	para "¿Me darías tu nú-"
-	line "mero de teléfono?"
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 JackNumberAcceptedText:
@@ -47,9 +45,8 @@ JackPhoneFullText:
 	done
 
 JackRematchText:
-	text "¡Hola, estaba es-"
-	line "perando a que apa-"
-	cont "recieras!"
+	text "¡Hola! ¡Te estaba"
+	line "esperando!"
 
 	para "¡Empecemos ahora"
 	line "mismo!"

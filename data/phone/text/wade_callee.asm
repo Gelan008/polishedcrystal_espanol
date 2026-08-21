@@ -31,53 +31,48 @@ WadeAnswerPhoneNiteText:
 	done
 
 WadeGreetText:
-	text "¡<PLAYER>, bue-"
-	line "nos días!"
+	text "¡Buenos días,"
+	line "<PLAYER>!"
 
-	para "Soy yo, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
-	text "."
-	line "¿A que hace bue-"
-	cont "no?"
+	text "!"
+	line "¿Hace buen día?"
 	done
 
 WadeGreetDayText:
-	text "¡<PLAYER>, hola!"
+	text "¡Hola, <PLAYER>!"
 
-	para "Soy yo, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
-	text "."
-	line "¿A que hace bue-"
-	cont "no?"
+	text "!"
+	line "¿Hace buen día?"
 	done
 
 WadeGreetNiteText:
 	text "¡Buenas noches,"
 	line "<PLAYER>!"
 
-	para "Soy yo, "
+	para "¡Soy yo, "
 	text_ram wStringBuffer3
-	text "."
-	line "¿Estabas despier-"
-	cont "to?"
+	text "!"
+	line "¿Aún despierto?"
 	done
 
 WadeGenericText:
 	text "¿Cómo están tus"
 	line "#mon?"
 
-	para "Mis #mon tie-"
-	line "nen demasiada"
+	para "Los míos tienen"
+	line "tanta energía que"
+	cont "es un problema."
 
-	para "energía. Y llega a"
-	line "ser un problema."
-
-	para "De todos ellos,"
+	para "Sobre todo mi"
 	line ""
 	text_ram wStringBuffer4
-	text " es el más"
-	cont "difícil de tratar."
+	text ", que"
+	cont "es muy rebelde."
 
-	para "Trabajar con él"
-	line "es agotador."
+	para "¡Entrenarlo es"
+	line "agotador!"
 	done

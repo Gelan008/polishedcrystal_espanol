@@ -62,20 +62,18 @@ LizGenericText:
 	text "Tenía tiempo,"
 	line "así que te llamé."
 
-	para "Y bueno, ¿cómo es-"
-	line "tán tus #mon?"
+	para "Por cierto, ¿cómo"
+	line "están tus #mon?"
 
-	para "Yo llevo a mi"
+	para "Llevo a mi"
 	line ""
 	text_ram wStringBuffer4
 	text " al"
+	cont "Centro #mon de"
+	cont "Ciudad Malva."
 
-	para "Centro #mon de"
-	line "Malva cada día,"
-
-	para "¡así que está"
-	line "fantástico!"
-
-	para "¡Soy amiga de la"
-	line "recepcionista!"
+	para "¡Está en plena"
+	line "forma! ¡Me llevo"
+	cont "genial con la"
+	cont "recepcionista!"
 	done

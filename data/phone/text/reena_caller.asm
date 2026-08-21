@@ -7,7 +7,7 @@ ReenaMonsIsAPerfectMatchText:
 	text "?"
 
 	para "Sí, exacto. Ese"
-	line "precioso "
+	line "lindo "
 	text_ram wStringBuffer4
 	text "."
 
@@ -17,36 +17,31 @@ ReenaMonsIsAPerfectMatchText:
 	done
 
 ReenaDefeatedMonText:
-	text "¿Que si he luchado"
-	line "con "
+	text "¿Que si luché con"
+	line ""
 	text_ram wStringBuffer4
-	text " salvajes?"
+	text ""
+	cont "salvajes?"
 
-	para "¿Necesitas pregun-"
-	line "tarlo?"
+	para "¿Hace falta que lo"
+	line "preguntes?"
 
-	para "¡A los "
-	text_ram wStringBuffer4
-	text " los"
-	line "he vencido en mu-"
-	cont "chas ocasiones!"
+	para "¡He derrotado ya"
+	line "a muchísimos!"
 	done
 
 ReenaLostAMonText:
-	text "¿Que si alguna vez"
-	line "he fallado al a-"
-	cont "trapar un #mon?"
+	text "¿Que si fallé al"
+	line "cazar un #mon?"
 
-	para "¿Necesitas pregun-"
-	line "tarlo?"
+	para "¿Hace falta que lo"
+	line "preguntes?"
 
-	para "Yo nunca fallaría"
-	line "al atrapar a un"
-
-	para ""
+	para "¡Yo jamás fallo"
+	line "con un "
 	text_ram wStringBuffer4
-	text " salvaje…"
-	line "¡Oh! ¡Olvídalo!"
+	text "!"
+	cont "…¡Olvídalo!"
 	done
 
 ReenaBattleRematchText:
@@ -57,8 +52,8 @@ ReenaBattleRematchText:
 	text_ram wStringBuffer5
 	text "!"
 
-	para "¡No me hagas es-"
-	line "perar! ¿Entendido?"
+	para "¡No me hagas"
+	line "esperar, ¿vale?"
 	done
 
 ReenaHangUpText:
@@ -67,23 +62,21 @@ ReenaHangUpText:
 	done
 
 ReenaForwardText:
-	text "No estés tan orgu-"
-	line "lloso solo por ha-"
-
-	para "berme ganado…"
+	text "¡No presumas por"
+	line "haberme ganado!"
 
 	para "¡Fue pura suerte!"
 	done
 
 ReenaHurryText:
-	text "¿Qué estás hacien-"
-	line "do?"
+	text "¿Qué estás"
+	line "haciendo?"
 
 	para "¡Te dije que el"
-	line "lugar era"
-
-	para ""
+	line "sitio es"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
-	line "¡No intentes huir!"
+
+	para "¡No intentes huir!"
 	done

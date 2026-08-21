@@ -32,26 +32,22 @@ TullyNumberAcceptedText:
 	done
 
 TullyNumberDeclinedText:
-	text "¿Ah, sí? Entonces"
-	line "tendré que usar-"
-	cont "los yo mismo."
+	text "¿Ah, sí? Pues me"
+	line "los quedaré yo."
 	done
 
 TullyPhoneFullText:
-	text "Tu lista de telé-"
-	line "fonos está llena."
+	text "Tu lista de móvil"
+	line "está llena."
 
-	para "Vuelve cuando ha-"
-	line "gas hueco para mí."
+	para "Vuelve cuando me"
+	line "hagas un hueco."
 	done
 
 TullyRematchText:
-	text "He estado hacien-"
-	line "do algo más que"
-
-	para "pescar desde la"
-	line "última vez que"
-	cont "nos vimos."
+	text "¡No solo he estado"
+	line "pescando desde la"
+	cont "última vez!"
 
 	para "¡Te llevarás una"
 	line "gran sorpresa!"
@@ -60,15 +56,15 @@ TullyRematchText:
 TullyGiftText:
 	text "¡Eh, ahí estás!"
 
-	para "¡Aquí tienes un"
-	line "regalo, tal y co-"
-	cont "mo te prometí!"
+	para "¡Aquí tienes tu"
+	line "regalo, tal como"
+	cont "te prometí!"
 	done
 
 TullyPackFullText:
 	text "¿Tu Mochila está"
 	line "llena?"
 
-	para "Vuelve más tar-"
-	line "de… eso bastará."
+	para "Vuelve más tarde"
+	line "a por ello."
 	done

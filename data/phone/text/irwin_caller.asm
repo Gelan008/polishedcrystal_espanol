@@ -11,9 +11,7 @@ IrwinRocketTakeoverRumorText:
 
 	para "¡El Team Rocket ha"
 	line "tomado la Torre"
-
-	para "Radio de"
-	line "Ciudad Trigal!"
+	cont "Radio de Trigal!"
 
 	para "…Mmm… ¿Y qué"
 	line "es el Team Rocket?"
@@ -34,16 +32,12 @@ IrwinJasmineReturnedGossipText:
 	text "¡Oye, he oído"
 	line "hablar de ti!"
 
-	para "Salvaste a ese"
-	line "#mon del"
-
-	para "Faro, ¿verdad?"
+	para "¡Salvaste al"
+	line "#mon del Faro!"
 
 	para "<PLAYER>, ¡ojalá"
 	line "vinieras a verme"
-
-	para "cuando estoy en la"
-	line "cama resfriado!"
+	cont "si me resfrío!"
 	done
 
 IrwinRocketHideoutGossipText:
@@ -66,11 +60,10 @@ IrwinRadioTowerGossipText:
 	text "¡Lo oí, lo oí,"
 	line "lo oí!"
 
-	para "¡Sobre tu heroica"
-	line "liberación de la"
-
-	para "Torre Radio! ¡Eres"
-	line "lo más!"
+	para "¡Liberaste la"
+	line "Torre Radio de"
+	cont "forma heroica!"
+	cont "¡Eres lo más!"
 	done
 
 IrwinRisingBadgeGossipText:
@@ -79,103 +72,79 @@ IrwinRisingBadgeGossipText:
 	para "¡Te vi entrar en"
 	line "la Guarida Dragón!"
 
-	para "¡Seguro que apro-"
-	line "baste! Venga, ¡no"
-
-	para "seas tan modesto!"
-	line "¡Tú no fallas!"
+	para "¡Seguro que la"
+	line "pasaste! ¡No seas"
+	cont "modesto, campeón!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Ayer, fui a"
+	text "Ayer fui a"
 	line "Pueblo Primavera."
 
 	para "Había una señora"
 	line "que se parecía"
-
-	para "mucho a ti,"
-	line "<PLAYER>."
+	cont "mucho a ti."
 
 	para "¿Qué? ¿Esa señora"
 	line "era tu madre?"
 
-	para "¡Oh, me tenía que"
-	line "haber presentado!"
+	para "¡Tenía que haberme"
+	line "presentado!"
 
-	para "Seguro que tu ma-"
-	line "dre está muy orgu-"
+	para "Tu madre estará"
+	line "muy orgullosa de"
+	cont "todo lo que haces."
 
-	para "llosa de todo lo"
-	line "que has logrado."
-
-	para "Piénsalo así."
-	line "¡Yo estaría orgu-"
-
-	para "lloso de ser tu"
-	line "madre, créeme!"
+	para "¡Yo estaría muy"
+	line "orgulloso de ser"
+	cont "tu madre, créeme!"
 	done
 
 IrwinVermilionCityGossipText:
 	text "¡Lo vi, lo vi,"
 	line "lo vi!"
 
-	para "¡Embarcando en un"
+	para "¡Te vi subir a un"
 	line "barco, <PLAYER>!"
 
-	para "¡No me creo lo"
-	line "bien que luces con"
-
-	para "el mar a tus"
-	line "espaldas!"
+	para "¡Qué bien te ves"
+	line "con el mar a tus"
+	cont "espaldas!"
 	done
 
 IrwinTrainPassGossipText:
 	text "¡Lo oí, lo oí!"
+	line "¡Tienes un Pase de"
+	cont "Magnetotrén!"
 
-	para "¡Tienes un Pase"
-	line "del Magnetotrén!"
+	para "Al verte partir en"
+	line "el barco me dio"
+	cont "mucha pena."
 
-	para "Cuando te vi par-"
-	line "tir en el barco,"
+	para "¡Pero con el Pase"
+	line "puedes volver al"
+	cont "instante! ¡Genial!"
 
-	para "me entristeció no"
-	line "poder verte por"
+	para "¿Eh? ¿Que puedes"
+	line "usar Vuelo cuando"
+	cont "quieras?"
 
-	para "un tiempo."
-
-	para "Pero con ese Pase,"
-	line "¡puedes volver de"
-
-	para "golpe! ¡Qué alivio"
-	line "saberlo!"
-
-	para "¿Qué? ¿Puedes"
-	line "usar Vuelo"
-	cont "en cualquier"
-	cont "momento?"
-
-	para "¿Qué quieres de-"
-	line "cir con Vuelo?"
+	para "¿Qué quieres decir"
+	line "con Vuelo?"
 	done
 
 IrwinSnorlaxGossipText:
 	text "¡Lo vi, lo vi!"
+	line "¡Despertaste a"
+	cont "Snorlax!"
 
-	para "¡Despertaste a"
-	line "Snorlax!"
+	para "Miraba de lejos y"
+	line "no vi qué hiciste"
+	cont "exactamente."
 
-	para "Te miraba desde"
-	line "lejos, así que"
-
-	para "no pude ver qué"
-	line "hiciste exacta-"
-	cont "mente."
-
-	para "¿Tocaste la flauta"
-	line "para despertarle?"
-
-	para "¡Guau! ¡Es como"
-	line "magia!"
+	para "¿Tocaste la Flauta"
+	line "para despertarlo?"
+	cont "¡Es como magia!"
 	done
 
 IrwinMtSilverGossipText:
@@ -183,15 +152,14 @@ IrwinMtSilverGossipText:
 	line "ti por todas"
 	cont "partes."
 
-	para "Sólo me hace sus-"
-	line "pirar, <PLAYER>."
+	para "¡Qué asombroso"
+	line "eres, <PLAYER>!"
 
 	para "¿Cómo te hiciste"
 	line "tan fuerte?"
 
-	para "¡Ve a por el cam-"
-	line "peonato mundial"
-	cont "ahora mismo!"
+	para "¡Ve a por la cima"
+	line "del mundo entero!"
 
 	para "¡Siempre te estaré"
 	line "animando!"
@@ -207,52 +175,38 @@ IrwinCalledRightAwayText:
 
 IrwinFogBadgeGossipText:
 	text "¡Lo vi, lo oí!"
+	line "¡Venciste a Morty"
+	cont "en Ciudad Iris!"
 
-	para "¡Venciste a Morty"
-	line "en el Gimnasio"
-	cont "de Ciudad Iris!"
+	para "¡Eso es increíble!"
 
-	para "¡E-eso es asom-"
-	line "broso!"
+	para "Fui a la puerta"
+	line "del Gimnasio a"
+	cont "animarte…"
 
-	para "De hecho, fui a la"
-	line "entrada del Gimna-"
+	para "¡Pero había muchos"
+	line "fantasmas flotando"
+	cont "por todos lados!"
 
-	para "sio a animarte."
-	line "¿Lo sabías?"
-
-	para "Pero todos esta-"
-	line "ban flotando, ¡y"
-
-	para "había fantasmas"
-	line "por todos lados!"
-
-	para "Me acobardé y salí"
-	line "corriendo a casa."
+	para "Me dio miedo y me"
+	line "fui corriendo."
 	done
 
 IrwinMarshBadgeGossipText:
 	text "¡<PLAYER>, me he"
 	line "enterado!"
 
-	para "¡Estás montando"
-	line "un buen lío por"
+	para "¡Te estás haciendo"
+	line "famoso en Kanto!"
 
-	para "Kanto! ¡Qué"
-	line "alboroto más"
-
-	para "glorioso debe de"
-	line "ser!"
-
-	para "¡Tú sí que molas!"
+	para "¡Qué pasada!"
+	line "¡Tú sí que molas!"
 	done
 
 IrwinYourEscapadesRockText:
-	text "¡Oír de tus"
-	line "aventuras hace que"
-
-	para "me vibre el alma!"
-	line "¡Claro que sí!"
+	text "¡Oír tus hazañas"
+	line "hace que me vibre"
+	cont "el alma! ¡Sí!"
 	done
 
 IrwinGoodMatchText:
@@ -292,8 +246,8 @@ IrwinSoMuchToChatAboutText:
 
 	para "¡Agh, hay tantas"
 	line "cosas de las que"
+	cont "quiero charlar!"
 
-	para "quiero charlar!"
-	line "¡Esto no lleva"
-	cont "a ninguna parte!"
+	para "¡Esto no lleva"
+	line "a ninguna parte!"
 	done

@@ -62,11 +62,9 @@ ParryGenericText:
 	text "¿Se ven bien tus"
 	line "#mon?"
 
-	para "Mi "
+	para "¡Mi "
 	text_ram wStringBuffer4
 	text " y"
-	line "yo… ¡estamos"
-
-	para "superguais!"
-	line "¡Jajajaja!"
+	line "yo estamos más que"
+	cont "genial! ¡Jajaja!"
 	done

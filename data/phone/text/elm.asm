@@ -31,11 +31,9 @@ ElmPhonePokemonStolenText:
 ElmPhoneCheckingEggText:
 	text "¿Hola, <PLAYER>?"
 
-	para "Estamos revisando"
-	line "el Huevo. En"
-
-	para "efecto, parece un"
-	line "Huevo #mon."
+	para "Seguimos revisando"
+	line "el Huevo. ¡Parece"
+	cont "un Huevo #mon!"
 	prompt
 
 ElmPhoneAssistantText:
@@ -75,28 +73,23 @@ ElmPhoneEggHatchedText:
 ElmPhoneDiscovery1Text:
 	text "¿Hola, <PLAYER>?"
 
-	para "Acabo de hacer"
-	line "un nuevo"
-	cont "descubrimiento."
+	para "¡He hecho un nuevo"
+	line "descubrimiento!"
 
-	para "El tiempo que"
-	line "tarda un Huevo en"
-
-	para "eclosionar depende"
-	line "del #mon."
+	para "El tiempo en abrir"
+	line "un Huevo depende"
+	cont "de cada #mon."
 	prompt
 
 ElmPhoneDiscovery2Text:
 	text "¿Hola, <PLAYER>?"
 
 	para "Aún es un misterio"
-	line "los movimientos"
+	line "qué movimientos"
+	cont "tienen las crías."
 
-	para "que tienen los"
-	line "recién nacidos."
-
-	para "Lo estamos"
-	line "investigando."
+	para "¡Lo estamos"
+	line "investigando!"
 	prompt
 
 ElmPhonePokerusText:
@@ -147,29 +140,25 @@ ElmPhoneDisasterText:
 
 ElmPhoneEggAssistantText:
 	text "¿Hola, <PLAYER>?"
-	line "¡Hemos descubierto"
-
-	para "algo sobre el"
-	line "Huevo!"
+	line "¡Descubrimos algo"
+	cont "sobre el Huevo!"
 
 	para "Mi ayudante está"
 	line "en el Centro"
+	cont "#mon de"
+	cont "Ciudad Malva."
 
-	para "#mon de"
-	line "Ciudad Malva."
-	cont "¿Puedes hablar"
-	cont "con él?"
+	para "¿Puedes ir a"
+	line "hablar con él?"
 	done
 
 ElmPhoneRocketText:
 	text "<PLAYER>, ¿cómo te"
 	line "van las cosas?"
 
-	para "Te llamo porque"
-	line "pasa algo raro con"
-
-	para "las emisiones de"
-	line "la radio."
+	para "Pasa algo raro con"
+	line "las emisiones de"
+	cont "la radio."
 
 	para "Estaban hablando"
 	line "del Team Rocket."
@@ -177,8 +166,8 @@ ElmPhoneRocketText:
 	para "<PLAYER>, ¿sabes"
 	line "algo sobre esto?"
 
-	para "Quizás el Team"
-	line "Rocket ha vuelto."
+	para "Quizá el Team"
+	line "Rocket ha vuelto…"
 
 	para "No, no puede ser"
 	line "cierto."
@@ -191,11 +180,10 @@ ElmPhoneGiftText:
 	text "¿Hola, <PLAYER>?"
 
 	para "Tengo algo para"
-	line "ti."
+	line "darte."
 
-	para "¿Podrías pasarte"
-	line "por mi Labora-"
-	cont "torio?"
+	para "¿Podrías venir a"
+	line "mi Laboratorio?"
 
 	para "¡Nos vemos!"
 	done
@@ -237,9 +225,8 @@ ElmPhoneEvoText_TradeNoItem:
 	text_ram wStringBuffer3
 	line "evoluciona al"
 	cont "intercambiarlo,"
-
-	para "o al usar"
-	line ""
+	cont "o usando"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 	prompt
@@ -465,17 +452,14 @@ ElmPhoneEvoText_Eevee:
 	line "evoluciona de"
 	cont "muchas formas."
 
-	para "Puede exponerse"
-	line "a 8 Piedras"
-	cont "diferentes, o"
+	para "Con 8 Piedras"
+	line "distintas, o"
+	cont "junto a RocaMusgo"
+	cont "o RocaHielo."
 
-	para "subir de nivel"
-	line "junto a RocaMusgo"
-	cont "o Rocahielo."
-
-	para "He oído que en"
-	line "Encinar y en Ruta"
-	cont "Helada las tienen."
+	para "He oído que están"
+	line "en el Encinar y en"
+	cont "la Ruta Helada."
 
 	para "Además, Eevee"
 	line "evolucionará con"
@@ -509,13 +493,10 @@ ElmPhoneEvoText_Stantler:
 	prompt
 
 ElmPhoneEvoText_AncientSinnoh:
-	text "Pero, por sus"
-	line "antepasados,"
-
-	para "podría evolucionar"
-	line "si recuerda la"
+	text "Por sus ancestros,"
+	line "puede evolucionar"
+	cont "si rememora la"
 	cont "antigua Sinnoh…"
-	cont "de algún modo…"
 	prompt
 
 ElmPhoneEvoText_DunsparceSegments:

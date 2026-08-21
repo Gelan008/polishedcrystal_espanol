@@ -1,74 +1,65 @@
 WadeAskNumber1Text:
-	text "¡Eres increíble!"
+	text "¡Eres genial!"
 	line "¡Me caes bien!"
 
 	para "Busco #mon aquí"
 	line "a diario."
 
-	para "Cuando estoy en"
-	line "la hierba, encuen-"
-	cont "tro todo tipo de"
-	cont "Bayas."
+	para "En la hierba hay"
+	line "muchas Bayas."
 
-	para "Si quieres, com-"
-	line "partiré algunas."
+	para "¡Puedo darte unas"
+	line "pocas si quieres!"
 
 	para "¿Podrías darme"
 	line "tu número?"
 	done
 
 WadeAskNumber2Text:
-	text "Cuando estoy en"
-	line "la hierba, encuen-"
-	cont "tro todo tipo de"
-	cont "Bayas."
+	text "En la hierba hay"
+	line "muchas Bayas."
 
-	para "Si quieres, com-"
-	line "partiré algunas."
+	para "¡Puedo darte unas"
+	line "pocas si quieres!"
 
 	para "¿Podrías darme"
 	line "tu número?"
 	done
 
 WadeNumberAcceptedText:
-	text "Tendrás noticias"
-	line "mías tan pronto"
-
-	para "como encuentre"
-	line "algo que te"
-	cont "pueda gustar."
+	text "¡Te avisaré en"
+	line "cuanto encuentre"
+	cont "algo que te guste!"
 	done
 
 WadeNumberDeclinedText:
-	text "Vaya. No seas tí-"
-	line "mido si quieres mi"
-	cont "número."
+	text "Vaya. ¡No tengas"
+	line "vergüenza si te"
+	cont "apetece mi número!"
 	done
 
 WadePhoneFullText:
-	text "Tu lista de telé-"
-	line "fonos no tiene es-"
-	cont "pacio para mi"
-	cont "número."
+	text "Tu lista de móvil"
+	line "no tiene hueco"
+	cont "para mi número."
 	done
 
 WadeRematchText:
-	text "Te estaba esperan-"
-	line "do. ¡A luchar!"
+	text "¡Te estaba"
+	line "esperando para"
+	cont "luchar!"
 	done
 
 WadeGiftText:
 	text "¡Me alegro de"
-	line "verte! ¿Ves? Esto"
-
-	para "es lo que hallé."
-	line "¡Es para ti!"
+	line "verte! Mira lo que"
+	cont "tengo. ¡Para ti!"
 	done
 
 WadePackFullText:
-	text "Uy, tu Mochila es-"
-	line "tá llena. Lástima."
+	text "Uy, tu Mochila"
+	line "está llena."
 
-	para "Deberías volver a"
-	line "por él más tarde."
+	para "Vuelve a por ello"
+	line "más tarde."
 	done

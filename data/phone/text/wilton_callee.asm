@@ -1,6 +1,6 @@
 WiltonAnswerPhoneText:
-	text "Hola, estás"
-	line "hablando con "
+	text "Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -8,8 +8,8 @@ WiltonAnswerPhoneText:
 	done
 
 WiltonAnswerPhoneDayText:
-	text "Hola, estás"
-	line "hablando con "
+	text "Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -18,8 +18,8 @@ WiltonAnswerPhoneDayText:
 	done
 
 WiltonAnswerPhoneNiteText:
-	text "Hola, estás"
-	line "hablando con "
+	text "Hola, al habla"
+	line ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -60,6 +60,6 @@ WiltonGenericText:
 
 	para "Mi "
 	text_ram wStringBuffer4
-	text " ha cre-"
-	line "cido bastante."
+	text ""
+	line "ha crecido mucho."
 	done

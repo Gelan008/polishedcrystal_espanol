@@ -1,32 +1,28 @@
 JoeyAskNumber1Text:
 	text "Oye, ¿me das tu"
-	line "número de teléfo-"
-	cont "no?"
+	line "número de móvil?"
 
 	para "Te llamaré para"
 	line "luchar."
 
-	para "Yo también soy"
-	line "novato, así que"
-	cont "será motivador."
+	para "¡Como novatos,"
+	line "nos motivaremos!"
 	done
 
 JoeyAskNumber2Text:
-	text "¿Me das tu núme-"
-	line "ro de teléfono?"
+	text "¿Me das tu número"
+	line "de teléfono?"
 
 	para "¡No quiero perder"
-	line "contra ti!"
+	line "más contra ti!"
 
-	para "Tenemos que lu-"
-	line "char otra vez,"
-	cont "¿vale?"
+	para "¡Hay que luchar de"
+	line "nuevo, ¿vale?!"
 	done
 
 JoeyNumberAcceptedText:
-	text "¡Te llamaré cuan-"
-	line "do tenga ganas de"
-	cont "luchar!"
+	text "¡Te llamaré si me"
+	line "apetece luchar!"
 	done
 
 JoeyNumberDeclinedText:
@@ -37,8 +33,8 @@ JoeyNumberDeclinedText:
 	done
 
 JoeyPhoneFullText:
-	text "¿Eh, qué? Tu telé-"
-	line "fono está lleno."
+	text "¿Eh? Tu teléfono"
+	line "no tiene espacio."
 	done
 
 JoeyTopPercentageText: ; TODO: use this text from HGSS
@@ -76,9 +72,8 @@ JoeyPackFullText:
 	line "Mochila está"
 	cont "llena!"
 
-	para "Bueno, lo dejare-"
-	line "mos para la próxi-"
-	cont "ma vez."
+	para "Bueno, lo dejamos"
+	line "para otra ocasión."
 	done
 
 JoeyRematchGiftText:
@@ -87,14 +82,13 @@ JoeyRematchGiftText:
 	para "No hay duda, eres"
 	line "duro de pelar."
 
-	para "¡Perder tan a"
-	line "menudo ya hasta me"
-	cont "sienta bien!"
+	para "¡Perder así hasta"
+	line "me sienta bien!"
 
 	para "Ten, toma esto."
-	line "Úsalo para hacerte"
+	line "¡Hazte con ello"
+	cont "aún más fuerte!"
 
-	para "más fuerte. ¡Eso"
-	line "me hará más fuer-"
-	cont "te a mí también!"
+	para "¡Eso me obligará a"
+	line "mejorar a mí!"
 	done

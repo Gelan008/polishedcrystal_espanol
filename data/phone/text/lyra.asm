@@ -47,11 +47,9 @@ LyraPhoneJohtoText_Generic:
 LyraPhoneNextMoveQuestionText:
 	text "Bueno, <PLAYER>…"
 
-	para "¿Quieres que te"
-	line "diga cuándo tu"
-
-	para "#mon aprende-"
-	line "rá otro ataque?"
+	para "¿Quieres saber"
+	line "cuándo aprende un"
+	cont "ataque tu #mon?"
 	done
 
 LyraPhoneNextMoveRefusedText:
@@ -61,8 +59,8 @@ LyraPhoneNextMoveRefusedText:
 
 LyraPhoneNextMoveLevelText:
 	text_ram wStringBuffer3
-	line "aprenderá su"
-	cont "ataque al niv. "
+	line "aprenderá al"
+	cont "nivel "
 	text_decimal hScriptVar, 1, 3
 	text ":"
 	cont "¡"
@@ -72,16 +70,14 @@ LyraPhoneNextMoveLevelText:
 
 LyraPhoneNoNextMoveText:
 	text_ram wStringBuffer3
-	line "no aprenderá"
-
-	para "más movimientos"
-	line "subiendo de nivel."
+	line "no aprenderá más"
+	cont "ataques por nivel."
 	prompt
 
 LyraPhoneNoEggMovesText:
-	text "¡Los Huevos no a-"
-	line "prenden ataques!"
-	cont "…¿A que no?"
+	text "¡Los Huevos no"
+	line "aprenden ataques!"
+	cont "…¿O sí?"
 	prompt
 
 LyraPhoneEndText:
@@ -101,89 +97,63 @@ LyraPhoneSpecialText_YellowForest:
 	line "Bosque Amarillo?"
 
 	para "Yo iba a ir, pero"
-	line "he oído que el"
-
-	para "Team Rocket an-"
-	line "daba por allí."
-
-	para "¡No me quiero"
-	line "involucrar en eso!"
+	line "oí que el Team"
+	cont "Rocket andaba por"
+	cont "allí. ¡Qué miedo!"
 
 	para "Tú ya te has"
-	line "enfrentado al Team"
+	line "enfrentado a ellos"
+	cont "¿verdad, <PLAYER>?"
 
-	para "Rocket antes,"
-	line "¿verdad, <PLAYER>?"
-
-	para "¡Qué valiente"
-	line "eres!"
-
-	para "En fin, ¡suerte"
-	line "con tu viaje!"
+	para "¡Qué valiente!"
+	line "¡Mucho ánimo con"
+	cont "tu viaje!"
 	done
 
 LyraPhoneSpecialText_FirstBadge:
 	text "¡<PLAYER>! ¡Hola!"
 
-	para "¡Conseguí mi pri-"
-	line "mera Medalla!"
+	para "¡Conseguí mi"
+	line "primera Medalla!"
 
 	para "El Pidgeot de"
 	line "Pegaso es fuerte,"
 	cont "¡pero le vencí!"
 
-	para "Tenía que decír-"
-	line "telo, <PLAYER>."
+	para "¡Tenía que"
+	line "contártelo!"
 
-	para "¿Oh, ganaste tu"
-	line "primera Medalla"
-	cont "en Kanto? ¡Genial!"
-
-	para "Sigamos ganando"
-	line "más Medallas."
+	para "¿Ya tienes tu 1a"
+	line "Medalla de Kanto?"
+	cont "¡Qué pasada!"
 
 	para "¡Nos vemos en"
-	line "la Liga!"
+	line "la Liga #mon!"
 	done
 
 LyraPhoneSpecialText_LyrasEgg:
 	text "¡<PLAYER>! ¡Hola!"
 
 	para "¿Qué tal te va"
-	line "contra los Líde-"
-	cont "res de Kanto?"
-
-	para "¡Seguro que bien!"
+	line "con los Líderes"
+	cont "de Kanto?"
 
 	para "¡Escucha, escucha!"
-
-	para "Dejé a mi "
+	line "Dejé a mi"
+	cont ""
 	text_ram wStringBuffer4
-	line "en la Guardería"
+	text " en la"
+	cont "Guardería y han"
+	cont "hallado un Huevo!"
 
-	para "con los Abuelos,"
-	line "¡y han encontra-"
-	cont "do un Huevo!"
+	para "Ya tengo un equipo"
+	line "entero de #mon,"
+	cont "así que te lo doy."
 
-	para "¿No es genial?"
+	para "¡Lo dejé con los"
+	line "ancianos por si"
+	cont "quieres criarlo!"
 
-	para "Ya estoy criando"
-	line "a un equipo ente-"
-	cont "ro de #mon,"
-
-	para "así que, um, si"
-	line "te gustaría"
-	cont "quedártelo…"
-
-	para "Eso es… En fin,"
-	line "¡dejé el Huevo"
-
-	para "en la Guardería"
-	line "por si lo quieres!"
-
-	para "Sé que lo cuida-"
-	line "rás muy bien,"
-	cont "<PLAYER>."
-
-	para "¡Chao!"
+	para "¡Cuídalo muy bien,"
+	line "<PLAYER>! ¡Chao!"
 	done

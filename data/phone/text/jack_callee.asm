@@ -63,9 +63,8 @@ JackGenericText:
 
 	para "Mi "
 	text_ram wStringBuffer4
-	text ""
-	line "es muy curioso, es"
-
-	para "un problema."
-	line "Será como yo…"
+	text " es"
+	line "tan curioso que es"
+	cont "un problema."
+	cont "¡Igual que yo!"
 	done

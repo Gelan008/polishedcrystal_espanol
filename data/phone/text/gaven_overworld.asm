@@ -1,50 +1,39 @@
 GavenAskNumber1Text:
-	text "Guau, eres duro."
-	line "No había luchado"
+	text "Guau, eres fuerte."
+	line "Hacía mucho que no"
+	cont "luchaba tan duro."
 
-	para "así de en serio"
-	line "desde hace mucho."
-
-	para "¿Me podrías dar tu"
-	line "número?"
-
-	para "Me gustaría volver"
-	line "a luchar al curar"
-
-	para "a "
+	para "¿Me das tu número?"
+	line "Luchemos al curar"
+	cont "a "
 	text_ram wStringBuffer4
-	text " y a los"
-	line "demás."
+	text " y a"
+	cont "los demás."
 	done
 
 GavenAskNumber2Text:
-	text "¿Me podrías dar tu"
-	line "número?"
-
-	para "Me gustaría volver"
-	line "a luchar al curar"
-
-	para "a "
+	text "¿Me das tu número?"
+	line "Luchemos al curar"
+	cont "a "
 	text_ram wStringBuffer4
-	text " y a los"
-	line "demás."
+	text " y a"
+	cont "los demás."
 	done
 
 GavenNumberAcceptedText:
-	text "¿Cómo debería"
-	line "derrotarte? Esos"
+	text "¿Cómo podré"
+	line "ganarte?"
 
-	para "pensamientos me"
-	line "atormentan a"
-	cont "todas horas…"
+	para "¡Pienso en ello"
+	line "a todas horas!"
 	done
 
 GavenNumberDeclinedText:
 	text "Vale, lo entiendo."
-	line "Pero si cambias de"
 
-	para "idea, avísame en"
-	line "cualquier momento."
+	para "Si cambias de idea"
+	line "avísame cuando"
+	cont "quieras."
 	done
 
 GavenPhoneFullText:

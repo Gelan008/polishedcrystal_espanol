@@ -24,8 +24,8 @@ TiffanyAnswerPhoneNiteText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh, <PLAYER>, bue-"
-	line "nas noches."
+	para "Oh, <PLAYER>."
+	line "Buenas noches."
 	done
 
 TiffanyGreetText:
@@ -55,24 +55,20 @@ TiffanyGreetNiteText:
 	done
 
 TiffanyGenericText:
-	text "¿Tus #mon es-"
-	line "tán bien?"
+	text "¿Tus #mon están"
+	line "bien de salud?"
 
 	para "Espero que los"
 	line "lleves al Centro"
-	cont "#mon cada día."
+	cont "#mon a menudo."
 
-	para "No les exijas de-"
-	line "masiado."
+	para "¡No les exijas"
+	line "demasiado!"
 
 	para "Mi "
 	text_ram wStringBuffer4
 	text " es"
-	line "mono y alegre"
-
-	para "precisamente por-"
-	line "que lo llevo a un"
-
-	para "Centro #mon"
-	line "todos los días."
+	line "muy feliz porque"
+	cont "lo llevo al Centro"
+	cont "#mon a diario."
 	done

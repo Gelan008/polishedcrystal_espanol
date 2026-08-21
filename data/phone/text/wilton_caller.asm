@@ -9,29 +9,26 @@ WiltonMonHasGrownText:
 	done
 
 WiltonDefeatedMonText:
-	text "Vencimos a un"
+	text "¡Vencimos a un"
 	line ""
 	text_ram wStringBuffer4
-	text " salvaje…"
+	text ""
+	cont "salvaje!"
 
-	para "Sabes, me divier-"
-	line "te más pescar que"
-
-	para "vencer a #mon"
-	line "salvajes."
+	para "Aunque me divierte"
+	line "más pescar que"
+	cont "vencer #mon."
 	done
 
 WiltonLostAMonText:
-	text "Pero hace un rato"
-	line "estuvimos a esto"
-
-	para "de pescar a un"
-	line ""
+	text "Estuvimos a punto"
+	line "de pescar a un"
+	cont ""
 	text_ram wStringBuffer4
-	text " salvaje."
+	text "…"
 
-	para "Te digo que era"
-	line "enorme. Créeme."
+	para "¡Te digo que era"
+	line "enorme! Créeme."
 	done
 
 WiltonBattleRematchText:
@@ -62,40 +59,34 @@ WiltonFoundItemText:
 	done
 
 WiltonHaventFoundAnythingText:
-	text "Nah, no he encon-"
-	line "trado nada que"
+	text "Nah, no encuentro"
+	line "nada de valor."
 
-	para "valga la pena."
-
-	para "Tienes que tener"
+	para "Hay que tener"
 	line "paciencia."
 	done
 
 WiltonNotBitingText:
-	text "Ay…"
-	line "Ya no pican como"
-
-	para "antes en"
-	line ""
+	text "Ay… Ya no pican"
+	line "como antes en"
+	cont ""
 	text_ram wStringBuffer5
 	text "…"
 
 	para "¡Tienes que venir"
-	line "para un combate!"
+	line "a combatir!"
 	done
 
 WiltonWantThisText:
 	text "¿No quieres este"
 	line "objeto?"
 
-	para "¿Eh? ¿Que no sa-"
-	line "bes dónde estoy?"
-
-	para "En "
+	para "¿No sabes dónde"
+	line "estoy? ¡Estoy en"
+	cont ""
 	text_ram wStringBuffer5
-	text "…"
-	line "¡Solo ve desde"
+	text "!"
 
-	para "Caoba hacia En-"
-	line "drino!"
+	para "¡Ve desde Pueblo"
+	line "Caoba a Endrino!"
 	done

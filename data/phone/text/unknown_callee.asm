@@ -2,29 +2,29 @@ UnknownGenericText:
 	text "¿Cómo están tus"
 	line "#mon?"
 
-	para "Mis #mon tie-"
-	line "nen mucha energía."
+	para "Los míos están"
+	line "llenos de energía."
 
-	para "Especialmente,"
+	para "Sobre todo mi"
 	line ""
 	text_ram wStringBuffer4
 	text "."
 
-	para "Cada vez que ve a"
-	line "un entrenador,"
-	cont "tiene que luchar."
+	para "En cuanto ve a un"
+	line "entrenador, quiere"
+	cont "luchar sí o sí."
 
-	para "¡Llega a ser dema-"
-	line "siado para mí!"
+	para "¡A veces es"
+	line "demasiado para mí!"
 	done
 
 UnknownTougherThanEverText:
-	text "Mi "
+	text "¡Mi "
 	text_ram wStringBuffer4
-	text " pare-"
-	line "ce más fuerte"
-	cont "que nunca."
+	text ""
+	line "parece más fuerte"
+	cont "que nunca!"
 
-	para "¡Parece más"
+	para "¡Casi parece más"
 	line "fuerte que yo!"
 	done

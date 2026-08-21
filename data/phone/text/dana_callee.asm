@@ -59,9 +59,7 @@ DanaGenericText:
 	text_ram wStringBuffer4
 	text " tiene"
 	line "tanta energía que"
-
-	para "da un poco de"
-	line "miedo."
+	cont "da hasta miedo."
 
 	para "¿Cómo están"
 	line "tus #mon?"

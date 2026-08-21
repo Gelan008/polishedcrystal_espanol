@@ -2,45 +2,37 @@ JoeyMonLookingSharperText:
 	text "¡Mi "
 	text_ram wStringBuffer4
 	text ""
-	line "parece más fuer-"
-	cont "te que antes!"
+	line "es más fuerte"
+	cont "que antes!"
 
-	para "¡Dudo que haya"
-	line "algún #mon tan"
-
-	para "genial como él"
-	line "en tu equipo!"
+	para "¡Dudo que tengas"
+	line "un #mon tan"
+	cont "genial como él!"
 	done
 
 JoeyDefeatedMonText:
-	text "Oh sí, derroté a"
-	line "un "
+	text "El otro día vencí"
+	line "a un "
 	text_ram wStringBuffer4
 	text ""
+	cont "salvaje."
 
-	para "salvaje el"
-	line "otro día."
-
-	para "Fue pan comido."
-	line "Bueno, supongo que"
-
-	para "es normal, al ser"
-	line "nosotros tan duros"
+	para "¡Fue pan comido!"
+	line "Normal, ¡somos los"
+	cont "más fuertes!"
 	done
 
 JoeyLostAMonText:
-	text "¡Ah, sí! ¡Vi a un"
+	text "¡Ah, sí! Vi un"
 	line ""
 	text_ram wStringBuffer4
-	text " salvaje!"
+	text ""
+	cont "salvaje."
 
-	para "Pensé en ir a"
-	line "por él, pero de-"
-
-	para "cidí entrenar al"
-	line "único que tengo"
-
-	para "hasta el extremo."
+	para "Iba a atraparlo,"
+	line "pero prefiero"
+	cont "entrenar al mío"
+	cont "al máximo."
 	done
 
 JoeyBattleRematchText:
@@ -64,13 +56,11 @@ JoeyHangUpText:
 	done
 
 JoeyDevisingStrategiesText:
-	text "Estoy revisando"
-	line "los ataques de mi"
-
-	para ""
+	text "Pienso tácticas"
+	line "para los ataques"
+	cont "de mi "
 	text_ram wStringBuffer4
-	text " e ideando"
-	line "estrategias."
+	text "."
 
 	para "Cuando tenga una"
 	line "buena, ¡luchemos!"

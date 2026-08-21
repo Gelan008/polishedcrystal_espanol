@@ -1,32 +1,29 @@
 VanceMonHasBecomeTougherText:
-	text "Mi "
+	text "¡Mi "
 	text_ram wStringBuffer4
-	text " se ha"
-	line "vuelto más fuerte."
+	text ""
+	line "es aún más fuerte!"
 
 	para "¡Hemos logrado"
 	line "despegar!"
 	done
 
 VanceDefeatedMonText:
-	text "¡Ganamos fácilmen-"
-	line "te a "
+	text "¡Ganamos fácil a"
+	line "un "
 	text_ram wStringBuffer4
 	text "!"
 
-	para "…¿Eh? ¿Tú"
-	line "también? ¿A que"
-	cont "es genial?"
+	para "…¿Eh? ¿Tú también?"
+	line "¿A que es genial?"
 	done
 
 VanceLostAMonText:
-	text "¡Oye! Se nos acaba"
-	line "de escapar un"
-
-	para ""
+	text "¡Se nos escapó un"
+	line ""
 	text_ram wStringBuffer4
 	text " salvaje"
-	line "por los pelos."
+	cont "por los pelos!"
 
 	para "¡Quise usar Vuelo"
 	line "para seguirle…!"
@@ -46,14 +43,12 @@ VanceBattleRematchText:
 	done
 
 VanceHangUpText:
-	text "¡Vale, hasta lue-"
-	line "go!"
+	text "¡Hasta luego!"
 	done
 
 VanceLookingForwardText:
-	text "¡Estaré esperando"
-	line "con ganas nues-"
-	cont "tro próximo"
+	text "¡Espero con ganas"
+	line "nuestro próximo"
 	cont "combate!"
 	done
 

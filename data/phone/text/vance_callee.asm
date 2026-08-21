@@ -19,9 +19,8 @@ VanceAnswerPhoneDayText:
 
 	para "¡Hola, <PLAYER>!"
 
-	para "¿Tus #mon pá-"
-	line "jaro están vo-"
-	cont "lando?"
+	para "¿Vuelan alto tus"
+	line "#mon pájaro?"
 	done
 
 VanceAnswerPhoneNiteText:
@@ -31,11 +30,10 @@ VanceAnswerPhoneNiteText:
 	text "!"
 
 	para "¡Buenas noches,"
-	line "<PLAYER>! ¿Estás"
+	line "<PLAYER>!"
 
-	para "dejando volar un"
-	line "poco a tus"
-	cont "#mon pájaro?"
+	para "¿Haces volar a tus"
+	line "#mon pájaro?"
 	done
 
 VanceGreetText:
@@ -71,15 +69,10 @@ VanceGenericText:
 	text "¿Estáis bien tus"
 	line "#mon y tú?"
 
-	para "Parece que mi"
-	line ""
+	para "¡Mi "
 	text_ram wStringBuffer4
-	text " "
-	cont "se volverá lo"
-
-	para "bastante fuerte"
-	line "como para plantar"
-
-	para "cara a las #mon"
-	line "aves legendarias"
+	text ""
+	line "podría vencer a"
+	cont "las mismas aves"
+	cont "legendarias!"
 	done

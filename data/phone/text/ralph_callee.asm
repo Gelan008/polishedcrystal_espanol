@@ -1,34 +1,25 @@
 RalphAnswerPhoneText:
 	text "¿Sí? Ah, <PLAYER>."
 
-	para "Eres bastante cor-"
-	line "tés como para de-"
-
-	para "cir tu nombre"
-	line "cuando llamas por"
-	cont "teléfono."
+	para "¡Qué educado eres"
+	line "al dar tu nombre"
+	cont "cuando llamas!"
 	done
 
 RalphAnswerPhoneDayText:
 	text "¿Sí? Ah, <PLAYER>."
 
-	para "Eres bastante cor-"
-	line "tés como para de-"
-
-	para "cir tu nombre"
-	line "cuando llamas por"
-	cont "teléfono."
+	para "¡Qué educado eres"
+	line "al dar tu nombre"
+	cont "cuando llamas!"
 	done
 
 RalphAnswerPhoneNiteText:
 	text "¿Sí? Ah, <PLAYER>."
 
-	para "Eres bastante cor-"
-	line "tés como para de-"
-
-	para "cir tu nombre"
-	line "cuando llamas por"
-	cont "teléfono."
+	para "¡Qué educado eres"
+	line "al dar tu nombre"
+	cont "cuando llamas!"
 	done
 
 RalphGreetText:
@@ -53,10 +44,9 @@ RalphGreetNiteText:
 	done
 
 RalphGenericText:
-	text "¿Estás cuidando"
-	line "bien de tus"
+	text "¿Cuidas bien de"
+	line "tus #mon?"
 
-	para "#mon? ¡Debes ser"
-	line "bueno con tus"
-	cont "compañeros!"
+	para "¡Trata con cariño"
+	line "a tus compañeros!"
 	done

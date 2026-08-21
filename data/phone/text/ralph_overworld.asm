@@ -1,19 +1,17 @@
 RalphAskNumber1Text:
 	text "¿Los jóvenes ya"
-	line "no pescan?"
+	line "no pescáis?"
 
 	para "He visto #mon"
 	line "raros mientras"
 	cont "pescaba…"
 
-	para "A vosotros os gus-"
-	line "tan, ¿no?"
+	para "A vosotros os"
+	line "gustan, ¿verdad?"
 
-	para "¿Quieres intercam-"
-	line "biar números?"
-
-	para "Te avisaré si veo"
-	line "alguna cosa."
+	para "¿Nos damos número?"
+	line "¡Te avisaré si veo"
+	cont "algo curioso!"
 	done
 
 RalphAskNumber2Text:
@@ -31,11 +29,9 @@ RalphNumberAcceptedText:
 	done
 
 RalphNumberDeclinedText:
-	text "Oh…"
-	line "Mis propios hijos"
-
-	para "no me dan ni su"
-	line "número…"
+	text "Oh… Mis propios"
+	line "hijos no me dan ni"
+	cont "su número…"
 
 	para "¿Así son los"
 	line "jóvenes de hoy?"
@@ -47,8 +43,8 @@ RalphPhoneFullText:
 	cont "llena."
 
 	para "Parece que todos"
-	line "los jóvenes tie-"
-	cont "nen un #gear."
+	line "los jóvenes tenéis"
+	cont "un #gear."
 	done
 
 RalphRematchText:

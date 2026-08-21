@@ -66,11 +66,10 @@ JoeyGenericText:
 	text_ram wStringBuffer4
 	text " está"
 	line "listo para luchar,"
-	cont "como siempre."
+	cont "¡como siempre!"
 
-	para "Es el único que"
-	line "tengo. ¡Voy a ser"
-
-	para "un gran entrena-"
-	line "dor con él!"
+	para "¡Es el único que"
+	line "tengo y seré un"
+	cont "gran entrenador"
+	cont "junto a él!"
 	done

@@ -47,9 +47,8 @@ MomPhoneCherrygroveText:
 	text_ram wStringBuffer3
 	text "?"
 
-	para "¿Por qué no vie-"
-	line "nes a casa un"
-	cont "rato?"
+	para "¿Por qué no vienes"
+	line "a casa un rato?"
 	done
 
 MomOtherAreaText:
@@ -58,8 +57,8 @@ MomOtherAreaText:
 	text_ram wStringBuffer3
 	text "?"
 
-	para "¡Suerte en tu bús-"
-	line "queda #mon!"
+	para "¡Mucha suerte con"
+	line "tus #mon!"
 	done
 
 MomDeterminedText:
@@ -68,9 +67,10 @@ MomDeterminedText:
 
 	para "Pero, <PLAYER>, sé"
 	line "que tienes mucha"
+	cont "determinación."
 
-	para "determinación. Es-"
-	line "tarás bien, ¿no?"
+	para "¡Seguro que te va"
+	line "a ir genial!"
 	done
 
 MomCheckBalanceText:
@@ -90,10 +90,11 @@ MomImportantToSaveText:
 
 MomYoureNotSavingText:
 	text "Oh, <PLAYER>,"
-	line "no estás ahorran-"
+	line "no estás guardando"
+	cont "nada de dinero."
 
-	para "do nada. ¿Te gus-"
-	line "taría ahorrar?"
+	para "¿Quieres que te"
+	line "ahorre un poco?"
 	done
 
 MomYouveSavedText:
@@ -134,34 +135,32 @@ MomPhoneNoPokedexText:
 	text "¿Hola?"
 
 	para "¡Oh, <PLAYER>!"
-	line "¿Estás en una gran"
+	line "¿Estás de recado"
+	cont "para el Prof. Elm?"
 
-	para "misión para el"
-	line "Prof. Elm? ¡Animo!"
+	para "¡Mucho ánimo!"
 	done
 
 MomPhoneNoGymQuestText:
 	text "¿Hola?"
 
-	para "¡Hola <PLAYER>! Si"
-	line "has terminado con"
-
-	para "tu recado ven a"
-	line "casa, cariño."
+	para "¡Hola, <PLAYER>!"
+	line "Si terminaste tu"
+	cont "recado, ¡ven a"
+	cont "casa, cariño!"
 	done
 
 MomPhoneLectureText:
 	text "¿Hola?"
 
 	para "…¿<PLAYER>?"
-	line "El Prof. Elm me ha"
+	line "¡El Prof. Elm dice"
+	cont "que te vas"
+	cont "de viaje!"
 
-	para "dicho que fuiste"
-	line "a un largo viaje."
+	para "¡Ojalá me lo"
+	line "hubieras dicho!"
 
-	para "Ojalá me lo hubie-"
-	line "ras dicho…"
-
-	para "¿Qué hay del di-"
-	line "nero? ¿Lo ahorro?"
+	para "¿Y qué hay de tu"
+	line "dinero? ¿Ahorro?"
 	done

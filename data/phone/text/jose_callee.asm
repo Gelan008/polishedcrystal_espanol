@@ -14,7 +14,8 @@ JoseAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ah <PLAYER> ¡Hola!"
+	para "¡Ah, <PLAYER>!"
+	line "¡Hola! ¿Qué tal?"
 	done
 
 JoseAnswerPhoneNiteText:
@@ -55,15 +56,15 @@ JoseGreetNiteText:
 	done
 
 JoseGenericText:
-	text "¿Tus #mon si-"
-	line "guen dando caña?"
+	text "¿Tus #mon dan"
+	line "mucha caña?"
 
-	para "Mi "
+	para "¡Mi "
 	text_ram wStringBuffer4
-	text " tiene"
-	line "demasiada energía."
+	text ""
+	line "está que no para!"
 
 	para "Cuando despega,"
-	line "tarda un rato en"
-	cont "volver."
+	line "tarda un buen rato"
+	cont "en volver."
 	done

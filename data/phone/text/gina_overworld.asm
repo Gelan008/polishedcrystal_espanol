@@ -1,30 +1,23 @@
 GinaAskNumber1Text:
-	text "Siempre que veo a"
-	line "un entrenador"
+	text "Cuando veo a un"
+	line "buen entrenador,"
+	cont "quiero animarle."
 
-	para "fuerte, quiero"
-	line "animarle."
+	para "A veces encuentro"
+	line "objetos de paseo."
+	cont "¡Te daré alguno!"
 
-	para "Cuando paseo, a"
-	line "veces encuentro"
-	cont "objetos."
-
-	para "¡Si encuentro"
-	line "algo, te lo daré!"
-
-	para "¿Me podrías dar tu"
-	line "número?"
-
-	para "Te llamaré cuando"
-	line "encuentre algo."
+	para "¿Me das tu número?"
+	line "Te llamaré cuando"
+	cont "encuentre algo."
 	done
 
 GinaAskNumber2Text:
-	text "¡Si encuentro"
-	line "algo, te lo daré!"
+	text "¡Si encuentro algo"
+	line "te lo daré!"
 
-	para "¿Me podrías dar tu"
-	line "número?"
+	para "¿Me das tu número"
+	line "de teléfono?"
 	done
 
 GinaNumberAcceptedText:
@@ -64,6 +57,6 @@ GinaPackFullText:
 	text "Tu Mochila parece"
 	line "estar llena."
 
-	para "Tendré que guar-"
-	line "darte esto."
+	para "Te guardaré esto"
+	line "para luego."
 	done

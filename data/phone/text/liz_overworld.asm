@@ -1,11 +1,11 @@
 LizAskNumber1Text:
-	text "¿Oh? ¿Estás en un"
-	line "gran viaje para"
-	cont "ver mundo? ¡Guay!"
+	text "¿Oh? ¿Viajas para"
+	line "ver el mundo?"
+	cont "¡Qué pasada!"
 
 	para "¡Seamos amigos!"
-	line "¿Me das tu núme-"
-	cont "ro de teléfono?"
+	line "¿Me das tu número"
+	cont "de teléfono?"
 
 	para "¡Quiero que me"
 	line "cuentes todo lo"
@@ -14,8 +14,8 @@ LizAskNumber1Text:
 
 LizAskNumber2Text:
 	text "¡Seamos amigos!"
-	line "¿Me das tu núme-"
-	cont "ro de teléfono?"
+	line "¿Me das tu número"
+	cont "de teléfono?"
 
 	para "¡Quiero que me"
 	line "cuentes todo lo"
@@ -34,8 +34,8 @@ LizNumberDeclinedText:
 	done
 
 LizPhoneFullText:
-	text "¡Espera! Tu telé-"
-	line "fono está lleno."
+	text "¡Espera! Tu móvil"
+	line "no tiene espacio."
 	done
 
 LizRematchText:

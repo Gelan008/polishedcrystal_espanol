@@ -1,31 +1,22 @@
 HueyAskNumber1Text:
-	text "¡Guay! ¡Es la pri-"
-	line "mera vez que pier-"
-	cont "do en mucho!"
+	text "¡Hacía mucho que"
+	line "no perdía así!"
 
-	para "Oye, dame tu"
-	line "número de telé-"
-	cont "fono."
+	para "Oye, ¿me das tu"
+	line "número de móvil?"
 
-	para "Sería divertido"
-	line "luchar, así que"
-
-	para "¡te llamaré cuan-"
-	line "do sea más"
-	cont "fuerte!"
+	para "¡Te llamaré cuando"
+	line "sea fuerte para"
+	cont "volver a luchar!"
 	done
 
 HueyAskNumber2Text:
-	text "Oye, dame tu"
-	line "número de telé-"
-	cont "fono."
+	text "Oye, ¿me das tu"
+	line "número de móvil?"
 
-	para "Sería divertido"
-	line "luchar, así que"
-
-	para "¡te llamaré cuan-"
-	line "do sea más"
-	cont "fuerte!"
+	para "¡Te llamaré cuando"
+	line "sea fuerte para"
+	cont "volver a luchar!"
 	done
 
 HueyNumberAcceptedText:
@@ -39,13 +30,13 @@ HueyNumberDeclinedText:
 	done
 
 HueyPhoneFullText:
-	text "¡Oye! ¡Tu teléfo-"
-	line "no está lleno!"
+	text "¡Oye! Tu móvil"
+	line "no tiene espacio."
 	done
 
 HueyRematchText:
-	text "¡Eh! ¡Me he can-"
-	line "sado de esperar!"
+	text "¡Eh! ¡Me cansé de"
+	line "esperar! ¡Vamos!"
 	done
 
 HueyPackFullText:
@@ -59,28 +50,18 @@ HueyRematchGiftText:
 	line "duro como siempre!"
 
 	para "Hemos luchado una"
-	line "y otra vez, pero,"
+	line "y otra vez, pero"
+	cont "no te gano ni una."
 
-	para "<PLAYER>, no te he"
-	line "ganado ni una."
+	para "Compré cosas para"
+	line "mejorar a mis"
+	cont "#mon, pero"
+	cont "no sirvió de nada."
 
-	para "Compré muchos"
-	line "objetos para for-"
+	para "Los objetos solos"
+	line "no lo son todo…"
 
-	para "talecer a mis"
-	line "#mon, pero de"
-	cont "nada ha servido…"
-
-	para "Los objetos por"
-	line "sí solos no lo"
-	cont "son todo."
-
-	para "Debe de ser por"
-	line "eso…"
-
-	para "Toma esto,"
-	line "<PLAYER>."
-
-	para "Yo ya no lo"
-	line "necesitaré…"
+	para "¡Toma esto,"
+	line "<PLAYER>!"
+	cont "Ya no lo necesito…"
 	done

@@ -22,11 +22,9 @@ HueyWeHaveToBattleAgainSometimeText:
 	text "Tenemos que"
 	line "volver a luchar."
 
-	para "Puedes apostar"
-	line "que seguiré"
-
-	para "desafiándote has-"
-	line "ta que yo gane."
+	para "¡Te seguiré"
+	line "retando hasta"
+	cont "que te gane!"
 	done
 
 HueyReminderText:
@@ -34,10 +32,9 @@ HueyReminderText:
 	line "haber olvidado"
 	cont "nuestro combate!"
 
-	para "¡"
+	para "¡Estoy en"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
-
-	para "¡Date prisa!"
-	line "¡Estoy esperando!"
+	cont "¡Date prisa!"
 	done

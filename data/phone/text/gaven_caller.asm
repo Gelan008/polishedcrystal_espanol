@@ -13,46 +13,34 @@ GavenMonGreaterThanImaginedText:
 	done
 
 GavenDefeatedMonText:
-	text "Ah, y conseguí"
-	line "vencer por los"
-	cont "pelos a un"
-
-	para ""
+	text "El otro día vencí"
+	line "por los pelos a un"
+	cont ""
 	text_ram wStringBuffer4
-	text " el"
-	line "otro día."
+	text "."
 
-	para "Nunca vi a un"
+	para "¡Nunca vi a un"
 	line ""
 	text_ram wStringBuffer4
 	text ""
-	cont "volverse tan"
-	cont "fuerte…"
+	cont "tan fuerte!"
 
-	para "No deberías bajar"
-	line "la guardia,"
-
-	para "ni siquiera ante"
-	line "un #mon al que"
-	cont "sueles ver."
+	para "Nunca bajes la"
+	line "guardia, ni ante"
+	cont "un #mon común."
 	done
 
 GavenLostAMonText:
-	text "Y hace un tiempo,"
-	line "intenté atrapar a"
-	cont "un "
+	text "Hace poco quise"
+	line "atrapar a un"
+	cont ""
 	text_ram wStringBuffer4
 	text ""
-	cont "salvaje."
-
-	para "Pero consiguió"
-	line "escaparse."
+	cont "y se me escapó."
 
 	para "Una mala decisión"
-	line "puede suponer el"
-
-	para "fracaso. Deberías"
-	line "tener cuidado."
+	line "lleva al fracaso."
+	cont "¡Ten cuidado!"
 	done
 
 GavenBattleRematchText:
@@ -73,9 +61,8 @@ GavenHangUpText:
 	done
 
 GavenHangUpNotThursdayText:
-	text "Me obsesiono pen-"
-	line "sando en cómo ga-"
-	cont "narte."
+	text "Siempre pienso en"
+	line "cómo ganarte."
 	done
 
 GavenReminderText:

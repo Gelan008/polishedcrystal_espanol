@@ -1,65 +1,50 @@
 ChadObservingWildText:
-	text "Hace poco empecé"
-	line "a observar "
-	cont ""
+	text "Empecé a observar"
+	line ""
 	text_ram wStringBuffer4
-	text " salvajes."
+	text " salvajes"
+	cont "hace poco."
 
-	para "He aprendido"
-	line "muchas cosas"
+	para "¡He aprendido un"
+	line "montón de cosas"
+	cont "nuevas con ellos!"
 
-	para "nuevas con mis"
-	line "observaciones."
-
-	para "Ojalá pueda ser"
+	para "¡Ojalá sea pronto"
 	line "un investigador"
-
-	para "#mon como"
-	line "Prof.Oak pronto."
+	cont "como el Prof. Oak!"
 	done
 
 ChadDefeatedMonText:
-	text "Ah sí, logré"
-	line "derrotar a un"
-
-	para ""
+	text "Logré derrotar a"
+	line "un "
 	text_ram wStringBuffer4
 	text " salvaje"
-	line "hace poco."
+	cont "hace poco."
 
-	para "Bueno, teniendo"
-	line "en cuenta todo"
-
-	para "lo que estudio,"
-	line "era inevitable."
+	para "Con todo lo que"
+	line "estudio, ¡era de"
+	cont "esperar!"
 	done
 
 ChadLostAMonText:
-	text "Ah sí, estuve a"
-	line "punto de atrapar"
-
-	para "a un "
-	text_ram wStringBuffer4
-	text " salvaje,"
-	line "pero se escapó."
-
-	para "Hacía mucho"
-	line "tiempo que quería"
-
-	para "observar a "
+	text "Casi atrapo a un"
 	line ""
 	text_ram wStringBuffer4
-	text ". Jo…"
+	text " salvaje,"
+	cont "pero se escapó."
+
+	para "¡Tenía tantas"
+	line "ganas de poder"
+	cont "estudiarlo! Jo…"
 	done
 
 ChadBattleRematchText:
 	text "¿Quieres luchar?"
-	line "Tengo que luchar"
+	line "Debo combatir a"
+	cont "menudo para no"
+	cont "oxidarme."
 
-	para "a menudo para no"
-	line "oxidarme."
-
-	para "¡Estaré en"
+	para "¡Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
@@ -72,181 +57,148 @@ ChadHangUpText:
 ChadBlueGossipText:
 	text "¿Conoces a Azul?"
 
-	para "¡Es el nieto del"
-	line "Prof.Oak y un"
+	para "¡Es nieto del"
+	line "Prof. Oak y fue"
+	cont "Campeón de la"
+	cont "Liga #mon!"
 
-	para "antiguo Campeón"
-	line "de la Liga #mon!"
-
-	para "¡Es un gran"
-	line "entrenador #mon!"
+	para "¡Es un entrenador"
+	line "increíble!"
 	done
 
 ChadDaisyGossipText:
-	text "Prof.Oak tiene una"
-	line "nieta que se"
+	text "El Prof. Oak tiene"
+	line "una nieta que se"
 	cont "llama Dalia."
 
-	para "Cuando está"
-	line "cerca, hasta el"
-
-	para "#mon más feroz"
-	line "se tranquiliza."
+	para "A su lado, hasta"
+	line "el #mon más"
+	cont "feroz se calma."
 	done
 
 ChadProfElmGossipText:
-	text "Todos hablan de"
-	line "Prof.Elm."
+	text "Todos hablan del"
+	line "Prof. Elm."
 
-	para "¡Él solía ser el"
-	line "ayudante del gran"
-	cont "Prof.Oak!"
+	para "¡Él fue ayudante"
+	line "del gran"
+	cont "Prof. Oak!"
 
-	para "¡Es tan genial!"
-	line "¡Qué envidia!"
+	para "¡Qué genial!"
+	line "¡Qué envidia me da!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "El sueño del"
-	line "Prof.Oak es hacer"
+	text "El gran sueño del"
+	line "Prof. Oak es una"
+	cont "#dex completa."
 
-	para "una #dex muy"
-	line "completa."
-
-	para "Te envidio por"
-	line "ser parte de ese"
-	cont "proyecto…"
+	para "¡Te envidio por"
+	line "ayudarle en ese"
+	cont "proyecto!"
 	done
 
 ChadKurtGossipText:
 	text "¿Conoces a César,"
-	line "el creador de las"
-	cont "Ball?"
+	line "el artesano de"
+	cont "las Balls?"
 
-	para "Él y Prof.Oak se"
-	line "conocen desde"
-	cont "hace mucho."
+	para "Él y el Prof. Oak"
+	line "se conocen desde"
+	cont "hace mucho tiempo."
 
-	para "¡Supongo que los"
-	line "grandes hombres"
-	cont "se atraen!"
+	para "¡Los grandes sabios"
+	line "siempre se juntan!"
 	done
 
 ChadLeagueGossipText:
 	text "La Liga #mon es"
-	line "el gran punto de"
-	cont "encuentro de los"
+	line "la cima para todo"
+	cont "gran entrenador."
 
-	para "entrenadores que"
-	line "quieren ser"
-	cont "Campeones."
-
-	para "Prof.Oak es un"
+	para "El Prof. Oak es"
 	line "asesor en la sede"
+	cont "de la Liga #mon"
 
-	para "de la"
-	line "#mon League."
-
-	para "Realmente es un"
-	line "gran hombre."
+	para "¡Es un hombre"
+	line "verdaderamente"
+	cont "admirable!"
 	done
 
 ChadPokemonTalkGossipText:
-	text "La Hora Oak de"
-	line "Prof.Oak es un"
-	cont "programa popular,"
-	cont "¿no?"
+	text "La Hora Oak del"
+	line "Prof. Oak es muy"
+	cont "popular, ¿verdad?"
 
 	para "¿Sabías que iba"
-	line "a rechazar el"
+	line "a rechazarla al"
+	cont "principio?"
 
-	para "programa al"
-	line "principio?"
+	para "Pero la energía e"
+	line "insistencia de"
+	cont "Rosa lo convenció."
 
-	para "Pero la energía y"
-	line "persistencia de"
-	cont "Rosa le"
-	cont "convencieron."
-
-	para "¡Así que tenemos"
-	line "que agradecérselo"
-	cont "a Rosa!"
+	para "¡Hay que darle las"
+	line "gracias a Rosa!"
 	done
 
 ChadProfOakTrainerGossipText:
-	text "Prof.Oak era un"
+	text "El Prof. Oak fue"
 	line "entrenador hace"
 	cont "mucho tiempo."
 
 	para "Pero más que los"
 	line "combates, vio que"
+	cont "los #mon eran"
+	cont "fascinantes."
 
-	para "los #mon en sí"
-	line "eran muy"
-	cont "interesantes."
-
-	para "Así que lo dejó"
-	line "para centrarse en"
-
-	para "ser investigador."
+	para "¡Por eso se hizo"
+	line "investigador!"
 	done
 
 ChadDaisyTeaGossipText:
-	text "Prof.Oak tiene una"
-	line "nieta llamada"
-	cont "Dalia."
+	text "La nieta del Prof."
+	line "Oak es Dalia."
 
-	para "Ella toma el té"
-	line "cada día durante"
+	para "Toma el té diario"
+	line "a partir de las"
+	cont "tres de la tarde."
 
-	para "una hora, a"
-	line "partir de las"
-	cont "tres."
-
-	para "Ojalá pudiera"
-	line "unirme a ella"
-
-	para "y hablar sobre"
-	line "Prof.Oak."
+	para "¡Ojalá pudiera ir"
+	line "a tomar el té con"
+	cont "ella y hablar del"
+	cont "Prof. Oak!"
 	done
 
 ChadProfOakTravelingGossipText:
-	text "¿Sabías qué?"
-	line "Prof.Oak viajó"
+	text "¿Sabías que el"
+	line "Prof. Oak viajó"
+	cont "por todo el mundo"
+	cont "cuando era joven?"
 
-	para "por todo el mundo"
-	line "cuando era joven."
+	para "¡Seguro aprendió"
+	line "mucho de #mon"
+	cont "en sus viajes!"
 
-	para "Viajando, seguro"
-	line "que aprendió"
-
-	para "sobre #mon de"
-	line "forma natural."
-
-	para "Le envidio…"
-	line "Me gustaría"
-
-	para "viajar y aprender"
-	line "cosas también…"
+	para "¡Qué envidia!"
+	line "¡Ojalá pudiera"
+	cont "viajar yo también!"
 	done
 
 ChadGoingToStudyHardText:
-	text "¡Voy a estudiar"
-	line "mucho para que"
-
-	para "Prof.Oak me haga"
-	line "su ayudante!"
+	text "¡Estudiaré mucho"
+	line "para que el Prof."
+	cont "Oak me nombre su"
+	cont "ayudante!"
 	done
 
 ChadReminderText:
 	text "¿Te acuerdas de"
 	line "nuestro combate?"
 
-	para "El lugar es"
+	para "¡Te espero en"
 	line ""
 	text_ram wStringBuffer5
-	text "."
-
-	para "Date prisa, te"
-	line "estoy esperando."
+	text "!"
+	cont "¡Date prisa!"
 	done

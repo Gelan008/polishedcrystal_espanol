@@ -9,27 +9,25 @@ ErinMonIsMuchStrongerText:
 	done
 
 ErinDefeatedMonText:
-	text "Y, y…"
-	line "¡Acabo de luchar"
-	cont "y vencer a un"
+	text "¡Y, y… acabo de"
+	line "vencer a un"
 	cont ""
 	text_ram wStringBuffer4
 	text "!"
 
-	para "¡He criado a mi"
+	para "¡He entrenado a mi"
 	line "#mon muy bien!"
 	done
 
 ErinLostAMonText:
 	text "Pero, pero…"
-
-	para "Un "
+	line "¡Un "
 	text_ram wStringBuffer4
-	text " salvaje"
-	line "se me ha escapado"
+	text ""
+	cont "salvaje se me ha"
+	cont "vuelto a escapar!"
 
-	para "otra vez. ¡No es"
-	line "nada justo!"
+	para "¡No es nada justo!"
 	done
 
 ErinBattleRematchText:

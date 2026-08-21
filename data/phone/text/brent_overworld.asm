@@ -1,45 +1,35 @@
 BrentAskNumber1Text:
-	text "Por cierto, eres"
-	line "un #Maniac,"
-
-	para "puedo notarlo."
-	line "Sí, lo eres."
+	text "Eres un #Maniaco,"
+	line "puedo notarlo."
+	cont "¡Sí, lo eres!"
 
 	para "¡Pero aún te falta"
 	line "mucho por saber!"
 
 	para "¿Conoces a Bill?"
-	line "Es un increíble"
-
-	para "#Maniac."
-	line "Le venero."
+	line "¡Es un #Maniaco"
+	cont "genial! Le venero."
 
 	para "Te enseñaré todo"
-	line "lo que sé de él,"
-
-	para "así que dame tu"
-	line "número de"
-	cont "teléfono."
+	line "sobre él si me das"
+	cont "tu número."
 	done
 
 BrentAskNumber2Text:
 	text "Te enseñaré todo"
-	line "lo que sé de Bill,"
-
-	para "así que dame tu"
-	line "número de"
-	cont "teléfono."
+	line "sobre Bill si me"
+	cont "das tu número."
 	done
 
 BrentNumberAcceptedText:
 	text "Bill… ¡es más"
 	line "que asombroso!"
 
-	para "Ser un #Maniac"
+	para "Ser un #Maniaco"
 	line "como él algún"
 	cont "día…"
 
-	para "Ese es mi sueño."
+	para "¡Ese es mi sueño!"
 	done
 
 BrentNumberDeclinedText:
@@ -55,7 +45,7 @@ BrentPhoneFullText:
 	line "teléfonos está"
 	cont "llena."
 
-	para "¡Un #Maniac"
+	para "¡Un #Maniaco"
 	line "debe ser más"
 	cont "ordenado!"
 	done

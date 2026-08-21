@@ -2,66 +2,53 @@ TiffanyMonIsAdorableText:
 	text "Mi "
 	text_ram wStringBuffer4
 	text " es"
-	line "adorable, ¿no"
+	line "adorable, ¿verdad?"
 
-	para "te parece?"
-	line "Siempre duermo"
-
-	para "con él… ¡Es tan"
-	line "suave y cálido!"
+	para "Siempre duermo con"
+	line "él… ¡Es tan suave"
+	cont "y tan cálido!"
 	done
 
 TiffanyDefeatedMonText:
-	text "Ah, y tuvimos que"
-	line "luchar contra un"
-
-	para ""
+	text "Luchamos contra un"
+	line ""
 	text_ram wStringBuffer4
 	text " salvaje"
-	line "hace un rato…"
+	cont "hace un rato…"
 
 	para "¡Mi Clefairy casi"
 	line "se debilita!"
-
-	para "¿No es horrible?"
+	cont "¿No es horrible?"
 
 	para "¡Odio a esos"
-	line "asquerosos"
-	cont ""
+	line ""
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 TiffanyLostAMonText:
-	text "Ah, y tuvimos que"
-	line "luchar contra un"
-
-	para ""
+	text "Luchamos contra un"
+	line ""
 	text_ram wStringBuffer4
 	text " salvaje"
-	line "hace un rato…"
+	cont "hace un rato…"
 
-	para "Mi Clefairy se as-"
-	line "ustó, ¡así que"
+	para "Clefairy se asustó"
+	line "y huimos a toda"
+	cont "prisa."
 
-	para "huimos lo más rá-"
-	line "pido que pudimos!"
-
-	para "Simplemente no"
-	line "puedo evitar pro-"
-	cont "teger a Clefairy."
+	para "¡Debo proteger a"
+	line "mi Clefairy!"
 	done
 
 TiffanyBattleRematchText:
-	text "Sé que esto igual"
-	line "te sorprende, pe-"
+	text "A lo mejor te"
+	line "sorprende, ¿pero"
+	cont "quieres luchar?"
 
-	para "ro ¿te gustaría"
-	line "luchar?"
-
-	para "Te estaré espe-"
-	line "rando con Clefairy"
-	cont "en "
+	para "Te espero junto a"
+	line "Clefairy en"
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 	done
@@ -75,8 +62,8 @@ TiffanyItsAwfulText:
 
 	para "¿Eh? ¿<PLAYER>?"
 
-	para "¡Ay, lo siento! I-"
-	line "ba con prisa, y…"
+	para "¡Ay, perdona!"
+	line "Tengo prisa…"
 
 	para "¡Me tengo que ir!"
 	line "¡Adiós!"
@@ -87,14 +74,11 @@ TiffanyHangUpText:
 	done
 
 TiffanyFoundItemText:
-	text "He comprado al-"
-	line "gunos Lazos Rosa"
+	text "Compré Pañuelos"
+	line "Seda en el Centro"
+	cont "Comercial Trigal."
 
-	para "en el C. Comercial"
-	line "de Trigal para mi"
-	cont "Clefairy."
-
-	para "Compré demasiados,"
+	para "Tengo demasiados,"
 	line "¡te daré uno!"
 
 	para "Ven a por él a"
@@ -104,8 +88,8 @@ TiffanyFoundItemText:
 	done
 
 TiffanyNoItemText:
-	text "¡Me encanta dis-"
-	line "frazar a Clefairy!"
+	text "¡Me encanta vestir"
+	line "a Clefairy!"
 	done
 
 TiffanyAsleepText:
