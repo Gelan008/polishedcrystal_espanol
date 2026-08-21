@@ -18,4 +18,5 @@ SongOrigins:
 	li "Go"
 	li "M02"
 	li "Prism"
+	li "Undertale"
 	assert_list_length NUM_SONG_ORIGINS
