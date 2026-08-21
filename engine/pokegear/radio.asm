@@ -515,7 +515,7 @@ OaksPkmnTalk12:
 	jr PlaceRadioString
 
 .pokemon_channel_string
-	db "#mon Channel@"
+	db "Canal #mon@"
 
 OaksPkmnTalk13:
 	ld hl, wRadioTextDelay
