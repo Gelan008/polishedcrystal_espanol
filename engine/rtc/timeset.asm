@@ -253,7 +253,7 @@ Text_WhoaHoursMins:
 	text_far _OakTimeWhoaText
 	text_asm
 	hlcoord 1, 16
-	ld [hl], '¡'
+	ld [hl], '¿'
 	decoord 2, 16
 	call PrintHourColonMinute
 	ld hl, .QuestionMark
