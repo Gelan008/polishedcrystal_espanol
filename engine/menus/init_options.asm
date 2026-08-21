@@ -422,7 +422,7 @@ InitialOptions_ExpScaling:
 	ret
 
 .Old:
-	db "Clásico@"
+	db "Viejo@"
 .New:
 	db "Nuevo@"
 
@@ -575,7 +575,7 @@ NoString:
 YesString:
 	db "Sí @"
 AllString:
-	db "Todo@"
+	db "Todos@"
 ModernString:
 	db "{-3d:MODERN_EV_LIMIT}@"
 

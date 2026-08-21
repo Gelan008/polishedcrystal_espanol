@@ -238,7 +238,7 @@ Text_WhatTimeIsIt:
 	text_end
 
 String_oclock:
-	db "o'clock@"
+	db "en punto@"
 
 Text_HowManyMinutes:
 	; How many minutes?
@@ -252,7 +252,9 @@ Text_WhoaHoursMins:
 	; Whoa!@ @
 	text_far _OakTimeWhoaText
 	text_asm
-	decoord 1, 16
+	hlcoord 1, 16
+	ld [hl], '¡'
+	decoord 2, 16
 	call PrintHourColonMinute
 	ld hl, .QuestionMark
 	ret
@@ -264,7 +266,9 @@ Text_WhoaHoursMins:
 
 OakText_ResponseToSetTime:
 	text_asm
-	decoord 1, 14
+	hlcoord 1, 14
+	ld [hl], '¡'
+	decoord 2, 14
 	call PrintHourColonMinute
 	ld a, [wInitHourBuffer]
 	cp MORN_HOUR
@@ -558,10 +562,10 @@ TimeOfDayStrings:
 	dr EVE_String
 	assert_table_length NUM_DAYTIMES
 
-NITE_String: db "Night@"
-MORN_String: db "Morning@"
-DAY_String:  db "Day@"
-EVE_String:  db "Evening@"
+NITE_String: db "Noche@"
+MORN_String: db "Mañana@"
+DAY_String:  db "Día@"
+EVE_String:  db "Tarde@"
 
 PlaceCaughtTimeOfDayString::
 	and CAUGHT_TIME_MASK
