@@ -11,9 +11,9 @@ ItemPocketNames:
 .Item:
 	db "Mochila@"
 .Medicine:
-	db "Botq@"
+	db "Botiquín@"
 .Ball:
-	db "Poke Balls@"
+	db "Poké Balls@"
 .TM:
 	db "MTs y MOs@"
 .Berry:
