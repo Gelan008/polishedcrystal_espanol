@@ -1,10 +1,3 @@
-# Pokémon Polished Crystal Español
-
-## Notas de Progreso de Traducción
-<!-- Usa este espacio para añadir tus notas sobre el progreso de la traducción del hackrom -->
-
-Todos los textos están traducidos, pero todavía no hay ninguna realease porque me gustaría probarlo antes de lanzar una. Si alguién quiere probarlo puede descargarse el código y compilarlo. Si necesitan ayuda para compilarlo, puedes hablarme por discord o twitter. Gelan008. 
-
 ---
 README traducido de Rangi42
 ---
