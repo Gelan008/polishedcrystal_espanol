@@ -382,9 +382,23 @@ PlayersHousePC:
 	end
 
 PlayerRadioText1:
-	text "Prof.Oak's #mon"
-	line "Talk! Please tune"
-	cont "in next time!"
+	text "¡La Hora Oak!"
+	line "¡Sintonízanos la"
+	cont "próxima vez!"
+	done
+
+PlayerRadioText2:
+	text "¡Canal #mon!"
+	done
+
+PlayerRadioText3:
+	text "¡Aquí DJ Rosa,"
+	line "tu copresentadora!"
+	done
+
+PlayerRadioText4:
+	text "¡#mon!"
+	line "Canal #mon…"
 	done
 
 PlayerRadioText2:

@@ -82,9 +82,23 @@ PlayersNeighborText:
 	done
 
 PlayerNeighborRadioText1:
-	text "Prof.Oak's #mon"
-	line "Talk! Please tune"
-	cont "in next time!"
+	text "¡La Hora Oak!"
+	line "¡Sintonízanos la"
+	cont "próxima vez!"
+	done
+
+PlayerNeighborRadioText2:
+	text "¡Canal #mon!"
+	done
+
+PlayerNeighborRadioText3:
+	text "¡Aquí DJ Rosa,"
+	line "tu copresentadora!"
+	done
+
+PlayerNeighborRadioText4:
+	text "¡#mon!"
+	line "Canal #mon…"
 	done
 
 PlayerNeighborRadioText2:
