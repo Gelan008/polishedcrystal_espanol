@@ -383,9 +383,9 @@ Route38TrainerTipsText:
 	para "Pulsa el Botón B"
 	line "al evolucionar."
 
-	para "Eso asustará al"
+	para "Eso sorprenderá al"
 	line "#mon y frenará"
-	cont "su evolución."
+	cont "la evolución."
 	done
 
 Route38AdvancedTipsText:

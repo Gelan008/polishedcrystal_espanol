@@ -32,15 +32,15 @@ PlaceDiplomaPage1OnScreen:
 	jmp DelayFrame
 
 .PlayerString:
-	text "Player"
+	text "Jugador"
 	done
 
 .DiplomaString:
-	text "This certifies"
-	next "that you have"
-	next "completed the"
-	next "National #dex."
-	next "Congratulations!"
+	text "Certifica que"
+	next "has completado"
+	next "la #dex"
+	next "Nacional."
+	next "¡Felicidades!"
 	done
 
 PlaceDiplomaPage2OnScreen:
@@ -69,7 +69,7 @@ PlaceDiplomaPage2OnScreen:
 	jmp PrintNum
 
 .PlayTime:
-	text "Play Time"
+	text "T. jugado"
 	done
 
 .PolishedCrystal:

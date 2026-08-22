@@ -775,8 +775,8 @@ SlowpokePlainPokedexEntry::
 	text "Está siempre tan"
 	next "distraído que no"
 	next "se inmuta si le"
-	page "muerden su sabrosa"
-	next "cola.@"
+	page "muerden su"
+	next "sabrosa cola.@"
 
 SECTION "SlowbroPlainPokedexEntry", ROMX
 SlowbroPlainPokedexEntry::

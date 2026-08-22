@@ -63,19 +63,19 @@ ExpCandyMart:
 	jmp MartTextbox
 
 .Text_ExpCandyMart_Intro:
-	text "You again? Guess"
-	line "you liked that"
-	cont "candy."
+	text "¿Tú otra vez?"
+	line "¿Te ha gustado ese"
+	cont "caramelo?"
 
-	para "I can hook you up."
-	line "For a price, of"
-	cont "course."
+	para "Puedo conseguirte"
+	line "más… por un módico"
+	cont "precio, claro."
 	done
 
-.Text_ExpCandyMart_ComeAgain
-	text "Don't tell anyone"
-	line "where you got"
-	cont "these, okay?"
+.Text_ExpCandyMart_ComeAgain:
+	text "No le digas a"
+	line "nadie de dónde los"
+	cont "has sacado, ¿vale?"
 	done
 
 INCLUDE "data/items/exp_candy_shop.asm"

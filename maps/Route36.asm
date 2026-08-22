@@ -211,8 +211,8 @@ Route36LassScript:
 	cont "Ciudad Trigal."
 
 	para "Quería ir a ver el"
-	line "gran Centro#mon"
-	cont "recién abierto…"
+	line "Centro #mon que"
+	cont "abrieron allí…"
 	done
 
 TrainerSchoolboyAlan1:
@@ -720,11 +720,11 @@ Route36AdvancedTips1Text:
 Route36AdvancedTips2Text:
 	text "¡Consejo Avanzado!"
 
-	para "¡Si mimas a tus"
-	line "#mon con cortes"
-	cont "de pelo o masajes,"
+	para "Si cuidas de tus"
+	line "#mon dándoles"
+	cont "masajes y peinados"
 
-	para "¡te ayudarán en el"
-	line "combate gracias a"
-	cont "su gran afecto!"
+	para "¡te responderán"
+	line "en combate gracias"
+	cont "a su gran afecto!"
 	done

@@ -288,7 +288,8 @@ SaffronCityMagnetTrainStationSignText:
 
 PokemonTrainerFanClubSignText:
 	text "Club de Fans de"
-	line "Entrenadores #"
+	line "Entrenadores"
+	cont "#mon"
 
 	para "Muchos dejaron"
 	line "sus nombres aquí"

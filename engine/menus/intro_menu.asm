@@ -55,18 +55,14 @@ NewGamePlus:
 	jr _NewGame_FinishSetup
 
 .text
-	text "New Game+ will"
-	line "keep your previous"
+	text "¡Nueva Partida +"
+	line "conservará todo tu"
+	cont "dinero, Puntos de"
+	cont "Batalla y #mon"
+	cont "del PC anterior!"
 
-	para "game's money,"
-	line "Battle Points, and"
-
-	para "any #mon stored"
-	line "in the PC!"
-
-	para "Are you sure you"
-	line "you want to start"
-	cont "New Game+?"
+	para "¿Quieres iniciar"
+	line "Nueva Partida +?"
 	done
 
 NewGame:

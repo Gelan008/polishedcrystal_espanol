@@ -191,17 +191,14 @@ CeladonCityGramps2Text:
 	done
 
 CeladonCityPicnickerText:
-	text "It's our responsi-"
-	line "bility as Gym"
+	text "Cuidar de estas"
+	line "flores es nuestro"
+	cont "deber en el Gim."
 
-	para "trainers to tend"
-	line "to these flowers."
-
-	para "The University"
-	line "here also counts"
-
-	para "it as practical"
-	line "gardening credit."
+	para "La Universidad"
+	line "lo convalida como"
+	cont "créditos prácticos"
+	cont "de jardinería."
 	done
 
 CeladonCityYoungster1Text:

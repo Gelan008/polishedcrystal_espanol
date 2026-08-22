@@ -1370,16 +1370,16 @@ Tutorial_BallsPocketMenuDataHeader:
 	assert_table_length 3 ; just ITEM, MEDICINE, and BALL pockets
 
 Text_SortItemsHow:
-	text "How do you want"
-	line "to sort items?"
+	text "¿Cómo quieres"
+	line "ordenar objetos?"
 	done
 
 Text_NoEmptySlot:
-	text "There are no free"
-	line "register slots."
+	text "No quedan ranuras"
+	line "libres de acceso."
 
-	para "Unregister another"
-	line "item first."
+	para "Desasigna otro"
+	line "objeto primero."
 	prompt
 
 Text_ThrowAwayHowMany:

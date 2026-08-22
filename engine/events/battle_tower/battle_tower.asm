@@ -469,73 +469,75 @@ Special_BattleTower_NextRentalBattle:
 	ret
 
 .NewRentalsText:
-	text "We'll hold your"
-	line "#mon safe and"
-	cont "offer you 6 rental"
-	cont "#mon."
+	text "Guardaremos a tus"
+	line "#mon y te"
+	cont "ofreceremos 6 de"
+	cont "alquiler."
 
-	para "Choose #mon"
-	line "to enter."
+	para "Elige 3 #mon"
+	line "para participar."
 	prompt
 
 .TradeBeforeBattle:
-	text "Would you like to"
-	line "trade a #mon"
-	cont "before the battle?"
+	text "¿Quieres cambiar"
+	line "un #mon antes"
+	cont "del combate?"
 	done
 
 .ExpectThese3:
-	text "You can expect to"
-	line "see "
+	text "Es muy probable"
+	line "que veas a:"
+	cont ""
 	text_ram wOTPartyMonNicknames
 	text ","
 	cont ""
 	text_ram wOTPartyMonNicknames + MON_NAME_LENGTH
-	text " and"
+	text " y"
 	cont ""
 	text_ram wOTPartyMonNicknames + MON_NAME_LENGTH * 2
 	text "."
 	prompt
 
 .ExpectThese2:
-	text "You can expect to"
-	line "see "
+	text "Es muy probable"
+	line "que veas a:"
+	cont ""
 	text_ram wOTPartyMonNicknames
-	text " and"
+	text " y"
 	cont ""
 	text_ram wOTPartyMonNicknames + MON_NAME_LENGTH
 	text "."
 	prompt
 
 .ExactMonUsingMove:
-	text "You can expect to"
-	line "see a "
+	text "Es probable ver"
+	line "a un "
 	text_ram wOTPartyMonNicknames
-	cont "with "
+	cont "con "
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 .SomeMonUsingMove:
-	text "You can expect to"
-	line "see a #mon"
-	cont "with "
+	text "Es probable ver"
+	line "a un #mon con"
+	cont ""
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 .NoTypePreference:
-	text "The opponent"
-	line "doesn't have a"
-	cont "type preference."
+	text "Tu rival no tiene"
+	line "preferencia por"
+	cont "ningún tipo."
 	prompt
 
 .PrefersType:
-	text "The opponent"
-	line "favors "
+	text "Tu rival prefiere"
+	line "#mon de tipo"
+	cont ""
 	text_ram wStringBuffer1
-	text "-"
-	cont "type #mon."
+	text "."
 	prompt
 
 Special_BattleTower_SelectParticipants:
