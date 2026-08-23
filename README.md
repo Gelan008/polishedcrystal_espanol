@@ -1,7 +1,6 @@
 # 🌟 Pokémon Polished Crystal — Traducción al Español (v3.2.x)
 
-Traducción al español completa de **Pokémon Polished Crystal**, el popular hackrom de Pokémon Cristal para Game Boy Color.
-
+Traducción al español completa de **Pokémon Polished Crystal**
 ---
 
 README traducido de Rangi42
