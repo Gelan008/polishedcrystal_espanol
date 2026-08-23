@@ -17,11 +17,10 @@ AlanDefeatedMonText:
 	done
 
 AlanLostAMonText:
-	text "Por cierto, un "
+	text "Ayer se me escapó"
+	line "un "
 	text_ram wStringBuffer4
-	text ""
-	line "salvaje se nos"
-	cont "escapó ayer."
+	cont "salvaje."
 
 	para "Fue un error de"
 	line "cálculo mío…"

@@ -188,28 +188,28 @@ Special_DisplayCoinCaseBalance:
 	jmp PrintNum
 
 Special_DisplayMoneyAndCoinBalance:
-	hlcoord 5, 0
-	lb bc, 3, 13
+	hlcoord 4, 0
+	lb bc, 3, 14
 	call Textbox
-	hlcoord 6, 1
+	hlcoord 5, 1
 	ld de, MoneyString
 	rst PlaceString
 	hlcoord 11, 1
 	ld de, wMoney
 	lb bc, PRINTNUM_MONEY | 3, 7
 	call PrintNum
-	hlcoord 6, 3
+	hlcoord 5, 3
 	ld de, CoinString
 	rst PlaceString
-	hlcoord 14, 3
+	hlcoord 13, 3
 	ld de, wCoins
 	lb bc, 2, 5
 	jmp PrintNum
 
 MoneyString:
-	db "Money@"
+	db "Dinero@"
 CoinString:
-	db "Coin@"
+	db "Fichas@"
 
 StartMenu_DrawBugContestStatusBox:
 	hlcoord 0, 0
@@ -263,10 +263,10 @@ StartMenu_PrintBugContestStatus:
 	ret
 
 .Caught:
-	db "Caught@"
+	db "Atrap.@"
 .Balls:
 	db "Balls:@"
 .None:
-	db "None@"
+	db "Ning.@"
 .Level:
-	db "Level@"
+	db "Nivel@"

@@ -193,7 +193,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSet:
-	db "Time not set@"
+	db "Hora no fijada@"
 
 MainMenu_NewGame:
 	farjp NewGame

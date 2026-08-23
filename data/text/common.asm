@@ -432,7 +432,8 @@ SECTION "_WillTradeText", ROMX
 _WillTradeText::
 	text_ram wOTTrademonSenderName
 	text " va a"
-	line "cambiar a "
+	line "cambiar a"
+	cont ""
 	text_ram wOTTrademonSpeciesName
 	text_end
 
@@ -745,7 +746,7 @@ _LC_Text7::
 
 SECTION "_LC_Text8", ROMX
 _LC_Text8::
-	line "Suerte de hoy es "
+	line "Suerte es "
 	text_pause
 	text_ram wStringBuffer1
 	text "!"
@@ -1793,24 +1794,26 @@ Text_ABoostedStringBuffer2ExpPoints::
 	line "un extra de"
 	cont ""
 	text_decimal wStringBuffer2, 3, 6
-	text " Puntos Exp.!"
+	text " Puntos EXP!"
 	prompt
 
 SECTION "Text_StringBuffer2ExpPoints", ROMX
 Text_StringBuffer2ExpPoints::
 	line ""
 	text_decimal wStringBuffer2, 3, 6
-	text " Puntos Exp.!"
+	text " Puntos EXP!"
 	prompt
 
 SECTION "Text_GoPkmn", ROMX
 Text_GoPkmn::
-	text "¡Vamos, @"
+	text "¡Adelante,"
+	line "@"
 	text_end
 
 SECTION "Text_DoItPkmn", ROMX
 Text_DoItPkmn::
-	text "¡Hazlo, @"
+	text "¡Hazlo,"
+	line "@"
 	text_end
 
 SECTION "Text_GoForItPkmn", ROMX
@@ -1822,7 +1825,8 @@ Text_GoForItPkmn::
 SECTION "Text_YourFoesWeakGetmPkmn", ROMX
 Text_YourFoesWeakGetmPkmn::
 	text "¡Está débil!"
-	line "¡A por él, @"
+	line "¡A por él,"
+	cont "@"
 	text_end
 
 SECTION "Text_BattleMonNick01", ROMX
@@ -1857,7 +1861,7 @@ Text_GoodComeBack::
 
 SECTION "Text_ComeBack", ROMX
 Text_ComeBack::
-	text " ¡vuelve!"
+	line "¡vuelve!"
 	done
 
 SECTION "_BootedTMText", ROMX
@@ -2662,10 +2666,10 @@ _LuckyNumberMatchPartyText::
 	para "Hay un número de"
 	line "ID coincidente"
 
-	para "con el de "
+	para "con "
 	text_ram wStringBuffer2
-	text " en"
-	line "tu equipo."
+	text ","
+	line "de tu equipo."
 	prompt
 
 SECTION "_LuckyNumberMatchPCText", ROMX
@@ -2675,7 +2679,7 @@ _LuckyNumberMatchPCText::
 	para "Hay un número de"
 	line "ID coincidente"
 
-	para "con el de "
+	para "con "
 	text_ram wStringBuffer2
 	line "en la Caja"
 	cont "“"
@@ -2825,10 +2829,10 @@ _OakPCText2::
 SECTION "_OakPCText3", ROMX
 _OakPCText3::
 	text_decimal wTempDexSeen, 2, 3
-	text " #mon vistos"
+	text " vistos"
 	line ""
 	text_decimal wTempDexOwn, 2, 3
-	text " #mon atrapados"
+	text " atrapados"
 
 	para "Evaluación del"
 	line "Prof.Oak:"
@@ -3044,14 +3048,14 @@ _ItemsOakWarningText::
 
 SECTION "_PokemonSwapItemText", ROMX
 _PokemonSwapItemText::
-	text "Quitaste "
+	text "Quitaste"
+	line ""
 	text_ram wStringBuffer1
-	line "a "
+	para "a "
 	text_ram wMonOrItemNameBuffer
 	text " y"
-
-	para "ahora lleva"
-	line ""
+	line "ahora lleva"
+	cont ""
 	text_ram wStringBuffer2
 	prompt
 
@@ -3520,10 +3524,10 @@ _BargainShopIntroText::
 SECTION "_BargainShopFinalPriceText", ROMX
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
-	text " cuesta"
-	line ""
+	line "cuesta "
 	text_decimal hMoneyTemp, 3, 7
-	text "¥. ¿Lo quieres?"
+	text "¥."
+	cont "¿Lo quieres?"
 	done
 
 SECTION "_BargainShopThanksText", ROMX
@@ -3701,7 +3705,7 @@ BTMartCostsThisMuchText::
 	text " "
 	text_ram wStringBuffer1
 	text_plural
-	line "te costarán "
+	line "costarán "
 	text_decimal hMoneyTemp+1, 2, 4
 	text " PB."
 	done

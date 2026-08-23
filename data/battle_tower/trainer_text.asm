@@ -228,7 +228,7 @@ _BTLossM14Text:
 	done
 
 _BTWinM14Text:
-	text "Quiero tus #mon."
+	text "Dame tus #mon."
 	line "¿Por favor?"
 	done
 
@@ -346,8 +346,8 @@ _BTLossM21Text:
 	done
 
 _BTWinM21Text:
-	text "¡Grah! ¡Mis #mon"
-	line "eran unos flojos!"
+	text "¡Mis #mon eran"
+	line "unos flojos!"
 	done
 
 _BTGreetingM22Text:
@@ -489,8 +489,8 @@ _BTWinF5Text:
 	done
 
 _BTGreetingF6Text:
-	text "¿Quieres oír sobre"
-	line "mis lindos #mon?"
+	text "¿Hablamos de mis"
+	line "lindos #mon?"
 	done
 
 _BTLossF6Text:

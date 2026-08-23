@@ -1161,8 +1161,8 @@ NoRadioName:
 	ld bc, $412
 	jmp Textbox
 
-OaksPkmnTalkName:     db "Oak <PK><MN> al habla@"
-PokemonMusicName:     db "#mon Music@"
+OaksPkmnTalkName:     db "La Hora Oak@"
+PokemonMusicName:     db "Música #mon@"
 LuckyChannelName:     db "Canal Suerte@"
 UnknownStationName:   db "?????@"
 PlacesAndPeopleName:  db "Lugares & Gente@"
@@ -1607,7 +1607,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "A dónde@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -1630,7 +1630,7 @@ TownMapBubble:
 	ret
 
 .PokemonLeagueFlyName:
-	rawchar "Pokémon League@"
+	rawchar "Liga Pokémon@"
 
 GetMapCursorCoordinates:
 	ld a, [wTownMapPlayerIconLandmark]

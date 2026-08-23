@@ -51,9 +51,9 @@ DerekGreetNiteText:
 
 DerekGenericText:
 	text "¡Tienes que oír"
-	line "esto! ¡Mi "
+	line "esto! ¡Mi"
+	cont ""
 	text_ram wStringBuffer4
-	text ""
 	cont "me miró y sonrió!"
 
 	para "¡Nuestros dos"

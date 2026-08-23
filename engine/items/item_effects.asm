@@ -1815,21 +1815,21 @@ WingCase_MonSelected:
 	done
 
 .CancelStr:
-	db "Don't use.         @"
+	db "No usar.           @"
 
 .YouDontHaveAny:
-	db "You don't have any."
+	text "¡No tienes!"
 	prompt
 
 .UseHowManyText:
-	db "Use how many?     @"
+	db "¿Cuántos usar?    @"
 
 OnlyXWillBeAppliedText:
-	db "Only "
+	text "Solo "
 XWillBeAppliedText:
 	text_decimal wItemQuantityChangeBuffer, 1, 3
-	text " will be"
-	line "applied. Proceed?"
+	text " tendrán"
+	line "efecto. ¿Seguir?"
 	done
 
 INCLUDE "data/items/wing_names.asm"
@@ -2177,20 +2177,20 @@ CandyJar_MonSelected:
 	assert_table_length NUM_CANDIES
 
 .GivesExp:
-	text "Gives "
+	text "Da "
 	text_decimal wStringBuffer2, 2, 5
 	text " Exp."
 	done
 
 .CancelStr:
-	db "Don't use.         @"
+	db "No usar.           @"
 
 .YouDontHaveAny:
-	db "You don't have any."
+	text "¡No tienes!"
 	prompt
 
 .UseHowManyText:
-	db "Use how many?     @"
+	db "¿Cuántos usar?    @"
 
 CalcCandies:
 ; input:
@@ -2768,10 +2768,11 @@ Ball_ReplacePartyMonCaughtBall:
 	jmp PrintText
 
 BallReplacedText:
-	text "Put "
+	text "Metiste a"
+	line ""
 	text_ram wStringBuffer1
-	text " in"
-	line "the "
+	text " en"
+	cont "la "
 	text_ram wStringBuffer2
 	text "."
 	prompt
@@ -3143,15 +3144,15 @@ AbilityCap:
 	jr .loop
 
 ChangeAbilityToText:
-	text "Change ability to"
+	text "¿Cambiar hab. a"
 	line ""
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 AbilityChangedText:
-	text "The ability was"
-	line "changed!"
+	text "¡La habilidad"
+	line "ha cambiado!"
 	prompt
 
 INCLUDE "engine/battle_anims/pokeball_wobble.asm"

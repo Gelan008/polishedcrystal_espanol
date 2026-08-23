@@ -87,10 +87,9 @@ ProfOaksAide1HiText:
 
 ProfOaksAide1UhOhText:
 	text "A ver… ¡Vaya!"
-	line "Solo has atrapado"
-	cont ""
+	line "Solo llevas "
 	text_decimal wTempDexOwn, 2, 3
-	text " especies #mon."
+	cont "tipos de #mon."
 
 	para "Vuelve cuando"
 	line "tengas al menos 15"
@@ -99,10 +98,9 @@ ProfOaksAide1UhOhText:
 
 ProfOaksAide1HereYouGoText:
 	text "A ver… ¡Genial!"
-	line "Has atrapado "
+	line "¡Ya tienes "
 	text_decimal wTempDexOwn, 2, 3
-	text ""
-	line "especies #mon."
+	cont "tipos de #mon!"
 
 	para "¡Enhorabuena!"
 	line "¡Aquí tienes!"

@@ -94,7 +94,7 @@ SpecialTrendyPhrase:
 	jmp InitName
 
 .DefaultTrendyPhrase:
-	rawchar "Nothing@"
+	rawchar "Nada@"
 
 SpecialNameRater:
 	farjp NameRater

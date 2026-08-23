@@ -99,8 +99,9 @@ ShamoutiHotel1FArtistScript:
 	done
 
 ShamoutiHotel1FCooltrainermText:
-	text "¿Conque <TRENDY>"
-	line "es la nueva moda?"
+	text "¿Conque"
+	line "<TRENDY> es"
+	cont "la nueva moda?"
 
 	para "¡Mola un montón!"
 	done

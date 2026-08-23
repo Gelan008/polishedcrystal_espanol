@@ -62,7 +62,7 @@ if DEF(DEBUG)
 	setflag ENGINE_EXPN_CARD
 	; pokedex
 	setflag ENGINE_POKEDEX
-;	setflag ENGINE_UNOWN_DEX
+	setflag ENGINE_UNOWN_DEX
 	; judge machine
 	setflag ENGINE_JUDGE_MACHINE
 	; all key items

@@ -62,25 +62,24 @@ Script_BattleRoomLoop:
 	ifequalfwd BTCHALLENGE_FACILITYBRAIN, .WarnAboutTycoon
 .AskNextBattle:
 	writethistext
-		text "El siguiente,"
-		line "rival N"
+		text "El siguiente es"
+		line "el rival "
 		text_decimal wStringBuffer3, 2, 5
-		text "¿Listo?"
+		text "."
+		cont "¿Estás listo?"
 		done
 	sjumpfwd .ShownText
 .WarnAboutTycoon
 	writethistext
 		text "¡Felicidades por"
-		line "tu racha de"
-		cont "victorias,"
+		line "tu gran racha,"
 		cont "entrenador!"
 
-		para "El Amo Torre"
-		line "ha mandado decir"
-		cont "que tu habilidad"
-		cont "le impresiona."
+		para "Al Amo Torre"
+		line "le impresiona"
+		cont "tu habilidad."
 
-		para "¿Estás listo para"
+		para "¿Listo para"
 		line "luchar contra"
 		cont "el Amo Torre?"
 		done

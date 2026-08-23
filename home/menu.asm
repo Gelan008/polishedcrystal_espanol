@@ -395,7 +395,7 @@ NoYesMenuDataHeader::
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
 	db "No@"
-	db "Yes@"
+	db "Sí@"
 
 OffsetMenuDataHeader::
 	call _OffsetMenuDataHeader

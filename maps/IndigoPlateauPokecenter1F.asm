@@ -438,7 +438,7 @@ IndigoPlateauYellowScript:
 
 .GoodbyeText:
 	text "Amarillo: ¡Cuida"
-	line "bien de ese "
+	line "bien a "
 	text_ram wStringBuffer3
 	text "!"
 

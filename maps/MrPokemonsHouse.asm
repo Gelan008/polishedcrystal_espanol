@@ -369,10 +369,10 @@ MrPokemonText_GotShinyDitto:
 	done
 
 MrPokemonText_SentToPC:
-	text "El #mon fue"
-	line "enviado a "
+	text "¡#mon enviado"
+	line "a "
 	text_ram wStringBuffer1
-	text "."
+	text "!"
 	done
 
 MrPokemonText_PartyAndBoxFull:

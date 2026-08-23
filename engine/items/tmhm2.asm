@@ -205,10 +205,12 @@ TMHM_DisplayPocketItems:
 	push af
 	sub NUM_TMS
 	ld [wTempTMHM], a
-	ld a, '<BOLDH>'
+	ld a, 'M'
 	ld [hli], a
-	ld de, wTextDecimalByte
-	lb bc, PRINTNUM_LEFTALIGN | 1, 2
+	ld a, 'O'
+	ld [hli], a
+	ld de, wTempTMHM
+	lb bc, PRINTNUM_LEFTALIGN | 1, 1
 	call PrintNum
 	pop af
 	ld [wTempTMHM], a

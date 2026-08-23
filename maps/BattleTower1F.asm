@@ -145,7 +145,7 @@ BattleTower1FStreakText:
 	text "Racha: "
 	text_decimal wBattleTowerCurStreak, 2, 5
 	text " vict."
-	line "Récord: "
+	line "Máx: "
 	text_decimal wBattleTowerTopStreak, 2, 5
 	text " vict."
 	done
@@ -296,7 +296,7 @@ MenuDataHeader_BattleInfoCancel:
 MenuData2_BattleInfoCancel:
 	db $a0 ; flags
 	db 3
-	db "Batalla@"
+	db "Luchar@"
 	db "Info@"
 	db "Salir@"
 

@@ -310,7 +310,7 @@ DrainKissDescription:
 
 DoubleSlapDescription:
 	text "Da de 2 a 5"
-	next "bofetadas seguidas."
+	next "bofetadas."
 	done
 
 FuryStrikesDescription:
@@ -319,8 +319,8 @@ FuryStrikesDescription:
 	done
 
 PinMissileDescription:
-	text "Lanza espinas que"
-	next "dan de 2 a 5 veces."
+	text "Lanza espinas de"
+	next "2 a 5 veces."
 	done
 
 IcicleSpearDescription:
@@ -329,8 +329,8 @@ IcicleSpearDescription:
 	done
 
 RockBlastDescription:
-	text "Lanza rocas que"
-	next "dan de 2 a 5 veces."
+	text "Lanza rocas de"
+	next "2 a 5 veces."
 	done
 
 TakeDownDescription:
@@ -593,7 +593,7 @@ AgilityDescription:
 
 NastyPlotDescription:
 	text "Sube mucho el"
-	next "At.Esp del usuario."
+	next "At.Esp del #mon"
 	done
 
 AmnesiaDescription:
@@ -613,22 +613,22 @@ GrowthDescription:
 
 BulkUpDescription:
 	text "Sube el Ataque y"
-	next "la Defensa usuario."
+	next "la Def."
 	done
 
 CalmMindDescription:
 	text "Sube el At.Esp y"
-	next "la Def.Esp usuario."
+	next "Def.Esp."
 	done
 
 DragonDanceDescription:
 	text "Sube el Ataque y"
-	next "la Vel. del usu."
+	next "la Vel."
 	done
 
 HoneClawsDescription:
 	text "Sube el Ataque y"
-	next "la precisión usu."
+	next "la precisión."
 	done
 
 GrowlDescription:

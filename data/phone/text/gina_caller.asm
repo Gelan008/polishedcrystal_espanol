@@ -93,8 +93,9 @@ GinaReminderText:
 	line "¿Cuándo nos vemos"
 	cont "para el combate?"
 
-	para "¡No lo olvides,"
-	line "estoy en "
+	para "¡Recuerda que"
+	line "estoy en"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
 	done

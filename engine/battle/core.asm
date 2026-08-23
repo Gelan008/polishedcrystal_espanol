@@ -8238,11 +8238,11 @@ ShowLinkBattleResult:
 	jmp ClearTileMap
 
 .Win:
-	db "You Win@"
+	db "¡Ganas!@"
 .Lose:
-	db "You Lose@"
+	db "¡Pierdes!@"
 .Draw:
-	db "  Draw@"
+	db " Empate@"
 
 DisplayLinkRecord:
 	ld a, BANK(sLinkBattleStats)

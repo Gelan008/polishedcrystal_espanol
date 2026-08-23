@@ -281,7 +281,7 @@ MemoryGame_CheckMatch:
 	inc [hl]
 	inc [hl]
 	ld d, 0
-	hlcoord 5, 0
+	hlcoord 6, 0
 	add hl, de
 	call MemoryGame_PlaceCard
 	ld hl, .VictoryText
@@ -443,16 +443,16 @@ MemoryGame_InitStrings:
 	hlcoord 0, 0
 	ld de, .japstr1
 	rst PlaceString
-	hlcoord 15, 0
+	hlcoord 11, 0
 	ld de, .japstr2
 	rst PlaceString
 	ld hl, EmptyString
 	jmp PrintText
 
 .japstr1
-	db "№.Cards@"
+	db "№.Cart@"
 .japstr2
-	db "№.Turns@"
+	db "№.Turn@"
 
 MemoryGame_Card2Coord:
 	ld d, 0

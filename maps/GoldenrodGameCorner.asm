@@ -200,9 +200,9 @@ GoldenrodGameCornerTMVendorMenuData:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "TM35    {d:GOLDENRODGAMECORNER_TM35_COINS}@"
-	db "TM24    {d:GOLDENRODGAMECORNER_TM24_COINS}@"
-	db "TM13    {d:GOLDENRODGAMECORNER_TM13_COINS}@"
+	db "MT35    {d:GOLDENRODGAMECORNER_TM35_COINS}@"
+	db "MT24    {d:GOLDENRODGAMECORNER_TM24_COINS}@"
+	db "MT13    {d:GOLDENRODGAMECORNER_TM13_COINS}@"
 	db "Salir@"
 
 GoldenrodGameCornerPrizeMonVendorScript:

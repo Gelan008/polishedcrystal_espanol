@@ -61,7 +61,7 @@ TrainerClassNames::
 	li "Médium"          ; PSYCHIC_T
 	li "Bruja"       ; HEX_MANIAC
 	li "Pensador"             ; SAGE
-	li "Medium"           ; MEDIUM
+	li "Médium"           ; MEDIUM
 	li "Chica Kimono"      ; KIMONO_GIRL
 	li "Anciano"            ; ELDER
 	li "Sr.& Jr."         ; SR_AND_JR

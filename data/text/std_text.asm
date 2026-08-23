@@ -242,7 +242,7 @@ TrashCanText:
 	done
 
 PokeCenterSignText:
-	text "¡Cura a tu #mon!"
+	text "¡Cura tus #mon!"
 	line "Centro #mon"
 	done
 
@@ -270,7 +270,7 @@ ContestResults_ReadyToJudgeText:
 
 ContestResults_PlayerWonAPrizeText:
 	text "¡<PLAYER>, en el"
-	line "puesto N "
+	line "puesto "
 	text_ram wStringBuffer3
 	cont "gana "
 	text_ram wStringBuffer4

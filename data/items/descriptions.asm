@@ -363,8 +363,8 @@ HeavyBallDesc:
 	done
 
 LoveBallDesc:
-	text "Ball para #mon de"
-	next "género opuesto."
+	text "Ball para #mon"
+	next "de otro género."
 	done
 
 AbilityPatchDesc:
@@ -585,8 +585,8 @@ MoomooMilkDesc:
 	done
 
 SacredAshDesc:
-	text "Revive a todos los"
-	next "#mon debilitados."
+	text "Revive por entero"
+	next "a todo el equipo."
 	done
 
 EnergyPowderDesc:
@@ -1666,8 +1666,8 @@ LiftKeyDesc:
 	done
 
 ShinyCharmDesc:
-	text "Amuleto para ver"
-	next "#mon variocolor."
+	text "Amuleto que atrae"
+	next "a variocolores."
 	done
 
 OvalCharmDesc:
@@ -1682,7 +1682,7 @@ CatchCharmDesc:
 
 SilphScope2Desc:
 	text "Visor para ver a"
-	next "#mon invisibles."
+	next "#mon ocultos."
 	done
 
 ApricornBoxDesc:

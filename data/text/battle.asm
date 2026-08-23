@@ -449,8 +449,7 @@ BattleText_EnemySentOut:
 	done
 
 BattleText_TheresNoWillToBattle:
-	text "¡No hay ganas de"
-	line "luchar!"
+	text "¡No puede luchar!"
 	prompt
 
 BattleText_AnEGGCantBattle:

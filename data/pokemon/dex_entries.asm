@@ -465,8 +465,8 @@ ParasectPokedexEntry::
 	next "nada que extraer,"
 	next "los hongos de su"
 	page "espalda dejan"
-	next "esporas en el"
-	next "huevo del insecto.@"
+	next "esporas en los"
+	next "huevos de insecto.@"
 
 SECTION "VenonatPokedexEntry", ROMX
 VenonatPokedexEntry::
@@ -2041,13 +2041,13 @@ RemoraidPokedexEntry::
 	db "Chorro@"
 	text "Escupe agua para"
 	next "huir y nada hacia"
-	next "atrás con impulso.@"
+	next "atrás muy rápido.@"
 
 SECTION "OctilleryPokedexEntry", ROMX
 OctilleryPokedexEntry::
 	db "Chorro@"
 	text "Se tapa en hoyos."
-	next "Roba los nidos de"
+	next "Roba nidos de"
 	next "otros para dormir.@"
 
 SECTION "DelibirdPokedexEntry", ROMX
@@ -2340,7 +2340,7 @@ MagnezonePokedexEntry::
 	db "Campo Imán@"
 	text "Evolucionó por un"
 	next "campo magnético."
-	next "Genera imantación.@"
+	next "Crea magnetismo.@"
 
 SECTION "LickilickyPokedexEntry", ROMX
 LickilickyPokedexEntry::
@@ -2429,7 +2429,7 @@ SECTION "PorygonZPokedexEntry", ROMX
 PorygonZPokedexEntry::
 	db "Virtual@"
 	text "Su programa cambió"
-	next "para trabajar en"
+	next "para operar en"
 	next "otras dimensiones.@"
 
 SECTION "SylveonPokedexEntry", ROMX
@@ -2702,7 +2702,7 @@ SECTION "PonytaGalarianPokedexEntry", ROMX
 PonytaGalarianPokedexEntry::
 	db "ÚnicoCuerno@"
 	text "Lee tu corazón con"
-	next "la mirada. Si ve"
+	next "la mirada. Si nota"
 	next "maldad, se oculta.@"
 
 SECTION "RapidashGalarianPokedexEntry", ROMX
@@ -2854,7 +2854,7 @@ TaurosPaldeanFirePokedexEntry::
 	db "Toro Salv.@"
 	text "Sus cuernos arden"
 	next "1800 grados y"
-	next "causan quemaduras.@"
+	next "causan quemazón.@"
 
 SECTION "TaurosPaldeanWaterPokedexEntry", ROMX
 TaurosPaldeanWaterPokedexEntry::

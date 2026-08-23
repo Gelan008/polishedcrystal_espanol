@@ -144,10 +144,10 @@ BattleFactory1FStreakText:
 	text "Racha: "
 	text_decimal wBattleFactoryCurStreak, 2, 5
 	text " vict."
-	line "Récord: "
+	line "Máx: "
 	text_decimal wBattleFactoryTopStreak, 2, 5
 	text " vict."
-	cont "Cambios actuales: "
+	cont "Cambios: "
 	text_decimal wBattleFactorySwapCount, 1, 2
 	done
 
