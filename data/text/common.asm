@@ -350,7 +350,7 @@ _MomHiHowAreYouText::
 
 SECTION "_MomFoundAnItemText", ROMX
 _MomFoundAnItemText::
-	text "Hallé un objeto"
+	text "Vi un objeto"
 	line "muy útil, así que"
 	prompt
 
@@ -2398,17 +2398,17 @@ Text_BattleUser::
 
 SECTION "_BattleTookSunlightText", ROMX
 _BattleTookSunlightText::
-	line "absorbió luz!"
+	line "¡absorbió luz!"
 	prompt
 
 SECTION "_BattleFlewText", ROMX
 _BattleFlewText::
-	line "voló muy alto!"
+	line "¡voló muy alto!"
 	prompt
 
 SECTION "_BattleDugText", ROMX
 _BattleDugText::
-	line "cavó un hoyo!"
+	line "¡cavó un hoyo!"
 	prompt
 
 SECTION "Text_BreedHuh", ROMX
@@ -2419,9 +2419,10 @@ Text_BreedHuh::
 
 SECTION "_BreedEggHatchText", ROMX
 _BreedEggHatchText::
+	text "¡"
 	text_ram wStringBuffer1
 	text " salió"
-	line "de su Huevo!"
+	line "del huevo!"
 	text_sound SFX_CAUGHT_MON
 	text_promptbutton
 	text_end
