@@ -188,9 +188,9 @@ RattataPlainPokedexEntry::
 	text "Su impresionante"
 	next "vitalidad le"
 	next "permite vivir en"
-	page "todo sitio. Se"
-	next "multiplica muy"
-	next "rápido.@"
+	page "cualquier lugar."
+	next "Se reproduce"
+	next "muy rápido.@"
 
 SECTION "RaticatePlainPokedexEntry", ROMX
 RaticatePlainPokedexEntry::
@@ -902,9 +902,9 @@ GastlyPokedexEntry::
 	text "Rodea al rival con"
 	next "su cuerpo gaseoso"
 	next "y debilita a su"
-	page "presa al envenenar"
-	next "la a través de"
-	next "la piel.@"
+	page "presa al filtrarle"
+	next "veneno a través"
+	next "de la piel.@"
 
 SECTION "HaunterPokedexEntry", ROMX
 HaunterPokedexEntry::

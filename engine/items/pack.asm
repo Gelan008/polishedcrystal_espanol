@@ -232,8 +232,8 @@ MenuDataHeader_SortTMs:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "Por Número@"
-	db "Por Nombre@"
+	db "Por Núm@"
+	db "Por Nom@"
 	db "Salir@"
 
 MenuDataHeader_SortItems:
@@ -246,7 +246,7 @@ MenuDataHeader_SortItems:
 	db $c0 ; flags
 	db 3 ; items
 	db "Por Tipo@"
-	db "Por Nombre@"
+	db "Por Nom@"
 	db "Salir@"
 
 Jumptable_SortItems:

@@ -81,11 +81,11 @@ INCLUDE "gfx/stats/egg_page.pal"
 	done
 
 .EggString:
-	text "Egg"
+	text "Huevo"
 	done
 
 .OTString:
-	text "OT/?????"
+	text "EO/?????"
 	done
 
 .IDString:
@@ -93,27 +93,27 @@ INCLUDE "gfx/stats/egg_page.pal"
 	done
 
 .SoonString:
-	text "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!"
+	text "¡Se oyen ruidos"
+	next "dentro! ¡Pronto"
+	next "saldrá del Huevo!"
 	done
 
 .CloseString:
-	text "It moves around"
-	next "sometimes. It's"
-	next "close to hatching."
+	text "A veces se mueve."
+	next "¡Debería abrirse"
+	next "muy pronto!"
 	done
 
 .MoreTimeString:
-	text "Wonder what's"
-	next "inside? It needs"
-	next "more time, though."
+	text "¿Qué saldrá de"
+	next "aquí? Todavía le"
+	next "falta tiempo."
 	done
 
 .ALotMoreTimeString:
-	text "This Egg needs a"
-	next "lot more time to"
-	next "hatch."
+	text "Este Huevo tardará"
+	next "mucho tiempo en"
+	next "abrirse."
 	done
 
 .AnimateEgg:

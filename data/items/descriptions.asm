@@ -313,13 +313,13 @@ PokeBallDesc:
 	done
 
 GreatBallDesc:
-	text "Ball con buen ratio"
-	next "de captura."
+	text "Ball con buen"
+	next "ratio de captura."
 	done
 
 UltraBallDesc:
-	text "Ball con alto ratio"
-	next "de captura."
+	text "Ball con alto"
+	next "ratio de captura."
 	done
 
 MasterBallDesc:
@@ -368,8 +368,8 @@ LoveBallDesc:
 	done
 
 AbilityPatchDesc:
-	text "Otorga la habili-"
-	next "dad oculta."
+	text "Otorga la"
+	next "habilidad oculta."
 	done
 
 RepeatBallDesc:
@@ -423,8 +423,8 @@ DreamBallDesc:
 	done
 
 PremierBallDesc:
-	text "Rara Ball de con-"
-	next "memoración."
+	text "Rara Ball de"
+	next "conmemoración."
 	done
 
 CherishBallDesc:

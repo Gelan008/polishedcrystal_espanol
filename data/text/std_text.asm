@@ -215,8 +215,8 @@ TVText:
 	done
 
 WrongSideText:
-	text "Uy, lado equivoca-"
-	line "do."
+	text "Uy, lado"
+	line "equivocado."
 	done
 
 RadioOffAirText:

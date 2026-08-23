@@ -352,13 +352,13 @@ GotMoneyForWinningText:
 	prompt
 
 BattleText_EnemyWasDefeated:
-	text "¡<PLAYER> venció"
-	line "a <ENEMY>!"
+	text "¡<PLAYER> venció a"
+	line "<ENEMY>!"
 	prompt
 
 BattleText_EnemyWereDefeated:
-	text "¡<PLAYER> venció"
-	line "a <ENEMY>!"
+	text "¡<PLAYER> venció a"
+	line "<ENEMY>!"
 	prompt
 
 TiedAgainstText:
@@ -764,14 +764,14 @@ DisabledMoveText:
 	prompt
 
 UsedMoveText:
-	text "<USER>"
+	text "¡<USER>"
 	line "usó "
 	text_ram wStringBuffer2
 	text "!"
 	done
 
 UsedMoveInsteadText:
-	text "<USER>"
+	text "¡<USER>"
 	line "usó en su lugar"
 	cont ""
 	text_ram wStringBuffer2
@@ -1694,15 +1694,16 @@ EunaFinalPkmnText:
 	prompt
 
 FalknerFinalPkmnText:
-	text "¡Por fin el viento"
-	line "está a favor!"
+	text "¡El viento sopla"
+	line "a nuestro favor!"
 	prompt
+
 
 BugsyFinalPkmnText:
 	text "Aunque sea"
 	line "mi último #mon,"
 
-	para "¡los bicho son"
+	para "¡los bichos son"
 	line "muy duros!"
 	prompt
 
@@ -1736,10 +1737,14 @@ PryceFinalPkmnText:
 	prompt
 
 ClairFinalPkmnText:
-	text "¿Te queda solo un"
-	line "#mon? ¡Ahora"
-	cont "empieza lo bueno!"
+	text "¿Mi último"
+	line "#mon?"
+
+	para "¡Ahora empieza el"
+	line "combate de verdad!"
 	prompt
+
+
 
 WillFinalPkmnText:
 	text "¡Los psíquicos no"
@@ -1809,7 +1814,7 @@ SabrinaFinalPkmnText:
 BlaineFinalPkmnText:
 	text "¡Te enseñaré el"
 	line "espíritu de mi"
-	cont "Gimnasio cueva!"
+	cont "Gimnasio!"
 	prompt
 
 BlueFinalPkmnText:

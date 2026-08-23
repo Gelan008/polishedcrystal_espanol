@@ -8,13 +8,13 @@ Pokedex_AreaTypeLists:
 	li "Caña Vieja"
 	li "Caña Buena"
 	li "Súper Caña"
-	li "Golpe Cabeza"
+	li "G. Cabeza"
 if DEF(FAITHFUL)
 	li "Golpe Roca"
 else
 	li "Demolición"
 endc
-	li "Concurs. Bicho"
+	li "Con.Bichos"
 	li "Errante"
 	setcharmap default
 	assert_list_length NUM_DEXAREAS

@@ -3451,7 +3451,7 @@ _MartFinalPriceText::
 	text " "
 	text_ram wStringBuffer2
 	text_plural
-	line "serán"
+	line "serán "
 	text_decimal hMoneyTemp, 3, 7
 	text "¥."
 	done
@@ -3854,10 +3854,14 @@ _AskForgetMoveText::
 	text_ram wStringBuffer2
 	text "!"
 
-	para "¿Debe olvidar un"
-	line "mov. antiguo para"
+	para "Pero ya conoce"
+	line "4 movimientos."
+
+	para "¿Quieres que"
+	line "olvide uno para"
 	cont "aprenderlo?"
 	done
+
 
 SECTION "Text_MoveForgetCount", ROMX
 Text_MoveForgetCount::

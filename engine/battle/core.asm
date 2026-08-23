@@ -4609,7 +4609,7 @@ BattleMenuPKMN_Loop:
 	db 3 ; items
 	db "Cambiar@"
 	db "Datos@"
-	db "Cancelar@"
+	db "Salir@"
 
 AI_OpponentCanSwitch:
 	call StackCallOpponentTurn

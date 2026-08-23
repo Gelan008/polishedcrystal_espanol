@@ -138,7 +138,7 @@ Route32CooltrainerMTrigger:
 
 .IntroText:
 	text "Tienes unos buenos"
-	line "#mon ahí."
+	line "#mon."
 
 	para "Se nota que los"
 	line "has entrenado por"
@@ -817,7 +817,7 @@ Route32CooltrainerMText_VioletGym:
 Text_MillionDollarSlowpokeTail:
 	text "¿Quieres una rica"
 	line "y nutritiva"
-	cont "Colaslowpoke?"
+	cont "Cola Slowpoke?"
 
 	para "¡Para ti ahora,"
 	line "por tan solo"

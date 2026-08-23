@@ -710,11 +710,10 @@ Route36AdvancedTips1Text:
 
 	assert NUM_FRAMES == 20
 	para "¡Elige entre 20"
-	line "marcos de diálogo"
-	cont "y"
+	line "marcos de cuadro"
 	assert NUM_FONTS == 8
-	cont "8 tipografías"
-	cont "en Opciones!"
+	cont "y 8 fuentes en"
+	cont "el menú Opciones!"
 	done
 
 Route36AdvancedTips2Text:
