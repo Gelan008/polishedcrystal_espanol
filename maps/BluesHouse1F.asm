@@ -69,7 +69,7 @@ DaisyScript:
 	line "muy guapo?"
 
 	para "Es un #mon tan"
-	line "lindo."
+	line "mono."
 	done
 
 .IntroText:

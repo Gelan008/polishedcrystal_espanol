@@ -48,7 +48,7 @@ TiffanyGiftText:
 	text "Has tardado mucho."
 	line "¿Ves esto?"
 
-	para "¿No es lindo? Es"
+	para "¿No es mono? Es"
 	line "la PlumaFeérica de"
 	cont "mi Clefairy."
 	done

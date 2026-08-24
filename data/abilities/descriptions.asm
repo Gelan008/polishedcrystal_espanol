@@ -478,7 +478,7 @@ SwarmDescription:
 
 RockHeadDescription:
 	text "Evita el daño de"
-	next "reculada."
+	next "retroceso."
 	done
 
 DroughtDescription:

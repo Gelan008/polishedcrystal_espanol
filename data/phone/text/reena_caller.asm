@@ -7,7 +7,7 @@ ReenaMonsIsAPerfectMatchText:
 	text "?"
 
 	para "Sí, exacto. Ese"
-	line "lindo "
+	line "monisimo "
 	text_ram wStringBuffer4
 	text "."
 

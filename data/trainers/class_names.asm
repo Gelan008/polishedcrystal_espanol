@@ -36,7 +36,7 @@ TrainerClassNames::
 	li "Cazabichos"      ; BUG_CATCHER
 	li "Campista"           ; CAMPER
 	li "Dominguera"        ; PICNICKER
-	li "Gemenlos"            ; TWINS
+	li "Gemelos"            ; TWINS
 	li "Pescador"        ; FISHER
 	li "Ornitólogo"      ; BIRD_KEEPER
 	li "Montañero"            ; HIKER

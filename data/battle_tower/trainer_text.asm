@@ -490,7 +490,7 @@ _BTWinF5Text:
 
 _BTGreetingF6Text:
 	text "¿Hablamos de mis"
-	line "lindos #mon?"
+	line "#mon monos?"
 	done
 
 _BTLossF6Text:

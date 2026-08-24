@@ -275,8 +275,8 @@ SECTION "SandslashPlainPokedexEntry", ROMX
 SandslashPlainPokedexEntry::
 	db "Ratón@"
 	text "Experto en trepar"
-	next "árboles, se ruda"
-	next "como una bola de"
+	next "árboles, se hace"
+	next "una bola de"
 	page "púas y ataca a sus"
 	next "enemigos desde"
 	next "arriba.@"
@@ -294,11 +294,11 @@ SECTION "NidorinaPokedexEntry", ROMX
 NidorinaPokedexEntry::
 	db "Pin Veneno@"
 	text "Tiene un carácter"
-	next "dócil. Si siente"
-	next "amenazada, eriza"
-	page "las púas que"
-	next "cubren todo su"
-	next "cuerpo.@"
+	next "dócil. Si se"
+	next "siente amenazada,"
+	page "eriza las púas"
+	next "que cubren todo"
+	next "su cuerpo.@"
 
 SECTION "NidoqueenPokedexEntry", ROMX
 NidoqueenPokedexEntry::
@@ -383,7 +383,7 @@ NinetalesPlainPokedexEntry::
 SECTION "JigglypuffPokedexEntry", ROMX
 JigglypuffPokedexEntry::
 	db "Globo@"
-	text "Mueve sus lindos"
+	text "Mueve sus bonitos"
 	next "ojos mientras"
 	next "canta una dulce"
 	page "nana. Su suave"
@@ -414,7 +414,7 @@ GolbatPokedexEntry::
 	db "Murciélago@"
 	text "Por muy dura que"
 	next "sea la piel de su"
-	next "víctima, la clava"
+	next "presa, la perfora"
 	page "con sus colmillos"
 	next "y se atiborra de"
 	next "sangre.@"
@@ -422,21 +422,21 @@ GolbatPokedexEntry::
 SECTION "OddishPokedexEntry", ROMX
 OddishPokedexEntry::
 	db "Hierba@"
-	text "De día queda bajo"
-	next "tierra para evitar"
-	next "el sol. Crece al"
-	page "bañarse con la luz"
-	next "de la luna.@"
+	text "De día se mete"
+	next "bajo tierra para"
+	next "evitar el sol."
+	page "Crece al bañarse"
+	next "con la luz de la"
+	next "luna.@"
 
 SECTION "GloomPokedexEntry", ROMX
 GloomPokedexEntry::
 	db "Hierba@"
-	text "El olor de su"
-	next "baboso jarabe y el"
-	next "polen de sus"
-	page "pétalos es tan"
-	next "malo que puede"
-	next "hacer desmayar.@"
+	text "El olor de su néc-"
+	next "tar y el polen de"
+	next "sus flores pueden"
+	page "provocar desmayos"
+	next "a quien los huela.@"
 
 SECTION "VileplumePokedexEntry", ROMX
 VileplumePokedexEntry::
@@ -461,11 +461,10 @@ ParasPokedexEntry::
 SECTION "ParasectPokedexEntry", ROMX
 ParasectPokedexEntry::
 	db "Hongos@"
-	text "Cuando no queda"
-	next "nada que extraer,"
-	next "los hongos de su"
-	page "espalda dejan"
-	next "esporas en los"
+	text "Al quedarse sin"
+	next "nutrientes, los"
+	next "hongos de su lomo"
+	page "dejan esporas en"
 	next "huevos de insecto.@"
 
 SECTION "VenonatPokedexEntry", ROMX
@@ -521,12 +520,12 @@ MeowthPlainPokedexEntry::
 SECTION "PersianPlainPokedexEntry", ROMX
 PersianPlainPokedexEntry::
 	db "Gato Eleg.@"
-	text "Tras su aspecto"
-	next "Agil y elegante,"
-	next "esconde su lado"
-	page "salvaje. Rompe"
-	next "a sus presas por"
-	next "puro capricho.@"
+	text "Tras su porte ágil"
+	next "y elegante oculta"
+	next "su lado salvaje."
+	page "Desgarra a sus"
+	next "presas por puro"
+	next "capricho.@"
 
 SECTION "PsyduckPokedexEntry", ROMX
 PsyduckPokedexEntry::
@@ -561,7 +560,7 @@ MankeyPokedexEntry::
 SECTION "PrimeapePokedexEntry", ROMX
 PrimeapePokedexEntry::
 	db "Mono Cerdo@"
-	text "Goleará a todo el"
+	text "Golpeará a todo el"
 	next "que le haga rabiar"
 	next "aunque tenga que"
 	page "perseguirlo hasta"
@@ -659,7 +658,8 @@ MachokePokedexEntry::
 	next "da siempre todo."
 	next "Sus músculos se"
 	page "vuelven más densos"
-	next "tras cada combate@"
+	next "tras cada"
+	next "combate.@"
 
 SECTION "MachampPokedexEntry", ROMX
 MachampPokedexEntry::
@@ -974,7 +974,7 @@ KinglerPokedexEntry::
 SECTION "VoltorbPokedexEntry", ROMX
 VoltorbPokedexEntry::
 	db "Bola@"
-	text "Estudiandolo, se"
+	text "Al estudiarlo, se"
 	next "descubrió que sus"
 	next "componentes no"
 	page "existen en la"
@@ -1002,9 +1002,9 @@ ExeggcutePokedexEntry::
 SECTION "ExeggutorPlainPokedexEntry", ROMX
 ExeggutorPlainPokedexEntry::
 	db "Coco@"
-	text "Vivir en un buen"
-	next "entorno hace que"
-	next "le crezcan cabezas"
+	text "Un buen entorno"
+	next "hace que le crez-"
+	next "can más cabezas."
 	page "La que se le cae"
 	next "se convierte en"
 	next "un Exeggcute.@"
@@ -1089,7 +1089,7 @@ RhydonPokedexEntry::
 	text "Girando un poco su"
 	next "cuerno taladro,"
 	next "puede romper un"
-	page "diamante bruto"
+	page "diamante en bruto"
 	next "fácilmente.@"
 
 SECTION "ChanseyPokedexEntry", ROMX
@@ -1467,9 +1467,10 @@ SECTION "MeganiumPokedexEntry", ROMX
 MeganiumPokedexEntry::
 	db "Hierba@"
 	text "Estar a su lado"
-	next "reconforta como"
-	next "si descansaras en"
-	page "un bosque soleado.@"
+	next "reconforta como si"
+	next "descansaras en un"
+	page "bosque lleno de"
+	next "sol.@"
 
 SECTION "CyndaquilPokedexEntry", ROMX
 CyndaquilPokedexEntry::
@@ -1561,9 +1562,10 @@ SECTION "LedybaPokedexEntry", ROMX
 LedybaPokedexEntry::
 	db "Cinco Est.@"
 	text "Es tímido y va en"
-	next "grupo. El fluido"
-	next "de patas delata"
-	page "su posición.@"
+	next "grupo. El líquido"
+	next "de sus patas"
+	page "delata su"
+	next "posición.@"
 
 SECTION "LedianPokedexEntry", ROMX
 LedianPokedexEntry::
@@ -1661,8 +1663,8 @@ SECTION "NatuPokedexEntry", ROMX
 NatuPokedexEntry::
 	db "Pajarito@"
 	text "Escala muy bien"
-	next "los troncos y le"
-	next "come los brotes"
+	next "los troncos para"
+	next "comer los brotes"
 	page "de los árboles.@"
 
 SECTION "XatuPokedexEntry", ROMX
@@ -1679,7 +1681,8 @@ MareepPokedexEntry::
 	text "Guarda aire en su"
 	next "lana para estar"
 	next "fresco en verano y"
-	page "cálido en el frío.@"
+	page "abrigado con el"
+	next "frío.@"
 
 SECTION "FlaaffyPokedexEntry", ROMX
 FlaaffyPokedexEntry::
@@ -1810,9 +1813,10 @@ QuagsirePokedexEntry::
 	db "Pez Agua@"
 	text "Su cuerpo es muy"
 	next "viscoso. Se da"
-	next "golpes en cabeza"
-	page "al nadar, pero no"
-	next "le importa.@"
+	next "golpes en la"
+	page "cabeza al nadar,"
+	next "pero no le"
+	next "importa.@"
 
 SECTION "EspeonPokedexEntry", ROMX
 EspeonPokedexEntry::
@@ -2046,9 +2050,10 @@ RemoraidPokedexEntry::
 SECTION "OctilleryPokedexEntry", ROMX
 OctilleryPokedexEntry::
 	db "Chorro@"
-	text "Se tapa en hoyos."
-	next "Roba nidos de"
-	next "otros para dormir.@"
+	text "Se mete en hoyos."
+	next "Roba los nidos de"
+	next "otros para poder"
+	page "dormir en ellos.@"
 
 SECTION "DelibirdPokedexEntry", ROMX
 DelibirdPokedexEntry::
@@ -2099,17 +2104,19 @@ KingdraPokedexEntry::
 SECTION "PhanpyPokedexEntry", ROMX
 PhanpyPokedexEntry::
 	db "LargoHocico@"
-	text "Va a la orilla de"
-	next "mañana y usa su"
+	text "Va a la orilla por"
+	next "la mañana y usa su"
 	next "trompa para"
 	page "ducharse.@"
 
 SECTION "DonphanPokedexEntry", ROMX
 DonphanPokedexEntry::
 	db "Coraza@"
-	text "Su piel es tan"
-	next "tan dura que nada"
-	next "no le hacen nada.@"
+	text "Tiene una piel tan"
+	next "dura que ningún"
+	next "ataque común le"
+	page "causará el menor"
+	next "rasguño.@"
 
 SECTION "Porygon2PokedexEntry", ROMX
 Porygon2PokedexEntry::
@@ -2263,7 +2270,8 @@ AzurillPokedexEntry::
 	db "Lunares@"
 	text "Su cola guarda"
 	next "nutrientes. Juega"
-	next "botando en ella.@"
+	next "dando botes"
+	page "sobre ella.@"
 
 SECTION "WynautPokedexEntry", ROMX
 WynautPokedexEntry::
@@ -2317,9 +2325,10 @@ HappinyPokedexEntry::
 SECTION "MunchlaxPokedexEntry", ROMX
 MunchlaxPokedexEntry::
 	db "Glotón@"
-	text "Traga comida con"
-	next "tanta prisa que"
-	next "olvida la guarda.@"
+	text "Engulle comida sin"
+	next "masticar y olvida"
+	next "la que esconde"
+	page "en su pelaje.@"
 
 SECTION "MantykePokedexEntry", ROMX
 MantykePokedexEntry::
@@ -2347,7 +2356,8 @@ LickilickyPokedexEntry::
 	db "Lamedor@"
 	text "Su larga lengua"
 	next "siempre gotea."
-	next "Su saliva duerme.@"
+	next "Su saliva duerme a"
+	page "quien la toca.@"
 
 SECTION "RhyperiorPokedexEntry", ROMX
 RhyperiorPokedexEntry::
@@ -2369,8 +2379,8 @@ ElectivirePokedexEntry::
 	db "Rayo@"
 	text "Toca al rival con"
 	next "sus dos colas y"
-	next "soltar 20.000"
-	page "voltios.@"
+	next "le descarga 20.000"
+	page "voltios de golpe.@"
 
 SECTION "MagmortarPokedexEntry", ROMX
 MagmortarPokedexEntry::
@@ -2421,16 +2431,19 @@ SECTION "MamoswinePokedexEntry", ROMX
 MamoswinePokedexEntry::
 	db "DobleColmi@"
 	text "Sus colmillos son"
-	next "de hielo. Cayeron"
-	next "bajó tras la era"
-	page "de hielo.@"
+	next "de hielo puro. Su"
+	next "población mermó"
+	page "tras la era"
+	next "glacial.@"
 
 SECTION "PorygonZPokedexEntry", ROMX
 PorygonZPokedexEntry::
 	db "Virtual@"
-	text "Su programa cambió"
-	next "para operar en"
-	next "otras dimensiones.@"
+	text "Se modificó su"
+	next "programa para que"
+	next "pudiese viajar a"
+	page "otras"
+	next "dimensiones.@"
 
 SECTION "SylveonPokedexEntry", ROMX
 SylveonPokedexEntry::
@@ -2442,9 +2455,11 @@ SylveonPokedexEntry::
 SECTION "PerrserkerPokedexEntry", ROMX
 PerrserkerPokedexEntry::
 	db "Vikingo@"
-	text "Sus garras crecen"
-	next "onaron y forman"
-	next "dagas al salir.@"
+	text "Sus garras fueron"
+	next "endureciéndose"
+	next "hasta convertirse"
+	page "en afiladas"
+	next "dagas.@"
 
 SECTION "CursolaPokedexEntry", ROMX
 CursolaPokedexEntry::
@@ -2465,9 +2480,11 @@ SirfetchDPokedexEntry::
 SECTION "MrRimePokedexEntry", ROMX
 MrRimePokedexEntry::
 	db "Comediante@"
-	text "Baila claustro muy"
-	next "bien. Mueve su"
-	next "bastón de hielo.@"
+	text "Baila claqué con"
+	next "gran maestría al"
+	next "ritmo que marca"
+	page "con su bastón de"
+	next "hielo.@"
 
 SECTION "WyrdeerPokedexEntry", ROMX
 WyrdeerPokedexEntry::
@@ -2503,10 +2520,10 @@ SneaslerPokedexEntry::
 SECTION "OverqwilPokedexEntry", ROMX
 OverqwilPokedexEntry::
 	db "Multipincho@"
-	text "Sus pinchos le dan"
+	text "Sus púas le dan"
 	next "el apodo Demonio"
-	next "del Mar. Come"
-	page "veneno.@"
+	next "del Mar. Se nutre"
+	page "de veneno.@"
 
 SECTION "DudunsparcePokedexEntry", ROMX
 DudunsparcePokedexEntry::
@@ -2520,16 +2537,18 @@ FarigirafPokedexEntry::
 	db "CuelloLargo@"
 	text "Las ondas de su"
 	next "cabeza y cola se"
-	next "unieron. Su poder"
-	page "creció x10.@"
+	next "unieron, elevando"
+	page "su poder psíquico"
+	next "al máximo.@"
 
 SECTION "ClodsirePokedexEntry", ROMX
 ClodsirePokedexEntry::
 	db "PezPinchos@"
 	text "Al ser atacado,"
-	next "saca pinchos de su"
-	next "cuerpo. Es una"
-	page "maniobra riesgosa.@"
+	next "saca púas de su"
+	next "cuerpo, aunque es"
+	page "una maniobra"
+	next "arriesgada.@"
 
 SECTION "AnnihilapePokedexEntry", ROMX
 AnnihilapePokedexEntry::
@@ -2561,7 +2580,8 @@ RattataAlolanPokedexEntry::
 	db "Ratón@"
 	text "Solo busca comida"
 	next "fresca. Ayuda a"
-	next "a elegir comida.@"
+	next "elegir los mejores"
+	page "ingredientes.@"
 
 SECTION "RaticateAlolanPokedexEntry", ROMX
 RaticateAlolanPokedexEntry::
@@ -2615,8 +2635,9 @@ SECTION "DiglettAlolanPokedexEntry", ROMX
 DiglettAlolanPokedexEntry::
 	db "Topo@"
 	text "Por los metales de"
-	next "su zona, le brotó"
-	next "bigotes de acero.@"
+	next "su hábitat, le"
+	next "brotaron bigotes"
+	page "de acero.@"
 
 SECTION "DugtrioAlolanPokedexEntry", ROMX
 DugtrioAlolanPokedexEntry::
@@ -2701,9 +2722,10 @@ GolemAlolanPokedexEntry::
 SECTION "PonytaGalarianPokedexEntry", ROMX
 PonytaGalarianPokedexEntry::
 	db "ÚnicoCuerno@"
-	text "Lee tu corazón con"
+	text "Lee el corazón con"
 	next "la mirada. Si nota"
-	next "maldad, se oculta.@"
+	next "maldad, se marcha"
+	page "a esconderse.@"
 
 SECTION "RapidashGalarianPokedexEntry", ROMX
 RapidashGalarianPokedexEntry::
@@ -2726,7 +2748,7 @@ if DEF(FAITHFUL)
 else
 	db "Ocupa@"
 endc
-	text "La mordida de"
+	text "La mordedura del"
 	next "Shellder lo volvió"
 	next "de tipo Veneno.@"
 
@@ -2776,8 +2798,8 @@ SECTION "SlowkingGalarianPokedexEntry", ROMX
 SlowkingGalarianPokedexEntry::
 	db "Experto@"
 	text "El veneno hizo que"
-	next "Shellder tome el"
-	next "control.@"
+	next "el Shellder tomase"
+	next "el control total.@"
 
 SECTION "CorsolaGalarianPokedexEntry", ROMX
 CorsolaGalarianPokedexEntry::
@@ -2811,8 +2833,8 @@ SECTION "ElectrodeHisuianPokedexEntry", ROMX
 ElectrodeHisuianPokedexEntry::
 	db "Esfera@"
 	text "Su piel se parece"
-	next "mucho a la de una"
-	next "Bonguri.@"
+	next "mucho a la corteza"
+	next "de un Bonguri.@"
 
 SECTION "TyphlosionHisuianPokedexEntry", ROMX
 TyphlosionHisuianPokedexEntry::
@@ -2853,8 +2875,9 @@ SECTION "TaurosPaldeanFirePokedexEntry", ROMX
 TaurosPaldeanFirePokedexEntry::
 	db "Toro Salv.@"
 	text "Sus cuernos arden"
-	next "1800 grados y"
-	next "causan quemazón.@"
+	next "a 1000 grados y"
+	next "producen grandes"
+	page "quemaduras.@"
 
 SECTION "TaurosPaldeanWaterPokedexEntry", ROMX
 TaurosPaldeanWaterPokedexEntry::

@@ -24,7 +24,7 @@ CeladonHomeDecorStore1F_MapScriptHeader:
 CeladonHomeDecorStore1FBulbasaurDollScript:
 	jumpthistext
 
-	text "¡Es un lindo"
+	text "¡Es un bonito"
 	line "muñeco de"
 	cont "Bulbasaur!"
 	done

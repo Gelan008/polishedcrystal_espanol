@@ -305,19 +305,19 @@ _LookTownMapText::
 SECTION "_LookPikachuPosterText", ROMX
 _LookPikachuPosterText::
 	text "Es un póster de un"
-	line "lindo Pikachu."
+	line "bonito Pikachu."
 	done
 
 SECTION "_LookClefairyPosterText", ROMX
 _LookClefairyPosterText::
 	text "Es un póster de un"
-	line "lindo Clefairy."
+	line "bonito Clefairy."
 	done
 
 SECTION "_LookJigglypuffPosterText", ROMX
 _LookJigglypuffPosterText::
 	text "Es un póster de un"
-	line "lindo Marill."
+	line "bonito Marill."
 	done
 
 SECTION "_LookAdorableDecoText", ROMX
@@ -1247,7 +1247,7 @@ _NPCTradeAfterText2::
 SECTION "_NPCTradeIntroText3", ROMX
 _NPCTradeIntroText3::
 	text_ram wMonOrItemNameBuffer
-	text " es lindo,"
+	text " es mono,"
 	line "pero no lo tengo."
 
 	para "¿Tienes a"
@@ -1298,7 +1298,7 @@ _NPCTradeAfterText3::
 	para "¡Tu "
 	text_ram wMonOrItemNameBuffer
 	text ""
-	line "es muy lindo!"
+	line "es muy mono!"
 	done
 
 SECTION "_NPCTradeCompleteText4", ROMX
@@ -1318,7 +1318,7 @@ _NPCTradeAfterText4::
 SECTION "_MomLeavingText1", ROMX
 _MomLeavingText1::
 	text "Hala, qué #mon"
-	line "tan lindo."
+	line "tan mono."
 
 	para "¿De dónde lo"
 	line "sacaste?"

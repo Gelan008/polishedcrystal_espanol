@@ -324,7 +324,7 @@ PokefanmJeremySeenText:
 
 PokefanmJeremyBeatenText:
 	text "¡Oh, no! ¡Mis"
-	line "lindos #mon!"
+	line "bonitos #mon!"
 	done
 
 PokefanfGeorgiaSeenText:
