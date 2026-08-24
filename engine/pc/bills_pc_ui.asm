@@ -2614,7 +2614,7 @@ BillsPC_Item:
 
 .MailMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 11, 3, 19, 12
+	menu_coords 10, 3, 19, 12
 	dw .MailMenuData
 	db 1 ; default option
 
@@ -2627,7 +2627,7 @@ BillsPC_Item:
 
 .ItemMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 11, 5, 19, 12
+	menu_coords 10, 5, 19, 12
 	dw .ItemMenuData
 	db 1 ; default option
 
@@ -2640,7 +2640,7 @@ BillsPC_Item:
 
 .NoItemMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 11, 7, 19, 12
+	menu_coords 10, 7, 19, 12
 	dw .NoItemMenuData
 	db 1 ; default option
 
