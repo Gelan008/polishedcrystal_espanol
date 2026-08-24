@@ -2757,7 +2757,7 @@ endc
 	tr_mon 54, MUNCHLAX
 	end_trainer
 
-	def_trainer CHEYENNE, "Cheyenne"
+	def_trainer CHEYENNE, "Chey"
 	tr_mon 62, RAICHU
 	end_trainer
 
@@ -7073,32 +7073,32 @@ SECTION "AceDuoGroup", ROMX
 AceDuoGroup:
 
 	def_trainer_class ACE_DUO
-	def_trainer ELANANDIDA1, "Elan & Ida"
+	def_trainer ELANANDIDA1, "Ela & Ida"
 	tr_mon 65, PORYGON2, MALE
 	tr_mon 65, AZUMARILL, FEMALE
 	end_trainer
 
-	def_trainer ELANANDIDA2, "Elan & Ida"
+	def_trainer ELANANDIDA2, "Ela & Ida"
 	tr_mon 65, AZUMARILL, FEMALE
 	tr_mon 65, PORYGON2, MALE
 	end_trainer
 
-	def_trainer ARAANDBELA1, "Ara & Bela"
+	def_trainer ARAANDBELA1, "Ara & Bel"
 	tr_mon 64, TAUROS, MALE
 	tr_mon 64, GIRAFARIG, FEMALE
 	end_trainer
 
-	def_trainer ARAANDBELA2, "Ara & Bela"
+	def_trainer ARAANDBELA2, "Ara & Bel"
 	tr_mon 64, GIRAFARIG, FEMALE
 	tr_mon 64, TAUROS, MALE
 	end_trainer
 
-	def_trainer THOMANDKAE1, "Thom & Kae"
+	def_trainer THOMANDKAE1, "Tom & Kae"
 	tr_mon LEVEL_FROM_BADGES + 2, MAGMAR, MALE
 	tr_mon LEVEL_FROM_BADGES + 2, ELECTABUZZ, FEMALE
 	end_trainer
 
-	def_trainer THOMANDKAE2, "Thom & Kae"
+	def_trainer THOMANDKAE2, "Tom & Kae"
 	tr_mon LEVEL_FROM_BADGES + 2, ELECTABUZZ, FEMALE
 	tr_mon LEVEL_FROM_BADGES + 2, MAGMAR, MALE
 	end_trainer
@@ -7113,28 +7113,28 @@ AceDuoGroup:
 	tr_mon 62, DUGTRIO, MALE
 	end_trainer
 
-	def_trainer JAKEANDBRI1, "Jake & Bri"
+	def_trainer JAKEANDBRI1, "Jak & Bri"
 	tr_mon 37, SANDSLASH, MALE
 	tr_mon 39, GOLDUCK, MALE
 	tr_mon 37, PARASECT, FEMALE
 	tr_mon 39, VAPOREON, FEMALE
 	end_trainer
 
-	def_trainer JAKEANDBRI2, "Jake & Bri"
+	def_trainer JAKEANDBRI2, "Jak & Bri"
 	tr_mon 37, PARASECT, FEMALE
 	tr_mon 39, VAPOREON, FEMALE
 	tr_mon 37, SANDSLASH, MALE
 	tr_mon 39, GOLDUCK, MALE
 	end_trainer
 
-	def_trainer DANANDCARA1, "Dan & Cara"
+	def_trainer DANANDCARA1, "Dan & Car"
 	tr_mon 38, SEADRA, MALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WATERFALL
 	tr_mon 38, SEADRA, FEMALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WHIRLPOOL
 	end_trainer
 
-	def_trainer DANANDCARA2, "Dan & Cara"
+	def_trainer DANANDCARA2, "Dan & Car"
 	tr_mon 38, SEADRA, FEMALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WHIRLPOOL
 	tr_mon 38, SEADRA, MALE
@@ -9308,7 +9308,7 @@ SECTION "ReiGroup", ROMX
 ReiGroup:
 
 	def_trainer_class REI
-	def_trainer 1, "Maiden Rei"
+	def_trainer 1, "Rei"
 	tr_mon LEVEL_FROM_BADGES + 3, KADABRA
 		tr_evs 120 Spe
 	tr_mon LEVEL_FROM_BADGES + 3, NOCTOWL
@@ -9319,7 +9319,7 @@ ReiGroup:
 		tr_evs 120 Spe
 	end_trainer
 
-	def_trainer 2, "Maiden Rei"
+	def_trainer 2, "Rei"
 	tr_mon 59, FLAREON @ MUSCLE_BAND, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 68 Atk, 252 Spe
@@ -9346,7 +9346,7 @@ ReiGroup:
 		tr_moves NASTY_PLOT, FLAMETHROWER, ENERGY_BALL, SHADOW_BALL
 	end_trainer
 
-	def_trainer 3, "Maiden Rei"
+	def_trainer 3, "Rei"
 	tr_mon 74, FLAREON @ TOXIC_ORB, FEMALE
 		tr_extra GUTS, SPE_UP_SATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Atk

@@ -48,13 +48,13 @@ PokemonFellFromTreeText:
 	prompt
 
 WantsToBattleText::
-	text "¡<ENEMY>"
-	line "quiere luchar!"
+	text "<ENEMY>"
+	line "¡quiere luchar!"
 	prompt
 
 WantToBattleText::
-	text "¡<ENEMY>"
-	line "quieren luchar!"
+	text "<ENEMY>"
+	line "¡quieren luchar!"
 	prompt
 
 BattleText_WildFled:
