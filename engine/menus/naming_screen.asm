@@ -1092,4 +1092,4 @@ NamingScreen_DrawBorders:
 	db NAMINGSCREEN_BORDER + 7
 
 .ShiftDelEnd:
-	db "Mayus  Bor   Fin@"
+	db "Mayús  Bor   Fin@"
