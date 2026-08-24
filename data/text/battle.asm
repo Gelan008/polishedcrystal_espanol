@@ -1391,14 +1391,15 @@ FellInLoveText:
 	prompt
 
 CoveredByVeilText:
-	text "¡<USER> está"
-	line "cubierto por velo!"
+	text "¡<USER>"
+	line "está cubierto"
+	cont "por un velo!"
 	prompt
 
 SafeguardProtectText:
-	text "¡<TARGET> está"
-	line "protegido por"
-	cont "Velo Sagrado!"
+	text "¡<TARGET>"
+	line "está protegido"
+	cont "por Velo Sagrado!"
 	prompt
 
 MagnitudeText:
