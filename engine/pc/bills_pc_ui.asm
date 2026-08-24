@@ -2945,8 +2945,10 @@ BillsPC_Release:
 .WasReleasedOutside:
 	text_ram wStringBuffer1
 	text " fue"
-	line "puesto en libertad"
-	cont "Adiós, "
+	line "liberado."
+
+	para "¡Adiós,"
+	line ""
 	text_ram wStringBuffer1
 	text "!"
 	prompt
