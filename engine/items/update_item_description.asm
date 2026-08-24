@@ -105,9 +105,9 @@ UpdateTMHMDescription:
 	farjp PrintTMHMDescription
 
 OwnedTMString:
-	db "Owned@"
+	db "Tienes@"
 UnownedTMString:
-	db "Unowned@"
+	db "Sin ella@"
 
 UpdateKeyItemDescription:
 	hlcoord 0, 12

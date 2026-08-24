@@ -1809,7 +1809,7 @@ WingCase_MonSelected:
 	jmp PlaceWholeStringInBoxAtOnce
 
 .RaisesStat:
-	text "Raises "
+	text "Sube "
 	text_ram wStringBuffer2
 	text "."
 	done
@@ -2321,13 +2321,13 @@ ApricornBox:
 	db 0 ; default option
 
 .Text
-	text  " Red   Blu"
+	text  " Roj   Azu"
 	next1 "   ×     ×"
-	next1 " Ylw   Grn"
+	next1 " Ama   Ver"
 	next1 "   ×     ×"
-	next1 " Wht   Blk"
+	next1 " Bla   Neg"
 	next1 "   ×     ×"
-	next1 " Pnk"
+	next1 " Ros"
 	next1 "   ×"
 	done
 
