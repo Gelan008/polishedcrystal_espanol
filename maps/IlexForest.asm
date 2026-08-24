@@ -1007,8 +1007,8 @@ IlexForestTrainerTips:
 	done
 
 Text_IlexForestShrine:
-	text "El Encinar"
-	line "Santuario…"
+	text "El Santuario…"
+	line "del Encinar"
 
 	para "Es en honor al"
 	line "protector del"

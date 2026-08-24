@@ -1058,7 +1058,7 @@ Text_EnemyUsedOn::
 
 SECTION "_AskFloorElevatorText", ROMX
 _AskFloorElevatorText::
-	text "¿Qué planta?"
+	text "¿Qué piso?"
 	done
 
 SECTION "_BugCatchingContestTimeUpText", ROMX
