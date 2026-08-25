@@ -175,7 +175,7 @@ OlivineCafeYoungsterText:
 	line "los de mermelada!"
 
 	para "¡No hay nada como"
-	line "un beignet relleno"
+	line "un donut relleno"
 	cont "de mermelada!"
 	done
 

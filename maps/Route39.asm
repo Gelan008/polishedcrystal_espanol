@@ -449,7 +449,7 @@ RuggedRoadAheadSignText:
 	text "Camino Pedregoso"
 	line "más adelante"
 
-	para "Al norte hacia"
+	para "Al norte"
 	line "Cumbre Nevada"
 	done
 

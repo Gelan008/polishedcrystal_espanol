@@ -399,7 +399,8 @@ OlivineGymSignText:
 OlivineLighthouseSignText:
 	text "Faro de Olivo"
 	line "También conocido"
-	cont "como Faro Farol"
+	cont "como Faro"
+	cont "Brillante"
 	done
 
 OlivineCityBattleTowerSignText:

@@ -255,7 +255,7 @@ PokemonNames::
 	rawchar "Azurill@@@"
 	rawchar "Wynaut@@@@"
 	rawchar "Ambipom@@@"
-	rawchar "Egg@@@@@@@"
+	rawchar "Huevo@@@@@"
 	rawchar "?256?@@@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"

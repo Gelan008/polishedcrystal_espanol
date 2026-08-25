@@ -2775,24 +2775,24 @@ SECTION "TwinsGroup", ROMX
 TwinsGroup:
 
 	def_trainer_class TWINS
-	def_trainer AMYANDMIMI1, "Amy & Mimi"
+	def_trainer AMYANDMIMI1, "Amy & May"
 	tr_mon 13, SPINARAK
 	tr_mon 13, LEDYBA
 	end_trainer
 
-	def_trainer AMYANDMIMI2, "Amy & Mimi"
+	def_trainer AMYANDMIMI2, "Amy & May"
 	tr_mon 13, LEDYBA
 	tr_mon 13, SPINARAK
 	end_trainer
 
-	def_trainer ANNANDANNE1, "Tori & Til"
+	def_trainer ANNANDANNE1, "Tor & Til"
 	tr_mon 16, MARILL
 		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
 	tr_mon 16, MAREEP
 		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
 	end_trainer
 
-	def_trainer ANNANDANNE2, "Tori & Til"
+	def_trainer ANNANDANNE2, "Tor & Til"
 	tr_mon 16, MAREEP
 		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
 	tr_mon 16, MARILL
@@ -2833,12 +2833,12 @@ TwinsGroup:
 		tr_moves THUNDER_WAVE, DRAGON_PULSE, FLAMETHROWER, HEADBUTT
 	end_trainer
 
-	def_trainer DAYANDDANI1, "Day & Dani"
+	def_trainer DAYANDDANI1, "Day & Dan"
 	tr_mon 51, PIKACHU
 	tr_mon 51, PIKACHU
 	end_trainer
 
-	def_trainer DAYANDDANI2, "Day & Dani"
+	def_trainer DAYANDDANI2, "Day & Dan"
 	tr_mon 51, PIKACHU
 	tr_mon 51, PIKACHU
 	end_trainer
@@ -3876,12 +3876,12 @@ PokemaniacGroup:
 	tr_mon 12, SLOWPOKE
 	end_trainer
 
-	def_trainer ANDREW, "Andrew"
+	def_trainer ANDREW, "Andy"
 	tr_mon 24, MAROWAK
 	tr_mon 24, MAROWAK
 	end_trainer
 
-	def_trainer CALVIN, "Calvin"
+	def_trainer CALVIN, "Calvi"
 	tr_mon 26, KANGASKHAN
 	end_trainer
 
@@ -3890,7 +3890,7 @@ PokemaniacGroup:
 	tr_mon 20, NIDORINO
 	end_trainer
 
-	def_trainer BEN, "Beckett" ; MISMATCH
+	def_trainer BEN, "Ben"
 	tr_mon 30, SLOWBRO
 	end_trainer
 
@@ -3908,7 +3908,7 @@ PokemaniacGroup:
 		tr_moves LICK, SUPERSONIC, CUT
 	end_trainer
 
-	def_trainer DONALD, "Donald"
+	def_trainer DONALD, "Cris"
 	tr_mon 13, SLOWPOKE
 	tr_mon 13, NIDORAN_M
 	end_trainer
@@ -3921,7 +3921,7 @@ PokemaniacGroup:
 	tr_mon LEVEL_FROM_BADGES + 8, SHUCKLE
 	end_trainer
 
-	def_trainer MILLER, "Miller"
+	def_trainer MILLER, "Milo"
 	tr_mon LEVEL_FROM_BADGES + 7, NIDOKING
 	tr_mon LEVEL_FROM_BADGES + 7, NIDOQUEEN
 	end_trainer
@@ -4986,7 +4986,7 @@ SECTION "KimonoGirlGroup", ROMX
 KimonoGirlGroup:
 
 	def_trainer_class KIMONO_GIRL
-	def_trainer NAOKO, "Naoko"
+	def_trainer NAOKO, "Rika"
 	tr_mon 20, FLAREON @ LUM_BERRY
 	end_trainer
 
@@ -5972,11 +5972,11 @@ SECTION "SkierGroup", ROMX
 SkierGroup:
 
 	def_trainer_class SKIER
-	def_trainer ROXANNE, "Roxanne"
+	def_trainer ROXANNE, "Roxan"
 	tr_mon 36, JYNX
 	end_trainer
 
-	def_trainer CLARISSA, "Clarissa"
+	def_trainer CLARISSA, "Clara"
 	tr_mon 36, PILOSWINE
 	end_trainer
 
@@ -7073,32 +7073,32 @@ SECTION "AceDuoGroup", ROMX
 AceDuoGroup:
 
 	def_trainer_class ACE_DUO
-	def_trainer ELANANDIDA1, "Ela & Ida"
+	def_trainer ELANANDIDA1, "Elan & Ida"
 	tr_mon 65, PORYGON2, MALE
 	tr_mon 65, AZUMARILL, FEMALE
 	end_trainer
 
-	def_trainer ELANANDIDA2, "Ela & Ida"
+	def_trainer ELANANDIDA2, "Elan & Ida"
 	tr_mon 65, AZUMARILL, FEMALE
 	tr_mon 65, PORYGON2, MALE
 	end_trainer
 
-	def_trainer ARAANDBELA1, "Ara & Bel"
+	def_trainer ARAANDBELA1, "Ara & Bela"
 	tr_mon 64, TAUROS, MALE
 	tr_mon 64, GIRAFARIG, FEMALE
 	end_trainer
 
-	def_trainer ARAANDBELA2, "Ara & Bel"
+	def_trainer ARAANDBELA2, "Ara & Bela"
 	tr_mon 64, GIRAFARIG, FEMALE
 	tr_mon 64, TAUROS, MALE
 	end_trainer
 
-	def_trainer THOMANDKAE1, "Tom & Kae"
+	def_trainer THOMANDKAE1, "Thom & Kae"
 	tr_mon LEVEL_FROM_BADGES + 2, MAGMAR, MALE
 	tr_mon LEVEL_FROM_BADGES + 2, ELECTABUZZ, FEMALE
 	end_trainer
 
-	def_trainer THOMANDKAE2, "Tom & Kae"
+	def_trainer THOMANDKAE2, "Thom & Kae"
 	tr_mon LEVEL_FROM_BADGES + 2, ELECTABUZZ, FEMALE
 	tr_mon LEVEL_FROM_BADGES + 2, MAGMAR, MALE
 	end_trainer
@@ -7113,28 +7113,28 @@ AceDuoGroup:
 	tr_mon 62, DUGTRIO, MALE
 	end_trainer
 
-	def_trainer JAKEANDBRI1, "Jak & Bri"
+	def_trainer JAKEANDBRI1, "Jake & Bri"
 	tr_mon 37, SANDSLASH, MALE
 	tr_mon 39, GOLDUCK, MALE
 	tr_mon 37, PARASECT, FEMALE
 	tr_mon 39, VAPOREON, FEMALE
 	end_trainer
 
-	def_trainer JAKEANDBRI2, "Jak & Bri"
+	def_trainer JAKEANDBRI2, "Jake & Bri"
 	tr_mon 37, PARASECT, FEMALE
 	tr_mon 39, VAPOREON, FEMALE
 	tr_mon 37, SANDSLASH, MALE
 	tr_mon 39, GOLDUCK, MALE
 	end_trainer
 
-	def_trainer DANANDCARA1, "Dan & Car"
+	def_trainer DANANDCARA1, "Dan & Cara"
 	tr_mon 38, SEADRA, MALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WATERFALL
 	tr_mon 38, SEADRA, FEMALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WHIRLPOOL
 	end_trainer
 
-	def_trainer DANANDCARA2, "Dan & Car"
+	def_trainer DANANDCARA2, "Dan & Cara"
 	tr_mon 38, SEADRA, FEMALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WHIRLPOOL
 	tr_mon 38, SEADRA, MALE
@@ -9111,7 +9111,7 @@ SECTION "YellowGroup", ROMX
 YellowGroup:
 
 	def_trainer_class YELLOW
-	def_trainer 1, "Amarill"
+	def_trainer 1, "Amarillo"
 	tr_mon LEVEL_FROM_BADGES + 5, "Ratty", RATTATA @ SITRUS_BERRY, FEMALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_evs 240 Atk

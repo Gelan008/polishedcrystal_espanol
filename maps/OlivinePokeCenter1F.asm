@@ -106,10 +106,11 @@ OlivinePokeCenter1FFisherText:
 	done
 
 OlivinePokeCenter1FTeacherText:
-	text "Hay alguien en"
-	line "Ciudad Orquídea,"
-	cont "cruzando el mar."
-
-	para "Le oí presumir de"
-	line "su #mon raro."
+	text "Al otro lado del"
+	line "mar, en Ciudad"
+	cont "Orquídea…"
+	
+	para "Hay alguien que"
+	line "presume de tener"
+	cont "un #mon raro."
 	done

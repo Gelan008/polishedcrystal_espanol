@@ -225,7 +225,7 @@ StartMenu_PrintBugContestStatus:
 	hlcoord 1, 5
 	ld de, .Balls
 	rst PlaceString
-	hlcoord 8, 5
+	hlcoord 7, 5
 	ld de, wParkBallsRemaining
 	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
@@ -265,7 +265,7 @@ StartMenu_PrintBugContestStatus:
 .Caught:
 	db "Atrap.@"
 .Balls:
-	db "Balls:@"
+	db "Balls@"
 .None:
 	db "Ning.@"
 .Level:

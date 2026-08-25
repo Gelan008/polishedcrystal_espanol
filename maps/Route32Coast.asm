@@ -184,7 +184,7 @@ GenericTrainerFisherKiley:
 .SeenText:
 	text "Hoy estoy en"
 	line "racha. ¿Luchamos,"
-	cont "renacuajo?"
+	cont "mocoso?"
 	done
 
 .BeatenText:

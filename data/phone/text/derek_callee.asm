@@ -58,5 +58,5 @@ DerekGenericText:
 
 	para "¡Nuestros dos"
 	line "corazones deben de"
-	cont "latir unidos!"
+	cont "latir a la vez!"
 	done

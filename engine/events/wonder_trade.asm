@@ -358,7 +358,7 @@ endr
 	jmp PopAFBCDEHL
 
 .EggString:
-	rawchar "Egg@@@@@@@@"
+	rawchar "Huevo@@@@@@"
 
 GetGSBallPichu:
 	ld a, 2

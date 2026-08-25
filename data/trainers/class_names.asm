@@ -36,7 +36,7 @@ TrainerClassNames::
 	li "Cazabichos"      ; BUG_CATCHER
 	li "Campista"        ; CAMPER
 	li "Dominguera"      ; PICNICKER
-	li "Gemelos"         ; TWINS
+	li "Gemelas"         ; TWINS
 	li "Pescador"        ; FISHER
 	li "Ornitólogo"      ; BIRD_KEEPER
 	li "Montañero"       ; HIKER
@@ -49,13 +49,13 @@ TrainerClassNames::
 	li "Enfermera"        ; NURSE
 	li "#Maniaco"        ; POKEMANIAC
 	li "Cosplayer"        ; COSPLAYER
-	li "Superfriki"       ; SUPER_NERD
+	li "Megafriki"       ; SUPER_NERD
 	li "Chica"            ; LASS
 	li "Modelo"           ; BEAUTY
 	li "Bichófilo"        ; BUG_MANIAC
-	li "Arqueólogo"       ; RUIN_MANIAC
+	li "Excavador"        ; RUIN_MANIAC
 	li "Comefuego"        ; FIREBREATHER
-	li "Malabarista"      ; JUGGLER
+	li "Cómico"           ; JUGGLER
 	li "Estudiante"       ; SCHOOLBOY
 	li "Estudiante"       ; SCHOOLGIRL
 	li "Médium"           ; PSYCHIC_T
@@ -64,7 +64,7 @@ TrainerClassNames::
 	li "Médium"           ; MEDIUM
 	li "Chica Kimono"     ; KIMONO_GIRL
 	li "Anciano"          ; ELDER
-	li "Sr.& Jr."         ; SR_AND_JR
+	li "Alumnas"          ; SR_AND_JR
 	li "Pareja"           ; COUPLE
 	li "Caballero"        ; GENTLEMAN
 	li "Niño Bien"        ; RICH_BOY
@@ -77,16 +77,16 @@ TrainerClassNames::
 	li "Nadadora"         ; SWIMMERF
 	li "Ladrón"           ; BURGLAR
 	li "Agente"           ; PI
-	li "Científico"       ; SCIENTIST
-	li "Científico"       ; ROCKET_SCIENTIST
-	li "Aventurero"       ; BOARDER
+	li "Científ."         ; SCIENTIST
+	li "Científ."         ; ROCKET_SCIENTIST
+	li "Viajero"          ; BOARDER
 	li "Esquiador"        ; SKIER
 	li "Kárateka"         ; BLACKBELT_T
 	li "Luchadora"        ; BATTLE_GIRL
 	li "Domadragón"       ; DRAGON_TAMER
 	li "Ingeniero"        ; ENGINEER
-	li "Profesora"        ; TEACHER_F
-	li "Profesor"         ; TEACHER_M
+	li "Profe"            ; TEACHER_F
+	li "Profe"            ; TEACHER_M
 	li "Guitarr."         ; GUITARISTM
 	li "Guitarr."         ; GUITARISTF
 	li "Motorista"        ; BIKER
@@ -102,7 +102,7 @@ TrainerClassNames::
 	li "Turistas"         ; SIGHTSEERS
 	li "Entr. Guay"       ; COOLTRAINERM
 	li "Entr. Guay"       ; COOLTRAINERF
-	li "Dúo Guay"         ; ACE_DUO
+	li "Dúo"              ; ACE_DUO
 	li "Veterano"         ; VETERANM
 	li "Veterana"         ; VETERANF
 	li "Ejecutivo"        ; PROTON
@@ -113,8 +113,8 @@ TrainerClassNames::
 	li "Prof. #mon"       ; PROF_OAK
 	li "Prof. #mon"       ; PROF_ELM
 	li "Prof. #mon"       ; PROF_IVY
-	li "Hombre Mist"      ; MYSTICALMAN
-	li "Rey Karateka"     ; KARATE_KING
+	li "Erudito"          ; MYSTICALMAN
+	li "Rey Kárate"       ; KARATE_KING
 	li "As Torre"         ; TOWERTYCOON
 	li "As Fabril"        ; FACTORYHEAD
 	li "Jessie"           ; JESSIE_JAMES
@@ -143,7 +143,7 @@ TrainerClassNames::
 	li "Empresario"       ; LARRY
 	li "Surfista"         ; VICTOR
 	li "#Maniac"          ; BILL_T
-	li "Entre. <PK><MN>"  ; YELLOW
+	li "Entre."           ; YELLOW
 	li "Ex-Líder"         ; WALKER
 	li "Estudiante"       ; IMAKUNI
 	li "Magnate"          ; LAWRENCE

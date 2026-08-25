@@ -245,8 +245,8 @@ MenuDataHeader_SortItems:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "Por Tipo@"
-	db "Por Nom@"
+	db "Tipo@"
+	db "Nombre@"
 	db "Salir@"
 
 Jumptable_SortItems:

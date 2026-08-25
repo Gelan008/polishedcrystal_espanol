@@ -412,7 +412,7 @@ GruntM26BeatenText:
 
 Route47RocketGirlText:
 	text "¿Adónde crees que"
-	line "vas, renacuajo?"
+	line "vas, mocoso?"
 	done
 
 Route47SealedCaveSign:

@@ -60,7 +60,7 @@ GenericTrainerBird_keeperBryan:
 	line "con la Rapid Ball"
 	cont "de César."
 
-	para "Si hallo algún"
+	para "Si tengo algún"
 	line "Bonguri Blanco,"
 	cont "se lo llevo para"
 	cont "que haga una Ball."

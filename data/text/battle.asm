@@ -545,8 +545,8 @@ BattleText_ItemOnlyAllowsMove: ; choice items
 	prompt
 
 BattleText_MonCanOnlyUseMove:
-	text "¡<USER> solo"
-	line "puede usar"
+	text "¡<USER>"
+	line "solo puede usar"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
@@ -571,8 +571,9 @@ BattleText_PkmnHasNoMovesLeft:
 	done
 
 BattleText_UserEncoreEnded:
-	text "¡Otra vez de"
-	line "<USER> acabó!"
+	text "¡El Otra Vez de"
+	line "<USER>"
+	cont "se acabó!"
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
@@ -638,8 +639,9 @@ MustRechargeText:
 	prompt
 
 DisabledNoMoreText:
-	text "¡<USER> ya no"
-	line "está anulado!"
+	text "¡<USER>"
+	line "ya no está"
+	cont "anulado!"
 	prompt
 
 IsConfusedText:
@@ -654,8 +656,9 @@ HurtItselfText:
 	prompt
 
 ConfusedNoMoreText:
-	text "¡<USER> ya no"
-	line "está confuso!"
+	text "¡<USER>"
+	line "ya no está"
+	cont "confuso!"
 	prompt
 
 BecameConfusedText:
@@ -726,8 +729,8 @@ InLoveWithText:
 
 InfatuationText:
 	text "¡El enamoramiento"
-	line "impide a <USER>"
-	cont "atacar!"
+	line "impide atacar a"
+	cont "<USER>!"
 	prompt
 
 NoLongerInfatuatedText:
@@ -978,8 +981,8 @@ WasPoisonedText:
 	prompt
 
 BadlyPoisonedText:
-	text "¡<TARGET> fue"
-	line "gravemente"
+	text "¡<TARGET>"
+	line "fue gravemente"
 	cont "envenenado!"
 	prompt
 
@@ -995,7 +998,8 @@ SuckedHealthText:
 
 DreamEatenText:
 	text "¡Se comió el"
-	line "sueño de <TARGET>!"
+	line "sueño de"
+	cont "<TARGET>!"
 	prompt
 
 WasBurnedText:
@@ -1105,8 +1109,8 @@ ProtectedByItemText:
 	prompt
 
 ProtectedByMistText:
-	text "¡<TARGET> está"
-	line "protegido por"
+	text "¡<TARGET>"
+	line "se protege con"
 	cont "la neblina!"
 	prompt
 
@@ -1147,7 +1151,8 @@ SubTookDamageText:
 
 SubFadedText:
 	text "¡El Sustituto de"
-	line "<TARGET> cayó!"
+	line "<TARGET>"
+	cont "cayó!"
 	prompt
 
 WasSeededText:
@@ -1236,8 +1241,8 @@ DidntAffectText:
 
 HPIsFullText:
 	text "¡Los PS de"
-	line "<USER> están"
-	cont "a tope!"
+	line "<USER>"
+	cont "están al máximo!"
 	prompt
 
 DraggedOutText:
@@ -1252,8 +1257,8 @@ ParalyzedText:
 	prompt
 
 FullyParalyzedText:
-	text "¡<USER> está"
-	line "paralizado!"
+	text "¡<USER>"
+	line "está paralizado!"
 	done
 
 AlreadyParalyzedText:
@@ -1278,24 +1283,24 @@ RegainedStatsWithItem:
 	prompt
 
 CuredInfatuationWithItem:
-	text "¡<USER> curó"
-	line "enamoramiento con"
+	text "¡<USER>"
+	line "se desenamoró con"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 CuredEncoreWithItem:
-	text "¡<USER> curó"
-	line "Otra vez con"
+	text "¡<USER>"
+	line "curó Otra Vez con"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 CuredDisableWithItem:
-	text "¡<USER> curó"
-	line "Anulación con"
+	text "¡<USER>"
+	line "curó Anulación con"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
@@ -1327,8 +1332,9 @@ WasDefrostedText:
 	prompt
 
 PutACurseText:
-	text "¡<USER> bajó sus"
-	line "PS y maldijo a"
+	text "¡<USER>"
+	line "bajó sus PS y"
+	cont "maldijo a"
 	cont "<TARGET>!"
 	prompt
 
@@ -1409,24 +1415,26 @@ MagnitudeText:
 	prompt
 
 ReleasedByText:
-	text "¡<USER> fue"
-	line "liberado por"
-	cont "<TARGET>!"
+	text "¡<TARGET>"
+	line "ha liberado a"
+	cont "<USER>!"
 	prompt
 
 ShedLeechSeedText:
-	text "¡<USER> se libró"
-	line "de Drenadoras!"
+	text "¡<USER>"
+	line "se libró de"
+	cont "las Drenadoras!"
 	prompt
 
 BlewSpikesText:
-	text "¡<USER> eliminó"
-	line "las Púas!"
+	text "¡<USER>"
+	line "eliminó las Púas!"
 	prompt
 
 BlewToxicSpikesText:
-	text "¡<USER> eliminó"
-	line "las Púas Tóxicas!"
+	text "¡<USER>"
+	line "eliminó las"
+	cont "Púas Tóxicas!"
 	prompt
 
 DownpourText:
@@ -1439,20 +1447,20 @@ SunGotBrightText:
 	prompt
 
 BellyDrumText:
-	text "¡<USER> redujo"
-	line "sus PS y alzó"
-	cont "su Ataque!"
+	text "¡<USER>"
+	line "redujo sus PS y"
+	cont "alzó su Ataque!"
 	prompt
 
 BellyDrumContraryText:
-	text "¡<USER> redujo"
-	line "sus PS y bajó"
-	cont "su Ataque!"
+	text "¡<USER>"
+	line "redujo sus PS y"
+	cont "bajó su Ataque!"
 	prompt
 
 ForesawAttackText:
-	text "¡<USER> previó"
-	line "un ataque!"
+	text "¡<USER>"
+	line "previó un ataque!"
 	prompt
 
 IgnoredOrders2Text:
@@ -1556,9 +1564,9 @@ NotifyCloudNine:
 	prompt
 
 NotifyPressure:
-	text "¡<USER> está"
-	line "ejerciendo"
-	cont "su presión!"
+	text "¡<USER>"
+	line "ejerce su"
+	cont "presión!"
 	prompt
 
 NotifyMoldBreaker:
@@ -1567,8 +1575,9 @@ NotifyMoldBreaker:
 	prompt
 
 NotifyUnnerve:
-	text "¡<TARGET> teme"
-	line "comer Bayas!"
+	text "¡<TARGET>"
+	line "teme comer"
+	cont "Bayas!"
 	prompt
 
 NotifyNeutralizingGas:
@@ -1665,8 +1674,9 @@ BattleText_EnemyWithdrew::
 	prompt
 
 BattleText_WentBackToPlayer:
-	text "¡<USER> volvió"
-	line "a <PLAYER>!"
+	text "¡<USER>"
+	line "volvió a"
+	cont "<PLAYER>!"
 	prompt
 
 BattleText_WentBackToEnemy:
@@ -1676,8 +1686,8 @@ BattleText_WentBackToEnemy:
 	prompt
 
 ScaredText:
-	text "¡<USER> teme"
-	line "moverse!"
+	text "¡<USER>"
+	line "teme moverse!"
 	prompt
 
 GetOutText:

@@ -48,7 +48,7 @@ GenericTrainerTwinsToriandtil1:
 GenericTrainerTwinsToriandtil2:
 	generictrainer TWINS, ANNANDANNE2, EVENT_BEAT_TWINS_ANN_AND_ANNE, TwinsToriandtil2SeenText, TwinsToriandtil2BeatenText
 
-	text "Tori: Sentimos lo"
+	text "Tor: Sentimos lo"
 	line "mismo que sienten"
 	cont "nuestros #mon."
 	done
@@ -137,18 +137,18 @@ TrainerBeautyCassandra:
 	done
 
 TwinsToriandtil1SeenText:
-	text "Til: ¡Tori y yo"
+	text "Til: ¡Tor y yo"
 	line "luchamos juntas!"
 	done
 
 TwinsToriandtil1BeatenText:
 TwinsToriandtil2BeatenText:
-	text "Til y Tori: Mmm…"
+	text "Til y Tor: Mmm…"
 	line "Demasiado fuerte."
 	done
 
 TwinsToriandtil2SeenText:
-	text "Tori: ¡Til y yo"
+	text "Tor: ¡Til y yo"
 	line "luchamos juntas!"
 	done
 

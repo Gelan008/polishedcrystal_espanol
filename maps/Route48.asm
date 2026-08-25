@@ -129,7 +129,7 @@ Route48JessieJamesSeenText:
 
 Route48JessieJamesBeatenText:
 	text "¿Nos ha vencido"
-	line "este renacuajo?"
+	line "este mocosín?"
 	done
 
 Route48JessieJamesAfterText:
@@ -200,6 +200,6 @@ Route48NurseText2:
 Route48YellowForestSignText:
 	text "Ruta 48"
 
-	para "Al norte hacia el"
+	para "Al norte"
 	line "Bosque Amarillo"
 	done

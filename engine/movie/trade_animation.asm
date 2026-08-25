@@ -906,12 +906,12 @@ TrademonStats_WaitBGMap:
 TrademonStats_OTMonData:
 	db   "─── №."
 	next ""
-	next "OT/"
+	next "EO/"
 	next "<ID>№.@"
 
 TrademonStats_EggData:
-	db   "Egg"
-	next "OT/?????"
+	db   "Huevo"
+	next "EO/?????"
 	next "<ID>№.?????@"
 
 TrademonStats_PrintSpeciesNumber:

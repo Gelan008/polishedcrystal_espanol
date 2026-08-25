@@ -402,7 +402,7 @@ BugContestPrizeNoRoomText:
 
 HappinessText3:
 	text "¡Guau! ¡Tu #mon"
-	line "y tú sois muy"
+	line "y tú estáis muy"
 	cont "unidos!"
 	done
 

@@ -261,7 +261,7 @@ GenericTrainerTwinsAmyandmimi1:
 GenericTrainerTwinsAmyandmimi2:
 	generictrainer TWINS, AMYANDMIMI2, EVENT_BEAT_TWINS_AMY_AND_MAY, .SeenText, TrainerTwinsAmyandmimiBeatenText
 
-	text "Mimi: ¡Nuestros"
+	text "May: ¡Nuestros"
 	line "#mon bicho"
 	cont "han perdido!"
 
@@ -270,13 +270,13 @@ GenericTrainerTwinsAmyandmimi2:
 	done
 
 .SeenText:
-	text "Mimi: ¿Quieres"
+	text "May: ¿Quieres"
 	line "ver al Líder?"
 	cont "¡Nosotras primero!"
 	done
 
 TrainerTwinsAmyandmimiBeatenText:
-	text "Amy y Mimi: ¡Oh,"
+	text "Amy y May: ¡Oh,"
 	line "vaya tela doble!"
 	done
 

@@ -50,7 +50,7 @@ TrainerBikerHarris:
 	jumpthistextfaceplayer
 
 	text "Barrido por un"
-	line "renacuajo que"
+	line "mocoso que"
 	cont "viene de Johto…"
 	done
 

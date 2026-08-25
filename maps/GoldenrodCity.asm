@@ -452,7 +452,7 @@ GoldenrodCityBikeShopSignText:
 	text "¡El mundo es un"
 	line "carril bici!"
 
-	para "Bicis Milagro"
+	para "Marabicicletas"
 	done
 
 GoldenrodCityGameCornerSignText:

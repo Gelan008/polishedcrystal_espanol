@@ -85,17 +85,17 @@ TwinsDayanddani1BeatenText:
 GenericTrainerTwinsDayanddani2:
 	generictrainer TWINS, DAYANDDANI2, EVENT_BEAT_TWINS_DAY_AND_DANI, TwinsDayanddani2SeenText, TwinsDayanddani2BeatenText
 
-	text "Dani: Parece que"
+	text "Dan: Parece que"
 	line "nos han echado."
 	done
 
 TwinsDayanddani2SeenText:
-	text "Dani: ¡Te vamos a"
+	text "Dan: ¡Te vamos a"
 	line "dejar K.O.!"
 	done
 
 TwinsDayanddani2BeatenText:
-	text "Dani: ¡Eeeeh!"
+	text "Dan: ¡Eeeeh!"
 	done
 
 GenericTrainerYoungsterChaz:

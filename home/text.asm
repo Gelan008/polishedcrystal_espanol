@@ -392,7 +392,7 @@ EmptyString::
 	db "@"
 
 GhostNicknameText:
-	db "Ghost@"
+	db "Fantasma@"
 
 PlaceEnemysName::
 	push de

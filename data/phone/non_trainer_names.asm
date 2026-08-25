@@ -22,7 +22,7 @@ NonTrainerCallerNames:
 	next1 "   #mon Prof."
 	done
 .bikeshop:
-	text  "Maravillacicleta:"
+	text  "Marabicicletas:"
 	done
 .lyra:
 	text  "Lira:"

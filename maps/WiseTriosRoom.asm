@@ -206,16 +206,17 @@ WiseTriosRoomSage2Text:
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "Solo pueden entrar"
-	line "a Torre Hojalata"
-	cont "quienes porten la"
-	cont "Medalla Niebla."
+	text "Solo quien tenga"
+	line "la Medalla Niebla"
+	cont "puede acceder a la"
+	cont "Torre Hojalata."
 
-	para "Mas ahora que los"
-	line "tres legendarios"
-	cont "han despertado,"
-	cont "¡no debes pasar!"
+	para "¡Pero ahora que"
+	line "el trío legendario"
+	cont "ha despertado,"
+	cont "¡no puedes pasar!"
 	done
+
 
 WiseTriosRoomSage3Text:
 	text "Nosotros, los Tres"

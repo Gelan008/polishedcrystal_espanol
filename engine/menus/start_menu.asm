@@ -178,7 +178,7 @@ StartMenu::
 .OptionString:   db "Opciones@"
 .ExitString:     db "Salir@"
 .PokegearString: db "<PO><KE>gear@"
-.QuitString:     db "Finalizar@"
+.QuitString:     db "Terminar@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]

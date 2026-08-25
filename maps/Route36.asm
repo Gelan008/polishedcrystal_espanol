@@ -181,7 +181,7 @@ Route36RockSmashGuyScript:
 .AlreadyGotRockSmash:
 	jumpthisopenedtext
 
-	text "Ese resulta ser"
+	text "Esa MT es"
 if DEF(FAITHFUL)
 	line "Golpe Roca."
 else
