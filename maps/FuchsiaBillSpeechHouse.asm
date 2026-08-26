@@ -25,4 +25,11 @@ BillsBrothersHouseYoungsterText:
 	text "Vi #mon raros"
 	line "y lentos en el"
 	cont "Camino de Bicis."
+
+	para "Parecen lava"
+	line "viviente."
+
+	para "Deben de venir"
+	line "del volcán de"
+	cont "Isla Canela."
 	done

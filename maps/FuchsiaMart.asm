@@ -25,7 +25,12 @@ FuchsiaMartFisherText:
 
 FuchsiaMartCooltrainerFText:
 	text "La nieta del"
-	line "Guarda de la Zona"
-	cont "Safari vive en la"
-	cont "ciudad."
+	line "Guarda del Safari"
+	cont "vive en su casa."
+
+	para "Quizás ella sepa"
+	line "por qué se marchó."
+
+	para "Yo solo he oído"
+	line "rumores vagos."
 	done

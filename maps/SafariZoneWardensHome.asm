@@ -25,6 +25,9 @@ WardensGranddaughter:
 	checkevent EVENT_TALKED_TO_WARDENS_GRANDDAUGHTER
 	iftruefwd .AlreadyMet
 	writetext WardensGranddaughterText1
+	yesorno
+	iffalse_jumpopenedtext WardensGranddaughterText2
+	writetext WardensGranddaughterText3
 	waitbutton
 	closetext
 	setevent EVENT_TALKED_TO_WARDENS_GRANDDAUGHTER
@@ -32,11 +35,15 @@ WardensGranddaughter:
 .AlreadyMet:
 	jumpthisopenedtext
 
-	text "Mucha gente se"
-	line "decepcionó por el"
-	cont "cierre del Safari,"
-	cont "pero mi abuelo es"
-	cont "muy cabezota…"
+	text "Muchos se decep-"
+	line "cionaron cuando"
+	cont "cerró el Safari,"
+
+	para "pero a mí no me"
+	line "importa mucho."
+
+	para "Solo echo de"
+	line "menos a mi abuelo…"
 	done
 
 WardensGranddaughterText1:
@@ -46,16 +53,43 @@ WardensGranddaughterText1:
 
 	para "Al menos lo era…"
 
-	para "Decidió irse de"
-	line "vacaciones y se"
-	cont "fue al extranjero"
-	cont "él solo."
-
-	para "Dejó de dirigir la"
-	line "Zona Safari como"
-	cont "si nada."
+	para "Si te cuento la"
+	line "historia, ¿me pro-"
+	cont "metes no ir con"
+	cont "el chisme por ahí?"
 	done
 
+WardensGranddaughterText2:
+	text "…Ya veo…"
+	done
+
+WardensGranddaughterText3:
+	text "Hace tres años, se"
+	line "descubrió que él"
+	cont "había permitido al"
+	cont "Team Rocket cazar"
+
+	para "#mon en la Zona"
+	line "Safari para"
+	cont "venderlos en el"
+	cont "Casino Rocket."
+
+	para "Huyó al extranjero"
+	line "para evitar ser"
+	cont "arrestado."
+
+	para "…No es justo."
+
+	para "Dicen que el jefe"
+	line "de Silph estaba"
+	cont "en el ajo,"
+
+	para "pero pagó obras"
+	line "benéficas de con-"
+	cont "servación #mon"
+	cont "y sigue en su"
+	cont "puesto."
+	done
 WardenPhotoText:
 	text "Es la foto de un"
 	line "anciano sonriente"
