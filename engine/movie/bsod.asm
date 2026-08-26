@@ -94,10 +94,9 @@ BSODMessage:
 	next1 " Polished Crystal"
 	next  "       ERROR"
 	next1 "------------------"
-	next  "Please report this"
-	next1 "crash to the deve-"
-	next1 "loper, Rangi42, at"
-	next1 "tinyurl.com/pkpc3."
+	next  "Informa del fallo"
+	next1 "en whackhack en:"
+	next1 "whackahack.com"
 	next  "Error:"
 	done
 
@@ -106,10 +105,10 @@ VBABSODMessage:
 	next1 " Polished Crystal"
 	next  "       ERROR"
 	next1 "------------------"
-	next  "Please use a more"
-	next1 "accurate emulator,"
-	next1 "such as BGB, mGBA,"
-	next1 "or Gambatte."
+	next  "Usa un emulador"
+	next1 "más preciso, como"
+	next1 "BGB, mGBA o"
+	next1 "Gambatte."
 	next  "Error:"
 	done
 

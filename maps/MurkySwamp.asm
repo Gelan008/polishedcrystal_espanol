@@ -163,7 +163,8 @@ MurkySwampNurseBeatriceScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "¡Ya estoy mejor!"
+	text "¡Ya están como"
+	line "nuevos!"
 	done
 
 .SeenText:

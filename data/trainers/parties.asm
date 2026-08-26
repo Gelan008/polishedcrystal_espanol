@@ -3832,7 +3832,7 @@ SECTION "NurseGroup", ROMX
 NurseGroup:
 
 	def_trainer_class NURSE
-	def_trainer BEATRICE, "Beatrice"
+	def_trainer BEATRICE, "Bea"
 	tr_mon LEVEL_FROM_BADGES + 5, CHANSEY
 	end_trainer
 
@@ -3845,7 +3845,7 @@ NurseGroup:
 	tr_mon LEVEL_FROM_BADGES + 6, CHANSEY
 	end_trainer
 
-	def_trainer WINIFRED, "Winifred"
+	def_trainer WINIFRED, "Winnie"
 	tr_mon LEVEL_FROM_BADGES + 6, BLISSEY
 	end_trainer
 
