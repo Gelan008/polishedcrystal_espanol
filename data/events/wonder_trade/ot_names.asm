@@ -113,7 +113,7 @@ WonderTradeOTNames1:
 	rawchar "Morti@@" ; $6e
 	rawchar "Aníbal@" ; $6f
 	rawchar "Yasmina" ; $70
-	rawchar "Pryce@@" ; $71
+	rawchar "Fredo@@" ; $71
 	rawchar "Débora@" ; $72
 	rawchar "Mento@@" ; $73
 	rawchar "Koga@@@" ; $74

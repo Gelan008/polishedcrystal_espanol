@@ -1091,7 +1091,7 @@ LoadStation_BuenasPassword:
 	ld a, BUENAS_PASSWORD
 	jr LoadRadioStation
 
-BuenasPasswordName: db "Buena's Password@"
+BuenasPasswordName: db "Contraseña Buena@"
 
 LoadStation_UnownRadio:
 	ld a, UNOWN_RADIO

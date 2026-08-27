@@ -62,8 +62,8 @@ _PlayerDecorationMenu:
 
 .bed:      db "Cama@"
 .carpet:   db "Alfombra@"
-.plant:    db "Plant@"
-.poster:   db "Planta@"
+.plant:    db "Planta@"
+.poster:   db "Poster@"
 .game:     db "Consola@"
 .ornament: db "Adorno@"
 .big_doll: db "Muñeco gde@"
@@ -884,8 +884,8 @@ WhichSideMenuHeader:
 WhichSideMenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "Lado derecho@"
-	db "Lado izquierd.@"
+	db "Lado der.@"
+	db "Lado izq.@"
 	db "Cancelar@"
 
 DecoText_PutAwayTheDeco:
