@@ -228,6 +228,6 @@ AmphyPalPalooText:
 
 
 AmphyPaluPaluluText:
-	text "Amphy: Palu!"
-	line "Palulu!"
+	text "Amphy: ¡Palu!"
+	line "¡Palulu!"
 	done
