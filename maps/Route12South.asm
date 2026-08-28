@@ -40,9 +40,8 @@ GenericTrainerFisherMartin:
 
 FisherMartinSeenText:
 	text "La paciencia es"
-	line "la clave tanto al"
-	cont "pescar como con"
-	cont "los #mon."
+	line "clave al pescar"
+	cont "y luchar."
 	done
 
 FisherMartinBeatenText:
@@ -54,20 +53,17 @@ GenericTrainerFisherStephen:
 
 	text "¿Has escuchado la"
 	line "radio de Kanto?"
-
-	para "Hay programas muy"
-	line "variados."
+	cont "Es muy variada."
 	done
 
 FisherStephenSeenText:
-	text "Me siento en paz"
-	line "pescando mientras"
-	cont "escucho música en"
-	cont "mi radio."
+	text "Me da paz pescar"
+	line "mientras escucho"
+	cont "la radio."
 	done
 
 FisherStephenBeatenText:
-	text "¡Esta radio me ha"
+	text "¡La radio me ha"
 	line "despistado!"
 	done
 
@@ -78,16 +74,15 @@ GenericTrainerFisherBarney:
 	line "vital en nuestro"
 	cont "día a día."
 
-	para "Por eso la gente"
-	line "armó tanto jaleo"
-	cont "cuando falló la"
+	para "Por eso hubo tanto"
+	line "jaleo al fallar la"
 	cont "Central Energía."
 	done
 
 FisherBarneySeenText:
 	text "¿Qué es lo más"
-	line "importante para"
-	cont "nuestro día a día?"
+	line "vital en nuestro"
+	cont "día a día?"
 	done
 
 FisherBarneyBeatenText:
@@ -98,23 +93,19 @@ FisherBarneyBeatenText:
 GenericTrainerFisherKyler:
 	generictrainer FISHER, KYLER, EVENT_BEAT_FISHER_KYLER, .SeenText, .BeatenText
 
-	text "¿Como? ¿En vez de"
-	line "capturar #mon"
-	cont "nuevos sin cesar,"
-
-	para "¿es mejor"
-	line "entrenarlos?"
+	text "¿Es mejor entrenar"
+	line "#mon en vez de"
+	cont "capturar sin parar?"
 	done
 
 .SeenText:
-	text "¡Los combates"
-	line "#mon son el"
-	cont "mejor cebo!"
+	text "¡Los combates son"
+	line "el mejor cebo!"
 	done
 
 .BeatenText:
-	text "¡Mi cubo #mon"
-	line "está vacío!"
+	text "¡Mi cubo está"
+	line "vacío!"
 	done
 
 GenericTrainerBird_keeperJustin:
@@ -126,9 +117,8 @@ GenericTrainerBird_keeperJustin:
 	done
 
 .SeenText:
-	text "¿Eh? ¡El viento"
-	line "ha cambiado de"
-	cont "dirección!"
+	text "¡El viento cambió"
+	line "de dirección!"
 	done
 
 .BeatenText:
@@ -154,15 +144,13 @@ GenericTrainerBird_keeperGail:
 GenericTrainerCoupleVicandtara1:
 	generictrainer COUPLE, VICANDTARA1, EVENT_BEAT_COUPLE_VIC_AND_TARA, .SeenText, .BeatenText
 
-	text "Vic: Tara ya me"
-	line "ha visto hacer el"
-	cont "ridículo…"
+	text "Vic: Tara me vio"
+	line "hacer el ridículo…"
 	done
 
 .SeenText:
-	text "Vic: ¡Genial! ¡Voy"
-	line "a poder lucirme"
-	cont "ante Tara!"
+	text "Vic: ¡Voy a lucirme"
+	line "ante Tara!"
 	done
 
 .BeatenText:
@@ -173,17 +161,15 @@ GenericTrainerCoupleVicandtara1:
 GenericTrainerCoupleVicandtara2:
 	generictrainer COUPLE, VICANDTARA2, EVENT_BEAT_COUPLE_VIC_AND_TARA, .SeenText, .BeatenText
 
-	text "Tara: Aunque mi"
-	line "novio haya sido"
-	cont "vencido, ¡sigue"
-	cont "siendo genial!"
+	text "Tara: ¡Mi novio"
+	line "sigue siendo"
+	cont "genial!"
 	done
 
 .SeenText:
 	text "Tara: ¡Me encanta"
-	line "mirar la cara de"
-	cont "mi novio cuando"
-	cont "está luchando!"
+	line "ver a mi novio"
+	cont "luchar!"
 	done
 
 .BeatenText:

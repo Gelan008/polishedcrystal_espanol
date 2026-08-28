@@ -193,24 +193,16 @@ TrainerYoungsterJoey:
 GenericTrainerYoungsterMikey:
 	generictrainer YOUNGSTER, MIKEY, EVENT_BEAT_YOUNGSTER_MIKEY, YoungsterMikeySeenText, YoungsterMikeyBeatenText
 
-	text "Llegar a ser un"
-	line "buen entrenador"
-	cont "es muy duro."
-
-	para "Lucharé contra"
-	line "más gente para"
-	cont "mejorar."
+	text "Lucharé contra más"
+	line "gente para mejorar."
 	done
 
 GenericTrainerBug_catcherDon:
 	generictrainer BUG_CATCHER, DON, EVENT_BEAT_BUG_CATCHER_DON, Bug_catcherDonSeenText, Bug_catcherDonBeatenText
 
 	text "Me quedé sin #"
-	line "Balls mientras"
-	cont "atrapaba #mon."
-
-	para "Debería haber"
-	line "comprado más…"
+	line "Balls. Debí comprar"
+	cont "muchas más…"
 	done
 
 Route30_JoeysRattataAttacksMovement:
@@ -262,11 +254,8 @@ YoungsterJoey1AfterText:
 	done
 
 YoungsterMikeySeenText:
-	text "Eres entrenador"
-	line "#mon, ¿verdad?"
-
-	para "¡Pues tenemos que"
-	line "luchar!"
+	text "¿Eres entrenador?"
+	line "¡Pues a luchar!"
 	done
 
 YoungsterMikeyBeatenText:
@@ -275,9 +264,8 @@ YoungsterMikeyBeatenText:
 	done
 
 Bug_catcherDonSeenText:
-	text "¡En vez de un"
-	line "#mon bicho, he"
-	cont "encontrado a un"
+	text "¡En vez de un bicho"
+	line "he encontrado a un"
 	cont "entrenador!"
 	done
 

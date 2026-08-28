@@ -32,17 +32,14 @@ Route20_MapScriptHeader:
 GenericTrainerSwimmerfNicole:
 	generictrainer SWIMMERF, NICOLE, EVENT_BEAT_SWIMMERF_NICOLE, SwimmerfNicoleSeenText, SwimmerfNicoleBeatenText
 
-	text "Al nadar ejercitas"
+	text "Nadar ejercita"
 	line "todo el cuerpo."
-
-	para "Es genial para la"
-	line "salud."
+	cont "¡Es muy sano!"
 	done
 
 SwimmerfNicoleSeenText:
-	text "Me siento mucho"
-	line "más ligera en el"
-	cont "agua."
+	text "Me siento más"
+	line "ligera en el agua."
 	done
 
 SwimmerfNicoleBeatenText:
@@ -54,17 +51,13 @@ GenericTrainerSwimmerfLori:
 
 	text "Surf ya no es el"
 	line "único movimiento"
-	cont "MO que se usa en"
-	cont "el agua."
+	cont "MO de agua."
 	done
 
 SwimmerfLoriSeenText:
-	text "¡Qué gran lista"
-	line "de Medallas tienes"
-	cont "de Gimnasio!"
-
-	para "¡Echemos un buen"
-	line "combate!"
+	text "¡Tienes muchas"
+	line "Medallas!¡Tengamos"
+	cont "un buen combate!"
 	done
 
 SwimmerfLoriBeatenText: ; text > text
@@ -96,17 +89,14 @@ GenericTrainerSwimmerfLeona:
 	generictrainer SWIMMERF, LEONA, EVENT_BEAT_SWIMMERF_LEONA, .SeenText, .BeatenText
 
 	text "Tus #mon…"
-
-	para "¿sigues la moda"
-	line "al formar tus"
-	cont "equipos?"
+	line "¿sigues la moda al"
+	cont "formar equipos?"
 	done
 
 .SeenText:
-	text "¡Mira! ¡Llevo mi"
-	line "mejor bañador y a"
-	cont "mis mejores"
-	cont "#mon!"
+	text "¡Llevo mi mejor"
+	line "bañador y a mis"
+	cont "mejores #mon!"
 	done
 
 .BeatenText:
@@ -134,9 +124,9 @@ SwimmermCameronBeatenText:
 GenericTrainerSwimmermLuis:
 	generictrainer SWIMMERM, SWIMMERM_LUIS, EVENT_BEAT_SWIMMERM_LUIS, .SeenText, .BeatenText
 
-	text "¡La próxima vez"
-	line "me pondré mi"
-	cont "bañador de gala!"
+	text "¡La próxima vez me"
+	line "pondré mi bañador"
+	cont "de gala!"
 	done
 
 .SeenText:
@@ -158,8 +148,7 @@ GenericTrainerSwimmermElmo:
 	done
 
 .SeenText:
-	text "Antes me dedicaba"
-	line "a la pesca."
+	text "Antes me pescaba."
 
 	para "¡Pero me gusta"
 	line "tanto nadar que"
@@ -196,17 +185,14 @@ GenericTrainerPicnickerCheyenne:
 GenericTrainerPicnickerAdrian:
 	generictrainer PICNICKER, ADRIAN, EVENT_BEAT_PICNICKER_ADRIAN, .SeenText, .BeatenText
 
-	text "¡Aunque perdí,"
-	line "me lo pasé en"
-	cont "grande!"
+	text "¡Aunque perdí, me"
+	line "lo pasé en grande!"
 	done
 
 .SeenText:
 	text "¿Llevas prisa?"
-
-	para "¿Qué tal una pausa"
-	line "para un combate"
-	cont "rápido?"
+	line "¿Una pausa para un"
+	cont "combate rápido?"
 	done
 
 .BeatenText:
@@ -216,7 +202,7 @@ GenericTrainerPicnickerAdrian:
 GenericTrainerCamperPedro:
 	generictrainer CAMPER, PEDRO, EVENT_BEAT_CAMPER_PEDRO, .SeenText, .BeatenText
 
-	text "Si te falta manta,"
+	text "Si tienes frío,"
 	line "¡acurrúcate con un"
 	cont "#mon caliente!"
 	done
@@ -234,11 +220,9 @@ GenericTrainerCamperPedro:
 GenericTrainerBird_keeperBert:
 	generictrainer BIRD_KEEPER, BERT, EVENT_BEAT_BIRD_KEEPER_BERT, .SeenText, .BeatenText
 
-	text "¡Ha sido un duelo"
-	line "increíble!"
-
-	para "¡Tengo la piel de"
-	line "gallina!"
+	text "¡Gran combate!"
+	line "¡Tengo la piel de"
+	cont "gallina!"
 	done
 
 .SeenText:
@@ -265,7 +249,7 @@ GenericTrainerBird_keeperErnie:
 	done
 
 .BeatenText:
-	text "Ha sido bastante"
+	text "Ha sido muy"
 	line "impresionante."
 	done
 

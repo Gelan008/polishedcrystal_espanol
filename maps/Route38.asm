@@ -267,9 +267,8 @@ GenericTrainerBeautyOlivia:
 	line "sana y buena para"
 	cont "la belleza."
 
-	para "¡Compro una docena"
-	line "de botellas de"
-	cont "golpe!"
+	para "Siempre compro"
+	line "un montón."
 	done
 
 Bird_keeperTobySeenText:
@@ -331,11 +330,9 @@ LassDanaMoomooMilkText:
 	done
 
 BeautyValenciaSeenText:
-	text "¡Hola! ¡Qué porte"
-	line "tan elegante!"
-
-	para "¿Puedo ver a tus"
-	line "#mon?"
+	text "¡Qué elegante!"
+	line "¿Puedo ver a tus"
+	cont "#mon?"
 	done
 
 BeautyValenciaBeatenText:
@@ -344,9 +341,8 @@ BeautyValenciaBeatenText:
 	done
 
 SailorHarrySeenText:
-	text "He navegado mucho"
-	line "por el extranjero,"
-	cont "¡y conozco muchos"
+	text "¡He navegado y"
+	line "conozco muchos"
 	cont "tipos de #mon!"
 	done
 

@@ -28,13 +28,12 @@ Route14_MapScriptHeader:
 GenericTrainerPokefanmTrevor:
 	generictrainer POKEFANM, TREVOR, EVENT_BEAT_POKEFANM_TREVOR, PokefanmTrevorSeenText, PokefanmTrevorBeatenText
 
-	text "Ojalá hubiera una"
-	line "forma fácil de ver"
-	cont "dónde conseguí a"
+	text "Ojalá pudiera ver"
+	line "dónde atrapé a"
 	cont "mis #mon…"
 
-	para "¡Ah! ¡Si solo debo"
-	line "mirar sus datos!"
+	para "¡Ah, si sale en"
+	line "sus datos!"
 	done
 
 PokefanmTrevorSeenText:
@@ -57,16 +56,13 @@ GenericTrainerPokefanmCarter:
 
 	text "Bulbasaur,"
 	line "Charmander y"
-	cont "Squirtle…"
-
-	para "Forman un equipo"
-	line "muy equilibrado."
+	cont "Squirtle son muy"
+	cont "equilibrados."
 	done
 
 PokefanmCarterSeenText:
-	text "Déjame decirte que"
-	line "me costó mucho"
-	cont "atrapar a mis"
+	text "Me costó mucho"
+	line "atrapar a mis"
 	cont "amados #mon."
 	done
 
@@ -77,17 +73,15 @@ PokefanmCarterBeatenText:
 GenericTrainerBird_keeperRoy:
 	generictrainer BIRD_KEEPER, ROY, EVENT_BEAT_BIRD_KEEPER_ROY, Bird_keeperRoySeenText, Bird_keeperRoyBeatenText
 
-	text "Tienes #mon que"
-	line "saben la MO Vuelo,"
-	cont "¿a que sí? ¡Qué"
-	cont "envidia me das!"
+	text "¿Tus #mon"
+	line "saben Vuelo?"
+	cont "¡Qué envidia!"
 	done
 
 Bird_keeperRoySeenText:
 	text "Mi sueño es volar"
 	line "junto a mis"
-	cont "queridos #mon"
-	cont "pájaro."
+	cont "#mon pájaro."
 	done
 
 Bird_keeperRoyBeatenText:
@@ -98,9 +92,9 @@ Bird_keeperRoyBeatenText:
 GenericTrainerBird_keeperJosh:
 	generictrainer BIRD_KEEPER, BIRD_KEEPER_JOSH, EVENT_BEAT_BIRD_KEEPER_JOSH, .SeenText, .BeatenText
 
-	text "Quizá deba mentir"
-	line "y decir que soy de"
-	cont "peso pesado…"
+	text "Quizá deba decir"
+	line "que soy de peso"
+	cont "pesado…"
 	done
 
 .SeenText:
@@ -115,24 +109,21 @@ GenericTrainerBird_keeperJosh:
 
 .BeatenText:
 	text "¡He caído como"
-	line "una pluma flotando"
-	cont "en el viento!"
+	line "una pluma!"
 	done
 
 GenericTrainerSchoolboyConnor:
 	generictrainer SCHOOLBOY, SCHOOLBOY_CONNOR, EVENT_BEAT_SCHOOLBOY_CONNOR, .SeenText, .BeatenText
 
-	text "Sin prisa: avanza"
-	line "paso a paso por"
-	cont "el camino."
-
-	para "¡Un gran consejo!"
+	text "Avanza paso a"
+	line "paso por el camino."
+	cont "Es un gran consejo"
 	done
 
 .SeenText:
-	text "¡Deseando estoy"
-	line "de llegar a casa y"
-	cont "soltar la Mochila!"
+	text "¡Deseando estoy de"
+	line "soltar la Mochila"
+	cont "en casa!"
 	done
 
 .BeatenText:
@@ -143,16 +134,14 @@ GenericTrainerSchoolboyConnor:
 GenericTrainerSchoolboyTorin:
 	generictrainer SCHOOLBOY, TORIN, EVENT_BEAT_SCHOOLBOY_TORIN, .SeenText, .BeatenText
 
-	text "¡Vale! ¡La próxima"
-	line "vez no cometeré"
-	cont "ningún error!"
+	text "¡La próxima vez no"
+	line "cometeré fallos!"
 	done
 
 .SeenText:
-	text "¡Viene bien poner"
-	line "en práctica lo"
-	cont "aprendido en el"
-	cont "momento!"
+	text "¡Hay que poner en"
+	line "práctica lo que"
+	cont "aprendes!"
 	done
 
 .BeatenText:
@@ -162,9 +151,9 @@ GenericTrainerSchoolboyTorin:
 GenericTrainerSchoolboyTravis:
 	generictrainer SCHOOLBOY, TRAVIS, EVENT_BEAT_SCHOOLBOY_TRAVIS, .SeenText, .BeatenText
 
-	text "¡Quizá debería"
-	line "unirme a vuestras"
-	cont "tardes de estudio!"
+	text "¡Debería unirme a"
+	line "las tardes de"
+	cont "estudio!"
 	done
 
 .SeenText:
@@ -180,24 +169,19 @@ GenericTrainerSchoolboyTravis:
 GenericTrainerTeacherClarice:
 	generictrainer TEACHER_F, CLARICE, EVENT_BEAT_TEACHER_CLARICE, .SeenText, .BeatenText
 
-	text "No te confíes solo"
-	line "por haber ganado."
-
-	para "¡Al llegar a casa,"
-	line "deberías repasar"
-	cont "la lección!"
+	text "No te confíes por"
+	line "ganar. ¡Repasa la"
+	cont "lección en casa!"
 	done
 
 .SeenText:
-	text "¡Muy bien, que dé"
-	line "comienzo el duelo"
-	cont "#mon!"
+	text "¡Que empiece el"
+	line "duelo #mon!"
 	done
 
 .BeatenText:
 	text "¡Bien! Con esto"
-	line "termina la clase"
-	cont "de hoy."
+	line "termina la clase."
 	done
 
 Route14SignText:

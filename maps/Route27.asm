@@ -179,12 +179,10 @@ Route27VeteranfScript:
 GenericTrainerPsychicGilbert:
 	generictrainer PSYCHIC_T, GILBERT, EVENT_BEAT_PSYCHIC_GILBERT, PsychicGilbertSeenText, PsychicGilbertBeatenText
 
-	text "Con tu talento, te"
-	line "irá muy bien en la"
-	cont "Liga."
-
-	para "Eso me dice mi"
-	line "premonición."
+	text "Mi premonición me"
+	line "dice que te irá"
+	cont "muy bien en la"
+	cont "Liga #mon."
 	done
 
 TrainerBird_keeperJose1:
@@ -293,15 +291,12 @@ Bird_keeperJose1Script:
 GenericTrainerCooltrainermBlake:
 	generictrainer COOLTRAINERM, BLAKE, EVENT_BEAT_COOLTRAINERM_BLAKE, CooltrainermBlakeSeenText, CooltrainermBlakeBeatenText
 
-	text "¡Si logras superar"
-	line "este duro viaje,"
+	text "¡Si superas este"
+	line "viaje, sabrás la"
+	cont "verdad!"
 
-	para "la verdad te será"
-	line "revelada!"
-
-	para "Je, perdona… Solo"
-	line "quería decir algo"
-	cont "que sonara guay."
+	para "Je… Solo quería"
+	line "sonar guay."
 	done
 
 GenericTrainerAceDuoJakeandbri1:
@@ -409,16 +404,10 @@ CooltrainerfReena1Script:
 GenericTrainerCooltrainerfMegan:
 	generictrainer COOLTRAINERF, MEGAN, EVENT_BEAT_COOLTRAINERF_MEGAN, CooltrainerfMeganSeenText, CooltrainerfMeganBeatenText
 
-	text "Estudio a #mon"
-	line "antes y después de"
-	cont "evolucionar."
-
-	para "La evolución hace"
-	line "que los #mon"
-	cont "sean más fuertes."
-
-	para "Pero evolucionados"
-	line "aprenden ataques"
+	text "Evolucionar hace a"
+	line "los #mon más"
+	cont "fuertes, pero"
+	cont "aprenden ataques"
 	cont "más tarde."
 	done
 
@@ -491,11 +480,9 @@ CooltrainerfReenaAfterBattleText:
 	done
 
 CooltrainerfMeganSeenText:
-	text "No es habitual ver"
-	line "a nadie por aquí."
-
-	para "¿Estás entrenando"
-	line "por tu cuenta?"
+	text "No suele verse a"
+	line "nadie por aquí."
+	cont "¿Entrenas a solas?"
 	done
 
 CooltrainerfMeganBeatenText:
@@ -505,15 +492,11 @@ CooltrainerfMeganBeatenText:
 
 PsychicGilbertSeenText:
 	text "¡Ni una palabra!"
+	line "¡Adivinaré lo que"
+	cont "estás pensando!"
 
-	para "Adivinaré en qué"
-	line "estás pensando."
-
-	para "Mmmmmmm…"
-
-	para "¡Lo tengo! ¡Estás"
-	line "en el desafío de"
-	cont "la Liga #mon!"
+	para "Mmm… ¡Vas a la"
+	line "Liga #mon!"
 	done
 
 PsychicGilbertBeatenText:

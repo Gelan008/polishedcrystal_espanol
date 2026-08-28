@@ -19,24 +19,22 @@ Route18East_MapScriptHeader:
 GenericTrainerBird_keeperBoris:
 	generictrainer BIRD_KEEPER, BORIS, EVENT_BEAT_BIRD_KEEPER_BORIS, Bird_keeperBorisSeenText, Bird_keeperBorisBeatenText
 
-	text "Siendo tan fuerte,"
-	line "debe de ser diver-"
-	cont "tido combatir."
+	text "Siendo tan fuerte"
+	line "debe de ser genial"
+	cont "combatir."
 	done
 
 GenericTrainerBird_keeperBob:
 	generictrainer BIRD_KEEPER, BOB, EVENT_BEAT_BIRD_KEEPER_BOB, Bird_keeperBobSeenText, Bird_keeperBobBeatenText
 
-	text "Si no tienes una"
-	line "Bicicleta, no te"
-	cont "dejan pasar por"
+	text "Necesitas una Bici"
+	line "para pasar por"
 	cont "este atajo."
 	done
 
 Bird_keeperBorisSeenText:
-	text "Si estás buscando"
-	line "#mon, debes"
-	cont "mirar en la hierba"
+	text "¡Busca #mon en"
+	line "la hierba!"
 	done
 
 Bird_keeperBorisBeatenText:
@@ -45,8 +43,8 @@ Bird_keeperBorisBeatenText:
 
 Bird_keeperBobSeenText:
 	text "El Camino de Bicis"
-	line "es un buen atajo"
-	cont "para ir a Azulona."
+	line "es un atajo hacia"
+	cont "Azulona."
 	done
 
 Bird_keeperBobBeatenText:

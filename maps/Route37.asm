@@ -41,8 +41,7 @@ GenericTrainerTwinsToriandtil1:
 
 	text "Til: Sé lo que"
 	line "piensan mi hermana"
-
-	para "y mis #mon."
+	cont "y mis #mon."
 	done
 
 GenericTrainerTwinsToriandtil2:
@@ -57,9 +56,8 @@ GenericTrainerPsychicGreg:
 	generictrainer PSYCHIC_T, GREG, EVENT_BEAT_PSYCHIC_GREG, PsychicGregSeenText, PsychicGregBeatenText
 
 	text "Dormir o paralizar"
-	line "a un #mon son"
-	cont "buenas tácticas"
-	cont "de combate."
+	line "son buenas"
+	cont "tácticas."
 	done
 
 SunnyScript:
@@ -153,17 +151,13 @@ TwinsToriandtil2SeenText:
 	done
 
 PsychicGregSeenText:
-	text "Los #mon no"
-	line "pueden hacer nada"
-	cont "si están dormidos."
-
-	para "¡Te mostraré lo"
-	line "temible que es!"
+	text "Un #mon dormido"
+	line "no puede hacer"
+	cont "nada"
 	done
 
 PsychicGregBeatenText:
-	text "He perdido. Qué"
-	line "tristeza…"
+	text "He perdido…"
 	done
 
 MeetSunnyText:
@@ -196,11 +190,9 @@ SunnySundayText:
 
 
 BeautyCallieSeenText:
-	text "¡Oh! ¡Qué chico"
-	line "tan mono!"
-
-	para "¿Por qué no"
-	line "luchas conmigo?"
+	text "¡Qué chico tan"
+	line "mono! ¿Luchas"
+	cont "conmigo?"
 	done
 
 BeautyCallieBeatenText:
@@ -208,11 +200,8 @@ BeautyCallieBeatenText:
 	done
 
 BeautyCassandraSeenText:
-	text "¡Eh, tú! ¡Joven"
-	line "entrenador!"
-
-	para "¿No quieres luchar"
-	line "conmigo?"
+	text "¡Joven entrenador!"
+	line "¿Luchas conmigo?"
 	done
 
 BeautyCassandraBeatenText:

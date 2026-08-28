@@ -30,16 +30,10 @@ Route26_MapScriptHeader:
 GenericTrainerDragonTamerKazu:
 	generictrainer DRAGON_TAMER, KAZU, EVENT_BEAT_DRAGON_TAMER_KAZU, DragonTamerKazuSeenText, DragonTamerKazuBeatenText
 
-	text "Va a ser duro"
-	line "ganar en la Liga."
-
-	para "Tengo que entrenar"
-	line "un poco más."
-
-	para "Oí que el Alto"
-	line "Mando de la Liga"
-	cont "es más duro que"
-	cont "los Líderes."
+	text "El Alto Mando es"
+	line "más duro que los"
+	cont "Líderes. ¡Debo"
+	cont "entrenar más!"
 	done
 
 TrainerCooltrainermGaven1:
@@ -108,7 +102,7 @@ TrainerCooltrainermGaven1:
 
 .AskNumber1:
 	jumpstd asknumber1m
-
+	
 .AskNumber2:
 	jumpstd asknumber2m
 
@@ -130,13 +124,9 @@ TrainerCooltrainermGaven1:
 GenericTrainerCooltrainerfJoyce:
 	generictrainer COOLTRAINERF, JOYCE, EVENT_BEAT_COOLTRAINERF_JOYCE, CooltrainerfJoyceSeenText, CooltrainerfJoyceBeatenText
 
-	text "Vencí a ocho"
-	line "Líderes, así que"
-	cont "tenía confianza."
-
-	para "La próxima vez"
-	line "tendré que darlo"
-	cont "todo de mí."
+	text "Vencí a 8 Líderes,"
+	line "pero la próxima vez"
+	cont "lo daré todo."
 	done
 
 TrainerCooltrainerfBeth1:
@@ -227,24 +217,18 @@ TrainerCooltrainerfBeth1:
 GenericTrainerPsychicRichard:
 	generictrainer PSYCHIC_T, RICHARD, EVENT_BEAT_PSYCHIC_RICHARD, PsychicRichardSeenText, PsychicRichardBeatenText
 
-	text "Personas y"
-	line "#mon crecen"
-	cont "con experiencia."
-
-	para "No te vuelvas una"
-	line "persona vaga ni"
-	cont "te confíes."
+	text "Personas y #mon"
+	line "crecen con la"
+	cont "experiencia. ¡No"
+	cont "te confíes!"
 	done
 
 GenericTrainerBattleGirlRonda:
 	generictrainer BATTLE_GIRL, RONDA, EVENT_BEAT_BATTLE_GIRL_RONDA, BattleGirlRondaSeenText, BattleGirlRondaBeatenText
 
-	text "Por aquí pasan"
-	line "los entrenadores"
-	cont "más fuertes."
-
-	para "¡Y yo puedo luchar"
-	line "contra todos!"
+	text "¡Por aquí pasan los"
+	line "más fuertes y puedo"
+	cont "luchar con todos!"
 	done
 
 GenericTrainerFisherScott:
@@ -299,17 +283,14 @@ CooltrainermGavenAfterText:
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Si has llegado tan"
-	line "lejos, debes de"
-	cont "ser muy fuerte."
-
-	para "¡Voy a darlo todo"
-	line "en este combate!"
+	text "Si llegaste tan"
+	line "lejos, debes ser"
+	cont "fuerte. ¡A luchar!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "¡No! ¡No me lo"
-	line "puedo creer!"
+	text "¡No me lo puedo"
+	line "creer!"
 	done
 
 CooltrainerfBeth1SeenText:
@@ -341,12 +322,9 @@ CooltrainerfBethAfterText:
 	done
 
 PsychicRichardSeenText:
-	text "¡Uau, mira cuántas"
-	line "Medallas tienes!"
-	cont "¡Qué locura!"
-
-	para "Pero no te limitas"
-	line "a coleccionarlas,"
+	text "¡Cuántas Medallas!"
+	line "Pero no te limitas"
+	cont "a coleccionarlas,"
 	cont "¿a que no?"
 	done
 
@@ -365,11 +343,8 @@ BattleGirlRondaBeatenText:
 
 FisherScottSeenText:
 	text "¡Hoy me siento con"
-	line "mucha energía!"
-
-	para "¡Siento que podría"
-	line "vencer al Campeón"
-	cont "de la Liga!"
+	line "tanta energía que"
+	cont "vencería al Campeón!"
 	done
 
 FisherScottBeatenText:

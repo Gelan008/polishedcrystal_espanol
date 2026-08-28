@@ -44,7 +44,7 @@ GenericTrainerBikerReilly:
 	done
 
 BikerReillySeenText:
-	text "¡Eh, tú! Vienes de"
+	text "¡Eh! Vienes de"
 	line "Johto, ¿a que sí?"
 	done
 
@@ -56,13 +56,8 @@ GenericTrainerBikerJoel:
 	generictrainer BIKER, JOEL, EVENT_BEAT_BIKER_JOEL, BikerJoelSeenText, BikerJoelBeatenText
 
 	text "Parezco enrollado,"
-	line "pero soy débil."
-
-	para "La verdad es que"
-	line "no molo nada."
-
-	para "¡Debo entrenar"
-	line "mucho más duro!"
+	line "pero soy débil…"
+	cont "¡Debo entrenar!"
 	done
 
 BikerJoelSeenText:
@@ -85,14 +80,12 @@ GenericTrainerBikerGlenn:
 
 BikerGlennSeenText:
 	text "¡Oye! ¿Quieres un"
-	line "combate a toda"
-	cont "velocidad?"
+	line "combate fugaz?"
 	done
 
 BikerGlennBeatenText:
-	text "¡Ay va! ¡Tienes"
-	line "una aceleración"
-	cont "increíble!"
+	text "¡Qué fugaz ha"
+	line "sido!"
 	done
 
 GenericTrainerBikerDale:
@@ -104,9 +97,8 @@ GenericTrainerBikerDale:
 	done
 
 BikerDaleSeenText:
-	text "¡Vas a perder!"
-	line "¡Tengo un buen"
-	cont "presentimiento!"
+	text "¡Tengo un buen"
+	line "presentimiento!"
 	done
 
 BikerDaleBeatenText:
@@ -147,11 +139,8 @@ GenericTrainerBikerAiden:
 
 BikerAidenSeenText:
 	text "¡Brum, brum!"
-	line "¡Brrr, brrr, brrr!"
-
-	para "¿Qué te parece mi"
-	line "imitación de un"
-	cont "gran motor?"
+	line "¿Qué tal mi"
+	cont "imitación de motor?"
 	done
 
 BikerAidenBeatenText:
@@ -162,19 +151,14 @@ BikerAidenBeatenText:
 GenericTrainerBikerDan:
 	generictrainer BIKER, DAN, EVENT_BEAT_BIKER_DAN, BikerDanSeenText, BikerDanBeatenText
 
-	text "Me encanta esta"
-	line "triste melodía."
-
-	para "De verdad que va"
-	line "mucho conmigo…"
+	text "Esta triste melodía"
+	line "va mucho conmigo…"
 	done
 
 BikerDanSeenText:
-	text "¡Tururú tururú"
-	line "turu-tururú!"
-
-	para "Mi bocina suena"
-	line "genial, ¿a que sí?"
+	text "¡Tururú tururú!"
+	line "Mi bocina suena"
+	cont "genial, ¿verdad?"
 	done
 
 BikerDanBeatenText:
@@ -184,11 +168,11 @@ BikerDanBeatenText:
 GenericTrainerBikerTeddy:
 	generictrainer BIKER, TEDDY, EVENT_BEAT_BIKER_TEDDY, BikerTeddySeenText, BikerTeddyBeatenText
 
-	text "¡Me gusta tu forma"
-	line "de combatir!"
+	text "¡Me gusta como"
+	line "luchas!"
 
-	para "¡Cuenta conmigo"
-	line "como fan tuyo!"
+	para "¡Seré tu fan"
+	line "número uno!"
 	done
 
 BikerTeddySeenText:
@@ -210,8 +194,8 @@ GenericTrainerRoughneckBrian:
 
 RoughneckBrianSeenText:
 	text "¡Oye! ¿Quién te ha"
-	line "dicho que puedes"
-	cont "ir por aquí?"
+	line "dejado ir por"
+	cont "aquí?"
 	done
 
 RoughneckBrianBeatenText:
@@ -223,9 +207,6 @@ GenericTrainerRoughneckTheron:
 
 	text "¿Quieres unirte a"
 	line "mi banda?"
-
-	para "¿Por qué no lo"
-	line "pruebas?"
 	done
 
 RoughneckTheronSeenText:
@@ -234,21 +215,18 @@ RoughneckTheronSeenText:
 	done
 
 RoughneckTheronBeatenText:
-	text "He perdido."
-	line "¡He perdido!"
+	text "¡He perdido!"
 	done
 
 GenericTrainerRoughneckMarkey:
 	generictrainer ROUGHNECK, MARKEY, EVENT_BEAT_ROUGHNECK_MARKEY, RoughneckMarkeySeenText, RoughneckMarkeyBeatenText
 
-	text "¡Genial!"
-
-	para "¡Ese gran grito"
-	line "ha sido genial!"
+	text "¡Ese gran grito ha"
+	line "sido genial!"
 	done
 
 RoughneckMarkeySeenText:
-	text "¡Eh, eh, eh! ¡Que"
+	text "¡Eh, eh! ¡Que"
 	line "estás en medio!"
 
 	para "¡EN MEDIO!"

@@ -32,17 +32,17 @@ GenericTrainerBreederCarlene:
 	line "para heredar el"
 	cont "movimiento!"
 
-	para "¿A que es listo?"
+	para "¿A que soy listo?"
 	done
 
 .SeenText:
 	text "¡Crié a mi equipo"
-	line "para toda clase"
-	cont "de situaciones!"
+	line "para cualquier"
+	cont "situación!"
 	done
 
 .BeatenText:
-	text "¡No hemos podido"
+	text "¡No pudimos"
 	line "contigo!"
 	done
 

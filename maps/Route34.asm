@@ -424,13 +424,9 @@ OfficerfMaraScript:
 GenericTrainerBreederJulie:
 	generictrainer BREEDER, JULIE, EVENT_BEAT_BREEDER_JULIE, BreederJulieSeenText, BreederJulieBeatenText
 
-	text "Uno de mis #mon"
-	line "es de naturaleza"
-	cont "Firme y otro de"
-	cont "naturaleza Floja."
-
-	para "Parece que marca"
-	line "la diferencia al"
+	text "La naturaleza del"
+	line "#mon marca la"
+	cont "diferencia al"
 	cont "luchar."
 	done
 
@@ -539,12 +535,9 @@ Route34RichBoyIrvingScript:
 GenericTrainerPokefanmBrandon:
 	generictrainer POKEFANM, BRANDON, EVENT_BEAT_POKEFANM_BRANDON, PokefanmBrandonSeenText, PokefanmBrandonBeatenText
 
-	text "Mi #mon usó"
+	text "¡Mi #mon usó"
 	line "ataques que no"
-	cont "sabía que tenía."
-
-	para "¡Eso me dejó muy"
-	line "desconcertado!"
+	cont "sabía que tenía!"
 	done
 
 TrainerCooltrainerfIrene:
@@ -759,12 +752,10 @@ OfficerfMaraDaytimeText:
 	done
 
 PokefanmBrandonSeenText:
-	text "Acabo de recoger a"
-	line "mi #mon de la"
-	cont "Guardería."
-
-	para "¡A ver cuánto ha"
-	line "mejorado!"
+	text "¡Recogí a mi"
+	line "#mon de la"
+	cont "Guardería! ¡A ver"
+	cont "cómo lucha!"
 	done
 
 PokefanmBrandonBeatenText:

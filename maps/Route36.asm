@@ -434,11 +434,9 @@ Route36CooltrainerfChiaraScript:
 GenericTrainerPsychicMark:
 	generictrainer PSYCHIC_T, MARK, EVENT_BEAT_PSYCHIC_MARK, PsychicMarkSeenText, PsychicMarkBeatenText
 
-	text "Sería muy fuerte"
-	line "si pudiera saber"
-
-	para "lo que piensa mi"
-	line "rival."
+	text "Sería fuerte si"
+	line "supiera lo que"
+	cont "piensa mi rival."
 	done
 
 GenericTrainerSchoolgirlMolly:

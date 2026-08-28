@@ -28,40 +28,30 @@ GenericTrainerCamperDean:
 	generictrainer CAMPER, DEAN, EVENT_BEAT_CAMPER_DEAN, CamperDeanSeenText, CamperDeanBeatenText
 
 	text "Mis #mon se"
-	line "debilitaron antes"
-	cont "de entrar al"
-	cont "Túnel Roca."
-
-	para "Iré a curarlos al"
-	line "Centro #mon."
+	line "debilitaron. Iré a"
+	cont "curarlos."
 	done
 
 GenericTrainerPicnickerHeidi:
 	generictrainer PICNICKER, HEIDI, EVENT_BEAT_PICNICKER_HEIDI, PicnickerHeidiSeenText, PicnickerHeidiBeatenText
 
-	text "Horneamos muchos"
-	line "dulces para"
-	cont "compartirlos."
-
-	para "¡Están riquísimos!"
+	text "Horneamos dulces"
+	line "para compartir."
+	cont "¡Están riquísimos!"
 	done
 
 GenericTrainerCamperSid:
 	generictrainer CAMPER, SID, EVENT_BEAT_CAMPER_SID, CamperSidSeenText, CamperSidBeatenText
 
-	text "Perdón. No estabas"
-	line "tirando basura."
-	cont "Ha sido error mío."
+	text "Perdón, pensé que"
+	line "tirabas basura."
 	done
 
 GenericTrainerPicnickerEdna:
 	generictrainer PICNICKER, EDNA, EVENT_BEAT_PICNICKER_EDNA, PicnickerEdnaSeenText, PicnickerEdnaBeatenText
 
-	text "Ahorrar energía es"
-	line "importante, pero"
-
-	para "el medio ambiente"
-	line "es aún más vital."
+	text "Cuidar el medio"
+	line "ambiente es vital."
 	done
 
 GenericTrainerHikerTim:
@@ -75,8 +65,8 @@ GenericTrainerHikerSidney:
 	generictrainer HIKER, SIDNEY, EVENT_BEAT_HIKER_SIDNEY, HikerSidneySeenText, HikerSidneyBeatenText
 
 	text "La Central Energía"
-	line "está cruzando un"
-	cont "pequeño río."
+	line "está cruzando el"
+	cont "río."
 	done
 
 CamperDeanSeenText:
@@ -85,15 +75,12 @@ CamperDeanSeenText:
 	done
 
 CamperDeanBeatenText:
-	text "¡Uau! Qué peligro,"
-	line "tío."
+	text "¡Qué peligro!"
 	done
 
 PicnickerHeidiSeenText:
-	text "¿Has ido alguna"
-	line "vez de pícnic?"
-
-	para "¡Es muy divertido!"
+	text "Ir de pícnic es"
+	line "muy divertido."
 	done
 
 PicnickerHeidiBeatenText:
@@ -101,13 +88,12 @@ PicnickerHeidiBeatenText:
 	done
 
 CamperSidSeenText:
-	text "¡Eh, tú! ¡No tires"
+	text "¡Eh! ¡No tires"
 	line "basura!"
 	done
 
 CamperSidBeatenText:
-	text "Solo te lo estaba"
-	line "diciendo…"
+	text "Solo avisaba…"
 	done
 
 PicnickerEdnaSeenText:
@@ -116,7 +102,7 @@ PicnickerEdnaSeenText:
 	done
 
 PicnickerEdnaBeatenText:
-	text "Oh… He perdido…"
+	text "He perdido…"
 	done
 
 HikerTimSeenText:
@@ -135,16 +121,12 @@ HikerTimBeatenText:
 	done
 
 HikerSidneySeenText:
-	text "Te contaré un"
-	line "secreto."
-
-	para "¡Pero primero,"
-	line "a luchar!"
+	text "¡Te diré un secreto"
+	line "si luchas conmigo!"
 	done
 
 HikerSidneyBeatenText:
-	text "¡Maldición! Esta"
-	line "vez he perdido…"
+	text "¡He perdido!"
 	done
 
 Route9SignText:

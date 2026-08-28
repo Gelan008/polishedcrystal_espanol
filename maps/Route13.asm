@@ -54,24 +54,21 @@ Route13GrampsScript:
 GenericTrainerCamperClark:
 	generictrainer CAMPER, CLARK, EVENT_BEAT_CAMPER_CLARK, .SeenText, .BeatenText
 
-	text "Da igual qué tipo"
-	line "de preparativos"
-	cont "hayas hecho."
-
-	para "Si pierdes, has"
-	line "perdido."
+	text "Da igual lo que te"
+	line "prepares, si"
+	cont "pierdes, pierdes."
 	done
 
 .SeenText:
-	text "¡A por agua! ¡Que"
-	line "no se apague la"
-	cont "fogata!"
+	text "¡Traed agua!"
+	line "¡Que la fogata"
+	cont "no se apague!"
 
 	para "¡Cuidado con los"
 	line "#mon salvajes!"
 
-	para "¡Adelante,"
-	line "campistas!"
+	para "¡Vamos, campistas!"
+	line "¡A la hoguera!"
 	done
 
 .BeatenText:
@@ -81,18 +78,15 @@ GenericTrainerCamperClark:
 GenericTrainerPicnickerGinger:
 	generictrainer PICNICKER, GINGER, EVENT_BEAT_PICNICKER_GINGER, .SeenText, .BeatenText
 
-	text "¡Te puedes"
-	line "comunicar con los"
-	cont "#mon silbando"
-	cont "en vez de con"
-	cont "palabras!"
+	text "¡Puedes hablar con"
+	line "los #mon"
+	cont "silbando!"
 	done
 
 .SeenText:
-	text "¿Por qué me entran"
-	line "siempre ganas de"
-	cont "silbar al aire"
-	cont "libre?"
+	text "¿Por qué siempre"
+	line "da por silbar al"
+	cont "aire libre?"
 	done
 
 .BeatenText:
@@ -103,8 +97,8 @@ GenericTrainerBird_keeperPerry:
 	generictrainer BIRD_KEEPER, PERRY, EVENT_BEAT_BIRD_KEEPER_PERRY, Bird_keeperPerrySeenText, Bird_keeperPerryBeatenText
 
 	text "Tus #mon están"
-	line "asombrosamente"
-	cont "bien entrenados."
+	line "muy bien"
+	cont "entrenados."
 	done
 
 Bird_keeperPerrySeenText:
@@ -114,25 +108,22 @@ Bird_keeperPerrySeenText:
 	done
 
 Bird_keeperPerryBeatenText:
-	text "Me has ganado con"
-	line "tu velocidad…"
+	text "Me ha ganado tu"
+	line "velocidad…"
 	done
 
 GenericTrainerBird_keeperBret:
 	generictrainer BIRD_KEEPER, BRET, EVENT_BEAT_BIRD_KEEPER_BRET, Bird_keeperBretSeenText, Bird_keeperBretBeatenText
 
-	text "Si los cepillas,"
-	line "los #mon se"
-	cont "ponen contentos."
+	text "Cepillar a los"
+	line "#mon los hace"
+	cont "muy felices."
 	done
 
 Bird_keeperBretSeenText:
-	text "Mira a mis"
-	line "#mon."
-
-	para "Fíjate bien en"
-	line "sus colores y en"
-	cont "su plumaje."
+	text "¡Mira los colores"
+	line "y el plumaje de"
+	cont "mis #mon!"
 	done
 
 Bird_keeperBretBeatenText:
@@ -144,14 +135,12 @@ GenericTrainerCamperTanner:
 	generictrainer CAMPER, TANNER, EVENT_BEAT_CAMPER_TANNER, .SeenText, .BeatenText
 
 	text "Pensaba que sería"
-	line "fácil dejarte"
-	cont "fuera de combate…"
+	line "fácil vencerte…"
 	done
 
 .SeenText:
-	text "¡Me da tiempo a un"
-	line "combate rápido"
-	cont "mientras preparo"
+	text "¡Un combate rápido"
+	line "mientras preparo"
 	cont "la comida!"
 	done
 
@@ -162,61 +151,51 @@ GenericTrainerCamperTanner:
 GenericTrainerPicnickerPiper:
 	generictrainer PICNICKER, PIPER, EVENT_BEAT_PICNICKER_PIPER, .SeenText, .BeatenText
 
-	text "Por cómo andabas,"
-	line "pensé que podría"
-	cont "ganarte."
+	text "Pensé que podría"
+	line "ganarte."
 	done
 
 .SeenText:
-	text "¿Qué tal si sacas"
-	line "a tus #mon y yo"
-	cont "a los míos para un"
+	text "¿Sacamos los"
+	line "#mon para un"
 	cont "buen combate?"
 	done
 
 .BeatenText:
-	text "Vaya, qué mala"
-	line "suerte…"
+	text "¡Qué mala suerte!"
 	done
 
 GenericTrainerCoupleTimandsue1:
 	generictrainer COUPLE, TIMANDSUE1, EVENT_BEAT_COUPLE_TIM_AND_SUE, .SeenText, .BeatenText
 
-	text "Tim: Si la has"
-	line "vencido a ella,"
-	cont "¡debes de ser muy"
+	text "Tim: ¡Vencerla a"
+	line "ella es de ser muy"
 	cont "fuerte!"
 	done
 
 .SeenText:
-	text "Tim: Te daré una"
-	line "pequeña pista."
-
-	para "¡Mi novia es más"
-	line "fuerte que yo!"
+	text "Tim: ¡Pista! ¡Mi"
+	line "novia es más"
+	cont "fuerte que yo!"
 	done
 
 .BeatenText:
-	text "Tim: ¡Eres quien"
-	line "más fuerza tiene!"
+	text "Tim: ¡Qué fuerza"
+	line "tienes!"
 	done
 
 GenericTrainerCoupleTimandsue2:
 	generictrainer COUPLE, TIMANDSUE2, EVENT_BEAT_COUPLE_TIM_AND_SUE, .SeenText, .BeatenText
 
-	text "Sue: Esa fuerza"
-	line "que tienes…"
-	cont "¡Ya caigo!"
-
-	para "¿Acaso sientes"
-	line "amor por alguien?"
+	text "Sue: Esa fuerza…"
+	line "¿Acaso sientes"
+	cont "amor por alguien?"
 	done
 
 .SeenText:
-	text "Sue: Quien no se"
-	line "toma el amor en"
-	cont "serio puede salir"
-	cont "con heridas."
+	text "Sue: Tomarse el"
+	line "amor a broma suele"
+	cont "doler"
 	done
 
 .BeatenText:
@@ -226,9 +205,8 @@ GenericTrainerCoupleTimandsue2:
 GenericTrainerPokefanmAlex:
 	generictrainer POKEFANM, ALEX, EVENT_BEAT_POKEFANM_ALEX, PokefanmAlexSeenText, PokefanmAlexBeatenText
 
-	text "¿Acaso no desea"
-	line "todo el mundo ser"
-	cont "el rey?"
+	text "¿Quién no desea"
+	line "ser el rey?"
 	done
 
 PokefanmAlexSeenText:
@@ -237,24 +215,21 @@ PokefanmAlexSeenText:
 	done
 
 PokefanmAlexBeatenText:
-	text "¿Cómo… te atreves"
-	line "a burlarte de la"
-	cont "realeza?"
+	text "¿Cómo te atreves"
+	line "a burlarte del"
+	cont "rey?"
 	done
 
 GenericTrainerPokefanmJoshua:
 	generictrainer POKEFANM, JOSHUA, EVENT_BEAT_POKEFANM_JOSHUA, PokefanmJoshuaSeenText, PokefanmJoshuaBeatenText
 
-	text "Se nota que tienes"
-	line "muchos #mon,"
-	cont "pero Pikachu sigue"
-	cont "siendo el mejor."
+	text "Pikachu sigue"
+	line "siendo el mejor."
 	done
 
 PokefanmJoshuaSeenText:
-	text "¡Ji, ji, ji! ¿Te"
-	line "gustaría luchar"
-	cont "contra mi banda de"
+	text "¡Ji, ji! ¿Luchas"
+	line "contra mi banda de"
 	cont "Pikachu?"
 	done
 
@@ -275,9 +250,9 @@ GenericTrainerHikerKenny:
 	done
 
 HikerKennySeenText:
-	text "Debería ir hasta"
-	line "el Túnel Roca a"
-	cont "por un Onix."
+	text "Debería ir al"
+	line "Túnel Roca a por"
+	cont "un Onix."
 	done
 
 HikerKennyBeatenText:

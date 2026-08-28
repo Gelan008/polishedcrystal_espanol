@@ -18,10 +18,11 @@ Route12North_MapScriptHeader:
 GenericTrainerFisherKyle:
 	generictrainer FISHER, KYLE, EVENT_BEAT_FISHER_KYLE, FisherKyleSeenText, FisherKyleBeatenText
 
-	text "Ese tirón que se"
-	line "siente en la Caña"
-	cont "al picar un"
-	cont "#mon…"
+	text "Ese tirón en la"
+	line "Caña cuando pica"
+	cont "un #mon…"
+
+	para "¡es genial!"
 	done
 
 FisherKyleSeenText:

@@ -60,13 +60,10 @@ Route19ClearRocks:
 GenericTrainerSwimmerfDawn:
 	generictrainer SWIMMERF, DAWN, EVENT_BEAT_SWIMMERF_DAWN, SwimmerfDawnSeenText, SwimmerfDawnBeatenText
 
-	text "Se nada fácil"
-	line "entre Fucsia e"
-	cont "Islas Espuma…"
-
-	para "¡Vaya hombretón"
-	line "es mi novio!"
-	cont "¡Es un quejica!"
+	text "Se nada fácil hasta"
+	line "Islas Espuma…"
+	cont "¡Mi novio es un"
+	cont "quejica!"
 	done
 
 GenericTrainerSwimmermTucker:
@@ -81,30 +78,25 @@ GenericTrainerSwimmermJerome:
 	generictrainer SWIMMERM, JEROME, EVENT_BEAT_SWIMMERM_JEROME, SwimmermJeromeSeenText, SwimmermJeromeBeatenText
 
 	text "Nadar no se me da"
-	line "muy bien, pero me"
+	line "bien, pero me"
 	cont "encanta el mar."
 	done
 
 GenericTrainerSwimmermHarold:
 	generictrainer SWIMMERM, HAROLD, EVENT_BEAT_SWIMMERM_HAROLD, SwimmermHaroldSeenText, SwimmermHaroldBeatenText
 
-	text "De noche, el mar"
-	line "se vuelve negro."
-
-	para "Da la sensación de"
-	line "que te va a tragar"
+	text "De noche el mar da"
+	line "la sensación de"
+	cont "que te va a tragar"
 	cont "por completo."
 	done
 
 GenericTrainerCosplayerBrooke:
 	generictrainer COSPLAYER, BROOKE, EVENT_BEAT_COSPLAYER_BROOKE, CosplayerBrookeSeenText, CosplayerBrookeBeatenText
 
-	text "Hice este disfraz"
-	line "para una fiesta,"
-
-	para "¡y me gusta tanto"
-	line "que lo llevo a"
-	cont "todas partes!"
+	text "¡Hice este disfraz"
+	line "y lo llevo a todas"
+	cont "partes!"
 	done
 
 Route19Fisher1Script:
@@ -151,11 +143,9 @@ SwimmermTuckerBeatenText:
 	done
 
 SwimmermJeromeSeenText:
-	text "¿Nadar? Se me da"
-	line "fatal."
-
-	para "Solo estoy aquí"
-	line "chapoteando en la"
+	text "Nadar se me da"
+	line "fatal, solo"
+	cont "chapoteo en la"
 	cont "orilla."
 	done
 

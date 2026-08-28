@@ -32,12 +32,9 @@ GenericTrainerBug_maniacEd:
 	done
 
 Bug_maniacEdSeenText:
-	text "Si vas por la"
+	text "¿Te cortas con la"
 	line "hierba alta en"
-	cont "pantalón corto…"
-
-	para "¿te haces rasguños"
-	line "y cortes?"
+	cont "pantalón corto?"
 	done
 
 Bug_maniacEdBeatenText:

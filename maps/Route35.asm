@@ -37,12 +37,10 @@ Route35_MapScriptHeader:
 GenericTrainerBreederTheresa:
 	generictrainer BREEDER, THERESA, EVENT_BEAT_BREEDER_THERESA, BreederTheresaSeenText, BreederTheresaBeatenText
 
-	text "Llevo a peinar a"
-	line "mis #mon en"
-	cont "Ciudad Trigal y a"
-	cont "bendecir en Iris."
-
-	para "¡Son muy felices!"
+	text "Peino a mis #"
+	line "en Trigal y los"
+	cont "bendigo en Iris."
+	cont "¡Son muy felices!"
 	done
 
 TrainerJugglerIrwin:
@@ -120,10 +118,9 @@ GenericTrainerCoupleGailandeli2:
 GenericTrainerPicnickerKim:
 	generictrainer PICNICKER, KIM, EVENT_BEAT_PICNICKER_KIM, PicnickerKimSeenText, PicnickerKimBeatenText
 
-	text "Las Medallas de"
-	line "Gimnasio son muy"
-	cont "bonitas. ¡Me gusta"
-	cont "coleccionarlas!"
+	text "¡Me gusta mucho"
+	line "coleccionar"
+	cont "Medallas!"
 	done
 
 TrainerBug_catcherArnie1:
@@ -277,12 +274,11 @@ TrainerOfficerDirk:
 	done
 
 CamperIvanSeenText:
-	text "Saco datos sobre"
-	line "los #mon de la"
-	cont "radio."
+	text "¡Oigo datos sobre"
+	line "#mon en la"
+	cont "radio!"
 
-	para "¡Creo que lo tengo"
-	line "todo dominado!"
+	para "¡Lo sé todo!"
 	done
 
 CamperIvanBeatenText:

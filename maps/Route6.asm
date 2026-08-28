@@ -27,18 +27,15 @@ Route6_MapScriptHeader:
 GenericTrainerPokefanmRex:
 	generictrainer POKEFANM, REX, EVENT_BEAT_POKEFANM_REX, PokefanmRexSeenText, PokefanmRexBeatenText
 
-	text "¡Mira lo adorable"
-	line "que es mi Phanpy!"
-
-	para "¿No es tan mono"
-	line "que te derrite el"
-	cont "corazón?"
+	text "¡Mira mi Phanpy!"
+	line "¿A que te derrite"
+	cont "el corazón?"
 	done
 
 PokefanmRexSeenText:
-	text "Mi Phanpy es el"
+	text "¡Mi Phanpy es el"
 	line "más mono de todo"
-	cont "el mundo."
+	cont "el mundo!"
 	done
 
 PokefanmRexBeatenText:
@@ -48,18 +45,15 @@ PokefanmRexBeatenText:
 GenericTrainerPokefanmAllan:
 	generictrainer POKEFANM, ALLAN, EVENT_BEAT_POKEFANM_ALLAN, PokefanmAllanSeenText, PokefanmAllanBeatenText
 
-	text "¡Mira qué adorable"
-	line "es mi Teddiursa!"
-
-	para "¿No es tan mono"
-	line "que te derrite el"
-	cont "corazón?"
+	text "¡Mira mi Teddiursa!"
+	line "¿A que te derrite"
+	cont "el corazón?"
 	done
 
 PokefanmAllanSeenText:
-	text "Mi Teddiursa es el"
+	text "¡Mi Teddiursa es el"
 	line "más mono de todo"
-	cont "el mundo."
+	cont "el mundo!"
 	done
 
 PokefanmAllanBeatenText:
@@ -85,8 +79,8 @@ TwinsDayanddani1BeatenText:
 GenericTrainerTwinsDayanddani2:
 	generictrainer TWINS, DAYANDDANI2, EVENT_BEAT_TWINS_DAY_AND_DANI, TwinsDayanddani2SeenText, TwinsDayanddani2BeatenText
 
-	text "Dan: Parece que"
-	line "nos han echado."
+	text "Dan: Nos han"
+	line "ganado…"
 	done
 
 TwinsDayanddani2SeenText:
@@ -105,11 +99,9 @@ GenericTrainerYoungsterChaz:
 	done
 
 .SeenText:
-	text "¿Acaso veo a un"
-	line "entrenador fuerte?"
-
-	para "¡Qué va, por aquí"
-	line "solo hay basura!"
+	text "¿Un rival fuerte?"
+	line "¡Por aquí solo"
+	cont "hay basura!"
 	done
 
 .BeatenText:
@@ -128,8 +120,7 @@ GenericTrainerGuitaristfWanda:
 	done
 
 .BeatenText:
-	text "Perdí el combate"
-	line "sin ton ni son…"
+	text "¡Perdí el compás!"
 	done
 
 OfficerfJennyScript:

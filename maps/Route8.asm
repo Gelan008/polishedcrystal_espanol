@@ -76,21 +76,19 @@ GenericTrainerSupernerdSam:
 GenericTrainerSupernerdTom:
 	generictrainer SUPER_NERD, TOM, EVENT_BEAT_SUPER_NERD_TOM, SupernerdTomSeenText, SupernerdTomBeatenText
 
-	text "Las Medallas de"
-	line "Gimnasio prueban"
-	cont "tu gran destreza."
+	text "Tus Medallas"
+	line "prueban tu gran"
+	cont "destreza."
 	done
 
 GenericTrainerGentlemanMilton:
 	generictrainer GENTLEMAN, MILTON, EVENT_BEAT_GENTLEMAN_MILTON, GentlemanMiltonSeenText, GentlemanMiltonBeatenText
 
-	text "Pararse en mitad"
-	line "del camino para"
-	cont "luchar es de bien."
+	text "Luchar en la ruta"
+	line "no es descortés."
 
-	para "Pase lo que pase,"
-	line "¡ante todo soy un"
-	cont "caballero!"
+	para "¡Ante todo, soy un"
+	line "caballero!"
 	done
 
 GenericTrainerCoupleMoeandlulu1:
@@ -104,19 +102,17 @@ GenericTrainerCoupleMoeandlulu1:
 GenericTrainerCoupleMoeandlulu2:
 	generictrainer COUPLE, MOEANDLULU2, EVENT_BEAT_COUPLE_MOE_AND_LULU, CoupleMoeandlulu2SeenText, CoupleMoeandlulu2BeatenText
 
-	text "Lulu: No es que"
-	line "Moe sea débil,"
-
-	para "¡es que tienes"
-	line "mucha fuerza!"
+	text "Lulu: Moe no es"
+	line "débil, tu tienes"
+	cont "mucha fuerza!"
 	done
 
 GenericTrainerLassMeadow:
 	generictrainer LASS, MEADOW, EVENT_BEAT_LASS_MEADOW, LassMeadowSeenText, LassMeadowBeatenText
 
-	text "Bueno, me importa"
-	line "más divertirme que"
-	cont "ser competitiva."
+	text "Me importa más"
+	line "divertirme que ser"
+	cont "competitiva."
 	done
 
 Route8BikerDwayneProtestText:
@@ -187,24 +183,22 @@ SupernerdSamBeatenText:
 
 SupernerdTomSeenText:
 	text "Hum… Tienes muchas"
-	line "Medallas de"
-	cont "Gimnasio."
+	line "Medallas."
 	done
 
 SupernerdTomBeatenText:
-	text "Tal como creía…"
-	line "¡Pisas fuerte!"
+	text "¡Pisas fuerte!"
 	done
 
 GentlemanMiltonSeenText:
 	text "¿Le apetecería"
-	line "echar un rápido"
-	cont "combate conmigo?"
+	line "un rápido combate"
+	cont "conmigo?"
 	done
 
 GentlemanMiltonBeatenText:
 	text "Demostró usted"
-	line "mucha destreza."
+	line "gran destreza."
 	done
 
 CoupleMoeandlulu1SeenText:
@@ -222,11 +216,9 @@ CoupleMoeandlulu1BeatenText:
 	done
 
 CoupleMoeandlulu2SeenText:
-	text "Lulu: ¡Moe y yo"
-	line "hacemos muy buena"
-	cont "pareja!"
-
-	para "¡Prepárate bien!"
+	text "Lulu: ¡Hacemos muy"
+	line "buena pareja!"
+	cont "¡Prepárate!"
 	done
 
 CoupleMoeandlulu2BeatenText:
@@ -234,9 +226,9 @@ CoupleMoeandlulu2BeatenText:
 	done
 
 LassMeadowSeenText:
-	text "¡Me encantan las"
-	line "faldas! ¡Son monas"
-	cont "y comodísimas!"
+	text "¡Las faldas son"
+	line "monas y muy"
+	cont "cómodas!"
 	done
 
 LassMeadowBeatenText:

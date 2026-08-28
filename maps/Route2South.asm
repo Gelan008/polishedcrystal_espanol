@@ -24,8 +24,7 @@ GenericTrainerBug_maniacRob:
 	generictrainer BUG_MANIAC, ROB, EVENT_BEAT_BUG_MANIAC_ROB, Bug_maniacRobSeenText, Bug_maniacRobBeatenText
 
 	text "Buscaré #mon"
-	line "bicho que sean"
-	cont "más fuertes."
+	line "bicho más fuertes."
 	done
 
 GenericTrainerBug_maniacDoug:
@@ -41,13 +40,12 @@ GenericTrainerBug_maniacDoug:
 	done
 
 Bug_maniacRobSeenText:
-	text "Mis #mon bicho"
-	line "son muy duros."
-	cont "¡Vas a perder!"
+	text "¡Mis bichos son"
+	line "muy duros!"
 	done
 
 Bug_maniacRobBeatenText:
-	text "Me han zurrado…"
+	text "¡Me ganaste!"
 	done
 
 Bug_maniacDougSeenText:

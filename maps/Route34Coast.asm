@@ -70,10 +70,8 @@ GenericTrainerSwimmermConrad:
 	generictrainer SWIMMERM, CONRAD, EVENT_BEAT_SWIMMERM_CONRAD, .SeenText, .BeatenText
 
 	text "Las olas reflejan"
-	line "los rayos UV."
-
-	para "Ponte crema solar"
-	line "siempre."
+	line "los rayos UV. Ponte"
+	cont "crema solar."
 	done
 
 .SeenText:
@@ -109,18 +107,14 @@ GenericTrainerSwimmerfCaroline:
 GenericTrainerSwimmerfNatalia:
 	generictrainer SWIMMERF, NATALIA, EVENT_BEAT_SWIMMERF_NATALIA, .SeenText, .BeatenText
 
-	text "Creo que elegí mal"
-	line "este bikini."
-
-	para "Este color no me"
-	line "sienta nada bien."
+	text "Elegí mal el"
+	line "bikini, este color"
+	cont "no me sienta bien."
 	done
 
 .SeenText:
-	text "Me he comprado un"
-	line "bikini nuevo."
-
-	para "¡Es lo último!"
+	text "¡Estreno bikini!"
+	line "¡Es lo último!"
 	done
 
 .BeatenText:
@@ -130,11 +124,8 @@ GenericTrainerSwimmerfNatalia:
 GenericTrainerFisherFrancis:
 	generictrainer FISHER, FRANCIS, EVENT_BEAT_FISHER_FRANCIS, .SeenText, .BeatenText
 
-	text "Me da igual ganar"
-	line "o perder."
-
-	para "Solo quiero estar"
-	line "a gusto y pescar."
+	text "Solo quiero pescar"
+	line "y estar a gusto."
 	done
 
 .SeenText:

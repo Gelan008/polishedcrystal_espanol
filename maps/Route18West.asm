@@ -42,9 +42,8 @@ GenericTrainerBikerCharles:
 	done
 
 BikerCharlesSeenText:
-	text "¡Somos los amos"
-	line "sin miedo de la"
-	cont "carretera!"
+	text "¡Somos los amos de"
+	line "la carretera!"
 	done
 
 BikerCharlesBeatenText:

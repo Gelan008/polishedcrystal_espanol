@@ -41,39 +41,29 @@ GenericTrainerLassJennifer:
 
 	text "Los #mon son"
 	line "muy divertidos."
-	cont "¿A que sí?"
 	done
 
 GenericTrainerBird_keeperHank:
 	generictrainer BIRD_KEEPER, HANK, EVENT_BEAT_BIRD_KEEPER_HANK, Bird_keeperHankSeenText, Bird_keeperHankBeatenText
 
-	text "Para entrenar a un"
-	line "#mon en"
-	cont "concreto,"
-
-	para "sácalo primero y"
-	line "cámbialo luego."
-
-	para "¡Así es como se"
-	line "hace!"
+	text "Saca a tu #mon"
+	line "primero y cámbialo"
+	cont "luego para ganar"
+	cont "experiencia."
 	done
 
 GenericTrainerPicnickerHope:
 	generictrainer PICNICKER, HOPE, EVENT_BEAT_PICNICKER_HOPE, PicnickerHopeSeenText, PicnickerHopeBeatenText
 
-	text "Oí que Clefairy"
-	line "aparece en el"
-	cont "Monte Moon."
-
-	para "Pero ¿dónde"
-	line "estarán?"
+	text "¿Dónde estarán los"
+	line "Clefairy del Monte"
+	cont "Moon?"
 	done
 
 GenericTrainerPicnickerSharon:
 	generictrainer PICNICKER, SHARON, EVENT_BEAT_PICNICKER_SHARON, PicnickerSharonSeenText, PicnickerSharonBeatenText
 
-	text "…… Iré a entrenar"
-	line "un poco más…"
+	text "…… Iré a entrenar…"
 	done
 
 Route4SuperNerd1Script:
@@ -172,10 +162,8 @@ YoungsterOliverBeatenText:
 	done
 
 LassJenniferSeenText:
-	text "Lucho siempre que"
-	line "puedo solo por"
-	cont "estar con mis"
-	cont "#mon."
+	text "¡Lucho para estar"
+	line "con mis #mon!"
 	done
 
 LassJenniferBeatenText:
@@ -184,25 +172,21 @@ LassJenniferBeatenText:
 
 Bird_keeperHankSeenText:
 	text "Estoy entrenando"
-	line "a mis #mon."
-	cont "¿Luchas conmigo?"
+	line "¿Luchamos?"
 	done
 
 Bird_keeperHankBeatenText:
-	text "¡Vaya! Esta vez me"
-	line "ha tocado perder…"
+	text "¡Vaya! Me tocó"
+	line "perder…"
 	done
 
 PicnickerHopeSeenText:
-	text "Presiento que hoy"
-	line "puedo ganar."
-
-	para "¡A ver si tengo"
-	line "razón!"
+	text "¡Presiento que hoy"
+	line "puedo ganar!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Vaya, tienes mucha"
+	text "Tienes mucha"
 	line "fuerza."
 	done
 

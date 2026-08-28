@@ -31,19 +31,14 @@ GenericTrainerHikerJim:
 	generictrainer HIKER, JIM, EVENT_BEAT_HIKER_JIM, HikerJimSeenText, HikerJimBeatenText
 
 	text "¡El polen me hace"
-	line "estornudar!"
-	cont "¡Achís!"
+	line "estornudar!¡Achís!"
 	done
 
 GenericTrainerPokefanmRobert:
 	generictrainer POKEFANM, ROBERT, EVENT_BEAT_POKEFANM_ROBERT, PokefanmRobertSeenText, PokefanmRobertBeatenText
 
-	text "Mira lo que le has"
-	line "hecho a mi"
-	cont "#mon…"
-
-	para "No me olvidaré"
-	line "de esto…"
+	text "¡No me olvidaré"
+	line "de esto!"
 	done
 
 GenericTrainerHexManiacAmy:
@@ -64,28 +59,22 @@ HikerJimBeatenText:
 
 PokefanmRobertSeenText:
 	text "¿Te gustan los"
-	line "#mon, verdad?"
-
-	para "¡A mí también!"
+	line "#mon? ¡A mí sí!"
 	done
 
 PokefanmRobertBeatenText:
-	text "Tengo que admitir"
-	line "que he perdido."
+	text "He perdido…"
 	done
 
 HexManiacAmySeenText:
 	text "Pueblo Lavanda…"
-
-	para "Donde descansan"
-	line "los espíritus de"
-	cont "los #mon…"
+	line "donde descansan"
+	cont "los espíritus…"
 	done
 
 HexManiacAmyBeatenText:
-	text "Tus #mon"
-	line "desbordan"
-	cont "vitalidad…"
+	text "Tus #mon tienen"
+	line "mucha vitalidad…"
 	done
 
 Route10SignText:

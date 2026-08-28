@@ -29,9 +29,8 @@ Route15_MapScriptHeader:
 GenericTrainerTeacherColette:
 	generictrainer TEACHER_F, COLETTE, EVENT_BEAT_TEACHER_COLETTE, TeacherColetteSeenText, TeacherColetteBeatenText
 
-	text "Antes de hacerme"
-	line "profesora, solía"
-	cont "olvidar muchas"
+	text "De joven solía"
+	line "olvidar muchas"
 	cont "cosas."
 	done
 
@@ -43,62 +42,56 @@ TrainerTeacherHillary:
 	jumpthistextfaceplayer
 
 	text "Estudiar importa,"
-	line "pero hacer deporte"
-	cont "es igual de vital."
+	line "pero el deporte es"
+	cont "igual de vital."
 	done
 
 GenericTrainerSchoolboyKipp:
 	generictrainer SCHOOLBOY, KIPP, EVENT_BEAT_SCHOOLBOY_KIP, SchoolboyKippSeenText, SchoolboyKippBeatenText
 
-	text "Mi madre sufre"
-	line "tanto por mí que"
-	cont "debo llamarla a"
-	cont "cada rato."
+	text "Mi madre sufre por"
+	line "mí, debo llamarla"
+	cont "a menudo."
 	done
 
 GenericTrainerSchoolboyTommy:
 	generictrainer SCHOOLBOY, TOMMY, EVENT_BEAT_SCHOOLBOY_TOMMY, SchoolboyTommySeenText, SchoolboyTommyBeatenText
 
 	text "¡Sayonara! Lo he"
-	line "aprendido hoy en"
-	cont "clase de japonés."
+	line "aprendido en clase"
+	cont "de japonés."
 	done
 
 GenericTrainerSchoolboyBilly:
 	generictrainer SCHOOLBOY, BILLY, EVENT_BEAT_SCHOOLBOY_BILLY, SchoolboyBillySeenText, SchoolboyBillyBeatenText
 
-	text "¡Si los #mon"
-	line "fuesen materia de"
-	cont "estudio, sacaría"
-	cont "un sobresaliente!"
+	text "¡Si #mon fuese"
+	line "materia, sacaría"
+	cont "sobresaliente!"
 	done
 
 GenericTrainerSchoolgirlFaith:
 	generictrainer SCHOOLGIRL, FAITH, EVENT_BEAT_SCHOOLGIRL_FAITH, SchoolgirlFaithSeenText, SchoolgirlFaithBeatenText
 
-	text "Me he cansado de"
-	line "caminar. Me hace"
-	cont "falta un descanso."
+	text "Me cansé de andar."
+	line "Me hace falta un"
+	cont "descanso."
 	done
 
 GenericTrainerPokefanfBoone:
 	generictrainer POKEFANF, BOONE, EVENT_BEAT_POKEFANF_BOONE, PokefanfBooneSeenText, PokefanfBooneBeatenText
 
-	text "Luchando puedes"
-	line "ver #mon que"
-	cont "no habías visto"
-	cont "antes."
-
-	para "¡Es genial!"
+	text "Luchando ves"
+	line "#mon nuevos."
+	cont "¡Es genial!"
 	done
 
 GenericTrainerPokefanfEleanor:
 	generictrainer POKEFANF, ELEANOR, EVENT_BEAT_POKEFANF_ELEANOR, PokefanfEleanorSeenText, PokefanfEleanorBeatenText
 
 	text "¡Mis #mon no"
-	line "son débiles! ¡Es"
-	cont "que los tuyos son"
-	cont "muy fuertes!"
+	line "son débiles, tú"
+	cont "eres muy fuerte!"
 	done
 
 GenericTrainerTwinsKayandtia1:
@@ -125,9 +118,8 @@ TeacherColetteBeatenText:
 	done
 
 TeacherHillarySeenText:
-	text "En días soleados,"
-	line "los niños quieren"
-	cont "jugar fuera antes"
+	text "Con sol, los niños"
+	line "quieren jugar más"
 	cont "que estudiar."
 	done
 
@@ -158,13 +150,12 @@ SchoolboyTommyBeatenText:
 SchoolgirlFaithSeenText:
 	text "Vamos de excursión"
 	line "a la Torre Radio"
-	cont "de Lavanda en la"
-	cont "clase de sociales."
+	cont "en sociales."
 	done
 
 SchoolgirlFaithBeatenText:
-	text "¡Tienes una fuerza"
-	line "increíble!"
+	text "¡Tienes mucha"
+	line "fuerza!"
 	done
 
 SchoolboyBillySeenText:
@@ -178,22 +169,16 @@ SchoolboyBillyBeatenText:
 	done
 
 PokefanfBooneSeenText:
-	text "Oye, tus"
-	line "#mon…"
-
-	para "Enséñamelos."
-	line "¡Enséñamelos!"
+	text "¡Enséñame a tus"
+	line "#mon! ¡Porfa!"
 	done
 
 PokefanfBooneBeatenText:
-	text "¡Bien! ¡Ha sido"
-	line "fantástico!"
+	text "¡Fue fantástico!"
 	done
 
 PokefanfEleanorSeenText:
-	text "¡Muy bien,"
-	line "#mon, hora de"
-	cont "luchar!"
+	text "¡Hora de luchar!"
 	done
 
 PokefanfEleanorBeatenText:
@@ -203,27 +188,23 @@ PokefanfEleanorBeatenText:
 TwinsKayandtia1SeenText:
 	text "¡Somos las gemelas"
 	line "Kay y Tia!"
-
-	para "¿A que no sabes"
-	line "quién soy yo?"
+	cont "¿Quién soy yo?"
 	done
 
 TwinsKayandtia1BeatenText:
-	text "Tia y Kay hemos"
-	line "perdido las dos…"
+	text "Hemos perdido las"
+	line "dos…"
 	done
 
 TwinsKayandtia2SeenText:
 	text "¡Somos las gemelas"
 	line "Kay y Tia!"
-
-	para "¿A que no sabes"
-	line "quién soy yo?"
+	cont "¿Quién soy yo?"
 	done
 
 TwinsKayandtia2BeatenText:
-	text "Tia y Kay hemos"
-	line "perdido las dos…"
+	text "Hemos perdido las"
+	line "dos…"
 	done
 
 Route15SignText:

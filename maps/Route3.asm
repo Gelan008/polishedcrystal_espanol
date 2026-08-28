@@ -41,16 +41,11 @@ Route3FlyPoint:
 GenericTrainerYoungsterRegis:
 	generictrainer YOUNGSTER, REGIS, EVENT_BEAT_YOUNGSTER_REGIS, .SeenText, .BeatenText
 
-	text "¡Parece que debo"
-	line "entrenar más!"
+	text "Debo entrenar más."
 	done
 
 .SeenText:
-	text "¿Joven? ¡Cielo"
-	line "santo, qué falta"
-	cont "de respeto!"
-
-	para "¡Llámame el Chico"
+	text "¡Llámame el Chico"
 	line "Pantalones Cortos!"
 	done
 
@@ -64,13 +59,11 @@ GenericTrainerYoungsterJimmy:
 
 	text "Llevo pantalón"
 	line "corto todo el año."
-
-	para "Ese es mi estilo."
 	done
 
 .SeenText:
-	text "¡Puedo correr como"
-	line "el viento!"
+	text "¡Corro como el"
+	line "viento!"
 	done
 
 .BeatenText:
@@ -80,14 +73,12 @@ GenericTrainerYoungsterJimmy:
 GenericTrainerYoungsterWarren:
 	generictrainer YOUNGSTER, WARREN, EVENT_BEAT_YOUNGSTER_WARREN, .SeenText, .BeatenText
 
-	text "Parecías fuerte."
-
-	para "Me daba miedo"
+	text "Me daba miedo"
 	line "luchar contra ti…"
 	done
 
 .SeenText:
-	text "Ummm… No sé qué"
+	text "No sé muy bien qué"
 	line "debería hacer…"
 	done
 
@@ -99,15 +90,14 @@ GenericTrainerYoungsterWarren:
 GenericTrainerFirebreatherOtis:
 	generictrainer FIREBREATHER, OTIS, EVENT_BEAT_FIREBREATHER_OTIS, .SeenText, .BeatenText
 
-	text "Cuando llueve,"
-	line "cuesta un montón"
-	cont "prender fuego…"
+	text "Si llueve cuesta un"
+	line "montón hacer fuego."
 	done
 
 .SeenText:
-	text "¡Ah! Hace un clima"
+	text "¡Hace un clima"
 	line "tan bueno como"
-	cont "siempre."
+	cont "siempre!"
 	done
 
 .BeatenText:
@@ -118,17 +108,14 @@ GenericTrainerFirebreatherOtis:
 GenericTrainerFirebreatherBurt:
 	generictrainer FIREBREATHER, BURT, EVENT_BEAT_FIREBREATHER_BURT, .SeenText, .BeatenText
 
-	text "El mejor tragafue-"
-	line "gos de Kanto, ¡ese"
-	cont "mismo soy yo!"
-
-	para "Pero no el mejor"
-	line "entrenador…"
+	text "¡Soy el mejor"
+	line "tragafuegos de"
+	cont "Kanto!"
 	done
 
 .SeenText:
-	text "¡Acérquense a ver"
-	line "el espectáculo!"
+	text "¡Miren el gran"
+	line "espectáculo!"
 	done
 
 .BeatenText:
@@ -138,35 +125,28 @@ GenericTrainerFirebreatherBurt:
 GenericTrainerBlackbeltManford:
 	generictrainer BLACKBELT_T, MANFORD, EVENT_BEAT_BLACKBELT_MANFORD, .SeenText, .BeatenText
 
-	text "¡Debes de haberte"
-	line "formado con un"
-	cont "gran maestro!"
+	text "¡Tienes un gran"
+	line "maestro!"
 	done
 
 .SeenText:
-	text "¡Para un momento y"
-	line "lucha para ver si"
-	cont "puedo vencerte!"
+	text "¡Para un momento"
+	line "y lucha conmigo!"
 	done
 
 .BeatenText:
-	text "Me venciste en mi"
-	line "propio terreno…"
+	text "Me venciste…"
 	done
 
 GenericTrainerBlackbeltAnder:
 	generictrainer BLACKBELT_T, ANDER, EVENT_BEAT_BLACKBELT_ANDER, .SeenText, .BeatenText
 
-	text "¿Has venido desde"
-	line "Johto?"
-
-	para "¡Debes de ser muy"
-	line "tenaz!"
+	text "¿Vienes de Johto?"
+	line "¡Qué tenaz!"
 	done
 
 .SeenText:
-	text "¡Espera un poco!"
-	line "¡Ven a luchar!"
+	text "¡Ven a luchar!"
 	done
 
 .BeatenText:
@@ -176,16 +156,13 @@ GenericTrainerBlackbeltAnder:
 GenericTrainerHikerBruce:
 	generictrainer HIKER, BRUCE, EVENT_BEAT_HIKER_BRUCE, .SeenText, .BeatenText
 
-	text "Bueno, ¡supongo"
-	line "que toca cargar"
-	cont "la Mochila otra"
-	cont "vez!"
+	text "¡Toca cargar la"
+	line "Mochila otra vez!"
 	done
 
 .SeenText:
 	text "¡La Mochila se me"
-	line "clava mucho en los"
-	cont "hombros!"
+	line "clava mucho!"
 
 	para "¡Descansaré con un"
 	line "buen combate!"
@@ -198,68 +175,50 @@ GenericTrainerHikerBruce:
 GenericTrainerHikerDwight:
 	generictrainer HIKER, DWIGHT, EVENT_BEAT_HIKER_DWIGHT, .SeenText, .BeatenText
 
-	text "Saludar a quien no"
-	line "conoces de nada…"
-
-	para "¡Es lo mejor de la"
-	line "montaña!"
+	text "¡Saludar es lo"
+	line "mejor de la"
+	cont "montaña!"
 	done
 
 .SeenText:
-	text "¡Paz!"
-
-	para "Si te topas con un"
-	line "desconocido en el"
-	cont "camino de montaña,"
-
-	para "buscas paz,"
-	line "¿verdad?"
+	text "¡Paz en la"
+	line "montaña!"
 	done
 
 .BeatenText:
-	text "¡Paz! Aunque haya"
-	line "perdido…"
+	text "¡Paz!"
 	done
 
 GenericTrainerAceDuoZacandjen1:
 	generictrainer ACE_DUO, ZACANDJEN1, EVENT_BEAT_ACE_DUO_ZAC_AND_JEN, .SeenText, .BeatenText
 
 	text "Zac: Tu futuro"
-	line "parece prometedor."
+	line "es prometedor."
 	done
 
 .SeenText:
-	text "Zac: ¿De verdad"
-	line "quieres luchar"
-	cont "contra nosotros?"
-
-	para "Tienes valor para"
-	line "ser tan joven."
+	text "Zac: ¿Nos retas?"
+	line "Tienes valor."
 	done
 
 .BeatenText:
-	text "Zac: No ibas de"
-	line "farol…"
+	text "Zac: Eres bueno…"
 	done
 
 GenericTrainerAceDuoZacandjen2:
 	generictrainer ACE_DUO, ZACANDJEN2, EVENT_BEAT_ACE_DUO_ZAC_AND_JEN, .SeenText, .BeatenText
 
-	text "Jen: Tengo ganas"
-	line "de ver qué clase"
-	cont "de entrenador"
-	cont "llegarás a ser."
+	text "Jen: Llegarás muy"
+	line "lejos."
 	done
 
 .SeenText:
-	text "Jen: ¿Eh? ¿Quieres"
-	line "retarnos? ¡Genial!"
+	text "Jen: ¿Nos retas?"
+	line "¡Genial!"
 	done
 
 .BeatenText:
-	text "Jen: Eres mucho"
-	line "más fuerte de lo"
-	cont "que pensaba."
+	text "Jen: ¡Qué fuerza!"
 	done
 
 Route3MeteoriteText:

@@ -30,33 +30,25 @@ Route11_MapScriptHeader:
 GenericTrainerYoungsterOwen:
 	generictrainer YOUNGSTER, OWEN, EVENT_BEAT_YOUNGSTER_OWEN, YoungsterOwenSeenText, YoungsterOwenBeatenText
 
-	text "Luché de forma"
-	line "limpia y con"
-	cont "honor."
-
-	para "No me arrepiento"
-	line "de nada."
+	text "Luché limpio y"
+	line "con honor."
 	done
 
 YoungsterOwenSeenText:
-	text "No hay trampas que"
-	line "valgan con los"
-	cont "#mon."
-
-	para "¡Juguemos limpio!"
+	text "¡Luchemos limpio"
+	line "con los #mon!"
 	done
 
 YoungsterOwenBeatenText:
-	text "¿Eh? ¿Cómo ha"
-	line "podido pasar?"
+	text "¿Cómo ha podido"
+	line "pasar?"
 	done
 
 GenericTrainerYoungsterJason:
 	generictrainer YOUNGSTER, JASON, EVENT_BEAT_YOUNGSTER_JASON, YoungsterJasonSeenText, YoungsterJasonBeatenText
 
-	text "Iré a atrapar más"
-	line "#mon entre la"
-	cont "hierba."
+	text "Atraparé más #mon"
+	line "en la hierba."
 	done
 
 YoungsterJasonSeenText:
@@ -67,8 +59,7 @@ YoungsterJasonSeenText:
 	done
 	
 YoungsterJasonBeatenText:
-	text "¡Aaaay!"
-	line "¡Me han machacado!"
+	text "¡Me machacaron!"
 	done
 
 GenericTrainerYoungsterAlfie:
@@ -92,10 +83,8 @@ GenericTrainerYoungsterAlfie:
 GenericTrainerPsychicHerman:
 	generictrainer PSYCHIC_T, HERMAN, EVENT_BEAT_PSYCHIC_HERMAN, PsychicHermanSeenText, PsychicHermanBeatenText
 
-	text "…"
-
-	para "Perdí al tener los"
-	line "ojos cerrados…"
+	text "… Perdí por tener"
+	line "los ojos cerrados."
 	done
 
 PsychicHermanSeenText: ; text > text
@@ -106,19 +95,14 @@ PsychicHermanBeatenText:
 GenericTrainerPsychicFidel:
 	generictrainer PSYCHIC_T, FIDEL, EVENT_BEAT_PSYCHIC_FIDEL, PsychicFidelSeenText, PsychicFidelBeatenText
 
-	text "La fuerza de la"
-	line "convicción…"
-
-	para "Tienes poder pues"
+	text "Tienes poder pues"
 	line "crees en tus"
 	cont "#mon."
 	done
 
 PsychicFidelSeenText:
-	text "Puedo verlo…"
-
-	para "Todo lo relativo"
-	line "a ti…"
+	text "Puedo ver todo lo"
+	line "relativo a ti…"
 	done
 
 PsychicFidelBeatenText:
@@ -161,8 +145,7 @@ GenericTrainerEngineerBernie:
 	done
 
 .BeatenText:
-	text "¡Eso ha sido"
-	line "electrizante!"
+	text "¡Electrizante!"
 	done
 
 GenericTrainerEngineerCamden:
@@ -170,16 +153,12 @@ GenericTrainerEngineerCamden:
 
 	text "Construir puentes"
 	line "y crear un equipo"
-	cont "#mon requiere"
-
-	para "conocimientos y"
-	line "mucha destreza."
+	cont "requiere destreza."
 	done
 
 .SeenText:
 	text "¡Hice Ingeniería"
-	line "en la Universidad"
-	cont "de Azulona!"
+	line "en Azulona!"
 	done
 
 .BeatenText:

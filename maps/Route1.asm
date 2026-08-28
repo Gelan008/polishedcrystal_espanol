@@ -21,71 +21,58 @@ Route1_MapScriptHeader:
 GenericTrainerSchoolboyDanny:
 	generictrainer SCHOOLBOY, DANNY, EVENT_BEAT_SCHOOLBOY_DANNY, SchoolboyDannySeenText, SchoolboyDannyBeatenText
 
-	text "Para nosotros es"
-	line "muy normal luchar"
-	cont "al cruzarnos."
+	text "Es normal luchar"
+	line "si nos cruzamos."
 	done
 
 GenericTrainerSchoolboySherman:
 	generictrainer SCHOOLBOY, SHERMAN, EVENT_BEAT_SCHOOLBOY_SHERMAN, SchoolboyShermanSeenText, SchoolboyShermanBeatenText
 
-	text "Anotaré todos los"
-	line "fallos de hoy."
+	text "Anotaré mis fallos."
 	done
 
 GenericTrainerCooltrainermFrench:
 	generictrainer COOLTRAINERM, FRENCH, EVENT_BEAT_COOLTRAINERM_FRENCH, CooltrainermFrenchSeenText, CooltrainermFrenchBeatenText
 
-	text "¡Ha sido un gran"
-	line "combate!"
-	cont "¿A que sí?"
+	text "¡Gran combate!"
 	done
 
 GenericTrainerCooltrainerfQuinn:
 	generictrainer COOLTRAINERF, QUINN, EVENT_BEAT_COOLTRAINERF_QUINN, CooltrainerfQuinnSeenText, CooltrainerfQuinnBeatenText
 
-	text "Eres fuerte."
-
-	para "Se nota que has"
+	text "Se nota que has"
 	line "entrenado duro."
 	done
 
 SchoolboyDannySeenText:
-	text "Cuando las miradas"
-	line "se cruzan hay que"
-	cont "combatir!"
+	text "¡Al cruzarnos hay"
+	line "que combatir!"
 	done
 
 SchoolboyDannyBeatenText:
-	text "Vaya… Mi historial"
-	line "de derrotas…"
+	text "¡Otra derrota!"
 	done
 
 SchoolboyShermanSeenText:
-	text "¡Tras las clases,"
-	line "voy directo a"
-	cont "practicar!"
+	text "¡Vengo a practicar"
+	line "tras las clases!"
 	done
 
 SchoolboyShermanBeatenText:
-	text "Tengo que seguir"
-	line "el libro de texto."
+	text "Revisaré la teoría."
 	done
 
 CooltrainermFrenchSeenText:
-	text "¡Tú! ¡Estaba"
-	line "esperando a"
-	cont "alguien como tú!"
+	text "¡Buscaba a alguien"
+	line "como tú!"
 	done
 
 CooltrainermFrenchBeatenText:
-	text "¡Sí, tan fuerte"
-	line "como esperaba!"
+	text "¡Qué fuerza!"
 	done
 
 CooltrainerfQuinnSeenText:
-	text "¡Eh, tú!"
-	line "¿Quieres luchar?"
+	text "¿Luchamos?"
 	done
 
 CooltrainerfQuinnBeatenText:

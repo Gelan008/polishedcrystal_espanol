@@ -37,9 +37,9 @@ GenericTrainerLassGina:
 	done
 
 .BeatenText:
-	text "Si hubiera gastado"
-	line "dinero en Pociones"
-	cont "en vez de ropa…"
+	text "Debí comprar"
+	line "Pociones en vez de"
+	cont "tanta ropa…"
 	done
 
 GenericTrainerLassAlice:
@@ -62,8 +62,8 @@ GenericTrainerLassAlice:
 	done
 
 .BeatenText:
-	text "¿Cómo puedes tener"
-	line "tan poco corazón?"
+	text "¡Qué poco corazón"
+	line "tienes!"
 	done
 
 GenericTrainerCosplayerKuroko:

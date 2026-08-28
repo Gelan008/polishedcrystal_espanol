@@ -480,11 +480,9 @@ GenericTrainerCamperRoland:
 GenericTrainerFisherJustin:
 	generictrainer FISHER, JUSTIN, EVENT_BEAT_FISHER_JUSTIN, FisherJustinSeenText, FisherJustinBeatenText
 
-	text "Calma y sosiego…"
-	line "La pesca y los"
-
-	para "#mon comparten"
-	line "la misma esencia."
+	text "Calma… La pesca y"
+	line "los #mon son"
+	cont "la misma esencia."
 	done
 
 TrainerFisherRalph1:
@@ -713,7 +711,7 @@ GenericTrainerYoungsterAlbert:
 
 	para "No pienso usar"
 	line "los mismos #mon"
-	cont "fuertes de todos."
+	cont "que todos."
 	done
 
 GenericTrainerYoungsterGordon:
@@ -828,10 +826,9 @@ Text_MillionDollarSlowpokeTail:
 	done
 
 FisherJustinSeenText:
-	text "¡Hala!"
-
-	para "¡Has hecho que se"
-	line "me escape el pez!"
+	text "¡Hala! ¡Por tu"
+	line "culpa se me ha"
+	cont "escapado el pez!"
 	done
 
 FisherJustinBeatenText:
@@ -872,10 +869,8 @@ FisherHenryBeatenText:
 
 YoungsterAlbertSeenText:
 	text "No te había visto"
-	line "por aquí antes."
-
-	para "¿Te crees muy"
-	line "fuerte?"
+	line "antes. ¿Te crees"
+	cont "muy fuerte?"
 	done
 
 YoungsterAlbertBeatenText:
@@ -884,11 +879,8 @@ YoungsterAlbertBeatenText:
 
 YoungsterGordonSeenText:
 	text "¡Encontré buenos"
-	line "#mon entre la"
+	line "#mon en la"
 	cont "hierba!"
-
-	para "¡Creo que bastará"
-	line "con ellos!"
 	done
 
 YoungsterGordonBeatenText:
@@ -929,11 +921,8 @@ PicnickerLiz1AfterText:
 	done
 
 Bird_keeperPeterSeenText:
-	text "¡Esa Medalla! ¡Es"
-	line "de Ciudad Malva!"
-
-	para "¿Has ganado a"
-	line "Pegaso?"
+	text "¡Esa Medalla! ¿Has"
+	line "ganado a Pegaso?"
 	done
 
 Bird_keeperPeterBeatenText:

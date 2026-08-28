@@ -120,12 +120,11 @@ Route25CooltrainerMovementData:
 	step_end
 
 SchoolboyDudleySeenText:
-	text "¡Gana a los seis"
+	text "¡Vence a los seis"
 	line "entrenadores para"
 	cont "un gran premio!"
 
-	para "¿Crees que podrás"
-	line "conseguirlo?"
+	para "¿Crees que podrás?"
 	done
 
 SchoolboyDudleyBeatenText:
@@ -133,7 +132,7 @@ SchoolboyDudleyBeatenText:
 	done
 
 LassEllenSeenText:
-	text "Soy la segunda."
+	text "Soy la número 2."
 	line "¡Esto va en serio!"
 	done
 
@@ -162,9 +161,8 @@ LassLauraBeatenText:
 	done
 
 CamperLloydSeenText:
-	text "¡Vale! Soy el"
-	line "número 5. ¡Te voy"
-	cont "a aplastar!"
+	text "¡Soy el número 5!"
+	line "¡Te voy a ganar!"
 	done
 
 CamperLloydBeatenText:
@@ -173,8 +171,7 @@ CamperLloydBeatenText:
 
 LassShannonSeenText:
 	text "¡Soy la última!"
-	line "¡Y te aseguro que"
-	cont "soy la más dura!"
+	line "¡Y la más dura!"
 	done
 
 LassShannonBeatenText:
@@ -182,21 +179,20 @@ LassShannonBeatenText:
 	done
 
 SupernerdPatSeenText:
-	text "Mufufufu…"
+	text "Mufufu…"
 
 	para "No tengo nada que"
 	line "ver con los seis"
 	cont "entrenadores."
 
-	para "He esperado a que"
-	line "te quedaras sin"
-	cont "fuerzas tras los"
-	cont "seis combates."
+	para "Esperé a que te"
+	line "quedaras sin"
+	cont "fuerzas."
 	done
 
 SupernerdPatBeatenText:
-	text "¿Es que no estás"
-	line "sin fuerzas?"
+	text "¿Es que aún te"
+	line "quedan fuerzas?"
 	done
 
 Route25MewYoungsterText:

@@ -55,9 +55,7 @@ GenericTrainerSwimmerfChelan:
 	done
 
 .SeenText:
-	text "¡Amo los bikinis!"
-
-	para "¡Con un bikini"
+	text "¡Con un bikini"
 	line "térmico, podría"
 	cont "llevarlo incluso"
 	cont "en invierno!"
@@ -113,11 +111,9 @@ GenericTrainerSwimmermDuane:
 	done
 
 .SeenText:
-	text "Nadar entrena todo"
-	line "el cuerpo."
-
-	para "¡Te pone fuerte de"
-	line "verdad!"
+	text "¡Nadar entrena todo"
+	line "el cuerpo y te"
+	cont "pone fuerte!"
 	done
 
 .BeatenText:
@@ -145,10 +141,8 @@ SwimmermSethBeatenText:
 GenericTrainerFisherMurphy:
 	generictrainer FISHER, MURPHY, EVENT_BEAT_FISHER_MURPHY, .SeenText, .BeatenText
 
-	text "El #mon que se"
-	line "escapó era enorme."
-
-	para "¡Te lo juro!"
+	text "¡El #mon que se"
+	line "escapó era enorme!"
 	done
 
 .SeenText:
@@ -176,7 +170,7 @@ FisherArnoldSeenText:
 	done
 
 FisherArnoldBeatenText:
-	text "Fracaso absoluto…"
+	text "Fracaso total…"
 	done
 
 GenericTrainerFisherLiam:
@@ -189,11 +183,8 @@ GenericTrainerFisherLiam:
 	done
 
 .SeenText:
-	text "¡Toma! ¡Picaron!"
-
-	para "¿Eh? ¿Un combate?"
-
-	para "¡Vale, vamos allá!"
+	text "¡Picaron! ¿Eh, un"
+	line "combate? ¡Vale!"
 	done
 
 .BeatenText:
@@ -241,13 +232,9 @@ GenericTrainerBird_keeperKinsley:
 GenericTrainerBird_keeperEaston:
 	generictrainer BIRD_KEEPER, EASTON, EVENT_BEAT_BIRD_KEEPER_EASTON, .SeenText, .BeatenText
 
-	text "Creemos que usamos"
-	line "a los #mon."
-
-	para "Pero quizá ellos"
-	line "empezaron a"
-	cont "usarnos a nosotros"
-	cont "hace tiempo…"
+	text "¿Usamos a los"
+	line "#mon o ellos"
+	cont "a nosotros?"
 	done
 
 .SeenText:
@@ -258,6 +245,6 @@ GenericTrainerBird_keeperEaston:
 	done
 
 .BeatenText:
-	text "No he estado a la"
+	text "No estuve a la"
 	line "altura…"
 	done

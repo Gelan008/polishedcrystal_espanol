@@ -116,11 +116,9 @@ TrainerPokefanmDerek1:
 GenericTrainerPokefanfRuth:
 	generictrainer POKEFANF, RUTH, EVENT_BEAT_POKEFANF_RUTH, PokefanfRuthSeenText, PokefanfRuthBeatenText
 
-	text "¿Sabes de los"
+	text "¿Conoces a los"
 	line "#mon bebé?"
-
-	para "¡Apuesto a que son"
-	line "adorables!"
+	cont "¡Son adorables!"
 	done
 
 Route39CowgirlAnnieScript:
@@ -240,26 +238,17 @@ Route39CowgirlAnnieScript:
 GenericTrainerSailorEugene:
 	generictrainer SAILOR, EUGENE, EVENT_BEAT_SAILOR_EUGENE, SailorEugeneSeenText, SailorEugeneBeatenText
 
-	text "Mis #mon fueron"
-	line "criados fuera,"
-	cont "en ultramar."
-
-	para "Son mis compañeros"
-	line "en mis largos"
-	cont "viajes."
+	text "Mis #mon son de"
+	line "ultramar y viajan"
+	cont "siempre conmigo."
 	done
 
 GenericTrainerPsychicNorman:
 	generictrainer PSYCHIC_T, NORMAN, EVENT_BEAT_PSYCHIC_NORMAN, PsychicNormanSeenText, PsychicNormanBeatenText
 
-	text "¿Sabías que los"
-	line "#mon tienen"
-	cont "más habilidades?"
-
-	para "A la gente le pasa"
-	line "igual: cada uno"
-	cont "tiene un potencial"
-	cont "diferente."
+	text "Cada #mon y"
+	line "persona tiene un"
+	cont "potencial único."
 	done
 
 TrainerPokefanfJaime:
@@ -311,8 +300,7 @@ SailorEugeneSeenText:
 	text "Acabo de volver a"
 	line "Ciudad Olivo."
 
-	para "¿Qué tal una"
-	line "batalla #mon?"
+	para "¿Un combate?"
 	done
 
 SailorEugeneBeatenText:
@@ -341,10 +329,7 @@ PokefanMDerekText_NotBragging:
 	done
 
 PokefanfRuthSeenText:
-	text "¡Qué #mon tan"
-	line "encantadores!"
-
-	para "¡Mostremos los"
+	text "¡Mostremos nuestros"
 	line "#mon a la vez!"
 	done
 
